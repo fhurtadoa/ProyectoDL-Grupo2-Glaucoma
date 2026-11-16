@@ -1,0 +1,54 @@
+{
+    "ResNet-18": {
+        "params": 11177025,
+        "size_mb": 42.64,
+        "latency_ms": 147.15,
+        "test_auc": 0.9982,
+        "test_acc": 0.9858,
+        "test_sens": 0.9873,
+        "test_spec": 0.9839,
+        "test_f1": 0.9873,
+        "generalization_gap": 0.0232,
+        "inductive_bias": "Residual standard blocks (3x3), ideal receptive field for disc cupping",
+        "tradeoff": "Balance \u00f3ptimo entre capacidad y prevenci\u00f3n de overfitting en datasets m\u00e9dicos medianos"
+    },
+    "ResNet-50": {
+        "params": 23510081,
+        "size_mb": 89.68,
+        "latency_ms": 285.4,
+        "test_auc": 0.9965,
+        "test_acc": 0.9787,
+        "test_sens": 0.9747,
+        "test_spec": 0.9839,
+        "test_f1": 0.9809,
+        "generalization_gap": 0.0514,
+        "inductive_bias": "Bottleneck blocks (1x1, 3x3, 1x1), alta capacidad representacional",
+        "tradeoff": "Mayor riesgo de sobreajuste y doble de par\u00e1metros con ganancia marginal en AUC"
+    },
+    "EfficientNet-B0": {
+        "params": 4008985,
+        "size_mb": 15.29,
+        "latency_ms": 112.3,
+        "test_auc": 0.9912,
+        "test_acc": 0.9645,
+        "test_sens": 0.962,
+        "test_spec": 0.9677,
+        "test_f1": 0.9682,
+        "generalization_gap": 0.038,
+        "inductive_bias": "Compound scaling con MBConv (Depthwise Separable + Squeeze-and-Excitation)",
+        "tradeoff": "Excelente eficiencia en memoria, pero atenci\u00f3n difusa en micro-estructuras del borde neural"
+    },
+    "MobileNet-V2": {
+        "params": 2225153,
+        "size_mb": 8.49,
+        "latency_ms": 88.5,
+        "test_auc": 0.9845,
+        "test_acc": 0.9504,
+        "test_sens": 0.9494,
+        "test_spec": 0.9516,
+        "test_f1": 0.9554,
+        "generalization_gap": 0.0425,
+        "inductive_bias": "Inverted residuals con cuellos de botella lineales para inferencia m\u00f3vil",
+        "tradeoff": "M\u00e1xima velocidad para dispositivos edge, pero menor precisi\u00f3n en patolog\u00eda sutil"
+    }
+}
