@@ -1,0 +1,15 @@
+{
+    "total_cohort_samples": 2150,
+    "train_samples": 1719,
+    "test_samples": 431,
+    "glaucoma_prevalence": 0.8562790697674418,
+    "sources": {
+        "Moondream": 800,
+        "ACRIMA": 703,
+        "RIM-ONE DL": 447,
+        "EyePACS": 200
+    },
+    "third_dataset_status": "EXCLUDED (Not RGB fundus, contains vessel edge masks)",
+    "standardized_resolution": "512x512",
+    "standardized_framing": "35 deg peripapillary optic disc ROI"
+}
