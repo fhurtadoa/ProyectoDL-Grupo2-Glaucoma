@@ -26,17 +26,28 @@ SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)
 
-BASE_DIR = Path("/Users/fabian/GlaucomaDL")
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
 RESULTS_DIR = BASE_DIR / "results"
 FIGURES_DIR = BASE_DIR / "figures"
 OUTPUT_DIR = DATA_DIR / "HARMONIZED_MEGA_COHORT"
 
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 (OUTPUT_DIR / "train" / "glaucoma").mkdir(parents=True, exist_ok=True)
 (OUTPUT_DIR / "train" / "normal").mkdir(parents=True, exist_ok=True)
 (OUTPUT_DIR / "test" / "glaucoma").mkdir(parents=True, exist_ok=True)
 (OUTPUT_DIR / "test" / "normal").mkdir(parents=True, exist_ok=True)
+
+for split_dir in ["train", "test"]:
+    for cat_dir in ["glaucoma", "normal"]:
+        for old_f in (OUTPUT_DIR / split_dir / cat_dir).glob("*"):
+            if old_f.is_file():
+                try:
+                    old_f.unlink()
+                except Exception:
+                    pass
 
 # -----------------------------------------------------------------------------
 # 1. Detector y Recortador de ROI Peripapilar (Optic Disc Centroid & Crop)
@@ -211,7 +222,8 @@ for idx, f in enumerate(acrima_files):
 rim_files = sorted(glob.glob(str(DATA_DIR / "RIM_ONE_DL/**/*.png"), recursive=True))
 for idx, f in enumerate(rim_files):
     fname = os.path.basename(f).lower()
-    lbl = 1 if "glaucoma" in f.lower() or "_g-" in fname or "glaucoma" in os.path.dirname(f).lower() else 0
+    rel_dir = os.path.relpath(os.path.dirname(f), DATA_DIR / "RIM_ONE_DL").lower()
+    lbl = 1 if ("glaucoma" in rel_dir or "_g-" in fname) else 0
     split = "test" if (idx % 5 == 0) else "train"
     out_name = f"RIMONE_{idx:04d}.jpg"
     dest = OUTPUT_DIR / split / ("glaucoma" if lbl == 1 else "normal") / out_name
@@ -228,7 +240,8 @@ for idx, f in enumerate(rim_files):
 # Procesar EyePACS Real (APLICANDO ROI CROPPER de 45° a 35°)
 eyepacs_files = sorted(glob.glob(str(DATA_DIR / "EYEPACS_REAL/**/*.png"), recursive=True))
 for idx, f in enumerate(eyepacs_files):
-    lbl = 1 if "glaucoma" in f.lower() else 0
+    rel_dir = os.path.relpath(os.path.dirname(f), DATA_DIR / "EYEPACS_REAL").lower()
+    lbl = 1 if "glaucoma" in rel_dir else 0
     split = "test" if (idx % 5 == 0) else "train"
     out_name = f"EYEPACS_ROI_{idx:04d}.jpg"
     dest = OUTPUT_DIR / split / ("glaucoma" if lbl == 1 else "normal") / out_name
@@ -246,7 +259,8 @@ for idx, f in enumerate(eyepacs_files):
 # Procesar Moondream
 moon_files = sorted(glob.glob(str(DATA_DIR / "MOONDREAM_STAGED/**/*.jpg"), recursive=True))
 for idx, f in enumerate(moon_files):
-    lbl = 1 if "glaucoma" in f.lower() or "advanced" in f.lower() or "early" in f.lower() else 0
+    rel_dir = os.path.relpath(os.path.dirname(f), DATA_DIR / "MOONDREAM_STAGED").lower()
+    lbl = 1 if ("glaucoma" in rel_dir or "advanced" in rel_dir or "early" in rel_dir) else 0
     split = "test" if (idx % 5 == 0) else "train"
     out_name = f"MOONDREAM_{idx:04d}.jpg"
     dest = OUTPUT_DIR / split / ("glaucoma" if lbl == 1 else "normal") / out_name

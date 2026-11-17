@@ -7,224 +7,349 @@
 
 ---
 
-## 📌 Resumen Ejecutivo y Planteamiento del Proyecto
-
-El diagnóstico automatizado de glaucoma mediante retinografías de fondo de ojo suele reportar rendimientos excepcionales ($\text{ROC-AUC} > 0.98$) en la literatura especializada. Sin embargo, cuando estos modelos se trasladan a la práctica clínica real y se evalúan frente a imágenes capturadas con cámaras de otros fabricantes, diferentes resoluciones angulares ($35^\circ$ vs. $45^\circ$) o protocolos de iluminación no estandarizados, su rendimiento sufre un desplome severo (*domain shift* óptico).
-
-El objetivo de este proyecto es **abordar de manera exhaustiva el problema de predicción y la capacidad de generalización** de las redes convolucionales profundas:
-1. **Selección justificada de la arquitectura base:** Análisis comparativo de modelos convolucionales modernos (ResNet-18, ResNet-50, EfficientNet-B0 y MobileNet-V2) con transferencia de aprendizaje desde ImageNet.
-2. **Estudio sistemático de generalización multicéntrica:** Evaluación del impacto en la transferencia cruzada cuando el modelo es entrenado con **un dataset** (monomodal), **dos datasets** (bi-céntrico) y **múltiples datasets científicos** (mega-cohorte federada de 4 fuentes).
-3. **Módulo de adquisición web in-the-wild y filtro inteligente de calidad:** Evaluación empírica de la recolección de imágenes desde la web (Google Images), implementación de un detector/filtro de validez de fondo de ojo para descartar ruido y diagramas, y análisis de su viabilidad para entrenamiento.
-4. **Estructura editorial bajo Formato Revista DYNA (UNAL):** Formulación del informe final en estructura estándar de artículo científico: Título, Resumen/Abstract, Introducción, Materiales y Métodos, Resultados y Discusión, Conclusiones y Referencias en formato numérico IEEE/DYNA.
+> ⚠️ **Aviso de Transparencia sobre Asistencia con IA:**  
+> Parte de la documentación, estructuración de scripts y compilación de informes técnicos de este repositorio contó con el apoyo de herramientas de Inteligencia Artificial Generativa (LLMs). Por este motivo, es posible que se presenten eventuales imprecisiones terminológicas, ligeras redundancias o expresiones con matices poco precisos en algunas secciones descriptivas. Ante cualquier discrepancia técnica o conceptual, se aconseja contrastar directamente la información con las implementaciones en `scripts/`, las métricas consolidadas en `results/` y los checkpoints de pesos en `modelos/`.
 
 ---
 
-## 📂 Organización y Estructura del Repositorio
+## 🧭 Guía de Inicio Rápido (Quickstart para Integrantes del Equipo)
 
-El proyecto se encuentra organizado modularmente para que cada integrante pueda inspeccionar, reproducir y entrenar los componentes de forma independiente:
+Si acabas de clonar el repositorio y necesitas ponerte al día en 5 minutos sin tener que revisar todo el código desde cero, sigue estos pasos:
+
+### 1. Requisitos y Entorno
+- **Python:** 3.10 o superior (probado en Python 3.11 / 3.12 / 3.14).
+- **GPU (Opcional para inferencia, requerida para entrenar):** Compatible con CUDA (ejecutado originalmente en NVIDIA GeForce RTX 4060 Ti 16GB).
+- **Instalación de dependencias básicas:**
+  ```bash
+  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+  pip install numpy pandas matplotlib scikit-learn pillow pymupdf requests beautifulsoup4
+  ```
+
+### 2. ¿Dónde están los modelos listos para usar?
+No necesitas volver a entrenar los modelos para probarlos o extraer resultados. Todos los pesos entrenados están guardados en la carpeta `modelos/`:
+- **`modelos/best_resnet18_1000ep_val_auc.pth`:** Es el **modelo principal y más potente** de todo el proyecto (Época 720, Val ROC-AUC = **0.9829**). Es el que se recomienda citar en el paper y usar para inferencia.
+- **`modelos/final_resnet18_1000ep.pth`:** Pesos de la época 1000 (alcanza la máxima especificidad en test: **94.98%**, con solo 11 falsos positivos en 431 imágenes).
+- **`modelos/best_resnet18_malignant_scale.pth`:** Checkpoint de línea base entrenado a 15 épocas bajo augmentación maligna (ROC-AUC test = **0.9482**).
+
+### 3. ¿Dónde están los informes y gráficas para el artículo Revista DYNA?
+- **Informes en PDF listos para leer:**
+  - `informes/06_experimento_1000_epocas_sobreentrenamiento/INFORME_EXPERIMENTO_1000_EPOCAS_SOBREENTRENAMIENTO.pdf` *(Informe completo de 7 páginas con la serie temporal, análisis de Grokking y tablas comparativas).*
+  - `informes/05_entrenamiento_y_estres_malignant_scale_mega_cohorte/INFORME_ENTRENAMIENTO_ESTRES_MALIGNO_MEGA_COHORTE.pdf` *(Informe del protocolo de data augmentation y armonización).*
+- **Figuras en alta resolución (300 DPI):**
+  Están en `figures/` con nombres correlativos (`fig19` a `fig29`). Para la sección de resultados del paper, las figuras clave son:
+  - `fig26_1000_epochs_loss_and_auc_curves.png` (Curvas de entrenamiento a 1000 épocas).
+  - `fig27_1000_epochs_cross_cohort_comparison.png` (Comparativa de métricas entre épocas 15, 720 y 1000).
+  - `fig28_1000_epochs_confusion_matrices.png` (Matrices de confusión por cohorte médica).
+  - `fig29_time_series_epoch_vs_loss_auc.png` (Serie temporal continua de épocas y tiempo en minutos vs. Loss y AUC).
+
+---
+
+## 📌 Resumen Técnico del Proyecto
+
+El diagnóstico automatizado de glaucoma mediante retinografías de fondo de ojo suele reportar rendimientos altos ($\text{ROC-AUC} > 0.98$) cuando se entrena y evalúa dentro del mismo centro médico. Sin embargo, al probar esos modelos en imágenes capturadas con cámaras de otros fabricantes, diferentes resoluciones angulares ($35^\circ$ vs. $45^\circ$) o diferente iluminación, el rendimiento cae de forma severa por cambio de dominio (*domain shift* óptico).
+
+Este proyecto investiga y resuelve este desafío a través de seis ejes:
+
+1. **Selección justificada de arquitectura base:** Evaluación comparativa entre ResNet-18, ResNet-50, EfficientNet-B0 y MobileNet-V2 con transferencia de aprendizaje desde ImageNet.
+2. **Estudio sistemático de generalización multicéntrica:** Análisis de transferencia cruzada entrenando con un solo dataset (monomodal), dos datasets (bi-céntrico) y federando múltiples fuentes clínicas.
+3. **Módulo de adquisición web y filtro de calidad:** Descarga de imágenes web (*in-the-wild*), detector automático de validez retiniana para eliminar esquemas o fotografías no médicas, y prueba de inferencia.
+4. **Armonización de escala y conformación de la Mega-Cohorte Médica ($N=2.152$):** Estandarización a un campo visual común de $35^\circ$ (ROI peripapilar) entre ACRIMA, RIM-ONE DL, EyePACS y Moondream, con exclusión justificada de fuentes no aptas (`THIRD_DATASET`).
+5. **Data Augmentation Maligno (`MalignantScaleAugmentation`) y pruebas de estrés:** Perturbaciones severas de escala (zoom-out con viñeteo óptico y ruido sintético, zoom-in focal) y color para forzar a la red a no depender de bordes o encuadres fijos.
+6. **Experimento de entrenamiento asintótico a 1.000 épocas:** Demostración empírica de que el entrenamiento prolongado bajo augmentación estocástica continua no produce sobreajuste clásico, sino que refina la capacidad de generalización en pruebas externas ($90.72\%$ exactitud, $94.98\%$ especificidad y $0.9657$ ROC-AUC).
+
+---
+
+## 📁 Estructura del Repositorio y Ubicación de Archivos
 
 ```
 GlaucomaDL/
-├── data/                                     # Repositorios de imágenes organizados por cohorte
-│   ├── Database/Images/                      # ACRIMA (España, N=705, Canon CR-DGi, recorte 35°)
-│   ├── RIM_ONE_DL/                           # RIM-ONE DL (Canarias, N=447, Kowa WX 3D estereoscópico)
-│   ├── EYEPACS_REAL/                         # EyePACS (N=200, tamizaje clínico en campo abierto, 45° FOV)
-│   ├── MOONDREAM_STAGED/                     # Moondream (N=800, cohorte multicéntrica graduada por estadío)
-│   └── WEB_IN_THE_WILD/                      # Conjunto recolectado web (raw, filtradas y rechazadas)
+├── data/                                         # Datasets de imágenes organizados por cohorte
+│   ├── Database/Images/                          # ACRIMA (España, N=705, Canon CR-DGi, 35°)
+│   ├── RIM_ONE_DL/                               # RIM-ONE DL (Canarias, N=447, Kowa WX 3D estereoscópico)
+│   ├── EYEPACS_REAL/                             # EyePACS (N=200, tamizaje en campo abierto, 45° FOV)
+│   ├── MOONDREAM_STAGED/                         # Moondream (N=800, cohorte multicéntrica graduada por estadío)
+│   ├── WEB_IN_THE_WILD/                          # Imágenes web (descarga raw, filtradas y descartadas)
+│   ├── HARMONIZED_MEGA_COHORT/                   # Mega-cohorte unificada y recortada a ROI 35° (N=2.152)
+│   │   ├── train/                                # 1.721 imágenes (846 glaucoma, 875 normal)
+│   │   └── test/                                 # 431 imágenes de prueba independiente (212 glaucoma, 219 normal)
+│   └── THIRD_DATASET/                            # AVISO: Excluido del entrenamiento (ver sección Eje 4)
 │
-├── modelos/                                  # Checkpoints de pesos entrenados (PyTorch .pth)
-│   ├── best_resnet18_acrima.pth              # Checkpoint monomodal (entrenado en ACRIMA)
-│   ├── best_resnet18_multidomain.pth         # Checkpoint bi-céntrico (entrenado en ACRIMA + RIM-ONE)
-│   ├── best_resnet18_megacohort.pth          # Checkpoint mega-cohorte (federación de 4 sensores)
-│   └── best_resnet18_multistage.pth          # Checkpoint multietapa (3 clases morfológicas)
+├── modelos/                                      # Checkpoints de pesos entrenados (PyTorch .pth)
+│   ├── best_resnet18_1000ep_val_auc.pth          # RECOMENDADO: Mejor modelo histórico (Época 720, Val AUC: 0.9829)
+│   ├── final_resnet18_1000ep.pth                 # Checkpoint final época 1000 (Especificidad test: 94.98%)
+│   ├── best_resnet18_malignant_scale.pth         # Modelo con data augmentation maligno a 15 épocas
+│   ├── best_resnet18_acrima.pth                  # Modelo monomodal (entrenado solo en ACRIMA)
+│   ├── best_resnet18_multidomain.pth             # Modelo bi-céntrico (ACRIMA + RIM-ONE)
+│   ├── best_resnet18_megacohort.pth              # Modelo federado inicial (sin recorte homogéneo de ROI)
+│   ├── best_resnet18_multistage.pth              # Modelo de clasificación en 3 estadíos clínicos
+│   └── checkpoint_resnet18_epoch_{...}.pth       # Hitos intermedios (épocas 1, 5, 15, 50, 100, 250, 500, 750, 1000)
 │
-├── scripts/                                  # Código fuente modular y reproducible
+├── scripts/                                      # Código fuente modular y documentado
 │   ├── experimentos/
-│   │   ├── 01_seleccion_arquitectura_backbone.py      # Benchmark comparativo de redes base
-│   │   ├── 02_estudio_generalizacion_multicentrica.py # Evaluación cruzada (1 vs. 2 vs. N datasets)
-│   │   ├── 03_adquisicion_web_y_filtro_calidad.py     # Pipeline web + filtro detector de retina
-│   │   ├── 04_data_augmentation_invarianza_escala.py  # Aumento agresivo de escala y campo visual
-│   │   ├── 05_mega_cohorte_federada_multisensor.py    # Entrenamiento multi-sensor federado
-│   │   └── 06_estadificacion_clinica_multietapa.py   # Clasificación en 3 estadíos (Sano, Temprano, Avanzado)
-│   └── compiladores_informes/                         # Compiladores editoriales a formato PDF/HTML
+│   │   ├── 01_seleccion_arquitectura_backbone.py      # Benchmark comparativo de arquitecturas
+│   │   ├── 02_estudio_generalizacion_multicentrica.py # Evaluación cruzada entre cámaras
+│   │   ├── 03_adquisicion_web_y_filtro_calidad.py     # Pipeline web y detector de validez
+│   │   ├── 04_data_augmentation_invarianza_escala.py  # Primera prueba de escala
+│   │   ├── 05_mega_cohorte_federada_multisensor.py    # Entrenamiento federado inicial
+│   │   ├── 06_estadificacion_clinica_multietapa.py   # Clasificación en 3 niveles de severidad
+│   │   ├── 07_armonizacion_roi_y_mega_dataset.py      # Estandarización a ROI 35° y armado de mega-cohorte
+│   │   ├── 08_entrenamiento_malignant_scale_mega_cohorte.py # Entrenamiento a 15 épocas con augmentación maligna
+│   │   ├── 09_experimento_1000_epocas_sobreentrenamiento.py # Entrenamiento a 1.000 épocas (RTX 4060 Ti)
+│   │   ├── eval_test_time_malignant.py               # Prueba bajo perturbaciones en tiempo de inferencia
+│   │   ├── generate_fig28.py                         # Generación de matrices de confusión comparativas
+│   │   └── generate_fig29_timeseries.py              # Generación de la serie temporal continua (Figura 29)
+│   └── compiladores_informes/                         # Compiladores automáticos a HTML y ePDF
+│       ├── compilar_informe_bases_medicas.py
+│       ├── compilar_informe_estres_malignant_mega_cohorte.py
+│       └── compilar_informe_experimento_1000_epocas.py
 │
-├── figures/                                  # Figuras diagnósticas de alta resolución para el informe
-│   ├── fig19_backbone_comparison_benchmark.png        # Comparativa gráfica de arquitecturas base
-│   ├── fig20_web_images_filtering_pipeline.png        # Control de calidad y detector de ojos en web
+├── figures/                                      # Figuras diagnósticas a 300 DPI
+│   ├── fig19_backbone_comparison_benchmark.png        # Comparativa de backbones
+│   ├── fig20_web_images_filtering_pipeline.png        # Pipeline del detector de calidad web
 │   ├── fig21_cross_device_generalization_master.png   # Matriz maestra de generalización cruzada
-│   ├── fig13_megacohort_federation_map.png            # Esquema de dispositivos y sensores
-│   ├── fig14_megacohort_confusion_matrices.png        # Matrices de confusión multicéntricas
-│   └── fig16_multistage_confusion_matrix_3x3.png      # Matriz 3x3 de estadificación clínica
+│   ├── fig24_harmonization_pipeline_before_after.png  # Comparación de campo visual antes y después de ROI
+│   ├── fig25_malignant_scale_stress_test_benchmark.png# Desempeño bajo augmentación maligna
+│   ├── fig26_1000_epochs_loss_and_auc_curves.png      # Curvas de pérdida y ROC-AUC a 1.000 épocas
+│   ├── fig27_1000_epochs_cross_cohort_comparison.png  # Comparativa inter-cohorte (15 vs 720 vs 1000 épocas)
+│   ├── fig28_1000_epochs_confusion_matrices.png       # Matrices de confusión en las 4 cohortes externas
+│   └── fig29_time_series_epoch_vs_loss_auc.png        # Serie temporal continua (épocas y tiempo vs loss/auc)
 │
-├── results/                                  # Resúmenes cuantitativos y matrices en formato JSON
-│   ├── backbone_selection_benchmark.json              # Métricas de latencia, tamaño y rendimiento
-│   ├── cross_dataset_generalization_matrix.json       # Transferencia cruzada entre datasets
-│   ├── web_quality_filter_metrics.json                # Precisión y discriminación del filtro web
-│   └── multistage_metrics.json                        # Métricas por estadío patológico
+├── results/                                      # Resúmenes cuantitativos (JSON y CSV)
+│   ├── backbone_selection_benchmark.json              # Métricas de redes candidatas
+│   ├── cross_dataset_generalization_matrix.json       # Resultados de evaluación cruzada
+│   ├── web_quality_filter_metrics.json                # Rendimiento del filtro detector web
+│   ├── harmonized_mega_cohort_index.csv               # Índice de las 2.152 imágenes con centro y etiqueta
+│   ├── malignant_stress_test_metrics.json             # Métricas de prueba de estrés a 15 épocas
+│   ├── inference_time_malignant_stress_comparison.json# Métricas con test-time augmentation
+│   └── 1000_epochs_stress_experiment_metrics.json     # Registro detallado de las 1.000 épocas
 │
-└── informes/                                 # Informes técnicos sectoriales generados
+└── informes/                                     # Informes técnicos en PDF, HTML y Markdown
     ├── 01_experimento_invarianza_escala/
     ├── 02_experimento_mega_cohorte_multisensor/
-    └── 03_experimento_estadificacion_multietapa/
+    ├── 03_experimento_estadificacion_multietapa/
+    ├── 04_evaluacion_bases_medicas_y_mega_dataset/
+    ├── 05_entrenamiento_y_estres_malignant_scale_mega_cohorte/
+    └── 06_experimento_1000_epocas_sobreentrenamiento/
 ```
 
 ---
 
-## 🔬 Eje 1: Elección Justificada de la Red Base (Backbone Selection)
+## 🔬 Eje 1: Selección de la Arquitectura Base
 
-Para el informe final se evaluaron cuatro familias de redes convolucionales profundas utilizando **Transfer Learning** con inicialización en ImageNet-1K:
+Se evaluaron cuatro arquitecturas convolucionales utilizando pesos pre-entrenados en ImageNet-1K:
 
-1. **ResNet-18:** Arquitectura residual estándar de 18 capas con bloques residuales $3 \times 3$.
-2. **ResNet-50:** Arquitectura residual de 50 capas con bloques *bottleneck* ($1 \times 1, 3 \times 3, 1 \times 1$).
-3. **EfficientNet-B0:** Escalado compuesto óptimo utilizando convoluciones separables en profundidad (MBConv) y módulos de atención canal *Squeeze-and-Excitation*.
-4. **MobileNet-V2:** Arquitectura compacta basada en residuos invertidos y cuellos de botella lineales, diseñada para baja latencia en dispositivos móviles.
-
-### Tabla Comparativa de Arquitecturas Candidatas
-
-| Arquitectura Base | Parámetros Totales | Huella de Memoria | Latencia Inferencia (Batch 32) | ROC-AUC (Test) | Exactitud (Test) | Gap Generalización (\|Train - Val\|) | Balance y Justificación Técnica |
+| Arquitectura Base | Parámetros | Memoria | Latencia (Batch 32) | ROC-AUC (Test) | Exactitud (Test) | Brecha (|Train - Val|) | Conclusión Técnica |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **ResNet-18** *(Elegida)* | **11.18 M** | **42.64 MB** | **147.15 ms** | **0.9982** | **98.58%** | **0.0232** | **Óptima:** Bias inductivo residual ideal para morfometría papilar; mínima propensión al sobreajuste con muestras médicas medianas. |
-| **ResNet-50** | 23.51 M | 89.68 MB | 285.40 ms | 0.9965 | 97.87% | 0.0514 | **Alta Capacidad:** Excelente representatividad, pero duplica la memoria y latencia con ganancia marginal en AUC. |
-| **EfficientNet-B0** | 4.01 M | 15.29 MB | 112.30 ms | 0.9912 | 96.45% | 0.0380 | **Alta Eficiencia:** Excelente para entornos restringidos, aunque su campo receptivo compuesto dispersa la atención en muescas finas. |
-| **MobileNet-V2** | 2.23 M | 8.49 MB | 88.50 ms | 0.9845 | 95.04% | 0.0425 | **Ultra Rápida:** Ideal para aplicaciones clínicas edge o portátiles, con ligera pérdida en sensibilidad fina. |
+| **ResNet-18** | **11.18 M** | **42.64 MB** | **147.15 ms** | **0.9982** | **98.58%** | **0.0232** | **Seleccionada:** Menor brecha de sobreajuste, bajo consumo de memoria y rápida convergencia. |
+| **ResNet-50** | 23.51 M | 89.68 MB | 285.40 ms | 0.9965 | 97.87% | 0.0514 | Duplica tamaño y tiempo de cómputo sin mejora apreciable en AUC. |
+| **EfficientNet-B0** | 4.01 M | 15.29 MB | 112.30 ms | 0.9912 | 96.45% | 0.0380 | Eficiente, pero con mayor dispersión de atención en bordes del disco. |
+| **MobileNet-V2** | 2.23 M | 8.49 MB | 88.50 ms | 0.9845 | 95.04% | 0.0425 | Muy ligera, pero pierde sensibilidad en lesiones glaucomatosas finas. |
 
-![Benchmark de Arquitecturas](figures/fig19_backbone_comparison_benchmark.png)
-
-> **Criterio de Elección para el Informe:**  
-> Se selecciona **ResNet-18** como arquitectura principal por presentar la menor brecha de sobreajuste ($0.0232$), el mayor balance paramétrico y una excelente tasa de convergencia en retinografías.
-
-*Para que cualquier integrante ejecute o re-entrene este benchmark:*
 ```bash
-python3 scripts/experimentos/01_seleccion_arquitectura_backbone.py
+python scripts/experimentos/01_seleccion_arquitectura_backbone.py
 ```
 
 ---
 
-## 🌐 Eje 2: Estudio Sistemático de Generalización Multicéntrica (Foco Principal)
+## 🌐 Eje 2: Generalización Multicéntrica y Evaluación Cruzada
 
-El eje central del proyecto consiste en analizar cuantitativamente qué ocurre cuando una red se traslada entre diferentes instrumentos clínicos de adquisición.
+Se demostró cuantitativamente el impacto de entrenar en un único centro hospitalario vs. federar datos:
 
-### Las Tres Fases de Entrenamiento Experimental:
+1. **Monomodal (Solo ACRIMA, Canon 35°):** Alcanza $0.9960$ ROC-AUC en ACRIMA, pero cae a $0.5828$ en RIM-ONE DL (Kowa 3D) y a $0.5197$ en EyePACS (nivel de azar).
+2. **Bi-céntrico (ACRIMA + RIM-ONE DL):** El modelo aprende a transferir entre Canon y Kowa, subiendo en RIM-ONE a $0.9219$, pero sigue bajo en EyePACS ($0.5512$).
+3. **Mega-Cohorte Multi-Sensor inicial:** Al federar las 4 fuentes sin procesar, EyePACS sube a $0.7314$ y ACRIMA preserva $1.0000$ ROC-AUC.
 
-1. **Monomodal (1 Dataset - ACRIMA):**
-   * *Instrumento de Captura:* Cámara de fondo de ojo Canon CR-DGi ($35^\circ$ de campo, centrado peripapilar).
-   * *Fenómeno observado:* La red memoriza la función de transferencia de la cámara Canon. Aunque dentro de ACRIMA alcanza **0.9960 ROC-AUC**, al evaluarse en RIM-ONE DL cae a **0.5828** y en EyePACS se desploma al **0.5197** (nivel de azar).
-2. **Bi-Céntrico (2 Datasets - ACRIMA + RIM-ONE DL):**
-   * *Instrumentos de Captura:* Canon CR-DGi + Cámara estereoscópica Kowa WX 3D.
-   * *Fenómeno observado:* El modelo aprende invarianza entre dos perfiles de color y ópticas diferentes. El rendimiento en RIM-ONE salta de **0.5828 a 0.9219 ROC-AUC**, mientras que en ACRIMA se mantiene en **0.9986**. No obstante, en campo abierto panorámico ($45^\circ$, EyePACS) continúa restringido (**0.5512**).
-3. **Mega-Cohorte Federada Multi-Sensor (4 Fuentes Heterogéneas):**
-   * *Instrumentos de Captura:* Canon CR-DGi + Kowa WX 3D + Cámaras de tamizaje primario (EyePACS $45^\circ$) + Cohorte multi-centro Moondream ($N=1,603$ imágenes en total).
-   * *Fenómeno observado:* La diversidad física obliga a la red a descartar los atajos cromáticos de sensor. El rendimiento en EyePACS Real experimenta un salto de **+21.17 puntos**, alcanzando **0.7314 ROC-AUC**, mientras que ACRIMA alcanza **1.0000 ROC-AUC** (cero olvido catastrófico).
-
-### Matriz Maestra de Evaluación Cruzada (Cross-Dataset Testing)
-
-| Modelo Evaluado | ACRIMA Test (Canon $35^\circ$) | RIM-ONE DL Test (Kowa 3D) | Moondream Test (Multi-Centro) | EyePACS Real (Tamizaje $45^\circ$ FOV) | Diagnóstico de Generalización |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **1 Dataset (Monomodal)** | **0.9960** | 0.5828 | 0.6410 | 0.5197 *(Azar)* | **Sobreajuste al Sensor:** Incapacidad de transferir a nuevas cámaras. |
-| **2 Datasets (Bi-Céntrico)** | **0.9986** | **0.9219** | 0.7240 | 0.5512 | **Generalización Parcial:** Robusto a cambios de color entre Canon y Kowa. |
-| **Mega-Cohorte Multi-Sensor** | **1.0000** | **0.8940** | **0.9343** | **0.7314** *(+21.17 pts)* | **Invarianza Real:** Superación de la barrera óptica en retinografía abierta. |
-
-![Matriz Maestra de Generalización](figures/fig21_cross_device_generalization_master.png)
-
-*Para reproducir o actualizar los gráficos de la matriz de generalización:*
 ```bash
-python3 scripts/experimentos/02_estudio_generalizacion_multicentrica.py
+python scripts/experimentos/02_estudio_generalizacion_multicentrica.py
 ```
 
 ---
 
-## 🔍 Eje 3: Adquisición Web In-The-Wild y Filtro Inteligente de Calidad
+## 🔍 Eje 3: Adquisición Web In-The-Wild y Filtro de Calidad
 
-Siguiendo la metodología de recolección de datos desde Internet explicada en el curso (vía Google Images, extracción de URLs en consola de desarrollador y descarga programática en Python), se diseñó un módulo para responder dos interrogantes clave:
-1. *¿Qué proporción de las imágenes descargadas de la web corresponden a retinografías reales vs. ruido no apto para diagnóstico?*
-2. *¿Es viable utilizar datos web in-the-wild para entrenar o evaluar clasificadores de glaucoma?*
+Se simuló la descarga de imágenes web desde Google Images para evaluar su utilidad clínica:
+- **Ruido detectado:** De 74 imágenes descargadas, el $45.9\%$ correspondió a esquemas anatómicos, diagramas vectoriales, cortes de tomografía OCT o fotografías de instrumental.
+- **Filtro detector implementado:** Analiza la relación de color ($R/B > 1.15$), detecta fondos blancos planos ($>230$) y comprueba el viñeteo circular del oftalmoscopio.
+- **Resultado:** **100% de precisión**, eliminando todo el contenido no retiniano sin descartar fondos de ojo legítimos.
+- **Conclusión para el artículo:** El raspado web no supervisado introduce casi un $50\%$ de ruido; un filtro detector es indispensable, aunque las cohortes clínicas protocolizadas continúan siendo el estándar de oro.
 
-### 1. El Filtro Inteligente (Detector de Validez de Fondo de Ojo)
-El filtro analiza dos propiedades físicas intrínsecas de las retinografías:
-* **Firma espectral retiniana:** Dominancia del canal rojo/anaranjado sobre el canal azul ($R/B > 1.15$). Descarta automáticamente tomografías OCT en escala de grises y fotografías de equipos clínicos.
-* **Control de fondo plano y texto:** Detección de fondos blancos planos ($>230$ en RGB), descartando diagramas anatómicos vectoriales e infografías médicas.
-* **Contraste centro-periferia:** Verificación del viñeteo circular característico del oftalmoscopio.
-
-### 2. Resultados del Experimento de Filtrado Web ($N = 74$ imágenes)
-* **Composición de la descarga web:** $54.1\%$ retinografías reales y $45.9\%$ contenido espurio (diagramas esquemáticos, cortes OCT, instrumental hospitalario).
-* **Rendimiento del Filtro Detector:**
-  * **Exactitud:** **100.00%**
-  * **Precisión (Pureza del lote filtrado):** **100.00%** (cero diagramas o cortes OCT filtrados como fondo de ojo).
-  * **Sensibilidad:** **100.00%** (retención íntegra de retinografías auténticas).
-* **Prueba de Inferencia Diagnóstica sobre Web Filtrada:** **$95.00\%$** de exactitud clasificatoria en las retinografías web aprobadas.
-
-![Pipeline de Filtrado Web](figures/fig20_web_images_filtering_pipeline.png)
-
-> **Conclusión Metodológica para el Informe:**  
-> El raspado web no supervisado produce un **$45.9\%$ de ruido espurio** que contamina cualquier proceso de entrenamiento. La incorporación de un filtro inteligente de control de calidad es un requisito indispensable previo a la inferencia. Sin embargo, la variabilidad incontrolada en calibración cromática y compresión web limita su utilidad en comparación con cohortes clínicas estandarizadas.
-
-*Para ejecutar el pipeline de filtrado y prueba web:*
 ```bash
-python3 scripts/experimentos/03_adquisicion_web_y_filtro_calidad.py
+python scripts/experimentos/03_adquisicion_web_y_filtro_calidad.py
 ```
 
 ---
 
-## 📑 Estructura del Informe Final bajo Formato Revista DYNA (UNAL)
+## 🧩 Eje 4: Armonización a ROI 35° y Mega-Cohorte Médica ($N=2.152$)
 
-El informe técnico consolidado del proyecto sigue estrictamente las directrices para autores y la plantilla oficial de artículo de investigación de la **Revista DYNA** (Facultad de Minas, Universidad Nacional de Colombia):
+### El Problema de la Disparidad de Campo Visual:
+En EyePACS (cámaras de tamizaje panorámico a $45^\circ$), el disco óptico ocupa apenas entre el $5\%$ y el $10\%$ del área de la imagen. En cambio, en ACRIMA y RIM-ONE DL ($35^\circ$), el disco ocupa entre el $30\%$ y el $50\%$. Esta diferencia geométrica provocaba que los modelos aprendieran atajos de tamaño en lugar de características clínicas del anillo neurorretiniano.
 
-### 1. Título, Autores y Encabezado
-* **Título en Español e Inglés:** Preciso, informativo y centrado (máx. 15 palabras).
-* **Afiliación Institucional:** Estudiantes del curso Deep Learning, Facultad de Minas, Universidad Nacional de Colombia.
-* **Resumen y Abstract:** Máximo 150 palabras sintetizando problema, metodología, resultados cuantitativos clave y conclusión principal.
-* **Palabras Clave / Keywords:** 4 a 6 términos estandarizados (*Deep Learning, Glaucoma Detection, Cross-Camera Generalization, Transfer Learning, Retinal Fundus, Domain Shift*).
+### Protocolo de Armonización:
+1. **Recorte de ROI peripapilar a $35^\circ$:** Se extrajo la región de interés centrada en la papila en las imágenes panorámicas de EyePACS y Moondream.
+2. **Máscara circular homogénea:** Redimensionado a $224 \times 224$ píxeles con viñeteo óptico unificado.
+3. **Composición de la Mega-Cohorte Armonizada:**
+   - Total: **$N = 2.152$ imágenes** balanceadas ($1.058$ glaucoma, $1.094$ normales).
+   - Entrenamiento: **$1.721$ imágenes** ($846$ glaucoma, $875$ normales).
+   - Prueba independiente: **$431$ imágenes** ($212$ glaucoma, $219$ normales), con representación equilibrada de las 4 cohortes.
+   - El índice maestro está guardado en `results/harmonized_mega_cohort_index.csv`.
 
-### 2. 1. INTRODUCCIÓN
-* Contexto oftalmológico del glaucoma como neuropatía óptica progresiva asintomática.
-* Revisión del estado del arte en redes convolucionales para análisis de retinografías.
-* Formulación del problema: el espejismo de las métricas mono-centro y la vulnerabilidad ante el cambio de instrumento de captura (*domain shift* óptico).
-* Contribuciones explícitas del artículo.
-
-### 3. 2. MATERIALES Y MÉTODOS
-* **2.1 Ecosistema de Datos y Heterogeneidad de Sensores:** Características técnicas de las cohortes científicas (ACRIMA - Canon CR-DGi $35^\circ$, RIM-ONE DL - Kowa WX 3D estereoscópico, EyePACS - campo abierto $45^\circ$, Moondream - multi-centro).
-* **2.2 Selección de la Arquitectura Base y Transfer Learning:** Justificación de la transferencia desde ImageNet y evaluación comparativa de cuatro backbones (ResNet-18, ResNet-50, EfficientNet-B0 y MobileNet-V2).
-* **2.3 Adquisición In-The-Wild y Filtro Inteligente de Calidad:** Metodología de recolección web (Google Images) y arquitectura del detector de validez retiniana para purga de artefactos no válidos.
-* **2.4 Esquema Experimental de Generalización Cruzada:** Diseño de los tres escenarios de entrenamiento (Monomodal con 1 dataset, Bi-céntrico con 2 datasets y Mega-Cohorte multi-sensor).
-
-### 4. 3. RESULTADOS Y DISCUSIÓN
-* **3.1 Benchmark de Backbones:** Tabla comparativa de parámetros, latencia (ms/batch), ROC-AUC y brecha de sobreajuste.
-* **3.2 Eficacia del Filtro Detector de Ojos:** Métricas de discriminación en web ($100\%$ de precisión, depuración del $45.9\%$ de ruido).
-* **3.3 Matriz Maestra de Transferencia Cruzada:** Análisis del desplome en modelos mono-centro y el salto de $+21.17$ puntos de ROC-AUC en EyePACS al federar múltiples cámaras.
-* **3.4 Análisis de Robustez Geométrica y Estadificación:** Invarianza de escala y desempeño en estadíos tempranos vs. avanzados.
-
-### 5. 4. CONCLUSIONES
-* Síntesis de los hallazgos principales y recomendaciones metodológicas para futuros sistemas de cribado automatizado en entornos clínicos reales.
-
-### 6. REFERENCIAS
-* Formato numérico consecutivo en corchetes cuadrados `[1]`, `[2]`, conforme a la normativa oficial de la Revista DYNA.
-
----
-
-## 🚀 Guía de Ejecución para los Integrantes del Equipo
-
-Cada integrante puede ejecutar de forma aislada cualquiera de los módulos según la sección que tenga asignada:
+> ⚠️ **Importante — Exclusión de `data/THIRD_DATASET/`:**  
+> Al inspeccionar los datos se identificó que `THIRD_DATASET` contiene **máscaras binarizadas de segmentación vascular (esqueletos de vasos)** y no imágenes RGB naturales de fondo de ojo. Su inclusión alteraría negativamente el espacio de color y el aprendizaje convolucional. **Por tanto, debe permanecer estrictamente excluida.**
 
 ```bash
-# 1. Ejecutar el benchmark comparativo de arquitecturas base (ResNet vs. EfficientNet vs. MobileNet)
-python3 scripts/experimentos/01_seleccion_arquitectura_backbone.py
-
-# 2. Generar la matriz maestra de generalización cruzada (1 vs. 2 vs. N datasets)
-python3 scripts/experimentos/02_estudio_generalizacion_multicentrica.py
-
-# 3. Ejecutar el módulo de recolección web in-the-wild y filtro de calidad
-python3 scripts/experimentos/03_adquisicion_web_y_filtro_calidad.py
-
-# 4. Entrenar el modelo con data augmentation extremo de escala y FOV
-python3 scripts/experimentos/04_data_augmentation_invarianza_escala.py
-
-# 5. Entrenar el modelo multi-sensor sobre la mega-cohorte federada (4 fuentes)
-python3 scripts/experimentos/05_mega_cohorte_federada_multisensor.py
-
-# 6. Entrenar y evaluar el modelo de estadificación multietapa (3 clases clínicas)
-python3 scripts/experimentos/06_estadificacion_clinica_multietapa.py
+python scripts/experimentos/07_armonizacion_roi_y_mega_dataset.py
 ```
 
 ---
 
-*Repositorio estructurado para fines académicos y de investigación. Todos los resultados y figuras reportados han sido verificados experimentalmente sobre las cohortes de prueba independientes.*
+## ⚡ Eje 5: Data Augmentation Maligno (`MalignantScaleAugmentation`) y Pruebas de Estrés
+
+Para forzar a la red a ser invariante a la escala y la iluminación, se implementó el generador estocástico `MalignantScaleAugmentation`:
+- **45% Zoom-out severo ($0.25\times$ a $0.65\times$):** La retina se reduce a una miniatura sobre fondo con ruido gaussiano sintético y viñeteo circular.
+- **35% Zoom-in focal ($1.25\times$ a $1.85\times$):** Recorta de cerca la copa óptica simulando tomas macro.
+- **20% Escala estándar ($224 \times 224$).**
+- **65% Perturbaciones fotométricas:** Modificaciones de gamma ($\gamma \in [0.75, 1.35]$) y ganancia en el canal verde ($[0.90, 1.15]$).
+
+### Resultados del Modelo a 15 Épocas (`best_resnet18_malignant_scale.pth`):
+- **Test limpio ($N=431$):** ROC-AUC: **0.9482**, Exactitud: **85.61%**, Sensibilidad: **79.25%**, Especificidad: **91.78%**.
+- **Prueba bajo estrés en tiempo de inferencia (*Test-Time Augmentation*):** Al someter el conjunto de prueba a las perturbaciones malignas durante la evaluación, el modelo conservó el **98.8%** de su ROC-AUC ($0.9466 \to 0.9356$), confirmando su resistencia ante alteraciones geométricas.
+
+```bash
+# Entrenamiento a 15 épocas con augmentación maligna
+python scripts/experimentos/08_entrenamiento_malignant_scale_mega_cohorte.py
+
+# Evaluación bajo estrés en inferencia
+python scripts/experimentos/eval_test_time_malignant.py
+```
+
+---
+
+## 📈 Eje 6: Experimento de Entrenamiento Asintótico a 1.000 Épocas
+
+En aprendizaje profundo médico existe la costumbre de aplicar parada temprana (*early stopping*) hacia la época 15 o 20 en cuanto la pérdida de validación sube ligeramente. Se planteó la hipótesis de evaluar qué ocurre al entrenar durante **1.000 épocas completas** bajo el flujo incesante de datos aumentados estocásticamente (~2.35 horas en GPU RTX 4060 Ti con planificador Cosine Annealing, $\eta = 10^{-4} \to 10^{-6}$).
+
+### Hallazgo Central:
+La red **no sufrió sobreajuste clásico**. Gracias a las infinitas combinaciones aleatorias de zoom, desplazamiento, ruido y color, la red nunca observó la misma entrada dos veces. Aunque la pérdida de entrenamiento se redujo a $0.00028$, las métricas sobre las 4 cohortes de prueba independientes mejoraron significativamente:
+
+### Comparativa: Época 15 (Convencional) vs. Época 1.000 (Régimen Asintótico)
+
+| Métrica Global ($N=431$ Test) | Época 15 (Convencional) | Época 720 (Mejor Val AUC) | Época 1000 (Final) | Diferencia Neta |
+| :--- | :---: | :---: | :---: | :---: |
+| **ROC-AUC Global** | 0.9490 | 0.9592 | **0.9657** | **+0.0167** |
+| **Exactitud Global** | 86.54% | 89.10% | **90.72%** | **+4.18%** |
+| **Especificidad Global** | 85.84% | 94.06% | **94.98%** | **+9.14%** |
+| **Sensibilidad Global** | **87.26%** | 83.96% | 86.32% | -0.94% |
+| **F1-Score** | 0.8645 | 0.8834 | **0.9015** | **+0.0370** |
+| **Falsos Positivos Totales** | 31 | 13 | **11** | **-64.5% (de 31 a 11)** |
+
+### Resultados por Cohorte Externa:
+- **ACRIMA (Canon 35°):** Mantuvo rendimiento casi perfecto con **0.9939 ROC-AUC**, Exactitud de **97.87%** y Especificidad de **98.39%**.
+- **RIM-ONE DL (Kowa 3D):** El ROC-AUC subió de $0.8995$ a **0.9479** (+0.0484) y la exactitud de $83.33\%$ a **92.22%** (+8.89%).
+- **EyePACS Real (45°):** El ROC-AUC subió de $0.8500$ a **0.9125** (+0.0625) con una especificidad del **90.00%**.
+- **Moondream (Estadíos):** El ROC-AUC mejoró de $0.9123$ a **0.9382**, y la especificidad aumentó del $77.50\%$ al **91.25%** (+13.75%).
+
+### Análisis de la Serie Temporal (Figura 29):
+Se incorporó la serie temporal continua (Figura 29 en `figures/`) que relaciona épocas y tiempo real de cómputo ($0 \to 141.13$ minutos):
+- **Desacoplamiento entre pérdida y ranking:** Entre las épocas 50 y 75 ($t \approx 7-11$ min), la pérdida de validación repunta levemente (lo que normalmente asusta al analista y dispara el *early stopping*), pero el ROC-AUC se mantiene firme ($>0.960$).
+- **Salto tardío de aprendizaje (*Grokking*):** En el minuto 84 (época 600) y minuto 101 (época 720), la red alcanza el récord histórico del proyecto: **Val ROC-AUC = 0.9829** y **Exactitud = 93.05%**.
+
+```bash
+# Entrenamiento a 1000 épocas (requiere GPU)
+python scripts/experimentos/09_experimento_1000_epocas_sobreentrenamiento.py
+
+# Generación de matrices de confusión comparativas (Fig. 28)
+python scripts/experimentos/generate_fig28.py
+
+# Generación de la serie temporal continua (Fig. 29)
+python scripts/experimentos/generate_fig29_timeseries.py
+```
+
+---
+
+## 💾 Guía de Pesos y Checkpoints en `modelos/`
+
+| Archivo | Época | Uso Recomendado |
+| :--- | :---: | :--- |
+| **`best_resnet18_1000ep_val_auc.pth`** | 720 | **Modelo principal recomendado:** Mayor capacidad de discriminación diagnóstica (Val AUC = $0.9829$). |
+| **`final_resnet18_1000ep.pth`** | 1000 | Pesos al completar las 1.000 épocas. Máxima especificidad en test ($94.98\%$) y menor tasa de falsos positivos. |
+| **`best_resnet18_malignant_scale.pth`** | 15 | Modelo base entrenado con aumentación maligna a 15 épocas ($AUC = 0.9482$). |
+| `best_resnet18_acrima.pth` | 20 | Modelo monomodal (solo ACRIMA). |
+| `best_resnet18_multidomain.pth` | 20 | Modelo bi-céntrico (ACRIMA + RIM-ONE). |
+| `best_resnet18_megacohort.pth` | 20 | Modelo federado inicial sin recorte de ROI. |
+| `best_resnet18_multistage.pth` | 25 | Modelo de clasificación en 3 clases clínicas. |
+| `checkpoint_resnet18_epoch_{...}.pth` | Varios | Checkpoints intermedios guardados en épocas 1, 5, 15, 50, 100, 250, 500, 750, 1000. |
+
+---
+
+## 📑 Informes Técnicos Compilados
+
+En la carpeta `informes/` se encuentran los informes compilados en formato artículo científico:
+
+- **Informe 05 — Datasets y Data Augmentation Maligno (PDF / HTML):**  
+  `informes/05_entrenamiento_y_estres_malignant_scale_mega_cohorte/INFORME_ENTRENAMIENTO_ESTRES_MALIGNO_MEGA_COHORTE.pdf`
+- **Informe 06 — Experimento de 1.000 Épocas y Serie Temporal (PDF / HTML):**  
+  `informes/06_experimento_1000_epocas_sobreentrenamiento/INFORME_EXPERIMENTO_1000_EPOCAS_SOBREENTRENAMIENTO.pdf`
+
+*Para compilar o regenerar los PDFs mediante Chromium/Edge headless:*
+```bash
+python scripts/compiladores_informes/compilar_informe_estres_malignant_mega_cohorte.py
+python scripts/compiladores_informes/compilar_informe_experimento_1000_epocas.py
+```
+
+---
+
+## ❓ Preguntas Frecuentes y Solución de Problemas (FAQ)
+
+### ¿Tengo que re-entrenar las 1.000 épocas para hacer pruebas?
+**No.** El entrenamiento de 1.000 épocas ya fue ejecutado y todos sus pesos y métricas están guardados en `modelos/` y `results/`. Puedes cargar directamente `modelos/best_resnet18_1000ep_val_auc.pth` en PyTorch con `model.load_state_dict(torch.load(...))` para evaluar o hacer inferencias inmediatas.
+
+### ¿Qué hago si obtengo error de memoria CUDA (Out of Memory)?
+Si decides re-entrenar algún script en una GPU con menos de 8 GB de VRAM, abre el script correspondiente y cambia `BATCH_SIZE = 32` por `BATCH_SIZE = 16` o `8`. Los scripts ya incluyen aceleración por precisión mixta (`torch.amp.autocast`).
+
+### ¿Por qué `THIRD_DATASET` está excluida del entrenamiento?
+Porque no contiene fotografías RGB de fondo de ojo. Son máscaras binarizadas de segmentación vascular (esqueletos vasculares en blanco y negro). Entrenar con ellas distorsiona los pesos convolucionales que dependen del color retiniano y la morfología de la excavación papilar.
+
+### ¿Cómo compilar los PDFs si no tengo Google Chrome instalado?
+Los scripts de compilación buscan automáticamente navegadores basados en Chromium en las siguientes rutas:
+- Microsoft Edge en Windows (`C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`).
+- Google Chrome en Windows, macOS o Linux.
+Con tener instalado Microsoft Edge (que viene predeterminado en Windows) o Google Chrome, el compilador genera el PDF automáticamente con el comando `--headless=new --print-to-pdf`.
+
+---
+
+## 🚀 Resumen Secuencial de Comandos para Reproducción
+
+```bash
+# 1. Comparar arquitecturas base
+python scripts/experimentos/01_seleccion_arquitectura_backbone.py
+
+# 2. Reproducir matriz de generalización cruzada
+python scripts/experimentos/02_estudio_generalizacion_multicentrica.py
+
+# 3. Probar adquisición web y filtro de calidad
+python scripts/experimentos/03_adquisicion_web_y_filtro_calidad.py
+
+# 4. Generar la mega-cohorte armonizada a ROI 35°
+python scripts/experimentos/07_armonizacion_roi_y_mega_dataset.py
+
+# 5. Entrenar modelo a 15 épocas con augmentación maligna
+python scripts/experimentos/08_entrenamiento_malignant_scale_mega_cohorte.py
+
+# 6. Evaluar resistencia bajo estrés en inferencia
+python scripts/experimentos/eval_test_time_malignant.py
+
+# 7. Ejecutar entrenamiento a 1000 épocas (requiere GPU)
+python scripts/experimentos/09_experimento_1000_epocas_sobreentrenamiento.py
+
+# 8. Generar matrices de confusión (Figura 28)
+python scripts/experimentos/generate_fig28.py
+
+# 9. Generar serie temporal continua (Figura 29)
+python scripts/experimentos/generate_fig29_timeseries.py
+
+# 10. Compilar informe técnico 06 a ePDF
+python scripts/compiladores_informes/compilar_informe_experimento_1000_epocas.py
+```
+
+---
+*Facultad de Minas — Universidad Nacional de Colombia. Repositorio académico con fines docentes y de investigación.*
