@@ -77,23 +77,13 @@ En concordancia con las reglas de honestidad de la revisión:
 
 El flujo de selección y depuración sistemática de la literatura se ilustra en el diagrama PRISMA 2020 de la Fig. 1. De los 295 registros brutos identificados, la deduplicación eliminó 74 entradas repetidas. La fase de cribado por título y resumen descartó 113 artículos que no cumplían los criterios temáticos y metodológicos. Tras la evaluación a texto completo de 108 candidatos y la incorporación de estudios derivados de *snowballing*, se conformó el cuerpo de evidencia analizado.
 
-```
-+---------------------------------------------------------------------------------------------------+
-| FIGURA 1. Diagrama de flujo PRISMA 2020: Identificación y selección de estudios primarios.         |
-| Ubicación en repositorio: estado_del_arte/figuras/fig00_prisma_2020_flujo_escala_grises.png       |
-+---------------------------------------------------------------------------------------------------+
-```
+![Fig. 1. Diagrama de flujo PRISMA 2020: Identificación y selección de estudios primarios](../figuras/fig00_prisma_2020_flujo_escala_grises.png)
 **Fig. 1.** Diagrama de flujo PRISMA 2020 para la selección sistemática de estudios primarios sobre generalización de aprendizaje profundo en retinografías para glaucoma.  
 *Fuente: Los autores (adaptado de la Declaración PRISMA 2020 [2]).*
 
 El mapeo bibliométrico (RQ1) evidencia que el interés por la capacidad de generalización y la robustez inter-dispositivo en glaucoma ha crecido sustancialmente en el periodo 2016–2026, tal como se refleja en la Fig. 2. Durante los años 2016 a 2018, la producción se concentró en la prueba de concepto de redes convolucionales alimentadas con particiones aleatorias mono-céntricas [19,21,29]. A partir de 2019, coincidiendo con la publicación de los desafíos internacionales REFUGE [13], ACRIMA [11] y posteriormente REFUGE-2 [14] y AIROGS [15], la comunidad científica reconoció el problema del cambio de dominio como el obstáculo principal para el despliegue clínico, alcanzando un pico de producción metodológica entre 2022 y 2025 con la introducción de técnicas de adaptación de dominio, generalización de dominio [17,18] y modelos fundacionales retinianos [16].
 
-```
-+---------------------------------------------------------------------------------------------------+
-| FIGURA 2. Distribución temporal de estudios primarios incluidos por año (2016–2026).              |
-| Ubicación en repositorio: estado_del_arte/figuras/fig01_publicaciones_por_ano_escala_grises.png   |
-+---------------------------------------------------------------------------------------------------+
-```
+![Fig. 2. Distribución temporal de estudios primarios incluidos por año](../figuras/fig01_publicaciones_por_ano_escala_grises.png)
 **Fig. 2.** Evolución temporal del número de publicaciones primarias incluidas sobre generalización inter-dominio en glaucoma (2016–2026).  
 *Fuente: Los autores.*
 
@@ -101,12 +91,7 @@ Geográficamente, el liderazgo de la producción corresponde a consorcios de inv
 
 En cuanto a los recursos de datos abiertos (Fig. 3), las colecciones públicas más frecuentemente utilizadas para evaluar la transferencia cruzada son RIM-ONE (en sus variantes v1, v2, v3 y RIM-ONE DL [12]), REFUGE [13], ACRIMA [11] y Drishti-GS, seguidas por bases poblacionales masivas como AIROGS [15], LAG [24] y SMDG-19 [9]. Como se discutirá más adelante, la coexistencia de estas bases con diferentes ángulos de visualización ha sido al mismo tiempo el banco de pruebas idóneo y el generador involuntario de confusión geométrica en la literatura.
 
-```
-+---------------------------------------------------------------------------------------------------+
-| FIGURA 3. Frecuencia de uso de bases de datos públicas de glaucoma en estudios de generalización. |
-| Ubicación en repositorio: estado_del_arte/figuras/fig02_bases_datos_frecuencia_escala_grises.png   |
-+---------------------------------------------------------------------------------------------------+
-```
+![Fig. 3. Frecuencia de uso de bases de datos públicas de glaucoma](../figuras/fig02_bases_datos_frecuencia_escala_grises.png)
 **Fig. 3.** Frecuencia de empleo de bases de datos de retinografías públicas en el entrenamiento y evaluación de los estudios incluidos.  
 *Fuente: Los autores.*
 
@@ -115,12 +100,7 @@ En cuanto a los recursos de datos abiertos (Fig. 3), las colecciones públicas m
 ### 2.4.1 RQ2: Protocolos de evaluación y rigor de generalización
 El análisis de los protocolos de evaluación revela una disparidad metodológica sustancial entre lo que la literatura denomina "generalización" y lo que constituye una evaluación estricta en un dominio verdaderamente no visto (*unseen domain*). Como se ilustra en la Fig. 4, los estudios primarios se distribuyen en cinco esquemas metodológicos: validación cruzada intra-base aleatoria por paciente, evaluación cruzada inter-base (*cross-dataset*), desafíos multicéntricos (*cross-device challenges*), protocolos exhaustivos *leave-one-domain-out* (LODO) y validaciones externas independientes o prospectivas.
 
-```
-+---------------------------------------------------------------------------------------------------+
-| FIGURA 4. Frecuencia de protocolos de evaluación diagnóstica en los estudios primarios.           |
-| Ubicación en repositorio: estado_del_arte/figuras/fig03_protocolos_evaluacion_escala_grises.png   |
-+---------------------------------------------------------------------------------------------------+
-```
+![Fig. 4. Frecuencia de protocolos de evaluación diagnóstica en los estudios primarios](../figuras/fig03_protocolos_evaluacion_escala_grises.png)
 **Fig. 4.** Distribución de protocolos de evaluación diagnóstica en la literatura de deep learning para glaucoma.  
 *Fuente: Los autores.*
 
@@ -146,12 +126,7 @@ Cuando los modelos de aprendizaje profundo se someten a una prueba en un dominio
 
 *Fuente: Los autores a partir de datos curados a texto completo en tablas/extraccion.csv.*
 
-```
-+---------------------------------------------------------------------------------------------------+
-| FIGURA 5. Caída diagnóstica (ΔAUC) reportada por los principales estudios primarios.              |
-| Ubicación en repositorio: estado_del_arte/figuras/fig05_caida_delta_auc_por_estudio_escala_grises.png |
-+---------------------------------------------------------------------------------------------------+
-```
+![Fig. 5. Caída diagnóstica por estudio primario](../figuras/fig05_caida_delta_auc_por_estudio_escala_grises.png)
 **Fig. 5.** Magnitud de la caída de desempeño diagnóstica ($\Delta\text{AUC}$) en estudios primarios evaluados fuera de dominio. La línea punteada marca el umbral crítico de pérdida admisible ($\Delta\text{AUC} = 0,10$).  
 *Fuente: Los autores.*
 
@@ -164,12 +139,7 @@ La caída media reportada a través de las evaluaciones independientes asciende 
 ### 2.4.3 RQ4: Estrategias de mitigación y efectividad comparada
 Las metodologías formuladas para combatir el *domain shift* se dividen conceptualmente en dos grandes escuelas de pensamiento: intervenciones centradas en los datos e intervenciones centradas en el modelo (Fig. 6 y Tabla 2).
 
-```
-+---------------------------------------------------------------------------------------------------+
-| FIGURA 6. Frecuencia de estrategias de mitigación contra el cambio de dominio en la literatura.    |
-| Ubicación en repositorio: estado_del_arte/figuras/fig04_estrategias_mitigacion_escala_grises.png   |
-+---------------------------------------------------------------------------------------------------+
-```
+![Fig. 6. Frecuencia de estrategias de mitigación](../figuras/fig04_estrategias_mitigacion_escala_grises.png)
 **Fig. 6.** Distribución de estrategias de mitigación implementadas en la literatura médica de glaucoma.  
 *Fuente: Los autores.*
 
