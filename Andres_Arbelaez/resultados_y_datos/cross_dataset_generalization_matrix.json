@@ -1,0 +1,83 @@
+{
+    "Monomodal_ACRIMA": {
+        "descripcion": "Entrenado exclusivamente en ACRIMA (Canon CR-DGi, 35\u00b0)",
+        "ACRIMA_Test": {
+            "roc_auc": 0.996,
+            "acc": 0.9811,
+            "sens": 1.0,
+            "spec": 0.9574
+        },
+        "RIM_ONE_Test": {
+            "roc_auc": 0.5828,
+            "acc": 0.5294,
+            "sens": 0.28,
+            "spec": 0.6744
+        },
+        "EyePACS_Real": {
+            "roc_auc": 0.5197,
+            "acc": 0.505,
+            "sens": 0.32,
+            "spec": 0.69
+        },
+        "Moondream_Test": {
+            "roc_auc": 0.641,
+            "acc": 0.595,
+            "sens": 0.44,
+            "spec": 0.75
+        }
+    },
+    "Bicentrico_ACRIMA_RIMONE": {
+        "descripcion": "Entrenado con 2 Fuentes (Canon + Kowa 3D Estereosc\u00f3pico)",
+        "ACRIMA_Test": {
+            "roc_auc": 0.9986,
+            "acc": 0.9811,
+            "sens": 0.9831,
+            "spec": 0.9787
+        },
+        "RIM_ONE_Test": {
+            "roc_auc": 0.9219,
+            "acc": 0.8971,
+            "sens": 0.84,
+            "spec": 0.9302
+        },
+        "EyePACS_Real": {
+            "roc_auc": 0.5512,
+            "acc": 0.535,
+            "sens": 0.41,
+            "spec": 0.66
+        },
+        "Moondream_Test": {
+            "roc_auc": 0.724,
+            "acc": 0.68,
+            "sens": 0.61,
+            "spec": 0.75
+        }
+    },
+    "MegaCohorte_Multisensor": {
+        "descripcion": "Entrenado con 4 Fuentes (Canon + Kowa + EyePACS + Moondream)",
+        "ACRIMA_Test": {
+            "roc_auc": 1.0,
+            "acc": 0.9906,
+            "sens": 1.0,
+            "spec": 0.9787
+        },
+        "RIM_ONE_Test": {
+            "roc_auc": 0.894,
+            "acc": 0.7794,
+            "sens": 0.64,
+            "spec": 0.8605
+        },
+        "EyePACS_Real": {
+            "roc_auc": 0.7314,
+            "acc": 0.66,
+            "sens": 0.68,
+            "spec": 0.64
+        },
+        "Moondream_Test": {
+            "roc_auc": 0.9343,
+            "acc": 0.87,
+            "sens": 0.84,
+            "spec": 0.9
+        }
+    }
+}

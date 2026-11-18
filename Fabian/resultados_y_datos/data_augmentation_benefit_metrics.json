@@ -1,0 +1,17 @@
+{
+    "title": "Evaluaci\u00f3n del Beneficio de Data Augmentation Maligno en Clasificaci\u00f3n de Glaucoma (2 y 3 Clases)",
+    "timestamp": "2026-11-17 21:39:44",
+    "comparison_binary": {
+        "auc_gain": 0.0292,
+        "accuracy_gain": 0.005,
+        "spec_gain": 0.05,
+        "early_sensitivity_gain": -0.08
+    },
+    "comparison_multiclass": {
+        "accuracy_gain": 0.045,
+        "macro_f1_gain": 0.046,
+        "qwk_gain": 0.0931,
+        "catastrophic_error_reduction": 10.24,
+        "projected_auc_gain": 0.0157
+    }
+}

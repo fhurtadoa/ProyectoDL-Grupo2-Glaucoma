@@ -1,0 +1,292 @@
+{
+    "winner_id": "convnext_tiny",
+    "winner_name": "ConvNeXt-Tiny",
+    "checkpoint_path": "C:\\Users\\fabi2\\OneDrive\\Escritorio\\ProyectoDL-Grupo2-Glaucoma\\modelos\\best_fine_tuned_convnext_tiny_glaucoma.pth",
+    "fine_tuning_epochs": 25,
+    "fine_tuning_time_sec": 876.69,
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.26264,
+            "val_loss": 0.25822,
+            "val_auc": 0.9694,
+            "val_acc": 0.9261,
+            "is_best": true
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.19681,
+            "val_loss": 0.25646,
+            "val_auc": 0.9695,
+            "val_acc": 0.9222,
+            "is_best": true
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.19259,
+            "val_loss": 0.25423,
+            "val_auc": 0.9706,
+            "val_acc": 0.9261,
+            "is_best": true
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.15884,
+            "val_loss": 0.26528,
+            "val_auc": 0.9705,
+            "val_acc": 0.9183,
+            "is_best": false
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.15286,
+            "val_loss": 0.26086,
+            "val_auc": 0.9713,
+            "val_acc": 0.9066,
+            "is_best": true
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.15111,
+            "val_loss": 0.25319,
+            "val_auc": 0.9706,
+            "val_acc": 0.9183,
+            "is_best": false
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.1462,
+            "val_loss": 0.27881,
+            "val_auc": 0.9681,
+            "val_acc": 0.9222,
+            "is_best": false
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.11544,
+            "val_loss": 0.2649,
+            "val_auc": 0.9709,
+            "val_acc": 0.9261,
+            "is_best": false
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.12342,
+            "val_loss": 0.26666,
+            "val_auc": 0.9714,
+            "val_acc": 0.9222,
+            "is_best": true
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.12798,
+            "val_loss": 0.26285,
+            "val_auc": 0.9714,
+            "val_acc": 0.9261,
+            "is_best": false
+        },
+        {
+            "epoch": 11,
+            "train_loss": 0.1094,
+            "val_loss": 0.27272,
+            "val_auc": 0.9713,
+            "val_acc": 0.93,
+            "is_best": false
+        },
+        {
+            "epoch": 12,
+            "train_loss": 0.10594,
+            "val_loss": 0.26609,
+            "val_auc": 0.9713,
+            "val_acc": 0.9339,
+            "is_best": false
+        },
+        {
+            "epoch": 13,
+            "train_loss": 0.10361,
+            "val_loss": 0.26861,
+            "val_auc": 0.972,
+            "val_acc": 0.9261,
+            "is_best": true
+        },
+        {
+            "epoch": 14,
+            "train_loss": 0.10329,
+            "val_loss": 0.27699,
+            "val_auc": 0.9719,
+            "val_acc": 0.9339,
+            "is_best": false
+        },
+        {
+            "epoch": 15,
+            "train_loss": 0.10144,
+            "val_loss": 0.26687,
+            "val_auc": 0.9717,
+            "val_acc": 0.93,
+            "is_best": false
+        },
+        {
+            "epoch": 16,
+            "train_loss": 0.08733,
+            "val_loss": 0.29608,
+            "val_auc": 0.9718,
+            "val_acc": 0.9261,
+            "is_best": false
+        },
+        {
+            "epoch": 17,
+            "train_loss": 0.08656,
+            "val_loss": 0.27013,
+            "val_auc": 0.9733,
+            "val_acc": 0.9261,
+            "is_best": true
+        },
+        {
+            "epoch": 18,
+            "train_loss": 0.08325,
+            "val_loss": 0.26188,
+            "val_auc": 0.9731,
+            "val_acc": 0.9377,
+            "is_best": false
+        },
+        {
+            "epoch": 19,
+            "train_loss": 0.08444,
+            "val_loss": 0.2646,
+            "val_auc": 0.9737,
+            "val_acc": 0.93,
+            "is_best": true
+        },
+        {
+            "epoch": 20,
+            "train_loss": 0.08742,
+            "val_loss": 0.26493,
+            "val_auc": 0.9741,
+            "val_acc": 0.93,
+            "is_best": true
+        },
+        {
+            "epoch": 21,
+            "train_loss": 0.08159,
+            "val_loss": 0.27059,
+            "val_auc": 0.9743,
+            "val_acc": 0.9261,
+            "is_best": true
+        },
+        {
+            "epoch": 22,
+            "train_loss": 0.07632,
+            "val_loss": 0.26602,
+            "val_auc": 0.9743,
+            "val_acc": 0.93,
+            "is_best": true
+        },
+        {
+            "epoch": 23,
+            "train_loss": 0.07869,
+            "val_loss": 0.26598,
+            "val_auc": 0.9742,
+            "val_acc": 0.93,
+            "is_best": false
+        },
+        {
+            "epoch": 24,
+            "train_loss": 0.07001,
+            "val_loss": 0.26766,
+            "val_auc": 0.9743,
+            "val_acc": 0.93,
+            "is_best": false
+        },
+        {
+            "epoch": 25,
+            "train_loss": 0.08339,
+            "val_loss": 0.26402,
+            "val_auc": 0.9746,
+            "val_acc": 0.9261,
+            "is_best": true
+        }
+    ],
+    "final_metrics": {
+        "roc_auc": 0.9669,
+        "accuracy": 0.9072,
+        "sensitivity": 0.8868,
+        "specificity": 0.9269,
+        "f1_score": 0.9038,
+        "confusion_matrix": [
+            [
+                203,
+                16
+            ],
+            [
+                24,
+                188
+            ]
+        ],
+        "cohorts": {
+            "ACRIMA": {
+                "auc": 1.0,
+                "acc": 0.9858156028368794,
+                "sens": 1.0,
+                "spec": 0.967741935483871,
+                "cm": [
+                    [
+                        60,
+                        2
+                    ],
+                    [
+                        0,
+                        79
+                    ]
+                ]
+            },
+            "RIM-ONE DL": {
+                "auc": 0.9346092503987241,
+                "acc": 0.8888888888888888,
+                "sens": 0.7878787878787878,
+                "spec": 0.9473684210526315,
+                "cm": [
+                    [
+                        54,
+                        3
+                    ],
+                    [
+                        7,
+                        26
+                    ]
+                ]
+            },
+            "EyePACS": {
+                "auc": 0.94,
+                "acc": 0.825,
+                "sens": 0.65,
+                "spec": 1.0,
+                "cm": [
+                    [
+                        20,
+                        0
+                    ],
+                    [
+                        7,
+                        13
+                    ]
+                ]
+            },
+            "Moondream": {
+                "auc": 0.9356249999999999,
+                "acc": 0.86875,
+                "sens": 0.875,
+                "spec": 0.8625,
+                "cm": [
+                    [
+                        69,
+                        11
+                    ],
+                    [
+                        10,
+                        70
+                    ]
+                ]
+            }
+        }
+    }
+}

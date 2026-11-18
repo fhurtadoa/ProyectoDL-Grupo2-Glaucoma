@@ -1,0 +1,108 @@
+{
+    "test_set_size": 200,
+    "accuracy_global": 0.745,
+    "macro_f1": 0.720915610570783,
+    "weighted_f1": 0.7517978190391983,
+    "confusion_matrix": [
+        [
+            76,
+            17,
+            7
+        ],
+        [
+            4,
+            30,
+            16
+        ],
+        [
+            0,
+            7,
+            43
+        ]
+    ],
+    "class_metrics": {
+        "Sano (Normal)": {
+            "sensibilidad": 0.76,
+            "especificidad": 0.96,
+            "precision": 0.95,
+            "f1": 0.8444444444444444,
+            "roc_auc": 0.9416,
+            "total": 100
+        },
+        "Prematuro (Incipiente)": {
+            "sensibilidad": 0.6,
+            "especificidad": 0.84,
+            "precision": 0.5555555555555556,
+            "f1": 0.576923076923077,
+            "roc_auc": 0.8735999999999999,
+            "total": 50
+        },
+        "Avanzado (Severo)": {
+            "sensibilidad": 0.86,
+            "especificidad": 0.8466666666666667,
+            "precision": 0.6515151515151515,
+            "f1": 0.7413793103448276,
+            "roc_auc": 0.9483999999999999,
+            "total": 50
+        }
+    },
+    "adjacent_errors": 44,
+    "adjacent_error_rate_pct": 22.0,
+    "adjacent_pct_of_all_errors": 86.27450980392157,
+    "catastrophic_errors": 7,
+    "catastrophic_error_rate_pct": 3.5000000000000004,
+    "catastrophic_pct_of_all_errors": 13.725490196078432,
+    "binary_projection": {
+        "roc_auc": 0.9416,
+        "accuracy": 0.83,
+        "sensibilidad": 0.96,
+        "especificidad": 0.7
+    },
+    "external_profiling": {
+        "ACRIMA": {
+            "dataset": "ACRIMA",
+            "total_glaucoma": 394,
+            "glauc_pred_sano": 27,
+            "glauc_pred_early": 136,
+            "glauc_pred_advanced": 231,
+            "glauc_pct_early": 34.51776649746193,
+            "glauc_pct_advanced": 58.629441624365484,
+            "glauc_pct_missed": 6.852791878172589,
+            "total_sano": 309,
+            "sano_pred_sano": 88,
+            "sano_pred_early": 128,
+            "sano_pred_advanced": 93,
+            "sano_specificity": 28.478964401294498
+        },
+        "RIM_ONE": {
+            "dataset": "RIM-ONE DL",
+            "total_glaucoma": 162,
+            "glauc_pred_sano": 27,
+            "glauc_pred_early": 92,
+            "glauc_pred_advanced": 43,
+            "glauc_pct_early": 56.79012345679012,
+            "glauc_pct_advanced": 26.543209876543212,
+            "glauc_pct_missed": 16.666666666666664,
+            "total_sano": 285,
+            "sano_pred_sano": 106,
+            "sano_pred_early": 143,
+            "sano_pred_advanced": 36,
+            "sano_specificity": 37.19298245614035
+        },
+        "EyePACS": {
+            "dataset": "EyePACS Real",
+            "total_glaucoma": 100,
+            "glauc_pred_sano": 59,
+            "glauc_pred_early": 0,
+            "glauc_pred_advanced": 41,
+            "glauc_pct_early": 0.0,
+            "glauc_pct_advanced": 41.0,
+            "glauc_pct_missed": 59.0,
+            "total_sano": 100,
+            "sano_pred_sano": 66,
+            "sano_pred_early": 0,
+            "sano_pred_advanced": 34,
+            "sano_specificity": 66.0
+        }
+    }
+}
