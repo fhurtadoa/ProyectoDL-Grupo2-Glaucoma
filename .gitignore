@@ -34,3 +34,8 @@ data/*.zip
 *.tar.gz
 *.tgz
 
+
+# Large model checkpoints exceeding GitHub 100MB limit
+modelos/*vit_b_16*.pth
+modelos/*swin_t*.pth
+modelos/*convnext_tiny*.pth

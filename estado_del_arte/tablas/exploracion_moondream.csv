@@ -1,0 +1,10 @@
+propiedad,valor_observado,fuente_evidencia,implicacion_metodologica,estado_verificacion
+nombre_identificador,"moondream/glaucoma-detection","Hugging Face Datasets Hub","Identificador en repositorio público de modelos y datos",NO VERIFICADO
+autor_publicador,"Moondream Team (moondream.ai)","Hugging Face Hub (2024)","Equipo desarrollador del Vision-Language Model ligero Moondream",NO VERIFICADO
+proposito_original,"Fine-tuning y benchmarking de modelos VLM (script train_glaucoma_query.py)","Repositorio GitHub de Moondream","No fue creado primariamente como ensayo clínico ni estudio epidemiológico",NO VERIFICADO
+clases_y_estadios,"3 clases: normal, early (glaucoma incipiente), advanced (glaucoma severo)","README de Hugging Face y estructura de carpetas en repo","Coincide exactamente con la taxonomía clínica tripartita de Ahn et al. (2018)",NO VERIFICADO
+tamaño_original_hf,"5.378 imágenes (Train: 2.847, Val: 1.259, Test: 1.272)","API de datasets de Hugging Face","El subconjunto en el repositorio local consta de N=800 imágenes muestreadas",NO VERIFICADO
+resolucion_nativa,"Imágenes cuadradas redimensionadas a 416x416 px, RGB, sin metadatos EXIF","Inspección binaria con PIL Image en data/MOONDREAM_STAGED","Eliminación de metadatos de cabecera impide rastrear la cámara original por EXIF",NO VERIFICADO
+articulo_cientifico_fuente,"Ninguno encontrado en PubMed, Scopus ni Crossref con autoría Moondream","Búsqueda sistemática en bases biomédicas","Carece de publicación indexada peer-reviewed propia que certifique procedencia",NO VERIFICADO
+posible_fuente_primaria_subyacente,"Compilación secundaria de bases públicas/Kaggle o cohorte de Ahn et al. (2018) / REFUGE","Análisis comparativo de distribución y etiquetas tempranas/avanzadas","Requiere ser declarado explícitamente en el artículo como fuente secundaria no verificada",NO VERIFICADO
+recomendacion_rsl,"Excluir como estándar de referencia primario auditado; reportar como cohorte experimental sintética/secundaria","Criterios de rigor Kitchenham 2007 y PRISMA 2020","Transparencia científica total: no adjudicarle validación clínica multicéntrica formal",NO VERIFICADO
