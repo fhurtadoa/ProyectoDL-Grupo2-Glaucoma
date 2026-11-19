@@ -1,9 +1,50 @@
-# Evaluación de la Capacidad de Generalización en Redes Convolucionales Profundas para la Detección y Estadificación de Glaucoma ante Heterogeneidad de Dispositivos y Condiciones de Adquisición
+# Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías
 
 **Proyecto de Investigación — Deep Learning**  
 **Facultad de Minas — Universidad Nacional de Colombia**  
 **Materia:** Deep Learning  
 **Formato de Publicación del Informe Final:** Plantilla de Artículo Científico — Revista DYNA (Facultad de Minas, Universidad Nacional de Colombia)  
+
+---
+
+## 🎯 Delimitación del Objeto de Estudio y Marco Metodológico
+
+* **Objeto Material:** Analizar la capacidad de generalización de clasificadores de glaucoma basados en redes neuronales profundas (arquitecturas convolucionales CNN y, como contraste empírico, transformers de visión) que operan sobre retinografías digitales de fondo de ojo, evaluando tanto el problema de detección binaria (*Sano vs. Glaucoma*) como el de estadificación clínica ordinal (*Sano vs. Incipiente / Temprano vs. Avanzado / Severo*).
+* **Objeto Formal (Perspectiva de Estudio):** La evaluación sistemática del impacto sobre la capacidad de generalización inducido por la heterogeneidad en las condiciones de adquisición (variación inter-instrumental de sensores, fabricantes de cámaras y protocolos de iluminación) y por el encuadre óptico de la imagen (recorte focal del disco óptico a $35^\circ$ FOV frente a campo completo macular a $45^\circ$ FOV) entre la fuente de entrenamiento y la de prueba. Asimismo, se estudian y validan estrategias centradas en los datos (*data-centric AI*) para mitigar dicha degradación: entrenamiento multifuente centralizado, normalización espectral/cromática y aumento agresivo de datos (*Malignant Scale Augmentation*).
+* **Criterio de Evaluación y Enfoque Clínico-Sanitario (TFP vs. TFN):** Sustitución del análisis exclusivo basado en métricas agregadas globales (como ROC-AUC) por una auditoría rigurosa de la **Tasa de Falsos Positivos (TFP / FPR)** y la **Tasa de Falsos Negativos (TFN / FNR)**, analizando formalmente el *tradeoff* clínico y económico:
+  * **Minimización de TFN (Sensibilidad diagnóstica):** Prioridad clínica estricta orientada a evitar falsos negativos (pacientes con glaucoma omitidos que progresan asintomáticamente hacia la ceguera irreversible).
+  * **Minimización de TFP (Especificidad y viabilidad asistencial):** Prioridad de gestión hospitalaria orientada a prevenir la saturación de los servicios de oftalmología especializada provocada por falsas alarmas en ojos sanos.
+  * **Análisis de Punto Operativo:** Calibración sistemática de umbrales de decisión para optimizar el balance costo-beneficio según el escenario de cribado poblacional.
+
+---
+
+## 👥 Estructura y División del Trabajo por Módulos Funcionales
+
+Para maximizar la autonomía y la modularidad del proyecto, el trabajo se encuentra estructurado en tres componentes sinérgicos:
+
+* **Módulo 1 — Estado del Arte y Marco Teórico:**
+  * Revisión Sistemática de Literatura (RSL) reproducible bajo directrices Kitchenham & Charters (2007) y PRISMA 2020.
+  * Formalización del marco teórico: neuropatía óptica glaucomatosa, biomarcadores morfológicos (regla ISNT, excavación/disco) y taxonomía del *domain shift* instrumental en imagenología médica.
+* **Módulo 2 — Ingesta Web, Curaduría de Datasets y Selección de Backbones:**
+  * Adquisición de imágenes web *in-the-wild* (Google Images) y desarrollo de filtros discriminadores de calidad de fondo de ojo para depuración de artefactos y diagramas espurios.
+  * Selección justificada y armonización de datasets científicos de acceso público.
+  * Benchmark comparativo de arquitecturas base convolucionales (ResNet-18, ResNet-50, EfficientNet, MobileNet, ConvNeXt) y de atención visual (Vision Transformers), contrastando parámetros, latencia de inferencia y su comportamiento frente a TFP y TFN.
+* **Módulo 3 — Paradigma de Clasificación (Trinario vs. Binario), Data Augmentation y Análisis de Features Causales:**
+  * Evaluación experimental de esquemas de decisión: Clasificación Binaria vs. Estadificación Clínica Ordinal en tres etapas (Sano, Incipiente, Avanzado), analizando la distribución de errores adyacentes frente a errores catastróficos.
+  * Diseño e implementación de *Data Augmentation* agresivo (*Malignant Scale Augmentation*) para inducir invarianza sintética ante cambios de escala y encuadre.
+  * Análisis forense de características (*features*) en las imágenes determinantes de la degradación por transferencia cruzada (diferencias de ángulo de apertura $35^\circ$ vs. $45^\circ$, dispersión de histogramas cromáticos y densidad textural peripapilar).
+
+---
+
+## ⏱️ Directrices Clave y Compromisos de Entrega
+
+* **Cronograma:** Fecha límite de entrega en la **Semana del 4 de diciembre** (ritmo ágil y avance desacoplado).
+* **Fundamento Metodológico:** Uso indispensable de **Transfer Learning** sobre representaciones preentrenadas en ImageNet, ajustando las capas superiores a la tarea oftalmológica.
+* **Entregables Obligatorios del Proyecto:**
+  1. **Slides / Presentación:** Diapositivas ejecutivas y de alto impacto visual preparadas para la exposición oral y defensa metodológica.
+  2. **Código Fuente y Pipelines Reproducibles:** Implementaciones en PyTorch limpias, comentadas y desacopladas en `scripts/experimentos/`.
+  3. **Documento Formal Corto:** Manuscrito conciso siguiendo estrictamente las directrices y plantilla oficial de la **Revista DYNA** (Facultad de Minas - UNAL).
+  4. **Demostración en Vivo (Live Demo):** Módulo interactivo de inferencia en tiempo real para clasificar retinografías en vivo durante la sustentación.
 
 ---
 
