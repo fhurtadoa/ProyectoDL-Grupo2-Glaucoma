@@ -1,0 +1,725 @@
+
+=== PAGE 1 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+Zachary C. Lipton *12 Yu-Xiang Wang *23 Alexander J. Smola 2
+Abstract
+Faced with distribution shift between training and
+test set, we wish to detect and quantify the shift,
+and to correct our classiﬁers without test set labels.
+Motivated by medical diagnosis, where diseases
+(targets), cause symptoms (observations), we fo-
+cus on label shift, where the label marginal p(y)
+changes but the conditional p(x|y) does not. We
+propose Black Box Shift Estimation (BBSE) to
+estimate the test distribution p(y). BBSE exploits
+arbitrary black box predictors to reduce dimen-
+sionality prior to shift correction. While better
+predictors give tighter estimates, BBSE works
+even when predictors are biased, inaccurate, or un-
+calibrated, so long as their confusion matrices are
+invertible. We prove BBSE’s consistency, bound
+its error, and introduce a statistical test that uses
+BBSE to detect shift. We also leverage BBSE
+to correct classiﬁers. Experiments demonstrate
+accurate estimates and improved prediction, even
+on high-dimensional datasets of natural images.
+1. Introduction
+Assume that in August we train a pneumonia predictor. Our
+features consist of chest X-rays administered in the previous
+year (distribution P ) and the labels binary indicators of
+whether a physician diagnoses the patient with pneumonia.
+We train a model f to predict pneumonia given an X-ray
+image. Assume that in the training set .1% of patients
+have pneumonia. We deploy f in the clinic and for several
+months, it reliably predicts roughly .1% positive.
+Fast-forward to January (distribution Q): Running f on the
+last week’s data, we ﬁnd that 5% of patients are predicted
+to have pneumonia! Because f remains ﬁxed, the shift must
+owe to a change in the marginal p(x), violating the familiar
+*Equal contribution 1Carnegie Mellon University, Pittsburgh,
+PA 2Amazon AI, Palo Alto, CA 3UC Santa Barbara, CA. Cor-
+respondence to: Zachary C. Lipton <zlipton@cmu.edu >, Yu-
+Xiang Wang <yuxiangw@amazon.com>, Alexander J. Smola
+<smola@amazon.com>.
+Proceedings of the 35 th International Conference on Machine
+Learning, Stockholm, Sweden, PMLR 80, 2018. Copyright 2018
+by the author(s).
+iid assumption. Absent familiar guarantees, we wonder: Is
+f still accurate? What’s the real current rate of pneumonia?
+Shouldn’t our classiﬁer, trained under an obsolete prior,
+underestimate pneumonia when uncertain? Thus, we might
+suspect that the real prevalence is greater than 5%.
+Given only labeled training data, and unlabeled test data,
+we desire to: (i) detect distribution shift, (ii) quantify it, and
+(iii) correct our model to perform well on the new data.
+Absent assumptions on how p(y, x) changes, the task is
+impossible. However, under assumptions about what P and
+Q have in common, we can still make headway. Two candi-
+dates are covariate shift (where p(y|x) does not change) and
+label shift (where p(x|y) does not change). Schölkopf et al.
+(2012) observe that covariate shift corresponds to causal
+learning (predicting effects), and label shift to anticausal
+learning (predicting causes).
+We focus on label shift, motivated by diagnosis (diseases
+cause symptoms) and recognition tasks (objects cause sen-
+sory observations). During a pneumonia outbreak, p(y|x)
+(e.g. ﬂu given cough) might rise but the manifestations of
+the disease p(x|y) might not change. Formally, under label
+shift, we can factorize the target distribution as
+q(y, x)=q(y)p(x|y).
+By contrast, under the covariate shift assumption, q(y, x)=
+q(x)p(y|x), e.g. the distribution of radiologic ﬁndings
+p(x) changes, but the conditional probability of pneumonia
+p(y|x) remains constant. To see how this can go wrong,
+consider: what if our only feature were cough? Normally,
+cough may not (strongly) indicate pneumonia. But during an
+epidemic, P(pneumonia|cough) might go up substantially.
+Despite its importance, label shift is comparatively under-
+investigated: perhaps because given samples from both p(x)
+and q(x), quantifying q(x)/p(x) is more intuitive.
+We introduce Black Box Shift Estimation (BBSE) to esti-
+mate label shift using a black box predictor f . BBSE esti-
+mates the ratios wl = q(yl)/p(yl) for each label l, requiring
+only that the expected confusion matrix is invertible 1.We
+estimate ˆw by solving a linear system Ax = b where A is
+the confusion matrix of f estimated on training data (from
+1 For degenerate confusion matrices, a variant using soft pre-
+dictions may be preferable.
+=== PAGE 2 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+P) and b is the average output of f calculated on test samples
+(from Q). We make the following contributions:
+1. Consistency and error bounds for BBSE.
+2. Applications of BBSE to statistical tests for detecting
+distribution label shift
+3. Model correction through importance-weighted Empir-
+ical Risk Minimization.
+4. A comprehensive empirical validation of BBSE.
+Compared to approaches based on Kernel Mean Matching
+(KMM) (Zhang et al., 2013), EM (Chan & Ng, 2005), and
+Bayesian inference (Storkey, 2009), BBSE offers the fol-
+lowing advantages: (i) Accuracy does not depend on data
+dimensionality; (ii) Works with arbitrary black box predic-
+tors, even biased, uncalibrated, or inaccurate models; (iii)
+Exploits advances in deep learning while retaining theoret-
+ical guarantees: better predictors provably lower sample
+complexity; and (iv) Due to generality, could be a standard
+diagnostic / corrective tool for arbitrary ML models.
+2. Prior Work
+Despite its wide applicability, learning under label shift
+with unknown q(y) remains curiously under-explored. Not-
+ing the difﬁculty of the problem, Storkey (2009) proposes
+placing a (meta-)prior over p(y) and inferring the poste-
+rior distribution from unlabeled test data. Their approach
+requires explicitly estimating p(x|y), which may not be fea-
+sible in high-dimensional datasets. Chan & Ng (2005) infer
+q(y) using EM but their method also requires estimating
+p(x|y). Schölkopf et al. (2012) articulates connections be-
+tween label shift and anti-causal learning and Zhang et al.
+(2013) extend the kernel mean matching approach due to
+(Gretton et al., 2009) to the label shift problem. When q(y)
+is known, label shift simpliﬁes to the problem of changing
+base rates (Bishop, 1995; Elkan, 2001). Previous methods
+require estimating q(x), q(x)/p(x), or p(x|y), often rely-
+ing on kernel methods, which scale poorly with dataset size
+and underperform on high-dimensional data.
+Covariate shift, also called sample selection bias, is well-
+studied (Zadrozny, 2004; Huang et al., 2007; Sugiyama
+et al., 2008; Gretton et al., 2009). Shimodaira (2000) pro-
+posed correcting models via weighting examples in ERM
+by q(x)/p(x). Later works estimate importance weights
+from the available data, e.g., Gretton et al. (2009) propose
+kernel mean matching to re-weight training points.
+The earliest relevant work to ours comes from econometrics
+and addresses the use of non-random samples to estimate
+behavior. Heckman (1977) addresses sample selection bias,
+while (Manski & Lerman, 1977) investigates estimating
+parameters under choice-based and endogenous stratiﬁed
+sampling, cases analogous to a shift in the label distribution.
+Also related, Rosenbaum & Rubin (1983) introduce propen-
+sity scoring to design unbiased experiments. Finally, we
+note a connection to cognitive science work showing that
+humans classify items differently depending on other items
+they appear alongside (Zhu et al., 2010).
+Post-submission, we learned of antecedents for our estima-
+tor in epidemiology (Buck et al., 1966) and revisited by
+Forman (2008); Saerens et al. (2002). These papers do not
+develop our theoretical guarantees or explore the modern
+ML setting where x is massively higher-dimensional than
+y, bolstering the value of dimensionality reduction.
+3. Problem setup
+We use x 2X = Rd and y 2Yto denote the feature
+and label variables. For simplicity, we assume that Y is
+a discrete domain equivalent to {1, 2,...,k}. Let P, Q be
+the source and target distributions deﬁned on X⇥Y.We
+use p, q to denote the probability density function (pdf) or
+probability mass function (pmf) associated with P and Q
+respectively. The random variable of interest is clear from
+context. For example, p(y) is the p.m.f. of y ⇠ P and q(x)
+is the p.d.f. of x ⇠ Q. Moreover, p(y = i) and q(y = i)
+are short for PP (y = i) and PQ(y = i) respectively, where
+P(S):=E[1(S)] denotes the probability of an event S and
+E[·] denotes the expectation. Subscripts P and Q on these
+operators make the referenced distribution clear.
+In standard supervised learning, the learner observes train-
+ing data (x1,y1), (x2,y2),...,(xn,yn) drawn iid from a
+training (or source) distribution P . We denote the collection
+of feature vectors by X 2 Rn⇥d and the label by y. Under
+Domain Adaptation (DA), the learner additionally observes
+a collection of samples X0 =[x0 1; ...; x0 m] drawn iid from
+a test (or target) distribution Q. Our objective in DA is to
+predict well for samples drawn from Q.
+In general, this task is impossible – P and Q might not share
+support. This paper considers 3 extra assumptions:
+A.1 The label shift (also known as target shift) assumption
+p(x|y)=q(x|y) 8 x 2X,y2Y.
+A.2 For every y 2Ywith q(y) > 0 we require p(y) > 0.2
+A.3 Access to a black box predictor f : X!Ywhere the
+expected confusion matrix Cp(f ) is invertible.
+CP (f ):=p(f (x),y) 2 R|Y|⇥|Y|
+We now comment on the assumptions. A.1 corresponds
+to anti-causal learning. This assumption is strong but rea-
+sonable in many practical situations, including medical di-
+agnosis, where diseases cause symptoms. It also applies
+2Assumes the absolute continuity of the (hidden) target label’s
+distribution with respect to the source’s, i.e. dq(y)/dp(y) exists.
+=== PAGE 3 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+when classiﬁers are trained on non-representative class dis-
+tributions: Note that while visions systems are commonly
+trained with balanced classes (Deng et al., 2009), the true
+class distribution for real tasks is rarely uniform.
+Assumption A.2 addresses identiﬁability, requiring that the
+target label distribution’s support be a subset of training dis-
+tribution’s. For discrete Y, this simply means that the train-
+ing data should contain examples from every class.
+Assumption A.3 requires that the expected predictor outputs
+for each class be linearly independent. This assumption
+holds in the typical case where the classiﬁer predicts class
+yi more often given images actually belong to yi than given
+images from any other class yj . In practice, f could be a
+neural network, a boosted decision-tree or any other clas-
+siﬁer trained on a holdout training data set. We can verify
+at training time that the empirical estimated normalized
+confusion matrix is invertible. Assumption A.3 generalizes
+naturally to soft-classiﬁers, where f outputs a probability
+distribution supported on Y. Thus BBSE can be applied
+even when the confusion matrix is degenerate.
+We wish to estimate w(y):=q(y)/p(y) for every y 2
+Y with training data, unlabeled test data and a pre-
+dictor f . This estimate enables DA techniques under
+the importance-weighted ERM framework, which solves
+min Pn i=1 wi`(yi, xi), using wi = q(xi,yi)/p(xi,yi).
+Under the label shift assumption, the importance weight
+wi = q(yi)/p(yi). This task isn’t straightforward because
+we don’t observe samples from q(y).
+4. Main results
+We now derive the main results for estimating w(y) and q(y).
+Assumption A.1 has the following implication:
+Lemma 1. Denote by ˆy = f (x) the output of a ﬁxed func-
+tion f : X!Y. If Assumption A.1 holds, then
+q(ˆy|y)=p(ˆy|y).
+The proof is simple: recall that ˆy depends on y only via x.
+By A.1, p(x|y)=q(x|y) and thus q(ˆy|y)=p(ˆy|y).
+Next, combine the law of total probability and Lemma 1
+and we arrive at
+q(ˆy)=
+X
+y2Y
+q(ˆy|y)q(y)
+=
+X
+y2Y
+p(ˆy|y)q(y)=
+X
+y2Y
+p(ˆy, y) q(y) p(y) . (1)
+We estimate p(ˆy|y) and p(ˆy, y) using f and data from source
+distribution P , and q(ˆy) with unlabeled test data drawn
+from target distribution Q. This leads to a novel method-of-
+moments approach for consistent estimation of the shifted
+label distribution q(y) and the weights w(y).
+Without loss of generality, we assume Y = {1, 2,...,k}.
+Denote by ⌫y , ⌫ ˆy , ˆ⌫ ˆy , µy , µˆy , ˆµˆy , w 2 Rk moments of p,
+q, and their plug-in estimates, deﬁned via
+[⌫y ]i = p(y = i)[µy ]i = q(y = i)
+[⌫ ˆy ]i = p(f (x)=i)[µˆy ]i = q(f (x)=i)
+[ˆ⌫ ˆy ]i =
+P
+j
+ {f (xj )=i}
+n [ ˆµˆy ]i =
+P
+j
+ {f (x0 j )=i}
+m
+and [w]i = q(y = i)/p(y = i). Lastly deﬁne the covari-
+ance matrices Cˆy,y, Cˆy|y and ˆCˆy,y in Rk⇥k via
+[Cˆy,y]ij = p(f (x)=i, y = j)
+[Cˆy|y ]ij = p(f (x)=i|y = j)
+[ ˆCˆy,y]ij = 1 n X l
+ {f (xl)=i and yl = j}
+We can now rewrite Equation (1) in matrix form:
+µˆy = Cˆy|y µy = Cˆy,yw
+Using plug-in maximum likelihood estimates of the above
+quantities yields the estimators
+ˆw = ˆC 1 ˆy,y ˆµˆy and ˆµy = diag(ˆ⌫y ) ˆw,
+where ˆ⌫y is the plug-in estimator of ⌫y .
+Next, we establish that the estimators are consistent.
+Proposition 2 (Consistency). If Assumption A.1, A.2, A.3
+are true, then as n, m !1, ˆw a.s.  ! w and ˆµy a.s.  ! µy .
+The proof (see Appendix B) uses the First Borel-Cantelli
+Lemma to show that the probability that the entire sequence
+of empirical confusion matrices with data size n +1,...,1
+are simultaneously invertible converges to 1, thereby en-
+abling us to use the continuous mapping theorem after
+applying the strong law of large numbers to each compo-
+nent.
+We now address our estimators’ convergence rates.
+Theorem 3 (Error bounds). Assume that A.3 holds robustly.
+Let  min be the smallest eigenvalue of Cˆy,y. There exists a
+constant C>0 such that for all n>80 log(n)  2 min, with
+probability at least 1   3kn 10   2km 10 we have
+k ˆw   wk2 2  C  2 min
+✓ kwk2 log n
+n + k log m m ◆ (2)
+k ˆµy   µy k2  Ckwk2 log n n + k⌫y k2 1k ˆw   wk2 2 (3)
+The bounds give practical insights (explored more in Sec-
+tion 7). In (2), the square error depends on the sample size
+and is proportional to 1/n (or 1/m). There is also a kwk2
+=== PAGE 4 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+term that reﬂects how different the source and target dis-
+tributions are. In addition,  min reﬂects the quality of the
+given classiﬁer f . For example, if f is a perfect classiﬁer,
+then  min =miny2Y p(y). If f cannot distinguish between
+certain classes at all, then Cˆy,y will be low-rank,  min =0,
+and the technique is invalid, as expected.
+We now parse the error bound of ˆµy in (3). The ﬁrst term
+kwk2/n is required even if we observe the importance
+weight w exactly. The second term captures the additional
+error due to the fact that we estimate w with predictor f .
+Note that k⌫y k2 1  1 and can be as small as 1/k2 when
+p(y) is uniform. Note that when f correctly classiﬁes each
+class with the same probability, e.g. 0.5, then k⌫y k2/ 2 min
+is a constant and the bound cannot be improved.
+Proof of Theorem 3. Assumption A.2 ensures that w < 1.
+ˆw = ˆC 1 ˆy,y ˆµˆy =(Cˆy,y + E1) 1(µˆy + E2)
+= w +[(Cˆy,y + E1) 1   C 1 ˆy,y]µˆy +(Cˆy,y + E1) 1E2
+By completing the square and Cauchy-Schwartz inequality,
+k ˆw   wk2  2µT ˆy [(Cˆy,y + E1) 1
+  C 1 ˆy,y]T [(Cˆy,y + E1) 1   C 1 ˆy,y]µˆy
++2E2[(Cˆy,y + E1) 1]T (Cˆy,y + E1) 1E2.
+By Woodbury matrix identity, we get that
+ˆC 1 ˆy,y = C 1 ˆy,y + C 1 ˆy,y[E 1 1 + C 1 ˆy,y] 1C 1 ˆy,y.
+Substitute into the above inequality and use (1) we get
+k ˆw   wk2 2w n [E 1 1 + C 1 ˆy,y] 1 oT [C 1 ˆy,y]T ⇥ (4)
+C 1 ˆy,y[E 1 1 + C 1 ˆy,y] 1w
++2ET 2 [(Cˆy,y + E1) 1]T (Cˆy,y + E1) 1E2
+We now provide a high probability bound on the Euclidean
+norm of E2, the operator norm of E1, which will give us an
+operator norm bound of [E 1 1 +C 1 ˆy,y] 1 and (Cˆy,y +E1) 1
+under our assumption on n, and these will yield a high
+probability bound on the square estimation error.
+Operator norm of E1. Note that ˆCˆy,y =
+1
+n
+Pn
+i=1 ef (xi )eT yi , where ey is the standard basis with 1 at
+the index of y 2Yand 0 elsewhere. Clearly, Eef (xi )eT yi =
+Cˆy,y. Denote Zi := ef (xi )eT yi   Cˆy,y. Check that kZik2 
+kZikF kZik1,1  2, max{kE[ZiZT i ]k, kE[ZT i Zi]k} 
+1, by matrix Bernstein inequality (Lemma 7) we have for all
+t   0:
+P(kE1k t/n)  2ke  t2 n+2t/3 .
+Take t = p20n log n and use the assumption that n  
+4 log n/9 (which holds under our assumption on n since
+ min < 1). Then with probability at least 1   2kn 10
+kE1k
+r
+20 log n
+n .
+Using the assumption on n, we have kE1k min/2
+k[E 1 1 + C 1 ˆy,y] 1k2kE1k 2p20 log npn .
+Also, we have k(Cˆy,y + E1) 1k 2  min .
+Euclidean norm of E2. Note that [E2]l =
+1
+m
+Pm
+i=1 1(f (x0 i)=l)   q(f (x0 i)=l). By the standard
+Hoeffding’s inequality and union bound argument, we have
+that with probability larger than 1   2km 10
+kE2k = kµˆy   ˆµˆy k2 
+p10k log mpm
+Substitute into Equation 4, we get
+k ˆw   wk2  80 log n  2 minn kwk2 + 80k log m  2 minm , (5)
+which holds with probability 1   2kn 10   2km 10.We
+now turn to ˆµy . Recall that ˆµy = diag(ˆ⌫y ) ˆw. Let the
+estimation error of ˆ⌫y be E0.
+ˆµy =µy + diag(E0)w + diag(⌫y )( ˆw   w)
++ diag(E0)( ˆw   w).
+By Hoeffding’s inequality kE0k1 
+q
+20 log n
+n with proba-
+bility larger than 1   kn 10. Combining with (5) yields
+k ˆµy  µy k2  20kwk2 log n n +k⌫y k2 1k ˆw wk2 +O( 1 n2 )
+which holds with probability 1   3kn 10   2km 10.
+5. Application of the results
+5.1. Black Box Shift Detection (BBSD)
+Formally, detection can be cast as a hypothesis testing prob-
+lem where the null hypothesis is H0 : q(y)=p(y) and the
+alternative hypothesis is that H1 : q(y) 6= p(y). Recall that
+we observe neither q(y) nor any samples from it. However,
+we do observe unlabeled data from the target distribution
+and our predictor f .
+Proposition 4 (Detecting label-shift). Under Assumption
+A.1, A.2 and for each classiﬁer f satisfying A.3 we have that
+q(y)=p(y) if and only if p(ˆy)=q(ˆy).
+Proof. Plug P and Q into (1) and apply Lemma 1 with as-
+sumption A.1. The result follows directly from our analysis
+in the proof of Proposition 2 that shows p(ˆy, y) is invertible
+under the assumptions A.2 and A.3.
+Thus, under weak assumptions, we can test H0 by running
+two-sample tests on readily available samples from p(ˆy)
+=== PAGE 5 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+(a) CDF of p-value at   =0
+ (b) CDF of p-value at   =0.6
+ (c) Power at ↵ =0.05
+Figure 1. Label-shift detection on MNIST. Pane 1a illustrates that Type I error is correctly controlled absent label shift. Pane 1b illustrates
+high power under mild label-shift. Pane 1c shows increased power for better classiﬁers. We compare to kernel two-sample tests (Zaremba
+et al., 2013) and an (infeasible) oracle two sample test that directly tests p(y)=q(y) with samples from each. The proposed test beats
+directly testing in high-dimensions and nearly matches the oracle.
+and q(ˆy). Examples include the Kolmogorov-Smirnoff test,
+Anderson-Darling or the Maximum Mean Discrepancy. In
+all tests, asymptotic distributions are known and we can
+almost perfectly control the Type I error. The power of the
+test (1-Type II error) depends on the classiﬁer’s performance
+on distribution P , thereby allowing us to leverage recent
+progress in deep learning to attack the classic problem of
+detecting non-stationarity in the data distribution.
+One could also test whether p(x)=q(x). Under the label-
+shift assumption this is implied by q(y)=p(y). The advan-
+tage of testing the distribution of f (x) instead of x is that we
+only need to deal with a one-dimensional distribution. Per
+theory and experiments in (Ramdas et al., 2015) two-sample
+tests in high dimensions are exponentially harder.
+One surprising byproduct is that we can sometimes use this
+approach to detect covariate-shift, concept-shift, and more
+general forms of nonstationarity.
+Proposition 5 (Detecting general nonstationarity). For any
+ﬁxed measurable f : X!Y
+P = Q =) p(x)=q(x)=) p(ˆy)=q(ˆy).
+This follows directly from the measurability of f .
+While the converse is not true in general, p(ˆy)=q(ˆy) does
+imply that for every measurable S⇢Y,
+q(x 2 f  1(S)) = p(x 2 f  1(S)).
+This suggests that testing ˆH0 : p(ˆy)=q(ˆy) may help us
+to determine if there’s sufﬁcient statistical evidence that
+domain adaptation techniques are required.
+5.2. Black Box Shift Correction (BBSC)
+Our estimator also points to a systematic method of correct-
+ing for label-shift via importance-weighted ERM. Speciﬁ-
+cally, we propose the following algorithm:
+Algorithm 1 Domain adaptation via Label Shift
+input Samples from source distribution X, y. Unlabeled
+data from target distribution X0. A class of classiﬁers F.
+Hyperparameter 0 < <1/k.
+1. Randomly split the training data into two X1,X2 2
+Rn/2⇥d and y1, y2Rn/2.
+2. Use X1, y1 to train the classiﬁer and obtain f 2F.
+3. On the hold-out data set X2, y2, calculate the confu-
+sion matrix ˆCˆy,y. If ,
+if  min
+⇣
+ˆCˆy,y
+⌘
+  then
+Set ˆw = 1.
+else
+Estimate ˆw = ˆC 1 ˆy,y ˆµˆy .
+end if
+4. Solve the importance weighted ERM on the X1, y1
+with max( ˆw, 0) and obtain ˜f .
+output ˜f
+Note that for classes that occur rarely in the test set, BBSE
+may produce negative importance weights. During ERM, a
+ﬂipped sign would cause us to maximize loss, which is un-
+bounded above. Thus, we clip negative weights to 0.
+Owing to its efﬁcacy and generality, our approach can serve
+as a default tool to deal with domain adaptation. It is one of
+the ﬁrst things to try even when the label-shift assumption
+doesn’t hold. By contrast, the heuristic method of using
+logistic-regression to construct importance weights (Bickel
+et al., 2009) lacks theoretical justiﬁcation that the estimated
+weights are correct.
+Even in the simpler problem of average treatment effect
+(ATE) estimation, it’s known that using estimated propen-
+=== PAGE 6 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+Figure 2. Estimation error (top row) and correction accuracy (bottom row) vs dataset size on MNIST data compared to KMM (Zhang
+et al., 2013) under Dirichlet shift (left to right) with ↵ = {.1, 1.0, 10.0} (smaller ↵ means larger shift). BBSE conﬁdence interval on 20
+runs, KMM on 5 runs due to computation; n =8000is largest feasible KMM experiment.
+sity can lead to estimators with large variance (Kang &
+Schafer, 2007). The same issue applies in supervised learn-
+ing. We may prefer to live with the biased solution from the
+unweighted ERM rather than suffer high variance from an
+unbiased weighted ERM. Our proposed approach offers a
+consistent low-variance estimator under label shift.
+6. Experiments
+We experimentally demonstrate the power of BBSE with
+real data and simulated label shift. We organize results into
+three categories — shift detection with BBSD, weight es-
+timation with BBSE, and classiﬁer correction with BBSC.
+BBSE-hard denotes our method where f yields classiﬁca-
+tions. In BBSE-soft, f outputs probabilities.
+Label Shift Simulation To simulate distribution shift in
+our experiments, we adopt the following protocols: First,
+we split the original data into train, validation, and test
+sets. Then, given distributions p(y) and q(y), we generate
+each set by sampling with replacement from the appropriate
+split. In knock-out shift, we knock out a fraction  of data
+points from a given class from training and validation sets.
+In tweak-one shift, we assign a probability ⇢to one of the
+classes, the rest of the mass is spread evenly among the other
+classes. In Dirichlet shift, we draw p(y) from a Dirichlet
+distribution with concentration parameter ↵. With uniform
+p(y), Dirichlet shift is bigger for smaller ↵.
+Label-shift detection We conduct nonparametric two-
+sample tests as described in Section 5.1 using the MNIST
+handwritten digits data set. To simulate the label-shift, we
+randomly split the training data into a training set, a vali-
+dating set and a test set, each with 20,000 data points, and
+apply knock-out shift on class y =53. Note that p(y)
+and q(y) differ increasingly as  grows large, making shift
+detection easier. We obtain f by training a two-layer ReLU-
+activated Multilayer Perceptron (MLP) with 256 neurons on
+the training set for ﬁve epochs. We conduct a two-sample
+test of whether the distribution of f (Validation Set) and
+f (Test Set) are the same using the Kolmogorov-Smirnov
+test. The results, summarized in Figure 1, demonstrate that
+BBSD (1) produces a p-value that distributes uniformly
+when  =04 (2) provides more power (less Type II error)
+3Random choice for illustration, method works on all classes.
+4Thus we can control Type I error at any signiﬁcance level.
+=== PAGE 7 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+Figure 3. Label-shift estimation and correction on MNIST data with simulated tweak-one shift with parameter ⇢.
+than the state-of-the-art kernel two-sample test that discrim-
+inates p(x) and q(x) at   =0.5, and (3) gets better as we
+train the black-box predictor even more.
+Weight estimation and label-shift correction We evalu-
+ate BBSE on MNIST by simulating label shift and datasets
+of various sizes. Speciﬁcally, we split the training data set
+randomly in two, using ﬁrst half to train f and the second
+half to estimate w. We use then use the full training set for
+weighted ERM. As before, f is a two-layer MLP. For fair
+comparisons with baselines, the full training data set is used
+throughout (since they do not need f without data splitting).
+We evaluate our estimator ˆw against the ground truth w and
+by the prediction accuracy of BBSC on the test set. To cover
+a variety of different types of label-shift, we take p(y) as a
+uniform distribution and generate q(y) with Dirichlet shift
+for ↵=0.1, 1.0, 10.0 (Figure 2).
+Label-shift correction for CIFAR10 Next, we extend
+our experiments to the CIFAR dataset, using the same
+MLP and this time allowing it to train for 10 epochs. We
+consider both tweak-one and Dirichlet shift, and compare
+BBSE to the unweighted classiﬁer under varying degrees
+of shift (Figure 4). For the tweak-one experiment, we try
+⇢2{0.0, 0.1,...,1.0}, averaging results over all 10 choices
+of the tweaked label, and plotting the variance. For the
+Dirichlet experiments, we sample 20 q(y) for every choice
+of ↵in the range {1000, 100, ..., .001}. Because kernel-
+based baselines cannot handle datasets this large or high-
+dimensional, we compare only to unweighted ERM.
+Kernel mean matching (KMM) baselines We compare
+BBSE to the state-of-the-art kernel mean matching (KMM)
+methods. For the detection experiments (Figure 1), our base-
+line is the kernel B-test (Zaremba et al., 2013), an extension
+of the kernel max mean discrepancy (MMD) test due to
+Gretton et al. (2012) that boasts nearly linear-time computa-
+tion and little loss in power. We compare BBSE to a KMM
+approach Zhang et al. (2013), that solves
+min
+w
+kCx|y (⌫y   w)   µxk2 H,
+where we use operator Cx|y := E[ (x)| (y)] and function
+µx := EQ[ (x)] to denote the kernel embedding of p(x|y)
+and pQ(x) respectively. Note that under the label-shift as-
+sumption, Cx|y is the same for P and Q. Also note that
+since Y is discrete,  (y) is simply the one-hot representa-
+tion of y, so ⌫y is the same as our deﬁnition before and
+Cx|y , ⌫y and µx must be estimated from ﬁnite data. The
+proposal involves a constrained optimization by solving a
+Gaussian process regression with automatic hyperparameter
+choices through marginal likelihood.
+=== PAGE 8 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+Figure 4.Accuracy of BBSC on CIFAR 10 with (top) tweak-one
+shift and (bottom) Dirichlet shift.
+For fair comparison, we used the original authors’ imple-
+mentations as baselines5and also used themedian trickto
+adaptively tune the RBF kernel’s hyperparameter.A key
+differenceis thatBBSEmatches the distribution ofˆyrather
+than distribution ofxlike (Zhang et al.,2013) and we learn
+fthrough supervised learning rather than by specifying a
+feature map by choosing a kernel up front.
+Note that KMM, like many kernel methods, requires the
+construction and inversion of ann⇥nGram matrix, which
+has complexity ofO(n3). This hinders its application to
+real-life machine learning problems wherenwill often be
+100s of thousands. In our experiments, we ﬁnd that the
+largestnfor which we can feasibly run the KMM code is
+roughly8,000and that is where we unfortunately have to
+stop for the MNIST experiment. For the same reason, we
+cannot run KMM for the CIFAR10 experiments. The MSE
+curves in Figure2for estimatingwsuggest that the conver-
+gence rate of KMM is slower thanBBSEby a polynomial
+factor and thatBBSEbetter handles large datasets.
+5https://github.com/wojzaremba/btest,
+http://people.tuebingen.mpg.de/kzhang/
+Code-TarS.zip
+7. Discussion
+Constructing the training SetThe error bounds on our
+estimates depend on the norm of the true vectorw(y):=
+q(y)/p(y). This conﬁrms the common sense that absent any
+assumption onq(y), and given the ability to select class-
+conditioned examples for annotations one should build a
+dataset with uniformp(y). Then it’s always possible to
+apply BBSE successfully at test time to correctf.
+Sporadic ShiftIn some settings,p(y)might change only
+sporadically. In these cases, when no label shift occurs,
+applying BBSC might damage the classiﬁer. For these cases,
+we prose to combine detection and estimation, correcting
+the classiﬁer only when a shift has likely occurred.
+Using known predictorIn our experiments,fhas been
+trained using a random split of the data set, which makes
+BBSEto perform worse than baseline when the data set is
+extremely small. In practice, especially in the context of web
+services, there could be a natural predictorfthat is currently
+being deployed whose training data were legacy and have
+little to do with the two distributions that we are trying to
+distinguish. In this case, we do not lose that factor of2and
+we do not suffer from the variance in trainingfwith a small
+amount of data. This could allow us to detect mild shift in
+distributions in very short period of time. Making it suitable
+for applications such as ﬁnancial market prediction.
+BBSE with degenerate confusion matricesIn practice,
+sometime confusion matrices will be degenerate. For in-
+stance, when a classiis rare underP, and the features
+are only partially predictive, we might ﬁnd thatp(f(x)=
+i)=0. In these cases, two straightforward variations on the
+black box method may still work: First, while our anal-
+ysis focuses on confusion matrices, it easily extends to
+any operatorf, such as soft probabilities. If each class
+i, even ifiis never the argmax for any example, so long
+asp(ˆy=i|y=i)>p(ˆy=i|y=j)for anyj6=i, the
+soft confusion matrix will be invertible. Even when we
+produce and operator with an invertible confusion matrix,
+two options remain: We can mergecclasses together, yield-
+ing a(k c)⇥(k c)invertible confusion matrix. While
+we might not be able to estimate the frequencies of those
+cclasses, we can estimate the others accurately. Another
+possibility is to compute the pseudo-inverse.
+Future WorkAs a next step, we plan to extend our method-
+ology to the streaming setting. In practice, label distribu-
+tions tend to shift progressively, presenting a new challenge:
+if we applyBBSEon trailing windows, then we face a trade-
+off. Looking far back increasesm, lowering estimation error,
+but the estimate will be less fresh. The use of propensity
+weightswonymakesBBSEamenable to doubly-robust
+estimates, the typical bias-variance tradeoff, and related
+techniques, common in covariate shift correction.
+=== PAGE 9 ===
+Detecting and Correcting for Label Shift with Black Box Predictors
+Acknowledgments
+We are grateful for extensive insightful discussions and
+feedback from Kamyar Azizzadenesheli, Kun Zhang, Arthur
+Gretton, Ashish Khetan Kumar, Anima Anandkumar, Julian
+McAuley, Dustin Tran, Charles Elkan, Max G’Sell, Alex
+Dimakis, Gary Marcus, and Todd Gureckis.
+References
+Bickel, S., Brückner, M., & Scheffer, T. (2009). Discrimina-
+tive learning under covariate shift. Journal of Machine
+Learning Research, 10(Sep), 2137–2155.
+Bishop, C. M. (1995). Neural networks for pattern recogni-
+tion. Oxford university press.
+Buck, A., Gart, J., et al. (1966). Comparison of a screening
+test and a reference test in epidemiologic studies. ii. a
+probabilistic model for the comparison of diagnostic tests.
+American Journal of Epidemiology.
+Chan, Y. S., & Ng, H. T. (2005). Word sense disambiguation
+with distribution estimation. In Proceedings of the 19th
+international joint conference on Artiﬁcial intelligence,
+(pp. 1010–1015). Morgan Kaufmann Publishers Inc.
+Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei,
+L. (2009). Imagenet: A large-scale hierarchical image
+database. In CVPR.
+Elkan, C. (2001). The foundations of cost-sensitive learning.
+In IJCAI.
+Forman, G. (2008). Quantifying counts and costs via classi-
+ﬁcation. Data Mining and Knowledge Discovery.
+Gretton, A., Borgwardt, K. M., Rasch, M. J., Schölkopf, B.,
+& Smola, A. (2012). A kernel two-sample test. Journal
+of Machine Learning Research, 13(Mar), 723–773.
+Gretton, A., Smola, A. J., Huang, J., Schmittfull, M., Borg-
+wardt, K. M., & Schölkopf, B. (2009). Covariate shift
+by kernel mean matching. Journal of Machine Learning
+Research.
+Heckman, J. J. (1977). Sample selection bias as a speciﬁca-
+tion error (with an application to the estimation of labor
+supply functions).
+Huang, J., Gretton, A., Borgwardt, K. M., Schölkopf, B.,
+& Smola, A. J. (2007). Correcting sample selection bias
+by unlabeled data. In Advances in neural information
+processing systems.
+Kang, J. D., & Schafer, J. L. (2007). Demystifying dou-
+ble robustness: A comparison of alternative strategies
+for estimating a population mean from incomplete data.
+Statistical science, 22(4), 523–539.
+Manski, C. F., & Lerman, S. R. (1977). The estimation of
+choice probabilities from choice based samples. Econo-
+metrica: Journal of the Econometric Society.
+Ramdas, A., Reddi, S. J., Póczos, B., Singh, A., & Wasser-
+man, L. A. (2015). On the decreasing power of kernel
+and distance based nonparametric hypothesis tests in high
+dimensions. In AAAI, (pp. 3571–3577).
+Rosenbaum, P. R., & Rubin, D. B. (1983). The central role
+of the propensity score in observational studies for causal
+effects. Biometrika, 70(1), 41–55.
+Saerens, M., Latinne, P., & Decaestecker, C. (2002). Adjust-
+ing the outputs of a classiﬁer to new a priori probabilities:
+a simple procedure. Neural computation, 14(1), 21–41.
+Schölkopf, B., Janzing, D., Peters, J., Sgouritsa, E., Zhang,
+K., & Mooij, J. (2012). On causal and anticausal learning.
+In International Coference on International Conference
+on Machine Learning (ICML-12), (pp. 459–466). Omni-
+press.
+Shimodaira, H. (2000). Improving predictive inference un-
+der covariate shift by weighting the log-likelihood func-
+tion. Journal of statistical planning and inference.
+Storkey, A. (2009). When training and test sets are different:
+characterizing learning transfer. Dataset shift in machine
+learning.
+Sugiyama, M., Nakajima, S., Kashima, H., Buenau, P. V.,
+& Kawanabe, M. (2008). Direct importance estimation
+with model selection and its application to covariate shift
+adaptation. In Advances in neural information processing
+systems.
+Zadrozny, B. (2004). Learning and evaluating classiﬁers
+under sample selection bias. In Proceedings of the twenty-
+ﬁrst international conference on Machine learning, (p.
+114). ACM.
+Zaremba, W., Gretton, A., & Blaschko, M. (2013). B-test:
+A non-parametric, low variance kernel two-sample test.
+In Advances in neural information processing systems,
+(pp. 755–763).
+Zhang, K., Schölkopf, B., Muandet, K., & Wang, Z. (2013).
+Domain adaptation under target and conditional shift. In
+International Conference on Machine Learning, (pp. 819–
+827).
+Zhu, X., Gibson, B. R., Jun, K.-S., Rogers, T. T., Harrison,
+J., & Kalish, C. (2010). Cognitive models of test-item
+effects in human category learning. In ICML.

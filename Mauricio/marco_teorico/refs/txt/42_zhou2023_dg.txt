@@ -1,0 +1,2339 @@
+
+=== PAGE 1 ===
+1
+Domain Generalization: A Survey
+Kaiyang Zhou, Ziwei Liu, Yu Qiao, Tao Xiang, and Chen Change Loy
+Abstract—Generalization to out-of-distribution (OOD) data is a capability natural to humans yet challenging for machines to
+reproduce. This is because most learning algorithms strongly rely on the i.i.d. assumption on source/target data, which is often violated
+in practice due to domain shift. Domain generalization (DG) aims to achieve OOD generalization by using only source data for model
+learning. Over the last ten years, research in DG has made great progress, leading to a broad spectrum of methodologies, e.g., those
+based on domain alignment, meta-learning, data augmentation, or ensemble learning, to name a few; DG has also been studied in
+various application areas including computer vision, speech recognition, natural language processing, medical imaging, and
+reinforcement learning. In this paper, for the ﬁrst time a comprehensive literature review in DG is provided to summarize the
+developments over the past decade. Speciﬁcally, we ﬁrst cover the background by formally deﬁning DG and relating it to other relevant
+ﬁelds like domain adaptation and transfer learning. Then, we conduct a thorough review into existing methods and theories. Finally, we
+conclude this survey with insights and discussions on future research directions.
+Index Terms—Out-of-Distribution Generalization, Domain Shift, Model Robustness, Machine Learning
+!
+1 INTRODUCTION
+I
+F an image classiﬁer was trained on photo images, would
+it work on sketch images? What if a car detector trained
+using urban images is tested in rural environments? Is it
+possible to deploy a semantic segmentation model trained
+using sunny images under rainy or snowy weather con-
+ditions? Can a health status classiﬁer trained using one
+patient’s electrocardiogram data be used to diagnose an-
+other patient’s health status? Answers to all these questions
+depend on how well the machine learning models can
+deal with one common problem, namely the domain shift
+problem. Such a problem refers to the distribution shift
+between a set of training (source) data and a set of test
+(target) data [1], [2], [3], [4], [5].
+Most statistical learning algorithms strongly rely on an
+over-simpliﬁed assumption, that is, the source and target
+data are independent and identically distributed (i.i.d.),
+while ignoring out-of-distribution (OOD) scenarios com-
+monly encountered in practice. This means that they are
+not designed with the domain shift problem in mind, and
+as a consequence, a learning agent trained only with source
+data will typically suffer signiﬁcant performance drops on
+an OOD target domain.
+The domain shift problem has seriously impeded large-
+scale deployments of machine learning models. One might
+be curious if recent advances in deep neural networks [6],
+[7], known as deep learning [8], can mitigate this problem.
+Studies in [2], [9], [10] suggest that deep learning models’
+performance degrades signiﬁcantly on OOD datasets, even
+with just small variations in the data generating process.
+This highlights the fact that the successes achieved by deep
+learning so far have been largely driven by supervised learn-
+• K. Zhou, Z. Liu and C.C. Loy are with the S-Lab, Nanyang
+Technological University, Singapore. E-mail: {kaiyang.zhou, ziwei.liu,
+ccloy}@ntu.edu.sg.
+• Y. Qiao is with Shenzhen Institute of Advanced Technology, Chinese
+Academy of Sciences, China, and also with Shanghai AI Lab, Shanghai,
+China. E-mail: yu.qiao@siat.ac.cn.
+• T. Xiang is with the Centre for Vision Speech and Signal Processing,
+University of Surrey, Guildford, UK. E-mail: t.xiang@surrey.ac.uk.
+ing with large-scale annotated datasets like ImageNet [11]—
+again, relying on the i.i.d. assumption.
+Research on how to deal with domain shift has been
+extensively conducted in the literature. A straightforward
+solution to bypass the OOD data issue is to collect some data
+from the target domain to adapt a source-domain-trained
+model. Indeed, this domain adaptation (DA) problem has
+received much attention [12], [13], [14], [15], [16], [17], [18].
+However, DA relies on a strong assumption that target data
+is accessible for model adaptation, which does not always
+hold in practice.
+In many applications, target data is difﬁcult to obtain or
+even unknown before deploying the model. For example, in
+biomedical applications where domain shift occurs between
+different patients’ data, it is impractical to collect each new
+patient’s data in advance [19]; in trafﬁc scene semantic
+segmentation it is infeasible to collect data capturing all dif-
+ferent scenes and under all possible weather conditions [20];
+when dealing with data stream, the model is also required
+to be intrinsically generalizable [21].
+To overcome the domain shift problem, as well as the
+absence of target data, the problem of domain generalization
+(DG) was introduced [22]. Speciﬁcally, the goal in DG is to
+learn a model using data from a single or multiple related
+but distinct source domains in such a way that the model
+can generalize well to any OOD target domain.
+Since the ﬁrst formal introduction in 2011 by Blanchard
+et al. [22], a plethora of methods have been developed
+to tackle the OOD generalization issue [23], [24], [25],
+[26], [27], [28], [29], [30]. This includes methods based on
+aligning source domain distributions for domain-invariant
+representation learning [31], [32], exposing the model to
+domain shift during training via meta-learning [33], [34],
+and augmenting data with domain synthesis [35], [36], to
+name a few. From the application point of view, DG has not
+only been studied in computer vision like object recogni-
+tion [37], [38], semantic segmentation [20], [39] and person
+re-identiﬁcation [23], [35], but also in other domains such
+as speech recognition [40], natural language processing [34],
+arXiv:2103.02503v7  [cs.LG]  12 Aug 2022
+=== PAGE 2 ===
+2
+medical imaging [41], [42], and reinforcement learning [23].
+In this survey, we aim to provide a timely and compre-
+hensive literature review to summarize, mainly from the
+technical perspective, the learning algorithms developed
+over the last decade, and provide insights on potential
+directions for future research.
+2 BACKGROUND
+2.1 A Brief History of Domain Generalization
+The domain generalization (DG) problem was ﬁrst formally
+introduced by Blanchard et al. [22] as a machine learning
+problem, while the term domain generalization was later
+coined by Muandet et al. [19]. Unlike other related learning
+problems such as domain adaptation or transfer learning,
+DG considers the scenarios where target data is inaccessi-
+ble during model learning. In [22], the motivation behind
+DG originates from a medical application called automatic
+gating of ﬂow cytometry data. The objective is to design
+algorithms to automate the process of classifying cells in
+patients’ blood samples based on different properties, e.g.,
+to distinguish between lymphocytes and non-lymphocytes.
+Such a technology is crucial in facilitating the diagnosis of
+the health of patients since manual gating is extremely time-
+consuming and requires domain-speciﬁc expertise. How-
+ever, due to distribution shift between different patients’
+data, a classiﬁer learned using data from historic patients
+does not generalize to new patients, and meanwhile, col-
+lecting new data for model ﬁne-tuning is impractical, thus
+motivating research on the DG problem.
+In computer vision, a seminal work done by Torralba
+and Efros [43] raised attention on the cross-domain general-
+ization issue. They performed a thorough investigation into
+the cross-dataset generalization performance of object recog-
+nition models using six popular benchmark datasets. Their
+ﬁndings suggested that dataset biases, which are difﬁcult
+to avoid, can lead to poor generalization performance. For
+example, as shown in [43], a person classiﬁer trained on
+Caltech101 [44] obtained a very low accuracy (11.8%) on La-
+belMe [45], though its same-dataset performance was near-
+perfect (99.6%). Following [43], Khosla et al. [46] targeted
+the cross-dataset generalization problem in classiﬁcation
+and detection tasks, and proposed to learn domain-speciﬁc
+bias vectors and domain-agnostic weight vectors based on
+support vector machine (SVM) classiﬁers.
+2.2 Problem Deﬁnition
+We ﬁrst introduce some notations that will be used through-
+out this survey. Let X be the input (feature) space and Y the
+target (label) space, a domain is deﬁned as a joint distribution
+PXY on X×Y.1 For a speciﬁc domain PXY , we refer to
+PX as the marginal distribution on X, PY|X the posterior
+distribution of Y given X, and PX|Y the class-conditional
+distribution of X given Y .
+In the context of DG, we have access to K similar but
+distinct source domains S = {Sk = {(x(k),y(k))}}K k=1, each
+associated with a joint distribution P (k) XY . Note that P (k) XY ⁄=
+P (k′ ) XY with k ⁄= k′ and k,k′∈{1,...,K}. The goal of DG is
+1. We use PXY and P (X, Y ) interchangeably.
+to learn a predictive model f : X →Y using only source
+domain data such that the prediction error on an unseen
+target domain T = {xT} is minimized. The corresponding
+joint distribution of the target domain T is denoted by PT XY .
+Also, PT XY ⁄= P (k) XY , ∀k∈{1,...,K}.
+Multi-Source DG DG has typically been studied under
+two different settings, namely multi-source DG and single-
+source DG. The majority of research has been dedicated
+to the multi-source setting, which assumes multiple dis-
+tinct but relevant domains are available (i.e., K > 1). As
+stated in [22], the original motivation for studying DG is
+to leverage multi-source data to learn representations that
+are invariant to different marginal distributions. This makes
+sense because without having access to the target data, it
+is challenging for a source-learned model to generalize well.
+As such, using multiple domains allows a model to discover
+stable patterns across source domains, which generalize
+better to unseen domains.
+Single-Source DG In contrast, the single-source setting
+assumes training data is homogeneous, i.e., they are sam-
+pled from a single domain (K = 1). This problem is closely
+related to the topic of OOD robustness [9], [47], [48], which
+investigates model robustness under image corruptions. Es-
+sentially, single-source DG methods do not require domain
+labels for learning and thus they are applicable to multi-
+source scenarios as well. In fact, most existing methods able
+to solve single-source DG do not distinguish themselves as a
+single- or a multi-source approach, but rather a more generic
+solution to OOD generalization, with experiments covering
+both single- and multi-source datasets [49], [50], [51], [52].
+2.3 Datasets and Applications
+DG has been studied across many application areas includ-
+ing computer vision, speech recognition, medical imaging,
+and so on. Table 1 summarizes the commonly used datasets
+based on different applications. Below we brieﬂy discuss
+their basics.
+Handwritten Digit Recognition The commonly used
+digit datasets include MNIST [54], MNIST-M [15],
+SVHN [55], and SYN [15]. In general, these datasets differ
+in font style, stroke color, and background. MNIST contains
+images of handwritten digits. MNIST-M mixes MNIST’s
+images with random color patches. SVHN comprises images
+of street view house numbers while SYN is a synthetic
+dataset. See Fig. 1(a) for some example images. Rotation has
+also been exploited to synthesize domain shift [53].
+Object Recognition has been the most common task
+in DG where the domain shift varies substantially across
+different datasets. In VLCS [56] and Ofﬁce-31 [12], the do-
+main shift is mainly caused by changes in environments or
+viewpoints. As exempliﬁed in Fig. 1(b), the scenes in VLCS
+vary from urban to rural areas and the viewpoints are often
+biased toward either a side-view or a non-canonical view.
+Image style changes have also been commonly studied,
+such as PACS [37] (see Fig. 1(c)), OfﬁceHome [59], Domain-
+Net [60], and ImageNet-Sketch [51]. Other types of domain
+shift include synthetic-vs-real [56], artiﬁcial corruptions [9],
+and data sources [67].
+=== PAGE 3 ===
+3
+TABLE 1
+Commonly used domain generalization datasets (categorized mainly based on applications).
+# samples # domains Characterization of domain shift
+Handwritten digit recognition
+- Rotated MNIST [53] 70,000 6 Rotations (0, 15, 30, 45, 60 & 75)
+- Digits-DG [35] 24,000 4 MNIST [54], MNIST-M [15], SVHN [55], SYN [15]
+Object recognition
+- VLCS [56] 10,729 4 Caltech101 [44], LabelMe [45], PASCAL [57], SUN09 [58]
+- Ofﬁce-31 [12] 4,652 3 Amazon, webcam, dslr
+- OfﬁceHome [59] 15,588 4 Art, clipart, product, real
+- PACS [37] 9,991 4 Photo, art, cartoon, sketch
+- DomainNet [60] 586,575 6 Clipart, infograph, painting, quickdraw, real, sketch
+- miniDomainNet [61] 140,006 4 Clipart, painting, real, sketch
+- ImageNet-Sketch [51] 50,000 2 Real vs sketch images
+- VisDA-17 [62] 280,157 2 Synthetic vs real images
+- CIFAR-10-C [9] 60,000 - Artiﬁcial corruptions
+- CIFAR-100-C [9] 60,000 - Artiﬁcial corruptions
+- ImageNet-C [9] ≈1.3M - Artiﬁcial corruptions
+- ImageNet-R [63] 30k - Image style changes
+- ImageNet-A [64] 7,500 - Naturally adversarial examples
+- TerraInc [65] 24,788 4 Geographical locations
+- NICO++ [66] 232.4k 10 Contexts (e.g., grass, water, winter, indoor, outdoor)
+- Visual Decathlon [67] 1,659,142 10 Data sources (10 datasets)
+Action recognition
+- IXMAS [68] 1,650 5 5 camera views, 10 subjects (see [31])
+- UCF-HMDB [69], [70] 3,809 2 Data sources (2 datasets) (see [71])
+Semantic segmentation
+- SYNTHIA [72] 2,700 15 4 locations, 5 weather conditions (see [73])
+- GTA5-Cityscapes [74], [75] 29,966 2 Synthetic vs real images
+Person re-identiﬁcation
+- Market-Duke [76], [77] 69,079 2 Camera views, cities, streets, etc.
+Face recognition
+- Face [78] >5M 9 Data sources (9 datasets)
+Face anti-spooﬁng
+- COMI [79], [80], [81], [82] ≈8,500 4 Data sources (4 datasets)
+Speech recognition
+- Google Speech Command [83] 65k 1,888 Speakers
+Sentiment classiﬁcation
+- Amazon Reviews [84] >340k 4 Books, DVD, electronics, kitchen appliances
+WILDS [85] (only show 3 out of 10 datasets here)
+- Camelyon17-WILDS [86] 455,954 5 Hospitals
+- FMoW-WILDS [87] 523,846 80 Time, geographical regions
+- iWildCam-WILDS [88] 203,029 323 Camera traps
+Medical imaging
+- Multi-site Prostate MRI Segmentation [42] 116 6 Clinical centers
+- Chest X-rays [89] - 3 Data sources (NIH [90], ChexPert [91], RSNA)
+Reinforcement learning
+- Coinrun [92] - - Scenes, difﬁculty levels
+- OpenAI Procgen Benchmark [93] - - States, scenes, rewards, difﬁculty levels
+Action Recognition Learning generalizable representa-
+tions is also crucial for video understanding like action
+recognition. IXMAS [68] has been widely used as a cross-
+view action recognition benchmark [31], [94], which con-
+tains action videos collected from ﬁve different views. In
+addition to view changes, different subjects or environments
+(like indoor vs outdoor) can also create domain shift and
+lead to model failures.
+Semantic Segmentation is critical to autonomous driving.
+Though this task has been greatly advanced by deep neural
+networks, the performance is still far from being satisfactory
+when deploying trained deep models in novel scenarios,
+such as new cities or unseen weather conditions [95]. Since
+it is impractical to collect data covering all possible scenar-
+ios, DG is pivotal in facilitating large-scale deployment of
+semantic segmentation systems. The SYNTHIA dataset [72]
+=== PAGE 4 ===
+4
+Caltech101LabelMe SUN09PASCAL
+ Art Cartoon Photo Sketch
+(a) Digits (c) PACS
+MNIST MNIST-M SYNSVHN
+(b) VLCS
+Fig. 1. Example images from three domain generalization benchmarks manifesting different types of domain shift. In (a), the domain shift
+mainly corresponds to changes in font style, color and background. In (b), dataset-speciﬁc biases are clear, which are caused by changes in
+environment/scene and viewpoint. In (c), image style changes are the main reason for domain shift.
+contains synthetic images of different locations under dif-
+ferent weather conditions. Generalization from GTA5 [74]
+to real image datasets like Cityscapes [75] has also been
+extensively studied [96].
+Person Re-Identiﬁcation (Re-ID) plays a key role in secu-
+rity and surveillance applications. Person re-ID is essentially
+an instance retrieval task, aiming to match people across
+disjoint camera views (each seen as a distinct domain).
+Most existing methods in re-ID [97], [98], [99], [100], [101]
+have been focused on the same-dataset setting, i.e., training
+and test are done on the same set of camera views, with
+performance almost reaching saturation. Recently, cross-
+dataset re-ID [102], [103], [104] has gained much attention:
+the objective is to generalize a model from source camera
+views to unseen target camera views, a more challenging
+but realistic setting. The domain shift often occurs in image
+resolution, viewpoint, lighting condition, background, etc.
+Face Recognition has witnessed signiﬁcant advances
+driven by deep learning in recent years [105], [106], [107].
+However, several studies [78] have suggested that deep
+models trained even on large-scale datasets like MS-Celeb-
+1M [108] suffer substantial performance drops when de-
+ployed in new datasets with previously unseen domains,
+such as low resolution [109], [110], [111], large variations
+in illumination/occlusion/head pose [112], [113], [114], or
+drastically different viewpoints [115].
+Face Anti-Spooﬁng aims to prevent face recognition sys-
+tems from being attacked using fake faces [116], such as
+printed photos, videos or 3D masks. Conventional face anti-
+spooﬁng methods do not take into account distribution
+shift, making them vulnerable to unseen attack types [117].
+There is no speciﬁcally designed DG dataset for this task.
+A common practice is to combine several face anti-spooﬁng
+datasets for model training and do evaluation on an unseen
+dataset, e.g., using CASIA-MFSD [79], Oulu-NPU [80] and
+MSU-MFSD [81] as the sources and Idiap Replay-Attack [82]
+as the target.
+Speech Recognition Since people speak differently (e.g.,
+different tones or pitches) it is natural to regard each speaker
+as a domain [40]. The commonly used dataset is Google
+Speech Command [83], which consists of 1,888 domains
+(speakers) and around 65,000 samples.
+Sentiment Classiﬁcation is a common task studied in
+natural language processing, which aims to classify opin-
+ions in texts as either positive or negative (hence a binary
+classiﬁcation problem) [34]. Amazon Reviews [84] contains
+reviews for four categories (domains) of products: books,
+DVD, electronics and kitchen appliances.
+The WILDS Benchmark has been recently introduced,
+with a goal to study distribution shift faced in the wild [85].
+The benchmark contains a total of ten datasets, which cover
+a wide range of pattern recognition tasks, such as animal
+classiﬁcation, cancer detection, molecule classiﬁcation, and
+satellite imaging. Table 1 shows three datasets from WILDS
+that have been commonly used by the DG community [118],
+[119], [120].
+Medical Imaging DG is also critical to medical imaging
+where domain shift is often related to variations in clin-
+ical centers or patients [42], [121]. Two commonly used
+medical imaging datasets are Multi-site Prostate MRI Seg-
+mentation [42] and Chest X-rays [89], each containing data
+aggregated from multiple clinical centers with domain shift
+caused by, e.g., different scanners or acquisition protocols.
+Reinforcement Learning (RL) has a dramatically differ-
+ent paradigm than supervised or unsupervised learning:
+RL aims to maximize rewards obtained through continuous
+interactions with an environment. Generalization in RL has
+been a critical issue where agents or policies learned in
+a training environment often suffer from overﬁtting and
+hence generalize poorly to unseen environments [92], [122],
+[123], [124]. Domain shift in RL is mostly associated with
+environmental changes, such as different scenes, states, or
+even rewards. There is a large body of work focused on
+improving generalization in RL. We refer readers to [125] for
+a more comprehensive survey in the topic of generalizable
+RL.
+2.4 Evaluation
+Evaluation of DG algorithms often follows the leave-one-
+domain-out rule [37]: given a dataset containing at least
+two distinct domains, one or multiple of them are used
+as source domain(s) for model training while the rest are
+treated as target domain(s); a model learned from the source
+domain(s) is directly tested in the target domain(s) without
+any form of adaptation. Two problem scenarios have been
+studied: single- vs multi-source DG. It is worth noting that
+some datasets contain label shift, meaning that the label
+space between source and target changes (termed hetero-
+geneous DG [38]). For instance, in the problem of person
+re-ID, identities between training and test are different; in
+=== PAGE 5 ===
+5
+TABLE 2
+Comparison between domain generalization and its related topics.
+K P S XY vs P T XY YS vs YT Access to P T X ?= 1 > 1 = ⁄= = ⁄=
+Supervised Learning   
+Multi-Task Learning   
+Transfer Learning     
+Zero-Shot Learning   
+Domain Adaptation      
+Test-Time Training     †
+Domain Generalization     
+K: number of source domains/tasks. P S/T XY : source/target joint distribution. YS/T : source/target label space. P T X : target marginal. †: Limited in quantities, like a single example or mini-batch.
+this case the source-learned representation is directly used
+for image matching.
+Evaluation Metrics Two metrics have been commonly
+adopted, namely average and worst-case performance. The
+former concerns about the average performance in held-out
+domains, which is used in most domain shift scenarios. In
+contrast, the latter focuses on the worst performance among
+held-out domains, which is often used in the case of sub-
+population shift [126] and has been widely adopted by the
+causal inference community [127] as well as some datasets
+in the WILDS benchmark [85].
+Model Selection concerns about which model (check-
+point), architecture or hyper-parameters to choose for eval-
+uation, which has recently been identiﬁed by [128] as a
+crucial step in the evaluation pipeline. As summarized in
+[128], there are three model selection criteria: i) Training-
+domain validation, which holds out a subset of training data
+for model selection; ii) Leave-one-domain-out validation, which
+keeps one source domain for model selection; iii) Test-
+domain validation (oracle), which performs model selection
+using a random subset of test domain data. As suggested
+by [128], the last criterion would lead to overly optimistic
+or pessimistic results and thus should be used with care.
+Another important lesson from [128] is that specially de-
+signed DG methods often perform similarly with the plain
+model (known as Empirical Risk Minimization) when using
+larger neural networks and an extensive search of hyper-
+parameters. Therefore, it is suggested that future evaluation
+should cover different neural network architectures and
+ensure comparison is made using the same model selection
+criterion.
+2.5 Related Topics
+In this section, we discuss the relations between DG and its
+related topics, and clarify their differences. See Table 2 for
+an overview.
+Supervised Learning generally aims to learn an input-
+output mapping by minimizing the following risk:
+E(x,y)∼ ˆPXY 𝓁(f (x),y), where ˆPXY denotes the empirical dis-
+tribution rather than the real data distribution PXY , which
+is inaccessible. The hope is that once the loss is minimized,
+the learned model can work well on data generated from
+PXY , which heavily relies on the i.i.d. assumption. The
+crucial difference between SL and DG is that in the latter
+training and test data is drawn from different distributions,
+thus violating the i.i.d. assumption. DG is arguably a more
+practical setting in real-world applications [43].
+Multi-Task Learning (MTL) The goal of MTL is to simul-
+taneously learn multiple related tasks (K > 1) using a single
+model [129], [130], [131], [132], [133]. As shown in Table 2,
+MTL aims to make a model perform well on the same set
+of tasks that the model was trained on (YS = YT ), whereas
+DG aims to generalize a model to unseen data distributions
+(PS XY ⁄= PT XY ). Though being different in terms of the prob-
+lem setup, the MTL paradigm has been exploited in some
+DG methods, notably for those based on self-supervised
+learning [49], [134], [135]. Intuitively, MTL beneﬁts from the
+effect of regularization brought by parameter sharing [129],
+which may in part explain why the MTL paradigm works
+for DG.
+Transfer Learning (TL) aims to transfer the knowledge
+learned from one (or multiple) problem/domain/task to a
+different but related one [136]. A well-known TL example
+in contemporary deep learning is ﬁne-tuning: ﬁrst pre-
+train deep neural networks on large-scale datasets, such
+as ImageNet [11] for vision models or BooksCorpus [137]
+for language models; then ﬁne-tune them on downstream
+tasks [138]. Given that pre-trained deep features are highly
+transferable, as shown in several studies [139], [140], a
+couple of recent DG works [141], [142] have researched how
+to preserve the transferable features learned via large-scale
+pre-training when learning new knowledge from source
+synthetic data for synthetic-to-real applications. As shown
+in Table 2, a key difference between TL and DG lies in
+whether the target data is used. In TL, the target data
+is required for model ﬁne-tuning for new downstream
+tasks, whereas in DG we assume to have no access to the
+target data, thus focusing more on model generalization.
+Nonetheless, TL and DG share some similarities: the target
+distribution in both TL and DG is different from the source
+distribution; in terms of label space, TL mainly concerns
+disjoint label space, whereas DG considers both cases, i.e.,
+same label space for homogeneous DG and disjoint label
+space for heterogeneous DG.
+Zero-Shot Learning (ZSL) is related to DG in the sense
+that the goal in both problems is to deal with unseen
+=== PAGE 6 ===
+6
+distributions. Differently, distribution shift in ZSL is mainly
+caused by label space changes [143], [144], [145], i.e., PT Y ⁄=
+PS Y , since the task is to recognize new classes, except for
+generalized ZSL [146] which considers both new and old
+classes at test time; while in DG, domain shift mostly results
+from covariate shift [19], i.e., only the marginal distribution
+changes (PT X ⁄= PS X).2 To recognize unseen classes in ZSL, a
+common practice is to learn a mapping between the input
+image space and the attribute space [148] since the label
+space is disjoint between training and test data. Interest-
+ingly, attributes have also been exploited in DG for learning
+domain-generalizable representations [149].
+Domain Adaptation (DA) is the closest topic to DG and
+has been extensively studied in the literature [13], [14], [15],
+[16], [17], [95], [150], [151], [152], [153]. Both DA and DG
+aim to tackle the domain shift problem (i.e., PS XY ⁄= PT XY )
+encountered in new test environments. Differently, DA as-
+sumes the availability of sparsely labeled [154] or unla-
+beled [150] target data for model adaptation, hence having
+access to the marginal PT X . Though there exist different
+variants of DA where some methods do not explicitly use
+target data during training, such as zero-shot DA [155]
+that exploits task-irrelevant but target domain-relevant data
+(equivalent to accessing the marginal), their main idea
+remains unchanged, i.e., to leverage additional data that
+expose information related to the target domain. As shown
+in Table 2, research in DA shares some commonalities with
+DG, such as single- [150] and multi-source [60] DA, and
+heterogeneous DA [17], [156], [157], [158].
+Test-Time Training (TTT) also called test-time adapta-
+tion [159], blurs the boundary between DA and DG. As
+shown in Table 2, TTT is related to both DA and DG because
+TTT also deals with the domain shift problem. One one
+hand, TTT (mostly) bears a resemblance with source-free
+DA [160]—both assume source data is inaccessible after
+model training. On the other hand, TTT differs from DA
+in that only a single [161] or mini-batch [162] test data is
+used for model tuning, which is often done in an online
+manner [163] and of course, without human supervision. It
+is also worth mentioning that datasets used in the TTT com-
+munity largely overlap with those in DG, such as CIFAR-
+C [9] and ImageNet-C [9]. In terms of performance, TTT
+likely outperforms DG [162] due to the use of test data for
+parameter update, but is limited to scenarios where deploy-
+ment devices have sufﬁcient compute power. Moreover, TTT
+might not ﬁt realtime applications if the tuning time is too
+“long.”
+3 METHODOLOGIES: A SURVEY
+Numerous domain generalization (DG) methods have been
+proposed in the past ten years, and the majority of them
+are designed for multi-source DG, despite some methods
+not explicitly requiring domain labels for learning and thus
+suitable for single-source DG as well. In this section, we cat-
+egorize existing DG methods into several groups based on
+their methodologies and motivations behind their design.
+2. It is worth mentioning that a recent ZSL work [147] has studied
+ZSL+DG, i.e., distribution shift occurs in both PY and PX , which is
+analogous to heterogeneous DG.
+Classifier
+Classifier
+source i
+source j
+Fig. 2. Domain alignment is commonly applied to a pair of source
+domains, either in the feature space (orange arrows) or the classiﬁer’s
+output (green arrows), or both.
+Within each group, we further discuss different variants and
+indicate whether domain labels are required for learning
+to differentiate their uses—those requiring domain labels
+can only be applied to multi-source DG while those not
+requiring domain labels are applicable to both single- and
+multi-source DG. See Table 3 for an overview.
+3.1 Domain Alignment
+Most existing DG approaches belong to the category of
+domain alignment [19], [31], [32], [117], [169], [172], where
+the central idea is to minimize the difference among source
+domains for learning domain-invariant representations (see
+Fig. 2). The motivation is straightforward: features that
+are invariant to the source domain shift should also be
+robust to any unseen target domain shift. Domain alignment
+has been applied in many DG applications, e.g., object
+recognition [32], [53], action recognition [31], face anti-
+spooﬁng [117], [178], and medical imaging analysis [173],
+[180]. Domain labels are required for domain alignment
+methods.
+To measure the distance between distributions and
+thereby achieve alignment, there are a wide variety of
+statistical distance metrics for us to borrow, such as the
+simple 𝓁2 distance, f-divergences, or the more sophisticated
+Wasserstein distance [217]. However, designing an effective
+domain alignment method is a non-trivial task because one
+needs to consider what to align and how to align. In the
+following sections, we analyze the existing alignment-based
+DG methods from these two aspects.
+3.1.1 What to Align
+Recall that a domain is modeled by a joint distribution
+P (X,Y ) (see § 2.2 for the background), we can decompose
+it into
+P (X,Y ) = P (Y|X)P (X), (1)
+= P (X|Y )P (Y ). (2)
+A common assumption in DG is that distribution shift
+only occurs in the marginal P (X) while the posterior
+P (Y|X) remains relatively stable [19] (see Eq. (1)). There-
+fore, numerous domain alignment methods have been fo-
+cused on aligning the marginal distributions of source do-
+mains [19], [31], [164], [165].
+=== PAGE 7 ===
+7
+TABLE 3
+Categorization of domain generalization (DG) methods.
+Domain labels References
+Domain Alignment (§ 3.1)
+- Minimizing Moments  [19], [164], [165], [166], [167], [168]
+- Minimizing Contrastive Loss  [169], [170], [171]
+- Minimizing the KL Divergence  [172], [173]
+- Minimizing Maximum Mean Discrepancy  [31]
+- Domain-Adversarial Learning  [32], [117], [174], [175], [176], [177], [178], [179], [180], [181]
+Meta-Learning (§ 3.2)  [33], [34], [38], [42], [94], [103], [104], [121], [182], [183], [184], [185]
+Data Augmentation (§ 3.3)
+- Image Transformations  [39], [78], [186], [187], [188]
+- Task-Adversarial Gradients  [73], [189], [190]
+- Domain-Adversarial Gradients  [40]
+- Random Augmentation Networks  [191]
+- Off-the-Shelf Style Transfer Models  [20], [29], [192], [193]
+- Learnable Augmentation Networks  [35], [36], [194]
+- Feature-Based Augmentation  [23], [28], [147]
+Ensemble Learning (§ 3.4)
+- Exemplar-SVMs  [195], [196], [197]
+- Domain-Speciﬁc Neural Networks  [61], [198], [199], [200], [201]
+- Domain-Speciﬁc Batch Normalization  [41], [202], [203], [204]
+- Weight Averaging  [205]
+Self-Supervised Learning (§ 3.5)
+- Single Pretext Task  [49], [53], [134], [206]
+- Multiple Pretext Tasks  [50], [135]
+Learning Disentangled Representations (§ 3.6)
+- Decomposition  [37], [46], [207], [208]
+- Generative Modeling  [209], [210]
+Regularization Strategies (§ 3.7)  [51], [52]
+Reinforcement Learning (§ 3.8)
+- Data augmentation  [23], [123], [211], [212], [213], [214]
+- Self-Supervision  [215], [216]
+Note that methods requiring domain labels can only be applied to multi-source DG while those not requiring domain labels are applicable to both multi- and
+single-source DG.
+From a causal learning perspective [218], it is valid to
+align P (X) only when X is the cause of Y . In this case,
+P (Y|X) is not coupled with P (X) and thus remains stable
+when P (X) varies. However, it is also possible that Y is the
+cause of X, and as a result, shift in P (X) will also affect
+P (Y|X). Therefore, some domain alignment methods [32],
+[166], [168] proposed to instead align the class-conditional
+P (X|Y ), assuming that P (Y ) does not change (see Eq. (2)).
+For example, Li et al. [166] learned a feature transforma-
+tion by minimizing for all classes the variance of class-
+conditional distributions across source domains. To allow
+P (Y ) to change along with P (X|Y ), i.e., heterogeneous DG,
+Hu et al. [168] relaxed the assumption made in [166] by
+removing the minimization constraint on marginal distribu-
+tions and proposed several discrepancy measures to learn
+generalizable features.
+Since the posterior P (Y|X) is what we need at test
+time, Wang et al. [172] introduced hypothesis invariant
+representations, which are obtained by directly aligning the
+posteriors within each class regardless of domains via the
+Kullback–Leibler (KL) divergence.
+3.1.2 How to Align
+Having discussed what to align in the previous section, here
+we turn to the exact techniques used in the DG literature for
+distribution alignment.
+Minimizing Moments Moments are parameters used to
+measure a distribution, such as mean (1st-order moment)
+and variance (2nd-order moment) calculated over a pop-
+ulation. Therefore, to achieve invariance between source
+domains, one can learn a mapping function (e.g., a simple
+projection matrix [165] or a complex non-linear function
+modeled by deep neural networks [167]) with an objective
+of minimizing the moments of the transformed features
+between source domains, in terms of variance [19], [164] or
+both mean and variance [165], [166], [167], [168].
+Minimizing Contrastive Loss is another option for re-
+ducing distribution mismatch [169], [170], [171], which takes
+into account the semantic labels. There are two key design
+principles. The ﬁrst is about how to construct the anchor
+group, the positive group (same class as the anchor but from
+different domains) and the negative group (different class
+=== PAGE 8 ===
+8
+than the anchor). The second is about the formulation of
+the distance function (e.g., using 𝓁2 [169] or softmax [171]).
+The objective is to pull together the anchor and the posi-
+tive groups, while push away the anchor and the negative
+groups.
+Minimizing the KL Divergence As a commonly used
+distribution divergence measure, the KL divergence has also
+been employed for domain alignment [172], [173]. In [172],
+domain-agnostic posteriors within each class are aligned
+via the KL divergence. In [173], the KL divergence is used
+to force all source domain features to be aligned with a
+Gaussian distribution.
+Minimizing Maximum Mean Discrepancy (MMD) The
+MMD distance [219] measures the divergence between two
+probability distributions by ﬁrst mapping instances to a re-
+producing kernel Hilbert space (RKHS) and then computing
+the distance based on their mean. Using the autoencoder
+architecture, Li et al. [31] minimized the MMD distance
+between source domain distributions on the hidden-layer
+features, and meanwhile, forced the feature distributions
+to be similar to a prior distribution via adversarial learn-
+ing [220].
+Domain-Adversarial Learning Different from explicit
+distance measures like the MMD, adversarial learning [220]
+formulates the distribution minimization problem through
+a minimax two-player game. Initially proposed by Goodfel-
+low et al. [220], adversarial learning was used to train a gen-
+erative model, which takes as input random noises and gen-
+erates photorealistic images. This is achieved by learning a
+discriminator to distinguish between real and the generated
+fake images (i.e., minimizing the binary classiﬁcation loss),
+while encouraging the generator to fool the discriminator
+(i.e., maximizing the binary classiﬁcation loss). In particular,
+the authors in [220] theoretically justiﬁed that generative
+adversarial learning is equivalent to minimizing the Jensen-
+Shannon divergence between the real distribution and the
+generated distribution. Therefore, it is natural to use adver-
+sarial learning for distribution alignment, which has already
+been extensively studied in the domain adaptation area
+for aligning the source-target distributions [15], [221], [222],
+[223].
+In DG, adversarial learning is performed between source
+domains to learn source domain-agnostic features that are
+expected to work in novel domains [32], [117], [174], [175],
+[176]. Simply speaking, the learning objective is to make fea-
+tures confuse a domain discriminator, which can be imple-
+mented as a multi-class domain discriminator [177], [179],
+[180], or a binary domain discriminator in a per-domain ba-
+sis [32], [117]. Typically, the learning steps alternate between
+the feature generator and the domain discriminator(s) [32].
+However, one can simplify the process to achieve single-
+step update by using the gradient-reversal layer [15] to ﬂip
+the sign of the gradients back-propagated from the domain
+discriminator(s) [178].
+To enhance domain alignment, researchers have also
+combined domain-adversarial learning with explicit dis-
+tance measures like moments minimization [174], or with
+some regularization constraints such as entropy [181].
+Multi-Task Learning has also been explored for domain
+alignment [53], [206]. Different from directly minimizing
+art
+cartoon
+photo
+meta-source
+meta-target
+<latexit sha1_base64="1V7ZMN+5G6ykLNvMWYzvN7ybbSE=">AAACF3icbVC7TgJBFJ31ifhCLW0mgokV2aVQSxIbS0zkEYGQ2WEWJsxjM3NXQzb8hY2F/oqdsbX0TywdYAsBT3KTk3Puzb33hLHgFnz/21tb39jc2s7t5Hf39g8OC0fHDasTQ1mdaqFNKySWCa5YHTgI1ooNIzIUrBmObqZ+85EZy7W6h3HMupIMFI84JeCkh1LU68CQASn1CkW/7M+AV0mQkSLKUOsVfjp9TRPJFFBBrG0HfgzdlBjgVLBJvpNYFhM6IgPWdlQRyWw3nV08wedO6eNIG1cK8Ez9O5ESae1Yhq5TEhjaZW8q/ue1E4iuuylXcQJM0fmiKBEYNJ6+j/vcMApi7AihhrtbMR0SQyi4kBa2hHLhh1QmArjRT5O8iypYDmaVNCrl4LLs31WK1UoWWg6dojN0gQJ0haroFtVQHVGk0DN6RW/ei/fufXif89Y1L5s5QQvwvn4BreOgdA==</latexit>
+f✓
+<latexit sha1_base64="BDHaYsAvisOZI8Kjd20tlxAKmDA=">AAACRHicbVBNSyNBEO1RV924alaPe2mMwrJgmAn4cVkQvOxRYaNCJg41nYpp7O4ZumuUMOSX+Gu87GH9BfsfvC0LnsROMoeNWtD0470qqt5LcyUdheGfYG5+4cPi0vLH2sqn1bX1+ueNM5cVVmBbZCqzFyk4VNJgmyQpvMgtgk4VnqfXx2P9/Aatk5n5ScMcuxqujOxLAeSppL63HdMACS6/8e98Cvkuj8dfbCBVkFRkjEolpTQG7Wg7qTfCZjgp/hZEFWiwqk6S+lPcy0Sh0ZBQ4FwnCnPqlmBJCoWjWlw4zEFcwxV2PDSg0XXLib0R3/FMj/cz658hPmH/nyhBOzfUqe/UQAP3WhuT72mdgvqHXe8pLwiNmC7qF4pTxsdZ8Z60KEgNPQBhpb+ViwFYEOQTndmS6hkPpS4USZvdjmo+quh1MG/BWasZ7TfD01bjqFWFtsy+sC32lUXsgB2xH+yEtZlgd+ye/WYPwa/gMfgb/Ju2zgXVzCabqeD5BXGXsX8=</latexit>
+✓⇤=✓ ⌘r✓`inner
+<latexit sha1_base64="MHUNaKGroMUSCONyHaT8uPptPlA=">AAACG3icbVA9TwJBEN3zE/ELtbTZCCbGgtxRqCWJjSUm8pHAQfaWPdiwe3vZndOQC//DxkL/ip2xtfCfWLrAFQK+ZJKX92YyMy+IBTfgut/O2vrG5tZ2bie/u7d/cFg4Om4YlWjK6lQJpVsBMUzwiNWBg2CtWDMiA8Gaweh26jcfmTZcRQ8wjpkvySDiIacErNQthb20A0MGpHs5KfUKRbfszoBXiZeRIspQ6xV+On1FE8kioIIY0/bcGPyUaOBUsEm+kxgWEzoiA9a2NCKSGT+dXT3B51bp41BpWxHgmfp3IiXSmLEMbKckMDTL3lT8z2snEN74KY/iBFhE54vCRGBQeBoB7nPNKIixJYRqbm/FdEg0oWCDWtgSyIUfUpkI4Fo9TfI2Km85mFXSqJS9q7J7XylWK1loOXSKztAF8tA1qqI7VEN1RJFGz+gVvTkvzrvz4XzOW9ecbOYELcD5+gXTP6Ic</latexit>
+f✓⇤
+<latexit sha1_base64="uzHyp40I9J+8GRx9vX0nkpNNsdY=">AAACLnicbVC7SgNBFJ31bXxFLS0cjEIECbsp1DJgY6lgopCEZXZy1wzOzC4zd9WwpPRrbCz0VwQLsfUTLJ08CqMeGDiccy93zolSKSz6/ps3NT0zOze/sFhYWl5ZXSuubzRskhkOdZ7IxFxFzIIUGuooUMJVaoCpSMJldHMy8C9vwViR6AvspdBW7FqLWHCGTgqL27stkDLMhdZg+rQchy3sArLy/f4B7e3vhsWSX/GHoH9JMCYlMsZZWPxqdRKeKdDIJbO2GfgptnNmUHAJ/UIrs5AyfsOuoemoZgpsOx8G6dM9p3RonBj3NNKh+nMjZ8ranorcpGLYtb+9gfif18wwPm67kGmGoPnoUJxJigkdtEI7wgBH2XOEcSPcXynvMsM4uu4mrkRqIkOuMonCJHf9gqsq+F3MX9KoVoLDin9eLdWq49IWyBbZIWUSkCNSI6fkjNQJJw/kkTyTF+/Je/XevY/R6JQ33tkkE/A+vwGM9aiC</latexit>
+`inner(f✓(x),y)
+<latexit sha1_base64="XaePY4D9l5gCcg8TZsIR5xdk/sI=">AAACQHicbVDLThsxFPUE2kL6IMCyG4tQKa2qaCaLwhKJTZcgNQ8pk4w8zp3Ewh6P7Dst0Wi+o1/TDYvyDfwBO8QOsarzqEQCR7J0dM69uj4nzqSw6Ps3XmVj89XrN1vb1bfv3n/Yqe3udazODYc211KbXswsSJFCGwVK6GUGmIoldOOL05nf/QnGCp3+wGkGA8XGqUgEZ+ikqBYchiBlVOgcwZS0kURFiBNANvxSNi6HYWaEgs9f6fQ/PYxqdb/pz0Gfk2BJ6mSJs6j2EI40zxWkyCWzth/4GQ4KZlBwCWU1zC1kjF+wMfQdTZkCOyjm0Ur6ySkjmmjjXop0rj7dKJiydqpiN6kYTuy6NxNf8vo5JseDQqSZC57yxaEklxQ1nfVER8IARzl1hHEj3F8pnzDDuOtp9UqsVjIUKpcojP5VVl1VwXoxz0mn1Qy+Nf3zVv2ktSxti3wkB6RBAnJETsh3ckbahJPf5A/5S669K+/Wu/PuF6MVb7mzT1bgPf4DT+2wdw==</latexit>
+`outer(f✓⇤(x0),y0)
+<latexit sha1_base64="d/yjLmszdTNSEt/gUGNyNCL2uJE=">AAACSHicbVA9TxtBEN1zPiAmCU4oaVYxkdLEunMBSREJKQ0lSBiQfNZpbj3GK/bjtDsXZJ3ut+TXpEkRav4FHdCxtq+IgZFW+/TejGbeywslPcXxddR68fLV67X1N+2Nt+/eb3Y+fDzxtnQCB8Iq685y8KikwQFJUnhWOASdKzzNL37O9dNf6Ly05phmBY40nBs5kQIoUFnn+046BapSmiJBzX/wJeJfeTr/UgO5gqwhU1Qqq2xJ6OqdrNONe/Gi+FOQNKDLmjrMOnfp2IpSoyGhwPthEhc0qsCRFArrdlp6LEBcwDkOAzSg0Y+qhcWafw7MmE+sC88QX7D/T1SgvZ/pPHRqoKl/rM3J57RhSZNvo0qaIrgyYrloUipOls/z4mPpUJCaBQDCyXArF1NwIEIIq1tyveKh0qUi6exl3Q5RJY+DeQpO+r1ktxcf9bv7/Sa0dbbNPrEvLGF7bJ8dsEM2YIL9Zn/YP3YV/Y1uotvoftnaipqZLbZSrdYD89KyxA==</latexit>
+ˆ✓=✓ ⌘r✓`outer
+inner update
+outer update
+Fig. 3. A commonly used meta-learning paradigm [33] in domain gen-
+eralization. The source domains (i.e., art, photo and cartoon from
+PACS [37]) are divided into disjoint meta-source and meta-target do-
+mains. The outer learning, which simulates domain shift using the meta-
+target data, back-propagates the gradients all the way back to the base
+parameters such that the model learned by the inner algorithm with the
+meta-source data improves the outer objective. The red arrows in this
+ﬁgure denote the gradient ﬂow through the second-order differentiation.
+the distribution divergence, MTL facilitates the learning of
+generic features by parameter sharing [129]. This is easy
+to understand: in order to simultaneously deal with differ-
+ent tasks the features have to be generic enough. In [53],
+the authors proposed a denoising autoencoder architecture
+(later employed in [206]) where the encoder is shared but
+the decoder is split into domain-speciﬁc branches, each
+connected to a reconstruction task. The model was trained
+with two objectives, one being self-domain reconstruction
+while the other being cross-domain reconstruction, which
+aim to force the hidden representations to be as generic as
+possible.
+Domain alignment is still a popular research direction in
+DG. This idea has also been extensively studied in the do-
+main adaptation (DA) literature [15], [16], [151], [224], [225],
+but with a rigorous theoretical support [3]. In particular,
+the DA theory introduced in [3] suggested that minimizing
+the distribution divergence between source and target has
+a huge impact on lowering the upper-bound of the target
+error. However, in DG we cannot access the target data and
+therefore, the alignment is performed only among source
+domains. This inevitably raises a question of whether a
+representation learned to be invariant to source domain shift
+is guaranteed to generalize to an unseen domain shift in the
+target data. To solve this concern, one can focus on devel-
+oping novel theories to explain how alignment in source
+domains improves generalization in unseen domains.
+3.2 Meta-Learning
+Meta-learning has been a fast growing area with applica-
+tions to many machine learning and computer vision prob-
+lems [33], [42], [94], [103], [226]. Also known as learning-
+to-learning, meta-learning aims to learn from episodes sam-
+pled from related tasks to beneﬁt future learning (see [227]
+for a comprehensive survey on meta-learning). The meta-
+learning paper most related to DG is MAML [226], which
+divides training data into meta-train and meta-test sets, and
+trains a model using the meta-train set in such a way to
+improve the performance on the meta-test set. The MAML-
+style training usually involves a second-order differentiation
+=== PAGE 9 ===
+9
+through the update of the base model, thus posing issues on
+efﬁciency and memory consumption for large neural net-
+work models [227]. In [226], MAML was used for parameter
+initialization, i.e., to learn an initialization state that is only a
+few gradient steps away from the solution to the target task.
+The motivation behind applying meta-learning to DG is
+to expose a model to domain shift during training with a
+hope that the model can better deal with domain shift in
+unseen domains. Existing meta-learning DG methods can
+only be applied to multi-source DG where domain labels
+are provided.
+There are two components that need to be carefully
+designed, namely episodes and meta-representation. Specif-
+ically, episodes construction concerns how each episode
+should be constructed using available samples, while meta-
+representation answers the question of what to meta-learn.
+Episodes Construction Most existing meta-learning-
+based DG methods [34], [38], [42], [103], [104], [121],
+[182], [183], [184] followed the learning paradigm proposed
+in [33]—which is the ﬁrst method applying meta-learning
+to DG. Speciﬁcally, source domains are divided into non-
+overlapping meta-source and meta-target domains to simulate
+domain shift. The learning objective is to update a model
+using the meta-source domain(s) in such a way that the
+test error on the meta-target domain can be reduced, which
+is often achieved by bi-level optimization. See Fig. 3 for a
+graphical representation.
+Meta-Representation is a term deﬁned in [227] to repre-
+sent the model parameters that are meta-learned. Most deep
+learning methods meta-learned the entire neural network
+models [33], [121], [182]. Balaji et al. [34] instead proposed to
+meta-learn the regularization parameters. In [183], a stochas-
+tic neural network is meta-learned to handle uncertainty.
+In [42], an MRI segmentation model is meta-learned, along
+with two shape-aware losses to ensure compactness and
+smoothness in the segmentation results. Batch normaliza-
+tion layers are meta-learned in [103], [104], [184] to cope
+with the training-test discrepancy in CNN feature statistics.
+Overall, meta-learning is a promising direction to work
+on given its effectiveness in not only DG but also a wide
+range of applications like few-shot classiﬁcation [226], ob-
+ject detection [228] and image generation [229]. However,
+meta-learning in DG still suffers the same issue with that
+in domain alignment—a representation is only learned to
+be robust under source domain shift (simulated by meta-
+source and meta-target domains). Such an issue could be
+aggravated if the source domains are limited in terms of
+diversity. As observed from recent work [35], [205], both
+meta-learning and domain alignment methods are under-
+performed by methods based on directly augmenting the
+source training data—a topic that will be visited later. One
+might alleviate the generalization issue in meta-learning, as
+well as in domain alignment, by combining them with data
+augmentation. Moreover, advances may also be achieved by
+designing novel meta-learning algorithms in terms of meta-
+representation, meta-optimizer, and/or meta-objective.3
+3. These terms are deﬁned in [227].
+3.3 Data Augmentation
+Data augmentation has been a common practice to regular-
+ize the training of machine learning models to avoid over-
+ﬁtting and improve generalization [230], which is partic-
+ularly important for over-parameterized deep neural net-
+works. The basic idea in data augmentation is to augment
+the original (x,y) pairs with new (A(x),y) pairs where
+A(·) denotes a transformation, which is typically label-
+preserving. Not surprisingly, given the advantages of data
+augmentation, it has been extensively studied in DG where
+A(·) is usually seen as a way of simulating domain shift and
+the design of A(·) is key to performance.
+Based on how A(·) is formulated, data augmentation
+methods generally fall into four groups. See Fig. 4 for
+an overview. Below we provide more detailed reviews,
+with a more ﬁne-grained categorization where adversarial
+gradients are divided into task-adversarial gradients and
+domain-adversarial gradients; and model-based augmen-
+tation is further split into three sub-groups: random aug-
+mentation networks, off-the-shelf style transfer models, and
+learnable augmentation networks.
+Image Transformations This type of approach exploits
+traditional image transformations, such as random ﬂip,
+rotation and color augmentation. Fig. 5 visualizes some
+effects of transformations. Though using image transforma-
+tions does not require domain labels during learning, the
+selection of transformations is usually problem-speciﬁc. For
+example, for object recognition where image style changes
+are the main domain shift, one can choose transformations
+that are more related to color intensity changes, such as
+brightness, contrast and solarize in Fig. 5. To avoid
+manual picking, one can design a searching mechanism to
+search for the optimal set of transformations that best ﬁt
+the target problem. An example is [39] where the authors
+proposed an evolution-based searching algorithm and used
+a worst-case formulation to make the transformed images
+deviate as much as possible from the original image distri-
+bution. One can also select transformations according to the
+speciﬁc downstream task. For instance, [78] addressed the
+universal feature learning problem in face recognition by
+synthesizing meaningful variations such as lowering image
+resolution, adding occlusions and changing head poses.
+Traditional image transformations have been shown
+very effective in dealing with domain shift in medical
+images [186], [187], [188]. This makes sense because im-
+age transformations can well simulate changes in color
+and geometry caused by device-related domain shift, such
+as using different types of scanners in different medical
+centers. However, image transformations can be limited in
+some applications as they might cause label shift, such as
+digit recognition or optical character recognition where the
+horizontal/vertical ﬂip operation is infeasible. Therefore,
+transformations should be carefully chosen to not conﬂict
+with the downstream task.
+Task-Adversarial Gradients Inspired by adversarial at-
+tacks [231], [232], several data augmentation methods are
+based on using adversarial gradients obtained from the
+task classiﬁer to perturb the input images [73], [189], [190].
+In doing so, the original data distribution is expanded,
+allowing the model to learn more generalizable features.
+=== PAGE 10 ===
+10
+<latexit sha1_base64="+7SqxxZ7UIoRs57CPGCWSotDhIo=">AAACEHicbVC7TgJBFJ31ifhCLW0mgokV2aVQSxIbS4zySICQ2WEWJsxjM3NXQzZ8go2F/oqdsfUP/BNLB9hCwJPc5OSce3PvPWEsuAXf//bW1jc2t7ZzO/ndvf2Dw8LRccPqxFBWp1po0wqJZYIrVgcOgrViw4gMBWuGo5up33xkxnKtHmAcs64kA8UjTgk46b4UlXqFol/2Z8CrJMhIEWWo9Qo/nb6miWQKqCDWtgM/hm5KDHAq2CTfSSyLCR2RAWs7qohktpvOTp3gc6f0caSNKwV4pv6dSIm0dixD1ykJDO2yNxX/89oJRNfdlKs4AabofFGUCAwaT//GfW4YBTF2hFDD3a2YDokhFFw6C1tCufBDKhMB3OinSd5FFSwHs0oalXJwWfbvKsVqJQsth07RGbpAAbpCVXSLaqiOKBqgZ/SK3rwX79378D7nrWteNnOCFuB9/QLrUJ1d</latexit>
+f
+<latexit sha1_base64="qQ7t5vJGle1pHTjvPLjgEPd59Jg=">AAACEHicbVC7TgJBFL2LL8QXamkzEUysyC6FWpLYWGKURwIbMjvMwoSZ2c3MrEo2fIKNhf6KnbH1D/wTSwfYQsCT3OTknHtz7z1BzJk2rvvt5NbWNza38tuFnd29/YPi4VFTR4kitEEiHql2gDXlTNKGYYbTdqwoFgGnrWB0PfVbD1RpFsl7M46pL/BAspARbKx0V34q94olt+LOgFaJl5ESZKj3ij/dfkQSQaUhHGvd8dzY+ClWhhFOJ4VuommMyQgPaMdSiQXVfjo7dYLOrNJHYaRsSYNm6t+JFAutxyKwnQKboV72puJ/Xicx4ZWfMhknhkoyXxQmHJkITf9GfaYoMXxsCSaK2VsRGWKFibHpLGwJxMIPqUi4YSp6nBRsVN5yMKukWa14FxX3tlqqVbPQ8nACp3AOHlxCDW6gDg0gMIBneIU358V5dz6cz3lrzslmjmEBztcvCWWdbw==</latexit>
+x
+<latexit sha1_base64="R0ohF0E9rOu+iw6eJBh2hUiRiIc=">AAACE3icbVC7TgJBFJ3FF+ILtbSZCCbYkF0KtcTYWGIijwQ2ZHYYYGRmdjNzVyUb/sHGQn/Fztj6Af6JpQNsIehJbnJyzr25954gEtyA6345mZXVtfWN7GZua3tndy+/f9AwYawpq9NQhLoVEMMEV6wOHARrRZoRGQjWDEZXU795z7ThobqFccR8SQaK9zklYKVG8bL0eFrs5gtu2Z0B/yVeSgooRa2b/+70QhpLpoAKYkzbcyPwE6KBU8EmuU5sWEToiAxY21JFJDN+Mrt2gk+s0sP9UNtSgGfq74mESGPGMrCdksDQLHtT8T+vHUP/wk+4imJgis4X9WOBIcTT13GPa0ZBjC0hVHN7K6ZDogkFG9DClkAu/JDIWADX4cMkZ6PyloP5SxqVsndWdm8qhWolDS2LjtAxKiEPnaMqukY1VEcU3aEn9IJenWfnzXl3PuatGSedOUQLcD5/AG4hnh8=</latexit>
+A(x)
+<latexit sha1_base64="qQ7t5vJGle1pHTjvPLjgEPd59Jg=">AAACEHicbVC7TgJBFL2LL8QXamkzEUysyC6FWpLYWGKURwIbMjvMwoSZ2c3MrEo2fIKNhf6KnbH1D/wTSwfYQsCT3OTknHtz7z1BzJk2rvvt5NbWNza38tuFnd29/YPi4VFTR4kitEEiHql2gDXlTNKGYYbTdqwoFgGnrWB0PfVbD1RpFsl7M46pL/BAspARbKx0V34q94olt+LOgFaJl5ESZKj3ij/dfkQSQaUhHGvd8dzY+ClWhhFOJ4VuommMyQgPaMdSiQXVfjo7dYLOrNJHYaRsSYNm6t+JFAutxyKwnQKboV72puJ/Xicx4ZWfMhknhkoyXxQmHJkITf9GfaYoMXxsCSaK2VsRGWKFibHpLGwJxMIPqUi4YSp6nBRsVN5yMKukWa14FxX3tlqqVbPQ8nACp3AOHlxCDW6gDg0gMIBneIU358V5dz6cz3lrzslmjmEBztcvCWWdbw==</latexit>
+x
+<latexit sha1_base64="QwKi3WUDZBZjk4wMB5GQqmkD6Kc=">AAACEHicbVC7SgNBFL3rM8ZX1NJmMBGswm4KtQzYWEY0D0iWMDuZTYbMY5mZVcKST7Cx0F+xE1v/wD+xdPIoTOKBC4dz7uXee6KEM2N9/9tbW9/Y3NrO7eR39/YPDgtHxw2jUk1onSiudCvChnImad0yy2kr0RSLiNNmNLyZ+M1Hqg1T8sGOEhoK3JcsZgRbJ92XBqVuoeiX/SnQKgnmpAhz1LqFn05PkVRQaQnHxrQDP7FhhrVlhNNxvpMammAyxH3adlRiQU2YTU8do3On9FCstCtp0VT9O5FhYcxIRK5TYDswy95E/M9rpza+DjMmk9RSSWaL4pQjq9Dkb9RjmhLLR45gopm7FZEB1phYl87Clkgs/JCJlFum1dM476IKloNZJY1KObgs+3eVYrUyDy0Hp3AGFxDAFVThFmpQBwJ9eIZXePNevHfvw/ucta5585kTWID39Qvupp1f</latexit>
+h
+<latexit sha1_base64="Pbptw0z96yctThLgiirHWhxIIAM=">AAACFXicbVC7TgJBFL2LL8QXamkzEUysyC6FWpLYWGIijwQ2ZHYYYMI8NjOzGrLhJ2ws9FfsjK21f2LpAFsIeJKbnJxzb+69J4o5M9b3v73cxubW9k5+t7C3f3B4VDw+aRqVaEIbRHGl2xE2lDNJG5ZZTtuxplhEnLai8e3Mbz1SbZiSD3YS01DgoWQDRrB1UrvcVTFPTLlXLPkVfw60ToKMlCBDvVf86fYVSQSVlnBsTCfwYxumWFtGOJ0WuomhMSZjPKQdRyUW1ITp/N4punBKHw2UdiUtmqt/J1IsjJmIyHUKbEdm1ZuJ/3mdxA5uwpTJOLFUksWiQcKRVWj2POozTYnlE0cw0czdisgIa0ysi2hpSySWfkhFwi3T6mlacFEFq8Gsk2a1ElxV/PtqqVbNQsvDGZzDJQRwDTW4gzo0gACHZ3iFN+/Fe/c+vM9Fa87LZk5hCd7XL0Yxn7g=</latexit>
+ 
+<latexit sha1_base64="R0ohF0E9rOu+iw6eJBh2hUiRiIc=">AAACE3icbVC7TgJBFJ3FF+ILtbSZCCbYkF0KtcTYWGIijwQ2ZHYYYGRmdjNzVyUb/sHGQn/Fztj6Af6JpQNsIehJbnJyzr25954gEtyA6345mZXVtfWN7GZua3tndy+/f9AwYawpq9NQhLoVEMMEV6wOHARrRZoRGQjWDEZXU795z7ThobqFccR8SQaK9zklYKVG8bL0eFrs5gtu2Z0B/yVeSgooRa2b/+70QhpLpoAKYkzbcyPwE6KBU8EmuU5sWEToiAxY21JFJDN+Mrt2gk+s0sP9UNtSgGfq74mESGPGMrCdksDQLHtT8T+vHUP/wk+4imJgis4X9WOBIcTT13GPa0ZBjC0hVHN7K6ZDogkFG9DClkAu/JDIWADX4cMkZ6PyloP5SxqVsndWdm8qhWolDS2LjtAxKiEPnaMqukY1VEcU3aEn9IJenWfnzXl3PuatGSedOUQLcD5/AG4hnh8=</latexit>
+A(x)
+<latexit sha1_base64="qQ7t5vJGle1pHTjvPLjgEPd59Jg=">AAACEHicbVC7TgJBFL2LL8QXamkzEUysyC6FWpLYWGKURwIbMjvMwoSZ2c3MrEo2fIKNhf6KnbH1D/wTSwfYQsCT3OTknHtz7z1BzJk2rvvt5NbWNza38tuFnd29/YPi4VFTR4kitEEiHql2gDXlTNKGYYbTdqwoFgGnrWB0PfVbD1RpFsl7M46pL/BAspARbKx0V34q94olt+LOgFaJl5ESZKj3ij/dfkQSQaUhHGvd8dzY+ClWhhFOJ4VuommMyQgPaMdSiQXVfjo7dYLOrNJHYaRsSYNm6t+JFAutxyKwnQKboV72puJ/Xicx4ZWfMhknhkoyXxQmHJkITf9GfaYoMXxsCSaK2VsRGWKFibHpLGwJxMIPqUi4YSp6nBRsVN5yMKukWa14FxX3tlqqVbPQ8nACp3AOHlxCDW6gDg0gMIBneIU358V5dz6cz3lrzslmjmEBztcvCWWdbw==</latexit>
+x
+<latexit sha1_base64="R0ohF0E9rOu+iw6eJBh2hUiRiIc=">AAACE3icbVC7TgJBFJ3FF+ILtbSZCCbYkF0KtcTYWGIijwQ2ZHYYYGRmdjNzVyUb/sHGQn/Fztj6Af6JpQNsIehJbnJyzr25954gEtyA6345mZXVtfWN7GZua3tndy+/f9AwYawpq9NQhLoVEMMEV6wOHARrRZoRGQjWDEZXU795z7ThobqFccR8SQaK9zklYKVG8bL0eFrs5gtu2Z0B/yVeSgooRa2b/+70QhpLpoAKYkzbcyPwE6KBU8EmuU5sWEToiAxY21JFJDN+Mrt2gk+s0sP9UNtSgGfq74mESGPGMrCdksDQLHtT8T+vHUP/wk+4imJgis4X9WOBIcTT13GPa0ZBjC0hVHN7K6ZDogkFG9DClkAu/JDIWADX4cMkZ6PyloP5SxqVsndWdm8qhWolDS2LjtAxKiEPnaMqukY1VEcU3aEn9IJenWfnzXl3PuatGSedOUQLcD5/AG4hnh8=</latexit>
+A(x)
+perturbation
+<latexit sha1_base64="Moi4bj9sUC0YcT8nmlPQ5J6TW3I=">AAACE3icbVC7TgJBFJ31ifhCLW0mgokV2aVQSxIbS0zkkQAhs8NdGJnHZmZWQzb8g42F/oqdsfUD/BNLB9hCwJPc5OSce3PvPWHMmbG+/+2trW9sbm3ndvK7e/sHh4Wj44ZRiaZQp4or3QqJAc4k1C2zHFqxBiJCDs1wdDP1m4+gDVPy3o5j6AoykCxilFgnNUod4LzUKxT9sj8DXiVBRoooQ61X+On0FU0ESEs5MaYd+LHtpkRbRjlM8p3EQEzoiAyg7agkAkw3nV07wedO6eNIaVfS4pn6dyIlwpixCF2nIHZolr2p+J/XTmx03U2ZjBMLks4XRQnHVuHp67jPNFDLx44Qqpm7FdMh0YRaF9DCllAs/JCKhFum1dMk76IKloNZJY1KObgs+3eVYrWShZZDp+gMXaAAXaEqukU1VEcUPaBn9IrevBfv3fvwPueta142c4IW4H39Al10nq4=</latexit>
+`
+<latexit sha1_base64="4bEehyFJgO+bZ6N24i5Uj1+LaQY=">AAACHnicbVC7TgJBFJ3FF+KDVUubiWBiRXYp1JLExhITeSQs2cwOszBhHpuZWZVs+BIbC/0VO2Orf2LpAFsIeJKbnJxzb+69J0oY1cbzvp3CxubW9k5xt7S3f3BYdo+O21qmCpMWlkyqboQ0YVSQlqGGkW6iCOIRI51ofDPzOw9EaSrFvZkkpM/RUNCYYmSsFLrlaiBQxFD4BAPCWDV0K17NmwOuEz8nFZCjGbo/wUDilBNhMENa93wvMf0MKUMxI9NSkGqSIDxGQ9KzVCBOdD+bHz6F51YZwFgqW8LAufp3IkNc6wmPbCdHZqRXvZn4n9dLTXzdz6hIUkMEXiyKUwaNhLMU4IAqgg2bWIKwovZWiEdIIWxsVktbIr70Q8ZTZqiSj9OSjcpfDWadtOs1/7Lm3dUrjXoeWhGcgjNwAXxwBRrgFjRBC2CQgmfwCt6cF+fd+XA+F60FJ585AUtwvn4BzOaiig==</latexit>
+rx`
+<latexit sha1_base64="+7SqxxZ7UIoRs57CPGCWSotDhIo=">AAACEHicbVC7TgJBFJ31ifhCLW0mgokV2aVQSxIbS4zySICQ2WEWJsxjM3NXQzZ8go2F/oqdsfUP/BNLB9hCwJPc5OSce3PvPWEsuAXf//bW1jc2t7ZzO/ndvf2Dw8LRccPqxFBWp1po0wqJZYIrVgcOgrViw4gMBWuGo5up33xkxnKtHmAcs64kA8UjTgk46b4UlXqFol/2Z8CrJMhIEWWo9Qo/nb6miWQKqCDWtgM/hm5KDHAq2CTfSSyLCR2RAWs7qohktpvOTp3gc6f0caSNKwV4pv6dSIm0dixD1ykJDO2yNxX/89oJRNfdlKs4AabofFGUCAwaT//GfW4YBTF2hFDD3a2YDokhFFw6C1tCufBDKhMB3OinSd5FFSwHs0oalXJwWfbvKsVqJQsth07RGbpAAbpCVXSLaqiOKBqgZ/SK3rwX79378D7nrWteNnOCFuB9/QLrUJ1d</latexit>
+f
+<latexit sha1_base64="G1JxRmmZOnrMjZxehIyACrXhhTQ=">AAACEHicbVC7TgJBFL2LL8QXammzEUysyC6FWmJsLDHKI4ENmR1mYcI8NjOzGrLhE2ws9FfsjK1/4J9YOsAWAp7kJifn3Jt77wljRrXxvG8nt7a+sbmV3y7s7O7tHxQPj5paJgqTBpZMqnaINGFUkIahhpF2rAjiISOtcHQz9VuPRGkqxYMZxyTgaCBoRDEyVrovX5d7xZJX8WZwV4mfkRJkqPeKP92+xAknwmCGtO74XmyCFClDMSOTQjfRJEZ4hAakY6lAnOggnZ06cc+s0ncjqWwJ487UvxMp4lqPeWg7OTJDvexNxf+8TmKiqyClIk4MEXi+KEqYa6Q7/dvtU0WwYWNLEFbU3uriIVIIG5vOwpaQL/yQ8oQZquTTpGCj8peDWSXNasW/qHh31VKtmoWWhxM4hXPw4RJqcAt1aACGATzDK7w5L8678+F8zltzTjZzDAtwvn4BrZmdOA==</latexit>
+A
+<latexit sha1_base64="+7SqxxZ7UIoRs57CPGCWSotDhIo=">AAACEHicbVC7TgJBFJ31ifhCLW0mgokV2aVQSxIbS4zySICQ2WEWJsxjM3NXQzZ8go2F/oqdsfUP/BNLB9hCwJPc5OSce3PvPWEsuAXf//bW1jc2t7ZzO/ndvf2Dw8LRccPqxFBWp1po0wqJZYIrVgcOgrViw4gMBWuGo5up33xkxnKtHmAcs64kA8UjTgk46b4UlXqFol/2Z8CrJMhIEWWo9Qo/nb6miWQKqCDWtgM/hm5KDHAq2CTfSSyLCR2RAWs7qohktpvOTp3gc6f0caSNKwV4pv6dSIm0dixD1ykJDO2yNxX/89oJRNfdlKs4AabofFGUCAwaT//GfW4YBTF2hFDD3a2YDokhFFw6C1tCufBDKhMB3OinSd5FFSwHs0oalXJwWfbvKsVqJQsth07RGbpAAbpCVXSLaqiOKBqgZ/SK3rwX79378D7nrWteNnOCFuB9/QLrUJ1d</latexit>
+f
+<latexit sha1_base64="qQ7t5vJGle1pHTjvPLjgEPd59Jg=">AAACEHicbVC7TgJBFL2LL8QXamkzEUysyC6FWpLYWGKURwIbMjvMwoSZ2c3MrEo2fIKNhf6KnbH1D/wTSwfYQsCT3OTknHtz7z1BzJk2rvvt5NbWNza38tuFnd29/YPi4VFTR4kitEEiHql2gDXlTNKGYYbTdqwoFgGnrWB0PfVbD1RpFsl7M46pL/BAspARbKx0V34q94olt+LOgFaJl5ESZKj3ij/dfkQSQaUhHGvd8dzY+ClWhhFOJ4VuommMyQgPaMdSiQXVfjo7dYLOrNJHYaRsSYNm6t+JFAutxyKwnQKboV72puJ/Xicx4ZWfMhknhkoyXxQmHJkITf9GfaYoMXxsCSaK2VsRGWKFibHpLGwJxMIPqUi4YSp6nBRsVN5yMKukWa14FxX3tlqqVbPQ8nACp3AOHlxCDW6gDg0gMIBneIU358V5dz6cz3lrzslmjmEBztcvCWWdbw==</latexit>
+x
+<latexit sha1_base64="+7SqxxZ7UIoRs57CPGCWSotDhIo=">AAACEHicbVC7TgJBFJ31ifhCLW0mgokV2aVQSxIbS4zySICQ2WEWJsxjM3NXQzZ8go2F/oqdsfUP/BNLB9hCwJPc5OSce3PvPWEsuAXf//bW1jc2t7ZzO/ndvf2Dw8LRccPqxFBWp1po0wqJZYIrVgcOgrViw4gMBWuGo5up33xkxnKtHmAcs64kA8UjTgk46b4UlXqFol/2Z8CrJMhIEWWo9Qo/nb6miWQKqCDWtgM/hm5KDHAq2CTfSSyLCR2RAWs7qohktpvOTp3gc6f0caSNKwV4pv6dSIm0dixD1ykJDO2yNxX/89oJRNfdlKs4AabofFGUCAwaT//GfW4YBTF2hFDD3a2YDokhFFw6C1tCufBDKhMB3OinSd5FFSwHs0oalXJwWfbvKsVqJQsth07RGbpAAbpCVXSLaqiOKBqgZ/SK3rwX79378D7nrWteNnOCFuB9/QLrUJ1d</latexit>
+f
+(a) Image transformations (b) Adversarial Gradients (c) Model-based augmentation (d) Feature-based augmentation
+Fig. 4. Based on the formulation of the transformation A(·), existing data augmentation methods can be categorized into four groups. a) The ﬁrst
+group enhances the generalization of the classiﬁer f by applying hand-engineered image transformations like random crop or color augmentation
+to simulating domain shift. b) The second group is based on adversarial gradients obtained from either a category classiﬁer (h = f ) or a domain
+classiﬁer. c) The third group models A(·) using neural networks, such as random CNNs [191], an off-the-shelf style transfer model [29], or a
+learnable image generator [35]. d) The ﬁnal group injects perturbation into intermediate features in the task model.
+original brightness contrast rotate
+sharpness shear solarize translate
+Fig. 5. Common image transformations used as data augmentation in
+domain generalization [39], [186], [187], [188].
+Though this type of approach is often developed for tackling
+single-source DG, the idea can also be directly applied to
+multi-source scenarios.
+Domain-Adversarial Gradients When it comes to multi-
+source DG where domain labels are provided, one can
+exploit domain-adversarial gradients to synthesize domain-
+agnostic images. For instance, [40] trained a domain clas-
+siﬁer and used its adversarial gradients to perturb the
+input images. Intuitively, by learning with domain-agnostic
+images, the task model is allowed to learn more domain-
+invariant patterns.
+Since adversarial gradients-based perturbation is pur-
+posefully designed to be visually imperceptible [231], meth-
+ods based on adversarial gradients are often criticized for
+not being able to simulate real-world domain shift, which
+is much more complicated than salt-and-pepper noise [36].
+Furthermore, the computational cost is often doubled in
+these methods because the forward and backward passes
+need to be computed twice, which could pose serious efﬁ-
+ciency issues for large neural networks. Below we discuss
+model-based methods that formulate the transformation
+A(·) using neural networks and can produce more diverse
+visual effects.
+Random Augmentation Networks RandConv [191] is
+based on the idea of using randomly initialized, single-
+layer convolutioinal neural network to transform the input
+images to “novel domains.” Since the weights are randomly
+sampled from a Gaussian distribution at each iteration and
+no learning is performed, the transformed images mainly
+contain random color distortions, which do not contain
+meaningful variations and are best to be mixed with the
+original images before passing to the task network.
+Off-the-Shelf Style Transfer Models Taking advantage
+of the advances in style transfer [233], several DG meth-
+ods [29], [192], [193] use off-the-shelf style transfer models
+like AdaIN [233] to represent A(·), which essentially maps
+images from one source domain to another for data augmen-
+tation. Instead of transferring image styles between source
+domains, one can exploit external styles to further diversify
+the source training data [20]. Though these methods do not
+need to train the style transfer component, they still need
+domain labels for domain translation.
+Learnable Augmentation Networks This group of meth-
+ods aims to learn augmentation neural networks to synthe-
+size new domains [35], [36], [194]. In [36], [194], domain-
+agnostic images are generated by maximizing the domain
+classiﬁcation loss with respect to the image generator.
+In [35], pseudo-novel domains are synthesized by maximiz-
+ing for each source domain the domain distance measured
+by optimal transport [217] between the original and syn-
+thetic images.
+Feature-Based Augmentation Though the above learn-
+able augmentation models have shown promising results,
+their efﬁciency is a main concern as they need to train heavy
+image-to-image translation models. Another line of research
+focuses on feature-level augmentation [23], [28], [147]. Mo-
+tivated by the observation that image styles are captured
+in CNN feature statistics, MixStyle [23], [28] achieves style
+augmentation by mixing CNN feature statistics between
+instances of different domains. In [147], Mixup [234] is
+applied to mixing instances of different domains in both
+pixel and feature space.
+3.4 Ensemble Learning
+As an extensively studied topic in machine learning re-
+search, ensemble learning [235] typically learns multiple
+copies of the same model with different initialization
+weights or using different splits of training data, and uses
+their ensemble for prediction. Such a simple technique has
+been shown very effective in boosting the performance of
+=== PAGE 11 ===
+11
+a single model across a wide range of applications [6], [7],
+[236].
+Exemplar-SVMs are a collection of SVM classiﬁers, each
+learned using one positive instance and all negative in-
+stances [237]. As the ensemble of such exemplar SVMs
+have shown excellent generalization performance on the
+object detection task in [237], Xu et al. [195] have extended
+exemplar-SVMs to DG. In particular, given a test sample the
+top-K exemplar classiﬁers that give the highest prediction
+scores (hence more conﬁdent) are selected for ensemble
+prediction. Such an idea of learning exemplar classiﬁers was
+also investigated in [196], [197] for DG.
+Domain-Speciﬁc Neural Networks Since CNNs excel
+at discriminative feature learning [7], it is natural to re-
+place hand-engineered SVM classiﬁers with CNN-based
+models for ensemble learning. A common practice is to
+learn domain-speciﬁc neural networks, each specializing
+in a source domain [61], [198]. Rather than learning an
+independent CNN for each source domain [198], it is more
+efﬁcient, and makes more sense as well, to share between
+source domains some shallow layers [61], which capture
+generic features [139]. Another question is how to compute
+the prediction. One can simply use the ensemble prediction
+averaged over all individuals with equal weights (e.g., [61],
+[199]). Alternatively, weighted averaging can be adopted
+where the weights are estimated by, for example, a source
+domain classiﬁer aiming to measure the similarity of the
+target sample to each source domain [201]. Also, the weights
+can be used to determine the most conﬁdent candidate
+whose output will serve for ﬁnal prediction [200].
+Domain-Speciﬁc Batch Normalization In batch normal-
+ization (BN) [238], the statistics are computed on-the-ﬂy dur-
+ing training and their moving averages are stored in buffers
+for inference. Since the statistics typically vary in different
+source domains, one could argue that mixing statistics of
+multiple source domains is detrimental to learning gen-
+eralizable representations. One solution is to use domain-
+speciﬁc BNs [202], [204], one for each source domain for
+collecting domain-speciﬁc statistics. This is equivalent to
+constructing domain-speciﬁc classiﬁers but with parameter
+sharing for most parts of a model except the normalization
+layers. Such a design was later adopted in [41] for deal-
+ing with MRI segmentation. In [203], the domain-speciﬁc
+predictions are aggregated using as weights the distance
+between a test data’s instance-level feature statistics and the
+source domain BN statistics.
+Weight Averaging aggregates model weights at different
+time steps during training to form a single model at test
+time [239]. Unlike explicit ensemble learning where multiple
+models (or model parts) need to be trained, weight averag-
+ing is a more efﬁcient solution as the model only needs to be
+trained once. In [205], the authors have demonstrated that
+weight averaging can greatly improve model robustness
+under domain shift. In fact, such a technique is orthogonal
+to many other DG approaches and can be applied as a post-
+processing method to further boost the DG performance.
+3.5 Self-Supervised Learning
+Self-supervised learning is often referred to as learning with
+free labels generated from data itself (see [242] for a com-
+Jigsaw classifier
+patch-shuffling
+rotate 90˚
+Rotation classifier
+(a) Solving Jigsaw puzzles
+(b) Predicting rotation degrees
+Fig. 6. Common pretext tasks used for self-supervised learning in do-
+main generalization. One can use a single pretext task, like solving
+Jigsaw puzzles [240] or predicting rotations [241], or combine multiple
+pretext tasks in a multi-task learning fashion.
+prehensive survey on self-supervised learning). In computer
+vision, this can be achieved by teaching a model to predict
+the transformations applied to the image data, such as the
+shufﬂing order of patch-shufﬂed images [240] or rotation
+degrees [241]. See Fig. 6 for illustrations.
+So why can self-supervised learning improve DG? An
+intuitive explanation is that solving pretext tasks allows a
+model to learn generic features regardless of the target task,
+and hence less over-ﬁtting to domain-speciﬁc biases [49].
+An obvious advantage of self-supervised learning is that it
+can be applied to both single- and multi-source scenarios
+without requiring any domain labels.
+Single Pretext Task In addition to using the standard
+classiﬁcation loss, Carlucci et al. [49] taught a neural net-
+work to solve the Jigsaw puzzles problem [240], hoping
+that the network can learn regularities that are more gen-
+eralizable across domains. Similarly, Wang et al. [134] used
+the Jigsaw solving task as an intrinsic supervision, together
+with an extrinsic supervision implemented using metric
+learning. Reconstruction has also been investigated for DG,
+such as learning an autoencoder to reconstruct image pix-
+els/features [53], [206].
+Multiple Pretext Tasks It is also possible to combine
+multiple pretext tasks. In [50], the authors combined two
+pretext tasks, namely solving Jigsaw puzzles and predicting
+rotations. In [135], three pretext tasks are combined, namely
+reconstructing the Gabor ﬁlter’s response, predicting ro-
+tations, and predicting feature cluster assignments [243].
+Overall, using multiple pretext tasks gives a better perfor-
+mance than using a single pretext task, as shown in [50].
+Currently, these self-supervised learning-based DG
+methods have only been evaluated on the object recognition
+task. It is still unclear whether they will work on a wider
+range of OOD generalization tasks, which would be interest-
+ing to investigate in future work. Another concerns are that
+in general none of the existing pretext tasks is universal, and
+that the selection of pretext tasks is problem-speciﬁc. For
+instance, when the target domain shift is related to rotations,
+the model learned with the rotation prediction task will
+capture rotation-sensitive information, which is harmful to
+generalization.
+Recent state-of-the-art self-supervised learning meth-
+ods [244], [245] are mostly based on combining contrastive
+learning with data augmentation. The key idea is to pull
+together the same instance (image) undergone different
+=== PAGE 12 ===
+12
+transformations (e.g., random ﬂip and color distortion)
+while push away different instances to learn instance-
+aware representations. Different from predicting transfor-
+mations such as rotation, contrastive learning aims to learn
+transformation-invariant representations. Future work can
+explore whether invariances learned via contrastive learning
+can better adapt to OOD data.
+3.6 Learning Disentangled Representations
+Instead of forcing the entire model or features to be domain-
+invariant, which is challenging, one can relax this con-
+straint by allowing some parts to be domain-speciﬁc, es-
+sentially learning disentangled representations. The exist-
+ing approaches falling into this group are either based on
+decomposition [37], [46], [207], [208] or generative model-
+ing [209], [210], both requiring domain labels for feature
+disentanglement.
+Decomposition An intuitive way to achieve disentangled
+representation learning is to decompose a model into two
+parts, one being domain-speciﬁc while the other being
+domain-agnostic. Based on SVMs, Khosla et al. [46] decom-
+posed a classiﬁer into domain-speciﬁc biases and domain-
+agnostic weights, and only kept the latter when dealing
+with unseen domains. This approach was later extended
+to neural networks in [37]. One can also design domain-
+speciﬁc modules such as in [207] where domain-speciﬁc
+binary masks are imposed on the ﬁnal feature vector to
+distinguish between domain-speciﬁc and domain-invariant
+components. Another solution is to apply low-rank decom-
+position to a model’s weight matrices in order to identify
+common features that are more generalizable [208].
+Generative Modeling has been a powerful tool for learn-
+ing disentangled representations [246]. In [209], a variational
+autoencoder (VAE) is utilized to learn three independent
+latent subspaces for class, domain and object, respectively.
+In [210], two separate encoders are learned in an adversarial
+way to capture identity and domain information respec-
+tively for cross-domain face anti-spooﬁng.
+3.7 Regularization Strategies
+Some approaches focus on regularization strategies de-
+signed based on some heuristics. Wang et al. [51] ar-
+gued that generalizable features should capture the global
+structure/shape of objects rather than relying on local
+patches/textures, and therefore proposed to suppress the
+predictive power of auxiliary patch-wise CNNs (maximiz-
+ing their classiﬁcation errors), implemented as a stack of
+1×1 convolution layers. With a similar motivation, Huang
+et al. [52] iteratively masked out over-dominant features
+with large gradients, thus forcing the model to rely more
+on the remaining features. These methods do not require
+domain labels for learning, and are orthogonal to other DG
+methods like those based on domain alignment [117], [169]
+and data augmentation [23], [35], [39]. Therefore, one could
+potentially combine them to improve the performance in
+practice.
+3.8 Reinforcement Learning
+Domain shift in reinforcement learning (RL) not only occurs
+in visual appearance (color/style changes, etc.) but also in
+other aspects like dynamics (transition function) or rewards
+(e.g., gravity/friction changes) [125]. For visual domain
+shift, many of the DG methods surveyed above seem appli-
+cable for RL, such as data augmentation methods [23], [214],
+but not for the latter that requires more problem-speciﬁc
+designs. Below we brieﬂy discuss some representative gen-
+eralization methods developed for RL. Please refer to [125]
+for a more comprehensive survey.
+Data Augmentation The main idea is to augment the
+visual signal sent to an RL agent to make it more
+domain-generalizable. A common approach is to use label-
+preserving transformations [123], [211], [212] like color jit-
+tering or Cutout [247]. One can also implement the concept
+of domain randomization [213], which visually randomizes
+an environment through, e.g., computer simulators [213] or
+random neural networks [214]. When convolutional neural
+networks are used, one can adopt the MixStyle [23] ap-
+proach discussed in Sec. 3.3 to create “novel” domains in
+the feature space.
+Self-Supervision Combining RL with self-supervised
+learning, which does not require manual labels, has also
+been explored. The general pipeline is to augment an RL
+model with auxiliary loss(es). For instance, Yarats et al. [215]
+proposed a reconstruction loss based on auto-encoders;
+Laskin et al. [216] combined RL with an unsupervised
+contrastive learning loss.
+4 THEORIES
+Unlike domain adaptation in which plenty of learn-
+ing bounds with theoretical guarantees have been pro-
+posed [248], bounding the risk for domain generalization
+(DG) is challenging due to the absence of target data.
+Nonetheless, some attempts have been made to address this
+problem, which are brieﬂy reviewed in this section.
+Most existing theoretical studies are subject to speciﬁc
+model classes, such as kernel methods [5], [19], [168], [249],
+or have strong assumptions that cannot be simply applied
+to broader DG methods. In [173], the latent feature space of
+all possible domains (including both source and target) is
+assumed to have a linear dependency, meaning that each
+domain is a linear combination of other domains. Based
+on the linear dependency assumption, a rank regulariza-
+tion method is proposed and combined with a distribution
+alignment method. In [175], source domains are assumed
+to form a convex hull so that minimizing the maximum
+pairwise distance within the source domains would lead
+to a decrease in the distance between any two domains in
+the convex hull. In [250], DG is cast into an online game
+where a player (model) minimizes the risk for a “new”
+distribution presented by an adversary at each time-step.
+In [251], proxy measures that correlate well with “true”
+OOD generalization are investigated.
+More recently, there are a couple of emerging stud-
+ies [252], [253] that aim to provide more generic bounds,
+with more relaxed assumptions, for DG. In [252], feature
+distribution is quantiﬁed by two terms: i) a variation term
+measuring the stability of feature representations across
+domains; ii) an informativeness term indicating the discrim-
+inativeness of feature representations (i.e., how well they
+can be used to distinguish different classes). Then, the error
+=== PAGE 13 ===
+13
+on unseen domains is bounded by an expansion function
+based on the variation term, subject to the learnability of
+feature representations measured using the informativeness
+term.
+In [253], the generalization gap is bounded in terms
+of the model’s Rademacher complexity, suggesting that
+a lower model complexity with strong regularization can
+improve generalization in unseen domains—which echoes
+the ﬁndings in [128]: properly regularized Empirical Risk
+Minimization with leave-one-domain-out cross-validation is
+a strong DG baseline.
+5 FUTURE RESEARCH DIRECTIONS
+So far we have covered the background on domain gen-
+eralization (DG) in § 2—knowing what DG is about
+and how DG is typically evaluated under different
+settings/datasets—as well as gone though the existing
+methodologies developed over the last decade in § 3. The
+following questions would naturally arise: i) Has DG been
+solved? ii) If not, how far are we from solving DG?
+The answer is of course not—DG is a very challenging
+problem and is far from being solved. In this section, we
+aim to share some insights on future research directions,
+pointing out what have been missed in the current research
+and discussing what are worth exploring to further this
+ﬁeld. Speciﬁcally, we discuss potential directions from three
+perspectives: model (§ 5.1), learning (§ 5.2), and benchmarks
+(§ 5.3).
+5.1 Model Architecture
+Dynamic Architectures The weights in a convolutional
+neural network (CNN), which serve as feature detectors,
+are normally ﬁxed once learned from source domains. This
+may result in the representational power of a CNN model
+restricted to the seen domains while generalizing poorly
+when the image statistics in an unseen domain are signiﬁ-
+cantly different. One potential solution is to develop dynamic
+architectures [254], e.g., with weights conditioned on the
+input [255]. The key is to make neural networks’ parameters
+(either partly or entirely) dependent on the input while
+ensuring that the model size is not too large to harm the
+efﬁciency. Dynamic architectures such as dynamic ﬁlter net-
+works [255] and conditional convolutions [256] have been
+shown effective on generic visual recognition tasks like
+classiﬁcation and segmentation. It would be interesting to
+see whether such a ﬂexible architecture can be used to cope
+with domain shift in DG.
+Adaptive Normalization Layers Normalization lay-
+ers [238], [257], [258] have been a core building block in
+contemporary neural networks. Following [259], a general
+formulation for different normalization layers can be written
+as γx−µ σ + β, where µ and σ denote mean and variance
+respectively; γ and β are learnable scaling and shift pa-
+rameters respectively. Typically, (µ,σ) are computed on-
+the-ﬂy during training but are saved in buffers using their
+moving averages for inference. Regardless of whether they
+are computed within each instance or based on a mini-
+batch, they can only represent the distribution of training
+data. The afﬁne transformation parameters, i.e., γ and β, are
+also learned for source data only. Therefore, a normalization
+layer’s parameters are not guaranteed to work well under
+domain shift in unseen test data. It would be a promising
+direction to investigate how to make these parameters adap-
+tive to unseen domains [260].
+5.2 Learning
+Learning without Domain Labels Most existing meth-
+ods leveraged domain labels in their models. However, in
+real-world applications it is possible that domain labels
+are difﬁcult to obtain, e.g., web images crawled from the
+Internet are taken by arbitrary users with arbitrary domain
+characteristics and thus the domain labels are extremely
+difﬁcult to deﬁne [197]. In such scenarios where domain
+labels are missing, many top-performing DG approaches are
+not viable any more or the performance deteriorates [118].
+Though this topic has been studied in the past (e.g., [23],
+[177], [261]), methods that can deal with the absence of do-
+main labels are still scarce and noncompetitive with meth-
+ods that utilize domain labels. Considering that learning
+without domain labels is much more efﬁcient and scalable,
+we encourage more future work to tackle this topic. We
+also suggest future work that uses domain labels evaluate
+the ability of functioning without proper domain labels—
+if applicable—like the random grouping experiment done
+in [118].
+Learning to Synthesize Novel Domains The DG per-
+formance can greatly beneﬁt from increasing the diver-
+sity of source domains. This is also conﬁrmed in a recent
+work [262] where the authors emphasized the importance of
+having diverse training distributions to out-of-distribution
+(OOD) generalization. However, in practice it is impossible
+to collect training data that cover all possible domains. As
+such, learning to synthesize novel domains can be a poten-
+tial solution. Though this idea has been roughly explored in
+a couple of recent DG works [23], [35], the results still have
+much room for improvements.
+Avoiding Learning Shortcut Shortcut learning can be
+interpreted as a problem of learning “easy” representations
+that can perform well on training data but are irrelevant to
+the task [263]. For example, given the task of distinguish-
+ing between digits blended with different colors, a neural
+network might be biased toward recognizing colors rather
+than the digit shapes during training, thus leading to poor
+generalization on unseen data [264]. Such a problem can
+be intensiﬁed on multi-source data in DG as each source
+domain typically contains its own domain-speciﬁc bias. As
+a consequence, a DG model might simply learn to memorize
+the domain-speciﬁc biases, such as image styles [37], when
+tasked to differentiate between instances from different do-
+mains. The shortcut learning problem has been overlooked
+in DG.
+Causal Representation Learning Currently, the common
+pipeline used in DG, as well as in many other ﬁelds, for
+representation learning is to learn a mapping P (Y|X) by
+sampling data from the marginal distribution P (X) with
+an objective to match the joint distribution P (X,Y ) =
+P (Y|X)P (X) (typically via maximum likelihood optimiza-
+tion). However, the learned representations have turned out
+=== PAGE 14 ===
+14
+to be lacking in the ability to adapt to OOD data [265].
+A potential solution is to model the underlying causal
+variables (e.g., by autoencoder [265]) which cannot be di-
+rectly observed but are much more stable and robust under
+distribution shift. This is closely related to the topic of
+causal representation learning, a recent trend in the machine
+learning community [266].
+Exploiting Side Information Side information (some-
+times called meta-data) has been commonly used to boost
+the performance of a pattern recognition system. For ex-
+ample, depth information obtained from RGB-D sensors
+can be used alongside RGB images to improve the per-
+formance of, e.g., generic object detection [267] or human
+detection [268]. In DG, there exist a few works that utilize
+side information, such as attribute labels [149] or object
+segmentation masks [269]. In terms of attributes, they could
+be more generalizable because they capture mid- to low-
+level visual cues like colors, shapes and stripes, which are
+shared among different objects and less sensitive to domain
+biases [149]. Notably, attributes have been widely used in
+zero-shot learning to recognize unseen classes [143], [148].
+In contrast, features learned for discrimination are usually
+too speciﬁc to objects, such as dog ears and human faces
+as found in top-layer CNN features [270], which are more
+likely to capture domain biases and hence less transferable
+between tasks [139].
+Transfer Learning A couple of recent works [141], [142]
+have focused on the transfer learning perspective when
+designing DG methods for synthetic-to-real applications.
+Given a model pre-trained on large real datasets like Im-
+ageNet [11], the main goal is to learn new knowledge
+that is useful to the downstream task from synthetic data,
+and in the meantime, to maintain the knowledge on real
+images that was acquired from pre-training. Such a setting
+is closely related to learning-without-forgetting (LwF) [271].
+In particular, a technique used in [141] was borrowed from
+LwF [271], i.e., minimizing the divergence between the new
+model’s output and the old model’s output to avoid erasing
+the pre-trained knowledge. Synthetic-to-real transfer learn-
+ing is a realistic and practical setting but research in this
+direction has been less explored for DG.
+Semi-Supervised Domain Generalization Most existing
+DG research assumes data collected from each source do-
+main are fully annotated so the proposed methods are
+purely based on supervised learning, which are unable to
+cope with unlabeled data. However, in practice the size of la-
+beled data could well be limited due to high annotation cost,
+but collecting abundant unlabeled data is much easier and
+cheaper. This leads to a more realistic and practical setting
+termed semi-supervised domain generalization [28], [29],
+[272], [273], [274], which has recently picked up attention
+from the DG community. In [29], pseudo-labels are assigned
+to unlabeled source data and an off-the-shelf style transfer
+model is used to augment the domain space. In [28], feature
+statistics are mixed between labeled and pseudo-labeled
+source data for data augmentation. Since designing data-
+efﬁcient, and yet generalizable learning systems is essential
+for practical applications, we believe semi-supervised do-
+main generalizable is worth investigating for future work.
+Open Domain Generalization is a recently introduced
+problem setting [27] where a model is learned from het-
+erogeneous source domains with different label sets (with
+overlaps) and deployed in unseen domains for recognizing
+known classes while being able to reject unknown classes.
+This problem setting is related to existing heterogeneous
+DG [35], [94] but focuses on classiﬁcation applications and
+emphasizes the ability to detect (reject) unknown classes,
+which is often studied in open-set recognition [275]. In [27],
+a variant of Mixup [234] is proposed for data augmentation
+at both feature and label level, and a conﬁdence threshold
+is used to reject test samples that likely belong to unknown
+classes.
+5.3 Benchmarks
+Incremental Learning + DG Most existing research on
+DG implicitly assumes that source domains are ﬁxed and a
+model needs to be learned only once. However, in practice,
+it might well be the case that source domains are incremen-
+tally introduced, thus requiring incremental learning [276].
+For instance, in cross-dataset person re-identiﬁcation we
+might well have access to, say only two datasets at the
+beginning for model learning, e.g., Market1501 [76] and
+DukeMTMC-reID [77], but later another dataset comes in,
+e.g., CUHK03 [277], which increases the number of source
+datasets from two to three. In this case, several problems
+need to be addressed, such as i) how to efﬁciently ﬁne-
+tune the model on the new dataset without training from
+scratch using all available datasets, ii) how to make sure
+the model does not over-ﬁt the new dataset and forget the
+previously learned knowledge, and iii) will the new dataset
+be beneﬁcial or detrimental to the DG performance on the
+target domain.
+Heterogeneous Domain Shift The current DG datasets
+mainly contain homogeneous domain shift, which means
+the source-source and source-target shifts are highly cor-
+related with each other. For example, on PACS [37] the
+source-source domain shift and the source-target domain
+shift are both related to image style changes; on Rotated
+MNIST [53] rotation is the only cause of domain shift.
+However, in real-world scenarios the target domain shift is
+unpredictable and less likely to be correlated with the source
+domain shift, e.g., the source domains might be photo, art
+and sketch but the target domain might be images of novel
+viewpoints; or the source domains contain digit images with
+different rotations but the target domain images might be in
+a different font style or background. Such a setting, which
+we call heterogeneous domain shift, has never been brought
+up but is critical to practical applications.
+6 CONCLUSION
+Domain generalization has been studied over a decade,
+with numerous methods developed in the literature across
+various application areas. Given the importance of domain
+generalization to the development of AI, it is imperative to
+make it clear that i) how this topic relates to neighboring
+ﬁelds like domain adaptation, ii) how domain generaliza-
+tion is typically evaluated and benchmarked, and crucially,
+iii) what the progress is in domain generalization. This
+=== PAGE 15 ===
+15
+timely and up-to-date survey answers these questions and
+we hope it can inspire future work to advance the ﬁeld.
+Acknowledgements This work is supported by NTU
+NAP, MOE AcRF Tier 2 (T2EP20221-0033), and under the
+RIE2020 Industry Alignment Fund – Industry Collaboration
+Projects (IAF-ICP) Funding Initiative, as well as cash and in-
+kind contribution from the industry partner(s). This work
+is also supported by National Natural Science Foundation
+of China (61876176, U1713208); the National Key Research
+and Development Program of China (No. 2020YFC2004800);
+Science and Technology Service Network Initiative of Chi-
+nese Academy of Sciences (KFJ-STS-QYZX-092); the Shang-
+hai Committee of Science and Technology, China (Grant
+No. 20DZ1100800).
+REFERENCES
+[1] J. G. Moreno-Torres, T. Raeder, R. Alaiz-Rodr´ıguez, N. V. Chawla,
+and F. Herrera, “A unifying view on dataset shift in classiﬁca-
+tion,” PR, 2012.
+[2] B. Recht, R. Roelofs, L. Schmidt, and V. Shankar, “Do imagenet
+classiﬁers generalize to imagenet?” in ICML, 2019.
+[3] S. Ben-David, J. Blitzer, K. Crammer, A. Kulesza, F. Pereira, and
+J. W. Vaughan, “A theory of learning from different domains,”
+ML, 2010.
+[4] R. Taori, A. Dave, V. Shankar, N. Carlini, B. Recht, and L. Schmidt,
+“Measuring robustness to natural distribution shifts in image
+classiﬁcation,” in NeurIPS, 2020.
+[5] G. Blanchard, A. A. Deshmukh, U. Dogan, G. Lee, and C. Scott,
+“Domain generalization by marginal transfer learning,” JMLR,
+2021.
+[6] K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for
+image recognition,” in CVPR, 2016.
+[7] A. Krizhevsky, I. Sutskever, and G. E. Hinton, “Imagenet classi-
+ﬁcation with deep convolutional neural networks,” in NeurIPS,
+2012.
+[8] Y. LeCun, Y. Bengio, and G. Hinton, “Deep learning,” Nature,
+2015.
+[9] D. Hendrycks and T. Dietterich, “Benchmarking neural network
+robustness to common corruptions and perturbations,” in ICLR,
+2019.
+[10] J. Yang, K. Zhou, Y. Li, and Z. Liu, “Generalized out-of-
+distribution detection: A survey,” arXiv preprint arXiv:2110.11334,
+2021.
+[11] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei,
+“Imagenet: A large-scale hierarchical image database,” in CVPR,
+2009.
+[12] K. Saenko, B. Kulis, M. Fritz, and T. Darrell, “Adapting visual
+category models to new domains,” in ECCV, 2010.
+[13] Z. Lu, Y. Yang, X. Zhu, C. Liu, Y.-Z. Song, and T. Xiang, “Stochas-
+tic classiﬁers for unsupervised domain adaptation,” in CVPR,
+2020.
+[14] K. Saito, K. Watanabe, Y. Ushiku, and T. Harada, “Maximum
+classiﬁer discrepancy for unsupervised domain adaptation,” in
+CVPR, 2018.
+[15] Y. Ganin and V. S. Lempitsky, “Unsupervised domain adaptation
+by backpropagation,” in ICML, 2015.
+[16] M. Long, Y. Cao, J. Wang, and M. I. Jordan, “Learning transferable
+features with deep adaptation networks,” in ICML, 2015.
+[17] Z. Liu, Z. Miao, X. Pan, X. Zhan, D. Lin, S. X. Yu, and B. Gong,
+“Open compound domain adaptation,” in CVPR, 2020.
+[18] B. Li, Y. Wang, S. Zhang, D. Li, T. Darrell, K. Keutzer, and
+H. Zhao, “Learning invariant representations and risks for semi-
+supervised domain adaptation,” in CVPR, 2021.
+[19] K. Muandet, D. Balduzzi, and B. Scholkopf, “Domain generaliza-
+tion via invariant feature representation,” in ICML, 2013.
+[20] X. Yue, Y. Zhang, S. Zhao, A. Sangiovanni-Vincentelli, K. Keutzer,
+and B. Gong, “Domain randomization and pyramid consistency:
+Simulation-to-real generalization without accessing target do-
+main data,” in ICCV, 2019.
+[21] R. Volpi, D. Larlus, and G. Rogez, “Continual adaptation of visual
+representations via domain randomization and meta-learning,”
+in CVPR, 2021.
+[22] G. Blanchard, G. Lee, and C. Scott, “Generalizing from several re-
+lated classiﬁcation tasks to a new unlabeled sample,” in NeurIPS,
+2011.
+[23] K. Zhou, Y. Yang, Y. Qiao, and T. Xiang, “Domain generalization
+with mixstyle,” in ICLR, 2021.
+[24] X. Fan, Q. Wang, J. Ke, F. Yang, B. Gong, and M. Zhou, “Adversar-
+ially adaptive normalization for single domain generalization,”
+in CVPR, 2021.
+[25] X. Zhang, P. Cui, R. Xu, L. Zhou, Y. He, and Z. Shen, “Deep stable
+learning for out-of-distribution generalization,” in CVPR, 2021.
+[26] P. Pandey, M. Raman, S. Varambally, and P. AP, “Domain gener-
+alization via inference-time label-preserving target projections,”
+in CVPR, 2021.
+[27] Y. Shu, Z. Cao, C. Wang, J. Wang, and M. Long, “Open do-
+main generalization with domain-augmented meta-learning,” in
+CVPR, 2021.
+[28] K. Zhou, Y. Yang, Y. Qiao, and T. Xiang, “Mixstyle neu-
+ral networks for domain generalization and adaptation,”
+arXiv:2107.02053, 2021.
+[29] K. Zhou, C. C. Loy, and Z. Liu, “Semi-supervised do-
+main generalization with stochastic stylematch,” arXiv preprint
+arXiv:2106.00592, 2021.
+[30] J. Cha, S. Chun, K. Lee, H.-C. Cho, S. Park, Y. Lee, and S. Park,
+“Swad: Domain generalization by seeking ﬂat minima,” NeurIPS,
+2021.
+[31] H. Li, S. Jialin Pan, S. Wang, and A. C. Kot, “Domain generaliza-
+tion with adversarial feature learning,” in CVPR, 2018.
+[32] Y. Li, X. Tiana, M. Gong, Y. Liu, T. Liu, K. Zhang, and D. Tao,
+“Deep domain generalization via conditional invariant adversar-
+ial networks,” in ECCV, 2018.
+[33] D. Li, Y. Yang, Y.-Z. Song, and T. M. Hospedales, “Learning to
+generalize: Meta-learning for domain generalization,” in AAAI,
+2018.
+[34] Y. Balaji, S. Sankaranarayanan, and R. Chellappa, “Metareg:
+Towards domain generalization using meta-regularization,” in
+NeurIPS, 2018.
+[35] K. Zhou, Y. Yang, T. Hospedales, and T. Xiang, “Learning to
+generate novel domains for domain generalization,” in ECCV,
+2020.
+[36] K. Zhou, Y. Yang, T. M. Hospedales, and T. Xiang, “Deep domain-
+adversarial image generation for domain generalisation.” in
+AAAI, 2020.
+[37] D. Li, Y. Yang, Y.-Z. Song, and T. M. Hospedales, “Deeper, broader
+and artier domain generalization,” in ICCV, 2017.
+[38] Y. Li, Y. Yang, W. Zhou, and T. Hospedales, “Feature-critic net-
+works for heterogeneous domain generalization,” in ICML, 2019.
+[39] R. Volpi and V. Murino, “Addressing model vulnerability to
+distributional shifts over image transformation sets,” in ICCV,
+2019.
+[40] S. Shankar, V. Piratla, S. Chakrabarti, S. Chaudhuri, P. Jyothi,
+and S. Sarawagi, “Generalizing across domains via cross-gradient
+training,” in ICLR, 2018.
+[41] Q. Liu, Q. Dou, L. Yu, and P. A. Heng, “Ms-net: Multi-site net-
+work for improving prostate segmentation with heterogeneous
+mri data,” TMI, 2020.
+[42] Q. Liu, Q. Dou, and P.-A. Heng, “Shape-aware meta-learning for
+generalizing prostate mri segmentation to unseen domains,” in
+MICCAI, 2020.
+[43] A. Torralba and A. A. Efros, “Unbiased look at dataset bias,” in
+CVPR, 2011.
+[44] L. Fei-Fei, R. Fergus, and P. Perona, “Learning generative visual
+models from few training examples: An incremental bayesian
+approach tested on 101 object categories,” in CVPR-W, 2004.
+[45] B. C. Russell, A. Torralba, K. P. Murphy, and W. T. Freeman,
+“Labelme: a database and web-based tool for image annotation,”
+IJCV, 2008.
+[46] A. Khosla, T. Zhou, T. Malisiewicz, A. Efros, and A. Torralba,
+“Undoing the damage of dataset bias,” in ECCV, 2012.
+[47] D. Hendrycks, N. Mu, E. D. Cubuk, B. Zoph, J. Gilmer, and
+B. Lakshminarayanan, “Augmix: A simple data processing
+method to improve robustness and uncertainty,” in ICLR, 2020.
+[48] Z. Tang, Y. Gao, Y. Zhu, Z. Zhang, M. Li, and D. Metaxas,
+“Selfnorm and crossnorm for out-of-distribution robustness,”
+arXiv preprint arXiv:2102.02811, 2021.
+[49] F. M. Carlucci, A. D’Innocente, S. Bucci, B. Caputo, and T. Tom-
+masi, “Domain generalization by solving jigsaw puzzles,” in
+CVPR, 2019.
+=== PAGE 16 ===
+16
+[50] S. Bucci, A. D’Innocente, Y. Liao, F. M. Carlucci, B. Caputo, and
+T. Tommasi, “Self-supervised learning across domains,” arXiv
+preprint arXiv:2007.12368, 2020.
+[51] H. Wang, Z. He, Z. C. Lipton, and E. P. Xing, “Learning robust
+representations by projecting superﬁcial statistics out,” in ICLR,
+2019.
+[52] Z. Huang, H. Wang, E. P. Xing, and D. Huang, “Self-challenging
+improves cross-domain generalization,” in ECCV, 2020.
+[53] M. Ghifary, W. B. Kleijn, M. Zhang, and D. Balduzzi, “Domain
+generalization for object recognition with multi-task autoen-
+coders,” in ICCV, 2015.
+[54] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, “Gradient-based
+learning applied to document recognition,” in IEEE, 1998.
+[55] Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y.
+Ng, “Reading digits in natural images with unsupervised feature
+learning,” in NeurIPS-W, 2011.
+[56] C. Fang, Y. Xu, and D. N. Rockmore, “Unbiased metric learning:
+On the utilization of multiple datasets and web images for
+softening bias,” in ICCV, 2013.
+[57] M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and
+A. Zisserman, “The pascal visual object classes (voc) challenge,”
+IJCV, 2010.
+[58] J. Xiao, J. Hays, K. A. Ehinger, A. Oliva, and A. Torralba, “Sun
+database: Large-scale scene recognition from abbey to zoo,” in
+CVPR, 2010.
+[59] H. Venkateswara, J. Eusebio, S. Chakraborty, and S. Pan-
+chanathan, “Deep hashing network for unsupervised domain
+adaptation,” in CVPR, 2017.
+[60] X. Peng, Q. Bai, X. Xia, Z. Huang, K. Saenko, and B. Wang, “Mo-
+ment matching for multi-source domain adaptation,” in ICCV,
+2019.
+[61] K. Zhou, Y. Yang, Y. Qiao, and T. Xiang, “Domain adaptive
+ensemble learning,” arXiv preprint arXiv:2003.07325, 2020.
+[62] X. Peng, B. Usman, N. Kaushik, J. Hoffman, D. Wang, and
+K. Saenko, “Visda: The visual domain adaptation challenge,”
+arXiv preprint arXiv:1710.06924, 2017.
+[63] D. Hendrycks, S. Basart, N. Mu, S. Kadavath, F. Wang,
+E. Dorundo, R. Desai, T. Zhu, S. Parajuli, M. Guo et al., “The
+many faces of robustness: A critical analysis of out-of-distribution
+generalization,” in ICCV, 2021.
+[64] D. Hendrycks, K. Zhao, S. Basart, J. Steinhardt, and D. Song,
+“Natural adversarial examples,” in CVPR, 2021.
+[65] S. Beery, G. Van Horn, and P. Perona, “Recognition in terra
+incognita,” in ECCV, 2018.
+[66] X. Zhang, L. Zhou, R. Xu, P. Cui, Z. Shen, and H. Liu, “Nico++:
+Towards better benchmarking for domain generalization,” arXiv
+preprint arXiv:2204.08040, 2022.
+[67] S.-A. Rebufﬁ, H. Bilen, and A. Vedaldi, “Learning multiple visual
+domains with residual adapters,” in NeurIPS, 2017.
+[68] D. Weinland, R. Ronfard, and E. Boyer, “Free viewpoint action
+recognition using motion history volumes,” CVIU, 2006.
+[69] K. Soomro, A. R. Zamir, and M. Shah, “Ucf101: A dataset of 101
+human actions classes from videos in the wild,” arXiv preprint
+arXiv:1212.0402, 2012.
+[70] H. Kuehne, H. Jhuang, E. Garrote, T. Poggio, and T. Serre,
+“Hmdb: a large video database for human motion recognition,”
+in ICCV, 2011.
+[71] Z. Yao, Y. Wang, X. Du, M. Long, and J. Wang, “Adversarial pyra-
+mid network for video domain generalization,” arXiv preprint
+arXiv:1912.03716, 2019.
+[72] G. Ros, L. Sellart, J. Materzynska, D. Vazquez, and A. M. Lopez,
+“The synthia dataset: A large collection of synthetic images for
+semantic segmentation of urban scenes,” in CVPR, 2016.
+[73] R. Volpi, H. Namkoong, O. Sener, J. Duchi, V. Murino, and
+S. Savarese, “Generalizing to unseen domains via adversarial
+data augmentation,” in NeurIPS, 2018.
+[74] S. R. Richter, V. Vineet, S. Roth, and V. Koltun, “Playing for data:
+Ground truth from computer games,” in ECCV, 2016.
+[75] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler,
+R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes
+dataset for semantic urban scene understanding,” in CVPR, 2016.
+[76] L. Zheng, L. Shen, L. Tian, S. Wang, J. Wang, and Q. Tian,
+“Scalable person re-identiﬁcation: A benchmark,” in ICCV, 2015.
+[77] E. Ristani, F. Solera, R. Zou, R. Cucchiara, and C. Tomasi, “Per-
+formance measures and a data set for multi-target, multi-camera
+tracking,” in ECCV, 2016.
+[78] Y. Shi, X. Yu, K. Sohn, M. Chandraker, and A. K. Jain, “Towards
+universal representation learning for deep face recognition,” in
+CVPR, 2020.
+[79] Z. Zhang, J. Yan, S. Liu, Z. Lei, D. Yi, and S. Z. Li, “A face
+antispooﬁng database with diverse attacks,” in ICB, 2012.
+[80] Z. Boulkenafet, J. Komulainen, L. Li, X. Feng, and A. Hadid,
+“Oulu-npu: A mobile face presentation attack database with real-
+world variations,” in FG, 2017.
+[81] D. Wen, H. Han, and A. K. Jain, “Face spoof detection with image
+distortion analysis,” TIFS, 2015.
+[82] I. Chingovska, A. Anjos, and S. Marcel, “On the effectiveness of
+local binary patterns in face anti-spooﬁng,” in BIOSIG, 2012.
+[83] T. Sainath and C. Parada, “Convolutional neural networks for
+small-footprint keyword spotting,” 2015.
+[84] J. Blitzer, R. McDonald, and F. Pereira, “Domain adaptation with
+structural correspondence learning,” in EMNLP, 2006.
+[85] P. W. Koh, S. Sagawa, H. Marklund, S. M. Xie, M. Zhang,
+A. Balsubramani, W. Hu, M. Yasunaga, R. L. Phillips, S. Beery,
+J. Leskovec, A. Kundaje, E. Pierson, S. Levine, C. Finn, and
+P. Liang, “Wilds: A benchmark of in-the-wild distribution shifts,”
+arXiv preprint arXiv:2012.07421, 2020.
+[86] P. Bandi, O. Geessink, Q. Manson, M. Van Dijk, M. Balkenhol,
+M. Hermsen, B. E. Bejnordi, B. Lee, K. Paeng, A. Zhong et al.,
+“From detection of individual metastases to classiﬁcation of
+lymph node status at the patient level: the camelyon17 chal-
+lenge,” TMI, 2018.
+[87] G. Christie, N. Fendley, J. Wilson, and R. Mukherjee, “Functional
+map of the world,” in CVPR, 2018.
+[88] S. Beery, E. Cole, and A. Gjoka, “The iwildcam 2020 competition
+dataset,” arXiv preprint arXiv:2004.10340, 2020.
+[89] D. Mahajan, S. Tople, and A. Sharma, “Domain generalization
+using causal matching,” in ICML, 2021.
+[90] X. Wang, Y. Peng, L. Lu, Z. Lu, M. Bagheri, and R. M. Summers,
+“Chestx-ray8: Hospital-scale chest x-ray database and bench-
+marks on weakly-supervised classiﬁcation and localization of
+common thorax diseases,” in CVPR, 2017.
+[91] J. Irvin, P. Rajpurkar, M. Ko, Y. Yu, S. Ciurea-Ilcus, C. Chute,
+H. Marklund, B. Haghgoo, R. Ball, K. Shpanskaya et al., “Chex-
+pert: A large chest radiograph dataset with uncertainty labels and
+expert comparison,” in AAAI, 2019.
+[92] K. Cobbe, O. Klimov, C. Hesse, T. Kim, and J. Schulman, “Quan-
+tifying generalization in reinforcement learning,” in ICML, 2019.
+[93] K. Cobbe, C. Hesse, J. Hilton, and J. Schulman, “Leveraging
+procedural generation to benchmark reinforcement learning,” in
+ICML, 2020.
+[94] D. Li, J. Zhang, Y. Yang, C. Liu, Y.-Z. Song, and T. M. Hospedales,
+“Episodic training for domain generalization,” in ICCV, 2019.
+[95] J. Hoffman, E. Tzeng, T. Park, J.-Y. Zhu, P. Isola, K. Saenko,
+A. Efros, and T. Darrell, “Cycada: Cycle-consistent adversarial
+domain adaptation,” in ICML, 2018.
+[96] R. Gong, W. Li, Y. Chen, and L. Van Gool, “Dlow: Domain ﬂow
+for adaptation and generalization,” in CVPR, 2019.
+[97] Y. Sun, L. Zheng, Y. Li, Y. Yang, Q. Tian, and S. Wang, “Learning
+part-based convolutional features for person re-identiﬁcation,”
+TPAMI, 2019.
+[98] W. Li, X. Zhu, and S. Gong, “Scalable person re-identiﬁcation by
+harmonious attention,” IJCV, 2019.
+[99] T. Chen, S. Ding, J. Xie, Y. Yuan, W. Chen, Y. Yang, Z. Ren,
+and Z. Wang, “Abd-net: Attentive but diverse person re-
+identiﬁcation,” in ICCV, 2019.
+[100] K. Zhou, Y. Yang, A. Cavallaro, and T. Xiang, “Omni-scale feature
+learning for person re-identiﬁcation,” in ICCV, 2019.
+[101] X. Chang, T. M. Hospedales, and T. Xiang, “Multi-level factorisa-
+tion net for person re-identiﬁcation,” in CVPR, 2018.
+[102] K. Zhou, Y. Yang, A. Cavallaro, and T. Xiang, “Learning gener-
+alisable omni-scale representations for person re-identiﬁcation,”
+TPAMI, 2021.
+[103] Y. Zhao, Z. Zhong, F. Yang, Z. Luo, Y. Lin, S. Li, and
+N. Sebe, “Learning to generalize unseen domains via memory-
+based multi-source meta-learning for person re-identiﬁcation,”
+in CVPR, 2021.
+[104] S. Choi, T. Kim, M. Jeong, H. Park, and C. Kim, “Meta
+batch-instance normalization for generalizable person re-
+identiﬁcation,” arXiv preprint arXiv:2011.14670, 2020.
+[105] Y. Taigman, M. Yang, M. Ranzato, and L. Wolf, “Deepface: Clos-
+ing the gap to human-level performance in face veriﬁcation,” in
+CVPR, 2014.
+=== PAGE 17 ===
+17
+[106] Y. Sun, X. Wang, and X. Tang, “Deep learning face representation
+from predicting 10,000 classes,” in CVPR, 2014.
+[107] Y. Wen, K. Zhang, Z. Li, and Y. Qiao, “A discriminative feature
+learning approach for deep face recognition,” in ECCV, 2016.
+[108] Y. Guo, L. Zhang, Y. Hu, X. He, and J. Gao, “Ms-celeb-1m:
+A dataset and benchmark for large-scale face recognition,” in
+ECCV, 2016.
+[109] L. Wolf, T. Hassner, and I. Maoz, “Face recognition in uncon-
+strained videos with matched background similarity,” in CVPR,
+2011.
+[110] N. D. Kalka, B. Maze, J. A. Duncan, K. O’Connor, S. Elliott,
+K. Hebert, J. Bryan, and A. K. Jain, “Ijb–s: Iarpa janus surveillance
+video benchmark,” in BTAS, 2018.
+[111] Z. Cheng, X. Zhu, and S. Gong, “Low-resolution face recogni-
+tion,” in ACCV, 2018.
+[112] B. F. Klare, B. Klein, E. Taborsky, A. Blanton, J. Cheney, K. Allen,
+P. Grother, A. Mah, and A. K. Jain, “Pushing the frontiers of
+unconstrained face detection and recognition: Iarpa janus bench-
+mark a,” in CVPR, 2015.
+[113] B. Maze, J. Adams, J. A. Duncan, N. Kalka, T. Miller, C. Otto,
+A. K. Jain, W. T. Niggel, J. Anderson, J. Cheney et al., “Iarpa janus
+benchmark-c: Face dataset and protocol,” in ICB, 2018.
+[114] S. Sengupta, J.-C. Chen, C. Castillo, V. M. Patel, R. Chellappa, and
+D. W. Jacobs, “Frontal to proﬁle face veriﬁcation in the wild,” in
+WACV, 2016.
+[115] I. Kemelmacher-Shlizerman, S. M. Seitz, D. Miller, and
+E. Brossard, “The megaface benchmark: 1 million faces for recog-
+nition at scale,” in CVPR, 2016.
+[116] J. Yang, Z. Lei, and S. Z. Li, “Learn convolutional neural network
+for face anti-spooﬁng,” arXiv preprint arXiv:1408.5601, 2014.
+[117] R. Shao, X. Lan, J. Li, and P. C. Yuen, “Multi-adversarial discrim-
+inative deep domain generalization for face presentation attack
+detection,” in CVPR, 2019.
+[118] Y. Shi, J. Seely, P. H. Torr, N. Siddharth, A. Hannun, N. Usunier,
+and G. Synnaeve, “Gradient matching for domain generaliza-
+tion,” arXiv preprint arXiv:2104.09937, 2021.
+[119] A. Robey, G. J. Pappas, and H. Hassani, “Model-based domain
+generalization,” NeurIPS, 2021.
+[120] H. Yao, Y. Wang, S. Li, L. Zhang, W. Liang, J. Zou, and C. Finn,
+“Improving out-of-distribution robustness via selective augmen-
+tation,” arXiv preprint arXiv:2201.00299, 2022.
+[121] Q. Dou, D. C. Castro, K. Kamnitsas, and B. Glocker, “Domain
+generalization via model-agnostic learning of semantic features,”
+in NeurIPS, 2019.
+[122] B. Mazoure, I. Kostrikov, O. Nachum, and J. Tompson, “Im-
+proving zero-shot generalization in ofﬂine reinforcement learn-
+ing using generalized similarity functions,” arXiv preprint
+arXiv:2111.14629, 2021.
+[123] N. Hansen and X. Wang, “Generalization in reinforcement learn-
+ing by soft data augmentation,” in ICRA, 2021.
+[124] M. Deitke, W. Han, A. Herrasti, A. Kembhavi, E. Kolve, R. Mot-
+taghi, J. Salvador, D. Schwenk, E. VanderBilt, M. Wallingford
+et al., “Robothor: An open simulation-to-real embodied ai plat-
+form,” in CVPR, 2020.
+[125] R. Kirk, A. Zhang, E. Grefenstette, and T. Rockt¨aschel, “A survey
+of generalisation in deep reinforcement learning,” arXiv preprint
+arXiv:2111.09794, 2021.
+[126] S. Sagawa, P. W. Koh, T. B. Hashimoto, and P. Liang, “Distri-
+butionally robust neural networks for group shifts: On the im-
+portance of regularization for worst-case generalization,” arXiv
+preprint arXiv:1911.08731, 2019.
+[127] D. Krueger, E. Caballero, J.-H. Jacobsen, A. Zhang, J. Binas,
+D. Zhang, R. Le Priol, and A. Courville, “Out-of-distribution
+generalization via risk extrapolation (rex),” in ICML, 2021.
+[128] I. Gulrajani and D. Lopez-Paz, “In search of lost domain general-
+ization,” arXiv preprint arXiv:2007.01434, 2020.
+[129] Y. Yang and T. Hospedales, “Deep multi-task representation
+learning: A tensor factorisation approach,” in ICLR, 2017.
+[130] A. Mallya, D. Davis, and S. Lazebnik, “Piggyback: Adapting a
+single network to multiple tasks by learning to mask weights,”
+in ECCV, 2018.
+[131] S. Liu, E. Johns, and A. J. Davison, “End-to-end multi-task
+learning with attention,” in CVPR, 2019.
+[132] P. Guo, C.-Y. Lee, and D. Ulbricht, “Learning to branch for multi-
+task learning,” in ICML, 2020.
+[133] X. Sun, R. Panda, R. Feris, and K. Saenko, “Adashare: Learning
+what to share for efﬁcient deep multi-task learning,” in NeurIPS,
+2020.
+[134] S. Wang, L. Yu, C. Li, C.-W. Fu, and P.-A. Heng, “Learning from
+extrinsic and intrinsic supervisions for domain generalization,”
+in ECCV, 2020.
+[135] I. Albuquerque, N. Naik, J. Li, N. Keskar, and R. Socher, “Im-
+proving out-of-distribution generalization via multi-task self-
+supervised pretraining,” arXiv preprint arXiv:2003.13525, 2020.
+[136] S. J. Pan and Q. Yang, “A survey on transfer learning,” TKDE,
+2009.
+[137] Y. Zhu, R. Kiros, R. Zemel, R. Salakhutdinov, R. Urtasun, A. Tor-
+ralba, and S. Fidler, “Aligning books and movies: Towards story-
+like visual explanations by watching movies and reading books,”
+in ICCV, 2015.
+[138] R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature
+hierarchies for accurate object detection and semantic segmenta-
+tion,” in CVPR, 2014.
+[139] J. Yosinski, J. Clune, Y. Bengio, and H. Lipson, “How transferable
+are features in deep neural networks?” in NeurIPS, 2014.
+[140] J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng,
+and T. Darrell, “Decaf: A deep convolutional activation feature
+for generic visual recognition,” in ICML, 2014.
+[141] W. Chen, Z. Yu, Z. Wang, and A. Anandkumar, “Automated
+synthetic-to-real generalization,” in ICML, 2020.
+[142] W. Chen, Z. Yu, S. D. Mello, S. Liu, J. M. Alvarez, Z. Wang,
+and A. Anandkumar, “Contrastive syn-to-real generalization,” in
+ICLR, 2021.
+[143] C. H. Lampert, H. Nickisch, and S. Harmeling, “Attribute-based
+classiﬁcation for zero-shot visual object categorization,” TPAMI,
+2014.
+[144] K. Zhou, J. Yang, C. C. Loy, and Z. Liu, “Learning to prompt for
+vision-language models,” arXiv preprint arXiv:2109.01134, 2021.
+[145] ——, “Conditional prompt learning for vision-language models,”
+in CVPR, 2022.
+[146] W.-L. Chao, S. Changpinyo, B. Gong, and F. Sha, “An empirical
+study and analysis of generalized zero-shot learning for object
+recognition in the wild,” in ECCV, 2016.
+[147] M. Mancini, Z. Akata, E. Ricci, and B. Caputo, “Towards recog-
+nizing unseen categories in unseen domains,” in ECCV, 2020.
+[148] Y. Xian, C. H. Lampert, B. Schiele, and Z. Akata, “Zero-shot
+learning—a comprehensive evaluation of the good, the bad and
+the ugly,” TPAMI, 2018.
+[149] C. Gan, T. Yang, and B. Gong, “Learning attributes equals multi-
+source domain generalization,” in CVPR, 2016.
+[150] B. Gong, Y. Shi, F. Sha, and K. Grauman, “Geodesic ﬂow kernel
+for unsupervised domain adaptation,” in CVPR, 2012.
+[151] M. Long, H. Zhu, J. Wang, and M. I. Jordan, “Unsupervised
+domain adaptation with residual transfer networks,” in NeurIPS,
+2016.
+[152] Y. Balaji, R. Chellappa, and S. Feizi, “Normalized wasserstein for
+mixture distributions with applications in adversarial learning
+and domain adaptation,” in ICCV, 2019.
+[153] G. Kang, L. Jiang, Y. Yang, and A. G. Hauptmann, “Contrastive
+adaptation network for unsupervised domain adaptation,” in
+CVPR, 2019.
+[154] B. Kulis, K. Saenko, and T. Darrell, “What you saw is not what
+you get: Domain adaptation using asymmetric kernel trans-
+forms,” in CVPR, 2011.
+[155] K.-C. Peng, Z. Wu, and J. Ernst, “Zero-shot deep domain adapta-
+tion,” in ECCV, 2018.
+[156] P. Panareda Busto and J. Gall, “Open set domain adaptation,” in
+ICCV, 2017.
+[157] Z. Cao, L. Ma, M. Long, and J. Wang, “Partial adversarial domain
+adaptation,” in ECCV, 2018.
+[158] K. You, M. Long, Z. Cao, J. Wang, and M. I. Jordan, “Universal
+domain adaptation,” in CVPR, 2019.
+[159] D. Wang, E. Shelhamer, S. Liu, B. Olshausen, and T. Darrell,
+“Tent: Fully test-time adaptation by entropy minimization,” arXiv
+preprint arXiv:2006.10726, 2020.
+[160] J. N. Kundu, N. Venkat, R. V. Babu et al., “Universal source-free
+domain adaptation,” in CVPR, 2020.
+[161] M. Zhang, S. Levine, and C. Finn, “Memo: Test time ro-
+bustness via adaptation and augmentation,” arXiv preprint
+arXiv:2110.09506, 2021.
+[162] Y. Iwasawa and Y. Matsuo, “Test-time classiﬁer adjustment mod-
+ule for model-agnostic domain generalization,” NeurIPS, 2021.
+=== PAGE 18 ===
+18
+[163] Y. Sun, X. Wang, Z. Liu, J. Miller, A. Efros, and M. Hardt,
+“Test-time training with self-supervision for generalization under
+distribution shifts,” in ICML, 2020.
+[164] S. Erfani, M. Baktashmotlagh, M. Moshtaghi, X. Nguyen,
+C. Leckie, J. Bailey, and R. Kotagiri, “Robust domain generali-
+sation by enforcing distribution invariance,” in IJCAI, 2016.
+[165] M. Ghifary, D. Balduzzi, W. B. Kleijn, and M. Zhang, “Scatter
+component analysis: A uniﬁed framework for domain adaptation
+and domain generalization,” TPAMI, 2017.
+[166] Y. Li, M. Gong, X. Tian, T. Liu, and D. Tao, “Domain generaliza-
+tion via conditional invariant representations,” in AAAI, 2018.
+[167] X. Jin, C. Lan, W. Zeng, and Z. Chen, “Feature alignment and
+restoration for domain generalization and adaptation,” arXiv
+preprint arXiv:2006.12009, 2020.
+[168] S. Hu, K. Zhang, Z. Chen, and L. Chan, “Domain generalization
+via multidomain discriminant analysis,” in UAI, 2020.
+[169] S. Motiian, M. Piccirilli, D. A. Adjeroh, and G. Doretto, “Uni-
+ﬁed deep supervised domain adaptation and generalization,” in
+ICCV, 2017.
+[170] C. Yoon, G. Hamarneh, and R. Garbi, “Generalizable feature
+learning in the presence of data bias and domain class imbalance
+with application to skin lesion classiﬁcation,” in MICCAI, 2019.
+[171] D. Mahajan, S. Tople, and A. Sharma, “Domain generalization
+using causal matching,” arXiv preprint arXiv:2006.07500, 2020.
+[172] Z. Wang, M. Loog, and J. van Gemert, “Respecting domain re-
+lations: Hypothesis invariance for domain generalization,” arXiv
+preprint arXiv:2010.07591, 2020.
+[173] H. Li, Y. Wang, R. Wan, S. Wang, T.-Q. Li, and A. C. Kot,
+“Domain generalization for medical imaging classiﬁcation with
+linear-dependency regularization,” in NeurIPS, 2020.
+[174] M. M. Rahman, C. Fookes, M. Baktashmotlagh, and S. Sridharan,
+“Correlation-aware adversarial domain adaptation and general-
+ization,” PR, 2020.
+[175] I. Albuquerque, J. Monteiro, M. Darvishi, T. H. Falk, and
+I. Mitliagkas, “Generalizing to unseen domains via distribution
+matching,” arXiv preprint arXiv:1911.00804, 2019.
+[176] Z. Deng, F. Ding, C. Dwork, R. Hong, G. Parmigiani, P. Patil, and
+P. Sur, “Representation via representations: Domain generaliza-
+tion via adversarially learned invariant representations,” arXiv
+preprint arXiv:2006.11478, 2020.
+[177] T. Matsuura and T. Harada, “Domain generalization using a
+mixture of multiple latent domains,” in AAAI, 2020.
+[178] Y. Jia, J. Zhang, S. Shan, and X. Chen, “Single-side domain
+generalization for face anti-spooﬁng,” in CVPR, 2020.
+[179] K. Akuzawa, Y. Iwasawa, and Y. Matsuo, “Adversarial invariant
+feature learning with accuracy constraint for domain generaliza-
+tion,” in ECMLPKDD, 2019.
+[180] S. Aslani, V. Murino, M. Dayan, R. Tam, D. Sona, and
+G. Hamarneh, “Scanner invariant multiple sclerosis lesion seg-
+mentation from mri,” in ISBI, 2020.
+[181] S. Zhao, M. Gong, T. Liu, H. Fu, and D. Tao, “Domain general-
+ization via entropy regularization,” in NeurIPS, 2020.
+[182] D. Li, Y. Yang, Y.-Z. Song, and T. Hospedales, “Sequential learn-
+ing for domain generalization,” in ECCV-W, 2020.
+[183] Y. Du, J. Xu, H. Xiong, Q. Qiu, X. Zhen, C. G. Snoek, and L. Shao,
+“Learning to learn with variational information bottleneck for
+domain generalization,” in ECCV, 2020.
+[184] Y. Du, X. Zhen, L. Shao, and C. G. M. Snoek, “Metanorm: Learn-
+ing to normalize few-shot batches across domains,” in ICLR, 2021.
+[185] B. Wang, M. Lapata, and I. Titov, “Meta-learning for domain gen-
+eralization in semantic parsing,” arXiv preprint arXiv:2010.11988,
+2020.
+[186] S. Ot´alora, M. Atzori, V. Andrearczyk, A. Khan, and H. M ¨uller,
+“Staining invariant features for improving generalization of deep
+convolutional neural networks in computational pathology,”
+Frontiers in bioengineering and biotechnology, 2019.
+[187] C. Chen, W. Bai, R. H. Davies, A. N. Bhuva, C. H. Manisty, J. B.
+Augusto, J. C. Moon, N. Aung, A. M. Lee, M. M. Sanghvi et al.,
+“Improving the generalizability of convolutional neural network-
+based segmentation on cmr images,” Frontiers in cardiovascular
+medicine, 2020.
+[188] L. Zhang, X. Wang, D. Yang, T. Sanford, S. Harmon, B. Turkbey,
+B. J. Wood, H. Roth, A. Myronenko, D. Xu et al., “Generalizing
+deep learning for medical image segmentation to unseen do-
+mains via deep stacked transformation,” TMI, 2020.
+[189] F. Qiao, L. Zhao, and X. Peng, “Learning to learn single domain
+generalization,” in CVPR, 2020.
+[190] A. Sinha, H. Namkoong, R. Volpi, and J. Duchi, “Certifying some
+distributional robustness with principled adversarial training,”
+arXiv preprint arXiv:1710.10571, 2017.
+[191] Z. Xu, D. Liu, J. Yang, C. Raffel, and M. Niethammer, “Robust
+and generalizable visual representation learning via random
+convolutions,” in ICLR, 2021.
+[192] N. Somavarapu, C.-Y. Ma, and Z. Kira, “Frustratingly simple
+domain generalization via image stylization,” arXiv preprint
+arXiv:2006.11207, 2020.
+[193] F. C. Borlino, A. D’Innocente, and T. Tommasi, “Rethinking do-
+main generalization baselines,” arXiv preprint arXiv:2101.09060,
+2021.
+[194] F. M. Carlucci, P. Russo, T. Tommasi, and B. Caputo, “Hallucinat-
+ing agnostic images to generalize across domains.” in ICCV-W,
+2019.
+[195] Z. Xu, W. Li, L. Niu, and D. Xu, “Exploiting low-rank structure
+from latent domains for domain generalization,” in ECCV, 2014.
+[196] L. Niu, W. Li, and D. Xu, “Multi-view domain generalization for
+visual recognition,” in ICCV, 2015.
+[197] ——, “Visual recognition by learning from web data: A weakly
+supervised domain generalization approach,” in CVPR, 2015.
+[198] Z. Ding and Y. Fu, “Deep domain generalization with structured
+low-rank constraint,” TIP, 2017.
+[199] A. D’Innocente and B. Caputo, “Domain generalization with
+domain-speciﬁc aggregation modules,” in GCPR, 2018.
+[200] M. Mancini, S. R. Bul`o, B. Caputo, and E. Ricci, “Best sources
+forward: domain generalization through source-speciﬁc nets,” in
+ICIP, 2018.
+[201] S. Wang, L. Yu, K. Li, X. Yang, C.-W. Fu, and P.-A. Heng, “Dofe:
+Domain-oriented feature embedding for generalizable fundus
+image segmentation on unseen datasets,” TMI, 2020.
+[202] S. Seo, Y. Suh, D. Kim, J. Han, and B. Han, “Learning to optimize
+domain speciﬁc normalization for domain generalization,” in
+ECCV, 2020.
+[203] M. Seg `u, A. Tonioni, and F. Tombari, “Batch normalization
+embeddings for deep domain generalization,” arXiv preprint
+arXiv:2011.12672, 2020.
+[204] M. Mancini, S. R. Bulo, B. Caputo, and E. Ricci, “Robust place
+categorization with deep domain generalization,” RA-L, 2018.
+[205] J. Cha, H. Cho, K. Lee, S. Park, Y. Lee, and S. Park, “Domain
+generalization needs stochastic weight averaging for robustness
+on domain shifts,” arXiv preprint arXiv:2102.08604, 2021.
+[206] U. Maniyar, A. A. Deshmukh, U. Dogan, and V. N. Balasubrama-
+nian, “Zero shot domain generalization,” in BMVC, 2020.
+[207] P. Chattopadhyay, Y. Balaji, and J. Hoffman, “Learning to balance
+speciﬁcity and invariance for in and out of domain generaliza-
+tion,” in ECCV, 2020.
+[208] V. Piratla, P. Netrapalli, and S. Sarawagi, “Efﬁcient domain
+generalization via common-speciﬁc low-rank decomposition,” in
+ICML, 2020.
+[209] M. Ilse, J. M. Tomczak, C. Louizos, and M. Welling, “Diva:
+Domain invariant variational autoencoder,” in ICLR-W, 2019.
+[210] G. Wang, H. Han, S. Shan, and X. Chen, “Cross-domain face
+presentation attack detection via multi-domain disentangled rep-
+resentation learning,” in CVPR, 2020.
+[211] M. Laskin, K. Lee, A. Stooke, L. Pinto, P. Abbeel, and A. Srinivas,
+“Reinforcement learning with augmented data,” NeurIPS, 2020.
+[212] I. Kostrikov, D. Yarats, and R. Fergus, “Image augmentation is
+all you need: Regularizing deep reinforcement learning from
+pixels,” arXiv preprint arXiv:2004.13649, 2020.
+[213] J. Tobin, R. Fong, A. Ray, J. Schneider, W. Zaremba, and P. Abbeel,
+“Domain randomization for transferring deep neural networks
+from simulation to the real world,” in IROS, 2017.
+[214] K. Lee, K. Lee, J. Shin, and H. Lee, “Network randomization:
+A simple technique for generalization in deep reinforcement
+learning,” arXiv preprint arXiv:1910.05396, 2019.
+[215] D. Yarats, A. Zhang, I. Kostrikov, B. Amos, J. Pineau, and R. Fer-
+gus, “Improving sample efﬁciency in model-free reinforcement
+learning from images,” in AAAI, 2021.
+[216] M. Laskin, A. Srinivas, and P. Abbeel, “Curl: Contrastive unsu-
+pervised representations for reinforcement learning,” in ICML,
+2020.
+[217] C. Villani, Optimal transport: old and new. Springer Science &
+Business Media, 2008.
+[218] B. Sch¨olkopf, D. Janzing, J. Peters, E. Sgouritsa, K. Zhang, and
+J. Mooij, “On causal and anticausal learning,” in ICML, 2012.
+=== PAGE 19 ===
+19
+[219] A. Gretton, K. M. Borgwardt, M. J. Rasch, B. Sch¨olkopf, and
+A. Smola, “A kernel two-sample test,” JMLR, 2012.
+[220] I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-
+Farley, S. Ozair, A. Courville, and Y. Bengio, “Generative adver-
+sarial nets,” in NeurIPS, 2014.
+[221] E. Tzeng, J. Hoffman, K. Saenko, and T. Darrell, “Adversarial
+discriminative domain adaptation,” in CVPR, 2017.
+[222] W. Zhang, W. Ouyang, W. Li, and D. Xu, “Collaborative and
+adversarial network for unsupervised domain adaptation,” in
+CVPR, 2018.
+[223] M. Long, Z. Cao, J. Wang, and M. I. Jordan, “Conditional adver-
+sarial domain adaptation,” in NeurIPS, 2018.
+[224] C.-Y. Lee, T. Batra, M. H. Baig, and D. Ulbricht, “Sliced wasser-
+stein discrepancy for unsupervised domain adaptation,” in
+CVPR, 2019.
+[225] Y. Ganin, E. Ustinova, H. Ajakan, P. Germain, H. Larochelle,
+F. Laviolette, M. Marchand, and V. Lempitsky, “Domain-
+adversarial training of neural networks,” JMLR, 2016.
+[226] C. Finn, P. Abbeel, and S. Levine, “Model-agnostic meta-learning
+for fast adaptation of deep networks,” in ICML, 2017.
+[227] T. Hospedales, A. Antoniou, P. Micaelli, and A. Storkey,
+“Meta-learning in neural networks: A survey,” arXiv preprint
+arXiv:2004.05439, 2020.
+[228] J.-M. Perez-Rua, X. Zhu, T. M. Hospedales, and T. Xiang, “Incre-
+mental few-shot object detection,” in CVPR, 2020.
+[229] J. Gordon, J. Bronskill, M. Bauer, S. Nowozin, and R. E. Turner,
+“Meta-learning probabilistic inference for prediction,” in ICLR,
+2019.
+[230] I. Goodfellow, Y. Bengio, and A. Courville, Deep Learning. MIT
+Press, 2016.
+[231] I. J. Goodfellow, J. Shlens, and C. Szegedy, “Explaining and
+harnessing adversarial examples,” in ICLR, 2015.
+[232] C. Szegedy, W. Zaremba, I. Sutskever, J. Bruna, D. Erhan, I. J.
+Goodfellow, and R. Fergus, “Intriguing properties of neural net-
+works,” in ICLR, 2014.
+[233] X. Huang and S. Belongie, “Arbitrary style transfer in real-time
+with adaptive instance normalization,” in ICCV, 2017.
+[234] H. Zhang, M. Cisse, Y. N. Dauphin, and D. Lopez-Paz, “mixup:
+Beyond empirical risk minimization,” in ICLR, 2018.
+[235] Z.-H. Zhou, Ensemble methods: foundations and algorithms. Chap-
+man and Hall/CRC, 2012.
+[236] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov,
+D. Erhan, V. Vanhoucke, and A. Rabinovich, “Going deeper with
+convolutions,” in CVPR, 2015.
+[237] T. Malisiewicz, A. Gupta, and A. A. Efros, “Ensemble of
+exemplar-svms for object detection and beyond,” in ICCV, 2011.
+[238] S. Ioffe and C. Szegedy, “Batch normalization: Accelerating deep
+network training by reducing internal covariate shift,” in ICML,
+2015.
+[239] P. Izmailov, D. Podoprikhin, T. Garipov, D. Vetrov, and A. G.
+Wilson, “Averaging weights leads to wider optima and better
+generalization,” in UAI, 2018.
+[240] M. Noroozi and P. Favaro, “Unsupervised learning of visual
+representations by solving jigsaw puzzles,” in ECCV, 2016.
+[241] S. Gidaris, P. Singh, and N. Komodakis, “Unsupervised represen-
+tation learning by predicting image rotations,” in ICLR, 2018.
+[242] L. Jing and Y. Tian, “Self-supervised visual feature learning with
+deep neural networks: A survey,” TPAMI, 2020.
+[243] M. Caron, P. Bojanowski, A. Joulin, and M. Douze, “Deep clus-
+tering for unsupervised learning of visual features,” in ECCV,
+2018.
+[244] K. He, H. Fan, Y. Wu, S. Xie, and R. Girshick, “Momentum con-
+trast for unsupervised visual representation learning,” in CVPR,
+2020.
+[245] J.-B. Grill, F. Strub, F. Altch´e, C. Tallec, P. H. Richemond,
+E. Buchatskaya, C. Doersch, B. A. Pires, Z. D. Guo, M. G. Azar
+et al., “Bootstrap your own latent: A new approach to self-
+supervised learning,” in NeurIPS, 2020.
+[246] X. Chen, Y. Duan, R. Houthooft, J. Schulman, I. Sutskever, and
+P. Abbeel, “Infogan: Interpretable representation learning by
+information maximizing generative adversarial nets,” in NeurIPS,
+2016.
+[247] T. DeVries and G. W. Taylor, “Improved regularization of
+convolutional neural networks with cutout,” arXiv preprint
+arXiv:1708.04552, 2017.
+[248] I. Redko, E. Morvant, A. Habrard, M. Sebban, and Y. Bennani,
+“A survey on domain adaptation theory: learning bounds and
+theoretical guarantees,” arXiv preprint arXiv:2004.11829, 2020.
+[249] A. A. Deshmukh, Y. Lei, S. Sharma, U. Dogan, J. W. Cutler, and
+C. Scott, “A generalization error bound for multi-class domain
+generalization,” arXiv preprint arXiv:1905.10392, 2019.
+[250] E. Rosenfeld, P. Ravikumar, and A. Risteski, “An online learning
+approach to interpolation and extrapolation in domain general-
+ization,” in AISTATS, 2022.
+[251] R. Vedantam, D. Lopez-Paz, and D. J. Schwab, “An empirical
+investigation of domain generalization with empirical risk mini-
+mizers,” NeurIPS, 2021.
+[252] H. Ye, C. Xie, T. Cai, R. Li, Z. Li, and L. Wang, “Towards
+a theoretical framework of out-of-distribution generalization,”
+NeurIPS, 2021.
+[253] D. Li, H. Gouk, and T. Hospedales, “Finding lost dg: Explain-
+ing domain generalization via model complexity,” arXiv preprint
+arXiv:2202.00563, 2022.
+[254] Y. Han, G. Huang, S. Song, L. Yang, H. Wang, and
+Y. Wang, “Dynamic neural networks: A survey,” arXiv preprint
+arXiv:2102.04906, 2021.
+[255] X. Jia, B. De Brabandere, T. Tuytelaars, and L. Van Gool, “Dy-
+namic ﬁlter networks,” in NeurIPS, 2016.
+[256] B. Yang, G. Bender, Q. V. Le, and J. Ngiam, “Condconv: Con-
+ditionally parameterized convolutions for efﬁcient inference,” in
+NeurIPS, 2019.
+[257] D. Ulyanov, A. Vedaldi, and V. Lempitsky, “Instance nor-
+malization: The missing ingredient for fast stylization,”
+arXiv:1607.08022, 2016.
+[258] J. L. Ba, J. R. Kiros, and G. E. Hinton, “Layer normalization,”
+arXiv preprint arXiv:1607.06450, 2016.
+[259] P. Luo, J. Ren, Z. Peng, R. Zhang, and J. Li, “Differentiable
+learning-to-normalize via switchable normalization,” in ICLR,
+2019.
+[260] T. Park, M.-Y. Liu, T.-C. Wang, and J.-Y. Zhu, “Semantic image
+synthesis with spatially-adaptive normalization,” in CVPR, 2019.
+[261] L. Deecke, T. Hospedales, and H. Bilen, “Latent domain learning
+with dynamic residual adapters,” arXiv preprint arXiv:2006.00996,
+2020.
+[262] K. Xu, M. Zhang, J. Li, S. S. Du, K.-I. Kawarabayashi, and
+S. Jegelka, “How neural networks extrapolate: From feedforward
+to graph neural networks,” in ICLR, 2021.
+[263] R. Geirhos, J.-H. Jacobsen, C. Michaelis, R. Zemel, W. Brendel,
+M. Bethge, and F. A. Wichmann, “Shortcut learning in deep
+neural networks,” Nature Machine Intelligence, 2020.
+[264] B. Kim, H. Kim, K. Kim, S. Kim, and J. Kim, “Learning not to
+learn: Training deep neural networks with biased data,” in CVPR,
+2019.
+[265] Y. Bengio, T. Deleu, N. Rahaman, R. Ke, S. Lachapelle, O. Bi-
+laniuk, A. Goyal, and C. Pal, “A meta-transfer objective for
+learning to disentangle causal mechanisms,” arXiv preprint
+arXiv:1901.10912, 2019.
+[266] B. Scholkopf, F. Locatello, S. Bauer, N. R. Ke, N. Kalchbrenner,
+A. Goyal, and Y. Bengio, “Towards causal representation learn-
+ing,” arXiv preprint arXiv:2102.11107, 2021.
+[267] J. Hoffman, S. Gupta, and T. Darrell, “Learning with side infor-
+mation through modality hallucination,” in CVPR, 2016.
+[268] K. Zhou, A. Paiement, and M. Mirmehdi, “Detecting humans in
+rgb-d data with cnns,” in MVA, 2017.
+[269] A. Zunino, S. A. Bargal, R. Volpi, M. Sameki, J. Zhang, S. Sclaroff,
+V. Murino, and K. Saenko, “Explainable deep classiﬁcation mod-
+els for domain generalization,” arXiv preprint arXiv:2003.06498,
+2020.
+[270] M. D. Zeiler and R. Fergus, “Visualizing and understanding
+convolutional networks,” in ECCV, 2014.
+[271] Z. Li and D. Hoiem, “Learning without forgetting,” TPAMI, 2017.
+[272] H. Shariﬁ-Noghabi, H. Asghari, N. Mehrasa, and M. Ester, “Do-
+main generalization via semi-supervised meta learning,” arXiv
+preprint arXiv:2009.12658, 2020.
+[273] X. Liu, S. Thermos, A. O’Neil, and S. A. Tsaftaris, “Semi-
+supervised meta-learning with disentanglement for domain-
+generalised medical image segmentation,” in MICCAI, 2021.
+[274] X. Liu, S. Thermos, P. Sanchez, A. Q. O’Neil, and S. A. Tsaftaris,
+“vmfnet: Compositionality meets domain-generalised segmenta-
+tion,” in MICCAI, 2022.
+[275] C. Geng, S.-j. Huang, and S. Chen, “Recent advances in open set
+recognition: A survey,” TPAMI, 2020.
+=== PAGE 20 ===
+20
+[276] Y. Wu, Y. Chen, L. Wang, Y. Ye, Z. Liu, Y. Guo, and Y. Fu, “Large
+scale incremental learning,” in CVPR, 2019.
+[277] W. Li, R. Zhao, T. Xiao, and X. Wang, “Deepreid: Deep ﬁlter
+pairing neural network for person re-identiﬁcation,” in CVPR,
+2014.
+Kaiyang Zhou received the PhD degree in Com-
+puter Science from the University of Surrey,
+UK, in 2020. He is currently a Research Fellow
+at Nanyang Technological University, Singapore.
+His research lies at the intersection of machine
+learning and computer vision. His papers have
+been published at major journals and confer-
+ences in relevant ﬁelds, such as TPAMI, IJCV,
+ICLR, AAAI, CVPR, ICCV, and ECCV. According
+to Google Scholar, his papers have been cited
+more than 1,600 times, with h-index at 14. He
+serves/served as an Area Chair/Senior Program Committee Member
+for BMVC (2022) and AAAI (2023), and a reviewer for top-tier journals
+and conferences including TPAMI, ICLR, NeurIPS, ICML, CVPR, ICCV,
+ECCV, etc.
+Ziwei Liu is currently an Assistant Professor
+at Nanyang Technological University, Singapore.
+Previously, he was a senior research fellow at
+the Chinese University of Hong Kong and a
+postdoctoral researcher at University of Califor-
+nia, Berkeley. Ziwei received his PhD from the
+Chinese University of Hong Kong. His research
+revolves around computer vision, machine learn-
+ing and computer graphics. He has published
+extensively on top-tier conferences and journals
+in relevant ﬁelds, including CVPR, ICCV, ECCV,
+NeurIPS, ICLR, ICML, TPAMI, TOG and Nature - Machine Intelligence.
+He is the recipient of Microsoft Young Fellowship, Hong Kong PhD
+Fellowship, ICCV Young Researcher Award and HKSTP Best Paper
+Award. He also serves as an Area Chair of ICCV, NeurIPS and AAAI.
+Yu Qiao is a professor with Shanghai AI Labo-
+ratory and the Shenzhen Institutes of Advanced
+Technology (SIAT), the Chinese Academy of Sci-
+ences. His research interests include computer
+vision, deep learning, and bioinformation. He
+has published more than 300 papers in inter-
+national journals and conferences, including T-
+PAMI, IJCV, T-IP, T-SP, CVPR, ICCV, etc. His
+H-index is 72, with 35,000 citations in Google
+scholar. He is the recipient of the distinguished
+paper award in AAAI 2021. His group achieved
+the ﬁrst runner-up at the ImageNet Large Scale Visual Recognition Chal-
+lenge 2015 in scene recognition, and was the winner at the ActivityNet
+Large Scale Activity Recognition Challenge 2016 in video classiﬁcation.
+He served as the program chair of IEEE ICIST 2014.
+Tao Xiang received the Ph.D. degree in electri-
+cal and computer engineering from the National
+University of Singapore in 2002. He is currently a
+full professor in the Department of Electrical and
+Electronic Engineering, University of Surrey and
+a Research Scientist Manager at Meta AI. His
+research interests include computer vision and
+machine learning. He has published over 200
+papers in international journals and conferences
+with over 28K citations.
+Chen Change Loy (Senior Member, IEEE) re-
+ceived the PhD degree in computer science from
+the Queen Mary University of London, in 2010.
+He is an associate professor with the School
+of Computer Science and Engineering, Nanyang
+Technological University. Prior to joining NTU, he
+served as a research assistant professor with
+the Department of Information Engineering, The
+Chinese University of Hong Kong, from 2013 to
+2018. His research interests include computer
+vision and deep learning with a focus on im-
+age/video restoration and enhancement, generative tasks, and repre-
+sentation learning. He serves as an Associate Editor of the International
+Journal of Computer Vision (IJCV) and IEEE Transactions on Pattern
+Analysis and Machine Intelligence (TPAMI). He also serves/served as
+an Area Chair of ICCV 2021, CVPR (2021, 2019), ECCV (2022, 2018),
+AAAI (2021-2023), and BMVC (2018-2021).
