@@ -1,0 +1,2589 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proceedings of the Seventeenth International Joint Conference on Artificial Intelligence | IJCAI</title>
+<meta name='robots' content='max-image-preview:large' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='ijcai-main-css' href='https://ijcai.org/wp-content/themes/ijcai/assets/css/main.css?ver=1.0.14' media='all' />
+<link rel='stylesheet' id='ijcai-archive-css' href='https://ijcai.org/wp-content/themes/ijcai/assets/css/archive.css?ver=1.1.1' media='all' />
+<link rel="https://api.w.org/" href="https://ijcai.org/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ijcai.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.5" />
+<link rel="icon" href="https://ijcai.org/wp-content/themes/ijcai/assets/img/favicon.ico?v=2" sizes="any">
+<link rel="icon" href="https://ijcai.org/wp-content/themes/ijcai/assets/img/favicon.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://ijcai.org/wp-content/themes/ijcai/assets/img/apple-touch-icon.png?v=2">
+</head>
+<body class="paged-2001 wp-theme-ijcai ijcai-archive ijcai-archive--volume">
+
+<header class="site-header">
+    <div class="site-header__bar">
+        <span class="site-header__spacer"></span>
+        <a href="https://ijcai.org/" class="site-logo">
+            <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/logo.svg"
+                 width="247" height="105" alt="IJCAI">
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation"
+                aria-expanded="false" aria-controls="nav-panel">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav id="nav-panel" class="nav-panel" aria-label="Primary Navigation">
+        <ul id="menu-primary" class="nav-panel__menu"><li id="menu-item-230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-230"><a href="https://ijcai.org/future_conferences/">Conferences</a>
+<ul class="sub-menu">
+	<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="https://ijcai.org/future_conferences/">Future Conferences</a></li>
+	<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="https://ijcai.org/past_conferences/">Past Conferences</a></li>
+</ul>
+</li>
+<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="https://ijcai.org/all_proceedings/">Proceedings</a>
+<ul class="sub-menu">
+	<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a href="/proceedings/2026/">IJCAI 2026 Proceedings</a></li>
+	<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://ijcai.org/all_proceedings/">All Proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="https://ijcai.org/awards/">Awards</a></li>
+<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-237"><a href="https://ijcai.org/trustees/current_trustees/">Trustees/officers</a>
+<ul class="sub-menu">
+	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="https://ijcai.org/trustees/current_trustees/">Current trustees</a></li>
+	<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="https://ijcai.org/trustees/trustees_elect/">Trustees Elect</a></li>
+	<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="https://ijcai.org/officers/ijcai_secretariat/">IJCAI Secretariat</a></li>
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="https://ijcai.org/officers/sponsorship_publicity/">IJCAI Sponsorship and Publicity Officers</a></li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="https://ijcai.org/officers/ijcai_team/">IJCAI Team</a></li>
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="https://ijcai.org/officers/local_arrangements_chairs/">Local Arrangements Chairs</a></li>
+	<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="https://ijcai.org/trustees/former_trustees_serving_on_the_executive_committee/">Former Trustees serving on the Executive Committee</a></li>
+	<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="https://ijcai.org/officers/other_former_officers/">Other Former Officers</a></li>
+</ul>
+</li>
+<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246"><a href="https://ijcai.org/aijd/">AI Journal</a></li>
+<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-247"><a href="https://ijcai.org/aboutijcai/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-248"><a href="https://ijcai.org/aboutijcai/">About IJCAI</a></li>
+	<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://ijcai.org/documents/">Documents</a></li>
+	<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a href="https://ijcai.org/contact/">Contact Information</a></li>
+</ul>
+</li>
+</ul>    </nav>
+</header>
+
+<main id="main" class="site-main">
+    <div class="page-banner" style="background-image: url('https://ijcai.org/wp-content/themes/ijcai/assets/img/banners/proceedings.jpg?v=1');">
+    <details class="section-nav section-nav--overlay">
+    <summary>Proceedings</summary>
+    <ul>
+                    <li>
+                <a href="/proceedings/2026/">
+                    IJCAI 2026 Proceedings                </a>
+            </li>
+                    <li>
+                <a href="https://ijcai.org/all_proceedings/">
+                    All Proceedings                </a>
+            </li>
+            </ul>
+</details>
+</div>
+    <article class="panel archive-record">
+        <nav class="archive-crumbs" aria-label="Breadcrumb">
+            <a href="https://ijcai.org/all_proceedings/">Proceedings</a>
+                    </nav>
+
+                    <h1 class="panel__title">Proceedings of the Seventeenth International Joint Conference on Artificial Intelligence</h1>
+        
+        <div class="entry-content">
+            <header class="volume-head">
+        <div class="volume-head__text">
+        <p class="volume-head__where">
+            Seattle, Washington, USA        </p>
+                    <p class="volume-head__editors">Edited by Bernhard Nebel</p>
+                <p class="volume-head__meta">
+            193 papers                                </p>
+    </div>
+</header>
+
+<div class="archive-filter">
+    <label class="screen-reader-text" for="archive-filter">Filter titles and authors</label>
+    <input id="archive-filter" type="search" placeholder="Filter titles and authors">
+    <p class="archive-filter__empty" hidden>No papers match this filter.</p>
+</div>
+
+
+<div class="archive-year archive-volume">
+            <div class="section" id="section0">
+            <div class="section_title"><h3>Papers</h3></div>
+                <div class="paper_wrapper paper-row" id="paper1">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/1">A Logical Account of Causal and Topological Maps</a>
+            <div class="authors"><a href="https://ijcai.org/authors/emilio-remolina/">Emilio Remolina</a>, <a href="https://ijcai.org/authors/benjamin-kuipers/">Benjamin Kuipers</a></div>
+            <div class="details">
+                                    Pages 5–10                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/1">Details</a>
+                            <a class="button" href="/proceedings/2001/0001.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper2">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/2">On-Line Execution of cc-Golog Plans</a>
+            <div class="authors"><a href="https://ijcai.org/authors/henrik-grosskreutz/">Henrik Grosskreutz</a>, <a href="https://ijcai.org/authors/gerhard-lakemeyer/">Gerhard Lakemeyer</a></div>
+            <div class="details">
+                                    Pages 12–17                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/2">Details</a>
+                            <a class="button" href="/proceedings/2001/0002.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper3">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/3">An On-line Decision-Theoretic Golog Interpreter</a>
+            <div class="authors"><a href="https://ijcai.org/authors/mikhail-soutchanski/">Mikhail Soutchanski</a></div>
+            <div class="details">
+                                    Pages 19–25                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/3">Details</a>
+                            <a class="button" href="/proceedings/2001/0003.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper4">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/4">Causes and Explanations: A Structural-Model Approach - Part II: Explanations</a>
+            <div class="authors"><a href="https://ijcai.org/authors/joseph-y-halpern/">Joseph Y. Halpern</a>, <a href="https://ijcai.org/authors/judea-pearl/">Judea Pearl</a></div>
+            <div class="details">
+                                    Pages 27–33                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/4">Details</a>
+                            <a class="button" href="/proceedings/2001/0004.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper5">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/5">Complexity Results for Structure-Based Causality</a>
+            <div class="authors"><a href="https://ijcai.org/authors/thomas-eiter/">Thomas Eiter</a>, <a href="https://ijcai.org/authors/thomas-lukasiewicz/">Thomas Lukasiewicz</a></div>
+            <div class="details">
+                                    Pages 35–41                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/5">Details</a>
+                            <a class="button" href="/proceedings/2001/0005.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper6">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/6">Ambiguity-Directed Sampling for Qualitative Analysis of Sparse Data from Spatially-Distributed Physical Systems</a>
+            <div class="authors"><a href="https://ijcai.org/authors/christopher-bailey-kellogg/">Christopher Bailey-Kellogg</a>, <a href="https://ijcai.org/authors/naren-ramakrishnan/">Naren Ramakrishnan</a></div>
+            <div class="details">
+                                    Pages 43–49                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/6">Details</a>
+                            <a class="button" href="/proceedings/2001/0006.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper7">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/7">A Spatial Odyssey of the Interval Algebra: 1. Directed Intervals</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jochen-renz/">Jochen Renz</a></div>
+            <div class="details">
+                                    Pages 51–55                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/7">Details</a>
+                            <a class="button" href="/proceedings/2001/0007.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper8">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/8">From Images to Bodies: Modelling and Exploiting Spatial Occlusion and Motion Parallax</a>
+            <div class="authors"><a href="https://ijcai.org/authors/david-a-randell/">David A. Randell</a>, <a href="https://ijcai.org/authors/mark-witkowski/">Mark Witkowski</a>, <a href="https://ijcai.org/authors/murray-shanahan/">Murray Shanahan</a></div>
+            <div class="details">
+                                    Pages 57–65                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/8">Details</a>
+                            <a class="button" href="/proceedings/2001/0008.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper9">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/9">Qualitative Simulation of Genetic Regulatory Networks: Method and Application</a>
+            <div class="authors"><a href="https://ijcai.org/authors/hidde-de-jong/">Hidde de Jong</a>, <a href="https://ijcai.org/authors/michel-page/">Michel Page</a>, <a href="https://ijcai.org/authors/celine-hernandez/">Céline Hernandez</a>, <a href="https://ijcai.org/authors/johannes-geiselmann/">Johannes Geiselmann</a></div>
+            <div class="details">
+                                    Pages 67–72                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/9">Details</a>
+                            <a class="button" href="/proceedings/2001/0009.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper10">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/10">Discrimination of Semi-Quantitative Models by Experiment Selection: Method and Application in Population Biology</a>
+            <div class="authors"><a href="https://ijcai.org/authors/ivayla-vatcheva/">Ivayla Vatcheva</a>, <a href="https://ijcai.org/authors/olivier-bernard/">Olivier Bernard</a>, <a href="https://ijcai.org/authors/hidde-de-jong/">Hidde de Jong</a>, <a href="https://ijcai.org/authors/jean-luc-gouze/">Jean-Luc Gouzé</a>, <a href="https://ijcai.org/authors/nicolaas-j-i-mars/">Nicolaas J. I. Mars</a></div>
+            <div class="details">
+                                    Pages 74–81                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/10">Details</a>
+                            <a class="button" href="/proceedings/2001/0010.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper11">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/11">A Complete Classification of Complexity in Allens Algebra in the Presence of a Non-Trivial Basic Relation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/andrei-a-krokhin/">Andrei A. Krokhin</a>, <a href="https://ijcai.org/authors/peter-jeavons/">Peter Jeavons</a>, <a href="https://ijcai.org/authors/peter-jonsson/">Peter Jonsson</a></div>
+            <div class="details">
+                                    Pages 83–87                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/11">Details</a>
+                            <a class="button" href="/proceedings/2001/0011.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper12">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/12">Interval-based Temporal Reasoning with General TBoxes</a>
+            <div class="authors"><a href="https://ijcai.org/authors/carsten-lutz/">Carsten Lutz</a></div>
+            <div class="details">
+                                    Pages 89–95                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/12">Details</a>
+                            <a class="button" href="/proceedings/2001/0012.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper13">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/13">On the Semantics of Knowledge Update</a>
+            <div class="authors"><a href="https://ijcai.org/authors/chitta-baral/">Chitta Baral</a>, <a href="https://ijcai.org/authors/yan-zhang-2/">Yan Zhang</a></div>
+            <div class="details">
+                                    Pages 97–101                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/13">Details</a>
+                            <a class="button" href="/proceedings/2001/0013.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper14">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/14">Resource-bounded inference from inconsistent belief bases</a>
+            <div class="authors"><a href="https://ijcai.org/authors/pierre-marquis/">Pierre Marquis</a>, <a href="https://ijcai.org/authors/nadege-porquet/">Nadège Porquet</a></div>
+            <div class="details">
+                                    Pages 103–107                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/14">Details</a>
+                            <a class="button" href="/proceedings/2001/0014.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper15">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/15">Weakening Conflicting Information for Iterated Revision and Knowledge Integration</a>
+            <div class="authors"><a href="https://ijcai.org/authors/salem-benferhat/">Salem Benferhat</a>, <a href="https://ijcai.org/authors/souhila-kaci/">Souhila Kaci</a>, <a href="https://ijcai.org/authors/daniel-le-berre/">Daniel Le Berre</a>, <a href="https://ijcai.org/authors/mary-anne-williams/">Mary-Anne Williams</a></div>
+            <div class="details">
+                                    Pages 109–117                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/15">Details</a>
+                            <a class="button" href="/proceedings/2001/0015.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper16">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/16">Updates, actions, and planning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/andreas-herzig/">Andreas Herzig</a>, <a href="https://ijcai.org/authors/jerome-lang/">Jérôme Lang</a>, <a href="https://ijcai.org/authors/pierre-marquis/">Pierre Marquis</a>, <a href="https://ijcai.org/authors/thomas-polacsek/">Thomas Polacsek</a></div>
+            <div class="details">
+                                    Pages 119–123                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/16">Details</a>
+                            <a class="button" href="/proceedings/2001/0016.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper17">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/17">Causality and Minimal Change Demystified</a>
+            <div class="authors"><a href="https://ijcai.org/authors/maurice-pagnucco/">Maurice Pagnucco</a>, <a href="https://ijcai.org/authors/pavlos-peppas/">Pavlos Peppas</a></div>
+            <div class="details">
+                                    Pages 125–129                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/17">Details</a>
+                            <a class="button" href="/proceedings/2001/0017.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper18">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/18">EPDL: A Logic for Causal Reasoning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/dongmo-zhang/">Dongmo Zhang</a>, <a href="https://ijcai.org/authors/norman-y-foo/">Norman Y. Foo</a></div>
+            <div class="details">
+                                    Pages 131–137                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/18">Details</a>
+                            <a class="button" href="/proceedings/2001/0018.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper19">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/19">A Circumscriptive Formalization of the Qualification Problem</a>
+            <div class="authors"><a href="https://ijcai.org/authors/g-neelakantan-kartha/">G. Neelakantan Kartha</a></div>
+            <div class="details">
+                                    Pages 139–143                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/19">Details</a>
+                            <a class="button" href="/proceedings/2001/0019.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper20">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/20">Computing Strongest Necessary and Weakest Sufficient Conditions of First-Order Formulas</a>
+            <div class="authors"><a href="https://ijcai.org/authors/patrick-doherty/">Patrick Doherty</a>, <a href="https://ijcai.org/authors/witold-lukaszewicz/">Witold Lukaszewicz</a>, <a href="https://ijcai.org/authors/andrzej-szalas/">Andrzej Szalas</a></div>
+            <div class="details">
+                                    Pages 145–153                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/20">Details</a>
+                            <a class="button" href="/proceedings/2001/0020.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper21">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/21">Identification Constraints and Functional Dependencies in Description Logics</a>
+            <div class="authors"><a href="https://ijcai.org/authors/diego-calvanese/">Diego Calvanese</a>, <a href="https://ijcai.org/authors/giuseppe-de-giacomo/">Giuseppe De Giacomo</a>, <a href="https://ijcai.org/authors/maurizio-lenzerini/">Maurizio Lenzerini</a></div>
+            <div class="details">
+                                    Pages 155–159                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/21">Details</a>
+                            <a class="button" href="/proceedings/2001/0021.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper22">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/22">High Performance Reasoning with Very Large Knowledge Bases: A Practical Case Study</a>
+            <div class="authors"><a href="https://ijcai.org/authors/volker-haarslev/">Volker Haarslev</a>, <a href="https://ijcai.org/authors/ralf-moller/">Ralf Möller</a></div>
+            <div class="details">
+                                    Pages 161–167                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/22">Details</a>
+                            <a class="button" href="/proceedings/2001/0022.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper23">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/23">Complexity of Nested Circumscription and Abnormality Theories</a>
+            <div class="authors"><a href="https://ijcai.org/authors/marco-cadoli/">Marco Cadoli</a>, <a href="https://ijcai.org/authors/thomas-eiter/">Thomas Eiter</a>, <a href="https://ijcai.org/authors/georg-gottlob/">Georg Gottlob</a></div>
+            <div class="details">
+                                    Pages 169–173                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/23">Details</a>
+                            <a class="button" href="/proceedings/2001/0023.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper24">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/24">A Perspective on Knowledge Compilation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/adnan-darwiche/">Adnan Darwiche</a>, <a href="https://ijcai.org/authors/pierre-marquis/">Pierre Marquis</a></div>
+            <div class="details">
+                                    Pages 175–181                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/24">Details</a>
+                            <a class="button" href="/proceedings/2001/0024.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper25">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/25">Phase Transitions of PP-Complete Satisfiability Problems</a>
+            <div class="authors"><a href="https://ijcai.org/authors/delbert-d-bailey/">Delbert D. Bailey</a>, <a href="https://ijcai.org/authors/victor-dalmau/">Víctor Dalmau</a>, <a href="https://ijcai.org/authors/phokion-g-kolaitis/">Phokion G. Kolaitis</a></div>
+            <div class="details">
+                                    Pages 183–191                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/25">Details</a>
+                            <a class="button" href="/proceedings/2001/0025.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper26">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/26">Decision Procedures for Expressive Description Logics with Intersection, Composition, Converse of Roles and Role Identity</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fabio-massacci/">Fabio Massacci</a></div>
+            <div class="details">
+                                    Pages 193–197                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/26">Details</a>
+                            <a class="button" href="/proceedings/2001/0026.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper27">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/27">Ontology Reasoning in the SHOQ(D) Description Logic</a>
+            <div class="authors"><a href="https://ijcai.org/authors/ian-horrocks/">Ian Horrocks</a>, <a href="https://ijcai.org/authors/ulrike-sattler/">Ulrike Sattler</a></div>
+            <div class="details">
+                                    Pages 199–203                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/27">Details</a>
+                            <a class="button" href="/proceedings/2001/0027.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper29">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/29">The SG Family: Extensions of Simple Conceptual Graphs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jean-francois-baget/">Jean-François Baget</a>, <a href="https://ijcai.org/authors/marie-laure-mugnier/">Marie-Laure Mugnier</a></div>
+            <div class="details">
+                                    Pages 205–211                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/29">Details</a>
+                            <a class="button" href="/proceedings/2001/0029.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper30">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/30">Matching under Side Conditions in Description Logics</a>
+            <div class="authors"><a href="https://ijcai.org/authors/franz-baader/">Franz Baader</a>, <a href="https://ijcai.org/authors/sebastian-brandt/">Sebastian Brandt</a>, <a href="https://ijcai.org/authors/ralf-kusters/">Ralf Küsters</a></div>
+            <div class="details">
+                                    Pages 213–217                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/30">Details</a>
+                            <a class="button" href="/proceedings/2001/0030.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper31">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/31">Computing Least Common Subsumers in ALEN</a>
+            <div class="authors"><a href="https://ijcai.org/authors/ralf-kusters/">Ralf Küsters</a>, <a href="https://ijcai.org/authors/ralf-molitor/">Ralf Molitor</a></div>
+            <div class="details">
+                                    Pages 219–223                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/31">Details</a>
+                            <a class="button" href="/proceedings/2001/0031.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper32">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/32">FCA-MERGE: Bottom-Up Merging of Ontologies</a>
+            <div class="authors"><a href="https://ijcai.org/authors/gerd-stumme/">Gerd Stumme</a>, <a href="https://ijcai.org/authors/alexander-maedche/">Alexander Maedche</a></div>
+            <div class="details">
+                                    Pages 225–233                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/32">Details</a>
+                            <a class="button" href="/proceedings/2001/0032.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper33">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/33">Incomplete Tree Search using Adaptive Probing</a>
+            <div class="authors"><a href="https://ijcai.org/authors/wheeler-ruml/">Wheeler Ruml</a></div>
+            <div class="details">
+                                    Pages 235–240                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/33">Details</a>
+                            <a class="button" href="/proceedings/2001/0033.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper34">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/34">Heuristic Search in Infinite State Spaces Guided by Lyapunov Analysis</a>
+            <div class="authors"><a href="https://ijcai.org/authors/theodore-j-perkins/">Theodore J. Perkins</a>, <a href="https://ijcai.org/authors/andrew-g-barto/">Andrew G. Barto</a></div>
+            <div class="details">
+                                    Pages 242–246                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/34">Details</a>
+                            <a class="button" href="/proceedings/2001/0034.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper35">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/35">A backbone-search heuristic for efficient solving of hard 3-SAT formulae</a>
+            <div class="authors"><a href="https://ijcai.org/authors/olivier-dubois/">Olivier Dubois</a>, <a href="https://ijcai.org/authors/gilles-dequen/">Gilles Dequen</a></div>
+            <div class="details">
+                                    Pages 248–252                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/35">Details</a>
+                            <a class="button" href="/proceedings/2001/0035.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper36">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/36">Backbones in Optimization and Approximation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/john-k-slaney/">John K. Slaney</a>, <a href="https://ijcai.org/authors/toby-walsh/">Toby Walsh</a></div>
+            <div class="details">
+                                    Pages 254–258                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/36">Details</a>
+                            <a class="button" href="/proceedings/2001/0036.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper37">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/37">Cooperative Search and Nogood Recording</a>
+            <div class="authors"><a href="https://ijcai.org/authors/cyril-terrioux/">Cyril Terrioux</a></div>
+            <div class="details">
+                                    Pages 260–264                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/37">Details</a>
+                            <a class="button" href="/proceedings/2001/0037.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper38">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/38">Search on High Degree Graphs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/toby-walsh/">Toby Walsh</a></div>
+            <div class="details">
+                                    Pages 266–273                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/38">Details</a>
+                            <a class="button" href="/proceedings/2001/0038.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper39">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/39">Backjumping for Quantified Boolean Logic Satisfiability</a>
+            <div class="authors"><a href="https://ijcai.org/authors/enrico-giunchiglia/">Enrico Giunchiglia</a>, <a href="https://ijcai.org/authors/massimo-narizzano/">Massimo Narizzano</a>, <a href="https://ijcai.org/authors/armando-tacchella/">Armando Tacchella</a></div>
+            <div class="details">
+                                    Pages 275–280                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/39">Details</a>
+                            <a class="button" href="/proceedings/2001/0039.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper40">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/40">Solving Non-Boolean Satisfiability Problems with Stochastic Local Search</a>
+            <div class="authors"><a href="https://ijcai.org/authors/alan-m-frisch/">Alan M. Frisch</a>, <a href="https://ijcai.org/authors/timothy-j-peugniez/">Timothy J. Peugniez</a></div>
+            <div class="details">
+                                    Pages 282–289                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/40">Details</a>
+                            <a class="button" href="/proceedings/2001/0040.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper41">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/41">Backtracking Through Biconnected Components of a Constraint Graph</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jean-francois-baget/">Jean-François Baget</a>, <a href="https://ijcai.org/authors/yannic-s-tognetti/">Yannic S. Tognetti</a></div>
+            <div class="details">
+                                    Pages 291–295                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/41">Details</a>
+                            <a class="button" href="/proceedings/2001/0041.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper42">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/42">A Constraint Satisfaction Approach to Parametric Differential Equations</a>
+            <div class="authors"><a href="https://ijcai.org/authors/micha-janssen/">Micha Janssen</a>, <a href="https://ijcai.org/authors/pascal-van-hentenryck/">Pascal Van Hentenryck</a>, <a href="https://ijcai.org/authors/yves-deville/">Yves Deville</a></div>
+            <div class="details">
+                                    Pages 297–301                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/42">Details</a>
+                            <a class="button" href="/proceedings/2001/0042.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper43">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/43">Improved bounds on the complexity of kB-consistency</a>
+            <div class="authors"><a href="https://ijcai.org/authors/lucas-bordeaux/">Lucas Bordeaux</a>, <a href="https://ijcai.org/authors/eric-monfroy/">Éric Monfroy</a>, <a href="https://ijcai.org/authors/frederic-benhamou/">Frédéric Benhamou</a></div>
+            <div class="details">
+                                    Pages 303–307                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/43">Details</a>
+                            <a class="button" href="/proceedings/2001/0043.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper44">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/44">Refining the Basic Constraint Propagation Algorithm</a>
+            <div class="authors"><a href="https://ijcai.org/authors/christian-bessiere/">Christian Bessière</a>, <a href="https://ijcai.org/authors/jean-charles-regin/">Jean-Charles Régin</a></div>
+            <div class="details">
+                                    Pages 309–314                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/44">Details</a>
+                            <a class="button" href="/proceedings/2001/0044.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper45">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/45">Making AC-3 an Optimal Algorithm</a>
+            <div class="authors"><a href="https://ijcai.org/authors/yuanlin-zhang/">Yuanlin Zhang</a>, <a href="https://ijcai.org/authors/roland-h-c-yap/">Roland H. C. Yap</a></div>
+            <div class="details">
+                                    Pages 316–320                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/45">Details</a>
+                            <a class="button" href="/proceedings/2001/0045.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper46">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/46">Temporal Constraint Reasoning With Preferences</a>
+            <div class="authors"><a href="https://ijcai.org/authors/lina-khatib/">Lina Khatib</a>, <a href="https://ijcai.org/authors/paul-h-morris/">Paul H. Morris</a>, <a href="https://ijcai.org/authors/robert-a-morris/">Robert A. Morris</a>, <a href="https://ijcai.org/authors/francesca-rossi/">Francesca Rossi</a></div>
+            <div class="details">
+                                    Pages 322–326                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/46">Details</a>
+                            <a class="button" href="/proceedings/2001/0046.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper47">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/47">A Hybrid Approach for the 01 Multidimensional Knapsack problem</a>
+            <div class="authors"><a href="https://ijcai.org/authors/michel-vasquez/">Michel Vasquez</a>, <a href="https://ijcai.org/authors/jin-kao-hao/">Jin-Kao Hao</a></div>
+            <div class="details">
+                                    Pages 328–332                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/47">Details</a>
+                            <a class="button" href="/proceedings/2001/0047.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper48">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/48">The Exponentiated Subgradient Algorithm for Heuristic Boolean Programming</a>
+            <div class="authors"><a href="https://ijcai.org/authors/dale-schuurmans/">Dale Schuurmans</a>, <a href="https://ijcai.org/authors/finnegan-southey/">Finnegan Southey</a>, <a href="https://ijcai.org/authors/robert-c-holte/">Robert C. Holte</a></div>
+            <div class="details">
+                                    Pages 334–340                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/48">Details</a>
+                            <a class="button" href="/proceedings/2001/0048.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper49">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/49">A New Method For The Three Dimensional Container Packing Problem</a>
+            <div class="authors"><a href="https://ijcai.org/authors/andrew-lim/">Andrew Lim</a>, <a href="https://ijcai.org/authors/wang-ying/">Wang Ying</a></div>
+            <div class="details">
+                                    Pages 342–349                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/49">Details</a>
+                            <a class="button" href="/proceedings/2001/0049.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper50">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/50">Balance and Filtering in Structured Satisfiable Problems</a>
+            <div class="authors"><a href="https://ijcai.org/authors/henry-a-kautz/">Henry A. Kautz</a>, <a href="https://ijcai.org/authors/yongshao-ruan/">Yongshao Ruan</a>, <a href="https://ijcai.org/authors/dimitris-achlioptas/">Dimitris Achlioptas</a>, <a href="https://ijcai.org/authors/carla-p-gomes/">Carla P. Gomes</a>, <a href="https://ijcai.org/authors/bart-selman/">Bart Selman</a>, <a href="https://ijcai.org/authors/mark-e-stickel/">Mark E. Stickel</a></div>
+            <div class="details">
+                                    Pages 351–357                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/50">Details</a>
+                            <a class="button" href="/proceedings/2001/0050.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper51">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/51">Efficient Consequence Finding</a>
+            <div class="authors"><a href="https://ijcai.org/authors/laurent-simon/">Laurent Simon</a>, <a href="https://ijcai.org/authors/alvaro-del-val/">Alvaro del Val</a></div>
+            <div class="details">
+                                    Pages 359–369                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/51">Details</a>
+                            <a class="button" href="/proceedings/2001/0051.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper52">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/52">Formalizing Artistic Techniques and Scientific Visualization for Painted Renditions of Complex Information Spaces</a>
+            <div class="authors"><a href="https://ijcai.org/authors/christopher-g-healey/">Christopher G. Healey</a></div>
+            <div class="details">
+                                    Pages 371–375                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/52">Details</a>
+                            <a class="button" href="/proceedings/2001/0052.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper53">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/53">Visual Analogy in Problem Solving</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jim-davies/">Jim Davies</a>, <a href="https://ijcai.org/authors/ashok-k-goel/">Ashok K. Goel</a></div>
+            <div class="details">
+                                    Pages 377–383                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/53">Details</a>
+                            <a class="button" href="/proceedings/2001/0053.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper54">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/54">Reasoning about Categories in Conceptual Spaces</a>
+            <div class="authors"><a href="https://ijcai.org/authors/peter-gardenfors/">Peter Gärdenfors</a>, <a href="https://ijcai.org/authors/mary-anne-williams/">Mary-Anne Williams</a></div>
+            <div class="details">
+                                    Pages 385–391                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/54">Details</a>
+                            <a class="button" href="/proceedings/2001/0054.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper55">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/55">Simulating the Formation of Color Categories</a>
+            <div class="authors"><a href="https://ijcai.org/authors/tony-belpaeme/">Tony Belpaeme</a></div>
+            <div class="details">
+                                    Pages 393–399                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/55">Details</a>
+                            <a class="button" href="/proceedings/2001/0055.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper56">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/56">Grounded Models as a Basis for Intuitive Reasoning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/josefina-sierra-santibanez/">Josefina Sierra-Santibáñez</a></div>
+            <div class="details">
+                                    Pages 401–405                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/56">Details</a>
+                            <a class="button" href="/proceedings/2001/0056.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper57">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/57">Perceptual Anchoring of Symbols for Action</a>
+            <div class="authors"><a href="https://ijcai.org/authors/silvia-coradeschi/">Silvia Coradeschi</a>, <a href="https://ijcai.org/authors/alessandro-saffiotti/">Alessandro Saffiotti</a></div>
+            <div class="details">
+                                    Pages 407–415                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/57">Details</a>
+                            <a class="button" href="/proceedings/2001/0057.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper58">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/58">Planning with Resources and Concurrency: A Forward Chaining Approach</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fahiem-bacchus/">Fahiem Bacchus</a>, <a href="https://ijcai.org/authors/michael-ady/">Michael Ady</a></div>
+            <div class="details">
+                                    Pages 417–423                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/58">Details</a>
+                            <a class="button" href="/proceedings/2001/0058.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper59">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/59">Total-Order Planning with Partially Ordered Subtasks</a>
+            <div class="authors"><a href="https://ijcai.org/authors/dana-s-nau/">Dana S. Nau</a>, <a href="https://ijcai.org/authors/hector-munoz-avila/">Héctor Muñoz-Avila</a>, <a href="https://ijcai.org/authors/yue-cao/">Yue Cao</a>, <a href="https://ijcai.org/authors/amnon-lotem/">Amnon Lotem</a>, <a href="https://ijcai.org/authors/steven-mitchell/">Steven Mitchell</a></div>
+            <div class="details">
+                                    Pages 425–429                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/59">Details</a>
+                            <a class="button" href="/proceedings/2001/0059.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper60">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/60">Conditional progressive planning under uncertainty</a>
+            <div class="authors"><a href="https://ijcai.org/authors/lars-karlsson/">Lars Karlsson</a></div>
+            <div class="details">
+                                    Pages 431–437                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/60">Details</a>
+                            <a class="button" href="/proceedings/2001/0060.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper61">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/61">One action is enough to plan</a>
+            <div class="authors"><a href="https://ijcai.org/authors/emmanuel-guere/">Emmanuel Guere</a>, <a href="https://ijcai.org/authors/rachid-alami/">Rachid Alami</a></div>
+            <div class="details">
+                                    Pages 439–443                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/61">Details</a>
+                            <a class="button" href="/proceedings/2001/0061.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper62">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/62">Hybrid STAN: Identifying and Managing Combinatorial Optimisation Sub- problems in Planning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/maria-fox/">Maria Fox</a>, <a href="https://ijcai.org/authors/derek-long/">Derek Long</a></div>
+            <div class="details">
+                                    Pages 445–451                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/62">Details</a>
+                            <a class="button" href="/proceedings/2001/0062.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper63">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/63">Local Search Topology in Planning Benchmarks: An Empirical Analysis</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jorg-hoffmann/">Jörg Hoffmann</a></div>
+            <div class="details">
+                                    Pages 453–457                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/63">Details</a>
+                            <a class="button" href="/proceedings/2001/0063.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper64">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/64">Reviving Partial Order Planning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/xuanlong-nguyen/">XuanLong Nguyen</a>, <a href="https://ijcai.org/authors/subbarao-kambhampati/">Subbarao Kambhampati</a></div>
+            <div class="details">
+                                    Pages 459–465                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/64">Details</a>
+                            <a class="button" href="/proceedings/2001/0064.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper65">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/65">Heuristic Search + Symbolic Model Checking = Efficient Conformant Planning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/piergiorgio-bertoli/">Piergiorgio Bertoli</a>, <a href="https://ijcai.org/authors/alessandro-cimatti/">Alessandro Cimatti</a>, <a href="https://ijcai.org/authors/marco-roveri/">Marco Roveri</a></div>
+            <div class="details">
+                                    Pages 467–471                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/65">Details</a>
+                            <a class="button" href="/proceedings/2001/0065.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper66">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/66">Planning in Nondeterministic Domains under Partial Observability via Symbolic Model Checking</a>
+            <div class="authors"><a href="https://ijcai.org/authors/piergiorgio-bertoli/">Piergiorgio Bertoli</a>, <a href="https://ijcai.org/authors/alessandro-cimatti/">Alessandro Cimatti</a>, <a href="https://ijcai.org/authors/marco-roveri/">Marco Roveri</a>, <a href="https://ijcai.org/authors/paolo-traverso/">Paolo Traverso</a></div>
+            <div class="details">
+                                    Pages 473–477                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/66">Details</a>
+                            <a class="button" href="/proceedings/2001/0066.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper67">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/67">Planning as Model Checking for Extended Goals in Non-deterministic Domains</a>
+            <div class="authors"><a href="https://ijcai.org/authors/marco-pistore/">Marco Pistore</a>, <a href="https://ijcai.org/authors/paolo-traverso/">Paolo Traverso</a></div>
+            <div class="details">
+                                    Pages 479–485                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/67">Details</a>
+                            <a class="button" href="/proceedings/2001/0067.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper68">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/68">Executing Reactive, Model-based Programs through Graph-based Temporal Planning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/phil-kim/">Phil Kim</a>, <a href="https://ijcai.org/authors/brian-c-williams/">Brian C. Williams</a>, <a href="https://ijcai.org/authors/mark-abramson/">Mark Abramson</a></div>
+            <div class="details">
+                                    Pages 487–492                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/68">Details</a>
+                            <a class="button" href="/proceedings/2001/0068.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper69">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/69">Dynamic Control Of Plans With Temporal Uncertainty</a>
+            <div class="authors"><a href="https://ijcai.org/authors/paul-h-morris/">Paul H. Morris</a>, <a href="https://ijcai.org/authors/nicola-muscettola/">Nicola Muscettola</a>, <a href="https://ijcai.org/authors/thierry-vidal/">Thierry Vidal</a></div>
+            <div class="details">
+                                    Pages 494–501                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/69">Details</a>
+                            <a class="button" href="/proceedings/2001/0069.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper70">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/70">Complexity of Probabilistic Planning under Average Rewards</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jussi-rintanen/">Jussi Rintanen</a></div>
+            <div class="details">
+                                    Pages 503–507                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/70">Details</a>
+                            <a class="button" href="/proceedings/2001/0070.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper71">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/71">Computational Complexity of Planning with Temporal Goals</a>
+            <div class="authors"><a href="https://ijcai.org/authors/chitta-baral/">Chitta Baral</a>, <a href="https://ijcai.org/authors/vladik-kreinovich/">Vladik Kreinovich</a>, <a href="https://ijcai.org/authors/raul-trejo/">Raul Trejo</a></div>
+            <div class="details">
+                                    Pages 509–513                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/71">Details</a>
+                            <a class="button" href="/proceedings/2001/0071.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper72">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/72">A Simplifier for Propositional Formulas with Many Binary Clauses</a>
+            <div class="authors"><a href="https://ijcai.org/authors/ronen-i-brafman/">Ronen I. Brafman</a></div>
+            <div class="details">
+                                    Pages 515–521                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/72">Details</a>
+                            <a class="button" href="/proceedings/2001/0072.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper73">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/73">Iterative Widening</a>
+            <div class="authors"><a href="https://ijcai.org/authors/tristan-cazenave/">Tristan Cazenave</a></div>
+            <div class="details">
+                                    Pages 523–527                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/73">Details</a>
+                            <a class="button" href="/proceedings/2001/0073.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper74">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/74">Temporal Difference Learning Applied to a High-Performance Game-Playing Program</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jonathan-schaeffer/">Jonathan Schaeffer</a>, <a href="https://ijcai.org/authors/markian-hlynka/">Markian Hlynka</a>, <a href="https://ijcai.org/authors/vili-jussila/">Vili Jussila</a></div>
+            <div class="details">
+                                    Pages 529–533                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/74">Details</a>
+                            <a class="button" href="/proceedings/2001/0074.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper75">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/75">Satisficing and Learning Cooperation in the Prisoner s Dilemma</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jeff-l-stimpson/">Jeff L. Stimpson</a>, <a href="https://ijcai.org/authors/michael-a-goodrich/">Michael A. Goodrich</a>, <a href="https://ijcai.org/authors/lawrence-c-walters/">Lawrence C. Walters</a></div>
+            <div class="details">
+                                    Pages 535–543                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/75">Details</a>
+                            <a class="button" href="/proceedings/2001/0075.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper76">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/76">Temporal Decision Trees or the lazy ECU vindicated</a>
+            <div class="authors"><a href="https://ijcai.org/authors/luca-console/">Luca Console</a>, <a href="https://ijcai.org/authors/claudia-picardi/">Claudia Picardi</a>, <a href="https://ijcai.org/authors/daniele-theseider-dupre/">Daniele Theseider Dupré</a></div>
+            <div class="details">
+                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/76">Details</a>
+                            <a class="button" href="/proceedings/2001/0076.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper77">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/77">Model-based Diagnosability and Sensor Placement Application to a Frame 6 Gas Turbine Subsystem</a>
+            <div class="authors"><a href="https://ijcai.org/authors/louise-trave-massuyes/">Louise Travé-Massuyès</a>, <a href="https://ijcai.org/authors/teresa-escobet/">Teresa Escobet</a>, <a href="https://ijcai.org/authors/robert-milne/">Robert Milne</a></div>
+            <div class="details">
+                                    Pages 551–555                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/77">Details</a>
+                            <a class="button" href="/proceedings/2001/0077.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper78">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/78">Distributed Monitoring of Hybrid Systems: A model-directed approach</a>
+            <div class="authors"><a href="https://ijcai.org/authors/feng-zhao/">Feng Zhao</a>, <a href="https://ijcai.org/authors/xenofon-d-koutsoukos/">Xenofon D. Koutsoukos</a>, <a href="https://ijcai.org/authors/horst-w-haussecker/">Horst W. Haussecker</a>, <a href="https://ijcai.org/authors/james-reich/">James Reich</a>, <a href="https://ijcai.org/authors/patrick-cheung/">Patrick Cheung</a>, <a href="https://ijcai.org/authors/claudia-picardi/">Claudia Picardi</a></div>
+            <div class="details">
+                                    Pages 557–563                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/78">Details</a>
+                            <a class="button" href="/proceedings/2001/0078.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper79">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/79">Causal interaction: from a high-level representation to an operational event-based representation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/irene-grosclaude/">Irène Grosclaude</a>, <a href="https://ijcai.org/authors/marie-odile-cordier/">Marie-Odile Cordier</a>, <a href="https://ijcai.org/authors/rene-quiniou/">Rene Quiniou</a></div>
+            <div class="details">
+                                    Pages 565–571                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/79">Details</a>
+                            <a class="button" href="/proceedings/2001/0079.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper80">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/80">Hierarchical Diagnosis Guided by Observations</a>
+            <div class="authors"><a href="https://ijcai.org/authors/luca-chittaro/">Luca Chittaro</a>, <a href="https://ijcai.org/authors/roberto-ranon/">Roberto Ranon</a></div>
+            <div class="details">
+                                    Pages 573–577                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/80">Details</a>
+                            <a class="button" href="/proceedings/2001/0080.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper81">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/81">Mode Estimation of Model-based Programs: Monitoring Systems with Complex Behavior</a>
+            <div class="authors"><a href="https://ijcai.org/authors/brian-c-williams/">Brian C. Williams</a>, <a href="https://ijcai.org/authors/seung-chung/">Seung Chung</a>, <a href="https://ijcai.org/authors/vineet-gupta/">Vineet Gupta</a></div>
+            <div class="details">
+                                    Pages 579–589                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/81">Details</a>
+                            <a class="button" href="/proceedings/2001/0081.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper82">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/82">A-System: Problem Solving through Abduction</a>
+            <div class="authors"><a href="https://ijcai.org/authors/antonis-c-kakas/">Antonis C. Kakas</a>, <a href="https://ijcai.org/authors/bert-van-nuffelen/">Bert Van Nuffelen</a>, <a href="https://ijcai.org/authors/marc-denecker/">Marc Denecker</a></div>
+            <div class="details">
+                                    Pages 591–595                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/82">Details</a>
+                            <a class="button" href="/proceedings/2001/0082.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper83">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/83">A Comparative Study of Logic Programs with Preference</a>
+            <div class="authors"><a href="https://ijcai.org/authors/torsten-schaub/">Torsten Schaub</a>, <a href="https://ijcai.org/authors/kewen-wang/">Kewen Wang</a></div>
+            <div class="details">
+                                    Pages 597–601                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/83">Details</a>
+                            <a class="button" href="/proceedings/2001/0083.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper84">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/84">Reasoning with infinite stable models</a>
+            <div class="authors"><a href="https://ijcai.org/authors/piero-a-bonatti/">Piero A. Bonatti</a></div>
+            <div class="details">
+                                    Pages 603–609                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/84">Details</a>
+                            <a class="button" href="/proceedings/2001/0084.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper85">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/85">Splitting Without Backtracking</a>
+            <div class="authors"><a href="https://ijcai.org/authors/alexandre-riazanov/">Alexandre Riazanov</a>, <a href="https://ijcai.org/authors/andrei-voronkov/">Andrei Voronkov</a></div>
+            <div class="details">
+                                    Pages 611–616                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/85">Details</a>
+                            <a class="button" href="/proceedings/2001/0085.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper86">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/86">UNSEARCHMO: Eliminating Redundant Search Space on Backtracking for Forward Chaining Theorem Proving</a>
+            <div class="authors"><a href="https://ijcai.org/authors/lifeng-he/">Lifeng He</a></div>
+            <div class="details">
+                                    Pages 618–622                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/86">Details</a>
+                            <a class="button" href="/proceedings/2001/0086.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper87">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/87">Theorem Proving with Structured Theories</a>
+            <div class="authors"><a href="https://ijcai.org/authors/sheila-a-mcilraith/">Sheila A. McIlraith</a>, <a href="https://ijcai.org/authors/eyal-amir/">Eyal Amir</a></div>
+            <div class="details">
+                                    Pages 624–633                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/87">Details</a>
+                            <a class="button" href="/proceedings/2001/0087.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper88">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/88">Experimenting with Heuristics for Answer Set Programming</a>
+            <div class="authors"><a href="https://ijcai.org/authors/wolfgang-faber/">Wolfgang Faber</a>, <a href="https://ijcai.org/authors/nicola-leone/">Nicola Leone</a>, <a href="https://ijcai.org/authors/gerald-pfeifer/">Gerald Pfeifer</a></div>
+            <div class="details">
+                                    Pages 635–639                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/88">Details</a>
+                            <a class="button" href="/proceedings/2001/0088.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper89">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/89">Graph Theoretical Characterization and Computation of Answer Sets</a>
+            <div class="authors"><a href="https://ijcai.org/authors/thomas-linke/">Thomas Linke</a></div>
+            <div class="details">
+                                    Pages 641–647                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/89">Details</a>
+                            <a class="button" href="/proceedings/2001/0089.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper90">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/90">A Framework for Declarative Update Specifications in Logic Programs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/thomas-eiter/">Thomas Eiter</a>, <a href="https://ijcai.org/authors/michael-fink/">Michael Fink</a>, <a href="https://ijcai.org/authors/giuliana-sabbatini/">Giuliana Sabbatini</a>, <a href="https://ijcai.org/authors/hans-tompits/">Hans Tompits</a></div>
+            <div class="details">
+                                    Pages 649–653                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/90">Details</a>
+                            <a class="button" href="/proceedings/2001/0090.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper91">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/91">Abduction in Logic Programming: A New Definition and an Abductive Procedure Based on Rewriting</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fangzhen-lin/">Fangzhen Lin</a>, <a href="https://ijcai.org/authors/jia-huai-you/">Jia-Huai You</a></div>
+            <div class="details">
+                                    Pages 655–665                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/91">Details</a>
+                            <a class="button" href="/proceedings/2001/0091.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper92">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/92">Context-specific Sign-propagation in Qualitative Probabilistic Networks</a>
+            <div class="authors"><a href="https://ijcai.org/authors/silja-renooij/">Silja Renooij</a>, <a href="https://ijcai.org/authors/simon-parsons/">Simon Parsons</a>, <a href="https://ijcai.org/authors/linda-c-van-der-gaag/">Linda C. van der Gaag</a></div>
+            <div class="details">
+                                    Pages 667–671                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/92">Details</a>
+                            <a class="button" href="/proceedings/2001/0092.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper93">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/93">Max-norm Projections for Factored MDPs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/carlos-guestrin/">Carlos Guestrin</a>, <a href="https://ijcai.org/authors/daphne-koller/">Daphne Koller</a>, <a href="https://ijcai.org/authors/ronald-parr/">Ronald Parr</a></div>
+            <div class="details">
+                                    Pages 673–681                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/93">Details</a>
+                            <a class="button" href="/proceedings/2001/0093.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper94">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/94">Solving Factored MDPs via Non-Homogeneous Partitioning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/kee-eung-kim/">Kee-Eung Kim</a>, <a href="https://ijcai.org/authors/thomas-l-dean/">Thomas L. Dean</a></div>
+            <div class="details">
+                                    Pages 683–688                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/94">Details</a>
+                            <a class="button" href="/proceedings/2001/0094.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper95">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/95">Symbolic Dynamic Programming for First-Order MDPs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/craig-boutilier/">Craig Boutilier</a>, <a href="https://ijcai.org/authors/raymond-reiter/">Raymond Reiter</a>, <a href="https://ijcai.org/authors/bob-price/">Bob Price</a></div>
+            <div class="details">
+                                    Pages 690–699                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/95">Details</a>
+                            <a class="button" href="/proceedings/2001/0095.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper96">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/96">Adaptive Control of Acyclic Progressive Processing Task Structures</a>
+            <div class="authors"><a href="https://ijcai.org/authors/stephane-cardon/">Stéphane Cardon</a>, <a href="https://ijcai.org/authors/abdel-illah-mouaddib/">Abdel-Illah Mouaddib</a>, <a href="https://ijcai.org/authors/shlomo-zilberstein/">Shlomo Zilberstein</a>, <a href="https://ijcai.org/authors/richard-washington/">Richard Washington</a></div>
+            <div class="details">
+                                    Pages 701–705                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/96">Details</a>
+                            <a class="button" href="/proceedings/2001/0096.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper97">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/97">An Improved Grid-Based Approximation Algorithm for POMDPs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/rong-zhou/">Rong Zhou</a>, <a href="https://ijcai.org/authors/eric-a-hansen/">Eric A. Hansen</a></div>
+            <div class="details">
+                                    Pages 707–715                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/97">Details</a>
+                            <a class="button" href="/proceedings/2001/0097.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper98">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/98">Weakening Commensurability Hypothesis in Possibilistic Qualitative Decision Theory</a>
+            <div class="authors"><a href="https://ijcai.org/authors/adriana-zapico/">Adriana Zapico</a></div>
+            <div class="details">
+                                    Pages 717–721                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/98">Details</a>
+                            <a class="button" href="/proceedings/2001/0098.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper99">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/99">A Fuzzy Modal Logic for Belief Functions</a>
+            <div class="authors"><a href="https://ijcai.org/authors/lluis-godo/">Lluís Godo</a>, <a href="https://ijcai.org/authors/petr-hajek/">Petr Hájek</a>, <a href="https://ijcai.org/authors/francesc-esteva/">Francesc Esteva</a></div>
+            <div class="details">
+                                    Pages 723–731                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/99">Details</a>
+                            <a class="button" href="/proceedings/2001/0099.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper100">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/100">IBAL: A Probabilistic Rational Programming Language</a>
+            <div class="authors"><a href="https://ijcai.org/authors/avi-pfeffer/">Avi Pfeffer</a></div>
+            <div class="details">
+                                    Pages 733–739                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/100">Details</a>
+                            <a class="button" href="/proceedings/2001/0100.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper101">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/101">Approximate inference for first-order probabilistic languages</a>
+            <div class="authors"><a href="https://ijcai.org/authors/hanna-pasula/">Hanna Pasula</a>, <a href="https://ijcai.org/authors/stuart-j-russell/">Stuart J. Russell</a></div>
+            <div class="details">
+                                    Pages 741–747                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/101">Details</a>
+                            <a class="button" href="/proceedings/2001/0101.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper102">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/102">Knowledge Processing under Information Fidelity</a>
+            <div class="authors"><a href="https://ijcai.org/authors/wilhelm-rodder/">Wilhelm Rödder</a></div>
+            <div class="details">
+                                    Pages 749–753                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/102">Details</a>
+                            <a class="button" href="/proceedings/2001/0102.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper103">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/103">Constraints as Data: A New Perspective on Inferring Probabilities</a>
+            <div class="authors"><a href="https://ijcai.org/authors/manfred-jaeger/">Manfred Jaeger</a></div>
+            <div class="details">
+                                    Pages 755–763                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/103">Details</a>
+                            <a class="button" href="/proceedings/2001/0103.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper104">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/104">Knowledge Extraction from Local Function Networks</a>
+            <div class="authors"><a href="https://ijcai.org/authors/kenneth-mcgarry/">Kenneth McGarry</a>, <a href="https://ijcai.org/authors/stefan-wermter/">Stefan Wermter</a>, <a href="https://ijcai.org/authors/john-macintyre/">John MacIntyre</a></div>
+            <div class="details">
+                                    Pages 765–769                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/104">Details</a>
+                            <a class="button" href="/proceedings/2001/0104.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper105">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/105">Violation-Guided Learning for Constrained Formulations in Neural-Network Time-Series Predictions</a>
+            <div class="authors"><a href="https://ijcai.org/authors/benjamin-w-wah/">Benjamin W. Wah</a>, <a href="https://ijcai.org/authors/minglun-qian/">Minglun Qian</a></div>
+            <div class="details">
+                                    Pages 771–775                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/105">Details</a>
+                            <a class="button" href="/proceedings/2001/0105.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper106">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/106">Mobile Robot Learning of Delayed Response Tasks through Event Extraction: A Solution to the Road Sign Problem and Beyond</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fredrik-linaker/">Fredrik Linåker</a>, <a href="https://ijcai.org/authors/henrik-jacobsson/">Henrik Jacobsson</a></div>
+            <div class="details">
+                                    Pages 777–781                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/106">Details</a>
+                            <a class="button" href="/proceedings/2001/0106.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper107">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/107">NORN Finance Forecaster - A Neural Oscillatory-based Recurrent Network for Finance Prediction</a>
+            <div class="authors"><a href="https://ijcai.org/authors/raymond-s-t-lee/">Raymond S. T. Lee</a>, <a href="https://ijcai.org/authors/james-n-k-liu/">James N. K. Liu</a></div>
+            <div class="details">
+                                    Pages 783–787                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/107">Details</a>
+                            <a class="button" href="/proceedings/2001/0107.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper108">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/108">A General Updating Rule for Discrete Hopfield-Type Neural Network with Delay</a>
+            <div class="authors"><a href="https://ijcai.org/authors/shenshan-qiu/">Shenshan Qiu</a>, <a href="https://ijcai.org/authors/eric-c-c-tsang/">Eric C. C. Tsang</a>, <a href="https://ijcai.org/authors/daniel-s-yeung/">Daniel S. Yeung</a>, <a href="https://ijcai.org/authors/xizhao-wang/">Xizhao Wang</a></div>
+            <div class="details">
+                                    Pages 789–795                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/108">Details</a>
+                            <a class="button" href="/proceedings/2001/0108.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper109">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/109">Genetic Algorithm based Selective Neural Network Ensemble</a>
+            <div class="authors"><a href="https://ijcai.org/authors/zhi-hua-zhou/">Zhi-Hua Zhou</a>, <a href="https://ijcai.org/authors/jianxin-wu/">Jianxin Wu</a>, <a href="https://ijcai.org/authors/yuan-jiang/">Yuan Jiang</a>, <a href="https://ijcai.org/authors/shifu-chen/">Shifu Chen</a></div>
+            <div class="details">
+                                    Pages 797–801                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/109">Details</a>
+                            <a class="button" href="/proceedings/2001/0109.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper110">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/110">Neural Logic Network Learning using Genetic Programming</a>
+            <div class="authors"><a href="https://ijcai.org/authors/chew-lim-tan/">Chew Lim Tan</a>, <a href="https://ijcai.org/authors/henry-wai-kit-chia/">Henry Wai Kit Chia</a></div>
+            <div class="details">
+                                    Pages 803–807                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/110">Details</a>
+                            <a class="button" href="/proceedings/2001/0110.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper111">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/111">Sensitivity Analysis of Multilayer Perceptron</a>
+            <div class="authors"><a href="https://ijcai.org/authors/daniel-s-yeung/">Daniel S. Yeung</a>, <a href="https://ijcai.org/authors/xuequan-sun/">Xuequan Sun</a>, <a href="https://ijcai.org/authors/xiaoqin-zeng/">Xiaoqin Zeng</a></div>
+            <div class="details">
+                                    Pages 809–817                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/111">Details</a>
+                            <a class="button" href="/proceedings/2001/0111.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper112">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/112">Reinforcement Learning in Distributed Domains: Beyond Team Games</a>
+            <div class="authors"><a href="https://ijcai.org/authors/david-h-wolpert/">David H. Wolpert</a>, <a href="https://ijcai.org/authors/joseph-sill/">Joseph Sill</a>, <a href="https://ijcai.org/authors/kagan-tumer/">Kagan Tumer</a></div>
+            <div class="details">
+                                    Pages 819–823                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/112">Details</a>
+                            <a class="button" href="/proceedings/2001/0112.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper113">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/113">Fast Concurrent Reinforcement Learners</a>
+            <div class="authors"><a href="https://ijcai.org/authors/bikramjit-banerjee/">Bikramjit Banerjee</a>, <a href="https://ijcai.org/authors/sandip-sen/">Sandip Sen</a>, <a href="https://ijcai.org/authors/jing-peng/">Jing Peng</a></div>
+            <div class="details">
+                                    Pages 825–831                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/113">Details</a>
+                            <a class="button" href="/proceedings/2001/0113.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper114">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/114">Multi-Agent Systems by Incremental Gradient Reinforcement Learning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/alain-dutech/">Alain Dutech</a>, <a href="https://ijcai.org/authors/olivier-buffet/">Olivier Buffet</a>, <a href="https://ijcai.org/authors/francois-charpillet/">François Charpillet</a></div>
+            <div class="details">
+                                    Pages 833–837                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/114">Details</a>
+                            <a class="button" href="/proceedings/2001/0114.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper115">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/115">Robot Weightlifting By Direct Policy Search</a>
+            <div class="authors"><a href="https://ijcai.org/authors/michael-t-rosenstein/">Michael T. Rosenstein</a>, <a href="https://ijcai.org/authors/andrew-g-barto/">Andrew G. Barto</a></div>
+            <div class="details">
+                                    Pages 839–845                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/115">Details</a>
+                            <a class="button" href="/proceedings/2001/0115.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper116">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/116">OI-implication: Soundness and Refutation Completeness</a>
+            <div class="authors"><a href="https://ijcai.org/authors/floriana-esposito/">Floriana Esposito</a>, <a href="https://ijcai.org/authors/nicola-fanizzi/">Nicola Fanizzi</a>, <a href="https://ijcai.org/authors/stefano-ferilli/">Stefano Ferilli</a>, <a href="https://ijcai.org/authors/giovanni-semeraro/">Giovanni Semeraro</a></div>
+            <div class="details">
+                                    Pages 847–851                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/116">Details</a>
+                            <a class="button" href="/proceedings/2001/0116.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper117">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/117">The Levelwise Version Space Algorithm and its Application to Molecular Fragment Finding</a>
+            <div class="authors"><a href="https://ijcai.org/authors/luc-de-raedt/">Luc De Raedt</a>, <a href="https://ijcai.org/authors/stefan-kramer/">Stefan Kramer</a></div>
+            <div class="details">
+                                    Pages 853–861                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/117">Details</a>
+                            <a class="button" href="/proceedings/2001/0117.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper118">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/118">Active Learning for Structure in Bayesian Networks</a>
+            <div class="authors"><a href="https://ijcai.org/authors/simon-tong/">Simon Tong</a>, <a href="https://ijcai.org/authors/daphne-koller/">Daphne Koller</a></div>
+            <div class="details">
+                                    Pages 863–868                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/118">Details</a>
+                            <a class="button" href="/proceedings/2001/0118.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper119">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/119">Probabilistic Classification and Clustering in Relational Data</a>
+            <div class="authors"><a href="https://ijcai.org/authors/benjamin-taskar/">Benjamin Taskar</a>, <a href="https://ijcai.org/authors/eran-segal/">Eran Segal</a>, <a href="https://ijcai.org/authors/daphne-koller/">Daphne Koller</a></div>
+            <div class="details">
+                                    Pages 870–877                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/119">Details</a>
+                            <a class="button" href="/proceedings/2001/0119.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper120">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/120">Adaptive Web Navigation for Wireless Devices</a>
+            <div class="authors"><a href="https://ijcai.org/authors/corin-r-anderson/">Corin R. Anderson</a>, <a href="https://ijcai.org/authors/pedro-m-domingos/">Pedro M. Domingos</a>, <a href="https://ijcai.org/authors/daniel-s-weld/">Daniel S. Weld</a></div>
+            <div class="details">
+                                    Pages 879–883                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/120">Details</a>
+                            <a class="button" href="/proceedings/2001/0120.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper121">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/121">Using Text Classifiers for Numerical Classification</a>
+            <div class="authors"><a href="https://ijcai.org/authors/sofus-a-macskassy/">Sofus A. Macskassy</a>, <a href="https://ijcai.org/authors/haym-hirsh/">Haym Hirsh</a>, <a href="https://ijcai.org/authors/arunava-banerjee/">Arunava Banerjee</a>, <a href="https://ijcai.org/authors/aynur-a-dayanik/">Aynur A. Dayanik</a></div>
+            <div class="details">
+                                    Pages 885–889                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/121">Details</a>
+                            <a class="button" href="/proceedings/2001/0121.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper122">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/122">Faster Association Rules for Multiple Relations</a>
+            <div class="authors"><a href="https://ijcai.org/authors/siegfried-nijssen/">Siegfried Nijssen</a>, <a href="https://ijcai.org/authors/joost-n-kok/">Joost N. Kok</a></div>
+            <div class="details">
+                                    Pages 891–895                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/122">Details</a>
+                            <a class="button" href="/proceedings/2001/0122.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper123">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/123">A Simple Feature Selection Method for Text Classification</a>
+            <div class="authors"><a href="https://ijcai.org/authors/pascal-soucy/">Pascal Soucy</a>, <a href="https://ijcai.org/authors/guy-w-mineau/">Guy W. Mineau</a></div>
+            <div class="details">
+                                    Pages 897–901                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/123">Details</a>
+                            <a class="button" href="/proceedings/2001/0123.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper124">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/124">Link Analysis, Eigenvectors and Stability</a>
+            <div class="authors"><a href="https://ijcai.org/authors/andrew-y-ng/">Andrew Y. Ng</a>, <a href="https://ijcai.org/authors/alice-x-zheng/">Alice X. Zheng</a>, <a href="https://ijcai.org/authors/michael-i-jordan/">Michael I. Jordan</a></div>
+            <div class="details">
+                                    Pages 903–909                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/124">Details</a>
+                            <a class="button" href="/proceedings/2001/0124.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper125">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/125">Active Learning for Class Probability Estimation and Ranking</a>
+            <div class="authors"><a href="https://ijcai.org/authors/maytal-saar-tsechansky/">Maytal Saar-Tsechansky</a>, <a href="https://ijcai.org/authors/foster-j-provost/">Foster J. Provost</a></div>
+            <div class="details">
+                                    Pages 911–919                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/125">Details</a>
+                            <a class="button" href="/proceedings/2001/0125.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper126">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/126">Learning on the Phase Transition Edge</a>
+            <div class="authors"><a href="https://ijcai.org/authors/alessandro-serra/">Alessandro Serra</a>, <a href="https://ijcai.org/authors/attilio-giordana/">Attilio Giordana</a>, <a href="https://ijcai.org/authors/lorenza-saitta/">Lorenza Saitta</a></div>
+            <div class="details">
+                                    Pages 921–925                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/126">Details</a>
+                            <a class="button" href="/proceedings/2001/0126.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper127">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/127">A Simple Additive Re-weighting Strategy for Improving Margins</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fabio-aiolli/">Fabio Aiolli</a>, <a href="https://ijcai.org/authors/alessandro-sperduti/">Alessandro Sperduti</a></div>
+            <div class="details">
+                                    Pages 927–933                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/127">Details</a>
+                            <a class="button" href="/proceedings/2001/0127.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper128">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/128">Knowledge Analysis on Process Models</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jihie-kim/">Jihie Kim</a>, <a href="https://ijcai.org/authors/yolanda-gil/">Yolanda Gil</a></div>
+            <div class="details">
+                                    Pages 935–941                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/128">Details</a>
+                            <a class="button" href="/proceedings/2001/0128.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper129">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/129">Integrating Expectations from Different Sources to Help End Users Acquire Procedural Knowledge</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jim-blythe/">Jim Blythe</a></div>
+            <div class="details">
+                                    Pages 943–951                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/129">Details</a>
+                            <a class="button" href="/proceedings/2001/0129.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper130">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/130">R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/ronen-i-brafman/">Ronen I. Brafman</a>, <a href="https://ijcai.org/authors/moshe-tennenholtz/">Moshe Tennenholtz</a></div>
+            <div class="details">
+                                    Pages 953–957                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/130">Details</a>
+                            <a class="button" href="/proceedings/2001/0130.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper131">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/131">From Q(lambda) to Average Q-learning: Efficient Implementation of an Asymptotic Approximation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/frederick-garcia/">Frédérick Garçia</a>, <a href="https://ijcai.org/authors/florent-serre/">Florent Serre</a></div>
+            <div class="details">
+                                    Pages 959–963                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/131">Details</a>
+                            <a class="button" href="/proceedings/2001/0131.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper132">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/132">Exploiting Multiple Secondary Reinforcers in Policy Gradient Reinforcement Learning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/gregory-z-grudic/">Gregory Z. Grudic</a>, <a href="https://ijcai.org/authors/lyle-h-ungar/">Lyle H. Ungar</a></div>
+            <div class="details">
+                                    Pages 965–971                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/132">Details</a>
+                            <a class="button" href="/proceedings/2001/0132.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper133">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/133">The Foundations of Cost-Sensitive Learning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/charles-elkan/">Charles Elkan</a></div>
+            <div class="details">
+                                    Pages 973–977                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/133">Details</a>
+                            <a class="button" href="/proceedings/2001/0133.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper134">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/134">Mining Soft-Matching Rules from Textual Data</a>
+            <div class="authors"><a href="https://ijcai.org/authors/un-yong-nahm/">Un Yong Nahm</a>, <a href="https://ijcai.org/authors/raymond-j-mooney/">Raymond J. Mooney</a></div>
+            <div class="details">
+                                    Pages 979–985                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/134">Details</a>
+                            <a class="button" href="/proceedings/2001/0134.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper135">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/135">Minimizing Dialog Length in Interactive Case-Based Reasoning</a>
+            <div class="authors"><a href="https://ijcai.org/authors/david-mcsherry/">David McSherry</a></div>
+            <div class="details">
+                                    Pages 993–997                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/135">Details</a>
+                            <a class="button" href="/proceedings/2001/0135.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper136">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/136">A Distributed Case-Based Query Rewriting</a>
+            <div class="authors"><a href="https://ijcai.org/authors/maurizio-panti/">Maurizio Panti</a>, <a href="https://ijcai.org/authors/luca-spalazzi/">Luca Spalazzi</a>, <a href="https://ijcai.org/authors/loris-penserini/">Loris Penserini</a></div>
+            <div class="details">
+                                    Pages 1005–1009                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/136">Details</a>
+                            <a class="button" href="/proceedings/2001/0136.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper137">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/137">Using Case-Base Data to Learn Adaptation Knowledge for Design</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jacek-jarmulak/">Jacek Jarmulak</a>, <a href="https://ijcai.org/authors/susan-craw/">Susan Craw</a>, <a href="https://ijcai.org/authors/ray-rowe/">Ray Rowe</a></div>
+            <div class="details">
+                                    Pages 1011–1019                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/137">Details</a>
+                            <a class="button" href="/proceedings/2001/0137.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper138">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/138">Rational and Convergent Learning in Stochastic Games</a>
+            <div class="authors"><a href="https://ijcai.org/authors/michael-h-bowling/">Michael H. Bowling</a>, <a href="https://ijcai.org/authors/manuela-m-veloso/">Manuela M. Veloso</a></div>
+            <div class="details">
+                                    Pages 1021–1025                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/138">Details</a>
+                            <a class="button" href="/proceedings/2001/0138.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper139">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/139">Multi-Agent Influence Diagrams for Representing and Solving Games</a>
+            <div class="authors"><a href="https://ijcai.org/authors/daphne-koller/">Daphne Koller</a>, <a href="https://ijcai.org/authors/brian-milch/">Brian Milch</a></div>
+            <div class="details">
+                                    Pages 1027–1035                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/139">Details</a>
+                            <a class="button" href="/proceedings/2001/0139.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper140">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/140">Multiagent Coordination by Stochastic Cellular Automata</a>
+            <div class="authors"><a href="https://ijcai.org/authors/tim-d-barfoot/">Tim D. Barfoot</a>, <a href="https://ijcai.org/authors/gabriele-m-t-d-apos-eleuterio/">Gabriele M. T. D&amp;apos;Eleuterio</a></div>
+            <div class="details">
+                                    Pages 1037–1041                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/140">Details</a>
+                            <a class="button" href="/proceedings/2001/0140.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper141">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/141">A Layered Brain Architecture for Synthetic Creatures</a>
+            <div class="authors"><a href="https://ijcai.org/authors/damian-a-isla/">Damian A. Isla</a>, <a href="https://ijcai.org/authors/robert-c-burke/">Robert C. Burke</a>, <a href="https://ijcai.org/authors/marc-downie/">Marc Downie</a>, <a href="https://ijcai.org/authors/bruce-blumberg/">Bruce Blumberg</a></div>
+            <div class="details">
+                                    Pages 1051–1057                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/141">Details</a>
+                            <a class="button" href="/proceedings/2001/0141.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper142">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/142">Behavior Planning for a Reflexive Agent</a>
+            <div class="authors"><a href="https://ijcai.org/authors/berardina-de-carolis/">Berardina De Carolis</a>, <a href="https://ijcai.org/authors/catherine-pelachaud/">Catherine Pelachaud</a>, <a href="https://ijcai.org/authors/isabella-poggi/">Isabella Poggi</a>, <a href="https://ijcai.org/authors/fiorella-de-rosis/">Fiorella de Rosis</a></div>
+            <div class="details">
+                                    Pages 1059–1065                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/142">Details</a>
+                            <a class="button" href="/proceedings/2001/0142.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper143">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/143">Learning Procedural Knowledge to Better Coordinate</a>
+            <div class="authors"><a href="https://ijcai.org/authors/andrew-garland/">Andrew Garland</a>, <a href="https://ijcai.org/authors/richard-alterman/">Richard Alterman</a></div>
+            <div class="details">
+                                    Pages 1073–1082                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/143">Details</a>
+                            <a class="button" href="/proceedings/2001/0143.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper144">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/144">Robust Multi-unit Auction Protocol against False-name Bids</a>
+            <div class="authors"><a href="https://ijcai.org/authors/makoto-yokoo/">Makoto Yokoo</a>, <a href="https://ijcai.org/authors/yuko-sakurai/">Yuko Sakurai</a>, <a href="https://ijcai.org/authors/shigeo-matsubara/">Shigeo Matsubara</a></div>
+            <div class="details">
+                                    Pages 1089–1093                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/144">Details</a>
+                            <a class="button" href="/proceedings/2001/0144.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper145">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/145">Bundle Design in Robust Combinatorial Auction Protocol against False-name Bids</a>
+            <div class="authors"><a href="https://ijcai.org/authors/makoto-yokoo/">Makoto Yokoo</a>, <a href="https://ijcai.org/authors/yuko-sakurai/">Yuko Sakurai</a>, <a href="https://ijcai.org/authors/shigeo-matsubara/">Shigeo Matsubara</a></div>
+            <div class="details">
+                                    Pages 1095–1100                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/145">Details</a>
+                            <a class="button" href="/proceedings/2001/0145.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper146">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/146">CABOB: A Fast Optimal Algorithm for Combinatorial Auctions</a>
+            <div class="authors"><a href="https://ijcai.org/authors/tuomas-sandholm/">Tuomas Sandholm</a>, <a href="https://ijcai.org/authors/subhash-suri/">Subhash Suri</a>, <a href="https://ijcai.org/authors/andrew-gilpin/">Andrew Gilpin</a>, <a href="https://ijcai.org/authors/david-levine/">David Levine</a></div>
+            <div class="details">
+                                    Pages 1102–1107                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/146">Details</a>
+                            <a class="button" href="/proceedings/2001/0146.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper147">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/147">A software architecture for dynamically generated adaptive Web stores</a>
+            <div class="authors"><a href="https://ijcai.org/authors/liliana-ardissono/">Liliana Ardissono</a>, <a href="https://ijcai.org/authors/anna-goy/">Anna Goy</a>, <a href="https://ijcai.org/authors/giovanna-petrone/">Giovanna Petrone</a>, <a href="https://ijcai.org/authors/marino-segnan/">Marino Segnan</a></div>
+            <div class="details">
+                                    Pages 1109–1113                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/147">Details</a>
+                            <a class="button" href="/proceedings/2001/0147.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper148">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/148">Modularity and Design in Reactive Intelligence</a>
+            <div class="authors"><a href="https://ijcai.org/authors/joanna-bryson/">Joanna Bryson</a>, <a href="https://ijcai.org/authors/lynn-andrea-stein/">Lynn Andrea Stein</a></div>
+            <div class="details">
+                                    Pages 1115–1119                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/148">Details</a>
+                            <a class="button" href="/proceedings/2001/0148.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper149">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/149">Reflective Negotiating Agents for Real-Time Multisensor Target Tracking</a>
+            <div class="authors"><a href="https://ijcai.org/authors/leen-kiat-soh/">Leen-Kiat Soh</a>, <a href="https://ijcai.org/authors/costas-tsatsoulis/">Costas Tsatsoulis</a></div>
+            <div class="details">
+                                    Pages 1121–1126                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/149">Details</a>
+                            <a class="button" href="/proceedings/2001/0149.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper150">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/150">Stable Strategies for Sharing Information among Agents</a>
+            <div class="authors"><a href="https://ijcai.org/authors/rina-azoulay-schwartz/">Rina Azoulay-Schwartz</a>, <a href="https://ijcai.org/authors/sarit-kraus/">Sarit Kraus</a></div>
+            <div class="details">
+                                    Pages 1128–1133                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/150">Details</a>
+                            <a class="button" href="/proceedings/2001/0150.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper151">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/151">CAST: Collaborative Agents for Simulating Teamwork</a>
+            <div class="authors"><a href="https://ijcai.org/authors/john-yen/">John Yen</a>, <a href="https://ijcai.org/authors/jianwen-yin/">Jianwen Yin</a>, <a href="https://ijcai.org/authors/thomas-r-ioerger/">Thomas R. Ioerger</a>, <a href="https://ijcai.org/authors/michael-s-miller/">Michael S. Miller</a>, <a href="https://ijcai.org/authors/dianxiang-xu/">Dianxiang Xu</a>, <a href="https://ijcai.org/authors/richard-a-volz/">Richard A. Volz</a></div>
+            <div class="details">
+                                    Pages 1135–1143                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/151">Details</a>
+                            <a class="button" href="/proceedings/2001/0151.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper152">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/152">Market Clearability</a>
+            <div class="authors"><a href="https://ijcai.org/authors/tuomas-sandholm/">Tuomas Sandholm</a>, <a href="https://ijcai.org/authors/subhash-suri/">Subhash Suri</a></div>
+            <div class="details">
+                                    Pages 1145–1150                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/152">Details</a>
+                            <a class="button" href="/proceedings/2001/0152.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper153">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/153">On Market-Inspired Approaches to Propositional Satisfiability</a>
+            <div class="authors"><a href="https://ijcai.org/authors/william-e-walsh/">William E. Walsh</a>, <a href="https://ijcai.org/authors/makoto-yokoo/">Makoto Yokoo</a>, <a href="https://ijcai.org/authors/katsutoshi-hirayama/">Katsutoshi Hirayama</a>, <a href="https://ijcai.org/authors/michael-p-wellman/">Michael P. Wellman</a></div>
+            <div class="details">
+                                    Pages 1152–1159                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/153">Details</a>
+                            <a class="button" href="/proceedings/2001/0153.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper154">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/154">Achieving Budget-Balance with Vickrey-Based Payment Schemes in Exchanges</a>
+            <div class="authors"><a href="https://ijcai.org/authors/david-c-parkes/">David C. Parkes</a>, <a href="https://ijcai.org/authors/jayant-kalagnanam/">Jayant Kalagnanam</a>, <a href="https://ijcai.org/authors/marta-eso/">Marta Eso</a></div>
+            <div class="details">
+                                    Pages 1161–1167                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/154">Details</a>
+                            <a class="button" href="/proceedings/2001/0154.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper155">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/155">Agent-Human Interactions in the Continuous Double Auction</a>
+            <div class="authors"><a href="https://ijcai.org/authors/rajarshi-das/">Rajarshi Das</a>, <a href="https://ijcai.org/authors/james-e-hanson/">James E. Hanson</a>, <a href="https://ijcai.org/authors/jeffrey-o-kephart/">Jeffrey O. Kephart</a>, <a href="https://ijcai.org/authors/gerald-tesauro/">Gerald Tesauro</a></div>
+            <div class="details">
+                                    Pages 1169–1186                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/155">Details</a>
+                            <a class="button" href="/proceedings/2001/0155.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper156">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/156">Usability Guidelines for Interactive Search in Direct Manipulation Systems</a>
+            <div class="authors"><a href="https://ijcai.org/authors/robert-st-amant/">Robert St. Amant</a>, <a href="https://ijcai.org/authors/christopher-g-healey/">Christopher G. Healey</a></div>
+            <div class="details">
+                                    Pages 1179–1183                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/156">Details</a>
+                            <a class="button" href="/proceedings/2001/0156.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper157">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/157">Leveraging Data About Users in General in the Learning of Individual User Models</a>
+            <div class="authors"><a href="https://ijcai.org/authors/anthony-jameson/">Anthony Jameson</a>, <a href="https://ijcai.org/authors/frank-wittig/">Frank Wittig</a></div>
+            <div class="details">
+                                    Pages 1185–1193                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/157">Details</a>
+                            <a class="button" href="/proceedings/2001/0157.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper158">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/158">An Agent Architecture for Multi-Attribute Negotiation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/catholijn-m-jonker/">Catholijn M. Jonker</a>, <a href="https://ijcai.org/authors/jan-treur/">Jan Treur</a></div>
+            <div class="details">
+                                    Pages 1195–1200                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/158">Details</a>
+                            <a class="button" href="/proceedings/2001/0158.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper159">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/159">A Multiagent System for Helping Urban Traffic Management</a>
+            <div class="authors"><a href="https://ijcai.org/authors/luis-a-garcia/">Luis A. García</a>, <a href="https://ijcai.org/authors/francisco-toledo/">Francisco Toledo</a></div>
+            <div class="details">
+                                    Pages 1202–1209                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/159">Details</a>
+                            <a class="button" href="/proceedings/2001/0159.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper160">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/160">Bidding Languages for Combinatorial Auctions</a>
+            <div class="authors"><a href="https://ijcai.org/authors/craig-boutilier/">Craig Boutilier</a>, <a href="https://ijcai.org/authors/holger-h-hoos/">Holger H. Hoos</a></div>
+            <div class="details">
+                                    Pages 1211–1216                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/160">Details</a>
+                            <a class="button" href="/proceedings/2001/0160.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper161">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/161">Partitioning Activities for Agents</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fatma-ozcan/">Fatma Ozcan</a>, <a href="https://ijcai.org/authors/v-s-subrahmanian/">V. S. Subrahmanian</a></div>
+            <div class="details">
+                                    Pages 1218–1227                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/161">Details</a>
+                            <a class="button" href="/proceedings/2001/0161.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper162">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/162">Title Generation for Machine-Translated Documents</a>
+            <div class="authors"><a href="https://ijcai.org/authors/rong-jin/">Rong Jin</a>, <a href="https://ijcai.org/authors/alexander-g-hauptmann/">Alexander G. Hauptmann</a></div>
+            <div class="details">
+                                    Pages 1229–1233                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/162">Details</a>
+                            <a class="button" href="/proceedings/2001/0162.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper163">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/163">Dealing with Dependencies between Content Planning and Surface Realisation in a Pipeline Generation Architecture</a>
+            <div class="authors"><a href="https://ijcai.org/authors/kalina-bontcheva/">Kalina Bontcheva</a>, <a href="https://ijcai.org/authors/yorick-wilks/">Yorick Wilks</a></div>
+            <div class="details">
+                                    Pages 1235–1239                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/163">Details</a>
+                            <a class="button" href="/proceedings/2001/0163.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper164">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/164">Narrative Prose Generation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/charles-b-callaway/">Charles B. Callaway</a>, <a href="https://ijcai.org/authors/james-c-lester/">James C. Lester</a></div>
+            <div class="details">
+                                    Pages 1241–1249                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/164">Details</a>
+                            <a class="button" href="/proceedings/2001/0164.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper165">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/165">Adaptive Information Extraction from Text by Rule Induction and Generalisation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fabio-ciravegna/">Fabio Ciravegna</a></div>
+            <div class="details">
+                                    Pages 1251–1255                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/165">Details</a>
+                            <a class="button" href="/proceedings/2001/0165.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper166">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/166">Relational Learning via Propositional Algorithms: An Information Extraction Case Study</a>
+            <div class="authors"><a href="https://ijcai.org/authors/dan-roth/">Dan Roth</a>, <a href="https://ijcai.org/authors/wen-tau-yih/">Wen-tau Yih</a></div>
+            <div class="details">
+                                    Pages 1257–1262                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/166">Details</a>
+                            <a class="button" href="/proceedings/2001/0166.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper167">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/167">Representing Sentence Structure in Hidden Markov Models for Information Extraction</a>
+            <div class="authors"><a href="https://ijcai.org/authors/soumya-ray/">Soumya Ray</a>, <a href="https://ijcai.org/authors/mark-craven/">Mark Craven</a></div>
+            <div class="details">
+                                    Pages 1273–1278                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/167">Details</a>
+                            <a class="button" href="/proceedings/2001/0167.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper168">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/168">Sequentially finding the N-Best List in Hidden Markov Models</a>
+            <div class="authors"><a href="https://ijcai.org/authors/dennis-nilsson/">Dennis Nilsson</a>, <a href="https://ijcai.org/authors/jacob-goldberger/">Jacob Goldberger</a></div>
+            <div class="details">
+                                    Pages 1280–1284                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/168">Details</a>
+                            <a class="button" href="/proceedings/2001/0168.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper169">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/169">NLP-driven IR: Evaluating Performances over a Text Classification task</a>
+            <div class="authors"><a href="https://ijcai.org/authors/roberto-basili/">Roberto Basili</a>, <a href="https://ijcai.org/authors/alessandro-moschitti/">Alessandro Moschitti</a>, <a href="https://ijcai.org/authors/maria-teresa-pazienza/">Maria Teresa Pazienza</a></div>
+            <div class="details">
+                                    Pages 1286–1293                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/169">Details</a>
+                            <a class="button" href="/proceedings/2001/0169.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper170">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/170">Dialog-driven Adaptation of Explanations of Proofs</a>
+            <div class="authors"><a href="https://ijcai.org/authors/armin-fiedler/">Armin Fiedler</a></div>
+            <div class="details">
+                                    Pages 1295–1299                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/170">Details</a>
+                            <a class="button" href="/proceedings/2001/0170.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper171">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/171">Generating Tailored Examples to Support Learning via Self-explanation</a>
+            <div class="authors"><a href="https://ijcai.org/authors/cristina-conati/">Cristina Conati</a>, <a href="https://ijcai.org/authors/giuseppe-carenini/">Giuseppe Carenini</a></div>
+            <div class="details">
+                                    Pages 1301–1305                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/171">Details</a>
+                            <a class="button" href="/proceedings/2001/0171.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper172">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/172">An Empirical Study of the Influence of User Tailoring on Evaluative Argument Effectiveness</a>
+            <div class="authors"><a href="https://ijcai.org/authors/giuseppe-carenini/">Giuseppe Carenini</a>, <a href="https://ijcai.org/authors/johanna-d-moore/">Johanna D. Moore</a></div>
+            <div class="details">
+                                    Pages 1307–1313                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/172">Details</a>
+                            <a class="button" href="/proceedings/2001/0172.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper173">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/173">Refining the Structure of a Stochastic Context-Free Grammar</a>
+            <div class="authors"><a href="https://ijcai.org/authors/joseph-bockhorst/">Joseph Bockhorst</a>, <a href="https://ijcai.org/authors/mark-craven/">Mark Craven</a></div>
+            <div class="details">
+                                    Pages 1315–1321                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/173">Details</a>
+                            <a class="button" href="/proceedings/2001/0173.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper174">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/174">Automatically Extracting and Comparing Lexicalized Grammars for Different Languages</a>
+            <div class="authors"><a href="https://ijcai.org/authors/fei-xia/">Fei Xia</a>, <a href="https://ijcai.org/authors/chung-hye-han/">Chung-hye Han</a>, <a href="https://ijcai.org/authors/martha-stone-palmer/">Martha Stone Palmer</a>, <a href="https://ijcai.org/authors/aravind-k-joshi/">Aravind K. Joshi</a></div>
+            <div class="details">
+                                    Pages 1321–1329                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/174">Details</a>
+                            <a class="button" href="/proceedings/2001/0174.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper175">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/175">Combining Probabilities, Failures and Safety in Robot Control</a>
+            <div class="authors"><a href="https://ijcai.org/authors/alberto-finzi/">Alberto Finzi</a>, <a href="https://ijcai.org/authors/fiora-pirri/">Fiora Pirri</a></div>
+            <div class="details">
+                                    Pages 1331–1335                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/175">Details</a>
+                            <a class="button" href="/proceedings/2001/0175.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper176">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/176">Heterogeneity in the Coevolved Behaviors of Mobile Robots: The Emergence of Specialists</a>
+            <div class="authors"><a href="https://ijcai.org/authors/mitchell-a-potter/">Mitchell A. Potter</a>, <a href="https://ijcai.org/authors/lisa-meeden/">Lisa Meeden</a>, <a href="https://ijcai.org/authors/alan-c-schultz/">Alan C. Schultz</a></div>
+            <div class="details">
+                                    Pages 1337–1342                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/176">Details</a>
+                            <a class="button" href="/proceedings/2001/0176.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper177">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/177">Agent-Based Control for Object Manipulation with Modular Self-reconfigurable Robots</a>
+            <div class="authors"><a href="https://ijcai.org/authors/jeremy-kubica/">Jeremy Kubica</a>, <a href="https://ijcai.org/authors/arancha-casal/">Arancha Casal</a>, <a href="https://ijcai.org/authors/tad-hogg/">Tad Hogg</a></div>
+            <div class="details">
+                                    Pages 1344–1351                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/177">Details</a>
+                            <a class="button" href="/proceedings/2001/0177.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper178">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/178">Learning Iterative Image Reconstruction</a>
+            <div class="authors"><a href="https://ijcai.org/authors/sven-behnke/">Sven Behnke</a></div>
+            <div class="details">
+                                    Pages 1353–1357                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/178">Details</a>
+                            <a class="button" href="/proceedings/2001/0178.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper179">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/179">A Hierarchy of Boundary-based Shape Descriptors</a>
+            <div class="authors"><a href="https://ijcai.org/authors/richard-c-meathrel/">Richard C. Meathrel</a>, <a href="https://ijcai.org/authors/antony-galton/">Antony Galton</a></div>
+            <div class="details">
+                                    Pages 1359–1363                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/179">Details</a>
+                            <a class="button" href="/proceedings/2001/0179.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper180">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/180">Resolving Ambiguities to Create a Natural Computer-Based Sketching Environment</a>
+            <div class="authors"><a href="https://ijcai.org/authors/christine-alvarado/">Christine Alvarado</a>, <a href="https://ijcai.org/authors/randall-davis/">Randall Davis</a></div>
+            <div class="details">
+                                    Pages 1365–1373                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/180">Details</a>
+                            <a class="button" href="/proceedings/2001/0180.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper181">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/181">VAMBAM: View and Motion-based Aspect Models for Distributed Omnidirectional Vision Systems</a>
+            <div class="authors"><a href="https://ijcai.org/authors/hiroshi-ishiguro/">Hiroshi Ishiguro</a>, <a href="https://ijcai.org/authors/takuichi-nishimura/">Takuichi Nishimura</a></div>
+            <div class="details">
+                                    Pages 1375–1379                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/181">Details</a>
+                            <a class="button" href="/proceedings/2001/0181.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper182">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/182">Efficient Interpretation Policies</a>
+            <div class="authors"><a href="https://ijcai.org/authors/ramana-isukapalli/">Ramana Isukapalli</a>, <a href="https://ijcai.org/authors/russell-greiner/">Russell Greiner</a></div>
+            <div class="details">
+                                    Pages 1381–1389                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/182">Details</a>
+                            <a class="button" href="/proceedings/2001/0182.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper183">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/183">Perceptual Texture Space Improves Perceptual Consistency of Computational Features</a>
+            <div class="authors"><a href="https://ijcai.org/authors/huizhong-long/">Huizhong Long</a>, <a href="https://ijcai.org/authors/wee-kheng-leow/">Wee Kheng Leow</a></div>
+            <div class="details">
+                                    Pages 1391–1395                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/183">Details</a>
+                            <a class="button" href="/proceedings/2001/0183.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper184">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/184">Fuzzy Conceptual Graphs for Matching Images of Natural Scenes</a>
+            <div class="authors"><a href="https://ijcai.org/authors/philippe-mulhem/">Philippe Mulhem</a>, <a href="https://ijcai.org/authors/wee-kheng-leow/">Wee Kheng Leow</a>, <a href="https://ijcai.org/authors/yoong-keok-lee/">Yoong Keok Lee</a></div>
+            <div class="details">
+                                    Pages 1397–1403                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/184">Details</a>
+                            <a class="button" href="/proceedings/2001/0184.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper185">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/185">Discriminating Animate from Inanimate Visual Stimuli</a>
+            <div class="authors"><a href="https://ijcai.org/authors/brian-scassellati/">Brian Scassellati</a></div>
+            <div class="details">
+                                    Pages 1405–1409                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/185">Details</a>
+                            <a class="button" href="/proceedings/2001/0185.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper186">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/186">An Hybrid Approach to Solve the Global Localization Problem For Indoor Mobile Robots Considering Sensorms Perceptual Limitations</a>
+            <div class="authors"><a href="https://ijcai.org/authors/leonardo-romero/">Leonardo Romero</a>, <a href="https://ijcai.org/authors/eduardo-f-morales/">Eduardo F. Morales</a>, <a href="https://ijcai.org/authors/luis-enrique-sucar/">Luis Enrique Sucar</a></div>
+            <div class="details">
+                                    Pages 1411–1415                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/186">Details</a>
+                            <a class="button" href="/proceedings/2001/0186.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper187">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/187">Multimodal Integration A Biological View</a>
+            <div class="authors"><a href="https://ijcai.org/authors/michael-h-coen/">Michael H. Coen</a></div>
+            <div class="details">
+                                    Pages 1417–1423                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/187">Details</a>
+                            <a class="button" href="/proceedings/2001/0187.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper188">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/188">A Web-based Intelligent System for the Daya Bay Contingency Plan in Hong Kong</a>
+            <div class="authors"><a href="https://ijcai.org/authors/james-n-k-liu/">James N. K. Liu</a>, <a href="https://ijcai.org/authors/raymond-s-t-lee/">Raymond S. T. Lee</a>, <a href="https://ijcai.org/authors/jane-you/">Jane You</a></div>
+            <div class="details">
+                                    Pages 1437–1441                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/188">Details</a>
+                            <a class="button" href="/proceedings/2001/0188.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper189">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/189">ExpertClerk: Navigating Shoppers Buying Process with the Combination of Asking and Proposing</a>
+            <div class="authors"><a href="https://ijcai.org/authors/hideo-shimazu/">Hideo Shimazu</a></div>
+            <div class="details">
+                                    Pages 1443–1449                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/189">Details</a>
+                            <a class="button" href="/proceedings/2001/0189.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper190">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/190">Preference-Based Configuration of Web Page Content</a>
+            <div class="authors"><a href="https://ijcai.org/authors/carmel-domshlak/">Carmel Domshlak</a>, <a href="https://ijcai.org/authors/ronen-i-brafman/">Ronen I. Brafman</a>, <a href="https://ijcai.org/authors/solomon-eyal-shimony/">Solomon Eyal Shimony</a></div>
+            <div class="details">
+                                    Pages 1451–1455                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/190">Details</a>
+                            <a class="button" href="/proceedings/2001/0190.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper191">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/191">Keyword Spices: A New Method for Building Domain-Specific Web Search Engines</a>
+            <div class="authors"><a href="https://ijcai.org/authors/satoshi-oyama/">Satoshi Oyama</a>, <a href="https://ijcai.org/authors/takashi-kokubo/">Takashi Kokubo</a>, <a href="https://ijcai.org/authors/toru-ishida/">Toru Ishida</a>, <a href="https://ijcai.org/authors/teruhiro-yamada/">Teruhiro Yamada</a>, <a href="https://ijcai.org/authors/yasuhiko-kitamura/">Yasuhiko Kitamura</a></div>
+            <div class="details">
+                                    Pages 1457–1465                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/191">Details</a>
+                            <a class="button" href="/proceedings/2001/0191.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper192">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/192">Multimodal Interaction: A new focal area for AI</a>
+            <div class="authors"><a href="https://ijcai.org/authors/philip-r-cohen/">Philip R. Cohen</a></div>
+            <div class="details">
+                                    Pages 1467–1472                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/192">Details</a>
+                            <a class="button" href="/proceedings/2001/0192.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper193">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/193">Plausibility Measures: A General Approach For Representing Uncertainty</a>
+            <div class="authors"><a href="https://ijcai.org/authors/joseph-y-halpern/">Joseph Y. Halpern</a></div>
+            <div class="details">
+                                    Pages 1474–1482                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/193">Details</a>
+                            <a class="button" href="/proceedings/2001/0193.pdf">PDF</a>
+                    </div>
+    </div>
+        <div class="paper_wrapper paper-row" id="paper194">
+        <div class="paper-row__text">
+            <a class="title" href="/proceedings/2001/194">Robust Translation of Spontaneous Speech: A Multi-Engine Approach</a>
+            <div class="authors"><a href="https://ijcai.org/authors/wolfgang-wahlster/">Wolfgang Wahlster</a></div>
+            <div class="details">
+                                    Pages 1484–1492                                            </div>
+        </div>
+        <div class="paper-row__actions">
+            <a class="button button--light" href="/proceedings/2001/194">Details</a>
+                            <a class="button" href="/proceedings/2001/0194.pdf">PDF</a>
+                    </div>
+    </div>
+                        </div>
+    </div>
+
+    <details class="volume-front">
+        <summary>Front matter, copyright and publication details</summary>
+        <h3>Front matter</h3><ul><li><a href="/Proceedings/01/IJCAI-2001-b.pdf">Knowledge Representation and Reasoning.</a></li><li><a href="/Proceedings/01/IJCAI-2001-c.pdf">Search, Satisfiability, and Constraint Satisfaction Problems</a></li><li><a href="/Proceedings/01/IJCAI-2001-d.pdf">Cognitive Modeling</a></li><li><a href="/Proceedings/01/IJCAI-2001-e.pdf">Planning.</a></li><li><a href="/Proceedings/01/IJCAI-2001-f.pdf">Games</a></li><li><a href="/Proceedings/01/IJCAI-2001-g.pdf">Diagnosis</a></li><li><a href="/Proceedings/01/IJCAI-2001-h.pdf">Logic Programming and Theorem Proving.</a></li><li><a href="/Proceedings/01/IJCAI-2001-i.pdf">Uncertainty and Probabilistic Reasoning</a></li><li><a href="/Proceedings/01/IJCAI-2001-j.pdf">Neural Networks and Genetic Algorithms</a></li><li><a href="/Proceedings/01/IJCAI-2001-k.pdf">Machine Learning and Data Mining</a></li><li><a href="/Proceedings/01/IJCAI-2001-l.pdf">Case-based Reasoning</a></li><li><a href="/Proceedings/01/IJCAI-2001-m.pdf">Multi-Agent Systems</a></li><li><a href="/Proceedings/01/IJCAI-2001-n.pdf">Natural Language Processing and Information Retrieval</a></li><li><a href="/Proceedings/01/IJCAI-2001-o.pdf">Robotics and Perception</a></li><li><a href="/Proceedings/01/IJCAI-2001-p.pdf">Web Applications</a></li><li><a href="/Proceedings/01/IJCAI-2001-q.pdf">Invited Papers</a></li><li><a href="/Proceedings/01/IJCAI-2001-r.pdf">Author Index</a></li></ul>    </details>
+        </div>
+    </article>
+</main>
+
+<section class="image-grid">
+            <a class="image-grid__tile" href="https://ijcai.org/">
+            <span class="image-grid__img">
+                <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/grid/welcome.jpg" alt="" loading="lazy">
+            </span>
+            <span class="image-grid__caption">Welcome</span>
+        </a>
+            <a class="image-grid__tile" href="https://ijcai.org/future_conferences/">
+            <span class="image-grid__img">
+                <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/grid/future-conferences.jpg" alt="" loading="lazy">
+            </span>
+            <span class="image-grid__caption">Future Conferences</span>
+        </a>
+            <a class="image-grid__tile" href="https://ijcai.org/aijd/">
+            <span class="image-grid__img">
+                <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/grid/ai-journal.png" alt="" loading="lazy">
+            </span>
+            <span class="image-grid__caption">AI Journal Division</span>
+        </a>
+            <a class="image-grid__tile" href="https://ijcai.org/all_proceedings/">
+            <span class="image-grid__img">
+                <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/grid/proceedings.jpg" alt="" loading="lazy">
+            </span>
+            <span class="image-grid__caption">IJCAI Proceedings</span>
+        </a>
+            <a class="image-grid__tile" href="https://ijcai.org/aboutijcai/">
+            <span class="image-grid__img">
+                <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/grid/about.jpg" alt="" loading="lazy">
+            </span>
+            <span class="image-grid__caption">About IJCAI</span>
+        </a>
+            <a class="image-grid__tile" href="https://ijcai.org/awards/">
+            <span class="image-grid__img">
+                <img src="https://ijcai.org/wp-content/themes/ijcai/assets/img/grid/awards.jpg" alt="" loading="lazy">
+            </span>
+            <span class="image-grid__caption">IJCAI Awards</span>
+        </a>
+    </section>
+
+<footer class="site-footer">
+    <div class="site-footer__bottom">
+        <div class="container">
+            <div class="footer-columns">
+                                    <div class="footer-column">
+                        <ul id="menu-footer-1" class="footer-menu"><li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-250"><a href="https://ijcai.org/future_conferences/">Conferences</a>
+<ul class="sub-menu">
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="https://ijcai.org/future_conferences/">Future Conferences</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="https://ijcai.org/past_conferences/">Past Conferences</a></li>
+</ul>
+</li>
+<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-253"><a href="https://ijcai.org/all_proceedings/">Proceedings</a>
+<ul class="sub-menu">
+	<li id="menu-item-254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-254"><a href="/proceedings/2026/">IJCAI 2026 Proceedings</a></li>
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="https://ijcai.org/all_proceedings/">All Proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="https://ijcai.org/awards/">Awards</a></li>
+</ul>                    </div>
+                                    <div class="footer-column">
+                        <ul id="menu-footer-2" class="footer-menu"><li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-257"><a href="https://ijcai.org/trustees/current_trustees/">Trustees/officers</a>
+<ul class="sub-menu">
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://ijcai.org/trustees/current_trustees/">Current trustees</a></li>
+	<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="https://ijcai.org/trustees/trustees_elect/">Trustees Elect</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://ijcai.org/officers/ijcai_secretariat/">IJCAI Secretariat</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://ijcai.org/officers/sponsorship_publicity/">IJCAI Sponsorship and Publicity Officers</a></li>
+	<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="https://ijcai.org/officers/ijcai_team/">IJCAI Team</a></li>
+	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="https://ijcai.org/officers/local_arrangements_chairs/">Local Arrangements Chairs</a></li>
+	<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="https://ijcai.org/trustees/former_trustees_serving_on_the_executive_committee/">Former Trustees serving on the Executive Committee</a></li>
+	<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="https://ijcai.org/officers/other_former_officers/">Other Former Officers</a></li>
+</ul>
+</li>
+</ul>                    </div>
+                                    <div class="footer-column">
+                        <ul id="menu-footer-3" class="footer-menu"><li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="https://ijcai.org/aijd/">AI Journal</a></li>
+<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-267"><a href="https://ijcai.org/aboutijcai/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="https://ijcai.org/aboutijcai/">About IJCAI</a></li>
+	<li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a href="https://ijcai.org/documents/">Documents</a></li>
+	<li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="https://ijcai.org/contact/">Contact Information</a></li>
+</ul>
+</li>
+</ul>                    </div>
+                            </div>
+
+            <a href="#top" class="back-to-top">
+                <span class="back-to-top__triangle"></span>
+                <span>Back to top</span>
+            </a>
+
+            <div class="legal-row">
+                                <a href="https://ijcai.org/publication_ethics/">Publication Ethics</a>
+                                                    <a href="https://ijcai.org/privacy_policy/">Privacy</a>
+                                <span>&copy; 2026 International Joint Conferences on Artificial Intelligence</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/ijcai/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<script id="ijcai-archive-js" src="https://ijcai.org/wp-content/themes/ijcai/assets/js/archive.js?ver=1.1.0"></script>
+<script id="ijcai-main-js" src="https://ijcai.org/wp-content/themes/ijcai/assets/js/main.js?ver=1.0.2"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://ijcai.org/wp-includes/js/wp-emoji-release.min.js?ver=7.1.5"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://ijcai.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>

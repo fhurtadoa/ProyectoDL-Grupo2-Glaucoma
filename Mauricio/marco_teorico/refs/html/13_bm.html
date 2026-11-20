@@ -1,0 +1,1864 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="RPC, Erik Robnik s.p." />
+        <meta name="description" content="On determining the most appropriate test cut-off value: the case of tests with continuous results" />
+        <meta name="keywords" content="ROC curve, diagnostic tests, sensitivity, specificity, prevalence" />
+
+
+        
+
+         
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+            <script>
+                GA_MEASUREMENT_ID = '';
+                CC_DOMAIN = '.biochemia-medica.com';
+                
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'ad_user_data': 'denied',
+                    'ad_personalization': 'denied',
+                    'analytics_storage': 'denied',
+                    'functionality_storage': 'denied',
+                    'personalization_storage': 'denied',
+                    'security_storage': 'granted',
+                });
+            </script>
+        
+
+
+
+
+                    <!--// https://www.monperrus.net/martin/accurate+bibliographic+metadata+and+google+scholar //-->
+
+            <meta name="citation_fulltext_html_url" content="https://www.biochemia-medica.com/en/journal/26/10.11613/BM.2016.034"/>
+            <meta name="citation_fulltext_world_readable" content="https://www.biochemia-medica.com/en/journal/26/10.11613/BM.2016.034" /> 
+            <meta name="citation_public_url" content="https://www.biochemia-medica.com/en/journal/26/10.11613/BM.2016.034"/>
+            <meta name="citation_publisher" content="Croatian Society of Medical Biochemistry and Laboratory Medicine"/>
+            <meta name="citation_journal_title" content="Biochemia Medica"/>
+            <meta name="citation_journal_abbrev" content="Biochem Med"/>
+            <meta name="citation_title" content="On determining the most appropriate test cut-off value: the case of tests with continuous results"/>
+            <meta name="citation_publication_date" content="2016/10/15"/>
+            <meta name="citation_online_date" content="2018/06/01" /> 
+            <meta name="citation_volume" content="26"/>
+            <meta name="citation_issue" content="3"/>
+            <meta name="citation_firstpage" content="297"/>
+            <meta name="citation_lastpage" content="307"/>
+            <meta name="citation_doi" content="10.11613/BM.2016.034"/>
+            <meta name="citation_keywords" content="ROC curve, diagnostic tests, sensitivity, specificity, prevalence"/>
+            <meta name="citation_language" content="en" /> 
+            <!--
+            <meta name="citation_abstract_html_url" content="https://www.biochemia-medica.com/doi/10.1111/dme.13025/abstract" /> 
+            <meta name="citation_issn" content="">
+            -->
+
+                            <meta name="citation_pdf_url" content="https://www.biochemia-medica.com/assets/images/upload/xml_tif/26-3_F_Habibzadeh_et_al__On_determing_the_most_approp_test.pdf"/>
+            
+                                                <meta name="citation_author" content="Farrokh Habibzadeh"/>
+                    <meta name="citation_author_institution" content="Adjunct Professor, Shiraz University of Medical Sciences, Shiraz"/>	
+                                    <meta name="citation_author" content="Farrokh Habibzadeh"/>
+                    <meta name="citation_author_institution" content="R&D Headquarters, Petroleum Industry Health Organization, Shiraz"/>	
+                                    <meta name="citation_author" content="Parham Habibzadeh"/>
+                    <meta name="citation_author_institution" content="Student Research Committee, Shiraz University of Medical Sciences, Shiraz"/>	
+                                    <meta name="citation_author" content="Mahboobeh Yadollahie"/>
+                    <meta name="citation_author_institution" content="R&D Headquarters, Petroleum Industry Health Organization, Shiraz"/>	
+                            
+
+            <meta property="og:url" content="https://www.biochemia-medica.com/en/journal/26/10.11613/BM.2016.034" /> 
+            <meta property="og:type" content="article" /> 
+            <meta property="og:title" content="On determining the most appropriate test cut-off value: the case of tests with continuous results - Biochemia Medica" /> 
+            <meta property="og:image" content="" /> 
+            <meta property="og:description" content="On determining the most appropriate test cut-off value: the case of tests with continuous results" /> 
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <title>On determining the most appropriate test cut-off value: the case of tests with continuous results - Biochemia Medica</title>
+
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.biochemia-medica.com/apple-touch-icon-57x57.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.biochemia-medica.com/apple-touch-icon-114x114.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.biochemia-medica.com/apple-touch-icon-72x72.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.biochemia-medica.com/apple-touch-icon-144x144.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.biochemia-medica.com/apple-touch-icon-60x60.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.biochemia-medica.com/apple-touch-icon-120x120.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.biochemia-medica.com/apple-touch-icon-76x76.png?v=1.16" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.biochemia-medica.com/apple-touch-icon-152x152.png?v=1.16" />
+        <link rel="icon" type="image/png" href="https://www.biochemia-medica.com/favicon-196x196.png?v=1.16" sizes="196x196" />
+        <link rel="icon" type="image/png" href="https://www.biochemia-medica.com/favicon-96x96.png?v=1.16" sizes="96x96" />
+        <link rel="icon" type="image/png" href="https://www.biochemia-medica.com/favicon-32x32.png?v=1.16" sizes="32x32" />
+        <link rel="icon" type="image/png" href="https://www.biochemia-medica.com/favicon-16x16.png?v=1.16" sizes="16x16" />
+        <link rel="icon" type="image/png" href="https://www.biochemia-medica.com/favicon-128.png?v=1.16" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="https://www.biochemia-medica.com/mstile-144x144.png?v=1.16" />
+        <meta name="msapplication-square70x70logo" content="https://www.biochemia-medica.com/mstile-70x70.png?v=1.16" />
+        <meta name="msapplication-square150x150logo" content="https://www.biochemia-medica.com/mstile-150x150.png?v=1.16" />
+        <meta name="msapplication-wide310x150logo" content="https://www.biochemia-medica.com/mstile-310x150.png?v=1.16" />
+        <meta name="msapplication-square310x310logo" content="https://www.biochemia-medica.com/mstile-310x310.png?v=1.16" />
+
+
+
+
+        <link href='//fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/bootstrap/css/bootstrap.min.css?v=1.16"> 
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/fontawesome/css/all.min.css?v=1.16">
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/swiper/css/swiper.min.css?v=1.16"> 
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/blueimp-gallery/css/blueimp-gallery.min.css?v=1.16">
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/animate/animate.min.css?v=1.16">
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css?v=1.16">
+
+
+        
+
+        
+
+        <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/css/main.css?v=1.16"> 
+
+
+
+
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/js/jquery-1.11.3.min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/vendor/bootstrap/js/bootstrap.min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/vendor/swiper/js/swiper.min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/vendor/blueimp-gallery/js/jquery.blueimp-gallery.min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/js/jquery.history.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/js/jquery.matchHeight-min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js?v=1.16"></script>
+
+                 
+            <link rel="stylesheet" href="https://www.biochemia-medica.com/assets/vendor/cookieconsent/cookieconsent.css?v=1.16">
+         
+
+
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/js/jquery.lazy.min.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/js/funkcije_kompatibilnost.js?v=1.16"></script>
+        <script type="text/javascript" src="https://www.biochemia-medica.com/assets/js/funkcije.js?v=1.16"></script>
+
+
+
+
+        <script type="text/javascript">
+
+
+
+            var BASE_URL = 'https://www.biochemia-medica.com/';
+            var SITE_URL = 'https://www.biochemia-medica.com/en';
+            var XML_IMAGES_URL = BASE_URL + 'assets/images/upload/xml_tif/';
+            var swiperOneSlide;
+
+            $(document).ready(function () {
+
+                SkupneLoadFunkcije();
+
+                var sliderLoop = true;
+
+                swiperOneSlide = new Swiper('.swiper-container.one-slide', {
+                    lazy: false, // Enable lazy loading
+                    loop: sliderLoop,
+                    autoplay: {
+                        delay: 5000,
+                    },
+                    pagination: {
+                        el: '.swiper-container.one-slide .swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    }
+                });
+
+
+
+                /*
+                 * btn show more
+                 */
+                $('.btn-show-more').click(function (e) {
+                    e.preventDefault();
+
+                    $btn = $(this);
+
+                    var location = $btn.data('location');
+                    var results_from = $btn.data('results_from');
+                    var item_id = $btn.data('item_id');
+
+
+                    var TESTIRANJE = false;
+                    //console.log(filter_type);
+                    $.ajax({
+                        type: "POST",
+                        dataType: "html",
+                        url: location,
+                        data: {results_from: results_from,
+                            item_id: item_id
+                        },
+                        crossDomain: false,
+                        async: true,
+                        cache: false,
+                        beforeSend: function (xhr) {
+                            $('.btn-show-more').hide();
+                            $('.ajax-loader-more').show();
+                        },
+                        success: function (ajax_response) {
+
+                            if (TESTIRANJE) {
+                                $('.show-more-holder').html(ajax_response);
+                                $('.btn-show-more').show();
+                                $('.ajax-loader-more').hide();
+                                return false;
+                            }
+
+                            var response = $.parseJSON(ajax_response);
+
+                            $('.ajax-loader-more').hide();
+                            if (response.button_more_visible) {
+                                $('.btn-show-more').show();
+                            } else {
+                                $('.btn-show-more').hide();
+                            }
+
+
+
+
+                            $btn.data('results_from', response.results_from);
+
+
+                            // fade in
+                            var item = $(response.html_results).hide().fadeIn(500);
+                            $('.show-more-holder').append(item);
+
+                            // direkt prikaz, če želiš tega zgoraj zakomentiraj
+                            //$('.show-more-holder').append(response.html_results);
+
+
+                            //$('#num_all_results').html(response.num_all_results);
+
+
+
+                            //
+                            // Prikaz slike in višina boxa
+                            //
+                            MatchHeightAjax(response.matchHeightSelector);
+
+
+                        },
+                        error: function (xhr, status, error) {
+                            $('.show-more-holder').html(xhr.status + ' ' + status + ' ' + error);
+                            $('.ajax-loader-more').hide();
+                            $('.btn-show-more').show();
+                        }
+                    });
+
+                });
+
+
+
+
+
+            });
+
+            $(window).load(function () {
+
+            });
+
+            $(window).resize(function () {
+                //MatchHeight();
+            });
+
+            $(window).scroll(function () {
+                //ToTop();
+            });
+
+
+        </script>
+
+
+        
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+    </head>
+
+        <body>
+
+            <div id="fb-root"></div>
+
+        
+            
+
+
+
+            <!-- Cart right -->
+            <div class="page-menu">
+                <div class="left"></div>
+                <div class="right">
+
+                    <div class="page-menu-header">
+                        <a href="#" class="hideMenu">Close <i class="fas fa-times animated-hover animated padding-menu-icon text-red" data-animation="rubberBand"></i></a>
+                    </div>
+
+                    <div class="page-menu-content content">
+                        <ul class="nav navbar-nav">
+<li class="dropdown active"><a href="https://www.biochemia-medica.com/en/journal" class="">Journal <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class=""><a href="https://www.biochemia-medica.com/en/journal_search">Search for articles</a></li>
+</ul>
+</li>
+<li class="dropdown "><a href="https://www.biochemia-medica.com/en/page/about-the-journal" class="">About the Journal <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class=""><a href="https://www.biochemia-medica.com/en/page/about-the-journal/aim-and-scope">Aim and Scope</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/about-the-journal/indexed-in">Indexed in</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/about-the-journal/journal-metrics">Journal metrics</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/about-the-journal/subscription">Subscription</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/about-the-journal/Editorial-and-peer-review-procedure">Editorial and peer-review procedure</a></li>
+</ul>
+</li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/editorial-board">Editorial board</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/publication-ethics">Publication Ethics</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/guidelines-for-authors">Instructions for Authors</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/for-reviewers">Guidelines for Reviewers</a></li>
+<li class=""><a href="https://manuscriptmanager.net/bm" target="_blank">Submit your manuscript</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/news">News</a></li>
+<li class=""><a href="https://www.biochemia-medica.com/en/page/contact-us">Contact us</a></li>
+</ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- EOF Cart right -->
+
+
+
+            <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+            <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-start-slideshow="true">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+
+
+            <div class="to_top"><a href="#top"><i class="fa fa-chevron-up fa-fw"></i></a></div>
+
+
+
+
+
+            
+
+<!--<div class="bg-black-10 pre-header">
+        <div class="container-fluid">
+    <div class="">
+      <div class="row">
+        <div class="col-xs-12">
+                                        
+            <ul class="pre-header">
+              <li><a href="https://www.biochemia-medica.com/en/journal">Journal</a></li>
+              <li><a href="https://www.biochemia-medica.com/en/page/guidelines-for-authors">Guidelines for Authors</a></li>
+              <li><a href="https://www.biochemia-medica.com/en/page/publication-ethics">Publication Ethics</a></li>
+            </ul>
+            
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+
+
+<div class="container-fluid ">
+    <div class="paddingtb35">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-7">
+
+
+                <a href="https://www.biochemia-medica.com/en" title="Biochemia Medica" alt="Biochemia Medica"><img src="https://www.biochemia-medica.com/assets/images/logo.svg" class="logo-main img-responsive" title="Biochemia Medica" alt="Biochemia Medica" /></a>
+            </div>
+            <div class="col-md-9 col-sm-6 col-xs-5 text-right">
+
+                
+                <div class="text-25 text-red " style="line-height:68px;">
+                    <a href="#" class="showMenu">MENU <i class="fas fa-bars animated-hover animated padding-menu-icon" data-animation="rubberBand"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+                            <div class="breadcrumbHolder">	
+                    <div class="container-fluid">
+                        <ol class="breadcrumb"><li><a href="https://www.biochemia-medica.com/en"><i class="fas fa-home"></i></a> </li><li><a href="https://www.biochemia-medica.com/en/journal">Journal</a> </li><li><a href="https://www.biochemia-medica.com/en/journal/26">Volume 26</a> </li><li><a href="https://www.biochemia-medica.com/en/journal/26/3">October, Issue 3</a> </li><li class="active">On determining the most appropriate test cut-off value: the case of tests with continuous results</li></ol>
+                    </div>
+                </div>
+            
+
+
+
+
+
+            <div class="container-fluid ">  
+
+                <div class="row">		
+
+                    
+                        <!--// Main //-->
+                        <div class="col-md-9">
+                            
+<section>
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+    
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <article><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Habibzadeh, Habibzadeh, and Yadollahie: On determining the most appropriate test cut-off value: the case of tests with continuous results</title>
+<link rel="stylesheet" type="text/css" href="https://www.biochemia-medica.com/assets/journal/jats-preview.css">
+</head>
+<body>
+<div id="article-front" class="front">
+<div class="metadata two-column table journal-article-information"><div class="row">
+<div class="cell journal-information">
+<h4 class="generated">Journal Information</h4>
+<div class="metadata-group">
+<p class="metadata-entry"><span class="generated">Journal ID (<span class="data">publisher-id</span>): </span>BM</p>
+<p class="metadata-entry"><span class="generated">Journal ID (<span class="data">nlm-ta</span>): </span>Biochem Med</p>
+<p class="metadata-entry"><span class="generated">Title: </span>Biochemia Medica</p>
+<p class="metadata-entry"><span class="generated">Abbreviated Title: </span>Biochem. Med.</p>
+<p class="metadata-entry"><span class="generated">ISSN (<span class="data">print</span>): </span>1330-0962</p>
+<p class="metadata-entry"><span class="generated">ISSN (<span class="data">electronic</span>): </span>1846-7482</p>
+<p class="metadata-entry"><span class="generated">Publisher: </span>Croatian Society of Medical Biochemistry and Laboratory Medicine</p>
+</div>
+</div>
+<div class="cell article-information">
+<h4 class="generated">Article Information</h4>
+<div class="metadata-group">
+<p class="metadata-entry"><span class="generated">Copyright: </span>2016, Croatian Society of Medical Biochemistry</p>
+<p class="metadata-entry"><span class="generated">Date received: </span>17 June 2016</p>
+<p class="metadata-entry"><span class="generated">Date accepted: </span>14 September 2016</p>
+<p class="metadata-entry"><span class="generated">Publication date (<span class="data">print and electronic</span>): </span>15 October 2016</p>
+<p class="metadata-entry"><span class="generated">Volume: </span>26</p>
+<p class="metadata-entry"><span class="generated">Issue: </span>3</p>
+<p class="metadata-entry"><span class="generated">Pages: </span>297-307</p>
+<p class="metadata-entry"><span class="generated">Publisher ID: </span>bm-26-297</p>
+<p class="metadata-entry"><span class="generated">DOI: </span>10.11613/BM.2016.034</p>
+</div>
+</div>
+</div></div>
+<div class="metadata centered article-title"><h1 class="document-title">On determining the most appropriate test cut-off value: the case of tests with continuous results</h1></div>
+<div id="AUTHORS-XSL"></div>
+<div class="authorsHolder"><div class="authors">
+<div class="article-author-name">
+<span class="Aname"><div class="metadata-group"><p class="metadata-entry"><a id="id1"><!-- named anchor --></a>Farrokh Habibzadeh<span class="generated">[</span><a href="#aff1" data-toggle="popover" data-ref_id="aff1" data-content="t"><sup>1</sup></a><span class="generated">]</span><span class="generated">[</span><a href="#aff2" data-toggle="popover" data-ref_id="aff2" data-content="t"><sup>2</sup></a><span class="generated">]</span></p></div></span><span class="Adesc"><div class="metadata-group"></div></span>
+</div>
+<div class="article-author-name">
+<span class="Aname"><div class="metadata-group"><p class="metadata-entry"><a id="id2"><!-- named anchor --></a>Parham Habibzadeh<span class="generated">[</span><a href="#aff3" data-toggle="popover" data-ref_id="aff3" data-content="t"><sup>3</sup></a><span class="generated">]</span></p></div></span><span class="Adesc"><div class="metadata-group"></div></span>
+</div>
+<div class="article-author-name">
+<span class="Aname"><div class="metadata-group"><p class="metadata-entry"><a id="id3"><!-- named anchor --></a>Mahboobeh Yadollahie<span class="generated">[</span><a href="#aff2" data-toggle="popover" data-ref_id="aff2" data-content="t"><sup>2</sup></a><span class="generated">]</span></p></div></span><span class="Adesc"><div class="metadata-group"></div></span>
+</div>
+<div class="metadata one-column table article-author-ref"><div class="metadata-group">
+<p class="metadata-entry"><a id="aff1"><!-- named anchor --></a><span class="generated">[</span>1<span class="generated">] </span>Adjunct Professor, Shiraz University of Medical Sciences, Shiraz, Iran,</p>
+<p class="metadata-entry"><a id="aff2"><!-- named anchor --></a><span class="generated">[</span>2<span class="generated">] </span>R&amp;D Headquarters, Petroleum Industry Health Organization, Shiraz, Iran,</p>
+<p class="metadata-entry"><a id="aff3"><!-- named anchor --></a><span class="generated">[</span>3<span class="generated">] </span>Student Research Committee, Shiraz University of Medical Sciences, Shiraz, Iran</p>
+</div></div>
+<div class="metadata one-column table article-author-notes"><div class="metadata-group"><div class="metadata-area">
+<p class="metadata-entry"><span class="generated">Author notes: </span></p>
+<div class="metadata-chunk">
+<a id="id4"><!-- named anchor --></a><p class="metadata-entry">Corresponding author: <a href="mailto:Farrokh.Habibzadeh@theijoem.com">Farrokh.Habibzadeh@theijoem.com</a></p>
+</div>
+</div></div></div>
+</div></div>
+<div class="space"></div>
+<div class="metadata one-column table abstract"><div class="row">
+<div class="/*cell*/" style="text-align: left"><h4 class="callout-title"><span class="generated">Abstract</span></h4></div>
+<div class="/*cell*/"><p class="first" id="id5">There are several criteria for determination of the most appropriate cut-off value in a diagnostic test with continuous results. Mostly based on receiver operating characteristic (ROC) analysis, there are various methods to determine the test cut-off value. The most common criteria are the point on ROC curve where the sensitivity and specificity of the test are equal; the point on the curve with minimum distance from the left-upper corner of the unit square; and the point where the Youden’s index is maximum. There are also methods mainly based on Bayesian decision analysis. Herein, we show that a proposed method that maximizes the weighted number needed to misdiagnose, an index of diagnostic test effectiveness we previously proposed, is the most appropriate technique compared to the aforementioned ones. For determination of the cut-off value, we need to know the pretest probability of the disease of interest as well as the costs incurred by misdiagnosis. This means that even for a certain diagnostic test, the cut-off value is not universal and should be determined for each region and for each disease condition.</p></div>
+</div></div>
+</div>
+<div id="article-body" class="body">
+<div class="section">
+<a id="id6"><!-- named anchor --></a><h2 class="main-title">Introduction</h2>
+<p id="id7">Diagnostic tests are important clinical tools. If that is possible, we have to use gold-standard tests for the diagnosis of diseases. However, a gold-standard test either does not exist or is very difficult or expensive to perform for certain disease conditions (<a href="#r1" data-toggle="popover" data-ref_id="r1" data-content="t"><i>1</i></a>). Therefore, we have to use alternative diagnostic tests as surrogates for gold-standard tests.</p>
+<p id="id8">While interpretation of a test with binary results is straight forward, interpretation of a test with continuous results is not that simple. For instance, assume that the test is for discrimination of only two states, “diseased” (D<sup>+</sup>) and “non-diseased” (D<sup>–</sup>), and that the higher test values are more likely among D<sup>+</sup> persons. For discrimination of D<sup>+</sup> and D<sup>–</sup> people, we need to set a cut-off value; test results equal to or greater than this value are considered positive (T<sup>+</sup>), otherwise they are negative (T<sup>–</sup>). The choice of the cut-off value determines the rates of true positive (TP), true negative (TN), false positive (FP), and false negative (FN) test results (<a href="#r2" data-toggle="popover" data-ref_id="r2" data-content="t"><i>2</i></a>). The sensitivity (Se) of a test is defined as the probability of a positive test (T<sup>+</sup>) in a diseased person (D<sup>+</sup>), that is (<a href="#r3" data-toggle="popover" data-ref_id="r3" data-content="t"><i>3</i></a>):</p>
+<div class="disp-formula panel">
+<a id="e"><!-- named anchor --></a><img alt="bm-26-297-e1.tif" class="graphic" src="bm-26-297-e1.tif">
+</div>
+<p id="id9">The test specificity (Sp) is defined as the likelihood of a negative test (T<sup>–</sup>) in a person without the disease (D<sup>–</sup>), that is (<a href="#r3" data-toggle="popover" data-ref_id="r3" data-content="t"><i>3</i></a>):</p>
+<div class="disp-formula panel">
+<a id="e___1"><!-- named anchor --></a><img alt="bm-26-297-e2.tif" class="graphic" src="bm-26-297-e2.tif">
+</div>
+<p id="id10">Therefore, a sensitive test has a low FN rate – a negative result (T<sup>–</sup>) is very likely TN. Therefore, a sensitive test can be used to rule out a disease condition. Similarly, having a low FP rate, a specific test can be used to rule in a disease.</p>
+<p id="id11">In a test with continuous (or multiple) results, every possible test value can be considered a cut-off point. This cut-off value determines the test Se and Sp. However, for a given test, we cannot increase the Se and Sp concomitantly; Se will be enhanced at the expense of Sp and <i>vice versa</i>. Decreasing the cut-off value to increase the test Se causes the Sp to decrease. If you want to have a more specific test (by increasing the cut-off value), you will have a less sensitive test.</p>
+</div>
+<div class="section">
+<a id="id12"><!-- named anchor --></a><h2 class="main-title">Receiver Operating Characteristic (ROC) curve analysis</h2>
+<p id="id13">One of the most commonly used methods to analyze the effectiveness of a diagnostic test is receiver operating characteristic (ROC) curve analysis (<a href="#r4" data-toggle="popover" data-ref_id="r4" data-content="t"><i>4</i></a>-<a href="#r6" data-toggle="popover" data-ref_id="r6" data-content="t"><i>6</i></a>). Use of this method dates back to World War II when the ability of radar operators (receivers) was tested to determine whether a blip on the radar screen represented an object (signal, a TP result) or noise (a FP result), hence, the name (<a href="#r7" data-toggle="popover" data-ref_id="r7" data-content="t"><i>7</i></a>). Several years later, the method was found useful in many other scientific disciplines including diagnostic medicine where a physician should discriminate a TP from a FP test result. The ROC curve offers a graphical illustration of the above-mentioned trade-off between a test Se and Sp and depicts TP rate (Se) against FP rate (1 - Sp) for each cut-off value (<a href="#r7" data-toggle="popover" data-ref_id="r7" data-content="t"><i>7</i></a>).</p>
+<p id="id14">The general structure of a ROC curve is simple. The curve is confined in a unit square (<a href="#f1" data-toggle="popover" data-ref_id="f1" data-content="t">Figure 1</a>). The left-lower corner (Se = 0, Sp = 1) corresponds to the highest possible test cut-off value. As the cut-off value decreases, the test Se increases and Sp decreases, moving on the curve from the left-lower corner up and to the right to ultimately reach the right-upper corner of the square where Se = 1 and Sp = 0, corresponding to the lowest possible test cut-off value. In theory, we can think of a continuous curve with infinite number of points. However, in real world, a ROC curve is constructed based on a few discrete points. Although we can connect these points using various methods (line segments, spline, curve fitting, <i>etc</i>.), the curve is not differentiable and thus, in practice it is not possible to determine the exact slope at any point.</p>
+<div class="fig panel" style="display: float; clear: both">
+<a id="f1"><!-- named anchor --></a><h5 class="label">Figure 1</h5>
+<div class="caption"><p class="first" id="id15">The general structure of a ROC curve. The curve (dashed line) which lies completely above another curve (solid line), is clearly a better test because it has a higher area under the curve. Having the left-upper corner moving on ROC curve (solid line), the area of the shaded rectangular region is maximum when its sides (Se and Sp) are equal. Se – sensitivity. Sp – specificity.</p></div>
+<img alt="bm-26-297-f1" class="graphic" src="bm-26-297-f1">
+</div>
+<p id="id16">In a perfect test, both Se and Sp are equal to 1. The ROC curve corresponding to a perfect (i.e. the gold-standard) test is a line segment connecting the left-lower corner to the left-upper corner and to the right-upper corner (a curve coinciding with the left and top sides) of the unit square (<a href="#r8" data-toggle="popover" data-ref_id="r8" data-content="t"><i>8</i></a>). On the other hand, the ROC curve corresponding to a test with no diagnostic value is the line segment connecting the lower-left corner to the right-upper corner – the 45° diagonal line (<a href="#f1" data-toggle="popover" data-ref_id="f1" data-content="t">Figure 1</a>). In practice, the curve lies somewhere between these two extremes. The area under the ROC curve (AUC) varies between 0.5 (for the 45° diagonal line representing an uninformative test) and 1.0 for a perfect test.</p>
+<p id="id17">The AUC can be considered an index of discriminating ability of a test (<a href="#r1" data-toggle="popover" data-ref_id="r1" data-content="t"><i>1</i></a>, <a href="#r8" data-toggle="popover" data-ref_id="r8" data-content="t"><i>8</i></a>). Mathematically, the area is equivalent to the probability that the test result measured in a randomly selected D<sup>+</sup> person is higher than that measured in a D<sup>–</sup> person (<a href="#r7" data-toggle="popover" data-ref_id="r7" data-content="t"><i>7</i></a>). A test with an AUC of 0.5 is equivalent to tossing a coin – an uninformative test. AUC is particularly useful when two or more diagnostic tests are compared. Having a higher AUC, a test with a ROC curve that lies completely above another curve, is clearly a better one (<a href="#f1" data-toggle="popover" data-ref_id="f1" data-content="t">Figure 1</a>). The methods for the calculation of the AUC are mainly based on a non-parametric statistical test, the Wilcoxon rank-sum test, proposed by DeLong <i>et al.</i> and Hanley <i>et al.</i> (<a href="#r8" data-toggle="popover" data-ref_id="r8" data-content="t"><i>8</i></a>-<a href="#r10" data-toggle="popover" data-ref_id="r10" data-content="t"><i>10</i></a>). The proposed methods can be used to test if the AUC of a curve is significantly higher than 0.5 (the AUC of an uninformative test), or to compare AUCs of two or more tests.</p>
+</div>
+<div class="section">
+<a id="id18"><!-- named anchor --></a><h2 class="main-title">Criteria for selecting the most appropriate cut-off value</h2>
+<p id="id19">Choosing an appropriate cut-off value is of paramount importance in using a test effectively. Several criteria, mostly based on ROC analysis, have so far been proposed for choosing the most appropriate cut-off value (<a href="#r2" data-toggle="popover" data-ref_id="r2" data-content="t"><i>2</i></a>, <a href="#r5" data-toggle="popover" data-ref_id="r5" data-content="t"><i>5</i></a>, <a href="#r11" data-toggle="popover" data-ref_id="r11" data-content="t"><i>11</i></a>-<a href="#r13" data-toggle="popover" data-ref_id="r13" data-content="t"><i>13</i></a>). Each point on a ROC curve corresponds to a cut-off value and is associated with a test Se and Sp. Locating the cut-off point thus requires a compromise between Se and Sp. In some cases, Se is more important than Sp, for example when a disease is highly infectious or associated with serious complications. On the other hand, in certain circumstances, Sp may be preferred over Se, say when the subsequent diagnostic testing is risky or costly (<a href="#r2" data-toggle="popover" data-ref_id="r2" data-content="t"><i>2</i></a>). If there is no preference between Se and Sp, nonetheless, a reasonable approach would be to maximize both indices.</p>
+<p id="id20">The lowest cut-off value corresponds to a Se = 1 and Sp = 0. As the cut-off value increases, the test Se decreases and the test Sp increases until a cut-off value corresponding to a test Se = 0 and Sp = 1. Over this interval, there is a cut-off value where the test Se is equivalent to the test Sp. One of the frequently used criterion for determination of the test cut-off value is the one corresponding to this particular point, where Se = Sp. This point is mathematically the intersection of the line connecting the left-upper corner and the right-lower corner of the unit square (the line Se = Sp), and the ROC curve (<a href="#f1" data-toggle="popover" data-ref_id="f1" data-content="t">Figure 1</a>). This point of the curve is where the product of these two indices (Se x Sp) is maximum – the area of the shaded rectangle in <a href="#f1" data-toggle="popover" data-ref_id="f1" data-content="t">Figure 1</a> is maximum when its sides (Se and Sp) are equal, a square.</p>
+<p id="id21">Another approach to maximize both Se and Sp would be to maximize their summation (Se + Sp). At this point, the Youden’s index (Se + Sp – 1) is also maximum (<a href="#r11" data-toggle="popover" data-ref_id="r11" data-content="t"><i>11</i></a>, <a href="#r14" data-toggle="popover" data-ref_id="r14" data-content="t"><i>14</i></a>-<a href="#r16" data-toggle="popover" data-ref_id="r16" data-content="t"><i>16</i></a>). This is a commonly used technique to determine the most appropriate cut-off value and corresponds to a point on the ROC curve with the highest vertical distance from the 45° diagonal line (the ROC of an uninformative test). At this point, the difference between the test TP rate (Se) and FP rate (1 – Sp) is maximum too (<a href="#r15" data-toggle="popover" data-ref_id="r15" data-content="t"><i>15</i></a>).</p>
+<p id="id22">The ROC of a perfect test passes through the left-upper corner of the unit square, the point where both Se and Sp are equal to 1 (a perfect test; the gold-standard). The closer a curve to this point, the better is a test. No surprise, another common criterion for choosing the most appropriate cut-off value is selecting the point on the ROC curve with the minimum distance from the left-upper corner of the unit square (<a href="#r8" data-toggle="popover" data-ref_id="r8" data-content="t"><i>8</i></a>, <a href="#r15" data-toggle="popover" data-ref_id="r15" data-content="t"><i>15</i></a>, <a href="#r16" data-toggle="popover" data-ref_id="r16" data-content="t"><i>16</i></a>).</p>
+<p id="id23">Although the aforementioned criteria are based on various assumptions and their usefulness is merely dependent on the validity of the presumptions made in the practical setting, some researchers prefer one method to another. For example, Perkins and Schisterman recommend the use of the Youden’s index and warn about the use of the point with the minimum distance from the left-upper corner (<a href="#r16" data-toggle="popover" data-ref_id="r16" data-content="t"><i>16</i></a>). Nonetheless, selection of the criterion to be used should be based on the situation the test to be applied and the importance of the test Se compared to Sp. For example in designing a screening test, we need a high enough Se, say 0.8 or more, to reduce the FN rate. Otherwise, many diseased persons will be missed.</p>
+<p id="id24">All these methods are simple to use. However, in all of the above-mentioned methods, we inclusively assume that there is no difference between a FN and FP result. Neither do we consider the prior probability of the disease in question. Taking into account these variables, expectedly, makes the equations more complex (and hopefully more precise). This leads us to a related topic – the Bayesian decision analysis (<a href="#r17" data-toggle="popover" data-ref_id="r17" data-content="t"><i>17</i></a>).</p>
+</div>
+<div class="section">
+<a id="id25"><!-- named anchor --></a><h2 class="main-title">Bayesian approach in determining the cut-off value</h2>
+<p id="id26">Using a Bayesian approach, the odds of a disease before and after a diagnostic test can generally be related as follows:</p>
+<div class="list">
+<a id="L1"><!-- named anchor --></a><ul style="list-style-type: none"><li><p id="id27">Post-test odds of D<sup>+</sup> = Pre-test odds of D<sup>+</sup> x Bayes factor,</p></li></ul>
+</div>
+<p id="id28">where “Bayes factor” can be derived based on our assumptions. The Bayesian approach provides us with the information about how a test result would change the odds (and thus probability) of a disease (<a href="#r18" data-toggle="popover" data-ref_id="r18" data-content="t"><i>18</i></a>).</p>
+<p id="id29">The Bayes factor can be determined in various ways. For example, if we maximize the patient’s expected utility for determination of the Bayes factor in the above equation, we come up to a condition suggesting that the most appropriate cut-off value corresponds to a point on the ROC curve where the slope of the tangent line to the curve satisfies the following equation (<a href="#r2" data-toggle="popover" data-ref_id="r2" data-content="t"><i>2</i></a>, <a href="#r5" data-toggle="popover" data-ref_id="r5" data-content="t"><i>5</i></a>):</p>
+<div class="disp-formula panel">
+<a id="e___2"><!-- named anchor --></a><img alt="bm-26-297-e3.tif" class="graphic" src="bm-26-297-e3.tif">
+</div>
+<p id="id30">where <i>pr</i> represents the pre-test (prior) probability of the disease, H is the net harms of treating people who do not have the disease (the harms of a FP result), and B the net benefit of treating those with the disease (in other words, the harms of a FN result).</p>
+<p id="id31">The costs associated with harms of a FN and FP test result (B and H, respectively) and medical misdiagnosis have been the subject of growing number of articles (<a href="#r19" data-toggle="popover" data-ref_id="r19" data-content="t"><i>19</i></a>). The Institute of Medicine (IOM), an American non-profit, non-governmental organization, reports that about 30% of health care costs spending in the US, around US$ 750 billion, is wasted on unnecessary services (<a href="#r20" data-toggle="popover" data-ref_id="r20" data-content="t"><i>20</i></a>). In these types of analysis, a decision tree is constructed based on the available treatment options, and current evidence about risks and benefits associated with each option (<a href="#r2" data-toggle="popover" data-ref_id="r2" data-content="t"><i>2</i></a>, <a href="#r21" data-toggle="popover" data-ref_id="r21" data-content="t"><i>21</i></a>). Based on this structure, we can then estimate the cost-effectiveness and benefit-risk of making each decision and thus the probable outcome and harms associated with FN and FP results (<a href="#r21" data-toggle="popover" data-ref_id="r21" data-content="t"><i>21</i></a>-<a href="#r23" data-toggle="popover" data-ref_id="r23" data-content="t"><i>23</i></a>). Treatment protocols and screening programs are mainly shaped based on the results of such studies (<a href="#r24" data-toggle="popover" data-ref_id="r24" data-content="t"><i>24</i></a>, <a href="#r25" data-toggle="popover" data-ref_id="r25" data-content="t"><i>25</i></a>).</p>
+<p id="id32">A limitation of Equation 1 is however that although it ascertains the slope at the most appropriate point, the point cannot always be easily located. In practice, as mentioned above, a ROC curve is constructed based only on a few discrete (non-differentiable) points (it is really not a continuous curve), and thereby finding the point with the given slope on the curve is generally difficult, if not impossible; we arrive to an approximation at best. Although theoretically correct, the method is not quite handy. It would therefore be feasible if we can figure out the coordination (instead of the slope) of the point on a ROC curve corresponding to the most appropriate cut-off value through an analytical method.</p>
+</div>
+<div class="section">
+<a id="id33"><!-- named anchor --></a><h2 class="main-title">Analytical method for the calculation of the test cut-off value</h2>
+<p id="id34">Previously, we proposed a test index, the so-called “Number Needed to Misdiagnose” (NNM) (<a href="#r26" data-toggle="popover" data-ref_id="r26" data-content="t"><i>26</i></a>), which is the number of patients who need to be tested in order for one to be misdiagnosed by the test, as follows:</p>
+<div class="disp-formula panel">
+<a id="e___3"><!-- named anchor --></a><img alt="bm-26-297-e4.tif" class="graphic" src="bm-26-297-e4.tif">
+</div>
+<p id="id35">where pr represents the pre-test probability of the disease. For example, a NNM of 20 for a test means that one out of 20 people tested is misdiagnosed (either FP or FN). The higher the NNM of a test, the closer is the test to the gold-standard, hence, a better test.</p>
+<p id="id36">To determine the most appropriate cut-off value we can try to maximize the NNM. In the calculation of the NNM, however, the cost of FN and FP results are assumed equal. The cost of making a wrong diagnosis (either FP or FN) is nonetheless different in general. Note that here, the “cost” is referred to all costs incurred – the financial cost, time wasted on inappropriate treatments, missing the opportunity to cure a diseased person with consequences (complications, morbidities, disabilities, mortalities, etc.), and harms of treating people without disease with subsequent emotional harms to the patient, experiencing drug side effects, legal issues, etc (<a href="#r27" data-toggle="popover" data-ref_id="r27" data-content="t"><i>27</i></a>, <a href="#r28" data-toggle="popover" data-ref_id="r28" data-content="t"><i>28</i></a>). To consider this issue, we can assume that the cost of a FN result (misdiagnosing a D<sup>+</sup> person as D<sup>–</sup>) is C times the cost of a FP one (diagnosing a D<sup>–</sup> person as D<sup>+</sup>) and define “weighted NNM” as follows:</p>
+<div class="disp-formula panel">
+<a id="e___4"><!-- named anchor --></a><img alt="bm-26-297-e5.tif" class="graphic" src="bm-26-297-e5.tif">
+</div>
+<p id="id37">For example, if C = 5, then a FN result would cause five times more costs than a FP one; C = 1 means that costs for FN and FP results are equal. Then, to find the most appropriate cut-off value, we can maximize the weighted NNM – to take into account both closeness of the test results to the gold-standard results, and the costs of a misdiagnosis (either FP or FN).</p>
+<p id="id38">To find an analytical solution for the problem, let f(x) and g(x) designate the probability density function of a hypothetical diagnostic test with continuous results for D<sup>+</sup> and D<sup>–</sup> population (<a href="#f2" data-toggle="popover" data-ref_id="f2" data-content="t">Figure 2</a>), respectively. Let the mean and standard deviation (SD) of the distribution be 0, and 1 for D<sup>–</sup> people, and d and s for D<sup>+</sup> population, respectively. As it was mentioned earlier, Se and Sp are functions of the cut-off value. For a cut-off value of x, Se and Sp can be calculated as follows:<div class="disp-formula panel">
+<a id="e___5"><!-- named anchor --></a><img alt="bm-26-297-e6.tif" class="graphic" src="bm-26-297-e6.tif">
+</div>
+<div class="fig panel" style="display: float; clear: both">
+<a id="f2"><!-- named anchor --></a><h5 class="label">Figure 2</h5>
+<div class="caption"><p class="first" id="id39">The probability density functions of a continuous diagnostic test for diseased (f(x), red dashed line) and non-diseased (g(x), blue solid line) persons. g(x) has a mean of 0 and a standard deviation of 1; f(x) has a mean of d and a standard deviation of s. The cut-off value is represented by the vertical dotted line. All test values equal or greater than this value are considered positive (T<sup>+</sup>), else they are considered negative (T<sup>–</sup>). Because f(x) and g(x) are probability density functions, the area under the curve for each of them is equal to one. The area under f(x) to the right of the cut-off value (the pink region) is Se, and the area under g(x) to the left of the cut-off value (the light blue region) is Sp. This figure is drawn based on the first data set (N = 400) presented in the text. There are two x axes: the upper axis indicates serum osmolarity of the studied people; the lower axis represents the corresponding standardized values.</p></div>
+<img alt="bm-26-297-f2" class="graphic" src="bm-26-297-f2">
+</div>and</p>
+<div class="disp-formula panel">
+<a id="e___6"><!-- named anchor --></a><img alt="bm-26-297-e7.tif" class="graphic" src="bm-26-297-e7.tif">
+</div>
+<p id="id40">To maximize the weighted NNM (Equation 2), the denominator of the equation, should be minimized. Using basic calculus, to do so, the following equation should be solved:</p>
+<div class="disp-formula panel">
+<a id="e___7"><!-- named anchor --></a><img alt="bm-26-297-e8.tif" class="graphic" src="bm-26-297-e8.tif">
+</div>
+<p id="id41">From Equations 3 and 4, we have:</p>
+<div class="disp-formula panel">
+<a id="e___8"><!-- named anchor --></a><img alt="bm-26-297-e9.tif" class="graphic" src="bm-26-297-e9.tif">
+</div>
+<p id="id42">The minus sign before f(x) is because Se is a decreasing function of x; Sp is increasing. Then, Equation 5 becomes:</p>
+<div class="disp-formula panel">
+<a id="e___9"><!-- named anchor --></a><img alt="bm-26-297-e10.tif" class="graphic" src="bm-26-297-e10.tif">
+</div>
+<p id="id43">For simplicity, let g(x) has a normal distribution. Considering its mean and SD are 0 and 1, respectively, we have (<a href="#r29" data-toggle="popover" data-ref_id="r29" data-content="t"><i>29</i></a>):</p>
+<div class="disp-formula panel">
+<a id="e___10"><!-- named anchor --></a><img alt="bm-26-297-e11.tif" class="graphic" src="bm-26-297-e11.tif">
+</div>
+<p id="id44">Let f(x) also has a normal distribution and taking into account its mean, and SD are d, and s, we have (<a href="#r29" data-toggle="popover" data-ref_id="r29" data-content="t"><i>29</i></a>):</p>
+<div class="disp-formula panel">
+<a id="e___11"><!-- named anchor --></a><img alt="bm-26-297-e12.tif" class="graphic" src="bm-26-297-e12.tif">
+</div>
+<p id="id45">Solving Equation 7 for x:<div class="disp-formula panel">
+<a id="e___12"><!-- named anchor --></a><img alt="bm-26-297-e13.tif" class="graphic" src="bm-26-297-e13.tif">
+</div>gives:<div class="disp-formula panel">
+<a id="e___13"><!-- named anchor --></a><img alt="bm-26-297-e14.tif" class="graphic" src="bm-26-297-e14.tif">
+</div>if s≠1. If s=1, then x becomes:</p>
+<div class="disp-formula panel">
+<a id="e___14"><!-- named anchor --></a><img alt="bm-26-297-e15.tif" class="graphic" src="bm-26-297-e15.tif">
+</div>
+<p id="id46">This value corresponds to the most appropriate test cut-off value.</p>
+</div>
+<div class="section">
+<a id="id47"><!-- named anchor --></a><h2 class="main-title">Generality of the analytical method</h2>
+<p id="id48">Many of the aforementioned commonly used techniques in ROC analysis can be considered special cases of the proposed analytical method (Equations 8 and 9). As an example, if we assume the pre-test probability (<i>pr</i>) is 0.5, if FN and FP costs are equal (C = 1), and if the dispersions (SDs) of the test values for diseased and non-diseased people are equal (s = 1), then the cut-off value predicted by the proposed analytical method (Equation 9 which assumes s = 1), reduces to:<div class="disp-formula panel">
+<a id="e___15"><!-- named anchor --></a><img alt="bm-26-297-e16.tif" class="graphic" src="bm-26-297-e16.tif">
+</div>the value that is obtained from one of the most commonly used approaches to ROC analysis, i.e., a point where Se = Sp.</p>
+<p id="id49">It can also be shown that the optimum cut-off point derived from the proposed analytical method (Equation 8) has exactly the slope calculated by Equation 1. Using Equation 6, and substituting values for f(x) and g(x), the slope of ROC curve is:</p>
+<div class="disp-formula panel">
+<a id="e___16"><!-- named anchor --></a><img alt="bm-26-297-e17.tif" class="graphic" src="bm-26-297-e17.tif">
+</div>
+<p id="id50">Substituting x from Equation 8 (the coordination of the derived cut-off point) in the above equation yields:</p>
+<div class="disp-formula panel">
+<a id="e___17"><!-- named anchor --></a><img alt="bm-26-297-e18.tif" class="graphic" src="bm-26-297-e18.tif">
+</div>
+<p id="id51">But, 1/C is the cost of a FP result divided by the cost of a FN result, and equals H/B (Equation 1). Therefore, these two methods are technically equivalent. This means that maximizing either patient’s expected utility or weighted NNM results in the same cut-off value.</p>
+<p id="id52">The advantage of the proposed analytical method (Equation 8) over Equation 1, is however, its ease of use: although finding the point on a ROC curve is generally not possible and accurate solely based on the slope of the point (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>), calculation of the cut-off value by the proposed analytical method (Equations 8 and 9) is straight forward – you just need to know the test result means in diseased and non-diseased, SDs, pre-test probability of the disease (an estimate of the disease prevalence, if no other information is available), and an estimate of the costs of FN and FP test results (Equation 1 also needs the last two variables).</p>
+<div class="fig panel" style="display: float; clear: both">
+<a id="f3"><!-- named anchor --></a><h5 class="label">Figure 3</h5>
+<div class="caption"><p class="first" id="id53">The ROC curve constructed based on the first data set (N = 400) presented in the text: the real data set are presented as red solid curve; the values predicted from the proposed mathematical model are presented as the blue dashed curve. The arrows indicate points corresponding to cut-off values derived by various methods (<a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a>). The green dashed line is the tangent line with a slope of 0.853. Note that the tangent line intersects the ROC curve at two points. Se – sensitivity. Sp – specificity.</p></div>
+<img alt="bm-26-297-f3" class="graphic" src="bm-26-297-f3">
+</div>
+</div>
+<div class="section">
+<a id="id54"><!-- named anchor --></a><h2 class="main-title">Example</h2>
+<p id="id55">To compare the results obtained from different methods for the derivation of the most appropriate test cut-off value, we used the data set provided by Hooper <i>et al.</i>, who studied the diagnostic accuracy of calculated serum osmolarity to predict dehydration in people aged 65 years or more (<a href="#r30" data-toggle="popover" data-ref_id="r30" data-content="t"><i>30</i></a>). They used the directly measured serum/plasma osmolality of 595 participants to determine if they had dehydration (serum/plasma osmolality &gt; 300 mOsm/kg) or not (considered the gold-standard test). They then calculated serum osmolarity for each participant based on their serum sodium, potassium, glucose, and urea by an equation and used the calculated value as the test result. The calculated serum osmolarity was rounded off to the nearest integer value (<a href="#r31" data-toggle="popover" data-ref_id="r31" data-content="t"><i>31</i></a>). Then, for each cut-off value, the test was compared against the gold-standard test result. The prevalence of dehydration among the studied population was considered 0.19 (<a href="#r30" data-toggle="popover" data-ref_id="r30" data-content="t"><i>30</i></a>). Hooper <i>et al.</i> also estimated that the cost of a FN result (missing a dehydrated person and its health consequences) was five times the cost of a FP result (labelling a person as dehydrated, when he or she is actually not, resulting in a more blood test to directly measure serum osmolality or encouraging them to drink more) (<a href="#r30" data-toggle="popover" data-ref_id="r30" data-content="t"><i>30</i></a>).</p>
+<p id="id56">We randomly divided the data set into a 400-person and 195-person subsets. The groups sizes were arbitrary chosen. The first data set was used to calculate the cut-off values using the above-mentioned techniques. The second data set was used to test the effectiveness of each method to classify the participants. SPSS<sup>®</sup> for Windows<sup>®</sup>, ver. 17 (SPSS Inc, Chicago, IL, USA), was used for dividing the data at random into the two subsets, and data analyses including ROC analysis.</p>
+<p id="id57"><a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a> shows cut-off values derived by each of the previously described criteria. Theoretically, the intersection of the ROC curve (red solid line) and the line Se = Sp (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>) corresponds to the point where Se = Sp. However, there is no point in our data set satisfying this equation and the closest point is where Se and Sp are 0.718 and 0.767, respectively, corresponding to a serum osmolarity cut-off value of 298 mOsm/L. This point also has the minimum distance from the left-upper corner of the unit square (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>, <a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a>). A cut-off value of 299 mOsm/L maximizes the Youden’s index (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>, <a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a>).</p>
+<div class="table-wrap panel" style="display: float; clear: both">
+<a id="t1"><!-- named anchor --></a><h5 class="label">Table 1</h5>
+<div class="caption"><h4 class="subsection-title">Test cut-off values calculated based on the first group data set using different criteria</h4></div>
+<table frame="hsides" rules="groups">
+<a id="id58"><!-- named anchor --></a><col width="43.57%">
+<col width="18.72%">
+<col width="8.27%">
+<col width="8.21%">
+<col width="21.23%">
+<thead>
+<a id="id64"><!-- named anchor --></a><tr>
+<a id="id65"><!-- named anchor --></a><th valign="middle" align="left" scope="col" style="border-top: solid 0.50pt; border-bottom: solid 0.50pt">
+<a id="id66"><!-- named anchor --></a><b>Criterion</b>
+</th>
+<th valign="middle" align="center" scope="col" style="border-top: solid 0.50pt; border-bottom: solid 0.50pt">
+<a id="id67"><!-- named anchor --></a><b>Cut-off value (mOsm/L)</b>
+</th>
+<th valign="middle" align="center" scope="col" style="border-top: solid 0.50pt; border-bottom: solid 0.50pt">
+<a id="id68"><!-- named anchor --></a><b>Se</b>
+</th>
+<th valign="middle" align="center" scope="col" style="border-top: solid 0.50pt; border-bottom: solid 0.50pt">
+<a id="id69"><!-- named anchor --></a><b>Sp</b>
+</th>
+<th valign="middle" align="center" scope="col" style="border-top: solid 0.50pt; border-bottom: solid 0.50pt">
+<a id="id70"><!-- named anchor --></a><b>Cost of misdiagnosis (US$) in the second data set (N = 195)</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<a id="id71"><!-- named anchor --></a><tr>
+<a id="id72"><!-- named anchor --></a><td valign="middle" align="left" style="border-top: solid 0.50pt" scope="row">
+<a id="id73"><!-- named anchor --></a><b>Se = Sp</b>
+</td>
+<td valign="middle" align="center" style="border-top: solid 0.50pt">
+<a id="id74"><!-- named anchor --></a>298</td>
+<td valign="middle" align="center" style="border-top: solid 0.50pt">
+<a id="id75"><!-- named anchor --></a>0.718</td>
+<td valign="middle" align="center" style="border-top: solid 0.50pt">
+<a id="id76"><!-- named anchor --></a>0.767</td>
+<td valign="middle" align="center" style="border-top: solid 0.50pt">
+<a id="id77"><!-- named anchor --></a>10,500</td>
+</tr>
+<tr>
+<a id="id78"><!-- named anchor --></a><td valign="middle" align="left" scope="row">
+<a id="id79"><!-- named anchor --></a><b>Maximum Youden’s index</b>
+</td>
+<td valign="middle" align="center">
+<a id="id80"><!-- named anchor --></a>299</td>
+<td valign="middle" align="center">
+<a id="id81"><!-- named anchor --></a>0.667</td>
+<td valign="middle" align="center">
+<a id="id82"><!-- named anchor --></a>0.845</td>
+<td valign="middle" align="center">
+<a id="id83"><!-- named anchor --></a>11,300</td>
+</tr>
+<tr>
+<a id="id84"><!-- named anchor --></a><td valign="middle" align="left" scope="row">
+<a id="id85"><!-- named anchor --></a><b>Minimum distance from the left-upper corner of the unit square</b>
+</td>
+<td valign="middle" align="center">
+<a id="id86"><!-- named anchor --></a>298</td>
+<td valign="middle" align="center">
+<a id="id87"><!-- named anchor --></a>0.718</td>
+<td valign="middle" align="center">
+<a id="id88"><!-- named anchor --></a>0.767</td>
+<td valign="middle" align="center">
+<a id="id89"><!-- named anchor --></a>10,500</td>
+</tr>
+<tr>
+<a id="id90"><!-- named anchor --></a><td valign="middle" align="left" scope="row">
+<a id="id91"><!-- named anchor --></a><b>Slope of the ROC curve (slope = 0.853, C = 5)</b>
+</td>
+<td valign="middle" align="center">
+<a id="id92"><!-- named anchor --></a>?*</td>
+<td valign="middle" align="center">
+<a id="id93"><!-- named anchor --></a>?*</td>
+<td valign="middle" align="center">
+<a id="id94"><!-- named anchor --></a>?*</td>
+<td valign="middle" align="center">
+<a id="id95"><!-- named anchor --></a>?*</td>
+</tr>
+<tr>
+<a id="id96"><!-- named anchor --></a><td valign="middle" align="left" scope="row">
+<a id="id97"><!-- named anchor --></a><b>Analytical method (C = 5)</b>
+</td>
+<td valign="middle" align="center">
+<a id="id98"><!-- named anchor --></a>297</td>
+<td valign="middle" align="center">
+<a id="id99"><!-- named anchor --></a>0.795</td>
+<td valign="middle" align="center">
+<a id="id100"><!-- named anchor --></a>0.693</td>
+<td valign="middle" align="center">
+<a id="id101"><!-- named anchor --></a>9800</td>
+</tr>
+<tr>
+<a id="id102"><!-- named anchor --></a><td valign="middle" align="left" style="border-bottom: solid 0.50pt" scope="row">
+<a id="id103"><!-- named anchor --></a><b>Maximum weighted NNM (C = 5)</b>
+</td>
+<td valign="middle" align="center" style="border-bottom: solid 0.50pt">
+<a id="id104"><!-- named anchor --></a>297</td>
+<td valign="middle" align="center" style="border-bottom: solid 0.50pt">
+<a id="id105"><!-- named anchor --></a>0.795</td>
+<td valign="middle" align="center" style="border-bottom: solid 0.50pt">
+<a id="id106"><!-- named anchor --></a>0.693</td>
+<td valign="middle" align="center" style="border-bottom: solid 0.50pt">
+<a id="id107"><!-- named anchor --></a>9800</td>
+</tr>
+<tr>
+<a id="id108"><!-- named anchor --></a><td valign="middle" colspan="5" align="left" style="border-top: solid 0.50pt; border-bottom: solid 0.75pt" scope="col">
+<a id="id109"><!-- named anchor --></a>*Cannot be located accurately (see the tangent line in <a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p id="id110">Because there was no other information about the participants, the best estimate for the pre-test probability was the prevalence of dehydration, 0.19. Based on Equation 1, the slope of the tangent line to the ROC curve at the most appropriate cut-off point is 0.853 (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>, green dashed line), presuming that H/B equals to 1/5, i.e., the costs of harms of a FN result is five times the harms of a FP result (<a href="#r30" data-toggle="popover" data-ref_id="r30" data-content="t"><i>30</i></a>). However, because of the discrete (non-differentiable) data set, we could not find the corresponding point solely based on knowing its slope (without curve fitting). To figure out the point of interest according to an instruction described previously (<a href="#r4" data-toggle="popover" data-ref_id="r4" data-content="t"><i>4</i></a>), we passed a line with the slope through the left-upper corner of the unit square and moved it toward the ROC curve (red solid line) until it first intersected the curve. However, the line intersected the curve at two points (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>); practically, it was very hard to locate the point of interest visually with enough accuracy.</p>
+<p id="id111">The mean serum osmolarity (the test) in the first group (N = 400) was 292.3 (SD 8.2) mOsm/L in 322 participants without dehydration (D<sup>–</sup>), and 302.2 (SD 8.0) mOsm/L in 78 patients with dehydration (D<sup>+</sup>). Using the analytical method we proposed (Equation 8), we have:</p>
+<div class="disp-formula panel">
+<a id="e___18"><!-- named anchor --></a><img alt="bm-26-297-e19.tif" class="graphic" src="bm-26-297-e19.tif">
+</div>
+<p id="id112">Assuming that the pre-test probability (an estimate of the prevalence of dehydration) is 0.19, if the cost of a FN result is five times the cost of a FP result (C = 5), Equation 8 yields x = 0.463 corresponding to a cut-off value of 296.1 (292.3 + 0.463 x 8.2) mOsm/L for the serum osmolarity that corresponds to a Se of 0.777 and a Sp of 0.678 (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>, dashed blue curve). Based on the calculation, the closest available cut-off value in our data set is 297 mOsm/L, corresponding to a test Se of 0.795 and a Sp of 0.693 (<a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a>). This is where weighted NNM is also maximum (<a href="#f3" data-toggle="popover" data-ref_id="f3" data-content="t">Figure 3</a>, <a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a>).</p>
+<p id="id113">Let the cost of labelling a person as dehydrated, when he or she is actually not, (FP result) be approximately US$ 100 (more blood test to directly measure serum osmolality, encouraging them to drink more, waste of time), and the cost of missing a dehydrated person and its health consequences be about US$ 500. If we use the above-mentioned cut-off values to test the second data set (N = 195) and calculate the costs incurred by FN or FP test results as cost of FN plus cost of FP, the cut-off value obtained by the analytical method and maximizing the weighted NNM (which in this case are the same) is associated with lower costs compared to other methods (<a href="#t1" data-toggle="popover" data-ref_id="t1" data-content="t">Table 1</a>).</p>
+</div>
+<div class="section">
+<a id="id114"><!-- named anchor --></a><h2 class="main-title">Conclusions</h2>
+<p id="id115">The proposed analytical method gives a cut-off value that depends on the pre-test probability of the disease of interest. In the absence of any previous information or test results in a person, the pre-test probability can be estimated as the prevalence of the disease of interest. According to the proposed method, the cut-off value is higher in places where the disease is less prevalent.</p>
+<p id="id116">Taking the pre-test probability (or prevalence) of the disease of interest into account would result in major clinical implications. The appropriate cut-off point depends on the place where the test is going to be used. For example, considering Equation 8, the cut-off value for serum osmolarity for the diagnosis of dehydration in a tropical region, where the prevalence of the disease is high, should be lower (a more sensitive test) than that in a cold region, where the prevalence of dehydration is lower – we need a more sensitive test to diagnose dehydration in an endemic area. Even in a given place, the appropriate cut-off value depends on the group of people who need to be tested. For example, the cut-off value for a group of athletes exercising (higher risk/prevalence of dehydration) should be lower than that in general population.</p>
+<p id="id117">The cut-off value is also different for the diagnosis of diseases with different prevalence rates in a region. As an example, if in a region the prevalence of dehydration is different from the prevalence of diabetes insipidus, if we want to use serum osmolarity as a diagnostic test, we need to set two different cut-off values for the diagnosis of these two conditions. This finding supports the importance of the recommendations of the Clinical and Laboratory Standards Institute (CLSI) and the International Federation of Clinical Chemistry (IFCC) C28-A3 guideline published in 2008, stating that the reference intervals for laboratory analyses should be validated locally, using specimens taken from healthy local people (<a href="#r32" data-toggle="popover" data-ref_id="r32" data-content="t"><i>32</i></a>, <a href="#r33" data-toggle="popover" data-ref_id="r33" data-content="t"><i>33</i></a>). Reference intervals are different from clinical decision limits; while the former is based on the test results in the normal population, the latter is a cut-off value derived from one of the above-mentioned methods and is based on test results distribution in both the normal and diseased population (<a href="#r32" data-toggle="popover" data-ref_id="r32" data-content="t"><i>32</i></a>). Equations 8 and 9 clearly describe this association.</p>
+<p id="id118">Employing a Bayesian approach, the post-test (posterior) probability of a disease depends on the pre-test probability of the disease and the test result. The post-test probability of a disease after the patient is tested can however be considered the pre-test probability of the next test to be done. Based on what has been presented, the cut-off value of the second test should be different for two patients suspicious for the same disease but having different results on their first test, hence different post-test probabilities.</p>
+<p id="id119">In our analytical method to derive Equations 8 and 9, we assumed the test results followed a normal distribution for D<sup>+</sup> and D<sup>–</sup> persons. This assumption, though supported by extensive data from psychophysical and medical studies (<a href="#r9" data-toggle="popover" data-ref_id="r9" data-content="t"><i>9</i></a>), may not be true in general. Nevertheless, we have shown that the analytical method proposed, which is based on maximizing the weighted NNM, is mathematically equivalent to Equation 1, the derivation of which is based on maximizing the patient’s expected utility (<a href="#r2" data-toggle="popover" data-ref_id="r2" data-content="t"><i>2</i></a>, <a href="#r5" data-toggle="popover" data-ref_id="r5" data-content="t"><i>5</i></a>). As maximizing either of patient’s expected utility or the weighted NNM would result in the same result, it seems that maximizing the weighted NNM (Equation 2) is the best available method for determination of the most appropriate test cut-off value. This can easily be done by having an estimation of the pre-test probability of the disease, the relative cost of a FN to FP test result (C), and Se and Sp values for each cut-off point, which are readily available in most statistical software output. Using the weighted NNM mentioned above also abolishes the presumption of normal distribution of test values in diseased and non-diseased people.</p>
+<p id="id120">Only by taking the pre-test probability (prevalence, in lack of other information) of the disease of interest in the study population into account, and considering the cost (not just financial) of FN and FP results, we can find the most appropriate cut-off value for a diagnostic test. All these make it imperative to study more on the prevalence (as an estimate of the pre-test probability in lack of any information) and the cost of FN and FP test results in various populations. Besides the specimen to be analyzed, future autoanalyzers need to be fed with an estimate of pre-test probability (based on the previous test results), the disease of interest, and the associated cost of misdiagnosis. They are also equipped with a global positioning system so that they can retrieve important relevant data (e.g., prevalence of a disease) to determine if a test is positive or not for a certain disease.</p>
+</div>
+</div>
+<div id="article-back" class="back">
+<div class="back-section">
+<a id="id122"><!-- named anchor --></a><h2 class="main-title">Acknowledgements</h2>
+<p id="id121">The authors would like to thank Dr. Robert Fletcher of Harvard Medical School, Dr. Steven Goodman of Stanford School of Medicine, and Dr. Margaret Winker, a former Academic Editor of PLoS, for their invaluable suggestions and comments on an earlier version of this article. We would also thank Dr. Lee Hooper <i>et al.</i>, who kindly provided their data set to test our mathematical model. The views expressed are the sole responsibility of the authors.</p>
+</div>
+<div class="back-section">
+<a id="id125"><!-- named anchor --></a><h2 class="main-title">Notes</h2>
+<div class="footnote">
+<a id="id123"><!-- named anchor --></a><p id="id124"><span class="generated">[1]<span class="generated"> Conflicts of interest</span></span> None declared.</p>
+</div>
+</div>
+<div class="back-section">
+<a id="id126"><!-- named anchor --></a><div class="section ref-list">
+<a id="id126"><!-- named anchor --></a><h2 class="main-title">References</h2>
+<div class="ref-list table">
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">1</span> <a id="r1"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id127"><!-- named anchor --></a>Newman TB, Kohn MA, editors. Evidence-Based Diagnosis. New York: Cambridge University Press, 2009. http://dx.doi.org/<a href="https://doi.org/10.1017/CBO9780511759512" target="_blank">https://doi.org/10.1017/CBO9780511759512</a>.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">2</span> <a id="r2"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id128"><!-- named anchor --></a>Sox HC, Higgins MC, Owens DK, editors. Medical Decision Making. 2nd ed. Oxford, UK: Wiley-Blackwell, 2013. http://dx.doi.org/<a href="https://doi.org/10.1002/9781118341544" target="_blank">https://doi.org/10.1002/9781118341544</a>.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">3</span> <a id="r3"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id129"><!-- named anchor --></a>Fletcher RH, Fletcher SW. Clinical Epidemiology: The Essentials. 4th ed. Philadelphia: Lippincott Williams &amp; Wilkins, 2005.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">4</span> <a id="r4"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id130"><!-- named anchor --></a>Zweig MH, Campbell G. Receiver-operating characteristic (ROC) plots: a fundamental evaluation tool in clinical medicine. Clin Chem. 1993;39:561–77.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">5</span> <a id="r5"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id131"><!-- named anchor --></a>Metz CE. Basic principles of ROC analysis. Semin Nucl Med. 1978;8:283–98. <a href="https://doi.org/10.1016/S0001-2998(78)80014-2" target="_blank">https://doi.org/10.1016/S0001-2998(78)80014-2</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">6</span> <a id="r6"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id132"><!-- named anchor --></a>Swets JA. Measuring the accuracy of diagnostic systems. Science. 1988;240:1285–93. <a href="https://doi.org/10.1126/science.3287615" target="_blank">https://doi.org/10.1126/science.3287615</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">7</span> <a id="r7"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id133"><!-- named anchor --></a>Altman DG, Bland JM. Diagnostic tests 3: receiver operating characteristic plots. BMJ. 1994;309:188. <a href="https://doi.org/10.1136/bmj.309.6948.188" target="_blank">https://doi.org/10.1136/bmj.309.6948.188</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">8</span> <a id="r8"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id134"><!-- named anchor --></a>DeLong ER, DeLong DM, Clarke-Pearson DL. Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach. Biometrics. 1988;44:837–45. <a href="https://doi.org/10.2307/2531595" target="_blank">https://doi.org/10.2307/2531595</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">9</span> <a id="r9"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id135"><!-- named anchor --></a>Hanley JA, McNeil BJ. The meaning and use of the area under a receiver operating characteristic (ROC) curve. Radiology. 1982;143:29–36. <a href="https://doi.org/10.1148/radiology.143.1.7063747" target="_blank">https://doi.org/10.1148/radiology.143.1.7063747</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">10</span> <a id="r10"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id136"><!-- named anchor --></a>Hanley JA, McNeil BJ. A method of comparing the areas under receiver operating characteristic curves derived from the same cases. Radiology. 1983;148:839–43. <a href="https://doi.org/10.1148/radiology.148.3.6878708" target="_blank">https://doi.org/10.1148/radiology.148.3.6878708</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">11</span> <a id="r11"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id137"><!-- named anchor --></a>Doi SAR. Using and interpreting diagnostic tests with quantitative results. In: Doi S, Williams G, eds. Methods of Clinical Epidemiology. London: Springer; 2013. p.67-78. http://dx.doi.org/<a href="https://doi.org/10.1007/978-3-642-37131-8_6" target="_blank">https://doi.org/10.1007/978-3-642-37131-8_6</a>.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">12</span> <a id="r12"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id138"><!-- named anchor --></a>McNeil BJ, Keller E, Adelstein SJ. Primer on certain elements of medical decision making. N Engl J Med. 1975;293:211–5. <a href="https://doi.org/10.1056/NEJM197507312930501" target="_blank">https://doi.org/10.1056/NEJM197507312930501</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">13</span> <a id="r13"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id139"><!-- named anchor --></a>Metz CE, Goodenough DJ, Rossmann K. Evaluation of receiver operating characteristic curve data in terms of information theory, with applications in radiography. Radiology. 1973;109:297–303. <a href="https://doi.org/10.1148/109.2.297" target="_blank">https://doi.org/10.1148/109.2.297</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">14</span> <a id="r14"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id140"><!-- named anchor --></a>Youden WJ. Index for rating diagnostic tests. Cancer. 1950;3:32–5. <a href="https://doi.org/10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3" target="_blank">https://doi.org/10.1002/1097-0142(1950)3:1&lt;32::AID-CNCR2820030106&gt;3.0.CO;2-3</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">15</span> <a id="r15"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id141"><!-- named anchor --></a>Akobeng AK. Understanding diagnostic tests 3: Receiver operating characteristic curves. Acta Paediatr. 2007;96:644–7. <a href="https://doi.org/10.1111/j.1651-2227.2006.00178.x" target="_blank">https://doi.org/10.1111/j.1651-2227.2006.00178.x</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">16</span> <a id="r16"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id142"><!-- named anchor --></a>Perkins NJ, Schisterman EF. The inconsistency of «optimal» cutpoints obtained using two criteria based on the receiver operating characteristic curve. Am J Epidemiol. 2006;163:670–5. <a href="https://doi.org/10.1093/aje/kwj063" target="_blank">https://doi.org/10.1093/aje/kwj063</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">17</span> <a id="r17"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id143"><!-- named anchor --></a>Kornak J, Lu Y. Bayesian decision analysis for choosing between diagnostic/prognostic prediction procedures. Stat Interface. 2011;4:27–36. <a href="https://doi.org/10.4310/SII.2011.v4.n1.a4" target="_blank">https://doi.org/10.4310/SII.2011.v4.n1.a4</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">18</span> <a id="r18"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id144"><!-- named anchor --></a>Goodman SN. Toward evidence-based medical statistics. 2: The Bayes factor. Ann Intern Med. 1999;130:1005–13. <a href="https://doi.org/10.7326/0003-4819-130-12-199906150-00019" target="_blank">https://doi.org/10.7326/0003-4819-130-12-199906150-00019</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">19</span> <a id="r19"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id145"><!-- named anchor --></a>Balogh EP, Miller BT, Ball JR, editors. Improving Diagnosis in Health Care. Washington, DC: The National Academies Press, 2015. http://dx.doi.org/<a href="https://doi.org/10.17226/21794" target="_blank">https://doi.org/10.17226/21794</a>.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">20</span> <a id="r20"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id146"><!-- named anchor --></a>Smith M, Saunders R, Stuckhardt L, McGinnis JM, editors. Best Care at Lower Cost: the Path to Continuously Learning Health Care in America. Washington, DC: The National Academies Press, 2013.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">21</span> <a id="r21"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id147"><!-- named anchor --></a>Pauker SG, Kassirer JP. The threshold approach to clinical decision making. N Engl J Med. 1980;302:1109–17. <a href="https://doi.org/10.1056/NEJM198005153022003" target="_blank">https://doi.org/10.1056/NEJM198005153022003</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">22</span> <a id="r22"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id148"><!-- named anchor --></a>Vickers AJ. Decision analysis for the evaluation of diagnostic tests, prediction models and molecular markers. Am Stat. 2008;62:314–20. <a href="https://doi.org/10.1198/000313008X370302" target="_blank">https://doi.org/10.1198/000313008X370302</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">23</span> <a id="r23"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id149"><!-- named anchor --></a>Graber ML, Wachter RM, Cassel CK. Bringing diagnosis into the quality and safety equations. JAMA. 2012;308:1211–2. <a href="https://doi.org/10.1001/2012.jama.11913" target="_blank">https://doi.org/10.1001/2012.jama.11913</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">24</span> <a id="r24"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id150"><!-- named anchor --></a>Canadian Task Force on Preventive Health CareMTonelliConnorSGorberMJoffresJDickinsonHSinghGLewin. Recommendations on screening for breast cancer in average-risk women aged 40-74 years. CMAJ. 2011;183:1991–2001. <a href="https://doi.org/10.1503/cmaj.110334" target="_blank">https://doi.org/10.1503/cmaj.110334</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">25</span> <a id="r25"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id151"><!-- named anchor --></a>Lin JS, Piper MA, Perdue LA, Rutter C, Webber EM, O’Connor E, et al. Screening for Colorectal Cancer: A Systematic Review for the U.S. Preventive Services Task Force. Evidence Synthesis No. 135. AHRQ Publication No. 14-05203-EF-1. Rockville, MD: Agency for Healthcare Research and Quality, 2016.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">26</span> <a id="r26"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id152"><!-- named anchor --></a>Habibzadeh F, Yadollahie M. Number needed to misdiagnose: a measure of diagnostic test effectiveness. Epidemiology. 2013;24:170. <a href="https://doi.org/10.1097/EDE.0b013e31827825f2" target="_blank">https://doi.org/10.1097/EDE.0b013e31827825f2</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">27</span> <a id="r27"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id153"><!-- named anchor --></a>EBeerworthClinical investigations. legal implications. Aust Prescr. 1996;19:87–8. <a href="https://doi.org/10.18773/austprescr.1996.084" target="_blank">https://doi.org/10.18773/austprescr.1996.084</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">28</span> <a id="r28"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id154"><!-- named anchor --></a>Fields MM, Chevlen E. Screening for disease: making evidence-based choices. Clin J Oncol Nurs. 2006;10:73–6. <a href="https://doi.org/10.1188/06.CJON.73-76" target="_blank">https://doi.org/10.1188/06.CJON.73-76</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">29</span> <a id="r29"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id155"><!-- named anchor --></a>Topping J, editor. Errors of Observation and Their Treatment. 4th ed. London: Chapman and Hall, 1972. http://dx.doi.org/<a href="https://doi.org/10.1007/978-94-011-6928-8" target="_blank">https://doi.org/10.1007/978-94-011-6928-8</a>.</p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">30</span> <a id="r30"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id156"><!-- named anchor --></a>Hooper L, Abdelhamid A, Ali A, Bunn DK, Jennings A, John WG, et al. Diagnostic accuracy of calculated serum osmolarity to predict dehydration in older people: adding value to pathology laboratory reports. BMJ Open. 2015;5:e008846. <a href="https://doi.org/10.1136/bmjopen-2015-008846" target="_blank">https://doi.org/10.1136/bmjopen-2015-008846</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">31</span> <a id="r31"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id157"><!-- named anchor --></a>Habibzadeh F, Habibzadeh P. How much precision in reporting statistics is enough? Croat Med J. 2015;56:490–2. <a href="https://doi.org/10.3325/cmj.2015.56.490" target="_blank">https://doi.org/10.3325/cmj.2015.56.490</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">32</span> <a id="r32"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id158"><!-- named anchor --></a>Ozarda Y. Reference intervals: current status, recent developments and future considerations. Biochem Med (Zagreb). 2016;26:5–16. <a href="https://doi.org/10.11613/BM.2016.001" target="_blank">https://doi.org/10.11613/BM.2016.001</a></p></div>
+</div>
+<div class="row">
+<div class="ref-label cell"><p class="ref-label"><span class="label">33</span> <a id="r33"><!-- named anchor --></a></p></div>
+<div class="ref-content cell"><p class="citation"><a id="id159"><!-- named anchor --></a>CLSI and IFCC. Defining, establishing and verifying reference intervals in the clinical laboratory. Approved guideline - third edition. C28-A3 document. Wayne, PA, USA: CLSI, 2008.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="article-footer" class="footer"><div class="metadata"><div class="metadata-group"></div></div></div>
+</body>
+</html>
+</article>
+            </div>
+        </div>
+
+
+    
+
+
+
+
+    
+
+            <div class="teezer paddingt30">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <ul>
+                        <li><a href="https://www.biochemia-medica.com/en/journal/26/3/10.11613/BM.2016.034/fullArticle"><i class="far fa-book-reader fa-fw"></i> FULL TEXT</a></li>
+
+                        
+                                                            <li><a class="article_file_download" href="https://www.biochemia-medica.com/assets/images/upload/xml_tif/26-3_F_Habibzadeh_et_al__On_determing_the_most_approp_test.pdf" data-media_id="573" data-journals_id="186" target="_blank" title="Download article in PDF format: 26-3_F_Habibzadeh_et_al__On_determing_the_most_approp_test.pdf"><i class="far fa-file-pdf fa-fw"></i> DOWNLOAD PDF</a></li>
+                            	
+                                                    
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<script>
+
+    var INLINE_POPOVER = false; // ali prikazuje inline formule z popover
+    var CITED_BY = true; 	// ali prikazuje, če je bil članek uporabljen kot referenca pri drugih znanstvenih člankih, oz. je bil ta članek nekje citiran
+
+
+    $(document).ready(function () {
+
+        //MatchHeight();
+
+
+
+        // dodajanje slikice na polja, ki se lahko odpirajo in zapirajo
+        $(".table-wrap, .fig").each(function (index) {
+            $(this).prepend('<div class="clickToSlide"></div>');
+
+            //console.log( index + ": " + $( this ).text() );
+        });
+
+
+
+
+        // odpiranje zapiranje tabel
+        $('.table-wrap h5, .table-wrap .caption, .table-wrap .clickToSlide').click(function () {
+            var $table = $(this).closest('.table-wrap').find('table');
+            var $clickToSlide = $(this).closest('.table-wrap').find('.clickToSlide');
+            //console.log($table);
+            $table.fadeToggle("fast", function () {
+                if ($table.is(":visible")) {
+                    $clickToSlide.addClass("open");
+                } else {
+                    $clickToSlide.removeClass("open");
+                }
+                // Animation complete.
+            });
+
+        });
+
+
+        // odpiranje zapiranje figures
+        $('.fig h5, .fig .caption, .fig .clickToSlide').click(function () {
+            var $figure = $(this).closest('.fig').find('img');
+            var $clickToSlide = $(this).closest('.fig').find('.clickToSlide');
+            //console.log($table);
+            $figure.fadeToggle("slow", function () {
+                if ($figure.is(":visible")) {
+                    $clickToSlide.addClass("open");
+                } else {
+                    $clickToSlide.removeClass("open");
+                }
+                // Animation complete.
+                // Animation complete.
+            });
+
+        });
+
+
+
+
+
+        // tif v png
+        $('img.inline-graphic, img.graphic').each(function () {
+            var $img = $(this);
+            var newSrc = imgsrc = $img.attr('src');
+
+            if (imgsrc.indexOf(".tif") >= 0) {
+                newSrc = imgsrc.replace('tif', 'png');
+            } else {
+                newSrc = imgsrc + '.png';
+            }
+
+
+            newSrc = XML_IMAGES_URL + newSrc;
+
+            $img.attr('src', newSrc).attr('alt', newSrc);
+            //console.log(imgsrc);
+
+            if ($img.hasClass('inline-graphic') && INLINE_POPOVER == true) {
+                $img.hide().wrap('<a href="#" class="inline-substitute" data-toggle="popover" rel="inline-graphic" data-content="<img src=\'' + newSrc + '\'>" data-original-title="' + imgsrc + '" title="' + imgsrc + '"><code><i class="fa fa-calculator" aria-hidden="true"></i></code></a>');
+            }
+
+        });
+
+        if (INLINE_POPOVER == true) {
+            $('a[rel=inline-graphic]').popover({
+                html: true,
+                trigger: 'hover'
+                        //content: function () {
+                        //return '<img src="'+$(this).data('img') + '" />';
+                        //}
+            }).on('click', function (event) {
+                event.preventDefault();
+                return false;
+            });
+
+        }
+
+
+
+
+
+
+
+
+            // CITED_BY
+            if (CITED_BY) {
+
+                var TESTIRANJE = false;
+
+                $.ajax({
+                    type: "POST",
+                    dataType: "html",
+                    url: "https://www.biochemia-medica.com/en/journal/ajax_check_cited_by",
+                    data: {doi: '10.11613/BM.2016.034'
+                    },
+                    crossDomain: false,
+                    async: true,
+                    cache: false,
+                    beforeSend: function (xhr) {
+                        $('#CITED_BY').html('<i class="fa fa-spinner fa-spin"></i><span class="sr-only">Loading...</span>');
+                    },
+                    success: function (ajax_response) {
+
+                        if (TESTIRANJE) {
+                            $('#CITED_BY').html(ajax_response);
+                            return false;
+                        }
+
+                        var response = $.parseJSON(ajax_response);
+                        $('#CITED_BY').html(response.cited_by_num);
+                        $('#CITED_BY_HTML').html(response.cited_by_html);
+
+                        //console.log(response);
+                        if (response.cited_by_count === 0) {
+                            //$('section.cited_by').removeClass('hidden');	
+                            $('section.cited_by').find('a.collapsed')
+                                    .removeAttr('data-toggle')
+                                    .attr('href', 'javascript:void(0);')
+                                    .addClass('disabled');
+                        }
+
+                    },
+                    error: function (xhr, status, error) {
+                        $('#CITED_BY').html(xhr.status + ' ' + status + ' ' + error);
+                    }
+                });
+
+            }
+
+
+            // PDF download
+            $('.article_file_download').click(function (event) {
+
+                var journals_id = $(this).data('journals_id');
+                var media_id = $(this).data('media_id');
+                var file = $(this).data('journals_pdf');
+
+                $.ajax({
+                    type: "POST",
+                    dataType: "html",
+                    url: "https://www.biochemia-medica.com/en/journal/ajax_download_article_file",
+                    data: {journals_id: journals_id,
+                        media_id: media_id
+                    },
+                    crossDomain: false,
+                    async: true,
+                    cache: false,
+                    beforeSend: function (xhr) {
+                        $('#ARTICLE_FILE_DOWNLOAD_COUNT_' + media_id).html('<i class="fa fa-spinner fa-spin"></i><span class="sr-only">Loading...</span>');
+                    },
+                    success: function (ajax_response) {
+
+                        $('#ARTICLE_FILE_DOWNLOAD_COUNT_' + media_id).html(ajax_response);
+
+                        //location.replace(file);
+                    },
+                    error: function (xhr, status, error) {
+                        $('#ARTICLE_FILE_DOWNLOAD_COUNT_' + media_id).html(xhr.status + ' ' + status + ' ' + error);
+                    }
+                });
+
+
+
+
+                //event.preventDefault();
+                //return false;
+            });
+
+
+            //HIGHLIGHTS
+            var strOutlinesAbstract = '';
+            $('.abstract').each(function (index) {
+                let $item = $(this);
+                let id = 'abstract';
+
+                let $itemTitle = $item.find('h4.callout-title');
+
+                if ($itemTitle.text() === 'HIGHLIGHTS') {
+                    id = 'abstract-highlights';
+                    $item.addClass(id);
+                } else if ($itemTitle.text() === 'GRAPHICAL ABSTRACT') {
+                    id = 'graphical-abstract';
+                    $item.addClass(id);
+                }
+
+
+                $itemTitle.prepend('<a id="' + id + '"></a>');
+                //$itemTitle.prop('id', id);
+                strOutlinesAbstract += '<p><a href="#' + id + '" class="outline-section capitalize-first-letter" data-ref_id="' + id + '">' + $itemTitle.text() + '</a></p>';
+
+                // Sedaj pa še dobim vse naslove
+
+
+            });
+
+
+                    // OUTLINES, Supplementary material
+                var strOutlines = strOutlinesAbstract;
+
+
+
+
+
+
+
+
+
+                $("h2.main-title").each(function (index) {
+                    //console.log( index + ": " + $( this ).text() );
+
+                    if ($(this).text() === 'Supplementary material') {
+                        $(this).closest('.section').find('.caption p.first').html('<a href="#" data-ref_id="article_files_heading" data-action_done="open-panel" data-ref_id_done="article_files">' + $(this).text() + '</a>');
+                    }
+
+
+
+                    var id = $(this).closest('.section, .back-section').find('a').attr('id');
+                    if (!IsBlank(id)) {
+                        //console.log(id);
+                        if ($(this).text() === 'Supplementary material') {
+                            strOutlines += '<p><a href="#" data-ref_id="article_files_heading" data-action_done="open-panel" data-ref_id_done="article_files">' + $(this).text() + '</a></p>';
+                        } else {
+                            strOutlines += '<p><a href="#' + id + '" class="outline-section" data-ref_id="' + id + '">' + $(this).text() + '</a></p>';
+                        }
+                    }
+                });
+                if (!IsBlank(strOutlines)) {
+                    $('section.outline').removeClass('hidden');
+                    $('#OUTLINES').html(strOutlines);
+                    $('a.outline-section').click(function () {
+                        $('html, body').animate({
+                            scrollTop: $('#' + $(this).data('ref_id')).offset().top - 10
+                        }, 1000);
+                        return false;
+                    });
+                }
+    
+
+
+
+            // ARTICLE INFORMATION
+            var strArticleInformation = '';
+            $('.article-information .metadata-entry').each(function (index) {
+                //console.log( index + ": " + $( this ).html() );
+
+                // "Publisher ID"
+                if ($(this).html().indexOf("Publisher ID") === -1) {
+                    //console.log($( this ).html());
+
+                    if ($(this).html().indexOf("DOI:") !== -1) {
+                        //console.log($( this ).html()); 
+                        var strDOI = $(this).html().replace('<span class="generated">DOI: </span>', '');
+                        strDOI = '<span class="generated">DOI: </span><a href="https://doi.org/' + strDOI + '" target="_blank">https://doi.org/' + strDOI + '</a>';
+
+                        strArticleInformation += '<p>' + strDOI + '</p>';
+
+                    } else if ($(this).html().indexOf("License") !== -1) {
+
+                        var strLicence = $(this).html();
+                        strLicence += 'This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank" title="Creative Commons Attribution 4.0 International License">Creative Commons Attribution 4.0 International License</a>';
+
+                        strArticleInformation += '<p>' + strLicence + '</p>';
+
+                    } else if ($(this).html().indexOf("Volume:") === -1 && $(this).html().indexOf("Issue:") === -1 && $(this).html().indexOf("Electronic Location") === -1) {
+
+
+
+                        strArticleInformation += '<p>' + $(this).html() + '</p>';
+                    }
+                }
+            });
+            if (!IsBlank(strArticleInformation)) {
+                $('#ARTICLE_INFORMATION').html(strArticleInformation);
+            }
+
+
+
+            // ARTICLE KEYWORDS
+                    $('#article-front').append('<p class="paddingtb20"><span class="text-bold">Keywords: </span> <a href="https://www.biochemia-medica.com/en/journal_search?akeyw[]=ROC+curve" title="Search articles by keyword: ROC curve">ROC curve</a>; <a href="https://www.biochemia-medica.com/en/journal_search?akeyw[]=diagnostic+tests" title="Search articles by keyword: diagnostic tests">diagnostic tests</a>; <a href="https://www.biochemia-medica.com/en/journal_search?akeyw[]=sensitivity" title="Search articles by keyword: sensitivity">sensitivity</a>; <a href="https://www.biochemia-medica.com/en/journal_search?akeyw[]=specificity" title="Search articles by keyword: specificity">specificity</a>; <a href="https://www.biochemia-medica.com/en/journal_search?akeyw[]=prevalence" title="Search articles by keyword: prevalence">prevalence</a></p>');
+    
+
+
+
+
+            // ARTICLE AUTHORS
+            var strArticleAuthors = '';
+            $('.article-author-name').each(function (index) {
+                //console.log( index + ": " + $( this ).text() );
+                //console.log($( this ).html());
+                var Aname = '';
+                var AnameTxt = '';
+                var Adesc = '';
+
+                // Name
+                Aname = $(this).find('.Aname .metadata-entry').html();
+                AnameTxt = $(this).find('.Aname').text();
+
+                //console.log(Aname);
+                //console.log(AnameTxt);
+
+                var arrAname = AnameTxt.split('[');
+                AnameTxt = arrAname[0];
+
+
+                // Desc
+                if (!IsBlank($(this).find('.Adesc').text())) {
+                    Adesc = $(this).find('.Adesc .metadata-entry').html();
+                }
+                //Adesc = 'neki tekst';
+                strArticleAuthors += '<span class="bg-hover-author">';
+                strArticleAuthors += Aname + ' ';
+                if (!IsBlank(Adesc))
+                    strArticleAuthors += '<a href="#" data-toggle="popover" data-ref_id="none" data-content="' + Adesc + '" data-original-title="" title=""><i class="fas fa-info fa-fw fa-grey hoverRed"></i></a>';
+
+                strArticleAuthors += '<a target="_blank" href="https://scholar.google.com/scholar?as_allsubj=all&amp;as_sauthors=' + htmlEntities(encodeURIComponent('"' + AnameTxt + '"')) + '&amp;as_q=" data-toggle="popover" data-ref_id="none" data-content="Search Google Scholar for &raquo;' + AnameTxt + '&laquo;" data-original-title="" title=""><i class="fa fa-graduation-cap fa-fw fa-grey hoverRed" aria-hidden="true"></i></a>';
+                strArticleAuthors += '<a href="https://www.biochemia-medica.com/en/journal_search?author[]=' + htmlEntities(encodeURIComponent(AnameTxt)) + '" data-toggle="popover" data-ref_id="none" data-content="Search Biochemia Medica for &raquo;' + AnameTxt + '&laquo;" data-original-title="" title=""><i class="fa fa-search fa-fw fa-grey hoverRed" aria-hidden="true"></i></a>';
+                strArticleAuthors += '</span>,';
+            });
+            if (!IsBlank(strArticleAuthors)) {
+                strArticleAuthors = strArticleAuthors.substring(0, strArticleAuthors.length - 1);
+                strArticleAuthors += '<p><a href="#" class="btnAuthorsShowMore">Show more about author <i class="fas fa-angle-down fa-fw fa-grey"></i></a></p>';
+                $('#AUTHORS-XSL').html(strArticleAuthors);
+
+
+                $('#AUTHORS-XSL a[href^=#aff]').click(function (e) {
+                    if ($('.authorsHolder').is(":hidden")) {
+                        $('.btnAuthorsShowMore').click();
+                    }
+                });
+                // TUKAJ open show more
+
+            }
+
+
+                    $('#article-body, #article-back').remove();
+    
+
+
+
+
+
+        $('.btnAuthorsShowMore').click(function (e) {
+            e.preventDefault();
+
+            var $btn = $(this);
+            var $holder = $('.authorsHolder');
+
+            if ($holder.is(":visible")) {
+                $holder.slideUp('fast');
+                $btn.html('Show more about author <i class="fas fa-angle-down fa-fw fa-grey"></i>');
+            } else {
+                $holder.slideDown('fast');
+                $btn.html('Show less <i class="fas fa-angle-up fa-fw text-red"></i>');
+            }
+
+            /*$('.authorsHolder').slideToggle("fast", function() {
+             // Animation complete.
+             });*/
+        });
+
+
+
+
+
+
+
+        // popover
+        // https://getbootstrap.com/docs/3.3/javascript/#popovers
+        $('[data-toggle="popover"]').popover({
+            html: true,
+            placement: 'auto',
+            trigger: 'hover',
+            container: 'body'
+        }).on('show.bs.popover', function () {
+
+            var ref_id = $(this).data('ref_id');
+            var ref_text, num;
+
+
+            // Reference (na dnu dokumenta)
+            if (ref_id.charAt(0) == 'r') {
+                num = $('#' + ref_id).closest('.ref-label').find('.label').text();
+                ref_text = '[' + num + '] ' + $('#' + ref_id).closest('.row').find('.citation').text();
+                //var ref_text = $('#'+ref_id).closest('.row').find('.citation').html();
+            }
+
+            // Avtorji
+            if (ref_id.substring(0, 3) == 'aff') {
+                ref_text = $('#' + ref_id).closest('.metadata-entry').last().text();
+            }
+
+            // Slike
+            if (ref_id.charAt(0) == 'f') {
+                return false;
+            }
+
+            // Tabele
+            if (ref_id.charAt(0) == 't') {
+                return false;
+            }
+
+            //console.log(ref_id);
+            //console.log(ref_text);
+
+
+            // set popover content
+            if (ref_id != 'none') {
+                $(this).attr('data-content', ref_text);
+            }
+        });
+
+
+        // smooth scrolling
+        $('a[data-ref_id^="a"], a[data-ref_id^="r"], a[data-ref_id^="f"], a[data-ref_id^="t"]').click(function () {
+
+
+            var ref_id = $(this).data('ref_id');
+            var action_done = $(this).data('action_done');
+            var ref_id_done = $(this).data('ref_id_done');
+
+
+            $('html, body').animate({
+                scrollTop: $('#' + ref_id).offset().top - 100
+            }, 1000, function () {
+                // Animation complete.
+                if (!IsBlank(action_done)) {
+                    if (action_done === 'open-panel') {
+
+                        $('#' + ref_id_done).collapse('show');
+                    }
+                }
+
+            });
+            return false;
+        });
+
+
+
+
+    });
+</script>                        </div>
+
+
+                        <!--// Sidebar //-->
+                        <div class="col-md-3">
+                            
+
+
+    
+    
+
+    
+
+    <section class="column article_information"> 
+                <div class="panel panel-column"> 
+            <div class="panel-heading" role="tab" id="article_information_heading"> 
+                <a href="#article_information" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="article_information">
+                    <h4 class="panel-title">ARTICLE INFORMATION</h4> 
+                </a>
+            </div> 
+            <div class="collapse" role="tabpanel" id="article_information" aria-labelledby="article_information_heading" aria-expanded="false"> 
+                <div class="panel-body article_information_holder">
+                    <span id="ARTICLE_INFORMATION"></span>
+
+
+
+
+                    
+
+
+                                            <p>
+                            <span class="generated">Categories: </span>
+                            Lessons in biostatistics                                                    </p>
+                    
+
+
+
+                </div>
+            </div> 
+        </div> 
+        <script>
+            $('#article_information').collapse('show');
+        </script>
+    </section>
+
+
+
+
+    <section class="column"> 
+                <div class="panel panel-column"> 
+            <div class="panel-heading" role="tab" id="article_metrics_heading"> 
+                <a href="#article_metrics" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="article_metrics">
+                        <h4 class="panel-title">ARTICLE METRICS <!--<i class="fas fa-angle-down"></i>--></h4> 
+                </a>
+            </div> 
+            <div class="collapse" role="tabpanel" id="article_metrics" aria-labelledby="article_metrics_heading" aria-expanded="false"> 
+                <div class="panel-body">
+                    <p>Page views: <span id="VIEWS">275732</span></p>
+
+                                            <p><a href="https://www.biochemia-medica.com/assets/images/upload/xml_tif/26-3_F_Habibzadeh_et_al__On_determing_the_most_approp_test.pdf" target="_blank" class="article_file_download" title="26-3_F_Habibzadeh_et_al__On_determing_the_most_approp_test.pdf" data-media_id="573" data-journals_id="186">PDF Article download</a>: <span id="ARTICLE_FILE_DOWNLOAD_COUNT_573">1720</span> times</p>
+                                                        </div>
+            </div> 
+        </div> 
+        <script>
+            //$('#article_metrics').collapse('show');
+        </script>
+    </section>
+
+
+
+
+            <section class="column cited_by">	
+                        <div class="panel panel-column"> 
+                <div class="panel-heading" role="tab" id="cited_by_heading"> 
+                    <a href="#cited_by" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="cited_by">
+                        <h4 class="panel-title">CITED BY <span id="CITED_BY">0</span></h4> 
+                    </a>
+                </div> 
+                <div class="collapse" role="tabpanel" id="cited_by" aria-labelledby="cited_by_heading" aria-expanded="false"> 
+                    <div class="panel-body">
+                        <span id="CITED_BY_HTML"></span>
+                    </div>
+                </div> 
+            </div> 
+            <script>
+                //$('#cited_by').collapse('show');
+            </script>
+        </section>
+    
+
+            <section class="column">	
+                        <div class="panel panel-column"> 
+                <div class="panel-heading" role="tab" id="citation_tools_heading"> 
+                    <a href="#citation_tools" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="citation_tools">
+                        <h4 class="panel-title">HOW TO CITE</h4> 
+                    </a>
+                </div> 
+                <div class="collapse" role="tabpanel" id="citation_tools" aria-labelledby="citation_tools_heading" aria-expanded="false"> 
+                    <div class="panel-body">
+
+                        <span class="how-to-cite-to-clipboard">Habibzadeh F, Habibzadeh P, Yadollahie M. On determining the most appropriate test cut-off value: the case of tests with continuous results. Biochem Med (Zagreb). 2016;26:297-307</span>                        <a href="#" class="copy-to-clipboard" data-target=".how-to-cite-to-clipboard" data-response=".how-to-cite-to-clipboard-response" data-ref_id="" data-toggle="popover" data-content="Copy to Clipboard."><i class="fal fa-copy"></i></a>
+                        <span class="how-to-cite-to-clipboard-response"></span>
+
+                <!--                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="bibtex" href="#">BibTeX</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="bookends" href="#">Bookends</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="easybib" href="#">EasyBib</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="endnote-tagged" href="#">EndNote (tagged)</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="endnote-8-xml" href="#">EndNote 8 (xml)</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="medlars" href="#">Medlars</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="mendeley" href="#">Mendeley</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="papers" href="#">Papers</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="refworks-tagged" href="#">RefWorks (tagged)</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="reference-manager" href="#">Ref Manager</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="ris" href="#">RIS</a></p>
+                                        <p><a class="citation_tools_download" data-journals_id="186" data-tool="zotero" href="#">Zotero</a></p>-->
+
+                    </div>
+                </div> 
+            </div> 
+            <script>
+                //$('#citation_tools').collapse('show');
+            </script>
+        </section>
+    
+
+
+
+
+            <section class="column">	
+                        <div class="panel panel-column"> 
+                <div class="panel-heading" role="tab" id="share_article_heading"> 
+                    <a href="#share_article" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="share_article">
+                        <h4 class="panel-title">SHARE ARTICLE</h4> 
+                    </a>
+                </div> 
+                <div class="collapse" role="tabpanel" id="share_article" aria-labelledby="share_article_heading" aria-expanded="false"> 
+                    <div class="panel-body">
+
+                        <p>
+                        <div class="fb-share-button" data-href="https://www.biochemia-medica.com/en/journal/26/3/10.11613/BM.2016.034" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.biochemia-medica.com%2Fen%2Fjournal%2F26%2F3%2F10.11613%2FBM.2016.034&amp;src=sdkpreparse">FB Share</a></div>
+                        </p>
+
+                        <p>
+                            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=On determining the most appropriate test cut-off value: the case of tests with continuous results" data-size="large">Tweet</a>
+                        </p>
+
+                        <p>
+                            <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                            <script type="IN/Share"></script>
+                        </p>
+
+                                                <!--                    <div class="g-plus" data-size="tall" data-action="share" data-href="https%3A%2F%2Fwww.biochemia-medica.com%2Fen%2Fjournal%2F26%2F3%2F10.11613%2FBM.2016.034"></div>-->
+                    </div>
+                </div> 
+            </div> 
+
+
+        </section>
+    
+            <section class="column">
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=On+determining+the+most+appropriate+test+cut-off+value%3A+the+case+of+tests+with+continuous+results" target="_blank"><img src="https://www.biochemia-medica.com/assets/images/logo_pubmed.svg" class="img-responsive logo_pubmed"></a>
+        </section>
+    
+
+
+
+
+    <div class="test"></div>
+
+
+
+
+
+<script>
+    var cState = false;
+    $('#share_article').on('shown.bs.collapse', function () {
+        if (!cState) {
+            //console.log('sdfds');
+
+            // FB
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            // TW ITT ER
+            window.twttr = (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
+                if (d.getElementById(id))
+                    return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+                t._e = [];
+                t.ready = function (f) {
+                    t._e.push(f);
+                };
+                return  t;
+            }(document, "script", "twitter-wjs"));
+            // LINKED IN
+
+
+
+
+
+            // GOOGLE
+//            window.___gcfg = {
+//                lang: 'en-US',
+//                //parsetags: 'onload'
+//            };
+//
+//            (function () {
+//                var po = document.createElement('script');
+//                po.type = 'text/javascript';
+//                po.async = true;
+//                po.src = '//apis.google.com/js/platform.js';
+//                var s = document.getElementsByTagName('script')[0];
+//                s.parentNode.insertBefore(po, s);
+//            })();
+
+
+
+
+            cState = true;
+        }
+
+    });
+
+
+
+    $(document).ready(function () {
+
+
+        $('.citation_tools_download').click(function (event) {
+            event.preventDefault();
+
+            var journals_id = $(this).data('journals_id');
+            var tool = $(this).data('tool');
+
+            var TESTIRANJE = false;
+
+
+            $.ajax({
+                type: "POST",
+                dataType: "html",
+                url: "https://www.biochemia-medica.com/en/journal/ajax_citation_tools_download",
+                data: {
+                    journals_id: journals_id,
+                    tool: tool
+                },
+                crossDomain: false,
+                async: true,
+                cache: false,
+                beforeSend: function (xhr) {
+
+                },
+                success: function (ajax_response) {
+
+                    if (TESTIRANJE) {
+                        $('.test').html(ajax_response);
+                        return false;
+                    }
+
+
+
+                    var response = $.parseJSON(ajax_response);
+
+
+                    if (response.success) {
+
+                        //console.log(response.downloadpath);
+                        //return false;
+
+                        var element = document.createElement('a');
+                        element.setAttribute('href', response.downloadpath);
+                        element.setAttribute('download', response.filename);
+                        element.setAttribute('target', '_blank');
+
+                        element.style.display = 'none';
+                        document.body.appendChild(element);
+
+                        element.click();
+
+                        document.body.removeChild(element);
+                    }
+
+
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr.status + ' ' + status + ' ' + error);
+                }
+            });
+
+
+
+
+
+
+            //var text = 'moja vsebina dokumenta';
+            //var filename = 'ime_datoteke.ris';
+
+
+
+
+
+
+
+        });
+
+    });
+
+
+</script>
+
+
+
+
+
+                        </div>
+
+                    
+                </div>
+            </div>
+
+            <div class="container-fluid full bg-black-10 footerHolder">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer padding-footer">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 mb-50-xs">
+                            <img src="https://www.biochemia-medica.com/assets/images/logo_footer.svg" class="img-responsive logo-footer">
+
+                            <div class="paddingt20">
+                                HDMBLM<br>
+                                Boškovićeva 18<br>
+                                10000 Zagreb, Croatia<br><br>
+
+                                <i class="fas fa-phone"></i> <a href="tel:0038514828133" style="font-size:inherit">+385 1 48 28 133</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 mb-50-xs">
+                            <h4>Useful links</h4>
+
+                            <p><a href="http://www.hdmblm.hr/en" target="_blank">HDMBLM</a></p>
+                            <p><a href="https://www.e-sciencecentral.org/" target="_blank">Science central</a></p>
+                            <p><a href="https://www.eflm.eu/" target="_blank">EFLM</a></p>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-3 mb-50-xs">
+                            <!--                            <h4>Journal Information</h4>
+                                                      
+                                                        <p>
+                                                          Journal ID (publisher-id): BM<br>
+                                                          Journal ID (nlm-ta): Biochem Med<br>
+                                                          Title: Biochemia Medica<br>
+                                                          Abbreviated Title: Biochem. Med.<br>
+                                                          ISSN (print): 1330-0962<br>
+                                                          ISSN (electronic): 1846-7482<br>
+                                                          Publisher: Croatian Society of Medical Biochemistry and Laboratory Medicine
+                                                        </p>-->
+                        </div>
+                        <div class="col-xs-12 col-sm-3 mb-50-xs">
+                            <a href="https://www.biochemia-medica.com/en/feed/journal" target="_blank" title="Journal RSS feed"><i class="fa fa-rss-square footer-social-icon fa-fw" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/BiochemiaMedica" target="_blank" title="Follow us on Facebook"><i class="fab fa-facebook footer-social-icon fa-fw" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="col-xs-12 text-center paddingt50">
+                            <p>Copyright (&copy;) 2010 - 2026 Croatian Society of Medical Biochemistry and Laboratory Medicine. Creative Commons License This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a></p><p>&nbsp;&nbsp;&nbsp;<a href="https://www.biochemia-medica.com/en/page/general-terms-and-conditions-of-use" title="General terms and conditions of use" class="">General terms and conditions of use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" data-cc="show-preferencesModal" title="Cookies"><i class="fas fa-cookie-bite"></i></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.rpc.si" target="_blank" class="rpc">RPC</a></p>	  
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>  
+
+        
+
+    

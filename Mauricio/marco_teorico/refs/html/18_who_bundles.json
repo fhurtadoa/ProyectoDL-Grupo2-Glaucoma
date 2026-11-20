@@ -1,0 +1,100 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "8c0fc761-76a0-442c-85c0-51f54e94fcc9",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/8c0fc761-76a0-442c-85c0-51f54e94fcc9/item"
+        },
+        "bitstreams" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/8c0fc761-76a0-442c-85c0-51f54e94fcc9/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/8c0fc761-76a0-442c-85c0-51f54e94fcc9/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/8c0fc761-76a0-442c-85c0-51f54e94fcc9"
+        }
+      }
+    }, {
+      "uuid" : "3c9f9710-0199-4bb1-b89b-351a1ef6cfb1",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/3c9f9710-0199-4bb1-b89b-351a1ef6cfb1/item"
+        },
+        "bitstreams" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/3c9f9710-0199-4bb1-b89b-351a1ef6cfb1/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/3c9f9710-0199-4bb1-b89b-351a1ef6cfb1/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/3c9f9710-0199-4bb1-b89b-351a1ef6cfb1"
+        }
+      }
+    }, {
+      "uuid" : "881ee7d0-1b88-4834-bb24-2fbde7ff3c44",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/881ee7d0-1b88-4834-bb24-2fbde7ff3c44/item"
+        },
+        "bitstreams" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/881ee7d0-1b88-4834-bb24-2fbde7ff3c44/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/881ee7d0-1b88-4834-bb24-2fbde7ff3c44/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://iris.who.int/server/api/core/bundles/881ee7d0-1b88-4834-bb24-2fbde7ff3c44"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://iris.who.int/server/api/core/items/7a67638b-14e3-4dba-b013-dc206ff279d8/bundles"
+    }
+  }
+}
