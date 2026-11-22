@@ -1,0 +1,60 @@
+{
+  "modo": "completo",
+  "limite_piloto_por_coleccion": null,
+  "n_archivos_encontrados": 8242,
+  "n_archivos_inspeccionados": 8242,
+  "n_legibles": 8242,
+  "n_comparacion_fuentes": 2149,
+  "n_coincidencias_geometricas": 307,
+  "n_pares": 2096,
+  "manifiestos": {
+    "ACRIMA": {
+      "filas_manifiesto": 0,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "RIM-ONE DL": {
+      "filas_manifiesto": 447,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "EyePACS REAL": {
+      "filas_manifiesto": 0,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "EyePACS TRAIN": {
+      "filas_manifiesto": 0,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "Moondream Staged": {
+      "filas_manifiesto": 0,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "Megacohorte": {
+      "filas_manifiesto": 2152,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "THIRD_DATASET": {
+      "filas_manifiesto": 0,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    },
+    "Web emulada": {
+      "filas_manifiesto": 0,
+      "filas_sin_archivo_en_ruta_esperada": 0,
+      "rutas_manifiesto_faltantes": []
+    }
+  },
+  "versiones": {
+    "python": "3.14.2",
+    "numpy": "2.4.0",
+    "opencv": "5.0.0",
+    "pillow": "12.0.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  }
+}

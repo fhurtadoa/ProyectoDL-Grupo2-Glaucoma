@@ -1,0 +1,63 @@
+{
+  "defaults": {
+    "binary": "staged-binary-malignant",
+    "ternary": "staged-ternary-malignant"
+  },
+  "protocols": {
+    "staged-eval": {
+      "color": "RGB",
+      "resize": [224, 224],
+      "interpolation": "bilinear",
+      "center_crop": null,
+      "cuda_autocast": true,
+      "mean": [0.485, 0.456, 0.406],
+      "std": [0.229, 0.224, 0.225]
+    }
+  },
+  "models": [
+    {
+      "id": "staged-binary-malignant",
+      "mode": "binary",
+      "name": "ResNet-18 · Malignant Scale",
+      "architecture": "resnet18",
+      "weights": "modelos/model_staged_binary_malignant.pth",
+      "checkpoint_key": null,
+      "classes": ["normal", "glaucoma"],
+      "protocol": "staged-eval",
+      "decision": {"kind": "sigmoid", "threshold": 0.5}
+    },
+    {
+      "id": "staged-binary-vanilla",
+      "mode": "binary",
+      "name": "ResNet-18 · Vanilla",
+      "architecture": "resnet18",
+      "weights": "modelos/model_staged_binary_vanilla.pth",
+      "checkpoint_key": null,
+      "classes": ["normal", "glaucoma"],
+      "protocol": "staged-eval",
+      "decision": {"kind": "sigmoid", "threshold": 0.5}
+    },
+    {
+      "id": "staged-ternary-malignant",
+      "mode": "ternary",
+      "name": "ResNet-18 · Malignant Scale",
+      "architecture": "resnet18",
+      "weights": "modelos/model_staged_multiclass_malignant.pth",
+      "checkpoint_key": null,
+      "classes": ["normal", "early", "advanced"],
+      "protocol": "staged-eval",
+      "decision": {"kind": "softmax", "binary_threshold": 0.5}
+    },
+    {
+      "id": "staged-ternary-vanilla",
+      "mode": "ternary",
+      "name": "ResNet-18 · Vanilla",
+      "architecture": "resnet18",
+      "weights": "modelos/model_staged_multiclass_vanilla.pth",
+      "checkpoint_key": null,
+      "classes": ["normal", "early", "advanced"],
+      "protocol": "staged-eval",
+      "decision": {"kind": "softmax", "binary_threshold": 0.5}
+    }
+  ]
+}

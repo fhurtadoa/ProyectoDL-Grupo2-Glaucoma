@@ -5,6 +5,17 @@
 **Materia:** Deep Learning  
 **Formato de Publicación del Informe Final:** Plantilla de Artículo Científico — Revista DYNA (Facultad de Minas, Universidad Nacional de Colombia)  
 
+**Sustentación:** [Demo local de glaucoma y guion de cinco minutos](demo_glaucoma/README.md)
+
+
+## Alcance de las etiquetas al evaluar la severidad
+
+Algunas retinografías del estudio, como los ejemplos de RIM-ONE DL, tienen una etiqueta original **binaria**. Una referencia **Glaucoma** permite evaluar la detección de glaucoma. Para determinar si una predicción **Temprano** o **Avanzado** es correcta hace falta una referencia original de estadio.
+
+- **Evaluación trinaria.** Usa referencias de estadio verificadas para evaluar las clases Temprano y Avanzado. Una referencia binaria Sano se puede incluir en la fila Sano cuando su definición coincide con la del esquema trinario. Conserva el nivel original de cada etiqueta y reporta cuántos casos binarios Sano se incluyeron.
+- **Evaluación binaria.** Las referencias binarias Glaucoma pueden compararse con una predicción de presencia. Si la salida proviene de un modelo trinario, identifica esa comparación como **binaria derivada** e indica la regla de proyección utilizada.
+- **Reporte de resultados.** Excluye los casos Glaucoma sin estadio de los denominadores de las métricas trinarias y reporta sus cantidades por cohorte. Aplica el mismo criterio en matrices, tablas, figuras, informes y presentaciones. Una predicción del modelo jamás sustituye la etiqueta de referencia.
+
 ---
 
 ## 🎯 Delimitación del Objeto de Estudio y Marco Metodológico

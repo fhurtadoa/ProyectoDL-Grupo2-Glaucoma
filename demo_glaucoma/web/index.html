@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Demo académica local de clasificación de glaucoma en retinografías.">
+  <title>Clasificación de glaucoma</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" type="module"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="institution">Universidad Nacional de Colombia <span>·</span> Facultad de Minas</div>
+      <h1>Clasificación de glaucoma</h1>
+      <div class="course"><span>Deep Learning</span><span>Grupo 2</span><span>Docente: John Robert Ballesteros Parra</span><span>Demo académica</span></div>
+      <section class="team" aria-labelledby="team-title">
+        <h2 id="team-title">Integrantes</h2>
+        <ul>
+          <li><strong>Jair Alejandro Acevedo Londoño</strong><a href="mailto:jacevedolo@unal.edu.co">jacevedolo@unal.edu.co</a></li>
+          <li><strong>Fabián Andrés Hurtado Arango</strong><a href="mailto:fhurtadoa@unal.edu.co">fhurtadoa@unal.edu.co</a></li>
+          <li><strong>Jose Mauricio Toscano Aguas</strong><a href="mailto:jtoscanoa@unal.edu.co">jtoscanoa@unal.edu.co</a></li>
+          <li><strong>Andrés Arbeláez Morales</strong><a href="mailto:anarbelaezm@unal.edu.co">anarbelaezm@unal.edu.co</a></li>
+          <li><strong>Andrés Felipe Díez Ángel</strong><a href="mailto:adieza@unal.edu.co">adieza@unal.edu.co</a></li>
+        </ul>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <p class="alert" id="catalog-alert" role="status" hidden></p>
+
+    <div class="workspace">
+      <aside class="card controls" aria-labelledby="controls-heading">
+        <h2 id="controls-heading">Configurar análisis</h2>
+        <fieldset class="mode-field">
+          <legend>Modo de clasificación</legend>
+          <div class="mode-switch">
+            <label><input type="radio" name="mode" value="binary" checked><span>Binario</span></label>
+            <label><input type="radio" name="mode" value="ternary"><span>Trinario</span></label>
+          </div>
+        </fieldset>
+        <label class="field-label" for="model">Modelo</label>
+        <select id="model" disabled><option>Cargando modelos…</option></select>
+        <p class="model-status" id="model-status" role="status">Verificando pesos locales…</p>
+        <div class="section-divider"></div>
+        <p class="field-label">Imágenes</p>
+        <button type="button" id="dropzone" class="dropzone">
+          <span class="upload-icon" aria-hidden="true">+</span>
+          <strong>Elegir o arrastrar</strong>
+          <small>JPEG, PNG o WebP · 18 MiB</small>
+        </button>
+        <input type="file" id="images" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" multiple hidden>
+        <button type="button" class="button secondary" id="load-examples" disabled>Cargar lote de ejemplo</button>
+        <button type="button" class="button primary" id="run" disabled>Ejecutar predicción</button>
+      </aside>
+
+      <section class="card image-card" aria-labelledby="viewer-heading">
+        <div class="card-heading">
+          <h2 id="viewer-heading">Retinografía</h2>
+          <span class="case-count" id="case-count">Sin imagen</span>
+        </div>
+        <figure>
+          <div class="image-stage">
+            <div class="viewfinder" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <img id="retina" alt="" hidden>
+            <div class="image-empty" id="image-empty">
+              <span class="empty-mark" aria-hidden="true"></span>
+              <span>Selecciona una retinografía</span>
+            </div>
+          </div>
+          <figcaption>
+            <strong id="image-name">Sin archivo seleccionado</strong>
+            <span id="image-source"></span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="card results" aria-labelledby="result-heading">
+        <div class="card-heading">
+          <h2 id="result-heading">Resultado</h2>
+          <span class="badge neutral" id="result-status">Pendiente</span>
+        </div>
+        <div class="results-body" id="results-body" aria-live="polite"></div>
+      </section>
+    </div>
+
+    <section class="card batch" aria-labelledby="batch-heading">
+      <div class="batch-head">
+        <div>
+          <h2 id="batch-heading">Lote de análisis <span class="batch-count" id="batch-count">0 archivos</span></h2>
+          <p id="batch-summary" aria-live="polite">Agrega una imagen o carga el lote de ejemplo.</p>
+        </div>
+        <div class="batch-actions">
+          <button type="button" class="button secondary" id="import-csv" disabled>Importar etiquetas CSV</button>
+          <input type="file" id="csv-file" accept=".csv,text/csv" hidden>
+          <button type="button" class="button quiet" id="clear" disabled>Limpiar lote</button>
+        </div>
+      </div>
+      <details id="csv-help">
+        <summary>Formato de etiquetas CSV</summary>
+        <p>Usa el ID de la fila para identificar el archivo. También puedes usar <code>archivo</code> en lugar de <code>id</code> si el nombre es único en el lote.</p>
+        <pre>id,nivel,etiqueta
+U001,binario,Glaucoma
+U002,trinario,Temprano</pre>
+        <p>Binario admite Sano y Glaucoma. Trinario admite Sano, Temprano y Avanzado. Guarda el archivo en UTF-8 y usa comas.</p>
+      </details>
+      <section id="csv-feedback" class="csv-feedback" aria-live="polite" hidden></section>
+      <progress id="progress" value="0" max="1" aria-label="Progreso del lote" hidden></progress>
+      <div class="table-wrap" tabindex="0" aria-label="Resultados del lote">
+        <table>
+          <thead><tr><th scope="col">Imagen</th><th scope="col">Predicción</th><th scope="col">Referencia</th><th scope="col">Comparación</th><th scope="col">Estado</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="card confusion" aria-labelledby="confusion-heading">
+      <h2 id="confusion-heading">Matriz de confusión del lote</h2>
+      <p>Filas: etiquetas de referencia. Columnas: predicciones.</p>
+      <div id="confusion-matrices"></div>
+    </section>
+    <section class="card confusion" aria-labelledby="explanation-heading">
+      <h2 id="explanation-heading">Explicación de la predicción <span class="badge neutral">Pendiente</span></h2>
+      <p>Módulo previsto para contrastar los resultados con los hallazgos del proyecto y explorar por qué una predicción coincide o discrepa de la referencia.</p>
+    </section>
+  </main>
+</body>
+</html>

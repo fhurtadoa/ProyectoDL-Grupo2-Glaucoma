@@ -1,0 +1,82 @@
+{
+  "raiz_datos": "data",
+  "fuentes": [
+    {
+      "id": "ACRIMA", "ruta": "data/Database/Images", "tipo": "retinografia",
+      "representacion": "recorte peripapilar distribuido por ACRIMA",
+      "procedencia": "FISABIO Oftalmología Médica, Valencia (data/Database/Readme.txt)",
+      "camara_documentada": "Canon CR-DGi (manuscrito del repositorio, a nivel de fuente)",
+      "etiquetas": "nombre_acrima", "esquema": "binaria_clinica_acrima",
+      "comparar": true, "estratificar": true
+    },
+    {
+      "id": "RIM-ONE DL", "ruta": "data/RIM_ONE_DL", "tipo": "retinografia",
+      "representacion": "recortes distribuidos; nombres de tres series r1/r2/r3",
+      "procedencia": "RIM-ONE DL, copia local con metadata.csv",
+      "camara_documentada": "Kowa WX 3D (manuscrito del repositorio, a nivel de fuente)",
+      "manifiesto": {"ruta": "data/RIM_ONE_DL/metadata.csv", "ruta_col": "filepath", "etiqueta_col": "label_name"},
+      "esquema": "binaria_clinica_rimone", "comparar": true, "estratificar": true
+    },
+    {
+      "id": "EyePACS REAL", "ruta": "data/EYEPACS_REAL", "tipo": "retinografia",
+      "representacion": "archivos locales reescalados de fondo amplio",
+      "procedencia": "subconjunto EyePACS-TRAIN-RG/NRG según nombres; proyecto lo usa como prueba externa",
+      "camara_documentada": "Centervue DRS / Topcon (manuscrito del repositorio, sin correspondencia por imagen)",
+      "etiquetas": "carpeta", "esquema": "cribado_rg_nrg_local", "particion": "prueba_externa_del_proyecto",
+      "comparar": true, "estratificar": true
+    },
+    {
+      "id": "EyePACS TRAIN", "ruta": "data/EYEPACS_TRAIN", "tipo": "retinografia",
+      "representacion": "archivos locales BEH reescalados",
+      "procedencia": "serie BEH rotulada EyePACS en scripts/experimentos/05_mega_cohorte_federada_multisensor.py; vínculo con la otra subcolección sin manifiesto local",
+      "etiquetas": "carpeta", "esquema": "binaria_carpeta_beh", "particion": "entrenamiento_del_proyecto",
+      "comparar": true, "estratificar": true
+    },
+    {
+      "id": "Moondream Staged", "ruta": "data/MOONDREAM_STAGED", "tipo": "retinografia",
+      "representacion": "recortes locales por estadio; se observan rotaciones, relleno y variaciones de color compatibles con aumento previo; sin bitácora de transformaciones",
+      "procedencia": "cohorte atribuida a Hugging Face en README.md; origen y estadificación sin auditoría local independiente",
+      "etiquetas": "carpeta", "esquema": "estadio_carpeta_moondream", "particion_nivel": 0,
+      "comparar": true, "estratificar": true
+    },
+    {
+      "id": "Megacohorte", "ruta": "data/HARMONIZED_MEGA_COHORT", "tipo": "armonizada",
+      "representacion": "derivados 512 × 512 de las fuentes locales y copias redundantes",
+      "procedencia": "scripts/experimentos/07_armonizacion_roi_y_mega_dataset.py",
+      "manifiesto": {"ruta": "results/harmonized_mega_cohort_index.csv", "ruta_col": "path", "id_col": "sample_id", "etiqueta_col": "label", "particion_col": "split", "fuente_col": "source", "clases": {"0": "normal", "1": "glaucoma"}},
+      "etiquetas": "carpeta", "esquema": "binaria_recodificada_indice_mega", "particion_nivel": 0,
+      "enlace": {"ACRIMA": ["ACRIMA", "ACRIMA_", "escalar"], "RIM-ONE DL": ["RIM-ONE DL", "RIMONE_", "escalar"], "EyePACS": ["EyePACS REAL", "EYEPACS_ROI_", "recortar_color"], "Moondream": ["Moondream Staged", "MOONDREAM_", "escalar"]}
+    },
+    {
+      "id": "THIRD_DATASET", "ruta": "data/THIRD_DATASET", "tipo": "mascara_derivada",
+      "representacion": "mapas derivados RGBA; se observan patrones de bordes y regiones concéntricas; sin correspondencia anotada a retinografías",
+      "procedencia": "atribuido a ODIR o Kaggle Glaucoma en documentos del proyecto; origen sin manifiesto local",
+      "etiquetas": "carpeta", "esquema": "binaria_carpeta_third"
+    },
+    {
+      "id": "Web emulada", "ruta": "data/WEB_IN_THE_WILD", "tipo": "emulacion_web",
+      "representacion": "derivados de ACRIMA reescalados y comprimidos; diagramas, OCT y equipo dibujados",
+      "procedencia": "scripts/experimentos/03_adquisicion_web_y_filtro_calidad.py; carpetas raw, filtered y rejected",
+      "particion_nivel": 0, "enlace_web": "ACRIMA"
+    }
+  ],
+  "ausentes": [
+    {"id": "ACRIMA sin recorte / archivos bootstrap", "procedencia": "data/Readme.txt menciona originalImages, pliegues y archivos ZIP de bootstrap; solo se distribuyen aquí los recortes de Database/Images"},
+    {"id": "RIM-ONE DL antes del recorte", "procedencia": "copia local de recortes; no se ubicaron capturas previas ni segmentaciones de disco verificables"},
+    {"id": "Capturas fuente de EyePACS / BEH y Moondream", "procedencia": "solo están disponibles las copias locales preparadas; faltan manifiestos de correspondencia con capturas previas"},
+    {"id": "Web real independiente", "procedencia": "el script 03 genera una emulación local; no hay colección de descargas documentada"},
+    {"id": "Aumentos en memoria", "procedencia": "MalignantScaleAugmentation en Fabian/codigos_y_scripts/04_data_augmentation_invarianza_escala.py y 08_entrenamiento_malignant_scale_mega_cohorte.py; sin corpus exportado localizado"},
+    {"id": "ODIR-5K RGB", "procedencia": "README.md y compilador de bases médicas; THIRD_DATASET contiene representaciones derivadas de origen incierto"},
+    {"id": "REFUGE / REFUGE-2", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},
+    {"id": "PAPILA", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},
+    {"id": "LAG", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},
+    {"id": "G1020", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},
+    {"id": "AIROGS completo", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py; solo se observó el subconjunto local EyePACS-TRAIN-RG/NRG"},
+    {"id": "BRSET", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},
+    {"id": "Drishti-GS", "procedencia": "data/Readme.txt y Mauricio/manuscrito_estado_del_arte/extraccion.csv"},
+    {"id": "RIM-ONE v2 como colección independiente", "procedencia": "extraccion.csv (EST-01 y EST-11); localmente solo están los archivos consolidados RIM-ONE DL"},
+    {"id": "SMDG-19", "procedencia": "extraccion.csv (EST-05); consorcio citado en el estado del arte"},
+    {"id": "Cohortes Moorfields y Shanghai", "procedencia": "extraccion.csv (EST-07); citadas en la evaluación de RETFound"},
+    {"id": "Cohortes privadas descritas en estudios de glaucoma", "procedencia": "extraccion.csv (EST-10, EST-11 y EST-12); Yonsei/Soonchunhyang, base hospitalaria privada y cohortes multicéntricas chinas"}
+  ]
+}
