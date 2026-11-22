@@ -1,5 +1,10 @@
 # Estado del arte: de la clasificación de retinografías a la validez entre fuentes
 
+**Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías**  
+*Deep Learning (2026-2) — Facultad de Minas, Universidad Nacional de Colombia — Sede Medellín*
+
+---
+
 La clasificación automática de glaucoma en retinografías ha pasado de medidas diseñadas a mano, como la relación copa-disco, a representaciones aprendidas por redes profundas. Pero una pregunta más exigente que la precisión en una base es qué parte de lo aprendido corresponde a signos de enfermedad conservados entre poblaciones y qué parte depende de cómo se obtuvieron y etiquetaron las fotografías. La literatura demuestra discriminación bajo condiciones definidas; ofrece evidencia más desigual sobre su transporte a otras fuentes.
 
 ## De la prueba de concepto a la prueba entre bases
@@ -8,11 +13,19 @@ El aprendizaje por transferencia permitió entrenar clasificadores con conjuntos
 
 La diferencia entre validar dentro de una base y hacerlo fuera es sustantiva. Una partición aleatoria puede medir discriminación entre pacientes no vistos, pero conserva buena parte del proceso de adquisición y anotación. La prueba entre bases de Diaz-Pinto et al. enfrenta otras imágenes y decisiones de curación [2]. REFUGE estableció un conjunto y reglas comunes para comparar métodos de clasificación y segmentación del disco y la copa [3]. La comparación dentro de un desafío reduce diferencias de protocolo entre equipos; no reproduce por sí misma el paso a un hospital independiente. Una segmentación puede servir como insumo diagnóstico, pero su evaluación geométrica no valida la decisión clínica final.
 
+![Fig. 1. Diagrama de flujo PRISMA 2020: Identificación, cribado y selección de estudios primarios sobre generalización de clasificadores de glaucoma en retinografías.](fig00_prisma_2020_flujo_escala_grises.png)
+
+![Fig. 2. Frecuencia de protocolos de evaluación diagnóstica en los estudios primarios (partición interna aleatoria vs. evaluación entre bases independientes).](fig03_protocolos_evaluacion_escala_grises.png)
+
+![Fig. 3. Frecuencia de uso de bases de datos públicas de glaucoma en la literatura analizada.](fig02_bases_datos_frecuencia_escala_grises.png)
+
 ## Qué cambia cuando cambia la fuente
 
 Una retinografía de otro centro puede variar en encuadre, escala de la papila, iluminación, color, resolución, artefactos y calidad. También pueden cambiar la mezcla de edades, comorbilidades, gravedad y prevalencia. Por último, dos bases que usan la palabra «glaucoma» pueden haber aplicado criterios distintos para construir la etiqueta. Li et al. entrenaron un sistema para detectar neuropatía óptica glaucomatosa remitible a partir de rasgos evaluados en fotografías; entre sus errores identificaron ojos con miopía y otras afecciones [4]. Esa observación muestra que la dificultad no se limita a la cámara: hay anatomías y enfermedades que modifican la interpretación de los signos papilares. PAPILA, al aportar imágenes de ambos ojos y datos clínicos, hace visible la necesidad de separar pacientes al evaluar y de examinar el origen del diagnóstico [5]. Si ojos de una misma persona aparecen en entrenamiento y prueba, o si los criterios de caso cambian entre fuentes, una cifra aislada de ROC-AUC adquiere otro significado.
 
 Una caída al pasar de una base a otra demuestra que el desempeño no se transportó bajo ese conjunto de cambios; no demuestra que la causara el campo visual, un fabricante o el balance de color. Atribuir el efecto a una variable requiere comparaciones controladas. AIROGS acercó la evaluación al cribado al incluir imágenes no gradables y entradas inesperadas de numerosos centros, además de pruebas en otras bases [6]. Su aporte es recordar que un sistema debe reconocer cuándo la imagen no permite una decisión fiable, algo que no mide una prueba binaria con fotografías seleccionadas por su calidad.
+
+![Fig. 4. Magnitud del colapso diagnóstico inter-dominio (caída Delta-AUC) reportado en estudios primarios al evaluar en cohortes externas no vistas.](fig05_caida_delta_auc_por_estudio_escala_grises.png)
 
 ## Estrategias de generalización y alcance de su evidencia
 
@@ -20,11 +33,29 @@ Las propuestas para reducir la dependencia de la fuente operan sobre distintos n
 
 La adaptación de dominio introduce otra distinción: puede aprovechar imágenes del destino durante el desarrollo, mientras que la generalización estricta exige un destino no visto. Ambas estrategias pueden ser pertinentes, pero responden a preguntas distintas y deben informarse por separado. El preentrenamiento retiniano de RETFound sugiere una fuente adicional de representaciones para tareas oftalmológicas [8]; aún debe comprobarse, bajo un mismo protocolo de clasificación de glaucoma, cuánto añade frente a alternativas convencionales en bases externas. El interés de estas líneas no reside en proponer una técnica ganadora, sino en precisar qué clase de variación aborda cada una y con qué prueba se ha evaluado.
 
+![Fig. 5. Frecuencia de estrategias de mitigación frente a la heterogeneidad de adquisición y cambio de dominio.](fig04_estrategias_mitigacion_escala_grises.png)
+
+![Fig. 6. Distribución temporal de estudios primarios incluidos por año en la revisión sistemática.](fig01_publicaciones_por_ano_escala_grises.png)
+
 ## Etiquetas, grados y decisión clínica
 
 La clasificación binaria suele reunir objetivos que no son equivalentes: detectar neuropatía visible, identificar un sospechoso, recomendar remisión o reconocer glaucoma confirmado. Ahn et al. estudiaron casos tempranos y avanzados por separado [9], lo que apunta a una limitación de las evaluaciones que agregan todas las severidades. La clasificación ordinal exige un criterio explícito de estadio y datos clínicos adecuados para adjudicarlo; dividir artificialmente una puntuación o reutilizar etiquetas de procedencia incierta no resuelve ese requisito. Además de la exactitud global, interesa saber qué grados se confunden y si la dificultad se concentra en los casos tempranos. La validez de esas conclusiones depende tanto de la definición clínica como de la red.
 
 Finalmente, ROC-AUC resume la capacidad de ordenar casos a través de umbrales, pero una decisión de cribado se toma en un punto operativo. Por ello, la sensibilidad y la especificidad deben informarse con el umbral, sus denominadores e incertidumbre. Hemelings et al. observaron que los umbrales apropiados variaban entre fuentes y definiciones de caso [7]. Si se elige un umbral con las etiquetas de la base externa, esa base ya participó en el desarrollo; conviene distinguir tal reajuste de la aplicación de un umbral fijado previamente. Así, el vacío que articula esta literatura no es la falta de otro clasificador de alta AUC interna, sino la necesidad de pruebas que separen variación de imagen, variación de etiqueta y cambio del punto de decisión. Solo esa separación permite valorar qué estrategia mejora realmente el transporte del sistema.
+
+## Estudios clave de referencia
+
+| Estudio | Tarea y datos | Evaluación | Aporte y límite |
+|---|---|---|---|
+| Li et al. [4] | Neuropatía remitible; retinografías clínicas | Validación externa en cohorte multicéntrica | Demuestra alta discriminación pero revela errores críticos en ojos con miopía y opacidades. |
+| Gómez-Valverde et al. [1] | Clasificación binaria; retinografías | Comparación de backbones convolucionales y transferencia | Evalúa VGG19 y transferencia desde ImageNet; no aísla factores de adquisición entre cámaras. |
+| Diaz-Pinto et al. [2] | Clasificación binaria; cinco bases públicas | Validación cruzada y pruebas cruzadas inter-base | Primer benchmark sistemático inter-dominio que expone la brecha de generalización externa. |
+| Orlando et al. [3] | Clasificación y segmentación papilar (REFUGE) | Competencia internacional con protocolo unificado | Estandariza la evaluación comparativa, aunque dentro de las condiciones acotadas del reto. |
+| de Vente et al. [6] | Cribado e imágenes no gradables (AIROGS) | Evaluación en múltiples centros clínicos no vistos | Introduce el manejo de calidad óptica y rechazo de retinografías no interpretables. |
+| Hemelings et al. [7] | Regresión ordinal de riesgo; 13 fuentes externas | Validación externa masiva con armonización | Demuestra la viabilidad de generalización mediante preprocesamiento y alineación papilar. |
+| Kovalyk et al. [5] | Cohorte binocular y metadatos clínicos (PAPILA) | Auditoría de procedencia y partición por paciente | Resalta el riesgo de fuga de datos entre ojos y la necesidad de separar pacientes. |
+| Zhou et al. [8] | Modelo fundacional retiniano (RETFound) | Preentrenamiento autosupervisado multimodal | Abre la ruta de representaciones específicas para retina; pendiente evaluar en clasificación fina. |
+| Ahn et al. [9] | Detección estratificada temprana vs. avanzada | Evaluación por estadio de gravedad | Demuestra el crítico subdiagnóstico del estadio temprano frente al avanzado. |
 
 ## Referencias verificadas
 
