@@ -1,8 +1,8 @@
 import re, base64, subprocess, sys, os
 from pathlib import Path
 
-BASE_DIR = Path("/Users/fabian/GlaucomaDL")
-MD_PATH = BASE_DIR / "informes" / "02_experimento_mega_cohorte_multisensor" / "INFORME_EXPERIMENTO_MEGA_COHORTE_MULTICENTRICA.md"
+BASE_DIR = Path(__file__).resolve().parents[2]
+MD_PATH = BASE_DIR / "scripts" / "compiladores_informes" / "fuentes" / "INFORME_EXPERIMENTO_MEGA_COHORTE_MULTICENTRICA.md"
 HTML_PATH = BASE_DIR / "informes" / "02_experimento_mega_cohorte_multisensor" / "INFORME_EXPERIMENTO_MEGA_COHORTE_MULTICENTRICA.html"
 PDF_PATH = BASE_DIR / "informes" / "02_experimento_mega_cohorte_multisensor" / "INFORME_EXPERIMENTO_MEGA_COHORTE_MULTICENTRICA.pdf"
 

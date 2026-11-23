@@ -78,7 +78,7 @@ Si acabas de clonar el repositorio y necesitas ponerte al día en 5 minutos sin 
   ```
 
 ### 2. ¿Dónde están los modelos listos para usar?
-No necesitas volver a entrenar los modelos para probarlos o extraer resultados. Todos los pesos entrenados están guardados en la carpeta `modelos/`:
+No necesitas volver a entrenar los modelos para probarlos o extraer resultados. Los checkpoints que usa el proyecto se buscan en [`modelos/`](modelos/). El ConvNeXt-Tiny de ajuste fino está excluido de Git por tamaño y requiere una copia local.
 - **`modelos/best_fine_tuned_convnext_tiny_glaucoma.pth`:** **MODELO GANADOR Y MÁS POTENTE.** Es el ConvNeXt-Tiny tras fine-tuning profundo (ROC-AUC global = **0.9669**, Exactitud = **90.72%**, Especificidad = **92.69%**, ACRIMA AUC = **1.0000**, EyePACS AUC = **0.9400** con 100% de especificidad). Es la red principal recomendada para el artículo.
 - **`modelos/model_staged_multiclass_malignant.pth`:** **MODELO DE ESTADIFICACIÓN EN 3 CLASES** (Sano, Incipiente/Early, Avanzado/Advanced). Entrenado con Malignant Scale Augmentation. Alcanza un índice de acuerdo cuadrático $QWK = \mathbf{0.8163}$ y suprime los errores catastróficos a menos del $10\%$.
 - **`modelos/model_staged_binary_malignant.pth`:** Modelo binario bajo aumento maligno (ROC-AUC = **0.9443**, Especificidad = **85.00%**).
@@ -86,13 +86,13 @@ No necesitas volver a entrenar los modelos para probarlos o extraer resultados. 
 - **`modelos/final_resnet18_1000ep.pth`:** Checkpoint de la época 1000 (Especificidad en test: **94.98%**, con solo 11 falsos positivos en 431 imágenes).
 
 ### 3. ¿Dónde están los informes y gráficas para el artículo Revista DYNA?
-Todos los informes técnicos están compilados en formato **PDF autónomo (listos para imprimir o revisar)**, HTML y Markdown dentro de la carpeta `informes/`.
+Los informes técnicos publicados están en **PDF** en [`informes/`](informes/). Los compiladores de los informes 01 a 03 leen sus [fuentes Markdown](scripts/compiladores_informes/fuentes/).
 
 El documento central que sintetiza absolutamente todo el proyecto es el **Informe Maestro 10**:
 - 📄 **[INFORME_MAESTRO_GENERALIZACION_FINAL.pdf](informes/10_informe_maestro_generalizacion_final/INFORME_MAESTRO_GENERALIZACION_FINAL.pdf)** *(16.8 MB, 300 DPI. Estructurado como artículo científico completo para la Revista DYNA. Cubre desde el planteamiento del problema, auditoría de datos, benchmark de 10 redes, 2 vs 3 clases, hasta las 1.000 épocas y matriz de generalización).*
 
-Asimismo, el **Estado del Arte completo del artículo** se estructuró como una **Revisión Sistemática de Literatura (RSL)** reproducible bajo directrices Kitchenham & Charters (2007) y PRISMA 2020:
-- 📖 **[estado_del_arte.md](estado_del_arte/texto/estado_del_arte.md)** *(Manuscrito formal bajo formato Revista DYNA: 8 secciones numeradas, 32 referencias en orden de aparición con DOI, tablas horizontales, 6 figuras en escala de grises a 300 DPI y análisis autocrítico del proyecto).*
+Asimismo, el **Estado del Arte completo del artículo** se estructuró como una **Revisión Sistemática de Literatura (RSL)** reproducible bajo directrices Kitchenham & Charters (2007) y PRISMA 2020. Consulta el [PDF compilado](estado_del_arte/estado_del_arte.pdf) y el [manuscrito reescrito](Mauricio/manuscrito_estado_del_arte/estado_del_arte_reescrito.md).
+- 📖 **[estado_del_arte.md](Mauricio/manuscrito_estado_del_arte/estado_del_arte.md)** *(Manuscrito formal bajo formato Revista DYNA: 8 secciones numeradas, 32 referencias en orden de aparición con DOI, tablas horizontales, 6 figuras en escala de grises a 300 DPI y análisis autocrítico del proyecto).*
 
 ---
 
@@ -100,11 +100,11 @@ Asimismo, el **Estado del Arte completo del artículo** se estructuró como una 
 
 | N° | Carpeta / Documento PDF | Enfoque Principal y Contenido Clave | Estado |
 | :---: | :--- | :--- | :---: |
-| **RSL** | [`estado_del_arte`](estado_del_arte/texto/estado_del_arte.md) | **ESTADO DEL ARTE Y REVISIÓN SISTEMÁTICA DE LITERATURA.** Manuscrito formal PRISMA 2020 / Kitchenham 2007 (DYNA), búsqueda en 4 APIs, Crossref, Kappa $\kappa=0.6484$, QA1-QA9 y 6 figuras. | 📖 RSL DYNA |
-| **01** | [`01_experimento_invarianza_escala`](informes/01_experimento_invarianza_escala/INFORME_EXPERIMENTO_INVARIANZA_ESCALA.pdf) | Primeros hallazgos sobre la pérdida de generalización por atajo de escala en ventanas de recorte fijas. | ✅ Completado |
-| **02** | [`02_experimento_mega_cohorte_multisensor`](informes/02_experimento_mega_cohorte_multisensor/INFORME_EXPERIMENTO_MEGA_COHORTE.pdf) | Fusión inicial de bases de datos y evidencia del desplome de rendimiento al cruzar cámaras hospitalarias. | ✅ Completado |
+| **RSL** | [Estado del arte (PDF)](estado_del_arte/estado_del_arte.pdf) | **ESTADO DEL ARTE Y REVISIÓN SISTEMÁTICA DE LITERATURA.** Manuscrito formal PRISMA 2020 / Kitchenham 2007 (DYNA), búsqueda en 4 APIs, Crossref, Kappa $\kappa=0.6484$, QA1-QA9 y 6 figuras. | 📖 RSL DYNA |
+| **01** | [`01_experimento_invarianza_escala`](informes/01_experimento_invarianza_escala/INFORME_EXPERIMENTO_DATA_AUGMENTATION_MALIGNO_ESCALA.pdf) | Primeros hallazgos sobre la pérdida de generalización por atajo de escala en ventanas de recorte fijas. | ✅ Completado |
+| **02** | [`02_experimento_mega_cohorte_multisensor`](informes/02_experimento_mega_cohorte_multisensor/INFORME_EXPERIMENTO_MEGA_COHORTE_MULTICENTRICA.pdf) | Fusión inicial de bases de datos y evidencia del desplome de rendimiento al cruzar cámaras hospitalarias. | ✅ Completado |
 | **03** | [`03_experimento_estadificacion_multietapa`](informes/03_experimento_estadificacion_multietapa/INFORME_EXPERIMENTO_CLASIFICACION_MULTIETAPA.pdf) | Primera aproximación a la clasificación en tres estadíos de severidad (Sano, Incipiente, Avanzado). | ✅ Completado |
-| **04** | [`04_evaluacion_bases_medicas_y_mega_dataset`](informes/04_evaluacion_bases_medicas_y_mega_dataset/INFORME_EVALUACION_BASES_MEDICAS_Y_MEGA_DATASET.pdf) | Auditoría forense de bases de datos médicas y **justificación de exclusión de `THIRD_DATASET`/ODIR** por ruido de máscaras. | ✅ Completado |
+| **04** | [`04_evaluacion_bases_medicas_y_mega_dataset`](informes/04_evaluacion_bases_medicas_y_mega_dataset/INFORME_EVALUACION_BASES_MEDICAS.pdf) | Auditoría forense de bases de datos médicas y **justificación de exclusión de `THIRD_DATASET`/ODIR** por ruido de máscaras. | ✅ Completado |
 | **05** | [`05_entrenamiento_y_estres_malignant_scale_mega_cohorte`](informes/05_entrenamiento_y_estres_malignant_scale_mega_cohorte/INFORME_ENTRENAMIENTO_ESTRES_MALIGNO_MEGA_COHORTE.pdf) | Pipeline de armonización anatómica de ROI a $35^\circ$ FOV ($N=2,152$) y diseño de *MalignantScaleAugmentation*. | ✅ Completado |
 | **06** | [`06_experimento_1000_epocas_sobreentrenamiento`](informes/06_experimento_1000_epocas_sobreentrenamiento/INFORME_EXPERIMENTO_1000_EPOCAS_SOBREENTRENAMIENTO.pdf) | Régimen longitudinal de 1.000 épocas continuas, serie temporal continua (Figura 29) y evidencia de *Grokking* tardío. | ✅ Completado |
 | **07** | [`07_seleccion_modelo_base_10_candidatos`](informes/07_seleccion_modelo_base_10_candidatos/INFORME_SELECCION_MODELO_BASE_10_CANDIDATOS.pdf) | Benchmark multicriterio de 10 arquitecturas (CNNs, Transformers, Mobile) y fine-tuning de **ConvNeXt-Tiny**. | ✅ Completado |
@@ -158,11 +158,11 @@ Evaluación sobre conjunto de prueba multicéntrico ($N=431$) bajo puntaje compu
 - Train loss colapsó a $0.0003$, mientras que la validación ROC-AUC se mantuvo en **$0.959 - 0.982$**, confirmando el fenómeno de **Grokking** (compresión y estabilización de representaciones latentes).
 
 ### 6. Revisión Sistemática de Literatura y Estado del Arte (Kitchenham & PRISMA 2020)
-- **Metodología y Rigor:** Construcción desde cero del estado del arte siguiendo Kitchenham & Charters (2007) y PRISMA 2020 en formato de la **Revista DYNA** ([estado_del_arte.md](estado_del_arte/texto/estado_del_arte.md)).
+- **Metodología y Rigor:** Construcción desde cero del estado del arte siguiendo Kitchenham & Charters (2007) y PRISMA 2020 en formato de la **Revista DYNA** ([estado_del_arte.md](Mauricio/manuscrito_estado_del_arte/estado_del_arte.md)).
 - **Búsqueda Programática en 4 APIs:** OpenAlex ($n=150$), Europe PMC ($n=62$), PubMed ($n=54$) y arXiv ($n=29$), sumando 295 registros brutos y 221 únicos tras deduplicación algorítmica.
 - **Validación en Crossref API:** 190 DOIs verificados exitosamente con 0 retracciones.
 - **Doble Cribado y Concordancia:** Evaluación independiente con Kappa de Cohen $\kappa = \mathbf{0.6484}$ (acuerdo sustancial, $82.35\%$ observado).
-- **Calidad Metodológica y Extracción:** Evaluación QA1–QA9 ([calidad.csv](estado_del_arte/tablas/calidad.csv), media $8.33/9.00$) y matriz estructurada de 27 variables ([extraccion.csv](estado_del_arte/tablas/extraccion.csv)).
+- **Calidad Metodológica y Extracción:** Evaluación QA1–QA9 ([calidad.csv](Mauricio/manuscrito_estado_del_arte/calidad.csv), media $8.33/9.00$) y matriz estructurada de 27 variables ([extraccion.csv](Mauricio/manuscrito_estado_del_arte/extraccion.csv)).
 - **Hallazgos Clave de la Literatura:**
   - Caída inter-dominio media de $\Delta\text{AUC} = \mathbf{0.0982}$ (hasta $0.2310$ en protocolos *Leave-One-Domain-Out*).
   - Factor de confusión óptico más nocivo: la **disparidad angular del campo visual ($30^\circ-35^\circ$ papilar vs. $45^\circ$ panorámico macular)**.
@@ -173,95 +173,23 @@ Evaluación sobre conjunto de prueba multicéntrico ($N=431$) bajo puntaje compu
 
 ## 📁 Estructura General del Repositorio
 
-```
-GlaucomaDL/
-├── estado_del_arte/                              # Revisión Sistemática de Literatura (RSL) PRISMA 2020
-│   ├── texto/estado_del_arte.md                  # Manuscrito formal DYNA (8 secciones numeradas)
-│   ├── refs/referencias_dyna.md                  # 32 referencias en orden de aparición con DOI activo
-│   ├── refs/referencias.bib                      # Archivo BibTeX para gestores bibliográficos
-│   ├── refs/pdf_faltantes.csv                    # Artículos catalogados para descarga institucional SINAB
-│   ├── refs/pdf/                                 # 39 artículos en PDF Open Access descargados
-│   ├── tablas/                                   # Matrices de calidad (QA1-QA9) y extracción (27 variables)
-│   ├── figuras/                                  # 6 figuras en escala de grises a 300 DPI (PRISMA y bibliometría)
-│   ├── scripts/                                  # 8 scripts reproducibles en Python (búsqueda, cribado, PRISMA)
-│   ├── data/                                     # Registros crudos (APIs) y procesados (únicos y cribados)
-│   ├── LOG_PROTOCOLO.md                          # Bitácora cronológica completa del proceso
-│   └── PROTOCOLO.md                              # Protocolo formal de revisión sistemática
-│
-├── data/                                         # Datasets de imágenes organizados por cohorte
-│   ├── Database/Images/                          # ACRIMA (España, N=705, Canon CR-DGi, 35°)
-│   ├── RIM_ONE_DL/                               # RIM-ONE DL (Canarias, N=447, Kowa WX 3D estereoscópico)
-│   ├── EYEPACS_REAL/                             # EyePACS (N=200, tamizaje en campo abierto, 45° FOV)
-│   ├── MOONDREAM_STAGED/                         # Moondream (N=800, cohorte con estadificación: train=600, test=200)
-│   ├── WEB_IN_THE_WILD/                          # Imágenes web filtradas
-│   ├── HARMONIZED_MEGA_COHORT/                   # Mega-cohorte unificada y recortada a ROI 35° (N=2.152)
-│   └── THIRD_DATASET/                            # AVISO: Excluido del entrenamiento por ruido de esqueletos vasculares
-│
-├── modelos/                                      # Checkpoints de pesos entrenados (PyTorch .pth)
-│   ├── best_fine_tuned_convnext_tiny_glaucoma.pth # MODELO GANADOR (AUC: 0.9669, Acc: 90.72%, ACRIMA: 1.0000)
-│   ├── model_staged_multiclass_malignant.pth     # Modelo 3 clases Maligno (QWK: 0.8163, Errores cat: 9.76%)
-│   ├── model_staged_binary_malignant.pth         # Modelo 2 clases Maligno (AUC: 0.9443, Acc: 86.50%)
-│   ├── model_staged_multiclass_vanilla.pth       # Modelo 3 clases sin aumento (QWK: 0.7232)
-│   ├── model_staged_binary_vanilla.pth           # Modelo 2 clases sin aumento (AUC: 0.9151)
-│   ├── best_resnet18_1000ep_val_auc.pth          # Mejor modelo de 1000 épocas (Época 720, Val AUC: 0.9829)
-│   ├── final_resnet18_1000ep.pth                 # Checkpoint final época 1000 (Especificidad: 94.98%)
-│   └── best_resnet18_malignant_scale.pth         # Checkpoint baseline a 15 épocas
-│
-├── scripts/
-│   ├── experimentos/
-│   │   ├── 01_seleccion_arquitectura_backbone.py      # Benchmark preliminar de 4 backbones
-│   │   ├── 02_estudio_generalizacion_multicentrica.py # Evaluación cruzada inicial
-│   │   ├── 03_adquisicion_web_y_filtro_calidad.py     # Pipeline web y detector de validez
-│   │   ├── 04_data_augmentation_invarianza_escala.py  # Primera prueba de escala
-│   │   ├── 05_mega_cohorte_federada_multisensor.py    # Fusión federada inicial
-│   │   ├── 06_estadificacion_clinica_multietapa.py   # Clasificación en 3 estadíos inicial
-│   │   ├── 07_armonizacion_roi_y_mega_dataset.py      # Estandarización a ROI 35° y armado de mega-cohorte
-│   │   ├── 08_entrenamiento_malignant_scale_mega_cohorte.py # Entrenamiento a 15 épocas con augmentación maligna
-│   │   ├── 09_experimento_1000_epocas_sobreentrenamiento.py # Entrenamiento a 1.000 épocas en GPU
-│   │   ├── 10_benchmark_10_backbones_transfer_learning.py # Benchmark de 10 redes y fine-tuning de ConvNeXt
-│   │   └── 11_estudio_2_vs_3_clases_y_data_augmentation.py # Experimento factorial 2x2 (2 vs 3 clases y aumento)
-│   └── compiladores_informes/                         # Compiladores de Markdown a HTML y ePDF
-│       ├── compilar_informe_seleccion_backbone.py
-│       ├── compilar_informe_2_vs_3_categorias.py
-│       ├── compilar_informe_beneficio_data_augmentation.py
-│       ├── compilar_informe_maestro_generalizacion.py
-│       └── compilar_informe_experimento_1000_epocas.py
-│
-├── figures/                                      # 36 figuras diagnósticas en alta resolución (300 DPI)
-│   ├── fig1_domain_shift_comparison.png               # Ilustración del Domain Shift
-│   ├── fig21_cross_device_generalization_master.png   # Matriz maestra de generalización inter-cámara
-│   ├── fig22_medical_databases_comparative_profiling.png # Perfilado de bases médicas
-│   ├── fig24_harmonization_pipeline_before_after.png  # Pipeline de armonización de campo visual
-│   ├── fig25_malignant_scale_stress_test_benchmark.png# Curvas bajo perturbaciones de escala
-│   ├── fig29_time_series_epoch_vs_loss_auc.png        # Serie temporal continua a 1.000 épocas
-│   ├── fig30_backbone_benchmark_multicriteria_tradeoff.png # Tradeoff multicriterio de 10 backbones
-│   ├── fig31_backbone_roc_curves_and_radar.png         # Curvas ROC y radar 5 ejes de backbones
-│   ├── fig32_winning_model_finetuning_curves_and_confusion_matrix.png # Fine-tuning ConvNeXt
-│   ├── fig33_confusion_matrices_2_vs_3_classes.png     # Matrices de confusión 2 vs 3 clases
-│   ├── fig34_data_augmentation_benefit_comparison.png  # Ganancia diagnóstica de Data Augmentation
-│   ├── fig35_error_distribution_adjacent_vs_catastrophic.png # Desglose de errores adyacentes vs catastróficos
-│   └── fig36_external_cohorts_stage_profiling.png      # Perfilado morfológico en cohortes externas
-│
-├── results/                                      # Resúmenes cuantitativos (JSON y CSV)
-│   ├── benchmark_10_backbones_metrics.json            # Métricas detalladas de los 10 modelos
-│   ├── winning_backbone_finetuning_metrics.json        # Métricas tras fine-tuning de ConvNeXt
-│   ├── study_2_vs_3_classes_metrics.json              # Resultados del estudio 2 vs 3 clases
-│   ├── data_augmentation_benefit_metrics.json         # Métricas de ganancia por Data Augmentation
-│   ├── 1000_epochs_stress_experiment_metrics.json     # Registro detallado de las 1.000 épocas
-│   └── harmonized_mega_cohort_index.csv               # Índice de 2.152 imágenes con centros y etiquetas
-│
-└── informes/                                     # Informes técnicos formateados (PDF, HTML y MD)
-    ├── 01_experimento_invarianza_escala/
-    ├── 02_experimento_mega_cohorte_multisensor/
-    ├── 03_experimento_estadificacion_multietapa/
-    ├── 04_evaluacion_bases_medicas_y_mega_dataset/
-    ├── 05_entrenamiento_y_estres_malignant_scale_mega_cohorte/
-    ├── 06_experimento_1000_epocas_sobreentrenamiento/
-    ├── 07_seleccion_modelo_base_10_candidatos/
-    ├── 08_prediccion_2_vs_3_categorias/
-    ├── 09_beneficio_data_augmentation_2_vs_3_clases/
-    └── 10_informe_maestro_generalizacion_final/       # INFORME MAESTRO REVISTA DYNA
-```
+| Ruta | Contenido |
+| --- | --- |
+| [`data/`](data/) | Cohortes originales y derivadas, incluidas ACRIMA, RIM-ONE DL, EyePACS y Moondream. |
+| [`scripts/experimentos/`](scripts/experimentos/) | Pipelines de adquisición, armonización, entrenamiento y evaluación. |
+| [`scripts/compiladores_informes/`](scripts/compiladores_informes/) | Compiladores de informes técnicos y del PDF del estado del arte. |
+| [`modelos/`](modelos/) | Checkpoints de PyTorch. Los pesos grandes excluidos de Git se consultan en la copia local. |
+| [`results/`](results/) y [`figures/`](figures/) | Métricas, índices de cohortes y figuras compartidas por los experimentos y los informes. |
+| [`informes/`](informes/) y [`assets/`](assets/) | Informes técnicos en PDF y recursos de renderizado. |
+| [`demo_glaucoma/`](demo_glaucoma/README.md) | Demo local de clasificación y guion de sustentación. |
+| [`estado_del_arte/`](estado_del_arte/) | PDF compilado de la revisión sistemática. |
+| [`Entrega Final/`](Entrega%20Final/) | [Guía maestra del artículo DYNA](Entrega%20Final/Gu%C3%ADa%20maestra%20del%20art%C3%ADculo%20DYNA%20generalizaci%C3%B3n%20de%20clasificadores%20de%20glaucoma.docx). |
+
+### Carpetas de trabajo por integrante
+
+- [Andrés Arbeláez](Andres_Arbelaez/) reúne la selección de datasets y de modelos, el [notebook de comprobación](Andres_Arbelaez/Comprobacion_mejor_modelo.ipynb) y el [índice de figuras de apoyo](Andres_Arbelaez/figuras_apoyo/README.md).
+- [Fabián](Fabian/) reúne la comparación binaria y trinaria, el aumento de datos, el [análisis descriptivo de retinografías](Fabian/analisis_features/INFORME_CARACTERISTICAS_RETINOGRAFIAS.pdf) y el [índice de figuras de apoyo](Fabian/figuras_apoyo/README.md).
+- [Mauricio](Mauricio/) reúne los [manuscritos y materiales de la revisión](Mauricio/manuscrito_estado_del_arte/), las [figuras de la revisión](Mauricio/figuras_estado_del_arte/), los [scripts de la RSL](Mauricio/scripts_rsl_y_teoria/) y las [fuentes del marco teórico](Mauricio/marco_teorico/).
 
 ---
 
@@ -281,17 +209,13 @@ python scripts/compiladores_informes/compilar_informe_seleccion_backbone.py
 python scripts/compiladores_informes/compilar_informe_2_vs_3_categorias.py
 python scripts/compiladores_informes/compilar_informe_beneficio_data_augmentation.py
 python scripts/compiladores_informes/compilar_informe_maestro_generalizacion.py
-
-# 4. Reproducir la revisión sistemática de literatura (RSL):
-python estado_del_arte/scripts/01_buscar.py
-python estado_del_arte/scripts/02_unir_deduplicar.py
-python estado_del_arte/scripts/03_verificar_doi.py
-python estado_del_arte/scripts/04_cribado_ta.py
-python estado_del_arte/scripts/05_texto_completo_snowballing.py
-python estado_del_arte/scripts/06_calidad_y_extraccion.py
-python estado_del_arte/scripts/07_bibliometria.py
-python estado_del_arte/scripts/08_prisma.py
 ```
+
+Al recompilar localmente, los scripts pueden generar archivos intermedios Markdown o HTML en `informes/`.
+
+### Revisión sistemática de literatura
+
+El [protocolo](Mauricio/manuscrito_estado_del_arte/PROTOCOLO.md) y la [bitácora](Mauricio/manuscrito_estado_del_arte/LOG_PROTOCOLO.md) documentan el proceso. Los scripts se conservan en [`Mauricio/scripts_rsl_y_teoria/`](Mauricio/scripts_rsl_y_teoria/). Para reproducir la ejecución histórica con sus rutas, insumos y requisitos originales, consulta la versión anterior al commit `6b67090` (`6b67090^` en Git).
 
 ---
 
