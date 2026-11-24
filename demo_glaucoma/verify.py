@@ -28,7 +28,7 @@ def verify_predictions(engine):
     files = [path for stage in ("normal", "early", "advanced")
              for path in sorted((test_root / stage).glob("*.jpg"))]
     assert len(files) == 200, "Se requieren las 200 imágenes del test del experimento 11."
-    recorded = json.loads((ROOT / "results/study_2_vs_3_classes_metrics.json").read_text(encoding="utf-8"))
+    recorded = json.loads((ROOT / "archivo_historico/resultados_base/study_2_vs_3_classes_metrics.json").read_text(encoding="utf-8"))
     for mode, experiment, classes in (
         ("binary", "binary", ("normal", "glaucoma")),
         ("ternary", "multiclass", ("normal", "early", "advanced")),
