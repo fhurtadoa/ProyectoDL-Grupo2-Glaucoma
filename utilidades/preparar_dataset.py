@@ -1,4 +1,4 @@
-"""Genera el dataset limpio y sin fuga de datos para los notebooks de Fabián.
+"""Genera el dataset auditado y sin fuga de datos para los experimentos 03–05.
 
 Reproduce de forma determinista el split 70/15/15 de Moondream Staged
 (eliminando duplicados exactos por MD5 y casi-duplicados por coseno >= 0.96

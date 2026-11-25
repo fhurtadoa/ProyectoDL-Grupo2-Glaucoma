@@ -3,12 +3,12 @@
 Desde la raíz del repositorio, instala las versiones de la corrida y ejecuta el módulo. Se usó Python 3.14.2. El piloto usa una semilla de 42, toma hasta 12 archivos por colección repartidos entre los estratos disponibles y añade las imágenes fuente necesarias para verificar los pares incluidos.
 
 ```powershell
-python -m pip install -r Fabian/codigos_y_scripts/requirements_retinografias.txt
-python -X utf8 Fabian/codigos_y_scripts/analizar_retinografias.py --piloto 12
-python -X utf8 Fabian/codigos_y_scripts/analizar_retinografias.py --trabajadores 6
+python -m pip install -r 03_experimento_caracteristicas_retinografias/scripts/requirements_retinografias.txt
+python -X utf8 03_experimento_caracteristicas_retinografias/scripts/analizar_retinografias.py --piloto 12
+python -X utf8 03_experimento_caracteristicas_retinografias/scripts/analizar_retinografias.py --trabajadores 6
 ```
 
-El piloto escribe en `piloto/` dentro del directorio de resultados. La corrida completa escribe junto a este documento. `--salida` permite usar otra carpeta y `--config` admite un JSON alternativo basado en [fuentes_retinografias.json](../../codigos_y_scripts/fuentes_retinografias.json). En el JSON, cada fuente requiere `id`, `ruta` y `tipo`. Las rutas de datos y manifiestos se interpretan desde la raíz del repositorio. El inventario también detecta imágenes debajo de `raiz_datos` que quedan fuera de las rutas configuradas. `comparar` habilita la inclusión de una fuente en las figuras entre colecciones y `estratificar` habilita su resumen por etiqueta. Para usar un CSV, indica `manifiesto.ruta`, `ruta_col` y las columnas disponibles entre `etiqueta_col`, `particion_col`, `camara_col` y `fuente_col`. Las rutas pueden ser relativas al repositorio o al directorio de la fuente. El enlace de la megacohorte admite los prefijos y las transformaciones históricas descritas en los scripts 03 y 07. Las fuentes y los manifiestos se abren en modo lectura.
+El piloto escribe en `piloto/` dentro del directorio de resultados. La corrida completa escribe junto a este documento. `--salida` permite usar otra carpeta y `--config` admite un JSON alternativo basado en [fuentes_retinografias.json](../scripts/fuentes_retinografias.json). En el JSON, cada fuente requiere `id`, `ruta` y `tipo`. Las rutas de datos y manifiestos se interpretan desde la raíz del repositorio. El inventario también detecta imágenes debajo de `raiz_datos` que quedan fuera de las rutas configuradas. `comparar` habilita la inclusión de una fuente en las figuras entre colecciones y `estratificar` habilita su resumen por etiqueta. Para usar un CSV, indica `manifiesto.ruta`, `ruta_col` y las columnas disponibles entre `etiqueta_col`, `particion_col`, `camara_col` y `fuente_col`. Las rutas pueden ser relativas al repositorio o al directorio de la fuente. El enlace de la megacohorte admite los prefijos y las transformaciones históricas descritas en los scripts 03 y 07. Las fuentes y los manifiestos se abren en modo lectura.
 
 ## Variables por archivo
 

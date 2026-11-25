@@ -10,7 +10,7 @@ Actualizada con la estructura reorganizada del repositorio y los resultados veri
 | --- | --- | --- |
 | Aporte a **4.1** (análisis descriptivo de retinografías) | Integrado en las 1,5 p. de Andrés | `03_experimento_caracteristicas_retinografias/` |
 | **4.4** Análisis trinario frente a binario | 1,0 p. | `04_experimento_trinario_vs_binario/` |
-| **4.5** Efecto del aumento de datos (`Base` vs. `Malignant`) | 1,0 p. | `05_experimento_data_augmentation/` |
+| **4.5** Efecto del aumento de datos (`Base` vs. `Con aumento`) | 1,0 p. | `05_experimento_data_augmentation/` |
 | **4.6** Conclusión sobre generalización de los modelos | $\le$ 1,0 p. | Cruce de `03`, `04` y `05` |
 
 > **Regla DYNA:** todas las figuras para el artículo final deben exportarse en **escala de grises, ancho de una columna, 300 dpi**, con pie `"Fuente: Los autores."`. Las tablas llevan solo líneas horizontales (8 pt).
@@ -39,36 +39,33 @@ Fuentes: `03_experimento_caracteristicas_retinografias/INFORME_CARACTERISTICAS_R
 - **Límite clave:** no hay máscaras verificadas de disco óptico ni metadatos EXIF de cámara por imagen.
 
 ### 4.4 · Análisis trinario frente a binario (1,0 p.)
-Fuente: `04_experimento_trinario_vs_binario/01_convnext_trinario_vs_binario.ipynb` y `resultados/01_metricas_binarias.csv`.
-- **Protocolo común:** `ConvNeXt-Tiny`, misma semilla (`42`), receta de Andrés (`RandomResizedCrop`, volteo horizontal, rotación $\pm 15^\circ$, `ColorJitter`), 1 época warmup + 20 épocas fine-tuning (`AdamW`, `CosineAnnealingLR`). Mejor época y umbral $\tau$ elegidos solo en validación buscando especificidad $\ge 0.95$ ($\tau = 0.81$ para proyección trinaria; $\tau = 0.90$ para entrenado binario).
-- **Control de atajos:** una regresión logística solo con `(R, G, B)` medio queda cerca del azar mayoritario en `Moondream test`, mostrando que el color global por sí solo no resuelve la clasificación.
-- **Resultados (Proyección trinario vs. Entrenado binario):**
-  - `Moondream · test` ($n=95$): Proyección alcanza `F1=0.916`, `Sens=0.935`, `Espec=0.898`, `AUROC=0.980` vs. Binario `F1=0.852`, `Sens=0.804`, `Espec=0.898`, `AUROC=0.954` ($\Delta\text{F1}=+6.4\text{ pp}$, $\Delta\text{Sens}=+13.0\text{ pp}$).
-  - `ACRIMA` ($n=703$): Proyección `F1=0.673` (`AUROC=0.744`) vs. Binario `F1=0.605` (`AUROC=0.635`) ($\Delta\text{F1}=+6.8\text{ pp}$).
-  - `RIM-ONE DL` ($n=447$): Proyección `F1=0.738` (`AUROC=0.816`) vs. Binario `F1=0.684` (`AUROC=0.783`) ($\Delta\text{F1}=+5.5\text{ pp}$).
-  - `EyePACS REAL` ($n=200$): Ambos colapsan en sensibilidad al trasladar el umbral rígido (`Sens=0.020` / `TFN=0.980` en proyección; `Sens=0.000` / `TFN=1.000` en binario), aunque conservan algo de separabilidad de ranking (`AUROC=0.553` y `0.632`).
-- **Qué mostrar:** tabla comparativa por cohorte + 1 figura compuesta en escala de grises (matrices de confusión o curvas ROC/PR en Moondream vs. cohortes externas) + discusión de errores y limitación de etiquetas binarias en fuentes externas.
+Fuente: `04_experimento_trinario_vs_binario/01_convnext_trinario_vs_binario.ipynb`, `resultados/01_metricas_binarias.csv` y `resultados/01_sensibilidad_umbral.csv`.
+- **Delimitación metodológica:** `Moondream Staged` es la **única fuente local con etiquetas de estadio** (`Sano`, `Etapa inicial`, `Avanzado`). Por eso ambos modelos entrenan y calibran en `Moondream` (`504 train: 264/115/125`; `107 val`), la evaluación estricta de estadificación (`3→3`) se presenta de forma concisa en `Moondream test` (`n=95`, `QWK=0.801`, `recall inicial=0.476`, `recall avanzado=0.840`), y el contraste externo se realiza mediante proyección binaria (`3→2` vs. `2→2`).
+- **Protocolo común y reglas de umbral ($\tau$):** `ConvNeXt-Tiny`, semilla `42`, aumento estándar de `Comprobacion_mejor_modelo.ipynb`, 1 época warmup + 20 épocas (`AdamW`, `CosineAnnealingLR`). Umbral principal calibrado **solo en validación** buscando especificidad $\ge 0{,}95$ ($\tau=0{,}81$ para `3→2`; $\tau=0{,}90$ para `2→2`), contrastado frente a `Youden (val)` ($\tau=0{,}81$ y `0,86`) y `Estándar` ($\tau=0{,}50$).
+- **Resultados (Proyección trinario vs. Entrenado binario · regla principal + IC 95% bootstrap):**
+  - `Moondream · test` ($n=95$): Proyección `F1=0.916`, `Sens=0.935`, `Espec=0.898`, `AUROC=0.980` vs. Binario `F1=0.852`, `Sens=0.804`, `Espec=0.898`, `AUROC=0.954` ($\Delta\text{F1}=+6.4\text{ pp}$, $\Delta\text{Sens}=+13.0\text{ pp}$).
+  - `ACRIMA` ($n=703$): Proyección `F1=0.671` (`AUROC=0.740`) vs. Binario `F1=0.598` (`AUROC=0.626`) ($\Delta\text{F1}=+7.3\text{ pp}$, IC 95% `[+4.3, +10.2]`; $\Delta\text{AUROC}=+11.4\text{ pp}$, IC `[+9.0, +14.1]`).
+  - `RIM-ONE DL` ($n=447$): Proyección `F1=0.735` (`AUROC=0.815`) vs. Binario `F1=0.682` (`AUROC=0.780`) ($\Delta\text{F1}=+5.3\text{ pp}$, IC `[+1.6, +9.3]`; $\Delta\text{AUROC}=+3.4\text{ pp}$, IC `[+0.7, +6.4]`).
+  - `EyePACS REAL` ($n=200$): Ambos colapsan en sensibilidad con $\tau$ conservador o Youden (`Sens=0.020` en proyección; `0.000` en binario), y con $\tau=0.50$ apenas llegan a `Sens=0.090`–`0.150` (`AUROC=0.552` y `0.628`).
+- **Qué mostrar:** tabla comparativa por cohorte (con $\tau$ principal y sensibilidad a $\tau$) + resumen breve `3→3` en `Moondream test` + 1 figura compuesta en escala de grises + discusión del desbalance `2:1:1` y etiquetas binarias externas.
 
-### 4.5 · Efecto del aumento de datos: `Base` vs. `Malignant` (1,0 p.)
-Fuente: `05_experimento_data_augmentation/02_convnext_data_augmentation.ipynb` y `resultados/02_metricas_factorial.csv`.
-- **Diseño factorial $2 \times 2$:** cabezas de `2` y `3` clases $\times$ `Base` (solo `Resize(224,224)`) vs. `Malignant` (`MalignantScaleAugmentation` + volteos solo en entrenamiento).
-- **Comprobación visual/fotométrica:** `Malignant` introduce variación controlada de escala (zoom-out con fondo sintético circular y zoom-in papilar) y ganancia de gamma/verde, evitando que la red dependa de un único encuadre.
-- **Hallazgo principal (efecto diferenciado por esquema):**
-  - En el modelo **binario (`2→2`)**, `Malignant` mejora consistentemente en las 4 cohortes:
-    - `Moondream · test`: $\Delta\text{F1}=+11.7\text{ pp}$ (`0.734` $\rightarrow$ `0.852`), $\Delta\text{TFN}=-26.1\text{ pp}$.
-    - `ACRIMA`: $\Delta\text{F1}=+6.6\text{ pp}$ (`0.545` $\rightarrow$ `0.611`), $\Delta\text{TFN}=-23.8\text{ pp}$.
-    - `RIM-ONE DL`: $\Delta\text{F1}=+11.3\text{ pp}$ (`0.612` $\rightarrow$ `0.725`), $\Delta\text{TFN}=-25.9\text{ pp}$.
-    - `EyePACS REAL`: $\Delta\text{F1}=+10.9\text{ pp}$ (`0.333` $\rightarrow$ `0.442`), $\Delta\text{TFN}=-11.0\text{ pp}$ (`AUROC` sube de `0.546` a `0.686`).
-  - En el modelo **trinario proyectado (`3→2`)**, el efecto es mixto: mejora fuerte en `EyePACS REAL` ($\Delta\text{F1}=+16.5\text{ pp}$, $\Delta\text{TFN}=-18.0\text{ pp}$, `AUROC` `0.577` $\rightarrow$ `0.697`), pero empeora en `RIM-ONE DL` ($\Delta\text{F1}=-10.1\text{ pp}$, $\Delta\text{TFN}=+38.3\text{ pp}$) y ligeramente en `ACRIMA` ($\Delta\text{F1}=-1.7\text{ pp}$) porque la calibración en validación fija una especificidad muy alta (`1.000` en Moondream test con `Malignant`) que vuelve el umbral demasiado conservador fuera de dominio.
-  - En estadio **`3→3`** (Moondream test): `QWK` pasa de `0.726` (`Base`) a `0.733` (`Malignant`), manteniendo `5` errores extremos sano $\leftrightarrow$ avanzado.
-- **Qué mostrar:** gráfica de barras horizontales con el $\Delta$ (`Malignant − Base` en pp) + tabla resumida con IC 95% bootstrap.
+### 4.5 · Efecto del aumento de datos en LODO binario multi-semilla: `Base` vs. `Con aumento` (1,0 p.)
+Fuente: `05_experimento_data_augmentation/02_convnext_data_augmentation.ipynb`, `resultados/02_metricas_lodo.csv`, `02_metricas_lodo_por_semilla.csv` y `02_sensibilidad_umbral_lodo.csv`.
+- **Diseño LODO multi-semilla ($4\text{ folds} \times 2\text{ brazos} \times 3\text{ semillas} = 24\text{ modelos}$):** esquema puramente binario (`2.056` imágenes auditadas). En cada *fold*, una cohorte completa queda 100 % ciega mientras las 3 restantes se dividen en `85 % train / 15 % val` estratificado. Se repite con semillas `42`, `123` y `777` para separar el efecto real del ruido estocástico.
+- **Regla de calibración del umbral ($\tau$) — incluir explícitamente en el informe:** tanto en `4.4` como en `4.5`, el corte principal $\tau \in [0{,}20, 0{,}99]$ se calibra **únicamente en validación** maximizando $0{,}5\cdot\text{F1 macro} + 0{,}5\cdot\text{Recall}$ sujeto a **especificidad $\ge 0{,}95$**, y luego se traslada congelado al dominio externo. Se contrasta además contra **Youden (`val`)** y **$\tau = 0{,}50$** para aislar discriminación (`AUROC`) de punto operativo.
+- **Hallazgo principal LODO (`media ± DE` en 3 semillas; regla principal + sensibilidad a $\tau$):**
+  - `EyePACS REAL` ($n=200$, campo amplio `21.8 %` borde negro): **`Con aumento` rescata fuertemente al modelo**: `F1` pasa de `0.343 ± 0.001` a **`0.618 ± 0.039`** ($\Delta=+27.5\pm 4.0\text{ pp}$), `Sens` de `0.010` a `0.353 ± 0.060` y **`AUROC` de `0.655 ± 0.019` a `0.809 ± 0.014`** (`+15.4 ± 2.1 pp`; ensamble IC 95% `[+10.9, +20.3 pp]`). Con umbral `Youden (val)` o `0.50`, `Con aumento` alcanza **`F1=0.715–0.721`** (`Sens=64.0–70.7 %`, `TFN=29.3–36.0 %`).
+  - `Moondream Staged` ($n=706$): `F1` sube de `0.519 ± 0.031` a **`0.580 ± 0.011`** ($\Delta=+6.1\pm 3.2\text{ pp}$), `AUROC` de `0.556 ± 0.054` a **`0.605 ± 0.016`** (ensamble IC 95% `AUROC` `[+3.5, +7.1 pp]`).
+  - `ACRIMA` ($n=703$): empate en `F1` (`0.625 ± 0.024` vs. `0.628 ± 0.084`, $\Delta=+0.3\pm 7.8\text{ pp}$), pero mejora significativa en ordenamiento (`AUROC` `0.686` $\rightarrow$ **`0.730`**, ensamble IC 95% `[+3.0, +6.6 pp]`; con Youden `F1` sube a `0.664` vs. `0.606`).
+  - `RIM-ONE DL` ($n=447$): efecto prácticamente neutro (`F1` `0.484 ± 0.054` vs. `0.485 ± 0.044`; `AUROC` `0.671` vs. `0.677`, IC 95% `[-1.5, +5.4 pp]`).
+- **Qué mostrar:** gráfica de barras horizontales con el $\Delta$ LODO (`media ± DE` en 3 semillas) + tabla LODO (`media ± DE` + contraste de reglas de $\tau$ en `EyePACS` y `ACRIMA` + IC 95% bootstrap incluyendo `AUROC`).
 
 ### 4.6 · Conclusión sobre generalización ($\le$ 1,0 p.)
 Integra lo hallado en `03`, `04` y `05`:
-1. **No hay generalización gratuita fuera de dominio:** aunque en Moondream `ConvNeXt-Tiny` supera `AUROC 0.95` (`0.980` en proyección trinaria), en `EyePACS REAL` la sensibilidad se desploma (`0 %–18 %`) por la diferencia de encuadre ($21.8\%$ de fondo negro frente a recortes papilares al $100\%$).
-2. **Separar discriminación (`AUROC`) de punto operativo ($\tau$):** parte de la caída en `ACRIMA` y `RIM-ONE DL` (especialmente en `3→2` con `Malignant`) no es pérdida de capacidad de ordenamiento (`AUROC 0.818` en RIM-ONE DL), sino un umbral $\tau$ calibrado exclusivamente en Moondream que no se reajusta al dominio destino.
-3. **Valor del diseño factorial y del aumento de escala:** `MalignantScaleAugmentation` rescata claramente al clasificador binario (`+6.6` a `+11.7 pp` en F1), mientras que entrenar con estadios (`3→2`) aporta mejor separación base sin aumento agresivo, pero requiere calibración de umbral por dominio.
-4. **Trabajo futuro / puente con 4.3:** sin etiquetas reales de estadio en cohortes externas ni máscaras verificadas de disco/copa, las salidas trinarias fuera de Moondream deben tratarse como exploratorias; la armonización geométrica del encuadre + recalibración de umbral en el sitio clínico destino son pasos necesarios antes del despliegue.
+1. **El encuadre manda en la transferencia entre sensores:** sin aumento de escala (`Base`), `ConvNeXt-Tiny` falla casi por completo al saltar hacia campo amplio (`EyePACS REAL`: `Sens 0.0–1.0 %`, `AUROC 0.655`). Introducir variaciones de escala y color (`AumentoEscalaFotometrico`) eleva el `AUROC` en `EyePACS REAL` a `0.809 ± 0.014` (`+15.4 pp`) y en `Moondream` a `0.605`, demostrando un rescate real cuando el dominio ciego difiere en geometría o fotometría.
+2. **Separar discriminación (`AUROC`) de punto operativo ($\tau$):** el estudio de sensibilidad a $\tau$ prueba que exigir `especificidad >= 0.95` en validación empuja $\tau$ a `0.94–0.99`, ocultando parte de la mejora real del modelo (`TFN` pasa en `EyePACS + aumento` de `64.7 %` con $\tau$ conservador a `29.3–36.0 %` con `τ = 0.50` o `Youden`, manteniendo especificidad `73.7–79.7 %`).
+3. **Complementariedad entre supervisión clínica y aumento de escala:** entrenar con estadios (`04`) mejora la separación en recortes papilares desde un origen estadificado (`ACRIMA`, `RIM-ONE DL`), mientras que el aumento de escala (`05`) es decisivo ante cambios de campo visual (`EyePACS REAL`) y aporta robustez promedio sin dañar `ACRIMA`/`RIM-ONE DL` al promediar 3 semillas.
+4. **Trabajo futuro / puente con 4.3:** sin etiquetas reales de estadio en cohortes externas ni máscaras de disco/copa o mapas de saliencia (`Grad-CAM`), las salidas trinarias fuera de Moondream deben tratarse como exploratorias; la armonización geométrica del encuadre + recalibración de umbral en el sitio clínico destino son pasos necesarios antes del despliegue.
 
 ---
 

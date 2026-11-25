@@ -65,7 +65,7 @@
     {"id": "RIM-ONE DL antes del recorte", "procedencia": "copia local de recortes; no se ubicaron capturas previas ni segmentaciones de disco verificables"},
     {"id": "Capturas fuente de EyePACS / BEH y Moondream", "procedencia": "solo están disponibles las copias locales preparadas; faltan manifiestos de correspondencia con capturas previas"},
     {"id": "Web real independiente", "procedencia": "el script 03 genera una emulación local; no hay colección de descargas documentada"},
-    {"id": "Aumentos en memoria", "procedencia": "MalignantScaleAugmentation en Fabian/codigos_y_scripts/04_data_augmentation_invarianza_escala.py y 08_entrenamiento_malignant_scale_mega_cohorte.py; sin corpus exportado localizado"},
+    {"id": "Aumentos en memoria", "procedencia": "AumentoEscalaFotometrico en utilidades/utilidades.py (respaldo histórico en archivo_historico/scripts_base/)"},
     {"id": "ODIR-5K RGB", "procedencia": "README.md y compilador de bases médicas; THIRD_DATASET contiene representaciones derivadas de origen incierto"},
     {"id": "REFUGE / REFUGE-2", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},
     {"id": "PAPILA", "procedencia": "scripts/compiladores_informes/compilar_informe_bases_medicas.py"},

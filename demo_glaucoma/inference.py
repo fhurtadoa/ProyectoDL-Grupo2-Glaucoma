@@ -6,6 +6,7 @@ from pathlib import Path
 from threading import Lock
 
 import torch
+import numpy as np
 from PIL import Image
 from torch import nn
 from torchvision import models
@@ -37,7 +38,38 @@ def resnet18(outputs):
     return model
 
 
-ADAPTERS = {"resnet18": resnet18}
+def convnext_tiny(outputs):
+    model = models.convnext_tiny(weights=None)
+    model.classifier[2] = nn.Linear(model.classifier[2].in_features, outputs)
+    return model
+
+
+ADAPTERS = {"resnet18": resnet18, "convnext_tiny": convnext_tiny}
+
+
+def analyze_image(image):
+    arr = np.asarray(image)
+    r, g, b = [round(float(x), 1) for x in arr.mean(axis=(0, 1))]
+    luma = 0.299 * arr[:, :, 0] + 0.587 * arr[:, :, 1] + 0.114 * arr[:, :, 2]
+    near_black_pct = round(float(100.0 * (arr.max(axis=2) <= 10).mean()), 1)
+    corners = (arr[:4, :4], arr[:4, -4:], arr[-4:, :4], arr[-4:, -4:])
+    pad_black = any(float(c.max()) < 20.0 for c in corners)
+    pad_gray = any(55.0 <= float(c.mean()) <= 100.0 and float(np.ptp(c)) < 8.0 for c in corners)
+    framing = (
+        "encuadre_lleno" if near_black_pct < 5.0
+        else ("campo_amplio" if near_black_pct >= 12.0 else "borde_parcial")
+    )
+    return {
+        "width": image.width,
+        "height": image.height,
+        "mean_rgb": [r, g, b],
+        "luma_median": round(float(np.median(luma)), 1),
+        "near_black_pct": near_black_pct,
+        "visible_area_pct": round(100.0 - near_black_pct, 1),
+        "corner_black_pad": pad_black,
+        "corner_gray_pad": pad_gray,
+        "framing_profile": framing,
+    }
 
 
 def validate_decision(spec):
@@ -65,6 +97,7 @@ def interpret(logits, spec):
     decision = spec["decision"]
     classes = spec["classes"]
     projection = None
+    threshold = decision.get("threshold")
     if decision["kind"] == "sigmoid":
         positive = logits.sigmoid().item()
         values = {"normal": 1 - positive, "glaucoma": positive}
@@ -73,16 +106,21 @@ def interpret(logits, spec):
         probabilities = logits.softmax(dim=0)
         values = dict(zip(classes, probabilities.tolist()))
         predicted = classes[int(probabilities.argmax())]
-        if spec["mode"] == "binary" and decision.get("threshold") is not None:
-            predicted = "glaucoma" if values["glaucoma"] >= decision["threshold"] else "normal"
-        if spec["mode"] == "ternary" and decision.get("binary_threshold") is not None:
+        if spec["mode"] == "binary":
+            positive = values["glaucoma"]
+            if threshold is not None:
+                predicted = "glaucoma" if positive >= threshold else "normal"
+        else:
             positive = (1.0 - probabilities[classes.index("normal")]).item()
-            threshold = decision["binary_threshold"]
-            projection = {
-                "label": "glaucoma" if positive >= threshold else "normal",
-                "score": positive,
-                "threshold": threshold,
-            }
+            threshold = decision.get("binary_threshold")
+            if threshold is not None:
+                projection = {
+                    "label": "glaucoma" if positive >= threshold else "normal",
+                    "score": positive,
+                    "threshold": threshold,
+                }
+                if decision.get("apply_binary_threshold"):
+                    predicted = ("early" if values["early"] >= values["advanced"] else "advanced") if positive >= threshold else "normal"
     if not all(math.isfinite(score) for score in values.values()):
         raise RuntimeError("El modelo devolvió puntuaciones no finitas.")
     return {
@@ -91,6 +129,11 @@ def interpret(logits, spec):
         "prediction": predicted,
         "scores": [{"label": label, "score": values[label]} for label in classes],
         "binary_projection": projection,
+        "decision_summary": {
+            "positive_score": positive,
+            "threshold": threshold,
+            "margin": None if threshold is None else positive - threshold,
+        },
     }
 
 
@@ -115,7 +158,7 @@ class Engine:
                 self.models.pop(model_id, None)
                 self.catalog[model_id].update(status="invalid", message="Identificador de modelo duplicado.")
                 continue
-            entry = {key: spec.get(key) for key in ("id", "mode", "name", "classes", "decision")}
+            entry = {key: spec.get(key) for key in ("id", "mode", "name", "classes", "decision", "summary")}
             self.catalog[model_id] = entry
             try:
                 weights = repository_path(spec["weights"])
@@ -152,16 +195,19 @@ class Engine:
     @torch.inference_mode()
     def predict(self, model_id, image):
         model, transform, spec = self.models[model_id]
+        diagnostics = analyze_image(image)
         inputs = transform(image).unsqueeze(0)
         with self.lock:
-            return forward(model, inputs, self.device, spec)
+            result = forward(model, inputs, self.device, spec)
+        result["diagnostics"] = diagnostics
+        return result
 
 
 def forward(model, sample, device, spec):
     enabled = device.type == "cuda" and spec["cuda_autocast"]
     with torch.amp.autocast("cuda", enabled=enabled):
         logits = model(sample.to(device))[0]
-    return interpret(logits, spec)
+    return interpret(logits.float(), spec)
 
 
 def warm_model(model, sample, device, spec):

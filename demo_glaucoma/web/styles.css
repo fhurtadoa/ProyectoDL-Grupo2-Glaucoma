@@ -198,3 +198,38 @@ tr:last-child td:last-child { border-bottom-right-radius: 12px; }
 
 @media (max-width: 900px) { .team ul { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 530px) { .team ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.dataset-label { margin-top: 9px; }
+
+.compare-arms { display: grid; gap: 9px; }
+.arm-card { border: 1px solid var(--line); border-radius: 9px; padding: 9px 11px; background: #f8faff; }
+.arm-card.arm-aug { background: #f3f7ff; border-color: #c7d6f3; }
+.arm-head { display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 5px; }
+.arm-title { font-size: .80rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+.arm-pred { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.arm-pred strong { font-size: 1.25rem; color: var(--blue-deep); letter-spacing: -.02em; }
+.arm-card .scores { margin: 5px 0 3px; }
+.flip-note { margin-top: 6px; padding: 6px 9px; border-radius: 6px; font-size: .80rem; font-weight: 600; background: #eef3ff; color: var(--blue-deep); border-left: 3px solid var(--blue); }
+
+.metrics-section { margin-top: 15px; padding: 14px 16px; }
+.metrics-head p { color: var(--muted); font-size: .875rem; margin-top: 4px; }
+.metrics-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 11px; }
+.metrics-panels.single { grid-template-columns: minmax(0, 1fr); }
+.metrics-panel { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #fff; }
+.metrics-panel-title { margin: 0; padding: 9px 12px; font-size: .92rem; font-weight: 720; color: var(--blue-deep); background: #f3f6fc; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.metrics-table { width: 100%; border-collapse: collapse; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.metrics-table th { padding: 6px 8px; font-size: .76rem; background: #f7f9fd; text-align: right; white-space: nowrap; }
+.metrics-table th:first-child, .metrics-table td:first-child { text-align: left; padding-left: 12px; font-weight: 650; }
+.metrics-table th:last-child, .metrics-table td:last-child { padding-right: 12px; }
+.metrics-table td { padding: 6px 8px; text-align: right; border-top: 1px solid #ebf0f7; white-space: nowrap; }
+.metrics-table tr.global-row td { background: #f5f8ff; font-weight: 700; border-top: 2px solid #cddaf0; }
+.delta-chip { display: inline-block; margin-left: 4px; font-size: .73rem; font-weight: 700; }
+.delta-up { color: var(--good); font-weight: 700; }
+.delta-down { color: var(--bad); font-weight: 700; }
+.metrics-benchmark { padding: 10px 0 0; }
+.metrics-benchmark .table-wrap { margin-top: 6px; border: 1px solid var(--line); border-radius: 8px; }
+.cell-stack { display: grid; gap: 2px; justify-items: start; }
+.active-model-banner { margin: 0 16px 10px; padding: 8px 12px; border-radius: 8px; border: 1px solid #cddaf4; border-left: 4px solid var(--blue); background: #f0f5ff; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: .86rem; color: var(--ink); }
+.active-model-banner strong { color: var(--blue-deep); }
+.active-model-pill { margin: 0 0 8px; padding: 6px 9px; border-radius: 7px; border: 1px solid #cddaf4; background: #f0f5ff; color: var(--blue-deep); font-size: .80rem; font-weight: 650; }
+@media (max-width: 1240px) { .metrics-panels { grid-template-columns: minmax(0, 1fr); } }

@@ -1,4 +1,4 @@
-"""Utilidades compartidas y legibles para los notebooks de la carpeta Fabian."""
+"""Utilidades compartidas para los notebooks de los experimentos 03–05."""
 
 from pathlib import Path
 import random
@@ -70,8 +70,8 @@ def leer_rgb(root: Path, rel_path: str) -> Image.Image:
         return img.convert("RGB")
 
 
-class MalignantScaleAugmentation:
-    """Aumento agresivo de escala (zoom-out con relleno ruidoso / zoom-in) y color."""
+class AumentoEscalaFotometrico:
+    """Aumento de escala (zoom-out con relleno circular / zoom-in) y ajuste fotométrico."""
 
     def __init__(self, output_size=(224, 224)):
         self.output_size = output_size
@@ -82,6 +82,10 @@ class MalignantScaleAugmentation:
     def __call__(self, img: Image.Image) -> Image.Image:
         roll = random.random()
         w, h = img.size
+        if max(w, h) > 448:
+            escala_pre = 448.0 / max(w, h)
+            w, h = max(16, int(w * escala_pre)), max(16, int(h * escala_pre))
+            img = img.resize((w, h), Image.BILINEAR)
 
         if roll < self.p_zoom_out:
             scale = random.uniform(0.25, 0.65)
@@ -118,24 +122,61 @@ class MalignantScaleAugmentation:
         return img.resize(self.output_size, Image.BILINEAR)
 
 
+def precargar_imagenes(ids, root: Path, max_lado: int = 448) -> dict:
+    """Precarga imágenes únicas en RAM redimensionadas a max_lado para acelerar múltiples épocas/semillas."""
+    cache = {}
+    for rel in dict.fromkeys(ids):
+        img = leer_rgb(root, rel)
+        if max_lado and max(img.size) > max_lado:
+            escala = max_lado / max(img.size)
+            img = img.resize(
+                (max(16, int(img.width * escala)), max(16, int(img.height * escala))),
+                Image.BILINEAR,
+            )
+        cache[rel] = img
+    return cache
+
+
 class RetinografiasDS(Dataset):
-    def __init__(self, df: pd.DataFrame, root: Path, n_clases: int, transform):
+    def __init__(self, df: pd.DataFrame, root: Path, n_clases: int, transform, cache_imgs: dict = None, cache_lado: int = None):
         self.ids = df["id"].tolist()
         self.y = df[f"y{n_clases}"].astype(int).tolist()
         self.root = root
         self.transform = transform
+        self._cache_imgs = cache_imgs
+        self._cache = None
+        if cache_imgs is None and cache_lado:
+            self._cache = precargar_imagenes(self.ids, root, max_lado=cache_lado)
 
     def __len__(self):
         return len(self.ids)
 
     def __getitem__(self, idx):
-        return self.transform(leer_rgb(self.root, self.ids[idx])), self.y[idx]
+        rel = self.ids[idx]
+        if self._cache_imgs is not None and rel in self._cache_imgs:
+            img = self._cache_imgs[rel]
+        elif self._cache is not None and rel in self._cache:
+            img = self._cache[rel]
+        else:
+            img = leer_rgb(self.root, rel)
+        return self.transform(img), self.y[idx]
 
 
-def crear_loader(df, root, n_clases, transform, batch_size=32, shuffle=False, device="cpu"):
-    gen = torch.Generator().manual_seed(SEED)
+def crear_loader(
+    df,
+    root,
+    n_clases,
+    transform,
+    batch_size=32,
+    shuffle=False,
+    device="cpu",
+    cache_imgs: dict = None,
+    cache_lado: int = None,
+    seed: int = SEED,
+):
+    gen = torch.Generator().manual_seed(seed)
     return DataLoader(
-        RetinografiasDS(df, root, n_clases, transform),
+        RetinografiasDS(df, root, n_clases, transform, cache_imgs=cache_imgs, cache_lado=cache_lado),
         batch_size=batch_size,
         shuffle=shuffle,
         pin_memory=(device == "cuda"),
@@ -196,9 +237,9 @@ def decidir_con_umbral(prob: np.ndarray, tau: float) -> np.ndarray:
 
 
 def calibrar_umbral(y_val: np.ndarray, prob_val: np.ndarray, n_clases: int, espec_objetivo: float = 0.95):
-    """Elige el umbral tau en validación maximizando F1+Recall sujeto a especificidad >= 0.95."""
+    """Elige el umbral tau en [0.20, 0.99] en validación maximizando F1+Recall sujeto a especificidad >= 0.95."""
     filas = []
-    for tau in np.round(np.arange(0.30, 0.96, 0.01), 2):
+    for tau in np.round(np.arange(0.20, 0.995, 0.01), 2):
         pred = decidir_con_umbral(prob_val, tau)
         filas.append({
             "tau": float(tau),
@@ -213,6 +254,20 @@ def calibrar_umbral(y_val: np.ndarray, prob_val: np.ndarray, n_clases: int, espe
     return float(mejor.tau), float(mejor.especificidad)
 
 
+def calibrar_youden(y_val_bin: np.ndarray, prob_val: np.ndarray):
+    """Elige el umbral tau en [0.20, 0.99] que maximiza el índice de Youden (Sens + Espec - 1) en validación."""
+    sc = p_positivo(prob_val)
+    mejor_tau, mejor_j, mejor_esp = 0.50, -np.inf, 0.0
+    for tau in np.round(np.arange(0.20, 0.995, 0.01), 2):
+        pred = (sc >= tau).astype(int)
+        sens = float(np.mean(pred[y_val_bin == 1] == 1))
+        esp = float(np.mean(pred[y_val_bin == 0] == 0))
+        j = sens + esp - 1.0
+        if j > mejor_j or (np.isclose(j, mejor_j) and abs(tau - 0.50) < abs(mejor_tau - 0.50)):
+            mejor_tau, mejor_j, mejor_esp = float(tau), j, esp
+    return mejor_tau, mejor_esp
+
+
 def entrenar_o_cargar(
     train_df: pd.DataFrame,
     val_df: pd.DataFrame,
@@ -225,11 +280,16 @@ def entrenar_o_cargar(
     batch_size: int = 32,
     device: str = "cpu",
     reentrenar: bool = False,
+    seed: int = SEED,
+    cache_imgs: dict = None,
 ):
     """Carga el modelo guardado si existe (y reentrenar=False), o entrena desde cero."""
-    val_loader = crear_loader(val_df, root, n_clases, transform_eval, batch_size=batch_size, shuffle=False, device=device)
-    fijar_semilla(SEED)
-
+    val_loader = crear_loader(
+        val_df, root, n_clases, transform_eval,
+        batch_size=batch_size, shuffle=False, device=device,
+        cache_imgs=cache_imgs, cache_lado=None if cache_imgs is not None else 448, seed=seed,
+    )
+    fijar_semilla(seed)
     if ruta_modelo.is_file() and not reentrenar:
         model = crear_convnext(n_clases, preentrenado=False, device=device)
         ckpt = torch.load(ruta_modelo, map_location="cpu", weights_only=True)
@@ -238,7 +298,11 @@ def entrenar_o_cargar(
         print(f"Modelo cargado: {ruta_modelo.name} (mejor época {ckpt['epoca']})")
         return {"model": model, "hist": pd.DataFrame(ckpt["history"]), "epoca": ckpt["epoca"], "val_prob": val_prob}
 
-    train_loader = crear_loader(train_df, root, n_clases, transform_train, batch_size=batch_size, shuffle=True, device=device)
+    train_loader = crear_loader(
+        train_df, root, n_clases, transform_train,
+        batch_size=batch_size, shuffle=True, device=device,
+        cache_imgs=cache_imgs, cache_lado=None if cache_imgs is not None else 448, seed=seed,
+    )
     y_val = val_df[f"y{n_clases}"].to_numpy().astype(int)
     model = crear_convnext(n_clases, preentrenado=True, device=device)
 
@@ -308,17 +372,33 @@ def calcular_metricas(y, pred, n_clases: int, score_binario=None):
     return stats, cm
 
 
-def bootstrap_diferencia(y, pred_antes, pred_despues, n_clases: int, n_boot: int = 2000, seed: int = SEED):
+def bootstrap_diferencia(
+    y,
+    pred_antes,
+    pred_despues,
+    n_clases: int,
+    n_boot: int = 2000,
+    seed: int = SEED,
+    score_antes=None,
+    score_despues=None,
+):
     """Calcula delta pareado (después - antes) e IC 95% mediante bootstrap estratificado."""
     if np.bincount(y, minlength=n_clases).min() < 10:
         return pd.DataFrame()
     rng = np.random.default_rng(seed)
     indices_por_clase = [np.flatnonzero(y == c) for c in range(n_clases)]
+    incluir_auc = (
+        n_clases == 2
+        and score_antes is not None
+        and score_despues is not None
+        and len(np.unique(y)) == 2
+    )
+    medidas = ["F1 macro", "sensibilidad", "especificidad"] + (["AUROC"] if incluir_auc else [])
 
     def resumen(idx):
-        m_a, _ = calcular_metricas(y[idx], pred_antes[idx], n_clases)
-        m_d, _ = calcular_metricas(y[idx], pred_despues[idx], n_clases)
-        return [m_d[k] - m_a[k] for k in ("F1 macro", "sensibilidad", "especificidad")]
+        m_a, _ = calcular_metricas(y[idx], pred_antes[idx], n_clases, score_antes[idx] if incluir_auc else None)
+        m_d, _ = calcular_metricas(y[idx], pred_despues[idx], n_clases, score_despues[idx] if incluir_auc else None)
+        return [m_d[k] - m_a[k] for k in medidas]
 
     base = resumen(np.arange(len(y)))
     deltas = []
@@ -328,7 +408,7 @@ def bootstrap_diferencia(y, pred_antes, pred_despues, n_clases: int, n_boot: int
     deltas = np.array(deltas)
     ic = np.percentile(deltas, [2.5, 97.5], axis=0)
     return pd.DataFrame({
-        "medida": ["F1 macro", "sensibilidad", "especificidad"],
+        "medida": medidas,
         "delta": base,
         "ic95_inf": ic[0],
         "ic95_sup": ic[1],

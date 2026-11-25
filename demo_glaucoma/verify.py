@@ -1,4 +1,4 @@
-"""Run the demo's original models against a separate implementation of experiment 11."""
+"""Verify the demo's ConvNeXt-Tiny models against direct PyTorch evaluation."""
 
 import argparse
 import json
@@ -6,6 +6,7 @@ import math
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+import pandas as pd
 import torch
 from PIL import Image
 from torch import nn
@@ -24,65 +25,63 @@ def verify_predictions(engine):
         T.ToTensor(),
         T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
     ])
-    test_root = ROOT / "data/MOONDREAM_STAGED/test"
-    files = [path for stage in ("normal", "early", "advanced")
-             for path in sorted((test_root / stage).glob("*.jpg"))]
-    assert len(files) == 200, "Se requieren las 200 imágenes del test del experimento 11."
-    recorded = json.loads((ROOT / "archivo_historico/resultados_base/study_2_vs_3_classes_metrics.json").read_text(encoding="utf-8"))
-    for mode, experiment, classes in (
-        ("binary", "binary", ("normal", "glaucoma")),
-        ("ternary", "multiclass", ("normal", "early", "advanced")),
-    ):
-        for variant in ("malignant", "vanilla"):
-            model_id = f"staged-{mode}-{variant}"
-            weights = ROOT / f"modelos/model_staged_{experiment}_{variant}.pth"
-            direct = models.resnet18(weights=None)
-            direct.fc = nn.Linear(512, 1 if mode == "binary" else 3)
-            direct.load_state_dict(torch.load(weights, weights_only=True, map_location="cpu"))
-            direct.eval().to(engine.device)
-            query = {"model_id": model_id}
-            metrics = recorded[f"{experiment}_{variant}"]["metrics"]
-            recorded_predictions = 0
-            max_delta = 0.0
-            for index in (0, 100, 150):
-                image = files[index]
-                with Image.open(image) as opened:
-                    batch = transform(opened.convert("RGB")).unsqueeze(0).to(engine.device)
-                with torch.amp.autocast("cuda", enabled=engine.device.type == "cuda"):
-                    logits = direct(batch)[0]
-                if mode == "binary":
-                    positive = logits.sigmoid().item()
-                    expected = [1 - positive, positive]
-                    class_index = int(positive >= 0.5)
-                    max_delta = max(max_delta, abs(positive - metrics["probs"][index]))
-                else:
-                    expected = logits.softmax(0).tolist()
-                    class_index = expected.index(max(expected))
-                    max_delta = max(max_delta, *(abs(a - b) for a, b in zip(expected, metrics["probs"][index])))
-                response = client.post("/api/predict", query_string=query, data=image.read_bytes())
-                assert response.status_code == 200, response.get_json()
-                result = response.get_json()
-                assert result["model_id"] == model_id
-                assert result["prediction"] == classes[class_index]
-                assert [item["label"] for item in result["scores"]] == list(classes)
-                assert all(math.isclose(item["score"], value, rel_tol=0, abs_tol=2e-6)
-                           for item, value in zip(result["scores"], expected))
-                if mode == "ternary":
-                    projected = (1.0 - logits.softmax(0)[0]).item()
-                    assert math.isclose(result["binary_projection"]["score"], projected, abs_tol=2e-6)
-                    assert result["binary_projection"]["label"] == ("glaucoma" if projected >= 0.5 else "normal")
-                recorded_predictions += class_index == metrics["preds"][index]
-            print(f"{model_id}: 3/3 API = evaluación directa. JSON: {recorded_predictions}/3 clases, "
-                  f"máxima diferencia de puntuación {max_delta:.5f}.")
+    df_audit = pd.read_csv(ROOT / "utilidades/dataset_auditado.csv")
+    test_df = df_audit[df_audit["split"] == "test"].reset_index(drop=True)
+    assert len(test_df) == 95, "Se requieren las 95 imágenes auditadas de test en Moondream."
+    files = [ROOT / rel for rel in test_df["id"]]
+
+    specs = json.loads((DEMO / "models.json").read_text(encoding="utf-8"))["models"]
+    for spec in specs:
+        model_id = spec["id"]
+        classes = tuple(spec["classes"])
+        n_clases = len(classes)
+        weights = ROOT / spec["weights"]
+        direct = models.convnext_tiny(weights=None)
+        direct.classifier[2] = nn.Linear(direct.classifier[2].in_features, n_clases)
+        ckpt = torch.load(weights, weights_only=True, map_location="cpu")
+        direct.load_state_dict(ckpt[spec["checkpoint_key"]])
+        direct.eval().to(engine.device)
+        query = {"model_id": model_id}
+        tau = spec["decision"]["threshold"] if spec["mode"] == "binary" else spec["decision"]["binary_threshold"]
+
+        for index in (0, 45, 90):
+            image = files[index]
+            with Image.open(image) as opened:
+                batch = transform(opened.convert("RGB")).unsqueeze(0).to(engine.device)
+            with torch.amp.autocast("cuda", enabled=engine.device.type == "cuda"):
+                logits = direct(batch)[0]
+            expected = logits.float().softmax(0).tolist()
+            pos_score = expected[1] if spec["mode"] == "binary" else (1.0 - expected[0])
+            if spec["mode"] == "binary":
+                pred_label = "glaucoma" if pos_score >= tau else "normal"
+            else:
+                pred_label = ("early" if expected[1] >= expected[2] else "advanced") if pos_score >= tau else "normal"
+
+            response = client.post("/api/predict", query_string=query, data=image.read_bytes())
+            assert response.status_code == 200, response.get_json()
+            result = response.get_json()
+            assert result["model_id"] == model_id
+            assert result["prediction"] == pred_label
+            assert [item["label"] for item in result["scores"]] == list(classes)
+            assert all(math.isclose(item["score"], value, rel_tol=0, abs_tol=2e-6)
+                       for item, value in zip(result["scores"], expected))
+            assert math.isclose(result["decision_summary"]["positive_score"], pos_score, abs_tol=2e-6)
+            assert math.isclose(result["decision_summary"]["threshold"], tau, abs_tol=2e-6)
+            assert "near_black_pct" in result["diagnostics"] and "luma_median" in result["diagnostics"]
+            if spec["mode"] == "ternary":
+                assert math.isclose(result["binary_projection"]["score"], pos_score, abs_tol=2e-6)
+                assert result["binary_projection"]["label"] == ("glaucoma" if pos_score >= tau else "normal")
+        print(f"{model_id}: 3/3 API = evaluación directa (ConvNeXt-Tiny, τ={tau:.2f}).")
 
     examples, issues = load_examples()
-    assert len(examples) == 6 and not issues
-    query = {"model_id": "staged-ternary-malignant", "example_id": "rim-discrepancia"}
+    assert len(examples) == 24 and not issues
+    query = {"model_id": "exp04-trinario-estandar", "example_id": "rim-discrepancia"}
     example = client.post("/api/predict", query_string=query).get_json()
     assert example["status"] == "ok" and example["binary_projection"]["label"] == "glaucoma"
+    assert example["diagnostics"]["framing_profile"] == "encuadre_lleno"
     response = client.post("/api/predict", query_string={"model_id": query["model_id"]}, data=b"not a PNG")
     assert response.status_code == 422 and response.get_json()["status"] == "error"
-    print("Ejemplos verificados y error de imagen corrupta confirmado.")
+    print("Ejemplos verificados, diagnósticos visuales completos y error de imagen corrupta confirmado.")
 
 
 def verify_label_import():
@@ -101,16 +100,18 @@ def verify_label_import():
 def verify_unavailable_models():
     config = json.loads((DEMO / "models.json").read_text(encoding="utf-8"))
     config["models"][0]["weights"] = "modelos/falta-este-checkpoint.pth"
-    config["models"][2]["weights"] = "modelos/model_staged_binary_malignant.pth"
+    config["models"][-1]["weights"] = "modelos/convnext_tiny_lodo_sin_rim_one_dl_aumento.pth"
     with TemporaryDirectory() as folder:
         path = Path(folder) / "models.json"
         path.write_text(json.dumps(config), encoding="utf-8")
         engine = Engine(path, device="cpu")
-    assert [model["status"] for model in engine.catalog.values()] == ["missing", "ready", "invalid", "ready"]
+    statuses = [model["status"] for model in engine.catalog.values()]
+    assert statuses[0] == "missing" and statuses[-1] == "invalid"
+    assert all(s == "ready" for s in statuses[1:-1])
     client = create_app(engine).test_client()
-    query = {"model_id": "staged-ternary-malignant", "example_id": "rim-normal"}
+    query = {"model_id": "exp04-trinario-estandar", "example_id": "rim-normal"}
     assert client.post("/api/predict", query_string=query).status_code == 409
-    query["model_id"] = "staged-ternary-vanilla"
+    query["model_id"] = "lodo-sin-rim-base"
     assert client.post("/api/predict", query_string=query).status_code == 200
     print("Checkpoint ausente e incompatible: alternativas operativas.")
 

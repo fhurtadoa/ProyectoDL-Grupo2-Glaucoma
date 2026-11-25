@@ -1,4 +1,4 @@
-import { compare, confusionMatrix, labels } from "./comparisons.mjs";
+import { binaryMetrics, compare, confusionMatrix, labels } from "./comparisons.mjs";
 
 const $ = (id) => document.getElementById(id);
 const modeInputs = [...document.querySelectorAll("input[name=mode]")];
@@ -40,8 +40,65 @@ function buttonStatus(result) {
   }
 }
 
+const LODO_FOLD_MAP = {
+  "RIM-ONE DL": "rim",
+  "ACRIMA": "acrima",
+  "EyePACS REAL": "eyepacs",
+  "Moondream Staged · test": "moondream",
+};
+
+function autoRouterSpecs() {
+  const readySet = new Set(state.models.filter((m) => m.status === "ready").map((m) => m.id));
+  const specs = [];
+  const allBase = Object.values(LODO_FOLD_MAP).every((slug) => readySet.has(`lodo-sin-${slug}-base`));
+  const allAug = Object.values(LODO_FOLD_MAP).every((slug) => readySet.has(`lodo-sin-${slug}-aumento`));
+  if (allBase && allAug) {
+    specs.push({
+      id: "lodo-auto-compare",
+      mode: "binary",
+      name: "LODO · Comparar Sin aumento vs. Con aumento (auto)",
+      status: "ready",
+      message: "Ejecuta automáticamente ambos modelos LODO (Sin aumento y Con aumento) del fold correspondiente a cada dataset.",
+      isCompare: true,
+    });
+  }
+  for (const [variant, label] of [["aumento", "Aumento de escala"], ["base", "Sin aumento"]]) {
+    const foldIds = Object.values(LODO_FOLD_MAP).map((slug) => `lodo-sin-${slug}-${variant}`);
+    if (foldIds.every((id) => readySet.has(id))) {
+      specs.push({
+        id: `lodo-auto-${variant}`,
+        mode: "binary",
+        name: `LODO · Solo ${label} (auto por dataset)`,
+        status: "ready",
+        message: "Selecciona automáticamente el modelo LODO que excluyó el dataset de cada imagen.",
+        isAuto: true,
+        variant,
+      });
+    }
+  }
+  return specs;
+}
+
+function allModelsForMode(mode) {
+  const list = state.models.filter((model) => model.mode === mode);
+  return mode === "binary" ? [...autoRouterSpecs(), ...list] : list;
+}
+
 function currentModel() {
-  return state.models.find((model) => model.id === state.chosen[state.mode]);
+  return allModelsForMode(state.mode).find((model) => model.id === state.chosen[state.mode]);
+}
+
+function resolveModelForRow(model, row, variantOverride = null) {
+  const slug = LODO_FOLD_MAP[row?.source];
+  if (variantOverride) {
+    return `lodo-sin-${slug || "eyepacs"}-${variantOverride}`;
+  }
+  if (!model?.isAuto) return model?.id;
+  return slug ? `lodo-sin-${slug}-${model.variant}` : "exp04-binario-estandar";
+}
+
+function isCompareMode() {
+  return Boolean(currentModel()?.isCompare) && state.mode === "binary";
 }
 
 function currentResult(row) {
@@ -49,7 +106,7 @@ function currentResult(row) {
 }
 
 function showModels() {
-  const choices = state.models.filter((model) => model.mode === state.mode);
+  const choices = allModelsForMode(state.mode);
   const model = currentModel();
   modelSelect.replaceChildren(...choices.map((choice) => {
     const suffix = choice.status === "ready" ? "" : " · No disponible";
@@ -129,6 +186,68 @@ function referenceSection(row, result) {
   return section;
 }
 
+function renderArmCard(title, res, ref, extraClass = "") {
+  const card = node("div", "", `arm-card ${extraClass}`.trim());
+  const head = node("div", "", "arm-head");
+  head.append(node("span", title, "arm-title"));
+  const comp = compare(res, ref, state.mode);
+  if (comp) head.append(comparisonText(comp));
+  const predRow = node("div", "", "arm-pred");
+  predRow.append(node("strong", labels[res.prediction]));
+  const tau = res.decision_summary?.threshold;
+  if (tau != null) predRow.append(node("span", `τ = ${percent.format(tau)}`, "dim"));
+  const scores = node("div", "", "scores");
+  for (const item of res.scores) {
+    const line = node("div", "", "score");
+    const meter = node("meter");
+    meter.min = 0;
+    meter.max = 1;
+    meter.value = item.score;
+    meter.setAttribute("aria-label", `${title} ${labels[item.label]}`);
+    line.append(node("span", labels[item.label]), node("span", percent.format(item.score)), meter);
+    scores.append(line);
+  }
+  card.append(head, predRow, scores);
+  return card;
+}
+
+function foldCaption(modelId) {
+  const m = state.models.find((item) => item.id === modelId);
+  if (!m) return modelId || "";
+  return m.name.replace("ConvNeXt-Tiny · ", "");
+}
+
+function showActiveModelBanner() {
+  const banner = $("active-model-banner");
+  if (!banner) return;
+  const model = currentModel();
+  if (!model) {
+    banner.hidden = true;
+    return;
+  }
+  banner.hidden = false;
+  const uniqueSources = [...new Set(state.rows.map((r) => (r.file ? "Archivo local" : r.source)))];
+  let detail = "";
+  if (model.isCompare || model.isAuto) {
+    if (uniqueSources.length === 1) {
+      const only = uniqueSources[0];
+      const baseId = resolveModelForRow(model, { source: only, file: only === "Archivo local" ? true : null }, model.isCompare ? "base" : null);
+      const cleanFold = foldCaption(baseId).replace(" (Sin aumento)", "").replace(" (Aumento escala)", "");
+      detail = `${cleanFold} · ${model.isCompare ? "compara Sin aumento vs. Con aumento de escala" : model.name}`;
+    } else {
+      detail = `ConvNeXt-Tiny · LODO automático por dataset (${model.isCompare ? "Sin aumento vs. Con aumento en cada cohorte ciega" : model.name})`;
+    }
+  } else {
+    const dec = model.decision || {};
+    const tau = dec.threshold ?? dec.binary_threshold;
+    detail = `${model.name}${tau != null ? ` · umbral τ = ${percent.format(tau)}` : ""}`;
+  }
+  banner.replaceChildren(
+    badge("Modelo clasificando", "working"),
+    node("strong", detail),
+  );
+}
+
 function showCase() {
   const index = state.rows.findIndex((row) => row.id === state.active);
   const row = state.rows[index];
@@ -155,7 +274,22 @@ function showCase() {
   $("result-status").className = `badge ${tone}`;
   const output = $("results-body");
   output.replaceChildren();
-  if (result?.status === "ok") {
+  const activeModel = currentModel();
+  if (result?.status === "ok" && result.mode === "compare") {
+    const cleanFold = foldCaption(result.aug.model_id).replace(" (Aumento escala)", "");
+    output.append(node("p", `Clasificado con: ConvNeXt-Tiny · ${cleanFold}`, "active-model-pill"));
+    const wrap = node("div", "", "compare-arms");
+    wrap.append(
+      renderArmCard("Sin aumento (Base)", result.base, row.reference, "arm-base"),
+      renderArmCard("Con aumento de escala", result.aug, row.reference, "arm-aug"),
+    );
+    output.append(wrap);
+    if (result.base.prediction !== result.aug.prediction) {
+      output.append(node("p", `El aumento cambió la predicción: ${labels[result.base.prediction]} → ${labels[result.aug.prediction]}`, "flip-note"));
+    }
+  } else if (result?.status === "ok") {
+    const usedId = result.routed_model_id || result.model_id;
+    output.append(node("p", `Clasificado con: ${foldCaption(usedId)}`, "active-model-pill"));
     const prediction = node("div", "", "prediction");
     prediction.append(node("p", "Clase predicha", "field-label"), node("strong", labels[result.prediction]));
     const scores = node("div", "", "scores");
@@ -169,15 +303,21 @@ function showCase() {
       line.append(node("span", labels[item.label]), node("span", percent.format(item.score)), meter);
       scores.append(line);
     }
-    output.append(prediction, scores, node("p", "Puntuaciones del modelo · uso académico", "fine"));
+    output.append(prediction, scores);
   } else {
-    const model = currentModel();
+    if (activeModel && row) {
+      const targetId = resolveModelForRow(activeModel, row, activeModel.isCompare ? "base" : null);
+      const previewLabel = activeModel.isCompare
+        ? foldCaption(targetId).replace(" (Sin aumento)", " (Base vs. Con aumento)")
+        : activeModel.isAuto ? foldCaption(targetId) : activeModel.name;
+      output.append(node("p", `Modelo asignado: ${previewLabel}`, "active-model-pill"));
+    }
     const message = result?.message || (result?.status === "running" ? "Procesando esta imagen…" :
       !row ? "Agrega una imagen para comenzar." :
-      model?.status === "ready" ? "Ejecuta la predicción para ver las puntuaciones." : "Modelo no disponible.");
+      activeModel?.status === "ready" ? "Ejecuta la predicción para ver las puntuaciones." : "Modelo no disponible.");
     output.append(node("p", message, result?.status === "error" ? "waiting row-error" : "waiting"));
   }
-  output.append(referenceSection(row, result));
+  output.append(referenceSection(row, result?.mode === "compare" ? result.aug : result));
 }
 
 function openCase(id) {
@@ -193,13 +333,12 @@ function openCase(id) {
   if (top < 0 || top >= window.innerHeight) viewer.scrollIntoView({ block: "start" });
 }
 
-function tableRow(row) {
+function tableRow(row, compareMode) {
   const tr = node("tr");
   tr.dataset.id = row.id;
   tr.classList.toggle("active", row.id === state.active);
   const result = currentResult(row);
   const ref = row.reference;
-  const comparison = compare(result, ref, state.mode);
   const imageCell = node("td");
   const button = node("button", "", "row-image");
   button.type = "button";
@@ -216,7 +355,6 @@ function tableRow(row) {
   button.addEventListener("click", () => openCase(row.id));
   imageCell.append(button);
 
-  const predCell = node("td", result?.prediction ? labels[result.prediction] : "—");
   const refCell = node("td");
   refCell.append(node("span", ref ? labels[ref.label] : "Sin etiqueta de referencia", ref ? "" : "dim"));
   if (ref) {
@@ -224,24 +362,72 @@ function tableRow(row) {
       state.mode === "ternary" ? "Binaria · severidad no disponible" : "Binaria";
     refCell.append(node("span", refLevel, "row-id"));
   }
-  const compCell = node("td", comparison ? "" : "—");
-  if (comparison) {
-    compCell.append(comparisonText(comparison));
-    if (comparison.level === "derived") compCell.append(node("span", "Binaria derivada", "row-id"));
-    if (comparison.level === "grouped") compCell.append(node("span", "Referencia agrupada", "row-id"));
-  }
+
   const statusCell = node("td");
   statusCell.append(badge(...buttonStatus(result)));
+  const activeModel = currentModel();
+  if (result?.status === "ok" && (activeModel?.isCompare || activeModel?.isAuto)) {
+    const usedId = result.mode === "compare" ? result.aug.model_id : (result.routed_model_id || result.model_id);
+    const foldTag = foldCaption(usedId).replace(" (Aumento escala)", "").replace(" (Sin aumento)", "");
+    statusCell.append(node("span", foldTag, "row-id"));
+  }
   if (result?.message) statusCell.append(node("span", result.message, "row-error"));
-  tr.append(imageCell, predCell, refCell, compCell, statusCell);
+
+  if (compareMode) {
+    const baseRes = result?.status === "ok" ? result.base : null;
+    const augRes = result?.status === "ok" ? result.aug : null;
+    const baseCell = node("td");
+    if (baseRes) {
+      const box = node("div", "", "cell-stack");
+      box.append(node("span", labels[baseRes.prediction]));
+      const cBase = compare(baseRes, ref, state.mode);
+      if (cBase) box.append(comparisonText(cBase));
+      baseCell.append(box);
+    } else {
+      baseCell.textContent = "—";
+    }
+    const augCell = node("td");
+    if (augRes) {
+      const box = node("div", "", "cell-stack");
+      box.append(node("span", labels[augRes.prediction]));
+      const cAug = compare(augRes, ref, state.mode);
+      if (cAug) box.append(comparisonText(cAug));
+      augCell.append(box);
+    } else {
+      augCell.textContent = "—";
+    }
+    tr.append(imageCell, baseCell, augCell, refCell, statusCell);
+  } else {
+    const comparison = compare(result, ref, state.mode);
+    const predCell = node("td", result?.prediction ? labels[result.prediction] : "—");
+    const compCell = node("td", comparison ? "" : "—");
+    if (comparison) {
+      compCell.append(comparisonText(comparison));
+      if (comparison.level === "derived") compCell.append(node("span", "Binaria derivada", "row-id"));
+      if (comparison.level === "grouped") compCell.append(node("span", "Referencia agrupada", "row-id"));
+    }
+    tr.append(imageCell, predCell, refCell, compCell, statusCell);
+  }
   return tr;
 }
 
 function showTable() {
+  const compareMode = isCompareMode();
+  const headers = compareMode
+    ? ["Imagen", "Sin aumento (Base)", "Con aumento", "Referencia", "Estado"]
+    : ["Imagen", "Predicción", "Referencia", "Comparación", "Estado"];
+  const headerRow = $("batch-header-row");
+  if (headerRow) {
+    headerRow.replaceChildren(...headers.map((text) => {
+      const th = node("th", text);
+      th.scope = "col";
+      return th;
+    }));
+  }
   const focused = document.activeElement?.closest("tr")?.dataset.id;
   const rows = $("rows");
   if (state.rows.length) {
-    rows.replaceChildren(...state.rows.map(tableRow));
+    rows.replaceChildren(...state.rows.map((row) => tableRow(row, compareMode)));
     if (focused) [...rows.rows].find((row) => row.dataset.id === focused)?.querySelector("button").focus({ preventScroll: true });
   } else {
     const row = node("tr");
@@ -254,16 +440,29 @@ function showTable() {
 
 function showSummary() {
   const total = state.rows.length;
+  const compareMode = isCompareMode();
   let done = 0;
   let failures = 0;
   let comparable = 0;
   let matches = 0;
+  let baseMatches = 0;
+  let augMatches = 0;
   let derived = 0;
   let derivedMatches = 0;
   for (const row of state.rows) {
     const result = currentResult(row);
     if (result?.status === "error") failures++;
     if (result?.status === "ok") done++;
+    if (compareMode && result?.status === "ok" && result.mode === "compare") {
+      const cBase = compare(result.base, row.reference, state.mode);
+      const cAug = compare(result.aug, row.reference, state.mode);
+      if (cBase && cAug) {
+        comparable++;
+        if (cBase.match) baseMatches++;
+        if (cAug.match) augMatches++;
+      }
+      continue;
+    }
     const comparison = compare(result, row.reference, state.mode);
     if (!comparison) continue;
     if (comparison.level === "derived") {
@@ -276,9 +475,13 @@ function showSummary() {
   }
   $("batch-count").textContent = `${total} ${total === 1 ? "archivo" : "archivos"}`;
   const parts = [`${done + failures}/${total} revisados`, `${done} con predicción`, `${failures} con error`];
-  if (comparable) parts.push(`${matches}/${comparable} coincidencias`);
-  if (derived) parts.push(`${derivedMatches}/${derived} coincidencias binarias derivadas`);
-  if (done && done - comparable - derived) parts.push(`${done - comparable - derived} sin comparación`);
+  if (compareMode && comparable) {
+    parts.push(`Sin aumento: ${baseMatches}/${comparable}`, `Con aumento: ${augMatches}/${comparable}`);
+  } else {
+    if (comparable) parts.push(`${matches}/${comparable} coincidencias`);
+    if (derived) parts.push(`${derivedMatches}/${derived} coincidencias binarias derivadas`);
+    if (done && done - comparable - derived) parts.push(`${done - comparable - derived} sin comparación`);
+  }
   $("batch-summary").textContent = total ? parts.join(" · ") : "Agrega una imagen o carga el lote de ejemplo.";
   const bar = $("progress");
   bar.hidden = !state.running || !state.progress;
@@ -288,13 +491,123 @@ function showSummary() {
   }
 }
 
-function showConfusion() {
-  const container = $("confusion-matrices");
-  const cases = state.rows.map((row) => ({ result: currentResult(row), reference: row.reference }));
-  const { title, classes, counts, total, binaryHealthy, withoutStage } = confusionMatrix(cases, state.mode);
+const dec3 = new Intl.NumberFormat("es-CO", { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+const pct1 = new Intl.NumberFormat("es-CO", { style: "percent", maximumFractionDigits: 1 });
+const fmtDec = (v) => (v == null || Number.isNaN(v) ? "—" : dec3.format(v));
+const fmtPct = (v) => (v == null || Number.isNaN(v) ? "—" : pct1.format(v));
+
+function buildMetricsPanel(title, badgeLabel, groups, baselineBySource = null) {
+  const panel = node("div", "", "metrics-panel");
+  const heading = node("h3", "", "metrics-panel-title");
+  heading.append(node("span", title), badge(badgeLabel, "working"));
+  panel.append(heading);
+
+  const wrap = node("div", "", "table-wrap");
+  const table = node("table", "", "metrics-table");
+  const thead = table.createTHead().insertRow();
+  for (const col of ["Dataset", "n (+/−)", "Exact.", "Prec.", "Sens.", "Espec.", "TFP", "TFN", "F1", "AUROC"]) {
+    const th = node("th", col);
+    th.scope = "col";
+    thead.append(th);
+  }
+  const tbody = table.createTBody();
+  for (const group of groups) {
+    const m = group.metrics;
+    const base = baselineBySource?.get(group.name);
+    const tr = tbody.insertRow();
+    if (group.isGlobal) tr.className = "global-row";
+    tr.append(
+      node("td", group.name),
+      node("td", m.n ? `${m.n} (${m.pos}/${m.neg})` : "0"),
+      node("td", fmtPct(m.accuracy)),
+      node("td", fmtPct(m.precision)),
+      node("td", fmtPct(m.sensitivity)),
+      node("td", fmtPct(m.specificity)),
+      node("td", fmtPct(m.fpr)),
+      node("td", fmtPct(m.fnr)),
+    );
+    const f1Cell = node("td");
+    f1Cell.append(document.createTextNode(fmtDec(m.f1Macro)));
+    if (base && m.f1Macro != null && base.f1Macro != null) {
+      const df1 = 100 * (m.f1Macro - base.f1Macro);
+      if (Math.abs(df1) >= 0.05) {
+        f1Cell.append(node("span", `${df1 > 0 ? "+" : ""}${df1.toFixed(1)}`, `delta-chip ${df1 > 0 ? "delta-up" : "delta-down"}`));
+      }
+    }
+    const aucCell = node("td");
+    aucCell.append(document.createTextNode(fmtDec(m.auroc)));
+    if (base && m.auroc != null && base.auroc != null) {
+      const dauc = 100 * (m.auroc - base.auroc);
+      if (Math.abs(dauc) >= 0.05) {
+        aucCell.append(node("span", `${dauc > 0 ? "+" : ""}${dauc.toFixed(1)}`, `delta-chip ${dauc > 0 ? "delta-up" : "delta-down"}`));
+      }
+    }
+    tr.append(f1Cell, aucCell);
+  }
+  wrap.append(table);
+  panel.append(wrap);
+  return panel;
+}
+
+function showDatasetMetrics() {
+  const container = $("dataset-metrics");
+  const subtitle = $("metrics-subtitle");
+  if (!container) return;
+  const compareMode = isCompareMode();
+  const sources = [];
+  const seen = new Set();
+  for (const row of state.rows) {
+    const key = row.file ? "Archivo local" : row.source;
+    if (!seen.has(key)) {
+      seen.add(key);
+      sources.push(key);
+    }
+  }
+
+  const collect = (picker) => {
+    const groups = sources.map((source) => {
+      const cases = state.rows
+        .filter((row) => (row.file ? "Archivo local" : row.source) === source)
+        .map((row) => ({ result: picker(row), reference: row.reference }));
+      return { name: source, isGlobal: false, metrics: binaryMetrics(cases) };
+    });
+    const allCases = state.rows.map((row) => ({ result: picker(row), reference: row.reference }));
+    groups.push({ name: "Global (lote)", isGlobal: true, metrics: binaryMetrics(allCases) });
+    return groups;
+  };
+
+  if (compareMode) {
+    container.className = "metrics-panels";
+    subtitle.textContent = "Tablas pareadas por dataset en el lote actual: Sin aumento (Base) frente a Con aumento de escala (δ en puntos porcentuales junto a F1 y AUROC).";
+    const baseGroups = collect((row) => {
+      const r = currentResult(row);
+      return r?.status === "ok" && r.mode === "compare" ? r.base : null;
+    });
+    const augGroups = collect((row) => {
+      const r = currentResult(row);
+      return r?.status === "ok" && r.mode === "compare" ? r.aug : null;
+    });
+    const baseMap = new Map(baseGroups.map((g) => [g.name, g.metrics]));
+    container.replaceChildren(
+      buildMetricsPanel("Sin aumento (Base)", "Control LODO", baseGroups),
+      buildMetricsPanel("Con aumento (Aumento de escala)", "Δ vs. Base (pp)", augGroups, baseMap),
+    );
+  } else {
+    container.className = "metrics-panels single";
+    subtitle.textContent = state.mode === "ternary"
+      ? "Desglose binario derivado por dataset (proyección P(Temprano)+P(Avanzado) frente a referencia binaria o agrupada)."
+      : "Desglose en vivo por dataset del modelo seleccionado (Exactitud, Precisión, Sensibilidad, Especificidad, TFP, TFN, F1 macro y AUROC).";
+    const singleGroups = collect((row) => currentResult(row));
+    const modelName = currentModel()?.name || "Modelo activo";
+    container.replaceChildren(buildMetricsPanel(modelName, state.mode === "ternary" ? "Proyección binaria" : "Lote actual", singleGroups));
+  }
+}
+
+function buildMatrixNode(titleText, cases) {
+  const { classes, counts, total, binaryHealthy, withoutStage } = confusionMatrix(cases, state.mode);
   const wrapper = node("div", "", "matrix");
   const table = node("table");
-  table.append(node("caption", title + " · " + total + (total === 1 ? " caso" : " casos")));
+  table.append(node("caption", titleText + " · " + total + (total === 1 ? " caso" : " casos")));
   const header = table.createTHead().insertRow();
   for (const label of ["Referencia", ...classes.map((key) => labels[key])]) {
     const cell = node("th", label);
@@ -319,6 +632,28 @@ function showConfusion() {
       : "La matriz requiere predicciones con referencias comparables.";
     wrapper.append(node("p", description, "fine"));
   }
+  return { wrapper, binaryHealthy, withoutStage };
+}
+
+function showConfusion() {
+  const container = $("confusion-matrices");
+  if (isCompareMode()) {
+    const baseCases = state.rows.map((row) => {
+      const r = currentResult(row);
+      return { result: r?.status === "ok" && r.mode === "compare" ? r.base : null, reference: row.reference };
+    });
+    const augCases = state.rows.map((row) => {
+      const r = currentResult(row);
+      return { result: r?.status === "ok" && r.mode === "compare" ? r.aug : null, reference: row.reference };
+    });
+    const mBase = buildMatrixNode("Sin aumento (Base)", baseCases);
+    const mAug = buildMatrixNode("Con aumento (Aumento de escala)", augCases);
+    container.replaceChildren(mBase.wrapper, mAug.wrapper);
+    return;
+  }
+  const cases = state.rows.map((row) => ({ result: currentResult(row), reference: row.reference }));
+  const title = state.mode === "binary" ? "Clasificación binaria" : "Clasificación trinaria";
+  const { wrapper, binaryHealthy, withoutStage } = buildMatrixNode(title, cases);
   container.replaceChildren(wrapper);
   if (state.mode === "ternary") {
     const notice = node("aside", "", "matrix-notice");
@@ -341,6 +676,7 @@ function showControls() {
   for (const input of modeInputs) input.disabled = busy;
   modelSelect.disabled = busy || !currentModel();
   $("dropzone").disabled = busy;
+  $("example-dataset").disabled = busy || state.examples.length === 0;
   $("load-examples").disabled = busy || state.examples.length === 0;
   $("run").disabled = busy || !canRun;
   $("run").textContent = state.running ? "Procesando…" : "Ejecutar predicción";
@@ -350,8 +686,10 @@ function showControls() {
 
 function render() {
   showCase();
+  showActiveModelBanner();
   showTable();
   showSummary();
+  showDatasetMetrics();
   showConfusion();
   showControls();
 }
@@ -420,16 +758,42 @@ async function runBatch() {
   for (const row of state.rows) {
     row.results.set(model.id, { status: "running" });
     render();
-    const query = new URLSearchParams({ model_id: model.id });
-    if (!row.file) query.set("example_id", row.id);
     try {
-      const response = await fetch(`/api/predict?${query}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/octet-stream" },
-        body: row.file,
-      });
-      const result = await response.json();
-      row.results.set(model.id, result);
+      if (model.isCompare) {
+        const baseId = resolveModelForRow(model, row, "base");
+        const augId = resolveModelForRow(model, row, "aumento");
+        const [rBase, rAug] = await Promise.all([baseId, augId].map(async (mid) => {
+          const q = new URLSearchParams({ model_id: mid });
+          if (!row.file) q.set("example_id", row.id);
+          const resp = await fetch(`/api/predict?${q}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/octet-stream" },
+            body: row.file,
+          });
+          return resp.json();
+        }));
+        if (rBase.status === "ok" && rAug.status === "ok") {
+          row.results.set(model.id, { status: "ok", mode: "compare", base: rBase, aug: rAug });
+        } else {
+          row.results.set(model.id, {
+            status: "error",
+            model_id: model.id,
+            message: rBase.message || rAug.message || "Error al evaluar el par LODO.",
+          });
+        }
+      } else {
+        const targetModelId = resolveModelForRow(model, row);
+        const query = new URLSearchParams({ model_id: targetModelId });
+        if (!row.file) query.set("example_id", row.id);
+        const response = await fetch(`/api/predict?${query}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/octet-stream" },
+          body: row.file,
+        });
+        const result = await response.json();
+        if (targetModelId !== model.id) result.routed_model_id = targetModelId;
+        row.results.set(model.id, result);
+      }
     } catch {
       row.results.set(model.id, {
         status: "error", model_id: model.id, message: "No se pudo comunicar con el motor local.",
@@ -493,7 +857,26 @@ modelSelect.addEventListener("change", () => {
   showModels();
   render();
 });
-$("load-examples").addEventListener("click", () => loadExamples(state.examples));
+function selectedExamples() {
+  const chosen = $("example-dataset").value;
+  return chosen === "all" ? state.examples : state.examples.filter((entry) => entry.source === chosen);
+}
+
+function populateExampleDatasets() {
+  const select = $("example-dataset");
+  const counts = new Map();
+  for (const entry of state.examples) {
+    counts.set(entry.source, (counts.get(entry.source) || 0) + 1);
+  }
+  const options = [new Option(`Todos los datasets (${state.examples.length} · 6 por fuente)`, "all")];
+  for (const [source, count] of counts) {
+    options.push(new Option(`${source} (${count})`, source));
+  }
+  select.replaceChildren(...options);
+}
+
+$("example-dataset").addEventListener("change", () => loadExamples(selectedExamples()));
+$("load-examples").addEventListener("click", () => loadExamples(selectedExamples()));
 $("dropzone").addEventListener("click", () => $("images").click());
 $("images").addEventListener("change", (event) => {
   upload(event.target.files);
@@ -536,8 +919,9 @@ async function init() {
     state.examples = catalog.examples;
     const issues = [...catalog.example_issues];
     for (const mode of ["binary", "ternary"]) {
-      const choices = catalog.models.filter((model) => model.mode === mode);
-      const preferred = choices.find((model) => model.id === catalog.defaults[mode]);
+      const choices = allModelsForMode(mode);
+      const autoPreferred = mode === "binary" ? choices.find((m) => m.id === "lodo-auto-compare") : null;
+      const preferred = autoPreferred || choices.find((model) => model.id === catalog.defaults[mode]);
       state.chosen[mode] = (preferred?.status === "ready" ? preferred :
         choices.find((model) => model.status === "ready") || preferred || choices[0])?.id;
       if (preferred?.status !== "ready" && preferred) {
@@ -549,7 +933,8 @@ async function init() {
       $("catalog-alert").hidden = false;
     }
     showModels();
-    if (state.examples.length && !state.rows.length) loadExamples(state.examples, true);
+    populateExampleDatasets();
+    if (state.examples.length && !state.rows.length) loadExamples(selectedExamples(), true);
   } catch {
     $("model-status").textContent = "No se pudo consultar el catálogo de modelos.";
     modelSelect.replaceChildren(new Option("Motor no disponible", ""));
