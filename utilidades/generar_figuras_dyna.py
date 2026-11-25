@@ -45,44 +45,88 @@ def generar_todas(root: Path = ROOT) -> dict:
     df_datos, _ = u.cargar_dataset(root)
     salidas = {}
 
-    # ---- 03 · Muestras por cohorte ----
+    # ---- 03 · Muestras por cohorte (5 fuentes locales de 4.1.1) ----
     dir03 = root / "03_experimento_caracteristicas_retinografias/figuras_dyna"
+    hrows = pd.read_csv(root / "03_experimento_caracteristicas_retinografias/datos/por_imagen.csv", low_memory=False)
+    fuentes = hrows[hrows["en_comparacion_fuentes"] == True].copy()
+    eyepacs_t_rel = fuentes.loc[fuentes["coleccion"] == "EyePACS TRAIN", "ruta_relativa"].iloc[0]
     muestras = [
         ("ACRIMA", df_datos[df_datos["coleccion"] == "ACRIMA"].iloc[0]["id"]),
-        ("RIM-ONE DL", df_datos[df_datos["coleccion"] == "RIM-ONE DL"].iloc[0]["id"]),
+        ("RIM-ONE", df_datos[df_datos["coleccion"] == "RIM-ONE DL"].iloc[0]["id"]),
         ("Moondream", df_datos[df_datos["coleccion"] == "Moondream Staged"].iloc[0]["id"]),
-        ("EyePACS REAL", df_datos[df_datos["coleccion"] == "EyePACS REAL"].iloc[0]["id"]),
+        ("EyePACS R", df_datos[df_datos["coleccion"] == "EyePACS REAL"].iloc[0]["id"]),
+        ("EyePACS T", eyepacs_t_rel),
     ]
-    fig, axes = plt.subplots(1, 4, figsize=(3.31, 1.02), dpi=300, layout="constrained")
+    fig, axes = plt.subplots(1, 5, figsize=(3.31, 0.88), dpi=300, layout="constrained")
     for ax, (nom, rel) in zip(axes, muestras):
         ax.imshow(u.leer_rgb(root, rel).resize((224, 224)).convert("L"), cmap="gray")
-        ax.set_title(nom, fontsize=6.3, pad=2)
+        ax.set_title(nom, fontsize=5.8, pad=2)
         ax.axis("off")
     salidas["03_muestras"] = _guardar_grises(fig, dir03 / "fig_03_muestras_cohortes_grises.png")
 
-    # ---- 03 · Encuadre y brillo ----
-    hrows = pd.read_csv(root / "03_experimento_caracteristicas_retinografias/datos/por_imagen.csv", low_memory=False)
-    fuentes = hrows[hrows["en_comparacion_fuentes"] == True].copy()
+    # ---- 03 · Encuadre, brillo, saturación y nitidez (2x2 DYNA) ----
     orden = ["ACRIMA", "RIM-ONE DL", "Moondream Staged", "EyePACS REAL", "EyePACS TRAIN"]
     etq = ["ACRIMA", "RIM-ONE", "Moondream", "EyePACS R", "EyePACS T"]
-    fig, axes = plt.subplots(2, 1, figsize=(3.31, 2.55), dpi=300, sharex=True, layout="constrained")
-    for ax, col, ylab in zip(axes, ["region_pct", "brillo_mediano_yn"], ["Área visible (%)", "Brillo mediano (luma)"]):
+    fig, axes = plt.subplots(2, 2, figsize=(3.31, 2.85), dpi=300, sharex=True, layout="constrained")
+    paneles_03 = [
+        ("region_pct", "Área visible (%)", False),
+        ("brillo_mediano_yn", "Brillo (luma)", False),
+        ("saturacion_media_pct", "Saturación (%)", False),
+        ("laplaciano_lado512", "Nitidez (512 px)", True),
+    ]
+    for ax, (col, ylab, log_y) in zip(axes.ravel(), paneles_03):
         datos = [fuentes.loc[fuentes["coleccion"] == s, col].dropna().to_numpy() for s in orden]
         bp = ax.boxplot(datos, patch_artist=True, showfliers=False, widths=0.52)
         for box in bp["boxes"]:
             box.set_facecolor("#bdbdbd")
             box.set_edgecolor("#222222")
-            box.set_linewidth(0.7)
+            box.set_linewidth(0.65)
         for med in bp["medians"]:
             med.set_color("#000000")
-            med.set_linewidth(1.1)
+            med.set_linewidth(1.0)
         for w in bp["whiskers"] + bp["caps"]:
             w.set_color("#444444")
-            w.set_linewidth(0.6)
-        ax.set_ylabel(ylab)
+            w.set_linewidth(0.55)
+        if log_y:
+            ax.set_yscale("symlog", linthresh=1)
+        ax.set_ylabel(ylab, fontsize=6.4)
+        ax.tick_params(axis="y", labelsize=5.8)
         ax.grid(axis="y", linestyle=":", alpha=0.45, color="#888888")
-    axes[1].set_xticks(range(1, len(orden) + 1), etq, rotation=16, ha="right")
+    for ax in axes[1]:
+        ax.set_xticks(range(1, len(orden) + 1), etq, rotation=28, ha="right", fontsize=5.8)
     salidas["03_encuadre"] = _guardar_grises(fig, dir03 / "fig_03_encuadre_brillo_grises.png")
+
+    # ---- 03 · Asimetría intra-fuente por clase (señales espurias) ----
+    fig, (ax_m, ax_a) = plt.subplots(1, 2, figsize=(3.31, 1.55), dpi=300, layout="constrained")
+    m_sub = fuentes[fuentes["coleccion"] == "Moondream Staged"]
+    m_ord = ["normal", "early", "advanced"]
+    m_datos = [m_sub.loc[m_sub["etiqueta"] == c, "brillo_mediano_yn"].dropna().to_numpy() for c in m_ord]
+    bp_m = ax_m.boxplot(m_datos, patch_artist=True, showfliers=False, widths=0.52)
+    for box, col in zip(bp_m["boxes"], ["#d9d9d9", "#9e9e9e", "#525252"]):
+        box.set_facecolor(col); box.set_edgecolor("#222222"); box.set_linewidth(0.7)
+    for med in bp_m["medians"]:
+        med.set_color("#000000"); med.set_linewidth(1.1)
+    for w in bp_m["whiskers"] + bp_m["caps"]:
+        w.set_color("#444444"); w.set_linewidth(0.6)
+    ax_m.set_xticks([1, 2, 3], ["Sano", "Inic.", "Avanz."], fontsize=6.0)
+    ax_m.set_ylabel("Brillo (luma)", fontsize=6.5)
+    ax_m.set_title("Moondream por estadio", fontsize=6.8)
+    ax_m.grid(axis="y", linestyle=":", alpha=0.45, color="#888888")
+
+    a_sub = fuentes[fuentes["coleccion"] == "ACRIMA"]
+    a_datos = [a_sub.loc[a_sub["etiqueta"] == c, "ancho_px"].dropna().to_numpy() for c in ["normal", "glaucoma"]]
+    bp_a = ax_a.boxplot(a_datos, patch_artist=True, showfliers=False, widths=0.48)
+    for box, col in zip(bp_a["boxes"], ["#d9d9d9", "#636363"]):
+        box.set_facecolor(col); box.set_edgecolor("#222222"); box.set_linewidth(0.7)
+    for med in bp_a["medians"]:
+        med.set_color("#000000"); med.set_linewidth(1.1)
+    for w in bp_a["whiskers"] + bp_a["caps"]:
+        w.set_color("#444444"); w.set_linewidth(0.6)
+    ax_a.set_xticks([1, 2], ["Sano", "Glaucoma"], fontsize=6.0)
+    ax_a.set_ylabel("Ancho nativo (px)", fontsize=6.5)
+    ax_a.set_title("ACRIMA por clase", fontsize=6.8)
+    ax_a.grid(axis="y", linestyle=":", alpha=0.45, color="#888888")
+    salidas["03_asimetria"] = _guardar_grises(fig, dir03 / "fig_03_asimetria_clases_grises.png")
 
     # ---- 04 · Matrices 3x3 (referencia previa n=115 vs auditado n=95) ----
     dir04 = root / "04_experimento_trinario_vs_binario/figuras"

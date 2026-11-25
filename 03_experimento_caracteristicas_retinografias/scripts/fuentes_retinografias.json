@@ -40,14 +40,6 @@
       "comparar": true, "estratificar": true
     },
     {
-      "id": "Megacohorte", "ruta": "data/HARMONIZED_MEGA_COHORT", "tipo": "armonizada",
-      "representacion": "derivados 512 × 512 de las fuentes locales y copias redundantes",
-      "procedencia": "scripts/experimentos/07_armonizacion_roi_y_mega_dataset.py",
-      "manifiesto": {"ruta": "results/harmonized_mega_cohort_index.csv", "ruta_col": "path", "id_col": "sample_id", "etiqueta_col": "label", "particion_col": "split", "fuente_col": "source", "clases": {"0": "normal", "1": "glaucoma"}},
-      "etiquetas": "carpeta", "esquema": "binaria_recodificada_indice_mega", "particion_nivel": 0,
-      "enlace": {"ACRIMA": ["ACRIMA", "ACRIMA_", "escalar"], "RIM-ONE DL": ["RIM-ONE DL", "RIMONE_", "escalar"], "EyePACS": ["EyePACS REAL", "EYEPACS_ROI_", "recortar_color"], "Moondream": ["Moondream Staged", "MOONDREAM_", "escalar"]}
-    },
-    {
       "id": "THIRD_DATASET", "ruta": "data/THIRD_DATASET", "tipo": "mascara_derivada",
       "representacion": "mapas derivados RGBA; se observan patrones de bordes y regiones concéntricas; sin correspondencia anotada a retinografías",
       "procedencia": "atribuido a ODIR o Kaggle Glaucoma en documentos del proyecto; origen sin manifiesto local",
