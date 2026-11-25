@@ -1,0 +1,611 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T19:29:32Z",
+      "timestamp": 1795202972147,
+      "version": "4.10.3"
+    },
+    "reference-count": 37,
+    "publisher": "Tech Science Press",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "CMC"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.32604/cmc.2025.065141",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2025-06-18T04:18:26Z",
+      "timestamp": 1750220306000
+    },
+    "page": "3477-3502",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "E-GlauNet: A CNN-Based Ensemble Deep Learning Model for Glaucoma Detection and Staging Using Retinal Fundus Images"
+    ],
+    "prefix": "10.32604",
+    "volume": "84",
+    "author": [
+      {
+        "given": "Maheen",
+        "family": "Anwar",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saima",
+        "family": "Farhan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yasin Ul",
+        "family": "Haq",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Waqar",
+        "family": "Azeem",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad",
+        "family": "Ilyas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Razvan Cristian",
+        "family": "Voicu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad Hassan",
+        "family": "Tanveer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "17807",
+    "published-online": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1221",
+        "DOI": "10.1016/S2214-109X(17)30393-5",
+        "article-title": "Global causes of blindness and distance vision impairment 1990–2020: a systematic review and meta-analysis",
+        "volume": "5",
+        "author": "Flaxman",
+        "year": "2017",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1654",
+        "DOI": "10.1016/S0161-6420(85)34085-X",
+        "article-title": "Quantitation of optic disc cupping",
+        "volume": "92",
+        "author": "Klein",
+        "year": "1985",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "article-title": "Disc-aware ensemble network for glaucoma screening from fundus image",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1930",
+        "DOI": "10.1109/TMI.2017.2703147",
+        "article-title": "Segmentation and quantification for angle-closure glaucoma assessment in anterior segment OCT",
+        "volume": "36",
+        "author": "Fu",
+        "year": "2017",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "first-page": "879",
+        "DOI": "10.1136/bjo.2004.046169",
+        "article-title": "Digital imaging of the optic nerve head: monoscopic and stereoscopic analysis",
+        "volume": "89",
+        "author": "Morgan",
+        "year": "2005",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1016/j.compeleceng.2018.07.024",
+        "article-title": "Computer-aided diagnosis of renal lesions in CT images: a comprehensive survey and future prospects",
+        "volume": "77",
+        "author": "Kaur",
+        "year": "2019",
+        "journal-title": "Comput Electr Eng"
+      },
+      {
+        "key": "ref9",
+        "first-page": "181",
+        "article-title": "An automatic diabetic retinal image screening system",
+        "volume": "29",
+        "author": "Kheng",
+        "year": "2001",
+        "journal-title": "Medical data mining and knowledge discovery"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1019",
+        "DOI": "10.1109/TMI.2013.2247770",
+        "article-title": "Superpixel classification based optic disc and optic cup segmentation for glaucoma screening",
+        "volume": "32",
+        "author": "Cheng",
+        "year": "2013",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1395",
+        "DOI": "10.1109/TBME.2015.2389234",
+        "article-title": "Sparse dissimilarity-constrained coding for glaucoma screening",
+        "volume": "62",
+        "author": "Cheng",
+        "year": "2015",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1109/TMI.2011.2106509",
+        "article-title": "Optic disk and cup segmentation from monocular color retinal images for glaucoma assessment",
+        "volume": "30",
+        "author": "Joshi",
+        "year": "2011",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "82819",
+        "DOI": "10.1109/ACCESS.2020.2988284",
+        "article-title": "Image denoising with generative adversarial networks and its application to cell image enhancement",
+        "volume": "8",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "15598",
+        "DOI": "10.1109/JSEN.2020.3009242",
+        "article-title": "An adaptive multisensor image fusion method based on monogenic features",
+        "volume": "21",
+        "author": "Ji",
+        "year": "2020",
+        "journal-title": "IEEE Sens J"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "332",
+        "DOI": "10.1007/s10278-009-9189-5",
+        "article-title": "Detection of the optic nerve head in fundus images of the retina using the hough transform for circles",
+        "volume": "23",
+        "author": "Zhu",
+        "year": "2010",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2003",
+        "DOI": "10.7717/peerj.2003",
+        "article-title": "Localization and segmentation of optic disc in retinal images using circular Hough transform and grow-cut algorithm",
+        "volume": "4",
+        "author": "Abdullah",
+        "year": "2016",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2126",
+        "DOI": "10.1109/TMI.2011.2164261",
+        "article-title": "Accurate and efficient optic disc detection and segmentation by a circular transformation",
+        "volume": "30",
+        "author": "Lu",
+        "year": "2011",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref18",
+        "series-title": "2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "first-page": "4664",
+        "article-title": "ICA analysis of retina images for glaucoma classification",
+        "author": "Fink",
+        "year": "2008 Aug 20–25"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "102559",
+        "DOI": "10.1016/j.bspc.2021.102559",
+        "article-title": "ECNet: an evolutionary convolutional network for automated glaucoma detection using fundus images",
+        "volume": "67",
+        "author": "Nayak",
+        "year": "2021",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1283",
+        "DOI": "10.1007/s10278-022-00648-1",
+        "article-title": "Classification of glaucoma stages using image empirical mode decomposition from fundus images",
+        "volume": "35",
+        "author": "Parashar",
+        "year": "2022",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1016/j.media.2009.12.006",
+        "article-title": "Glaucoma risk index: automated glaucoma detection from color fundus images",
+        "volume": "14",
+        "author": "Bock",
+        "year": "2010",
+        "journal-title": "Medical Image Anal"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0207982",
+        "DOI": "10.1371/journal.pone.0207982",
+        "article-title": "A deep learning model for the detection of both advanced and early glaucoma using fundus photography",
+        "volume": "13",
+        "author": "Ahn",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "ref23",
+        "series-title": "2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "first-page": "715",
+        "article-title": "Glaucoma detection based on deep convolutional neural network",
+        "author": "Chen",
+        "year": "2015 Aug 25–29"
+      },
+      {
+        "key": "ref24",
+        "series-title": "2017 14th International Multi-Conference on Systems, Signals & Devices (SSD)",
+        "first-page": "207",
+        "article-title": "Automated glaucoma diagnosis using deep learning approach",
+        "author": "Al-Bander",
+        "year": "2017 Mar 28–31"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "first-page": "108009",
+        "DOI": "10.1016/j.compeleceng.2022.108009",
+        "article-title": "Deep learning-based classification network for glaucoma in retinal images",
+        "volume": "101",
+        "author": "Juneja",
+        "year": "2022",
+        "journal-title": "Comput Electr Eng"
+      },
+      {
+        "key": "ref26",
+        "first-page": "31",
+        "article-title": "Glaucoma diagnosis using cooperative convolutional neural networks",
+        "volume": "5",
+        "author": "Benzebouchi",
+        "year": "2018",
+        "journal-title": "Int J Adv Electron Comput Sci"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2988262",
+        "DOI": "10.1155/2022/2988262",
+        "article-title": "Glaucoma detection using image processing and supervised learning for classification",
+        "volume": "2022",
+        "author": "Joshi",
+        "year": "2022",
+        "journal-title": "J Healthc Eng"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1",
+        "article-title": "GC-NET for classification of glaucoma in the retinal fundus image",
+        "volume": "31",
+        "author": "Juneja",
+        "year": "2020",
+        "journal-title": "Mach Vision Appl"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2702",
+        "DOI": "10.4103/ijo.IJO_92_21",
+        "article-title": "Identification of glaucoma from fundus images using deep learning techniques",
+        "volume": "69",
+        "author": "Ajitha",
+        "year": "2021",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1016/j.neucom.2020.07.146",
+        "article-title": "Automatic method for glaucoma diagnosis using a three-dimensional convoluted neural network",
+        "volume": "438",
+        "author": "de Sales Carvalho",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1080/01969722.2023.2166250",
+        "article-title": "ODMNet: automated glaucoma detection and classification model using heuristically-aided optimized DenseNet and MobileNet transfer learning",
+        "volume": "55",
+        "author": "Xavier",
+        "year": "2024",
+        "journal-title": "Cybernet Syst"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "49301",
+        "DOI": "10.1007/s11042-023-17506-z",
+        "article-title": "Identification of glaucoma in fundus images utilizing gray wolf optimization with deep convolutional neural network-based ResNet50 model",
+        "volume": "83",
+        "author": "Sujithra",
+        "year": "2024",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "ref33",
+        "first-page": "1429",
+        "article-title": "An improved deep learning framework for automated optic disc localization and glaucoma detection",
+        "volume": "140",
+        "author": "Elmannai",
+        "year": "2024",
+        "journal-title": "Comput Model Eng Sci"
+      },
+      {
+        "key": "ref34",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Machine learn for glaucoma"
+      },
+      {
+        "key": "ref35",
+        "series-title": "Proceedings of the 2016 IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "770",
+        "article-title": "Deep residual learning for image recognition",
+        "author": "He",
+        "year": "2016 Jun 27–30"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10462-009-9124-7",
+        "article-title": "Ensemble-based classifiers",
+        "volume": "33",
+        "author": "Rokach",
+        "year": "2010",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1516",
+        "DOI": "10.1080/02713683.2021.1900268",
+        "article-title": "Deep learning ensemble method for classifying glaucoma stages using fundus photographs and convolutional neural networks",
+        "volume": "46",
+        "author": "Cho",
+        "year": "2021",
+        "journal-title": "Curr Eye Res"
+      }
+    ],
+    "container-title": [
+      "Computers, Materials &amp; Continua"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://cdn.techscience.cn/files/cmc/2025/TSP_CMC-84-2/TSP_CMC_65141/TSP_CMC_65141.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2025-11-17T01:50:54Z",
+      "timestamp": 1763344254000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.techscience.com/cmc/v84n2/62901"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.32604/cmc.2025.065141",
+    "relation": {},
+    "ISSN": [
+      "1546-2226"
+    ],
+    "issn-type": [
+      {
+        "value": "1546-2226",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  }
+}

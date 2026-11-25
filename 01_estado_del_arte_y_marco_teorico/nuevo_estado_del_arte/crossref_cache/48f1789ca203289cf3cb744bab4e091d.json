@@ -1,0 +1,903 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2026-09-30T16:54:40Z",
+      "timestamp": 1790787280026,
+      "version": "4.1.0"
+    },
+    "reference-count": 115,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001738",
+        "name": "Ministry of Science, Technology, and Innovation of Colombia",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "0855-937-106-267"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "0855-937-106-267"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001738",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Access"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1109/access.2025.3605819",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2025-09-03T17:54:35Z",
+      "timestamp": 1756922075000
+    },
+    "page": "163699-163730",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": [
+      "Deep Learning for Glaucoma Classification and Grading: A Comprehensive Review on Fundus Imaging Approaches"
+    ],
+    "prefix": "10.1109",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8151-2654",
+        "authenticated-orcid": false,
+        "given": "Eugenia",
+        "family": "Arrieta-Rodríguez",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computational Science and Electronic, Universidad de la Costa, CUC, Barranquilla, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4156-7105",
+        "authenticated-orcid": false,
+        "given": "José",
+        "family": "Araque-Gallardo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computational Science and Electronic, Universidad de la Costa, CUC, Barranquilla, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3317-5061",
+        "authenticated-orcid": false,
+        "given": "Natalia",
+        "family": "Peñaloza Barrios",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universidad del Sin&#x00C3; El&#x00C3;as Bechara Zain&#x00C3;m, Research Groups DEARTICA and GIOFOP, Cartagena, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5430-5438",
+        "authenticated-orcid": false,
+        "given": "Oscar",
+        "family": "Luis Teherán-Forero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universidad del Sin&#x00C3; El&#x00C3;as Bechara Zain&#x00C3;m, Research Groups DEARTICA and GIOFOP, Cartagena, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7884-6482",
+        "authenticated-orcid": false,
+        "given": "María",
+        "family": "Claudia Bonfante",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universidad del Sin&#x00C3; El&#x00C3;as Bechara Zain&#x00C3;m, Research Groups DEARTICA and GIOFOP, Cartagena, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4926-7414",
+        "authenticated-orcid": false,
+        "given": "Emiro",
+        "family": "de-la-Hoz-Franco",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computational Science and Electronic, Universidad de la Costa, CUC, Barranquilla, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1834-2984",
+        "authenticated-orcid": false,
+        "given": "Margarita",
+        "family": "Gamarra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of System Engineering, Universidad del Norte, Barranquilla, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0518-3187",
+        "authenticated-orcid": false,
+        "given": "José",
+        "family": "Escorcia-Gutierrez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computational Science and Electronic, Universidad de la Costa, CUC, Barranquilla, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2014.3192"
+      },
+      {
+        "key": "ref3",
+        "volume-title": "World Report on Vision",
+        "year": "2021"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(17)31469-1"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.12.033"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00417-020-04609-8"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cbms.2012.6266344"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.preteyeres.2018.07.004"
+      },
+      {
+        "key": "ref9",
+        "first-page": "1",
+        "article-title": "Machine learning-based deep neural network for prediction of visual field in glaucoma patients",
+        "volume-title": "Sci. Rep.",
+        "volume": "9",
+        "author": "Kim",
+        "year": "2019"
+      },
+      {
+        "key": "ref10",
+        "first-page": "859",
+        "article-title": "Artificial intelligence for the detection of glaucoma",
+        "volume": "126",
+        "author": "Wen",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref11",
+        "first-page": "126637",
+        "article-title": "Deep learning of visual field data for glaucoma detection",
+        "volume": "8",
+        "author": "Park",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2791488"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-24574-4_80"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2011.06.004"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2015-307223"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.optom.2022.08.001"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/jbhi.2020.3012134"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2024.124888"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.matpr.2020.11.613"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2022.09.031"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/sjopt.sjopt_91_23"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.01082"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3505244"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0207982"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5152/tao.2019.4058"
+      },
+      {
+        "key": "ref26",
+        "volume-title": "Rayyan—A Web and Mobile App for Systematic Reviews",
+        "author": "Ouzzani",
+        "year": "2024"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100255"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100233"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Optic disc and cup segmentation for glaucoma detection from fundus images using deep learning",
+        "volume": "85",
+        "author": "Braz",
+        "year": "2020",
+        "journal-title": "Computerized Med. Imag. Graph."
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app13010037"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo.87.6.726"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2022.108968"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2021.115211"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2023.3342910"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.105143"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2024.100555"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1134/S1054661817030269"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.106796"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr.2017.243"
+      },
+      {
+        "key": "ref43",
+        "first-page": "6105",
+        "article-title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Tan"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1807.06521"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01234-2_49"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-45014-9_1"
+      },
+      {
+        "key": "ref47",
+        "first-page": "3320",
+        "article-title": "How transferable are features in deep neural networks?",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "author": "Yosinski"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2023.1115032"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102244"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32604/cmc.2024.048987"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2021.114697"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.104895"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbe.2021.05.011"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2024.124935"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2022.109918"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2023.3317348"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2022.117968"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.104906"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2021/2921737"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104951"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106481"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/electronics10020163"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compmedimag.2020.101797"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.105812"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2021.11.018"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32604/cmc.2023.040152"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advengsoft.2022.103328"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32604/cmc.2024.052153"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advengsoft.2022.103283"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.105770"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100180"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.heliyon.2024.e36996"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2022.103633"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.106519"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100209"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ogla.2021.12.003"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.irbm.2021.06.004"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102237"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102137"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compeleceng.2024.109538"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2024.100540"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2022.02.020"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2022.103875"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbe.2019.11.003"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asej.2021.04.018"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2021.103468"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106061"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2024.100555"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32604/cmes.2024.048557"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1357633x231158832"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2019.105890"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.optlastec.2020.106908"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2022.108968"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.image.2024.117151"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2022.106910"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2021.06.010"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.105915"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2021.102031"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-020-01635-1"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-024-20088-z"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-023-17109-8"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2021/6694784"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2020.106328"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100244"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.heliyon.2022.e12275"
+      },
+      {
+        "key": "ref106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2022.104347"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tfuzz.2024.3448231"
+      },
+      {
+        "key": "ref108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imavis.2024.105042"
+      },
+      {
+        "key": "ref109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.engappai.2024.108454"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106989"
+      },
+      {
+        "key": "ref111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-023-00857-0"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2022.103763"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102329"
+      },
+      {
+        "key": "ref114",
+        "article-title": "Multiocular disease detection using a generic framework based on handcrafted and deep learned feature analysis",
+        "volume": "17",
+        "author": "Raveenthini",
+        "year": "2023",
+        "journal-title": "Intell. Syst. Appl."
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106273"
+      }
+    ],
+    "container-title": [
+      "IEEE Access"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/6287639/10820123/11149662.pdf?arnumber=11149662",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2025-09-30T13:01:17Z",
+      "timestamp": 1759237277000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11149662/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 115,
+    "URL": "https://doi.org/10.1109/access.2025.3605819",
+    "relation": {},
+    "ISSN": [
+      "2169-3536"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-3536",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  }
+}

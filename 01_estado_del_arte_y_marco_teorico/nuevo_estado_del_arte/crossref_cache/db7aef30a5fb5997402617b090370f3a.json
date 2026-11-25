@@ -1,0 +1,736 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2026-09-15T13:13:44Z",
+      "timestamp": 1789478024640,
+      "version": "build-2803163510"
+    },
+    "reference-count": 43,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2022-04-18T00:00:00Z",
+          "timestamp": 1650240000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2022-04-18T00:00:00Z",
+          "timestamp": 1650240000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Eye"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41433-022-02055-w",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2022-04-18T08:02:47Z",
+      "timestamp": 1650268967000
+    },
+    "page": "1080-1087",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "Joint optic disk and cup segmentation for glaucoma screening using a region-based deep learning network"
+    ],
+    "prefix": "10.1038",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Feng",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenjie",
+        "family": "Xiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lijuan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenzhe",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuedian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4669-1025",
+        "authenticated-orcid": false,
+        "given": "Minshan",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haidong",
+        "family": "Zou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2055_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "YC Tham",
+        "year": "2014",
+        "unstructured": "Tham YC, Li X, Wong TY, Quigley HA, Aung T, Cheng CY. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology. 2014;121:2081–90. https://doi.org/10.1016/j.ophtha.2014.05.013.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2055_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1104",
+        "DOI": "10.1109/JBHI.2019.2934477",
+        "volume": "24",
+        "author": "RC Zhao",
+        "year": "2020",
+        "unstructured": "Zhao RC, Chen XL, Liu XY, Chen ZL, Guo F, Li S. Direct cup-to-disc ratio estimation for glaucoma screening via. semi-supervised learning. IEEE J Biomed Health. 2020;24:1104–13. https://doi.org/10.1109/JBHI.2019.2934477.",
+        "journal-title": "IEEE J Biomed Health"
+      },
+      {
+        "key": "2055_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "879",
+        "DOI": "10.1136/bjo.2004.046169",
+        "volume": "89",
+        "author": "JE Morgan",
+        "year": "2005",
+        "unstructured": "Morgan JE, Sheen NJL, North RV, Choong Y, Ansari E. Digital imaging of the optic nerve head: monoscopic and stereoscopic analysis. Brit J Ophthalmol. 2005;89:879–84. https://doi.org/10.1136/bjo.2004.046169.",
+        "journal-title": "Brit J Ophthalmol"
+      },
+      {
+        "key": "2055_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.1016/j.bspc.2018.01.014",
+        "volume": "42",
+        "author": "N Thakur",
+        "year": "2018",
+        "unstructured": "Thakur N, Juneja M. Survey on segmentation and classification approaches of optic cup and optic disc for diagnosis of glaucoma. Biomed Signal Proces. 2018;42:162–89. https://doi.org/10.1016/j.bspc.2018.01.014.",
+        "journal-title": "Biomed Signal Proces"
+      },
+      {
+        "key": "2055_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1155/2015/180972",
+        "volume": "2015",
+        "author": "A Almazroa",
+        "year": "2015",
+        "unstructured": "Almazroa A, Burman R, Raahemifar K, Lakshminarayanan V. Optic disc and optic cup segmentation methodologies for glaucoma image detection: a survey. J Ophthalmol. 2015;2015:1–28. https://doi.org/10.1155/2015/180972.",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "2055_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.1016/j.bspc.2015.09.003",
+        "volume": "24",
+        "author": "PS Mittapalli",
+        "year": "2016",
+        "unstructured": "Mittapalli PS, Kande GB. Segmentation of optic disk and optic cup from digital fundus images for the assessment of glaucoma. Biomed Signal Proces. 2016;24:34–46. https://doi.org/10.1016/j.bspc.2015.09.003.",
+        "journal-title": "Biomed Signal Proces"
+      },
+      {
+        "key": "2055_CR7",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Edupuganti VG, Chawla A, Kale A. Automatic optic disk and cup segmentation of fundus images using deep learning. In: 25th IEEE International Conference on Image Processing (ICIP). 2018, pp. 2227–31. https://doi.org/10.1109/ICIP.2018.8451753.",
+        "DOI": "10.1109/ICIP.2018.8451753"
+      },
+      {
+        "key": "2055_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/s10916-017-0859-4",
+        "volume": "42",
+        "author": "MS Haleem",
+        "year": "2018",
+        "unstructured": "Haleem MS, Han LX, van Hemert J, Li BH, Fleming A, Pasquale LR, et al. A novel adaptive deformable model for automated optic disc and cup segmentation to aid glaucoma diagnosis. J Med Syst. 2018;42:1–18. https://doi.org/10.1007/s10916-017-0859-4.",
+        "journal-title": "J Med Syst"
+      },
+      {
+        "key": "2055_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1016/S0039-6257(98)00049-6",
+        "volume": "43",
+        "author": "JB Jonas",
+        "year": "1999",
+        "unstructured": "Jonas JB, Budde WM, Panda-Jonas S. Ophthalmoscopic evaluation of the optic nerve head. Surv Ophthalmol. 1999;43:293–320. https://doi.org/10.1016/S0039-6257(98)00049-6.",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "key": "2055_CR10",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cheng J, Liu J, Wing D, Wong K, Yin FS, Cheung C, et al. Automatic optic disc segmentation with peripapillary atrophy elimination. In: 33rd Annual International Conference of the IEEE Engineering-in-Medicine-and-Biology-Society (EMBS). 2011, 6224–7. https://doi.org/10.1109/IEMBS.2011.6091537.",
+        "DOI": "10.1109/IEMBS.2011.6091537"
+      },
+      {
+        "key": "2055_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1155/2019/4836296",
+        "volume": "2019",
+        "author": "Y Wang",
+        "year": "2019",
+        "unstructured": "Wang Y, Yu XS, Chi JN, Wu CD. Automatic segmentation of optic disc and cup in retinal fundus images using improved two-layer level set method. Math Probl Eng. 2019;2019:1–10. https://doi.org/10.1155/2019/4836296.",
+        "journal-title": "Math Probl Eng"
+      },
+      {
+        "key": "2055_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "volume": "37",
+        "author": "HZ Fu",
+        "year": "2018",
+        "unstructured": "Fu HZ, Cheng J, Xu YW, Wong DWK, Liu J, Cao XC. Joint optic disc and cup segmentation based on multi-label deep network and polar transformation. IEEE Trans Med Imaging. 2018;37:1597–605. https://doi.org/10.1109/TMI.2018.2791488.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "2055_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.2174/1573405613666170405145913",
+        "volume": "14",
+        "author": "STF Bokhari",
+        "year": "2018",
+        "unstructured": "Bokhari STF, Sharif M, Yasmin M, Fernandes SL. Fundus image segmentation and feature extraction for the detection of glaucoma: a new approach. Curr Med Imaging. 2018;14:77–87. https://doi.org/10.2174/1573405613666170405145913.",
+        "journal-title": "Curr Med Imaging"
+      },
+      {
+        "key": "2055_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "256",
+        "DOI": "10.1109/TMI.2003.823261",
+        "volume": "23",
+        "author": "J Lowell",
+        "year": "2004",
+        "unstructured": "Lowell J, Hunter A, Steel D, Basu A, Ryder R, Fletcher E, et al. Optic nerve head segmentation. IEEE Trans Med Imaging. 2004;23:256–64. https://doi.org/10.1109/TMI.2003.823261.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "2055_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1016/j.cmpb.2017.06.004",
+        "volume": "147",
+        "author": "A Chakravarty",
+        "year": "2017",
+        "unstructured": "Chakravarty A, Sivaswamy J. Joint optic disc and cup boundary extraction from monocular fundus images. Comput Meth Prog Bio. 2017;147:51–61. https://doi.org/10.1016/j.cmpb.2017.06.004.",
+        "journal-title": "Comput Meth Prog Bio"
+      },
+      {
+        "key": "2055_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhang Z, Liu JA, Cherian NS, Sun Y, Lim JH, Wong WK, et al. Convex hull based neuro-retinal optic cup ellipse optimization in glaucoma diagnosis. In: Annual International Conference of the IEEE-Engineering-in-Medicine-and-Biology-Society. 2009, pp 1441–4. https://doi.org/10.1109/IEMBS.2009.5332913.",
+        "DOI": "10.1109/IEMBS.2009.5332913"
+      },
+      {
+        "key": "2055_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1562",
+        "DOI": "10.1109/JBHI.2015.2473159",
+        "volume": "20",
+        "author": "S Roychowdhury",
+        "year": "2016",
+        "unstructured": "Roychowdhury S, Koozekanani DD, Kuchinka SN, Parhi KK. Optic disc boundary and vessel origin segmentation of fundus images. IEEE J Biomed Health. 2016;20:1562–74. https://doi.org/10.1109/JBHI.2015.2473159.",
+        "journal-title": "IEEE J Biomed Health"
+      },
+      {
+        "key": "2055_CR18",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ayub J, Ahmad J, Muhammad J, Aziz L, Ayub S, Akram U, et al. Glaucoma detection through optic disc and cup segmentation using K-mean clustering. In: International Conference on Computing, Electronic and Electrical Engineering (ICE Cube). 2016, pp 143–7. https://doi.org/10.1109/ICECUBE.2016.7495212.",
+        "DOI": "10.1109/ICECUBE.2016.7495212"
+      },
+      {
+        "key": "2055_CR19",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jiang YM, Xia H, Xu YW, Cheng J, Fu HZ, Duan LX.et al. Optic disc and cup segmentation with blood vessel removal from fundus images for glaucoma detection. In: Annual International Conference of the IEEE Engineering in Medicine and Biology Society. 2018;2018:862–5. https://doi.org/10.1109/EMBC.2018.8512400.",
+        "DOI": "10.1109/EMBC.2018.8512400"
+      },
+      {
+        "key": "2055_CR20",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang ZY, Dong NQ, Rosario SD, Xu M, Xie PT, Xing EP. Ellipse detection of optic disc-and-cup boundary in fundus images. In: 16th IEEE International Symposium on Biomedical Imaging (ISBI). 2019, pp. 601–4. https://doi.org/10.1109/ISBI.2019.8759173.",
+        "DOI": "10.1109/ISBI.2019.8759173"
+      },
+      {
+        "key": "2055_CR21",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Sedai S, Roy PK, Mahapatra D, Garnavi R. Segmentation of optic disc and optic cup in retinal fundus images using shape regression. In: 38th Annual International Conference of the IEEE-Engineering-in-Medicine-and-Biology-Society (EMBC). 2016, pp. 3260–4. https://doi.org/10.1109/EMBC.2016.7591424.",
+        "DOI": "10.1109/EMBC.2016.7591424"
+      },
+      {
+        "key": "2055_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.7717/peerj.3763",
+        "volume": "5",
+        "author": "J Sigut",
+        "year": "2017",
+        "unstructured": "Sigut J, Nunez O, Fumero F, Gonzalez M, Arnay R. Contrast based circular approximation for accurate and robust optic disc segmentation in retinal images. Peerj. 2017;5:1–18. https://doi.org/10.7717/peerj.3763.",
+        "journal-title": "Peerj"
+      },
+      {
+        "key": "2055_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1571",
+        "DOI": "10.1109/JBHI.2017.2776246",
+        "volume": "22",
+        "author": "S Zhao",
+        "year": "2018",
+        "unstructured": "Zhao S, Gao ZF, Zhang HY, Xie YQ, Luo JW, Ghista D, et al. Robust segmentation of intima-media borders with different morphologies and dynamics during the cardiac cycle. IEEE J Biomed Health. 2018;22:1571–82. https://doi.org/10.1109/JBHI.2017.2776246.",
+        "journal-title": "IEEE J Biomed Health"
+      },
+      {
+        "key": "2055_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "35813",
+        "DOI": "10.1007/s11042-019-08101-2",
+        "volume": "78",
+        "author": "ZH Zhou",
+        "year": "2019",
+        "unstructured": "Zhou ZH, Dai M, Wang TL, Zhao RZ. Prior distribution-based statistical active contour model. Multimed Tools Appl. 2019;78:35813–33. https://doi.org/10.1007/s11042-019-08101-2.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "2055_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1523",
+        "DOI": "10.1109/TBME.2012.2187293",
+        "volume": "59",
+        "author": "GD Joshi",
+        "year": "2012",
+        "unstructured": "Joshi GD, Sivaswamy J, Krishnadas SR. Depth discontinuity-based cup segmentation from multiview color retinal images. IEEE Trans Bio Med Eng. 2012;59:1523–31. https://doi.org/10.1109/TBME.2012.2187293.",
+        "journal-title": "IEEE Trans Bio Med Eng"
+      },
+      {
+        "key": "2055_CR26",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Miri MS, Lee K, Niemeijer M, Abràmoff MD, Kwon YH, Garvin MK. Multimodal segmentation of optic disc and cup from stereo fundus and SD-OCT images. Medical Imaging. 2013;8669. https://doi.org/10.1117/12.2007010.",
+        "DOI": "10.1117/12.2007010"
+      },
+      {
+        "key": "2055_CR27",
+        "first-page": "1",
+        "volume": "11",
+        "author": "Y Gao",
+        "year": "2019",
+        "unstructured": "Gao Y, Yu XS, Wu CD, Zhou W, Wang XN, Zhuang YM. Accurate optic disc and cup segmentation from retinal images using a multi-feature based approach for glaucoma assessment. Symmetry Basel. 2019;11:1–18.",
+        "journal-title": "Symmetry Basel"
+      },
+      {
+        "key": "2055_CR28",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Xu YW, Duan LX, Lin S, Chen XY, Wang DWK, Wong TY, et al. Optic cup segmentation for glaucoma detection using low-rank superpixel representation. In: 17th International Conference on Medical Image Computing and Computer-AssistedIntervention (MICCAI). 2014;8673:788–95. https://doi.org/10.1007/978-3-319-10404-1_98.",
+        "DOI": "10.1007/978-3-319-10404-1_98"
+      },
+      {
+        "key": "2055_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "182",
+        "DOI": "10.1016/j.compmedimag.2014.10.002",
+        "volume": "40",
+        "author": "NM Tan",
+        "year": "2015",
+        "unstructured": "Tan NM, Xu YW, Goh WB, Liu J. Robust multi-scale superpixel classification for optic cup localization. Comput Med Imag Grap. 2015;40:182–93. https://doi.org/10.1016/j.compmedimag.2014.10.002.",
+        "journal-title": "Comput Med Imag Grap"
+      },
+      {
+        "key": "2055_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1019",
+        "DOI": "10.1109/TMI.2013.2247770",
+        "volume": "32",
+        "author": "J Cheng",
+        "year": "2013",
+        "unstructured": "Cheng J, Liu J, Xu YW, Yin FS, Wong DWK, Tan NM, et al. Superpixel classification based optic disc and optic cup segmentation for glaucoma screening. IEEE Trans Med Imaging. 2013;32:1019–32. https://doi.org/10.1109/TMI.2013.2247770.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "2055_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "2687",
+        "DOI": "10.1364/BOE.8.002687",
+        "volume": "8",
+        "author": "J Cheng",
+        "year": "2017",
+        "unstructured": "Cheng J, Tao DC, Wong DWK, Liu J. Quadratic divergence regularized SVM for optic disc segmentation. Biomed Opt Express. 2017;8:2687–96. https://doi.org/10.1364/BOE.8.002687.",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "2055_CR32",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Qin PZ, Wang LY, Lv HB. Optic disc and cup segmentation based on deep learning. In: IEEE 3rd Information Technology, Networking, Electronic and Automation Control Conference (ITNEC). 2019, pp. 1835-40. https://doi.org/10.1109/itnec.2019.8729455.",
+        "DOI": "10.1109/itnec.2019.8729455"
+      },
+      {
+        "key": "2055_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "640",
+        "DOI": "10.1109/TPAMI.2016.2572683",
+        "volume": "39",
+        "author": "E Shelhamer",
+        "year": "2017",
+        "unstructured": "Shelhamer E, Long J, Darrell T. Fully convolutional networks for semantic segmentation. IEEE Trans Pattern Anal. 2017;39:640–51. https://doi.org/10.1109/TPAMI.2016.2572683.",
+        "journal-title": "IEEE Trans Pattern Anal"
+      },
+      {
+        "key": "2055_CR34",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Shankaranarayana SM, Ram K, Mitra K, Sivaprakasam M. Joint optic disc and cup segmentation using fully convolutional and adversarial networks. In: International Workshop on Fetal and Infant Image Analysis (FIFI) / 4th International Workshop on Ophthalmic Medical Image Analysis (OMIA). 2017;10554:168–76. https://doi.org/10.1007/978-3-319-67561-9_19.",
+        "DOI": "10.1007/978-3-319-67561-9_19"
+      },
+      {
+        "key": "2055_CR35",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ronneberger O, Fischer P.Brox T, U-Net: Convolutional networks for biomedical image segmentation. In: Medical Image Computing and Computer Assisted Intervention Society (MICCAI). 2015;9351:234–41. https://doi.org/10.1007/978-3-319-24574-4_28.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2055_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "volume": "27",
+        "author": "A Sevastopolsky",
+        "year": "2017",
+        "unstructured": "Sevastopolsky A. Optic disc and cup segmentation methods for glaucoma detection with modification of U-Net convolutional neural network. Pattern Recognit Image Anal. 2017;27:618–24. https://doi.org/10.1134/S1054661817030269.",
+        "journal-title": "Pattern Recognit Image Anal"
+      },
+      {
+        "key": "2055_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "102733",
+        "DOI": "10.1109/ACCESS.2020.2998635",
+        "volume": "8",
+        "author": "M Tabassum",
+        "year": "2020",
+        "unstructured": "Tabassum M, Khan TM, Arsalan M, Naqvi SS, Ahmed M, Ahmed H, et al. CDED-Net: joint segmentation of optic disc and optic cup for glaucoma screening. IEEE Access. 2020;8:102733–47. https://doi.org/10.1109/ACCESS.2020.2998635.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2055_CR38",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zuiderveld KJ. Contrast limited adaptive histogram equalization. Graphics Gems. 1994, pp. 474–85. https://doi.org/10.1016/B978-0-12-336156-1.50061-6.",
+        "DOI": "10.1016/B978-0-12-336156-1.50061-6"
+      },
+      {
+        "key": "2055_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "281",
+        "DOI": "10.1016/j.cag.2017.07.031",
+        "volume": "70",
+        "author": "BJ Zou",
+        "year": "2018",
+        "unstructured": "Zou BJ, Chen CL, Zhu CZ, Duan XC, Chen ZL. Classified optic disc localization algorithm based on verification model. Comput Graph UK. 2018;70:281–7. https://doi.org/10.1016/j.cag.2017.07.031.",
+        "journal-title": "Comput Graph UK"
+      },
+      {
+        "key": "2055_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "2281",
+        "DOI": "10.1109/TMI.2019.2903562",
+        "volume": "38",
+        "author": "ZW Gu",
+        "year": "2019",
+        "unstructured": "Gu ZW, Cheng J, Fu HZ, Zhou K, Hao HY, Zhao YT, et al. CE-Net: context encoder network for 2D medical image segmentation. IEEE Trans Med Imaging. 2019;38:2281–92. https://doi.org/10.1109/TMI.2019.2903562.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "2055_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "2476",
+        "DOI": "10.1109/TII.2020.3000204",
+        "volume": "17",
+        "author": "R Ali",
+        "year": "2021",
+        "unstructured": "Ali R, Sheng B, Li P, Chen Y, Li HT, Yang P, et al. Optic disc and cup segmentation through fuzzy broad learning system for glaucoma screening. IEEE Trans Ind Inf. 2021;17:2476–87. https://doi.org/10.1109/TII.2020.3000204.",
+        "journal-title": "IEEE Trans Ind Inf"
+      },
+      {
+        "key": "2055_CR42",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Goodfellow IJ, Pouget-Abadie J, Mirza M, Xu B, Warder-Farley D, Ozair S, et al. Generative adversarial nets. In: 28th Conference on Neural Information Processing Systems (NIPS). 2014;27:2672–80. https://doi.org/10.1145/3422622.",
+        "DOI": "10.1145/3422622"
+      },
+      {
+        "key": "2055_CR43",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhao TC, Zhao R, Eskenazi M. Learning discourse-level diversity for neural dialog models using conditional variational autoencoders. In: 55th Annual Meeting of the Association-for-Computational-Linguistics (ACL). 2017;1:654–64. https://doi.org/10.18653/v1/P17-1061.",
+        "DOI": "10.18653/v1/P17-1061"
+      }
+    ],
+    "container-title": [
+      "Eye"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41433-022-02055-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41433-022-02055-w",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41433-022-02055-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          13
+        ]
+      ],
+      "date-time": "2023-04-13T16:05:20Z",
+      "timestamp": 1681401920000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41433-022-02055-w"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2055"
+    ],
+    "URL": "https://doi.org/10.1038/s41433-022-02055-w",
+    "relation": {},
+    "ISSN": [
+      "0950-222X",
+      "1476-5454"
+    ],
+    "issn-type": [
+      {
+        "value": "0950-222X",
+        "type": "print"
+      },
+      {
+        "value": "1476-5454",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "1 June 2021",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "16 February 2022",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 March 2022",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "18 April 2022",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

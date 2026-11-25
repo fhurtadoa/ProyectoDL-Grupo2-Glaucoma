@@ -1,0 +1,764 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2026-11-15T05:41:55Z",
+      "timestamp": 1794721315744,
+      "version": "4.9.1"
+    },
+    "reference-count": 31,
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              7
+            ]
+          ],
+          "date-time": "2025-11-07T00:00:00Z",
+          "timestamp": 1762473600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007816",
+        "name": "Alcon",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007816",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100009410",
+        "name": "Southern California Clinical and Translational Science Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100009410",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000009",
+        "name": "Foundation for the National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000009",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006034",
+        "name": "University of Southern California",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006034",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001818",
+        "name": "Research to Prevent Blindness",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001818",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2025.101008",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2025-11-15T06:03:44Z",
+      "timestamp": 1763186624000
+    },
+    "page": "101008",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Comparison of RETFound and a Supervised Convolutional Neural Network for Detection of Referable Glaucoma from Fundus Photographs"
+    ],
+    "prefix": "10.1016",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7885-192X",
+        "authenticated-orcid": false,
+        "given": "Kyle",
+        "family": "Bolo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tran Huy",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sreenidhi",
+        "family": "Iyengar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhiwei",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Van",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brandon J.",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiun L.",
+        "family": "Do",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jose-Luis",
+        "family": "Ambite",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carl",
+        "family": "Kesselman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lauren P.",
+        "family": "Daskivich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1573-988X",
+        "authenticated-orcid": false,
+        "given": "Benjamin Y.",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2025.101008_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1001/jama.2020.21899",
+        "article-title": "Glaucoma in adults-screening, diagnosis, and management: a review",
+        "volume": "325",
+        "author": "Stein",
+        "year": "2021",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2905",
+        "DOI": "10.1167/iovs.15-18469",
+        "article-title": "Prevalence of glaucoma in the United States: the 2005-2008 National Health and Nutrition Examination Survey",
+        "volume": "57",
+        "author": "Gupta",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1393",
+        "DOI": "10.1016/j.ophtha.2021.04.009",
+        "article-title": "The global extent of undetected glaucoma in adults: a systematic review and meta-analysis",
+        "volume": "128",
+        "author": "Soh",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/nrdp.2016.67",
+        "article-title": "Primary open-angle glaucoma",
+        "volume": "2",
+        "author": "Weinreb",
+        "year": "2016",
+        "journal-title": "Nat Rev Dis Primer"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1998",
+        "DOI": "10.1001/jama.2022.6290",
+        "article-title": "Screening for glaucoma in adults: updated evidence report and systematic review for the US preventive services task force",
+        "volume": "327",
+        "author": "Chou",
+        "year": "2022",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "386",
+        "DOI": "10.1038/s41746-025-01768-y",
+        "article-title": "Prospective pragmatic trial of automated retinal photography and AI glaucoma screening in Australian primary care",
+        "volume": "8",
+        "author": "Jan",
+        "year": "2025",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.ogla.2024.08.004",
+        "article-title": "Federated learning in glaucoma: a comprehensive review and future perspectives",
+        "volume": "8",
+        "author": "Hallaj",
+        "year": "2025",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2025.100751",
+        "article-title": "Comparison of deep learning and clinician performance for detecting referable glaucoma from fundus photographs in a safety net population",
+        "volume": "5",
+        "author": "Nguyen",
+        "year": "2025",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "S75",
+        "DOI": "10.1097/IJG.0000000000002449",
+        "article-title": "Screening of glaucoma: consensus and directions",
+        "volume": "33",
+        "author": "Moghimi",
+        "year": "2024",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs",
+        "volume": "126",
+        "author": "Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib13",
+        "article-title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+        "author": "Girshick",
+        "year": "2014",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib14",
+        "series-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 770–778",
+        "article-title": "Deep residual learning for image recognition",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib16",
+        "first-page": "1186",
+        "article-title": "Detection of disease features on retinal OCT scans using RETFound",
+        "volume": "11",
+        "author": "Du",
+        "year": "2024",
+        "journal-title": "Bioeng Basel Switz"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1038/s41746-024-01109-5",
+        "article-title": "RETFound-enhanced community-based fundus disease screening: real-world evidence and decision curve analysis",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib18",
+        "article-title": "Evaluating a foundation artificial intelligence model for glaucoma detection using color fundus photographs",
+        "volume": "5",
+        "author": "Chuter",
+        "year": "2024",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2025.100707",
+        "article-title": "How foundational is the retina foundation model? Estimating RETFound's label efficiency on binary classification of normal versus abnormal OCT images",
+        "volume": "5",
+        "author": "Kuo",
+        "year": "2025",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2025.100720",
+        "article-title": "Independent evaluation of RETFound foundation model's performance on optic nerve analysis using fundus photography",
+        "volume": "5",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "642",
+        "DOI": "10.1001/jamainternmed.2017.0204",
+        "article-title": "Implementation and evaluation of a large-scale teleretinal diabetic retinopathy screening program in the Los Angeles county department of health services",
+        "volume": "177",
+        "author": "Daskivich",
+        "year": "2017",
+        "journal-title": "JAMA Intern Med"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1016/j.ogla.2022.10.007",
+        "article-title": "Effectiveness of glaucoma screening and factors associated with Follow-up adherence among glaucoma suspects in a safety-net teleretinal screening program",
+        "volume": "6",
+        "author": "Yuen",
+        "year": "2023",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib23",
+        "series-title": "2024 IEEE 20th International Conference on e-Science (e-Science)",
+        "first-page": "1",
+        "article-title": "Deriva-ML: a continuous FAIRness approach to reproducible machine learning models",
+        "author": "Li",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib24",
+        "article-title": "Performance assessment of the deep learning technologies in grading glaucoma severity",
+        "author": "Zhen",
+        "year": "2018",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-023-44473-0",
+        "article-title": "A fast and fully automated system for glaucoma detection using color fundus photographs",
+        "volume": "13",
+        "author": "Saha",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "5103",
+        "DOI": "10.3390/app14125103",
+        "article-title": "Optic disc segmentation in human retina images using a Meta heuristic optimization method and disease diagnosis with deep learning",
+        "volume": "14",
+        "author": "Almeshrky",
+        "year": "2024",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib28",
+        "article-title": "Intriguing properties of vision transformers",
+        "author": "Naseer",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib29",
+        "article-title": "Vision transformers are robust learners",
+        "author": "Paul",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "702",
+        "DOI": "10.1136/bjo-2022-322328",
+        "article-title": "Automated expert-level scleral spur detection and quantitative biometric analysis on the ANTERION anterior segment OCT system",
+        "volume": "108",
+        "author": "Bolo",
+        "year": "2024",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2025.101008_bib31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.preteyeres.2023.101227",
+        "article-title": "Assessment of angle closure disease in the age of artificial intelligence: a review",
+        "volume": "98",
+        "author": "Soh",
+        "year": "2024",
+        "journal-title": "Prog Retin Eye Res"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914525003069?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914525003069?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2026-03-19T23:59:54Z",
+      "timestamp": 1773964794000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914525003069"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914525003069"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2025.101008",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Comparison of RETFound and a Supervised Convolutional Neural Network for Detection of Referable Glaucoma from Fundus Photographs",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2025.101008",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 by the American Academy of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101008"
+  }
+}

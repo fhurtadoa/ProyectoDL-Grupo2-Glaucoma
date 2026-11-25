@@ -1,0 +1,261 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2026-04-22T13:12:56Z",
+      "timestamp": 1776863576500,
+      "version": "3.51.2"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          20
+        ]
+      ]
+    },
+    "group-title": "Ophthalmology",
+    "reference-count": 10,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              20
+            ]
+          ],
+          "date-time": "2026-04-20T00:00:00Z",
+          "timestamp": 1776643200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Automated glaucoma screening from optical coherence tomography (OCT) faces two persistent challenges: scarcity of expert-labeled data and unreliable model predictions on diagnostically ambiguous cases. We present a two-tier diagnostic pipeline that addresses both. In the first tier, an EfficientNetV2-S classifier trained under a semi-supervised pseudo supervisor framework achieves 0.84 AUC on 150 held-out test patients from the Harvard Glaucoma Detection and Progression dataset, using only 350 labeled training samples out of 700. In the second tier, 124 flagged cases are routed to a multi-agent system built on MedGemma 4B, where three specialist agents deliberate over three rounds before rendering a final diagnosis. On these flagged cases, the agent system achieves 100% sensitivity—detecting all 55 glaucoma cases with zero missed diagnoses—and 89.5% overall accuracy (111/124), compared to the classifier’s 73.4% (91/124). Uncertainty analysis confirms that the classifier’s output probability reliably separates confident predictions (96.3% accuracy,\n                  <jats:italic>n</jats:italic>\n                  = 27) from uncertain ones (74.0%,\n                  <jats:italic>n</jats:italic>\n                  = 123), producing a 22-percentage-point gap that serves as a triage signal. The agents fix 32 cases the classifier misclassifies while introducing 12 new errors, yielding a net improvement of 20 cases. These results are from a single training run without variance estimates and should be interpreted as preliminary evidence that uncertainty-gated routing to vision-language model agents can meaningfully improve diagnostic accuracy on the cases where automated classifiers are least reliable.\n                </jats:p>",
+    "DOI": "10.64898/2026.04.17.26351127",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2026-04-20T23:35:10Z",
+      "timestamp": 1776728110000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Uncertainty-Gated Glaucoma Screening: Combining Semi-Supervised Classification with Multi-Agent Large Language Model Deliberation"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0001-5133-9931",
+        "authenticated-orcid": false,
+        "given": "Sai Varun",
+        "family": "Garimella Narasimha",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Northeastern University, Boston, Massachusetts, USA"
+          },
+          {
+            "name": "Humanitarians AI, Boston, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northeastern University, Boston, Massachusetts, USA"
+          },
+          {
+            "name": "Humanitarians AI, Boston, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1605-0734",
+        "authenticated-orcid": false,
+        "given": "Srinivas",
+        "family": "Sridhar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northeastern University, Boston, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.1",
+        "unstructured": "Gal, Y. and Ghahramani, Z . Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning. In Proceedings of the 33rd International Conference on Machine Learning (ICML), volume 48 of PMLR, pages 1050–1059, 2016."
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.2",
+        "unstructured": "Lakshminarayanan, B. , Pritzel, A. , and Blundell, C. Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles. In Advances in Neural Information Processing Systems (NeurIPS), volume 30, 2017."
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, Y. , Shi, M. , Tian, Y. , Elze, T. , and Wang, M . Harvard Glaucoma Detection and Progression: A Multimodal Multitask Dataset and Generalization-Reinforced Semi-Supervised Learning. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 20471–20482, 2023.",
+        "DOI": "10.1109/ICCV51070.2023.01872"
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Savage, T. , Nayak, A. , Gallo, R. , Rangan, E. , and Chen, J. H . Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine. npj Digital Medicine, 7:20, 2024.",
+        "DOI": "10.1038/s41746-024-01010-1"
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.5",
+        "unstructured": "Sellergren, A. , et al. MedGemma Technical Report. arXiv preprint arXiv:2507.05201, 2025."
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.6",
+        "unstructured": "Tan, M. and Le, Q. V . EfficientNetV2: Smaller Models and Faster Training. In Proceedings of the 38th International Conference on Machine Learning (ICML), volume 139 of PMLR, pages 10096–10106, 2021."
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, W . LLM-based multi-agent system for neuro-ophthalmic diagnosis and personalized treatment planning. Frontiers in Neuroscience, 19:1688509, 2025.",
+        "DOI": "10.3389/fnins.2025.1688509"
+      },
+      {
+        "key": "2026042205051146000_2026.04.17.26351127v1.9",
+        "first-page": "24824",
+        "article-title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        "volume": "35",
+        "year": "2022",
+        "journal-title": "In Advances in Neural Information Processing Systems (NeurIPS)"
+      },
+      {
+        "issue": "2",
+        "key": "2026042205051146000_2026.04.17.26351127v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.ophtha.2021.07.032",
+        "article-title": "Multimodal Machine Learning Using Visual Fields and Peripapillary Circular OCT Scans in Detection of Glaucomatous Optic Neuropathy",
+        "volume": "129",
+        "year": "2022",
+        "journal-title": "Ophthalmology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.17.26351127",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2026-04-22T12:05:28Z",
+      "timestamp": 1776859528000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.04.17.26351127"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          20
+        ]
+      ]
+    },
+    "references-count": 10,
+    "URL": "https://doi.org/10.64898/2026.04.17.26351127",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

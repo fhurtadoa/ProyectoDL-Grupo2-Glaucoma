@@ -1,0 +1,395 @@
+=== PAGINA 1 ===
+[72] Umbrales de decisión, calibración
+[72] probabilística y cambio de dominio en
+[72] clasificadores profundos de glaucoma y
+[72] enfermedades retinianas
+[72] Cuando un clasificador profundo de imágenes médicas —y en particular de retinografías ( color fundus photographs , CFP) para detección de glaucoma o retinopatía diabética (DR)— se aplica sin reentrenamiento a una fuente externa, la discriminación basada en el ordenamiento relativo de puntajes (AUROC) suele degradarse de manera moderada o variable, mientras que la calibración probabilística se deteriora sustancialmente y los umbrales de decisión fijados en desarrollo pierden su punto operativo clínico , provocando caídas abruptas en sensibilidad o especificidad  . La evidencia revisada de 2016 a 2026 muestra que un modelo puede conservar un AUROC superior a 0.85–0.96 fuera de dominio y, al mismo tiempo, variar su especificidad entre 0.70 y 0.99 bajo un umbral fijo único  , reducir su sensibilidad por debajo de 35% al cambiar de población y estándar de referencia  , o elevar su Expected Calibration Error (ECE) entre seis y diez veces incluso tras haber aplicado temperature scaling en desarrollo  . Este comportamiento explica de forma directa el fenómeno observado en su experimento con ConvNeXt-Tiny entrenado en Moondream Staged y evaluado sin reajuste de umbral (especificidad interna ≥ 0.95) sobre ACRIMA, RIM-ONE DL y EyePACS. En un traslado desde recortes papilares hacia retinografías de campo amplio con fondo negro, tres fuentes de variación actúan simultáneamente y desplazan la distribución de puntajes externos respecto a la línea de corte congelada en desarrollo: (1) variación de la imagen ( acquisition/covariate shift : cámara, campo de visión, encuadre, color y calidad)  ; (2) variación de la etiqueta ( label/concept shift : definición de glaucoma, sospechoso, referible o estadio, y estándar de , referencia clínico)  ; y (3) cambio del punto de decisión y de la calibración agravado por el salto entre prevalencias balanceadas de laboratorio (35%–56%) y tamizaje poblacional (1%–3.5%)  . Aun cuando las distribuciones de ojos sanos y con glaucoma sigan siendo parcialmente separables en ordenamiento (preservando un AUROC moderado o alto), un desplazamiento hacia probabilidades menores deja a la mayoría de los casos positivos por debajo del umbral congelado y desploma la sensibilidad, lo que exige rutas de corrección diferenciadas según la causa dominante: estandarización del recorte e imagen, alineación no supervisada de predicciones o recalibración local en sitio  . A continuación se presentan: (1) una tabla comparativa de 23 estudios relevantes (22 artículos revisados por pares de 2019 a 2026 y un preprint de 2026 sin versión publicada) con sus DOI canónicos verificados, tipo de validación, fijación de umbral, desempeño fuera de dominio, métodos de corrección y ubicación exacta de cada cifra; (2) una síntesis analítica sobre cuán frecuente es reportar el umbral y separar discriminación de punto operativo en glaucoma, el
+
+=== PAGINA 2 ===
+[72] papel de la sensibilidad a especificidad fija y el partial AUC (pAUC), los límites del temperature scaling , el efecto bayesiano del label shift sobre los valores predictivos y las recomendaciones de TRIPOD+AI, CLAIM 2024 y STARD-AI aplicadas al manuscrito para DYNA ; y (3) una sección de afirmaciones dudosas, contradicciones abiertas y datos primarios no verificables en los textos consultados.
+[72] 1. Tabla comparativa de estudios: fijación de umbral,
+[72] comportamiento fuera de dominio y calibración En la siguiente tabla se distingue estrictamente el diseño de evaluación de cada trabajo: validación interna (partición aleatoria o validación cruzada de la misma base), validación entre bases ( cross-dataset sobre otra base pública), leave-one-domain-out (LODO) y validación externa en centro o cohorte poblacional independiente . En la última columna se indica la ubicación exacta de las cifras y si provienen del texto completo, de un extracto parcial del texto completo o únicamente del resumen.
+[81] Autor y año
+[148] DOI
+[214] Dominioclínico
+[281] Cómo se fijó el umbral
+[348] Qué pasó al cambiardefuente(sensibilidad,especificidad,calibración)
+[415] Métododecorrecci ón, si hubo
+[482] Ubicació n de las cifras
+[81] Hemeling s et al. (2023)
+[148] 10.1038/s41746-023-00857-0
+[214] Glaucom a en CFP (modeloderegresiónG-RISK).Val.externa en 2 cohortespoblacionalesindependientes
+[281] Dosesquema s: (1) umbral fijo único TV = 0.70 (corte clínico de VCDR) en todas lasbases;(2)umbrales
+[348] AUROCpoblacion al: BMES participan te 0.976, GHS0.984;basespúblicas0.854(ORIGA) a 0.988 (GAMMA av.) bajo
+[415] Recorteestandarizadocentrado en disco de 30°; reajustepost-hocdeumbral por base parareportar Spec fija.
+[482] Resumen , Results , Evaluationprocedur e , Tabla 1 ymención a Tabla 2 (textocompletoparcial; Tabla 2 íntegra
+
+=== PAGINA 3 ===
+[214] (BMES, GHS) + val. entre bases (11 bases públicas, n = 149 455imágenes).
+[281] reajustad os por basedestinoparaespecificidadesfijas(90%,95%, 97.5%) o balance Sens ≈ Spec.
+[348] ladefiniciónprimaria (0.769 en PAPILA ojo con sospechososreferibles);ACRIMA0.884,RIM-ONE DL (test) 0.952,AIROGS0.963.Conumbral fijo 0.70 , laespecificidadoscilóentre0.70(PAPILA) y 0.99 (REFUGE1)(sensibilidaddesde 0.68; cota superiornoverificada ). Para sostener95% Spec , el umbral
+[415] Concluyennecesida d de recalibrac ión local.
+[482] noverificada).
+
+=== PAGINA 4 ===
+[348] requerido varió de 0.70(BMES ojo, Sens 82.4%) a 0.72(GHS,Sens90.3%),0.73(BMESpart.,Sens 87.3%) y 0.78(AIROGS , Sens 79.8%).Calibraci ón : curvas (10 bins) muestransobrepredicciónhasta~0.7;ACRIMA fue la mejorcalibrada.
+[81] Rahman, Ahmed & Ahmed (2026) — preprint
+[148] sin DOI verificado(arXiv:2611.01992)
+[214] Glaucom a en CFP (5 CNNs ImageNet ). Val. interna , val. entre bases(ACRIMA
+[281] Maximiza ción de índice de Youden ( J ) en validació n de la fuente,congelad
+[348] AUROC medio (5 CNNs, 3 semillas) cayó de 0.913 interno a 0.702entre
+[415] Recalibra ción de umbral con 10% deldestinoelevó Spec a 0.670
+[482] Resumencompleto,Seccione s III–IV, TablasII–III, Figs. 1 y 3 (texto completo
+
+=== PAGINA 5 ===
+[214] , ORIGA, RIM-ONE DL + pruebaexterna G1020) y LODOmulti-fuente.
+[281] o en prueba;compara do contra recalibrac ión de umbralusando 10% del dominioobjetivo.
+[348] bases (Δ =−0.211).Conumbral fijado en fuente , la Specmedia cayó de 0.870 a 0.506 y la Sens de 0.831 a 0.726 . En G1020(campoampliosinlocalizaci ón del disco),AUROC quedó en 0.492–0. 502 (p. ej., Sens 0.855 / Spec 0.126 o Sens0.344segúnfuente).Calibración(ECE/Bri er) : no reportado en el extracto.
+[415] pero bajó Sens a 0.609(exactitudbalancea da 0.616 → 0.639). LODO no mejoróAUROC (0.695 vs. 0.702).Normalización LAB y aumentoagresivo de color elevaronAUROC externo a 0.755 y 0.754 .
+[482] parcialvíaarXiv/ResearchGate).
+
+=== PAGINA 6 ===
+[81] Alhasson, Alharbi & Alluwimi(2026)
+[148] 10.3390/jcm15166418
+[214] Glaucom a en CFP (6modelos CNN e híbridos).Val.interna vs. val. entrebases (12 pares entreRIM-ONE , ORIGA, DRISHTI- GS y HYGD,conprevalenciasinvertidas).
+[281] Optimiza ción en validació n de la fuente (τ mediointerno0.41–0.49);evaluació n de portabilid ad de umbral(|Δτ|)entrebases.
+[348] Mejormodelointerno(HybridRF):AUROC 0.8972 y exactitud 0.8697 → promedioentrebases cayó a AUROC 0.5798 y exactitud 0.5685 . CNNspuras:exactitudbalanceadaexternaen0.495–0. 500 (nivel de azar). Calibraciónempeoróseveramente:Hybrid RF ECE 0.1608 → 0.2709(Brier 0.12 → 0.28);TCNN-VGG16ECE
+[415] Preprocesamiento ROI + Retinex y DenoisingAutoencoder(DAE+TCNN-VGG16)redujoECEexterno(0.2729vs.0.4178 sin DAE), pero con AUROC de azar (0.4907).Concluyeninviabilidadzero-shotsinrecalibrac ión en sitio.
+[482] Resumen , Sección 4, Tablas 9, 10 y 12 (textocompletoparcial;Tablas 5–7 no verificadas).
+
+=== PAGINA 7 ===
+[348] 0.2591 → 0.4178(Brier 0.24 → 0.40);SSCNN-PseudoECE 0.2467 → 0.4517(Brier 0.21 → 0.41).Sens/Specdesagreg adas por base(Tablas 5–7): no verificadas.
+[81] van Meyel et al.(2026)
+[148] 10.1016/j.ophtha.2026.10.030
+[214] Glaucomaperimétric o en CFP (algoritmoganadordeAIROGS,entrenad o en 101 442 CFP centradasenmácula).Val.externaencohorte
+[281] Evaluadoaespecific idad fija del 95% endestino(noespecific ado en el resumen si el punto de cortenuméricoseheredó fijo de AIROGS
+[348] A nivel de ojo:AUROC 0.911 (IC 95%:0.887–0.934),Sens@95%Spec = 70.6% (63.8–76. 8) y PR-AUC = 0.343 (0.274–0. 427). A nivel de participan te: Sens
+[415] Análisispost-hocexcluyen do CFP convisibilidadincomplet a del ONHmejorósustancia lmente el PPV(cifra exacta no reportadaenresumen)
+[482] Resumenúnicamen te ( solo resumenvíaPubMed).
+
+=== PAGINA 8 ===
+[214] poblacionalprospectivaindependiente(Rotterda m Study, n = 19 088 ojos, prevalenc ia 1.1%).
+[281] o se fijó sobre la ROC de Rotterdam).
+[348] = 68.8% , AUROC 0.909 , generand o 5.1 remision es por casodetectad o . En 90%–100 % Spec, CFPcentradas en disco superaro n a centradasenmácula ( pAUC 0.860 vs. 0.802 , P = 0.003). Calibraci ón : no reportadoenresumen.
+[415] .
+[81] Milad et al.(2025)
+[148] 10.1016/j.xops.2025.100721
+[214] Glaucomareferible en CFP (AutoML/ Vertex AI entrenad o en subconjuntoAIROGS 1:2, prev.
+[281] Umbralesdeconfianzafijospreespecificados ( 0.5 , 0.3 , 0.1 ) + métricaSE@95SPcalculada
+[348] InternoAIROGS1:2(umbral0.5,Cloud):Sens 88.0% , Spec 92.0% , PPV 84.6% ,
+[415] Barridomanualdeumbralespreespecificadosinferiores a 0.5 (0.3 y 0.1) paraelevarsensibilid
+[482] Resumen , Results y Tablas 1, 2 y 3 ( texto complet o vía PMC).
+
+=== PAGINA 9 ===
+[214] 33.33%).Val.interna(AIROGS 1:2) + val. entre bases(REFUG E, prev. 10%;GAMMA,prev.50%).
+[281] en cada basedestino.
+[348] SE@95S P 95% (94.8% en texto). ExternoREFUGE : AUROC 0.96 , SE@95S P 80% (Tabla 2; 82.5%–8 3% en texto/resumen);conumbral fijo 0.5 , Sens bajó a 75% , Spec subió a 99% , PPV 94% ; a umbral 0.1 , Sens 83% , Spec 97% , PPV cayó a 73% . Externo GAMMA : AUROC 0.99 , SE@95S P 98% ; a 0.5, Sens 92% , Spec
+[415] ad en destino;sinrecalibraciónprobabilística.
+
+=== PAGINA 10 ===
+[348] 96% , PPV 96% . Calibraci ón : no reportado.
+[81] Cho, Lee & Kim (2026)
+[148] 10.3390/diagnostics16233936
+[214] Glaucom a en imágenesmultimodales(SLO/CF P + OCT 3D). Val. internabloqueada(Harvard-FairVision , n = 3 000 test) + val. entrebases(GAMMA→FairVision).
+[281] Bloqueoestricto previo a prueba ( analysis- locked ): parámetr os de calibració n y umbral a 85% de especificidad fijados en validació n y congelad os para una única evaluació n en prueba.
+[348] TransferenciaGAMMA→FairVisio n : AUROC cayó a 0.635–0. 653 (vs. 0.876internoOCT-only).Colapsoextremodecalibraci ón : las probabilidadespredichasdeglaucoma cayeron a medias de 0.093, 0.134 y 0.174 frente a unaprevalenc ia real en prueba
+[415] Fusióntardía ( late fusion ) mejoróligeramen te el AUROCinterno(+0.0059, p = 0.0012),singananciaconfirmad a en Sens a Spec fija; sincorrecció n de cambiodedominioenGAMMA→FairVision.
+[482] Resumen,Seccione s 2.1, 2.8, 3.1 y Tabla 3 (textocompletoparcial;Tablas S1–S2 no verificadas).
+
+=== PAGINA 11 ===
+[348] de 0.489 , contodos los Brier scores > 0.250 . ECEnuméricoySens@85%Spec(Tabla S2): no verificados.
+[81] Liu et al. (2019)
+[148] 10.1001/jamaophthalmol.2019.3501
+[214] GONreferible en CFP (GD-CNN , 241 032 imágenesCGSA).Val.interna (CGSA) + val.externa en 3 hospitale s chinos , 1cohortepoblacional(Handan) , 1 centromultiétni co EE. UU.(Hamilton
+[281] Noverificado en el extracto (no se pudoconfirmar si el punto de corte se congelódesde CGSA o sereajustóporcentro).
+[348] LocalCGSA:AUROC 0.996 , Sens 96.2% , Spec 97.7% . Hospitale s chinos: AUROC0.987–0. 995 , Sens93.6%–9 6.1% , Spec95.6%–9 7.1% . Poblacional(Handan) : AUROC 0.964 , Sens 91.0% ,
+[415] Propuest a de sistemadeaprendiza je en línea con clínico en el bucle ( Online Deep Learning , ODL)para adaptar a nuevasfuentes(métricasnuméricaspost-ODLnoverificada s en el extracto).
+[482] Resumen y Tabla 3 (textocompletoparcialvíaPMC).
+
+=== PAGINA 12 ===
+[214] ) y 1 base web .
+[348] Spec 92.6% . Multiétnic o EE. UU.(Hamilton):AUROC 0.923 , Sens 87.7% , Spec cayó a 80.8% . Base web multicalidad:AUROC 0.823 , Sens 82.2% , Spec cayó a 70.4% . Calibraci ón : no reportado.
+[81] Jan et al. (2024)
+[148] 10.3390/bioengineering11111139
+[214] GON cierta y GONreferible en CFP (Inception-v3entrenad o en poblaciónchina).Val.externa
+[281] Modelopreentrenadoaplicadodirectame nte con su regla declasificaciónheredada(valornumérico
+[348] Colapsoseverodesensibili dad con altaespecifici dad: en GONcierta,AUROC 0.616 , Sens =
+[415] Ninguno.
+[482] Sección Results y tablacomparati va IA vs. optometristas(textocompletoparcialvíaPMC).
+
+=== PAGINA 13 ===
+[214] enpoblaciónindependiente (900 CFP del Reino Unido vs. especialis tas y 11 optometristas;muestraestratifica da en 114 positivos y 786 negativos por la IA).
+[281] del corte probabilís tico no reportadoenextracto).
+[348] 28.6% , Spec = 94.6%(optometristas:Sens28.0%,Spec95.2%); en GON referible,AUROC 0.654 , Sens = 33.3% , Spec = 97.4%(optometristas:Sens65.1%,Spec 85.5%, p <0.0001).Desacuerdointer-especialista:26%(233/900).Calibraci ón : no reportado.
+[81] Diaz-Pint o et al. (2019)
+[148] 10.1186/s12938-019-0649-y
+[214] Glaucom a en CFP (Xception y CNNs). Leave-on
+[281] Noverificado en el extractoconsultad
+[348] En LODO (entrenan do en 4 bases y probando
+[415] Entrenamientomulti-bas e (4 fuentes
+[482] SecciónResults/D iscussion , Tabla 4 (texto
+
+=== PAGINA 14 ===
+[214] e-domain-out(LODO) entre 5 basespúblicas(HRF,Drishti-GS1,RIM-ONE,sjchoi86-HRF,ACRIMA).
+[281] o.
+[348] en la restante): AUROC / Sens / Spec cayeron a 0.8575 / 0.8250 / 0.7324(RIM-ONE), 0.8354 / 0.7778 / 0.7667(HRF), 0.8041 / 0.7857 / 0.7353(Drishti-GS1), 0.7739 / 0.7082 / 0.7033(sjchoi86- HRF) y 0.7678 / 0.7021 / 0.6893(ACRIMA).Calibraci ón : no reportado.
+[415] enesquemaLODO);sinrecalibrac ión de umbralverificada.
+[482] completoparcialvíaPMC).
+[81] Ko et al. (2022)
+[148] 10.3390/biomedicines10061314
+[214] Glaucom a en CFP (CNN).Val.interna(TVGH, Taiwán) +
+[281] Noverificado en el extractoconsultado.
+[348] ModeloTVGHinterno:AUROC 0.991 , Exactitud 95.62% ,
+[415] Fine-tuningespecífic o con pocasimágenesdel
+[482] Sección3.1,Tablas 2–3 y Fig. 3 (texto completoparcial
+
+=== PAGINA 15 ===
+[214] val. entre bases(DRISHTI-GS1,RIM-ONE r2) y val. externaencentroindependiente(CHGH).
+[348] Sens 93.75% , Spec 97.50% . Sinreentrena r en externas,laexactitud colapsó a 55.0% en DRISHTI-GS1(AUROC 0.770 ), 52.50%enRIM-ONEr2(AUROC 0.624 ) y 80.00% en CHGH (AUROC 0.910 ). Incluso el modelointegrado (4 bases) tuvoAUROC0.840peroexactitud 50.0% en DRISHTI-GS1(evidenciandodesacopl e entre
+[415] destino elevó la exactitud externa a 87.50%– 92.5% (y hasta 95.0% en otropasaje del texto; AUROCDRISHTI-GS1: 0.770 → 0.990 ).
+[482] víaMDPI).
+
+=== PAGINA 16 ===
+[348] discrimin ación y umbral).Sens/Specexternasycalibraci ón : no verificadas.
+[81] Qian et al.(2023)
+[148] 10.1038/s41433-023-02622-9
+[214] GONreferible en CFP (entrenad o en CGSA, n = 20 877). Val. externamulticén trica en 4 hospitalesindependi entes en China (Set 1, Set 2 y Set 3 alta miopía).
+[281] Noreportado(elartículonoespecific a si el umbral se heredó fijo del entrenam iento o se ajustó en validaciónexterna).
+[348] Set 1 (n = 3 049): AUROC 0.952 , Sens 0.918 , Spec 0.934 ; concomorbilidades(DR/AMD ), Sens 1.000peroSpec cayó a 0.825 (vs. 0.944 sin comorbilidades). Set 2 (n = 7 495): AUROC 0.966 , Sens 0.914 , Spec 0.922 . Set 3 alta
+[415] Ninguno.
+[482] Resumen , Results , Tablas 3–4 y mención a Tabla S3 ( texto complet o vía PMC).
+
+=== PAGINA 17 ===
+[348] miopía (n = 516): AUROC 0.875 , Sens 0.836 , Spec 0.818 . Calibraci ón : no reportado.
+[81] Bolo et al.(2025/2026)
+[148] 10.1016/j.xops.2025.101008
+[214] Glaucomareferible en CFP (RETFou nd vs. VGG-19, con y sin recorte de ONH). Val.interna(LAC DHS, n = 1 000) + val.externaencentroclínicoindependiente (USC, n = 300).
+[281] Índice de Youdenenevaluació n interna (RETFoundrecortado : Sens 82.6%,Spec88.2%,F10.801);transport e de umbral en USC y valoresdeSE@95S P no verificado s en el textoaccesible.
+[348] Interno:recortarONHmejoróAUROC(VGG-19recortado 0.924 vs. sinrecorte 0.898 ; RETFoundrecortado 0.911 vs. sinrecorte 0.889 , P < 0.001). Externo (USC): el recorteperjudicólageneralización;RETFou nd sin recorte
+[415] Modelofundacionalauto-supervisado(RETFound)aplicadosobreimagencompletasinrecorte.
+[482] ResumenyDiscussio n (texto completoparcial vía PMC; Tablas S1–S2 no verificadas).
+
+=== PAGINA 18 ===
+[348] alcanzóAUROC 0.886 vs. 0.797 del segundomejormodelo (P < 0.001).Sens/Specexternasycalibraci ón : no verificadas.
+[81] Phene et al.(2019)
+[148] 10.1016/j.ophtha.2019.07.024
+[214] GONreferible en CFP (entrenamiento: 86 618 imágenesdeEyePACS , Inoveon, AREDS). Val. en fuentesdedesarrollo/estándarfotográfico(Dataset A) + val. externa en 2 centros
+[281] Binarizaci ón de salidasparacomparac ión con evaluadoreshumanos;umbralnumérico exacto no verificado en el extracto.
+[348] AUROC cayó de 0.945(DatasetA,etiquetad o solo por CFP) a 0.855(DatasetB,remisión VA con acceso a historia clínica) y 0.881(DatasetC,diagnósticocompleto con OCT y campo
+[415] Ninguno(regresiónlogísticaparaauditarimportanc ia relativa de rasgos delONH).
+[482] ResumenyResults/Discussion(textocompletoparcialvíaResearchGate/arXiv1812.08911).
+
+=== PAGINA 19 ===
+[214] independientescondistintoestándar (B: VA Atlanta; C: Dr. Shroff).
+[348] visual).Sens/Spe c en B y C y calibraci ón : no verificada s en extracto.
+[81] de Vente et al. (2024) — AIROGS
+[148] 10.1109/TMI.2023.3313786
+[214] Glaucomareferible en CFP detamizaje(~113000imágenes , ~500 sitiosEyePACS ). Val. interna en test cerradomulticén trico (~11 000imágenes ) + val. entrebases(REFUGE,GAMMA).
+[281] Evaluació n en régimen de alta especificidadmediantepAUC(90%–100% Spec) y SE@95S P , más deteccióndeno-gradabilidad (κ_ U, AUC_U).
+[348] En test cerradoAIROGS:mejorequipoindividuallogrópAUC_S = 0.90 , SE@95S P_S = 85%(0.87[0.85–0.8 9] citado enextractodepublicación,posiblementeensamble ), κ_ U = 0.82 y AUC_U = 0.99. En basesexternas(citasecundari a en
+[415] Top-3ganadorescombinarondetección/recorte del disco óptico + VisionTransfor mers + puntajedeincertidumbre/confianzaparafiltrarimágenesnogradables.
+[482] Sitio oficial del reto,extractodel artículo y citassecundari as en Milad et al. (2025) (textocompleto IEEE TMI noverificadoíntegramente).
+
+=== PAGINA 20 ===
+[348] Milad et al.,2025):mejor modelo a medidaalcanzó88%SE@95S P en REFUGE y 100% enGAMMA.Calibraci ón : no verificada.
+[81] Chaurasi a et al. (2024)
+[148] 10.1016/j.xops.2024.100540
+[214] Glaucom a / cuantifica ción de VCDR en CFP(VGG19-BNentrenad o en UK Biobank, n = 68 695). Val. externaentrebases(EyePAC S, n = 101 442; Drishti-GS).
+[281] CortesobreVCDRestimado(sediscutelimitación de corte fijo CDR > 0.5; detallescomparati vos en Tabla S3 noaccesibles).
+[348] EnEyePACS (98 172 sanos, 3 270glaucoma ; prev. 3.22%): Sens = 72.02% , Spec = 82.83% , exactitud 82.49% . Regresió n CDR interna: R² = 0.8514, MAE = 0.0551.Calibración
+[415] Pipeline en dos etapas: modelo 1 filtragradabilidad(AUROC96.56%) antes de regresión de CDR.
+[482] Resumen , Methods yDiscussio n (texto completoparcial vía PMC; Tabla S3 noverificada).
+
+=== PAGINA 21 ===
+[348] probabilí stica : no reportado.
+[81] Poyrazer, Yağcı & Erten(2026)
+[148] 10.3389/fmed.2026.1815982
+[214] Retinopatíadiabética(DR binaria y 5 clases ICDR) en CFP(codificadorescongelados:MedSigLIP,RETFound,EfficientNet-B0).Val.interna(5-foldCV,APTOS 2019) + val. entre baseszero-tuning(MESSIDOR-2,Francia).
+[281] Temperaturescaling(TS)ajustadoendesarrollo(APTOS)ytrasladad o sin reajuste ( zero-tuni ng ) a MESSIDOR-2.
+[348] AUROC cayó de 0.980–0.985(interno) a 0.915 (MedSigL IP), 0.745 (Efficient Net-B0) y 0.697(RETFou nd). En DR leve (grado 1), F1 colapsó a 0.000(RETFou nd y EfficientN et-B0) y 0.153(MedSigLIP).Calibraci ón : en desarrollo TS redujo ECE a 0.014–0. 022 (Brier 0.044–0.052), pero en MESSIDOR-2
+[415] Temperaturescalingpost-hocajustado en fuente (efectivoendominiointerno,perdióeficaciabajocambiode dominio ) .
+[482] Resumen,Seccione s 2.6–2.7, Tabla 2 y Fig. 2 ( texto complet o vía PMC).
+
+=== PAGINA 22 ===
+[348] ECE se elevó a 0.086–0. 149 .
+[81] Rajaraman,Ganesan & Antani (2022)
+[148] 10.1371/journal.pone.0262838
+[214] DR en CFP(APTOS2019,DenseNe t-121) y TB en RX tórax(Shenzhen,VGG-16).Val.internaconsimulacióncontrolad a de cambiodeprevalencia/desbalance (Set-20 a Set-100).
+[281] Comparacióndirectaentreumbral fijo 0.5 vs.umbralóptimo de curva Precision-Recall(PR)maximizandoF-score.
+[348] Bajofuertedesbalance(Set-20),modelossincalibrartuvieronseverasubconfia nza ( ECE = 0.2124 enAPTOS;0.3237enShenzhen,generand o 0 verdaderospositivos a umbral 0.5). La calibració n mejoró significativamente el MCC enumbral fijo 0.5 (p < 0.05), pero en el
+[415] Calibraciónpost-hoc:Plattscaling,Betacalibratio n y Spline calibratio n (Spline bajó ECE en Set-20 a 0.0454 en APTOS y 0.0787enShenzhen).
+[482] Resumen , Results , Tablas 3 y 6 ( texto complet o vía PMC;valores crudos de Tablas 4–5 no visibles).
+
+=== PAGINA 23 ===
+[348] umbralóptimo PR no hubogananciasignificat iva (p > 0.05;APTOSSet-20 MCC = 0.6312calibrado vs. sin calibrar).
+[81] Ogundok un et al. (2026)
+[148] 10.3390/bioengineering13111304
+[214] DR (5 gradosICDR,prevalenc ia real sin rebalance ar, 1.9% NPDRsevera) en CFP (DDR, n = 12 522, EfficientNet-B0).Val.interna (fuera de pliegue; sin val. externa).
+[281] Umbraldeconfianza de triaje τ = 0.80 paradespejeautomátic o de "sin DR"sobreprobabilidadescalibradas.
+[348] Softmaxcrudo tuvo ECE = 0.186 . Temperaturescalingglobal bajó ECE top-label a 0.078 , pero no corrigió el sesgo porgradoinducidoporpondera ción de clases (ECE por clase0.077;leve0.078;
+[415] Vectorscaling(mapas por clase) redujo ECE por clase a 0.022 y losmapasespecífic os por gradollevaron el ECE por grado por debajo de 0.01 .
+[482] Resumen,Seccione s 3.8 y 4.3,Tablas10–11, Fig. 11 ( texto complet o vía MDPI).
+
+=== PAGINA 24 ===
+[348] severa 0.102). A τ = 0.80, despejó 30.1% de imágenes con tasa de falsos despejes de DR referible de 1.46% (IC 95%: 1.12%–1.89%).
+[81] Lee et al. (2021)
+[148] 10.2337/dc20-1877
+[214] DR en CFP (7 algoritmoscomercial es de 5 fabricante s, 1 aprobado por FDA). Val.externamulticén trica en mundo real en 2 centrosindependi entes (VA Seattle y Atlanta, 311 604 imágenes).
+[281] Sistemascomercialesaplicadosendespliegu e externo real(detallesdebloqueoporproveedo r no verificado s en el extracto).
+[348] Ampliadispersiónoperativaentrealgoritmos:Sensibili dad de 50.98% a 85.90% y VPN de 82.72% a 93.69% . Ensubconjuntoarbitrado (7 379 imágenes):Algoritmo A tuvo alta Spec ( 90.00% ) pero baja
+[415] Ninguno(auditoríaindependiente).
+[482] Resumen , Results y Fig. 2 (textocompletoparcialvíaPMC).
+
+=== PAGINA 25 ===
+[348] Sens en DRproliferativa ( 74.42% ); Algoritmo s E y F lograronSens92.71%conmenorSpec.Calibraci ón : no reportadoenextracto.
+[81] Voets,Møllersen & Bongo (2019)
+[148] 10.1371/journal.pone.0217541
+[214] DRreferible en CFP (reproduc ción de Gulshan et al., 2016).Val.interna(KaggleEyePACS , n = 8 790) + val. entre bases(Messidor -2, n = 1 748).
+[281] Dospuntosoperativossintoniza dos: alta especifici dad y alta sensibilid ad (no verificado en el extracto si el corte numéricosecongelódesdeEyePACS o se reajustóenMessidor-
+[348] Interno(KaggleEyePACS):AUROC 0.951 ; alta Spec (Sens 83.6% , Spec 92.0% ); alta Sens (Sens 90.6% , Spec 84.7% ). Externo(Messidor-2):AUROC cayó a 0.853 ; alta Spec
+[415] Ninguno.
+[482] ResumeneIntroducti on (texto completoparcial vía PLOS ONE).
+
+=== PAGINA 26 ===
+[281] 2).
+[348] ( Sens cayó a 68.7% , Spec 88.5% ); alta Sens (Sens 81.8% , Spec cayó a 71.2% ). Calibraci ón : no reportado.
+[81] Roschewi tz et al. (2023)
+[148] 10.1038/s41467-023-42396-y
+[214] Mamogra fía de tamizaje(OPTIMA M + 3 cohortesclínicas de Reino Unido y Hungría)ehistopatología(WILDSCamelyo n17). Val. externamulticén trica bajo cambiodeescáner/softwaredeadquisici
+[281] Umbralfijoprecalibra do sobre conjuntodereferenci a del escánermayoritari o de desarrollo para un balanceclínicoobjetivoSens/Spec.
+[348] AUROCseconservógeneraliz able ante cambiode escáner o software, pero la distribuci ón de puntajessedesplazó y rompió elbalanceSens/Sp ec bajo el umbralfijo(magnitudespuntuales
+[415] UnsupervisedPredictionAlignme nt (UPA) : empareja miento no supervisa do de la CDF de puntajesdeldominiodestino (N = 250–500 casos sin etiquetas) contra la CDF de referenci a (N = 500–1 000) por interpolac
+[482] Resumen,Introducti on (Fig. 1), Methods , Discussio n (texto completoparcial vía PMC; datosnumérico s de Figs. 2–3 no verificados).
+
+=== PAGINA 27 ===
+[214] ón.
+[348] de Figs. 2–3 no disponibl es en textoplano).Calibraci ón : ECE preserva do en 0.13 tras alineación ( Discussi on ).
+[415] ión lineal; restauróelbalanceSens/Spe c en todos los dominiosOOD.
+[81] Chen et al.(2026)
+[148] 10.3389/fmed.2026.1980048
+[214] Radiograf ía de tóraxparatamizaje de TB pulmonar(CADcomercial es: qXR, CAD4TB,Lunit).MiniReviewquesintetizaval.externasmulticén tricas y estratifica das por subgrupos.
+[281] Compara ción entre umbral fijo por defecto (0.5 o umbraldeversiónprevia)vs.umbralcalibradoporcohorte(~90% Sens) o estratifica do por demografía.
+[348] Conumbral fijo 0.5 en Sudáfrica(12productos ): Sens varió de <50% a 89.1% . En Lima (hospitalizados),qXRretuvo ~ 91% SensperoSpec cayó a 32%–44 % . En TB previa vs. sin TB previa (qXR a
+[415] Recalibra ción por cohorte y porversióndesoftware(restauró90% Sens en Lunit);evaluació n en sombra y bloqueodeversión.Umbralesestratifica dos por edad/sex o en Ugandamejoraro n Sens solo +1.9
+[482] Seccione s 2.1, 3.2, 3.3, 4.1 y 4.3 (texto completoparcialvíaPMC).
+
+=== PAGINA 28 ===
+[348] 0.5):Spec cayó de 87.3% a 37.3% . Por deriva de versión en Lunit (mediana subió de 0.35 a 0.61),mantener el umbral viejodesplomó Spec de 45.8% a 23.1% .
+[415] pp .
+[81] Zhang,Gatsonis&Steingrimsson(2023)
+[148] 10.1177/09622802231158811
+[214] DR en CFP(Kaggle DR 2015 →APTOS2019).Val. interna + val. entre bases .
+[281] Umbralesderemisiónselectivabasadosenincertidumbrepredictiva(entropía en MC Dropout y DeepEnsembles).
+[348] Redesprofunda s con buenAUROCexhibiero n altos erroresdecalibración (ECE) ; la malacalibracióndegradólacapacida d de los umbralesde
+[415] Calibraciónpost-hoc y uso de ensamblesprofundo s (Deep Ensembl es / MC Dropout)mejoraro n la eficaciaderemisiónporincertidumbre.
+[482] Seccione s 2–5 (textocompletoparcial vía PMC; tablasnumérica s no verificadas).
+
+=== PAGINA 29 ===
+[348] incertidumbreparaderivarcasosdifíciles tanto en dominiointernocomoexterno(valoresnumérico s de ECE novisiblesenextracto).
+[72] 2. Síntesis analítica: frecuencia de reporte, calibración
+[72] bajo cambio de dominio y estrategias de corrección
+[72] 2.1 Qué tan común es reportar el umbral y separar discriminación de punto operativo en glaucoma La literatura de aprendizaje profundo en glaucoma y oftalmología exhibe un sesgo marcado hacia métricas independientes del umbral (AUROC) o métricas operativas calculadas dentro de la misma distribución de entrenamiento, acompañado de una omisión generalizada tanto en la documentación del transporte de umbrales como en la evaluación de la calibración probabilística  . Las auditorías sistemáticas permiten cuantificar con precisión la magnitud de esta brecha. En imagenología médica diagnóstica general, Kim et al. (2019, 10.3348/kjr.2019.0025, Korean Journal of Radiology ; texto completo, Tablas 1–2) analizaron 516 estudios (54 de oftalmología, 10.5%) y encontraron que solo 6.0% (31/516) realizó validación externa, apenas 2.9% usó datos multicéntricos, 0.8% fue prospectivo y 0% cumplió simultáneamente criterios de cohorte diagnóstica, multicentricidad y recolección prospectiva  . En oftalmología específicamente, la validación externa es más frecuente pero el reporte de puntos de corte sigue siendo altamente heterogéneo: Aggarwal et al. (2021, 10.1038/s41746-021-00438-z, npj Digital Medicine ; texto completo, Results y Tabla 2) revisaron 82 estudios oftalmológicos (17 de glaucoma en CFP y 5 en OCT) y documentaron validación externa en 35.4% (29/82) y recolección prospectiva en 9.8% (8/82) , concluyendo que los estándares de referencia, las definiciones de enfermedad y los umbrales diagnósticos variaban ampliamente entre estudios, con riesgo de sobreestimar la exactitud diagnóstica  .
+
+=== PAGINA 30 ===
+[72] En el metaanálisis más reciente centrado en glaucoma (Ling et al., 2025, 10.3390/biomedicines13020420, Biomedicines , 48 estudios incluidos hasta octubre de 2024; texto completo, Sección 3.3 y Tabla 3), 28 trabajos tuvieron que excluirse específicamente por carecer de datos suficientes para derivar sensibilidad y especificidad (y otros 71 por datos inaccesibles o reporte insuficiente)  . Entre los estudios incluidos para diagnóstico con retinografías, el 64.1% del volumen de prueba correspondió a validación interna (124 552 imágenes) frente a 35.9% externa (69 707 imágenes), una desproporción aún mayor en OCT ( 83.9% interna frente a 16.1% externa)  . Más reveladora es la caída asimétrica registrada en la Tabla 3 de Ling et al. (2025): al pasar de validación interna a externa en CFP, el AUROC agrupado desciende solo 3 puntos (de 0.91 a 0.88 ), pero la sensibilidad agrupada cae 7 puntos (de 0.93 a 0.86 ) y la especificidad cae 7 puntos (de 0.95 a 0.88 ); en OCT, el AUROC pasa de 0.89 a 0.80 , la sensibilidad de 0.93 a 0.83 y la especificidad de 0.89 a 0.80  . El vacío es todavía más pronunciado respecto a la calibración de probabilidades. En una revisión sistemática con auditoría TRIPOD y PROBAST sobre 31 estudios de aprendizaje profundo en retinografías orientados a predecir enfermedades sistémicas (Li et al., 2024, 10.1038/s41433-023-02914-0, Eye ; texto completo, Resumen, Tabla 1 y Fig. 2), 90% reportó AUROC y 42% validación externa ( 16.1% prospectiva), pero apenas 6.4% (2/31; 6% en Tabla 1) describió la calibración y 96.8% (30/31) presentó alto riesgo global de sesgo  . Aunque esa auditoría se centró en predicción sistémica a partir de fondo de ojo, su hallazgo coincide con revisiones más amplias de modelos clínicos de aprendizaje automático: la calibración estuvo ausente en 79% (56/71) de los estudios revisados por Christodoulou et al. (2019, 10.1016/j.jclinepi.2019.02.004, Journal of Clinical Epidemiology ; resumen y Tabla A.15)  , y en oncología solo se reportó en 11 estudios (Dhiman et al., 2022, 10.1186/s12874-022-01577-x, BMC Medical Research Methodology ; solo resumen, donde el denominador total de estudios no figura en el extracto aunque 62 correspondieron al denominador de validación interna)  . Incluso entre estudios primarios de glaucoma muy citados (Liu et al., 2019; Diaz-Pinto et al., 2019; Phene et al., 2019; Ko et al., 2022; Qian et al., 2023), es infrecuente encontrar declarado si el umbral numérico se congeló desde desarrollo o se reajustó en el destino, lo que impide desacoplar la pérdida de discriminación del corrimiento del punto operativo  .
+
+=== PAGINA 31 ===
+[72] 2.2 Métricas de tamizaje a especificidad fija (SE@95SP y pAUC) y la trampa del reajuste implícito Dado que la prevalencia del glaucoma en población adulta ronda 1%–3.5%, incluso un descenso modesto en especificidad multiplica los falsos positivos y sobrecarga la capacidad de remisión oftalmológica  . Por esta razón, criterios de tamizaje como los de Prevent Blindness
+
+=== PAGINA 32 ===
+[72] America establecen un mínimo de 85% de sensibilidad a 95% de especificidad  , y los estándares recientes en glaucoma han migrado desde el AUROC global hacia dos indicadores restringidos a la región clínicamente operativa de la curva ROC: la sensibilidad a 95% de especificidad (SE@95SP) y el AUC parcial estandarizado entre 90% y 100% de especificidad (pAUC)  . El reto AIROGS (de Vente et al., 2024, 10.1109/TMI.2023.3313786) formalizó ambas métricas junto con la detección de imágenes no gradables (κ_ U, AUC_U), alcanzando un mejor desempeño individual de pAUC_S = 0.90 y SE@95SP_S = 85% en un test cerrado multicéntrico (~11 000 imágenes), comparable al de evaluadores humanos calificados  . Sin embargo, al validar externamente el algoritmo ganador de AIROGS en la cohorte poblacional prospectiva del Rotterdam Study (19 088 ojos, prevalencia 1.1%), van Meyel et al. (2026, 10.1016/j.ophtha.2026.10.030, solo resumen) observaron que la SE@95SP descendió a 70.6% a nivel de ojo (68.8% por participante), pese a retener un AUROC global de 0.911  . Existe, además, una sutil trampa metodológica que suele pasar inadvertida: reportar SE@95SP evaluada directamente sobre la curva ROC de la base externa equivale a reajustar implícitamente el umbral numérico en el destino usando las etiquetas del dominio objetivo. El estudio de Hemelings et al. (2023, 10.1038/s41746-023-00857-0; texto completo parcial, Tabla 1 y Evaluation procedure ) ofrece la ilustración más directa de este fenómeno en glaucoma  . Con el mismo modelo G-RISK y el mismo preprocesamiento de recorte papilar de 30°, el umbral numérico necesario para sostener exactamente 95% de especificidad tuvo que desplazarse desde 0.70 en BMES (ojo, Sens 82.4%) hasta 0.72 en GHS (participante, Sens 90.3%), 0.73 en BMES (participante, Sens 87.3%) y 0.78 en AIROGS (Sens 79.8%)  . En el punto balanceado (Sens ≈ Spec), el umbral óptimo varió desde 0.58 en REFUGE1 y 0.62 en LAG hasta 0.64 en ACRIMA, 0.66–0.70 en RIM-ONE DL, 0.74 en AIROGS, 0.75 en ODIR y 0.78 en PAPILA (participante, sospechosos no referibles)  . Cuando aplicaron un único umbral fijo (0.70) en las 13 fuentes externas, la especificidad se dispersó entre 0.70 (PAPILA) y 0.99 (REFUGE1)  . En el contexto específico de su experimento con ConvNeXt-Tiny entrenado en Moondream Staged y probado sin reajuste de umbral en ACRIMA, RIM-ONE DL y EyePACS, la evidencia publicada permite descomponer el colapso de sensibilidad en EyePACS en tres mecanismos complementarios. Primero, el choque de encuadre y escala entre recortes centrados en papila y retinografías de campo amplio con fondo negro afecta de forma severa a las CNNs: en el preprint de Rahman et al. (2026, arXiv:2611.01992), cinco CNNs entrenadas en ACRIMA, ORIGA y RIM-ONE DL con umbral Youden fijado en la fuente vieron caer su especificidad media de 0.870 a 0.506 y su sensibilidad de 0.831 a 0.726 al transferirse entre recortes, pero al probarse sin localización del disco sobre G1020 (campo amplio análogo a EyePACS), su AUROC descendió a 0.492–0.502  . De manera coherente, van Meyel et al. (2026) verificaron que en el rango de 90%–100% de especificidad las CFP centradas en disco superaron a las centradas en mácula ( pAUC 0.860 vs. 0.802 , P = 0.003) y que la visibilidad incompleta de la cabeza del nervio óptico (ONH) fue una fuente importante de falsos positivos  , aunque Bolo et al. (2025/2026, 10.1016/j.xops.2025.101008) advierten que un recorte rígido también puede restar generalización si elimina información peripapilar de la capa de fibras nerviosas (RNFL) o
+
+=== PAGINA 33 ===
+[72] induce sobreajuste al protocolo de recorte del centro de origen  . Segundo, operar en un umbral restrictivo fijado en especificidad ≥ 0.95 amplifica cualquier corrimiento negativo en los puntajes externos . Al ubicarse el corte en la cola superior de la distribución de probabilidades internas, la dilución espacial del disco óptico y el fondo negro en EyePACS empujan los logits hacia valores menores, provocando que los casos positivos queden sistemáticamente por debajo del umbral congelado. Este patrón reproduce lo documentado por Cho et al. (2026, 10.3390/diagnostics16233936) al trasladar modelos bloqueados de GAMMA a FairVision —donde la probabilidad media predicha colapsó a 0.093–0.174 frente a una prevalencia real de 0.489 — y por Jan et al. (2024, 10.3390/bioengineering11111139), donde un clasificador entrenado en China y aplicado en Reino Unido mantuvo 97.4% de especificidad pero vio caer su sensibilidad a 33.3% para GON referible  . Tercero, la variación en la definición de la etiqueta interactúa con el espectro de severidad : en Hemelings et al. (2023), reclasificar a los sospechosos de PAPILA como referibles frente a no referibles modificó el AUROC del mismo modelo en la misma base de 0.769 a 0.882 (nivel de ojo) y movió el umbral óptimo de 0.64 a 0.70  ; de modo análogo, Phene et al. (2019, 10.1016/j.ophtha.2019.07.024) observaron que el AUROC cayó de 0.945 (etiquetado fotográfico) a 0.855–0.881 cuando los centros externos emplearon historia clínica, OCT y campo visual  . Además, como muestran van Meyel et al. (2026) y Christopher et al. (2018, 10.1038/s41598-018-35044-9; AUROC 0.89 en GON leve vs. 0.97 en moderada-severa), los casos tempranos son sistemáticamente los primeros en perderse al endurecer el umbral (desviación media de −5.8 dB en falsos negativos frente a −10.8 dB en verdaderos positivos, P < 0.001)  . 2.3 Calibración de redes profundas bajo cambio de dominio y límites del temperature scaling La calibración evalúa si las probabilidades predichas coinciden con las frecuencias empíricas observadas del evento. En la jerarquía clínica de cuatro niveles formulada por Van Calster et al. (2016, 10.1016/j.jclinepi.2015.12.005; 2019, 10.1186/s12916-019-1466-7, BMC Medicine ), se distinguen: (1) calibración media ( calibration-in-the-large , igualdad entre riesgo medio predicho y tasa observada), (2) calibración débil (intercepto logístico α = 0 y pendiente β = 1), (3) calibración moderada (curvas flexibles alineadas con la diagonal en todo el rango) y (4) calibración fuerte (calibración exacta para cada perfil de covariables)  . En visión por computador y aprendizaje profundo, el indicador más frecuente es el Expected Calibration Error
+[72] (ECE), calculado dividiendo las predicciones en intervalos ( bins ) de confianza:
+[72] donde es la exactitud empírica y la confianza media en el intervalo
+[72] . Sin embargo, la literatura advierte limitaciones importantes del ECE clásico: sensibilidad a la elección del número de intervalos, evaluación exclusiva de la probabilidad
+
+=== PAGINA 34 ===
+[72] máxima ( top-label ) ignorando las demás clases, y posible cancelación de sobreconfianza y subconfianza dentro de un mismo intervalo; de ahí la recomendación de acompañarlo con Adaptive ECE (intervalos de igual masa), Brier score , diagramas de fiabilidad e intercepto/pendiente logísticos  . El trabajo de Guo et al. (2017, ICML / PMLR vol. 70, pp. 1321–1330; sin DOI verificado) mostró que las redes profundas modernas tienden a la sobreconfianza y que el temperature scaling
+[72] (TS) —reescalar los logits mediante un único escalar ajustado en validación para minimizar la log-verosimilitud negativa— reduce eficazmente el ECE in-domain sin alterar el ordenamiento ni el AUROC  . No obstante, la evidencia de 2019 a 2026 identifica tres limitaciones centrales del TS en escenarios clínicos con cambio de dominio. En primer lugar, un escalar ajustado en desarrollo no transfiere calibración bajo cambio de dominio fuerte . En perturbaciones de imagen natural (CIFAR-10-C e ImageNet-C), Ovadia et al. (2019, NeurIPS 32; sin DOI verificado, según el análisis del texto en pp. 7 y 24) mostraron que el TS mantiene un ECE bajo en distribución y bajo desplazamientos leves, pero se degrada con rapidez conforme crece la intensidad del cambio de dominio, quedando por debajo de ensambles profundos (en ResNet-20/CIFAR-10-C, Brier score mediano de 0.299 para ensambles frente a 0.392 para TS)  . En retinografías reales, Poyrazer et al. (2026, 10.3389/fmed.2026.1815982, Frontiers in Medicine ; texto completo, Resumen y Tabla 2) confirmaron este comportamiento: entrenando en APTOS 2019 y transfiriendo zero-tuning a MESSIDOR-2, el TS redujo el ECE de desarrollo a 0.014–0.022 , pero al cambiar de dominio el ECE externo ascendió a 0.086–0.149  . En segundo lugar, una sola temperatura global resulta insuficiente en clasificadores multiclase desbalanceados . Ogundokun et al. (2026, 10.3390/bioengineering13111304, Bioengineering ; texto completo, Tabla 10) evaluaron EfficientNet-B0 en 12 522 retinografías sin rebalancear (DDR) y observaron que el TS global redujo el ECE top-label de 0.186 a 0.078 , pero dejó descalibradas las clases minoritarias afectadas por la ponderación de pérdida (ECE por clase de 0.078 en NPDR leve y 0.102 en NPDR severa); solo la calibración específica por clase ( vector scaling ) llevó el ECE por clase a 0.022 y los mapas específicos por grado lo situaron por debajo de 0.01  . Este hallazgo incide directamente en su comparación entre cabeza binaria y cabeza de 3 estadios proyectada a binaria: al proyectar P(temprano) + P(avanzado), las descalibraciones asimétricas entre el estadio temprano y el avanzado pueden acumularse si solo se emplea una temperatura escalar única. En tercer lugar, el impacto operativo de la calibración depende de cómo se elija el umbral . Rajaraman et al. (2022, 10.1371/journal.pone.0262838, PLOS ONE ; texto completo, Tablas 3 y 6) demostraron en APTOS 2019 y Shenzhen CXR que las transformaciones post-hoc monotónicas (Platt, Beta y Spline) produjeron mejoras estadísticamente significativas del MCC al aplicar un umbral fijo de 0.5 (p < 0.05; en Shenzhen Set-20 los modelos sin calibrar produjeron 0 verdaderos positivos con ECE = 0.3237, que Spline redujo a 0.0787), pero no ofrecieron ventaja significativa cuando el umbral se reoptimizó sobre la curva Precision-Recall del mismo conjunto evaluado (p > 0.05)  . Por consiguiente, cuando el punto de corte se congela antes del despliegue o cuando las probabilidades guían reglas de remisión por incertidumbre —como en Zhang et al. (2023, 10.1177/09622802231158811)—  , la
+
+=== PAGINA 35 ===
+[72] calibración deja de ser secundaria y determina directamente el rendimiento clínico efectivo.
+
+=== PAGINA 36 ===
+[72] 2.4 Cambio de prevalencia (label shift) entre bases balanceadas de laboratorio y tamizaje poblacional Incluso en el escenario favorable en que un clasificador mantuviera inalteradas su sensibilidad y especificidad al trasladarse a otro centro, pasar de bases públicas balanceadas o enriquecidas de laboratorio al tamizaje poblacional transforma drásticamente el valor predictivo positivo (PPV) , la carga de remisiones y la calibración posterior. Mientras los bancos públicos más usados en glaucoma presentan prevalencias de 56.17% (ACRIMA), 50.00% (GAMMA), 35.46% (RIM-ONE DL), 69.3% (DRISHTI-GS), 73.4% (HYGD) o 10.00% (REFUGE1)  , las cohortes de tamizaje poblacional registran prevalencias de 3.11% (AIROGS), 2.14%–2.87% (BMES), 1.1% (Rotterdam Study y cohorte finlandesa de 45–49 años en Pitkänen et al., 2026, 10.1136/bjo-2025-328523) y 1.08% (GHS)  , o hasta 0.1% para "posible glaucoma" en programas amplios de tamizaje diabético como el de Ting et al. (2017, 10.1001/jama.2017.18152)  .
+[72] Mediante el teorema de Bayes, el PPV en función de sensibilidad ( ), especificidad ( ) y
+[72] prevalencia ( ) es:
+[72] Al evaluar exactamente esta expresión en el punto operativo de referencia de Prevent Blindness America (Se = 0.85, Sp = 0.95) sobre las prevalencias reales de la literatura  , el mismo clasificador produciría un PPV de 95.61% en ACRIMA (1.05 remisiones por verdadero positivo), 94.44% en GAMMA y 90.33% en RIM-ONE DL, pero su PPV descendería a 35.30% en AIROGS (2.83 remisiones por caso detectado), 27.10% en BMES ojo (3.69 remisiones/caso), 15.90% en Rotterdam Study (6.29 remisiones/caso) y 15.65% en GHS (6.39 remisiones/caso), mientras el VPN subiría de 83.2% a > 99.8%  . Este fenómeno se constata en despliegues clínicos masivos: en la evaluación poscomercialización del sistema ARDA tras tamizar más de 600 000 pacientes en India (10.1001/jamanetworkopen.2025.0984; texto completo, Resumen y Results , n = 4 537 muestreados), incluso con 97.0% de sensibilidad y 96.4% de especificidad para NPDR severa o PDR (prevalencia 3.7%), el PPV fue de 50.7% (VPN 99.9%)  . Aplicando el mismo cálculo bayesiano a las cifras del resumen de Ting et al. (2017; prevalencia de posible glaucoma 0.1%, Sens 96.4%, Spec 87.2%)  , el PPV teórico resultante sería de apenas 0.75% (más de 133 remisiones por cada caso verdadero), lo que justifica por qué los programas de tamizaje de glaucoma exigen especificidades ≥ 95%–97.5%  .
+[72] Paralelamente, el label shift puro ( con
+[72] ) descalibra de forma sistemática las probabilidades individuales. Como establecieron Saerens, Latinne & Decaestecker (2002, 10.1162/089976602753284446, referencia metodológica fundacional; texto completo, Resumen)  , la probabilidad posterior calibrada en el destino se obtiene desplazando el intercepto en escala logit :
+
+=== PAGINA 37 ===
+[72] Al pasar de un conjunto de entrenamiento balanceado ( ) a una población de
+[72] tamizaje con prevalencia , el intercepto logit cambia en Δα = −3.8918  . En consecuencia, una probabilidad predicha de 0.50 en el modelo fuente corresponde en realidad a un riesgo posterior de 2.0% , una de 0.80 a 7.55% , una de 0.90 a 15.52% y una de 0.95 a solo 27.94%  . Además, cuando se combinan en entrenamiento fuentes con prevalencias muy dispares —como mostraron Zech et al. (2018, 10.1371/journal.pmed.1002683, PLOS Medicine ; texto completo parcial, Tabla 1 y Results ) en radiografías de tórax con prevalencias de neumonía de 34.2% (MSH) frente a 1.2% (NIH) y 1.0% (IU)— las CNNs explotan marcadores del centro de adquisición como atajos ( shortcut learning ), inflando el AUROC interno combinado ( 0.931 ; clasificar solo el hospital alcanzó AUROC 0.861 ) sin mejorar la generalización externa  .
+
+=== PAGINA 38 ===
+[72] 2.5 Taxonomía de métodos de corrección: qué resuelve cada técnica y cuándo falla Un error recurrente en estudios aplicados consiste en asumir que una sola técnica de recalibración o de normalización resuelve cualquier cambio de dominio. La evidencia de 2016–2026 muestra que la eficacia de cada método depende de cuál de las tres fuentes de
+
+=== PAGINA 39 ===
+[72] variación domina la degradación observada:
+[81] Estrategia de corrección
+[198] Qué fuente de variación ataca
+[315] Datos del destino requeridos
+[432] Alcance documentado y limitacionescríticas
+[81] Recorte estandarizado de ONH + normalización de color (LAB / Ben Graham) y aumentofotométrico
+[198] Variación de imagen (campo de visión, escala, iluminación, color de cámara).
+[315] Ninguno(preprocesamiento determinista en inferencia).
+[432] Clave en Hemelings et al. (2023) y top-3 de AIROGS; en Rahman et al. (2026, preprint), LAB y aumento de color elevaron AUROC entre bases de 0.702 a 0.755–0.754. Límite : no elimina la deriva de umbral y puede reducir la generalización si suprime la RNFL peripapilar o depende de un detector frágil (Bolo et al., 2025/2026)  .
+[81] Temperature scaling (TS) / Platt / Beta / Spline ajustados en desarrollo
+[198] Descalibraciónin-domain(sobreconfianza/subconfianza).
+[315] Ninguno(parámetros congelados desde validación interna).
+[432] Corrige ECE interno y mejora decisiones a umbral fijo 0.5 (Rajaraman et al., 2022). Límite : TS escalar pierde eficacia bajo cambio de dominio fuerte (Ovadia et al., 2019; Poyrazer et al., 2026: ECE 0.014–0.022 → 0.086–0.149) y no corrige sesgos por clase en salidas
+
+=== PAGINA 40 ===
+[432] multiclasedesbalanceadas (requiere vector scaling , Ogundokun et al., 2026)  .
+[81] Adaptación de label shift (Saerens EM 2002; BBSE Lipton et al. 2018; MLLS + BCTS Alexandari et al. 2020)
+[198] Cambio puro de prevalencia (π_ destino ≠ π_ fuente).
+[315] Solo imágenes sin etiquetas del destino (para estimar π_ destino) o prevalencia epidemiológicaconocida.
+[432] Ajusta el intercepto logit y restaura la calibración posterior cuando el modelo fuente está bien calibrado(especialmente MLLS + bias-correctedtemperature scaling ). Límite : asume invariancia de las distribuciones condicionales de imagen dada la clase; pierde validez cuando coexiste covariate shift fuerte  .
+[81] UnsupervisedPrediction Alignment (UPA) (Roschewitz et al., 2023)
+[198] Desplazamiento de puntajes por cambio de adquisición ( acquisition shift : escáner o software).
+[315] Lote sin etiquetas del destino (N ≈ 250–500 casos) + lote de referencia (N ≈ 500–1 000).
+[432] Empareja la CDF de puntajes del destino con la de referencia mediante interpolación lineal y restaura el balance Sens/Spec objetivo sin tocar pesos ni requerir etiquetas. Límite : exige que el AUROC se preserve y que no exista un cambio severo de
+
+=== PAGINA 41 ===
+[432] prevalencia entre referencia y destino.
+[81] Recalibración supervisada local en sitio (intercepto/pendie nte logística de Van Calster, TS/vector scaling local o reajuste de umbral)
+[198] Cambio combinado de calibración, prevalencia y deriva de puntajes (incluida deriva temporal o de versión de software).
+[315] Pequeño conjunto etiquetado de calibración del sitio destino (p. ej., 10% del destino o auditoría periódica).
+[432] Permite recuperar especificidad/sensib ilidad y calibración local (p. ej., tras actualización de versión en Lunit, Chen et al., 2026)  . Límite : no rescata un modelo cuya discriminación ya colapsó; en Rahman et al. (2026, preprint), recalibrar el umbral con 10% del destino solo elevó la exactitud balanceada de 0.616 a 0.639  .
+[81] Ajuste fino ligero en sitio ( fine-tuning ) / Aprendizaje en línea (ODL)
+[198] Cambio severo de imagen y/o estándar de etiqueta que degrada el AUROC.
+[315] Conjunto etiquetado de adaptación en el dominio destino (entrenamiento + validación).
+[432] Necesario cuando cae la discriminación: en Ko et al. (2022), el fine-tuning específico elevó el AUROC en DRISHTI-GS1 de 0.770 a 0.990 y la exactitud externa de 52.5%–80.0% a 87.5%–92.5%  . Límite : abandona el régimen zero-shot , exige etiquetado clínico local y requiererevalidación
+
+=== PAGINA 42 ===
+[432] independiente.
+[72] 2.6 Estándares internacionales (TRIPOD+AI, CLAIM 2024 y STARD-AI) y hoja de ruta para el artículo en DYNA Las tres guías de reporte más influyentes publicadas o actualizadas entre 2024 y 2025 convergen en exigir que los estudios clínicos de IA separen explícitamente discriminación, calibración y punto operativo, y documenten con transparencia el transporte de umbrales: ● TRIPOD+AI (Collins et al., 2024, 10.1136/bmj-2023-078378, BMJ 385:e078378; 27 ítems principales)  : demanda especificar todas las métricas y gráficos de desempeño —incluyendo explícitamente discriminación, calibración y utilidad clínica — con intervalos de confianza (Ítems 12e y 23a); precisar la salida del modelo y justificar cómo se determinaron los umbrales de clasificación (Ítem 15); declarar cualquier técnica de manejo de desbalance de clases y la recalibración posterior aplicada (Ítem 13); cuantificar la heterogeneidad entre centros o bases (Ítems 12d y 23b); detallar diferencias de entorno, criterios y desenlace entre desarrollo y evaluación (Ítems 16 y 20c); y reportar toda actualización o recalibración derivada de la validación externa (Ítems 12f y 24)  . ● CLAIM: 2024 Update (Tejani et al., 2024, 10.1148/ryai.240300, Radiology: Artificial Intelligence 6(4):e240300; 44 ítems)  : reemplaza el término "ground truth" por "reference standard" —reconociendo explícitamente la variación de etiqueta— y recomienda distinguir "internal testing" de "external testing"  . Exige justificar las métricas más relevantes para el problema clínico mediante análisis ROC y/o curvas de calibración , precisando salidas binarizadas por umbral (Ítem 28), medidas de incertidumbre estadística y significancia (Ítem 29), análisis de robustez o sensibilidad (Ítem 30), pruebas en datos externos (Ítem 33) y un análisis de fallos sobre los resultados incorrectos (Ítem 39)  . ● STARD-AI (Sounderajah et al., 2025, 10.1038/s41591-025-03953-8, Nature Medicine 31(10):3283–3289; amplía STARD 2015 de Bossuyt et al., 10.1136/bmj.h5527, añadiendo o modificando 18 ítems específicos de IA)  : conserva la exigencia central de los Ítems 12a y 12b de STARD 2015 de definir y justificar los puntos de corte de positividad del test índice y del estándar de referencia, distinguiendo rigurosamente los umbrales preespecificados ( prespecified ) de los exploratorios o reajustados post-hoc  , además de documentar el tratamiento de casos indeterminados o no gradables (Ítem 15), la calibración y el desempeño por subgrupos  . Para alinear su manuscrito de DYNA con estas tres guías y respaldar empíricamente la tesis de las tres fuentes de variación en ConvNeXt-Tiny (Moondream Staged → ACRIMA, RIM-ONE DL y EyePACS), se recomienda estructurar los experimentos y el reporte en cinco pasos concretos: 1. Reportar dos capas de desempeño operativo en cada base externa : (a) métricas con el umbral congelado en validación interna (especificidad ≥ 0.95, cumpliendo STARD-AI prespecified y documentando el colapso real de sensibilidad en EyePACS), y (b) discriminación y punto operativo oráculo (AUROC, pAUC estandarizado en
+
+=== PAGINA 43 ===
+[72] 90%–100% de especificidad y SE@95SP reajustada en destino, publicando el umbral numérico τ* requerido en cada base al estilo de Hemelings et al., 2023)  . La brecha entre (a) y (b) aísla cuantitativamente el desplazamiento del punto de decisión frente a la caída de discriminación. 2. Aislar el choque de encuadre en EyePACS mediante ablación de recorte papilar : evaluar EyePACS tanto en su formato original de campo amplio con fondo negro como tras un recorte estandarizado centrado en la papila óptica (documentando fallos de localización e imágenes no gradables conforme a CLAIM Ítem 39 y STARD-AI), comparando su efecto sobre AUROC, SE@95SP y sensibilidad a umbral congelado  . 3. Auditar calibración comparando cabeza binaria frente a proyección de 3 estadios : reportar ECE (y Adaptive ECE), Brier score , intercepto/pendiente logísticos y diagramas de fiabilidad en Moondream, ACRIMA, RIM-ONE DL y EyePACS, contrastando probabilidades crudas, temperature scaling ajustado en Moondream y —en la cabeza de 3 clases— calibración por clase ( vector scaling ) antes de proyectar P(temprano) + P(avanzado), para verificar si la descalibración asimétrica por estadio observada por Ogundokun et al. (2026) explica diferencias entre ambas cabezas  . 4. Evaluar correcciones sin reentrenamiento de pesos como análisis exploratorio : comparar el umbral congelado contra (i) ajuste bayesiano de priori (Saerens et al., 2002), (ii) alineación no supervisada de predicciones (UPA, Roschewitz et al., 2023) en escenarios de prevalencia comparable, y (iii) recalibración supervisada de umbral/intercepto con una pequeña fracción etiquetada del destino (p. ej., 10%, con intervalos bootstrap agrupados por paciente), marcando explícitamente estas variantes como actualización/análisis exploratorio según TRIPOD+AI (Ítems 12f y 24)  . 5. Documentar la variación de etiqueta y proyectar el PPV a prevalencias de tamizaje : incluir una tabla comparativa del estándar de referencia de Moondream Staged, ACRIMA, RIM-ONE DL y EyePACS (TRIPOD+AI Ítem 16), y complementar el PPV observado sobre las prevalencias nativas de cada base con una proyección bayesiana de PPV y remisiones por caso detectado en prevalencias realistas de tamizaje (1%–3.5%)  .
+[72] 3. Afirmaciones dudosas o contradictorias A continuación se documentan las inconsistencias internas detectadas en las fuentes, las contradicciones abiertas en la literatura, las reservas sobre preprints y fuentes secundarias, y los datos primarios que no fue posible verificar en el texto completo: 1. Inconsistencias numéricas internas y comparación asimétrica en Milad et al. (2025, 10.1016/j.xops.2025.100721) : dentro del mismo artículo revisado por pares, el resumen y el texto reportan un AuPRC interno de 0.988 , pero la Tabla 1 registra 0.973 (Cloud) y , 0.970 (Edge)  . En REFUGE, el resumen reporta SE@95SP de 83% y el texto 82.5% mientras la Tabla 2 indica 0.80 (IC 95%: 0.70–0.94) en los tres cortes  . Asimismo, el resumen expresa erróneamente los AUROC externos como "0.960%" y "0.994%" (en lugar de 0.960 y 0.994), y compara su SE@95SP interno ( 94.8%–95% ) —medido sobre un subconjunto submuestreado 1:2 (prevalencia 33.33%) con imágenes únicamente gradables— contra el 85% de los modelos de AIROGS (de Vente et al., 2024), evaluados
+
+=== PAGINA 44 ===
+[72] en un test cerrado de ~11 000 imágenes con prevalencia cercana a 3.1% y ~2% de imágenes no gradables  . 2. Contradicción abierta sobre el beneficio del recorte del disco óptico ( cropping ) en generalización externa : Hemelings et al. (2023) y los tres equipos ganadores del reto AIROGS (de Vente et al., 2024) indicaron que estandarizar el recorte alrededor del ONH (p. ej., 30°) mejora la transferencia entre cámaras y bases, en línea con el mayor pAUC observado en CFP centradas en disco frente a mácula por van Meyel et al. (2026; 0.860 vs. 0.802)  . Por el contrario, Bolo et al. (2025/2026, 10.1016/j.xops.2025.101008) observaron en su validación externa (clínicas USC) que recortar el ONH mejoró el AUROC interno pero perjudicó la generalización externa , donde RETFound sin recorte alcanzó el mayor AUROC (0.886 vs. 0.797 del segundo mejor modelo, P < 0.001)  . La evidencia sugiere que el efecto del recorte depende de la coherencia geométrica entre entrenamiento y prueba y de cuánta señal peripapilar (RNFL) se conserve  . 3. Resultados opuestos sobre la robustez externa de RETFound : mientras Bolo et al. (2025/2026) reportaron mejor generalización externa de RETFound sin recorte en glaucoma (AUROC 0.886)  , Poyrazer et al. (2026, 10.3389/fmed.2026.1815982) hallaron en retinopatía diabética (APTOS → MESSIDOR-2 con codificador congelado) que RETFound sufrió la mayor degradación (AUROC externo 0.697 , inferior a EfficientNet-B0 preentrenado en ImageNet con 0.745 , Δ AUC = −0.051, p = 0.016) y F1 = 0.000 en DR leve  . Esto indica que el desempeño externo de los modelos fundacionales depende críticamente del protocolo de adaptación ( fine-tuning completo frente a codificador congelado), la resolución de entrada y el tipo de patología. 4. Discrepancia no verificable en el resumen de van Meyel et al. (2026, 10.1016/j.ophtha.2026.10.030) sobre las remisiones por caso detectado : el resumen informa 201 ojos con glaucoma perimétrico en 19 088 ojos (prevalencia exacta 1.053%, redondeada a 1.1%), SE@95SP de 70.6% a nivel de ojo (68.8% por participante) y un total de 5.1 remisiones por caso detectado  . Sin embargo, el cálculo bayesiano exacto a nivel de ojo (prevalencia 1.053%, Sens 70.6%, Spec 95.0%) arroja un PPV de 13.06% y 7.65 remisiones por caso (7.37 usando 1.1%)  . La cifra de 5.1 probablemente corresponde al nivel de participante (donde la prevalencia por individuo supera a la prevalencia por ojo) o a un análisis tras excluir imágenes sin visibilidad completa del ONH, pero al disponerse únicamente del resumen no fue posible verificar el denominador exacto. 5. Estatus de preprint, baja potencia y anomalía de G1020 en Rahman et al. (2026, arXiv:2611.01992) : este trabajo es un preprint sin revisión por pares verificada, sin DOI y sin fecha de envío confirmada en el texto (el identificador arXiv 2611 sugiere noviembre de 2026), basado en tres semillas aleatorias  . Adicionalmente, el hallazgo de que sus CNNs rindieron cerca del azar (AUROC ~0.50) incluso entrenando y probando dentro de G1020 parece atribuible al redimensionamiento directo a 224×224 sin localizar el disco ni conservar relación de aspecto, por lo que no debe interpretarse como una propiedad intrínseca de la base G1020. 6. Paradoja aparente de calibración e inconsistencia menor de tablas en Alhasson et
+
+=== PAGINA 45 ===
+[72] al. (2026, 10.3390/jcm15166418) : el modelo DAE + TCNN-VGG16 mostró un ECE externo menor ( 0.2729 ) que interno ( 0.3870 en Tabla 12) mientras su AUROC externo cayó a 0.4907 (azar)  . Esto refleja que un clasificador que colapsa sus salidas hacia una constante cercana a la prevalencia media puede reducir el ECE sin poseer utilidad diagnóstica. Además, existen diferencias menores entre los promedios de ECE citados en la tabla resumen de la Sección 4 (p. ej., DAE+TCNN interno 0.40, externo 0.25) y los de la Tabla 12 (0.3870 y 0.2729) que no pudieron auditarse porque las Tablas 5–7 no figuraban en texto plano  . 7. Posible sesgo de muestreo condicionado y conflicto interno de tablas en estudios externos : en Jan et al. (2024, 10.3390/bioengineering11111139), la muestra externa de 900 CFP se seleccionó exigiendo 114 imágenes clasificadas como positivas y 786 como negativas por la propia IA, lo que puede influir en las estimaciones operativas frente a un muestreo aleatorio poblacional  . En Qian et al. (2023, 10.1038/s41433-023-02622-9), el extracto secundario de la Tabla 4 invirtió los valores de sensibilidad y especificidad del subgrupo con comorbilidades en Set 2 frente a la tabla directa de PMC (Tabla 4 directa: Sens 0.922, Spec 0.939)  . En Hemelings et al. (2023), el resumen y el texto indican que el menor AUROC en bases públicas fue 0.854 (ORIGA) y un IC 95% de GHS de 0.980–0.991, mientras la Tabla 1 registra 0.769 en PAPILA ojo bajo la definición de sospechosos como referibles y un IC 95% de GHS de 0.978–0.990  . 8. Datos primarios y enunciados literales no verificados en los documentos consultados : (a) en Liu et al. (2019), Phene et al. (2019), Diaz-Pinto et al. (2019), Ko et al. (2022), Qian et al. (2023), Voets et al. (2019) y Lee et al. (2021) no pudo verificarse si el umbral numérico se congeló desde desarrollo o se ajustó por fuente externa  ; (b) en Hemelings et al. (2023) no se pudo consultar la Tabla 2 íntegra (cota superior de sensibilidad bajo umbral fijo 0.70 no verificada)  ; (c) en Roschewitz et al. (2023) los valores numéricos puntuales de deriva Sens/Spec antes y después de UPA residen en figuras y archivos suplementarios no legibles en texto plano, por lo que no se estimaron desde gráficas  ; (d) los puntajes externos de AIROGS en REFUGE (88%) y GAMMA (100%) provienen de citas secundarias en Milad et al. (2025) y el valor de 0.87 en el extracto de IEEE TMI no permitió verificar en texto completo si corresponde al ensamble de los mejores equipos  ; (e) en Pitkänen et al. (2026, 10.1136/bjo-2025-328523) solo se verificó la prevalencia (1.1%) y las conclusiones cualitativas, no los valores exactos de AUROC, PR-AUC o SE@95SP  ; y (f) para las guías de reporte, en TRIPOD+AI (10.1136/bmj-2023-078378) se verificaron en la fuente primaria el alcance de 27 ítems y numeraciones clave, pero el texto literal de varios subítems procedió de una reproducción secundaria en línea (journalmetrics.org), y en STARD-AI (10.1038/s41591-025-03953-8; corrección de autores en julio de 2026, 10.1038/s41591-026-04570-9) se verificó el resumen, la extensión de 18 ítems sobre STARD 2015 y el contenido de los Ítems 12a–12b heredados, pero no la redacción literal completa de la tabla de los 18 ítems nuevos  .
+
+=== PAGINA 46 ===
+[72] Works cited
+[72] 1. A generalizable deep learning regression model for automated, https://pmc.ncbi.nlm.nih.gov/articles/PMC10264390/ 2. (PDF) Cross-Dataset Generalization of Glaucoma Detection CNNs, https://www.researchgate.net/publication/417411630_Cross-Dataset_Generalization_of_Glaucoma_Detection_CNNs_Effects_of_Operating_Threshold_Multi-Source_Training_and_Color_Normalization 3. How well do frozen foundation models transfer? A calibration ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC13128382/ 4. Automatic correction of performance drift under acquisition shift in, https://pmc.ncbi.nlm.nih.gov/articles/PMC10587231/ 5. Beyond Accuracy: A Controlled Comparative Glaucoma Screening, https://www.mdpi.com/2077-0383/15/16/6418 6. When Does Multimodal Fusion Help? Cross-Domain Transfer, Joint, https://www.mdpi.com/2075-4418/16/23/3936 7. A generalizable deep learning regression model for automated, https://www.researchgate.net/publication/371545116_A_generalizable_deep_learning_regression_model_for_automated_glaucoma_screening_from_fundus_images 8. Performance of a Deep Learning System and ... - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC11591493/ 9. External validation of a deep-learning algorithm for perimetric, https://pubmed.ncbi.nlm.nih.gov/42971439/ 10. Comparison of RETFound and a Supervised Convolutional Neural, https://pmc.ncbi.nlm.nih.gov/articles/PMC12809483/ 11. (PDF) Deep Learning and Glaucoma Specialists - ResearchGate, https://www.researchgate.net/publication/336027867_Deep_Learning_and_Glaucoma_Specialists 12. (PDF) Machine Learning And Deep Learning For Glaucoma Detection, https://www.researchgate.net/publication/416020364_Machine_Learning_And_Deep_Learning_For_Glaucoma_Detection_A_Systematic_Narrative_Review_Of_Methods_Datasets_Evaluation_Practice_And_Clinical_Translation 13. The Relative Importance of Optic Disc Features to Predict Glaucoma, https://arxiv.org/pdf/1812.08911 14. Deep learning in population-based screening for glaucoma, https://www.researchgate.net/publication/403859527_Deep_learning_in_population-based_screening_for_glaucoma 15. subgroup performance and threshold calibration of AI-assisted chest, https://pmc.ncbi.nlm.nih.gov/articles/PMC13714600/ 16. unknown_url 17. Cross-Dataset Generalization of Glaucoma Detection CNNs - arXiv, https://arxiv.org/pdf/2611.01992 18. https://arxiv.org/abs/2611.01992
+
+=== PAGINA 47 ===
+[72] 19. Code-Free Deep Learning Glaucoma Detection On Color Fundus, https://www.researchgate.net/publication/388497465_Code-Free_Deep_Learning_Glaucoma_Detection_On_Color_Fundus_Images 20. Code-Free Deep Learning Glaucoma Detection on Color Fundus, https://pmc.ncbi.nlm.nih.gov/articles/PMC11964632/ 21. (PDF) Development and Validation of a Deep Learning System to, https://www.researchgate.net/publication/338517873_Development_and_Validation_of_a_Deep_Learning_System_to_Detect_Glaucomatous_Optic_Neuropathy_Using_Fundus_Photographs 22. Development and Validation of a Deep Learning System to Detect, https://pmc.ncbi.nlm.nih.gov/articles/PMC6743057/ 23. Deep Learning in Glaucoma Detection and Progression Prediction, https://pmc.ncbi.nlm.nih.gov/articles/PMC11852503/ 24. CNNs for automatic glaucoma assessment using fundus images, https://pmc.ncbi.nlm.nih.gov/articles/PMC6425593/ 25. Widen the Applicability of a Convolutional Neural-Network-Assisted, https://www.mdpi.com/2227-9059/10/6/1314 26. External validation of a deep learning detection system for ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC10698045/ 27. The Relative Importance of Optic Disc Features to Predict Glaucoma, https://pubmed.ncbi.nlm.nih.gov/31561879/ 28. AIROGS: Artificial Intelligence for Robust Glaucoma Screening, https://pubmed.ncbi.nlm.nih.gov/37713220/ 29. Artificial Intelligence for Robust Glaucoma Screening Challenge, https://www.researchgate.net/publication/373961889_AIROGS_Artificial_Intelligence_for_RObust_Glaucoma_Screening_Challenge 30. AIROGS Challenge Report: AI models can be used for glaucoma, https://coendevente.com/project-airogs.html 31. https://pmc.ncbi.nlm.nih.gov/articles/PMC11268341/ 32. Deep learning model calibration for improving performance in class, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0262838 33. Deep learning model calibration for improving performance in class, https://pmc.ncbi.nlm.nih.gov/articles/PMC8794113/ 34. A Class-Imbalance-Aware Deep Learning Study on the DDR Dataset, https://www.mdpi.com/2306-5354/13/11/1304 35. Artificial Intelligence and Diabetic Retinopathy: AI Framework ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC10516248/ 36. Multicenter, Head-to-Head, Real-World Validation Study of Seven, https://www.researchgate.net/publication/348260859_Multicenter_Head-to-Head_Real-World_Validation_Study_of_Seven_Automated_Artificial_Intelligence_Diabetic_Retinopathy_Screening_Systems 37. https://pmc.ncbi.nlm.nih.gov/articles/PMC8132324/ 38. Reproduction study using public data of - Research journals - PLOS, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217541 39. Automatic correction of performance drift under acquisition shift in,
+
+=== PAGINA 48 ===
+[72] https://www.researchgate.net/publication/374845202_Automatic_correction_of_performance_drift_under_acquisition_shift_in_medical_image_classification 40. subgroup performance and threshold calibration of AI- assisted, https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1980048/pdf 41. https://pmc.ncbi.nlm.nih.gov/articles/PMC10387358/ 42. Predicting systemic diseases in fundus images: systematic review of, https://pmc.ncbi.nlm.nih.gov/articles/PMC11076532/ 43. https://pmc.ncbi.nlm.nih.gov/articles/PMC8027892/ 44. A systematic review shows no performance benefit of machine, https://www.rama.mahidol.ac.th/ceb/sites/default/files/public/pdf/Repository/1-s2.0-S0895435618310813-main.pdf 45. Results from Recently Published Papers - PubMed, https://pubmed.ncbi.nlm.nih.gov/30799571/ 46. https://pmc.ncbi.nlm.nih.gov/articles/PMC6389801/ 47. Deep Learning in Glaucoma Detection and Progression Prediction, https://www.researchgate.net/publication/388874230_Deep_Learning_in_Glaucoma_Detection_and_Progression_Prediction_A_Systematic_Review_and_Meta-Analysis 48. A systematic review shows no performance benefit of machine, https://pubmed.ncbi.nlm.nih.gov/30763612/ 49. A systematic review shows no performance benefit of machine, https://research.birmingham.ac.uk/en/publications/a-systematic-review-shows-no-performance-benefit-of-machine-learn 50. (PDF) Methodological conduct of prognostic prediction models, https://www.researchgate.net/publication/359829245_Methodological_conduct_of_prognostic_prediction_models_developed_using_machine_learning_in_oncology_a_systematic_review 51. Methodological conduct of prognostic prediction models developed, https://pubmed.ncbi.nlm.nih.gov/35395724/ 52. Deep learning on fundus images detects glaucoma beyond the optic, https://arxiv.org/pdf/2103.11895 53. (PDF) Performance of Deep Learning Architectures and Transfer, https://www.researchgate.net/publication/328887872_Performance_of_Deep_Learning_Architectures_and_Transfer_Learning_for_Detecting_Glaucomatous_Optic_Neuropathy_in_Fundus_Photographs 54. Assessing calibration and bias of a deployed machine learning, https://pmc.ncbi.nlm.nih.gov/articles/PMC11156633/ 55. Calibration Slope, CITL & ICI: Formula & Guide - CASRAI, https://casrai.org/guides/calibration-slope 56. Your Model's 0.9 Is Not a 90% Chance: Calibrating Risk Scores, https://ml.co.ke/posts/probability-calibration-risk-scores/ 57. A calibration hierarchy for risk models was defined - PubMed, https://pubmed.ncbi.nlm.nih.gov/26772608/ 58. Understanding Calibration of Deep Neural Networks for Medical,
+
+=== PAGINA 49 ===
+[72] https://arxiv.org/html/2309.13132v2 59. Sample Margin-Aware Recalibration of Temperature - arXiv, https://arxiv.org/html/2506.23492v1 60. Expert-validated estimation of diagnostic uncertainty for deep neural, https://pdfs.semanticscholar.org/34b4/0525445d81c3a654a2b8474b5891e68caf1b.pdf 61. A Decision-Reliability Benchmark for Frontier VLMs and OCT, https://openreview.net/pdf/c5a5f3be72fc5fb54335ec3000756fb68f05aacd.pdf 62. One-step Label Shift Adaptation via Robust Weight Estimation | IJCAI, https://ijcai.org/proceedings/2025/565 63. Consistency-Guided Temperature Scaling Using Style and Content, https://ojs.aaai.org/index.php/AAAI/article/view/29041/29971 64. Can you trust your model's uncertainty? Evaluating predictive, https://proceedings.neurips.cc/paper_files/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html?utm_medium=email&utm_source=transaction 65. Can You Trust Your Model's Uncertainty? Evaluating Predictive, https://www.alphaxiv.org/abs/1906.02530 66. At a glance | British Journal of Ophthalmology, http://bjo.bmj.com/cgi/content/short/110/12/i?rss=1 67. Ruben Hemelings from Singapore National Eye Center | Scilit, https://www.scilit.com/scholars/019f271d608d71a6a29c8115da36e54f 68. Development and Validation of a Deep Learning System for Diabetic, https://www.researchgate.net/publication/321755280_Development_and_Validation_of_a_Deep_Learning_System_for_Diabetic_Retinopathy_and_Related_Eye_Diseases_Using_Retinal_Images_From_Multiethnic_Populations_With_Diabetes 69. Performance of a Deep Learning Diabetic Retinopathy Algorithm in, https://www.researchgate.net/publication/390021694_Performance_of_a_Deep_Learning_Diabetic_Retinopathy_Algorithm_in_India 70. Performance of a Deep Learning Diabetic Retinopathy Algorithm in, https://pmc.ncbi.nlm.nih.gov/articles/PMC11923701/ 71. Adjusting the outputs of a classifier to new a priori probabilities, https://pubmed.ncbi.nlm.nih.gov/11747533/ 72. Adjusting the Outputs of a Classifier to New a Priori Probabilities, https://www.researchgate.net/publication/11608620_Adjusting_the_Outputs_of_a_Classifier_to_New_a_Priori_Probabilities_A_Simple_Procedure 73. Variable generalization performance of a deep learning model to, https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683 74. Variable generalization performance of a deep learning model to, https://www.researchgate.net/publication/328773481_Variable_generalization_performance_of_a_deep_learning_model_to_detect_pneumonia_in_chest_radiographs_A_cross-sectional_study 75. Maximum Likelihood with Bias-Corrected Calibration is Hard-To, https://www.semanticscholar.org/paper/Maximum-Likelihood-with-Bias-Corrected-Calibration-Alexandari-Kundaje/5e5848aa7f0d37e7ead301fbb17c7531107db4e4 76. Maximum Likelihood with Bias-Corrected Calibration is Hard-To,
+
+=== PAGINA 50 ===
+[72] https://icml.cc/media/icml-2020/Slides/5886.pdf 77. Doubly Flexible Estimation under Label Shift - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC12169888/ 78. addressing label shift in distributed learn - arXiv, https://arxiv.org/pdf/2502.02544? 79. Calibration Drift Among Regression and Machine Learning Models, https://pmc.ncbi.nlm.nih.gov/articles/PMC5977580/ 80. TRIPOD+AI statement: updated guidance for reporting clinical, https://www.bmj.com/content/385/bmj-2023-078378 81. https://www.journalmetrics.org/tripod-ai-checklist 82. (PDF) Checklist for Artificial Intelligence in Medical Imaging (CLAIM), https://www.researchgate.net/publication/380968885_Checklist_for_Artificial_Intelligence_in_Medical_Imaging_CLAIM_2024_Update 83. Checklist for Artificial Intelligence in Medical Imaging (CLAIM) - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC11304031/ 84. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024, https://pubs.rsna.org/doi/10.1148/ryai.240300 85. Home | CLAIM Elaboration - GitHub Pages, https://rsna.github.io/claim/ 86. https://rsna.github.io/claim/checklist.html 87. https://pubmed.ncbi.nlm.nih.gov/40954311/ 88. reporting a diagnostic accuracy study with STARD 2015, https://directivepublications.org/blog/reporting-a-diagnostic-accuracy-study-stard 89. STARD 2015: an updated list of essential items for reporting, https://www.bmj.com/content/351/bmj.h5527 90. STARD 2015 guidelines for reporting diagnostic accuracy studies, https://bmjopen.bmj.com/content/6/11/e012799 91. STARD Checklist, STARD-AI & TRIPOD+AI Compared - CASRAI, https://casrai.org/guides/stard-tripod-checklist 92. Author Correction: The STARD-AI reporting guideline for diagnostic, https://www.researchgate.net/publication/409407769_Author_Correction_The_STARD-AI_reporting_guideline_for_diagnostic_accuracy_studies_using_artificial_intelligence

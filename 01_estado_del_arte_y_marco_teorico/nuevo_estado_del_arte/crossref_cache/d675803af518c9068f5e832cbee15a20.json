@@ -1,0 +1,675 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T18:13:55Z",
+      "timestamp": 1793038435557,
+      "version": "4.5.0"
+    },
+    "reference-count": 37,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              5
+            ]
+          ],
+          "date-time": "2023-08-05T00:00:00Z",
+          "timestamp": 1691193600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              5
+            ]
+          ],
+          "date-time": "2023-08-05T00:00:00Z",
+          "timestamp": 1691193600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Data"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>As one of the leading causes of irreversible blindness worldwide, glaucoma is characterized by structural damage and functional loss. Glaucoma patients often have a long follow-up and prognosis prediction is an important part in treatment. However, existing public glaucoma datasets are almost cross-sectional, concentrating on segmentation on optic disc (OD) and glaucoma diagnosis. With the development of artificial intelligence (AI), the deep learning model can already provide accurate prediction of future visual field (VF) and its progression with the support of longitudinal datasets. Here, we proposed a public longitudinal glaucoma real-world appraisal progression ensemble (GRAPE) dataset. The GRAPE dataset contains 1115 follow-up records from 263 eyes, with VFs, fundus images, OCT measurements and clinical information, and OD segmentation and VF progression are annotated. Two baseline models demonstrated the feasibility in prediction of VF and its progression. This dataset will advance AI research in glaucoma management.</jats:p>",
+    "DOI": "10.1038/s41597-023-02424-4",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2023-08-05T01:01:51Z",
+      "timestamp": 1691197311000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 48,
+    "title": [
+      "GRAPE: A multi-modal dataset of longitudinal follow-up visual field and fundus images for glaucoma management"
+    ],
+    "prefix": "10.1038",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Xiaoling",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangyin",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ziyan",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Ouyang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yunxiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4369-2417",
+        "authenticated-orcid": false,
+        "given": "Kai",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2424_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2183",
+        "DOI": "10.1016/s0140-6736(17)31469-1",
+        "volume": "390",
+        "author": "JB Jonas",
+        "year": "2017",
+        "unstructured": "Jonas, J. B. et al. Glaucoma. The Lancet. 390, 2183–2193, https://doi.org/10.1016/s0140-6736(17)31469-1 (2017).",
+        "journal-title": "The Lancet."
+      },
+      {
+        "key": "2424_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1711",
+        "DOI": "10.1016/s0140-6736(04)16257-0",
+        "volume": "363",
+        "author": "RN Weinreb",
+        "year": "2004",
+        "unstructured": "Weinreb, R. N. & Khaw, P. T. Primary open-angle glaucoma. The Lancet. 363, 1711–1720, https://doi.org/10.1016/s0140-6736(04)16257-0 (2004).",
+        "journal-title": "The Lancet."
+      },
+      {
+        "key": "2424_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "YC Tham",
+        "year": "2014",
+        "unstructured": "Tham, Y. C. et al. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology. 121, 2081–2090, https://doi.org/10.1016/j.ophtha.2014.05.013 (2014).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "volume": "311",
+        "author": "RN Weinreb",
+        "year": "2014",
+        "unstructured": "Weinreb, R. N., Aung, T. & Medeiros, F. A. The pathophysiology and treatment of glaucoma: a review. JAMA 311, 1901–1911, https://doi.org/10.1001/jama.2014.3192 (2014).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2424_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.1016/j.ophtha.2020.06.027",
+        "volume": "128",
+        "author": "AA Jammal",
+        "year": "2021",
+        "unstructured": "Jammal, A. A. et al. Impact of Intraocular Pressure Control on Rates of Retinal Nerve Fiber Layer Loss in a Large Clinical Population. Ophthalmology. 128, 48–57, https://doi.org/10.1016/j.ophtha.2020.06.027 (2021).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR6",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Stein, J. D., Khawaja, A. P. & Weizer, J. S. Glaucoma in Adults—Screening, Diagnosis, and Management. JAMA. 325, https://doi.org/10.1001/jama.2020.21899 (2021).",
+        "DOI": "10.1001/jama.2020.21899"
+      },
+      {
+        "key": "2424_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1016/S0079-6123(08)01107-2",
+        "volume": "173",
+        "author": "GL Scuderi",
+        "year": "2008",
+        "unstructured": "Scuderi, G. L., Cesareo, M., Perdicchi, A. & Recupero, S. M. Standard automated perimetry and algorithms for monitoring glaucoma progression. Progress in Brain Research. 173, 77–99, https://doi.org/10.1016/S0079-6123(08)01107-2 (2008).",
+        "journal-title": "Progress in Brain Research."
+      },
+      {
+        "key": "2424_CR8",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jin, K. & Ye, J. Artificial intelligence and deep learning in ophthalmology: Current status and future perspectives. Advances in Ophthalmology Practice and Research. 2, https://doi.org/10.1016/j.aopr.2022.100078 (2022).",
+        "DOI": "10.1016/j.aopr.2022.100078"
+      },
+      {
+        "key": "2424_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/j.ajo.2019.06.020",
+        "volume": "208",
+        "author": "R Daneshvar",
+        "year": "2019",
+        "unstructured": "Daneshvar, R. et al. Prediction of Glaucoma Progression with Structural Parameters: Comparison of Optical Coherence Tomography and Clinical Disc Parameters. Am J Ophthalmol. 208, 19–29, https://doi.org/10.1016/j.ajo.2019.06.020 (2019).",
+        "journal-title": "Am J Ophthalmol."
+      },
+      {
+        "key": "2424_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1016",
+        "DOI": "10.1016/j.ophtha.2020.12.020",
+        "volume": "128",
+        "author": "A Dixit",
+        "year": "2021",
+        "unstructured": "Dixit, A., Yohannan, J. & Boland, M. V. Assessing Glaucoma Progression Using Machine Learning Trained on Longitudinal Visual Field and Clinical Data. Ophthalmology. 128, 1016–1026, https://doi.org/10.1016/j.ophtha.2020.12.020 (2021).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR11",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Li, F. et al. A deep-learning system predicts glaucoma incidence and progression using retinal photographs. J Clin Invest. 132, https://doi.org/10.1172/JCI157968 (2022).",
+        "DOI": "10.1172/JCI157968"
+      },
+      {
+        "key": "2424_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+        "DOI": "10.1016/j.ajo.2021.06.025",
+        "volume": "233",
+        "author": "K Shon",
+        "year": "2022",
+        "unstructured": "Shon, K., Sung, K. R. & Shin, J. W. Can Artificial Intelligence Predict Glaucomatous Visual Field Progression? A Spatial-Ordinal Convolutional Neural Network Model. Am J Ophthalmol. 233, 124–134, https://doi.org/10.1016/j.ajo.2021.06.025 (2022).",
+        "journal-title": "Am J Ophthalmol."
+      },
+      {
+        "key": "2424_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "756",
+        "DOI": "10.1016/s0002-9394(14)70318-6",
+        "volume": "117",
+        "author": "M Lee",
+        "year": "1994",
+        "unstructured": "Lee, M., Zulauf, M. & Caprioli, J. The Influence of Patient Reliability on Visual Field Outcome. Am J Ophthalmol. 117, 756–761, https://doi.org/10.1016/s0002-9394(14)70318-6 (1994).",
+        "journal-title": "Am J Ophthalmol."
+      },
+      {
+        "key": "2424_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1359",
+        "DOI": "10.1016/j.ophtha.2014.01.020",
+        "volume": "121",
+        "author": "SK Gardiner",
+        "year": "2014",
+        "unstructured": "Gardiner, S. K., Swanson, W. H., Goren, D., Mansberger, S. L. & Demirel, S. Assessment of the Reliability of Standard Automated Perimetry in Regions of Glaucomatous Damage. Ophthalmology. 121, 1359–1369, https://doi.org/10.1016/j.ophtha.2014.01.020 (2014).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR15",
+        "first-page": "2201",
+        "volume": "41",
+        "author": "B Bengtsson",
+        "year": "2000",
+        "unstructured": "Bengtsson, B. & Heijl, A. False-negative responses in glaucoma perimetry: indicators of patient performance or test reliability? Invest Ophthalmol Vis Sci. 41, 2201–2204 (2000).",
+        "journal-title": "Invest Ophthalmol Vis Sci."
+      },
+      {
+        "key": "2424_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "5657",
+        "DOI": "10.1167/iovs.10-5239",
+        "volume": "51",
+        "author": "H Zhu",
+        "year": "2010",
+        "unstructured": "Zhu, H. et al. Predicting visual function from the measurements of retinal nerve fiber layer structure. Invest Ophthalmol Vis Sci. 51, 5657–5666, https://doi.org/10.1167/iovs.10-5239 (2010).",
+        "journal-title": "Invest Ophthalmol Vis Sci."
+      },
+      {
+        "key": "2424_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "3975",
+        "DOI": "10.1167/iovs.17-21832",
+        "volume": "58",
+        "author": "Z Guo",
+        "year": "2017",
+        "unstructured": "Guo, Z. et al. Optical Coherence Tomography Analysis Based Prediction of Humphrey 24-2 Visual Field Thresholds in Patients With Glaucoma. Invest Ophthalmol Vis Sci. 58, 3975–3985, https://doi.org/10.1167/iovs.17-21832 (2017).",
+        "journal-title": "Invest Ophthalmol Vis Sci."
+      },
+      {
+        "key": "2424_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.1016/j.ophtha.2019.09.036",
+        "volume": "127",
+        "author": "M Christopher",
+        "year": "2020",
+        "unstructured": "Christopher, M. et al. Deep Learning Approaches Predict Glaucomatous Visual Field Damage from OCT Optic Nerve Head En Face Images and Retinal Nerve Fiber Layer Thickness Maps. Ophthalmology. 127, 346–356, https://doi.org/10.1016/j.ophtha.2019.09.036 (2020).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "781",
+        "DOI": "10.1016/j.ophtha.2022.02.017",
+        "volume": "129",
+        "author": "Y Kihara",
+        "year": "2022",
+        "unstructured": "Kihara, Y. et al. Policy-Driven, Multimodal Deep Learning for Predicting Visual Fields from the Optic Disc and OCT Imaging. Ophthalmology. 129, 781–791, https://doi.org/10.1016/j.ophtha.2022.02.017 (2022).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR20",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Almazroa, A. et al. Retinal fundus images for glaucoma analysis: the RIGA dataset. in Medical Imaging 2018: Imaging Informatics for healthcare, Research, and Applications. 10579, https://doi.org/10.1117/12.2293584 (2018).",
+        "DOI": "10.1117/12.2293584"
+      },
+      {
+        "key": "2424_CR21",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhang, Z. et al. ORIGA(-light): An Online Retinal Fundus Image Database for Glaucoma Analysis and Research. in 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). 3065–3068, https://doi.org/10.1109/IEMBS.2010.5626137 (2010).",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "2424_CR22",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Sivaswamy, J. et al. DRISHTI-GS: Retinal Image Dataset for Optic Nerve Head (ONH) Segmentation. in 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI). 53–56, https://doi.org/10.1109/ISBI.2014.6867807 (2014).",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "2424_CR23",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Orlando, J. I. et al. REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs. Medical Image Analysis. 59, https://doi.org/10.1016/j.media.2019.101570 (2020).",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "2424_CR24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-022-01388-1",
+        "volume": "9",
+        "author": "O Kovalyk",
+        "year": "2022",
+        "unstructured": "Kovalyk, O. et al. PAPILA: Dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment. Sci Data. 9, 291, https://doi.org/10.1038/s41597-022-01388-1 (2022).",
+        "journal-title": "Sci Data."
+      },
+      {
+        "key": "2424_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1167/tvst.11.1.1",
+        "volume": "11",
+        "author": "G Montesano",
+        "year": "2022",
+        "unstructured": "Montesano, G., Chen, A., Lu, R., Lee, C. S. & Lee, A. Y. UWHVF: A Real-World, Open Source Dataset of Perimetry Tests From the Humphrey Field Analyzer at the University of Washington. Transl Vis Sci Technol. 11, 2, https://doi.org/10.1167/tvst.11.1.1 (2022).",
+        "journal-title": "Transl Vis Sci Technol."
+      },
+      {
+        "key": "2424_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1167/tvst.11.11.20",
+        "volume": "11",
+        "author": "JS Chen",
+        "year": "2022",
+        "unstructured": "Chen, J. S., Lin, W. C., Yang, S., Chiang, M. F. & Hribar, M. R. Development of an Open-Source Annotated Glaucoma Medication Dataset From Clinical Notes in the Electronic Health Record. Transl Vis Sci Technol. 11, 20, https://doi.org/10.1167/tvst.11.11.20 (2022).",
+        "journal-title": "Transl Vis Sci Technol."
+      },
+      {
+        "key": "2424_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "780",
+        "DOI": "10.1001/jamaophthalmol.2020.1902",
+        "volume": "138",
+        "author": "MO Gordon",
+        "year": "2020",
+        "unstructured": "Gordon, M. O. et al. Evaluation of a Primary Open-Angle Glaucoma Prediction Model Using Long-term Intraocular Pressure Variability Data: A Secondary Analysis of 2 Randomized Clinical Trials. JAMA Ophthalmol. 138, 780–788, https://doi.org/10.1001/jamaophthalmol.2020.1902 (2020).",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "2424_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1016/j.ophtha.2015.10.053",
+        "volume": "123",
+        "author": "BE Prum Jr.",
+        "year": "2016",
+        "unstructured": "Prum, B. E. Jr. et al. Primary Open-Angle Glaucoma Preferred Practice Pattern(®) Guidelines. Ophthalmology. 123, 41–111, https://doi.org/10.1016/j.ophtha.2015.10.053 (2016).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.ophtha.2015.10.049",
+        "volume": "123",
+        "author": "BE Prum Jr.",
+        "year": "2016",
+        "unstructured": "Prum, B. E. Jr. et al. Primary Angle Closure Preferred Practice Pattern(®) Guidelines. Ophthalmology. 123, 1–40, https://doi.org/10.1016/j.ophtha.2015.10.049 (2016).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR30",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Advanced Glaucoma Intervention Study. Ophthalmology. 101, 1445–1455, https://doi.org/10.1016/s0161-6420(94)31171-7 (1994).",
+        "DOI": "10.1016/s0161-6420(94)31171-7"
+      },
+      {
+        "key": "2424_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "4632",
+        "DOI": "10.1167/iovs.05-1598",
+        "volume": "47",
+        "author": "MR Newkirk",
+        "year": "2006",
+        "unstructured": "Newkirk, M. R., Gardiner, S. K., Demirel, S. & Johnson, C. A. Assessment of false positives with the Humphrey Field Analyzer II perimeter with the SITA Algorithm. Invest Ophthalmol Vis Sci. 47, 4632–4637, https://doi.org/10.1167/iovs.05-1598 (2006).",
+        "journal-title": "Invest Ophthalmol Vis Sci."
+      },
+      {
+        "key": "2424_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1097/OPX.0b013e3181fc3735",
+        "volume": "88",
+        "author": "PA Sample",
+        "year": "2011",
+        "unstructured": "Sample, P. A. et al. Imaging and Perimetry Society standards and guidelines. Optometry and vision science: official publication of the American Academy of Optometry. 88, 4–7, https://doi.org/10.1097/OPX.0b013e3181fc3735 (2011).",
+        "journal-title": "Optometry and vision science: official publication of the American Academy of Optometry."
+      },
+      {
+        "key": "2424_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "3873",
+        "DOI": "10.1167/iovs.02-1171",
+        "volume": "44",
+        "author": "E Vesti",
+        "year": "2003",
+        "unstructured": "Vesti, E., Johnson, C. A. & Chauhan, B. C. Comparison of different methods for detecting glaucomatous visual field progression. Invest Ophthalmol Vis Sci. 44, 3873–3879, https://doi.org/10.1167/iovs.02-1171 (2003).",
+        "journal-title": "Invest Ophthalmol Vis Sci."
+      },
+      {
+        "key": "2424_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "822",
+        "DOI": "10.1016/j.ophtha.2019.01.029",
+        "volume": "126",
+        "author": "OJ Saeedi",
+        "year": "2019",
+        "unstructured": "Saeedi, O. J. et al. Agreement and Predictors of Discordance of 6 Visual Field Progression Algorithms. Ophthalmology. 126, 822–828, https://doi.org/10.1016/j.ophtha.2019.01.029 (2019).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "2424_CR35",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Marin-Franch, I. & Swanson, W. H. The visualFields package: a tool for analysis and visualization of visual fields. J Vis. 13, https://doi.org/10.1167/13.4.10 (2013).",
+        "DOI": "10.1167/13.4.10"
+      },
+      {
+        "key": "2424_CR36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6084/m9.figshare.c.6406319.v1",
+        "author": "X Huang",
+        "year": "2023",
+        "unstructured": "Huang, X. et al. GRAPE: A multi-modal dataset of longitudinal follow-up visual field and fundus images for glaucoma management, Figshare, https://doi.org/10.6084/m9.figshare.c.6406319.v1 (2023)."
+      },
+      {
+        "key": "2424_CR37",
+        "unstructured": "Hodapp, E., Parrish, R. K. & Anderson, D. R. Clinical Decisions in Glaucoma. St. Louis, MO: Mosby (1993)."
+      }
+    ],
+    "container-title": [
+      "Scientific Data"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41597-023-02424-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41597-023-02424-4",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41597-023-02424-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2023-11-18T07:06:17Z",
+      "timestamp": 1700291177000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41597-023-02424-4"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          5
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2424"
+    ],
+    "URL": "https://doi.org/10.1038/s41597-023-02424-4",
+    "relation": {
+      "references": [
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.c.6406319.v1",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2052-4463"
+    ],
+    "issn-type": [
+      {
+        "value": "2052-4463",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 February 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "28 July 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "5 August 2023",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "520"
+  }
+}

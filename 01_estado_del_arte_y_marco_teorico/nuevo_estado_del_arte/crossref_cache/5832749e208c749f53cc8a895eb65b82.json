@@ -1,0 +1,431 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T21:15:21Z",
+      "timestamp": 1795209321556,
+      "version": "4.10.3"
+    },
+    "reference-count": 23,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              10
+            ]
+          ],
+          "date-time": "2025-10-10T00:00:00Z",
+          "timestamp": 1760054400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Artif. Intell."
+    ],
+    "abstract": "<jats:p>The retinal age gap, defined as the difference between the predicted retinal age and chronological age, is an emerging biomarker for many eye conditions and even non-ocular diseases. Machine learning (ML) models are commonly used for retinal age prediction. However, biases in ML models may lead to unfair predictions for some demographic groups, potentially exacerbating health disparities. This retrospective cross-sectional study evaluated demographic biases related to sex and ethnicity in retinal age prediction models using retinal imaging data (color fundus photography [CFP], optical coherence tomography [OCT], and combined CFP + OCT) from 9,668 healthy individuals (mean age 56.8 years; 52% female) in the UK Biobank. The RETFound foundation model was fine-tuned to predict retinal age, and bias was assessed by comparing mean absolute error (MAE) and retinal age gaps across demographic groups. The combined CFP + OCT model achieved the lowest MAE (3.01 years), outperforming CFP-only (3.40 years) and OCT-only (4.37 years) models. Significant sex differences were observed only in the CFP model (<jats:italic>p</jats:italic> &amp;lt; 0.001), while significant ethnicity differences appeared only in the OCT model (<jats:italic>p</jats:italic> &amp;lt; 0.001). No significant sex/ethnicity differences were observed in the combined model. These results demonstrate that retinal age prediction models can exhibit biases, and that these biases, along with model accuracy, are influenced by the choice of imaging modality (CFP, OCT, or combined). Identifying and addressing sources of bias is essential for safe and reliable clinical implementation. Our results emphasize the importance of comprehensive bias assessments and prospective validation, ensuring that advances in machine learning and artificial intelligence benefit all patient populations.</jats:p>",
+    "DOI": "10.3389/frai.2025.1653153",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T06:18:47Z",
+      "timestamp": 1760077127000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Assessment of demographic bias in retinal age prediction machine learning models"
+    ],
+    "prefix": "10.3389",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Christopher",
+        "family": "Nielsen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emma A. M.",
+        "family": "Stanley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthias",
+        "family": "Wilms",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nils D.",
+        "family": "Forkert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "first-page": "bioRxiv",
+        "article-title": "Sex-specific disease association and genetic architecture of retinal vascular traits",
+        "author": "Böttger",
+        "year": "2025"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1167/tvst.10.2.13",
+        "article-title": "Addressing artificial intelligence Bias in retinal diagnostics",
+        "volume": "10",
+        "author": "Burlina",
+        "year": "2021",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "first-page": "203",
+        "DOI": "10.1038/s41586-018-0579-z",
+        "article-title": "The UK biobank resource with deep phenotyping and genomic data",
+        "volume": "562",
+        "author": "Bycroft",
+        "year": "2018",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1703",
+        "DOI": "10.1007/s11357-023-00920-4",
+        "article-title": "Deep neural network-estimated age using optical coherence tomography predicts mortality",
+        "volume": "46",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "GeroScience"
+      },
+      {
+        "key": "ref5",
+        "first-page": "48",
+        "article-title": "Evaluation of retinal image quality assessment networks in different color-spaces",
+        "volume-title": "International conference on medical image computing and computer-assisted intervention 2019 Oct 10",
+        "author": "Fu",
+        "year": ""
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "first-page": "e001794",
+        "DOI": "10.1136/bmjophth-2024-001794",
+        "article-title": "Estimating biological age from retinal imaging: a scoping review",
+        "volume": "9",
+        "author": "Grimbly",
+        "year": "2024",
+        "journal-title": "BMJ Open Ophthalmol."
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "first-page": "afac062",
+        "DOI": "10.1093/ageing/afac062",
+        "article-title": "Retinal age gap as a predictive biomarker of future risk of Parkinson’s disease",
+        "volume": "51",
+        "author": "Hu",
+        "year": "2022",
+        "journal-title": "Age Ageing"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1080/08820538.2023.2168486",
+        "article-title": "Bias and non-diversity of big data in artificial intelligence: focus on retinal diseases: “Massachusetts eye and ear special issue”",
+        "volume": "38",
+        "author": "Jacoba",
+        "year": "2023",
+        "journal-title": "Semin. Ophthalmol."
+      },
+      {
+        "key": "ref9",
+        "article-title": "Addressing the challenges of auditing and testing for AI Bias: a comparative analysis of regulatory frameworks",
+        "author": "Krause",
+        "year": "2024"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "first-page": "100603",
+        "DOI": "10.1016/S2666-7568(24)00109-0",
+        "article-title": "A retinal biomarker of biological age based on composite clinical phenotypic information",
+        "volume": "5",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Lancet Healthy Longev."
+      },
+      {
+        "key": "ref11",
+        "first-page": "370",
+        "article-title": "Evaluate underdiagnosis and overdiagnosis bias of deep learning model on primary open-angle glaucoma diagnosis in under-served populations",
+        "volume": "2023",
+        "author": "Lin",
+        "year": "2023",
+        "journal-title": "AMIA Jt. Summits Transl. Sci. Proc. AMIA Jt. Summits Transl. Sci."
+      },
+      {
+        "key": "ref12",
+        "article-title": "FairVision: equitable deep learning for eye disease screening via fair identity scaling",
+        "author": "Luo",
+        "year": "2024"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "first-page": "20242233",
+        "DOI": "10.1098/rspb.2024.2233",
+        "article-title": "The retinal age gap: an affordable and highly accessible biomarker for population-wide disease screening across the globe",
+        "volume": "292",
+        "author": "Nielsen",
+        "year": "",
+        "journal-title": "Proc. R. Soc. B Biol. Sci."
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1109/JTEHM.2025.3576596",
+        "article-title": "A novel foundation model-based framework for multimodal retinal age prediction",
+        "volume": "13",
+        "author": "Nielsen",
+        "year": "",
+        "journal-title": "IEEE J. Transl. Eng. Health Med."
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "first-page": "100347",
+        "DOI": "10.1016/j.patter.2021.100347",
+        "article-title": "Addressing bias in big data and AI for health care: a call for open science",
+        "volume": "2",
+        "author": "Norori",
+        "year": "2021",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1007/978-3-031-45249-9_19",
+        "article-title": "Analysing race and sex bias in brain age prediction",
+        "volume-title": "Clinical image-based procedures, fairness of AI in medical imaging, and ethical and philosophical issues in medical imaging",
+        "author": "Piçarra",
+        "year": "2023"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1167/tvst.7.6.12",
+        "article-title": "Effects of age, race, and ethnicity on the optic nerve and peripapillary region using spectral-domain OCT 3D volume scans",
+        "volume": "7",
+        "author": "Poon",
+        "year": "2018",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "first-page": "061102",
+        "DOI": "10.1117/1.JMI.9.6.061102",
+        "article-title": "Fairness-related performance and explainability effects in deep learning models for brain image analysis",
+        "volume": "9",
+        "author": "Stanley",
+        "year": "2022",
+        "journal-title": "J. Med. Imaging"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1068",
+        "DOI": "10.1001/archopht.1994.01090200074026",
+        "article-title": "Race-, age-, gender-, and refractive error—related differences in the normal optic disc",
+        "volume": "112",
+        "author": "Varma",
+        "year": "1994",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "first-page": "625",
+        "DOI": "10.1167/iovs.10-5886",
+        "article-title": "Race- and sex-related differences in retinal thickness and foveal pit morphology",
+        "volume": "52",
+        "author": "Wagner-Schuman",
+        "year": "2011",
+        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "first-page": "537",
+        "DOI": "10.1053/j.ajkd.2022.09.018",
+        "article-title": "Association of retinal age gap and Risk of kidney failure: a UK biobank study",
+        "volume": "81",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Am. J. Kidney Dis."
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "first-page": "547",
+        "DOI": "10.1136/bjophthalmol-2021-319807",
+        "article-title": "Retinal age gap as a predictive biomarker for mortality risk",
+        "volume": "107",
+        "author": "Zhu",
+        "year": "2023",
+        "journal-title": "Br. J. Ophthalmol."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Artificial Intelligence"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/frai.2025.1653153/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T06:18:49Z",
+      "timestamp": 1760077129000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/frai.2025.1653153/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ]
+    },
+    "references-count": 23,
+    "alternative-id": [
+      "10.3389/frai.2025.1653153"
+    ],
+    "URL": "https://doi.org/10.3389/frai.2025.1653153",
+    "relation": {},
+    "ISSN": [
+      "2624-8212"
+    ],
+    "issn-type": [
+      {
+        "value": "2624-8212",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ]
+    },
+    "article-number": "1653153"
+  }
+}

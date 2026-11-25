@@ -1,0 +1,31 @@
+{
+  "executed_at_utc": "2026-11-24T07:20:40.766717+00:00",
+  "completed_at_utc": "2026-11-24T07:21:44.007790+00:00",
+  "cutoff_date": "2026-11-24",
+  "databases": [
+    {
+      "database": "OpenAlex",
+      "query": "(glaucoma OR \"glaucomatous optic neuropathy\") AND (\"deep learning\" OR \"convolutional neural network\" OR CNN OR \"transfer learning\" OR \"foundation model\" OR RETFound) AND (\"fundus\" OR \"retinal photograph\" OR retinography) AND (\"domain shift\" OR \"dataset shift\" OR \"cross-dataset\" OR \"domain generalization\" OR \"domain adaptation\" OR \"external validation\" OR \"out-of-domain\" OR \"multi-center\" OR \"harmonization\")",
+      "filter": "title_and_abstract.search:(glaucoma OR \"glaucomatous optic neuropathy\") AND (\"deep learning\" OR \"convolutional neural network\" OR CNN OR \"transfer learning\" OR \"foundation model\" OR RETFound) AND (\"fundus\" OR \"retinal photograph\" OR retinography) AND (\"domain shift\" OR \"dataset shift\" OR \"cross-dataset\" OR \"domain generalization\" OR \"domain adaptation\" OR \"external validation\" OR \"out-of-domain\" OR \"multi-center\" OR \"harmonization\"),from_publication_date:2016-01-01,has_doi:true",
+      "retrieved_count": 103
+    },
+    {
+      "database": "PubMed",
+      "query": "(glaucoma[Title/Abstract] OR \"glaucomatous optic neuropathy\"[Title/Abstract]) AND (\"deep learning\"[Title/Abstract] OR \"convolutional neural network\"[Title/Abstract] OR \"CNN\"[Title/Abstract] OR \"transfer learning\"[Title/Abstract] OR \"foundation model\"[Title/Abstract] OR \"RETFound\"[Title/Abstract]) AND (\"fundus\"[Title/Abstract] OR \"retinal photograph\"[Title/Abstract] OR \"retinography\"[Title/Abstract] OR \"color fundus\"[Title/Abstract]) AND (\"domain shift\"[Title/Abstract] OR \"dataset shift\"[Title/Abstract] OR \"cross-dataset\"[Title/Abstract] OR \"domain generalization\"[Title/Abstract] OR \"domain adaptation\"[Title/Abstract] OR \"external validation\"[Title/Abstract] OR \"generalization\"[Title/Abstract] OR \"multi-center\"[Title/Abstract] OR \"harmonization\"[Title/Abstract]) AND (\"2016/01/01\"[Date - Publication] : \"2026/11/24\"[Date - Publication])",
+      "retrieved_count": 54
+    },
+    {
+      "database": "EuropePMC",
+      "query": "(TITLE_ABS:\"glaucoma\" OR TITLE_ABS:\"glaucomatous optic neuropathy\") AND (TITLE_ABS:\"deep learning\" OR TITLE_ABS:\"convolutional\" OR TITLE_ABS:\"CNN\" OR TITLE_ABS:\"transfer learning\" OR TITLE_ABS:\"foundation model\" OR TITLE_ABS:\"RETFound\") AND (TITLE_ABS:\"fundus\" OR TITLE_ABS:\"retinal photograph\" OR TITLE_ABS:\"retinography\") AND (TITLE_ABS:\"domain shift\" OR TITLE_ABS:\"cross-dataset\" OR TITLE_ABS:\"generalization\" OR TITLE_ABS:\"external validation\" OR TITLE_ABS:\"domain adaptation\" OR TITLE_ABS:\"harmonization\" OR TITLE_ABS:\"multi-center\") AND (SRC:MED OR SRC:PMC) AND (FIRST_PDATE:[2016-01-01 TO 2026-11-24])",
+      "retrieved_count": 57
+    }
+  ],
+  "deduplication": {
+    "total_raw": 214,
+    "duplicates_removed_total": 83,
+    "duplicates_by_doi": 83,
+    "duplicates_by_title": 0,
+    "unique_for_screening": 131
+  },
+  "moondream_exists_on_hf": true
+}

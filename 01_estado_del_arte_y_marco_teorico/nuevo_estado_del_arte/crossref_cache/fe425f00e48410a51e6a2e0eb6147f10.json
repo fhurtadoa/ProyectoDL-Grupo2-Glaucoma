@@ -1,0 +1,615 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T00:37:20Z",
+      "timestamp": 1790642240002,
+      "version": "4.1.0"
+    },
+    "reference-count": 34,
+    "publisher": "SAGE Publications",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              12
+            ]
+          ],
+          "date-time": "2021-01-12T00:00:00Z",
+          "timestamp": 1610409600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001807",
+        "name": "fundação de amparo à pesquisa do estado de são paulo",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2017/16014-1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2017/16014-1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001807",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001807",
+        "name": "fundação de amparo à pesquisa do estado de são paulo",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2018/23331-6"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2018/23331-6"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001807",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Diabetes Sci Technol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Background:</jats:title>\n                    <jats:p>Portable retinal cameras and deep learning (DL) algorithms are novel tools adopted by diabetic retinopathy (DR) screening programs. Our objective is to evaluate the diagnostic accuracy of a DL algorithm and the performance of portable handheld retinal cameras in the detection of DR in a large and heterogenous type 2 diabetes population in a real-world, high burden setting.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Method:</jats:title>\n                    <jats:p>Participants underwent fundus photographs of both eyes with a portable retinal camera (Phelcom Eyer). Classification of DR was performed by human reading and a DL algorithm (PhelcomNet), consisting of a convolutional neural network trained on a dataset of fundus images captured exclusively with the portable device; both methods were compared. We calculated the area under the curve (AUC), sensitivity, and specificity for more than mild DR.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>A total of 824 individuals with type 2 diabetes were enrolled at Itabuna Diabetes Campaign, a subset of 679 (82.4%) of whom could be fully assessed. The algorithm sensitivity/specificity was 97.8 % (95% CI 96.7-98.9)/61.4 % (95% CI 57.7-65.1); AUC was 0·89. All false negative cases were classified as moderate non-proliferative diabetic retinopathy (NPDR) by human grading.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions:</jats:title>\n                    <jats:p>The DL algorithm reached a good diagnostic accuracy for more than mild DR in a real-world, high burden setting. The performance of the handheld portable retinal camera was adequate, with over 80% of individuals presenting with images of sufficient quality. Portable devices and artificial intelligence tools may increase coverage of DR screening programs.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1177/1932296820985567",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          14
+        ]
+      ],
+      "date-time": "2021-01-14T21:42:55Z",
+      "timestamp": 1610660575000
+    },
+    "page": "716-723",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 74,
+    "title": [
+      "Diabetic Retinopathy Screening Using Artificial Intelligence and Handheld Smartphone-Based Retinal Camera"
+    ],
+    "prefix": "10.1177",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6523-5172",
+        "authenticated-orcid": false,
+        "given": "Fernando Korn",
+        "family": "Malerbi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Federal University of São Paulo, São Paulo, Brazil"
+          },
+          {
+            "name": "Instituto Paulista de Estudos e Pesquisas em Oftalmologia, IPEPO, Vision Institute, São Paulo, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rafael Ernane",
+        "family": "Andrade",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Federal University of São Paulo, São Paulo, Brazil"
+          },
+          {
+            "name": "Hospital de Olhos Beira Rio, Itabuna, BA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paulo Henrique",
+        "family": "Morales",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Federal University of São Paulo, São Paulo, Brazil"
+          },
+          {
+            "name": "Instituto Paulista de Estudos e Pesquisas em Oftalmologia, IPEPO, Vision Institute, São Paulo, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José Augusto",
+        "family": "Stuchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Phelcom Technologies, São Carlos, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Diego",
+        "family": "Lencione",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Phelcom Technologies, São Carlos, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9155-9800",
+        "authenticated-orcid": false,
+        "given": "Jean Vitor",
+        "family": "de Paulo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Phelcom Technologies, São Carlos, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mayana Pereira",
+        "family": "Carvalho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State University of Santa Cruz, Ilhéus, BA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fabrícia Silva",
+        "family": "Nunes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State University of Santa Cruz, Ilhéus, BA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roseanne Montargil",
+        "family": "Rocha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State University of Santa Cruz, Ilhéus, BA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel A.",
+        "family": "Ferraz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Paulista de Estudos e Pesquisas em Oftalmologia, IPEPO, Vision Institute, São Paulo, Brazil"
+          },
+          {
+            "name": "NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital, NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "suffix": "Jr",
+        "given": "Rubens",
+        "family": "Belfort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Federal University of São Paulo, São Paulo, Brazil"
+          },
+          {
+            "name": "Instituto Paulista de Estudos e Pesquisas em Oftalmologia, IPEPO, Vision Institute, São Paulo, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/diacare.23.3.390"
+      },
+      {
+        "key": "bibr2-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00592-017-0974-1"
+      },
+      {
+        "key": "bibr3-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.04.007"
+      },
+      {
+        "key": "bibr4-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-8587(19)30411-5"
+      },
+      {
+        "key": "bibr5-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1932296820906212"
+      },
+      {
+        "key": "bibr6-1932296820985567",
+        "first-page": "E240",
+        "volume": "2",
+        "author": "Xie Y",
+        "year": "2020",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "bibr7-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13098-015-0110-8"
+      },
+      {
+        "key": "bibr8-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo.2007.119453"
+      },
+      {
+        "key": "bibr9-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0161-6420(03)00475-5"
+      },
+      {
+        "key": "bibr10-1932296820985567",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chollet F. Xception: deep learning with depthwise separable convolutions. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017:1251-1258. https://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf. Accessed September 7, 2020.",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "bibr11-1932296820985567",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju RR, Cogswell M, Das A, Vedantam R, Parikh D, Batra D. Grad-cam: visual explanations from deep networks via gradient-based localization. In: Proceedings of the IEEE international conference on computer vision; 2017:618-626. https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html. Accessed September 7, 2020.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "bibr12-1932296820985567",
+        "first-page": "203",
+        "volume": "19",
+        "author": "Šimundić AM.",
+        "year": "2009",
+        "journal-title": "EJIFCC"
+      },
+      {
+        "key": "bibr13-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-018-0040-6"
+      },
+      {
+        "key": "bibr14-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc18-0148"
+      },
+      {
+        "key": "bibr15-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(19)30004-4"
+      },
+      {
+        "key": "bibr16-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.31744/einstein_journal/2018ED4811"
+      },
+      {
+        "key": "bibr17-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40258-019-00528-w"
+      },
+      {
+        "key": "bibr18-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.11.016"
+      },
+      {
+        "key": "bibr19-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-019-02213-3"
+      },
+      {
+        "key": "bibr20-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/tmj.2011.0075"
+      },
+      {
+        "key": "bibr21-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000475773"
+      },
+      {
+        "key": "bibr22-1932296820985567",
+        "first-page": "321",
+        "volume": "78",
+        "author": "Hilgert GR",
+        "year": "2019",
+        "journal-title": "Rev Bras Oftalmol"
+      },
+      {
+        "key": "bibr23-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/tvst.7.5.21"
+      },
+      {
+        "key": "bibr24-1932296820985567",
+        "first-page": "168",
+        "author": "Malerbi FK",
+        "year": "2020",
+        "journal-title": "Diabetes Res Clin Pract"
+      },
+      {
+        "key": "bibr25-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/ijo.IJO_500_17"
+      },
+      {
+        "key": "bibr26-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13410-019-00729-y"
+      },
+      {
+        "key": "bibr27-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aogh.2015.12.010"
+      },
+      {
+        "key": "bibr28-1932296820985567",
+        "unstructured": "International Diabetes Federation (IDF). Atlas–9th edition. 2019. http://www.diabetesatlas.org. Accessed May 5, 2020."
+      },
+      {
+        "key": "bibr29-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.econ.2019.05.002"
+      },
+      {
+        "key": "bibr30-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1590/0102-311x00197915"
+      },
+      {
+        "key": "bibr31-1932296820985567",
+        "first-page": "424",
+        "volume": "6",
+        "author": "Andrade RE",
+        "year": "2012",
+        "journal-title": "Diabetes Clínica"
+      },
+      {
+        "key": "bibr32-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1590/2175-8239-jbn-3781"
+      },
+      {
+        "key": "bibr33-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diabres.2012.08.001"
+      },
+      {
+        "key": "bibr34-1932296820985567",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5935/0004-2749.20200070."
+      }
+    ],
+    "container-title": [
+      "Journal of Diabetes Science and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1932296820985567",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/1932296820985567",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1932296820985567",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2026-04-28T18:15:00Z",
+      "timestamp": 1777400100000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/1932296820985567"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          12
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/1932296820985567"
+    ],
+    "URL": "https://doi.org/10.1177/1932296820985567",
+    "relation": {},
+    "ISSN": [
+      "1932-2968",
+      "1932-2968"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-2968",
+        "type": "print"
+      },
+      {
+        "value": "1932-2968",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          12
+        ]
+      ]
+    }
+  }
+}

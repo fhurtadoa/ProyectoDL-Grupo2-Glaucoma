@@ -1,0 +1,741 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2026-11-02T00:10:54Z",
+      "timestamp": 1793578254872,
+      "version": "4.5.0"
+    },
+    "reference-count": 45,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T00:00:00Z",
+          "timestamp": 1773187200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000051",
+        "name": "National Human Genome Research Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U54HG012510"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U54HG012510"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000051",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000092",
+        "name": "National Library of Medicine",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "T15LM007450"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "T15LM007450"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000092",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Biomedical Informatics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jbi.2026.105012",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2026-03-11T16:26:16Z",
+      "timestamp": 1773246376000
+    },
+    "page": "105012",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "special_numbering": "C",
+    "title": [
+      "Community medical centers struggle to produce well-calibrated clinical prediction models: Data augmentation can help"
+    ],
+    "prefix": "10.1016",
+    "volume": "177",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4443-8541",
+        "authenticated-orcid": false,
+        "given": "Katherine E.",
+        "family": "Brown",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3040-5175",
+        "authenticated-orcid": false,
+        "given": "Bradley A.",
+        "family": "Malin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0792-8867",
+        "authenticated-orcid": false,
+        "given": "Sharon E.",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbi.2026.105012_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "756",
+        "DOI": "10.1001/jamainternmed.2021.0240",
+        "article-title": "Physicians, probabilities, and populations—Estimating the likelihood of disease for common clinical scenarios",
+        "volume": "181",
+        "author": "Manrai",
+        "year": "2021",
+        "journal-title": "JAMA Intern. Med."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbi.2026.105012_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e848",
+        "DOI": "10.1093/cid/ciaa1576",
+        "article-title": "Predicting antibiotic resistance in hospitalized patients by applying machine learning to electronic medical records",
+        "volume": "72",
+        "author": "Lewin-Epstein",
+        "year": "2021",
+        "journal-title": "Clin. Infect. Dis."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.jbi.2026.105012_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2670",
+        "DOI": "10.1093/jamia/ocab211",
+        "article-title": "Predicting next-day discharge via electronic health record access logs",
+        "volume": "28",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/tp.2015.182",
+        "article-title": "Predicting early psychiatric readmission with natural language processing of narrative discharge summaries",
+        "volume": "6",
+        "author": "Rumshisky",
+        "year": "2016",
+        "journal-title": "Transl. Psychiatry"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2026.105012_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-024-01037-4",
+        "article-title": "Why do probabilistic clinical models fail to transport between sites",
+        "volume": "7",
+        "author": "Lasko",
+        "year": "2024",
+        "journal-title": "Npj Digit. Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b6",
+        "series-title": "Accuracy of the epic sepsis prediction model in a regional health system",
+        "author": "Bennett",
+        "year": "2019"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jbi.2026.105012_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1040",
+        "DOI": "10.1001/jamainternmed.2021.3333",
+        "article-title": "The epic sepsis model falls short-the importance of external validation",
+        "volume": "181",
+        "author": "Habib",
+        "year": "2021",
+        "journal-title": "JAMA Intern. Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b8",
+        "series-title": "Journal of the American Medical Informatics Association",
+        "first-page": "1052",
+        "article-title": "Calibration drift in regression and machine learning models for acute kidney injury",
+        "volume": "vol. 24",
+        "author": "Davis",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b9",
+        "unstructured": "S.E. Davis, T.A. Lasko, G. Chen, M.E. Matheny, Calibration drift among regression and machine learning models for hospital mortality, in: AMIA Annual Symposium Proceedings, vol. 2017, 2018, p. 625."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbi.2026.105012_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "811",
+        "DOI": "10.1093/jamia/ocaf038",
+        "article-title": "Large language models are less effective at clinical prediction tasks than locally trained machine learning models",
+        "volume": "32",
+        "author": "Brown",
+        "year": "2025",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "issue": "19",
+        "key": "10.1016/j.jbi.2026.105012_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4230",
+        "DOI": "10.1002/sim.9025",
+        "article-title": "Minimum sample size for external validation of a clinical prediction model with a binary outcome",
+        "volume": "40",
+        "author": "Riley",
+        "year": "2021",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jbi.2026.105012_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1280",
+        "DOI": "10.1002/sim.9275",
+        "article-title": "Minimum sample size calculations for external validation of a clinical prediction model with a time-to-event outcome",
+        "volume": "41",
+        "author": "Riley",
+        "year": "2022",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.jbi.2026.105012_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1448",
+        "DOI": "10.1093/jamia/ocz127",
+        "article-title": "A nonparametric updating method to correct clinical prediction model drift",
+        "volume": "26",
+        "author": "Davis",
+        "year": "2019",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1016/j.jclinepi.2016.05.007",
+        "article-title": "Geographic and temporal validity of prediction models: different approaches were useful to examine model performance",
+        "volume": "79",
+        "author": "Austin",
+        "year": "2016",
+        "journal-title": "J. Clin. Epidemiol."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b15",
+        "series-title": "Nanyang Technological University",
+        "first-page": "315",
+        "article-title": "Development of synthetic patient data to support urban planning for public health",
+        "author": "Liu",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2196/52615",
+        "article-title": "Generating synthetic electronic health record data using generative adversarial networks: Tutorial",
+        "volume": "3",
+        "author": "Yan",
+        "year": "2024",
+        "journal-title": "JMIR AI"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b17",
+        "unstructured": "N. Jackson, C. Yan, B. Malin, Enhancement of Fairness in AI for Chest X-ray Classification, in: AMIA Annual Symposium Proceedings, vol. 2024, 2025."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2026.105012_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-025-01438-z",
+        "article-title": "Improving medical machine learning models with generative balancing for equity and excellence",
+        "volume": "8",
+        "author": "Theodorou",
+        "year": "2025",
+        "journal-title": "Npj Digit. Med."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jbi.2026.105012_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1137",
+        "DOI": "10.2105/AJPH.93.7.1137",
+        "article-title": "Area deprivation and widening inequalities in US mortality, 1969–1998",
+        "volume": "93",
+        "author": "Singh",
+        "year": "2003",
+        "journal-title": "Am. J. Public Health"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b20",
+        "unstructured": "Rural Health Grants Eligibility Analyzer, URL https://data.hrsa.gov/tools/rural-health."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbi.2026.105012_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1177/1062860617753063",
+        "article-title": "Area deprivation index (ADI) predicts readmission risk at an urban teaching hospital",
+        "volume": "33",
+        "author": "Hu",
+        "year": "2018",
+        "journal-title": "Am. J. Med. Qual. : Off. J. Am. Coll. Med. Qual."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbi.2026.105012_b22",
+        "first-page": "61",
+        "article-title": "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods",
+        "volume": "10",
+        "author": "Platt",
+        "year": "1999",
+        "journal-title": "Adv. Large Margin Classif."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b23",
+        "unstructured": "About HRSA — HRSA, URL https://www.hrsa.gov/about."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbi.2026.105012_b24",
+        "article-title": "LACE+ index: Extension of a validated index to predict early death or urgent readmission after hospital discharge using administrative data",
+        "volume": "6",
+        "author": "van Walraven",
+        "year": "2012",
+        "journal-title": "Open Med."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2026.105012_b25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/sdata.2018.178",
+        "article-title": "The eICU collaborative research database, a freely available multi-center database for critical care research",
+        "volume": "5",
+        "author": "Pollard",
+        "year": "2018",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b26",
+        "unstructured": "A.V. Dorogush, V. Ershov, A. Gulin, CatBoost: Gradient boosting with categorical features support."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b27",
+        "unstructured": "F. Benali, D. Bodénès, N. Labroche, C. de Runz, MTCopula: Synthetic complex data generation using copula, in: 23rd International Workshop on Design, Optimization, Languages and Analytical Processing of Big Data (DOLAP), 2021, pp. 51–60."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbi.2026.105012_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1145/3422622",
+        "article-title": "Generative adversarial networks",
+        "volume": "63",
+        "author": "Goodfellow",
+        "year": "2020",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b29",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "article-title": "Modeling tabular data using conditional GAN",
+        "author": "Xu",
+        "year": "2019"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbi.2026.105012_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "611",
+        "DOI": "10.1001/jamainternmed.2022.7182",
+        "article-title": "Factors associated with variability in the performance of a proprietary sepsis prediction model across 9 networked hospitals in the US",
+        "volume": "183",
+        "author": "Lyons",
+        "year": "2023",
+        "journal-title": "JAMA Intern. Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b31",
+        "article-title": "Gaps in artificial intelligence research for rural health in the united states: A scoping review",
+        "author": "Brown",
+        "year": "2025",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbi.2026.105012_b32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2196/31337",
+        "article-title": "Predicting COVID-19–related health care resource utilization across a statewide patient population: Model development study",
+        "volume": "23",
+        "author": "Kasturi",
+        "year": "2021",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbi.2026.105012_b33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0277479",
+        "article-title": "Predicting length of stay using machine learning for total joint replacements performed at a rural community hospital",
+        "volume": "17",
+        "author": "Sridhar",
+        "year": "2022",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2026.105012_b34",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1097/TA.0b013e318240507b",
+        "article-title": "Comparison of massive blood transfusion predictive models in the rural setting",
+        "volume": "72",
+        "author": "Krumrei",
+        "year": "2012",
+        "journal-title": "J. Trauma Acute Care Surg."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbi.2026.105012_b35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0259538",
+        "article-title": "Predicting increases in COVID-19 incidence to identify locations for targeted testing in West Virginia: A machine learning enhanced approach",
+        "volume": "16",
+        "author": "Price",
+        "year": "2021",
+        "journal-title": "Plos One"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbi.2026.105012_b36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jamanetworkopen.2021.4622",
+        "article-title": "Algorithmovigilance—advancing methods to analyze and monitor artificial intelligence–driven health care for effectiveness and equity",
+        "volume": "4",
+        "author": "Embi",
+        "year": "2021",
+        "journal-title": "JAMA Netw. Open"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b37",
+        "unstructured": "V. Mahajan, V.K. Venugopal, M. Murugavel, H. Mahajan, The algorithmic audit: Working with vendors to validate radiology-AI algorithms—how we do it, Acad. Radiol.."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b38",
+        "unstructured": "K. Kunjan, T. Toscos, A. Turkcan, B.N. Doebbeling, A multidimensional data warehouse for community health centers, in: AMIA Annual Symposium Proceedings, vol. 2015, 2015, p. 1976."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbi.2026.105012_b39",
+        "doi-asserted-by": "crossref",
+        "first-page": "899",
+        "DOI": "10.1007/s10552-022-01571-0",
+        "article-title": "An informatics infrastructure to catalyze cancer control research and practice",
+        "volume": "33",
+        "author": "Rose",
+        "year": "2022",
+        "journal-title": "Cancer Causes & Control."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2026.105012_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1093/jamia/ocab233",
+        "article-title": "Building capacity of community health centers to overcome data challenges with the development of an agile COVID-19 public health registry: A multistate quality improvement effort",
+        "volume": "29",
+        "author": "Romero",
+        "year": "2022",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b41",
+        "series-title": "StatPearls",
+        "article-title": "Health insurance portability and accountability act (hipaa) compliance",
+        "author": "Edemekong",
+        "year": "2025"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2026.105012_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s41666-020-00082-4",
+        "article-title": "Federated learning for healthcare informatics",
+        "volume": "5",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "J. Heal. Inform. Res."
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b43",
+        "series-title": "FedSyn: Synthetic data generation using federated learning",
+        "author": "Behera",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.jbi.2026.105012_b44",
+        "article-title": "The “All of Us” research program",
+        "year": "2019",
+        "journal-title": "New Engl. J. Med."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbi.2026.105012_b45",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1093/jamia/ocaf039",
+        "article-title": "Emerging algorithmic bias: fairness drift as the next dimension of model maintenance and sustainability",
+        "volume": "32",
+        "author": "Davis",
+        "year": "2025",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      }
+    ],
+    "container-title": [
+      "Journal of Biomedical Informatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1532046426000365?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1532046426000365?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ],
+      "date-time": "2026-05-22T10:34:20Z",
+      "timestamp": 1779446060000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1532046426000365"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "references-count": 45,
+    "alternative-id": [
+      "S1532046426000365"
+    ],
+    "URL": "https://doi.org/10.1016/j.jbi.2026.105012",
+    "relation": {},
+    "ISSN": [
+      "1532-0464"
+    ],
+    "issn-type": [
+      {
+        "value": "1532-0464",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Community medical centers struggle to produce well-calibrated clinical prediction models: Data augmentation can help",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Biomedical Informatics",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jbi.2026.105012",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 The Authors. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "105012"
+  }
+}

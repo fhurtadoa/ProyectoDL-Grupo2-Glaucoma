@@ -1,0 +1,1058 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2026-11-23T10:37:15Z",
+      "timestamp": 1795430235320,
+      "version": "4.10.3"
+    },
+    "reference-count": 77,
+    "publisher": "American Diabetes Association",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              20
+            ]
+          ],
+          "date-time": "2023-09-20T00:00:00Z",
+          "timestamp": 1695168000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.diabetesjournals.org/journals/pages/license"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NIH",
+        "award": [
+          "K23EY029246"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "K23EY029246"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NIH",
+        "award": [
+          "OT2OD032644"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "OT2OD032644"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NIH",
+        "award": [
+          "R01AG060942"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01AG060942"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "diabetesjournals.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Current guidelines recommend that individuals with diabetes receive yearly eye exams for detection of referable diabetic retinopathy (DR), one of the leading causes of new-onset blindness. For addressing the immense screening burden, artificial intelligence (AI) algorithms have been developed to autonomously screen for DR from fundus photography without human input. Over the last 10 years, many AI algorithms have achieved good sensitivity and specificity (&amp;gt;85%) for detection of referable DR compared with human graders; however, many questions still remain. In this narrative review on AI in DR screening, we discuss key concepts in AI algorithm development as a background for understanding the algorithms. We present the AI algorithms that have been prospectively validated against human graders and demonstrate the variability of reference standards and cohort demographics. We review the limited head-to-head validation studies where investigators attempt to directly compare the available algorithms. Next, we discuss the literature regarding cost-effectiveness, equity and bias, and medicolegal considerations, all of which play a role in the implementation of these AI algorithms in clinical practice. Lastly, we highlight ongoing efforts to bridge gaps in AI model data sets to pursue equitable development and delivery.</jats:p>",
+    "DOI": "10.2337/dci23-0032",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2023-09-20T15:02:15Z",
+      "timestamp": 1695222135000
+    },
+    "page": "1728-1739",
+    "update-policy": "https://doi.org/10.2337/ada-journal-policies",
+    "source": "Crossref",
+    "is-referenced-by-count": 159,
+    "title": [
+      "Artificial Intelligence and Diabetic Retinopathy: AI Framework, Prospective Studies, Head-to-head Validation, and Cost-effectiveness"
+    ],
+    "prefix": "10.2337",
+    "volume": "46",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1120-2869",
+        "authenticated-orcid": false,
+        "given": "Anand E.",
+        "family": "Rajesh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "1Department of Ophthalmology, University of Washington, Seattle, WA"
+          },
+          {
+            "name": "2Roger H. and Angie Karalis Johnson Retina Center, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Oliver Q.",
+        "family": "Davidson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Department of Ophthalmology, University of Washington, Seattle, WA"
+          },
+          {
+            "name": "2Roger H. and Angie Karalis Johnson Retina Center, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1994-7213",
+        "authenticated-orcid": false,
+        "given": "Cecilia S.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Department of Ophthalmology, University of Washington, Seattle, WA"
+          },
+          {
+            "name": "2Roger H. and Angie Karalis Johnson Retina Center, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7452-1648",
+        "authenticated-orcid": false,
+        "given": "Aaron Y.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Department of Ophthalmology, University of Washington, Seattle, WA"
+          },
+          {
+            "name": "2Roger H. and Angie Karalis Johnson Retina Center, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1167",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023092019011487100_B1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1580",
+        "DOI": "10.1016/j.ophtha.2021.04.027",
+        "article-title": "Global prevalence of diabetic retinopathy and projection of burden through 2045: systematic review and meta-analysis",
+        "volume": "128",
+        "author": "Teo",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2023092019011487100_B2",
+        "doi-asserted-by": "crossref",
+        "first-page": "S84",
+        "DOI": "10.2337/diacare.27.2007.S84",
+        "article-title": "Retinopathy in diabetes",
+        "volume": "27",
+        "author": "Fong",
+        "year": "2004",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2023092019011487100_B3",
+        "unstructured": "AAO PPP Retina/Vitreous Committee, Hoskins Center for Quality Eye Care\n          . Diabetic Retinopathy PPP 2019. American Academy of Ophthalmology, 2019. Accessed 7 April 2023. Available from https://www.aao.org/education/preferred-practice-pattern/diabetic-retinopathy-ppp"
+      },
+      {
+        "key": "2023092019011487100_B4",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/S2213-8587(19)30411-5",
+        "article-title": "Screening for diabetic retinopathy: new perspectives and challenges",
+        "volume": "8",
+        "author": "Vujosevic",
+        "year": "2020",
+        "journal-title": "Lancet Diabetes Endocrinol"
+      },
+      {
+        "key": "2023092019011487100_B5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "article-title": "Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales",
+        "volume": "110",
+        "author": "Wilkinson",
+        "year": "2003",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2023092019011487100_B6",
+        "article-title": "Low level screening of exudates and hemorrhages in background diabetic retinopathy",
+        "author": "Abramoff"
+      },
+      {
+        "key": "2023092019011487100_B7",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1001/jamaophthalmol.2013.1743",
+        "article-title": "Automated analysis of retinal images for detection of referable diabetic retinopathy",
+        "volume": "131",
+        "author": "Abràmoff",
+        "year": "2013",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2023092019011487100_B8",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1159/000330285",
+        "article-title": "Improved automated screening of diabetic retinopathy",
+        "volume": "226",
+        "author": "Oliveira",
+        "year": "2011",
+        "journal-title": "Ophthalmologica"
+      },
+      {
+        "key": "2023092019011487100_B9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1512",
+        "DOI": "10.1136/bjo.2007.119453",
+        "article-title": "The efficacy of automated “disease/no disease” grading for diabetic retinopathy in a systematic screening programme",
+        "volume": "91",
+        "author": "Philip",
+        "year": "2007",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "2023092019011487100_B10",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1016/j.ophtha.2016.11.014",
+        "article-title": "Automated diabetic retinopathy image assessment software: diagnostic accuracy and cost-effectiveness compared with human graders",
+        "volume": "124",
+        "author": "Tufail",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2023092019011487100_B11",
+        "doi-asserted-by": "crossref",
+        "first-page": "829",
+        "DOI": "10.1038/nbt.4233",
+        "article-title": "Deep learning in biomedicine",
+        "volume": "36",
+        "author": "Wainberg",
+        "year": "2018",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2023092019011487100_B12",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "DOI": "10.1038/s41433-019-0566-0",
+        "article-title": "Artificial intelligence for diabetic retinopathy screening: a review",
+        "volume": "34",
+        "author": "Grzybowski",
+        "year": "2020",
+        "journal-title": "Eye (Lond)"
+      },
+      {
+        "key": "2023092019011487100_B13",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1007/s11892-019-1189-3",
+        "article-title": "Artificial intelligence screening for diabetic retinopathy: the real-world emerging application",
+        "volume": "19",
+        "author": "Bellemo",
+        "year": "2019",
+        "journal-title": "Curr Diab Rep"
+      },
+      {
+        "key": "2023092019011487100_B14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1419",
+        "DOI": "10.1007/s40123-023-00691-3",
+        "article-title": "Artificial intelligence for diabetic retinopathy screening using color retinal photographs: from development to deployment",
+        "volume": "12",
+        "author": "Grzybowski",
+        "year": "2023",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "2023092019011487100_B15",
+        "unstructured": "U.S. Food and Drug Administration\n          . Regulatory Controls. Accessed 8 June 2023. Available from https://www.fda.gov/medical-devices/overview-device-regulation/regulatory-controls"
+      },
+      {
+        "key": "2023092019011487100_B16",
+        "doi-asserted-by": "crossref",
+        "first-page": "208",
+        "DOI": "10.1016/j.jacr.2018.09.007",
+        "article-title": "The role of the FDA in ensuring the safety and efficacy of artificial intelligence software and devices",
+        "volume": "16",
+        "author": "Allen",
+        "year": "2019",
+        "journal-title": "J Am Coll Radiol"
+      },
+      {
+        "key": "2023092019011487100_B17",
+        "unstructured": "U.S. Food and Drug Administration\n          . K221183 device approval letter, 10 November 2022. Accessed 14 April 2023. Available from https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221183.pdf"
+      },
+      {
+        "key": "2023092019011487100_B18",
+        "doi-asserted-by": "crossref",
+        "first-page": "633",
+        "DOI": "10.1007/s40123-023-00652-w",
+        "article-title": "Approval and certification of ophthalmic AI devices in the European Union",
+        "volume": "12",
+        "author": "Grzybowski",
+        "year": "2023",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "2023092019011487100_B19",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2023092019011487100_B20",
+        "unstructured": "U.S. Food and Drug Administration\n          . K213037 device approval letter, 17 June 2022. Accessed 14 April 2023. Available from https://www.accessdata.fda.gov/cdrh_docs/pdf21/K213037.pdf"
+      },
+      {
+        "key": "2023092019011487100_B21",
+        "doi-asserted-by": "crossref",
+        "first-page": "723",
+        "DOI": "10.1136/bjophthalmol-2020-316594",
+        "article-title": "Prospective evaluation of an artificial intelligence-enabled algorithm for automated diabetic retinopathy screening of 30 000 patients",
+        "volume": "105",
+        "author": "Heydon",
+        "year": "2021",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "2023092019011487100_B22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2134254",
+        "DOI": "10.1001/jamanetworkopen.2021.34254",
+        "article-title": "Pivotal evaluation of an artificial intelligence system for autonomous detection of referrable and vision-threatening diabetic retinopathy",
+        "volume": "4",
+        "author": "Ipp",
+        "year": "2021",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "2023092019011487100_B23",
+        "unstructured": "Hutton\n              D\n            \n          . AEYE Health gains FDA clearance to screen diabetics to head off blindness. Ophthalmology Times 2022. Accessed 10 April 2023. Available from https://www.ophthalmologytimes.com/view/aeye-health-gains-fda-clearance-to-screen-diabetics-to-head-off-blindness"
+      },
+      {
+        "key": "2023092019011487100_B24",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2023092019011487100_B25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e35",
+        "DOI": "10.1016/S2589-7500(19)30004-4",
+        "article-title": "Artificial intelligence using deep learning to screen for referable and vision-threatening diabetic retinopathy in Africa: a clinical validation study",
+        "volume": "1",
+        "author": "Bellemo",
+        "year": "2019",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2023092019011487100_B26",
+        "doi-asserted-by": "crossref",
+        "first-page": "177",
+        "DOI": "10.1007/978-3-030-78601-4_13",
+        "article-title": "Singapore Eye Lesions Analyzer (SELENA): the deep learning system for retinal diseases",
+        "volume-title": "Artificial Intelligence in Ophthalmology",
+        "author": "Wong",
+        "year": "2021"
+      },
+      {
+        "key": "2023092019011487100_B27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2023092019011487100_B28",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1038/s41746-019-0099-8",
+        "article-title": "Deep learning versus human graders for classifying diabetic retinopathy severity in a nationwide screening program",
+        "volume": "2",
+        "author": "Raumviboonsuk",
+        "year": "2019",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2023092019011487100_B29",
+        "doi-asserted-by": "crossref",
+        "first-page": "987",
+        "DOI": "10.1001/jamaophthalmol.2019.2004",
+        "article-title": "Performance of a deep-learning algorithm vs manual grading for detecting diabetic retinopathy in India",
+        "volume": "137",
+        "author": "Gulshan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2023092019011487100_B30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e235",
+        "DOI": "10.1016/S2589-7500(22)00017-6",
+        "article-title": "Real-time diabetic retinopathy screening by deep learning in a multisite national screening programme: a prospective interventional cohort study",
+        "volume": "4",
+        "author": "Ruamviboonsuk",
+        "year": "2022",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2023092019011487100_B31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2509",
+        "DOI": "10.2337/dc18-0147",
+        "article-title": "An automated grading system for detection of vision-threatening referable diabetic retinopathy on the basis of color fundus photographs",
+        "volume": "41",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2023092019011487100_B32",
+        "unstructured": "Public Health England\n          . NHS Diabetic Eye Screening Programme: grading definitions for referable disease. Accessed 14 April 2023. Available from https://www.gov.uk/government/publications/diabetic-eye-screening-retinal-image-grading-criteria/nhs-diabetic-eye-screening-programme-grading-definitions-for-referable-disease"
+      },
+      {
+        "key": "2023092019011487100_B33",
+        "doi-asserted-by": "crossref",
+        "first-page": "15808",
+        "DOI": "10.1038/s41598-021-94178-5",
+        "article-title": "Real-world artificial intelligence-based opportunistic screening for diabetic retinopathy in endocrinology and indigenous healthcare settings in Australia",
+        "volume": "11",
+        "author": "Scheetz",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2023092019011487100_B34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e001596",
+        "DOI": "10.1136/bmjdrc-2020-001596",
+        "article-title": "Artificial intelligence-enabled screening for diabetic retinopathy: a real-world, multicenter and prospective study",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "BMJ Open Diabetes Res Care"
+      },
+      {
+        "key": "2023092019011487100_B35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1088",
+        "DOI": "10.21037/atm-22-350",
+        "article-title": "Performance of the AIDRScreening system in detecting diabetic retinopathy in the fundus photographs of Chinese patients: a prospective, multicenter, clinical study",
+        "volume": "10",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Ann Transl Med"
+      },
+      {
+        "issue": "2",
+        "key": "2023092019011487100_B36",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1159/000368426",
+        "article-title": "Screening for diabetic retinopathy in the central region of Portugal. Added value of automated ‘disease/no disease’ grading",
+        "volume": "233",
+        "author": "Ribeiro",
+        "year": "2015",
+        "journal-title": "Ophthalmologica"
+      },
+      {
+        "key": "2023092019011487100_B37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1168",
+        "DOI": "10.2337/dc20-1877",
+        "article-title": "Multicenter, head-to-head, real-world validation study of seven automated artificial intelligence diabetic retinopathy screening systems",
+        "volume": "44",
+        "author": "Lee",
+        "year": "2021",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2023092019011487100_B38",
+        "unstructured": "Medical Product Outsourcing\n          . Brusco S. Meteda buys Portuguese AI ophthalmology expert Retmarker, 2022. Accessed 3 April 2023. Available from https://www.mpo-mag.com/contents/view_breaking-news/2022-01-19/meteda-buys-portuguese-ai-ophthalmology-expert-retmarker/"
+      },
+      {
+        "key": "2023092019011487100_B39",
+        "doi-asserted-by": "crossref",
+        "first-page": "761",
+        "DOI": "10.1167/iovs.02-0418",
+        "article-title": "Automated detection of fundus photographic red lesions in diabetic retinopathy",
+        "volume": "44",
+        "author": "Larsen",
+        "year": "2003",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "2023092019011487100_B40",
+        "unstructured": "National Institute for Health and Care Excellence\n          , AI technologies for detecting diabetic retinopathy: Medtech innovation briefing [MIB265], 2021. Accessed 3 April 2023. Available from https://www.nice.org.uk/advice/mib265/chapter/Regulatory-information"
+      },
+      {
+        "key": "2023092019011487100_B41",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.4103/ijo.IJO_1203_19",
+        "article-title": "Medios- an offline, smartphone-based artificial intelligence algorithm for the diagnosis of diabetic retinopathy",
+        "volume": "68",
+        "author": "Sosale",
+        "year": "2020",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "2023092019011487100_B42",
+        "doi-asserted-by": "crossref",
+        "first-page": "e000892",
+        "DOI": "10.1136/bmjdrc-2019-000892",
+        "article-title": "Simple, Mobile-based Artificial Intelligence Algorithm in the detection of Diabetic Retinopathy (SMART) study",
+        "volume": "8",
+        "author": "Sosale",
+        "year": "2020",
+        "journal-title": "BMJ Open Diabetes Res Care"
+      },
+      {
+        "key": "2023092019011487100_B43",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1186/s40662-020-00182-7",
+        "article-title": "Different fundus imaging modalities and technical factors in AI screening for diabetic retinopathy: a review",
+        "volume": "7",
+        "author": "Lim",
+        "year": "2020",
+        "journal-title": "Eye Vis (Lond)"
+      },
+      {
+        "key": "2023092019011487100_B44",
+        "doi-asserted-by": "crossref",
+        "first-page": "510",
+        "DOI": "10.1038/s41433-021-01912-4",
+        "article-title": "Comparison of early diabetic retinopathy staging in asymptomatic patients between autonomous AI-based screening and human-graded ultra-widefield colour fundus images",
+        "volume": "36",
+        "author": "Sedova",
+        "year": "2022",
+        "journal-title": "Eye (Lond)"
+      },
+      {
+        "key": "2023092019011487100_B45",
+        "doi-asserted-by": "crossref",
+        "first-page": "2352",
+        "DOI": "10.3390/jcm10112352",
+        "article-title": "Analysis and comparison of two artificial intelligence diabetic retinopathy screening algorithms in a pilot study: IDx-DR and Retinalyze",
+        "volume": "10",
+        "author": "Grzybowski",
+        "year": "2021",
+        "journal-title": "J Clin Med"
+      },
+      {
+        "key": "2023092019011487100_B46",
+        "doi-asserted-by": "crossref",
+        "first-page": "415",
+        "DOI": "10.1177/1932296820967011",
+        "article-title": "Five-year cost-effectiveness modeling of primary care-based, nonmydriatic automated retinal image analysis screening among low-income patients with diabetes",
+        "volume": "16",
+        "author": "Fuller",
+        "year": "2022",
+        "journal-title": "J Diabetes Sci Technol"
+      },
+      {
+        "key": "2023092019011487100_B47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1063",
+        "DOI": "10.1001/jamaophthalmol.2020.3190",
+        "article-title": "Cost-effectiveness of autonomous point-of-care diabetic retinopathy screening for pediatric patients with diabetes",
+        "volume": "138",
+        "author": "Wolf",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2023092019011487100_B48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1339",
+        "DOI": "10.1007/s40123-023-00688-y",
+        "article-title": "Cost-utility analysis of deep learning and trained human graders for diabetic retinopathy screening in a nationwide program",
+        "volume": "12",
+        "author": "Srisubat",
+        "year": "2023",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "2023092019011487100_B49",
+        "doi-asserted-by": "crossref",
+        "first-page": "260",
+        "DOI": "10.1186/s12913-022-07655-6",
+        "article-title": "Cost-effectiveness of artificial intelligence screening for diabetic retinopathy in rural China",
+        "volume": "22",
+        "author": "Huang",
+        "year": "2022",
+        "journal-title": "BMC Health Serv Res"
+      },
+      {
+        "key": "2023092019011487100_B50",
+        "doi-asserted-by": "crossref",
+        "first-page": "e456",
+        "DOI": "10.1016/S2214-109X(22)00554-X",
+        "article-title": "Economic evaluation of combined population-based screening for multiple blindness-causing eye diseases in China: a cost-effectiveness analysis",
+        "volume": "11",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "2023092019011487100_B51",
+        "doi-asserted-by": "crossref",
+        "first-page": "e41624",
+        "DOI": "10.2196/41624",
+        "article-title": "Artificial intelligence in community-based diabetic retinopathy telemedicine screening in urban China: cost-effectiveness and cost-utility analyses with real-world data",
+        "volume": "9",
+        "author": "Lin",
+        "year": "2023",
+        "journal-title": "JMIR Public Health Surveill"
+      },
+      {
+        "key": "2023092019011487100_B52",
+        "doi-asserted-by": "crossref",
+        "first-page": "e220269",
+        "DOI": "10.1001/jamanetworkopen.2022.0269",
+        "article-title": "Cost-effectiveness of artificial intelligence as a decision-support system applied to the detection and grading of melanoma, dental caries, and diabetic retinopathy",
+        "volume": "5",
+        "author": "Gomez Rossi",
+        "year": "2022",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "2023092019011487100_B53",
+        "doi-asserted-by": "crossref",
+        "first-page": "e240",
+        "DOI": "10.1016/S2589-7500(20)30060-1",
+        "article-title": "Artificial intelligence for teleophthalmology-based diabetic retinopathy screening in a national programme: an economic analysis modelling study",
+        "volume": "2",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2023092019011487100_B54",
+        "doi-asserted-by": "crossref",
+        "first-page": "e210030",
+        "DOI": "10.1148/ryai.2021210030",
+        "article-title": "Who will pay for AI?",
+        "volume": "3",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Radiol Artif Intell"
+      },
+      {
+        "key": "2023092019011487100_B55",
+        "unstructured": "Centers for Medicare & Medicaid Services\n          . Billing and coding: remote imaging of the retina to screen for retinal diseases. Accessed 5 April 2023. Available from https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58914"
+      },
+      {
+        "key": "2023092019011487100_B56",
+        "unstructured": "Centers for Medicare & Medicaid Services\n          . License for use of Current Procedural Terminology, Fourth Edition (“CPT”). Accessed 5 April 2023. Available from https://www.cms.gov/medicare/physician-fee-schedule/search?Y=0&T=4&HT=0&CT=0&H1=92228&M=5"
+      },
+      {
+        "key": "2023092019011487100_B57",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1038/s41746-022-00621-w",
+        "article-title": "A reimbursement framework for artificial intelligence in healthcare",
+        "volume": "5",
+        "author": "Abràmoff",
+        "year": "2022",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2023092019011487100_B58",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/j.ophtha.2020.07.043",
+        "article-title": "Economic challenges of artificial intelligence adoption for diabetic retinopathy",
+        "volume": "128",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2023092019011487100_B59",
+        "unstructured": "Blue Cross Blue Shield of Massachusetts\n          . Medical policy: retinal telescreening for diabetic retinopathy. Accessed 17 March 2023. Available from https://www.bluecrossma.org/medical-policies/sites/g/files/csphws2091/files/acquiadam-assets/065%20Retinal%20Telescreening%20for%20Diabetic%20Retinopathy%20prn.pdf"
+      },
+      {
+        "key": "2023092019011487100_B60",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1177/08404704221125368",
+        "article-title": "Equity within AI systems: what can health leaders expect?",
+        "volume": "36",
+        "author": "Gurevich",
+        "year": "2023",
+        "journal-title": "Healthc Manage Forum"
+      },
+      {
+        "key": "2023092019011487100_B61",
+        "doi-asserted-by": "crossref",
+        "first-page": "1343",
+        "DOI": "10.1016/j.chest.2022.01.009",
+        "article-title": "Equity challenges for artificial intelligence algorithms in health care",
+        "volume": "161",
+        "author": "Makhni",
+        "year": "2022",
+        "journal-title": "Chest"
+      },
+      {
+        "key": "2023092019011487100_B62",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1356",
+        "DOI": "10.1002/widm.1356",
+        "article-title": "Bias in data-driven artificial intelligence systems—an introductory survey",
+        "volume": "10",
+        "author": "Ntoutsi",
+        "year": "2020",
+        "journal-title": "Wiley Interdiscip Rev Data Min Knowl Discov"
+      },
+      {
+        "key": "2023092019011487100_B63",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.7326/M18-1990",
+        "article-title": "Ensuring fairness in machine learning to advance health equity",
+        "volume": "169",
+        "author": "Rajkomar",
+        "year": "2018",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2023092019011487100_B64",
+        "doi-asserted-by": "crossref",
+        "first-page": "348",
+        "DOI": "10.1097/APO.0000000000000421",
+        "article-title": "Ocular imaging standardization for artificial intelligence applications in ophthalmology: the joint position statement and recommendations from the Asia-Pacific Academy of Ophthalmology and the Asia-Pacific Ocular Imaging Society",
+        "volume": "10",
+        "author": "Ting",
+        "year": "2021",
+        "journal-title": "Asia Pac J Ophthalmol (Phila)"
+      },
+      {
+        "key": "2023092019011487100_B65",
+        "doi-asserted-by": "crossref",
+        "first-page": "e14",
+        "DOI": "10.1016/j.ophtha.2021.08.023",
+        "article-title": "Foundational considerations for artificial intelligence using ophthalmic images",
+        "volume": "129",
+        "author": "Abràmoff",
+        "year": "2022",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2023092019011487100_B66",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1038/s41746-021-00521-5",
+        "article-title": "Digital medicine and the curse of dimensionality",
+        "volume": "4",
+        "author": "Berisha",
+        "year": "2021",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2023092019011487100_B67",
+        "doi-asserted-by": "crossref",
+        "first-page": "104738",
+        "DOI": "10.1016/j.ijmedinf.2022.104738",
+        "article-title": "Ethical, legal, and social considerations of AI-based medical decision-support tools: a scoping review",
+        "volume": "161",
+        "author": "Čartolovni",
+        "year": "2022",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "key": "2023092019011487100_B68",
+        "unstructured": "U.S. Food and Drug Administration\n          . Your Clinical Decision Support Software: Is It a Medical Device? Silver Spring, MD, U.S. Food and Drug Administration, 2022. Accessed 10 April 2023. Available from https://www.fda.gov/medical-devices/software-medical-device-samd/your-clinical-decision-support-software-it-medical-device"
+      },
+      {
+        "key": "2023092019011487100_B69",
+        "doi-asserted-by": "crossref",
+        "first-page": "629",
+        "DOI": "10.1111/1468-0009.12504",
+        "article-title": "Artificial intelligence and liability in medicine: balancing safety and innovation",
+        "volume": "99",
+        "author": "Maliha",
+        "year": "2021",
+        "journal-title": "Milbank Q"
+      },
+      {
+        "key": "2023092019011487100_B70",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.1017/9781108147972.027",
+        "article-title": "Medical malpractice and black-box medicine",
+        "volume-title": "Big Data, Health Law, and Bioethics",
+        "author": "Price",
+        "year": "2018"
+      },
+      {
+        "key": "2023092019011487100_B71",
+        "first-page": "1",
+        "article-title": "Who will be liable for medical malpractice in the future? How the use of artificial intelligence in medicine will shapemedical tort law",
+        "volume": "22",
+        "author": "Schweikart",
+        "year": "2021",
+        "journal-title": "Minn J Law Sci Technol"
+      },
+      {
+        "key": "2023092019011487100_B72",
+        "unstructured": "American Medical Association\n          . Augmented intelligence in health care: policy. Chicago, American Medical Association, 2018. Accessed 7 April 2023. Available from https://www.ama-assn.org/system/files/2019-08/ai-2018-board-policy-summary.pdf"
+      },
+      {
+        "key": "2023092019011487100_B73",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.9785/cri-2021-220402",
+        "article-title": "Demystifying the Draft EU Artificial Intelligence Act: analysing the good, the bad, and the unclear elements of the proposed approach",
+        "volume": "22",
+        "author": "Veale",
+        "year": "2021",
+        "journal-title": "Computer Law Review International"
+      },
+      {
+        "key": "2023092019011487100_B74",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1038/s41746-023-00823-w",
+        "article-title": "The proposed EU directives for AI liability leave worrying gaps likely to impact medical AI",
+        "volume": "6",
+        "author": "Duffourc",
+        "year": "2023",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2023092019011487100_B75",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1007/s13244-018-0645-y",
+        "article-title": "Artificial intelligence as a medical device in radiology: ethical and regulatory issues in Europe and the United States",
+        "volume": "9",
+        "author": "Pesapane",
+        "year": "2018",
+        "journal-title": "Insights Imaging"
+      },
+      {
+        "key": "2023092019011487100_B76",
+        "doi-asserted-by": "crossref",
+        "first-page": "981",
+        "DOI": "10.1056/NEJMp1714229",
+        "article-title": "Implementing machine learning in health care - addressing ethical challenges",
+        "volume": "378",
+        "author": "Char",
+        "year": "2018",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2023092019011487100_B77",
+        "doi-asserted-by": "crossref",
+        "first-page": "E138",
+        "DOI": "10.1001/amajethics.2019.138",
+        "article-title": "How should clinicians communicate with patients about the roles of artificially intelligent team members?",
+        "volume": "21",
+        "author": "Schiff",
+        "year": "2019",
+        "journal-title": "AMA J Ethics"
+      }
+    ],
+    "container-title": [
+      "Diabetes Care"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://diabetesjournals.org/care/article-pdf/46/10/1728/734828/dci230032.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://diabetesjournals.org/care/article-pdf/46/10/1728/734828/dci230032.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2023-09-20T15:02:45Z",
+      "timestamp": 1695222165000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://diabetesjournals.org/care/article/46/10/1728/153626/Artificial-Intelligence-and-Diabetic-Retinopathy"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          20
+        ]
+      ]
+    },
+    "references-count": 77,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.2337/dci23-0032",
+    "relation": {},
+    "ISSN": [
+      "0149-5992",
+      "1935-5548"
+    ],
+    "issn-type": [
+      {
+        "value": "0149-5992",
+        "type": "print"
+      },
+      {
+        "value": "1935-5548",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          20
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2310.02492",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2310.02492",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2310.02492",
+      "identifiers": [
+        {
+          "identifier": "2310.02492",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2310.02492"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Luo, Yan",
+          "nameType": "Personal",
+          "givenName": "Yan",
+          "familyName": "Luo",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Khan, Muhammad Osama",
+          "nameType": "Personal",
+          "givenName": "Muhammad Osama",
+          "familyName": "Khan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Tian, Yu",
+          "nameType": "Personal",
+          "givenName": "Yu",
+          "familyName": "Tian",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Shi, Min",
+          "nameType": "Personal",
+          "givenName": "Min",
+          "familyName": "Shi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Dou, Zehao",
+          "nameType": "Personal",
+          "givenName": "Zehao",
+          "familyName": "Dou",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Elze, Tobias",
+          "nameType": "Personal",
+          "givenName": "Tobias",
+          "familyName": "Elze",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Fang, Yi",
+          "nameType": "Personal",
+          "givenName": "Yi",
+          "familyName": "Fang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wang, Mengyu",
+          "nameType": "Personal",
+          "givenName": "Mengyu",
+          "familyName": "Wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "FairVision: Equitable Deep Learning for Eye Disease Screening via Fair Identity Scaling"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2023-10-03T23:44:35Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023-10-05T00:11:00Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023-10-05T19:02:36Z",
+          "dateType": "Submitted",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2023-10-09T00:02:26Z",
+          "dateType": "Updated",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2024-04-12T07:06:52Z",
+          "dateType": "Submitted",
+          "dateInformation": "v3"
+        },
+        {
+          "date": "2024-04-15T00:27:35Z",
+          "dateType": "Updated",
+          "dateInformation": "v3"
+        },
+        {
+          "date": "2023-10",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "3",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-nc-nd-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Equity in AI for healthcare is crucial due to its direct impact on human well-being. Despite advancements in 2D medical imaging fairness, the fairness of 3D models remains underexplored, hindered by the small sizes of 3D fairness datasets. Since 3D imaging surpasses 2D imaging in SOTA clinical care, it is critical to understand the fairness of these 3D models. To address this research gap, we conduct the first comprehensive study on the fairness of 3D medical imaging models across multiple protected attributes. Our investigation spans both 2D and 3D models and evaluates fairness across five architectures on three common eye diseases, revealing significant biases across race, gender, and ethnicity. To alleviate these biases, we propose a novel fair identity scaling (FIS) method that improves both overall performance and fairness, outperforming various SOTA fairness methods. Moreover, we release Harvard-FairVision, the first large-scale medical fairness dataset with 30,000 subjects featuring both 2D and 3D imaging data and six demographic identity attributes. Harvard-FairVision provides labels for three major eye disorders affecting about 380 million people worldwide, serving as a valuable resource for both 2D and 3D fairness learning. Our code and dataset are publicly accessible at \\url{https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k}.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yMzEwLjAyNDkyPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjMxMC4wMjQ5MjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5MdW8sIFlhbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WWFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkx1bzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5LaGFuLCBNdWhhbW1hZCBPc2FtYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TXVoYW1tYWQgT3NhbWE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+S2hhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5UaWFuLCBZdTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WXU8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+VGlhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5TaGksIE1pbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TWluPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlNoaTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Eb3UsIFplaGFvPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5aZWhhbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Eb3U8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+RWx6ZSwgVG9iaWFzPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Ub2JpYXM8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+RWx6ZTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5GYW5nLCBZaTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WWk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+RmFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XYW5nLCBNZW5neXU8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1lbmd5dTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XYW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5GYWlyVmlzaW9uOiBFcXVpdGFibGUgRGVlcCBMZWFybmluZyBmb3IgRXllIERpc2Vhc2UgU2NyZWVuaW5nIHZpYSBGYWlyIElkZW50aXR5IFNjYWxpbmc8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+YXJYaXY8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjM8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjMtMTAtMDNUMjM6NDQ6MzVaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjMtMTAtMDVUMDA6MTE6MDBaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlN1Ym1pdHRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MiI+MjAyMy0xMC0wNVQxOTowMjozNlo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MiI+MjAyMy0xMC0wOVQwMDowMjoyNlo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iU3VibWl0dGVkIiBkYXRlSW5mb3JtYXRpb249InYzIj4yMDI0LTA0LTEyVDA3OjA2OjUyWjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIiBkYXRlSW5mb3JtYXRpb249InYzIj4yMDI0LTA0LTE1VDAwOjI3OjM1WjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJBdmFpbGFibGUiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjMtMTA8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IlByZXByaW50Ij5BcnRpY2xlPC9yZXNvdXJjZVR5cGU+CiAgPHZlcnNpb24+MzwvdmVyc2lvbj4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS1uYy1uZC80LjAvIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiByaWdodHNJZGVudGlmaWVyPSJDQy1CWS1OQy1ORC00LjAiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gTm9uIENvbW1lcmNpYWwgTm8gRGVyaXZhdGl2ZXMgNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5FcXVpdHkgaW4gQUkgZm9yIGhlYWx0aGNhcmUgaXMgY3J1Y2lhbCBkdWUgdG8gaXRzIGRpcmVjdCBpbXBhY3Qgb24gaHVtYW4gd2VsbC1iZWluZy4gRGVzcGl0ZSBhZHZhbmNlbWVudHMgaW4gMkQgbWVkaWNhbCBpbWFnaW5nIGZhaXJuZXNzLCB0aGUgZmFpcm5lc3Mgb2YgM0QgbW9kZWxzIHJlbWFpbnMgdW5kZXJleHBsb3JlZCwgaGluZGVyZWQgYnkgdGhlIHNtYWxsIHNpemVzIG9mIDNEIGZhaXJuZXNzIGRhdGFzZXRzLiBTaW5jZSAzRCBpbWFnaW5nIHN1cnBhc3NlcyAyRCBpbWFnaW5nIGluIFNPVEEgY2xpbmljYWwgY2FyZSwgaXQgaXMgY3JpdGljYWwgdG8gdW5kZXJzdGFuZCB0aGUgZmFpcm5lc3Mgb2YgdGhlc2UgM0QgbW9kZWxzLiBUbyBhZGRyZXNzIHRoaXMgcmVzZWFyY2ggZ2FwLCB3ZSBjb25kdWN0IHRoZSBmaXJzdCBjb21wcmVoZW5zaXZlIHN0dWR5IG9uIHRoZSBmYWlybmVzcyBvZiAzRCBtZWRpY2FsIGltYWdpbmcgbW9kZWxzIGFjcm9zcyBtdWx0aXBsZSBwcm90ZWN0ZWQgYXR0cmlidXRlcy4gT3VyIGludmVzdGlnYXRpb24gc3BhbnMgYm90aCAyRCBhbmQgM0QgbW9kZWxzIGFuZCBldmFsdWF0ZXMgZmFpcm5lc3MgYWNyb3NzIGZpdmUgYXJjaGl0ZWN0dXJlcyBvbiB0aHJlZSBjb21tb24gZXllIGRpc2Vhc2VzLCByZXZlYWxpbmcgc2lnbmlmaWNhbnQgYmlhc2VzIGFjcm9zcyByYWNlLCBnZW5kZXIsIGFuZCBldGhuaWNpdHkuIFRvIGFsbGV2aWF0ZSB0aGVzZSBiaWFzZXMsIHdlIHByb3Bvc2UgYSBub3ZlbCBmYWlyIGlkZW50aXR5IHNjYWxpbmcgKEZJUykgbWV0aG9kIHRoYXQgaW1wcm92ZXMgYm90aCBvdmVyYWxsIHBlcmZvcm1hbmNlIGFuZCBmYWlybmVzcywgb3V0cGVyZm9ybWluZyB2YXJpb3VzIFNPVEEgZmFpcm5lc3MgbWV0aG9kcy4gTW9yZW92ZXIsIHdlIHJlbGVhc2UgSGFydmFyZC1GYWlyVmlzaW9uLCB0aGUgZmlyc3QgbGFyZ2Utc2NhbGUgbWVkaWNhbCBmYWlybmVzcyBkYXRhc2V0IHdpdGggMzAsMDAwIHN1YmplY3RzIGZlYXR1cmluZyBib3RoIDJEIGFuZCAzRCBpbWFnaW5nIGRhdGEgYW5kIHNpeCBkZW1vZ3JhcGhpYyBpZGVudGl0eSBhdHRyaWJ1dGVzLiBIYXJ2YXJkLUZhaXJWaXNpb24gcHJvdmlkZXMgbGFiZWxzIGZvciB0aHJlZSBtYWpvciBleWUgZGlzb3JkZXJzIGFmZmVjdGluZyBhYm91dCAzODAgbWlsbGlvbiBwZW9wbGUgd29ybGR3aWRlLCBzZXJ2aW5nIGFzIGEgdmFsdWFibGUgcmVzb3VyY2UgZm9yIGJvdGggMkQgYW5kIDNEIGZhaXJuZXNzIGxlYXJuaW5nLiBPdXIgY29kZSBhbmQgZGF0YXNldCBhcmUgcHVibGljbHkgYWNjZXNzaWJsZSBhdCBcdXJse2h0dHBzOi8vb3BoYWkuaG1zLmhhcnZhcmQuZWR1L2RhdGFzZXRzL2hhcnZhcmQtZmFpcnZpc2lvbjMwa30uPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+      "url": "https://arxiv.org/abs/2310.02492",
+      "contentUrl": null,
+      "metadataVersion": 2,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2023-10-05T01:28:12.000Z",
+      "registered": "2023-10-05T01:28:12.000Z",
+      "published": "2023",
+      "updated": "2024-04-15T02:03:22.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2310.02492",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

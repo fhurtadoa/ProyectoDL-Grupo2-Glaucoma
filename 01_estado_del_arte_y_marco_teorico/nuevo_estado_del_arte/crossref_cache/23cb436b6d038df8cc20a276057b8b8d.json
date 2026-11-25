@@ -1,0 +1,596 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2026-11-21T20:44:35Z",
+      "timestamp": 1795293875282,
+      "version": "4.10.3"
+    },
+    "reference-count": 35,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2020-07-01T00:00:00Z",
+          "timestamp": 1593561600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2020-07-01T00:00:00Z",
+          "timestamp": 1593561600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000057",
+        "name": "National Institute of General Medical Sciences",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000057",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Pattern Recognition Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.patrec.2020.04.009",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          13
+        ]
+      ],
+      "date-time": "2020-05-13T12:29:43Z",
+      "timestamp": 1589372983000
+    },
+    "page": "409-417",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 135,
+    "special_numbering": "C",
+    "title": [
+      "Deep learning frameworks for diabetic retinopathy detection with smartphone-based retinal imaging systems"
+    ],
+    "prefix": "10.1016",
+    "volume": "135",
+    "author": [
+      {
+        "given": "Recep E.",
+        "family": "Hacisoftaoglu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5087-0918",
+        "authenticated-orcid": false,
+        "given": "Mahmut",
+        "family": "Karakaya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed B.",
+        "family": "Sallam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1016/S2214-109X(13)70113-X",
+        "article-title": ". Causes of vision loss worldwide, 1990-2010: a systematic analysis",
+        "volume": "6",
+        "author": "Bourne",
+        "year": "2013",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0002",
+        "unstructured": "Centers for Disease Control and Prevention, 2020. National Diabetes Statistics Report. US Department of Health and Human Services."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.patrec.2020.04.009_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "552",
+        "DOI": "10.1001/archopht.122.4.552",
+        "article-title": "The prevalence of diabetic retinopathy among adults in the United States",
+        "volume": "122",
+        "author": "Kempen",
+        "year": "2004",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0004",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2013/518479",
+        "article-title": "Simple, inexpensive technique for high-quality smartphone fundus photography in human and animal eyes",
+        "author": "Haddock",
+        "year": "2013",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1007",
+        "DOI": "10.1136/emermed-2011-200038",
+        "article-title": "Optic disc assessment in the emergency department: a comparative study between the PanOptic and direct ophthalmoscopes",
+        "volume": "29",
+        "author": "Petrushkin",
+        "year": "2012",
+        "journal-title": "Emerg. Med. J."
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0006",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2015/823139",
+        "article-title": "A novel device to exploit the smartphone camera for fundus photography",
+        "author": "Russo",
+        "year": "2015",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.patrec.2020.04.009_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1001/jamaophthalmol.2015.4625",
+        "article-title": "Clinical validation of a smartphone-based adapter for optic disc imaging in Kenya",
+        "volume": "134",
+        "author": "Bastawrous",
+        "year": "2016",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0008",
+        "unstructured": "User's manual for Volk iNview Retinal Camera, 2016. Volk Optical Inc. Mentor, OH: IM-088, Revision C."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.patrec.2020.04.009_bib0009",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0138285",
+        "article-title": "Validation of smartphone based retinal photography for diabetic retinopathy screening",
+        "volume": "10",
+        "author": "Rajalakshmi",
+        "year": "2015",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.patrec.2020.04.009_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1001/jamaophthalmol.2013.1743",
+        "article-title": "Automated analysis of retinal images for detection of referable diabetic retinopathy",
+        "volume": "131",
+        "author": "Abràmoff",
+        "year": "2013",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.patrec.2020.04.009_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "article-title": "Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning",
+        "volume": "57",
+        "author": "Abràmoff",
+        "year": "2016",
+        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.patrec.2020.04.009_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0013",
+        "series-title": "Proc.of IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "2818",
+        "article-title": "Rethinking the inception architecture for computer vision",
+        "author": "Szegedy",
+        "year": "2016"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.patrec.2020.04.009_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated identification of diabetic retinopathy using deep learning",
+        "volume": "124",
+        "author": "Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0015",
+        "series-title": "AMIA Summits on Translational Science Proceedings",
+        "first-page": "147",
+        "article-title": "Automated detection of diabetic retinopathy using deep learning",
+        "author": "Lam",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0016",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "Krizhevsky",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0017",
+        "series-title": "Proc.of IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "1",
+        "article-title": "Going deeper with convolutions",
+        "author": "Szegedy",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.artmed.2019.03.009",
+        "article-title": "A data-driven approach to referable diabetic retinopathy detection",
+        "volume": "96",
+        "author": "Pires",
+        "year": "2019",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.patrec.2020.04.009_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1167/tvst.8.6.4",
+        "article-title": "Automatic detection of diabetic retinopathy in retinal fundus photographs based on deep learning algorithm",
+        "volume": "8",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.patrec.2020.04.009_bib0020",
+        "first-page": "1429",
+        "article-title": "EyeArt: automated, high-throughput, image analysis for diabetic retinopathy screening",
+        "volume": "56",
+        "author": "Solanki",
+        "year": "2015",
+        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1038/s41433-018-0064-9",
+        "article-title": "Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligence",
+        "volume": "32",
+        "author": "Rajalakshmi",
+        "year": "2018",
+        "journal-title": "Eye"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.patrec.2020.04.009_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "641",
+        "DOI": "10.1089/tmj.2005.11.641",
+        "article-title": "A modeled economic analysis of a digital teleophthalmology system as used by three federal health care agencies for detecting proliferative diabetic retinopathy",
+        "volume": "11",
+        "author": "Whited",
+        "year": "2006",
+        "journal-title": "Telemed. J. e-Health"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0023",
+        "series-title": "Proc.of IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "248",
+        "article-title": "Imagenet: A large-scale hierarchical image database",
+        "author": "Deng",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0024",
+        "series-title": "Proc.of IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "770",
+        "article-title": "Deep Residual Learning for Image Recognition",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0025",
+        "series-title": "Kaggle Diabetic Retinopathy Detection Competition Report",
+        "author": "Graham",
+        "year": "2015"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.patrec.2020.04.009_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: the Messidor database",
+        "volume": "33",
+        "author": "Decencière",
+        "year": "2014",
+        "journal-title": "Image Anal. Stereol."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.patrec.2020.04.009_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "1230",
+        "DOI": "10.1109/TMI.2008.920619",
+        "article-title": "Optimal wavelet transform for the detection of microaneurysms in retina photographs",
+        "volume": "27",
+        "author": "Quellec",
+        "year": "2008",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0028",
+        "series-title": "Indian Diabetic Retinopathy Image Dataset (IDRid)",
+        "author": "Porwal",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0029",
+        "series-title": "Proc. of the 9th International Conference on Signal Processing Systems",
+        "first-page": "235",
+        "article-title": "Comparative analysis of University of Auckland diabetic retinopathy database",
+        "author": "Chalakkal",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0030",
+        "series-title": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+        "first-page": "886",
+        "article-title": "Automatic segmentation of retinal vasculature",
+        "author": "Chalakkal",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0031",
+        "series-title": "Proc. of American Academy of Ophthalmology Annual Meeting",
+        "article-title": "International Clinical Diabetic Retinopathy Disease Severity Scale",
+        "author": "Wilkinson",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0032",
+        "series-title": "Proceedings of the 23rd ACM International Conference on Multimedia",
+        "first-page": "689",
+        "article-title": "Matconvnet: Convolutional neural networks for Matlab",
+        "author": "Vedaldi",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0033",
+        "series-title": "Proc. of SPIE, Smart Biomedical and Physiological Sensor Technology XV",
+        "article-title": "Field of view of portable ophthalmoscopes for smartphones",
+        "author": "Hacisoftaoglu",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.patrec.2020.04.009_bib0034",
+        "series-title": "International Conference on Information Technology",
+        "first-page": "112",
+        "article-title": "A Semi-automated System for Optic Nerve Head Segmentation in Digital Retinal Images",
+        "author": "Chakraborty",
+        "year": "2014"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.patrec.2020.04.009_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.1080/0952813X.2019.1653383",
+        "article-title": "Multi-modal classifier fusion with feature cooperation for glaucoma diagnosis",
+        "volume": "31",
+        "author": "Benzebouchi",
+        "year": "2019",
+        "journal-title": "J. Exp. Theor. Artif. Intell."
+      }
+    ],
+    "container-title": [
+      "Pattern Recognition Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S016786552030129X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S016786552030129X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2025-09-29T06:13:17Z",
+      "timestamp": 1759126397000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S016786552030129X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7
+        ]
+      ]
+    },
+    "references-count": 35,
+    "alternative-id": [
+      "S016786552030129X"
+    ],
+    "URL": "https://doi.org/10.1016/j.patrec.2020.04.009",
+    "relation": {},
+    "ISSN": [
+      "0167-8655"
+    ],
+    "issn-type": [
+      {
+        "value": "0167-8655",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Deep learning frameworks for diabetic retinopathy detection with smartphone-based retinal imaging systems",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Pattern Recognition Letters",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.patrec.2020.04.009",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2020 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

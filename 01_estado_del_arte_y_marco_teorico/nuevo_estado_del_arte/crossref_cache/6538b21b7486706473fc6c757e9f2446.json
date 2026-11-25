@@ -1,0 +1,706 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T08:18:27Z",
+      "timestamp": 1767169107848,
+      "version": "3.48.0"
+    },
+    "reference-count": 38,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              30
+            ]
+          ],
+          "date-time": "2025-12-30T00:00:00Z",
+          "timestamp": 1767052800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              31
+            ]
+          ],
+          "date-time": "2025-12-31T00:00:00Z",
+          "timestamp": 1767139200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Discov Artif Intell"
+    ],
+    "DOI": "10.1007/s44163-025-00660-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T07:15:58Z",
+      "timestamp": 1767078958000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Enhancing artery/vein classification in Retinal images using Y-Net convolutional networks"
+    ],
+    "prefix": "10.1007",
+    "volume": "5",
+    "author": [
+      {
+        "given": "P. M. Ashok",
+        "family": "Kumar",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S. S.",
+        "family": "Aravinth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Arvind R.",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed Adnan",
+        "family": "Hadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Mazin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed A.",
+        "family": "Alamiery",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Adis Abebaw",
+        "family": "Dessalegn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "1",
+        "key": "660_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "46",
+        "DOI": "10.1016/j.media.2014.08.002",
+        "volume": "19",
+        "author": "G Azzopardi",
+        "year": "2015",
+        "unstructured": "Azzopardi G, Strisciuglio N, Vento M, Petkov N. Trainable COSFIRE filters for vessel delineation with application to retinal images. Med Image Anal. 2015;19(1):46–57.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "660_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bandara AMRR, Giragama PWGRMPB. A retinal image enhancement technique for blood vessel segmentation algorithm, In: Proceedings of the 2017 IEEE international conference on industrial and information systems (ICIIS), pp. 1–5, IEEE, Peradeniya, Sri Lanka, 2017 December.",
+        "DOI": "10.1109/ICIINFS.2017.8300426"
+      },
+      {
+        "key": "660_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "41885",
+        "DOI": "10.1109/ACCESS.2019.2906344",
+        "volume": "7",
+        "author": "DA Dharmawan",
+        "year": "2019",
+        "unstructured": "Dharmawan DA, Li D, Ng BP, Rahardja S. A new hybrid algorithm for retinal vessels segmentation on fundus images. IEEE Access. 2019;7:41885–96.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "7",
+        "key": "660_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1738",
+        "DOI": "10.1109/TBME.2015.2403295",
+        "volume": "62",
+        "author": "S Roychowdhury",
+        "year": "2015",
+        "unstructured": "Roychowdhury S, Koozekanani DD, Parhi KK. Iterative vessel segmentation of fundus images. IEEE Trans Biomed Eng. 2015;62(7):1738–49.",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "key": "660_CR5",
+        "series-title": "LNCS",
+        "first-page": "234",
+        "volume-title": "MICCAI 2015",
+        "author": "O Ronneberger",
+        "year": "2015",
+        "unstructured": "Ronneberger O, Fischer P, Brox T. U-Net: convolutional networks for biomedical image segmentation. In: Navab N, Hornegger J, Wells WM, Frangi AF, editors. MICCAI 2015, vol. 9351. LNCS. Cham: Springer; 2015. p. 234–41."
+      },
+      {
+        "key": "660_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang B, Qiu S, He H, Dual Encoding U-Net for Retinal Vessel Segmentation. In: Shen D. et al. (eds) MICCAI 2019. Lecture Notes in Computer Science, vol 11764. Springer, Cham, 2019.",
+        "DOI": "10.1007/978-3-030-32239-7_10"
+      },
+      {
+        "key": "660_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu Y, Xia Y, Song Y, Zhang D, Liu D, Zhang C, Cai W. Vessel-Net: Retinal Vessel Segmentation Under Multi-path Supervision. Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. Lecture Notes in Computer Science, vol 11764. Springer, Cham, 2019.",
+        "DOI": "10.1007/978-3-030-32239-7_30"
+      },
+      {
+        "key": "660_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang S, Fu H, Yan Y, Zhang Y, Wu Q, Yang M, Tan M. Attention Guided Network for Retinal Image Segmentation”, Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. Lecture Notes in Computer Science, vol 11764. Springer, Cham, 2019.",
+        "DOI": "10.1007/978-3-030-32239-7_88"
+      },
+      {
+        "issue": "8",
+        "key": "660_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1450",
+        "DOI": "10.1049/iet-ipr.2017.1071",
+        "volume": "12",
+        "author": "K Yue",
+        "year": "2018",
+        "unstructured": "Yue K, Zou B, Chen Z, Liu Q. Improved multi-scale line detection method for retinal blood vessel segmentation. IET Image Process. 2018;12(8):1450–7.",
+        "journal-title": "IET Image Process"
+      },
+      {
+        "issue": "4",
+        "key": "660_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "438",
+        "DOI": "10.1016/j.compbiomed.2010.02.008",
+        "volume": "40",
+        "author": "B Zhang",
+        "year": "2010",
+        "unstructured": "Zhang B, Zhang L, Zhang L, Karray F. Retinal vessel extraction by matched filter with first-order derivative of Gaussian. Comput Biol Med. 2010;40(4):438–45.",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "660_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1016/j.patcog.2017.04.008",
+        "volume": "69",
+        "author": "J Zhang",
+        "year": "2017",
+        "unstructured": "Zhang J, Chen Y, Bekkers E, Wang M, Dashtbozorg B, Romeny BMTH. Retinal vessel delineation using a braininspired wavelet transform and random forest. Pattern Recognit. 2017;69:107–23.",
+        "journal-title": "Pattern Recognit"
+      },
+      {
+        "issue": "12",
+        "key": "660_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "2631",
+        "DOI": "10.1109/TMI.2016.2587062",
+        "volume": "35",
+        "author": "J Zhang",
+        "year": "2016",
+        "unstructured": "Zhang J, Dashtbozorg B, Bekkers E, Pluim JPW, Duits R, Ter Haar Romeny BM. Robust retinal vessel segmentation via locally adaptive derivative frames in orientation scores. IEEE Trans Med Imaging. 2016;35(12):2631–44.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "7",
+        "key": "660_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "2437",
+        "DOI": "10.1016/j.patcog.2014.01.006",
+        "volume": "47",
+        "author": "Y Qian Zhao",
+        "year": "2014",
+        "unstructured": "Qian Zhao Y, Hong Wang X, Fang Wang X, Shih FY. Retinal vessels segmentation based on level set and region growing. Pattern Recognit. 2014;47(7):2437–46.",
+        "journal-title": "Pattern Recognit"
+      },
+      {
+        "issue": "11",
+        "key": "660_CR14",
+        "first-page": "2046",
+        "volume": "27",
+        "author": "C Zhu",
+        "year": "2015",
+        "unstructured": "Zhu C, Zou B, Yao X, Yan Q, Liang Y, Cui J. A survey of retinal vessel segmentation in fundus images. J Comput-Aided Design Computer Graphics. 2015;27(11):2046–57.",
+        "journal-title": "J Comput-Aided Design Computer Graphics"
+      },
+      {
+        "issue": "22",
+        "key": "660_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "2984",
+        "DOI": "10.3390/math9222984",
+        "volume": "9",
+        "author": "GP Joshi",
+        "year": "2021",
+        "unstructured": "Joshi GP, Alenezi F, Thirumoorthy G, Dutta AK, You J. Ensemble of deep learning-based multimodal remote sensing image classification model on unmanned aerial vehicle networks. Mathematics. 2021;9(22):2984.",
+        "journal-title": "Mathematics"
+      },
+      {
+        "key": "660_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "6664569",
+        "DOI": "10.1155/2021/6664569",
+        "volume": "2021",
+        "author": "F Alenezi",
+        "year": "2021",
+        "unstructured": "Alenezi F, Santosh KC. Geometric regularized hopfield neural network for medical image enhancement. Int J Biomed Imag. 2021;2021:6664569.",
+        "journal-title": "Int J Biomed Imag"
+      },
+      {
+        "key": "660_CR17",
+        "first-page": "118",
+        "volume": "9",
+        "author": "F Alenezi",
+        "year": "2018",
+        "unstructured": "Alenezi F, Salari E. A fuzzy-based medical image fusion using a combination of maximum selection and gabor filters. Int J Eng Sci. 2018;9:118–29.",
+        "journal-title": "Int J Eng Sci"
+      },
+      {
+        "key": "660_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "29380",
+        "DOI": "10.1109/ACCESS.2021.3059115",
+        "volume": "9",
+        "author": "FS Alenezi",
+        "year": "2021",
+        "unstructured": "Alenezi FS, Ganesan S. Geometric-pixel guided singlepass convolution neural network with graph cut for image d. IEEE Access. 2021;9:29380–91.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "9",
+        "key": "660_CR19",
+        "first-page": "2859",
+        "volume": "39",
+        "author": "Z Li",
+        "year": "2020",
+        "unstructured": "Li Z, et al. Artery-Vein Classification in Retinal Images Using Deep Neural Networks. IEEE Transa Med Imag. 2020;39(9):2859–69.",
+        "journal-title": "IEEE Transa Med Imag"
+      },
+      {
+        "issue": "11",
+        "key": "660_CR20",
+        "first-page": "2369",
+        "volume": "37",
+        "author": "H Fu",
+        "year": "2018",
+        "unstructured": "Fu H, et al. DeepVessel: Retinal Vessel Segmentation via Deep Learning and Conditional Random Field. IEEE Transa Med Imag. 2018;37(11):2369–80.",
+        "journal-title": "IEEE Transa Med Imag"
+      },
+      {
+        "issue": "4",
+        "key": "660_CR21",
+        "first-page": "1596",
+        "volume": "23",
+        "author": "Y Xu",
+        "year": "2019",
+        "unstructured": "Xu Y, et al. Artery-Vein Classification in Retinal Images Using Convolutional Neural Networks with Structure-Aware Loss. IEEE J Biomed Health Inform. 2019;23(4):1596–607.",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "660_CR22",
+        "first-page": "86872",
+        "volume": "7",
+        "author": "Q Zhang",
+        "year": "2019",
+        "unstructured": "Zhang Q, et al. Artery-vein classification in retinal images using dual-branch convolutional neural networks. IEEE Access. 2019;7:86872–82.",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "7",
+        "key": "660_CR23",
+        "first-page": "1343",
+        "volume": "8",
+        "author": "P Khojasteh",
+        "year": "2018",
+        "unstructured": "Khojasteh P, et al. Retinal Artery-Vein Classification via Convolutional Neural Networks and Ensemble Methods. J Med Imag Health Inform. 2018;8(7):1343–50.",
+        "journal-title": "J Med Imag Health Inform"
+      },
+      {
+        "key": "660_CR24",
+        "unstructured": "Yu H, et al., Artery-Vein Classification in Retinal Images Based on a Convolutional Neural Network with an Attention Mechanism. J Healthcare Eng, 2020; 8857553."
+      },
+      {
+        "issue": "1",
+        "key": "660_CR25",
+        "first-page": "136",
+        "volume": "10",
+        "author": "Q Zhang",
+        "year": "2020",
+        "unstructured": "Zhang Q, et al. Artery-Vein Classification in Fundus Images Based on a Parallel Convolutional Neural Network. J Med Imag Health Inform. 2020;10(1):136–44.",
+        "journal-title": "J Med Imag Health Inform"
+      },
+      {
+        "key": "660_CR26",
+        "unstructured": "Diederik P. Kingma and Jimmy Ba. Adam: A Method for Stochastic Optimization. arXiv preprint arXiv:1412.6980, 2014."
+      },
+      {
+        "key": "660_CR27",
+        "first-page": "2369",
+        "volume": "35",
+        "author": "P Liskowski",
+        "year": "2016",
+        "unstructured": "Liskowski P, Krawiec K. Segmenting retinal blood vessels with deep neural networks. TMI. 2016;35:2369–80.",
+        "journal-title": "TMI"
+      },
+      {
+        "issue": "9",
+        "key": "660_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1912",
+        "DOI": "10.1109/TBME.2018.2828137",
+        "volume": "65",
+        "author": "Z Yan",
+        "year": "2018",
+        "unstructured": "Yan Z, Yang X, Cheng KT. Joint segment-Level and pixel-Wise losses for deep learning based retinal vessel segmentation. IEEE Trans Biomed Eng. 2018;65(9):1912–23.",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "key": "660_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu Y, Xia Y, Song Y, Zhang Y, Cai W. Multiscale network followed network model for retinal vessel segmentation. In: Frangi A, Schnabel J, Davatzikos C, Alberola-Lopez C, Fichtinger G. (eds.) MICCAI 2018. LNCS, vol. 11071, pp. 119–126. Springer, Heidelberg, 2018.",
+        "DOI": "10.1007/978-3-030-00934-2_14"
+      },
+      {
+        "key": "660_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang B, Qiu S, He H. Dual Encoding U-Net for Retinal Vessel Segmentation”. In: Shen D. et al. (eds) MICCAI 2019. Lecture Notes in Computer Science, vol 11764. Springer, Cham, 2019.",
+        "DOI": "10.1007/978-3-030-32239-7_10"
+      },
+      {
+        "key": "660_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang S, Fu H, Yan Y, Zhang Y, Wu Q, Yang M, Tan M. Attention Guided Network for Retinal Image Segmentation. Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. Lecture Notes in Computer Science, vol 11764. Springer, Cham.2019.",
+        "DOI": "10.1007/978-3-030-32239-7_88"
+      },
+      {
+        "key": "660_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O, Fischer P, Brox T. U-Net: Convolutional Networks for Biomedical Image Segmentation. In Navab N, Hornegger J, Wells W, Frangi A. (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234–241). Springer International Publishing, 2015.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "issue": "4",
+        "key": "660_CR33",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1109/TMI.2004.825627",
+        "volume": "23",
+        "author": "T Walter",
+        "year": "2004",
+        "unstructured": "Walter T, Klein J, Massin. P. The digital retinal images for vessel extraction (DRIVE) database. IEEE Trans Med Imaging. 2004;23(4):501–9.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "660_CR34",
+        "first-page": "106",
+        "volume": "19",
+        "author": "B Fraz",
+        "year": "2015",
+        "unstructured": "Fraz B, Remagnino P, Hoppe A, Uyyanonvara B, Rudnicka A, Owen C, et al. The chasedb1: a public retinal fundus image dataset for artery/vein classification. Med Image Anal. 2015;19(1):106–28.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "660_CR35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2024.3425533",
+        "author": "L Cai",
+        "year": "2024",
+        "unstructured": "Cai L, Fang H, Xu N, Ren B. Counterfactual causal-effect intervention for interpretable medical visual question answering. IEEE Trans Med Imaging. 2024. https://doi.org/10.1109/TMI.2024.3425533.",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "29",
+        "key": "660_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "7127",
+        "DOI": "10.12998/wjcc.v11.i29.7127",
+        "volume": "11",
+        "author": "PC Fu",
+        "year": "2023",
+        "unstructured": "Fu PC, Wang JY, Su Y, Liao YQ, Li SL, Xu GL, et al. Intravascular ultrasonography assisted carotid artery stenting for treatment of carotid stenosis: two case reports. World J Clin Cases. 2023;11(29):7127–35. https://doi.org/10.12998/wjcc.v11.i29.7127.",
+        "journal-title": "World J Clin Cases"
+      },
+      {
+        "key": "660_CR37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2024.3428349",
+        "author": "W Song",
+        "year": "2024",
+        "unstructured": "Song W, Wang X, Guo Y, Li S, Xia B, Hao A. CenterFormer: A Novel Cluster Center Enhanced Transformer for Unconstrained Dental Plaque Segmentation. IEEE Transa Multimed. 2024. https://doi.org/10.1109/TMM.2024.3428349.",
+        "journal-title": "IEEE Transa Multimed"
+      },
+      {
+        "issue": "6",
+        "key": "660_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "4499",
+        "DOI": "10.3892/etm.2019.8086",
+        "volume": "18",
+        "author": "W Mi",
+        "year": "2019",
+        "unstructured": "Mi W, Xia Y, Bian Y. Meta-analysis of the association between aldose reductase gene (CA)n microsatellite variants and risk of diabetic retinopathy. Exp Ther Med. 2019;18(6):4499–509. https://doi.org/10.3892/etm.2019.8086.",
+        "journal-title": "Exp Ther Med"
+      }
+    ],
+    "container-title": [
+      "Discover Artificial Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/article/10.1007/s44163-025-00660-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s44163-025-00660-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s44163-025-00660-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T08:14:55Z",
+      "timestamp": 1767168895000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s44163-025-00660-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ]
+    },
+    "references-count": 38,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "660"
+    ],
+    "URL": "https://doi.org/10.1007/s44163-025-00660-8",
+    "relation": {},
+    "ISSN": [
+      "2731-0809"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2731-0809"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "29 July 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 November 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 December 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "This study uses publicly available retinal image datasets (DRIVE and CHASE_DB1). No experiments involving human participants or animals were performed by the authors; therefore, ethical approval was not required.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethics approval"
+        }
+      },
+      {
+        "value": "Not applicable, as the research does not involve human participants.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Consent to participate"
+        }
+      },
+      {
+        "value": "All authors have read and approved the final manuscript and consent to its publication.",
+        "order": 4,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Consent for publication"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 5,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "421"
+  }
+}

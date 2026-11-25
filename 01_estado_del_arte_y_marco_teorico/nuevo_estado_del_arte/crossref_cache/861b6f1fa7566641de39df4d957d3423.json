@@ -1,0 +1,697 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T03:44:20Z",
+      "timestamp": 1795491860606,
+      "version": "4.11.0"
+    },
+    "reference-count": 37,
+    "publisher": "BMJ",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              20
+            ]
+          ],
+          "date-time": "2025-11-20T00:00:00Z",
+          "timestamp": 1763596800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 19,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Global STEM Professorship Scheme",
+        "award": [
+          "P0046113"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "P0046113"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Project of Investigation on Health Status of Employees in Financial Industry in Guangzhou, China",
+        "award": [
+          "Z012014075"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Z012014075"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "National Critical Research Infrastructure Initiative, Medical Research Future Fund",
+        "award": [
+          "MRFAI00035"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MRFAI00035"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000925",
+        "name": "NHMRC",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "APP1175405"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "APP1175405"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000925",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "bmj.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "BMJ Open Ophth"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          25
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Objective</jats:title>\n                    <jats:p>To evaluate the effectiveness of a deep learning-based style adaptation strategy in improving the diagnostic accuracy and cross-camera generalisability of artificial intelligence (AI) for detecting diabetic retinopathy (DR).</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods and analysis</jats:title>\n                    <jats:p>This diagnostic study involved prospective recruitment of patients aged 50 years and older attending the outpatient clinic at a tertiary eye hospital in Southern India, between 14 June and 5 August 2022. Paired macula-centred retinal images were captured using two fundus cameras: Optain Resolve (portable, automated) and Topcon NW400 (static, manual). A style adaptation model, the Style-Consistent Retinal Image Transformation Network (SCR-Net), was applied to align image styles across cameras. The AI-based DR detection model, developed using the InceptionNeXt-T architecture, was trained on images from the EyePACS data set and evaluated under three scenarios: (1) training and testing on original images (2) training and testing on SCR-Net-adapted images; and (3) training on a combined (original+adapted) data set and testing on adapted images. Diagnostic accuracy and preservation of image quality were evaluated.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>The mixed training/testing approach (scenario 3) achieved the highest diagnostic accuracy for Optain images at 79.2% (95% CI 75.9% to 82.6%) with a Cohen’s kappa of 0.893 (95% CI 0.867 to 0.917). Adapted images preserved critical diagnostic features (peak signal-to-noise ratio, 29.35; structural similarity index measure, 0.847). Style adaptation reduced false positives in Optain images while maintaining robust diagnostic performance for Topcon images, effectively addressing cross-camera variability.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>Style adaptation using SCR-Net enhances the consistency and generalisability of AI-based DR detection systems by reducing false positives and maintaining robust performance across camera systems. This approach has the potential to democratise access to early DR diagnosis in underserved regions. This study was conducted at a single centre using a limited set of fundus cameras, which may affect the generalisability. Nonetheless, further validation across diverse imaging systems and clinical settings is warranted to support broader applicability.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1136/bmjophth-2025-002238",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          22
+        ]
+      ],
+      "date-time": "2025-11-22T06:25:18Z",
+      "timestamp": 1763792718000
+    },
+    "page": "e002238",
+    "update-policy": "https://doi.org/10.1136/crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Enhancing AI-based diabetic retinopathy diagnosis through universal cross-camera image adaptation"
+    ],
+    "prefix": "10.1136",
+    "volume": "10",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8467-5544",
+        "authenticated-orcid": false,
+        "given": "Sanil",
+        "family": "Joseph",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Ophthalmic Epidemiology, Centre for Eye Research Australia, East Melbourne, Victoria, Australia"
+          },
+          {
+            "name": "Department of Surgery (Ophthalmology), The University of Melbourne, Parkville, Victoria, Australia"
+          },
+          {
+            "name": "Lions Aravind Institute of Community Ophthalmology (LAICO), Aravind Eye Care System, Madurai, Tamilnadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaotian",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Optain Health Pty Ltd, Melbourne, Victoria, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chi",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Data Science, City University of Macau, Macao, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9897-1192",
+        "authenticated-orcid": false,
+        "given": "Zhuoting",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ophthalmic Epidemiology, Centre for Eye Research Australia, East Melbourne, Victoria, Australia"
+          },
+          {
+            "name": "Department of Surgery (Ophthalmology), The University of Melbourne, Parkville, Victoria, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kim",
+        "family": "Ramasamy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vitreous and Retina Service, Aravind Eye Hospitals and Postgraduate Institute of Ophthalmology, Madurai, Tamil Nadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1935-7443",
+        "authenticated-orcid": false,
+        "given": "Thulasiraj D",
+        "family": "Ravilla",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lions Aravind Institute of Community Ophthalmology (LAICO), Aravind Eye Care System, Madurai, Tamilnadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5880-8673",
+        "authenticated-orcid": false,
+        "given": "Zongyuan",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The AIM for Health Lab, Faculty of Information Technology, Monash University, Clayton, Victoria, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mingguang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ophthalmic Epidemiology, Centre for Eye Research Australia, East Melbourne, Victoria, Australia"
+          },
+          {
+            "name": "Department of Surgery (Ophthalmology), The University of Melbourne, Parkville, Victoria, Australia"
+          },
+          {
+            "name": "School of Optometry, The Hong Kong Polytechnic University, Kowloon, Hong Kong"
+          },
+          {
+            "name": "Research Centre for SHARP Vision (RCSV), The Hong Kong Polytechnic University, Kowloon, Hong Kong"
+          },
+          {
+            "name": "Centre for Eye and Vision Research (CEVR), Hong Kong Science Park, Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "239",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2025112122251341000_10.1.e002238.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc11-1909"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diabres.2021.109118"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2021.04.027"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc06-1509"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "786",
+        "DOI": "10.1001/jamaophthalmol.2019.1070",
+        "article-title": "Effectiveness of Teleretinal Imaging-Based Hospital Referral Compared With Universal Referral in Identifying Diabetic Retinopathy: A Cluster Randomized Clinical Trial",
+        "volume": "137",
+        "author": "Joseph",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "214",
+        "DOI": "10.1016/j.ajo.2024.02.012",
+        "article-title": "Diagnostic Accuracy of Artificial Intelligence-Based Automated Diabetic Retinopathy Screening in Real-World Settings: A Systematic Review and Meta-Analysis",
+        "volume": "263",
+        "author": "Joseph",
+        "year": "2024",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.18152"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41746-023-00931-7",
+        "article-title": "Autonomous artificial intelligence increases real-world specialist clinic productivity in a cluster-randomized trial",
+        "volume": "6",
+        "author": "Abramoff",
+        "year": "2023",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1111/aos.14767",
+        "article-title": "Comparison of different methods of retinal imaging for the screening of diabetic retinopathy: a systematic review",
+        "volume": "100",
+        "author": "Kárason",
+        "year": "2022",
+        "journal-title": "Acta Ophthalmol"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-018-0107-6"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/jcm11092352",
+        "article-title": "Handheld Fundus Camera for Diabetic Retinopathy Screening: A Comparison Study with Table-Top Fundus Camera in Real-Life Setting",
+        "volume": "11",
+        "author": "Midena",
+        "year": "2022",
+        "journal-title": "J Clin Med"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1531",
+        "DOI": "10.1016/j.survophthal.2021.11.006",
+        "article-title": "Sensitivity and specificity of handheld fundus cameras for eye disease: A systematic review and pooled analysis",
+        "volume": "67",
+        "author": "Palermo",
+        "year": "2022",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.15",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2022/5779276",
+        "article-title": "Cross-Camera External Validation for Artificial Intelligence Software in Diagnosis of Diabetic Retinopathy",
+        "volume": "2022",
+        "author": "Tsai",
+        "year": "2022",
+        "journal-title": "J Diabetes Res"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "781",
+        "DOI": "10.1109/TMI.2017.2759102",
+        "article-title": "End-to-End Adversarial Retinal Image Synthesis",
+        "volume": "37",
+        "author": "Costa",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2018.6156"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.18",
+        "unstructured": "Costa P , Galdran A , Meyer MI , et al . Towards Adversarial Retinal Image Synthesis. ArXiv 2017."
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-022-13658-4",
+        "article-title": "A new generative adversarial network for medical images super resolution",
+        "volume": "12",
+        "author": "Ahmad",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101552"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "101561",
+        "DOI": "10.1016/j.media.2019.101561",
+        "article-title": "IDRiD: Diabetic Retinopathy - Segmentation and Grading Challenge",
+        "volume": "59",
+        "author": "Porwal",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li H , Liy H , Fu H , et al . Structure-consistent restoration network for cataract fundus image enhancement. In: Wang L , Dou Q , Fletcher PT , et al , eds. Medical image computing and computer assisted intervention –MICCAI 2022. Lecture notes in computer science. 13432. Cham: Springer, 2022. Available: https://doi.org/10.1007/978-3-031-16434-7_47",
+        "DOI": "10.1007/978-3-031-16434-7_47"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11892-012-0285-4"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1009",
+        "DOI": "10.1111/ceo.13575",
+        "article-title": "Development and validation of a deep-learning algorithm for the detection of neovascular age-related macular degeneration from colour fundus photographs",
+        "volume": "47",
+        "author": "Keel",
+        "year": "2019",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc18-0147"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu W , Zhou P , Yan S , et al . InceptionNeXt: when inception meets convnext. 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR); Seattle, WA, USA. doi:10.1109/CVPR52733.2024.00542",
+        "DOI": "10.1109/CVPR52733.2024.00542"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1258/jms.2008.008015"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.29",
+        "article-title": "Artificial Intelligence (AI)-Enhanced Detection of Diabetic Retinopathy From Fundus Images: The Current Landscape and Future Directions",
+        "volume": "16",
+        "author": "Alsadoun",
+        "year": "2024",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1728",
+        "DOI": "10.2337/dci23-0032",
+        "article-title": "Artificial Intelligence and Diabetic Retinopathy: AI Framework, Prospective Studies, Head-to-head Validation, and Cost-effectiveness",
+        "volume": "46",
+        "author": "Rajesh",
+        "year": "2023",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.1016/j.infoh.2024.05.003",
+        "article-title": "Enhancing retinal disease diagnosis through AI: Evaluating performance, ethical considerations, and clinical implementation",
+        "volume": "1",
+        "author": "Fatima",
+        "year": "2024",
+        "journal-title": "Informatics Health"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/brainsci12050535",
+        "article-title": "Transfer Learning-Based Model for Diabetic Retinopathy Diagnosis Using Retinal Images",
+        "volume": "12",
+        "author": "Jabbar",
+        "year": "2022",
+        "journal-title": "Brain Sci"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "5685",
+        "DOI": "10.3390/app13095685",
+        "article-title": "Transfer Learning for Diabetic Retinopathy Detection: A Study of Dataset Combination and Model Performance",
+        "volume": "13",
+        "author": "Mutawa",
+        "year": "2023",
+        "journal-title": "Appl Sci (Basel)"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu Y , Li Y , Shin B-S . Medical image processing with contextual style transfer. Hum Cent Comput Inf Sci 2020;10. doi:10.1186/s13673-020-00251-9",
+        "DOI": "10.1186/s13673-020-00251-9"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.35",
+        "unstructured": "Germani E , Fromont E , Maumet C . Mitigating analytical variability in fMRI results with style transfer. ArXiv 2024."
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/diagnostics12061499",
+        "article-title": "Optics and Utility of Low-Cost Smartphone-Based Portable Digital Fundus Camera System for Screening of Retinal Diseases",
+        "volume": "12",
+        "author": "Chalam",
+        "year": "2022",
+        "journal-title": "Diagnostics (Basel)"
+      },
+      {
+        "key": "2025112122251341000_10.1.e002238.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1038/s41433-020-01262-7",
+        "article-title": "Review of retinal cameras for global coverage of diabetic retinopathy screening",
+        "volume": "35",
+        "author": "Rajalakshmi",
+        "year": "2021",
+        "journal-title": "Eye (Lond)"
+      }
+    ],
+    "container-title": [
+      "BMJ Open Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1136/bmjophth-2025-002238",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          22
+        ]
+      ],
+      "date-time": "2025-11-22T06:25:22Z",
+      "timestamp": 1763792722000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://bmjophth.bmj.com/lookup/doi/10.1136/bmjophth-2025-002238"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            21
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1136/bmjophth-2025-002238"
+    ],
+    "URL": "https://doi.org/10.1136/bmjophth-2025-002238",
+    "relation": {},
+    "ISSN": [
+      "2397-3269"
+    ],
+    "issn-type": [
+      {
+        "value": "2397-3269",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    }
+  }
+}

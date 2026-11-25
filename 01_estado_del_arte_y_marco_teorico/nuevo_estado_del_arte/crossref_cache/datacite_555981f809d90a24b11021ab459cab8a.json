@@ -1,0 +1,192 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2611.01992",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2611.01992",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2611.01992",
+      "identifiers": [
+        {
+          "identifier": "2611.01992",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2611.01992"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Rahman, Al-Amin",
+          "nameType": "Personal",
+          "givenName": "Al-Amin",
+          "familyName": "Rahman",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Ahmed, Saifuddin",
+          "nameType": "Personal",
+          "givenName": "Saifuddin",
+          "familyName": "Ahmed",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Ahmed, Resalat",
+          "nameType": "Personal",
+          "givenName": "Resalat",
+          "familyName": "Ahmed",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Cross-Dataset Generalization of Glaucoma Detection CNNs: Effects of Operating Threshold, Multi-Source Training, and Color Normalization"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Image and Video Processing (eess.IV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-11-01T15:26:56Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-11-03T03:58:32Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-11",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Deep learning models for glaucoma detection are usually tested on images from the same dataset used for training. That says little about how they will work at a new hospital or with a new camera. We fine-tuned five ImageNet-pretrained CNNs (ResNet50, DenseNet121, MobileNetV2, EfficientNet-B0, InceptionV3) with identical settings on one of three public fundus datasets (ACRIMA, ORIGA, RIM-ONE DL). Each was tested on a held-out part of its own dataset and on the other two datasets in full. We used three random seeds and report mean and SD over seeds. Mean in-domain AUC was 0.913 and cross-source AUC was 0.702, a drop of 0.211 (SD 0.030; 95% CI 0.135 to 0.286). After correction for multiple comparisons we found no evidence that any architecture did better, though three seeds give low power. At thresholds set on the source validation data, specificity fell from 0.870 to 0.506 and sensitivity from 0.831 to 0.726. Resetting the threshold on 10% of the target images raised specificity to 0.670 but lowered sensitivity to 0.609, and balanced accuracy rose only from 0.616 to 0.639. Training on two sources together did not help (held-out AUC 0.695 versus 0.702). LAB reference normalization (cross-source AUC 0.755) and strong color augmentation (0.754) gave similar gains, cutting the drop to about 0.16. Ben Graham normalization (0.733) and CLAHE (0.712) helped less, and gray-world (0.696) did not help. The two best methods raised specificity but lowered sensitivity. On G1020, used only for testing, AUC stayed near 0.5 in every condition, and networks trained within G1020 were also close to chance. Strong in-domain results do not show that a glaucoma model will work on new data. Normalization and color augmentation reduce the drop but do not remove it. Studies should report external validation and check the operating threshold, not only AUC.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "17 pages, 10 figures, 11 tables",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNjExLjAxOTkyPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjYxMS4wMTk5MjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5SYWhtYW4sIEFsLUFtaW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkFsLUFtaW48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UmFobWFuPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkFobWVkLCBTYWlmdWRkaW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlNhaWZ1ZGRpbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5BaG1lZDwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5BaG1lZCwgUmVzYWxhdDwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+UmVzYWxhdDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5BaG1lZDwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+Q3Jvc3MtRGF0YXNldCBHZW5lcmFsaXphdGlvbiBvZiBHbGF1Y29tYSBEZXRlY3Rpb24gQ05OczogRWZmZWN0cyBvZiBPcGVyYXRpbmcgVGhyZXNob2xkLCBNdWx0aS1Tb3VyY2UgVHJhaW5pbmcsIGFuZCBDb2xvciBOb3JtYWxpemF0aW9uPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPmFyWGl2PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI2PC9wdWJsaWNhdGlvblllYXI+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+SW1hZ2UgYW5kIFZpZGVvIFByb2Nlc3NpbmcgKGVlc3MuSVYpPC9zdWJqZWN0PgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+Q29tcHV0ZXIgVmlzaW9uIGFuZCBQYXR0ZXJuIFJlY29nbml0aW9uIChjcy5DVik8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGaWVsZHMgb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSAoRk9TKSI+Rk9TOiBFbGVjdHJpY2FsIGVuZ2luZWVyaW5nLCBlbGVjdHJvbmljIGVuZ2luZWVyaW5nLCBpbmZvcm1hdGlvbiBlbmdpbmVlcmluZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMTEtMDFUMTU6MjY6NTZaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMTEtMDNUMDM6NTg6MzJaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNi0xMTwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8iIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHJpZ2h0c0lkZW50aWZpZXI9IkNDLUJZLTQuMCI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPkRlZXAgbGVhcm5pbmcgbW9kZWxzIGZvciBnbGF1Y29tYSBkZXRlY3Rpb24gYXJlIHVzdWFsbHkgdGVzdGVkIG9uIGltYWdlcyBmcm9tIHRoZSBzYW1lIGRhdGFzZXQgdXNlZCBmb3IgdHJhaW5pbmcuIFRoYXQgc2F5cyBsaXR0bGUgYWJvdXQgaG93IHRoZXkgd2lsbCB3b3JrIGF0IGEgbmV3IGhvc3BpdGFsIG9yIHdpdGggYSBuZXcgY2FtZXJhLiBXZSBmaW5lLXR1bmVkIGZpdmUgSW1hZ2VOZXQtcHJldHJhaW5lZCBDTk5zIChSZXNOZXQ1MCwgRGVuc2VOZXQxMjEsIE1vYmlsZU5ldFYyLCBFZmZpY2llbnROZXQtQjAsIEluY2VwdGlvblYzKSB3aXRoIGlkZW50aWNhbCBzZXR0aW5ncyBvbiBvbmUgb2YgdGhyZWUgcHVibGljIGZ1bmR1cyBkYXRhc2V0cyAoQUNSSU1BLCBPUklHQSwgUklNLU9ORSBETCkuIEVhY2ggd2FzIHRlc3RlZCBvbiBhIGhlbGQtb3V0IHBhcnQgb2YgaXRzIG93biBkYXRhc2V0IGFuZCBvbiB0aGUgb3RoZXIgdHdvIGRhdGFzZXRzIGluIGZ1bGwuIFdlIHVzZWQgdGhyZWUgcmFuZG9tIHNlZWRzIGFuZCByZXBvcnQgbWVhbiBhbmQgU0Qgb3ZlciBzZWVkcy4gTWVhbiBpbi1kb21haW4gQVVDIHdhcyAwLjkxMyBhbmQgY3Jvc3Mtc291cmNlIEFVQyB3YXMgMC43MDIsIGEgZHJvcCBvZiAwLjIxMSAoU0QgMC4wMzA7IDk1JSBDSSAwLjEzNSB0byAwLjI4NikuIEFmdGVyIGNvcnJlY3Rpb24gZm9yIG11bHRpcGxlIGNvbXBhcmlzb25zIHdlIGZvdW5kIG5vIGV2aWRlbmNlIHRoYXQgYW55IGFyY2hpdGVjdHVyZSBkaWQgYmV0dGVyLCB0aG91Z2ggdGhyZWUgc2VlZHMgZ2l2ZSBsb3cgcG93ZXIuIEF0IHRocmVzaG9sZHMgc2V0IG9uIHRoZSBzb3VyY2UgdmFsaWRhdGlvbiBkYXRhLCBzcGVjaWZpY2l0eSBmZWxsIGZyb20gMC44NzAgdG8gMC41MDYgYW5kIHNlbnNpdGl2aXR5IGZyb20gMC44MzEgdG8gMC43MjYuIFJlc2V0dGluZyB0aGUgdGhyZXNob2xkIG9uIDEwJSBvZiB0aGUgdGFyZ2V0IGltYWdlcyByYWlzZWQgc3BlY2lmaWNpdHkgdG8gMC42NzAgYnV0IGxvd2VyZWQgc2Vuc2l0aXZpdHkgdG8gMC42MDksIGFuZCBiYWxhbmNlZCBhY2N1cmFjeSByb3NlIG9ubHkgZnJvbSAwLjYxNiB0byAwLjYzOS4gVHJhaW5pbmcgb24gdHdvIHNvdXJjZXMgdG9nZXRoZXIgZGlkIG5vdCBoZWxwIChoZWxkLW91dCBBVUMgMC42OTUgdmVyc3VzIDAuNzAyKS4gTEFCIHJlZmVyZW5jZSBub3JtYWxpemF0aW9uIChjcm9zcy1zb3VyY2UgQVVDIDAuNzU1KSBhbmQgc3Ryb25nIGNvbG9yIGF1Z21lbnRhdGlvbiAoMC43NTQpIGdhdmUgc2ltaWxhciBnYWlucywgY3V0dGluZyB0aGUgZHJvcCB0byBhYm91dCAwLjE2LiBCZW4gR3JhaGFtIG5vcm1hbGl6YXRpb24gKDAuNzMzKSBhbmQgQ0xBSEUgKDAuNzEyKSBoZWxwZWQgbGVzcywgYW5kIGdyYXktd29ybGQgKDAuNjk2KSBkaWQgbm90IGhlbHAuIFRoZSB0d28gYmVzdCBtZXRob2RzIHJhaXNlZCBzcGVjaWZpY2l0eSBidXQgbG93ZXJlZCBzZW5zaXRpdml0eS4gT24gRzEwMjAsIHVzZWQgb25seSBmb3IgdGVzdGluZywgQVVDIHN0YXllZCBuZWFyIDAuNSBpbiBldmVyeSBjb25kaXRpb24sIGFuZCBuZXR3b3JrcyB0cmFpbmVkIHdpdGhpbiBHMTAyMCB3ZXJlIGFsc28gY2xvc2UgdG8gY2hhbmNlLiBTdHJvbmcgaW4tZG9tYWluIHJlc3VsdHMgZG8gbm90IHNob3cgdGhhdCBhIGdsYXVjb21hIG1vZGVsIHdpbGwgd29yayBvbiBuZXcgZGF0YS4gTm9ybWFsaXphdGlvbiBhbmQgY29sb3IgYXVnbWVudGF0aW9uIHJlZHVjZSB0aGUgZHJvcCBidXQgZG8gbm90IHJlbW92ZSBpdC4gU3R1ZGllcyBzaG91bGQgcmVwb3J0IGV4dGVybmFsIHZhbGlkYXRpb24gYW5kIGNoZWNrIHRoZSBvcGVyYXRpbmcgdGhyZXNob2xkLCBub3Qgb25seSBBVUMuPC9kZXNjcmlwdGlvbj4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9Ik90aGVyIj4xNyBwYWdlcywgMTAgZmlndXJlcywgMTEgdGFibGVzPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+      "url": "https://arxiv.org/abs/2611.01992",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-11-03T09:40:46.000Z",
+      "registered": "2026-11-03T09:40:47.000Z",
+      "published": "2026",
+      "updated": "2026-11-03T09:40:47.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2611.01992",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

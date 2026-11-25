@@ -1,0 +1,696 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2026-11-06T11:40:33Z",
+      "timestamp": 1793965233856,
+      "version": "4.8.0"
+    },
+    "publisher-location": "New York, NY, USA",
+    "reference-count": 57,
+    "publisher": "ACM",
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          27
+        ]
+      ]
+    },
+    "DOI": "10.1145/3746027.3755229",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2025-10-25T07:26:38Z",
+      "timestamp": 1761377198000
+    },
+    "page": "3893-3902",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "EyecareGPT: Boosting Comprehensive Ophthalmology Understanding with Tailored Dataset, Benchmark and Model"
+    ],
+    "prefix": "10.1145",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-2794-1478",
+        "authenticated-orcid": false,
+        "given": "Sijing",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-3269-5525",
+        "authenticated-orcid": false,
+        "given": "Tianwei",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-6174-7927",
+        "authenticated-orcid": false,
+        "given": "Lingshuai",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology, Weihai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5988-7609",
+        "authenticated-orcid": false,
+        "given": "Wenqiao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-1994-9053",
+        "authenticated-orcid": false,
+        "given": "Jiang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-7297-4536",
+        "authenticated-orcid": false,
+        "given": "Xiaoda",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2258-1291",
+        "authenticated-orcid": false,
+        "given": "Juncheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-4829-0242",
+        "authenticated-orcid": false,
+        "given": "Yucheng",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The First Affiliated Hospital of Chenzhou, Chenzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4035-640X",
+        "authenticated-orcid": false,
+        "given": "Xiaohui",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6142-9914",
+        "authenticated-orcid": false,
+        "given": "Jun",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9017-2508",
+        "authenticated-orcid": false,
+        "given": "Yueting",
+        "family": "Zhuang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hang Zhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4446-1100",
+        "authenticated-orcid": false,
+        "given": "Beng Chin",
+        "family": "Ooi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_1_1_1",
+        "volume-title": "Yi: Open Foundation Models by 01.AI. arXiv:2403.04652 [cs.CL] https://arxiv.org/abs/2403.04652",
+        "author": "Young Alex",
+        "year": "2025",
+        "unstructured": "01. AI:, Alex Young, Bei Chen, Chao Li, Chengen Huang, Ge Zhang, Guanwei Zhang, Guoyin Wang, Heng Li, Jiangcheng Zhu, Jianqun Chen, Jing Chang, Kaidong Yu, Peng Liu, Qiang Liu, Shawn Yue, Senbin Yang, Shiming Yang, Wen Xie, Wenhao Huang, Xiaohui Hu, Xiaoyi Ren, Xinyao Niu, Pengcheng Nie, Yanpeng Li, Yuchi Xu, Yudong Liu, Yue Wang, Yuxuan Cai, Zhenyu Gu, Zhiyuan Liu, and Zonghong Dai. 2025. Yi: Open Foundation Models by 01.AI. arXiv:2403.04652 [cs.CL] https://arxiv.org/abs/2403.04652"
+      },
+      {
+        "key": "e_1_3_2_1_2_1",
+        "volume-title": "Large Language Model. https://deepmind.google/technologies/gemini/flash-thinking/ Accessed",
+        "author": "Flash Google AI.",
+        "year": "2025",
+        "unstructured": "Google AI. [n.d.]. Gemini 2.0 Flash. Large Language Model. https://deepmind.google/technologies/gemini/flash-thinking/ Accessed April 11, 2025."
+      },
+      {
+        "key": "e_1_3_2_1_3_1",
+        "unstructured": "Jean-Baptiste Alayrac Jeff Donahue Pauline Luc Antoine Miech Iain Barr Yana Hasson Karel Lenc Arthur Mensch Katie Millican Malcolm Reynolds Roman Ring Eliza Rutherford Serkan Cabi Tengda Han Zhitao Gong Sina Samangooei Marianne Monteiro Jacob Menick Sebastian Borgeaud Andrew Brock Aida Nematzadeh Sahand Sharifzadeh Mikolaj Binkowski Ricardo Barreira Oriol Vinyals Andrew Zisserman and Karen Simonyan. 2022. Flamingo: a Visual Language Model for Few-Shot Learning. arXiv:2204.14198 [cs.CV] https://arxiv.org/abs/2204.14198"
+      },
+      {
+        "key": "e_1_3_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/59505"
+      },
+      {
+        "key": "e_1_3_2_1_5_1",
+        "volume-title": "arXiv preprint arXiv:2502.13923",
+        "author": "Bai Shuai",
+        "year": "2025",
+        "unstructured": "Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun Tang, Humen Zhong, Yuanzhi Zhu, Mingkun Yang, Zhaohai Li, Jianqiang Wan, Pengfei Wang, Wei Ding, Zheren Fu, Yiheng Xu, Jiabo Ye, Xi Zhang, Tianbao Xie, Zesen Cheng, Hang Zhang, Zhibo Yang, Haiyang Xu, and Junyang Lin. 2025. Qwen2.5-VL Technical Report. arXiv preprint arXiv:2502.13923 (2025)."
+      },
+      {
+        "key": "e_1_3_2_1_6_1",
+        "volume-title": "A survey of word embeddings evaluation methods. arXiv preprint arXiv:1801.09536",
+        "author": "Bakarov Amir",
+        "year": "2018",
+        "unstructured": "Amir Bakarov. 2018. A survey of word embeddings evaluation methods. arXiv preprint arXiv:1801.09536 (2018)."
+      },
+      {
+        "key": "e_1_3_2_1_7_1",
+        "volume-title": "Adaptive optics imaging in ophthalmology: redefining vision research and clinical practice. JFO Open Ophthalmology",
+        "author": "Balas Michael",
+        "year": "2024",
+        "unstructured": "Michael Balas, Vethushan Ramalingam, Bhadra Pandya, Ahmed Abdelaal, and Runjie Bill Shi. 2024. Adaptive optics imaging in ophthalmology: redefining vision research and clinical practice. JFO Open Ophthalmology (2024), 100116."
+      },
+      {
+        "key": "e_1_3_2_1_8_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ling-Ping Cen Jie Ji Jian-Wei Lin Si-Tong Ju Hong-Jie Lin Tai-Ping Li Yun Wang Jian-Feng Yang Yu-Fen Liu Shaoying Tan et al. 2021. Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks. Nature communications Vol. 12 1 (2021) 4828.",
+        "DOI": "10.1038/s41467-021-25138-w"
+      },
+      {
+        "key": "e_1_3_2_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2024.emnlp-main.418"
+      },
+      {
+        "key": "e_1_3_2_1_10_1",
+        "volume-title": "Xidong Wang, Ruifei Zhang, Zhenyang Cai, Ke Ji, et al.",
+        "author": "Chen Junying",
+        "year": "2024",
+        "unstructured": "Junying Chen, Chi Gui, Ruyi Ouyang, Anningzhe Gao, Shunian Chen, Guiming Hardy Chen, Xidong Wang, Ruifei Zhang, Zhenyang Cai, Ke Ji, et al., 2024b. Huatuogpt-vision, towards injecting medical visual knowledge into multimodal llms at scale. arXiv preprint arXiv:2406.19280 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_11_1",
+        "unstructured": "Zhe Chen Weiyun Wang Yue Cao Yangzhou Liu Zhangwei Gao Erfei Cui Jinguo Zhu Shenglong Ye Hao Tian Zhaoyang Liu Lixin Gu Xuehui Wang Qingyun Li Yimin Ren Zixuan Chen Jiapeng Luo Jiahao Wang Tan Jiang Bo Wang Conghui He Botian Shi Xingcheng Zhang Han Lv Yi Wang Wenqi Shao Pei Chu Zhongying Tu Tong He Zhiyong Wu Huipeng Deng Jiaye Ge Kai Chen Kaipeng Zhang Limin Wang Min Dou Lewei Lu Xizhou Zhu Tong Lu Dahua Lin Yu Qiao Jifeng Dai and Wenhai Wang. 2025. Expanding Performance Boundaries of Open-Source Multimodal Models with Model Data and Test-Time Scaling. arXiv:2412.05271 [cs.CV] https://arxiv.org/abs/2412.05271"
+      },
+      {
+        "key": "e_1_3_2_1_12_1",
+        "volume-title": "Proceedings of Machine Translation Summit IX: Papers.",
+        "author": "Culy Chris",
+        "year": "2003",
+        "unstructured": "Chris Culy and Susanne Z Riehemann. 2003. The limits of N-gram translation evaluation metrics. In Proceedings of Machine Translation Summit IX: Papers."
+      },
+      {
+        "key": "e_1_3_2_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compeleceng.2019.106532"
+      },
+      {
+        "key": "e_1_3_2_1_14_1",
+        "volume-title": "LLaVA-NeXT-Med: Medical Multimodal Large Language Model. In 2025 Asia-Europe Conference on Cybersecurity, Internet of Things and Soft Computing (CITSC). IEEE, 474-477",
+        "author": "Guo Yunfei",
+        "year": "2025",
+        "unstructured": "Yunfei Guo and Wu Huang. 2025. LLaVA-NeXT-Med: Medical Multimodal Large Language Model. In 2025 Asia-Europe Conference on Cybersecurity, Internet of Things and Soft Computing (CITSC). IEEE, 474-477."
+      },
+      {
+        "key": "e_1_3_2_1_15_1",
+        "unstructured": "Aaron Hurst Adam Lerer Adam P Goucher Adam Perelman Aditya Ramesh Aidan Clark AJ Ostrow Akila Welihinda Alan Hayes Alec Radford et al. 2024. Gpt-4o system card. arXiv preprint arXiv:2410.21276 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17632/rscbjbr9sj"
+      },
+      {
+        "key": "e_1_3_2_1_17_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Daniel Kermany Kang Zhang and Michael Goldbaum. 2018b. Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images. doi:10.17632/rscbjbr9sj.3",
+        "DOI": "10.17632/rscbjbr9sj.3"
+      },
+      {
+        "key": "e_1_3_2_1_18_1",
+        "unstructured": "Henry Knipe. 2005. Radiopaedia's mission is to create the best radiology reference the world has ever seen and to make it available for free forever for all. Website. https://radiopaedia.org."
+      },
+      {
+        "key": "e_1_3_2_1_19_1",
+        "volume-title": "Octdl: Optical coherence tomography dataset for image-based deep learning methods. Scientific data",
+        "author": "Kulyabin Mikhail",
+        "year": "2024",
+        "unstructured": "Mikhail Kulyabin, Aleksei Zhdanov, Anastasia Nikiforova, Andrey Stepichev, Anna Kuznetsova, Mikhail Ronkin, Vasilii Borisov, Alexander Bogachev, Sergey Korotkich, Paul A Constable, et al., 2024. Octdl: Optical coherence tomography dataset for image-based deep learning methods. Scientific data, Vol. 11, 1 (2024), 365."
+      },
+      {
+        "key": "e_1_3_2_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz682"
+      },
+      {
+        "key": "e_1_3_2_1_21_1",
+        "first-page": "28541",
+        "article-title": "Llava-med: Training a large language-and-vision assistant for biomedicine in one day",
+        "volume": "36",
+        "author": "Li Chunyuan",
+        "year": "2023",
+        "unstructured": "Chunyuan Li, Cliff Wong, Sheng Zhang, Naoto Usuyama, Haotian Liu, Jianwei Yang, Tristan Naumann, Hoifung Poon, and Jianfeng Gao. 2023. Llava-med: Training a large language-and-vision assistant for biomedicine in one day. Advances in Neural Information Processing Systems, Vol. 36 (2023), 28541-28564.",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_3_2_1_22_1",
+        "volume-title": "Paisan Ruamviboonsuk, Rajiv Raman, Leonor Corsino, et al.",
+        "author": "Li Jiajia",
+        "year": "2024",
+        "unstructured": "Jiajia Li, Zhouyu Guan, Jing Wang, Carol Y Cheung, Yingfeng Zheng, Lee-Ling Lim, Cynthia Ciwei Lim, Paisan Ruamviboonsuk, Rajiv Raman, Leonor Corsino, et al., 2024. Integrated image-based deep learning and language models for primary diabetes care. Nature medicine, Vol. 30, 10 (2024), 2886-2896."
+      },
+      {
+        "key": "e_1_3_2_1_23_1",
+        "volume-title": "Interpretation of Slit Lamp Images of Anterior Segment Diseases",
+        "author": "Liang Qingfeng",
+        "unstructured": "Qingfeng Liang and Yang Zhang. 2022. Interpretation of Slit Lamp Images of Anterior Segment Diseases. People's Medical Publishing House Co., Ltd."
+      },
+      {
+        "key": "e_1_3_2_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/1073445.1073465"
+      },
+      {
+        "key": "e_1_3_2_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.02520"
+      },
+      {
+        "key": "e_1_3_2_1_26_1",
+        "unstructured": "Tianwei Lin Wenqiao Zhang Sijing Li Yuqian Yuan Binhe Yu Haoyuan Li Wanggui He Hao Jiang Mengze Li Xiaohui Song et al. 2025. HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation. arXiv preprint arXiv:2502.09838 (2025)."
+      },
+      {
+        "key": "e_1_3_2_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.02484"
+      },
+      {
+        "key": "e_1_3_2_1_28_1",
+        "volume-title": "Llavanext: Improved reasoning, ocr, and world knowledge.",
+        "author": "Liu Haotian",
+        "year": "2024",
+        "unstructured": "Haotian Liu, Chunyuan Li, Yuheng Li, Bo Li, Yuanhan Zhang, Sheng Shen, and Yong Jae Lee. 2024b. Llavanext: Improved reasoning, ocr, and world knowledge."
+      },
+      {
+        "key": "e_1_3_2_1_29_1",
+        "unstructured": "Haotian Liu Chunyuan Li Qingyang Wu and Yong Jae Lee. 2023. Visual Instruction Tuning. In NeurIPS."
+      },
+      {
+        "key": "e_1_3_2_1_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R Liu X Wang Q Wu L Dai X Fang T Yan J Son S Tang J Li Z Gao et al. 2022. DeepDRiD: diabetic retinopathy-grading and image quality estimation challenge. Patterns 3 (6) 100512 (2022).",
+        "DOI": "10.1016/j.patter.2022.100512"
+      },
+      {
+        "key": "e_1_3_2_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01872"
+      },
+      {
+        "key": "e_1_3_2_1_32_1",
+        "first-page": "353",
+        "article-title": "Med-flamingo: a multimodal medical few-shot learner. In Machine Learning for Health (ML4H)",
+        "author": "Moor Michael",
+        "year": "2023",
+        "unstructured": "Michael Moor, Qian Huang, Shirley Wu, Michihiro Yasunaga, Yash Dalmia, Jure Leskovec, Cyril Zakka, Eduardo Pontes Reis, and Pranav Rajpurkar. 2023. Med-flamingo: a multimodal medical few-shot learner. In Machine Learning for Health (ML4H). PMLR, 353-367.",
+        "journal-title": "PMLR"
+      },
+      {
+        "key": "e_1_3_2_1_33_1",
+        "unstructured": "Peking University International Competition on Ocular Disease Intelligent Recognition. 2019. Ocular Disease Intelligent Recognition (ODIR-2019). https://odir2019.grand-challenge.org/dataset/ Accessed [Date you accessed the dataset]."
+      },
+      {
+        "key": "e_1_3_2_1_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECAI52376.2021.9515188"
+      },
+      {
+        "key": "e_1_3_2_1_35_1",
+        "volume-title": "Chen Chen, Cheng Ouyang, and Daniel Rueckert.",
+        "author": "Pan Jiazhen",
+        "year": "2025",
+        "unstructured": "Jiazhen Pan, Che Liu, Junde Wu, Fenglin Liu, Jiayuan Zhu, Hongwei Bran Li, Chen Chen, Cheng Ouyang, and Daniel Rueckert. 2025. Medvlm-r1: Incentivizing medical reasoning capability of vision-language models (vlms) via reinforcement learning. arXiv preprint arXiv:2502.19634 (2025)."
+      },
+      {
+        "key": "e_1_3_2_1_36_1",
+        "volume-title": "Proceedings of the 40th annual meeting of the Association for Computational Linguistics. 311-318",
+        "author": "Papineni Kishore",
+        "year": "2002",
+        "unstructured": "Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002. Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting of the Association for Computational Linguistics. 311-318."
+      },
+      {
+        "key": "e_1_3_2_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/data3030025"
+      },
+      {
+        "key": "e_1_3_2_1_38_1",
+        "volume-title": "LMOD: A Large Multimodal Ophthalmology Dataset and Benchmark for Large Vision-Language Models. arXiv:2410.01620 [cs.CV] https://arxiv.org/abs/2410.01620",
+        "author": "Qin Zhenyue",
+        "year": "2025",
+        "unstructured": "Zhenyue Qin, Yu Yin, Dylan Campbell, Xuansheng Wu, Ke Zou, Yih-Chung Tham, Ninghao Liu, Xiuzhen Zhang, and Qingyu Chen. 2025. LMOD: A Large Multimodal Ophthalmology Dataset and Benchmark for Large Vision-Language Models. arXiv:2410.01620 [cs.CV] https://arxiv.org/abs/2410.01620"
+      },
+      {
+        "key": "e_1_3_2_1_39_1",
+        "unstructured": "Tianhe Ren Shilong Liu Ailing Zeng Jing Lin Kunchang Li He Cao Jiayu Chen Xinyu Huang Yukang Chen Feng Yan et al. 2024. Grounded sam: Assembling open-world models for diverse visual tasks. arXiv preprint arXiv:2401.14159 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_40_1",
+        "volume-title": "Multi-label retinal disease classification using transformers",
+        "author": "Rodríguez Manuel Alejandro",
+        "year": "2022",
+        "unstructured": "Manuel Alejandro Rodríguez, Hasan AlMarzouqi, and Panos Liatsis. 2022. Multi-label retinal disease classification using transformers. IEEE Journal of Biomedical and Health Informatics (2022)."
+      },
+      {
+        "key": "e_1_3_2_1_41_1",
+        "unstructured": "Khaled Saab Tao Tu Wei-Hung Weng Ryutaro Tanno David Stutz Ellery Wulczyn Fan Zhang Tim Strother Chunjong Park Elahe Vedadi et al. 2024. Capabilities of gemini models in medicine. arXiv preprint arXiv:2404.18416 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_42_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danli Shi Weiyi Zhang Jiancheng Yang Siyu Huang Xiaolan Chen Mayinuer Yusufu Kai Jin Shan Lin Shunming Liu Qing Zhang et al. 2024. EyeCLIP: A visual-language foundation model for multi-modal ophthalmic image analysis. arXiv preprint arXiv:2409.06644 (2024).",
+        "DOI": "10.1038/s41746-025-01772-2"
+      },
+      {
+        "key": "e_1_3_2_1_43_1",
+        "volume-title": "Rosario Alicata, and Roberto Pirrone.",
+        "author": "Siragusa Irene",
+        "year": "2024",
+        "unstructured": "Irene Siragusa, Salvatore Contino, Massimo La Ciura, Rosario Alicata, and Roberto Pirrone. 2024. Medpix 2.0: a comprehensive multimodal biomedical dataset for advanced AI applications. arXiv preprint arXiv:2407.02994 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_44_1",
+        "volume-title": "Ryan Burnell, Libin Bai, Anmol Gulati, Garrett Tanzer, Damien Vincent, Zhufeng Pan, Shibo Wang, et al.",
+        "author": "Team Gemini",
+        "year": "2024",
+        "unstructured": "Gemini Team, Petko Georgiev, Ving Ian Lei, Ryan Burnell, Libin Bai, Anmol Gulati, Garrett Tanzer, Damien Vincent, Zhufeng Pan, Shibo Wang, et al., 2024. Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context. arXiv preprint arXiv:2403.05530 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_45_1",
+        "unstructured": "Gemma Team Aishwarya Kamath Johan Ferret Shreya Pathak Nino Vieillard Ramona Merhej Sarah Perrin Tatiana Matejovicova Alexandre Ramé Morgane Rivière et al. 2025. Gemma 3 Technical Report. arXiv preprint arXiv:2503.19786 (2025)."
+      },
+      {
+        "key": "e_1_3_2_1_46_1",
+        "volume-title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution. arXiv preprint arXiv:2409.12191",
+        "author": "Wang Peng",
+        "year": "2024",
+        "unstructured": "Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Yang Fan, Kai Dang, Mengfei Du, Xuancheng Ren, Rui Men, Dayiheng Liu, Chang Zhou, Jingren Zhou, and Junyang Lin. 2024. Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution. arXiv preprint arXiv:2409.12191 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2024.findings-acl.296"
+      },
+      {
+        "key": "e_1_3_2_1_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo-2023-325054"
+      },
+      {
+        "key": "e_1_3_2_1_49_1",
+        "unstructured": "Yuan Yao Tianyu Yu Ao Zhang Chongyi Wang Junbo Cui Hongji Zhu Tianchi Cai Haoyu Li Weilin Zhao Zhihui He et al. 2024. MiniCPM-V: A GPT-4V Level MLLM on Your Phone. arXiv preprint arXiv:2408.01800 (2024)."
+      },
+      {
+        "key": "e_1_3_2_1_50_1",
+        "unstructured": "Jiabo Ye Haiyang Xu Haowei Liu Anwen Hu Ming Yan Qi Qian Ji Zhang Fei Huang and Jingren Zhou. 2024. mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models. arXiv:2408.04840 [cs.CV] https://arxiv.org/abs/2408.04840"
+      },
+      {
+        "key": "e_1_3_2_1_51_1",
+        "volume-title": "European Conference on Computer Vision. Springer, 240-255",
+        "author": "You Keen",
+        "year": "2024",
+        "unstructured": "Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeffrey Nichols, Yinfei Yang, and Zhe Gan. 2024. Ferret-ui: Grounded mobile ui understanding with multimodal llms. In European Conference on Computer Vision. Springer, 240-255."
+      },
+      {
+        "key": "e_1_3_2_1_52_1",
+        "volume-title": "Eduardo Kaiser Ururahy Nunes Fonseca, Henrique Min Ho Lee, Zahra Shakeri Hossein Abad, Andrew Y Ng, et al.",
+        "author": "Yu Feiyang",
+        "year": "2023",
+        "unstructured": "Feiyang Yu, Mark Endo, Rayan Krishnan, Ian Pan, Andy Tsai, Eduardo Pontes Reis, Eduardo Kaiser Ururahy Nunes Fonseca, Henrique Min Ho Lee, Zahra Shakeri Hossein Abad, Andrew Y Ng, et al., 2023. Evaluating progress in automatic chest x-ray radiology report generation. Patterns, Vol. 4, 9 (2023)."
+      },
+      {
+        "key": "e_1_3_2_1_53_1",
+        "volume-title": "UMIT: Unifying Medical Imaging Tasks via Vision-Language Models. arXiv preprint arXiv:2503.15892",
+        "author": "Yu Haiyang",
+        "year": "2025",
+        "unstructured": "Haiyang Yu, Siyang Yi, Ke Niu, Minghan Zhuo, and Bin Li. 2025. UMIT: Unifying Medical Imaging Tasks via Vision-Language Models. arXiv preprint arXiv:2503.15892 (2025)."
+      },
+      {
+        "key": "e_1_3_2_1_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-025-58344-x"
+      },
+      {
+        "key": "e_1_3_2_1_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01100"
+      },
+      {
+        "key": "e_1_3_2_1_56_1",
+        "volume-title": "Bertscore: Evaluating text generation with bert. arXiv preprint arXiv:1904.09675",
+        "author": "Zhang Tianyi",
+        "year": "2019",
+        "unstructured": "Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Weinberger, and Yoav Artzi. 2019. Bertscore: Evaluating text generation with bert. arXiv preprint arXiv:1904.09675 (2019)."
+      },
+      {
+        "key": "e_1_3_2_1_57_1",
+        "unstructured": "Huan Zhao Qian Ling Yi Pan Tianyang Zhong Jin-Yu Hu Junjie Yao Fengqian Xiao Zhenxiang Xiao Yutong Zhang San-Hua Xu Shi-Nan Wu Min Kang Zihao Wu Zhengliang Liu Xi Jiang Tianming Liu and Yi Shao. 2023. Ophtha-LLaMA2: A Large Language Model for Ophthalmology. arXiv:2312.04906 [cs.CL] https://arxiv.org/abs/2312.04906 gr"
+      }
+    ],
+    "event": {
+      "name": "MM '25: The 33rd ACM International Conference on Multimedia",
+      "location": "Dublin Ireland",
+      "acronym": "MM '25",
+      "sponsor": [
+        "SIGMM ACM Special Interest Group on Multimedia"
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 33rd ACM International Conference on Multimedia"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3746027.3755229",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2025-12-09T19:49:34Z",
+      "timestamp": 1765309774000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3746027.3755229"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          27
+        ]
+      ]
+    },
+    "references-count": 57,
+    "alternative-id": [
+      "10.1145/3746027.3755229",
+      "10.1145/3746027"
+    ],
+    "URL": "https://doi.org/10.1145/3746027.3755229",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-10-27",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

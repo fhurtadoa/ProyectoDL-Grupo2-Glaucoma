@@ -1,0 +1,569 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2026-11-15T05:41:38Z",
+      "timestamp": 1794721298866,
+      "version": "4.9.1"
+    },
+    "reference-count": 30,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2026-08-18T00:00:00Z",
+          "timestamp": 1787011200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100008951",
+        "name": "Werner H. Spross-Stiftung",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "n/a"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "n/a"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008951",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS One"
+    ],
+    "abstract": "<jats:p>Large domain-specific foundation models have been widely adopted for retinal image analysis, yet systematic evidence for their advantage over compact general-purpose architectures remains scarce. We benchmarked nine model configurations spanning 22.8M to 303M parameters (vision transformers, hierarchical Swin Transformers, ConvNeXt, and the domain-specific RETFound models) across four tasks: OCT 8-class disease classification, and three fundus photography tasks (DME severity, glaucoma detection, and DR severity grading). All models were evaluated under identical training conditions, with both pretrained (on natural-domain image datasets) and from-scratch initializations compared using Mann-Whitney U tests. Pretraining improved accuracy by 5.18–18.41 percentage points across all tasks (p &lt; 0.05 throughout), with larger benefits for CFP modalities and harder tasks. Compact hierarchical models (27–29M parameters) matched or exceeded larger architectures on three of four tasks. For instance, the SwinV2-tiny architecture ranked first on OCT, DME, and GL classification. The domain-specific RETFound model (303M) achieved the highest accuracy only on the most challenging task (DR severity grading, where the most severe class is underrepresented at 8% of images), where it outperformed the best compact model by 1.54 percentage points. These results indicate that compact general-purpose models may be sufficient for most retinal classification benchmarks, and that domain-specific foundation models may add higher value mainly for severity grading tasks with skewed class distributions.</jats:p>",
+    "DOI": "10.1371/journal.pone.0356202",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2026-08-18T17:21:44Z",
+      "timestamp": 1787073704000
+    },
+    "page": "e0356202",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Compact vision models match domain-specific foundation models for several retinal imaging classification tasks: A systematic benchmark"
+    ],
+    "prefix": "10.1371",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Dávid",
+        "family": "Isztl",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-3639-8289",
+        "authenticated-orcid": true,
+        "given": "Tahm",
+        "family": "Spitznagel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gábor Márk",
+        "family": "Somfai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6003-9079",
+        "authenticated-orcid": true,
+        "given": "Rui",
+        "family": "Santos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "pone.0356202.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "109119",
+        "DOI": "10.1016/j.diabres.2021.109119",
+        "article-title": "IDF diabetes atlas: global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045",
+        "volume": "183",
+        "author": "H Sun",
+        "year": "2022",
+        "journal-title": "Diabetes Res Clin Pract"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0356202.ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Y-C Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0356202.ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1167/tvst.9.2.6",
+        "article-title": "Insights into systemic disease through retinal imaging-based oculomics",
+        "volume": "9",
+        "author": "SK Wagner",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0356202.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1427",
+        "DOI": "10.1007/s40123-024-00942-x",
+        "article-title": "Oculomics: a crusade against the four horsemen of chronic disease",
+        "volume": "13",
+        "author": "EJ Patterson",
+        "year": "2024",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "pone.0356202.ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "101350",
+        "DOI": "10.1016/j.preteyeres.2025.101350",
+        "article-title": "Oculomics: current concepts and evidence",
+        "volume": "106",
+        "author": "Z Zhu",
+        "year": "2025",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "pone.0356202.ref006",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016. 770–8. https://doi.org/10.1109/cvpr.2016.90",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "7981",
+        "key": "pone.0356202.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Y Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pone.0356202.ref008",
+        "author": "Y Zhou",
+        "year": "2025"
+      },
+      {
+        "key": "pone.0356202.ref009",
+        "author": "MRH Taher",
+        "year": "2021"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0356202.ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1167/tvst.13.2.16",
+        "article-title": "Deep learning and machine learning algorithms for retinal image analysis in neurodegenerative disease: systematic review of datasets and models",
+        "volume": "13",
+        "author": "T Bahr",
+        "year": "2024",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "pone.0356202.ref011",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang SC, Jensen M, Yeung-Levy S, Lungren MP, Poon H, Chaudhari AS. A systematic review and implementation guidelines of multimodal foundation models in medical imaging. Research Square. 2025.",
+        "DOI": "10.21203/rs.3.rs-5537908/v1"
+      },
+      {
+        "key": "pone.0356202.ref012",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J, Dong W, Socher R, Li LJ, Li K, Fei-Fei L. Imagenet: a large-scale hierarchical image database. In: 2009 IEEE conference on computer vision and pattern recognition, 2009. 248–55.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0356202.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "3637",
+        "DOI": "10.1038/s41598-023-30853-z",
+        "article-title": "An interpretable transformer network for the retinal disease classification using optical coherence tomography",
+        "volume": "13",
+        "author": "J He",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0356202.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.3390/data3030025",
+        "article-title": "Indian Diabetic Retinopathy Image Dataset (IDRiD): a database for diabetic retinopathy screening research",
+        "volume": "3",
+        "author": "P Porwal",
+        "year": "2018",
+        "journal-title": "Data"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0356202.ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: the messidor database",
+        "volume": "33",
+        "author": "E Decencière",
+        "year": "2014",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "key": "pone.0356202.ref016",
+        "unstructured": "de Vente C, Vermeer KA, Jaccard N, Wang H, Sun H, Khader F. AIROGS: artificial intelligence for robust glaucoma screening challenge. In: 2023. https://arxiv.org/abs/2302.01738"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0356202.ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1038/s41597-022-01388-1",
+        "article-title": "PAPILA: dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment",
+        "volume": "9",
+        "author": "O Kovalyk",
+        "year": "2022",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "pone.0356202.ref018",
+        "volume-title": "EyePACS, APTOS, Messidor diabetic retinopathy dataset",
+        "author": "AS Canipek",
+        "year": "2023"
+      },
+      {
+        "key": "pone.0356202.ref019",
+        "author": "A Dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "key": "pone.0356202.ref020",
+        "unstructured": "Oquab M, Darcet T, Moutakanni T, Vo H, Szafraniec M, Khalidov V. DINOv2: Learning Robust Visual Features without Supervision. 2024. https://doi.org/arXiv:2304.07193"
+      },
+      {
+        "key": "pone.0356202.ref021",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Z, Lin Y, Cao Y, Hu H, Wei Y, Zhang Z, et al. Swin transformer: hierarchical vision transformer using shifted windows. In: 2021 IEEE/CVF International Conference on Computer Vision (ICCV), 2021. 9992–10002. https://doi.org/10.1109/iccv48922.2021.00986",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "pone.0356202.ref022",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Z, Hu H, Lin Y, Yao Z, Xie Z, Wei Y, et al. Swin transformer V2: scaling up capacity and resolution. In: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022. 11999–2009. https://doi.org/10.1109/cvpr52688.2022.01170",
+        "DOI": "10.1109/CVPR52688.2022.01170"
+      },
+      {
+        "key": "pone.0356202.ref023",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Z, Mao H, Wu C-Y, Feichtenhofer C, Darrell T, Xie S. A ConvNet for the 2020s. In: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022. 11966–76. https://doi.org/10.1109/cvpr52688.2022.01167",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "key": "pone.0356202.ref024",
+        "unstructured": "Loshchilov I, Hutter F. Decoupled weight decay regularization. In: 2019. https://doi.org/arXiv:1711.05101"
+      },
+      {
+        "key": "pone.0356202.ref025",
+        "unstructured": "Steiner A, Kolesnikov A, Zhai X, Wightman R, Uszkoreit J, Beyer L. How to train your ViT? Data, augmentation, and regularization in vision transformers. 2022. https://doi.org/arXiv:2106.10270"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0356202.ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1148/radiology.143.1.7063747",
+        "article-title": "The meaning and use of the area under a receiver operating characteristic (ROC) curve",
+        "volume": "143",
+        "author": "JA Hanley",
+        "year": "1982",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0356202.ref027",
+        "first-page": "37",
+        "article-title": "Evaluation: from precision, recall and f-measure to roc, informedness, markedness and correlation",
+        "volume": "2",
+        "author": "DM Powers",
+        "year": "2011",
+        "journal-title": "J Machine Learn Tech"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0356202.ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1177/001316446002000104",
+        "article-title": "A Coefficient of agreement for nominal scales",
+        "volume": "20",
+        "author": "J Cohen",
+        "year": "1960",
+        "journal-title": "Edu Psychol Measurement"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0356202.ref029",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1214/aoms/1177730491",
+        "article-title": "On a test of whether one of two random variables is stochastically larger than the other",
+        "volume": "18",
+        "author": "HB Mann",
+        "year": "1947",
+        "journal-title": "Ann Math Statist"
+      },
+      {
+        "key": "pone.0356202.ref030",
+        "volume-title": "Nonlinear multiobjective optimization",
+        "author": "K Miettinen",
+        "year": "1999"
+      }
+    ],
+    "container-title": [
+      "PLOS One"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0356202",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2026-08-18T17:21:49Z",
+      "timestamp": 1787073709000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0356202"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Jia-Lang",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0356202",
+    "relation": {
+      "has-part": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.g001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.g002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.t001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.t002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.t003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.t004",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.t005",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.s002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.r001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.r002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.r003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0356202.r004",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ]
+    }
+  }
+}

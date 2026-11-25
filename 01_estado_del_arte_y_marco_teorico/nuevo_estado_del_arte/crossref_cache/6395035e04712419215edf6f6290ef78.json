@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2026-09-17T14:03:56Z",
+      "timestamp": 1789653836411,
+      "version": "4.0.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "group-title": "SSRN",
+    "reference-count": 0,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "abstract": "<jats:p>&lt;div&gt;\n Background: Glaucoma constitutes the leading cause of irreversible blindness worldwide, affecting an estimated 76 million individuals as of 2020, with projections indicating 111.8 million affected by 2040. The characteristically asymptomatic progression of the disease results in more than 50% of cases in developed nations and up to 90% in resource-limited settings remaining undiagnosed, underscoring the urgent need for scalable automated screening methodologies.&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Objective: This study proposes and evaluates an end-to-end deep learning framework for automated glaucoma screening from digital fundus photographs. The framework is designed to achieve competitive optic disc segmentation performance on the Drishti-GS benchmark while simultaneously addressing clinically relevant deployment requirements absent from the majority of published methods, including model explainability, automated report generation, and human-in-the-loop clinician validation. Crossdataset generalisation is evaluated through zero-shot external validation on the independent REFUGE dataset.&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Methods: A U-Net architecture incorporating a ResNet-34 encoder pre-trained on ImageNet was trained on the publicly available Drishti-GS dataset (50 training images, 51 test images) using a composite Binary Cross-Entropy and Dice loss function optimised with the Adam algorithm. Preprocessing comprised Contrast Limited Adaptive Histogram Equalisation (CLAHE) applied in the CIE LAB colour space and stochastic data augmentation. Cup-to-Disc Ratio (CDR) estimation utilised expert-annotated ground truth values as the primary signal, with an Otsu thresholding fallback for unannotated inputs. GradCAM was integrated as a clinician-facing interpretability output, embedded within automated PDF clinical reports and a Tkinter-based validation dashboard maintaining an electronic audit trail. Zero-shot external validation was subsequently conducted on 400 images from the REFUGE dataset without any model modification or retraining.&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Results: On the Drishti-GS test set, the proposed model achieved a Dice coefficient of 0.9657 ± 0.0157, IoU of 0.9342 ± 0.0288, sensitivity of 97.54% ± 2.28%, and specificity of 99.86% ± 0.12%. Glaucoma classification yielded an accuracy of 92.2%, recall of 97.4%, and AUC of 0.949 at an optimal CDR threshold of 0.63. On the REFUGE external validation set (n = 400), zero-shot transfer achieved sensitivity of 1.0000 ± 0.0004 and specificity of 0.9852 ± 0.0029, confirming robust cross-dataset disc detection. The Dice of 0.3688 ± 0.1155 on REFUGE reflects boundary accuracy degradation attributable to a camera fieldof-view domain shift (45° REFUGE vs 30° Drishti-GS).&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n &lt;br&gt;\n&lt;/div&gt;\n&lt;div&gt;\n Conclusion: The proposed framework demonstrates that competitive segmentation performance and clinical deployment readiness can be pursued concurrently within a unified system design. External validation confirms cross-dataset disc detection capability and identifies FOV normalisation as the primary requirement for full boundary-accuracy generalisation across fundus camera modalities.\n&lt;/div&gt;</jats:p>",
+    "DOI": "10.2139/ssrn.7465362",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2026-09-17T13:11:54Z",
+      "timestamp": 1789650714000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Deep Learning-Based Glaucoma Screening using U-net with ResNet-34 Encoder: An Integrated Framework with GradCAM Explainability, Automated CDR Estimation, and Clinician Validation Dashboard"
+    ],
+    "prefix": "10.2139",
+    "author": [
+      {
+        "given": "Chitira",
+        "family": "B",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2026-09-17T13:11:54Z",
+      "timestamp": 1789650714000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.ssrn.com/abstract=7465362"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.2139/ssrn.7465362",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

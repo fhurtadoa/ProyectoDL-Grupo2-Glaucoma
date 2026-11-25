@@ -1,0 +1,185 @@
+{
+  "data": {
+    "id": "10.6084/m9.figshare.20123135",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.6084/m9.figshare.20123135",
+      "prefix": "10.6084",
+      "suffix": "m9.figshare.20123135",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "J R, Harish Kumar",
+          "givenName": "Harish Kumar",
+          "familyName": "J R",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-7669-0429",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Sekhar Seelamantula, Chandra",
+          "givenName": "Chandra",
+          "familyName": "Sekhar Seelamantula",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Chákṣu IMAGE: A glaucoma-specific fundus image database"
+        }
+      ],
+      "publisher": "figshare",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [
+        {
+          "subject": "Biomedical engineering not elsewhere classified"
+        },
+        {
+          "subject": "Signal processing"
+        },
+        {
+          "subject": "Ophthalmology"
+        },
+        {
+          "subject": "Ophthalmology and optometry not elsewhere classified"
+        },
+        {
+          "subject": "Optical technology"
+        },
+        {
+          "subject": "Optometry"
+        },
+        {
+          "subject": "Vision science"
+        },
+        {
+          "subject": "Biomedical imaging"
+        },
+        {
+          "subject": "Deep learning"
+        },
+        {
+          "subject": "Machine learning not elsewhere classified"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2023-02-03",
+          "dateType": "Created"
+        },
+        {
+          "date": "2023-02-03",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2023",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [
+        "11334736197 Bytes"
+      ],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "<em><strong>Chákṣu</strong></em><strong>: A glaucoma specific fundus</strong> i<strong>mage database</strong> <br> <br> J. R. Harish Kumar, Chandra Sekhar Seelamantula, J. H. Gagan, Yogish S. Kamath, Neetha I. R. Kuzhuppilly, U. Vivekanand, Preeti Gupta, and Shilpa Patil <br> <strong>Introduction</strong> Glaucoma is a chronic, irreversible, and slowly progressive optic neuropathy that damages the optic nerve. Depending on the extent of damage to the optic nerve, glaucoma can cause moderate to severe vision loss. Glaucoma is asymptomatic in the early stages. It is not curable, and vision lost cannot be restored. However, by early screening and detection, progression of the disease can be slowed down. Color fundus imaging is the most viable non-invasive means of examining the retina for glaucoma. The widest application of fundus imaging is in optic nerve head or optic disc (OD) examination for glaucoma management. Fundus imaging is widely used due to the relative ease of establishing a digital baseline to judge the progression of the disease and the effectiveness of the treatment. There is a dearth of a glaucoma specific database and <em>Chákṣu</em> IMAGE database is an attempt to fill that gap. The database is also specific to the Indian ethnicity – a demography that has not been covered adequately in the existing databases. <br> <strong>The </strong><em><strong>Chákṣu</strong></em><strong> IMAGE database</strong> <em>Chákṣu</em> IMAGE, a new Indian ethnicity retinal fundus image database, has been established for the evaluation of computer-assisted glaucoma prescreening methods. ‘<em>Chákṣu</em> ’ is a Sanskrit word for the ‘Eye’ and ‘IMAGE’ is an acronym for <strong>I</strong>ISc-<strong>MA</strong>HE <strong>G</strong>laucoma <strong>E</strong>valuation database. This database is a result of an interdisciplinary collaboration between Indian Institute of Science (IISc) and Manipal Academy of Higher Education (MAHE). The database consists of retinal color fundus images acquired using three different devices. Five expert ophthalmologists provided the OD and optic cup (OC) ground-truth for the evaluation of segmentation performance and a binary decision (normal/glaucomatous). The uncompressed and compressed versions of the size of the database are about 230 GB and 12 GB, respectively. <br> <em>Chákṣu</em> IMAGE consists of 1345 retinal fundus images stored in JPEG/PNG format, with 8 bits per color channel, acquired using three devices: Remidio non-mydriatic Fundus-on-Phone camera with a resolution of 2448×3264 pixels (1074 images), Forus 3Nethra Classic non-mydriatic fundus camera with a resolution of 2048×1536 pixels (126 images), and a Bosch handheld fundus camera with a resolution of 1920×1440 pixels (145 images). This is by far the largest Indian ethnicity-specific fundus image database. Most of the images acquired by these devices are OD-centered and particular to the assessment of OD and glaucoma. The patient’s personal information was anonymized. Five expert ophthalmologists provided manual OD and OC annotations and a decision on whether the subject is glaucoma suspect or not. Their experience ranges from 5 to 15 years. <br> The entire database of 1345 fundus images is divided into training and test subsets comprising 1009 images and 336 images, respectively. The train and test subsets are approximately in the ratio of 3:1. The database provides information about OD and OC height/width/area, and neuroretinal rim area leading to the computation of clinically relevant glaucoma parameters such as vertical cup-to-disc ratio (VCDR), horizontal cup-to-disc ratio (HCDR), and area cup-to-disc ratio (ACDR) from the experts’ annotations. <br> <strong>File Structure</strong> The <em>Chákṣu</em> IMAGE dataset has the following directory/file tree structure in the Train/Test sets: <br> 1.0_Original_Fundus_Images -Bosch -Forus -Remedio 2.0_Doctors_Annotations -Expert 1 -Expert 2 -Expert 3 -Expert 4 -Expert 5 3.0_Doctors_Annotations_Binary_OD_OC -Expert 1 -Expert 2 -Expert 3 -Expert 4 -Expert 5 4.0_OD_OC_Fusion_Images -Expert 1 -Expert 2 -Expert 3 -Expert 4 -Expert 5 -Mean -Median -Majority -STAPLE 5.0_OD_OC_Mean_Median_Majority_STAPLE -Bosch -Forus -Remedio 6.0_Glaucoma_Decision -Expert 1 -Expert 2 -Expert 3 -Expert 4 -Expert 5 -Glaucoma_decision_comparision<br> The folder 1.0_Original_Fundus_Images in the Train set contains 104, 95, and 810 original color fundus images aquired from Bosch hand-held, Forus 3Nethra Classic, and Remedio FoP devices, respectively. The folder 1.0_Original_Fundus_Images in the Test set contains 41, 31 and 264 original color fundus images aquired from Bosch hand-held, Forus 3Nethra Classic, and Remedio FoP devices, respectively. The folder 2.0_Doctors_Annotations in the Train/Test set contains five expert doctors’ annotations of optic disc and optic cup. The binary segmentation of optic disc and optic cup is contained in the folder 3.0_Doctors_Annotations_binary_OD_OC in the Train/Test set. The folder<br> 4.0_OD_OC_Fusion_Images in the Train/Test set contains binary images of optic disc and optic cup fused into one. The folder 5.0_OD_OC_Mean_Median_Majority_STAPLE in the Train/Test set contains the overlay, mean, median, majority, and STAPLE algorithm based gold standard binary images obtained from the binary images of doctors annotations. The folder 6.0_Glaucoma_Decision in the Train/Test set contains the glaucoma decision of several experts and also a comparison of the decisions. <br> <strong>Acknowledgments</strong> We would like to thank Manipal Academy of Higher Education (MAHE) for permitting us to acquire retinal fundus images at its constituent institutions. Thanks to all the subjects for consenting and taking part in the fundus examination. Thanks to Remidio Innovative Solutions Pvt. Ltd., Forus Health Pvt. Ltd. and Bosch Eye Care Solutions, Bengaluru, Karnataka, India, for the support provided during fundus image acquisition using their fundus imaging devices. We would also like to thank Subramanya Jois, Harsha Sridhar, Harshit Shirsat, and Aniketh Manjunath for insightful technical discussions and also for being part of the data acquisition and curating activity. This effort was funded by IMPRINT-India (Project id: 6013) and Science and Engineering Research Board (SERB)-Teachers Associateship for Research Excellence (TARE) fellowship (Project id: TAR/2019/000037). <br>",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC42MDg0L005LkZJR1NIQVJFLjIwMTIzMTM1PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+SGFyaXNoIEt1bWFyIEogUjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+SGFyaXNoIEt1bWFyPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkogUjwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwczovL29yY2lkLm9yZyI+MDAwMC0wMDAyLTc2NjktMDQyOTwvbmFtZUlkZW50aWZpZXI+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkNoYW5kcmEgU2VraGFyIFNlZWxhbWFudHVsYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2hhbmRyYTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5TZWtoYXIgU2VlbGFtYW50dWxhPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5DaMOha+G5o3UgSU1BR0U6IEEgZ2xhdWNvbWEtc3BlY2lmaWMgZnVuZHVzIGltYWdlIGRhdGFiYXNlPC90aXRsZT4KICA8L3RpdGxlcz4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPiZsdDtwJmd0OyZsdDtlbSZndDsmbHQ7c3Ryb25nJmd0O0Now6Fr4bmjdSZsdDsvc3Ryb25nJmd0OyZsdDsvZW0mZ3Q7Jmx0O3N0cm9uZyZndDs6IEEgZ2xhdWNvbWEgc3BlY2lmaWMgZnVuZHVzJmx0Oy9zdHJvbmcmZ3Q7IGkmbHQ7c3Ryb25nJmd0O21hZ2UgZGF0YWJhc2UmbHQ7L3N0cm9uZyZndDvCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2JyJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2JyJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7Si4gUi4gSGFyaXNoIEt1bWFyLCBDaGFuZHJhIFNla2hhciBTZWVsYW1hbnR1bGEsIEouIEguIEdhZ2FuLCBZb2dpc2ggUy4gS2FtYXRoLCBOZWV0aGEgSS4gUi4gS3V6aHVwcGlsbHksIFUuIFZpdmVrYW5hbmQsIFByZWV0aSBHdXB0YSwgYW5kIFNoaWxwYSBQYXRpbMKgJmx0Oy9wJmd0OwombHQ7cCZndDsmbHQ7YnImZ3Q7Jmx0Oy9wJmd0OwombHQ7cCZndDsmbHQ7c3Ryb25nJmd0O0ludHJvZHVjdGlvbiZsdDsvc3Ryb25nJmd0O8KgJmx0Oy9wJmd0OwombHQ7cCZndDtHbGF1Y29tYSBpcyBhIGNocm9uaWMsIGlycmV2ZXJzaWJsZSwgYW5kIHNsb3dseSBwcm9ncmVzc2l2ZSBvcHRpYyBuZXVyb3BhdGh5IHRoYXQgZGFtYWdlcyB0aGUgb3B0aWMgbmVydmUuIERlcGVuZGluZyBvbiB0aGUgZXh0ZW50IG9mIGRhbWFnZSB0byB0aGUgb3B0aWMgbmVydmUsIGdsYXVjb21hIGNhbiBjYXVzZSBtb2RlcmF0ZSB0byBzZXZlcmUgdmlzaW9uIGxvc3MuIEdsYXVjb21hIGlzIGFzeW1wdG9tYXRpYyBpbiB0aGUgZWFybHkgc3RhZ2VzLiBJdCBpcyBub3QgY3VyYWJsZSwgYW5kIHZpc2lvbiBsb3N0IGNhbm5vdCBiZSByZXN0b3JlZC4gSG93ZXZlciwgYnkgZWFybHkgc2NyZWVuaW5nIGFuZCBkZXRlY3Rpb24sIHByb2dyZXNzaW9uIG9mIHRoZSBkaXNlYXNlIGNhbiBiZSBzbG93ZWQgZG93bi4gQ29sb3IgZnVuZHVzIGltYWdpbmcgaXMgdGhlIG1vc3QgdmlhYmxlIG5vbi1pbnZhc2l2ZSBtZWFucyBvZiBleGFtaW5pbmcgdGhlIHJldGluYSBmb3IgZ2xhdWNvbWEuIFRoZSB3aWRlc3QgYXBwbGljYXRpb24gb2YgZnVuZHVzIGltYWdpbmcgaXMgaW4gb3B0aWMgbmVydmUgaGVhZCBvciBvcHRpYyBkaXNjIChPRCkgZXhhbWluYXRpb24gZm9yIGdsYXVjb21hIG1hbmFnZW1lbnQuIEZ1bmR1cyBpbWFnaW5nIGlzIHdpZGVseSB1c2VkIGR1ZSB0byB0aGUgcmVsYXRpdmUgZWFzZSBvZiBlc3RhYmxpc2hpbmcgYSBkaWdpdGFsIGJhc2VsaW5lIHRvIGp1ZGdlIHRoZSBwcm9ncmVzc2lvbiBvZiB0aGUgZGlzZWFzZSBhbmQgdGhlIGVmZmVjdGl2ZW5lc3Mgb2YgdGhlIHRyZWF0bWVudC4gVGhlcmUgaXMgYSBkZWFydGggb2YgYSBnbGF1Y29tYSBzcGVjaWZpYyBkYXRhYmFzZSBhbmQgJmx0O2VtJmd0O0Now6Fr4bmjdSZsdDsvZW0mZ3Q7IElNQUdFIGRhdGFiYXNlIGlzIGFuIGF0dGVtcHQgdG8gZmlsbCB0aGF0IGdhcC4gVGhlIGRhdGFiYXNlIGlzIGFsc28gc3BlY2lmaWMgdG8gdGhlIEluZGlhbiBldGhuaWNpdHkg4oCTIGEgZGVtb2dyYXBoeSB0aGF0IGhhcyBub3QgYmVlbiBjb3ZlcmVkIGFkZXF1YXRlbHkgaW4gdGhlIGV4aXN0aW5nIGRhdGFiYXNlcy7CoCZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2JyJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O3N0cm9uZyZndDtUaGUgJmx0Oy9zdHJvbmcmZ3Q7Jmx0O2VtJmd0OyZsdDtzdHJvbmcmZ3Q7Q2jDoWvhuaN1Jmx0Oy9zdHJvbmcmZ3Q7Jmx0Oy9lbSZndDsmbHQ7c3Ryb25nJmd0OyBJTUFHRSBkYXRhYmFzZSZsdDsvc3Ryb25nJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2VtJmd0O0Now6Fr4bmjdSZsdDsvZW0mZ3Q7IElNQUdFLCBhIG5ldyBJbmRpYW4gZXRobmljaXR5IHJldGluYWwgZnVuZHVzIGltYWdlIGRhdGFiYXNlLCBoYXMgYmVlbiBlc3RhYmxpc2hlZCBmb3IgdGhlIGV2YWx1YXRpb24gb2YgY29tcHV0ZXItYXNzaXN0ZWQgZ2xhdWNvbWEgcHJlc2NyZWVuaW5nIG1ldGhvZHMuIOKAmCZsdDtlbSZndDtDaMOha+G5o3UmbHQ7L2VtJmd0OyDigJkgaXMgYSBTYW5za3JpdCB3b3JkIGZvciB0aGUg4oCYRXll4oCZIGFuZCDigJhJTUFHReKAmSBpcyBhbiBhY3JvbnltIGZvciAmbHQ7c3Ryb25nJmd0O0kmbHQ7L3N0cm9uZyZndDtJU2MtJmx0O3N0cm9uZyZndDtNQSZsdDsvc3Ryb25nJmd0O0hFICZsdDtzdHJvbmcmZ3Q7RyZsdDsvc3Ryb25nJmd0O2xhdWNvbWEgJmx0O3N0cm9uZyZndDtFJmx0Oy9zdHJvbmcmZ3Q7dmFsdWF0aW9uIGRhdGFiYXNlLiBUaGlzIGRhdGFiYXNlIGlzIGEgcmVzdWx0IG9mIGFuIGludGVyZGlzY2lwbGluYXJ5IGNvbGxhYm9yYXRpb24gYmV0d2VlbiBJbmRpYW4gSW5zdGl0dXRlIG9mIFNjaWVuY2UgKElJU2MpIGFuZCBNYW5pcGFsIEFjYWRlbXkgb2YgSGlnaGVyIEVkdWNhdGlvbiAoTUFIRSkuIFRoZSBkYXRhYmFzZSBjb25zaXN0cyBvZiByZXRpbmFsIGNvbG9yIGZ1bmR1cyBpbWFnZXMgYWNxdWlyZWQgdXNpbmcgdGhyZWUgZGlmZmVyZW50IGRldmljZXMuIEZpdmUgZXhwZXJ0IG9waHRoYWxtb2xvZ2lzdHMgcHJvdmlkZWQgdGhlIE9EIGFuZCBvcHRpYyBjdXAgKE9DKSBncm91bmQtdHJ1dGggZm9yIHRoZSBldmFsdWF0aW9uIG9mIHNlZ21lbnRhdGlvbiBwZXJmb3JtYW5jZSBhbmQgYSBiaW5hcnkgZGVjaXNpb24gKG5vcm1hbC9nbGF1Y29tYXRvdXMpLiBUaGUgdW5jb21wcmVzc2VkIGFuZCBjb21wcmVzc2VkIHZlcnNpb25zIG9mIHRoZSBzaXplIG9mIHRoZSBkYXRhYmFzZSBhcmUgYWJvdXQgMjMwIEdCIGFuZCAxMiBHQiwgcmVzcGVjdGl2ZWx5LsKgJmx0Oy9wJmd0OwombHQ7cCZndDsmbHQ7YnImZ3Q7Jmx0Oy9wJmd0OwombHQ7cCZndDsmbHQ7ZW0mZ3Q7Q2jDoWvhuaN1Jmx0Oy9lbSZndDsgSU1BR0UgY29uc2lzdHMgb2YgMTM0NSByZXRpbmFsIGZ1bmR1cyBpbWFnZXMgc3RvcmVkIGluIEpQRUcvUE5HIGZvcm1hdCwgd2l0aCA4IGJpdHMgcGVyIGNvbG9yIGNoYW5uZWwsIGFjcXVpcmVkIHVzaW5nIHRocmVlIGRldmljZXM6IFJlbWlkaW8gbm9uLW15ZHJpYXRpYyBGdW5kdXMtb24tUGhvbmUgY2FtZXJhIHdpdGggYSByZXNvbHV0aW9uIG9mIDI0NDjDlzMyNjQgcGl4ZWxzICgxMDc0IGltYWdlcyksIEZvcnVzIDNOZXRocmEgQ2xhc3NpYyBub24tbXlkcmlhdGljIGZ1bmR1cyBjYW1lcmEgd2l0aCBhIHJlc29sdXRpb24gb2YgMjA0OMOXMTUzNiBwaXhlbHMgKDEyNiBpbWFnZXMpLCBhbmQgYSBCb3NjaCBoYW5kaGVsZCBmdW5kdXMgY2FtZXJhIHdpdGggYSByZXNvbHV0aW9uIG9mIDE5MjDDlzE0NDAgcGl4ZWxzICgxNDUgaW1hZ2VzKS4gVGhpcyBpcyBieSBmYXIgdGhlIGxhcmdlc3QgSW5kaWFuIGV0aG5pY2l0eS1zcGVjaWZpYyBmdW5kdXMgaW1hZ2UgZGF0YWJhc2UuIE1vc3Qgb2YgdGhlIGltYWdlcyBhY3F1aXJlZCBieSB0aGVzZSBkZXZpY2VzIGFyZSBPRC1jZW50ZXJlZCBhbmQgcGFydGljdWxhciB0byB0aGUgYXNzZXNzbWVudCBvZiBPRCBhbmQgZ2xhdWNvbWEuIFRoZSBwYXRpZW504oCZcyBwZXJzb25hbCBpbmZvcm1hdGlvbiB3YXMgYW5vbnltaXplZC4gRml2ZSBleHBlcnQgb3BodGhhbG1vbG9naXN0cyBwcm92aWRlZCBtYW51YWwgT0QgYW5kIE9DIGFubm90YXRpb25zIGFuZCBhIGRlY2lzaW9uIG9uIHdoZXRoZXIgdGhlIHN1YmplY3QgaXMgZ2xhdWNvbWEgc3VzcGVjdCBvciBub3QuIFRoZWlyIGV4cGVyaWVuY2UgcmFuZ2VzIGZyb20gNSB0byAxNSB5ZWFycy7CoCZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2JyJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7VGhlIGVudGlyZSBkYXRhYmFzZSBvZiAxMzQ1IGZ1bmR1cyBpbWFnZXMgaXMgZGl2aWRlZCBpbnRvIHRyYWluaW5nIGFuZCB0ZXN0IHN1YnNldHMgY29tcHJpc2luZyAxMDA5IGltYWdlcyBhbmQgMzM2IGltYWdlcywgcmVzcGVjdGl2ZWx5LiBUaGUgdHJhaW4gYW5kIHRlc3Qgc3Vic2V0cyBhcmUgYXBwcm94aW1hdGVseSBpbiB0aGUgcmF0aW8gb2YgMzoxLiBUaGUgZGF0YWJhc2UgcHJvdmlkZXMgaW5mb3JtYXRpb24gYWJvdXQgT0QgYW5kIE9DIGhlaWdodC93aWR0aC9hcmVhLCBhbmQgbmV1cm9yZXRpbmFsIHJpbSBhcmVhIGxlYWRpbmcgdG8gdGhlIGNvbXB1dGF0aW9uIG9mIGNsaW5pY2FsbHkgcmVsZXZhbnQgZ2xhdWNvbWEgcGFyYW1ldGVycyBzdWNoIGFzIHZlcnRpY2FsIGN1cC10by1kaXNjIHJhdGlvIChWQ0RSKSwgaG9yaXpvbnRhbCBjdXAtdG8tZGlzYyByYXRpbyAoSENEUiksIGFuZCBhcmVhIGN1cC10by1kaXNjIHJhdGlvIChBQ0RSKSBmcm9tIHRoZSBleHBlcnRz4oCZIGFubm90YXRpb25zLsKgJmx0Oy9wJmd0OwombHQ7cCZndDsmbHQ7YnImZ3Q7Jmx0Oy9wJmd0OwombHQ7cCZndDvCoMKgJmx0Oy9wJmd0OwombHQ7cCZndDsmbHQ7c3Ryb25nJmd0O0ZpbGUgU3RydWN0dXJlJmx0Oy9zdHJvbmcmZ3Q7wqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0O1RoZSAmbHQ7ZW0mZ3Q7Q2jDoWvhuaN1Jmx0Oy9lbSZndDsgSU1BR0UgZGF0YXNldCBoYXMgdGhlIGZvbGxvd2luZyBkaXJlY3RvcnkvZmlsZSB0cmVlIHN0cnVjdHVyZSBpbiB0aGUgVHJhaW4vVGVzdCBzZXRzOiZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2JyJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7MS4wX09yaWdpbmFsX0Z1bmR1c19JbWFnZXMmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1Cb3NjaMKgJmx0Oy9wJmd0OwombHQ7cCZndDstRm9ydXMgwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1SZW1lZGlvwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0OzIuMF9Eb2N0b3JzX0Fubm90YXRpb25zwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgMSDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCAyIMKgJmx0Oy9wJmd0OwombHQ7cCZndDstRXhwZXJ0IDMgwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgNCDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCA1wqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0OzMuMF9Eb2N0b3JzX0Fubm90YXRpb25zX0JpbmFyeV9PRF9PQ8KgJmx0Oy9wJmd0OwombHQ7cCZndDstRXhwZXJ0IDEgwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgMsKgJmx0Oy9wJmd0OwombHQ7cCZndDstRXhwZXJ0IDMgwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgNCDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCA1wqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0OzQuMF9PRF9PQ19GdXNpb25fSW1hZ2VzwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgMSDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCAyIMKgJmx0Oy9wJmd0OwombHQ7cCZndDstRXhwZXJ0IDPCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCA0IMKgJmx0Oy9wJmd0OwombHQ7cCZndDstRXhwZXJ0IDXCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LU1lYW4mbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1NZWRpYW4mbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1NYWpvcml0eSZsdDsvcCZndDsKJmx0O3AmZ3Q7LVNUQVBMRSZsdDsvcCZndDsKJmx0O3AmZ3Q7NS4wX09EX09DX01lYW5fTWVkaWFuX01ham9yaXR5X1NUQVBMRSDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUJvc2NoIMKgwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1Gb3J1cyDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LVJlbWVkaW/CoCZsdDsvcCZndDsKJmx0O3AmZ3Q7Ni4wX0dsYXVjb21hX0RlY2lzaW9uIMKgJmx0Oy9wJmd0OwombHQ7cCZndDstRXhwZXJ0IDEgwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgMiDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCAzwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0Oy1FeHBlcnQgNCDCoCZsdDsvcCZndDsKJmx0O3AmZ3Q7LUV4cGVydCA1IMKgJmx0Oy9wJmd0OwombHQ7cCZndDstR2xhdWNvbWFfZGVjaXNpb25fY29tcGFyaXNpb24mbHQ7YnImZ3Q7CsKgJmx0Oy9wJmd0OwombHQ7cCZndDtUaGUgZm9sZGVyIDEuMF9PcmlnaW5hbF9GdW5kdXNfSW1hZ2VzIGluIHRoZSBUcmFpbiBzZXQgY29udGFpbnMgMTA0LCA5NSwgYW5kIDgxMCBvcmlnaW5hbCBjb2xvciBmdW5kdXMgaW1hZ2VzIGFxdWlyZWQgZnJvbSBCb3NjaCBoYW5kLWhlbGQsIEZvcnVzIDNOZXRocmEgQ2xhc3NpYywgYW5kIFJlbWVkaW8gRm9QIGRldmljZXMsIHJlc3BlY3RpdmVseS4gVGhlIGZvbGRlciAxLjBfT3JpZ2luYWxfRnVuZHVzX0ltYWdlcyBpbiB0aGUgVGVzdCBzZXQgY29udGFpbnMgNDEsIDMxIGFuZCAyNjQgb3JpZ2luYWwgY29sb3IgZnVuZHVzIGltYWdlcyBhcXVpcmVkIGZyb20gQm9zY2ggaGFuZC1oZWxkLCBGb3J1cyAzTmV0aHJhIENsYXNzaWMsIGFuZCBSZW1lZGlvIEZvUCBkZXZpY2VzLCByZXNwZWN0aXZlbHkuIFRoZSBmb2xkZXIgMi4wX0RvY3RvcnNfQW5ub3RhdGlvbnMgaW4gdGhlIFRyYWluL1Rlc3Qgc2V0IGNvbnRhaW5zIGZpdmUgZXhwZXJ0IGRvY3RvcnPigJkgYW5ub3RhdGlvbnMgb2Ygb3B0aWMgZGlzYyBhbmQgb3B0aWMgY3VwLiBUaGUgwqBiaW5hcnkgc2VnbWVudGF0aW9uIG9mIG9wdGljIGRpc2MgYW5kIG9wdGljIGN1cCBpcyBjb250YWluZWQgaW4gdGhlIGZvbGRlciAzLjBfRG9jdG9yc19Bbm5vdGF0aW9uc19iaW5hcnlfT0RfT0MgaW4gdGhlIFRyYWluL1Rlc3Qgc2V0LiBUaGUgZm9sZGVyJmx0O2JyJmd0Owo0LjBfT0RfT0NfRnVzaW9uX0ltYWdlcyBpbiB0aGUgVHJhaW4vVGVzdCBzZXQgY29udGFpbnMgYmluYXJ5IGltYWdlcyBvZiBvcHRpYyBkaXNjIGFuZCBvcHRpYyBjdXAgZnVzZWQgaW50byBvbmUuIFRoZSBmb2xkZXIgNS4wX09EX09DX01lYW5fTWVkaWFuX01ham9yaXR5X1NUQVBMRSBpbiB0aGUgVHJhaW4vVGVzdCBzZXQgY29udGFpbnMgdGhlIG92ZXJsYXksIG1lYW4sIG1lZGlhbiwgbWFqb3JpdHksIGFuZCBTVEFQTEUgYWxnb3JpdGhtIGJhc2VkIGdvbGQgc3RhbmRhcmQgYmluYXJ5IGltYWdlcyBvYnRhaW5lZCBmcm9tIHRoZSBiaW5hcnkgaW1hZ2VzIG9mIGRvY3RvcnMgYW5ub3RhdGlvbnMuIFRoZSBmb2xkZXIgNi4wX0dsYXVjb21hX0RlY2lzaW9uIGluIHRoZSBUcmFpbi9UZXN0IHNldCBjb250YWlucyB0aGUgZ2xhdWNvbWEgZGVjaXNpb24gb2Ygc2V2ZXJhbCBleHBlcnRzIGFuZCBhbHNvIGEgY29tcGFyaXNvbiBvZiB0aGUgZGVjaXNpb25zLiZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O2JyJmd0OyZsdDsvcCZndDsKJmx0O3AmZ3Q7Jmx0O3N0cm9uZyZndDtBY2tub3dsZWRnbWVudHMmbHQ7L3N0cm9uZyZndDsmbHQ7L3AmZ3Q7CiZsdDtwJmd0O1dlIHdvdWxkIGxpa2UgdG8gdGhhbmsgTWFuaXBhbCBBY2FkZW15IG9mIEhpZ2hlciBFZHVjYXRpb24gKE1BSEUpIGZvciBwZXJtaXR0aW5nIHVzIHRvIGFjcXVpcmUgcmV0aW5hbCBmdW5kdXMgaW1hZ2VzIGF0IGl0cyBjb25zdGl0dWVudCBpbnN0aXR1dGlvbnMuIFRoYW5rcyB0byBhbGwgdGhlIHN1YmplY3RzIGZvciBjb25zZW50aW5nIGFuZCB0YWtpbmcgcGFydCBpbiB0aGUgZnVuZHVzIGV4YW1pbmF0aW9uLiBUaGFua3MgdG8gUmVtaWRpbyBJbm5vdmF0aXZlIFNvbHV0aW9ucyBQdnQuIEx0ZC4sIEZvcnVzIEhlYWx0aCBQdnQuIEx0ZC4gYW5kIEJvc2NoIEV5ZSBDYXJlIFNvbHV0aW9ucywgQmVuZ2FsdXJ1LCBLYXJuYXRha2EsIEluZGlhLCBmb3IgdGhlIHN1cHBvcnQgcHJvdmlkZWQgZHVyaW5nIGZ1bmR1cyBpbWFnZSBhY3F1aXNpdGlvbiB1c2luZyB0aGVpciBmdW5kdXMgaW1hZ2luZyBkZXZpY2VzLiBXZSB3b3VsZCBhbHNvIGxpa2UgdG8gdGhhbmsgU3VicmFtYW55YSBKb2lzLCBIYXJzaGEgU3JpZGhhciwgSGFyc2hpdCBTaGlyc2F0LCBhbmQgQW5pa2V0aCBNYW5qdW5hdGggZm9yIGluc2lnaHRmdWwgdGVjaG5pY2FsIGRpc2N1c3Npb25zIGFuZCBhbHNvIGZvciBiZWluZyBwYXJ0IG9mIHRoZSBkYXRhIGFjcXVpc2l0aW9uIGFuZCBjdXJhdGluZyBhY3Rpdml0eS4gVGhpcyBlZmZvcnQgd2FzIGZ1bmRlZCBieSBJTVBSSU5ULUluZGlhIChQcm9qZWN0IGlkOiA2MDEzKSBhbmQgU2NpZW5jZSBhbmQgRW5naW5lZXJpbmcgUmVzZWFyY2ggQm9hcmQgKFNFUkIpLVRlYWNoZXJzIEFzc29jaWF0ZXNoaXAgZm9yIFJlc2VhcmNoIEV4Y2VsbGVuY2UgKFRBUkUpIGZlbGxvd3NoaXAgKFByb2plY3QgaWQ6IFRBUi8yMDE5LzAwMDAzNykuwqAmbHQ7L3AmZ3Q7CiZsdDtwJmd0OyZsdDticiZndDsmbHQ7L3AmZ3Q7PC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdD5CaW9tZWRpY2FsIGVuZ2luZWVyaW5nIG5vdCBlbHNld2hlcmUgY2xhc3NpZmllZDwvc3ViamVjdD4KICAgIDxzdWJqZWN0PlNpZ25hbCBwcm9jZXNzaW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+T3BodGhhbG1vbG9neTwvc3ViamVjdD4KICAgIDxzdWJqZWN0Pk9waHRoYWxtb2xvZ3kgYW5kIG9wdG9tZXRyeSBub3QgZWxzZXdoZXJlIGNsYXNzaWZpZWQ8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5PcHRpY2FsIHRlY2hub2xvZ3k8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5PcHRvbWV0cnk8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5WaXNpb24gc2NpZW5jZTwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkJpb21lZGljYWwgaW1hZ2luZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkRlZXAgbGVhcm5pbmc8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5NYWNoaW5lIGxlYXJuaW5nIG5vdCBlbHNld2hlcmUgY2xhc3NpZmllZDwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxwdWJsaXNoZXI+Zmlnc2hhcmU8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjM8L3B1YmxpY2F0aW9uWWVhcj4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQ3JlYXRlZCI+MjAyMy0wMi0wMzwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIj4yMDIzLTAyLTAzPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ij5EYXRhc2V0PC9yZXNvdXJjZVR5cGU+CiAgPHNpemVzPgogICAgPHNpemU+MTEzMzQ3MzYxOTcgQnl0ZXM8L3NpemU+CiAgPC9zaXplcz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wLyI+Q0MgQlkgNC4wPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0Pgo8L3Jlc291cmNlPg==",
+      "url": "https://figshare.com/articles/dataset/Ch_k_u_A_glaucoma_specific_fundus_image_database/20123135",
+      "contentUrl": null,
+      "metadataVersion": 4,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2022-06-26T11:39:18.000Z",
+      "registered": "2023-01-25T07:06:53.000Z",
+      "published": "2023",
+      "updated": "2023-02-03T18:40:12.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "figshare.ars",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "otjm",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.6084/m9.figshare.20123135",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

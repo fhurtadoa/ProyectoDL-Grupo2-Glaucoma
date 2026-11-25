@@ -1,0 +1,585 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2026-11-16T08:57:41Z",
+      "timestamp": 1794819461643,
+      "version": "4.9.1"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 29,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783032049704",
+        "type": "print"
+      },
+      {
+        "value": "9783032049711",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              20
+            ]
+          ],
+          "date-time": "2025-09-20T00:00:00Z",
+          "timestamp": 1758326400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              20
+            ]
+          ],
+          "date-time": "2025-09-20T00:00:00Z",
+          "timestamp": 1758326400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-032-04971-1_32",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2025-09-19T17:10:42Z",
+      "timestamp": 1758301842000
+    },
+    "page": "337-347",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Leveraging Diffusion Models for Continual Test-Time Adaptation in Fundus Image Classification"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-0882-5640",
+        "authenticated-orcid": false,
+        "given": "Mingsi",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7955-6498",
+        "authenticated-orcid": false,
+        "given": "Xiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5974-3533",
+        "authenticated-orcid": false,
+        "given": "Mengxiang",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0723-4016",
+        "authenticated-orcid": false,
+        "given": "Lixin",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3380-7970",
+        "authenticated-orcid": false,
+        "given": "Huihui",
+        "family": "Fang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1779-931X",
+        "authenticated-orcid": false,
+        "given": "Yanwu",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "32_CR1",
+        "unstructured": "APTOS 2019 Blindness Detection (2019). https://www.kaggle.com/c/aptos2019-blindness-detection/. Accessed 10 June 2019"
+      },
+      {
+        "key": "32_CR2",
+        "unstructured": "Messidor Fundus Image Dataset. Online (nd). https://www.adcis.net/en/third-party/messidor/. kindly provided by the Messidor program partners"
+      },
+      {
+        "key": "32_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, L., et al.: Reusing the task-specific classifier as a discriminator: discriminator-free adversarial domain adaptation. In: IEEE Conference on Computer Vision Pattern Recognition, pp. 7181–7190 (2022)",
+        "DOI": "10.1109/CVPR52688.2022.00704"
+      },
+      {
+        "key": "32_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Z., Pan, Y., Ye, Y., Lu, M., Xia, Y.: Each test image deserves a specific prompt: continual test-time adaptation for 2d medical image segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 11184–11193 (2024)",
+        "DOI": "10.1109/CVPR52733.2024.01063"
+      },
+      {
+        "key": "32_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero, F., Alayón, S., Sanchez, J.L., Sigut, J., Gonzalez-Hernandez, M.: RIM-ONE: an open retinal image database for optic nerve evaluation. In: International Symposium on Computer Based Medical System, pp. 1–6. IEEE (2011)",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "32_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao, J., Zhang, J., Liu, X., Darrell, T., Shelhamer, E., Wang, D.: Back to the source: diffusion-driven test-time adaptation. arXiv preprint arXiv:2207.03442 (2022)",
+        "DOI": "10.1109/CVPR52729.2023.01134"
+      },
+      {
+        "key": "32_CR7",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "516",
+        "DOI": "10.1007/978-3-319-66179-7_59",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention - MICCAI 2017",
+        "author": "M Ghafoorian",
+        "year": "2017",
+        "unstructured": "Ghafoorian, M., et al.: Transfer learning for domain adaptation in MRI: application in brain lesion segmentation. In: Descoteaux, M., Maier-Hein, L., Franz, A., Jannin, P., Collins, D.L., Duchesne, S. (eds.) MICCAI 2017. LNCS, vol. 10435, pp. 516–524. Springer, Cham (2017). https://doi.org/10.1007/978-3-319-66179-7_59"
+      },
+      {
+        "key": "32_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: IEEE Conference on Computer Vision Pattern Recognition, pp. 770–778 (2016)",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "32_CR9",
+        "unstructured": "Hendrycks, D., Mu, N., Cubuk, E.D., Zoph, B., Gilmer, J., Lakshminarayanan, B.: Augmix: a simple data processing method to improve robustness and uncertainty (2020)"
+      },
+      {
+        "key": "32_CR10",
+        "first-page": "6840",
+        "volume": "33",
+        "author": "J Ho",
+        "year": "2020",
+        "unstructured": "Ho, J., Jain, A., Abbeel, P.: Denoising diffusion probabilistic models. Adv. Neural. Inf. Process. Syst. 33, 6840–6851 (2020)",
+        "journal-title": "Adv. Neural. Inf. Process. Syst."
+      },
+      {
+        "key": "32_CR11",
+        "unstructured": "Hu, S., Liao, Z., Xia, Y.: Prosfda: prompt learning based source-free domain adaptation for medical image segmentation. arXiv preprint arXiv:2211.11514 (2022)"
+      },
+      {
+        "issue": "1",
+        "key": "32_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "409",
+        "DOI": "10.1038/s41597-020-00755-0",
+        "volume": "7",
+        "author": "L Lin",
+        "year": "2020",
+        "unstructured": "Lin, L.: The SUSTech-SYSU dataset for automated exudate detection and diabetic retinopathy grading. Sci. Data 7(1), 409 (2020)",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "32_CR13",
+        "unstructured": "Niu, S., et al.: Efficient test-time model adaptation without forgetting. In: International Conference on Machine Learning, pp. 16888–16905. PMLR (2022)"
+      },
+      {
+        "key": "32_CR14",
+        "unstructured": "Niu, S., et al.: Towards stable test-time adaptation in dynamic wild world. In: International Conference Learning Represention (2023)"
+      },
+      {
+        "key": "32_CR15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "JI Orlando",
+        "year": "2020",
+        "unstructured": "Orlando, J.I., et al.: REFUGE challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs. Med. Image Anal. 59, 101570 (2020)",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "32_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ovreiu, S., Paraschiv, E.A., Ovreiu, E.: Deep learning & digital fundus images: glaucoma detection using densenet. In: 2021 13th International Conference on Electronics, Computers and Artificial Intelligence (ECAI), pp. 1–4 (2021). https://doi.org/10.1109/ECAI52376.2021.9515188",
+        "DOI": "10.1109/ECAI52376.2021.9515188"
+      },
+      {
+        "key": "32_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Porwal, P., et al.: Indian diabetic retinopathy image dataset (IDRID) (2018). https://doi.org/10.21227/H25W98",
+        "DOI": "10.21227/H25W98"
+      },
+      {
+        "key": "32_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sinha, S., Gehler, P., Locatello, F., Schiele, B.: Test: test-time self-training under distribution shift. In: IEEE Winter Conference on Applied Computer Vision, pp. 2759–2769 (2023)",
+        "DOI": "10.1109/WACV56688.2023.00278"
+      },
+      {
+        "key": "32_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy, J., Krishnadas, S., Joshi, G.D., Jain, M., Tabish, A.U.S.: Drishti-GS: retinal image dataset for optic nerve head (ONH) segmentation. In: IEEE International Symposium on Biomedical Imaging, pp. 53–56. IEEE (2014)",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "32_CR20",
+        "unstructured": "Song, J., Meng, C., Ermon, S.: Denoising diffusion implicit models. arXiv preprint arXiv:2010.02502 (2020)"
+      },
+      {
+        "key": "32_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsai, Y.Y., et al.: GDA: generalized diffusion for robust test-time adaptation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 23242–23251 (2024)",
+        "DOI": "10.1109/CVPR52733.2024.02193"
+      },
+      {
+        "key": "32_CR22",
+        "unstructured": "Wang, D., Shelhamer, E., Liu, S., Olshausen, B., Darrell, T.: Tent: fully test-time adaptation by entropy minimization. In: International Conference Learning Representation (2021)"
+      },
+      {
+        "key": "32_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Q., Fink, O., Van Gool, L., Dai, D.: Continual test-time domain adaptation. In: IEEE Conference on Computer Vision and Pattern Recognition, pp. 7201–7211 (2022)",
+        "DOI": "10.1109/CVPR52688.2022.00706"
+      },
+      {
+        "key": "32_CR24",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "102",
+        "DOI": "10.1007/978-3-030-32239-7_12",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2019",
+        "author": "S Wang",
+        "year": "2019",
+        "unstructured": "Wang, S., Yu, L., Li, K., Yang, X., Fu, C.-W., Heng, P.-A.: Boundary and entropy-driven adversarial learning for fundus image segmentation. In: Shen, D., et al. (eds.) MICCAI 2019. LNCS, vol. 11764, pp. 102–110. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-32239-7_12"
+      },
+      {
+        "key": "32_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Y., Soatto, S.: FDA: Fourier domain adaptation for semantic segmentation. In: IEEE Conference on Computer Vison Pattern Recognition, pp. 4085–4095 (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00414"
+      },
+      {
+        "key": "32_CR26",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Yu, J., Wang, Y., Zhao, C., Ghanem, B., Zhang, J.: Freedom: training-free energy-guided conditional diffusion model. CoRR abs/2303.09833 (2023). https://doi.org/10.48550/arXiv.2303.09833",
+        "DOI": "10.48550/arXiv.2303.09833"
+      },
+      {
+        "key": "32_CR27",
+        "unstructured": "Zhang, S., et al.: Biomedclip: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs. arXiv preprint arXiv:2303.00915 (2023)"
+      },
+      {
+        "key": "32_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., et al.: ORIGA-light: an online retinal fundus image database for glaucoma analysis and research. In: International Conference on IEEE Engineering in Medicine and Biology, pp. 3065–3068. IEEE (2010)",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "32_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "3793",
+        "DOI": "10.1109/TIP.2021.3065254",
+        "volume": "30",
+        "author": "Y Zuo",
+        "year": "2021",
+        "unstructured": "Zuo, Y., Yao, H., Xu, C.: Attention-based multi-source domain adaptation. IEEE Trans. Image Process. 30, 3793–3803 (2021)",
+        "journal-title": "IEEE Trans. Image Process."
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Medical Image Computing and Computer Assisted Intervention – MICCAI 2025"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-032-04971-1_32",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          22
+        ]
+      ],
+      "date-time": "2026-02-22T06:44:42Z",
+      "timestamp": 1771742682000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-032-04971-1_32"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          20
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783032049704",
+      "9783032049711"
+    ],
+    "references-count": 29,
+    "URL": "https://doi.org/10.1007/978-3-032-04971-1_32",
+    "relation": {
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1007/978-3-032-04971-1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "20 September 2025",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Disclosure of Interests"
+        }
+      },
+      {
+        "value": "MICCAI",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Daejeon",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Korea (Republic of)",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2025",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23 September 2025",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "27 September 2025",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "28",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "miccai2025",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://conferences.miccai.org/2025/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      }
+    ]
+  }
+}

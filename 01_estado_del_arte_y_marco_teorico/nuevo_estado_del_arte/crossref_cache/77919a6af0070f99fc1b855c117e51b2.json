@@ -1,0 +1,667 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2026-10-31T21:19:51Z",
+      "timestamp": 1793481591954,
+      "version": "4.5.0"
+    },
+    "reference-count": 41,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2025-11-13T00:00:00Z",
+          "timestamp": 1762992000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2025-11-13T00:00:00Z",
+          "timestamp": 1762992000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "DOI": "10.1038/s41598-025-23425-w",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2025-11-13T22:32:43Z",
+      "timestamp": 1763073163000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "DB-SegNet: optimized framework for glaucoma detection and optic structure segmentation from retinal fundus images"
+    ],
+    "prefix": "10.1038",
+    "volume": "15",
+    "author": [
+      {
+        "given": "J",
+        "family": "Prakash",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Vinoth Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "23425_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "108613",
+        "DOI": "10.1016/j.compbiomed.2024.108613",
+        "volume": "177",
+        "author": "H He",
+        "year": "2024",
+        "unstructured": "He, H. et al. JOINEDTrans: prior guided multi-task transformer for joint optic disc/cup segmentation and fovea detection. Comput. Biol. Med. 177, 108613 (2024).",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "23425_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, L. et al. SAMCF: Adaptive global style alignment and multi-color spaces fusion for joint optic cup and disc segmentation. Comput. Biol. Med. 178, 108639 (2024).",
+        "DOI": "10.1016/j.compbiomed.2024.108639"
+      },
+      {
+        "key": "23425_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "104906",
+        "DOI": "10.1016/j.bspc.2023.104906",
+        "volume": "85",
+        "author": "J Wang",
+        "year": "2023",
+        "unstructured": "Wang, J., Li, X. & Cheng, Y. Towards an extended EfficientNet-based U-Net framework for joint optic disc and cup segmentation in the fundus image. Biomed. Signal Process. Control. 85, 104906 (2023).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "23425_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "105163",
+        "DOI": "10.1016/j.bspc.2023.105163",
+        "volume": "86",
+        "author": "J Zhang",
+        "year": "2023",
+        "unstructured": "Zhang, J. et al. Automated segmentation of optic disc and cup depicted on color fundus images using a distance-guided deep learning strategy. Biomed. Signal Process. Control. 86, 105163 (2023).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "23425_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "107179",
+        "DOI": "10.1016/j.bspc.2024.107179",
+        "volume": "104",
+        "author": "C Chen",
+        "year": "2025",
+        "unstructured": "Chen, C., Zou, B., Chen, Y. & Zhu, C. Optic disc and cup segmentation based on information aggregation network with contour reconstruction. Biomed. Signal Process. Control. 104, 107179 (2025).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "23425_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "108281",
+        "DOI": "10.1016/j.compbiomed.2024.108281",
+        "volume": "172",
+        "author": "C Wan",
+        "year": "2024",
+        "unstructured": "Wan, C. et al. A new segmentation algorithm for peripapillary atrophy and optic disk from ultra-widefield photographs. Comput. Biol. Med. 172, 108281 (2024).",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "23425_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "102533",
+        "DOI": "10.1016/j.inffus.2024.102533",
+        "volume": "112",
+        "author": "J Wang",
+        "year": "2024",
+        "unstructured": "Wang, J. et al. ODFormer: semantic fundus image segmentation using transformer for optic nerve head detection. Inform. Fusion. 112, 102533 (2024).",
+        "journal-title": "Inform. Fusion"
+      },
+      {
+        "key": "23425_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "105770",
+        "DOI": "10.1016/j.bspc.2023.105770",
+        "volume": "89",
+        "author": "J Sanghavi",
+        "year": "2024",
+        "unstructured": "Sanghavi, J. & Kurhekar, M. An efficient framework for optic disk segmentation and classification of glaucoma on fundus images. Biomed. Signal Process. Control. 89, 105770 (2024).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "23425_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "106850",
+        "DOI": "10.1016/j.bspc.2024.106850",
+        "volume": "99",
+        "author": "H Xiong",
+        "year": "2025",
+        "unstructured": "Xiong, H., Mohammad, F. L. & Alam, S. Multi-GlaucNet: A multi-task model for optic disc segmentation, blood vessel segmentation and glaucoma detection. Biomed. Signal Process. Control. 99, 106850 (2025).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "23425_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "106895",
+        "DOI": "10.1016/j.neunet.2024.106895",
+        "volume": "182",
+        "author": "Y Xiao",
+        "year": "2025",
+        "unstructured": "Xiao, Y. et al. MIU-Net: advanced multi-scale feature extraction and imbalance mitigation for optic disc segmentation. Neural Netw. 182, 106895 (2025).",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "key": "23425_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "124935",
+        "DOI": "10.1016/j.eswa.2024.124935",
+        "volume": "256",
+        "author": "Y Xiao",
+        "year": "2024",
+        "unstructured": "Xiao, Y. et al. Shiping Wen, and Xingtao Zhou. SimpleCNN-UNet: an optic disc image segmentation network based on efficient small-kernel convolutions. Expert Syst. Appl. 256, 124935 (2024).",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "23425_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Govindharaj, I., Santhakumar, D., Pugazharasi, K., Ravichandran, S. & Prabhu, R. V. and J. Raja. Enhancing glaucoma diagnosis: generative adversarial networks in synthesized imagery and classification with pretrained MobileNetV2. MethodsX 14, 103116 (2025).",
+        "DOI": "10.1016/j.mex.2024.103116"
+      },
+      {
+        "key": "23425_CR13",
+        "first-page": "15",
+        "volume": "102",
+        "author": "R Geethalakshmi",
+        "year": "2024",
+        "unstructured": "Geethalakshmi, R. & Vani, R. Early diagnosis of glaucoma by optic disc and optic cup segmentation over retinal fundus images using deep learning algorithm. J. Theoretical Appl. Inform. Technol. 102, 15 (2024).",
+        "journal-title": "J. Theoretical Appl. Inform. Technol."
+      },
+      {
+        "issue": "12",
+        "key": "23425_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "5103",
+        "DOI": "10.3390/app14125103",
+        "volume": "14",
+        "author": "H Almeshrky",
+        "year": "2024",
+        "unstructured": "Almeshrky, H. & Karacı, A. Optic disc segmentation in human retina images using a meta heuristic optimization method and disease diagnosis with deep learning. Appl. Sci. 14 (12), 5103 (2024).",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "key": "23425_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "17290",
+        "DOI": "10.1109/ACCESS.2024.3359698",
+        "volume": "12",
+        "author": "T Shyamalee",
+        "year": "2024",
+        "unstructured": "Shyamalee, T., Meedeniya, D., Lim, G. & Karunarathne, M. Automated tool support for glaucoma identification with explainability using fundus images. IEEE Access. 12, 17290–17307 (2024).",
+        "journal-title": "IEEE Access."
+      },
+      {
+        "key": "23425_CR16",
+        "unstructured": "Rajesh, I. S., Bharati, M., Reshmi, A. B., Malakreddy & Bilakeri, S. Automatic detection of hard exudate in color retinal fundus image and diabetic maculopathy grading. IEEE Access. (2025)."
+      },
+      {
+        "issue": "2",
+        "key": "23425_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.4258/hir.2023.29.2.145",
+        "volume": "29",
+        "author": "A Septiarini",
+        "year": "2023",
+        "unstructured": "Septiarini, A., Hamdani, H., Setyaningsih, E., Junirianto, E. & Utaminingrum, F. Automatic method for optic disc segmentation using deep learning on retinal fundus images. Healthc. Inf. Res. 29 (2), 145–151 (2023).",
+        "journal-title": "Healthc. Inf. Res."
+      },
+      {
+        "issue": "6",
+        "key": "23425_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "3829",
+        "DOI": "10.3233/THC-230310",
+        "volume": "32",
+        "author": "S Ma",
+        "year": "2024",
+        "unstructured": "Ma, S. & Sudarson Rama Perumal, T. Multi-dimensional dense attention network for pixel-wise segmentation of optic disc in colour fundus images. Technol. Health Care. 32 (6), 3829–3846 (2024).",
+        "journal-title": "Technol. Health Care"
+      },
+      {
+        "issue": "6",
+        "key": "23425_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2827",
+        "DOI": "10.18280/ts.400643",
+        "volume": "40",
+        "author": "B Sreedevi",
+        "year": "2023",
+        "unstructured": "Sreedevi, B., Suresh, G., Mubarakali, A. & Lalitha, K. OD-DeepNet: semantic classification by deep learning for optic disc localization. Traitement Du Signal. 40 (6), 2827 (2023).",
+        "journal-title": "Traitement Du Signal."
+      },
+      {
+        "key": "23425_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kumar, G., Bharadwaja & Kumar, S. Enhanced segmentation of optic disc and cup using attention-based U-Net with dense dilated series convolutions. Neural Comput. Appl. 1–17 (2025).",
+        "DOI": "10.1007/s00521-025-10989-x"
+      },
+      {
+        "issue": "30",
+        "key": "23425_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "74955",
+        "DOI": "10.1007/s11042-024-18243-7",
+        "volume": "83",
+        "author": "NS Jeya Shyla",
+        "year": "2024",
+        "unstructured": "Jeya Shyla, N. S. & Sam Emmanuel, W. R. Glaucoma stage classification using unet-based segmentation with multiple feature extraction technique. Multimedia Tools Appl. 83 (30), 74955–74971 (2024).",
+        "journal-title": "Multimedia Tools Appl."
+      },
+      {
+        "key": "23425_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sheraz, H., Shehryar, T. & Zuhaib Ahmed, K. Two stage-network: automatic localization of optic disc (OD) and classification of glaucoma in fundus images using deep learning techniques. Multimedia Tools Appl. 1–29 (2024).",
+        "DOI": "10.1007/s11042-024-19338-x"
+      },
+      {
+        "issue": "1",
+        "key": "23425_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "98",
+        "DOI": "10.1186/s12886-024-03376-y",
+        "volume": "24",
+        "author": "Z Zhou",
+        "year": "2024",
+        "unstructured": "Zhou, Z., Zheng, Y., Zhou, X., Rong, S. & Jie Yu, and Self-supervised pre-training for joint optic disc and cup segmentation via attention-aware network. BMC Ophthalmol. 24 (1), 98 (2024).",
+        "journal-title": "BMC Ophthalmol."
+      },
+      {
+        "key": "23425_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, F. et al. and. Joint optic disk and cup segmentation for glaucoma screening using a region-based deep learning network. Eye 37(6), 1080–1087 (2023).",
+        "DOI": "10.1038/s41433-022-02055-w"
+      },
+      {
+        "issue": "1",
+        "key": "23425_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "371",
+        "DOI": "10.1038/s41598-023-50908-5",
+        "volume": "14",
+        "author": "SL Naing",
+        "year": "2024",
+        "unstructured": "Naing, S. L. & Aimmanee, P. Automated optic disk segmentation for optic disk edema classification using factorized gradient vector flow. Sci. Rep. 14 (1), 371 (2024).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "1",
+        "key": "23425_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "4494",
+        "DOI": "10.1038/s41598-024-55056-y",
+        "volume": "14",
+        "author": "X Gao",
+        "year": "2024",
+        "unstructured": "Gao, X. et al. Automated vertical cup-to-disc ratio determination from fundus images for glaucoma detection. Sci. Rep. 14 (1), 4494 (2024).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "1",
+        "key": "23425_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "29331",
+        "DOI": "10.1038/s41598-024-71509-w",
+        "volume": "14",
+        "author": "MR Lam",
+        "year": "2024",
+        "unstructured": "Lam, M. R. et al. Suh. Vascular insult in neonatal retinal hemorrhage: computational analysis of a fundus-segmented blood vessel network. Sci. Rep. 14 (1), 29331 (2024).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "1",
+        "key": "23425_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "23107",
+        "DOI": "10.1038/s41598-024-73493-7",
+        "volume": "14",
+        "author": "R Shalini",
+        "year": "2024",
+        "unstructured": "Shalini, R. & Varun, P. Gopi. Multiresolution cascaded attention U-Net for localization and segmentation of optic disc and fovea in fundus images. Sci. Rep. 14 (1), 23107 (2024).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "23425_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Faisal, A., Munilla, J. & Rahebi, J. Detection of optic disc in human retinal images utilizing the Bitterling fish optimization (BFO) algorithm. Sci. Rep. 14(1), 25824 (2024).",
+        "DOI": "10.1038/s41598-024-76134-1"
+      },
+      {
+        "key": "23425_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Banerjee, T. et al. HHO-UNet-IAA: Harris Hawks optimization based novel UNet-inception attention architecture for glaucoma segmentation. Int. J. Inform. Technol. 1–10. (2025).",
+        "DOI": "10.1007/s41870-025-02417-z"
+      },
+      {
+        "issue": "4",
+        "key": "23425_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "863",
+        "DOI": "10.1007/s42600-023-00311-w",
+        "volume": "39",
+        "author": "A Sharma",
+        "year": "2023",
+        "unstructured": "Sharma, A., Agrawal, M., Roy, S. D. & Gupta, V. Inter-dataset performance analysis of generative adversarial networks for optic disc segmentation using digital fundus images. Res. Biomedical Eng. 39 (4), 863–875 (2023).",
+        "journal-title": "Res. Biomedical Eng."
+      },
+      {
+        "key": "23425_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tadisetty, S., Chodavarapu, R., Jin, R., Clements, R. J. & Yu, M. Identifying the edges of the optic cup and the optic disc in glaucoma patients by segmentation. Sensors 23(10), 4668 (2023).",
+        "DOI": "10.3390/s23104668"
+      },
+      {
+        "key": "23425_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, B. et al. Structural uncertainty Estimation for medical image segmentation. Med. Image. Anal. 103602 (2025).",
+        "DOI": "10.1016/j.media.2025.103602"
+      },
+      {
+        "key": "23425_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ye, H., Zhang, X., Hu, Y., Fu, H. & Liu, J. Vsr-net: Vessel-like Structure Rehabilitation Network with Graph Clustering (IEEE Transactions on Image Processing, 2025).",
+        "DOI": "10.1109/TIP.2025.3526061"
+      },
+      {
+        "key": "23425_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiao, Z., Zhang, X., Higashita, R. & Liu, J. Mm-unet: A mixed mlp architecture for improved ophthalmic image segmentation. In International Workshop on Ophthalmic Medical Image Analysis 63–72 (Springer Nature Switzerland, 2024),",
+        "DOI": "10.1007/978-3-031-73119-8_7"
+      },
+      {
+        "key": "23425_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X. et al. Adaptive dual-axis style-based recalibration network with class-wise statistics loss for imbalanced medical image classification. IEEE Transactions on Image Processing. (2025).",
+        "DOI": "10.1109/TIP.2025.3551128"
+      },
+      {
+        "key": "23425_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X. et al. Attention to region: Region-based integration-and-recalibration networks for nuclear cataract classification using AS-OCT images. Med. Image Anal. 80, 102499 (2022).",
+        "DOI": "10.1016/j.media.2022.102499"
+      },
+      {
+        "issue": "4",
+        "key": "23425_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "6802",
+        "DOI": "10.1109/TNNLS.2024.3399164",
+        "volume": "36",
+        "author": "X Zhang",
+        "year": "2024",
+        "unstructured": "Zhang, X. et al. Pyramid pixel context adaption network for medical image classification with supervised contrastive learning. IEEE Trans. Neural Netw. Learn. Syst. 36(4), 6802–6815 (2024).",
+        "journal-title": "IEEE Trans. Neural Networks Learn. Syst."
+      },
+      {
+        "key": "23425_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy, J., Krishnadas, S. R., Joshi, G. D., Jain, M & Ujjwaft Syed, A. Tabish. Drishti-gs: Retinal image dataset for optic nerve head (onh) segmentation. In 2014 IEEE 11th international symposium on biomedical imaging (ISBI) 53–56 (IEEE, 2014).",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "23425_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero, F., Silvia Alayón, J. L., Sanchez, J., Sigut & Gonzalez-Hernandez, M. RIM-ONE: An open retinal image database for optic nerve evaluation. In 2011 24th international symposium on computer-based medical systems (CBMS) 1–6 (IEEE, 2011).",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "23425_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z. et al. IEEE,. Origa-light: An online retinal fundus image database for glaucoma analysis and research. In 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology 3065–3068 (2010).",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-23425-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-23425-w",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-23425-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ],
+      "date-time": "2026-04-30T13:20:07Z",
+      "timestamp": 1777555207000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-025-23425-w"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ]
+    },
+    "references-count": 41,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "23425"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-025-23425-w",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "27 June 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "7 October 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "13 November 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 April 2026",
+        "order": 5,
+        "name": "change_date",
+        "label": "Change Date",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Update",
+        "order": 6,
+        "name": "change_type",
+        "label": "Change Type",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The original online version of this Article was revised: In the original version of this Article B. Vinoth Kumar was incorrectly affiliated with Affiliations 1 and 2. Their correct affiliation is only Affiliation 2: Department of Information Technology, PSG College of Technology, Coimbatore, Tamilnadu, India.The original Article has been corrected.",
+        "order": 7,
+        "name": "change_details",
+        "label": "Change Details",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "39843"
+  }
+}

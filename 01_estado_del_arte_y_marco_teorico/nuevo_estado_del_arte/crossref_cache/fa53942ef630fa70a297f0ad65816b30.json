@@ -1,0 +1,468 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2026-11-16T14:56:08Z",
+      "timestamp": 1794840968161,
+      "version": "4.9.1"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 28,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783032199621",
+        "type": "print"
+      },
+      {
+        "value": "9783032199638",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-032-19963-8_2",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2026-05-06T22:20:44Z",
+      "timestamp": 1778106044000
+    },
+    "page": "14-25",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Transformer-Based Fundus Screening: Swin-Tiny for Retinal Disease Classification"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Kawtar",
+        "family": "Naim",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aziz",
+        "family": "Darouichi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2_CR1",
+        "unstructured": "Sun, H., et al.: IDF diabetes atlas: Global, regional and country-level diabetes prevalence estimates for 2021 and projections for 2045. Diabetes Res. Clin. Pract. 183, 109119 (2022). https://pubmed.ncbi.nlm.nih.gov/34879977/"
+      },
+      {
+        "key": "2_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tham, Y.C., Li, X., Wong, T.Y., Quigley, H.A., Aung, T., Cheng, C.Y.: Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology 121(11), 2081–2090 (2014). https://pubmed.ncbi.nlm.nih.gov/24974815/",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "key": "2_CR3",
+        "unstructured": "World health organization: blindness and vision impairment: fact sheet (2023). https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment, Accessed 28 Sep 2025"
+      },
+      {
+        "key": "2_CR4",
+        "unstructured": "Group, G..V.L.E., et al.: Global estimates on the number of people blind or visually impaired, 1990–2020. The Lancet Global Health (GBD Study summary on PMC) (2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC11269584/, cataract remains a leading cause of blindness globally"
+      },
+      {
+        "key": "2_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gulshan, V., Peng, L., Coram, M., et al.: Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA 316(22), 2402–2410 (2016), https://jamanetwork.com/journals/jama/fullarticle/2588763",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "2_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ting, D.S.W., et al.: Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes. JAMA 318(22), 2211–2223 (2017). https://jamanetwork.com/journals/jama/fullarticle/2665775",
+        "DOI": "10.1001/jama.2017.18152"
+      },
+      {
+        "key": "2_CR7",
+        "unstructured": "Dosovitskiy, A., et al.: An image is worth 16x16 words: transformers for image recognition at scale. ICLR (2021). https://arxiv.org/abs/2010.11929"
+      },
+      {
+        "key": "2_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., et al.: Swin transformer: hierarchical vision transformer using shifted windows. 2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9992–10002 (2021). https://api.semanticscholar.org/CorpusID:232352874",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "2_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guan, H., Liu, M.: Domain adaptation for medical image analysis: a survey. IEEE Trans. Biomed. Eng. 69(3), 1173–1185 (2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9011180/",
+        "DOI": "10.1109/TBME.2021.3117407"
+      },
+      {
+        "key": "2_CR10",
+        "unstructured": "Matta, S., et al.: A systematic review of generalization research in medical imaging. Comput. Biol. Med. 174, 108258 (2024). https://www.sciencedirect.com/science/article/pii/S0010482524013416"
+      },
+      {
+        "key": "2_CR11",
+        "unstructured": "Babaqi, T., Jaradat, M., Yildirim, A.E., AL-Nimer, S.H., Won, D.: Eye disease classification using deep learning techniques. ArXiv abs/2307.10501 (2023). https://api.semanticscholar.org/CorpusID:259991509"
+      },
+      {
+        "key": "2_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cui, Y., Sun, R., Liu, B., Liu, Z., Toe, T.T.: Eye diseases classification using transfer learning of residual neural network. 2023 3rd International Symposium on Computer Technology and Information Science (ISCTIS), pp. 244–248 (2023). https://api.semanticscholar.org/CorpusID:260934649",
+        "DOI": "10.1109/ISCTIS58954.2023.10213138"
+      },
+      {
+        "key": "2_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zannah, T.B., et al.: Bayesian optimized machine learning model for automated eye disease classification from fundus images. Computation 12(9) (2024). https://www.mdpi.com/2079-3197/12/9/190",
+        "DOI": "10.3390/computation12090190"
+      },
+      {
+        "key": "2_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Naim, K., Darouichi, A.: Retinal disease classification using ai: a novel capsnet-vgg16 architecture (2024)",
+        "DOI": "10.1109/ICCITX61791.2024.11070715"
+      },
+      {
+        "key": "2_CR15",
+        "unstructured": "Abdullah, A.A., Aldhahab, A., Mohsin, H., Abboodi, A.: Deep-ensemble learning models for the detection and classification of eye diseases based on engineering feature extraction with efficientb6 and densnet169. Int. J. Intell. Eng. Syst. (2024). https://api.semanticscholar.org/CorpusID:273622498"
+      },
+      {
+        "key": "2_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soni, T.: Advanced eye disease classification using the efficientnetb3 deep learning model. In: 2024 3rd International Conference on Automation, Computing and Renewable Systems (ICACRS), pp. 875–879 (2024). https://api.semanticscholar.org/CorpusID:275586434",
+        "DOI": "10.1109/ICACRS62842.2024.10841712"
+      },
+      {
+        "key": "2_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nath, B.D., Afroge, S.: A fusion-based approach to multiclass retinal disease classification: transfer learning strategy with cbam integration. In: 2024 IEEE International Conference on Power, Electrical, Electronics and Industrial Applications (PEEIACON), pp. 934–938 (2024). https://api.semanticscholar.org/CorpusID:275019827",
+        "DOI": "10.1109/PEEIACON63629.2024.10800237"
+      },
+      {
+        "key": "2_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gamel, S.A., Alansari, I.S., Saleh, S.S., Khater, H.A.: Transforming ophthalmic care: the role of ai in accurate eye disease classification edc. In: 2024 41st National Radio Science Conference (NRSC). vol. 1, pp. 260–269 (2024)",
+        "DOI": "10.1109/NRSC61581.2024.10510471"
+      },
+      {
+        "key": "2_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "NAIM, K., DAROUICHI, A.: Deep learning-based classification of retinal pathologies. Statistics, Optimization & Information Computing (2025). http://www.iapress.org/index.php/soic/article/view/2767",
+        "DOI": "10.19139/soic-2310-5070-2767"
+      },
+      {
+        "key": "2_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almohimeed, A.: Multi-stage framework using transformer models, feature fusion and ensemble learning for enhancing eye disease classification. Sci. Rep. 15 (2025). https://api.semanticscholar.org/CorpusID:280690545",
+        "DOI": "10.1038/s41598-025-16415-5"
+      },
+      {
+        "key": "2_CR21",
+        "unstructured": "Doddi, G.V.: Eye diseases classification (edc) dataset. Kaggle. https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification, Accessed 2022"
+      },
+      {
+        "key": "2_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilkinson, C.P., et al.: Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales. Ophthalmology 110(9), 1677–1682 (2003). https://www.sciencedirect.com/science/article/pii/S0161642003004755",
+        "DOI": "10.1016/S0161-6420(03)00475-5"
+      },
+      {
+        "key": "2_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheung, N., Mitchell, P., Wong, T.Y.: Diabetic retinopathy. Nature Reviews Disease Primers 2, 16012 (2016). https://www.nature.com/articles/nrdp201612",
+        "DOI": "10.1038/nrdp.2016.12"
+      },
+      {
+        "key": "2_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, M., et al.: Risk of visual field progression in glaucoma patients with progressive retinal nerve fiber layer thinning. Ophthalmology 123(12), 2438–2446 (2016). https://pubmed.ncbi.nlm.nih.gov/27001534/",
+        "DOI": "10.1016/j.ophtha.2016.02.017"
+      },
+      {
+        "key": "2_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leung, C.K., et al.: Evaluation of retinal nerve fiber layer progression in glaucoma. Invest. Ophthalmology Visual Sci. 51(1), 217–222 (2010). https://iovs.arvojournals.org/article.aspx?articleid=2185772",
+        "DOI": "10.1167/iovs.09-3468"
+      },
+      {
+        "key": "2_CR26",
+        "unstructured": "Kim, M., et al.: Effect of cataract grade on wide-field fundus imaging quality. PLOS ONE 13(6), e0199100 (2018). https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0199100"
+      },
+      {
+        "key": "2_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gonzalez-Amador, E., et al.: Improvement of retinal images affected by cataracts. Photonics 9(4), 251 (2022). https://www.mdpi.com/2304-6732/9/4/251",
+        "DOI": "10.3390/photonics9040251"
+      },
+      {
+        "key": "2_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Campbell, J., et al.: Detailed vascular anatomy of the human retina by projection-resolved optical coherence tomography angiography. Sci. Rep. 7, 42201 (2017). https://www.nature.com/articles/srep42201",
+        "DOI": "10.1038/srep42201"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Networks and Systems",
+      "Advances in Machine Intelligence and Computer Science Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-032-19963-8_2",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2026-05-06T22:20:50Z",
+      "timestamp": 1778106050000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-032-19963-8_2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783032199621",
+      "9783032199638"
+    ],
+    "references-count": 28,
+    "URL": "https://doi.org/10.1007/978-3-032-19963-8_2",
+    "relation": {
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1007/978-3-032-19963-8",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2367-3370",
+      "2367-3389"
+    ],
+    "issn-type": [
+      {
+        "value": "2367-3370",
+        "type": "print"
+      },
+      {
+        "value": "2367-3389",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "1 May 2026",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ICMICSA",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "International Conference of Machine Intelligence and Computer Science Applications",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Khouribga",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Morocco",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2025",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "24 November 2025",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "25 November 2025",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "icmicsa-12025",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://www.icmicsa.com/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2026-11-06T10:31:03Z",
+      "timestamp": 1793961063216,
+      "version": "4.8.0"
+    },
+    "reference-count": 32,
+    "publisher": "Informa UK Limited",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              29
+            ]
+          ],
+          "date-time": "2023-05-29T00:00:00Z",
+          "timestamp": 1685318400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1080/policies-text-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Current Eye Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1080/02713683.2023.2215984",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          29
+        ]
+      ],
+      "date-time": "2023-05-29T09:25:28Z",
+      "timestamp": 1685352328000
+    },
+    "page": "857-863",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Cross-camera Performance of Deep Learning Algorithms to Diagnose Common Ophthalmic Diseases: A Comparative Study Highlighting Feasibility to Portable Fundus Camera Use"
+    ],
+    "prefix": "10.1080",
+    "volume": "48",
+    "author": [
+      {
+        "given": "Shuang",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science",
+            "place": [
+              "Guangzhou, China"
+            ]
+          },
+          {
+            "name": "Guangdong Provincial Clinical Research Center for Ocular Diseases",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabriella",
+        "family": "Bulloch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Melbourne",
+            "place": [
+              "Melbourne, Australia"
+            ]
+          },
+          {
+            "name": "Centre for Eye Research Australia",
+            "place": [
+              "Melbourne, Australia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liangxin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhongshan School of Medicine, Sun Yat-sen University",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yiyu",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weiyu",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Guangdong Academy of Medical Sciences, Guangdong Provincial People’s Hospital",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yahong",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Guangdong Academy of Medical Sciences, Guangdong Provincial People’s Hospital",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Eyetelligence Ltd",
+            "place": [
+              "Melbourne, Australia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danli",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science",
+            "place": [
+              "Guangzhou, China"
+            ]
+          },
+          {
+            "name": "Guangdong Provincial Clinical Research Center for Ocular Diseases",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mingguang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science",
+            "place": [
+              "Guangzhou, China"
+            ]
+          },
+          {
+            "name": "Guangdong Provincial Clinical Research Center for Ocular Diseases",
+            "place": [
+              "Guangzhou, China"
+            ]
+          },
+          {
+            "name": "University of Melbourne",
+            "place": [
+              "Melbourne, Australia"
+            ]
+          },
+          {
+            "name": "Centre for Eye Research Australia",
+            "place": [
+              "Melbourne, Australia"
+            ]
+          },
+          {
+            "name": "Eyetelligence Ltd",
+            "place": [
+              "Melbourne, Australia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_3_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.02.037"
+      },
+      {
+        "key": "e_1_3_3_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "e_1_3_3_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2019.07.024"
+      },
+      {
+        "key": "e_1_3_3_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2019.3501"
+      },
+      {
+        "key": "e_1_3_3_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2018-313173"
+      },
+      {
+        "key": "e_1_3_3_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023"
+      },
+      {
+        "key": "e_1_3_3_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ceo.13575"
+      },
+      {
+        "key": "e_1_3_3_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics12020532"
+      },
+      {
+        "key": "e_1_3_3_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2020-316984"
+      },
+      {
+        "key": "e_1_3_3_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11517-022-02510-6"
+      },
+      {
+        "key": "e_1_3_3_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2019.11.006"
+      },
+      {
+        "key": "e_1_3_3_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.16-19964"
+      },
+      {
+        "key": "e_1_3_3_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2018.6035"
+      },
+      {
+        "key": "e_1_3_3_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-19-0019-8_49"
+      },
+      {
+        "key": "e_1_3_3_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/tvst.10.13.17"
+      },
+      {
+        "key": "e_1_3_3_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/APO.0000000000000301"
+      },
+      {
+        "key": "e_1_3_3_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2022/5779276"
+      },
+      {
+        "key": "e_1_3_3_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc18-0147"
+      },
+      {
+        "key": "e_1_3_3_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2021.740987"
+      },
+      {
+        "key": "e_1_3_3_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2529310"
+      },
+      {
+        "key": "e_1_3_3_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.preteyeres.2019.04.003"
+      },
+      {
+        "key": "e_1_3_3_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-019-0099-8"
+      },
+      {
+        "key": "e_1_3_3_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2016.11.014"
+      },
+      {
+        "key": "e_1_3_3_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-018-0040-6"
+      },
+      {
+        "key": "e_1_3_3_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2021.101971"
+      },
+      {
+        "key": "e_1_3_3_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3068477"
+      },
+      {
+        "key": "e_1_3_3_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2020.105761"
+      },
+      {
+        "key": "e_1_3_3_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2009.01601"
+      },
+      {
+        "key": "e_1_3_3_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-64559-5_10"
+      },
+      {
+        "key": "e_1_3_3_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101552"
+      },
+      {
+        "key": "e_1_3_3_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00541"
+      },
+      {
+        "key": "e_1_3_3_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2021.102135"
+      }
+    ],
+    "container-title": [
+      "Current Eye Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/02713683.2023.2215984",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.tandfonline.com/doi/full-xml/10.1080/02713683.2023.2215984",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/02713683.2023.2215984",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2026-11-06T10:13:57Z",
+      "timestamp": 1793960037000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/02713683.2023.2215984"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          29
+        ]
+      ]
+    },
+    "references-count": 32,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/02713683.2023.2215984"
+    ],
+    "URL": "https://doi.org/10.1080/02713683.2023.2215984",
+    "relation": {},
+    "ISSN": [
+      "0271-3683",
+      "1460-2202"
+    ],
+    "issn-type": [
+      {
+        "value": "0271-3683",
+        "type": "print"
+      },
+      {
+        "value": "1460-2202",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          29
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=icey20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=icey20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2023-02-22",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-04-19",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-05-14",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-05-29",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

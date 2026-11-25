@@ -1,0 +1,204 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2307.13646",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2307.13646",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2307.13646",
+      "identifiers": [
+        {
+          "identifier": "2307.13646",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2307.13646"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Engelmann, Justin",
+          "nameType": "Personal",
+          "givenName": "Justin",
+          "familyName": "Engelmann",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Storkey, Amos",
+          "nameType": "Personal",
+          "givenName": "Amos",
+          "familyName": "Storkey",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Bernabeu, Miguel O.",
+          "nameType": "Personal",
+          "givenName": "Miguel O.",
+          "familyName": "Bernabeu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "QuickQual: Lightweight, convenient retinal image quality scoring with off-the-shelf pretrained models"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Quantitative Methods (q-bio.QM)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Biological sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Biological sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2023-07-25T16:55:13Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023-07-26T00:41:38Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023-07",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "arXiv.org perpetual, non-exclusive license",
+          "rightsUri": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Image quality remains a key problem for both traditional and deep learning (DL)-based approaches to retinal image analysis, but identifying poor quality images can be time consuming and subjective. Thus, automated methods for retinal image quality scoring (RIQS) are needed. The current state-of-the-art is MCFNet, composed of three Densenet121 backbones each operating in a different colour space. MCFNet, and the EyeQ dataset released by the same authors, was a huge step forward for RIQS. We present QuickQual, a simple approach to RIQS, consisting of a single off-the-shelf ImageNet-pretrained Densenet121 backbone plus a Support Vector Machine (SVM). QuickQual performs very well, setting a new state-of-the-art for EyeQ (Accuracy: 88.50% vs 88.00% for MCFNet; AUC: 0.9687 vs 0.9588). This suggests that RIQS can be solved with generic perceptual features learned on natural images, as opposed to requiring DL models trained on large amounts of fundus images. Additionally, we propose a Fixed Prior linearisation scheme, that converts EyeQ from a 3-way classification to a continuous logistic regression task. For this task, we present a second model, QuickQual MEga Minified Estimator (QuickQual-MEME), that consists of only 10 parameters on top of an off-the-shelf Densenet121 and can distinguish between gradable and ungradable images with an accuracy of 89.18% (AUC: 0.9537). Code and model are available on GitHub: https://github.com/justinengelmann/QuickQual . QuickQual is so lightweight, that the entire inference code (and even the parameters for QuickQual-MEME) is already contained in this paper.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yMzA3LjEzNjQ2PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjMwNy4xMzY0NjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5FbmdlbG1hbm4sIEp1c3RpbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+SnVzdGluPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkVuZ2VsbWFubjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5TdG9ya2V5LCBBbW9zPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5BbW9zPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlN0b3JrZXk8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+QmVybmFiZXUsIE1pZ3VlbCBPLjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TWlndWVsIE8uPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkJlcm5hYmV1PC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5RdWlja1F1YWw6IExpZ2h0d2VpZ2h0LCBjb252ZW5pZW50IHJldGluYWwgaW1hZ2UgcXVhbGl0eSBzY29yaW5nIHdpdGggb2ZmLXRoZS1zaGVsZiBwcmV0cmFpbmVkIG1vZGVsczwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5hclhpdjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyMzwvcHVibGljYXRpb25ZZWFyPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkNvbXB1dGVyIFZpc2lvbiBhbmQgUGF0dGVybiBSZWNvZ25pdGlvbiAoY3MuQ1YpPC9zdWJqZWN0PgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+QXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgKGNzLkFJKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPlF1YW50aXRhdGl2ZSBNZXRob2RzIChxLWJpby5RTSk8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGaWVsZHMgb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSAoRk9TKSI+Rk9TOiBDb21wdXRlciBhbmQgaW5mb3JtYXRpb24gc2NpZW5jZXM8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGaWVsZHMgb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSAoRk9TKSI+Rk9TOiBCaW9sb2dpY2FsIHNjaWVuY2VzPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IlN1Ym1pdHRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyMy0wNy0yNVQxNjo1NToxM1o8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyMy0wNy0yNlQwMDo0MTozOFo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQXZhaWxhYmxlIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDIzLTA3PC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJQcmVwcmludCI+QXJ0aWNsZTwvcmVzb3VyY2VUeXBlPgogIDx2ZXJzaW9uPjE8L3ZlcnNpb24+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cDovL2FyeGl2Lm9yZy9saWNlbnNlcy9ub25leGNsdXNpdmUtZGlzdHJpYi8xLjAvIj5hclhpdi5vcmcgcGVycGV0dWFsLCBub24tZXhjbHVzaXZlIGxpY2Vuc2U8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5JbWFnZSBxdWFsaXR5IHJlbWFpbnMgYSBrZXkgcHJvYmxlbSBmb3IgYm90aCB0cmFkaXRpb25hbCBhbmQgZGVlcCBsZWFybmluZyAoREwpLWJhc2VkIGFwcHJvYWNoZXMgdG8gcmV0aW5hbCBpbWFnZSBhbmFseXNpcywgYnV0IGlkZW50aWZ5aW5nIHBvb3IgcXVhbGl0eSBpbWFnZXMgY2FuIGJlIHRpbWUgY29uc3VtaW5nIGFuZCBzdWJqZWN0aXZlLiBUaHVzLCBhdXRvbWF0ZWQgbWV0aG9kcyBmb3IgcmV0aW5hbCBpbWFnZSBxdWFsaXR5IHNjb3JpbmcgKFJJUVMpIGFyZSBuZWVkZWQuIFRoZSBjdXJyZW50IHN0YXRlLW9mLXRoZS1hcnQgaXMgTUNGTmV0LCBjb21wb3NlZCBvZiB0aHJlZSBEZW5zZW5ldDEyMSBiYWNrYm9uZXMgZWFjaCBvcGVyYXRpbmcgaW4gYSBkaWZmZXJlbnQgY29sb3VyIHNwYWNlLiBNQ0ZOZXQsIGFuZCB0aGUgRXllUSBkYXRhc2V0IHJlbGVhc2VkIGJ5IHRoZSBzYW1lIGF1dGhvcnMsIHdhcyBhIGh1Z2Ugc3RlcCBmb3J3YXJkIGZvciBSSVFTLiBXZSBwcmVzZW50IFF1aWNrUXVhbCwgYSBzaW1wbGUgYXBwcm9hY2ggdG8gUklRUywgY29uc2lzdGluZyBvZiBhIHNpbmdsZSBvZmYtdGhlLXNoZWxmIEltYWdlTmV0LXByZXRyYWluZWQgRGVuc2VuZXQxMjEgYmFja2JvbmUgcGx1cyBhIFN1cHBvcnQgVmVjdG9yIE1hY2hpbmUgKFNWTSkuIFF1aWNrUXVhbCBwZXJmb3JtcyB2ZXJ5IHdlbGwsIHNldHRpbmcgYSBuZXcgc3RhdGUtb2YtdGhlLWFydCBmb3IgRXllUSAoQWNjdXJhY3k6IDg4LjUwJSB2cyA4OC4wMCUgZm9yIE1DRk5ldDsgQVVDOiAwLjk2ODcgdnMgMC45NTg4KS4gVGhpcyBzdWdnZXN0cyB0aGF0IFJJUVMgY2FuIGJlIHNvbHZlZCB3aXRoIGdlbmVyaWMgcGVyY2VwdHVhbCBmZWF0dXJlcyBsZWFybmVkIG9uIG5hdHVyYWwgaW1hZ2VzLCBhcyBvcHBvc2VkIHRvIHJlcXVpcmluZyBETCBtb2RlbHMgdHJhaW5lZCBvbiBsYXJnZSBhbW91bnRzIG9mIGZ1bmR1cyBpbWFnZXMuIEFkZGl0aW9uYWxseSwgd2UgcHJvcG9zZSBhIEZpeGVkIFByaW9yIGxpbmVhcmlzYXRpb24gc2NoZW1lLCB0aGF0IGNvbnZlcnRzIEV5ZVEgZnJvbSBhIDMtd2F5IGNsYXNzaWZpY2F0aW9uIHRvIGEgY29udGludW91cyBsb2dpc3RpYyByZWdyZXNzaW9uIHRhc2suIEZvciB0aGlzIHRhc2ssIHdlIHByZXNlbnQgYSBzZWNvbmQgbW9kZWwsIFF1aWNrUXVhbCBNRWdhIE1pbmlmaWVkIEVzdGltYXRvciAoUXVpY2tRdWFsLU1FTUUpLCB0aGF0IGNvbnNpc3RzIG9mIG9ubHkgMTAgcGFyYW1ldGVycyBvbiB0b3Agb2YgYW4gb2ZmLXRoZS1zaGVsZiBEZW5zZW5ldDEyMSBhbmQgY2FuIGRpc3Rpbmd1aXNoIGJldHdlZW4gZ3JhZGFibGUgYW5kIHVuZ3JhZGFibGUgaW1hZ2VzIHdpdGggYW4gYWNjdXJhY3kgb2YgODkuMTglIChBVUM6IDAuOTUzNykuIENvZGUgYW5kIG1vZGVsIGFyZSBhdmFpbGFibGUgb24gR2l0SHViOiBodHRwczovL2dpdGh1Yi5jb20vanVzdGluZW5nZWxtYW5uL1F1aWNrUXVhbCAuIFF1aWNrUXVhbCBpcyBzbyBsaWdodHdlaWdodCwgdGhhdCB0aGUgZW50aXJlIGluZmVyZW5jZSBjb2RlIChhbmQgZXZlbiB0aGUgcGFyYW1ldGVycyBmb3IgUXVpY2tRdWFsLU1FTUUpIGlzIGFscmVhZHkgY29udGFpbmVkIGluIHRoaXMgcGFwZXIuPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+      "url": "https://arxiv.org/abs/2307.13646",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2023-07-26T01:44:03.000Z",
+      "registered": "2023-07-26T01:44:04.000Z",
+      "published": "2023",
+      "updated": "2023-07-26T01:44:04.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2307.13646",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

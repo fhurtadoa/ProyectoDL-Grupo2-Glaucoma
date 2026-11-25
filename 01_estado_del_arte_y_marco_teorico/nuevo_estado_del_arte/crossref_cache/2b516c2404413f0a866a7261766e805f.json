@@ -1,0 +1,1552 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T08:37:52Z",
+      "timestamp": 1795509472044,
+      "version": "4.11.0"
+    },
+    "reference-count": 56,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2025-09-15T00:00:00Z",
+          "timestamp": 1757894400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2025-09-15T00:00:00Z",
+          "timestamp": 1757894400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100013342",
+        "name": "NIHR Imperial Biomedical Research Centre",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/501100013342",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000289",
+        "name": "Cancer Research UK",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "C49297/A27294"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "C49297/A27294"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000289",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100013342",
+        "name": "NIHR Imperial Biomedical Research Centre",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/501100013342",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Med"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41591-025-03953-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2025-09-15T09:03:55Z",
+      "timestamp": 1757927035000
+    },
+    "page": "3283-3289",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 530,
+    "title": [
+      "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence"
+    ],
+    "prefix": "10.1038",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Viknesh",
+        "family": "Sounderajah",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmad",
+        "family": "Guni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1286-0038",
+        "authenticated-orcid": false,
+        "given": "Xiaoxuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2772-2316",
+        "authenticated-orcid": false,
+        "given": "Gary S.",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-4958-5976",
+        "authenticated-orcid": false,
+        "given": "Alan",
+        "family": "Karthikesalingam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sheraz R.",
+        "family": "Markar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-3270-0632",
+        "authenticated-orcid": false,
+        "given": "Robert M.",
+        "family": "Golub",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7849-0087",
+        "authenticated-orcid": false,
+        "given": "Alastair K.",
+        "family": "Denniston",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3783-3172",
+        "authenticated-orcid": false,
+        "given": "Shravya",
+        "family": "Shetty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2434-4206",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Moher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick M.",
+        "family": "Bossuyt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7815-7989",
+        "authenticated-orcid": false,
+        "given": "Ara",
+        "family": "Darzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1668-0672",
+        "authenticated-orcid": false,
+        "given": "Hutan",
+        "family": "Ashrafian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "STARD-AI Steering Committee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amish",
+        "family": "Acharya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bilal A.",
+        "family": "Mateen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Kelly",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Ting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Darren",
+        "family": "Treanor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dominic",
+        "family": "King",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felix",
+        "family": "Greaves",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hugh",
+        "family": "Harvey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey",
+        "family": "De Fauw",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jérémie F.",
+        "family": "Cohen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Godwin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Pearson-Stuttard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Karel",
+        "family": "Moons",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leanne",
+        "family": "Harling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lena",
+        "family": "Maier-Hein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lotty",
+        "family": "Hooft",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew DF",
+        "family": "McInnes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Melissa",
+        "family": "McCradden",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nader",
+        "family": "Rifai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nenad",
+        "family": "Tomasev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pasha",
+        "family": "Normahani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Penny",
+        "family": "Whiting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ravi",
+        "family": "Aggarwal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebastian",
+        "family": "Vollmer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sheraz R.",
+        "family": "Markar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Trishan",
+        "family": "Panch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "STARD-AI Consensus Group",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Ben Glocker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Moher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Diana",
+        "family": "Samuel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Johan",
+        "family": "Ordish",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Karandeep",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leo",
+        "family": "Celi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick",
+        "family": "Bossuyt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sherri",
+        "family": "Rose",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suchi",
+        "family": "Saria",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "3953_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "858",
+        "DOI": "10.1056/NEJMoa0900428",
+        "volume": "361",
+        "author": "T Reichlin",
+        "year": "2009",
+        "unstructured": "Reichlin, T. et al. Early diagnosis of myocardial infarction with sensitive cardiac troponin assays. N. Engl. J. Med. 361, 858–867 (2009).",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "3953_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "l408",
+        "DOI": "10.1136/bmj.l408",
+        "volume": "364",
+        "author": "N Hawkes",
+        "year": "2019",
+        "unstructured": "Hawkes, N. Cancer survival data emphasise importance of early diagnosis. BMJ 364, l408 (2019).",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "3953_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "S92",
+        "DOI": "10.1038/bjc.2015.48",
+        "volume": "112",
+        "author": "RD Neal",
+        "year": "2015",
+        "unstructured": "Neal, R. D. et al. Is increased time to diagnosis and treatment in symptomatic cancer associated with poorer outcomes? Systematic review. Br. J. Cancer 112, S92–S107 (2015).",
+        "journal-title": "Br. J. Cancer"
+      },
+      {
+        "key": "3953_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "S281",
+        "DOI": "10.1046/j.1532-5415.5153.x",
+        "volume": "51",
+        "author": "BP Leifer",
+        "year": "2003",
+        "unstructured": "Leifer, B. P. Early diagnosis of Alzheimer’s disease: clinical and economic benefits. J. Am. Geriatr. Soc. 51, S281–S288 (2003).",
+        "journal-title": "J. Am. Geriatr. Soc."
+      },
+      {
+        "key": "3953_CR5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aay9040",
+        "volume": "375",
+        "author": "D Crosby",
+        "year": "2022",
+        "unstructured": "Crosby, D. et al. Early detection of cancer. Science 375, eaay9040 (2022).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "3953_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1997",
+        "DOI": "10.1016/S0140-6736(21)00673-5",
+        "volume": "398",
+        "author": "KA Fleming",
+        "year": "2021",
+        "unstructured": "Fleming, K. A. et al. The Lancet Commission on diagnostics: transforming access to diagnostics. Lancet 398, 1997–2050 (2021).",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "3953_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1093",
+        "DOI": "10.1016/j.jclinepi.2013.05.014",
+        "volume": "66",
+        "author": "PF Whiting",
+        "year": "2013",
+        "unstructured": "Whiting, P. F., Rutjes, A. W., Westwood, M. E. & Mallett, S. A systematic review classifies sources of bias and variation in diagnostic test accuracy studies. J. Clin. Epidemiol. 66, 1093–1104 (2013).",
+        "journal-title": "J. Clin. Epidemiol."
+      },
+      {
+        "key": "3953_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "267",
+        "DOI": "10.1016/S0140-6736(13)62228-X",
+        "volume": "383",
+        "author": "P Glasziou",
+        "year": "2014",
+        "unstructured": "Glasziou, P. et al. Reducing waste from incomplete or unusable reports of biomedical research. Lancet 383, 267–276 (2014).",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "3953_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "166",
+        "DOI": "10.1016/S0140-6736(13)62227-8",
+        "volume": "383",
+        "author": "JP Ioannidis",
+        "year": "2014",
+        "unstructured": "Ioannidis, J. P. et al. Increasing value and reducing waste in research design, conduct, and analysis. Lancet 383, 166–175 (2014).",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "3953_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1061",
+        "DOI": "10.1001/jama.282.11.1061",
+        "volume": "282",
+        "author": "JG Lijmer",
+        "year": "1999",
+        "unstructured": "Lijmer, J. G. et al. Empirical evidence of design-related bias in studies of diagnostic tests. JAMA 282, 1061–1066 (1999).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "3953_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "669",
+        "DOI": "10.1136/bmj.324.7338.669",
+        "volume": "324",
+        "author": "L Irwig",
+        "year": "2002",
+        "unstructured": "Irwig, L., Bossuyt, P., Glasziou, P., Gatsonis, C. & Lijmer, J. Designing studies to ensure that estimates of test accuracy are transferable. BMJ 324, 669–671 (2002).",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "3953_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1097/00001648-199701000-00002",
+        "volume": "8",
+        "author": "KG Moons",
+        "year": "1997",
+        "unstructured": "Moons, K. G., van Es, G. A., Deckers, J. W., Habbema, J. D. & Grobbee, D. E. Limitations of sensitivity, specificity, likelihood ratio, and Bayes’ theorem in assessing diagnostic probabilities: a clinical example. Epidemiology 8, 12–17 (1997).",
+        "journal-title": "Epidemiology"
+      },
+      {
+        "key": "3953_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "W1",
+        "DOI": "10.7326/0003-4819-138-1-200301070-00012-w1",
+        "volume": "138",
+        "author": "PM Bossuyt",
+        "year": "2003",
+        "unstructured": "Bossuyt, P. M. et al. The STARD statement for reporting studies of diagnostic accuracy: explanation and elaboration. Ann. Intern. Med. 138, W1–W12 (2003).",
+        "journal-title": "Ann. Intern. Med."
+      },
+      {
+        "key": "3953_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "h5527",
+        "DOI": "10.1136/bmj.h5527",
+        "volume": "351",
+        "author": "PM Bossuyt",
+        "year": "2015",
+        "unstructured": "Bossuyt, P. M. et al. STARD 2015: an updated list of essential items for reporting diagnostic accuracy studies. BMJ 351, h5527 (2015).",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "3953_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "e012799",
+        "DOI": "10.1136/bmjopen-2016-012799",
+        "volume": "6",
+        "author": "JF Cohen",
+        "year": "2016",
+        "unstructured": "Cohen, J. F. et al. STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration. BMJ Open 6, e012799 (2016).",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "3953_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "j3751",
+        "DOI": "10.1136/bmj.j3751",
+        "volume": "358",
+        "author": "JF Cohen",
+        "year": "2017",
+        "unstructured": "Cohen, J. F. et al. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ 358, j3751 (2017).",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "3953_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "781",
+        "DOI": "10.1148/radiol.14141160",
+        "volume": "274",
+        "author": "DA Korevaar",
+        "year": "2015",
+        "unstructured": "Korevaar, D. A. et al. Reporting diagnostic accuracy studies: some improvements after 10 years of STARD. Radiology 274, 781–789 (2015).",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "3953_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "47",
+        "DOI": "10.1136/eb-2013-101637",
+        "volume": "19",
+        "author": "DA Korevaar",
+        "year": "2014",
+        "unstructured": "Korevaar, D. A., van Enst, W. A., Spijker, R., Bossuyt, P. M. & Hooft, L. Reporting quality of diagnostic accuracy studies: a systematic review and meta-analysis of investigations on adherence to STARD. Evid. Based Med. 19, 47–54 (2014).",
+        "journal-title": "Evid. Based Med."
+      },
+      {
+        "key": "3953_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "710",
+        "DOI": "10.1038/s41581-021-00463-x",
+        "volume": "17",
+        "author": "Z Miao",
+        "year": "2021",
+        "unstructured": "Miao, Z., Humphreys, B. D., McMahon, A. P. & Kim, J. Multi-omics integration in the age of million single-cell data. Nat. Rev. Nephrol. 17, 710–724 (2021).",
+        "journal-title": "Nat. Rev. Nephrol."
+      },
+      {
+        "key": "3953_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "203",
+        "DOI": "10.1038/s41586-018-0579-z",
+        "volume": "562",
+        "author": "C Bycroft",
+        "year": "2018",
+        "unstructured": "Bycroft, C. et al. The UK Biobank resource with deep phenotyping and genomic data. Nature 562, 203–209 (2018).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "3953_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "430",
+        "DOI": "10.1038/s41586-020-2521-4",
+        "volume": "584",
+        "author": "EJ Williamson",
+        "year": "2020",
+        "unstructured": "Williamson, E. J. et al. Factors associated with COVID-19-related death using OpenSAFELY. Nature 584, 430–436 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "3953_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "565",
+        "DOI": "10.1016/S0140-6736(20)30251-8",
+        "volume": "395",
+        "author": "R Lu",
+        "year": "2020",
+        "unstructured": "Lu, R. et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet 395, 565–574 (2020).",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "3953_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "volume": "24",
+        "author": "J De Fauw",
+        "year": "2018",
+        "unstructured": "De Fauw, J. et al. Clinically applicable deep learning for diagnosis and referral in retinal disease. Nat. Med. 24, 1342–1350 (2018).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "89",
+        "DOI": "10.1038/s41586-019-1799-6",
+        "volume": "577",
+        "author": "SM McKinney",
+        "year": "2020",
+        "unstructured": "McKinney, S. M. et al. International evaluation of an AI system for breast cancer screening. Nature 577, 89–94 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "3953_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "volume": "25",
+        "author": "EJ Topol",
+        "year": "2019",
+        "unstructured": "Topol, E. J. High-performance medicine: the convergence of human and artificial intelligence. Nat. Med. 25, 44–56 (2019).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-020-00324-0",
+        "volume": "3",
+        "author": "S Benjamens",
+        "year": "2020",
+        "unstructured": "Benjamens, S., Dhunnoo, P. & Meskó, B. The state of artificial intelligence-based FDA-approved medical devices and algorithms: an online database. NPJ Digit. Med. 3, 118 (2020).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "3953_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "e271",
+        "DOI": "10.1016/S2589-7500(19)30123-2",
+        "volume": "1",
+        "author": "X Liu",
+        "year": "2019",
+        "unstructured": "Liu, X. et al. A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: a systematic review and meta-analysis. Lancet Digit. Health 1, e271–e297 (2019).",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "3953_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1364",
+        "DOI": "10.1038/s41591-020-1034-x",
+        "volume": "26",
+        "author": "X Liu",
+        "year": "2020",
+        "unstructured": "Liu, X. et al. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension. Nat. Med. 26, 1364–1374 (2020).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "m3210",
+        "DOI": "10.1136/bmj.m3210",
+        "volume": "370",
+        "author": "SC Rivera",
+        "year": "2020",
+        "unstructured": "Rivera, S. C., Liu, X., Chan, A.-W., Denniston, A. K. & Calvert, M. J. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension. BMJ 370, m3210 (2020).",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "3953_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "e078378",
+        "DOI": "10.1136/bmj-2023-078378",
+        "volume": "385",
+        "author": "GS Collins",
+        "year": "2024",
+        "unstructured": "Collins, G. S. et al. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ 385, e078378 (2024).",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "3953_CR31",
+        "unstructured": "Tejani, A. S. et al. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol. Artif. Intell. 6, e240300 (2024)."
+      },
+      {
+        "key": "3953_CR32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-021-00438-z",
+        "volume": "4",
+        "author": "R Aggarwal",
+        "year": "2021",
+        "unstructured": "Aggarwal, R. et al. Diagnostic accuracy of deep learning in medical imaging: a systematic review and meta-analysis. NPJ Digit.Med. 4, 65 (2021).",
+        "journal-title": "NPJ Digit.Med."
+      },
+      {
+        "key": "3953_CR33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-024-01106-8",
+        "volume": "7",
+        "author": "C McGenity",
+        "year": "2024",
+        "unstructured": "McGenity, C. et al. Artificial intelligence in digital pathology: a systematic review and meta-analysis of diagnostic test accuracy. NPJ Digit. Med. 7, 114 (2024).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "3953_CR34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-018-0029-1",
+        "volume": "1",
+        "author": "A Rajkomar",
+        "year": "2018",
+        "unstructured": "Rajkomar, A. et al. Scalable and accurate deep learning with electronic health records. NPJ Digit. Med. 1, 18 (2018).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "3953_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1408",
+        "DOI": "10.1373/clinchem.2012.182550",
+        "volume": "58",
+        "author": "KGM Moons",
+        "year": "2012",
+        "unstructured": "Moons, K. G. M., de Groot, J. A. H., Linnet, K., Reitsma, J. B. & Bossuyt, P. M. M. Quantifying the added value of a diagnostic test or marker. Clin. Chem. 58, 1408–1417 (2012).",
+        "journal-title": "Clin. Chem."
+      },
+      {
+        "key": "3953_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1636",
+        "DOI": "10.1373/clinchem.2012.182576",
+        "volume": "58",
+        "author": "PMM Bossuyt",
+        "year": "2012",
+        "unstructured": "Bossuyt, P. M. M., Reitsma, J. B., Linnet, K. & Moons, K. G. M. Beyond diagnostic accuracy: the clinical utility of diagnostic tests. Clin. Chem. 58, 1636–1643 (2012).",
+        "journal-title": "Clin. Chem."
+      },
+      {
+        "key": "3953_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.1038/s41591-024-03425-5",
+        "volume": "31",
+        "author": "J Gallifant",
+        "year": "2025",
+        "unstructured": "Gallifant, J. et al. The TRIPOD-LLM reporting guideline for studies using large language models. Nat. Med. 31, 60–69 (2025).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-019-1426-2",
+        "volume": "17",
+        "author": "CJ Kelly",
+        "year": "2019",
+        "unstructured": "Kelly, C. J., Karthikesalingam, A., Suleyman, M., Corrado, G. & King, D. Key challenges for delivering clinical impact with artificial intelligence. BMC Med. 17, 195 (2019).",
+        "journal-title": "BMC Med."
+      },
+      {
+        "key": "3953_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Y., Zhang, H., Gichoya, J. W., Katabi, D. & Ghassemi, M. The limits of fair medical imaging AI in real-world generalization. Nat. Med. 30, 2838–2848 (2024).",
+        "DOI": "10.1038/s41591-024-03113-4"
+      },
+      {
+        "key": "3953_CR40",
+        "unstructured": "The White House. Delivering on the Promise of AI to Improve Health Outcomes. https://bidenwhitehouse.archives.gov/briefing-room/blog/2023/12/14/delivering-on-the-promise-of-ai-to-improve-health-outcomes/ (2023)."
+      },
+      {
+        "key": "3953_CR41",
+        "unstructured": "Coalition for Health AI. Blueprint for Trustworthy AI Implementation Guidance and Assurance for Healthcare. https://www.chai.org/workgroup/responsible-ai/blueprint-for-trustworthy-ai (2023)."
+      },
+      {
+        "key": "3953_CR42",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Guni, A., Varma, P., Zhang, J., Fehervari, M. & Ashrafian, H. Artificial intelligence in surgery: the future is now. Eur. Surg. Res. https://doi.org/10.1159/000536393 (2024).",
+        "DOI": "10.1159/000536393"
+      },
+      {
+        "key": "3953_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "719",
+        "DOI": "10.1038/s41551-023-01056-8",
+        "volume": "7",
+        "author": "RJ Chen",
+        "year": "2023",
+        "unstructured": "Chen, R. J. et al. Algorithmic fairness in artificial intelligence for medicine and healthcare. Nat. Biomed. Eng. 7, 719–742 (2023).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "3953_CR44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-024-01031-w",
+        "volume": "7",
+        "author": "I Krakowski",
+        "year": "2024",
+        "unstructured": "Krakowski, I. et al. Human-AI interaction in skin cancer diagnosis: a systematic review and meta-analysis. NPJ Digit. Med. 7, 78 (2024).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "3953_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "259",
+        "DOI": "10.1038/s41586-023-05881-4",
+        "volume": "616",
+        "author": "M Moor",
+        "year": "2023",
+        "unstructured": "Moor, M. et al. Foundation models for generalist medical artificial intelligence. Nature 616, 259–265 (2023).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "3953_CR46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/AIoa2300138",
+        "volume": "1",
+        "author": "T Tu",
+        "year": "2024",
+        "unstructured": "Tu, T. et al. Towards generalist biomedical AI. NEJM AI 1, AIoa2300138 (2024).",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "3953_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1773",
+        "DOI": "10.1038/s41591-022-01981-2",
+        "volume": "28",
+        "author": "JN Acosta",
+        "year": "2022",
+        "unstructured": "Acosta, J. N., Falcone, G. J., Rajpurkar, P. & Topol, E. J. Multimodal biomedical AI. Nat. Med. 28, 1773–1784 (2022).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "1941",
+        "DOI": "10.1038/s41591-023-02475-5",
+        "volume": "29",
+        "author": "C Barata",
+        "year": "2023",
+        "unstructured": "Barata, C. et al. A reinforcement learning model for AI-based decision support in skin cancer. Nat. Med. 29, 1941–1946 (2023).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "257",
+        "DOI": "10.1038/s41586-023-06004-9",
+        "volume": "618",
+        "author": "DJ Mankowitz",
+        "year": "2023",
+        "unstructured": "Mankowitz, D. J. et al. Faster sorting algorithms discovered using deep reinforcement learning. Nature 618, 257–263 (2023).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "3953_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "17",
+        "DOI": "10.1038/s43586-024-00294-7",
+        "volume": "4",
+        "author": "G Corso",
+        "year": "2024",
+        "unstructured": "Corso, G., Stark, H., Jegelka, S., Jaakkola, T. & Barzilay, R. Graph neural networks. Nat. Rev. Methods Primers 4, 17 (2024).",
+        "journal-title": "Nat. Rev. Methods Primers"
+      },
+      {
+        "key": "3953_CR51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-50426-6",
+        "volume": "15",
+        "author": "H Li",
+        "year": "2024",
+        "unstructured": "Li, H. et al. CGMega: explainable graph neural network framework with attention mechanisms for cancer gene module dissection. Nat. Commun. 15, 5997 (2024).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "3953_CR52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-024-01190-w",
+        "volume": "7",
+        "author": "A Pahud de Mortanges",
+        "year": "2024",
+        "unstructured": "Pahud de Mortanges, A. et al. Orchestrating explainable artificial intelligence for multimodal and longitudinal data in medical imaging. NPJ Digit. Med. 7, 195 (2024).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "3953_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1038/s41591-024-03328-5",
+        "volume": "31",
+        "author": "S Johri",
+        "year": "2025",
+        "unstructured": "Johri, S. et al. An evaluation framework for clinical use of large language models in patient interaction tasks. Nat. Med. 31, 77–86 (2025).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR54",
+        "unstructured": "EQUATOR Network. Enhancing the QUAlity and Transparency Of health Research. https://www.equator-network.org/"
+      },
+      {
+        "key": "3953_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "807",
+        "DOI": "10.1038/s41591-020-0941-1",
+        "volume": "26",
+        "author": "V Sounderajah",
+        "year": "2020",
+        "unstructured": "Sounderajah, V. et al. Developing specific reporting guidelines for diagnostic accuracy studies assessing AI interventions: the STARD-AI Steering Group. Nat. Med. 26, 807–808 (2020).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "3953_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "e047709",
+        "DOI": "10.1136/bmjopen-2020-047709",
+        "volume": "11",
+        "author": "V Sounderajah",
+        "year": "2021",
+        "unstructured": "Sounderajah, V. et al. Developing a reporting guideline for artificial intelligence-centred diagnostic test accuracy studies: the STARD-AI protocol. BMJ Open 11, e047709 (2021).",
+        "journal-title": "BMJ Open"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1038/s41591-026-04570-9",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T00:00:00Z",
+          "timestamp": 1783900800000
+        }
+      }
+    ],
+    "container-title": [
+      "Nature Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41591-025-03953-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41591-025-03953-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41591-025-03953-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2026-07-14T07:02:10Z",
+      "timestamp": 1784012530000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41591-025-03953-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          15
+        ]
+      ]
+    },
+    "references-count": 56,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "3953"
+    ],
+    "URL": "https://doi.org/10.1038/s41591-025-03953-8",
+    "relation": {},
+    "ISSN": [
+      "1078-8956",
+      "1546-170X"
+    ],
+    "issn-type": [
+      {
+        "value": "1078-8956",
+        "type": "print"
+      },
+      {
+        "value": "1546-170X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          15
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "21 February 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 August 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "15 September 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "13 July 2026",
+        "order": 5,
+        "name": "change_date",
+        "label": "Change Date",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Correction",
+        "order": 6,
+        "name": "change_type",
+        "label": "Change Type",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "A Correction to this paper has been published:",
+        "order": 7,
+        "name": "change_details",
+        "label": "Change Details",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "https://doi.org/10.1038/s41591-026-04570-9",
+        "URL": "https://doi.org/10.1038/s41591-026-04570-9",
+        "order": 8,
+        "name": "change_details",
+        "label": "Change Details",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "V.S., A.K., S. Shetty and C.K. are employees of Alphabet. H.A. is the Chief Scientific Officer of Preemptive Health and Medicine, Flagship Pioneering. A.D. is the Executive Chair for Preemptive Health and Medicine, Flagship Pioneering. G.S.C. is a National Institute for Health and Care Research (NIHR) Senior Investigator. The views expressed in this article are those of the author(s) and not necessarily those of the NIHR or the Department of Health and Social Care. D.S. is employed as Acting Deputy Editor of\n                      The Lancet Digital Health\n                      .",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      },
+      {
+        "value": "This content has been made available to all.",
+        "name": "free",
+        "label": "Free to read"
+      }
+    ]
+  }
+}

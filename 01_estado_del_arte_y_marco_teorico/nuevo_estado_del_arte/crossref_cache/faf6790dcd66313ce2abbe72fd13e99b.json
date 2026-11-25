@@ -1,0 +1,843 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T08:26:34Z",
+      "timestamp": 1786955194478,
+      "version": "build-2736575974"
+    },
+    "reference-count": 31,
+    "publisher": "Elsevier BV",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2026-05-19T00:00:00Z",
+          "timestamp": 1779148800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003213",
+        "name": "Beijing Municipal Education Commission",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "KM202310025015"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "KM202310025015"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003213",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100021171",
+        "name": "Basic and Applied Basic Research Foundation of Guangdong Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2024A1515013058"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024A1515013058"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100021171",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62202318"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62202318"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "82471074"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "82471074"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2026.101252",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          24
+        ]
+      ],
+      "date-time": "2026-05-24T00:45:22Z",
+      "timestamp": 1779583522000
+    },
+    "page": "101252",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Deep Learning and Radiomics Assessment for Highly Myopic Glaucoma Detection Based on Fundus Photography"
+    ],
+    "prefix": "10.1016",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Man",
+        "family": "Luo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenjing",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lingjing",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chen",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yingting",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chenguo",
+        "family": "Zuo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhidong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaofen",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuhao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiujuan",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lin",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yehong",
+        "family": "Zhuo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yizhou",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2026.101252_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1016/j.ophtha.2016.01.006",
+        "article-title": "Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050",
+        "volume": "123",
+        "author": "Holden",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1167/iovs.62.5.6",
+        "article-title": "IMI prevention of myopia and its progression",
+        "volume": "62",
+        "author": "Jonas",
+        "year": "2021",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1989",
+        "DOI": "10.1016/j.ophtha.2011.03.012",
+        "article-title": "Myopia as a risk factor for open-angle glaucoma: a systematic review and meta-analysis",
+        "volume": "118",
+        "author": "Marcus",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.1016/j.ophtha.2006.06.050",
+        "article-title": "High myopia and glaucoma susceptibility the Beijing Eye Study",
+        "volume": "114",
+        "author": "Xu",
+        "year": "2007",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1097/ICU.0000000000000124",
+        "article-title": "Myopia and glaucoma: sorting out the difference",
+        "volume": "26",
+        "author": "Hsu",
+        "year": "2015",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "234",
+        "DOI": "10.1097/APO.0000000000000288",
+        "article-title": "High myopia and glaucoma-like optic neuropathy",
+        "volume": "9",
+        "author": "Jonas",
+        "year": "2020",
+        "journal-title": "Asia Pac J Ophthalmol (Phila)"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "562",
+        "DOI": "10.3390/biom13030562",
+        "article-title": "Glaucoma and myopia: diagnostic challenges",
+        "volume": "13",
+        "author": "Sun",
+        "year": "2023",
+        "journal-title": "Biomolecules"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.survophthal.2022.08.005",
+        "article-title": "Automatic detection of glaucoma via fundus imaging and artificial intelligence: a review",
+        "volume": "68",
+        "author": "Coan",
+        "year": "2023",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development and validation of a deep learning system to detect glaucomatous optic neuropathy using fundus photographs",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "358",
+        "DOI": "10.1186/s12967-024-05141-7",
+        "article-title": "Machine learning and optical coherence tomography-derived radiomics analysis to predict persistent diabetic macular edema in patients undergoing anti-VEGF intravitreal therapy",
+        "volume": "22",
+        "author": "Meng",
+        "year": "2024",
+        "journal-title": "J Transl Med"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "542",
+        "DOI": "10.1007/s00330-024-10911-4",
+        "article-title": "Radiomics in ophthalmology: a systematic review",
+        "volume": "35",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "Eur Radiol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1109/MSP.2019.2900993",
+        "article-title": "From handcrafted to deep-learning-based cancer radiomics: challenges and opportunities",
+        "volume": "36",
+        "author": "Afshar",
+        "year": "2019",
+        "journal-title": "IEEE Signal Process Mag"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.csbj.2023.11.040",
+        "article-title": "Cluster-based radiomics reveal spatial heterogeneity of bevacizumab response for treatment of radiotherapy-induced cerebral necrosis",
+        "volume": "23",
+        "author": "Tan",
+        "year": "2024",
+        "journal-title": "Comput Struct Biotechnol J"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1210",
+        "DOI": "10.3390/diagnostics12051210",
+        "article-title": "Novel uses and challenges of artificial intelligence in diagnosing and managing eyes with high myopia and pathologic myopia",
+        "volume": "12",
+        "author": "Du",
+        "year": "2022",
+        "journal-title": "Diagnostics (Basel)"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib17",
+        "article-title": "Imaging features by machine learning for quantification of optic disc changes and impact on choroidal thickness in young myopic patients",
+        "volume": "8",
+        "author": "Sun",
+        "year": "2021",
+        "journal-title": "Front Med (Lausanne)"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jamanetworkopen.2022.9960",
+        "article-title": "Artificial intelligence for screening of multiple retinal and optic nerve diseases",
+        "volume": "5",
+        "author": "Dong",
+        "year": "2022",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e486",
+        "DOI": "10.1016/S2589-7500(21)00086-8",
+        "article-title": "Application of Comprehensive Artificial intelligence Retinal Expert (CARE) system: a national real-world evidence study",
+        "volume": "3",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "803",
+        "DOI": "10.1016/j.ophtha.2022.03.001",
+        "article-title": "Classification of visual field abnormalities in highly myopic eyes without pathologic change",
+        "volume": "129",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.preteyeres.2020.100933",
+        "article-title": "Optic nerve head anatomy in myopia and glaucoma, including parapapillary zones alpha, beta, gamma and delta: histology and clinical features",
+        "volume": "83",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "563",
+        "DOI": "10.1016/j.survophthal.2024.12.003",
+        "article-title": "Evaluating glaucoma in myopic eyes: challenges and opportunities",
+        "volume": "70",
+        "author": "Jiravarnsirikul",
+        "year": "2025",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.xops.2026.101252_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e646",
+        "DOI": "10.1111/aos.16633",
+        "article-title": "The usefulness of routine photography in a myopic patient treated for glaucoma: 36-year follow-up",
+        "volume": "102",
+        "author": "Tuulonen",
+        "year": "2024",
+        "journal-title": "Acta Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1186/s12967-021-02818-1",
+        "article-title": "Automatic identification of myopic maculopathy related imaging features in optic disc region via machine learning methods",
+        "volume": "19",
+        "author": "Du",
+        "year": "2021",
+        "journal-title": "J Transl Med"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1001/jamaophthalmol.2023.1717",
+        "article-title": "Comparison of optical coherence tomography structural parameters for diagnosis of glaucoma in high myopia",
+        "volume": "141",
+        "author": "Jeong",
+        "year": "2023",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.ajo.2024.04.022",
+        "article-title": "Diagnostic accuracy of optic nerve head and macula OCT parameters for detecting glaucoma in eyes with and without high axial myopia",
+        "volume": "266",
+        "author": "Rezapour",
+        "year": "2024",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "644",
+        "DOI": "10.1016/j.ophtha.2025.01.014",
+        "article-title": "Longitudinal changes of retinal nerve fiber layer and ganglion cell-inner plexiform layer in highly myopic glaucoma: a 3-Year cohort study",
+        "volume": "132",
+        "author": "Jiang",
+        "year": "2025",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1167/iovs.66.4.18",
+        "article-title": "Optic nerve morphology influences structure-function relationship in early glaucoma with and without high myopia",
+        "volume": "66",
+        "author": "Yang",
+        "year": "2025",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1167/iovs.64.4.14",
+        "article-title": "Structure function relationships of vessel density and retinal nerve fiber layer thickness in early glaucomatous eyes with high myopia",
+        "volume": "64",
+        "author": "Akiyama",
+        "year": "2023",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101252_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "9762",
+        "DOI": "10.1038/s41598-025-91880-6",
+        "article-title": "Optical coherence tomography angiography compared with optical coherence tomography for detection of glaucoma progression with high myopia",
+        "volume": "15",
+        "author": "Chang",
+        "year": "2025",
+        "journal-title": "Sci Rep"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526001909?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526001909?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T08:12:21Z",
+      "timestamp": 1786954341000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914526001909"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914526001909"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2026.101252",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Deep Learning and Radiomics Assessment for Highly Myopic Glaucoma Detection Based on Fundus Photography",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2026.101252",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 American Academy of Ophthalmology, Inc. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101252"
+  }
+}

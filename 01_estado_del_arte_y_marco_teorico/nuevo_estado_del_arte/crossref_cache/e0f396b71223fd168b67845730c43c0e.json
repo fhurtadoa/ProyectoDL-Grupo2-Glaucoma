@@ -1,0 +1,789 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T17:40:49Z",
+      "timestamp": 1795196449900,
+      "version": "4.10.3"
+    },
+    "reference-count": 39,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T00:00:00Z",
+          "timestamp": 1775606400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100012024",
+        "name": "Multimedia University",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PostDoc (MMUI/240029))"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PostDoc (MMUI/240029))"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100012024",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS One"
+    ],
+    "abstract": "<jats:p>Eye diseases, including diabetic retinopathy (DR), glaucoma, and cataracts, represent a major global health concern and can lead to severe visual impairment or blindness if not identified in a timely manner. This study proposes a novel eye disease classification framework based on a multi-axis vision transformer (MaxViT) applied to color fundus images with Explainable Artificial Intelligence (XAI) techniques to enhance model transparency. The proposed architecture integrates transformer-based attention mechanisms with Global Response Normalization (GRN)-based multi-layer perceptron (MLP) layers to capture complex spatial and contextual relationships within fundus images effectively. The model was evaluated on a publicly available eye disease classification dataset using a five-fold cross-validation strategy to assess its robustness and generalization. The experimental results show that the proposed approach consistently outperforms conventional Convolutional Neural Networks (CNNs) and Vision Transformer (ViT) variants, including ResNet50, Swin-T, MaxViT-T, and ViT-B16. The model achieved a macro-averaged test accuracy, precision, and recall values of 96.75%, 96.70%, and 96.80%, respectively, with paired statistical t-tests confirming that these improvements were statistically significant. Rigorous preprocessing techniques were employed to improve data consistency, and XAI-based visual explanations provided insights into the model’s decision-making process, supporting interpretability in ophthalmic image analysis. Overall, the proposed MaxViT-based framework is robust and computationally feasible for research-oriented evaluation approaches for automated fundus image classification, highlighting the potential of advanced transformer architectures for future decision-support and research-oriented ophthalmic applications.</jats:p>",
+    "DOI": "10.1371/journal.pone.0346329",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2026-04-08T17:38:10Z",
+      "timestamp": 1775669890000
+    },
+    "page": "e0346329",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "MaxGRNet: A multi-axis vision transformer with improved generalization for eye disease classification using explainable AI with insertion-deletion operations on fundus images"
+    ],
+    "prefix": "10.1371",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Md Mehedi Hasan",
+        "family": "Santo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fuyad Hasan",
+        "family": "Bhoyan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fuad Ibne Jashim",
+        "family": "Farhad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fahmid Al",
+        "family": "Farid",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sovon",
+        "family": "Chakraborty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5759-022X",
+        "authenticated-orcid": true,
+        "given": "Md Humaion Kabir",
+        "family": "Mehedi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3403-4095",
+        "authenticated-orcid": true,
+        "given": "Jia",
+        "family": "Uddin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hezerul bin Abdul",
+        "family": "Karim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "5",
+        "key": "pone.0346329.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "461",
+        "DOI": "10.1097/APO.0000000000000416",
+        "article-title": "Real-time mobile teleophthalmology for the detection of eye disease in minorities and low socioeconomics at-risk populations",
+        "volume": "10",
+        "author": "LA Al-Aswad",
+        "year": "2021",
+        "journal-title": "Asia Pac J Ophthalmol (Phila)"
+      },
+      {
+        "key": "pone.0346329.ref002",
+        "unstructured": "World Health Organization. Blindness and visual impairment; 2023. Available from: https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment"
+      },
+      {
+        "key": "pone.0346329.ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "101971",
+        "DOI": "10.1016/j.media.2021.101971",
+        "article-title": "Applications of deep learning in fundus images: a review",
+        "volume": "69",
+        "author": "T Li",
+        "year": "2021",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "pone.0346329.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "100261",
+        "DOI": "10.1016/j.health.2023.100261",
+        "article-title": "A systematic review of retinal fundus image segmentation and classification methods using convolutional neural networks",
+        "volume": "4",
+        "author": "AE Ilesanmi",
+        "year": "2023",
+        "journal-title": "Healthc Anal"
+      },
+      {
+        "key": "pone.0346329.ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "71696",
+        "DOI": "10.1109/ACCESS.2019.2920616",
+        "article-title": "Deep learning models for retinal blood vessels segmentation: a review",
+        "volume": "7",
+        "author": "TA Soomro",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "pone.0346329.ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "101758",
+        "DOI": "10.1016/j.artmed.2019.101758",
+        "article-title": "Ophthalmic diagnosis using deep learning with fundus images - a critical review",
+        "volume": "102",
+        "author": "S Sengupta",
+        "year": "2020",
+        "journal-title": "Artif Intell Med"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0346329.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1167/tvst.9.2.6",
+        "article-title": "Insights into systemic disease through retinal imaging-based oculomics",
+        "volume": "9",
+        "author": "SK Wagner",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0346329.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1016/j.bbe.2022.12.005",
+        "article-title": "Computer aided diagnosis of diabetic macular edema in retinal fundus and OCT images: a review",
+        "volume": "43",
+        "author": "KC Pavithra",
+        "year": "2023",
+        "journal-title": "Biocybern Biomed Eng"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0346329.ref009",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.3390/data6020014",
+        "article-title": "Retinal Fundus Multi-Disease Image Dataset (RFMiD): a dataset for multi-disease detection research",
+        "volume": "6",
+        "author": "S Pachade",
+        "year": "2021",
+        "journal-title": "Data"
+      },
+      {
+        "key": "pone.0346329.ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "102802",
+        "DOI": "10.1016/j.media.2023.102802",
+        "article-title": "Transformers in medical imaging: a survey",
+        "volume": "88",
+        "author": "F Shamshad",
+        "year": "2023",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0346329.ref011",
+        "first-page": "411",
+        "article-title": "Classification of fundus images based on deep learning for detecting eye diseases",
+        "volume": "67",
+        "author": "N Chea",
+        "year": "2021",
+        "journal-title": "Comput Mater Contin"
+      },
+      {
+        "key": "pone.0346329.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "101267",
+        "DOI": "10.1109/ACCESS.2021.3094649",
+        "article-title": "Classification of eye diseases in fundus images",
+        "volume": "9",
+        "author": "O Bernabe",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0346329.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "1548",
+        "DOI": "10.1007/s10489-022-03490-8",
+        "article-title": "An empirical study of preprocessing techniques with convolutional neural networks for accurate detection of chronic ocular diseases using fundus images",
+        "volume": "53",
+        "author": "V Mayya",
+        "year": "2023",
+        "journal-title": "Appl Intell (Dordr)"
+      },
+      {
+        "key": "pone.0346329.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "1305583",
+        "DOI": "10.1155/2023/1305583",
+        "article-title": "Classification of diabetic retinopathy severity in fundus images using the vision transformer and residual attention",
+        "volume": "2023",
+        "author": "Z Gu",
+        "year": "2023",
+        "journal-title": "Comput Intell Neurosci"
+      },
+      {
+        "issue": "10",
+        "key": "pone.0346329.ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "1706",
+        "DOI": "10.3390/diagnostics13101706",
+        "article-title": "Automatic classification of colour fundus images for prediction eye disease types based on hybrid features",
+        "volume": "13",
+        "author": "A Shamsan",
+        "year": "2023",
+        "journal-title": "Diagnostics (Basel)"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0346329.ref016",
+        "doi-asserted-by": "crossref",
+        "first-page": "455",
+        "DOI": "10.1007/s41019-021-00167-z",
+        "article-title": "Image preprocessing in classification and identification of diabetic eye diseases",
+        "volume": "6",
+        "author": "R Sarki",
+        "year": "2021",
+        "journal-title": "Data Sci Eng"
+      },
+      {
+        "key": "pone.0346329.ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "57796",
+        "DOI": "10.1109/ACCESS.2022.3178372",
+        "article-title": "A comprehensive review of deep learning strategies in retinal disease diagnosis using fundus images",
+        "volume": "10",
+        "author": "B Goutam",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "pone.0346329.ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "102059",
+        "DOI": "10.1016/j.inffus.2023.102059",
+        "article-title": "Fundus-DeepNet: multi-label deep learning classification system for enhanced detection of multiple ocular diseases through data fusion of fundus images",
+        "volume": "102",
+        "author": "S Al-Fahdawi",
+        "year": "2024",
+        "journal-title": "Inf Fusion"
+      },
+      {
+        "key": "pone.0346329.ref019",
+        "doi-asserted-by": "crossref",
+        "first-page": "37403",
+        "DOI": "10.1109/ACCESS.2023.3263493",
+        "article-title": "Deep transfer learning strategy to diagnose eye-related conditions and diseases: an approach based on low-quality fundus images",
+        "volume": "11",
+        "author": "GDA Aranha",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "pone.0346329.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/B978-0-12-817440-1.00002-4",
+        "article-title": "Deep learning approach for classification of eye diseases based on color fundus images.",
+        "volume-title": "Diabetes and fundus OCT",
+        "author": "BK Triwijoyo",
+        "year": "2020"
+      },
+      {
+        "issue": "0",
+        "key": "pone.0346329.ref021",
+        "first-page": "0",
+        "article-title": "Deep learning based convolutional neural network structured new image classification approach for eye disease identification",
+        "volume": "0",
+        "author": "I Topaloglu",
+        "year": "2022",
+        "journal-title": "Sci Iran"
+      },
+      {
+        "key": "pone.0346329.ref022",
+        "doi-asserted-by": "crossref",
+        "first-page": "1126780",
+        "DOI": "10.3389/fphys.2023.1126780",
+        "article-title": "Fundus image classification using Inception V3 and ResNet-50 for the early diagnostics of fundus diseases",
+        "volume": "14",
+        "author": "Y Pan",
+        "year": "2023",
+        "journal-title": "Front Physiol"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0346329.ref023",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.3390/jimaging9070140",
+        "article-title": "Conv-ViT: a convolution and vision transformer-based hybrid feature extraction method for retinal disease detection",
+        "volume": "9",
+        "author": "P Dutta",
+        "year": "2023",
+        "journal-title": "J Imaging"
+      },
+      {
+        "key": "pone.0346329.ref024",
+        "unstructured": "Doddi GV. Eye diseases classification dataset; 2022. Available from: https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification"
+      },
+      {
+        "key": "pone.0346329.ref025",
+        "article-title": "Indian diabetic retinopathy image dataset (idrid)",
+        "volume": "2",
+        "author": "P Prasanna",
+        "year": "2018",
+        "journal-title": "IEEE Dataport"
+      },
+      {
+        "key": "pone.0346329.ref026",
+        "unstructured": "2020. Available from: https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k"
+      },
+      {
+        "key": "pone.0346329.ref027",
+        "unstructured": "Erlangen-Nürnberg LFMFAU. High-Resolution Fundus (HRF) image database. Available from: https://www5.cs.fau.de/research/data/fundus-images/"
+      },
+      {
+        "key": "pone.0346329.ref028",
+        "unstructured": "Riadur Rashid M, Sharmin S, Khatun T, Hasan MZ, Shorif Uddin M. Eye disease image dataset; 2024. Available from: https://data.mendeley.com/datasets/s9bfhswzjb/1"
+      },
+      {
+        "key": "pone.0346329.ref029",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tu Z, Talebi H, Zhang H, Yang F, Milanfar P, Bovik A, et al. Maxvit: multi-axis vision transformer. European Conference on Computer Vision. Springer; 2022. p. 459–79.",
+        "DOI": "10.1007/978-3-031-20053-3_27"
+      },
+      {
+        "key": "pone.0346329.ref030",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woo S, Debnath S, Hu R, Chen X, Liu Z, Kweon IS, et al. Convnext v2: co-designing and scaling convnets with masked autoencoders. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition; 2023. p. 16133–42.",
+        "DOI": "10.1109/CVPR52729.2023.01548"
+      },
+      {
+        "key": "pone.0346329.ref031",
+        "first-page": "12116",
+        "article-title": "Do vision transformers see like convolutional neural networks?",
+        "volume": "34",
+        "author": "M Raghu",
+        "year": "2021",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "pone.0346329.ref032",
+        "doi-asserted-by": "crossref",
+        "first-page": "336",
+        "DOI": "10.1007/s11263-019-01228-7",
+        "article-title": "Grad-CAM: visual explanations from deep networks via gradient-based localization",
+        "volume": "128",
+        "author": "RR Selvaraju",
+        "year": "2020",
+        "journal-title": "Int J Comput Vis"
+      },
+      {
+        "key": "pone.0346329.ref033",
+        "doi-asserted-by": "crossref",
+        "first-page": "106621",
+        "DOI": "10.1016/j.bspc.2024.106621",
+        "article-title": "Cnn-trans model: a parallel dual-branch network for fundus image classification",
+        "volume": "96",
+        "author": "S Liu",
+        "year": "2024",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "pone.0346329.ref034",
+        "unstructured": "Babaqi T, Jaradat M, Yildirim AE, Al-Nimer SH, Won D. Eye disease classification using deep learning techniques; 2023."
+      },
+      {
+        "issue": "3",
+        "key": "pone.0346329.ref035",
+        "first-page": "45",
+        "article-title": "Instantaneous classification and localization of eye diseases via artificial intelligence",
+        "volume": "11",
+        "author": "J Biswas",
+        "year": "2024",
+        "journal-title": "EJAET"
+      },
+      {
+        "key": "pone.0346329.ref036",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Darji K, Parikh KA, Patel J, Mahida N, Gupta R, Tanwar S, et al. X-RetinaAI: interpretable AI for eye disease classification in healthcare environment. 2024 International Conference on Intelligent Systems for Cybersecurity (ISCS). IEEE; 2024. p. 1–6.",
+        "DOI": "10.1109/ISCS61804.2024.10581285"
+      },
+      {
+        "key": "pone.0346329.ref037",
+        "article-title": "Eye disease detection using deep learning models with transfer learning techniques",
+        "volume": "11",
+        "author": "KB Vardhan",
+        "year": "2024",
+        "journal-title": "EAI Endorsed Trans Scalable Inf Syst"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0346329.ref038",
+        "doi-asserted-by": "crossref",
+        "first-page": "190",
+        "DOI": "10.3390/computation12090190",
+        "article-title": "Bayesian optimized machine learning model for automated eye disease classification from fundus images",
+        "volume": "12",
+        "author": "TB Zannah",
+        "year": "2024",
+        "journal-title": "Computation"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0346329.ref039",
+        "article-title": "Automated retinal disease classification using deep learning and AlexNet with statistical models analysis",
+        "volume": "21",
+        "author": "E-SM Elkenawy",
+        "year": "2026",
+        "journal-title": "PLoS One"
+      }
+    ],
+    "container-title": [
+      "PLOS One"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0346329",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2026-04-08T17:38:24Z",
+      "timestamp": 1775669904000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0346329"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Tomo",
+        "family": "Popovic",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          8
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            8
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0346329",
+    "relation": {
+      "has-part": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g004",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g005",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g006",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g007",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g008",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g009",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g010",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g011",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g012",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.g013",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t004",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t005",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t006",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t007",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t008",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t009",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t010",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0346329.t011",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          8
+        ]
+      ]
+    }
+  }
+}

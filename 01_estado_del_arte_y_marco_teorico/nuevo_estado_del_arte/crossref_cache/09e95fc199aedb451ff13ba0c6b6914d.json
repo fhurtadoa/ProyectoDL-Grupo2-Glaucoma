@@ -1,0 +1,985 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2026-11-17T07:20:08Z",
+      "timestamp": 1794900008009,
+      "version": "4.9.1"
+    },
+    "reference-count": 71,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2026-10-27T00:00:00Z",
+          "timestamp": 1793059200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2026-10-27T00:00:00Z",
+          "timestamp": 1793059200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Mach. Intell. Res."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11633-025-1631-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T06:08:53Z",
+      "timestamp": 1793081333000
+    },
+    "page": "1413-1432",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Pathology Context Recalibration Network for Ocular Disease Recognition"
+    ],
+    "prefix": "10.1007",
+    "volume": "23",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8503-9825",
+        "authenticated-orcid": false,
+        "given": "Zunjie",
+        "family": "Xiao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1518-4781",
+        "authenticated-orcid": false,
+        "given": "Xiaoqing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8160-2841",
+        "authenticated-orcid": false,
+        "given": "Risa",
+        "family": "Higashita",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6281-6505",
+        "authenticated-orcid": false,
+        "given": "Jiang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "4",
+        "key": "1631_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e385",
+        "DOI": "10.1016/S2214-109X(21)00031-0",
+        "volume": "9",
+        "author": "B K Swenor",
+        "year": "2021",
+        "unstructured": "B. K. Swenor, J. R. Ehrlich. Ageing and vision loss: Looking to the future. The Lancet Global Health, vol. 9, no. 4, pp. e385–e386, 2021. DOI: https://doi.org/10.1016/S2214-109X(21)00031-0.",
+        "journal-title": "The Lancet Global Health"
+      },
+      {
+        "key": "1631_CR2",
+        "volume-title": "World Report on Vision",
+        "author": "World Health Organization",
+        "year": "2019",
+        "unstructured": "World Health Organization. World Report on Vision, Geneva, Switzerland: World Health Organization, 2019."
+      },
+      {
+        "issue": "3",
+        "key": "1631_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "184",
+        "DOI": "10.1007/s11633-022-1329-0",
+        "volume": "19",
+        "author": "X Q Zhang",
+        "year": "2022",
+        "unstructured": "X. Q. Zhang, Y. Hu, Z. J. Xiao, J. S. Fang, R. Higashita, J. Liu. Machine learning for cataract classification/grading on ophthalmic imaging modalities: A survey. Machine Intelligence Research, vol. 19, no. 3, pp. 184–208, 2022. DOI: https://doi.org/10.1007/s11633-022-1329-0.",
+        "journal-title": "Machine Intelligence Research"
+      },
+      {
+        "key": "1631_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "7132",
+        "DOI": "10.1109/CVPR.2018.00745",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "J Hu",
+        "year": "2018",
+        "unstructured": "J. Hu, L. Shen, G. Sun. Squeeze-and-excitation networks. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, Salt Lake City, USA, pp. 7132–7141, 2018. DOI: https://doi.org/10.1109/CVPR.2018.00745."
+      },
+      {
+        "key": "1631_CR5",
+        "doi-asserted-by": "publisher",
+        "unstructured": "X. Zhang, Z. Xiao, B. Yang, X. Wu, R. Higashita, J. Liu. Regional context-based recalibration network for cataract recognition in AS-OCT. Pattern Recognition, vol. 147, Article number 110069, 2024. DOI: https://doi.org/10.1016/j.patcog.2023.110069.",
+        "DOI": "10.1016/j.patcog.2023.110069"
+      },
+      {
+        "issue": "1",
+        "key": "1631_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1109/TMI.2020.3023463",
+        "volume": "40",
+        "author": "A He",
+        "year": "2021",
+        "unstructured": "A. He, T. Li, N. Li, K. Wang, H. Fu. CABNet: Category attention block for imbalanced diabetic retinopathy grading. IEEE Transactions on Medical Imaging, vol. 40, no. 1, pp. 143–153, 2021. DOI: https://doi.org/10.1109/TMI.2020.3023463.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "1631_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "11531",
+        "DOI": "10.1109/CVPR42600.2020.01155",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Q Wang",
+        "year": "2020",
+        "unstructured": "Q. Wang, B. Wu, P. Zhu, P. Li, W. Zuo, Q. Hu. ECA-Net: Efficient channel attention for deep convolutional neural networks. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, USA, pp. 11531–11539, 2020. DOI: https://doi.org/10.1109/CVPR42600.2020.01155."
+      },
+      {
+        "issue": "10",
+        "key": "1631_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "2814",
+        "DOI": "10.1109/TMI.2022.3170701",
+        "volume": "41",
+        "author": "J Zhang",
+        "year": "2022",
+        "unstructured": "J. Zhang, L. Zhou, L. Wang, M. Liu, D. Shen. Diffusion kernel attention network for brain disorder classification. IEEE Transactions on Medical Imaging, vol. 41, no. 10, pp. 2814–2827, 2022. DOI: https://doi.org/10.1109/TMI.2022.3170701.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "1631_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "7794",
+        "DOI": "10.1109/CVPR.2018.00813",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "X Wang",
+        "year": "2018",
+        "unstructured": "X. Wang, R. Girshick, A. Gupta, K. He. Non-local neural networks. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, Salt Lake City, USA, pp. 7794–7803, 2018. DOI: https://doi.org/10.1109/CVPR.2018.00813."
+      },
+      {
+        "issue": "6",
+        "key": "1631_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "2547",
+        "DOI": "10.1109/TNNLS.2020.3006524",
+        "volume": "32",
+        "author": "J Fu",
+        "year": "2021",
+        "unstructured": "J. Fu, J. Liu, J. Jiang, Y. Li, Y. Bao, H. Lu. Scene segmentation with dual relation-aware attention network. IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 6, pp. 2547–2560, 2021. DOI: https://doi.org/10.1109/TNNLS.2020.3006524.",
+        "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+      },
+      {
+        "issue": "1",
+        "key": "1631_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "475",
+        "DOI": "10.1109/TMI.2024.3448214",
+        "volume": "44",
+        "author": "Y Kong",
+        "year": "2025",
+        "unstructured": "Y. Kong, X. Zhang, W. Wang, Y. Zhou, Y. Li, Y. Yuan. Multi-scale spatial-temporal attention networks for functional connectome classification. IEEE Transactions on Medical Imaging, vol. 44, no. 1, pp. 475–488, 2025. DOI: https://doi.org/10.1109/TMI.2024.3448214.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "issue": "7",
+        "key": "1631_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1699",
+        "DOI": "10.1109/TMI.2022.3147854",
+        "volume": "41",
+        "author": "H Li",
+        "year": "2022",
+        "unstructured": "H. Li, H. Liu, Y. Hu, H. Fu, Y. Zhao, H. Miao, J. Liu. An annotation-free restoration network for cataractous fundus images. IEEE Transactions on Medical Imaging, vol. 41, no. 7, pp. 1699–1710, 2022. DOI: https://doi.org/10.1109/TMI.2022.3147854.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "1631_CR13",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Q. Fang, Y. Yang, H. Wang, H. Sun, J. Chen, Z. Chen, T. Pu, X. Zhang, F. Liu. LCRNet: Local cross-channel recalibration network for liver cancer classification based on CT images. Health Information Science and Systems, vol. 12, no. 1, Article number 5, 2024. DOI: https://doi.org/10.1007/s13755-023-00263-6.",
+        "DOI": "10.1007/s13755-023-00263-6"
+      },
+      {
+        "issue": "2",
+        "key": "1631_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "556",
+        "DOI": "10.1109/JBHI.2019.2914690",
+        "volume": "24",
+        "author": "X Xu",
+        "year": "2020",
+        "unstructured": "X. Xu, L. Zhang, J. Li, Y. Guan, L. Zhang. A hybrid global-local representation CNN model for automatic cataract grading. IEEE Journal of Biomedical and Health Informatics, vol. 24, no. 2, pp. 556–567, 2020. DOI: https://doi.org/10.1109/jbhi.2019.2914690.",
+        "journal-title": "IEEE Journal of Biomedical and Health Informatics"
+      },
+      {
+        "issue": "3",
+        "key": "1631_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "639",
+        "DOI": "10.1007/s13246-021-01012-3",
+        "volume": "44",
+        "author": "S Gayathri",
+        "year": "2021",
+        "unstructured": "S. Gayathri, V. P. Gopi, P. Palanisamy. Diabetic retinopathy classification based on multipath CNN and machine learning classifiers. Physical and Engineering Sciences in Medicine, vol. 44, no. 3, pp. 639–653, 2021. DOI: https://doi.org/10.1007/s13246-021-01012-3.",
+        "journal-title": "Physical and Engineering Sciences in Medicine"
+      },
+      {
+        "key": "1631_CR16",
+        "volume-title": "ExpNet: A unified network for expert-level classification",
+        "author": "J Wu",
+        "year": "2022",
+        "unstructured": "J. Wu, H. Fang, Y. Yang, Y. Zhang, H. Xiong, H. Fu, Y. Xu. ExpNet: A unified network for expert-level classification, [Online], Available: https://arxiv.org/abs/2211.15672, 2022."
+      },
+      {
+        "key": "1631_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "J. Wu, H. Fang, F. Li, H. Fu, F. Lin, J. Li, Y. Huang, Q. Yu, S. Song, X. Xu, Y. Xu, W. Wang, L. Wang, S. Lu, H. Li, S. Huang, Z. Lu, C. Ou, X. Wei, B. Liu, R. Kobbi, X. Tang, L. Lin, Q. Zhou, Q. Hu, H. Bogunović, J. I. Orlando, X. Zhang, Y. Xu. GAMMA challenge: Glaucoma grading from multi-modality images. Medical Image Analysis, vol. 90, Article number 102938, 2023. DOI: https://doi.org/10.1016/j.media.2023.102938.",
+        "DOI": "10.1016/j.media.2023.102938"
+      },
+      {
+        "issue": "8",
+        "key": "1631_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1679",
+        "DOI": "10.1007/s11760-021-01904-7",
+        "volume": "15",
+        "author": "G Kumar",
+        "year": "2021",
+        "unstructured": "G. Kumar, S. Chatterjee, C. Chattopadhyay. DRISTI: A hybrid deep neural network for diabetic retinopathy diagnosis. Signal, Image and Video Processing, vol. 15, no. 8, pp. 1679–1686, 2021. DOI: https://doi.org/10.1007/s11760-021-01904-7.",
+        "journal-title": "Signal, Image and Video Processing"
+      },
+      {
+        "key": "1631_CR19",
+        "doi-asserted-by": "publisher",
+        "unstructured": "V. Das, S. Dandapat, P. K. Bora. Multi-scale deep feature fusion for automated classification of macular pathologies from OCT images. Biomedical Signal Processing and Control, vol. 54, Article number 101605, 2019. DOI: https://doi.org/10.1016/j.bspc.2019.101605.",
+        "DOI": "10.1016/j.bspc.2019.101605"
+      },
+      {
+        "issue": "5",
+        "key": "1631_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1483",
+        "DOI": "10.1109/TMI.2019.2951844",
+        "volume": "39",
+        "author": "X Li",
+        "year": "2020",
+        "unstructured": "X. Li, X. Hu, L. Yu, L. Zhu, C. W. Fu, P. A. Heng. CANet: Cross-disease attention network for joint diabetic retinopathy and diabetic macular edema grading. IEEE Transactions on Medical Imaging, vol. 39, no. 5, pp. 1483–1493, 2020. DOI: https://doi.org/10.1109/TMI.2019.2951844.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "1631_CR21",
+        "doi-asserted-by": "publisher",
+        "unstructured": "M. Wang, T. Lin, A. Lin, K. Yu, Y. Peng, L. Wang, C. Chen, K. Zou, H. Liang, M. Chen, X. Yao, M. Zhang, B. Huang, C. Zheng, P. Zhang, W. Chen, Y. Luo, Y. Chen, H. Xia, T. Shi, Q. Zhang, J. Guo, X. Chen, J. Wang, Y. C. Tham, D. Liu, W. Wong, S. Thakur, B. J. Fenner, D. Fang, S. Liu, Q. Liu, Y. Huang, H. Zeng, Y. Meng, Y. Zhou, Z. Jiang, M. Qiu, C. Zhang, X. Chen, S. Y. Wang, C. S. Lee, L. Sobrin, C. Y. Cheung, C. P. Pang, P. A. Keane, C. Y. Cheng, H. Chen, H. Fu. Enhancing diagnostic accuracy in rare and common fundus diseases with a knowledge-rich vision-language model. Nature Communications, vol. 16, no. 1, Article number 5528, 2025. DOI: https://doi.org/10.1038/s41467-025-60577-9.",
+        "DOI": "10.1038/s41467-025-60577-9"
+      },
+      {
+        "key": "1631_CR22",
+        "doi-asserted-by": "publisher",
+        "unstructured": "X. Zhang, Z. Xiao, X. Li, X. Wu, H. Sun, J. Yuan, R. Higashita, J. Liu. Mixed pyramid attention network for nuclear cataract classification based on anterior segment OCT images. Health Information Science and Systems, vol. 10, no. 1, Article number 3, 2022. DOI: https://doi.org/10.1007/s13755-022-00170-2.",
+        "DOI": "10.1007/s13755-022-00170-2"
+      },
+      {
+        "key": "1631_CR23",
+        "doi-asserted-by": "publisher",
+        "unstructured": "S. Liu, Z. Zhang, Y. Gu, J. Hao, Y. Liu, H. Fu, X. Guo, H. Song, S. Zhang, Y. Zhao. Beyond the eye: A relational model for early dementia detection using retinal OCTA images. Medical Image Analysis, vol. 102, Article number 103513, 2025. DOI: https://doi.org/10.1016/j.media.2025.103513.",
+        "DOI": "10.1016/j.media.2025.103513"
+      },
+      {
+        "issue": "6",
+        "key": "1631_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1102",
+        "DOI": "10.1007/s11633-024-1534-0",
+        "volume": "22",
+        "author": "F Ahmad",
+        "year": "2025",
+        "unstructured": "F. Ahmad, J. Xiong, J. Wu, J. Xia, Z. Xia. Cardiac dynamic characteristics classification on cine MRI using semi-supervised imaging approach. Machine Intelligence Research, vol. 22, no. 6, pp. 1102–1115, 2025. DOI: https://doi.org/10.1007/s11633-024-1534-0.",
+        "journal-title": "Machine Intelligence Research"
+      },
+      {
+        "issue": "5",
+        "key": "1631_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "941",
+        "DOI": "10.1007/s11633-024-1530-4",
+        "volume": "22",
+        "author": "X Gao",
+        "year": "2025",
+        "unstructured": "X. Gao, X. Wang, B. Jiang, X. Wang, J. Tang, C. Li. Learning knowledge enhanced text-image feature selection network for chest X-ray image classification. Machine Intelligence Research, vol. 22, no. 5, pp. 941–955, 2025. DOI: https://doi.org/10.1007/s11633-024-1530-4.",
+        "journal-title": "Machine Intelligence Research"
+      },
+      {
+        "issue": "6",
+        "key": "1631_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1061",
+        "DOI": "10.1007/s11633-024-1539-8",
+        "volume": "22",
+        "author": "R Castro-Zunti",
+        "year": "2025",
+        "unstructured": "R. Castro-Zunti, E. H. Park, A. Satsangi, Y. Choi, G. Y. Jin, H. S. Chae, S. B. Ko. A novel vision transformer + InceptionV3 hybrid network for accurate diagnosis of ankylosing spondylitis from computed tomography scans. Machine Intelligence Research, vol. 22, no. 6, pp. 1061–1087, 2025. DOI: https://doi.org/10.1007/s11633-024-1539-8.",
+        "journal-title": "Machine Intelligence Research"
+      },
+      {
+        "issue": "2",
+        "key": "1631_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "444",
+        "DOI": "10.1007/s11633-025-1619-4",
+        "volume": "23",
+        "author": "J Wang",
+        "year": "2026",
+        "unstructured": "J. Wang, X. Wang, L. Yang, B. Wang. A clinically aligned local-global mutual learning framework for interpretable pneumoconiosis diagnosis. Machine Intelligence Research, vol. 23, no. 2, pp. 444–466, 2026. DOI: https://doi.org/10.1007/s11633-025-1619-4.",
+        "journal-title": "Machine Intelligence Research"
+      },
+      {
+        "issue": "3",
+        "key": "1631_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "331",
+        "DOI": "10.1007/s41095-022-0271-y",
+        "volume": "8",
+        "author": "M H Guo",
+        "year": "2022",
+        "unstructured": "M. H. Guo, T. X. Xu, J. J. Liu, Z. N. Liu, P. T. Jiang, T. J. Mu, S. H. Zhang, R. R. Martin, M. M. Cheng, S. M. Hu. Attention mechanisms in computer vision: A survey. Computational Visual Media, vol. 8, no. 3, pp. 331–368, 2022. DOI: https://doi.org/10.1007/s41095-022-0271-y.",
+        "journal-title": "Computational Visual Media"
+      },
+      {
+        "key": "1631_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "510",
+        "DOI": "10.1109/CVPR.2019.00060",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "X Li",
+        "year": "2019",
+        "unstructured": "X. Li, W. Wang, X. Hu, J. Yang. Selective kernel networks. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, USA, pp. 510–519, 2019. DOI: https://doi.org/10.1109/CVPR.2019.00060."
+      },
+      {
+        "key": "1631_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1109/TIP.2025.3551128",
+        "volume": "34",
+        "author": "X Zhang",
+        "year": "2025",
+        "unstructured": "X. Zhang, Z. Xiao, J. Ma, X. Wu, J. Zhao, S. Zhang, R. Li, Y. Pan, J. Liu. Adaptive dual-axis style-based recalibration network with class-wise statistics loss for imbalanced medical image classification. IEEE Transactions on Image Processing, vol. 34, pp. 2081–2096, 2025. DOI: https://doi.org/10.1109/TIP.2025.3551128.",
+        "journal-title": "IEEE Transactions on Image Processing"
+      },
+      {
+        "key": "1631_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1854",
+        "DOI": "10.1109/ICCV.2019.00194",
+        "volume-title": "Proceedings of IEEE/CVF International Conference on Computer Vision",
+        "author": "H Lee",
+        "year": "2019",
+        "unstructured": "H. Lee, H. E. Kim, H. Nam. SRM: A style-based recalibration module for convolutional neural networks. In Proceedings of IEEE/CVF International Conference on Computer Vision, Seoul, Republic of Korea, pp. 1854–1862, 2019. DOI: https://doi.org/10.1109/ICCV.2019.00194."
+      },
+      {
+        "key": "1631_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "5553",
+        "DOI": "10.1609/aaai.v34i04.6007",
+        "volume-title": "Proceedings of the 34th AAAI Conference on Artificial Intelligence",
+        "author": "D Ruan",
+        "year": "2020",
+        "unstructured": "D. Ruan, J. Wen, N. Zheng, M. Zheng. Linear context transform block. In Proceedings of the 34th AAAI Conference on Artificial Intelligence, New York, USA, pp. 5553–5560, 2020. DOI: https://doi.org/10.1609/aaai.v34i04.6007."
+      },
+      {
+        "key": "1631_CR33",
+        "first-page": "9423",
+        "volume-title": "Proceedings of the 32nd International Conference on Neural Information Processing Systems",
+        "author": "J Hu",
+        "year": "2018",
+        "unstructured": "J. Hu, L. Shen, S. Albanie, G. Sun, A. Vedaldi. Gather-excite: Exploiting feature context in convolutional neural networks. In Proceedings of the 32nd International Conference on Neural Information Processing Systems, Montreal, Canada, pp. 9423–9433, 2018."
+      },
+      {
+        "issue": "9",
+        "key": "1631_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "11002",
+        "DOI": "10.1109/TII.2024.3397401",
+        "volume": "20",
+        "author": "X Zhang",
+        "year": "2024",
+        "unstructured": "X. Zhang, J. Liu, X. Zhang, Y. Lu. Multiscale channel attention-driven graph dynamic fusion learning method for robust fault diagnosis. IEEE Transactions on Industrial Informatics, vol. 20, no. 9, pp. 11002–11013, 2024. DOI: https://doi.org/10.1109/TII.2024.3397401.",
+        "journal-title": "IEEE Transactions on Industrial Informatics"
+      },
+      {
+        "key": "1631_CR35",
+        "doi-asserted-by": "publisher",
+        "unstructured": "F. Deng, R. Huang, P. Jiang, L. Yu, L. Deng. Dense-Fusion2Net a more efficient and lightweight short speech speaker recognition system with time-frequency channel attention. Scientific Reports, vol. 15, no. 1, Article number 9601, 2025. DOI: https://doi.org/10.1038/s41598-025-93873-x.",
+        "DOI": "10.1038/s41598-025-93873-x"
+      },
+      {
+        "key": "1631_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1007/978-3-030-58452-8_13",
+        "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+        "author": "N Carion",
+        "year": "2020",
+        "unstructured": "N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, S. Zagoruyko. End-to-end object detection with transformers. In Proceedings of the 16th European Conference on Computer Vision, Glasgow, UK, pp. 213–229, 2020. DOI: https://doi.org/10.1007/978-3-030-58452-8_13."
+      },
+      {
+        "key": "1631_CR37",
+        "volume-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems",
+        "author": "P Ramachandran",
+        "year": "2019",
+        "unstructured": "P. Ramachandran, N. Parmar, A. Vaswani, I. Bello, A. Levskaya, J. Shlens. Stand-alone self-attention in vision models. In Proceedings of the 33rd International Conference on Neural Information Processing Systems, Vancouver, Canada, Article number 7, 2019."
+      },
+      {
+        "issue": "1",
+        "key": "1631_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.1109/TNNLS.2020.3027589",
+        "volume": "33",
+        "author": "H Wang",
+        "year": "2022",
+        "unstructured": "H. Wang, L. Jiao, S. Yang, L. Li, Z. Wang. Simple and effective: Spatial rescaling for person reidentification. IEEE Transactions on Neural Networks and Learning Systems, vol. 33, no. 1, pp. 145–156, 2022. DOI: https://doi.org/10.1109/TNNLS.2020.3027589.",
+        "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+      },
+      {
+        "key": "1631_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "6450",
+        "DOI": "10.1109/CVPR.2017.683",
+        "volume-title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "F Wang",
+        "year": "2017",
+        "unstructured": "F. Wang, M. Jiang, C. Qian, S. Yang, C. Li, H. Zhang, X. Wang, X. Tang. Residual attention network for image classification. In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, Honolulu, USA, pp. 6450–6458, 2017. DOI: https://doi.org/10.1109/CVPR.2017.683."
+      },
+      {
+        "key": "1631_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/978-3-030-01234-2_1",
+        "volume-title": "Proceedings of the 15th European Conference on Computer Vision",
+        "author": "S Woo",
+        "year": "2018",
+        "unstructured": "S. Woo, J. Park, J. Y. Lee, I. S. Kweon. CBAM: Convolutional block attention module. In Proceedings of the 15th European Conference on Computer Vision, Munich, Germany, pp. 3–19, 2018. DOI: https://doi.org/10.1007/978-3-030-01234-2_1."
+      },
+      {
+        "issue": "4",
+        "key": "1631_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "783",
+        "DOI": "10.1007/s11263-019-01283-0",
+        "volume": "128",
+        "author": "J Park",
+        "year": "2020",
+        "unstructured": "J. Park, S. Woo, J. Y. Lee, I. S. Kweon. A simple and light-weight attention module for convolutional neural networks. International Journal of Computer Vision, vol. 128, no. 4, pp. 783–798, 2020. DOI: https://doi.org/10.1007/s11263-019-01283-0.",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "key": "1631_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "13708",
+        "DOI": "10.1109/CVPR46437.2021.01350",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Q Hou",
+        "year": "2021",
+        "unstructured": "Q. Hou, D. Zhou, J. Feng. Coordinate attention for efficient mobile network design. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, USA, pp. 13708–13717, 2021. DOI: https://doi.org/10.1109/CVPR46437.2021.01350."
+      },
+      {
+        "key": "1631_CR43",
+        "doi-asserted-by": "publisher",
+        "unstructured": "J. Zhang, S. Lin, T. Cheng, Y. Xu, L. Lu, J. He, T. Yu, Y. Peng, Y. Zhang, H. Zou, Y. Ma. RETFound-enhanced community-based fundus disease screening: Real-world evidence and decision curve analysis. npj Digital Medicine, vol. 7, no. 1, Article number 108, 2024. DOI: https://doi.org/10.1038/s41746-024-01109-5.",
+        "DOI": "10.1038/s41746-024-01109-5"
+      },
+      {
+        "key": "1631_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "10563",
+        "DOI": "10.1109/CVPR.2019.01082",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "L Li",
+        "year": "2019",
+        "unstructured": "L. Li, M. Xu, X. Wang, L. Jiang, H. Liu. Attention based glaucoma detection: A large-scale database and CNN model. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, USA, pp. 10563–10572, 2019. DOI: https://doi.org/10.1109/CVPR.2019.01082."
+      },
+      {
+        "key": "1631_CR45",
+        "volume-title": "MedMNIST v2: A large-scale lightweight benchmark for 2D and 3D biomedical image classification",
+        "author": "J Yang",
+        "year": "2021",
+        "unstructured": "J. Yang, R. Shi, D. Wei, Z. Liu, L. Zhao, B. Ke, H. Pfister, B. Ni. MedMNIST v2: A large-scale lightweight benchmark for 2D and 3D biomedical image classification, [Online], Available: https://arxiv.org/abs/2110.14795v1, 2021."
+      },
+      {
+        "key": "1631_CR46",
+        "volume-title": "Proceedings of the 9th International Conference on Learning Representations",
+        "author": "A Dosovitskiy",
+        "year": "2021",
+        "unstructured": "A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, J. Uszkoreit, N. Houlsby. An image is worth 16×16 words: Transformers for image recognition at scale. In Proceedings of the 9th International Conference on Learning Representations, 2021."
+      },
+      {
+        "key": "1631_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "9992",
+        "DOI": "10.1109/ICCV48922.2021.00986",
+        "volume-title": "Proceedings of IEEE/CVF International Conference on Computer Vision",
+        "author": "Z Liu",
+        "year": "2021",
+        "unstructured": "Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, B. Guo. Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of IEEE/CVF International Conference on Computer Vision, Montreal, Canada, pp. 9992–10002, 2021. DOI: https://doi.org/10.1109/ICCV48922.2021.00986."
+      },
+      {
+        "issue": "1",
+        "key": "1631_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "1328",
+        "DOI": "10.1109/TPAMI.2022.3145427",
+        "volume": "45",
+        "author": "Q Hou",
+        "year": "2023",
+        "unstructured": "Q. Hou, Z. Jiang, L. Yuan, M. M. Cheng, S. Yan, J. Feng. Vision permutator: A permutable MLP-like architecture for visual recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 1, pp. 1328–1334, 2023. DOI: https://doi.org/10.1109/TPAMI.2022.3145427.",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "1631_CR49",
+        "volume-title": "Proceedings of Advances in Neural Information Processing Systems",
+        "author": "I Tolstikhin",
+        "year": "2021",
+        "unstructured": "I. Tolstikhin, N. Houlsby, A. Kolesnikov, L. Beyer, X. Zhai, T. Unterthiner, J. Yung, A. Steiner, D. Keysers, J. Uszkoreit, M. Lucic, A. Dosovitskiy. MLP-mixer: An allMLP architecture for vision. In Proceedings of Advances in Neural Information Processing Systems, Article number 1857, 2021."
+      },
+      {
+        "key": "1631_CR50",
+        "doi-asserted-by": "publisher",
+        "unstructured": "X. Zhang, Z. Xiao, H. Fu, Y. Hu, J. Yuan, Y. Xu, R. Higashita, J. Liu. Attention to region: Region-based integration-and-recalibration networks for nuclear cataract classification using AS-OCT images. Medical Image Analysis, vol. 80, Article number 102499, 2022. DOI: https://doi.org/10.1016/j.media.2022.102499.",
+        "DOI": "10.1016/j.media.2022.102499"
+      },
+      {
+        "key": "1631_CR51",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Z. Xiao, X. Zhang, B. Zheng, Y. Guo, R. Higashita, J. Liu. Multi-style spatial attention module for cortical cataract classification in AS-OCT image with supervised contrastive learning. Computer Methods and Programs in Biomedicine, vol. 244, Article number 107958, 2024. DOI: https://doi.org/10.1016/j.cmpb.2023.107958.",
+        "DOI": "10.1016/j.cmpb.2023.107958"
+      },
+      {
+        "key": "1631_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1007/978-3-030-92238-2_30",
+        "volume-title": "Proceedings of the 28th International Conference on Neural Information Processing",
+        "author": "Z Xiao",
+        "year": "2021",
+        "unstructured": "Z. Xiao, X. Zhang, R. Higashita, Y. Hu, J. Yuan, W. Chen, J. Liu. Gated channel attention network for cataract classification on AS-OCT image. In Proceedings of the 28th International Conference on Neural Information Processing, Bali, Indonesia, pp. 357–368, 2021. DOI: https://doi.org/10.1007/978-3-030-92238-2_30."
+      },
+      {
+        "key": "1631_CR53",
+        "doi-asserted-by": "publisher",
+        "unstructured": "X. Zhang, Z. Xiao, L. Hu, G. Xu, R. Higashita, W. Chen, J. Yuan, J. Liu. CCA-Net: Clinical-awareness attention network for nuclear cataract classification in ASOCT. Knowledge-Based Systems, vol. 250, Article number 109109, 2022. DOI: https://doi.org/10.1016/j.knosys.2022.109109.",
+        "DOI": "10.1016/j.knosys.2022.109109"
+      },
+      {
+        "key": "1631_CR54",
+        "doi-asserted-by": "publisher",
+        "unstructured": "X. Zhang, Z. Xiao, R. Higashita, Y. Hu, W. Chen, J. Yuan, J. Liu. Adaptive feature squeeze network for nuclear cataract classification in AS-OCT image. Journal of Biomedical Informatics, vol. 128, Article number 104037, 2022. DOI: https://doi.org/10.1016/j.jbi.2022.104037.",
+        "DOI": "10.1016/j.jbi.2022.104037"
+      },
+      {
+        "issue": "8",
+        "key": "1631_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "2011",
+        "DOI": "10.1109/TPAMI.2019.2913372",
+        "volume": "42",
+        "author": "J Hu",
+        "year": "2020",
+        "unstructured": "J. Hu, L. Shen, S. Albanie, G. Sun, E. Wu. Squeeze-and-excitation networks. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 8, pp. 2011–2023, 2020. DOI: https://doi.org/10.1109/TPAMI.2019.2913372.",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "1631_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "770",
+        "DOI": "10.1109/CVPR.2016.90",
+        "volume-title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "K He",
+        "year": "2016",
+        "unstructured": "K. He, X. Zhang, S. Ren, J. Sun. Deep residual learning for image recognition. In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, Las Vegas, USA, pp. 770–778, 2016. DOI: https://doi.org/10.1109/CVPR.2016.90."
+      },
+      {
+        "key": "1631_CR57",
+        "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+        "author": "J Ren",
+        "year": "2020",
+        "unstructured": "J. Ren, C. Yu, S. Sheng, X. Ma, H. Zhao, S. Yi, H. Li. Balanced meta-softmax for long-tailed visual recognition. In Proceedings of the 34th International Conference on Neural Information Processing Systems, Vancouver, Canada, Article number 351, 2020."
+      },
+      {
+        "key": "1631_CR58",
+        "volume-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems",
+        "author": "K Cao",
+        "year": "2019",
+        "unstructured": "K. Cao, C. Wei, A. Gaidon, N. Arechiga, T. Ma. Learning imbalanced datasets with label-distribution-aware margin loss. In Proceedings of the 33rd International Conference on Neural Information Processing Systems, Vancouver, Canada, Article number 140, 2019."
+      },
+      {
+        "key": "1631_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "2999",
+        "DOI": "10.1109/ICCV.2017.324",
+        "volume-title": "Proceedings of IEEE International Conference on Computer Vision",
+        "author": "T Y Lin",
+        "year": "2017",
+        "unstructured": "T. Y. Lin, P. Goyal, R. Girshick, K. He, P. Dollár. Focal loss for dense object detection. In Proceedings of IEEE International Conference on Computer Vision, Venice, Italy, pp. 2999–3007, 2017. DOI: https://doi.org/10.1109/ICCV.2017.324."
+      },
+      {
+        "issue": "4",
+        "key": "1631_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "5314",
+        "DOI": "10.1109/TPAMI.2022.3206148",
+        "volume": "45",
+        "author": "H Touvron",
+        "year": "2023",
+        "unstructured": "H. Touvron, P. Bojanowski, M. Caron, M. Cord, A. El-Nouby, E. Grave, G. Izacard, A. Joulin, G. Synnaeve, J. Verbeek, H. Jágou. ResMLP: Feedforward networks for image classification with data-efficient training. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 4, pp. 5314–5321, 2023. DOI: https://doi.org/10.1109/TPAMI.2022.3206148.",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "issue": "2",
+        "key": "1631_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "413",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "volume": "39",
+        "author": "L Li",
+        "year": "2020",
+        "unstructured": "L. Li, M. Xu, H. Liu, Y. Li, X. Wang, L. Jiang, Z. Wang, X. Fan, N. Wang. A large-scale database and a CNN model for attention-based glaucoma detection. IEEE Transactions on Medical Imaging, vol. 39, no. 2, pp. 413–424, 2020. DOI: https://doi.org/10.1109/TMI.2019.2927226.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "1631_CR62",
+        "first-page": "6105",
+        "volume-title": "Proceedings of the 36th International Conference on Machine Learning",
+        "author": "M Tan",
+        "year": "2019",
+        "unstructured": "M. Tan, Q. V. Le. EfficientNet: Rethinking model scaling for convolutional neural networks. In Proceedings of the 36th International Conference on Machine Learning, Long Beach, USA, pp. 6105–6114, 2019."
+      },
+      {
+        "key": "1631_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "1374",
+        "DOI": "10.1109/ICASSP40776.2020.9054290",
+        "volume-title": "Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing",
+        "author": "C Guo",
+        "year": "2020",
+        "unstructured": "C. Guo, M. Szemenyei, Y. Yi, Y. Xue, W. Zhou, Y. Li. Dense residual network for retinal vessel segmentation. In Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing, Barcelona, Spain, pp. 1374–1378, 2020. DOI: https://doi.org/10.1109/ICASSP40776.2020.9054290."
+      },
+      {
+        "key": "1631_CR64",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Y. Fu, G. Zhang, X. Lu, H. Wu, D. Zhang. RMCA U-net: Hard exudates segmentation for retinal fundus images. Expert Systems with Applications, vol. 234, Article number 120987, 2023. DOI: https://doi.org/10.1016/j.eswa.2023.120987.",
+        "DOI": "10.1016/j.eswa.2023.120987"
+      },
+      {
+        "issue": "9",
+        "key": "1631_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "2524",
+        "DOI": "10.1109/TMI.2023.3260990",
+        "volume": "42",
+        "author": "S Chen",
+        "year": "2023",
+        "unstructured": "S. Chen, Z. Wu, M. Li, Y. Zhu, H. Xie, P. Yang, C. Zhao, Y. Zhang, S. Zhang, X. Zhao, L. Lu, G. Zhang, B. Lei. FIT-Net: Feature interaction transformer network for pathologic myopia diagnosis. IEEE Transactions on Medical Imaging, vol. 42, no. 9, pp. 2524–2538, 2023. DOI: https://doi.org/10.1109/TMI.2023.3260990.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "1631_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "11966",
+        "DOI": "10.1109/CVPR52688.2022.01167",
+        "volume-title": "Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Z Liu",
+        "year": "2022",
+        "unstructured": "Z. Liu, H. Mao, C. Y. Wu, C. Feichtenhofer, T. Darrell, S. Xie. A ConvNet for the 2020s. In Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition, New Orleans, USA, pp. 11966–11976, 2022. DOI: https://doi.org/10.1109/CVPR52688.2022.01167."
+      },
+      {
+        "key": "1631_CR67",
+        "doi-asserted-by": "publisher",
+        "unstructured": "O. N. Manzari, H. Ahmadabadi, H. Kashiani, S. B. Shokouhi, A. Ayatollahi. MedViT: A robust vision transformer for generalized medical image classification. Computers in Biology and Medicine, vol. 157, Article number 106791, 2023. DOI: https://doi.org/10.1016/j.compbiomed.2023.106791.",
+        "DOI": "10.1016/j.compbiomed.2023.106791"
+      },
+      {
+        "key": "1631_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "581",
+        "DOI": "10.1007/978-1-4842-4470-8_42",
+        "volume-title": "Building Machine Learning and Deep Learning Models on Google Cloud Platform: A Comprehensive Guide for Beginners",
+        "author": "E Bisong",
+        "year": "2019",
+        "unstructured": "E. Bisong. Google AutoML: Cloud vision. Building Machine Learning and Deep Learning Models on Google Cloud Platform: A Comprehensive Guide for Beginners, E. Bisong, Ed., Berkeley, USA: Apress, pp. 581–598, 2019. DOI: https://doi.org/10.1007/978-1-4842-4470-8_42."
+      },
+      {
+        "issue": "3",
+        "key": "1631_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "415",
+        "DOI": "10.1007/s41095-022-0274-8",
+        "volume": "8",
+        "author": "W Wang",
+        "year": "2022",
+        "unstructured": "W. Wang, E. Xie, X. Li, D. P. Fan, K. Song, D. Liang, T. Lu, P. Luo, L. Shao. PVT v2: Improved baselines with pyramid vision transformer. Computational Visual Media, vol. 8, no. 3, pp. 415–424, 2022. DOI: https://doi.org/10.1007/s41095-022-0274-8.",
+        "journal-title": "Computational Visual Media"
+      },
+      {
+        "issue": "2",
+        "key": "1631_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "83",
+        "DOI": "10.1076/opep.9.2.83.1523",
+        "volume": "9",
+        "author": "B Thylefors",
+        "year": "2002",
+        "unstructured": "B. Thylefors, L. T. Jr. Chylack, K. Konyama, K. Sasaki, R. Sperduto, H. R. Taylor, S. West. A simplified cataract grading system The WHO Cataract Grading Group. Ophthalmic Epidemiology, vol. 9, no. 2, pp. 83–95, 2002. DOI: https://doi.org/10.1076/opep.9.2.83.1523.",
+        "journal-title": "Ophthalmic Epidemiology"
+      },
+      {
+        "issue": "5",
+        "key": "1631_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "volume": "172",
+        "author": "D S Kermany",
+        "year": "2018",
+        "unstructured": "D. S. Kermany, M. Goldbaum, W. Cai, C. C. S. Valentim, H. Liang, S. L. Baxter, A. McKeown, G. Yang, X. Wu, F. Yan, J. Dong, M. K. Prasadha, J. Pei, M. Y. L. Ting, J. Zhu, C. Li, S. Hewett, J. Dong, I. Ziyar, A. Shi, R. Zhang, L. Zheng, R. Hou, W. Shi, X. Fu, Y. Duan, V. A. N. Huu, C. Wen, E. D. Zhang, C. L. Zhang, O. Li, X. Wang, M. A. Singer, X. Sun, J. Xu, A. Tafreshi, M. A. Lewis, H. Xia, K. Zhang. Identifying medical diagnoses and treatable diseases by image-based deep learning. Cell, vol. 172, no. 5, pp. 1122–1131, 2018. DOI: https://doi.org/10.1016/j.cell.2018.02.010.",
+        "journal-title": "Cell"
+      }
+    ],
+    "container-title": [
+      "Machine Intelligence Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11633-025-1631-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11633-025-1631-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11633-025-1631-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2026-11-17T07:04:00Z",
+      "timestamp": 1794899040000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/article/10.1007/s11633-025-1631-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ]
+    },
+    "references-count": 71,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1631"
+    ],
+    "URL": "https://doi.org/10.1007/s11633-025-1631-8",
+    "relation": {},
+    "ISSN": [
+      "2731-538X",
+      "2731-5398"
+    ],
+    "issn-type": [
+      {
+        "value": "2731-538X",
+        "type": "print"
+      },
+      {
+        "value": "2731-5398",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "7 May 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "25 December 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "27 October 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declared that they have no conflicts of interest to this work.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations of conflict of interest"
+        }
+      }
+    ]
+  }
+}

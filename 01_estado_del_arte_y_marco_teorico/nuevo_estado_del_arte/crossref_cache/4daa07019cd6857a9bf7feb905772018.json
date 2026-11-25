@@ -1,0 +1,461 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2026-06-25T16:17:32Z",
+      "timestamp": 1782404252361,
+      "version": "3.54.5"
+    },
+    "reference-count": 27,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              6
+            ]
+          ],
+          "date-time": "2022-12-06T00:00:00Z",
+          "timestamp": 1670284800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100005230",
+        "name": "Natural Science Foundation of Chongqing",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "No.cstc2019jscx-mbdxX0021"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "No.cstc2019jscx-mbdxX0021"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100005230",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Hum. Neurosci."
+    ],
+    "abstract": "<jats:p>The precise segmentation of the optic cup (OC) and the optic disc (OD) is important for glaucoma screening. In recent years, medical image segmentation based on convolutional neural networks (CNN) has achieved remarkable results. However, many traditional CNN methods do not consider the cross-domain problem, i.e., generalization on datasets of different domains. In this paper, we propose a novel unsupervised domain-adaptive segmentation architecture called CAE-BMAL. Firstly, we enhance the source domain with a convolutional autoencoder to improve the generalization ability of the model. Then, we introduce an adversarial learning-based boundary discrimination branch to reduce the impact of the complex environment during segmentation. Finally, we evaluate the proposed method on three datasets, Drishti-GS, RIM-ONE-r3, and REFUGE. The experimental evaluations outperform most state-of-the-art methods in accuracy and generalization. We further evaluate the cup-to-disk ratio performance in OD and OC segmentation, which indicates the effectiveness of glaucoma discrimination.</jats:p>",
+    "DOI": "10.3389/fnhum.2022.1043569",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2022-12-06T14:52:37Z",
+      "timestamp": 1670338357000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Convolutional autoencoder joint boundary and mask adversarial learning for fundus image segmentation"
+    ],
+    "prefix": "10.3389",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Xu",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaqi",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chengrui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhen",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "first-page": "490",
+        "article-title": "Source-relaxed domain adaptation for image segmentation,",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention–MICCAI 2020–23rd International Conference, Lima, Peru, October 4-8, 2020, Proceedings, Part I, volume 12261 of Lecture Notes in Computer Science",
+        "author": "Bateson",
+        "year": "2020"
+      },
+      {
+        "key": "B2",
+        "first-page": "139",
+        "article-title": "Deep clustering for unsupervised learning of visual features,",
+        "volume-title": "Computer Vision–ECCV 2018–15th European Conference, Munich, Germany, September 8-14, 2018, Proceedings, Part XIV, volume 11218 of Lecture Notes in Computer Science",
+        "author": "Caron",
+        "year": "2018"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.3389/fcvm.2020.00105",
+        "article-title": "Improving the generalizability of convolutional neural network-based segmentation on cmr images",
+        "volume": "7",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Front. Cardiovasc. Med"
+      },
+      {
+        "key": "B4",
+        "first-page": "833",
+        "article-title": "Encoder-decoder with atrous separable convolution for semantic image segmentation,",
+        "volume-title": "Computer Vision–ECCV 2018–15th European Conference, Munich, Germany, September 8-14, 2018, Proceedings, Part VII, volume 11211 of Lecture Notes in Computer Science",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "key": "B5",
+        "first-page": "691",
+        "article-title": "Unsupervised cross-modality domain adaptation of convnets for biomedical image segmentations with adversarial loss,",
+        "volume-title": "International Joint Conference on Artificial Intelligence",
+        "author": "Dou",
+        "year": "2018"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/CBMS.2011.5999143",
+        "article-title": "RIM-ONE: an open retinal image database for optic nerve evaluation,",
+        "volume-title": "2011 24th International Symposium on Computer-Based Medical Systems (CBMS)",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "B8",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets,",
+        "volume-title": "Advances in Neural Information Processing Systems 27: Annual Conference on Neural Information Processing Systems 2014, December 8-13 2014, Montreal, Quebec, Canada",
+        "author": "Goodfellow",
+        "year": "2014"
+      },
+      {
+        "key": "B9",
+        "first-page": "770",
+        "article-title": "Deep residual learning for image recognition,",
+        "volume-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "key": "B10",
+        "first-page": "2261",
+        "article-title": "Densely connected convolutional networks,",
+        "volume-title": "2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017",
+        "author": "Huang",
+        "year": "2017"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "101907",
+        "DOI": "10.1016/j.media.2020.101907",
+        "article-title": "Test-time adaptable neural networks for robust medical image segmentation",
+        "volume": "68",
+        "author": "Karani",
+        "year": "2021",
+        "journal-title": "Med. Image Anal"
+      },
+      {
+        "key": "B12",
+        "first-page": "521",
+        "article-title": "CFEA: collaborative feature ensembling adaptation for domain adaptation in unsupervised optic disc and cup segmentation,",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention–MICCAI 2019–22nd International Conference, Shenzhen, China, October 13-17, 2019, Proceedings, Part V, volume 11768 of Lecture Notes in Computer Science",
+        "author": "Liu",
+        "year": "2019"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "209",
+        "DOI": "10.1016/j.neucom.2021.10.076",
+        "article-title": "CADA: multi-scale collaborative adversarial domain adaptation for unsupervised optic disc and cup segmentation",
+        "volume": "469",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal"
+      },
+      {
+        "key": "B15",
+        "first-page": "7249",
+        "article-title": "Structured domain randomization: bridging the reality gap by context-aware synthetic data,",
+        "volume-title": "International Conference on Robotics and Automation, ICRA 2019",
+        "author": "Prakash",
+        "year": "2019"
+      },
+      {
+        "key": "B16",
+        "first-page": "4510",
+        "article-title": "Mobilenetv2: inverted residuals and linear bottlenecks,",
+        "volume-title": "2018 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018",
+        "author": "Sandler",
+        "year": "2018"
+      },
+      {
+        "key": "B17",
+        "unstructured": "A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis1004\n            SivaswamyJ.\n            KrishnadasS.\n            ChakravartyA.\n            JoshiG. D.\n            UjjwalSyed, T. A.\n          JSM Biomed. Imag. Data Papers22015"
+      },
+      {
+        "key": "B18",
+        "first-page": "7472",
+        "article-title": "Learning to adapt structured output space for semantic segmentation,",
+        "volume-title": "2018 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018",
+        "author": "Tsai",
+        "year": "2018"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "4237",
+        "DOI": "10.1109/TMI.2020.3015224",
+        "article-title": "Dofe: Domain-oriented feature embedding for generalizable fundus image segmentation on unseen datasets. IEEE Trans",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Med. Imaging"
+      },
+      {
+        "key": "B20",
+        "first-page": "102",
+        "article-title": "Boundary and entropy-driven adversarial learning for fundus image segmentation,",
+        "volume-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "author": "Wang",
+        "year": ""
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2485",
+        "DOI": "10.1109/TMI.2019.2899910",
+        "article-title": "Patch-based output space adversarial learning for joint optic disc and cup segmentation",
+        "volume": "38",
+        "author": "Wang",
+        "year": "",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "B22",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology,",
+        "volume-title": "Artificial Intelligence in Medicine",
+        "author": "Wang",
+        "year": "2020"
+      },
+      {
+        "key": "B23",
+        "first-page": "2100",
+        "article-title": "Domain randomization and pyramid consistency: Simulation-to-real generalization without accessing target domain data,",
+        "volume-title": "2019 IEEE/CVF International Conference on Computer Vision, ICCV 2019",
+        "author": "Yue",
+        "year": "2019"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "106067",
+        "DOI": "10.1016/j.compbiomed.2022.106067",
+        "article-title": "Optic disc detection and segmentation using saliency mask in retinal fundus images",
+        "volume": "150",
+        "author": "Zaaboub",
+        "year": "2022",
+        "journal-title": "Comput. Biol. Med"
+      },
+      {
+        "key": "B25",
+        "first-page": "599",
+        "article-title": "Task driven generative modeling for unsupervised domain adaptation: application to x-ray image segmentation,",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention–MICCAI 2018–21st International Conference, Granada, Spain, September 16-20, 2018, Proceedings, Part II, volume 11071",
+        "author": "Zhang",
+        "year": "2018"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "6491",
+        "DOI": "10.1002/mp.15944",
+        "article-title": "C2-gan: content-consistent generative adversarial networks for unsupervised domain adaptation in medical image segmentation",
+        "volume": "49",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Med. Phys"
+      },
+      {
+        "key": "B27",
+        "first-page": "13025",
+        "article-title": "Deep domain-adversarial image generation for domain generalisation,",
+        "volume-title": "The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI 2020, The Thirty-Second Innovative Applications of Artificial Intelligence Conference, IAAI 2020, The Tenth AAAI Symposium on Educational Advances in Artificial Intelligence, EAAI 2020",
+        "author": "Zhou",
+        "year": "2020"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Human Neuroscience"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fnhum.2022.1043569/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2022-12-06T14:52:52Z",
+      "timestamp": 1670338372000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fnhum.2022.1043569/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ]
+    },
+    "references-count": 27,
+    "alternative-id": [
+      "10.3389/fnhum.2022.1043569"
+    ],
+    "URL": "https://doi.org/10.3389/fnhum.2022.1043569",
+    "relation": {},
+    "ISSN": [
+      "1662-5161"
+    ],
+    "issn-type": [
+      {
+        "value": "1662-5161",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ]
+    },
+    "article-number": "1043569"
+  }
+}

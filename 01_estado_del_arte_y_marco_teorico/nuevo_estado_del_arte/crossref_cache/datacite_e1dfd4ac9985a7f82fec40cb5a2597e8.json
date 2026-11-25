@@ -1,0 +1,188 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.22835341",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.22835341",
+      "prefix": "10.5281",
+      "suffix": "zenodo.22835341",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Fabiano Araujo Soares",
+          "nameType": "Personal",
+          "familyName": "Fabiano Araujo Soares",
+          "nameIdentifiers": [],
+          "affiliation": []
+        },
+        {
+          "name": "Lorenzo de Lima Alves dos Santos",
+          "nameType": "Personal",
+          "familyName": "Lorenzo de Lima Alves dos Santos",
+          "nameIdentifiers": [],
+          "affiliation": []
+        },
+        {
+          "name": "Mario Fleury",
+          "nameType": "Personal",
+          "familyName": "Mario Fleury",
+          "nameIdentifiers": [],
+          "affiliation": []
+        },
+        {
+          "name": "Suelia de Siqueira Rodrigues Fleury Rosa",
+          "nameType": "Personal",
+          "familyName": "Suelia de Siqueira Rodrigues Fleury Rosa",
+          "nameIdentifiers": [],
+          "affiliation": []
+        },
+        {
+          "name": "Adson Ferreira da Rocha",
+          "nameType": "Personal",
+          "familyName": "Adson Ferreira da Rocha",
+          "nameIdentifiers": [],
+          "affiliation": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Advanced AI-Driven Signal Processing for Glaucoma Detection Using Retinal Imaging: Methods and Experimental Insights"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "subject": "Artificial Intelligence"
+        },
+        {
+          "subject": "Glaucoma"
+        },
+        {
+          "subject": "CNN"
+        },
+        {
+          "subject": "Fundus"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-09-28",
+          "dateType": "Issued"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "CPAPER",
+        "bibtex": "article",
+        "citeproc": "",
+        "schemaOrg": "Article",
+        "resourceType": "",
+        "resourceTypeGeneral": "ConferencePaper"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsPartOf",
+          "relatedIdentifier": "2359-3164",
+          "relatedIdentifierType": "ISSN"
+        },
+        {
+          "relationType": "HasVersion",
+          "relatedIdentifier": "10.5281/zenodo.22835342",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Early detection of glaucoma is essential to prevent irreversible vision loss, yet reliable screening remains challenging due to the subtle nature of early structural changes. This work presents an exploratory evaluation of convolutional neural network (CNN) architectures for binary glaucoma classification from retinal fundus photographs under limited data conditions. Two widely adopted models, VGG16 and ResNet50, were implemented using transfer learning and trained on a curated subset of the Ocular Disease Recognition (ODIR) dataset. Model performance was assessed using accuracy, F1-score, sensitivity, specificity, precision, negative predictive value, ROC-AUC score, variance, and confusion matrices. Experimental results indicate that VGG16 outperformed ResNet50 on the considered dataset. Given the limited sample size and the absence of external validation, the findings should be interpreted as a preliminar baseline comparison rather than evidence of clinical readiness or generalizability. Following the reviewer's suggestions, the metrics ROC-AUC, sensitivity, and specificity were added. The VGG16 model presented an ROC-AUC score of 0.7266, 79.07% for the sensitivity, and 62.16% for specificity, while the ResNet50 model showed a ROC-AUC score of 0.6568, 58.14% for the sensitivity and 62.16% for the specificity.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTI4MS9aRU5PRE8uMjI4MzUzNDE8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkZhYmlhbm8gQXJhdWpvIFNvYXJlczwvY3JlYXRvck5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkZhYmlhbm8gQXJhdWpvIFNvYXJlczwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Mb3JlbnpvIGRlIExpbWEgQWx2ZXMgZG9zIFNhbnRvczwvY3JlYXRvck5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkxvcmVuem8gZGUgTGltYSBBbHZlcyBkb3MgU2FudG9zPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPk1hcmlvIEZsZXVyeTwvY3JlYXRvck5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPk1hcmlvIEZsZXVyeTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5TdWVsaWEgZGUgU2lxdWVpcmEgUm9kcmlndWVzIEZsZXVyeSBSb3NhPC9jcmVhdG9yTmFtZT4KICAgICAgPGZhbWlseU5hbWU+U3VlbGlhIGRlIFNpcXVlaXJhIFJvZHJpZ3VlcyBGbGV1cnkgUm9zYTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5BZHNvbiBGZXJyZWlyYSBkYSBSb2NoYTwvY3JlYXRvck5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkFkc29uIEZlcnJlaXJhIGRhIFJvY2hhPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5BZHZhbmNlZCBBSS1Ecml2ZW4gU2lnbmFsIFByb2Nlc3NpbmcgZm9yIEdsYXVjb21hIERldGVjdGlvbiBVc2luZyBSZXRpbmFsIEltYWdpbmc6IE1ldGhvZHMgYW5kIEV4cGVyaW1lbnRhbCBJbnNpZ2h0czwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjY8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkNvbmZlcmVuY2VQYXBlciIvPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0PkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+R2xhdWNvbWE8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5DTk48L3N1YmplY3Q+CiAgICA8c3ViamVjdD5GdW5kdXM8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDI2LTA5LTI4PC9kYXRlPgogIDwvZGF0ZXM+CiAgPGxhbmd1YWdlPmVuPC9sYW5ndWFnZT4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iSVNTTiIgcmVsYXRpb25UeXBlPSJJc1BhcnRPZiI+MjM1OS0zMTY0PC9yZWxhdGVkSWRlbnRpZmllcj4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJIYXNWZXJzaW9uIj4xMC41MjgxL3plbm9kby4yMjgzNTM0MjwvcmVsYXRlZElkZW50aWZpZXI+CiAgPC9yZWxhdGVkSWRlbnRpZmllcnM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cy8+CiAgPHZlcnNpb24vPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvbGVnYWxjb2RlIiByaWdodHNJZGVudGlmaWVyPSJjYy1ieS00LjAiIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHNjaGVtZVVSST0iaHR0cHM6Ly9zcGR4Lm9yZy9saWNlbnNlcy8iPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5FYXJseSBkZXRlY3Rpb24gb2YgZ2xhdWNvbWEgaXMgZXNzZW50aWFsIHRvIHByZXZlbnQgaXJyZXZlcnNpYmxlIHZpc2lvbiBsb3NzLCB5ZXQgcmVsaWFibGUgc2NyZWVuaW5nIHJlbWFpbnMgY2hhbGxlbmdpbmcgZHVlIHRvIHRoZSBzdWJ0bGUgbmF0dXJlIG9mIGVhcmx5IHN0cnVjdHVyYWwgY2hhbmdlcy4gVGhpcyB3b3JrIHByZXNlbnRzIGFuIGV4cGxvcmF0b3J5IGV2YWx1YXRpb24gb2YgY29udm9sdXRpb25hbCBuZXVyYWwgbmV0d29yayAoQ05OKSBhcmNoaXRlY3R1cmVzIGZvciBiaW5hcnkgZ2xhdWNvbWEgY2xhc3NpZmljYXRpb24gZnJvbSByZXRpbmFsIGZ1bmR1cyBwaG90b2dyYXBocyB1bmRlciBsaW1pdGVkIGRhdGEgY29uZGl0aW9ucy4gVHdvIHdpZGVseSBhZG9wdGVkIG1vZGVscywgVkdHMTYgYW5kIFJlc05ldDUwLCB3ZXJlIGltcGxlbWVudGVkIHVzaW5nIHRyYW5zZmVyIGxlYXJuaW5nIGFuZCB0cmFpbmVkIG9uIGEgY3VyYXRlZCBzdWJzZXQgb2YgdGhlIE9jdWxhciBEaXNlYXNlIFJlY29nbml0aW9uIChPRElSKSBkYXRhc2V0LiBNb2RlbCBwZXJmb3JtYW5jZSB3YXMgYXNzZXNzZWQgdXNpbmcgYWNjdXJhY3ksIEYxLXNjb3JlLCBzZW5zaXRpdml0eSwgc3BlY2lmaWNpdHksIHByZWNpc2lvbiwgbmVnYXRpdmUgcHJlZGljdGl2ZSB2YWx1ZSwgUk9DLUFVQyBzY29yZSwgdmFyaWFuY2UsIGFuZCBjb25mdXNpb24gbWF0cmljZXMuIEV4cGVyaW1lbnRhbCByZXN1bHRzIGluZGljYXRlIHRoYXQgVkdHMTYgb3V0cGVyZm9ybWVkIFJlc05ldDUwIG9uIHRoZSBjb25zaWRlcmVkIGRhdGFzZXQuIEdpdmVuIHRoZSBsaW1pdGVkIHNhbXBsZSBzaXplIGFuZCB0aGUgYWJzZW5jZSBvZiBleHRlcm5hbCB2YWxpZGF0aW9uLCB0aGUgZmluZGluZ3Mgc2hvdWxkIGJlIGludGVycHJldGVkIGFzIGEgcHJlbGltaW5hciBiYXNlbGluZSBjb21wYXJpc29uIHJhdGhlciB0aGFuIGV2aWRlbmNlIG9mIGNsaW5pY2FsIHJlYWRpbmVzcyBvciBnZW5lcmFsaXphYmlsaXR5LiBGb2xsb3dpbmcgdGhlIHJldmlld2VyJ3Mgc3VnZ2VzdGlvbnMsIHRoZSBtZXRyaWNzIFJPQy1BVUMsIHNlbnNpdGl2aXR5LCBhbmQgc3BlY2lmaWNpdHkgd2VyZSBhZGRlZC4gVGhlIFZHRzE2IG1vZGVsIHByZXNlbnRlZCBhbiBST0MtQVVDIHNjb3JlIG9mIDAuNzI2NiwgNzkuMDclIGZvciB0aGUgc2Vuc2l0aXZpdHksIGFuZCA2Mi4xNiUgZm9yIHNwZWNpZmljaXR5LCB3aGlsZSB0aGUgUmVzTmV0NTAgbW9kZWwgc2hvd2VkIGEgUk9DLUFVQyBzY29yZSBvZiAwLjY1NjgsIDU4LjE0JSBmb3IgdGhlIHNlbnNpdGl2aXR5IGFuZCA2Mi4xNiUgZm9yIHRoZSBzcGVjaWZpY2l0eS48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22835341",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 1,
+      "versionOfCount": 0,
+      "created": "2026-11-04T21:29:56.000Z",
+      "registered": "2026-11-04T21:29:56.000Z",
+      "published": "2026",
+      "updated": "2026-11-04T21:29:56.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.22835341",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": [
+          {
+            "id": "10.5281/zenodo.22835342",
+            "type": "dois"
+          }
+        ]
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

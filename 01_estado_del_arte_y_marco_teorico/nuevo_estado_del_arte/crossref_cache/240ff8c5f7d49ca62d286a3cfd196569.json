@@ -1,0 +1,360 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T12:44:11Z",
+      "timestamp": 1795524251776,
+      "version": "4.11.0"
+    },
+    "reference-count": 23,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2023-11-22T00:00:00Z",
+          "timestamp": 1700611200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2023-11-22T00:00:00Z",
+          "timestamp": 1700611200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          22
+        ]
+      ]
+    },
+    "DOI": "10.1109/c358072.2023.10436242",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2024-02-21T13:42:14Z",
+      "timestamp": 1708522934000
+    },
+    "page": "1-6",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A Novel Prediction Method for Glaucoma Detection Using Retinographies"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bengie L.",
+        "family": "Ortiz",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Michigan Medicine,Department of Pediatrics,Ann Arbor,MI"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lance",
+        "family": "McMahon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Florida State University,Department of Computer Science,Tallahassee,FL"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Ho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lubbock Eye Clinic,Lubbock,TX"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jo Woon",
+        "family": "Chong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Texas Tech University,Department of Electrical and Computer Engineering,Lubbock,TX"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.21899"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.irbm.2021.06.004"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3238/arztebl.2020.0225"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.procs.2023.01.396"
+      },
+      {
+        "key": "ref5",
+        "volume-title": "ACRIMA_en"
+      },
+      {
+        "key": "ref6",
+        "article-title": "AIROGS - Grand Challenge"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Machine learn for glaucoma",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Harvard Dataverse"
+      },
+      {
+        "key": "ref8",
+        "volume-title": "RIM-ONE: An open retinal image database for optic nerve evaluation"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5566/ias.2346"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.irbm.2021.06.004"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12911-020-1123-2"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/conftele50222.2021.9435468"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iccv.2019.00988"
+      },
+      {
+        "key": "ref14",
+        "volume-title": "Nidek AFC-210 Auto Fundus Camera"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Canon EOS 5D Mark II",
+        "volume-title": "Canon EOS 5D Mark II Hands-On Review | B&H eXplora"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Nonmyd WX-3D Simultaneous Stereoscopic Retinal Camera",
+        "volume-title": "Nonmyd WX-3D Simultaneous Stereoscopic Retinal Camera | KOWA Ophthalmic & Medical Equipment"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5254.708428"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.1182"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/0-387-25465-X_9"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00994018"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00314"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/jtehm.2021.3074597"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/hi-poct45284.2019.8962648"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE Colombian Caribbean Conference (C3)",
+      "location": "Barranquilla, Colombia",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            22
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE Colombian Caribbean Conference (C3)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10436122/10436123/10436242.pdf?arnumber=10436242",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2024-03-13T17:18:57Z",
+      "timestamp": 1710350337000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10436242/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          22
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1109/c358072.2023.10436242",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          22
+        ]
+      ]
+    }
+  }
+}

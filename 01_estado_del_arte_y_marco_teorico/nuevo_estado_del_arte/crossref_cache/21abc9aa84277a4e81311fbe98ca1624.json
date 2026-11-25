@@ -1,0 +1,628 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2025-04-11T10:29:57Z",
+      "timestamp": 1744367397598,
+      "version": "3.37.3"
+    },
+    "reference-count": 25,
+    "publisher": "Optica Publishing Group",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2024-05-30T00:00:00Z",
+          "timestamp": 1717027200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v2#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2024-05-30T00:00:00Z",
+          "timestamp": 1717027200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Science and Technology Development Plan Project of Jilin Province, China",
+        "award": [
+          "20240101382JC"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "20240101382JC"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62272096"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62272096"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100010211",
+        "name": "Education Department of Jilin Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JJH20221328SK",
+          "JJKH20241463SK"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JJH20221328SK",
+              "JJKH20241463SK"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100010211",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "opg.optica.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomed. Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Segmenting the optic disc (OD) and optic cup (OC) is crucial to accurately detect changes in glaucoma progression in the elderly. Recently, various convolutional neural networks have emerged to deal with OD and OC segmentation. Due to the domain shift problem, achieving high-accuracy segmentation of OD and OC from different domain datasets remains highly challenging. Unsupervised domain adaptation has taken extensive focus as a way to address this problem. In this work, we propose a novel unsupervised domain adaptation method, called entropy and distance-guided super self-ensembling (EDSS), to enhance the segmentation performance of OD and OC. EDSS is comprised of two self-ensembling models, and the Gaussian noise is added to the weights of the whole network. Firstly, we design a super self-ensembling (SSE) framework, which can combine two self-ensembling to learn more discriminative information about images. Secondly, we propose a novel exponential moving average with Gaussian noise (G-EMA) to enhance the robustness of the self-ensembling framework. Thirdly, we propose an effective multi-information fusion strategy (MFS) to guide and improve the domain adaptation process. We evaluate the proposed EDSS on two public fundus image datasets RIGA+ and REFUGE. Large amounts of experimental results demonstrate that the proposed EDSS outperforms state-of-the-art segmentation methods with unsupervised domain adaptation, e.g., the <jats:italic>Dice<jats:sub>mean</jats:sub></jats:italic> score on three test sub-datasets of RIGA+ are 0.8442, 0.8772 and 0.9006, respectively, and the <jats:italic>Dice<jats:sub>mean</jats:sub></jats:italic> score on the REFUGE dataset is 0.9154.</jats:p>",
+    "DOI": "10.1364/boe.521778",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          17
+        ]
+      ],
+      "date-time": "2024-05-17T16:00:10Z",
+      "timestamp": 1715961610000
+    },
+    "page": "3975",
+    "update-policy": "https://doi.org/10.1364/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Entropy and distance-guided super self-ensembling for optic disc and cup segmentation"
+    ],
+    "prefix": "10.1364",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Yanlin",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Northeast Normal University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northeast Normal University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jilin Engineering Normal University"
+          },
+          {
+            "name": "Northeast Normal University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Caixia",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northeast Normal University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "boe-15-6-3975-R1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "boe-15-6-3975-R4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "year": "2016",
+        "author": "Hoffman",
+        "key": "boe-15-6-3975-R5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1612.02649"
+      },
+      {
+        "key": "boe-15-6-3975-R6",
+        "doi-asserted-by": "publisher",
+        "first-page": "3880",
+        "DOI": "10.1007/s10489-020-01956-1",
+        "volume": "51",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Appl. Intell."
+      },
+      {
+        "key": "boe-15-6-3975-R7",
+        "doi-asserted-by": "publisher",
+        "first-page": "209",
+        "DOI": "10.1016/j.neucom.2021.10.076",
+        "volume": "469",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "boe-15-6-3975-R8",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1109/JBHI.2021.3085770",
+        "volume": "26",
+        "author": "Lei",
+        "year": "2021",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "boe-15-6-3975-R12",
+        "doi-asserted-by": "publisher",
+        "first-page": "108911",
+        "DOI": "10.1016/j.patcog.2022.108911",
+        "volume": "132",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "key": "boe-15-6-3975-R13",
+        "doi-asserted-by": "publisher",
+        "first-page": "633",
+        "DOI": "10.1109/TMI.2022.3214766",
+        "volume": "42",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "year": "2018",
+        "author": "French",
+        "key": "boe-15-6-3975-R15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1706.05208"
+      },
+      {
+        "key": "boe-15-6-3975-R18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.neuroimage.2019.03.026",
+        "volume": "194",
+        "author": "Perone",
+        "year": "2019",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "boe-15-6-3975-R19",
+        "doi-asserted-by": "publisher",
+        "first-page": "523",
+        "DOI": "10.1109/TNNLS.2020.2995319",
+        "volume": "32",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Neural Netw. Learning Syst."
+      },
+      {
+        "year": "2012",
+        "author": "Hinton",
+        "key": "boe-15-6-3975-R24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1207.0580"
+      },
+      {
+        "key": "boe-15-6-3975-R28",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2019",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "boe-15-6-3975-R29",
+        "doi-asserted-by": "publisher",
+        "first-page": "107635",
+        "DOI": "10.1016/j.engappai.2023.107635",
+        "volume": "129",
+        "author": "He",
+        "year": "2024",
+        "journal-title": "Engineering Applications of Artificial Intelligence"
+      },
+      {
+        "year": "2014",
+        "author": "Kingma",
+        "key": "boe-15-6-3975-R30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1412.6980"
+      },
+      {
+        "key": "boe-15-6-3975-R34",
+        "doi-asserted-by": "publisher",
+        "first-page": "2485",
+        "DOI": "10.1109/TMI.2019.2899910",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-15-6-3975-R36",
+        "first-page": "214",
+        "article-title": "Denoising for relaxing: unsupervised domain adaptive fundus image segmentation without source data",
+        "volume-title": "in International Conference on Medical Image Computing and Computer-Assisted Intervention (Springer",
+        "author": "Xu",
+        "year": "2022"
+      },
+      {
+        "key": "boe-15-6-3975-R37",
+        "doi-asserted-by": "publisher",
+        "first-page": "102457",
+        "DOI": "10.1016/j.media.2022.102457",
+        "volume": "79",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "year": "2020",
+        "author": "Hu",
+        "key": "boe-15-6-3975-R38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2211.11514"
+      },
+      {
+        "key": "boe-15-6-3975-R39",
+        "first-page": "492",
+        "article-title": "Pseudo-label clustering-driven dual-level contrast learning based source-free domain adaptation for fundus image segmentation",
+        "volume-title": "in",
+        "author": "Zhou",
+        "year": "2024"
+      },
+      {
+        "year": "2017",
+        "author": "Chen",
+        "key": "boe-15-6-3975-R40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1706.05587"
+      },
+      {
+        "key": "boe-15-6-3975-R43",
+        "doi-asserted-by": "publisher",
+        "first-page": "1016",
+        "DOI": "10.1109/TMI.2018.2876633",
+        "volume": "38",
+        "author": "Huo",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-15-6-3975-R44",
+        "doi-asserted-by": "publisher",
+        "first-page": "2494",
+        "DOI": "10.1109/TMI.2020.2972701",
+        "volume": "39",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-15-6-3975-R46",
+        "doi-asserted-by": "publisher",
+        "first-page": "109918",
+        "DOI": "10.1016/j.asoc.2022.109918",
+        "volume": "133",
+        "author": "Haider",
+        "year": "2023",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "key": "boe-15-6-3975-R47",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1007/978-3-031-45857-6_3",
+        "article-title": "Black-box unsupervised domain adaptation for medical image segmentation",
+        "author": "KondoKoch",
+        "year": "2024"
+      }
+    ],
+    "container-title": [
+      "Biomedical Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://opg.optica.org/viewmedia.cfm?URI=boe-15-6-3975&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T19:33:28Z",
+      "timestamp": 1722972808000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=boe-15-6-3975"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          30
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/boe.521778",
+    "relation": {},
+    "ISSN": [
+      "2156-7085",
+      "2156-7085"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2156-7085"
+      },
+      {
+        "type": "electronic",
+        "value": "2156-7085"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Optica Publishing Group",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/BOE.521778",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "21 February 2024",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "6 May 2024",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "30 May 2024",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2024 Optica Publishing Group under the terms of the Optica Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

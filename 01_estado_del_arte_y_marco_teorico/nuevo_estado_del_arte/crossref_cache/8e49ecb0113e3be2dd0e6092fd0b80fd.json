@@ -1,0 +1,658 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2026-10-12T14:04:19Z",
+      "timestamp": 1791813859217,
+      "version": "4.3.4"
+    },
+    "reference-count": 45,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2026-10-09T00:00:00Z",
+          "timestamp": 1791504000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Med."
+    ],
+    "abstract": "<jats:sec>\n                    <jats:title>Introduction</jats:title>\n                    <jats:p>Fundus diseases including diabetic retinopathy, glaucoma, and age-related macular degeneration are primary causes of blindness worldwide. Manual interpretation of retinal images is time-consuming and heavily reliant on clinical expertise. Although deep learning has shown promise in automated fundus image analysis, its performance remains highly data-dependent, requiring large amounts of expert annotations. Moreover, single-architecture models may have limited capacity to capture the diverse pathological features present in fundus images.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>This study proposes a unified framework integrating self-supervised contrastive pre-training with a hybrid dual-branch architecture. Pre-training on unlabeled fundus images enables the model to learn generalizable representations, thereby reducing reliance on manual annotations. The dual-branch design combines EfficientNet-B4 for fine-grained detail extraction and MambaOut for large receptive field modeling. Their outputs are adaptively fused via a learnable cross-fusion module. A dendritic classifier is adopted to further improve classification performance. Comprehensive evaluations were conducted on two public datasets, OIHC and FIVES.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>On the OIHC dataset, the proposed model achieved an F1-score of 96.32 ± 0.38% and a Kappa coefficient of 95.89 ± 0.43%. On the FIVES dataset, it attained 95.10 ± 0.54% and 93.49 ± 0.71%. The macro-average AUC exceeded 98% on both datasets. Ablation studies demonstrated the contribution of each component to the overall performance.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>This study indicates that combining self-supervised pre-training with a hybrid dual-branch architecture is a feasible approach for multi-class fundus disease classification. Interpretability analyses suggest that the model's attention regions partially overlap with clinically relevant pathological features. The framework achieved competitive performance on both datasets, showing its potential utility in scenarios with limited annotated data. Future work will focus on multi-center validation and model compression for lightweight architecture design.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.3389/fmed.2026.1932626",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T04:25:50Z",
+      "timestamp": 1791519950000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A multi-class fundus disease classification framework based on self-supervised contrastive learning and dual-branch network"
+    ],
+    "prefix": "10.3389",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Lili",
+        "family": "Cai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Medicine and Health, Guangzhou Xinhua University",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keke",
+        "family": "Hou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine and Health, Guangzhou Xinhua University",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhong",
+        "family": "Mo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine and Health, Guangzhou Xinhua University",
+            "place": [
+              "Guangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shining",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information Engineering, Xinyang Agriculture and Forestry University",
+            "place": [
+              "Xinyang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "100532",
+        "DOI": "10.1016/j.xops.2024.100532",
+        "article-title": "Special commentary: my perspective on vision and vision rehabilitation",
+        "volume": "4",
+        "author": "Colenbrander",
+        "year": "2024",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "B2",
+        "year": ""
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "473",
+        "DOI": "10.1016/j.mcna.2021.01.003",
+        "article-title": "Age-related macular degeneration",
+        "volume": "105",
+        "author": "Thomas",
+        "year": "2021",
+        "journal-title": "Med Clin North Am"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "20552076231207582",
+        "DOI": "10.1177/20552076231207582",
+        "article-title": "Refined image quality assessment for color fundus photography based on deep learning",
+        "volume": "10",
+        "author": "Guo",
+        "year": "2024",
+        "journal-title": "Digit Health"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1405",
+        "DOI": "10.1109/JBHI.2019.2949075",
+        "article-title": "Clinical interpretable deep learning model for glaucoma diagnosis",
+        "volume": "24",
+        "author": "Liao",
+        "year": "2020",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "B7",
+        "first-page": "3483",
+        "article-title": "An interpretable deep learning framework for enhanced clinical assessment of age-related macular degeneration",
+        "volume": "66",
+        "author": "Tudela",
+        "year": "2025",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.14311/AP.2024.64.0001",
+        "article-title": "The classification of eye diseases from fundus images based on CNN and pretrained models",
+        "volume": "64",
+        "author": "Benbakreti",
+        "year": "2024",
+        "journal-title": "Acta Polytech"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "100140",
+        "DOI": "10.1016/j.health.2023.100140",
+        "article-title": "A deep neural network and machine learning approach for retinal fundus image classification",
+        "volume": "3",
+        "author": "Thanki",
+        "year": "2023",
+        "journal-title": "Healthc Anal"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "551",
+        "DOI": "10.3390/e24040551",
+        "article-title": "Survey on self-supervised learning: auxiliary pretext tasks and contrastive learning methods in imaging",
+        "volume": "24",
+        "author": "Albelwi",
+        "year": "2022",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "B11",
+        "first-page": "7794",
+        "article-title": "Non-local neural networks",
+        "author": "Wang",
+        "year": "2018"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "4792",
+        "DOI": "10.1109/TPAMI.2025.3646452",
+        "article-title": "The CUR decomposition of self-attention matrices in vision transformers",
+        "volume": "48",
+        "author": "Wu",
+        "year": "2025",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "B13",
+        "first-page": "4484",
+        "article-title": "Mambaout: do we really need mamba for vision?",
+        "author": "Yu",
+        "year": "2025"
+      },
+      {
+        "key": "B14",
+        "first-page": "1597",
+        "article-title": "A simple framework for contrastive learning of visual representations",
+        "author": "Chen",
+        "year": "2020"
+      },
+      {
+        "key": "B15",
+        "first-page": "6105",
+        "article-title": "Efficientnet: rethinking model scaling for convolutional neural networks",
+        "author": "Tan",
+        "year": "2019"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "129",
+        "DOI": "10.1007/s10462-025-11123-y",
+        "article-title": "Dmixnet: a dendritic multi-layered perceptron architecture for image recognition",
+        "volume": "58",
+        "author": "Xu",
+        "year": "2025",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "79793",
+        "DOI": "10.1109/ACCESS.2025.3566073",
+        "article-title": "EffNet-SVM: a hybrid model for diabetic retinopathy classification using retinal fundus images",
+        "volume": "13",
+        "author": "Naveen",
+        "year": "2025",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "185757",
+        "DOI": "10.1109/ACCESS.2024.3506714",
+        "article-title": "MSAmix-net: diabetic retinopathy classification",
+        "volume": "12",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1175881",
+        "DOI": "10.3389/fphys.2023.1175881",
+        "article-title": "Multi-stage glaucoma classification using pre-trained convolutional neural networks and voting-based classifier fusion",
+        "volume": "14",
+        "author": "Velpula",
+        "year": "2023",
+        "journal-title": "Front Physiol"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "2434",
+        "DOI": "10.1038/s41598-024-52131-2",
+        "article-title": "A concentrated machine learning-based classification system for age-related macular degeneration (AMD) diagnosis using fundus images",
+        "volume": "14",
+        "author": "Abd El-Khalek",
+        "year": "2024",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1771083",
+        "DOI": "10.3389/fmed.2026.1771083",
+        "article-title": "Robust benchmarking of DeepLabv3 hybrid models for multiclass fundus screening and referable-disease triage on the FIVES dataset",
+        "volume": "13",
+        "author": "Garcia-Atutxa",
+        "year": "2026",
+        "journal-title": "Front Med (Lausanne)"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "103365",
+        "DOI": "10.1016/j.media.2024.103365",
+        "article-title": "RFMiD: retinal image analysis for multi-disease detection challenge",
+        "volume": "99",
+        "author": "Pachade",
+        "year": "2025",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1630667",
+        "DOI": "10.3389/fcell.2025.1630667",
+        "article-title": "Deep learning-based classification of multiple fundus diseases using ultra-widefield images",
+        "volume": "13",
+        "author": "Duan",
+        "year": "2025",
+        "journal-title": "Front Cell Dev Biol"
+      },
+      {
+        "key": "B24",
+        "first-page": "3458",
+        "article-title": "Big self-supervised models advance medical image classification",
+        "author": "Azizi",
+        "year": "2021"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "224",
+        "DOI": "10.1109/JIOT.2024.3463185",
+        "article-title": "Diagnosis of multiple fundus disorders amidst a scarcity of medical experts via self-supervised machine learning",
+        "volume": "12",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "IEEE Internet Things J"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "59",
+        "DOI": "10.1007/s42979-021-00945-6",
+        "article-title": "Classification of multiple retinal disorders from enhanced fundus images using semi-supervised GAN",
+        "volume": "3",
+        "author": "Smitha",
+        "year": "2022",
+        "journal-title": "SN Comput Sci"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "104412",
+        "DOI": "10.1016/j.bspc.2022.104412",
+        "article-title": "Multi-point attention-based semi-supervised learning for diabetic retinopathy classification",
+        "volume": "80",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "102494",
+        "DOI": "10.1016/j.compmedimag.2025.102494",
+        "article-title": "Efficient diagnosis of retinal disorders using dual-branch semi-supervised learning (DB-SSL): an enhanced multi-class classification approach",
+        "volume": "121",
+        "author": "Malik",
+        "year": "2025",
+        "journal-title": "Comput Med Imaging Graph"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.1007/s10916-024-02105-8",
+        "article-title": "Comparison of vision transformers and convolutional neural networks in medical image analysis: a systematic review",
+        "volume": "48",
+        "author": "Takahashi",
+        "year": "2024",
+        "journal-title": "J Med Syst"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "e70334",
+        "DOI": "10.1002/ima.70334",
+        "article-title": "VKT: a hybrid vision KAN-transformer model for medical image classification",
+        "volume": "36",
+        "author": "He",
+        "year": "2026",
+        "journal-title": "Int J Imag Syst Technol"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "250",
+        "DOI": "10.1016/j.patrec.2024.10.008",
+        "article-title": "DBCvT: double branch convolutional transformer for medical image classification",
+        "volume": "186",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Pattern Recognit Lett"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "106621",
+        "DOI": "10.1016/j.bspc.2024.106621",
+        "article-title": "Cnn-trans model: a parallel dual-branch network for fundus image classification",
+        "volume": "96",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "8064",
+        "DOI": "10.1109/JBHI.2025.3626864",
+        "article-title": "ViResGF-Net: gated multi-scale hybrid vision transformer for robust fundus image multi-label classification",
+        "volume": "30",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "475",
+        "DOI": "10.1038/s41597-022-01564-3",
+        "article-title": "FIVES: a fundus image dataset for artificial intelligence based vessel segmentation",
+        "volume": "9",
+        "author": "Jin",
+        "year": "2022",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "14",
+        "DOI": "10.3390/data6020014",
+        "article-title": "Retinal fundus multi-disease image dataset (RFMiD): a dataset for multi-disease detection research",
+        "volume": "6",
+        "author": "Pachade",
+        "year": "2021",
+        "journal-title": "Data"
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.3390/data8020029",
+        "article-title": "Retinal fundus multi-disease image dataset (RFMiD) 2.0: a dataset of frequently and rarely identified diseases",
+        "volume": "8",
+        "author": "Panchal",
+        "year": "2023",
+        "journal-title": "Data"
+      },
+      {
+        "key": "B37",
+        "author": "Li",
+        "year": ""
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "243",
+        "DOI": "10.1111/cgf.13833",
+        "article-title": "Dual illumination estimation for robust exposure correction",
+        "volume": "38",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Comput Graph Forum"
+      },
+      {
+        "key": "B39",
+        "first-page": "7132",
+        "article-title": "Squeeze-and-excitation networks",
+        "author": "Hu",
+        "year": "2018"
+      },
+      {
+        "key": "B40",
+        "first-page": "2999",
+        "article-title": "Focal loss for dense object detection",
+        "author": "Lin",
+        "year": "2017"
+      },
+      {
+        "key": "B41",
+        "author": "Sun",
+        "year": ""
+      },
+      {
+        "key": "B42",
+        "first-page": "10012",
+        "article-title": "Swin transformer: hierarchical vision transformer using shifted windows",
+        "author": "Liu",
+        "year": "2021"
+      },
+      {
+        "key": "B43",
+        "first-page": "11976",
+        "article-title": "A convnet for the 2020s",
+        "author": "Liu",
+        "year": "2022"
+      },
+      {
+        "key": "B44",
+        "author": "Huo",
+        "year": ""
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "130064",
+        "DOI": "10.1016/j.eswa.2025.130064",
+        "article-title": "DSA mamba: a model for advanced medical image classification",
+        "volume": "299",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "Expert Syst Appl"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Medicine"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2026.1932626/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2026-10-12T13:40:42Z",
+      "timestamp": 1791812442000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2026.1932626/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "references-count": 45,
+    "alternative-id": [
+      "10.3389/fmed.2026.1932626"
+    ],
+    "URL": "https://doi.org/10.3389/fmed.2026.1932626",
+    "relation": {},
+    "ISSN": [
+      "2296-858X"
+    ],
+    "issn-type": [
+      {
+        "value": "2296-858X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "article-number": "1932626"
+  }
+}

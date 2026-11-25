@@ -1,0 +1,1212 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T21:20:41Z",
+      "timestamp": 1790716841598,
+      "version": "4.1.0"
+    },
+    "reference-count": 36,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2024-07-20T00:00:00Z",
+          "timestamp": 1721433600000
+        },
+        "content-version": "am",
+        "delay-in-days": 385,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01EY013178"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01EY013178"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01EY021818"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01EY021818"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U01EY033001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U01EY033001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001818",
+        "name": "Research to Prevent Blindness",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001818",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Glaucoma"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ogla.2023.01.007",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2023-01-30T22:00:59Z",
+      "timestamp": 1675116059000
+    },
+    "page": "432-438",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "The Definition of Glaucomatous Optic Neuropathy in Artificial Intelligence Research and Clinical Applications"
+    ],
+    "prefix": "10.1016",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3924-2720",
+        "authenticated-orcid": false,
+        "given": "Felipe A.",
+        "family": "Medeiros",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3852-805X",
+        "authenticated-orcid": false,
+        "given": "Terry",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5341-8353",
+        "authenticated-orcid": false,
+        "given": "Alessandro A.",
+        "family": "Jammal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lama A.",
+        "family": "Al-Aswad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Malvina B.",
+        "family": "Eydelman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8885-3766",
+        "authenticated-orcid": false,
+        "given": "Joel S.",
+        "family": "Schuman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Abramoff",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark",
+        "family": "Blumenkranz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emily",
+        "family": "Chew",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Chiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Malvina",
+        "family": "Eydelman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Myung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel S.",
+        "family": "Schuman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carol",
+        "family": "Shields",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Abramoff",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lama",
+        "family": "Al-Aswad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bhavna J.",
+        "family": "Antony",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tin",
+        "family": "Aung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Boland",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tom",
+        "family": "Brunner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert T.",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Balwantray",
+        "family": "Chauhan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Chiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. Hunter",
+        "family": "Cherwek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Garway-Heath",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adrienne",
+        "family": "Graves",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey L.",
+        "family": "Goldberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Minguang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naama",
+        "family": "Hammel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald",
+        "family": "Hood",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hiroshi",
+        "family": "Ishikawa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris",
+        "family": "Leung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felipe",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Louis R.",
+        "family": "Pasquale",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harry A.",
+        "family": "Quigley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Calvin W.",
+        "family": "Roberts",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan L.",
+        "family": "Robin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel S.",
+        "family": "Schuman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elena",
+        "family": "Sturman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Remo",
+        "family": "Susanna",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jayme",
+        "family": "Vianna",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linda",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1541",
+        "DOI": "10.1016/j.ophtha.2013.01.043",
+        "article-title": "Prevalence and severity of undetected manifest glaucoma: results from the early manifest glaucoma trial screening",
+        "volume": "120",
+        "author": "Heijl",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1111/opo.12187",
+        "article-title": "Disease severity in newly diagnosed glaucoma patients with visual field loss: trends from more than a decade of data",
+        "volume": "35",
+        "author": "Boodhna",
+        "year": "2015",
+        "journal-title": "Ophthalmic Physiol Opt"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib5",
+        "series-title": "Deep Learning with Python",
+        "first-page": "361",
+        "author": "Chollet",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "3684",
+        "DOI": "10.1167/iovs.04-1168",
+        "article-title": "Unsupervised machine learning with independent component analysis to identify areas of progression in glaucomatous visual fields",
+        "volume": "46",
+        "author": "Sample",
+        "year": "2005",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "190",
+        "DOI": "10.1001/jamaophthalmol.2019.5413",
+        "article-title": "Characterization of central visual field loss in end-stage glaucoma by unsupervised artificial intelligence",
+        "volume": "138",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ogla.2023.01.007_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1167/tvst.5.3.2",
+        "article-title": "Unsupervised Gaussian mixture-model with expectation maximization for detecting glaucomatous progression in standard automated perimetry visual fields",
+        "volume": "5",
+        "author": "Yousefi",
+        "year": "2016",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "3676",
+        "DOI": "10.1167/iovs.04-1167",
+        "article-title": "Using unsupervised learning with independent component analysis to identify patterns of glaucomatous visual field defects",
+        "volume": "46",
+        "author": "Goldbaum",
+        "year": "2005",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "626",
+        "DOI": "10.1097/IJG.0000000000002059",
+        "article-title": "An objective and easy-to-use glaucoma functional severity staging system based on artificial intelligence",
+        "volume": "31",
+        "author": "Huang",
+        "year": "2022",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1104",
+        "DOI": "10.1109/JBHI.2019.2934477",
+        "article-title": "Direct cup-to-disc ratio estimation for glaucoma screening via semi-supervised learning",
+        "volume": "24",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "article-title": "Using deep learning and transfer learning to accurately diagnose early-onset glaucoma from macular optical coherence tomography images",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "article-title": "From machine to machine: an OCT-trained deep learning algorithm for objective quantification of glaucomatous damage in fundus photographs",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "333",
+        "DOI": "10.1001/jamaophthalmol.2019.5983",
+        "article-title": "Assessment of a segmentation-free deep learning algorithm for diagnosing glaucoma from optical coherence tomography scans",
+        "volume": "138",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1016/j.ajo.2019.01.011",
+        "article-title": "A deep learning algorithm to quantify neuroretinal rim loss from optic disc photographs",
+        "volume": "201",
+        "author": "Thompson",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development and validation of a deep learning system to detect glaucomatous optic neuropathy using fundus photographs",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0207982",
+        "article-title": "A deep learning model for the detection of both advanced and early glaucoma using fundus photography",
+        "volume": "13",
+        "author": "Ahn",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "851",
+        "DOI": "10.1007/s00417-020-04609-8",
+        "article-title": "Deep learning-based automated detection of glaucomatous optic neuropathy on color fundus photographs",
+        "volume": "258",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Graefes Arch Clin Exp Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs",
+        "volume": "126",
+        "author": "Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1001/jamaophthalmol.2014.4652",
+        "article-title": "Diabetes eye screening in urban settings serving minority populations: detection of diabetic retinopathy and other ocular findings using telemedicine",
+        "volume": "133",
+        "author": "Owsley",
+        "year": "2015",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2017.07.010",
+        "article-title": "Glaucoma screening in Nepal: cup-to-disc estimate with standard mydriatic fundus camera compared to portable nonmydriatic camera",
+        "volume": "182",
+        "author": "Miller",
+        "year": "2017",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/S0161-6420(92)31990-6",
+        "article-title": "Expert agreement in evaluating the optic disc for glaucoma",
+        "volume": "99",
+        "author": "Varma",
+        "year": "1992",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1662",
+        "DOI": "10.1016/S0161-6420(94)31118-3",
+        "article-title": "Agreement among optometrists, ophthalmologists, and residents in evaluating the optic disc for glaucoma",
+        "volume": "101",
+        "author": "Abrams",
+        "year": "1994",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "article-title": "Agreement among glaucoma specialists in assessing progressive disc changes from photographs in open-angle glaucoma patients",
+        "volume": "147",
+        "author": "Jampel",
+        "year": "2009",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "936",
+        "DOI": "10.1016/j.ajo.2014.01.024",
+        "article-title": "Glaucomatous optic neuropathy evaluation (GONE) project: the effect of monoscopic versus stereoscopic viewing conditions on optic nerve evaluation",
+        "volume": "157",
+        "author": "Chan",
+        "year": "2014",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1097/ICU.0000000000000644",
+        "article-title": "Toward a new definition of glaucomatous optic neuropathy for clinical research",
+        "volume": "31",
+        "author": "Iyer",
+        "year": "2020",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "789",
+        "DOI": "10.1136/bjophthalmol-2020-316237",
+        "article-title": "Defining glaucomatous optic neuropathy using objective criteria from structural and functional testing",
+        "volume": "105",
+        "author": "Iyer",
+        "year": "2021",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1752",
+        "DOI": "10.1038/s41598-021-80993-3",
+        "article-title": "An objective structural and functional reference standard in glaucoma",
+        "volume": "11",
+        "author": "Mariottoni",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "4241",
+        "DOI": "10.1167/iovs.19-27920",
+        "article-title": "Structure-function agreement is better than commonly thought in eyes with early glaucoma",
+        "volume": "60",
+        "author": "Hood",
+        "year": "2019",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.preteyeres.2022.101052",
+        "article-title": "Detecting glaucoma with only OCT: implications for the clinic, research, screening, and AI development",
+        "volume": "90",
+        "author": "Hood",
+        "year": "2022",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1016/j.ajo.2019.11.006",
+        "article-title": "Human versus machine: comparing a deep learning algorithm to human gradings for detecting glaucoma on fundus photographs",
+        "volume": "211",
+        "author": "Jammal",
+        "year": "2020",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/j.ophtha.2020.07.045",
+        "article-title": "Detection of progressive glaucomatous optic nerve damage on fundus photographs with deep learning",
+        "volume": "128",
+        "author": "Medeiros",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ogla.2023.01.007_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1016/j.ajo.2020.12.031",
+        "article-title": "Predicting glaucoma development with longitudinal deep learning predictions from fundus photographs",
+        "volume": "225",
+        "author": "Lee",
+        "year": "2021",
+        "journal-title": "Am J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Glaucoma"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589419623000339?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589419623000339?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2026-05-16T03:53:06Z",
+      "timestamp": 1778903586000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2589419623000339"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2589419623000339"
+    ],
+    "URL": "https://doi.org/10.1016/j.ogla.2023.01.007",
+    "relation": {},
+    "ISSN": [
+      "2589-4196"
+    ],
+    "issn-type": [
+      {
+        "value": "2589-4196",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "The Definition of Glaucomatous Optic Neuropathy in Artificial Intelligence Research and Clinical Applications",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Glaucoma",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ogla.2023.01.007",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 by the American Academy of Ophthalmology",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

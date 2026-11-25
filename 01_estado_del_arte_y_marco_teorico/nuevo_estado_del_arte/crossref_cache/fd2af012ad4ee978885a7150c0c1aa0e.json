@@ -1,0 +1,658 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2026-09-03T01:28:39Z",
+      "timestamp": 1788398919884,
+      "version": "build-2803163510"
+    },
+    "reference-count": 53,
+    "publisher": "MDPI AG",
+    "issue": "22",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2022-11-12T00:00:00Z",
+          "timestamp": 1668211200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Natural Science Foundation of China",
+        "award": [
+          "81660031"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "81660031"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "National Natural Science Foundation of China",
+        "award": [
+          "Guike AD22035127"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Guike AD22035127"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guangxi Science and Technology Base and Talent Special Project",
+        "award": [
+          "81660031"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "81660031"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guangxi Science and Technology Base and Talent Special Project",
+        "award": [
+          "Guike AD22035127"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Guike AD22035127"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sensors"
+    ],
+    "abstract": "<jats:p>Currently, glaucoma has become an important cause of blindness. At present, although glaucoma cannot be cured, early treatment can prevent it from getting worse. A reliable way to detect glaucoma is to segment the optic disc and cup and then measure the cup-to-disc ratio (CDR). Many deep neural network models have been developed to autonomously segment the optic disc and the optic cup to help in diagnosis. However, their performance degrades when subjected to domain shift. While many domain-adaptation methods have been exploited to address this problem, they are apt to produce malformed segmentation results. In this study, it is suggested that the segmentation network be adjusted using a constrained formulation that embeds prior knowledge about the shape of the segmentation areas that is domain-invariant. Based on IOSUDA (i.e., Input and Output Space Unsupervised Domain Adaptation), a novel unsupervised joint optic cup-to-disc segmentation framework with shape constraints is proposed, called SCUDA (short for Shape-Constrained Unsupervised Domain Adaptation). A shape constrained loss function is novelly proposed in this paper which utilizes domain-invariant prior knowledge concerning the segmentation region of the joint optic cup–optical disc of fundus images to constrain the segmentation result during network training. In addition, a convolutional triple attention module is designed to improve the segmentation network, which captures cross-dimensional interactions and provides a rich feature representation to improve the segmentation accuracy. Experiments on the RIM-ONE_r3 and Drishti-GS datasets demonstrate that the algorithm outperforms existing approaches for segmenting optic discs and cups.</jats:p>",
+    "DOI": "10.3390/s22228748",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2022-11-14T04:30:52Z",
+      "timestamp": 1668400252000
+    },
+    "page": "8748",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Unsupervised Domain Adaptation with Shape Constraint and Triple Attention for Joint Optic Disc and Cup Segmentation"
+    ],
+    "prefix": "10.3390",
+    "volume": "22",
+    "author": [
+      {
+        "given": "Fengming",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Guangxi Key Laboratory of Embedded Technology and Intelligent Information Processing, College of Information Science and Engineering, Guilin University of Technology, Guilin 541006, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuiwang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Key Laboratory of Embedded Technology and Intelligent Information Processing, College of Information Science and Engineering, Guilin University of Technology, Guilin 541006, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianzhi",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Key Laboratory of Embedded Technology and Intelligent Information Processing, College of Information Science and Engineering, Guilin University of Technology, Guilin 541006, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: A systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "article-title": "Optic disc and cup segmentation methods for glaucoma detection with modification of U-Net convolutional neural network",
+        "volume": "27",
+        "author": "Sevastopolsky",
+        "year": "2017",
+        "journal-title": "Pattern Recognit. Image Anal."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dou, Q., Ouyang, C., Chen, C., Chen, H., and Heng, P.A. (2018). Unsupervised cross-modality domain adaptation of convnets for biomedical image segmentations with adversarial loss. arXiv.",
+        "DOI": "10.24963/ijcai.2018/96"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kamnitsas, K., Baumgartner, C., Ledig, C., Newcombe, V., Simpson, J., Kane, A., Menon, D., Nori, A., Criminisi, A., and Rueckert, D. (2017). Unsupervised domain adaptation in brain lesion segmentation with adversarial networks. International Conference on Information Processing in Medical Imaging, Springer.",
+        "DOI": "10.1007/978-3-319-59050-9_47"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsai, Y.H., Hung, W.C., Schulter, S., Sohn, K., Yang, M.H., and Chandraker, M. (2018, January 18–22). Learning to adapt structured output space for semantic segmentation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA.",
+        "DOI": "10.1109/CVPR.2018.00780"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "3880",
+        "DOI": "10.1007/s10489-020-01956-1",
+        "article-title": "IOSUDA: An unsupervised domain adaptation with input and output space alignment for joint optic disc and cup segmentation",
+        "volume": "51",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Appl. Intell."
+      },
+      {
+        "key": "ref_8",
+        "unstructured": "Yao, Y., Liu, F., Zhou, Z., Wang, Y., Shen, W., Yuille, A., and Lu, Y. (2022). Unsupervised Domain Adaptation through Shape Modeling for Medical Image Segmentation. arXiv."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger, O., Fischer, P., and Brox, T. (2015). U-net: Convolutional networks for biomedical image segmentation. International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "106668",
+        "DOI": "10.1016/j.knosys.2020.106668",
+        "article-title": "TAU: Transferable Attention U-Net for optic disc and cup segmentation",
+        "volume": "213",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1007/s11760-020-01815-z",
+        "article-title": "Application of an attention u-net incorporating transfer learning for optic disc and cup segmentation",
+        "volume": "15",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "Signal Image Video Process."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, J., Shen, L., and Sun, G. (2018, January 18–22). Squeeze-and-excitation networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA.",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woo, S., Park, J., Lee, J.Y., and Kweon, I.S. (2018, January 8–14). Cbam: Convolutional block attention module. Proceedings of the European Conference on Computer Vision (ECCV), Munich, Germany.",
+        "DOI": "10.1007/978-3-030-01234-2_1"
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Park, J., Woo, S., Lee, J.Y., and Kweon, I.S. (2018). Bam: Bottleneck attention module. arXiv."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Misra, D., Nalamada, T., Arasanipalai, A.U., and Hou, Q. (2021, January 3–8). Rotate to attend: Convolutional triplet attention module. Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, Waikoloa, HI, USA.",
+        "DOI": "10.1109/WACV48630.2021.00318"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isola, P., Zhu, J.Y., Zhou, T., and Efros, A.A. (2017, January 21–26). Image-to-image translation with conditional adversarial networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Honolulu, HI, USA.",
+        "DOI": "10.1109/CVPR.2017.632"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3158369",
+        "article-title": "Recent advances in transfer learning for cross-dataset visual recognition: A problem-oriented perspective",
+        "volume": "52",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "ACM Comput. Surv. (CSUR)"
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "Bousmalis, K., Trigeorgis, G., Silberman, N., Krishnan, D., and Erhan, D. (2016). Domain separation networks. arXiv."
+      },
+      {
+        "key": "ref_19",
+        "unstructured": "French, G., Mackiewicz, M., and Fisher, M. (2017). Self-ensembling for visual domain adaptation. arXiv."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bousmalis, K., Silberman, N., Dohan, D., Erhan, D., and Krishnan, D. (2017, January 21–26). Unsupervised pixel-level domain adaptation with generative adversarial networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Honolulu, HI, USA.",
+        "DOI": "10.1109/CVPR.2017.18"
+      },
+      {
+        "key": "ref_21",
+        "unstructured": "Hoffman, J., Tzeng, E., Park, T., Zhu, J., Isola, P., Saenko, K., Efros, A.A., and Darrell, T. (2022, November 08). Cycada: Cycle-Consistent Adversarial Domain Adaptation. Available online: https://proceedings.mlr.press/v80/hoffman18a.html."
+      },
+      {
+        "key": "ref_22",
+        "unstructured": "Long, M., and Wang, J. (2022, November 08). Learning Transferable Features with Deep Adaptation Networks. Available online: https://proceedings.mlr.press/v37/long15."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, C., Dou, Q., Chen, H., and Heng, P.A. (2018). Semantic-aware generative adversarial nets for unsupervised domain adaptation in chest x-ray segmentation. International Workshop on Machine Learning in Medical Imaging, Springer.",
+        "DOI": "10.1007/978-3-030-00919-9_17"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1016",
+        "DOI": "10.1109/TMI.2018.2876633",
+        "article-title": "Synseg-net: Synthetic segmentation without target modality ground truth",
+        "volume": "38",
+        "author": "Huo",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "107173",
+        "DOI": "10.1016/j.patcog.2019.107173",
+        "article-title": "Unsupervised domain adaptive re-identification: Theory and practice",
+        "volume": "102",
+        "author": "Song",
+        "year": "2020",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2494",
+        "DOI": "10.1109/TMI.2020.2972701",
+        "article-title": "Unsupervised bidirectional cross-modality adaptation via deeply synergistic image and feature alignment for medical image segmentation",
+        "volume": "39",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1019",
+        "DOI": "10.1109/TMI.2013.2247770",
+        "article-title": "Superpixel classification based optic disc and optic cup segmentation for glaucoma screening",
+        "volume": "32",
+        "author": "Cheng",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1109/TMI.2011.2106509",
+        "article-title": "Optic Disk and Cup Segmentation From Monocular Color Retinal Images for Glaucoma Assessment",
+        "volume": "30",
+        "author": "Joshi",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mori, K., Sakuma, I., Sato, Y., Barillot, C., and Navab, N. (2013). Optic Disc and Cup Segmentation from Color Fundus Photograph Using Graph Cut with Priors. Medical Image Computing and Computer-Assisted Intervention—MICCAI 2013, Springer.",
+        "DOI": "10.1007/978-3-642-40763-5"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lupascu, C.A., Tegolo, D., and Rosa, L.D. (2008, January 17–19). Automated detection of optic disc location in retinal images. Proceedings of the 2008 21st IEEE International Symposium on Computer-Based Medical Systems, Jyvaskyla, Finland.",
+        "DOI": "10.1109/CBMS.2008.15"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1109/TMI.2007.900326",
+        "article-title": "Optic disc detection from normalized digital fundus images by means of a vessels’ direction matched filter",
+        "volume": "27",
+        "author": "Youssif",
+        "year": "2007",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zilly, J.G., Buhmann, J.M., and Mahapatra, D. (2015). Boosting convolutional filters with entropy sampling for optic cup and disc image segmentation from fundus images. International Workshop on Machine Learning in Medical Imaging, Springer.",
+        "DOI": "10.17077/omia.1039"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "article-title": "Disc-aware ensemble network for glaucoma screening from fundus image",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J., Zhang, F., Li, S., and Bao, J. (2022, January 22–24). Towards Semi-Supervised Segmentation of Retinal Fundus Images via Self-Training. Proceedings of the 2022 3rd International Conference on Pattern Recognition and Machine Learning (PRML), Chengdu, China.",
+        "DOI": "10.1109/PRML56267.2022.9882204"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "103485",
+        "DOI": "10.1016/j.compbiomed.2019.103485",
+        "article-title": "Joint optic disc and cup segmentation using semi-supervised conditional GANs",
+        "volume": "115",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, P., Kong, B., Li, Z., Zhang, S., and Fang, R. (2019). CFEA: Collaborative feature ensembling adaptation for domain adaptation in unsupervised optic disc and cup segmentation. International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer.",
+        "DOI": "10.1007/978-3-030-32254-0_58"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, S., Yu, L., Li, K., Yang, X., Fu, C.W., and Heng, P.A. (2019). Boundary and entropy-driven adversarial learning for fundus image segmentation. International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer.",
+        "DOI": "10.1007/978-3-030-32239-7_12"
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Chen, Y., Kalantidis, Y., Li, J., Yan, S., and Feng, J. (2018). A2-nets: Double attention networks. arXiv."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao, Z., Xie, J., Wang, Q., and Li, P. (2019, January 15–20). Global second-order pooling convolutional networks. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA.",
+        "DOI": "10.1109/CVPR.2019.00314"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao, Y., Xu, J., Lin, S., Wei, F., and Hu, H. (2019, January 27–28). Gcnet: Non-local networks meet squeeze-excitation networks and beyond. Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, Seoul, Korea.",
+        "DOI": "10.1109/ICCVW.2019.00246"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, Z., Wang, X., Huang, L., Huang, C., Wei, Y., and Liu, W. (2019, January 27–28). Ccnet: Criss-cross attention for semantic segmentation. Proceedings of the IEEE/CVF International Conference on Computer Vision, Seoul, Korea.",
+        "DOI": "10.1109/ICCV.2019.00069"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hou, Q., Zhang, L., Cheng, M.M., and Feng, J. (2020, January 14–19). Strip pooling: Rethinking spatial pooling for scene parsing. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA.",
+        "DOI": "10.1109/CVPR42600.2020.00406"
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "Xiao, T., Xu, Y., Yang, K., Zhang, J., Peng, Y., and Zhang, Z. (2015, January 7–12). The application of two-level attention models in deep convolutional neural network for fine-grained image classification. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Boston, MA, USA."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tong, X., Wei, J., Sun, B., Su, S., Zuo, Z., and Wu, P. (2021). ASCU-Net: Attention Gate, Spatial and Channel Attention U-Net for Skin Lesion Segmentation. Diagnostics, 11.",
+        "DOI": "10.3390/diagnostics11030501"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.cag.2020.05.003",
+        "article-title": "ANU-Net: Attention-based nested U-Net to exploit full resolution features for medical image segmentation",
+        "volume": "90",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Comput. Graph."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Lv, X., Zhang, H., and Liu, B. (2020). AResU-Net: Attention Residual U-Net for Brain Tumor Segmentation. Symmetry, 12.",
+        "DOI": "10.3390/sym12050721"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lian, C., Cao, X., Rekik, I., Xu, X., and Yan, P. (2021). U-net transformer: Self and cross attention for medical image segmentation. Machine Learning in Medical Imaging, Springer International Publishing.",
+        "DOI": "10.1007/978-3-030-87589-3_72"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "29299",
+        "DOI": "10.1109/ACCESS.2020.2972318",
+        "article-title": "Improving the Performance of Convolutional Neural Network for the Segmentation of Optic Disc in Fundus Images Using Attention Gates and Conditional Random Fields",
+        "volume": "8",
+        "author": "Bhatkalkar",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero, F., Alayon, S., Sanchez, J.L., Sigut, J., and Gonzalez-Hernandez, M. (2011, January 27–30). RIM-ONE: An open retinal image database for optic nerve evaluation. Proceedings of the 2011 24th International Symposium on Computer-Based Medical Systems (CBMS), Bristol, UK.",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "Refuge challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, J.Y., Park, T., Isola, P., and Efros, A.A. (2017, January 22–29). Unpaired image-to-image translation using cycle-consistent adversarial networks. Proceedings of the IEEE International Conference on Computer Vision, Venice, Italy.",
+        "DOI": "10.1109/ICCV.2017.244"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "130552",
+        "DOI": "10.1109/ACCESS.2019.2940418",
+        "article-title": "FCA-Net: Adversarial learning for skin lesion segmentation based on multi-scale features and factorized channel attention",
+        "volume": "7",
+        "author": "Singh",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_53",
+        "unstructured": "Singh, V.K., Rashwan, H.A., Akram, F., Pandey, N., Sarker, M.M.K., Saleh, A., Abdulwahab, S., Maaroof, N., Romani, S., and Puig, D. (2018). Retinal optic disc segmentation using conditional generative adversarial network. arXiv."
+      }
+    ],
+    "container-title": [
+      "Sensors"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1424-8220/22/22/8748/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T01:17:00Z",
+      "timestamp": 1760145420000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1424-8220/22/22/8748"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          12
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "22",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "s22228748"
+    ],
+    "URL": "https://doi.org/10.3390/s22228748",
+    "relation": {},
+    "ISSN": [
+      "1424-8220"
+    ],
+    "issn-type": [
+      {
+        "value": "1424-8220",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          12
+        ]
+      ]
+    }
+  }
+}

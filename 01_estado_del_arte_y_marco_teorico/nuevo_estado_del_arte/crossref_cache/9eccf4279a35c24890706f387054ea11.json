@@ -1,0 +1,376 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T18:54:50Z",
+      "timestamp": 1791399290236,
+      "version": "4.3.3"
+    },
+    "reference-count": 0,
+    "publisher": "Machine Learning for Biomedical Imaging",
+    "issue": "MICCAI Open Data 2026",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Melba"
+    ],
+    "abstract": "<jats:p>Retinal image quality assessment (RIQA) is a critical step in ophthalmic screening workflows, as low-quality fundus images can compromise both clinical diagnosis and the performance of automated artificial intelligence systems. Although several public datasets have been proposed for RIQA research, most were acquired using conventional tabletop fundus cameras, while datasets collected with portable devices remain scarce. This paper presents M-FIQ, a novel public dataset for retinal image quality assessment in portable fundus imaging. The dataset comprises 7,971 fundus photographs collected from 304 patients using the portable Eyer2 fundus camera in a community-based screening program in Brazil. M-FIQ includes both color (2,656) and red-free (5,315) fundus images, each annotated according to three quality levels: Good, Usable, and Reject. In addition, images labeled as Usable or Reject are further annotated with the specific degradation factors responsible for quality impairment, including low sharpness, underexposure, overexposure, incomplete field of view, peripheral shadowing, and motion artifacts. To facilitate reproducible research, we provide patient-level train/test splits and establish a benchmark using four deep learning architectures: DenseNet121, EfficientNet-B0, ResNet50, and ViT-B16. Experimental results demonstrate the suitability of the dataset for RIQA tasks, with ViT-B16 achieving the highest F1-score on the color fundus image test set (78.44%), whereas ResNet50 achieved the highest F1-score on the red-free fundus image test set (74.10%). By addressing the lack of publicly available RIQA datasets acquired with portable fundus cameras, M-FIQ aims to support the development and evaluation of robust image quality assessment methods for ophthalmic screening and teleophthalmology applications. The dataset is publicly available at &lt;a href='https://www.synapse.org/Synapse:syn75868226'&gt;https://www.synapse.org/Synapse:syn75868226&lt;/a&gt;.</jats:p>",
+    "DOI": "10.59275/j.melba.2026-b2dg",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T18:29:28Z",
+      "timestamp": 1791397768000
+    },
+    "page": "892-902",
+    "update-policy": "https://doi.org/10.59275/j.melba.g9ed",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "M-FIQ: Mobile Fundus Image Quality Assessment Dataset for Teleophthalmology Screening"
+    ],
+    "prefix": "10.59275",
+    "volume": "2026",
+    "author": [
+      {
+        "given": "João M. M.",
+        "family": "Moreira",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          },
+          {
+            "name": "Postgraduate Program in Computer Science (PPGCC), Federal University of Maranhão,P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "João D. S.",
+        "family": "Almeida",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9357-2427",
+        "authenticated-orcid": true,
+        "given": "Elaine P. F.",
+        "family": "Costa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine Coordination, Federal University of Maranhão,P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-8213-8470",
+        "authenticated-orcid": true,
+        "given": "Jhones S.",
+        "family": "Soares",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-2882-7628",
+        "authenticated-orcid": true,
+        "given": "Luı́s F. R.",
+        "family": "Pereira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          },
+          {
+            "name": "Postgraduate Program in Computer Science (PPGCC), Federal University of Maranhão,P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-1762-038X",
+        "authenticated-orcid": true,
+        "given": "Emily G. C.",
+        "family": "Ribeiro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-0946-3131",
+        "authenticated-orcid": true,
+        "given": "Amanda S.",
+        "family": "Almeida",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-6071-5740",
+        "authenticated-orcid": true,
+        "given": "Iaze G. S. C.",
+        "family": "Santos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0423-2514",
+        "authenticated-orcid": true,
+        "given": "Aristófanes C.",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8134-4873",
+        "authenticated-orcid": true,
+        "given": "Darlan B. P.",
+        "family": "Quintanilha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4921-0626",
+        "authenticated-orcid": true,
+        "given": "Anselmo C.",
+        "family": "Paiva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3731-6431",
+        "authenticated-orcid": true,
+        "given": "Geraldo B.",
+        "family": "Junior",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Computing Group (NCA), Federal University of Maranhão, P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8924-1203",
+        "authenticated-orcid": true,
+        "given": "Marcos A. G.",
+        "family": "Campos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine Coordination, Federal University of Maranhão,P.O. Box 65.080-805, São Luı́s, MA, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "38473",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          21
+        ]
+      ]
+    },
+    "container-title": [
+      "Machine Learning for Biomedical Imaging"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://melba-journal.org/pdf/2026:051.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T18:29:28Z",
+      "timestamp": 1791397768000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://melba-journal.org/2026:051"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          21
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "MICCAI Open Data 2026",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.59275/j.melba.2026-b2dg",
+    "relation": {},
+    "ISSN": [
+      "2766-905X"
+    ],
+    "issn-type": [
+      {
+        "value": "2766-905X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          21
+        ]
+      ]
+    },
+    "article-number": "2026:051"
+  }
+}

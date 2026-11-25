@@ -1,0 +1,966 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T01:49:02Z",
+      "timestamp": 1795484942490,
+      "version": "4.11.0"
+    },
+    "reference-count": 53,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100004242",
+        "name": "Princess Nourah Bint Abdulrahman University",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PNURSP2025R759"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PNURSP2025R759"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004242",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007928",
+        "name": "Ningbo Municipal Bureau of Science and Technology",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2024Y50"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024Y50"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007928",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Experimental Eye Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.exer.2025.110642",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2025-09-19T04:00:25Z",
+      "timestamp": 1758254425000
+    },
+    "page": "110642",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "special_numbering": "C",
+    "title": [
+      "OcuMDNet: A lightweight CNN for robust multi-disease retinal diagnosis with cross-dataset reliability"
+    ],
+    "prefix": "10.1016",
+    "volume": "261",
+    "author": [
+      {
+        "given": "Qianjie",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vijay",
+        "family": "Govindarajan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiyuan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Heding",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zaffar Ahmed",
+        "family": "Shaikh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amel",
+        "family": "Ksibi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lip Yee",
+        "family": "Por",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.exer.2025.110642_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "84785",
+        "DOI": "10.1109/ACCESS.2024.3415617",
+        "article-title": "Deep learning in automatic diabetic retinopathy detection and grading systems: a comprehensive survey and comparison of methods",
+        "volume": "12",
+        "author": "Abushawish",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.exer.2025.110642_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1395",
+        "DOI": "10.3390/diagnostics14131395",
+        "article-title": "Clinical applications and future directions of smartphone fundus imaging",
+        "volume": "14",
+        "author": "Ahn",
+        "year": "2024",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib3",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.artmed.2023.102616",
+        "article-title": "How does the model make predictions? A systematic literature review on the explainability power of machine learning in healthcare",
+        "volume": "143",
+        "author": "Allgaier",
+        "year": "2023",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "issue": "Suppl. 1",
+        "key": "10.1016/j.exer.2025.110642_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41433-020-0961-6",
+        "article-title": "Diabetic retinopathy and diabetic macular oedema pathways and management: UK Consensus Working Group",
+        "volume": "34",
+        "author": "Amoaku",
+        "year": "2020",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10916-018-1088-1",
+        "article-title": "Medical image analysis using convolutional neural networks: a review",
+        "volume": "42",
+        "author": "Anwar",
+        "year": "2018",
+        "journal-title": "J. Med. Syst."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib6",
+        "series-title": "2024 2nd International Conference on Artificial Intelligence and Machine Learning Applications Theme: Healthcare and Internet of Things (AIMLA)",
+        "first-page": "1",
+        "article-title": "Multi-disease diagnosis using medical images",
+        "author": "Aparnaa",
+        "year": "2024"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.exer.2025.110642_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.3390/tomography10020017",
+        "article-title": "Identifying diabetic retinopathy in the human eye: a hybrid approach based on a computer-aided diagnosis system combined with deep learning",
+        "volume": "10",
+        "author": "Atcı",
+        "year": "2024",
+        "journal-title": "Tomography"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib8",
+        "article-title": "A comparative analysis of K-nearest neighbor, genetic, support vector machine, decision tree, and long short term memory algorithms in machine learning",
+        "volume": "3",
+        "author": "Bansal",
+        "year": "2022",
+        "journal-title": "Decis. Ana. J."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.exer.2025.110642_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1002/aris.1440370106",
+        "article-title": "Visualizing knowledge domains",
+        "volume": "37",
+        "author": "Börner",
+        "year": "2003",
+        "journal-title": "Annu. Rev. Inf. Sci. Technol."
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.exer.2025.110642_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1900",
+        "DOI": "10.1001/jama.291.15.1900",
+        "article-title": "Age-related macular degeneration is the leading cause of blindness",
+        "volume": "291",
+        "author": "Bressler",
+        "year": "2004",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "S8",
+        "DOI": "10.1097/WNO.0000000000000289",
+        "article-title": "The morphological difference between glaucoma and other optic neuropathies",
+        "volume": "35",
+        "author": "Burgoyne",
+        "year": "2015",
+        "journal-title": "J. Neuro Ophthalmol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.exer.2025.110642_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1016/j.ajo.2013.04.016",
+        "article-title": "From clinical examination of the optic disc to clinical assessment of the optic nerve head: a paradigm change",
+        "volume": "156",
+        "author": "Chauhan",
+        "year": "2013",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib13",
+        "series-title": "2024 8th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
+        "first-page": "1",
+        "article-title": "Improving DR diagnosis accuracy with deep learning using adjudicated grading",
+        "author": "Dhavale",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib14",
+        "unstructured": "Eye-Pacs - Data Analysis doi: https://www.eyepacs.com/data-analysis."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.exer.2025.110642_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1016/j.ophtha.2012.10.036",
+        "article-title": "Clinical classification of age-related macular degeneration",
+        "volume": "120",
+        "author": "Ferris",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.exer.2025.110642_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "463",
+        "DOI": "10.1109/TSMCC.2011.2161285",
+        "article-title": "A review on ensembles for the class imbalance problem: bagging-, boosting-, and hybrid-based approaches",
+        "volume": "42",
+        "author": "Galar",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Sys Man Cybern. Part C (Appl. Rev.)"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib17",
+        "series-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "first-page": "9729",
+        "article-title": "Momentum contrast for unsupervised visual representation learning",
+        "author": "He",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2024.107328",
+        "article-title": "An explainable deep-learning model reveals clinical clues in diabetic retinopathy through SHAP",
+        "volume": "102",
+        "author": "Herrero-Tudela",
+        "year": "2025",
+        "journal-title": "Biomed. Signal Process Control"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib19",
+        "series-title": "International Conference on Technologies and Applications of Artificial Intelligence",
+        "first-page": "16",
+        "article-title": "Artificial intelligence model interpreting tools: SHAP, LIME, and anchor implementation in CNN model for hand gestures recognition",
+        "author": "Hsu",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2022.106060",
+        "article-title": "Human activity recognition using tools of convolutional neural networks: a state of the art review, data sets, challenges, and future prospects",
+        "volume": "149",
+        "author": "Islam",
+        "year": "2022",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib21",
+        "unstructured": "A. Jain. Glaucoma Fundus Imaging Datasets, doi: https://www.kaggle.com/datasets/arnavjain1/glaucoma-datasets."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.exer.2025.110642_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "DOI": "10.54153/sjpas.2024.v6i3.881",
+        "article-title": "Multi-class of retinal diseases classification via deep learning techniques based on fundus images",
+        "volume": "6",
+        "author": "Khalaf",
+        "year": "2024",
+        "journal-title": "Samarra J. Pure Applied Sci."
+      },
+      {
+        "issue": "23",
+        "key": "10.1016/j.exer.2025.110642_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2679",
+        "DOI": "10.3390/diagnostics14232679",
+        "article-title": "CAD-EYE: an automated system for multi-eye disease classification using feature fusion with deep learning models and fluorescence imaging for enhanced interpretability",
+        "volume": "14",
+        "author": "Khalid",
+        "year": "2024",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.preteyeres.2016.04.008",
+        "article-title": "Differentiating drusen: drusen and drusen-like appearances associated with ageing, age-related macular degeneration, inherited eye disease and other pathological processes",
+        "volume": "53",
+        "author": "Khan",
+        "year": "2016",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib25",
+        "series-title": "Recent Advances in Molecular and Translational Medicine: Updates in Precision Medicine",
+        "first-page": "43",
+        "article-title": "Artificial intelligence in medicine",
+        "author": "Khemasuwan",
+        "year": "2021"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.exer.2025.110642_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "419",
+        "DOI": "10.1016/j.cllc.2022.03.009",
+        "article-title": "Prevalence and impact of medical comorbidities in A real‐world lung cancer screening population",
+        "volume": "23",
+        "author": "Majeed",
+        "year": "2022",
+        "journal-title": "Clin. Lung Cancer"
+      },
+      {
+        "issue": "27",
+        "key": "10.1016/j.exer.2025.110642_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "69797",
+        "DOI": "10.1007/s11042-024-18309-6",
+        "article-title": "Diabetic retinopathy disease detection using shapley additive ensembled densenet-121 resnet-50 model",
+        "volume": "83",
+        "author": "Mary",
+        "year": "2024",
+        "journal-title": "Multimed. Tool. Appl."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "11S",
+        "DOI": "10.14219/jada.archive.2003.0369",
+        "article-title": "Diabetes: a growing epidemic of all ages",
+        "volume": "134",
+        "author": "Moore",
+        "year": "2003",
+        "journal-title": "J. Am. Dent. Assoc."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.exer.2025.110642_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.3390/jimaging9040084",
+        "article-title": "Retinal disease detection using deep learning techniques: a comprehensive review",
+        "volume": "9",
+        "author": "Muchuchuti",
+        "year": "2023",
+        "journal-title": "J. Imag."
+      },
+      {
+        "issue": "21",
+        "key": "10.1016/j.exer.2025.110642_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "15481",
+        "DOI": "10.1007/s11042-019-7525-4",
+        "article-title": "Breast cancer multi-classification through deep neural network and hierarchical classification approach",
+        "volume": "79",
+        "author": "Murtaza",
+        "year": "2020",
+        "journal-title": "Multimed. Tool. Appl."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib27",
+        "unstructured": "Herrero T, Maria. Messidor-2 (preprocessed) [Data set]. Kaggle; 2021. Available from: https://www.kaggle.com/datasets/mariaherrerot/messidor2preprocess."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib32",
+        "unstructured": "National Eye Institute (NEI) Age-Related Eye Disease Study (AREDS), doi: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000001.v3.p1."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib33",
+        "series-title": "2017 1st International Conference on Next Generation Computing Applications (NextComp)",
+        "first-page": "157",
+        "article-title": "Clinical and technical perspective of glaucoma detection using OCT and fundus images: a review",
+        "author": "Naveed",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.exer.2025.110642_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/j.preteyeres.2005.07.001",
+        "article-title": "Retinal image analysis: concepts, applications and potential",
+        "volume": "25",
+        "author": "Patton",
+        "year": "2006",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.exer.2025.110642_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "150",
+        "DOI": "10.1080/23808993.2022.2154146",
+        "article-title": "Accelerating precision ophthalmology: recent advances",
+        "volume": "7",
+        "author": "Rahman",
+        "year": "2022",
+        "journal-title": "Expert Rev. Precis. Med.Drug Dev."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.imavis.2025.105419",
+        "article-title": "Grad-CAM based explanations for multiocular disease detection using Xception net",
+        "volume": "154",
+        "author": "Raveenthini",
+        "year": "2025",
+        "journal-title": "Image Vis Comput."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.exer.2025.110642_bib37",
+        "article-title": "Convolutional neural network for multi-class classification of diabetic eye disease",
+        "volume": "9",
+        "author": "Sarki",
+        "year": "2021",
+        "journal-title": "EAI Endorsed Trans. Scalable Inf. Syst."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.exer.2025.110642_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "e144",
+        "DOI": "10.1016/S2214-109X(20)30489-7",
+        "article-title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study",
+        "volume": "9",
+        "author": "Steinmetz",
+        "year": "2021",
+        "journal-title": "Lancet Global Health"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.exer.2025.110642_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.32996/jcsts.2025.7.1.12",
+        "article-title": "Artificial intelligence in multi-disease medical diagnostics: an integrative approach",
+        "volume": "7",
+        "author": "Sultana",
+        "year": "2025",
+        "journal-title": "Journal of Comp. Sci. Technol. Stud."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.exer.2025.110642_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1299",
+        "DOI": "10.1109/TMI.2016.2535302",
+        "article-title": "Convolutional neural networks for medical image analysis: full training or fine tuning?",
+        "volume": "35",
+        "author": "Tajbakhsh",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.exer.2025.110642_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "622",
+        "DOI": "10.3390/diagnostics13040622",
+        "article-title": "EfficientNetV2 based ensemble model for quality estimation of diabetic retinopathy images from DeepDRiD",
+        "volume": "13",
+        "author": "Tummala",
+        "year": "2023",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib42",
+        "series-title": "Nordic Conference on Digital Health and Wireless Solutions",
+        "first-page": "203",
+        "article-title": "A Hybrid images deep trained feature extraction and ensemble learning models for classification of multi disease in fundus images",
+        "author": "Verma",
+        "year": "2024"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.exer.2025.110642_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "2016",
+        "DOI": "10.3390/s22052016",
+        "article-title": "OCT retinal and choroidal layer instance segmentation using mask R-CNN",
+        "volume": "22",
+        "author": "Viedma",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.exer.2025.110642_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1016/j.ajo.2009.02.031",
+        "article-title": "Screening for diabetic retinopathy: 1 and 3 nonmydriatic 45-degree digital fundus photographs vs 7 standard early treatment diabetic retinopathy study fields",
+        "volume": "148",
+        "author": "Vujosevic",
+        "year": "2009",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.exer.2025.110642_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1038/s41579-020-00468-6",
+        "article-title": "Coronavirus biology and replication: implications for SARS-CoV-2",
+        "volume": "19",
+        "author": "V’kovski",
+        "year": "2021",
+        "journal-title": "Nat. Rev. Microbiol."
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib46",
+        "article-title": "Concept-based lesion aware transformer for interpretable retinal disease diagnosis",
+        "author": "Wen",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.exer.2025.110642_bib47",
+        "first-page": "489",
+        "article-title": "Multi-disease prediction based on deep learning: a survey",
+        "volume": "128",
+        "author": "Xie",
+        "year": "2021",
+        "journal-title": "Comput. Model. Eng. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.exer.2025.110642_bib48",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0299265",
+        "article-title": "Vision transformer with masked autoencoders for referable diabetic retinopathy classification based on large-size retina image",
+        "volume": "19",
+        "author": "Yang",
+        "year": "2024",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.exer.2025.110642_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "6243",
+        "DOI": "10.5194/acp-20-6243-2020",
+        "article-title": "Seawater analysis by ambient mass-spectrometry-based seaomics",
+        "volume": "20",
+        "author": "Zabalegui",
+        "year": "2020",
+        "journal-title": "Atmos. Chem. Phys."
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.exer.2025.110642_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "2180",
+        "DOI": "10.3390/diagnostics13132180",
+        "article-title": "Automated glaucoma screening and diagnosis based on retinal fundus images using deep learning approaches: a comprehensive review",
+        "volume": "13",
+        "author": "Zedan",
+        "year": "2023",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib51",
+        "series-title": "2010 Annual International Conference of the IEEE Engineering in Medicine and Biology",
+        "first-page": "3065",
+        "article-title": "Origa-light: an online retinal fundus image database for glaucoma analysis and research",
+        "author": "Zhang",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.exer.2025.110642_bib52",
+        "series-title": "The Visual Computer",
+        "first-page": "1",
+        "article-title": "MF-SAM: enhancing multi-modal fusion with Mamba in SAM-Med3D for GPi segmentation",
+        "author": "Zhang",
+        "year": "2025"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.exer.2025.110642_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "2772",
+        "DOI": "10.1109/TMI.2020.2975344",
+        "article-title": "Hi-net: hybrid-fusion network for multi-modal MR image synthesis",
+        "volume": "39",
+        "author": "Zhou",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imag."
+      }
+    ],
+    "container-title": [
+      "Experimental Eye Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0014483525004142?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0014483525004142?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2026-06-06T05:06:29Z",
+      "timestamp": 1780722389000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0014483525004142"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 53,
+    "alternative-id": [
+      "S0014483525004142"
+    ],
+    "URL": "https://doi.org/10.1016/j.exer.2025.110642",
+    "relation": {},
+    "ISSN": [
+      "0014-4835"
+    ],
+    "issn-type": [
+      {
+        "value": "0014-4835",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "OcuMDNet: A lightweight CNN for robust multi-disease retinal diagnosis with cross-dataset reliability",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Experimental Eye Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.exer.2025.110642",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "110642"
+  }
+}

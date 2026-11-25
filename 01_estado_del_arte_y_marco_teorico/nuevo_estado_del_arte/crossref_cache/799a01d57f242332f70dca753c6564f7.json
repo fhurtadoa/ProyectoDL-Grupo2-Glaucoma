@@ -1,0 +1,690 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2026-11-21T03:53:00Z",
+      "timestamp": 1795233180541,
+      "version": "4.10.3"
+    },
+    "reference-count": 37,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2023-10-19T00:00:00Z",
+          "timestamp": 1697673600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2023-10-19T00:00:00Z",
+          "timestamp": 1697673600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000287",
+        "name": "Royal Academy of Engineering",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000287",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Image-based prediction models for disease detection are sensitive to changes in data acquisition such as the replacement of scanner hardware or updates to the image processing software. The resulting differences in image characteristics may lead to drifts in clinically relevant performance metrics which could cause harm in clinical decision making, even for models that generalise in terms of area under the receiver-operating characteristic curve. We propose Unsupervised Prediction Alignment, a generic automatic recalibration method that requires no ground truth annotations and only limited amounts of unlabelled example images from the shifted data distribution. We illustrate the effectiveness of the proposed method to detect and correct performance drift in mammography-based breast cancer screening and on publicly available histopathology data. We show that the proposed method can preserve the expected performance in terms of sensitivity/specificity under various realistic scenarios of image acquisition shift, thus offering an important safeguard for clinical deployment.</jats:p>",
+    "DOI": "10.1038/s41467-023-42396-y",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2023-10-19T06:04:17Z",
+      "timestamp": 1697695457000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 47,
+    "title": [
+      "Automatic correction of performance drift under acquisition shift in medical image classification"
+    ],
+    "prefix": "10.1038",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6739-1638",
+        "authenticated-orcid": false,
+        "given": "Mélanie",
+        "family": "Roschewitz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Galvin",
+        "family": "Khara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joe",
+        "family": "Yearsley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nisha",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan J.",
+        "family": "James",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Éva",
+        "family": "Ambrózay",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adam",
+        "family": "Heroux",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Kecskemethy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-1522-5418",
+        "authenticated-orcid": false,
+        "given": "Tobias",
+        "family": "Rijken",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4897-9356",
+        "authenticated-orcid": false,
+        "given": "Ben",
+        "family": "Glocker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "42396_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1038/s41746-021-00546-w",
+        "volume": "5",
+        "author": "CK Kim",
+        "year": "2022",
+        "unstructured": "Kim, C. K. et al. An automated COVID-19 triage pipeline using artificial intelligence based on chest radiographs and clinical data. NPJ Digit. Med. 5, 5 (2022).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "42396_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "e507",
+        "DOI": "10.1016/S2589-7500(22)00070-X",
+        "volume": "4",
+        "author": "C Leibig",
+        "year": "2022",
+        "unstructured": "Leibig, C. et al. Combining the strengths of radiologists and AI for breast cancer screening: a retrospective analysis. Lancet Digit. Health 4, e507–e519 (2022).",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "42396_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "89",
+        "DOI": "10.1038/s41586-019-1799-6",
+        "volume": "577",
+        "author": "SM McKinney",
+        "year": "2020",
+        "unstructured": "McKinney, S. M. et al. International evaluation of an AI system for breast cancer screening. Nature 577, 89–94 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "42396_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "8238",
+        "DOI": "10.1007/s00330-022-08909-x",
+        "volume": "32",
+        "author": "M Larsen",
+        "year": "2022",
+        "unstructured": "Larsen, M., Aglen, C. F., Hoff, S. R., Lund-Hanssen, H. & Hofvind, S. Possible strategies for use of artificial intelligence in screen-reading of mammograms, based on retrospective data from 122,969 screening examinations. Eur. Radiol. 32, 8238–8246 (2022).",
+        "journal-title": "Eur. Radiol."
+      },
+      {
+        "key": "42396_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vries, C. de et al. Impact of Different Mammography Systems on Artificial Intelligence Performance in Breast Cancer Screening. Radio. Artif. Intell. 5, 3 (2023)",
+        "DOI": "10.1148/ryai.220146"
+      },
+      {
+        "key": "42396_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "283",
+        "DOI": "10.1056/NEJMc2104626",
+        "volume": "385",
+        "author": "SG Finlayson",
+        "year": "2021",
+        "unstructured": "Finlayson, S. G. et al. The clinician and dataset shift in atificial intelligence. N. Engl. J. Med. 385, 283–286 (2021).",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "42396_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "325",
+        "DOI": "10.1109/JBHI.2020.3032060",
+        "volume": "25",
+        "author": "K Stacke",
+        "year": "2021",
+        "unstructured": "Stacke, K., Eilertsen, G., Unger, J. & Lundstrom, C. Measuring domain shift for deep learning in histopathology. IEEE J. Biomed. Health Inf. 25, 325–336 (2021).",
+        "journal-title": "IEEE J. Biomed. Health Inf."
+      },
+      {
+        "key": "42396_CR8",
+        "unstructured": "Zhou, K., Liu, Z., Qiao, Y., Xiang, T. & Loy, C. C. Domain generalization: a survey. https://arxiv.org/abs/2103.02503 (2021)."
+      },
+      {
+        "key": "42396_CR9",
+        "unstructured": "Ghosh, D. & Ekta Ghosh, D. A Large-scale multi-centre research on domain generalisation in deep learning-based mass detection in mammography: a review. in Acta Biology Forum 05–09 (Research Floor, 2022)."
+      },
+      {
+        "key": "42396_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Breen, J., Zucker, K., Orsi, N. M. & Ravikumar, N. in Biomedical Image Registration, Domain Generalisation and Out-of-Distribution Analysis 14–22 (Springer International Publishing, 2022).",
+        "DOI": "10.1007/978-3-030-97281-3_2"
+      },
+      {
+        "key": "42396_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s41512-020-00090-3",
+        "volume": "5",
+        "author": "DA Jenkins",
+        "year": "2021",
+        "unstructured": "Jenkins, D. A. et al. Continual updating and monitoring of clinical prediction models: time for dynamic prediction systems? Diagn. Progn. Res 5, 1 (2021).",
+        "journal-title": "Diagn. Progn. Res"
+      },
+      {
+        "key": "42396_CR12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12874-022-01801-8",
+        "volume": "22",
+        "author": "MAE Binuya",
+        "year": "2022",
+        "unstructured": "Binuya, M. A. E., Engelhardt, E. G., Schats, W., Schmidt, M. K. & Steyerberg, E. W. Methodological guidance for the evaluation and updating of clinical prediction models: a systematic review. BMC Med. Res. Methodol. 22, 316 (2022).",
+        "journal-title": "BMC Med. Res. Methodol."
+      },
+      {
+        "key": "42396_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1111/j.1541-0420.2011.01645.x",
+        "volume": "68",
+        "author": "TH McCormick",
+        "year": "2012",
+        "unstructured": "McCormick, T. H., Raftery, A. E., Madigan, D. & Burd, R. S. Dynamic logistic regression and dynamic model averaging for binary classification. Biometrics 68, 23–30 (2012).",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "42396_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "649",
+        "DOI": "10.1161/CIRCOUTCOMES.111.000012",
+        "volume": "6",
+        "author": "GL Hickey",
+        "year": "2013",
+        "unstructured": "Hickey, G. L. et al. Dynamic prediction modeling approaches for cardiac surgery. Circ. Cardiovasc. Qual. Outcomes 6, 649–658 (2013).",
+        "journal-title": "Circ. Cardiovasc. Qual. Outcomes"
+      },
+      {
+        "key": "42396_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "4529",
+        "DOI": "10.1002/sim.7179",
+        "volume": "36",
+        "author": "Y Vergouwe",
+        "year": "2017",
+        "unstructured": "Vergouwe, Y. et al. A closed testing procedure to select an appropriate method for updating prediction models. Stat. Med. 36, 4529–4539 (2017).",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "key": "42396_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1186/s41512-016-0002-x",
+        "volume": "1",
+        "author": "B Van Calster",
+        "year": "2017",
+        "unstructured": "Van Calster, B. et al. Validation and updating of risk models based on multinomial logistic regression. Diagn. Progn. Res 1, 2 (2017).",
+        "journal-title": "Diagn. Progn. Res"
+      },
+      {
+        "key": "42396_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1186/s41512-021-00110-w",
+        "volume": "5",
+        "author": "EM Schnellinger",
+        "year": "2021",
+        "unstructured": "Schnellinger, E. M., Yang, W. & Kimmel, S. E. Comparison of dynamic updating strategies for clinical prediction models. Diagn. Progn. Res 5, 20 (2021).",
+        "journal-title": "Diagn. Progn. Res"
+      },
+      {
+        "key": "42396_CR18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-34646-2",
+        "volume": "13",
+        "author": "TJ Levy",
+        "year": "2022",
+        "unstructured": "Levy, T. J. et al. Development and validation of self-monitoring auto-updating prognostic models of survival for hospitalized COVID-19 patients. Nat. Commun. 13, 6812 (2022).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42396_CR19",
+        "unstructured": "Rabanser, S., Günnemann, S. & Lipton, Z. Failing loudly: An empirical study of methods for detecting dataset shift. Adv. Neural Inf. Process. Syst. 32, 1396–1408 (2019)."
+      },
+      {
+        "key": "42396_CR20",
+        "unstructured": "Koh, P. W. et al. WILDS: a benchmark of in-the-wild distribution shifts. in Proceedings of the 38th International Conference on Machine Learning (eds. Meila, M. & Zhang, T.) vol. 139 5637–5664 (PMLR, Jul 2021)."
+      },
+      {
+        "key": "42396_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "e200103",
+        "DOI": "10.1148/ryai.2020200103",
+        "volume": "3",
+        "author": "MD Halling-Brown",
+        "year": "2021",
+        "unstructured": "Halling-Brown, M. D. et al. OPTIMAM mammography image Database: a large-scale resource of mammography images and clinical data. Radio. Artif. Intell. 3, e200103 (2021).",
+        "journal-title": "Radio. Artif. Intell."
+      },
+      {
+        "key": "42396_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "550",
+        "DOI": "10.1109/TMI.2018.2867350",
+        "volume": "38",
+        "author": "P Bandi",
+        "year": "2019",
+        "unstructured": "Bandi, P. et al. From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge. IEEE Trans. Med. Imaging 38, 550–560 (2019).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "42396_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "32",
+        "DOI": "10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3",
+        "volume": "3",
+        "author": "WJ Youden",
+        "year": "1950",
+        "unstructured": "Youden, W. J. Index for rating diagnostic tests. Cancer 3, 32–35 (1950).",
+        "journal-title": "Cancer"
+      },
+      {
+        "key": "42396_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "337",
+        "DOI": "10.1080/10659360600787700",
+        "volume": "17",
+        "author": "JJ Chen",
+        "year": "2006",
+        "unstructured": "Chen, J. J. et al. Decision threshold adjustment in class prediction. SAR QSAR Environ. Res. 17, 337–352 (2006).",
+        "journal-title": "SAR QSAR Environ. Res."
+      },
+      {
+        "key": "42396_CR25",
+        "unstructured": "Ovadia, Y. et al. Can you trust your model’s uncertainty? Evaluating predictive uncertainty under dataset shift. https://arxiv.org/abs/1906.02530 (2019)."
+      },
+      {
+        "key": "42396_CR26",
+        "unstructured": "Guo, C., Pleiss, G., Sun, Y. & Weinberger, K. Q. On calibration of modern neural networks. in Proceedings of the 34th International Conference on Machine Learning (eds. Precup, D. & Teh, Y. W.) vol. 70 1321–1330 (PMLR, Aug 2017)."
+      },
+      {
+        "key": "42396_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.1177/0272989X14547233",
+        "volume": "35",
+        "author": "B Van Calster",
+        "year": "2015",
+        "unstructured": "Van Calster, B. & Vickers, A. J. Calibration of risk prediction models: impact on decision-analytic performance. Med. Decis. Mak. 35, 162–169 (2015).",
+        "journal-title": "Med. Decis. Mak."
+      },
+      {
+        "key": "42396_CR28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-17478-w",
+        "volume": "11",
+        "author": "DC Castro",
+        "year": "2020",
+        "unstructured": "Castro, D. C., Walker, I. & Glocker, B. Causality matters in medical imaging. Nat. Commun. 11, 3673 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42396_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1157",
+        "DOI": "10.1038/s41591-022-01846-8",
+        "volume": "28",
+        "author": "M Bernhardt",
+        "year": "2022",
+        "unstructured": "Bernhardt, M., Jones, C. & Glocker, B. Potential sources of dataset bias complicate investigation of underdiagnosis by machine learning algorithms. Nat. Med. 28, 1157–1158 (2022).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "42396_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "151",
+        "DOI": "10.1007/s10994-009-5152-4",
+        "volume": "79",
+        "author": "S Ben-David",
+        "year": "2010",
+        "unstructured": "Ben-David, S. et al. A theory of learning from different domains. Mach. Learn. 79, 151–175 (2010).",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "42396_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Venkateswara, H. & Panchanathan, S. Domain Adaptation in Computer Vision with Deep Learning. (Springer Nature, 2020).",
+        "DOI": "10.1007/978-3-030-45529-3"
+      },
+      {
+        "key": "42396_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, H., Pan, S. J., Wang, S. & Kot, A. C. Domain generalization with adversarial feature learning. in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 5400–5409 (IEEE, 2018).",
+        "DOI": "10.1109/CVPR.2018.00566"
+      },
+      {
+        "key": "42396_CR33",
+        "unstructured": "Dou, Q., Coelho de Castro, D., Kamnitsas, K. & Glocker, B. Domain generalization via model-agnostic learning of semantic features. Adv. Neural Inf. Process. Syst. 32, 6450–6461 (2019)."
+      },
+      {
+        "key": "42396_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "e384",
+        "DOI": "10.1016/S2589-7500(22)00003-6",
+        "volume": "4",
+        "author": "X Liu",
+        "year": "2022",
+        "unstructured": "Liu, X. et al. The medical algorithmic audit. Lancet Digit Health 4, e384–e397 (2022).",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "42396_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahler, M., Auza, C., Albesa, R., Melus, C. & Wu, J. A. Regulatory aspects of artificial intelligence and machine learning-enabled software as medical devices (SaMD). Precis. Med. Artif. Intellig. 237–265 (2021).",
+        "DOI": "10.1016/B978-0-12-820239-5.00010-3"
+      },
+      {
+        "key": "42396_CR36",
+        "unstructured": "Gonzales, R. C. & Wintz, P. Digital Image Processing (2nd edn.). (Addison-Wesley Longman Publishing Co., Inc., 1987)."
+      },
+      {
+        "key": "42396_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 770–778 (IEEE, 2016).",
+        "DOI": "10.1109/CVPR.2016.90"
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-42396-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-42396-y",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-42396-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2023-11-16T12:23:17Z",
+      "timestamp": 1700137397000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41467-023-42396-y"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          19
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "42396"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-023-42396-y",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-1723",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          19
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "24 February 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 October 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "19 October 2023",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "G.K., J.Y., A.H., P.K., T.R., B.G. are employees of Kheiron Medical Technologies with stock options as part of the standard compensation package. M.R. was a paid intern of Kheiron at the time of this work. All other authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "6608"
+  }
+}

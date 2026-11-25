@@ -1,0 +1,568 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2026-11-06T20:47:50Z",
+      "timestamp": 1793998070036,
+      "version": "4.8.0"
+    },
+    "reference-count": 54,
+    "publisher": "SAGE Publications",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              3
+            ]
+          ],
+          "date-time": "2023-04-03T00:00:00Z",
+          "timestamp": 1680480000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000054",
+        "name": "National Cancer Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U10CA180794"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U10CA180794"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000054",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000054",
+        "name": "National Cancer Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U10CA180820"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U10CA180820"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000054",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Stat Methods Med Res"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:p> The uncertainty in predictions from deep neural network analysis of medical imaging is challenging to assess but potentially important to include in subsequent decision-making. Using data from diabetic retinopathy detection, we present an empirical evaluation of the role of model calibration in uncertainty-based referral, an approach that prioritizes referral of observations based on the magnitude of a measure of uncertainty. We consider several configurations of network architecture, methods for uncertainty estimation, and training data size. We identify a strong relationship between the effectiveness of uncertainty-based referral and having a well-calibrated model. This is especially relevant as complex deep neural networks tend to have high calibration errors. Finally, we show that post-calibration of the neural network helps uncertainty-based referral with identifying hard-to-classify observations. </jats:p>",
+    "DOI": "10.1177/09622802231158811",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2023-04-03T17:40:08Z",
+      "timestamp": 1680543608000
+    },
+    "page": "927-943",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "Role of calibration in uncertainty-based referral for deep learning"
+    ],
+    "prefix": "10.1177",
+    "volume": "32",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3711-3610",
+        "authenticated-orcid": false,
+        "given": "Ruotao",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Biostatistics, Brown University, Providence, Rhode Island, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Constantine",
+        "family": "Gatsonis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biostatistics, Brown University, Providence, Rhode Island, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jon Arni",
+        "family": "Steingrimsson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biostatistics, Brown University, Providence, Rhode Island, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10462-019-09788-3"
+      },
+      {
+        "key": "bibr2-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.zemedi.2018.11.002"
+      },
+      {
+        "key": "bibr3-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eng.2018.11.020"
+      },
+      {
+        "key": "bibr4-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcmg.2019.06.009"
+      },
+      {
+        "key": "bibr5-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryai.2020190026"
+      },
+      {
+        "key": "bibr6-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2019182716"
+      },
+      {
+        "key": "bibr7-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2019182908"
+      },
+      {
+        "key": "bibr8-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2019182627"
+      },
+      {
+        "key": "bibr9-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-019-1466-7"
+      },
+      {
+        "key": "bibr10-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2021.3054390"
+      },
+      {
+        "key": "bibr11-09622802231158811",
+        "first-page": "1/2",
+        "volume": "32",
+        "author": "DeGroot MH",
+        "year": "1983",
+        "journal-title": "J R Stat Soc Ser D (The Statistician)"
+      },
+      {
+        "key": "bibr12-09622802231158811",
+        "unstructured": "Guo C, Pleiss G, Sun Y, et al. On Calibration of Modern Neural Networks. In: Precup D and Teh YW (eds.) Proceedings of the 34th International Conference on Machine Learning, Proceedings of Machine Learning Research, volume 70. PMLR, pp. 1321–1330."
+      },
+      {
+        "key": "bibr13-09622802231158811",
+        "author": "Hendrycks D",
+        "year": "2017",
+        "journal-title": "Proce Int Conference Lear Representations"
+      },
+      {
+        "key": "bibr14-09622802231158811",
+        "first-page": "603",
+        "volume": "5",
+        "author": "Buntine WL",
+        "year": "1991",
+        "journal-title": "Complex Syst"
+      },
+      {
+        "key": "bibr15-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1992.4.3.448"
+      },
+      {
+        "key": "bibr16-09622802231158811",
+        "volume-title": "Bayesian Methods for Adaptive Models",
+        "author": "Mackay DJC",
+        "year": "1992"
+      },
+      {
+        "key": "bibr17-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/168304.168306"
+      },
+      {
+        "key": "bibr18-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4612-0745-0"
+      },
+      {
+        "key": "bibr19-09622802231158811",
+        "unstructured": "Graves A. Practical Variational Inference for Neural Networks. In: Proceedings of the 24th International Conference on Neural Information Processing Systems. NIPS’11, Red Hook, NY, USA: Curran Associates Inc. ISBN 9781618395993, pp. 2348–2356."
+      },
+      {
+        "key": "bibr20-09622802231158811",
+        "unstructured": "Blundell C, Cornebise J, Kavukcuoglu K, et al. Weight Uncertainty in Neural Networks. In: Proceedings of the 32nd International Conference on International Conference on Machine Learning – Volume 37. ICML’15, JMLR.org, pp. 1613–1622."
+      },
+      {
+        "key": "bibr21-09622802231158811",
+        "unstructured": "Gal Y, Ghahramani Z. Bayesian Convolutional Neural Networks with Bernoulli Approximate Variational Inference. 4th International Conference on Learning Representations (ICLR) workshop track 2016."
+      },
+      {
+        "key": "bibr22-09622802231158811",
+        "unstructured": "Gal Y, Ghahramani Z. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning. In: Balcan MF and Weinberger KQ (eds.) Proceedings of the 33rd International Conference on Machine Learning, Proceedings of Machine Learning Research, volume 48. New York, New York, USA: PMLR, pp. 1050–1059."
+      },
+      {
+        "key": "bibr23-09622802231158811",
+        "unstructured": "Hinton GE, Srivastava N, Krizhevsky A, et al. Improving neural networks by preventing co-adaptation of feature detectors. CoRR 2012; abs/1207.0."
+      },
+      {
+        "key": "bibr24-09622802231158811",
+        "first-page": "1929",
+        "volume": "15",
+        "author": "Srivastava N",
+        "year": "2014",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "bibr25-09622802231158811",
+        "unstructured": "Lakshminarayanan B, Pritzel A, Blundell C. Simple and Scalable Predictive Uncertainty Estimation Using Deep Ensembles. In: Proceedings of the 31st International Conference on Neural Information Processing Systems. NIPS’17, Red Hook, NY, USA: Curran Associates Inc. ISBN 9781510860964, pp. 6405–6416."
+      },
+      {
+        "key": "bibr26-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33019516"
+      },
+      {
+        "key": "bibr27-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm8081241"
+      },
+      {
+        "key": "bibr28-09622802231158811",
+        "unstructured": "Seedat N. MCU-Net: a framework towards uncertainty representations for decision support system patient referrals in healthcare contexts, 2020."
+      },
+      {
+        "key": "bibr29-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-17876-z"
+      },
+      {
+        "key": "bibr30-09622802231158811",
+        "unstructured": "Filos A, Farquhar S, Gomez AN, et al. A Systematic Comparison of Bayesian Deep Learning Robustness in Diabetic Retinopathy Tasks, 2019."
+      },
+      {
+        "key": "bibr31-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.1538-7305.1948.tb01338.x"
+      },
+      {
+        "key": "bibr32-09622802231158811",
+        "unstructured": "Ovadia Y, Fertig E, Ren J, et al. Can You Trust Your Model’s Uncertainty? Evaluating Predictive Uncertainty under Dataset Shift. Proceedings of the 33rd International Conference on Neural Information Processing Systems 2019."
+      },
+      {
+        "key": "bibr33-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiology.143.1.7063747"
+      },
+      {
+        "key": "bibr34-09622802231158811",
+        "first-page": "2901",
+        "volume": "4",
+        "author": "Naeini MP",
+        "year": "2015",
+        "journal-title": "Proce National Conference Artif Intell"
+      },
+      {
+        "key": "bibr35-09622802231158811",
+        "unstructured": "Kumar A, Liang P, Ma T. Verified Uncertainty Calibration. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. Red Hook, NY, USA: Curran Associates Inc., 2019."
+      },
+      {
+        "key": "bibr36-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/30.1-2.81"
+      },
+      {
+        "key": "bibr37-09622802231158811",
+        "unstructured": "Kaggle. APTOS 2019 Blindness Detection, 2019. https://www.kaggle.com/c/aptos2019-blindness-detection."
+      },
+      {
+        "key": "bibr38-09622802231158811",
+        "unstructured": "Kaggle. Diabetic Retinopathy Detection, 2015. https://www.kaggle.com/c/diabetic-retinopathy-detection."
+      },
+      {
+        "key": "bibr39-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2020.101724"
+      },
+      {
+        "key": "bibr40-09622802231158811",
+        "unstructured": "ICO. ICO Guidelines for Diabetic Eye Care, 2017. http://www.icoph.org/downloads/ICOGuidelinesforDiabeticEyeCare.pdf."
+      },
+      {
+        "key": "bibr41-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01264-9_8"
+      },
+      {
+        "key": "bibr42-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "bibr43-09622802231158811",
+        "first-page": "770",
+        "volume": "2016",
+        "author": "He K",
+        "year": "2016",
+        "journal-title": "Proce IEEE Comput Soc Conference Comput Vision Pattern Recogn"
+      },
+      {
+        "key": "bibr44-09622802231158811",
+        "first-page": "248",
+        "author": "Deng J",
+        "year": "2009",
+        "journal-title": "CVPR09"
+      },
+      {
+        "key": "bibr45-09622802231158811",
+        "first-page": "1180",
+        "volume": "37",
+        "author": "Ganin Y",
+        "year": "2015",
+        "journal-title": "Proceedings of the 32nd International Conference on Machine Learning"
+      },
+      {
+        "key": "bibr46-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00005650-199107000-00002"
+      },
+      {
+        "key": "bibr47-09622802231158811",
+        "first-page": "61",
+        "volume": "10",
+        "author": "Platt JC",
+        "year": "1999",
+        "journal-title": "Adv Large Margin Classifiers"
+      },
+      {
+        "key": "bibr48-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwac128"
+      },
+      {
+        "key": "bibr49-09622802231158811",
+        "first-page": "985",
+        "volume": "8",
+        "author": "Sugiyama M",
+        "year": "2007",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "bibr50-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wics.1275"
+      },
+      {
+        "key": "bibr51-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0378-3758(00)00115-4"
+      },
+      {
+        "key": "bibr52-09622802231158811",
+        "volume-title": "Pattern Recognition and Machine Learning (Information Science and Statistics)",
+        "author": "Bishop CM",
+        "year": "2006"
+      },
+      {
+        "key": "bibr53-09622802231158811",
+        "unstructured": "Gelman A, Carlin JB, Stern HS, et al. Bayesian Data Analysis, Third Edition. Chapman & Hall/CRC Texts in Statistical Science, Taylor & Francis, 2013. ISBN 9781439840955."
+      },
+      {
+        "key": "bibr54-09622802231158811",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2017.1285773"
+      }
+    ],
+    "container-title": [
+      "Statistical Methods in Medical Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/09622802231158811",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/09622802231158811",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/09622802231158811",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2025-03-01T08:16:19Z",
+      "timestamp": 1740816979000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/09622802231158811"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          3
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/09622802231158811"
+    ],
+    "URL": "https://doi.org/10.1177/09622802231158811",
+    "relation": {},
+    "ISSN": [
+      "0962-2802",
+      "1477-0334"
+    ],
+    "issn-type": [
+      {
+        "value": "0962-2802",
+        "type": "print"
+      },
+      {
+        "value": "1477-0334",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          3
+        ]
+      ]
+    }
+  }
+}

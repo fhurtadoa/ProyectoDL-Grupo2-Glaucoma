@@ -1,0 +1,1547 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T15:12:41Z",
+      "timestamp": 1795533161703,
+      "version": "4.11.0"
+    },
+    "reference-count": 113,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2019-06-01T00:00:00Z",
+          "timestamp": 1559347200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2019-06-01T00:00:00Z",
+          "timestamp": 1559347200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003130",
+        "name": "FWO",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "G0B4716N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G0B4716N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003130",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004040",
+        "name": "KU Leuven",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "C24/15/037"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "C24/15/037"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004040",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000289",
+        "name": "Cancer Research UK",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "5529/A16895"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "5529/A16895"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000289",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "NIHR Biomedical Research Centre"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "jclinepi.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Clinical Epidemiology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jclinepi.2019.02.004",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2019-02-11T11:38:59Z",
+      "timestamp": 1549885139000
+    },
+    "page": "12-22",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2120,
+    "special_numbering": "C",
+    "title": [
+      "A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models"
+    ],
+    "prefix": "10.1016",
+    "volume": "110",
+    "author": [
+      {
+        "given": "Evangelia",
+        "family": "Christodoulou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3900-1903",
+        "authenticated-orcid": false,
+        "given": "Jie",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2772-2316",
+        "authenticated-orcid": false,
+        "given": "Gary S.",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ewout W.",
+        "family": "Steyerberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7166-7211",
+        "authenticated-orcid": false,
+        "given": "Jan Y.",
+        "family": "Verbakel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1613-7450",
+        "authenticated-orcid": false,
+        "given": "Ben",
+        "family": "Van Calster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib1",
+        "series-title": "Clinical prediction models",
+        "author": "Steyerberg",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib2",
+        "series-title": "The elements of statistical learning: data mining, inference, and prediction",
+        "author": "Hastie",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1016/S0933-3657(01)00077-X",
+        "article-title": "Machine learning for medical diagnosis: history, state of the art and perspective",
+        "volume": "23",
+        "author": "Kononenko",
+        "year": "2001",
+        "journal-title": "Artif Intell Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "408",
+        "DOI": "10.1016/j.neunet.2005.10.007",
+        "article-title": "The use of artificial neural networks in decision support in cancer: a systematic review",
+        "volume": "19",
+        "author": "Lisboa",
+        "year": "2006",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.1001/jama.2017.18391",
+        "article-title": "Big data and machine learning in health care",
+        "volume": "319",
+        "author": "Beam",
+        "year": "2018",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2507",
+        "DOI": "10.1056/NEJMp1702071",
+        "article-title": "Machine learning and prediction in medicine — beyond the peak of inflated expectations",
+        "volume": "376",
+        "author": "Chen",
+        "year": "2017",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib7",
+        "first-page": "1805",
+        "article-title": "Moving beyond regression techniques in cardiovascular risk prediction: applying machine learning to address analytic challenges",
+        "volume": "38",
+        "author": "Goldstein",
+        "year": "2017",
+        "journal-title": "Eur Heart J"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1214/ss/1009213726",
+        "article-title": "Statistical modeling: the two cultures (with comments and a rejoinder by the author)",
+        "volume": "16",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Stat Sci"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1001744",
+        "DOI": "10.1371/journal.pmed.1001744",
+        "article-title": "Critical appraisal and data extraction for systematic reviews of prediction modelling studies: the CHARMS checklist",
+        "volume": "11",
+        "author": "Moons",
+        "year": "2014",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib10",
+        "series-title": "Machine learning",
+        "author": "Mitchell",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "588",
+        "DOI": "10.1002/bimj.201300226",
+        "article-title": "Machine learning versus statistical modeling",
+        "volume": "56",
+        "author": "Boulesteix",
+        "year": "2014",
+        "journal-title": "Biom J"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1161/CIRCOUTCOMES.116.003308",
+        "article-title": "Learning about machine learning: the promise and pitfalls of big data and the electronic health record",
+        "volume": "9",
+        "author": "Deo",
+        "year": "2016",
+        "journal-title": "Circ Cardiovasc Qual Outcomes"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib13",
+        "first-page": "1263",
+        "article-title": "Learning from imbalanced data",
+        "volume": "21",
+        "author": "He",
+        "year": "2008",
+        "journal-title": "IEEE Trans Knowl Data Eng"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "607",
+        "DOI": "10.1002/uog.2791",
+        "article-title": "Support vector machines versus logistic regression: improving prospective performance in clinical decision-making",
+        "volume": "27",
+        "author": "Pochet",
+        "year": "2006",
+        "journal-title": "Ultrasound Obstet Gynecol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-018-0029-1",
+        "article-title": "Scalable and accurate deep learning for electronic health records",
+        "volume": "1",
+        "author": "Rajkomar",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e323",
+        "DOI": "10.2196/jmir.5870",
+        "article-title": "Guidelines for developing and reporting machine learning predictive models in biomedical research: a multidisciplinary view",
+        "volume": "18",
+        "author": "Luo",
+        "year": "2016",
+        "journal-title": "J Med Internet Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1186/1471-2288-14-137",
+        "article-title": "Modern modelling techniques are data hungry: a simulation study for predicting dichotomous endpoints",
+        "volume": "14",
+        "author": "van der Ploeg",
+        "year": "2014",
+        "journal-title": "BMC Med Res Methodol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/j.jclinepi.2015.12.005",
+        "article-title": "A calibration hierarchy for risk models was defined: from utopia to empirical data",
+        "volume": "74",
+        "author": "Van Calster",
+        "year": "2016",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "134",
+        "DOI": "10.1016/j.jclinepi.2014.11.010",
+        "article-title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement",
+        "volume": "68",
+        "author": "Collins",
+        "year": "2015",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e61562",
+        "DOI": "10.1371/journal.pone.0061562",
+        "article-title": "A plea for neutral comparison studies in computational sciences",
+        "volume": "8",
+        "author": "Boulesteix",
+        "year": "2013",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib21",
+        "first-page": "1",
+        "article-title": "Classifier technology and the illusion of progress",
+        "volume": "1",
+        "author": "Hand",
+        "year": "2006",
+        "journal-title": "Stat Sci"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.7326/0003-4819-155-8-201110180-00009",
+        "article-title": "QUADAS-2: a revised tool for the quality assessment of diagnostic accuracy studies",
+        "volume": "155",
+        "author": "Whiting",
+        "year": "2011",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib23",
+        "series-title": "Tunability: importance of hyperparameters of machine learning algorithms",
+        "author": "Probst",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4124",
+        "DOI": "10.1002/sim.6986",
+        "article-title": "Quantifying the impact of different approaches for handling continuous predictors on the performance of a prognostic model",
+        "volume": "35",
+        "author": "Collins",
+        "year": "2016",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "774",
+        "DOI": "10.1016/S0895-4356(01)00341-9",
+        "article-title": "Internal validation of predictive models: efficiency of some procedures for logistic regression analysis",
+        "volume": "54",
+        "author": "Steyerberg",
+        "year": "2001",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib26",
+        "series-title": "The statistical evaluation of medical tests for classification and prediction",
+        "author": "Pepe",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib27",
+        "first-page": "2",
+        "article-title": "Artificial neural networks versus bivariate logistic regression in prediction diagnosis of patients with hypertension and diabetes",
+        "volume": "30",
+        "author": "Adavi",
+        "year": "2016",
+        "journal-title": "Med J Islam Repub Iran"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1016/j.jbi.2015.12.006",
+        "article-title": "Electronic health record phenotyping improves detection and screening of type 2 diabetes in the general United States population: a cross-sectional, unselected, retrospective study",
+        "volume": "60",
+        "author": "Anderson",
+        "year": "2016",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2143",
+        "DOI": "10.1007/s00381-016-3248-2",
+        "article-title": "Predicting ventriculoperitoneal shunt infection in children with hydrocephalus using artificial neural network",
+        "volume": "32",
+        "author": "Habibi",
+        "year": "2016",
+        "journal-title": "Childs Nerv Syst"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1016/j.jbi.2016.09.012",
+        "article-title": "How can machine-learning methods assist in virtual screening for hyperuricemia? A healthcare machine-learning approach",
+        "volume": "64",
+        "author": "Ichikawa",
+        "year": "2016",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.4258/hir.2016.22.2.95",
+        "article-title": "Comparison of predictive models for the early diagnosis of diabetes",
+        "volume": "22",
+        "author": "Jahani",
+        "year": "2016",
+        "journal-title": "Healthc Inform Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1016/j.ejim.2015.11.019",
+        "article-title": "Falling in the elderly: do statistical models matter for performance criteria of fall prediction? Results from two large population-based studies",
+        "volume": "27",
+        "author": "Kabeshova",
+        "year": "2016",
+        "journal-title": "Eur J Intern Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1186/s12911-016-0277-4",
+        "article-title": "Prediction and detection models for acute kidney injury in hospitalized older adults",
+        "volume": "16",
+        "author": "Kate",
+        "year": "2016",
+        "journal-title": "BMC Med Inform Decis Mak"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1007/s10729-015-9323-5",
+        "article-title": "Assessing risk of hospital readmissions for improving medical practice",
+        "volume": "19",
+        "author": "Kulkarni",
+        "year": "2016",
+        "journal-title": "Health Care Manag Sci"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "729",
+        "DOI": "10.1186/s40064-016-2531-8",
+        "article-title": "Applying machine learning techniques to the identification of late-onset hypogonadism in elderly men",
+        "volume": "5",
+        "author": "Lu",
+        "year": "2016",
+        "journal-title": "Springerplus"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib36",
+        "first-page": "143",
+        "article-title": "Analyzing 30-day readmission rate for heart failure using different predictive models",
+        "volume": "225",
+        "author": "Mahajan",
+        "year": "2016",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "701",
+        "DOI": "10.1186/s40064-016-2339-6",
+        "article-title": "Non-invasive detection of fasting blood glucose level via electrochemical measurement of saliva",
+        "volume": "5",
+        "author": "Malik",
+        "year": "2016",
+        "journal-title": "Springerplus"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib38",
+        "first-page": "253",
+        "article-title": "Prediction of lumbar disc herniation patients’ satisfaction with the aid of an artificial neural network",
+        "volume": "26",
+        "author": "Matis",
+        "year": "2016",
+        "journal-title": "Turk Neurosurg"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1663",
+        "DOI": "10.1016/j.apmr.2016.04.014",
+        "article-title": "Developing artificial neural network models to predict functioning one year after traumatic spinal cord injury",
+        "volume": "97",
+        "author": "Belliveau",
+        "year": "2016",
+        "journal-title": "Arch Phys Med Rehabil"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "629",
+        "DOI": "10.1161/CIRCOUTCOMES.116.003039",
+        "article-title": "Analysis of machine learning techniques for heart failure readmissions",
+        "volume": "9",
+        "author": "Mortazavi",
+        "year": "2016",
+        "journal-title": "Circ Cardiovasc Qual Outcomes"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0159046",
+        "DOI": "10.1371/journal.pone.0159046",
+        "article-title": "Accuracy and calibration of computational approaches for inpatient mortality predictive modeling",
+        "volume": "11",
+        "author": "Nakas",
+        "year": "2016",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "824",
+        "DOI": "10.2106/JBJS.15.00301",
+        "article-title": "Predicting occurrence of spine surgery complications using big data modeling of an administrative claims database",
+        "volume": "98",
+        "author": "Ratliff",
+        "year": "2016",
+        "journal-title": "J Bone Joint Surg Am"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1016/j.cmpb.2015.11.009",
+        "article-title": "Development of a web-based liver cancer prediction model for type II diabetes patients by using an artificial neural network",
+        "volume": "125",
+        "author": "Rau",
+        "year": "2016",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1515",
+        "DOI": "10.1016/j.jvs.2016.04.026",
+        "article-title": "The use of machine learning for the identification of peripheral artery disease and future mortality risk",
+        "volume": "64",
+        "author": "Ross",
+        "year": "2016",
+        "journal-title": "J Vasc Surg"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1111/acem.12876",
+        "article-title": "Prediction of in-hospital mortality in emergency department patients with sepsis: a local big data-driven, machine learning approach",
+        "volume": "23",
+        "author": "Taylor",
+        "year": "2016",
+        "journal-title": "Acad Emerg Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0155705",
+        "DOI": "10.1371/journal.pone.0155705",
+        "article-title": "Application of machine learning techniques to high-dimensional clinical data to forecast postoperative complications",
+        "volume": "11",
+        "author": "Thottakkara",
+        "year": "2016",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1186/s12874-016-0128-0",
+        "article-title": "Comparison of predictive modeling approaches for 30-day all-cause non-elective readmission risk",
+        "volume": "16",
+        "author": "Tong",
+        "year": "2016",
+        "journal-title": "BMC Med Res Methodol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1016/j.jclinepi.2016.03.002",
+        "article-title": "Modern modeling techniques had limited external validity in predicting mortality from traumatic brain injury",
+        "volume": "78",
+        "author": "van der Ploeg",
+        "year": "2016",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0158285",
+        "DOI": "10.1371/journal.pone.0158285",
+        "article-title": "Cancers screening in an asymptomatic population by using multiple tumour markers",
+        "volume": "11",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1244",
+        "DOI": "10.1177/0962280213476167",
+        "article-title": "Comparing models for quantitative risk assessment: an application to the European Registry of foreign body injuries in children",
+        "volume": "25",
+        "author": "Berchialla",
+        "year": "2016",
+        "journal-title": "Stat Methods Med Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "12612",
+        "DOI": "10.18632/oncotarget.7278",
+        "article-title": "Exploiting machine learning for predicting skeletal-related events in cancer patients with bone metastases",
+        "volume": "7",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Oncotarget"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib52",
+        "first-page": "1",
+        "article-title": "Predicting postoperative vomiting among orthopedic patients receiving patient-controlled epidural analgesia using SVM and LR",
+        "volume": "6",
+        "author": "Wu",
+        "year": "2016",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "2040",
+        "DOI": "10.1118/1.4944738",
+        "article-title": "Statistical-learning strategies generate only modestly performing predictive models for urinary symptoms following external beam radiotherapy of the prostate: a comparison of conventional and machine-learning methods",
+        "volume": "43",
+        "author": "Yahya",
+        "year": "2016",
+        "journal-title": "Med Phys"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "78140",
+        "DOI": "10.18632/oncotarget.11293",
+        "article-title": "An imaging-based approach predicts clinical outcomes in prostate cancer through a novel support vector machine classification",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "Oncotarget"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1016/j.radonc.2016.04.029",
+        "article-title": "Predicting distant failure in early stage NSCLC treated with SBRT using clinical parameters Predicting distant failure in lung SBRT",
+        "volume": "119",
+        "author": "Zhou",
+        "year": "2016",
+        "journal-title": "Radiother Oncol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0175383",
+        "DOI": "10.1371/journal.pone.0175383",
+        "article-title": "Use of a machine learning framework to predict substance use disorder treatment success",
+        "volume": "12",
+        "author": "Acion",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0179805",
+        "DOI": "10.1371/journal.pone.0179805",
+        "article-title": "Predicting diabetes mellitus using SMOTE and ensemble machine learning approach: the Henry Ford ExercIse Testing (FIT) project",
+        "volume": "12",
+        "author": "Alghamdi",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0169772",
+        "DOI": "10.1371/journal.pone.0169772",
+        "article-title": "A comparison of a machine learning model with EuroSCORE II in predicting mortality after elective cardiac surgery: a decision curve analysis",
+        "volume": "12",
+        "author": "Allyn",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.24171/j.phrp.2017.8.3.06",
+        "article-title": "Prevalence and determinants of preterm birth in Tehran, Iran: a comparison between logistic regression and decision tree methods",
+        "volume": "8",
+        "author": "Amini",
+        "year": "2017",
+        "journal-title": "Osong Public Health Res Perspect"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.ajo.2016.11.001",
+        "article-title": "Validating the usefulness of the “random forests” classifier to diagnose early glaucoma with optical coherence tomography",
+        "volume": "174",
+        "author": "Asaoka",
+        "year": "2017",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1007/s10916-016-0432-6",
+        "article-title": "Diagnosis of acute coronary syndrome with a support vector machine",
+        "volume": "40",
+        "author": "Berikol",
+        "year": "2016",
+        "journal-title": "J Med Syst"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1111/1747-0080.12337",
+        "article-title": "Data mining: potential applications in research on nutrition and health",
+        "volume": "74",
+        "author": "Batterham",
+        "year": "2017",
+        "journal-title": "Nutr Diet"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1111/jhn.12448",
+        "article-title": "Using data mining to predict success in a weight loss trial",
+        "volume": "30",
+        "author": "Batterham",
+        "year": "2017",
+        "journal-title": "J Hum Nutr Diet"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "1263",
+        "DOI": "10.1002/oby.21861",
+        "article-title": "Obesity as a risk factor for developing functional limitation among older adults: a conditional inference tree analysis",
+        "volume": "25",
+        "author": "Cheng",
+        "year": "2017",
+        "journal-title": "Obesity"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.jaip.2017.04.045",
+        "article-title": "Designing predictive models for beta-lactam allergy using the drug allergy and hypersensitivity database",
+        "volume": "6",
+        "author": "Chiriac",
+        "year": "2018",
+        "journal-title": "J Allergy Clin Immunol Pract"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.1016/j.clon.2016.12.001",
+        "article-title": "Normal tissue complication probability (NTCP) modelling of severe acute mucositis using a novel oral mucosal surface organ at risk",
+        "volume": "29",
+        "author": "Dean",
+        "year": "2017",
+        "journal-title": "Clin Oncol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1",
+        "DOI": "10.4037/ccn2017548",
+        "article-title": "Predicting the risk for hospital-acquired pressure ulcers in critical care patients",
+        "volume": "37",
+        "author": "Deng",
+        "year": "2017",
+        "journal-title": "Crit Care Nurse"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "347",
+        "DOI": "10.1370/afm.2060",
+        "article-title": "Proposed clinical decision rules to diagnose acute rhinosinusitis among adults in primary care",
+        "volume": "15",
+        "author": "Ebell",
+        "year": "2017",
+        "journal-title": "Ann Fam Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "115",
+        "DOI": "10.1016/j.jcrc.2017.02.032",
+        "article-title": "Predicting risk for portal vein thrombosis in acute pancreatitis patients: a comparison of radical basis function artificial neural network and logistic regression models",
+        "volume": "39",
+        "author": "Fei",
+        "year": "2017",
+        "journal-title": "J Crit Care"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1111/jth.13588",
+        "article-title": "Artificial neural networks predict the incidence of portosplenomesenteric venous thrombosis in patients with acute pancreatitis",
+        "volume": "15",
+        "author": "Fei",
+        "year": "2017",
+        "journal-title": "J Thromb Haemost"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1016/j.jcrc.2017.02.019",
+        "article-title": "Predicting the incidence of portosplenomesenteric vein thrombosis in patients with acute pancreatitis using classification and regression tree algorithm",
+        "volume": "39",
+        "author": "Fei",
+        "year": "2017",
+        "journal-title": "J Crit Care"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0163942",
+        "DOI": "10.1371/journal.pone.0163942",
+        "article-title": "Prediction of incident diabetes in the jackson heart study using high-dimensional machine learning",
+        "volume": "11",
+        "author": "Casanova",
+        "year": "2016",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib73",
+        "doi-asserted-by": "crossref",
+        "first-page": "204",
+        "DOI": "10.1001/jamacardio.2016.3956",
+        "article-title": "Prediction of 30-day all-cause readmissions in patients hospitalized for heart failure: comparison of machine learning and other statistical approaches",
+        "volume": "2",
+        "author": "Frizzell",
+        "year": "2017",
+        "journal-title": "JAMA Cardiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib74",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1016/j.genhosppsych.2017.03.001",
+        "article-title": "Classification of suicide attempters in schizophrenia using sociocultural and clinical features: a machine learning approach",
+        "volume": "47",
+        "author": "Hettige",
+        "year": "2017",
+        "journal-title": "Gen Hosp Psychiatry"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib75",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1016/j.cmpb.2017.03.022",
+        "article-title": "Predicting return visits to the emergency department for pediatric patients: applying supervised learning techniques to the Taiwan National Health Insurance Research Database",
+        "volume": "144",
+        "author": "Hu",
+        "year": "2017",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib76",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1186/s40880-017-0192-9",
+        "article-title": "Predictive model for 5-year mortality after breast cancer surgery in Taiwan residents",
+        "volume": "36",
+        "author": "Huang",
+        "year": "2017",
+        "journal-title": "Chin J Cancer"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib77",
+        "doi-asserted-by": "crossref",
+        "first-page": "1240",
+        "DOI": "10.1111/jep.12767",
+        "article-title": "Usefulness of a decision tree model for the analysis of adverse drug reactions: evaluation of a risk prediction model of vancomycin-associated nephrotoxicity constructed using a data mining procedure",
+        "volume": "23",
+        "author": "Imai",
+        "year": "2017",
+        "journal-title": "J Eval Clin Pract"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib78",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1575",
+        "DOI": "10.1002/mpr.1575",
+        "article-title": "Developing a practical suicide risk prediction model for targeting high-risk patients in the Veterans health Administration",
+        "volume": "26",
+        "author": "Kessler",
+        "year": "2017",
+        "journal-title": "Int J Methods Psychiatr Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib79",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.14366/usg.16045",
+        "article-title": "Logistic LASSO regression for the diagnosis of breast cancer using clinical demographic data and the BI-RADS lexicon for ultrasonography",
+        "volume": "37",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Ultrasonography"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib80",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0177811",
+        "DOI": "10.1371/journal.pone.0177811",
+        "article-title": "Predicting congenital heart defects: a comparison of three data mining methods",
+        "volume": "12",
+        "author": "Luo",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib81",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0177811",
+        "DOI": "10.1186/s12911-017-0442-4",
+        "article-title": "Development and validation of classifiers and variable subsets for predicting nursing home admission",
+        "volume": "17",
+        "author": "Nuutinen",
+        "year": "2017",
+        "journal-title": "BMC Med Inform Decis Mak"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib82",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1111/jvh.12617",
+        "article-title": "Classification and regression tree analysis of acute-on-chronic hepatitis B liver failure: seeing the forest for the trees",
+        "volume": "24",
+        "author": "Shi",
+        "year": "2017",
+        "journal-title": "J Viral Hepat"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib83",
+        "doi-asserted-by": "crossref",
+        "first-page": "368",
+        "DOI": "10.1097/CCM.0000000000001571",
+        "article-title": "Multicenter comparison of machine learning methods and conventional regression for predicting clinical deterioration on the wards",
+        "volume": "44",
+        "author": "Churpek",
+        "year": "2016",
+        "journal-title": "Crit Care Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib84",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0176275",
+        "DOI": "10.1371/journal.pone.0176275",
+        "article-title": "Initial assessment of the infant with neonatal cholestasis-Is this biliary atresia?",
+        "volume": "12",
+        "author": "Shneider",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib85",
+        "doi-asserted-by": "crossref",
+        "first-page": "1357",
+        "DOI": "10.1002/hed.24769",
+        "article-title": "Developing a risk stratification tool for audit of outcome after surgery for head and neck squamous cell carcinoma",
+        "volume": "39",
+        "author": "Tighe",
+        "year": "2017",
+        "journal-title": "Head Neck"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib86",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1186/s12911-017-0500-y",
+        "article-title": "Predicting two-year survival versus non-survival after first myocardial infarction using machine learning and Swedish national register data",
+        "volume": "17",
+        "author": "Wallert",
+        "year": "2017",
+        "journal-title": "BMC Med Inform Decis Mak"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib87",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0174944",
+        "DOI": "10.1371/journal.pone.0174944",
+        "article-title": "Can machine-learning improve cardiovascular risk prediction using routine clinical data?",
+        "volume": "12",
+        "author": "Weng",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib88",
+        "doi-asserted-by": "crossref",
+        "first-page": "447",
+        "DOI": "10.1111/apt.14172",
+        "article-title": "Laboratory parameter-based machine learning model for excluding non-alcoholic fatty liver disease (NAFLD) in the general population",
+        "volume": "46",
+        "author": "Yip",
+        "year": "2017",
+        "journal-title": "Aliment Pharmacol Ther"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib89",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1186/s12884-016-1189-0",
+        "article-title": "Subgroup identification of early preterm birth (ePTB): informing a future prospective enrichment clinical trial design",
+        "volume": "17",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "BMC Pregnancy Childbirth"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib90",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0174866",
+        "DOI": "10.1371/journal.pone.0174866",
+        "article-title": "Exploration of machine learning techniques in predicting multiple sclerosis disease course",
+        "volume": "12",
+        "author": "Zhao",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib91",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1089/jwh.2015.5692",
+        "article-title": "Comparison of breast cancer risk predictive models and screening strategies for Chinese women",
+        "volume": "26",
+        "author": "Zhao",
+        "year": "2017",
+        "journal-title": "J Womens Health (Larchmt)"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib92",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1016/j.cmpb.2016.03.022",
+        "article-title": "Different medical data mining approaches based prediction of ischemic stroke",
+        "volume": "130",
+        "author": "Arslan",
+        "year": "2016",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib93",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1177/0148607116667282",
+        "article-title": "Establishing decision trees for predicting successful postpyloric nasoenteric tube placement in critically ill patients",
+        "volume": "42",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "JPEN J Parenter Enteral Nutr"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib94",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1016/j.ijid.2016.05.019",
+        "article-title": "A screening system for smear-negative pulmonary tuberculosis using artificial neural networks",
+        "volume": "49",
+        "author": "Souza Filho JB",
+        "year": "2016",
+        "journal-title": "Int J Infect Dis"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib95",
+        "doi-asserted-by": "crossref",
+        "first-page": "234",
+        "DOI": "10.1590/1516-3180.2016.0309010217",
+        "article-title": "Comparison of machine-learning algorithms to build a predictive model for detecting undiagnosed diabetes – ELSA-Brasil: accuracy study",
+        "volume": "135",
+        "author": "Olivera",
+        "year": "2017",
+        "journal-title": "Sao Paulo Med J"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib96",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/j.radonc.2016.05.015",
+        "article-title": "Normal tissue complication probability (NTCP) modelling using spatial dose metrics and machine learning methods for severe acute oral mucositis resulting from head and neck radiotherapy",
+        "volume": "120",
+        "author": "Dean",
+        "year": "2016",
+        "journal-title": "Radiother Oncol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib97",
+        "doi-asserted-by": "crossref",
+        "first-page": "36130",
+        "DOI": "10.18632/oncotarget.9143",
+        "article-title": "Which melanoma patient carries a BRAF-mutation? A comparison of predictive models",
+        "volume": "7",
+        "author": "Eigentler",
+        "year": "2016",
+        "journal-title": "Oncotarget"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib98",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1002/sim.5941",
+        "article-title": "Graphical assessment of internal and external calibration of logistic regression models by using loess smoothers",
+        "volume": "33",
+        "author": "Austin",
+        "year": "2014",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib99",
+        "series-title": "Regression modeling strategies",
+        "author": "Harrell",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib100",
+        "doi-asserted-by": "crossref",
+        "first-page": "796",
+        "DOI": "10.1016/j.eururo.2018.08.038",
+        "article-title": "Reporting and interpreting decision curve analysis: a guide for investigators",
+        "volume": "74",
+        "author": "Van Calster",
+        "year": "2018",
+        "journal-title": "Eur Urol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib101",
+        "doi-asserted-by": "crossref",
+        "first-page": "1394",
+        "DOI": "10.1177/0962280216661371",
+        "article-title": "Calibration of medical diagnostic classifier scores to the probability of disease",
+        "volume": "27",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "Stat Methods Med Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib102",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1007/s10994-006-8199-5",
+        "article-title": "Cost curves: an improved method for visualizing classifier performance",
+        "volume": "65",
+        "author": "Drummond",
+        "year": "2006",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib103",
+        "article-title": "Sample size for binary logistic prediction models: beyond events per variable criteria",
+        "author": "van Smeden",
+        "year": "2018",
+        "journal-title": "Stat Methods Med Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib104",
+        "doi-asserted-by": "crossref",
+        "first-page": "1920",
+        "DOI": "10.1161/CIRCULATIONAHA.115.001593",
+        "article-title": "Machine learning in medicine",
+        "volume": "132",
+        "author": "Deo",
+        "year": "2015",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib105",
+        "first-page": "3133",
+        "article-title": "Do we need hundreds of classifiers to solve real world classification problems?",
+        "volume": "15",
+        "author": "Fernández-Delgado",
+        "year": "2014",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib106",
+        "doi-asserted-by": "crossref",
+        "first-page": "270",
+        "DOI": "10.1186/s12859-018-2264-5",
+        "article-title": "Random forest versus logistic regression: a large-scale benchmark experiment",
+        "volume": "19",
+        "author": "Couronné",
+        "year": "2018",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib107",
+        "doi-asserted-by": "crossref",
+        "first-page": "2501",
+        "DOI": "10.1002/(SICI)1097-0258(19981115)17:21<2501::AID-SIM938>3.0.CO;2-M",
+        "article-title": "A comparison of statistical learning methods on the Gusto database",
+        "volume": "17",
+        "author": "Ennis",
+        "year": "1998",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib108",
+        "first-page": "11",
+        "article-title": "Does machine learning really work?",
+        "volume": "18",
+        "author": "Mitchell",
+        "year": "1997",
+        "journal-title": "AI Mag"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib109",
+        "doi-asserted-by": "crossref",
+        "first-page": "133",
+        "DOI": "10.1016/j.jclinepi.2017.11.013",
+        "article-title": "Poor performance of clinical prediction models: the harm of commonly applied methods",
+        "volume": "98",
+        "author": "Steyerberg",
+        "year": "2018",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib110",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1016/j.jclinepi.2015.08.009",
+        "article-title": "Quality of reporting of confounding remained suboptimal after the STROBE guideline",
+        "volume": "69",
+        "author": "Pouwels",
+        "year": "2016",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib111",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0189716",
+        "DOI": "10.1371/journal.pone.0189716",
+        "article-title": "Diagnostic accuracy research in glaucoma is still incompletely reported: an application of Standards for Reporting of Diagnostic Accuracy Studies (STARD) 2015",
+        "volume": "12",
+        "author": "Michelessi",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib112",
+        "article-title": "The quality of reporting randomized controlled trials in the dermatology literature in an era where the CONSORT statement is a standard",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Br J Dermatol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2019.02.004_bib113",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1004191",
+        "DOI": "10.1371/journal.pcbi.1004191",
+        "article-title": "Ten simple rules for reducing overoptimistic reporting in methodological computational research",
+        "volume": "11",
+        "author": "Boulesteix",
+        "year": "2015",
+        "journal-title": "PLoS Comput Biol"
+      }
+    ],
+    "container-title": [
+      "Journal of Clinical Epidemiology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0895435618310813?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0895435618310813?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2025-10-12T05:15:22Z",
+      "timestamp": 1760246122000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0895435618310813"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "references-count": 113,
+    "alternative-id": [
+      "S0895435618310813"
+    ],
+    "URL": "https://doi.org/10.1016/j.jclinepi.2019.02.004",
+    "relation": {},
+    "ISSN": [
+      "0895-4356"
+    ],
+    "issn-type": [
+      {
+        "value": "0895-4356",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Clinical Epidemiology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jclinepi.2019.02.004",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

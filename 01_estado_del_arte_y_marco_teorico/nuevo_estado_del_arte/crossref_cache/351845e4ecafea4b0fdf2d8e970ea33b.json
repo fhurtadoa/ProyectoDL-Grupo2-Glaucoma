@@ -1,0 +1,436 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T19:28:22Z",
+      "timestamp": 1795202902325,
+      "version": "4.10.3"
+    },
+    "reference-count": 15,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              24
+            ]
+          ],
+          "date-time": "2019-07-24T00:00:00Z",
+          "timestamp": 1563926400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              24
+            ]
+          ],
+          "date-time": "2019-07-24T00:00:00Z",
+          "timestamp": 1563926400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Diabetes is a globally prevalent disease that can cause visible microvascular complications such as diabetic retinopathy and macular edema in the human eye retina, the images of which are today used for manual disease screening and diagnosis. This labor-intensive task could greatly benefit from automatic detection using deep learning technique. Here we present a deep learning system that identifies referable diabetic retinopathy comparably or better than presented in the previous studies, although we use only a small fraction of images (&lt;1/4) in training but are aided with higher image resolutions. We also provide novel results for five different screening and clinical grading systems for diabetic retinopathy and macular edema classification, including state-of-the-art results for accurately classifying images according to clinical five-grade diabetic retinopathy and for the first time for the four-grade diabetic macular edema scales. These results suggest, that a deep learning system could increase the cost-effectiveness of screening and diagnosis, while attaining higher than recommended performance, and that the system could be applied in clinical examinations requiring finer grading.</jats:p>",
+    "DOI": "10.1038/s41598-019-47181-w",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2019-07-24T09:07:35Z",
+      "timestamp": 1563959255000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 229,
+    "title": [
+      "Deep Learning Fundus Image Analysis for Diabetic Retinopathy and Macular Edema Grading"
+    ],
+    "prefix": "10.1038",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Jaakko",
+        "family": "Sahlsten",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel",
+        "family": "Jaskari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jyri",
+        "family": "Kivinen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lauri",
+        "family": "Turunen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Esa",
+        "family": "Jaanio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kustaa",
+        "family": "Hietala",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kimmo",
+        "family": "Kaski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "7566",
+        "key": "47181_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "475",
+        "DOI": "10.1136/bmj.38922.650521.80",
+        "volume": "333",
+        "author": "SM Marshall",
+        "year": "2006",
+        "unstructured": "Marshall, S. M. & Flyvbjerg, A. Prevention and early detection of vascular complications of diabetes. BMJ. 333(7566), 475–480 (2006).",
+        "journal-title": "BMJ."
+      },
+      {
+        "issue": "7",
+        "key": "47181_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "495",
+        "DOI": "10.1046/j.1464-5491.2000.00250.x",
+        "volume": "17",
+        "author": "A Hutchinson",
+        "year": "2000",
+        "unstructured": "Hutchinson, A. et al. Effectiveness of screening and monitoring tests for diabetic retinopathy–a systematic review. Diabet Med. 17(7), 495–506 (2000).",
+        "journal-title": "Diabet Med."
+      },
+      {
+        "key": "47181_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taylor, R. & Batey, D. Handbook of Retinal Screening in Diabetes: Diagnosis and Management. Wiley (2012).",
+        "DOI": "10.1002/9781119968573"
+      },
+      {
+        "issue": "22",
+        "key": "47181_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan, V. et al. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA. 316(22), 2402–2410 (2016).",
+        "journal-title": "JAMA."
+      },
+      {
+        "issue": "22",
+        "key": "47181_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "unstructured": "Ting, D. S. W. et al. Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes. JAMA. 318(22), 2211–2223 (2017).",
+        "journal-title": "JAMA."
+      },
+      {
+        "issue": "9",
+        "key": "47181_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "volume": "110",
+        "author": "CP Wilkinson",
+        "year": "2003",
+        "unstructured": "Wilkinson, C. P. et al. Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales. Ophthalmology. 110(9), 1677–1682 (2003).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "issue": "9",
+        "key": "47181_CR7",
+        "first-page": "893",
+        "volume": "131",
+        "author": "P Summanen",
+        "year": "2015",
+        "unstructured": "Summanen, P. et al. Update on Current Care Guideline: Diabetic retinopathy. Duodecim. 131(9), 893–894 (2015).",
+        "journal-title": "Duodecim."
+      },
+      {
+        "issue": "8",
+        "key": "47181_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1264",
+        "DOI": "10.1016/j.ophtha.2018.01.034",
+        "volume": "125",
+        "author": "J Krause",
+        "year": "2018",
+        "unstructured": "Krause, J. et al. Grader Variability and the Importance of Reference Standards for Evaluating Machine Learning Models for Diabetic Retinopathy. Ophthalmology. 125(8), 1264–1272 (2018).",
+        "journal-title": "Ophthalmology."
+      },
+      {
+        "key": "47181_CR9",
+        "unstructured": "Guan, M. Y., Gulshan, V., Dai, A. M. & Hinton, G. E. Who Said What: Modeling Individual Labelers Improves Classification. arXiv e-prints., https://ui.adsabs.harvard.edu/\\#abs/2017arXiv170308774G. (Accessed March 01, 2017)."
+      },
+      {
+        "key": "47181_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, F., Casalino, L. P. & Khullar, D. Deep Learning in Medicine-Promise, Progress, and Challenges. JAMA Intern Med. (2018).",
+        "DOI": "10.1001/jamainternmed.2018.7117"
+      },
+      {
+        "key": "47181_CR11",
+        "unstructured": "Medical Research Act, https://www.finlex.fi/en/laki/kaannokset/1999/en19990488_20100794.pdf (2010)"
+      },
+      {
+        "key": "47181_CR12",
+        "unstructured": "Goodfellow, I., Bengio, Y. & Courville, A. Deep Learning. MIT Press (2016)."
+      },
+      {
+        "key": "47181_CR13",
+        "unstructured": "Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J. & Wojna, Z. Rethinking the Inception Architecture for Computer Vision. arXiv e-prints. 2015, https://ui.adsabs.harvard.edu/\\#abs/2015arXiv151200567S (Accessed December 01, 2015)."
+      },
+      {
+        "key": "47181_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Russakovsky, O. et al. ImageNet Large Scale Visual Recognition Challenge; 115(3):211–252 (2015)",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "47181_CR15",
+        "unstructured": "Decencière, E. et al. Feedback on a publicly distributed image database: The Messidor database. Vol 02014."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-47181-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-47181-w",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-47181-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2022-12-17T06:46:27Z",
+      "timestamp": 1671259587000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-019-47181-w"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          24
+        ]
+      ]
+    },
+    "references-count": 15,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "47181"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-019-47181-w",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "13 March 2019",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 July 2019",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "24 July 2019",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing Interests"
+        }
+      }
+    ],
+    "article-number": "10750"
+  }
+}

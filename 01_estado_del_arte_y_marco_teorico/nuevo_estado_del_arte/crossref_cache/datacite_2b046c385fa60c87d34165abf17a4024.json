@@ -1,0 +1,231 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.10687097",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.10687097",
+      "prefix": "10.5281",
+      "suffix": "zenodo.10687097",
+      "identifiers": [
+        {
+          "identifier": "oai:zenodo.org:10687097",
+          "identifierType": "oai"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "oai",
+          "alternateIdentifier": "oai:zenodo.org:10687097"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Vermeer, Koenraad A.",
+          "nameType": "Personal",
+          "givenName": "Koenraad A.",
+          "familyName": "Vermeer",
+          "affiliation": [
+            "Rotterdam Ophthalmic Institute, Rotterdam Eye Hospital, Rotterdam, The Netherlands"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Lemij, Hans G.",
+          "nameType": "Personal",
+          "givenName": "Hans G.",
+          "familyName": "Lemij",
+          "affiliation": [
+            "Rotterdam Ophthalmic Institute, Rotterdam Eye Hospital, Rotterdam, The Netherlands"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Yousefi, Siamak",
+          "nameType": "Personal",
+          "givenName": "Siamak",
+          "familyName": "Yousefi",
+          "affiliation": [
+            "Department of Ophthalmology, Department of Genetics, Genomics",
+            "Informatics, Director of the Data Mining and Machine Learning (DM2L) Laboratory, University of Tennessee Health Science Center, Memphis, USA"
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0001-8633-5730",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Madadi, Yeganeh",
+          "nameType": "Personal",
+          "givenName": "Yeganeh",
+          "familyName": "Madadi",
+          "affiliation": [
+            "Department of Ophthalmology, University of Tennessee Health Science Center, Memphis, USA"
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0003-4292-3404",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Raja, Hina",
+          "nameType": "Personal",
+          "givenName": "Hina",
+          "familyName": "Raja",
+          "affiliation": [
+            "Department of Ophthalmology, University of Tennessee Health Science Center, Memphis, USA"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Justified Referral in AI Glaucoma Screening"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2024,
+      "subjects": [
+        {
+          "subject": "Glaucoma"
+        },
+        {
+          "subject": "Screening"
+        },
+        {
+          "subject": "Fundus images"
+        },
+        {
+          "subject": "Referral"
+        },
+        {
+          "subject": "Justification"
+        },
+        {
+          "subject": "ophthalmology"
+        },
+        {
+          "subject": "Artificial Intelligence (AI) model"
+        },
+        {
+          "subject": "ISBI challenges"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2024-02-21",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "",
+        "resourceTypeGeneral": "Other"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.10687096",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Glaucoma is a leading cause of irreversible blindness and impaired vision. In its early stages, the disease is typically asymptomatic. With more advanced glaucoma, the visual field is affected; as a result, patients stumble more often, bump into objects and other people, and may be more often involved in traffic accidents and falls. Only in the late stages of the disease, are patients more aware of their visual impairment. They may experience trouble reading, suffer from night-blindness, or suffer from other symptoms of impaired vision. Once detected, glaucoma can be treated so that any disease progression be effectively stopped or slowed down, but the damage cannot be repaired. Early detection and timely treatment of this disease can therefore avoid visual impairment; early detection could be facilitated through population-based glaucoma screening. Glaucoma affects the optic nerve, i.e., the connection between the eye and the brain; this disease is also known as glaucomatous optic neuropathy (GON). It is typically identified based on the appearance of the optic nerve head and its surroundings, for instance on color fundus photographs (CFPs) or other imaging modalities. In clinical practice, one other imaging technique is optical coherence tomography (OCT), which plays an ever-growing role in the diagnosis and follow-up of GON. For screening purposes, however, CFPs are relatively inexpensive. These photographs provide crucial information for assessing various features of glaucomatous damage. These features include neuroretinal rim thinning and notching, increased cupping and optic disc hemorrhages. In addition, glaucomatous thinning of the retinal nerve fiber layer (RNFL) may be readily visible on CFPs. Furthermore, CFPs have an additional benefit in that they provide a record of the eye's baseline condition, serving as a reference for future follow-up.Manual identification of these features can provide higher accuracy when performed by experienced specialists. However, manual segmentation is subjective and can vary among different observers. Automated detection algorithms, on the other hand, can provide consistent and reproducible results and subsequently reduce inter-observer and intra-observer variability. Manual segmentation can be also time-consuming and labor-intensive, especially for large datasets or complex cases. On the other hand, automated algorithms can process images more rapidly, thus may provide efficient solutions for large scale screening. Artificial intelligence (AI) approaches for detecting glaucoma based on CFPs have been extensively investigated previously and have provided promising results. In the context of screening, for low prevalence diseases such as glaucoma, specificity is of primary importance and should be very high in order to prevent referring many false positive cases to the health care system. Therefore, the model should be highly dependable and provide clinically relevant outcomes.However, current AI methods merely indicate whether an individual requires to be referred to an ophthalmologist or not, but do not provide any justification for the underlying pathology. Understanding the typically glaucomatous features that the algorithm suggests for referring an individual improves trust as well as enables human experts to identify errors in the decision process due to physiological or pathological deviations.To initiate the development of such AI algorithms for glaucoma screening and to evaluate their performance, we propose the Justified Referral in AI Glaucoma Screening (JustRAIGS) challenge, for which we have provided a unique large dataset with over 110k carefully annotated fundus photographs collected from about 60,000 screenees. We have generated a training subset with 101,442 gradable fundus images (from ‘referable glaucoma ‘eyes and ‘no referable glaucoma’ eyes) and a test subset with 9,741 fundus images. Each fundus photograph thus has been labeled as either ‘referable glaucoma’ or ‘no referable glaucoma’. In addition, all fundus images of referable glaucoma eyes have been further annotated with up to ten additional labels associated with different glaucomatous features. In this challenge, participants will be tasked with analyzing the fundus images and assigning each image to one of two classes: ‘referable glaucoma’ or ‘no referable glaucoma’. ‘Referable glaucoma’ refers to eyes where the fundus image exhibits signs or features indicative of glaucoma that require further examination or referral to a specialist. In this case, visual field damage is expected. On the other hand, ‘no referable glaucoma’ refers to cases where the fundus image does not show significant indications of glaucoma and does not require immediate referral. Very early disease, in which visual field damage is not yet expected, would also be classified as ‘no referable glaucoma’. In addition to the referable glaucoma classification, participants will be further instructed to perform multi-label classification for ten additional features related to glaucoma. These features are specific characteristics or abnormalities that may be present in the fundus images of glaucoma patients. The multi-label classification task involves assigning relevant labels to each fundus image based on the presence or absence of these specific features. These additional features provide more detailed information about the specific characteristics observed in the fundus images of ‘referable glaucoma’ cases. By combining both the binary classification task (referable vs. no referable glaucoma) and the multi-label classification task (for the ten additional features), we aim to evaluate the participants' ability to accurately identify and classify fundus images associated with referable glaucoma. The results of this classification task can provide insights into the development of automated systems or algorithms for glaucoma detection, ultimately assisting in the early identification and treatment of glaucoma patients, thereby reducing avoidable visual impairment and blindness from glaucoma.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTI4MS9aRU5PRE8uMTA2ODcwOTc8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlZlcm1lZXIsIEtvZW5yYWFkIEEuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Lb2VucmFhZCBBLjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5WZXJtZWVyPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24+Um90dGVyZGFtIE9waHRoYWxtaWMgSW5zdGl0dXRlLCBSb3R0ZXJkYW0gRXllIEhvc3BpdGFsLCBSb3R0ZXJkYW0sIFRoZSBOZXRoZXJsYW5kczwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+TGVtaWosIEhhbnMgRy48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhhbnMgRy48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TGVtaWo8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5Sb3R0ZXJkYW0gT3BodGhhbG1pYyBJbnN0aXR1dGUsIFJvdHRlcmRhbSBFeWUgSG9zcGl0YWwsIFJvdHRlcmRhbSwgVGhlIE5ldGhlcmxhbmRzPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Zb3VzZWZpLCBTaWFtYWs8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlNpYW1hazwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Zb3VzZWZpPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9IiI+MDAwMC0wMDAxLTg2MzMtNTczMDwvbmFtZUlkZW50aWZpZXI+CiAgICAgIDxhZmZpbGlhdGlvbj5EZXBhcnRtZW50IG9mIE9waHRoYWxtb2xvZ3ksIERlcGFydG1lbnQgb2YgR2VuZXRpY3MsIEdlbm9taWNzPC9hZmZpbGlhdGlvbj4KICAgICAgPGFmZmlsaWF0aW9uPkluZm9ybWF0aWNzLCBEaXJlY3RvciBvZiB0aGUgRGF0YSBNaW5pbmcgYW5kIE1hY2hpbmUgTGVhcm5pbmcgKERNMkwpIExhYm9yYXRvcnksIFVuaXZlcnNpdHkgb2YgVGVubmVzc2VlIEhlYWx0aCBTY2llbmNlIENlbnRlciwgTWVtcGhpcywgVVNBPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5NYWRhZGksIFllZ2FuZWg8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlllZ2FuZWg8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TWFkYWRpPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9IiI+MDAwMC0wMDAzLTQyOTItMzQwNDwvbmFtZUlkZW50aWZpZXI+CiAgICAgIDxhZmZpbGlhdGlvbj5EZXBhcnRtZW50IG9mIE9waHRoYWxtb2xvZ3ksIFVuaXZlcnNpdHkgb2YgVGVubmVzc2VlIEhlYWx0aCBTY2llbmNlIENlbnRlciwgTWVtcGhpcywgVVNBPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5SYWphLCBIaW5hPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5IaW5hPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlJhamE8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5EZXBhcnRtZW50IG9mIE9waHRoYWxtb2xvZ3ksIFVuaXZlcnNpdHkgb2YgVGVubmVzc2VlIEhlYWx0aCBTY2llbmNlIENlbnRlciwgTWVtcGhpcywgVVNBPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+SnVzdGlmaWVkIFJlZmVycmFsIGluIEFJIEdsYXVjb21hIFNjcmVlbmluZzwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjQ8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9Ik90aGVyIi8+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3Q+R2xhdWNvbWE8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5TY3JlZW5pbmc8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5GdW5kdXMgaW1hZ2VzPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+UmVmZXJyYWw8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5KdXN0aWZpY2F0aW9uPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+b3BodGhhbG1vbG9neTwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChBSSkgbW9kZWw8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5JU0JJIGNoYWxsZW5nZXM8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDI0LTAyLTIxPC9kYXRlPgogIDwvZGF0ZXM+CiAgPGFsdGVybmF0ZUlkZW50aWZpZXJzPgogICAgPGFsdGVybmF0ZUlkZW50aWZpZXIgYWx0ZXJuYXRlSWRlbnRpZmllclR5cGU9Im9haSI+b2FpOnplbm9kby5vcmc6MTA2ODcwOTc8L2FsdGVybmF0ZUlkZW50aWZpZXI+CiAgPC9hbHRlcm5hdGVJZGVudGlmaWVycz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzVmVyc2lvbk9mIj4xMC41MjgxL3plbm9kby4xMDY4NzA5NjwvcmVsYXRlZElkZW50aWZpZXI+CiAgPC9yZWxhdGVkSWRlbnRpZmllcnM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cy8+CiAgPHZlcnNpb24vPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvbGVnYWxjb2RlIiByaWdodHNJZGVudGlmaWVyPSJjYy1ieS00LjAiIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9InNwZHgiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5HbGF1Y29tYSBpcyBhIGxlYWRpbmcgY2F1c2Ugb2YgaXJyZXZlcnNpYmxlIGJsaW5kbmVzcyBhbmQgaW1wYWlyZWQgdmlzaW9uLiBJbiBpdHMgZWFybHkgc3RhZ2VzLCB0aGUgZGlzZWFzZSBpcyB0eXBpY2FsbHkgYXN5bXB0b21hdGljLiBXaXRoIG1vcmUgYWR2YW5jZWQgZ2xhdWNvbWEsIHRoZSB2aXN1YWwgZmllbGQgaXMgYWZmZWN0ZWQ7IGFzIGEgcmVzdWx0LCBwYXRpZW50cyBzdHVtYmxlIG1vcmUgb2Z0ZW4sIGJ1bXAgaW50byBvYmplY3RzIGFuZCBvdGhlciBwZW9wbGUsIGFuZCBtYXkgYmUgbW9yZSBvZnRlbiBpbnZvbHZlZCBpbiB0cmFmZmljIGFjY2lkZW50cyBhbmQgZmFsbHMuIE9ubHkgaW4gdGhlIGxhdGUgc3RhZ2VzIG9mIHRoZSBkaXNlYXNlLCBhcmUgcGF0aWVudHMgbW9yZSBhd2FyZSBvZiB0aGVpciB2aXN1YWwgaW1wYWlybWVudC4gVGhleSBtYXkgZXhwZXJpZW5jZSB0cm91YmxlIHJlYWRpbmcsIHN1ZmZlciBmcm9tIG5pZ2h0LWJsaW5kbmVzcywgb3Igc3VmZmVyIGZyb20gb3RoZXIgc3ltcHRvbXMgb2YgaW1wYWlyZWQgdmlzaW9uLiBPbmNlIGRldGVjdGVkLCBnbGF1Y29tYSBjYW4gYmUgdHJlYXRlZCBzbyB0aGF0IGFueSBkaXNlYXNlIHByb2dyZXNzaW9uIGJlIGVmZmVjdGl2ZWx5IHN0b3BwZWQgb3Igc2xvd2VkIGRvd24sIGJ1dCB0aGUgZGFtYWdlIGNhbm5vdCBiZSByZXBhaXJlZC4gRWFybHkgZGV0ZWN0aW9uIGFuZCB0aW1lbHkgdHJlYXRtZW50IG9mIHRoaXMgZGlzZWFzZSBjYW4gdGhlcmVmb3JlIGF2b2lkIHZpc3VhbCBpbXBhaXJtZW50OyBlYXJseSBkZXRlY3Rpb24gY291bGQgYmUgZmFjaWxpdGF0ZWQgdGhyb3VnaCBwb3B1bGF0aW9uLWJhc2VkIGdsYXVjb21hIHNjcmVlbmluZy4gR2xhdWNvbWEgYWZmZWN0cyB0aGUgb3B0aWMgbmVydmUsIGkuZS4sIHRoZSBjb25uZWN0aW9uIGJldHdlZW4gdGhlIGV5ZSBhbmQgdGhlIGJyYWluOyB0aGlzIGRpc2Vhc2UgaXMgYWxzbyBrbm93biBhcyBnbGF1Y29tYXRvdXMgb3B0aWMgbmV1cm9wYXRoeSAoR09OKS4gSXQgaXMgdHlwaWNhbGx5IGlkZW50aWZpZWQgYmFzZWQgb24gdGhlIGFwcGVhcmFuY2Ugb2YgdGhlIG9wdGljIG5lcnZlIGhlYWQgYW5kIGl0cyBzdXJyb3VuZGluZ3MsIGZvciBpbnN0YW5jZSBvbiBjb2xvciBmdW5kdXMgcGhvdG9ncmFwaHMgKENGUHMpIG9yIG90aGVyIGltYWdpbmcgbW9kYWxpdGllcy4gSW4gY2xpbmljYWwgcHJhY3RpY2UsIG9uZSBvdGhlciBpbWFnaW5nIHRlY2huaXF1ZSBpcyBvcHRpY2FsIGNvaGVyZW5jZSB0b21vZ3JhcGh5IChPQ1QpLCB3aGljaCBwbGF5cyBhbiBldmVyLWdyb3dpbmcgcm9sZSBpbiB0aGUgZGlhZ25vc2lzIGFuZCBmb2xsb3ctdXAgb2YgR09OLiBGb3Igc2NyZWVuaW5nIHB1cnBvc2VzLCBob3dldmVyLCBDRlBzIGFyZSByZWxhdGl2ZWx5IGluZXhwZW5zaXZlLiBUaGVzZSBwaG90b2dyYXBocyBwcm92aWRlIGNydWNpYWwgaW5mb3JtYXRpb24gZm9yIGFzc2Vzc2luZyB2YXJpb3VzIGZlYXR1cmVzIG9mIGdsYXVjb21hdG91cyBkYW1hZ2UuIFRoZXNlIGZlYXR1cmVzIGluY2x1ZGUgbmV1cm9yZXRpbmFsIHJpbSB0aGlubmluZyBhbmQgbm90Y2hpbmcsIGluY3JlYXNlZCBjdXBwaW5nIGFuZCBvcHRpYyBkaXNjIGhlbW9ycmhhZ2VzLiBJbiBhZGRpdGlvbiwgZ2xhdWNvbWF0b3VzIHRoaW5uaW5nIG9mIHRoZSByZXRpbmFsIG5lcnZlIGZpYmVyIGxheWVyIChSTkZMKSBtYXkgYmUgcmVhZGlseSB2aXNpYmxlIG9uIENGUHMuIEZ1cnRoZXJtb3JlLCBDRlBzIGhhdmUgYW4gYWRkaXRpb25hbCBiZW5lZml0IGluIHRoYXQgdGhleSBwcm92aWRlIGEgcmVjb3JkIG9mIHRoZSBleWUncyBiYXNlbGluZSBjb25kaXRpb24sIHNlcnZpbmcgYXMgYSByZWZlcmVuY2UgZm9yIGZ1dHVyZSBmb2xsb3ctdXAuTWFudWFsIGlkZW50aWZpY2F0aW9uIG9mIHRoZXNlIGZlYXR1cmVzIGNhbiBwcm92aWRlIGhpZ2hlciBhY2N1cmFjeSB3aGVuIHBlcmZvcm1lZCBieSBleHBlcmllbmNlZCBzcGVjaWFsaXN0cy4gSG93ZXZlciwgbWFudWFsIHNlZ21lbnRhdGlvbiBpcyBzdWJqZWN0aXZlIGFuZCBjYW4gdmFyeSBhbW9uZyBkaWZmZXJlbnQgb2JzZXJ2ZXJzLiBBdXRvbWF0ZWQgZGV0ZWN0aW9uIGFsZ29yaXRobXMsIG9uIHRoZSBvdGhlciBoYW5kLCBjYW4gcHJvdmlkZSBjb25zaXN0ZW50IGFuZCByZXByb2R1Y2libGUgcmVzdWx0cyBhbmQgc3Vic2VxdWVudGx5IHJlZHVjZSBpbnRlci1vYnNlcnZlciBhbmQgaW50cmEtb2JzZXJ2ZXIgdmFyaWFiaWxpdHkuIE1hbnVhbCBzZWdtZW50YXRpb24gY2FuIGJlIGFsc28gdGltZS1jb25zdW1pbmcgYW5kIGxhYm9yLWludGVuc2l2ZSwgZXNwZWNpYWxseSBmb3IgbGFyZ2UgZGF0YXNldHMgb3IgY29tcGxleCBjYXNlcy4gT24gdGhlIG90aGVyIGhhbmQsIGF1dG9tYXRlZCBhbGdvcml0aG1zIGNhbiBwcm9jZXNzIGltYWdlcyBtb3JlIHJhcGlkbHksIHRodXMgbWF5IHByb3ZpZGUgZWZmaWNpZW50IHNvbHV0aW9ucyBmb3IgbGFyZ2Ugc2NhbGUgc2NyZWVuaW5nLiBBcnRpZmljaWFsIGludGVsbGlnZW5jZSAoQUkpIGFwcHJvYWNoZXMgZm9yIGRldGVjdGluZyBnbGF1Y29tYSBiYXNlZCBvbiBDRlBzIGhhdmUgYmVlbiBleHRlbnNpdmVseSBpbnZlc3RpZ2F0ZWQgcHJldmlvdXNseSBhbmQgaGF2ZSBwcm92aWRlZCBwcm9taXNpbmcgcmVzdWx0cy4gSW4gdGhlIGNvbnRleHQgb2Ygc2NyZWVuaW5nLCBmb3IgbG93IHByZXZhbGVuY2UgZGlzZWFzZXMgc3VjaCBhcyBnbGF1Y29tYSwgc3BlY2lmaWNpdHkgaXMgb2YgcHJpbWFyeSBpbXBvcnRhbmNlIGFuZCBzaG91bGQgYmUgdmVyeSBoaWdoIGluIG9yZGVyIHRvIHByZXZlbnQgcmVmZXJyaW5nIG1hbnkgZmFsc2UgcG9zaXRpdmUgY2FzZXMgdG8gdGhlIGhlYWx0aCBjYXJlIHN5c3RlbS4gVGhlcmVmb3JlLCB0aGUgbW9kZWwgc2hvdWxkIGJlIGhpZ2hseSBkZXBlbmRhYmxlIGFuZCBwcm92aWRlIGNsaW5pY2FsbHkgcmVsZXZhbnQgb3V0Y29tZXMuSG93ZXZlciwgY3VycmVudCBBSSBtZXRob2RzIG1lcmVseSBpbmRpY2F0ZSB3aGV0aGVyIGFuIGluZGl2aWR1YWwgcmVxdWlyZXMgdG8gYmUgcmVmZXJyZWQgdG8gYW4gb3BodGhhbG1vbG9naXN0IG9yIG5vdCwgYnV0IGRvIG5vdCBwcm92aWRlIGFueSBqdXN0aWZpY2F0aW9uIGZvciB0aGUgdW5kZXJseWluZyBwYXRob2xvZ3kuIFVuZGVyc3RhbmRpbmcgdGhlIHR5cGljYWxseSBnbGF1Y29tYXRvdXMgZmVhdHVyZXMgdGhhdCB0aGUgYWxnb3JpdGhtIHN1Z2dlc3RzIGZvciByZWZlcnJpbmcgYW4gaW5kaXZpZHVhbCBpbXByb3ZlcyB0cnVzdCBhcyB3ZWxsIGFzIGVuYWJsZXMgaHVtYW4gZXhwZXJ0cyB0byBpZGVudGlmeSBlcnJvcnMgaW4gdGhlIGRlY2lzaW9uIHByb2Nlc3MgZHVlIHRvIHBoeXNpb2xvZ2ljYWwgb3IgcGF0aG9sb2dpY2FsIGRldmlhdGlvbnMuVG8gaW5pdGlhdGUgdGhlIGRldmVsb3BtZW50IG9mIHN1Y2ggQUkgYWxnb3JpdGhtcyBmb3IgZ2xhdWNvbWEgc2NyZWVuaW5nIGFuZCB0byBldmFsdWF0ZSB0aGVpciBwZXJmb3JtYW5jZSwgd2UgcHJvcG9zZSB0aGUgSnVzdGlmaWVkIFJlZmVycmFsIGluIEFJIEdsYXVjb21hIFNjcmVlbmluZyAoSnVzdFJBSUdTKSBjaGFsbGVuZ2UsIGZvciB3aGljaCB3ZSBoYXZlIHByb3ZpZGVkIGEgdW5pcXVlIGxhcmdlIGRhdGFzZXQgd2l0aCBvdmVyIDExMGsgY2FyZWZ1bGx5IGFubm90YXRlZCBmdW5kdXMgcGhvdG9ncmFwaHMgY29sbGVjdGVkIGZyb20gYWJvdXQgNjAsMDAwIHNjcmVlbmVlcy4gV2UgaGF2ZSBnZW5lcmF0ZWQgYSB0cmFpbmluZyBzdWJzZXQgd2l0aCAxMDEsNDQyIGdyYWRhYmxlIGZ1bmR1cyBpbWFnZXMgKGZyb20g4oCYcmVmZXJhYmxlIGdsYXVjb21hIOKAmGV5ZXMgYW5kIOKAmG5vIHJlZmVyYWJsZSBnbGF1Y29tYeKAmSBleWVzKSBhbmQgYSB0ZXN0IHN1YnNldCB3aXRoIDksNzQxIGZ1bmR1cyBpbWFnZXMuIEVhY2ggZnVuZHVzIHBob3RvZ3JhcGggdGh1cyBoYXMgYmVlbiBsYWJlbGVkIGFzIGVpdGhlciDigJhyZWZlcmFibGUgZ2xhdWNvbWHigJkgb3Ig4oCYbm8gcmVmZXJhYmxlIGdsYXVjb21h4oCZLiBJbiBhZGRpdGlvbiwgYWxsIGZ1bmR1cyBpbWFnZXMgb2YgcmVmZXJhYmxlIGdsYXVjb21hIGV5ZXMgaGF2ZSBiZWVuIGZ1cnRoZXIgYW5ub3RhdGVkIHdpdGggdXAgdG8gdGVuIGFkZGl0aW9uYWwgbGFiZWxzIGFzc29jaWF0ZWQgd2l0aCBkaWZmZXJlbnQgZ2xhdWNvbWF0b3VzIGZlYXR1cmVzLiBJbiB0aGlzIGNoYWxsZW5nZSwgcGFydGljaXBhbnRzIHdpbGwgYmUgdGFza2VkIHdpdGggYW5hbHl6aW5nIHRoZSBmdW5kdXMgaW1hZ2VzIGFuZCBhc3NpZ25pbmcgZWFjaCBpbWFnZSB0byBvbmUgb2YgdHdvIGNsYXNzZXM6IOKAmHJlZmVyYWJsZSBnbGF1Y29tYeKAmSBvciDigJhubyByZWZlcmFibGUgZ2xhdWNvbWHigJkuIOKAmFJlZmVyYWJsZSBnbGF1Y29tYeKAmSByZWZlcnMgdG8gZXllcyB3aGVyZSB0aGUgZnVuZHVzIGltYWdlIGV4aGliaXRzIHNpZ25zIG9yIGZlYXR1cmVzIGluZGljYXRpdmUgb2YgZ2xhdWNvbWEgdGhhdCByZXF1aXJlIGZ1cnRoZXIgZXhhbWluYXRpb24gb3IgcmVmZXJyYWwgdG8gYSBzcGVjaWFsaXN0LiBJbiB0aGlzIGNhc2UsIHZpc3VhbCBmaWVsZCBkYW1hZ2UgaXMgZXhwZWN0ZWQuIE9uIHRoZSBvdGhlciBoYW5kLCDigJhubyByZWZlcmFibGUgZ2xhdWNvbWHigJkgcmVmZXJzIHRvIGNhc2VzIHdoZXJlIHRoZSBmdW5kdXMgaW1hZ2UgZG9lcyBub3Qgc2hvdyBzaWduaWZpY2FudCBpbmRpY2F0aW9ucyBvZiBnbGF1Y29tYSBhbmQgZG9lcyBub3QgcmVxdWlyZSBpbW1lZGlhdGUgcmVmZXJyYWwuIFZlcnkgZWFybHkgZGlzZWFzZSwgaW4gd2hpY2ggdmlzdWFsIGZpZWxkIGRhbWFnZSBpcyBub3QgeWV0IGV4cGVjdGVkLCB3b3VsZCBhbHNvIGJlIGNsYXNzaWZpZWQgYXMg4oCYbm8gcmVmZXJhYmxlIGdsYXVjb21h4oCZLiBJbiBhZGRpdGlvbiB0byB0aGUgcmVmZXJhYmxlIGdsYXVjb21hIGNsYXNzaWZpY2F0aW9uLCBwYXJ0aWNpcGFudHMgd2lsbCBiZSBmdXJ0aGVyIGluc3RydWN0ZWQgdG8gcGVyZm9ybSBtdWx0aS1sYWJlbCBjbGFzc2lmaWNhdGlvbiBmb3IgdGVuIGFkZGl0aW9uYWwgZmVhdHVyZXMgcmVsYXRlZCB0byBnbGF1Y29tYS4gVGhlc2UgZmVhdHVyZXMgYXJlIHNwZWNpZmljIGNoYXJhY3RlcmlzdGljcyBvciBhYm5vcm1hbGl0aWVzIHRoYXQgbWF5IGJlIHByZXNlbnQgaW4gdGhlIGZ1bmR1cyBpbWFnZXMgb2YgZ2xhdWNvbWEgcGF0aWVudHMuIFRoZSBtdWx0aS1sYWJlbCBjbGFzc2lmaWNhdGlvbiB0YXNrIGludm9sdmVzIGFzc2lnbmluZyByZWxldmFudCBsYWJlbHMgdG8gZWFjaCBmdW5kdXMgaW1hZ2UgYmFzZWQgb24gdGhlIHByZXNlbmNlIG9yIGFic2VuY2Ugb2YgdGhlc2Ugc3BlY2lmaWMgZmVhdHVyZXMuIFRoZXNlIGFkZGl0aW9uYWwgZmVhdHVyZXMgcHJvdmlkZSBtb3JlIGRldGFpbGVkIGluZm9ybWF0aW9uIGFib3V0IHRoZSBzcGVjaWZpYyBjaGFyYWN0ZXJpc3RpY3Mgb2JzZXJ2ZWQgaW4gdGhlIGZ1bmR1cyBpbWFnZXMgb2Yg4oCYcmVmZXJhYmxlIGdsYXVjb21h4oCZIGNhc2VzLiBCeSBjb21iaW5pbmcgYm90aCB0aGUgYmluYXJ5IGNsYXNzaWZpY2F0aW9uIHRhc2sgKHJlZmVyYWJsZSB2cy4gbm8gcmVmZXJhYmxlIGdsYXVjb21hKSBhbmQgdGhlIG11bHRpLWxhYmVsIGNsYXNzaWZpY2F0aW9uIHRhc2sgKGZvciB0aGUgdGVuIGFkZGl0aW9uYWwgZmVhdHVyZXMpLCB3ZSBhaW0gdG8gZXZhbHVhdGUgdGhlIHBhcnRpY2lwYW50cycgYWJpbGl0eSB0byBhY2N1cmF0ZWx5IGlkZW50aWZ5IGFuZCBjbGFzc2lmeSBmdW5kdXMgaW1hZ2VzIGFzc29jaWF0ZWQgd2l0aCByZWZlcmFibGUgZ2xhdWNvbWEuIFRoZSByZXN1bHRzIG9mIHRoaXMgY2xhc3NpZmljYXRpb24gdGFzayBjYW4gcHJvdmlkZSBpbnNpZ2h0cyBpbnRvIHRoZSBkZXZlbG9wbWVudCBvZiBhdXRvbWF0ZWQgc3lzdGVtcyBvciBhbGdvcml0aG1zIGZvciBnbGF1Y29tYSBkZXRlY3Rpb24sIHVsdGltYXRlbHkgYXNzaXN0aW5nIGluIHRoZSBlYXJseSBpZGVudGlmaWNhdGlvbiBhbmQgdHJlYXRtZW50IG9mIGdsYXVjb21hIHBhdGllbnRzLCB0aGVyZWJ5IHJlZHVjaW5nIGF2b2lkYWJsZSB2aXN1YWwgaW1wYWlybWVudCBhbmQgYmxpbmRuZXNzIGZyb20gZ2xhdWNvbWEuPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.10687097",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 1,
+      "created": "2024-02-21T10:42:50.000Z",
+      "registered": "2024-02-21T10:42:50.000Z",
+      "published": "2024",
+      "updated": "2024-02-21T10:43:24.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.10687097",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": [
+          {
+            "id": "10.5281/zenodo.10687096",
+            "type": "dois"
+          }
+        ]
+      }
+    }
+  }
+}

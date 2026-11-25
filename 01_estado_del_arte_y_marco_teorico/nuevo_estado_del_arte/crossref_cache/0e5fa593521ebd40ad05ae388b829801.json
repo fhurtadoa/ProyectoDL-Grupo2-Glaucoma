@@ -1,0 +1,3017 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T04:38:17Z",
+      "timestamp": 1792816697973,
+      "version": "4.5.0"
+    },
+    "reference-count": 283,
+    "publisher": "MDPI AG",
+    "issue": "20",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2026-10-14T00:00:00Z",
+          "timestamp": 1791936000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2026-10-14T00:00:00Z",
+          "timestamp": 1791936000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100002383",
+        "name": "King Saud University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002383",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "id": [
+          {
+            "id": "https://ror.org/02f81g417",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. Clin. Med.",
+      "JCM"
+    ],
+    "abstract": "<jats:p>Background/Objectives: Artificial intelligence (AI) is expanding eye care beyond image-based detection toward prognosis, treatment-response prediction, monitoring, triage, and clinician-facing decision support. We evaluated AI across eye-disease screening, diagnosis, prognosis, treatment response, and decision support, emphasizing validation, explainability, and clinical readiness. Methods: This PROSPERO-registered review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. Six databases plus supplementary routes identified English-language literature published from 1 January 2015 through 10 August 2026. Included studies underwent design-mapped Joanna Briggs Institute (JBI)/adapted-JBI item-level appraisal; heterogeneity precluded meta-analysis. Results: The evidence base comprised 270 studies. Diabetic retinopathy/diabetic macular oedema was the largest clinical area (82), followed by retinal/multi-disease AI (52), glaucoma (46), and age-related macular degeneration (AMD)/macular disease (29); convolutional neural network (CNN)/convolutional deep learning was the largest primary method group (136). External validation was confirmed in 130 studies, including 95 with a clinical/geographic/prospective/real-world external-validation component (86 clinical-only and nine mixed clinical + technical); 49 had a strict direct clinical comparator and 90 used explainability. Pediatric/pediatric-relevant evidence accounted for 30 studies, while explicit optometry/optometrist involvement appeared in only three. Conclusions: Ophthalmic AI spans diagnosis through clinical management, but translation remains limited by heterogeneous outcomes, incomplete independent validation, few direct comparators, and sparse evaluation of safety, workflow effects, and patient outcomes.</jats:p>",
+    "DOI": "10.3390/jcm15207957",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2026-10-14T16:41:44Z",
+      "timestamp": 1791996104000
+    },
+    "page": "7957",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Artificial Intelligence in Eye Disease: A Systematic Review of Screening, Diagnosis, Prognosis, Treatment-Response Prediction, and Clinical Decision Support"
+    ],
+    "prefix": "10.3390",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8757-3490",
+        "authenticated-orcid": false,
+        "given": "Manal M.",
+        "family": "Alharbi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Optometry, College of Applied Medical Sciences, King Saud University, Riyadh 11433, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-0842-9534",
+        "authenticated-orcid": false,
+        "given": "Emtenan M.",
+        "family": "Alharbi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, Riyadh 11451, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alanoud Suliman",
+        "family": "Alsalamah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Optometry, College of Applied Medical Sciences, King Saud University, Riyadh 11433, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanan",
+        "family": "Asiri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Department, Prince Sultan Cardiac Center, Ministry of Defense Health Services, Riyadh 12426, Saudi Arabia"
+          },
+          {
+            "name": "Research and Innovation Institute, Ministry of Defense Health Services, Riyadh 12426, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Najla",
+        "family": "Beati",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, Riyadh 11451, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Renad",
+        "family": "AlAtawi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Medicine, King Saud University, Riyadh 11472, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0951-7287",
+        "authenticated-orcid": false,
+        "given": "Amr",
+        "family": "Arafat",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Department, Prince Sultan Cardiac Center, Ministry of Defense Health Services, Riyadh 12426, Saudi Arabia"
+          },
+          {
+            "name": "Research and Innovation Institute, Ministry of Defense Health Services, Riyadh 12426, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "100759",
+        "DOI": "10.1016/j.preteyeres.2019.04.003",
+        "article-title": "Deep learning in ophthalmology: The technical and clinical considerations",
+        "volume": "72",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1016/j.survophthal.2021.03.003",
+        "article-title": "Artificial intelligence: The unstoppable revolution in ophthalmology",
+        "volume": "67",
+        "author": "Benet",
+        "year": "2022",
+        "journal-title": "Surv. Ophthalmol."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kelly, C.J., Karthikesalingam, A., Suleyman, M., Corrado, G., and King, D. (2019). Key challenges for delivering clinical impact with artificial intelligence. BMC Med., 17.",
+        "DOI": "10.1186/s12916-019-1426-2"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "400",
+        "DOI": "10.1038/s41746-026-02627-0",
+        "article-title": "Clinical setting-dependent diagnostic accuracy of artificial intelligence and store-and-forward diabetic retinopathy screening: A systematic review and meta-analysis",
+        "volume": "9",
+        "author": "Chen",
+        "year": "2026",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kawamoto, C., Mizuki, Y., Horita, N., Kuramochi, Y., Kanasashi, S., Kawagoe, T., and Mizuki, N. (2026). Diagnostic accuracy of deep learning using ultra-widefield fundus imaging for retinal detachment: A systematic review and meta-analysis. BMC Ophthalmol., 26.",
+        "DOI": "10.1186/s12886-025-04605-8"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1007/s40123-026-01322-3",
+        "article-title": "Artificial Intelligence-Based Medical Devices for Diabetic Retinopathy Screening in the European Union",
+        "volume": "15",
+        "author": "Grzybowski",
+        "year": "2026",
+        "journal-title": "Ophthalmol. Ther."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gurnani, B., and Kaur, K. (2026). Artificial intelligence in ophthalmology: From innovation to clinical integration. Front. Ophthalmol., 6.",
+        "DOI": "10.3389/fopht.2026.1839194"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e93170",
+        "DOI": "10.2196/93170",
+        "article-title": "Rerouting Eye Care: How AI and Telemedicine Are Reshaping Ophthalmology Patient Journeys in the United Kingdom and Germany",
+        "volume": "28",
+        "author": "Poschkamp",
+        "year": "2026",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.4103/ijo.IJO_1569_22",
+        "article-title": "Artificial intelligence and machine learning in ophthalmology: A review",
+        "volume": "71",
+        "author": "Srivastava",
+        "year": "2023",
+        "journal-title": "Indian. J. Ophthalmol."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Costin, H.N., Fira, M., and Goraș, L. (2025). Artificial Intelligence in Ophthalmology: Advantages and Limits. Appl. Sci., 15.",
+        "DOI": "10.3390/app15041913"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "101374",
+        "DOI": "10.1016/j.preteyeres.2025.101374",
+        "article-title": "Artificial intelligence in ophthalmology: Progress, challenges, and ethical implications",
+        "volume": "107",
+        "author": "Savastano",
+        "year": "2025",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "n71",
+        "DOI": "10.1136/bmj.n71",
+        "article-title": "The PRISMA 2020 statement: An updated guideline for reporting systematic reviews",
+        "volume": "372",
+        "author": "Page",
+        "year": "2021",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Joanna Briggs Institute (2026, June 22). JBI Critical Appraisal Tools. Available online: https://jbi.global/critical-appraisal-tools."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tomic, M., Vrabec, R., Babic, T., Kljajic, K., and Bulum, T. (2026). Diagnostic Accuracy and Real-Life Advantages of the MONA. health Artificial Intelligence Software in Screening for Diabetic Retinopathy and Maculopathy. Diagnostics, 16.",
+        "DOI": "10.3390/diagnostics16050730"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2553543",
+        "DOI": "10.1001/jamanetworkopen.2025.53543",
+        "article-title": "Deep Learning Prediction of Childhood Myopia Progression Using Fundus Image and Refraction Data",
+        "volume": "9",
+        "author": "Kang",
+        "year": "2026",
+        "journal-title": "JAMA Netw. Open"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "100971",
+        "DOI": "10.1016/j.landig.2025.100971",
+        "article-title": "Development and validation of a deep learning model to predict visual and anatomical prognosis of anti-VEGF therapy for neovascular age-related macular degeneration (KongMing Study): A prospective, nationwide, multicentre study",
+        "volume": "8",
+        "author": "Zhao",
+        "year": "2026",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1136/bjo-2025-328172",
+        "article-title": "Artificial intelligence-based fluid quantification predicts clinical outcomes in diabetic macular oedema eyes treated with intravitreal dexamethasone implants: DIADEMA project",
+        "volume": "110",
+        "author": "Boixadera",
+        "year": "2026",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng, S., Han, R., Zhang, W., Meng, L., Gu, X., Zhao, X., and Chen, Y. (2026). Development and validation of a machine learning model to predict recurrence in polypoidal choroidal vasculopathy: A multicentre prospective study. Br. J. Ophthalmol., online ahead of print.",
+        "DOI": "10.1136/bjo-2025-328228"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "101169",
+        "DOI": "10.1016/j.xops.2026.101169",
+        "article-title": "Predicting Visual Field Loss in Glaucoma Using OCT and Deep Learning: A Comparative Study of U-Net Variants",
+        "volume": "6",
+        "author": "Ohn",
+        "year": "2026",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e106397",
+        "DOI": "10.1136/bmjopen-2025-106397",
+        "article-title": "Evaluation of non-ophthalmologist-led and offline AI-assisted models for diabetic retinopathy screening in India: A pragmatic diagnostic accuracy study",
+        "volume": "16",
+        "author": "Chauhan",
+        "year": "2026",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1258",
+        "DOI": "10.1097/IAE.0000000000004826",
+        "article-title": "Real-world practice of artificial intelligence diagnostic system for diabetic retinopathy in Taiwan",
+        "volume": "46",
+        "author": "Lin",
+        "year": "2026",
+        "journal-title": "Retina"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vilarinho da Silva Filho, G., Caiado, G.C., Yamamoto, F.Z., Teixeira, S.H., Prata, T.d.S., Gracitelli, C.P.B., and Paranhos, A. (2026). Combined diagnostic accuracy of two artificial intelligence systems for glaucoma diagnosis using color fundus photography. PLoS ONE, 21.",
+        "DOI": "10.1371/journal.pone.0349878"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Emara, A.-H.M., Alkhateeb, J.H., Atteia, G., Turani, A., Zraqou, J., Elsawaf, Z., and Jameel, A. (2026). Early prediction of diabetic retinopathy using a multimodal deep learning framework integrating fundus and OCT imaging. Front. Med., 12.",
+        "DOI": "10.3389/fmed.2025.1741146"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "43282",
+        "DOI": "10.1038/s41598-025-28376-w",
+        "article-title": "Intelligent retinal disease detection using deep learning",
+        "volume": "15",
+        "author": "Hussein",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Takahashi, H., Tampo, H., Arai, Y., Inoue, Y., and Kawashima, H. (2017). Applying artificial intelligence to disease staging: Deep learning for improved staging of diabetic retinopathy. PLoS ONE, 12.",
+        "DOI": "10.1371/journal.pone.0179790"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated Identification of Diabetic Retinopathy Using Deep Learning",
+        "volume": "124",
+        "author": "Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_29",
+        "first-page": "295",
+        "article-title": "Efficacy of automated computer-aided diagnosis of retinal nerve fibre layer defects in healthcare screening",
+        "volume": "101",
+        "author": "Han",
+        "year": "2017",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choi, J.Y., Yoo, T.K., Seo, J.G., Kwak, J., Um, T.T., and Rim, T.H. (2017). Multi-categorical deep learning neural network to classify retinal images: A pilot study employing small database. PLoS ONE, 12.",
+        "DOI": "10.1371/journal.pone.0187336"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.ogla.2018.04.002",
+        "article-title": "A Deep Learning-Based Algorithm Identifies Glaucomatous Discs Using Monoscopic Fundus Photographs",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Ophthalmol. Glaucoma"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "e35",
+        "DOI": "10.1016/S2589-7500(19)30004-4",
+        "article-title": "Artificial intelligence using deep learning to screen for referable and vision-threatening diabetic retinopathy in Africa: A clinical validation study",
+        "volume": "1",
+        "author": "Bellemo",
+        "year": "2019",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.7150/thno.28447",
+        "article-title": "Artificial intelligence-based decision-making for age-related macular degeneration",
+        "volume": "9",
+        "author": "Hwang",
+        "year": "2019",
+        "journal-title": "Theranostics"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "19857",
+        "DOI": "10.1038/s41598-019-56420-z",
+        "article-title": "Association of imaging factors derived from convolutional neural network with visual outcomes in age-related macular degeneration and polypoidal choroidal vasculopathy",
+        "volume": "9",
+        "author": "Lee",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1167/tvst.8.6.4",
+        "article-title": "Automatic Detection of Diabetic Retinopathy in Retinal Fundus Photographs Based on Deep Learning Algorithm",
+        "volume": "8",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "10750",
+        "DOI": "10.1038/s41598-019-47181-w",
+        "article-title": "Deep Learning Fundus Image Analysis for Diabetic Retinopathy and Macular Edema Grading",
+        "volume": "9",
+        "author": "Sahlsten",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development and Validation of a Deep Learning System to Detect Glaucomatous Optic Neuropathy Using Fundus Photographs",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "101695",
+        "DOI": "10.1016/j.artmed.2019.07.003",
+        "article-title": "Diabetic retinopathy detection through novel tetragonal local octa patterns and extreme learning machines",
+        "volume": "99",
+        "author": "Nazir",
+        "year": "2019",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "419",
+        "DOI": "10.2147/OPTH.S235751",
+        "article-title": "Artificial Intelligence to Identify Retinal Fundus Images, Quality Validation, Laterality Evaluation, Macular Degeneration, and Suspected Glaucoma",
+        "volume": "14",
+        "author": "Zapata",
+        "year": "2020",
+        "journal-title": "Clin. Ophthalmol."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1167/tvst.9.2.25",
+        "article-title": "Artificial Intelligence to Stratify Severity of Age-Related Macular Degeneration (AMD) and Predict Risk of Progression to Late AMD",
+        "volume": "9",
+        "author": "Bhuiyan",
+        "year": "2020",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "e001596",
+        "DOI": "10.1136/bmjdrc-2020-001596",
+        "article-title": "Artificial intelligence-enabled screening for diabetic retinopathy: A real-world, multicenter and prospective study",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "BMJ Open Diabetes Res. Care"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karakaya, M., and Hacisoftaoglu, R.E. (2020). Comparison of smartphone-based retinal imaging systems for diabetic retinopathy detection using deep learning. BMC Bioinform., 21.",
+        "DOI": "10.1186/s12859-020-03587-2"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, K.E., Kim, J.M., Song, J.E., Kee, C., Han, J.C., and Hyun, S.H. (2020). Development and Validation of a Deep Learning System for Diagnosing Glaucoma Using Optical Coherence Tomography. J. Clin. Med., 9.",
+        "DOI": "10.3390/jcm9072167"
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1167/tvst.9.2.44",
+        "article-title": "Evidence Based Prediction and Progression Monitoring on Retinal Images from Three Nations",
+        "volume": "9",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1038/s41746-020-00317-z",
+        "article-title": "Predicting risk of late age-related macular degeneration using deep learning",
+        "volume": "3",
+        "author": "Peng",
+        "year": "2020",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "6651175",
+        "DOI": "10.1155/2021/6651175",
+        "article-title": "Accuracy of Diabetic Retinopathy Staging with a Deep Convolutional Neural Network Using Ultra-Wide-Field Fundus Ophthalmoscopy and Optical Coherence Tomography Angiography",
+        "volume": "2021",
+        "author": "Nagasawa",
+        "year": "2021",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "2751695",
+        "DOI": "10.1155/2021/2751695",
+        "article-title": "Data Homogeneity Effect in Deep Learning-Based Prediction of Type 1 Diabetic Retinopathy",
+        "volume": "2021",
+        "author": "Lo",
+        "year": "2021",
+        "journal-title": "J. Diabetes Res."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "21663",
+        "DOI": "10.1038/s41598-021-00622-x",
+        "article-title": "Deep learning models for screening of high myopia using optical coherence tomography",
+        "volume": "11",
+        "author": "Choi",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nazir, T., Nawaz, M., Rashid, J., Mahum, R., Masood, M., Mehmood, A., Ali, F., Kim, J., Kwon, H.-Y., and Hussain, A. (2021). Detection of Diabetic Eye Disease from Retinal Images Using a Deep Learning Based CenterNet Model. Sensors, 21.",
+        "DOI": "10.3390/s21165283"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1097",
+        "DOI": "10.1016/j.oret.2021.01.013",
+        "article-title": "Detection of Diabetic Retinopathy from Ultra-Widefield Scanning Laser Ophthalmoscope Images: A Multicenter Deep Learning Analysis",
+        "volume": "5",
+        "author": "Tang",
+        "year": "2021",
+        "journal-title": "Ophthalmol. Retina"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajagopalan, N., N, V., Josephraj, A.N., and E, S. (2021). Diagnosis of retinal disorders from Optical Coherence Tomography images using CNN. PLoS ONE, 16.",
+        "DOI": "10.1371/journal.pone.0254180"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1167/tvst.10.13.17",
+        "article-title": "In-Person Verification of Deep Learning Algorithm for Diabetic Retinopathy Screening Using Different Techniques Across Fundus Image Devices",
+        "volume": "10",
+        "author": "Wongchaisuwat",
+        "year": "2021",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yaqoob, M.K., Ali, S.F., Bilal, M., Hanif, M.S., and Al-Saggaf, U.M. (2021). ResNet Based Deep Features and Random Forest Classifier for Diabetic Retinopathy Detection. Sensors, 21.",
+        "DOI": "10.3390/s21113883"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baget-Bernaldiz, M., Pedro, R.-A., Santos-Blanco, E., Navarro-Gil, R., Valls, A., Moreno, A., Rashwan, H.A., and Puig, D. (2021). Testing a Deep Learning Algorithm for Detection of Diabetic Retinopathy in a Spanish Diabetic Population and with MESSIDOR Database. Diagnostics, 11.",
+        "DOI": "10.3390/diagnostics11081385"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "23631",
+        "DOI": "10.1038/s41598-021-02834-7",
+        "article-title": "Weakly Supervised Sensitive Heatmap framework to classify and localize diabetic retinopathy lesions",
+        "volume": "11",
+        "author": "Morad",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "705",
+        "DOI": "10.1007/s00347-021-01556-5",
+        "article-title": "Use of artificial intelligence in screening for diabetic retinopathy at a tertiary diabetes center",
+        "volume": "119",
+        "author": "Paul",
+        "year": "2022",
+        "journal-title": "Die Ophthalmol."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "620",
+        "DOI": "10.18240/ijo.2022.04.16",
+        "article-title": "A new handheld fundus camera combined with visual artificial intelligence facilitates diabetic retinopathy screening",
+        "volume": "15",
+        "author": "Ruan",
+        "year": "2022",
+        "journal-title": "Int. J. Ophthalmol."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai, J., Wan, Z., Li, P., Chen, L., Wang, J., Fan, Y., Chen, X., Peng, Q., and Gao, P. (2022). Accuracy and feasibility with AI-assisted OCT in retinal disorder community screening. Front. Cell Dev. Biol., 10.",
+        "DOI": "10.3389/fcell.2022.1053483"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nawaz, M., Nazir, T., Javed, A., Tariq, U., Yong, H.-S., Khan, M.A., and Cha, J. (2022). An Efficient Deep Learning Approach to Automatic Glaucoma Detection Using Optic Disc and Optic Cup Localization. Sensors, 22.",
+        "DOI": "10.3390/s22020434"
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1109/OJEMB.2022.3192780",
+        "article-title": "Artificial Intelligence-Based Teleopthalmology Application for Diagnosis of Diabetics Retinopathy",
+        "volume": "3",
+        "author": "Ghouali",
+        "year": "2022",
+        "journal-title": "IEEE Open J. Eng. Med. Biol."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, T., Zhou, Q., and Zou, Y. (2022). Automatic Detection of Age-Related Macular Degeneration Based on Deep Learning and Local Outlier Factor Algorithm. Diagnostics, 12.",
+        "DOI": "10.3390/diagnostics12020532"
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "13975",
+        "DOI": "10.1038/s41598-022-18206-8",
+        "article-title": "Automatic detection of microaneurysms in optical coherence tomography images of retina using convolutional neural networks and transfer learning",
+        "volume": "12",
+        "author": "Almasi",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tokuda, Y., Tabuchi, H., Nagasawa, T., Tanabe, M., Deguchi, H., Yoshizumi, Y., Ohara, Z., and Takahashi, H. (2022). Automatic Diagnosis of Diabetic Retinopathy Stage Focusing Exclusively on Retinal Hemorrhage. Medicina, 58.",
+        "DOI": "10.3390/medicina58111681"
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hao, S., Liu, C., Li, N., Wu, Y., Li, D., Gao, Q., Yuan, Z., Li, G., Li, H., and Yang, J. (2022). Clinical evaluation of AI-assisted screening for diabetic retinopathy in rural areas of midwest China. PLoS ONE, 17.",
+        "DOI": "10.1371/journal.pone.0275983"
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "2217",
+        "DOI": "10.1007/s00417-022-05565-1",
+        "article-title": "Clinically applicable deep learning-based decision aids for treatment of neovascular AMD",
+        "volume": "260",
+        "author": "Gutfleisch",
+        "year": "2022",
+        "journal-title": "Graefes Arch. Clin. Exp. Ophthalmol."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berenguer-Vidal, R., Verdú-Monedero, R., Morales-Sánchez, J., Sellés-Navarro, I., Kovalyk, O., and Sancho-Gómez, J.-L. (2022). Decision Trees for Glaucoma Screening Based on the Asymmetry of the Retinal Nerve Fiber Layer in Optical Coherence Tomography. Sensors, 22.",
+        "DOI": "10.3390/s22134842"
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhimavarapu, U., and Battineni, G. (2022). Deep Learning for the Detection and Classification of Diabetic Retinopathy with an Improved Activation Function. Healthcare, 11.",
+        "DOI": "10.3390/healthcare11010097"
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alryalat, S.A., Al-Antary, M., Arafa, Y., Azad, B., Boldyreff, C., Ghnaimat, T., Al-Antary, N., Alfegi, S., Elfalah, M., and Abu-Ameerh, M. (2022). Deep Learning Prediction of Response to Anti-VEGF among Diabetic Macular Edema Patients: Treatment Response Analyzer System (TRAS). Diagnostics, 12.",
+        "DOI": "10.3390/diagnostics12020312"
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mondal, S.S., Mandal, N., Singh, K.K., Singh, A., and Izonin, I. (2022). EDLDR: An Ensemble Deep Learning Technique for Detection and Classification of Diabetic Retinopathy. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13010124"
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nunez do Rio, J.M., Nderitu, P., Bergeles, C., Sivaprasad, S., Tan, G.S.W., and Raman, R. (2022). Evaluating a Deep Learning Diabetic Retinopathy Grading System Developed on Mydriatic Retinal Images When Applied to Non-Mydriatic Community Screening. J. Clin. Med., 11.",
+        "DOI": "10.3390/jcm11030614"
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "1401",
+        "DOI": "10.1177/19322968211042665",
+        "article-title": "Evaluation of a New Neural Network Classifier for Diabetic Retinopathy",
+        "volume": "16",
+        "author": "Katz",
+        "year": "2022",
+        "journal-title": "J. Diabetes Sci. Technol."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "100158",
+        "DOI": "10.1016/j.xops.2022.100158",
+        "article-title": "EyeScreen: Development and Potential of a Novel Machine Learning Application to Detect Leukocoria",
+        "volume": "2",
+        "author": "Bernard",
+        "year": "2022",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "8064",
+        "DOI": "10.1038/s41598-022-12147-y",
+        "article-title": "Glaucoma diagnosis using multi-feature analysis and a deep learning technique",
+        "volume": "12",
+        "author": "Akter",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_74",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.4274/tjo.galenos.2021.29726",
+        "article-title": "Investigation of the Role of Convolutional Neural Network Architectures in the Diagnosis of Glaucoma using Color Fundus Photography",
+        "volume": "52",
+        "author": "Atalay",
+        "year": "2022",
+        "journal-title": "Turk. J. Ophthalmol."
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, G., Sun, B., Zhang, Z., Pan, J., Yang, W., and Liu, Y. (2022). Multi-Model Domain Adaptation for Diabetic Retinopathy Classification. Front. Physiol., 13.",
+        "DOI": "10.3389/fphys.2022.918929"
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "1088",
+        "DOI": "10.21037/atm-22-350",
+        "article-title": "Performance of the AIDRScreening system in detecting diabetic retinopathy in the fundus photographs of Chinese patients: A prospective, multicenter, clinical study",
+        "volume": "10",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Ann. Transl. Med."
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almansour, A., Alawad, M., Aljouie, A., Almatar, H., Qureshi, W., Alabdulkader, B., Alkanhal, N., Abdul, W., Almufarrej, M., and Gangadharan, S. (2022). Peripapillary atrophy classification using CNN deep learning for glaucoma screening. PLoS ONE, 17.",
+        "DOI": "10.1371/journal.pone.0275446"
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "15565",
+        "DOI": "10.1038/s41598-022-19413-z",
+        "article-title": "Prediction of visual function from automatically quantified optical coherence tomography biomarkers in patients with geographic atrophy using machine learning",
+        "volume": "12",
+        "author": "Balaskas",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_79",
+        "first-page": "25",
+        "article-title": "Prediction of Visual Outcomes After Diabetic Vitrectomy Using Clinical Factors From Common Data Warehouse",
+        "volume": "11",
+        "author": "Lee",
+        "year": "2022",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "first-page": "e235",
+        "DOI": "10.1016/S2589-7500(22)00017-6",
+        "article-title": "Real-time diabetic retinopathy screening by deep learning in a multisite national screening programme: A prospective interventional cohort study",
+        "volume": "4",
+        "author": "Ruamviboonsuk",
+        "year": "2022",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, S., Lu, B., Wang, C., Wu, M., Zheng, B., Jiang, Q., Wei, R., Cao, Q., and Yang, W. (2022). Screening of Common Retinal Diseases Using Six-Category Models Based on EfficientNet. Front. Med., 9.",
+        "DOI": "10.3389/fmed.2022.808402"
+      },
+      {
+        "key": "ref_82",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1038/s41746-023-00857-0",
+        "article-title": "A generalizable deep learning regression model for automated glaucoma screening from fundus images",
+        "volume": "6",
+        "author": "Hemelings",
+        "year": "2023",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tăbăcaru, G., Moldovanu, S., Răducan, E., and Barbu, M. (2023). A Robust Machine Learning Model for Diabetic Retinopathy Classification. J. Imaging, 10.",
+        "DOI": "10.3390/jimaging10010008"
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1136/bjophthalmol-2021-319030",
+        "article-title": "Accuracy of automated machine learning in classifying retinal pathologies from ultra-widefield pseudocolour fundus images",
+        "volume": "107",
+        "author": "Antaki",
+        "year": "2023",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "5934",
+        "DOI": "10.1038/s41598-023-32518-3",
+        "article-title": "An interpretable and interactive deep learning algorithm for a clinically applicable retinal fundus diagnosis system by modelling finding-disease relationship",
+        "volume": "13",
+        "author": "Son",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2251512",
+        "DOI": "10.1001/jamanetworkopen.2022.51512",
+        "article-title": "Assessment of Retinopathy of Prematurity Regression and Reactivation Using an Artificial Intelligence-Based Vascular Severity Score",
+        "volume": "6",
+        "author": "Eilts",
+        "year": "2023",
+        "journal-title": "JAMA Netw. Open"
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J.-Z., Lu, N.-H., Du, W.-C., Liu, K.-Y., Hsu, S.-Y., Wang, C.-Y., Chen, Y.-J., Chang, L.-C., Twan, W.-H., and Chen, T.-B. (2023). Classification of Color Fundus Photographs Using Fusion Extracted Features and Customized CNN Models. Healthcare, 11.",
+        "DOI": "10.3390/healthcare11152228"
+      },
+      {
+        "key": "ref_88",
+        "doi-asserted-by": "crossref",
+        "first-page": "6047",
+        "DOI": "10.1038/s41598-023-33365-y",
+        "article-title": "Contrastive learning-based pretraining improves representation and transferability of diabetic retinopathy classification models",
+        "volume": "13",
+        "author": "Alam",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_89",
+        "doi-asserted-by": "crossref",
+        "first-page": "9165",
+        "DOI": "10.1038/s41598-023-36327-6",
+        "article-title": "Deep learning for automated detection of neovascular leakage on ultra-widefield fluorescein angiography in diabetic retinopathy",
+        "volume": "13",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_90",
+        "doi-asserted-by": "crossref",
+        "first-page": "1479",
+        "DOI": "10.1038/s41598-023-28680-3",
+        "article-title": "Deep learning-based hemorrhage detection for diabetic retinopathy screening",
+        "volume": "13",
+        "author": "Aziz",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_91",
+        "doi-asserted-by": "crossref",
+        "first-page": "14462",
+        "DOI": "10.1038/s41598-023-41797-9",
+        "article-title": "Deploying efficient net batch normalizations (BNs) for grading diabetic retinopathy severity levels from fundus images",
+        "volume": "13",
+        "author": "Batool",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sundaram, S., Selvamani, M., Raju, S.K., Ramaswamy, S., Islam, S., Cha, J.-H., Almujally, N.A., and Elaraby, A. (2023). Diabetic Retinopathy and Diabetic Macular Edema Detection Using Ensemble Based Convolutional Neural Networks. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13051001"
+      },
+      {
+        "key": "ref_93",
+        "doi-asserted-by": "crossref",
+        "first-page": "582",
+        "DOI": "10.1001/jamaophthalmol.2023.1466",
+        "article-title": "Efficacy of Smartphone-Based Telescreening for Retinopathy of Prematurity With and Without Artificial Intelligence in India",
+        "volume": "141",
+        "author": "Young",
+        "year": "2023",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_94",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hassan, E., Elmougy, S., Ibraheem, M.R., Hossain, M.S., AlMutib, K., Ghoneim, A., AlQahtani, S.A., and Talaat, F.M. (2023). Enhanced Deep Learning Model for Classification of Retinal Optical Coherence Tomography Images. Sensors, 23.",
+        "DOI": "10.3390/s23125393"
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akinniyi, O., Rahman, M.M., Sandhu, H.S., El-Baz, A., and Khalifa, F. (2023). Multi-Stage Classification of Retinal OCT Using Multi-Scale Ensemble Deep Architecture. Bioengineering, 10.",
+        "DOI": "10.3390/bioengineering10070823"
+      },
+      {
+        "key": "ref_96",
+        "doi-asserted-by": "crossref",
+        "first-page": "100259",
+        "DOI": "10.1016/j.xops.2022.100259",
+        "article-title": "Radiomics-Based Assessment of OCT Angiography Images for Diabetic Retinopathy Diagnosis",
+        "volume": "3",
+        "author": "Benali",
+        "year": "2023",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bashir, I., Sajid, M.Z., Kalsoom, R., Ali Khan, N., Qureshi, I., Abbas, F., and Abbas, Q. (2023). RDS-DR: An Improved Deep Learning Model for Classifying Severity Levels of Diabetic Retinopathy. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13193116"
+      },
+      {
+        "key": "ref_98",
+        "doi-asserted-by": "crossref",
+        "first-page": "e001491",
+        "DOI": "10.1136/bmjophth-2023-001491",
+        "article-title": "Real-world evaluation of smartphone-based artificial intelligence to screen for diabetic retinopathy in Dominica: A clinical validation study",
+        "volume": "8",
+        "author": "Kemp",
+        "year": "2023",
+        "journal-title": "BMJ Open Ophthalmol."
+      },
+      {
+        "key": "ref_99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alam, M., Zhao, E.J., Lam, C.K., and Rubin, D.L. (2023). Segmentation-Assisted Fully Convolutional Neural Network Enhances Deep Learning Performance to Identify Proliferative Diabetic Retinopathy. J. Clin. Med., 12.",
+        "DOI": "10.3390/jcm12010385"
+      },
+      {
+        "key": "ref_100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohanty, C., Mahapatra, S., Acharya, B., Kokkoras, F., Gerogiannis, V.C., Karamitsos, I., and Kanavos, A. (2023). Using Deep Learning Architectures for Detection and Classification of Diabetic Retinopathy. Sensors, 23.",
+        "DOI": "10.3390/s23125726"
+      },
+      {
+        "key": "ref_101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Agboola, H.A., and Zaccheus, J.E. (2023). Wavelet image scattering based glaucoma detection. BMC Biomed. Eng., 5.",
+        "DOI": "10.1186/s42490-023-00067-5"
+      },
+      {
+        "key": "ref_102",
+        "doi-asserted-by": "crossref",
+        "first-page": "19013",
+        "DOI": "10.1038/s41598-023-46200-1",
+        "article-title": "Wavelet scattering transform application in classification of retinal abnormalities using OCT images",
+        "volume": "13",
+        "author": "Baharlouei",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "first-page": "454",
+        "DOI": "10.1097/WNO.0000000000002223",
+        "article-title": "A Deep Learning Approach for Accurate Discrimination Between Optic Disc Drusen and Papilledema on Fundus Photographs",
+        "volume": "44",
+        "author": "Sathianvichitr",
+        "year": "2024",
+        "journal-title": "J. Neuroophthalmol."
+      },
+      {
+        "key": "ref_104",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aljohani, A., and Aburasain, R.Y. (2024). A hybrid framework for glaucoma detection through federated machine learning and deep learning models. BMC Med. Inform. Decis. Mak., 24.",
+        "DOI": "10.1186/s12911-024-02518-y"
+      },
+      {
+        "key": "ref_105",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Riotto, E., Gasser, S., Potic, J., Sherif, M., Stappler, T., Schlingemann, R., Wolfensberger, T., and Konstantinidis, L. (2024). Accuracy of Autonomous Artificial Intelligence-Based Diabetic Retinopathy Screening in Real-Life Clinical Practice. J. Clin. Med., 13.",
+        "DOI": "10.3390/jcm13164776"
+      },
+      {
+        "key": "ref_106",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1186/s13098-024-01447-0",
+        "article-title": "Advancing healthcare with artificial intelligence: Diagnostic accuracy of machine learning algorithm in diagnosis of diabetic retinopathy in the Brazilian population",
+        "volume": "16",
+        "author": "Schneiders",
+        "year": "2024",
+        "journal-title": "Diabetol. Metab. Syndr."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baget-Bernaldiz, M., Fontoba-Poveda, B., Romero-Aroca, P., Navarro-Gil, R., Hernando-Comerma, A., Bautista-Perez, A., Llagostera-Serra, M., Morente-Lorenzo, C., Vizcarro, M., and Mira-Puerto, A. (2024). Artificial Intelligence-Based Screening System for Diabetic Retinopathy in Primary Care. Diagnostics, 14.",
+        "DOI": "10.3390/diagnostics14171992"
+      },
+      {
+        "key": "ref_108",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, T., Bai, Y., Mao, H., Liu, S., Xu, K., Xiong, Z., Ma, S., Yang, F., and Zhao, Y. (2024). Cross-modality transfer learning with knowledge infusion for diabetic retinopathy grading. Front. Med., 11.",
+        "DOI": "10.3389/fmed.2024.1400137"
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1167/tvst.13.1.23",
+        "article-title": "Deep Learning Identifies High-Quality Fundus Photographs and Increases Accuracy in Automated Primary Open Angle Glaucoma Detection",
+        "volume": "13",
+        "author": "Chuter",
+        "year": "2024",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_110",
+        "doi-asserted-by": "crossref",
+        "first-page": "1073",
+        "DOI": "10.1001/jamaophthalmol.2024.4269",
+        "article-title": "Deep Learning to Discriminate Arteritic From Nonarteritic Ischemic Optic Neuropathy on Color Images",
+        "volume": "142",
+        "author": "Gungor",
+        "year": "2024",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_111",
+        "doi-asserted-by": "crossref",
+        "first-page": "e41065",
+        "DOI": "10.2196/41065",
+        "article-title": "Development and External Validation of Machine Learning Models for Diabetic Microvascular Complications: Cross-Sectional Study with Metabolites",
+        "volume": "26",
+        "author": "He",
+        "year": "2024",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "key": "ref_112",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alenezi, A., Alhamad, H., Brindhaban, A., Amizadeh, Y., Jodeiri, A., and Danishvar, S. (2024). Enhancing Readability and Detection of Age-Related Macular Degeneration Using Optical Coherence Tomography Imaging: An AI Approach. Bioengineering, 11.",
+        "DOI": "10.3390/bioengineering11040300"
+      },
+      {
+        "key": "ref_113",
+        "doi-asserted-by": "crossref",
+        "unstructured": "AlRyalat, S.A., Musleh, A.M., and Kahook, M.Y. (2024). Evaluating the strengths and limitations of multimodal ChatGPT-4 in detecting glaucoma using fundus images. Front. Ophthalmol., 4.",
+        "DOI": "10.3389/fopht.2024.1387190"
+      },
+      {
+        "key": "ref_114",
+        "doi-asserted-by": "crossref",
+        "first-page": "100470",
+        "DOI": "10.1016/j.xops.2024.100470",
+        "article-title": "Performance of Automated Machine Learning in Predicting Outcomes of Pneumatic Retinopexy",
+        "volume": "4",
+        "author": "Nisanova",
+        "year": "2024",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Romero-Aroca, P., Verges, R., Pascual-Fontanilles, J., Valls, A., Franch-Nadal, J., Mundet, X., Moreno, A., Basora, J., Garcia-Curto, E., and Baget-Bernaldiz, M. (2024). Referable Diabetic Retinopathy Prediction Algorithm Applied to a Population of 120,389 Type 2 Diabetics over 11 Years Follow-Up. Diagnostics, 14.",
+        "DOI": "10.3390/diagnostics14080833"
+      },
+      {
+        "key": "ref_116",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, T.D., Le, D.-T., Bum, J., Kim, S., Song, S.J., and Choo, H. (2024). Retinal Disease Diagnosis Using Deep Learning on Ultra-Wide-Field Fundus Images. Diagnostics, 14.",
+        "DOI": "10.3390/diagnostics14010105"
+      },
+      {
+        "key": "ref_117",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1038/s41746-024-01018-7",
+        "article-title": "Translating color fundus photography to indocyanine green angiography using deep-learning for age-related macular degeneration screening",
+        "volume": "7",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_118",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1167/iovs.65.11.16",
+        "article-title": "Using Multi-Layer Perceptron Driven Diagnosis to Compare Biomarkers for Primary Open Angle Glaucoma",
+        "volume": "65",
+        "author": "Riina",
+        "year": "2024",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_119",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, J., Jing, E., and Chai, Y. (2025). A deep learning model integrating domain-specific features for enhanced glaucoma diagnosis. BMC Med. Inform. Decis. Mak., 25.",
+        "DOI": "10.1186/s12911-025-02925-9"
+      },
+      {
+        "key": "ref_120",
+        "doi-asserted-by": "crossref",
+        "first-page": "3103",
+        "DOI": "10.2147/OPTH.S517238",
+        "article-title": "Assessing the Diagnostic Capabilities of ChatGPT-4 Omni in Grading Diabetic Retinopathy Fundoscopy Using Color Fundus Photographs",
+        "volume": "19",
+        "author": "Chetla",
+        "year": "2025",
+        "journal-title": "Clin. Ophthalmol."
+      },
+      {
+        "key": "ref_121",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Şevik, U.U., and Mutlu, O. (2025). Automated Multi-Class Classification of Retinal Pathologies: A Deep Learning Approach to Unified Ophthalmic Screening. Diagnostics, 15.",
+        "DOI": "10.3390/diagnostics15212745"
+      },
+      {
+        "key": "ref_122",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Armada-Maresca, F., Capote-Díaz, M., Cidad-Betegón, M.D.P., Cordero-Ros, R.M., Martínez-Godoy, L., Vázquez-Colomo, P., Laín-Olia, B., Songel-Sanchís, B., Caminos-Melguizo, A., and Baoud Ould Haddi, I. (2025). Clinical performance of an interactive platform based on artificial intelligence in ophthalmology: Experience in a third-level reference center. Front. Med., 12.",
+        "DOI": "10.3389/fmed.2025.1593556"
+      },
+      {
+        "key": "ref_123",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1167/tvst.14.9.16",
+        "article-title": "Code-Free Machine Learning for the Detection of Common Ophthalmic Diseases",
+        "volume": "14",
+        "author": "Lin",
+        "year": "2025",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_124",
+        "doi-asserted-by": "crossref",
+        "first-page": "100592",
+        "DOI": "10.1016/j.xops.2024.100592",
+        "article-title": "Comparison of Machine Learning Models to a Novel Score in the Identification of Patients at Low Risk for Diabetic Retinopathy",
+        "volume": "5",
+        "author": "Luong",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_125",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1111/aos.17591",
+        "article-title": "Customizing AI-based screening with real-world data: Practical insights from diabetic retinopathy",
+        "volume": "104",
+        "author": "Poschkamp",
+        "year": "2026",
+        "journal-title": "Acta Ophthalmol."
+      },
+      {
+        "key": "ref_126",
+        "doi-asserted-by": "crossref",
+        "first-page": "39594",
+        "DOI": "10.1038/s41598-025-23234-1",
+        "article-title": "D-TNet: A hybrid Dense Net-transformer model for robust diabetic retinopathy detection",
+        "volume": "15",
+        "author": "Sekar",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_127",
+        "doi-asserted-by": "crossref",
+        "first-page": "1025",
+        "DOI": "10.1007/s40123-025-01125-y",
+        "article-title": "Deep-Learning-Assisted Analysis of Early Biomarker Changes in Treatment-Naïve Patients with Neovascular AMD Under Intravitreal Faricimab",
+        "volume": "14",
+        "author": "Hafner",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Ther."
+      },
+      {
+        "key": "ref_128",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1007/s40123-024-01049-z",
+        "article-title": "Diagnostic Accuracy of Automated Diabetic Retinopathy Image Assessment Software: IDx-DR and RetCAD",
+        "volume": "14",
+        "author": "Grzybowski",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Ther."
+      },
+      {
+        "key": "ref_129",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gu, X., Zhou, Y., Zhao, J., Zhang, H., Pan, X., Li, B., Zhang, B., Wang, Y., Xia, S., and Lin, H. (2025). Diagnostic performance and generalizability of deep learning for multiple retinal diseases using bimodal imaging of fundus photography and optical coherence tomography. Front. Cell Dev. Biol., 13, Correction in Front. Cell Dev. Biol. 2026, 14, 1813162.",
+        "DOI": "10.3389/fcell.2025.1665173"
+      },
+      {
+        "key": "ref_130",
+        "doi-asserted-by": "crossref",
+        "first-page": "2819",
+        "DOI": "10.1007/s40123-025-01239-3",
+        "article-title": "Early Outcome Analysis of Intravitreal Aflibercept 8 mg Treatment in Naïve Patients with Neovascular Age-Related Macular Degeneration Using Artificial Intelligence",
+        "volume": "14",
+        "author": "Bartolomeo",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Ther."
+      },
+      {
+        "key": "ref_131",
+        "doi-asserted-by": "crossref",
+        "first-page": "19298",
+        "DOI": "10.1038/s41598-025-04503-5",
+        "article-title": "Ensemble-based eye disease detection system utilizing fundus and vascular structures",
+        "volume": "15",
+        "author": "Yu",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_132",
+        "doi-asserted-by": "crossref",
+        "first-page": "477",
+        "DOI": "10.1038/s41746-025-01884-9",
+        "article-title": "Equity-enhanced glaucoma progression prediction from OCT with knowledge distillation",
+        "volume": "8",
+        "author": "Afolabi",
+        "year": "2025",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_133",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alsohemi, R., and Dardouri, S. (2025). Fundus Image-Based Eye Disease Detection Using EfficientNetB3 Architecture. J. Imaging, 11.",
+        "DOI": "10.3390/jimaging11080279"
+      },
+      {
+        "key": "ref_134",
+        "doi-asserted-by": "crossref",
+        "first-page": "100667",
+        "DOI": "10.1016/j.xops.2024.100667",
+        "article-title": "Glaucoma Detection and Feature Identification via GPT-4V Fundus Image Analysis",
+        "volume": "5",
+        "author": "Jalili",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_135",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akter, N., Gordon, J., Li, S., Poon, M., Perry, S., Fletcher, J., Chan, T., White, A., and Roy, M. (2025). Glaucoma detection and staging from visual field images using machine learning techniques. PLoS ONE, 20.",
+        "DOI": "10.1371/journal.pone.0316919"
+      },
+      {
+        "key": "ref_136",
+        "doi-asserted-by": "crossref",
+        "first-page": "38536",
+        "DOI": "10.1038/s41598-025-20990-y",
+        "article-title": "Leveraging fundus images for on device eye disease diagnosis with AI powered lightweight software hardware framework",
+        "volume": "15",
+        "author": "Thaware",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_137",
+        "doi-asserted-by": "crossref",
+        "first-page": "30469",
+        "DOI": "10.1038/s41598-025-16415-5",
+        "article-title": "Multi-stage framework using transformer models, feature fusion and ensemble learning for enhancing eye disease classification",
+        "volume": "15",
+        "author": "AlMohimeed",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_138",
+        "doi-asserted-by": "crossref",
+        "first-page": "1173",
+        "DOI": "10.2147/IJGM.S507100",
+        "article-title": "Practical Applications of Artificial Intelligence Diagnostic Systems in Fundus Retinal Disease Screening",
+        "volume": "18",
+        "author": "Wei",
+        "year": "2025",
+        "journal-title": "Int. J. Gen. Med."
+      },
+      {
+        "key": "ref_139",
+        "doi-asserted-by": "crossref",
+        "first-page": "5685",
+        "DOI": "10.1038/s41598-025-89557-1",
+        "article-title": "Predicting visual field global and local parameters from OCT measurements using explainable machine learning",
+        "volume": "15",
+        "author": "Hasan",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_140",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, J., Han, B.S., Ha, J.E., Park, M.S., Kwon, S., and Cho, B.-J. (2025). Prediction of the Cause of Fundus-Obscuring Vitreous Hemorrhage Using Machine Learning. Diagnostics, 15.",
+        "DOI": "10.3390/diagnostics15030371"
+      },
+      {
+        "key": "ref_141",
+        "doi-asserted-by": "crossref",
+        "first-page": "1147",
+        "DOI": "10.1007/s40123-025-01116-z",
+        "article-title": "Validation of a Deep Learning Model for Diabetic Retinopathy on Patients with Young-Onset Diabetes",
+        "volume": "14",
+        "author": "Praveen",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Ther."
+      },
+      {
+        "key": "ref_142",
+        "doi-asserted-by": "crossref",
+        "first-page": "2554",
+        "DOI": "10.1038/s41598-025-85752-2",
+        "article-title": "Visual impairment prevention by early detection of diabetic retinopathy based on stacked auto-encoder",
+        "volume": "15",
+        "author": "Almas",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_143",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, B., Wang, D., Zhang, R., Hou, J., Liu, W., Wu, Y., Yang, X., and Zhang, L. (2025). WaveAttention-ResNet: A deep learning-based intelligent diagnostic model for the auxiliary diagnosis of multiple retinal diseases. Front. Radiol., 5.",
+        "DOI": "10.3389/fradi.2025.1608052"
+      },
+      {
+        "key": "ref_144",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1167/tvst.8.6.23",
+        "article-title": "Deep Learning Algorithm for Automated Diagnosis of Retinopathy of Prematurity Plus Disease",
+        "volume": "8",
+        "author": "Tan",
+        "year": "2019",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_145",
+        "first-page": "1691064",
+        "article-title": "Prediction of Causative Genes in Inherited Retinal Disorders from Spectral-Domain Optical Coherence Tomography Utilizing Deep Learning Techniques",
+        "volume": "2019",
+        "author": "Pontikos",
+        "year": "2019",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "ref_146",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1186/s40662-020-00206-2",
+        "article-title": "Automated identification of retinopathy of prematurity by image-based deep learning",
+        "volume": "7",
+        "author": "Tong",
+        "year": "2020",
+        "journal-title": "Eye Vis."
+      },
+      {
+        "key": "ref_147",
+        "doi-asserted-by": "crossref",
+        "first-page": "1272",
+        "DOI": "10.1136/bjophthalmol-2020-318544",
+        "article-title": "Prediction of causative genes in inherited retinal disorder from fundus photography and autofluorescence imaging using deep learning techniques",
+        "volume": "105",
+        "author": "Ninomiya",
+        "year": "2021",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_148",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, X., Lee, S.J., Kim, C.Z., and Choi, S.H. (2022). An improved strabismus screening method with combination of meta-learning and image processing under data scarcity. PLoS ONE, 17.",
+        "DOI": "10.1371/journal.pone.0269365"
+      },
+      {
+        "key": "ref_149",
+        "doi-asserted-by": "crossref",
+        "first-page": "100600",
+        "DOI": "10.1016/j.xops.2024.100600",
+        "article-title": "Analysis of ChatGPT Responses to Ophthalmic Cases: Can ChatGPT Think like an Ophthalmologist?",
+        "volume": "5",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_150",
+        "first-page": "e62471",
+        "article-title": "Artificial Versus Human Intelligence in the Diagnostic Approach of Ophthalmic Case Scenarios: A Qualitative Evaluation of Performance and Consistency",
+        "volume": "16",
+        "author": "Mandalos",
+        "year": "2024",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "ref_151",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1097/WNO.0000000000002274",
+        "article-title": "ChatGPT Assisting Diagnosis of Neuro-Ophthalmology Diseases Based on Case Reports",
+        "volume": "45",
+        "author": "Madadi",
+        "year": "2025",
+        "journal-title": "J. Neuroophthalmol."
+      },
+      {
+        "key": "ref_152",
+        "doi-asserted-by": "crossref",
+        "first-page": "e59867",
+        "DOI": "10.2196/59867",
+        "article-title": "Implementation of Artificial Intelligence-Based Diabetic Retinopathy Screening in a Tertiary Care Hospital in Quebec: Prospective Validation Study",
+        "volume": "9",
+        "author": "Antaki",
+        "year": "2024",
+        "journal-title": "JMIR Diabetes"
+      },
+      {
+        "key": "ref_153",
+        "doi-asserted-by": "crossref",
+        "first-page": "e60226",
+        "DOI": "10.2196/60226",
+        "article-title": "Performance of ChatGPT in Ophthalmic Registration and Clinical Diagnosis: Cross-Sectional Study",
+        "volume": "26",
+        "author": "Ming",
+        "year": "2024",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "key": "ref_154",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1167/tvst.13.5.17",
+        "article-title": "Prediction of Visual Outcome After Rhegmatogenous Retinal Detachment Surgery Using Artificial Intelligence Techniques",
+        "volume": "13",
+        "author": "Guo",
+        "year": "2024",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_155",
+        "doi-asserted-by": "crossref",
+        "first-page": "22523",
+        "DOI": "10.1038/s41598-025-04648-3",
+        "article-title": "A deep learning model for diagnosis of inherited retinal diseases",
+        "volume": "15",
+        "author": "Jafarbeglou",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_156",
+        "doi-asserted-by": "crossref",
+        "first-page": "100805",
+        "DOI": "10.1016/j.xops.2025.100805",
+        "article-title": "Deep Learning-Based Prediction of Glaucoma Severity and Progression Using Imo/TEMPO Screening Program",
+        "volume": "5",
+        "author": "Sano",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_157",
+        "doi-asserted-by": "crossref",
+        "first-page": "803",
+        "DOI": "10.1111/ceo.14560",
+        "article-title": "Development and Validation of a Deep Learning System for the Provision of a District-Wide Diabetes Retinal Screening Service",
+        "volume": "53",
+        "author": "Daley",
+        "year": "2025",
+        "journal-title": "Clin. Exp. Ophthalmol."
+      },
+      {
+        "key": "ref_158",
+        "doi-asserted-by": "crossref",
+        "first-page": "100755",
+        "DOI": "10.1016/j.xops.2025.100755",
+        "article-title": "Diabetic Retinopathy Assessment through Multitask Learning Approach on Heterogeneous Fundus Image Datasets",
+        "volume": "5",
+        "author": "Wu",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_159",
+        "doi-asserted-by": "crossref",
+        "first-page": "4999",
+        "DOI": "10.1038/s41598-025-88948-8",
+        "article-title": "Integrated visual and text-based analysis of ophthalmology clinical cases using a large language model",
+        "volume": "15",
+        "author": "Sorin",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_160",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1038/s41746-025-01461-0",
+        "article-title": "Multimodal machine learning enables AI chatbot to diagnose ophthalmic diseases and provide high-quality medical responses",
+        "volume": "8",
+        "author": "Ma",
+        "year": "2025",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_161",
+        "doi-asserted-by": "crossref",
+        "first-page": "967",
+        "DOI": "10.1038/s42256-025-01040-8",
+        "article-title": "Next-generation phenotyping of inherited retinal diseases from multimodal imaging with Eye2Gene",
+        "volume": "7",
+        "author": "Pontikos",
+        "year": "2025",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "ref_162",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1038/s41746-025-02308-4",
+        "article-title": "AI-guided personalized predictions on myopia progression and interventions",
+        "volume": "9",
+        "author": "Liu",
+        "year": "2026",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_163",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Candan, O., Saglam, I., Orman, G., Unlu, N., Burcu, A.E., and Candan, Y. (2026). Artificial Intelligence-Based Prediction of Subjective Refraction and Clinical Determinants of Prediction Error. Diagnostics, 16.",
+        "DOI": "10.3390/diagnostics16020331"
+      },
+      {
+        "key": "ref_164",
+        "doi-asserted-by": "crossref",
+        "first-page": "101208",
+        "DOI": "10.1016/j.xops.2026.101208",
+        "article-title": "Automated Triage for New Keratoconus Referrals Using Multimodal Deep Learning",
+        "volume": "6",
+        "author": "Balal",
+        "year": "2026",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_165",
+        "doi-asserted-by": "crossref",
+        "first-page": "16966",
+        "DOI": "10.1038/s41598-026-47341-9",
+        "article-title": "Deep Learning Detection of Retinitis Pigmentosa Inheritance Forms through Synthetic Data Expansion of a Rare Disease Dataset",
+        "volume": "16",
+        "author": "Hwang",
+        "year": "2026",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_166",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohammadzadeh, V., Davis, T., Morales, E., Vega, D.S., Khaliliyeh, D., Namdari, M., Fei, Z., Scalzo, F., Nouri-Mahdavi, K., and Caprioli, J. (2026). Detection of Structural Glaucoma Progression with Deep Learning on Serial Optic Disc Photographs. Ophthalmol. Glaucoma, online ahead of print.",
+        "DOI": "10.1016/j.ogla.2026.03.005"
+      },
+      {
+        "key": "ref_167",
+        "first-page": "e101433",
+        "article-title": "Evaluation of Large Language Models in the Diagnosis, Urgency Triage, and Initial Management of Ophthalmic Emergencies",
+        "volume": "18",
+        "author": "Mittal",
+        "year": "2026",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "ref_168",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, X., Zhang, Y., Chen, H., Tang, C., Yao, B., Zhao, H., Occhipinti, L.G., Nathan, A., Zhai, C., and Gao, S. (2026). Integrating Multi-Task Eye Tracking and Interpretable Machine Learning for High-Accuracy Screening of Amblyopia in Pediatric Populations. J. Eye Mov. Res., 19.",
+        "DOI": "10.3390/jemr19020026"
+      },
+      {
+        "key": "ref_169",
+        "doi-asserted-by": "crossref",
+        "first-page": "101122",
+        "DOI": "10.1016/j.xops.2026.101122",
+        "article-title": "Predicting Visual Outcomes in Congenital Posterior Lens Opacities: A Deep Learning Model Using Ultra-Widefield Fundus Images",
+        "volume": "6",
+        "author": "Luo",
+        "year": "2026",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_170",
+        "doi-asserted-by": "crossref",
+        "first-page": "101191",
+        "DOI": "10.1016/j.xops.2026.101191",
+        "article-title": "Prospective Data Curation Enables High-Performance Artificial Intelligence for Diabetic Retinopathy Screening in a Resource-Limited Setting",
+        "volume": "6",
+        "author": "Ashrafzadeh",
+        "year": "2026",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_171",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joskowicz, L., Buchbinder, T., Chodorov, E., Hoogi, A., Matos, K., Rivera, A., Sharon, D., Banin, E., and Levy, J. (2026). Using deep learning to identify inherited retinal diseases based on wide-field retinal imaging data. PLoS ONE, 21.",
+        "DOI": "10.1371/journal.pone.0348866"
+      },
+      {
+        "key": "ref_172",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shah, P., Farah, H.A., Wisotsky, D.J., Nawani, P., Hariharan, S., Satasia, A., Muir, E.R., Mian, U.K., and Duong, T.Q. (2026). Classification of retinal diseases based on optical coherence tomography angiography using cross-modal transfer learning of domain-specific foundation AI models. Br. J. Ophthalmol., online ahead of print.",
+        "DOI": "10.1136/bjo-2025-329249"
+      },
+      {
+        "key": "ref_173",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pitkänen, J., Hemelings, R., Ahokas, O., Liinamaa, J.M., Karvonen, E., Stoor, K., Honkamo, M., Hägg, P., Tuulonen, A., and Stalmans, I. (2026). Deep learning in population-based screening for glaucoma. Br. J. Ophthalmol., online ahead of print.",
+        "DOI": "10.1136/bjo-2025-328523"
+      },
+      {
+        "key": "ref_174",
+        "doi-asserted-by": "crossref",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "article-title": "Improved Automated Detection of Diabetic Retinopathy on a Publicly Available Dataset Through Integration of Deep Learning",
+        "volume": "57",
+        "author": "Lou",
+        "year": "2016",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_175",
+        "doi-asserted-by": "crossref",
+        "first-page": "1170",
+        "DOI": "10.1001/jamaophthalmol.2017.3782",
+        "article-title": "Automated Grading of Age-Related Macular Degeneration From Color Fundus Images Using Deep Convolutional Neural Networks",
+        "volume": "135",
+        "author": "Burlina",
+        "year": "2017",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_176",
+        "doi-asserted-by": "crossref",
+        "first-page": "1138",
+        "DOI": "10.1038/s41433-018-0064-9",
+        "article-title": "Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligence",
+        "volume": "32",
+        "author": "Rajalakshmi",
+        "year": "2018",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_177",
+        "doi-asserted-by": "crossref",
+        "first-page": "803",
+        "DOI": "10.1001/jamaophthalmol.2018.1934",
+        "article-title": "Automated Diagnosis of Plus Disease in Retinopathy of Prematurity Using Deep Convolutional Neural Networks",
+        "volume": "136",
+        "author": "Brown",
+        "year": "2018",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_178",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "article-title": "Clinically applicable deep learning for diagnosis and referral in retinal disease",
+        "volume": "24",
+        "author": "Ledsam",
+        "year": "2018",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref_179",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_180",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Redd, T.K., Campbell, J.P., Brown, J.M., Kim, S.J., Ostmo, S., Chan, R.V.P., Dy, J., Erdogmus, D., Ioannidis, S., and Kalpathy-Cramer, J. (2018). Evaluation of a deep learning image assessment system for detecting severe retinopathy of prematurity. Br. J. Ophthalmol., online ahead of print.",
+        "DOI": "10.1136/bjophthalmol-2018-313156"
+      },
+      {
+        "key": "ref_181",
+        "doi-asserted-by": "crossref",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "article-title": "Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning",
+        "volume": "172",
+        "author": "Kermany",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "ref_182",
+        "doi-asserted-by": "crossref",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of Deep Learning Architectures and Transfer Learning for Detecting Glaucomatous Optic Neuropathy in Fundus Photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_183",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Lavin",
+        "year": "2018",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_184",
+        "doi-asserted-by": "crossref",
+        "first-page": "3199",
+        "DOI": "10.1167/iovs.18-24106",
+        "article-title": "Prediction of Individual Disease Conversion in Early AMD Using Artificial Intelligence",
+        "volume": "59",
+        "author": "Waldstein",
+        "year": "2018",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_185",
+        "doi-asserted-by": "crossref",
+        "first-page": "1359",
+        "DOI": "10.1001/jamaophthalmol.2018.4118",
+        "article-title": "Use of Deep Learning for Detailed Severity Characterization and Estimation of 5-Year Risk Among Patients With Age-Related Macular Degeneration",
+        "volume": "136",
+        "author": "Burlina",
+        "year": "2018",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_186",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maetschke, S., Antony, B., Ishikawa, H., Wollstein, G., Schuman, J., and Garnavi, R. (2019). A feature agnostic approach for glaucoma detection in OCT volumes. PLoS ONE, 14.",
+        "DOI": "10.1371/journal.pone.0219126"
+      },
+      {
+        "key": "ref_187",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "article-title": "From Machine to Machine: An OCT-Trained Deep Learning Algorithm for Objective Quantification of Glaucomatous Damage in Fundus Photographs",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_188",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep Learning and Glaucoma Specialists: The Relative Importance of Optic Disc Features to Predict Glaucoma Referral in Fundus Photographs",
+        "volume": "126",
+        "author": "Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_189",
+        "doi-asserted-by": "crossref",
+        "first-page": "712",
+        "DOI": "10.1167/iovs.18-25325",
+        "article-title": "Deep Learning for Prediction of AMD Progression: A Pilot Study",
+        "volume": "60",
+        "author": "Russakoff",
+        "year": "2019",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_190",
+        "doi-asserted-by": "crossref",
+        "first-page": "1182",
+        "DOI": "10.1001/jamaophthalmol.2019.2923",
+        "article-title": "Diagnostic Accuracy of Community-Based Diabetic Retinopathy Screening With an Offline Artificial Intelligence System on a Smartphone",
+        "volume": "137",
+        "author": "Natarajan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_191",
+        "doi-asserted-by": "crossref",
+        "first-page": "1022",
+        "DOI": "10.1001/jamaophthalmol.2019.2433",
+        "article-title": "Monitoring Disease Progression With a Quantitative Severity Scale for Retinopathy of Prematurity Using Deep Learning",
+        "volume": "137",
+        "author": "Taylor",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_192",
+        "doi-asserted-by": "crossref",
+        "first-page": "987",
+        "DOI": "10.1001/jamaophthalmol.2019.2004",
+        "article-title": "Performance of a Deep-Learning Algorithm vs Manual Grading for Detecting Diabetic Retinopathy in India",
+        "volume": "137",
+        "author": "Gulshan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_193",
+        "doi-asserted-by": "crossref",
+        "first-page": "102621",
+        "DOI": "10.1016/j.ebiom.2019.102621",
+        "article-title": "A practical model for the identification of congenital cataracts using machine learning",
+        "volume": "51",
+        "author": "Lin",
+        "year": "2020",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "ref_194",
+        "doi-asserted-by": "crossref",
+        "first-page": "333",
+        "DOI": "10.1001/jamaophthalmol.2019.5983",
+        "article-title": "Assessment of a Segmentation-Free Deep Learning Algorithm for Diagnosing Glaucoma From Optical Coherence Tomography Scans",
+        "volume": "138",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_195",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.ophtha.2019.09.036",
+        "article-title": "Deep Learning Approaches Predict Glaucomatous Visual Field Damage from OCT",
+        "volume": "127",
+        "author": "Christopher",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_196",
+        "doi-asserted-by": "crossref",
+        "first-page": "e000569",
+        "DOI": "10.1136/bmjophth-2020-000569",
+        "article-title": "Development and validation of a novel prognostic model for predicting AMD progression using longitudinal fundus images",
+        "volume": "5",
+        "author": "Bridge",
+        "year": "2020",
+        "journal-title": "BMJ Open Ophthalmol."
+      },
+      {
+        "key": "ref_197",
+        "doi-asserted-by": "crossref",
+        "first-page": "3456",
+        "DOI": "10.1109/JBHI.2020.3000136",
+        "article-title": "End-to-End Deep Learning Model for Predicting Treatment Requirements in Neovascular AMD from Longitudinal Retinal OCT Imaging",
+        "volume": "24",
+        "year": "2020",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_198",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1016/j.ogla.2019.11.001",
+        "article-title": "Forecasting Retinal Nerve Fiber Layer Thickness from Multimodal Temporal Data Incorporating OCT Volumes",
+        "volume": "3",
+        "author": "Sedai",
+        "year": "2020",
+        "journal-title": "Ophthalmol. Glaucoma"
+      },
+      {
+        "key": "ref_199",
+        "doi-asserted-by": "crossref",
+        "first-page": "15434",
+        "DOI": "10.1038/s41598-020-72359-y",
+        "article-title": "Prediction of age-related macular degeneration disease using a sequential deep learning approach on longitudinal SD-OCT imaging biomarkers",
+        "volume": "10",
+        "author": "Banerjee",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_200",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1001/jamaophthalmol.2020.0507",
+        "article-title": "Screening Candidates for Refractive Surgery With Corneal Tomographic-Based Deep Learning",
+        "volume": "138",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_201",
+        "doi-asserted-by": "crossref",
+        "first-page": "374",
+        "DOI": "10.21037/atm-20-5442",
+        "article-title": "An artificial intelligence platform for the diagnosis and surgical planning of strabismus using corneal light-reflection photos",
+        "volume": "9",
+        "author": "Mao",
+        "year": "2021",
+        "journal-title": "Ann. Transl. Med."
+      },
+      {
+        "key": "ref_202",
+        "doi-asserted-by": "crossref",
+        "first-page": "1110",
+        "DOI": "10.1097/IAE.0000000000002992",
+        "article-title": "Detection of Morphologic Patterns of Diabetic Macular Edema Using Deep Learning",
+        "volume": "41",
+        "author": "Wu",
+        "year": "2021",
+        "journal-title": "Retina"
+      },
+      {
+        "key": "ref_203",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/j.ophtha.2020.07.045",
+        "article-title": "Detection of Progressive Glaucomatous Optic Nerve Damage on Fundus Photographs with Deep Learning",
+        "volume": "128",
+        "author": "Medeiros",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_204",
+        "doi-asserted-by": "crossref",
+        "first-page": "781",
+        "DOI": "10.2337/dc20-1671",
+        "article-title": "The SEE Study: Safety, Efficacy, and Equity of Implementing Autonomous Artificial Intelligence for Diagnosing Diabetic Retinopathy in Youth",
+        "volume": "44",
+        "author": "Wolf",
+        "year": "2021",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref_205",
+        "doi-asserted-by": "crossref",
+        "first-page": "655",
+        "DOI": "10.1177/1932296820906212",
+        "article-title": "Validation of Automated Screening for Referable Diabetic Retinopathy With an Autonomous Diagnostic Artificial Intelligence System in a Spanish Population",
+        "volume": "15",
+        "author": "Shah",
+        "year": "2021",
+        "journal-title": "J. Diabetes Sci. Technol."
+      },
+      {
+        "key": "ref_206",
+        "doi-asserted-by": "crossref",
+        "first-page": "e157968",
+        "DOI": "10.1172/JCI157968",
+        "article-title": "A deep-learning system predicts glaucoma incidence and progression using retinal photographs",
+        "volume": "132",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "J. Clin. Investig."
+      },
+      {
+        "key": "ref_207",
+        "doi-asserted-by": "crossref",
+        "first-page": "100336",
+        "DOI": "10.1016/j.xops.2023.100336",
+        "article-title": "Predicting Glaucoma Progression to Surgery with Artificial Intelligence Survival Models",
+        "volume": "3",
+        "author": "Tao",
+        "year": "2023",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_208",
+        "doi-asserted-by": "crossref",
+        "first-page": "196",
+        "DOI": "10.1038/s41746-024-01197-3",
+        "article-title": "Autonomous artificial intelligence for diabetic eye disease increases access and health equity in underserved populations",
+        "volume": "7",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_209",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1038/s41467-023-44676-z",
+        "article-title": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: The ACCESS randomized control trial",
+        "volume": "15",
+        "author": "Wolf",
+        "year": "2024",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_210",
+        "doi-asserted-by": "crossref",
+        "first-page": "e715",
+        "DOI": "10.1111/aos.14353",
+        "article-title": "Automated classification of normal and Stargardt disease optical coherence tomography images using deep learning",
+        "volume": "98",
+        "author": "Shah",
+        "year": "2020",
+        "journal-title": "Acta Ophthalmol."
+      },
+      {
+        "key": "ref_211",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miere, A., Le Meur, T., Bitton, K., Pallone, C., Semoun, O., Capuano, V., Colantuono, D., Taibouni, K., Chenoune, Y., and Astroz, P. (2020). Deep Learning-Based Classification of Inherited Retinal Diseases Using Fundus Autofluorescence. J. Clin. Med., 9.",
+        "DOI": "10.3390/jcm9103303"
+      },
+      {
+        "key": "ref_212",
+        "doi-asserted-by": "crossref",
+        "first-page": "948",
+        "DOI": "10.1007/s10278-021-00479-6",
+        "article-title": "Artificial Intelligence-Assisted Early Detection of Retinitis Pigmentosa—The Most Common Inherited Retinal Degeneration",
+        "volume": "34",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "J. Digit. Imaging"
+      },
+      {
+        "key": "ref_213",
+        "first-page": "431",
+        "article-title": "Automated Classification of Inherited Retinal Diseases in OCT Images Using Few-shot Learning",
+        "volume": "36",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "Biomed. Environ. Sci."
+      },
+      {
+        "key": "ref_214",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1001/jamaophthalmol.2022.6393",
+        "article-title": "Estimation of Visual Function Using Deep Learning From Ultra-Widefield Fundus Images of Eyes With Retinitis Pigmentosa",
+        "volume": "141",
+        "author": "Nagasato",
+        "year": "2023",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_215",
+        "doi-asserted-by": "crossref",
+        "first-page": "100258",
+        "DOI": "10.1016/j.xops.2022.100258",
+        "article-title": "Investigating the Impact of Synthetic Data on AI-assisted Gene Diagnosis of Inherited Retinal Disease",
+        "volume": "3",
+        "author": "Veturi",
+        "year": "2023",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_216",
+        "doi-asserted-by": "crossref",
+        "first-page": "2159702",
+        "DOI": "10.1155/2018/2159702",
+        "article-title": "Transforming Retinal Photographs to Entropy Images in Deep Learning to Improve Automated Detection for Diabetic Retinopathy",
+        "volume": "2018",
+        "author": "Lin",
+        "year": "2018",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "ref_217",
+        "doi-asserted-by": "crossref",
+        "first-page": "1029",
+        "DOI": "10.1097/IJG.0000000000001319",
+        "article-title": "Evaluation of a Deep Learning System for Identifying Glaucomatous Optic Neuropathy Based on Color Fundus Photographs",
+        "volume": "28",
+        "author": "Kapoor",
+        "year": "2019",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_218",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1016/j.eclinm.2019.03.001",
+        "article-title": "Diagnostic Efficacy and Therapeutic Decision-making Capacity of an Artificial Intelligence Platform for Childhood Cataracts in Eye Clinics: A Multicentre Randomized Controlled Trial",
+        "volume": "9",
+        "author": "Lin",
+        "year": "2019",
+        "journal-title": "EClinicalMedicine"
+      },
+      {
+        "key": "ref_219",
+        "doi-asserted-by": "crossref",
+        "first-page": "e172",
+        "DOI": "10.1016/S2589-7500(19)30085-8",
+        "article-title": "Detection of Glaucomatous Optic Neuropathy with Spectral-Domain Optical Coherence Tomography: A Retrospective Training and Validation Deep-Learning Analysis",
+        "volume": "1",
+        "author": "Ran",
+        "year": "2019",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_220",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ko, Y.-C., Wey, S.-Y., Chen, W.-T., Chang, Y.-F., Chen, M.-J., Chiou, S.-H., Liu, C.J.-L., and Lee, C.-Y. (2020). Deep Learning Assisted Detection of Glaucomatous Optic Neuropathy and Potential Designs for a Generalizable Model. PLoS ONE, 15.",
+        "DOI": "10.1371/journal.pone.0233079"
+      },
+      {
+        "key": "ref_221",
+        "doi-asserted-by": "crossref",
+        "first-page": "e339",
+        "DOI": "10.1111/aos.14264",
+        "article-title": "Automated Diagnosis and Quantitative Analysis of Plus Disease in Retinopathy of Prematurity Based on Deep Convolutional Neural Networks",
+        "volume": "98",
+        "author": "Mao",
+        "year": "2020",
+        "journal-title": "Acta Ophthalmol."
+      },
+      {
+        "key": "ref_222",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miere, A., Zambrowski, O., Kessler, A., Mehanna, C.-J., Pallone, C., Seknazi, D., Denys, P., Amoroso, F., Petit, E., and Souied, E.H. (2021). Deep Learning to Distinguish ABCA4-Related Stargardt Disease from PRPH2-Related Pseudo-Stargardt Pattern Dystrophy. J. Clin. Med., 10.",
+        "DOI": "10.3390/jcm10245742"
+      },
+      {
+        "key": "ref_223",
+        "doi-asserted-by": "crossref",
+        "first-page": "4031",
+        "DOI": "10.2147/DMSO.S322224",
+        "article-title": "Using Metabolic and Biochemical Indicators to Predict Diabetic Retinopathy by Back-Propagation Artificial Neural Network",
+        "volume": "14",
+        "author": "Su",
+        "year": "2021",
+        "journal-title": "Diabetes Metab. Syndr. Obes."
+      },
+      {
+        "key": "ref_224",
+        "doi-asserted-by": "crossref",
+        "first-page": "e665",
+        "DOI": "10.1016/S2589-7500(21)00134-5",
+        "article-title": "Clinically Relevant Deep Learning for Detection and Quantification of Geographic Atrophy from Optical Coherence Tomography: A Model Development and External Validation Study",
+        "volume": "3",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_225",
+        "doi-asserted-by": "crossref",
+        "first-page": "118",
+        "DOI": "10.1016/j.ajo.2022.07.013",
+        "article-title": "Visual Field Endpoints for Neuroprotective Trials: A Case for AI-Driven Patient Enrichment",
+        "volume": "243",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_226",
+        "doi-asserted-by": "crossref",
+        "first-page": "12745",
+        "DOI": "10.1038/s41598-022-16980-z",
+        "article-title": "Deep Learning to Distinguish Best Vitelliform Macular Dystrophy (BVMD) from Adult-Onset Vitelliform Macular Degeneration (AVMD)",
+        "volume": "12",
+        "author": "Crincoli",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_227",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, Y.-P., Vadloori, S., Kang, E.Y.-C., and Wu, W.-C. (2022). Computer-Aided Detection of Retinopathy of Prematurity Severity in Preterm Infants via Measurement of Temporal Vessel Width and Angle. Front. Pediatr., 10.",
+        "DOI": "10.3389/fped.2022.792724"
+      },
+      {
+        "key": "ref_228",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1167/tvst.11.5.17",
+        "article-title": "Early Diagnosis and Quantitative Analysis of Stages in Retinopathy of Prematurity Based on Deep Convolutional Neural Networks",
+        "volume": "11",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_229",
+        "doi-asserted-by": "crossref",
+        "first-page": "1009",
+        "DOI": "10.1016/j.oret.2022.05.030",
+        "article-title": "The Effect of Pegcetacoplan Treatment on Photoreceptor Maintenance in Geographic Atrophy Monitored by Artificial Intelligence-Based OCT Analysis",
+        "volume": "6",
+        "author": "Riedl",
+        "year": "2022",
+        "journal-title": "Ophthalmol. Retina"
+      },
+      {
+        "key": "ref_230",
+        "doi-asserted-by": "crossref",
+        "first-page": "20354",
+        "DOI": "10.1038/s41598-023-47854-7",
+        "article-title": "Deep Learning Model for Automatic Differentiation of EMAP from AMD in Macular Atrophy",
+        "volume": "13",
+        "author": "Chouraqui",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_231",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Csizek, Z., Mikó-Baráth, E., Budai, A., Frigyik, A.B., Pusztai, Á., Nemes, V.A., Závori, L., Fülöp, D., Czigler, A., and Szabó-Guth, K. (2023). Artificial Intelligence-Based Screening for Amblyopia and Its Risk Factors: Comparison with Four Classic Stereovision Tests. Front. Med., 10.",
+        "DOI": "10.3389/fmed.2023.1294559"
+      },
+      {
+        "key": "ref_232",
+        "doi-asserted-by": "crossref",
+        "first-page": "1052",
+        "DOI": "10.1001/jamaophthalmol.2023.4659",
+        "article-title": "A Deep-Learning Algorithm to Predict Short-Term Progression to Geographic Atrophy on Spectral-Domain Optical Coherence Tomography",
+        "volume": "141",
+        "author": "Dow",
+        "year": "2023",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_233",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hwang, E.E., Chen, D., Han, Y., Jia, L., and Shan, J. (2023). Multi-Dataset Comparison of Vision Transformers and Convolutional Neural Networks for Detecting Glaucomatous Optic Neuropathy from Fundus Photographs. Bioengineering, 10.",
+        "DOI": "10.3390/bioengineering10111266"
+      },
+      {
+        "key": "ref_234",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1007/s13167-023-00337-1",
+        "article-title": "Machine Learning-Couched Treatment Algorithms Tailored to Individualized Profile of Patients with Primary Anterior Chamber Angle Closure Predisposed to Glaucomatous Optic Neuropathy",
+        "volume": "14",
+        "author": "Kurysheva",
+        "year": "2023",
+        "journal-title": "EPMA J."
+      },
+      {
+        "key": "ref_235",
+        "doi-asserted-by": "crossref",
+        "first-page": "e22244",
+        "DOI": "10.1016/j.heliyon.2023.e22244",
+        "article-title": "Multimodal and multi-omics-based deep learning model for screening of optic neuropathy",
+        "volume": "9",
+        "author": "Lin",
+        "year": "2023",
+        "journal-title": "Heliyon"
+      },
+      {
+        "key": "ref_236",
+        "doi-asserted-by": "crossref",
+        "first-page": "468",
+        "DOI": "10.1097/APO.0000000000000638",
+        "article-title": "An Artificial Intelligence System for Screening and Recommending the Treatment Modalities for Retinopathy of Prematurity",
+        "volume": "12",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Asia Pac. J. Ophthalmol."
+      },
+      {
+        "key": "ref_237",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rao, D.P., Savoy, F.M., Tan, J.Z.E., Fung, B.P.-E., Bopitiya, C.M., Sivaraman, A., and Vinekar, A. (2023). Development and Validation of an Artificial Intelligence-Based Screening Tool for Detection of Retinopathy of Prematurity in a South Indian Population. Front. Pediatr., 11.",
+        "DOI": "10.3389/fped.2023.1197237"
+      },
+      {
+        "key": "ref_238",
+        "first-page": "e831",
+        "article-title": "Suitability of Machine Learning for Atrophy and Fibrosis Development in Neovascular Age-Related Macular Degeneration",
+        "volume": "102",
+        "author": "Hernandez",
+        "year": "2024",
+        "journal-title": "Acta Ophthalmol."
+      },
+      {
+        "key": "ref_239",
+        "doi-asserted-by": "crossref",
+        "first-page": "100466",
+        "DOI": "10.1016/j.xops.2024.100466",
+        "article-title": "Deep Learning-Based Prediction of Individual Geographic Atrophy Progression from a Single Baseline OCT",
+        "volume": "4",
+        "author": "Mai",
+        "year": "2024",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_240",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1016/j.mcpdig.2024.01.003",
+        "article-title": "Appropriateness of Ophthalmology Recommendations From an Online Chat-Based Artificial Intelligence Model",
+        "volume": "2",
+        "author": "Tailor",
+        "year": "2024",
+        "journal-title": "Mayo Clin. Proc. Digit. Health"
+      },
+      {
+        "key": "ref_241",
+        "doi-asserted-by": "crossref",
+        "first-page": "3101",
+        "DOI": "10.1038/s41433-024-03228-5",
+        "article-title": "An Artificial Intelligence Platform for the Screening and Managing of Strabismus",
+        "volume": "38",
+        "author": "Wu",
+        "year": "2024",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_242",
+        "first-page": "e78597",
+        "article-title": "Accuracy of Artificial Intelligence Versus Clinicians in Real-Life Case Scenarios of Retinopathy of Prematurity",
+        "volume": "17",
+        "author": "Belenje",
+        "year": "2025",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "ref_243",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.ajo.2025.02.040",
+        "article-title": "Retinal Vascularization Rate Predicts Retinopathy of Prematurity and Remains Unaffected by Low-Dose Bevacizumab Treatment",
+        "volume": "275",
+        "author": "Chang",
+        "year": "2025",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_244",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, J.-W., Chen, H.-A., Liu, T.-C., Wu, T.-E., and Lu, C.-J. (2025). The Potential of SHAP and Machine Learning for Personalized Explanations of Influencing Factors in Myopic Treatment for Children. Medicina, 61.",
+        "DOI": "10.3390/medicina61010016"
+      },
+      {
+        "key": "ref_245",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1097/IJG.0000000000002648",
+        "article-title": "The Postoperative Hyperopic Shift Risk Prediction Model for Primary Angle Closure Glaucoma Patients Based on Machine Learning",
+        "volume": "34",
+        "author": "Gong",
+        "year": "2025",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_246",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1186/s40942-025-00650-z",
+        "article-title": "The use of neural networks to determine factors affecting the severity and extent of retinopathy in preterm infants",
+        "volume": "11",
+        "author": "Habibi",
+        "year": "2025",
+        "journal-title": "Int. J. Retina Vitr."
+      },
+      {
+        "key": "ref_247",
+        "doi-asserted-by": "crossref",
+        "first-page": "100555",
+        "DOI": "10.1016/j.optom.2025.100555",
+        "article-title": "Retinal and choroidal microvasculature and structural analysis in OCTA for refractive amblyopia diagnosis using machine learning",
+        "volume": "18",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "J. Optom."
+      },
+      {
+        "key": "ref_248",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1186/s40942-025-00634-z",
+        "article-title": "Modeling Pegcetacoplan Treatment Effect for Atrophic Age-Related Macular Degeneration with AI-Based Progression Prediction",
+        "volume": "11",
+        "author": "Mantel",
+        "year": "2025",
+        "journal-title": "Int. J. Retina Vitr."
+      },
+      {
+        "key": "ref_249",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1016/j.oret.2024.10.029",
+        "article-title": "A Novel Management Challenge in Age-Related Macular Degeneration: Artificial Intelligence and Expert Prediction of Geographic Atrophy",
+        "volume": "9",
+        "author": "Reiter",
+        "year": "2025",
+        "journal-title": "Ophthalmol. Retina"
+      },
+      {
+        "key": "ref_250",
+        "doi-asserted-by": "crossref",
+        "first-page": "30055",
+        "DOI": "10.1038/s41598-025-13990-5",
+        "article-title": "Predicting onset of myopic refractive error in children using machine learning on routine pediatric eye examinations only",
+        "volume": "15",
+        "author": "Ron",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_251",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1016/j.ophtha.2024.08.017",
+        "article-title": "Disease Activity and Therapeutic Response to Pegcetacoplan for Geographic Atrophy Identified by Deep Learning-Based Analysis of OCT",
+        "volume": "132",
+        "author": "Mai",
+        "year": "2025",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_252",
+        "first-page": "566",
+        "article-title": "Explainable Artificial Intelligence (XAI) in the Era of Large Language Models: Applying an XAI Framework in Pediatric Ophthalmology Diagnosis using the Gemini Model",
+        "volume": "2025",
+        "author": "Upadhyaya",
+        "year": "2025",
+        "journal-title": "AMIA Jt. Summits Transl. Sci. Proc."
+      },
+      {
+        "key": "ref_253",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, Z., Meng, H., Li, S., Wang, S., Wang, J., and Gao, S. (2025). High-Accuracy Intermittent Strabismus Screening via Wearable Eye-Tracking and AI-Enhanced Ocular Feature Analysis. Biosensors, 15.",
+        "DOI": "10.3390/bios15020110"
+      },
+      {
+        "key": "ref_254",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1016/j.ajo.2025.12.038",
+        "article-title": "Artificial Intelligence-Guided Endpoint Selection for Neuroprotection Trials in Glaucoma",
+        "volume": "284",
+        "author": "Scherer",
+        "year": "2026",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_255",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1038/s41746-026-02460-5",
+        "article-title": "Autonomous AI-assisted diabetic retinopathy screening at primary care is associated with increased presentation to eye care",
+        "volume": "9",
+        "author": "Leong",
+        "year": "2026",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_256",
+        "doi-asserted-by": "crossref",
+        "first-page": "7609",
+        "DOI": "10.1038/s41598-026-37292-6",
+        "article-title": "Real-world performance of an AI system for diabetic retinopathy screening",
+        "volume": "16",
+        "author": "Berrada",
+        "year": "2026",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_257",
+        "doi-asserted-by": "crossref",
+        "first-page": "4349",
+        "DOI": "10.1038/s41598-026-36970-9",
+        "article-title": "Real-world performance of the AI diagnostic system IDx-DR in the diagnosis of diabetic retinopathy and its main confounders",
+        "volume": "16",
+        "author": "Hunfeld",
+        "year": "2026",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_258",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1016/j.ajo.2023.10.025",
+        "article-title": "Application of a Deep Learning System to Detect Papilledema on Nonmydriatic Ocular Fundus Photographs in an Emergency Department",
+        "volume": "261",
+        "author": "Biousse",
+        "year": "2024",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_259",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1097/WNO.0000000000001800",
+        "article-title": "Deep Learning System Outperforms Clinicians in Identifying Optic Disc Abnormalities",
+        "volume": "43",
+        "author": "Vasseneix",
+        "year": "2023",
+        "journal-title": "J. Neuroophthalmol."
+      },
+      {
+        "key": "ref_260",
+        "doi-asserted-by": "crossref",
+        "first-page": "103803",
+        "DOI": "10.1016/j.jaapos.2023.10.005",
+        "article-title": "The BONSAI deep learning system can accurately identify pediatric papilledema on standard ocular fundus photographs",
+        "volume": "28",
+        "author": "Lin",
+        "year": "2024",
+        "journal-title": "J. AAPOS"
+      },
+      {
+        "key": "ref_261",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2025.04.006",
+        "article-title": "Deep Learning Approach Readily Differentiates Papilledema, NAION, and Healthy Eyes",
+        "volume": "276",
+        "author": "Szanto",
+        "year": "2025",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_262",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.ajo.2025.05.036",
+        "article-title": "Deep Learning Differentiates Papilledema, NAION, and Healthy Eyes With Unsegmented 3D OCT Volumes",
+        "volume": "277",
+        "author": "Szanto",
+        "year": "2025",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_263",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1016/j.ajo.2026.02.033",
+        "article-title": "Deep Learning-Based Diagnostic Model for Ocular Surface Neoplastic Diseases",
+        "volume": "286",
+        "author": "Sakata",
+        "year": "2026",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_264",
+        "doi-asserted-by": "crossref",
+        "first-page": "1594",
+        "DOI": "10.1016/j.scib.2026.03.001",
+        "article-title": "Machine learning-based predictive system for cycloplegic autorefraction in children: Advancing early myopia detection and warning",
+        "volume": "71",
+        "author": "Wang",
+        "year": "2026",
+        "journal-title": "Sci. Bull."
+      },
+      {
+        "key": "ref_265",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1016/j.ajo.2026.02.018",
+        "article-title": "Optical Coherence Tomography Radiomics and Machine Learning Enable Accurate Detection of Forme Fruste Keratoconus",
+        "volume": "285",
+        "author": "Luo",
+        "year": "2026",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_266",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1097/IJG.0000000000001458",
+        "article-title": "Diagnosing Glaucoma With Spectral-Domain OCT Using Deep Learning Classifier",
+        "volume": "29",
+        "author": "Lee",
+        "year": "2020",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_267",
+        "doi-asserted-by": "crossref",
+        "first-page": "246",
+        "DOI": "10.1097/IJG.0000000000002359",
+        "article-title": "Prediction and Detection of Glaucomatous Visual Field Progression Using Deep Learning on Macular OCT",
+        "volume": "33",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_268",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1016/j.ajo.2026.04.030",
+        "article-title": "Auto Machine Learning for Diabetic Retinopathy Screening: A Head-to-Head Multiplatform Comparison Against Human Graders and IDx-DR",
+        "volume": "288",
+        "author": "Krzywicki",
+        "year": "2026",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_269",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1186/s40942-026-00868-5",
+        "article-title": "Automated diabetic retinopathy grading and screening using deep learning",
+        "volume": "12",
+        "author": "Rady",
+        "year": "2026",
+        "journal-title": "Int. J. Retina Vitr."
+      },
+      {
+        "key": "ref_270",
+        "doi-asserted-by": "crossref",
+        "first-page": "20794",
+        "DOI": "10.1038/s41598-026-58277-5",
+        "article-title": "Dual branch fundus deep learning network as an enhanced multi classification system for ocular disease detection via hybrid feature fusion",
+        "volume": "16",
+        "author": "Samra",
+        "year": "2026",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_271",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1001/jama.2026.7025",
+        "article-title": "An AI-Based OCT System to Detect Diabetic Macular Edema: A Prospective Validation and Noninferiority Randomized Clinical Trial",
+        "volume": "336",
+        "author": "Zhang",
+        "year": "2026",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_272",
+        "doi-asserted-by": "crossref",
+        "first-page": "101292",
+        "DOI": "10.1016/j.xops.2026.101292",
+        "article-title": "Artificial Intelligence-Driven Multimodal Prediction of 10-Year Incident Glaucoma Integrating Genetic and Deep Learning-Derived Imaging Features",
+        "volume": "6",
+        "author": "Wu",
+        "year": "2026",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "ref_273",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chung, S.-L., Huang, J.-Y., Shao, Y.-C., Su, C.-C., Hsia, Y., Peng, P.-H., Chang, P.-Y., Kuo, B.-I., Li, C.-H., and Kuo, M.-C. (2026). Clinically aligned artificial intelligence for glaucoma diagnosis: Enhancing retinal nerve fibre layer interpretation from fundus images. Eye, online ahead of print.",
+        "DOI": "10.1038/s41433-026-04758-w"
+      },
+      {
+        "key": "ref_274",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1186/s40942-026-00880-9",
+        "article-title": "Code-free automated machine learning for OCT-based classification of vitreoretinal interface diseases",
+        "volume": "12",
+        "author": "Bernardi",
+        "year": "2026",
+        "journal-title": "Int. J. Retina Vitr."
+      },
+      {
+        "key": "ref_275",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Irlik, K., Kwiendacz, H., Wylęgała, A., Bolek, B., Gut-Misiaga, M., Gil, A., Piaśnik, J., Jochemczyk, J., Gryń, I., and Wójcik, W. (2026). Diagnostic Accuracy of Artificial Intelligence-based Automated Detection of Diabetic Retinopathy in Routine Care Using Nonmydriatic Fundus Images: The Silesia Diabetes–Heart Project. Clin. Ther., online ahead of print.",
+        "DOI": "10.1016/j.clinthera.2026.06.005"
+      },
+      {
+        "key": "ref_276",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Altobelli, E., Baroni, M., Ciancaglini, M., Carpineto, P., and Masedu, F. (2026). Diagnostic performance of an artificial intelligence software for diabetic retinopathy organised screening in a pilot study. Sci. Rep., online ahead of print.",
+        "DOI": "10.1038/s41598-026-58158-x"
+      },
+      {
+        "key": "ref_277",
+        "doi-asserted-by": "crossref",
+        "first-page": "347",
+        "DOI": "10.14423/SMJ.0000000000001990",
+        "article-title": "Evaluation of the Efficacy of Artificial Intelligence-Based Screening for Diabetic Retinopathy in a Predominantly Non-White Population",
+        "volume": "119",
+        "author": "Galindez",
+        "year": "2026",
+        "journal-title": "South. Med. J."
+      },
+      {
+        "key": "ref_278",
+        "doi-asserted-by": "crossref",
+        "first-page": "2683982",
+        "DOI": "10.1080/02813432.2026.2683982",
+        "article-title": "The diagnostic accuracy of AI-assisted diabetic retinopathy screening in primary care: A prospective validation study",
+        "volume": "44",
+        "author": "Krogh",
+        "year": "2026",
+        "journal-title": "Scand. J. Prim. Health Care"
+      },
+      {
+        "key": "ref_279",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fujita Sajiki, A., Fukutsu, K., Matsumoto, A., Funatsu, R., Miyake, M., and Akiyama, M. (2026). Identifying patients with poor visual outcomes after primary rhegmatogenous retinal detachment surgery using machine learning. Br. J. Ophthalmol., online ahead of print.",
+        "DOI": "10.1136/bjo-2025-328480"
+      },
+      {
+        "key": "ref_280",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia, H., Qian, B., Qu, Y., Wang, J., Chen, J., Li, T., Zheng, C., Han, J., Zhang, G., and Jin, Y. (2026). AI-based clinician decision support system for diagnosis of inherited retinal diseases: A multicenter, randomized trial. Nat. Med., online ahead of print.",
+        "DOI": "10.1038/s41591-026-04545-w"
+      },
+      {
+        "key": "ref_281",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Engin, C.D., Selver, M.A., Köksaldı, S., and Kayabaşı, M. (2026). Generalizability of deep learning models for referable diabetic retinopathy detection: A cross-population study. Retina, online ahead of print.",
+        "DOI": "10.1097/IAE.0000000000004924"
+      },
+      {
+        "key": "ref_282",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gil, O., Arad, A., Fogel, M., Vorobichik-Berar, O., Katz, G., Gurevich, R., Tirosh, A., Pelz-Sinvani, N., Moroz, I., and Shalem, S. (2026). Real-world integration of an autonomous artificial intelligence system for diabetic retinopathy screening in an endocrinology outpatient clinic. Br. J. Ophthalmol., online ahead of print.",
+        "DOI": "10.1136/bjo-2025-328991"
+      },
+      {
+        "key": "ref_283",
+        "doi-asserted-by": "crossref",
+        "first-page": "134",
+        "DOI": "10.1038/s41433-025-04122-4",
+        "article-title": "Automated diagnosis of early-stage retinopathy of prematurity",
+        "volume": "40",
+        "author": "Kaushik",
+        "year": "2026",
+        "journal-title": "Eye"
+      }
+    ],
+    "container-title": [
+      "Journal of Clinical Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2077-0383/15/20/7957/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T04:21:03Z",
+      "timestamp": 1792815663000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2077-0383/15/20/7957"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    },
+    "references-count": 283,
+    "journal-issue": {
+      "issue": "20",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "jcm15207957"
+    ],
+    "URL": "https://doi.org/10.3390/jcm15207957",
+    "relation": {},
+    "ISSN": [
+      "2077-0383"
+    ],
+    "issn-type": [
+      {
+        "value": "2077-0383",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    }
+  }
+}

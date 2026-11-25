@@ -1,0 +1,891 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2026-11-04T18:00:33Z",
+      "timestamp": 1793815233036,
+      "version": "4.6.1"
+    },
+    "reference-count": 37,
+    "publisher": "Association for Research in Vision and Ophthalmology (ARVO)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              28
+            ]
+          ],
+          "date-time": "2020-04-28T00:00:00Z",
+          "timestamp": 1588032000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Trans. Vis. Sci. Tech."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1167/tvst.9.2.27",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2020-04-28T15:31:10Z",
+      "timestamp": 1588087870000
+    },
+    "page": "27",
+    "source": "Crossref",
+    "is-referenced-by-count": 64,
+    "title": [
+      "Effects of Study Population, Labeling and Training on Glaucoma Detection Using Deep Learning Algorithms"
+    ],
+    "prefix": "10.1167",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Mark",
+        "family": "Christopher",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kenichi",
+        "family": "Nakahara",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Queue Inc, Tokyo, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Bowd",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James A.",
+        "family": "Proudfoot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akram",
+        "family": "Belghith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael H.",
+        "family": "Goldbaum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jasmin",
+        "family": "Rezapour",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          },
+          {
+            "name": "Department of Ophthalmology, University Medical Center Mainz, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert N.",
+        "family": "Weinreb",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Massimo A.",
+        "family": "Fazio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine, University of Alabama–Birmingham, Birmingham, AL, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher A.",
+        "family": "Girkin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine, University of Alabama–Birmingham, Birmingham, AL, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey M.",
+        "family": "Liebmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bernard and Shirlee Brown Glaucoma Research Laboratory, Edward S. Harkness Eye Institute, Department of Ophthalmology, Columbia University Irving Medical Center, New York, NY, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gustavo",
+        "family": "De Moraes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bernard and Shirlee Brown Glaucoma Research Laboratory, Edward S. Harkness Eye Institute, Department of Ophthalmology, Columbia University Irving Medical Center, New York, NY, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hiroshi",
+        "family": "Murata",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, The University of Tokyo, Tokyo, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kana",
+        "family": "Tokumo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Science, Hiroshima University, Hiroshima, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naoto",
+        "family": "Shibata",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Queue Inc, Tokyo, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuri",
+        "family": "Fujino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, The University of Tokyo, Tokyo, Japan"
+          },
+          {
+            "name": "Department of Ophthalmology, Graduate School of Medical Science, Kitasato University, Sagamihara, Kanagawa, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masato",
+        "family": "Matsuura",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, The University of Tokyo, Tokyo, Japan"
+          },
+          {
+            "name": "Department of Ophthalmology, Graduate School of Medical Science, Kitasato University, Sagamihara, Kanagawa, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yoshiaki",
+        "family": "Kiuchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Science, Hiroshima University, Hiroshima, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masaki",
+        "family": "Tanito",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Shimane University Faculty of Medicine, Shimane, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ryo",
+        "family": "Asaoka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, The University of Tokyo, Tokyo, Japan"
+          },
+          {
+            "name": "Seirei Hamamatsu General Hospital, Seirei Christopher University, Hamamatsu, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linda M.",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, University of California, San Diego, La Jolla, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "27",
+    "reference": [
+      {
+        "key": "bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1016/j.ajo.2005.03.002",
+        "article-title": "Assessment of optic disc cupping with digital fundus photographs",
+        "volume": "140",
+        "author": "Constantinou",
+        "year": "2005",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "350",
+        "DOI": "10.1016/S0161-6420(88)33177-5",
+        "article-title": "Intraobserver and interobserver agreement in measurement of optic disc characteristics",
+        "volume": "95",
+        "author": "Tielsch",
+        "year": "1988",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib3",
+        "first-page": "484",
+        "article-title": "Screening for glaucoma: U.S. Preventive Services Task Force recommendation statement",
+        "volume": "159",
+        "author": "Moyer",
+        "year": "2013",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1527",
+        "DOI": "10.1162/neco.2006.18.7.1527",
+        "article-title": "A fast learning algorithm for deep belief nets",
+        "volume": "18",
+        "author": "Hinton",
+        "year": "2006",
+        "journal-title": "Neural Comput"
+      },
+      {
+        "key": "bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1016/j.ogla.2019.03.008",
+        "article-title": "Validation of a deep learning model to screen for glaucoma using images from different fundus cameras and data augmentation",
+        "volume": "2",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: an extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "Gomez-Valverde",
+        "year": "2019",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.ogla.2018.04.002",
+        "article-title": "A deep learning-based algorithm identifies glaucomatous discs using monoscopic fundus photographs",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1016/j.ophtha.2019.05.029",
+        "article-title": "Development and validation of deep learning models for screening multiple abnormal findings in retinal fundus images",
+        "volume": "127",
+        "author": "Son",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development and validation of a deep learning system to detect glaucomatous optic neuropathy using fundus photographs",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "873",
+        "DOI": "10.1016/S0161-6420(85)33942-8",
+        "article-title": "Is there a racial difference in physiologic cup size?",
+        "volume": "92",
+        "author": "Beck",
+        "year": "1985",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1683",
+        "DOI": "10.1001/archopht.1987.01060120081030",
+        "article-title": "Optic disc rim area is related to disc size in normal subjects",
+        "volume": "105",
+        "author": "Caprioli",
+        "year": "1987",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "836",
+        "DOI": "10.1001/archopht.1989.01070010858029",
+        "article-title": "Racial differences in optic nerve head parameters",
+        "volume": "107",
+        "author": "Chi",
+        "year": "1989",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1142",
+        "DOI": "10.3109/02713683.2013.809123",
+        "article-title": "Ethnic variation in optic disc size by fundus photography",
+        "volume": "38",
+        "author": "Lee",
+        "year": "2013",
+        "journal-title": "Curr Eye Res"
+      },
+      {
+        "key": "bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1068",
+        "DOI": "10.1001/archopht.1994.01090200074026",
+        "article-title": "Race-, age-, gender-, and refractive error-related differences in the normal optic disc",
+        "volume": "112",
+        "author": "Varma",
+        "year": "1994",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/0002-9394(85)90001-7",
+        "article-title": "Race and primary open-angle glaucoma",
+        "volume": "99",
+        "author": "Martin",
+        "year": "1985",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "595",
+        "DOI": "10.1097/IJG.0b013e3181996f05",
+        "article-title": "Optic disk size variability between African, Asian, white, Hispanic, and Filipino Americans using Heidelberg retinal tomography",
+        "volume": "18",
+        "author": "Seider",
+        "year": "2009",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1001/archopht.122.1.22",
+        "article-title": "Racial differences in optic disc topography: baseline results from the confocal scanning laser ophthalmoscopy ancillary study to the ocular hypertension treatment study",
+        "volume": "122",
+        "author": "Zangwill",
+        "year": "2004",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib23",
+        "first-page": "3320",
+        "article-title": "How transferable are features in deep neural networks?",
+        "volume": "27",
+        "author": "Yosinski",
+        "year": "2014",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "article-title": "ImageNet large scale visual recognition challenge",
+        "volume": "115",
+        "author": "Russakovsky",
+        "year": "2015",
+        "journal-title": "Int J Comput Vision"
+      },
+      {
+        "key": "bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "article-title": "Using deep learning and transfer learning to accurately diagnose early-onset glaucoma from macular optical coherence tomography images",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.ophtha.2019.09.036",
+        "article-title": "Deep learning approaches predict glaucomatous visual field damage from OCT optic nerve head En face images and retinal nerve fiber layer thickness maps",
+        "volume": "127",
+        "author": "Christopher",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1136",
+        "DOI": "10.1001/archophthalmol.2009.187",
+        "article-title": "The African Descent and Glaucoma Evaluation Study (ADAGES): design and baseline data",
+        "volume": "127",
+        "author": "Sample",
+        "year": "2009",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1097/IJG.0b013e31802d695c",
+        "article-title": "Agreement between stereophotographic and confocal scanning laser ophthalmoscopy measurements of cup/disc ratio: effect on a predictive model for glaucoma development",
+        "volume": "16",
+        "author": "Medeiros",
+        "year": "2007",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1487",
+        "DOI": "10.1080/02664760903046102",
+        "article-title": "Nonparametric bootstrapping for hierarchical data",
+        "volume": "37",
+        "author": "Ren",
+        "year": "2010",
+        "journal-title": "J Appl Stat"
+      },
+      {
+        "key": "bib33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jamaophthalmol.2019.1997",
+        "article-title": "Observations and lessons learned from the artificial intelligence studies for diabetic retinopathy screening",
+        "author": "Ting",
+        "year": "2019 Jun 13 [Epub ahead of print]",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "821",
+        "DOI": "10.1001/archopht.1994.01090180121046",
+        "article-title": "The Barbados Eye Study. Prevalence of open angle glaucoma",
+        "volume": "112",
+        "author": "Leske",
+        "year": "1994",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1475",
+        "DOI": "10.1016/j.ophtha.2019.09.014",
+        "article-title": "An ophthalmologist's guide to deciphering studies in artificial intelligence",
+        "volume": "126",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1093/bib/bbr008",
+        "article-title": "Caveats and pitfalls of ROC analysis in clinical microarray research (and how to avoid them)",
+        "volume": "13",
+        "author": "Berrar",
+        "year": "2012",
+        "journal-title": "Brief Bioinform"
+      },
+      {
+        "key": "bib29",
+        "author": "Japan Glaucoma Society"
+      },
+      {
+        "key": "bib30",
+        "first-page": "770",
+        "article-title": "Deep residual learning for image recognition",
+        "volume-title": "The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "key": "bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2921",
+        "DOI": "10.1109/CVPR.2016.319",
+        "article-title": "Learning deep features for discriminative localization",
+        "volume-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (Cvpr).",
+        "author": "Zhou",
+        "year": "2016"
+      },
+      {
+        "key": "bib37",
+        "article-title": "Transfusion: understanding transfer learning for medical imaging",
+        "volume-title": "33rd Conference on Neural Information Processing System (NeurIPS 2019)",
+        "author": "Raghu",
+        "year": "2019"
+      }
+    ],
+    "container-title": [
+      "Translational Vision Science &amp; Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://tvst.arvojournals.org/article.aspx?articleid=2765468",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2020-04-28T15:31:22Z",
+      "timestamp": 1588087882000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://tvst.arvojournals.org/article.aspx?articleid=2765468"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            28
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1167/tvst.9.2.27",
+    "relation": {},
+    "ISSN": [
+      "2164-2591"
+    ],
+    "issn-type": [
+      {
+        "value": "2164-2591",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ]
+    }
+  }
+}

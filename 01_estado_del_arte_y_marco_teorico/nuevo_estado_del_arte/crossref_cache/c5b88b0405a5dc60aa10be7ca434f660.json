@@ -1,0 +1,751 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2026-11-18T00:49:24Z",
+      "timestamp": 1794962964633,
+      "version": "4.9.1"
+    },
+    "reference-count": 31,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2019-08-01T00:00:00Z",
+          "timestamp": 1564617600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2019-08-01T00:00:00Z",
+          "timestamp": 1564617600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              24
+            ]
+          ],
+          "date-time": "2019-07-24T00:00:00Z",
+          "timestamp": 1563926400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Council General Research Fund",
+        "award": [
+          "14102418"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "14102418"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "thelancet.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "The Lancet Digital Health"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/s2589-7500(19)30085-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          9
+        ]
+      ],
+      "date-time": "2019-08-09T18:31:57Z",
+      "timestamp": 1565375517000
+    },
+    "page": "e172-e182",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 144,
+    "title": [
+      "Detection of glaucomatous optic neuropathy with spectral-domain optical coherence tomography: a retrospective training and validation deep-learning analysis"
+    ],
+    "prefix": "10.1016",
+    "volume": "1",
+    "author": [
+      {
+        "given": "An Ran",
+        "family": "Ran",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carol Y",
+        "family": "Cheung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lu-yang",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Poemen P",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mandy O M",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert T",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suria S",
+        "family": "Mannil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alvin L",
+        "family": "Young",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hon-wah",
+        "family": "Yung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chi Pui",
+        "family": "Pang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pheng-Ann",
+        "family": "Heng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clement C",
+        "family": "Tham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2183",
+        "DOI": "10.1016/S0140-6736(17)31469-1",
+        "article-title": "Glaucoma",
+        "volume": "390",
+        "author": "Jonas",
+        "year": "2017",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.7326/0003-4819-159-6-201309170-00686",
+        "article-title": "Screening for glaucoma: US Preventive Services Task Force recommendation statement",
+        "volume": "159",
+        "author": "Moyer",
+        "year": "2013",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.3109/08820538.2013.771200",
+        "article-title": "Glaucoma screening: current perspectives and future directions",
+        "volume": "28",
+        "author": "Momont",
+        "year": "2013",
+        "journal-title": "Semin Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1257",
+        "DOI": "10.1016/j.ophtha.2009.04.013",
+        "article-title": "Retinal nerve fiber layer imaging with spectral-domain optical coherence tomography: a variability and diagnostic performance study",
+        "volume": "116",
+        "author": "Leung",
+        "year": "2009",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0199134",
+        "article-title": "Diagnostic accuracy of macular ganglion cell-inner plexiform layer thickness for glaucoma detection in a population-based study: comparison with optic nerve head imaging parameters",
+        "volume": "13",
+        "author": "Koh",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1016/j.ophtha.2013.10.044",
+        "article-title": "Diagnostic performance of optical coherence tomography ganglion cell—inner plexiform layer thickness measurements in early glaucoma",
+        "volume": "121",
+        "author": "Mwanza",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "104",
+        "DOI": "10.1080/09286586.2016.1258082",
+        "article-title": "Nerve fiber layer thickness and characteristics associated with glaucoma in community living older adults: prelude to a screening trial?",
+        "volume": "24",
+        "author": "Klein",
+        "year": "2017",
+        "journal-title": "Ophthalmic Epidemiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1097/IJG.0000000000000822",
+        "article-title": "Use of optical coherence tomography by nonexpert personnel as a screening approach for glaucoma",
+        "volume": "27",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "396",
+        "DOI": "10.1001/jamaophthalmol.2013.7974",
+        "article-title": "Artifacts in spectral-domain optical coherence tomography measurements in glaucoma",
+        "volume": "132",
+        "author": "Asrani",
+        "year": "2014",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "312",
+        "DOI": "10.1001/archopthalmol.2011.1576",
+        "article-title": "Effect of race, age, and axial length on optic nerve head parameters and retinal nerve fiber layer thickness measured by Cirrus HD-OCT",
+        "volume": "130",
+        "author": "Knight",
+        "year": "2012",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1347",
+        "DOI": "10.1016/j.ophtha.2007.11.027",
+        "article-title": "Relationship between retinal nerve fiber layer measurement and signal strength in optical coherence tomography",
+        "volume": "115",
+        "author": "Cheung",
+        "year": "2008",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "7194",
+        "DOI": "10.1167/iovs.12-9726",
+        "article-title": "Retinal nerve fiber layer imaging with spectral-domain optical coherence tomography: interpreting the RNFL maps in healthy myopic eyes",
+        "volume": "53",
+        "author": "Leung",
+        "year": "2012",
+        "journal-title": "Invest Ophth Vis Sci"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "9629",
+        "DOI": "10.1167/iovs.11-7481",
+        "article-title": "Determinants of quantitative optic nerve measurements using spectral domain optical coherence tomography in a population-based sample of non-glaucomatous subjects",
+        "volume": "52",
+        "author": "Cheung",
+        "year": "2011",
+        "journal-title": "Invest Ophth Vis Sci"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "646",
+        "DOI": "10.1016/j.ajo.2011.04.002",
+        "article-title": "Diagnostic classification of retinal nerve fiber layer measurement in myopic eyes: a comparison between time-domain and spectral-domain optical coherence tomography",
+        "volume": "152",
+        "author": "Qiu",
+        "year": "2011",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "LeCun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib19",
+        "article-title": "Artificial intelligence in diabetic eye disease screening",
+        "author": "Cheung",
+        "year": "2019",
+        "journal-title": "Asia Pac J Ophthalmol (Phila)"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "article-title": "From machine to machine: an OCT-trained deep learning algorithm for objective quantification of glaucomatous damage in fundus photographs",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1016/j.ajo.2019.01.011",
+        "article-title": "A deep learning algorithm to quantify neuroretinal rim loss from optic disc photographs",
+        "volume": "201",
+        "author": "Thompson",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "498",
+        "DOI": "10.1016/S0002-9394(98)00272-4",
+        "article-title": "The effectiveness of intraocular pressure reduction in the treatment of normal-tension glaucoma. Collaborative Normal-Tension Glaucoma Study Group",
+        "volume": "126",
+        "year": "1998",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "4104",
+        "DOI": "10.1167/iovs.09-4716",
+        "article-title": "Effect of disease severity on the performance of Cirrus spectral-domain OCT for glaucoma diagnosis",
+        "volume": "51",
+        "author": "Leite",
+        "year": "2010",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2018/5692404",
+        "article-title": "Influence of disc size on the diagnostic accuracy of Cirrus spectral-domain optical coherence tomography in glaucoma",
+        "volume": "2018",
+        "author": "Sato",
+        "year": "2018",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1038/s41591-018-0307-0",
+        "article-title": "The practical implementation of artificial intelligence technologies in medicine",
+        "volume": "25",
+        "author": "He",
+        "year": "2019",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/j.ins.2018.01.051",
+        "article-title": "Deep convolution neural network for accurate diagnosis of glaucoma using digital fundus images",
+        "volume": "441",
+        "author": "Raghavendra",
+        "year": "2018",
+        "journal-title": "Inform Sciences"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30085-8_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "iii",
+        "DOI": "10.3310/hta11410",
+        "article-title": "The clinical effectiveness and cost-effectiveness of screening for open angle glaucoma: a systematic review and economic evaluation",
+        "volume": "11",
+        "author": "Burr",
+        "year": "2007",
+        "journal-title": "Health Technol Assess"
+      }
+    ],
+    "container-title": [
+      "The Lancet Digital Health"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750019300858?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750019300858?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2025-11-11T22:47:45Z",
+      "timestamp": 1762901265000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2589750019300858"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2589750019300858"
+    ],
+    "URL": "https://doi.org/10.1016/s2589-7500(19)30085-8",
+    "relation": {},
+    "ISSN": [
+      "2589-7500"
+    ],
+    "issn-type": [
+      {
+        "value": "2589-7500",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Detection of glaucomatous optic neuropathy with spectral-domain optical coherence tomography: a retrospective training and validation deep-learning analysis",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Lancet Digital Health",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/S2589-7500(19)30085-8",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "https://doi.org/10.1016/S2589-7500(19)30087-1",
+        "name": "associatedlink",
+        "label": "CrossRef DOI link to the associated document"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Author(s). Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

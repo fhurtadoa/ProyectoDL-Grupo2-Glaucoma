@@ -1,0 +1,679 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2026-08-18T04:33:10Z",
+      "timestamp": 1787027590243,
+      "version": "build-2736575974"
+    },
+    "reference-count": 18,
+    "publisher": "MDPI AG",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2024-11-13T00:00:00Z",
+          "timestamp": 1731456000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Critical Research Infrastructure Initiative, Medical Research Future Fund",
+        "award": [
+          "MRFAI00035"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MRFAI00035"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "National Critical Research Infrastructure Initiative, Medical Research Future Fund",
+        "award": [
+          "APP1175405"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "APP1175405"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NHMRC Investigator",
+        "award": [
+          "MRFAI00035"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MRFAI00035"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NHMRC Investigator",
+        "award": [
+          "APP1175405"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "APP1175405"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Victorian State Government",
+        "award": [
+          "MRFAI00035"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MRFAI00035"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Victorian State Government",
+        "award": [
+          "APP1175405"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "APP1175405"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Australian Commonwealth Government",
+        "award": [
+          "MRFAI00035"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MRFAI00035"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Australian Commonwealth Government",
+        "award": [
+          "APP1175405"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "APP1175405"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Bioengineering"
+    ],
+    "abstract": "<jats:p>Background/Objectives: Glaucoma is the leading cause of irreversible blindness, with a significant proportion of cases remaining undiagnosed globally. The interpretation of optic disc and retinal nerve fibre layer images poses challenges for optometrists and ophthalmologists, often leading to misdiagnosis. AI has the potential to improve diagnosis. This study aims to validate an AI system (a convolutional neural network based on the Inception-v3 architecture) for detecting glaucomatous optic neuropathy (GON) using colour fundus photographs from a UK population and to compare its performance against Australian optometrists. Methods: A retrospective external validation study was conducted, comparing AI’s performance with that of 11 AHPRA-registered optometrists in Australia on colour retinal photographs, evaluated against a reference (gold) standard established by a panel of glaucoma specialists. Statistical analyses were performed using sensitivity, specificity, and area under the receiver operating characteristic curve (AUROC). Results: For referable GON, the sensitivity of the AI (33.3% [95%CI: 32.4–34.3) was significantly lower than that of optometrists (65.1% [95%CI: 64.1–66.0]), p &lt; 0.0001, although with significantly higher specificity (AI: 97.4% [95%CI: 97.0–97.7]; optometrists: 85.5% [95%CI: 84.8–86.2], p &lt; 0.0001). The optometrists demonstrated significantly higher AUROC (0.753 [95%CI: 0.744–0.762]) compared to AI (0.654 [95%CI: 0.645–0.662], p &lt; 0.0001). Conclusion: The AI system exhibited lower performance than optometrists in detecting referable glaucoma. Our findings suggest that while AI can serve as a screening tool, both AI and optometrists have suboptimal performance for the nuanced diagnosis of glaucoma using fundus photographs alone. Enhanced training with diverse populations for AI is essential for improving GON detection and addressing the significant challenge of undiagnosed cases.</jats:p>",
+    "DOI": "10.3390/bioengineering11111139",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2024-11-13T06:10:48Z",
+      "timestamp": 1731478248000
+    },
+    "page": "1139",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Performance of a Deep Learning System and Performance of Optometrists for the Detection of Glaucomatous Optic Neuropathy Using Colour Retinal Photographs"
+    ],
+    "prefix": "10.3390",
+    "volume": "11",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7383-8208",
+        "authenticated-orcid": false,
+        "given": "Catherine L.",
+        "family": "Jan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          },
+          {
+            "name": "Lost Child’s Vision Project, Sydney, NSW 2000, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5920-4604",
+        "authenticated-orcid": false,
+        "given": "Algis",
+        "family": "Vingrys",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Department of Optometry and Vision Sciences, The University of Melbourne, Melbourne, VIC 3053, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacqueline",
+        "family": "Henwood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xianwen",
+        "family": "Shang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3097-9769",
+        "authenticated-orcid": false,
+        "given": "Christian",
+        "family": "Davey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics, University of Melbourne, Melbourne, VIC 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8800-7834",
+        "authenticated-orcid": false,
+        "given": "Peter",
+        "family": "van Wijngaarden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "George Y. X.",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jennifer C.",
+        "family": "Fan Gaskin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bernardo P.",
+        "family": "Soares Bezerra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Randall S.",
+        "family": "Stafford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stanford Prevention Research Center, Stanford University School of Medicine, Stanford, CA 94304, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mingguang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC 3002, Australia"
+          },
+          {
+            "name": "Ophthalmology, Department of Surgery, The University of Melbourne, Melbourne, VIC 3010, Australia"
+          },
+          {
+            "name": "School of Optometry, The Hong Kong Polytechnic University, Kowloon, Hong Kong"
+          },
+          {
+            "name": "Research Centre for SHARP Vision (RCSV), The Hong Kong Polytechnic University, Kowloon, Hong Kong"
+          },
+          {
+            "name": "Centre for Eye and Vision Research (CEVR), 17W Hong Kong Science Park, Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "first-page": "844",
+        "article-title": "Global data on visual impairment in the year 2002",
+        "volume": "82",
+        "author": "Resnikoff",
+        "year": "2004",
+        "journal-title": "Bull. World Health Organ."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "614",
+        "DOI": "10.1136/bjophthalmol-2011-300539",
+        "article-title": "Global estimates of visual impairment: 2010",
+        "volume": "96",
+        "author": "Pascolini",
+        "year": "2012",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: A systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_4",
+        "first-page": "59",
+        "article-title": "Glaucoma-Review for the vigilant clinician",
+        "volume": "10",
+        "author": "Weston",
+        "year": "2000",
+        "journal-title": "Clin. Rev."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/j.ophtha.2015.10.053",
+        "article-title": "Primary open-angle glaucoma preferred practice pattern® guidelines",
+        "volume": "123",
+        "author": "Prum",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1508",
+        "DOI": "10.1016/j.ophtha.2004.01.029",
+        "article-title": "Detection of undiagnosed glaucoma by eye health professionals",
+        "volume": "111",
+        "author": "Wong",
+        "year": "2004",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1393",
+        "DOI": "10.1016/j.ophtha.2021.04.009",
+        "article-title": "The global extent of undetected glaucoma in adults: A systematic review and meta-analysis",
+        "volume": "128",
+        "author": "Soh",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "560",
+        "DOI": "10.1001/jamaophthalmol.2014.96",
+        "article-title": "Glaucomatous optic neuropathy evaluation project: Factors associated with underestimation of glaucoma likelihood",
+        "volume": "132",
+        "author": "Gurria",
+        "year": "2014",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41433-024-03026-z",
+        "article-title": "Diagnosing glaucoma in primary eye care and the role of Artificial Intelligence applications for reducing the prevalence of undetected glaucoma in Australia",
+        "volume": "38",
+        "author": "Jan",
+        "year": "2024",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1080/08164622.2021.2004861",
+        "article-title": "The appropriateness of and barriers to glaucoma care delivery by Australian optometrists",
+        "volume": "105",
+        "author": "Toomey",
+        "year": "2022",
+        "journal-title": "Clin. Exp. Optom."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e012799",
+        "DOI": "10.1136/bmjopen-2016-012799",
+        "article-title": "STARD 2015 guidelines for reporting diagnostic accuracy studies: Explanation and elaboration",
+        "volume": "6",
+        "author": "Cohen",
+        "year": "2016",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e025077",
+        "DOI": "10.1136/bmjopen-2018-025077",
+        "article-title": "Cohort profile: Design and methods in the eye and vision consortium of UK Biobank",
+        "volume": "9",
+        "author": "Chua",
+        "year": "2019",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1136/bjophthalmol-2017-311786",
+        "article-title": "Prevalence of glaucoma in the Australian national eye health survey",
+        "volume": "103",
+        "author": "Keel",
+        "year": "2019",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "061108",
+        "DOI": "10.1117/1.JMI.10.6.061108",
+        "article-title": "Validating racial and ethnic non-bias of artificial intelligence decision support for diagnostic breast ultrasound evaluation",
+        "volume": "10",
+        "author": "Koo",
+        "year": "2023",
+        "journal-title": "J. Med. Imaging"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "655",
+        "DOI": "10.1177/1932296820906212",
+        "article-title": "Validation of automated screening for referable diabetic retinopathy with an autonomous diagnostic artificial intelligence system in a Spanish population",
+        "volume": "15",
+        "author": "Shah",
+        "year": "2021",
+        "journal-title": "J. Diabetes Sci. Technol."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1168",
+        "DOI": "10.2337/dc20-1877",
+        "article-title": "Multicenter, head-to-head, real-world validation study of seven automated artificial intelligence diabetic retinopathy screening systems",
+        "volume": "44",
+        "author": "Lee",
+        "year": "2021",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref_18",
+        "first-page": "100113",
+        "article-title": "Sex, ethnicity, and race data are often unreported in artificial intelligence and machine learning studies in medicine",
+        "volume": "8",
+        "author": "Elmahdy",
+        "year": "2023",
+        "journal-title": "Intell.-Based Med."
+      }
+    ],
+    "container-title": [
+      "Bioengineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2306-5354/11/11/1139/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T16:31:04Z",
+      "timestamp": 1760113864000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2306-5354/11/11/1139"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ]
+    },
+    "references-count": 18,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "bioengineering11111139"
+    ],
+    "URL": "https://doi.org/10.3390/bioengineering11111139",
+    "relation": {},
+    "ISSN": [
+      "2306-5354"
+    ],
+    "issn-type": [
+      {
+        "value": "2306-5354",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ]
+    }
+  }
+}

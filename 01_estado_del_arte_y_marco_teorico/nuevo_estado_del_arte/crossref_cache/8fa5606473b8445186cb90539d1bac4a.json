@@ -1,0 +1,710 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2026-11-23T19:48:25Z",
+      "timestamp": 1795463305460,
+      "version": "4.11.0"
+    },
+    "reference-count": 33,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              6
+            ]
+          ],
+          "date-time": "2024-06-06T00:00:00Z",
+          "timestamp": 1717632000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              6
+            ]
+          ],
+          "date-time": "2024-06-06T00:00:00Z",
+          "timestamp": 1717632000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "npj Digit. Med."
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Malnutrition is a frequently underdiagnosed condition leading to increased morbidity, mortality, and healthcare costs. The Mount Sinai Health System (MSHS) deployed a machine learning model (MUST-Plus) to detect malnutrition upon hospital admission. However, in diverse patient groups, a poorly calibrated model may lead to misdiagnosis, exacerbating health care disparities. We explored the model’s calibration across different variables and methods to improve calibration. Data from adult patients admitted to five MSHS hospitals from January 1, 2021 - December 31, 2022, were analyzed. We compared MUST-Plus prediction to the registered dietitian’s formal assessment. Hierarchical calibration was assessed and compared between the recalibration sample (N = 49,562) of patients admitted between January 1, 2021 - December 31, 2022, and the hold-out sample (N = 17,278) of patients admitted between January 1, 2023 - September 30, 2023. Statistical differences in calibration metrics were tested using bootstrapping with replacement. Before recalibration, the overall model calibration intercept was −1.17 (95% CI: −1.20, −1.14), slope was 1.37 (95% CI: 1.34, 1.40), and Brier score was 0.26 (95% CI: 0.25, 0.26). Both weak and moderate measures of calibration were significantly different between White and Black patients and between male and female patients. Logistic recalibration significantly improved calibration of the model across race and gender in the hold-out sample. The original MUST-Plus model showed significant differences in calibration between White vs. Black patients. It also overestimated malnutrition in females compared to males. Logistic recalibration effectively reduced miscalibration across all patient subgroups. Continual monitoring and timely recalibration can improve model accuracy.</jats:p>",
+    "DOI": "10.1038/s41746-024-01141-5",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2024-06-06T14:04:23Z",
+      "timestamp": 1717682663000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 36,
+    "title": [
+      "Assessing calibration and bias of a deployed machine learning malnutrition prediction model within a large healthcare system"
+    ],
+    "prefix": "10.1038",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8066-5947",
+        "authenticated-orcid": false,
+        "given": "Lathan",
+        "family": "Liou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erick",
+        "family": "Scott",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-9383-691X",
+        "authenticated-orcid": false,
+        "given": "Prathamesh",
+        "family": "Parchure",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuxia",
+        "family": "Ouyang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Natalia",
+        "family": "Egorova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4946-6533",
+        "authenticated-orcid": false,
+        "given": "Robert",
+        "family": "Freeman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ira S.",
+        "family": "Hofer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6319-4314",
+        "authenticated-orcid": false,
+        "given": "Girish N.",
+        "family": "Nadkarni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prem",
+        "family": "Timsina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arash",
+        "family": "Kia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6013-2684",
+        "authenticated-orcid": false,
+        "given": "Matthew A.",
+        "family": "Levin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1141_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1002708",
+        "DOI": "10.1371/journal.pmed.1002708",
+        "volume": "15",
+        "author": "L Nevin",
+        "year": "2018",
+        "unstructured": "Nevin, L. Advancing the beneficial use of machine learning in health care and medicine: Toward a community understanding. PLoS Med. 15, e1002708 (2018).",
+        "journal-title": "PLoS Med."
+      },
+      {
+        "key": "1141_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1001/jama.2015.19417",
+        "volume": "315",
+        "author": "RB Parikh",
+        "year": "2016",
+        "unstructured": "Parikh, R. B., Kakad, M. & Bates, D. W. Integrating predictive analytics into high-value care: the dawn of precision delivery. JAMA 315, 651–652 (2016).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "1141_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-019-1466-7",
+        "volume": "17",
+        "author": "B Van Calster",
+        "year": "2019",
+        "unstructured": "Van Calster, B., McLernon, D. J., van Smeden, M., Wynants, L. & Steyerberg, E. W. Calibration: the Achilles heel of predictive analytics. BMC Med. 17, 230 (2019).",
+        "journal-title": "BMC Med"
+      },
+      {
+        "key": "1141_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1186/s41512-017-0021-2",
+        "volume": "1",
+        "author": "BS Wessler",
+        "year": "2017",
+        "unstructured": "Wessler, B. S. et al. Tufts PACE Clinical Predictive Model Registry: update 1990 through 2015. Diagn. Progn. Res. 1, 20 (2017).",
+        "journal-title": "Diagn. Progn. Res."
+      },
+      {
+        "key": "1141_CR5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2288-14-40",
+        "volume": "14",
+        "author": "GS Collins",
+        "year": "2014",
+        "unstructured": "Collins, G. S. et al. External validation of multivariable prediction models: a systematic review of methodological conduct and reporting. BMC Med. Res. Methodol. 14, 40 (2014).",
+        "journal-title": "BMC Med. Res. Methodol."
+      },
+      {
+        "key": "1141_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1016/j.jclinepi.2015.12.005",
+        "volume": "74",
+        "author": "B Van Calster",
+        "year": "2016",
+        "unstructured": "Van Calster, B. et al. A calibration hierarchy for risk models was defined: from utopia to empirical data. J. Clin. Epidemiol. 74, 167–176 (2016).",
+        "journal-title": "J. Clin. Epidemiol."
+      },
+      {
+        "key": "1141_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "133",
+        "DOI": "10.1016/j.jclinepi.2017.11.013",
+        "volume": "98",
+        "author": "EW Steyerberg",
+        "year": "2018",
+        "unstructured": "Steyerberg, E. W. et al. Poor performance of clinical prediction models: the harm of commonly applied methods. J. Clin. Epidemiol. 98, 133–143 (2018).",
+        "journal-title": "J. Clin. Epidemiol."
+      },
+      {
+        "key": "1141_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1052",
+        "DOI": "10.1093/jamia/ocx030",
+        "volume": "24",
+        "author": "SE Davis",
+        "year": "2017",
+        "unstructured": "Davis, S. E., Lasko, T. A., Chen, G., Siew, E. D. & Matheny, M. E. Calibration drift in regression and machine learning models for acute kidney injury. J. Am. Med Inf. Assoc. JAMIA 24, 1052–1061 (2017).",
+        "journal-title": "J. Am. Med Inf. Assoc. JAMIA"
+      },
+      {
+        "key": "1141_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "103611",
+        "DOI": "10.1016/j.jbi.2020.103611",
+        "volume": "112",
+        "author": "SE Davis",
+        "year": "2020",
+        "unstructured": "Davis, S. E., Greevy, R. A., Lasko, T. A., Walsh, C. G. & Matheny, M. E. Detection of calibration drift in clinical prediction models to inform model updating. J. Biomed. Inf. 112, 103611 (2020).",
+        "journal-title": "J. Biomed. Inf."
+      },
+      {
+        "key": "1141_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "40",
+        "DOI": "10.1007/s00134-011-2390-2",
+        "volume": "38",
+        "author": "L Minne",
+        "year": "2012",
+        "unstructured": "Minne, L. et al. Effect of changes over time in the performance of a customized SAPS-II model on the quality of care assessment. Intensive Care Med. 38, 40–46 (2012).",
+        "journal-title": "Intensive Care Med."
+      },
+      {
+        "key": "1141_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2035782",
+        "DOI": "10.1001/jamanetworkopen.2020.35782",
+        "volume": "4",
+        "author": "ME Matheny",
+        "year": "2021",
+        "unstructured": "Matheny, M. E. et al. Development of electronic health record-based prediction models for 30-day readmission risk among patients hospitalized for acute myocardial infarction. JAMA Netw. Open 4, e2035782 (2021).",
+        "journal-title": "JAMA Netw. Open"
+      },
+      {
+        "key": "1141_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "e34295",
+        "DOI": "10.2196/34295",
+        "volume": "24",
+        "author": "H Sun",
+        "year": "2022",
+        "unstructured": "Sun, H. et al. Machine learning-based prediction models for different clinical risks in different hospitals: evaluation of live performance. J. Med. Internet Res. 24, e34295 (2022).",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "key": "1141_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1079/BJN20041152",
+        "volume": "92",
+        "author": "SM Schneider",
+        "year": "2007",
+        "unstructured": "Schneider, S.M. et al. Malnutrition is an independent factor associated with nosocomial infections. British J. Nutr. 92, 105–111 (2007).",
+        "journal-title": "British J. Nutr."
+      },
+      {
+        "key": "1141_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "422",
+        "DOI": "10.1016/j.arr.2005.03.005",
+        "volume": "4",
+        "author": "RJ Stratton",
+        "year": "2005",
+        "unstructured": "Stratton, R. J. et al. Enteral nutritional support in prevention and treatment of pressure ulcers: a systematic review and meta-analysis. Ageing Res. Rev. 4, 422–450 (2005).",
+        "journal-title": "Ageing Res. Rev."
+      },
+      {
+        "key": "1141_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "796",
+        "DOI": "10.1177/0148607113492337",
+        "volume": "37",
+        "author": "BS Rosen",
+        "year": "2013",
+        "unstructured": "Rosen, B. S., Maddox, P. J. & Ray, N. A position paper on how cost and quality reforms are changing healthcare in America: focus on nutrition. JPEN J. Parenter. Enter. Nutr. 37, 796–801 (2013).",
+        "journal-title": "JPEN J. Parenter. Enter. Nutr."
+      },
+      {
+        "key": "1141_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1080/07315724.2020.1774821",
+        "volume": "40",
+        "author": "P Timsina",
+        "year": "2021",
+        "unstructured": "Timsina, P. et al. MUST-Plus: a machine learning classifier that improves malnutrition screening in acute care facilities. J. Am. Coll. Nutr. 40, 3–12 (2021).",
+        "journal-title": "J. Am. Coll. Nutr."
+      },
+      {
+        "key": "1141_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e024996",
+        "DOI": "10.1136/bmjopen-2018-024996",
+        "volume": "8",
+        "author": "N White",
+        "year": "2018",
+        "unstructured": "White, N. et al. How do palliative care doctors recognise imminently dying patients? A judgement analysis. BMJ Open 8, e024996 (2018).",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "1141_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1391",
+        "DOI": "10.1377/hlthaff.2015.1426",
+        "volume": "35",
+        "author": "JF Figueroa",
+        "year": "2016",
+        "unstructured": "Figueroa, J. F., Zheng, J., Orav, E. J., Jha, A. K. & Across, U. S. Hospitals, black patients report comparable or better experiences than white patients. Health Aff. (Millwood) 35, 1391–1398 (2016).",
+        "journal-title": "Health Aff. (Millwood)"
+      },
+      {
+        "key": "1141_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1080/07315724.2006.10719523",
+        "volume": "25",
+        "author": "H Castel",
+        "year": "2006",
+        "unstructured": "Castel, H., Shahar, D. & Harman-Boehm, I. Gender differences in factors associated with nutritional status of older medical patients. J. Am. Coll. Nutr. 25, 128–134 (2006).",
+        "journal-title": "J. Am. Coll. Nutr."
+      },
+      {
+        "key": "1141_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.3390/geriatrics7050105",
+        "volume": "7",
+        "author": "N Larburu",
+        "year": "2022",
+        "unstructured": "Larburu, N. et al. Key Factors and AI-Based Risk Prediction of Malnutrition in Hospitalized Older Women. Geriatrics 7, 105 (2022).",
+        "journal-title": "Geriatrics"
+      },
+      {
+        "key": "1141_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "303",
+        "DOI": "10.23736/S2724-6507.20.03143-0",
+        "volume": "46",
+        "author": "N Gur Arieh",
+        "year": "2021",
+        "unstructured": "Gur Arieh, N. et al. Sex difference in the association between malnutrition and hypoglycemia in hospitalized patients. Minerva Endocrinol. 46, 303–308 (2021).",
+        "journal-title": "Minerva Endocrinol."
+      },
+      {
+        "key": "1141_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "172",
+        "DOI": "10.1196/annals.1425.026",
+        "volume": "1136",
+        "author": "HF Delisle",
+        "year": "2008",
+        "unstructured": "Delisle, H. F. Poverty: the double burden of malnutrition in mothers and the intergenerational impact. Ann. N. Y Acad. Sci. 1136, 172–184 (2008).",
+        "journal-title": "Ann. N. Y Acad. Sci."
+      },
+      {
+        "key": "1141_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "500",
+        "DOI": "10.1177/0272989X211044697",
+        "volume": "42",
+        "author": "A Mishra",
+        "year": "2022",
+        "unstructured": "Mishra, A., McClelland, R. L., Inoue, L. Y. T. & Kerr, K. F. Recalibration methods for improved clinical utility of risk scores. Med Decis. Mak. 42, 500–512 (2022).",
+        "journal-title": "Med Decis. Mak."
+      },
+      {
+        "key": "1141_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "291",
+        "DOI": "10.1097/CCM.0000000000005758",
+        "volume": "51",
+        "author": "AAH de Hond",
+        "year": "2023",
+        "unstructured": "de Hond, A. A. H. et al. Predicting Readmission or Death After Discharge From the ICU: External Validation and Retraining of a Machine Learning Model. Crit. Care Med. 51, 291–300 (2023).",
+        "journal-title": "Crit. Care Med."
+      },
+      {
+        "key": "1141_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "774",
+        "DOI": "10.1016/S0895-4356(01)00341-9",
+        "volume": "54",
+        "author": "EW Steyerberg",
+        "year": "2001",
+        "unstructured": "Steyerberg, E. W. et al. Internal validation of predictive models: efficiency of some procedures for logistic regression analysis. J. Clin. Epidemiol. 54, 774–781 (2001).",
+        "journal-title": "J. Clin. Epidemiol."
+      },
+      {
+        "key": "1141_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "2567",
+        "DOI": "10.1002/sim.1844",
+        "volume": "23",
+        "author": "EW Steyerberg",
+        "year": "2004",
+        "unstructured": "Steyerberg, E. W., Borsboom, G. J. J. M., van Houwelingen, H. C., Eijkemans, M. J. C. & Habbema, J. D. F. Validation and updating of predictive logistic regression models: a study on sample size and shrinkage. Stat. Med. 23, 2567–2586 (2004).",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "key": "1141_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "4529",
+        "DOI": "10.1002/sim.7179",
+        "volume": "36",
+        "author": "Y Vergouwe",
+        "year": "2017",
+        "unstructured": "Vergouwe, Y. et al. A closed testing procedure to select an appropriate method for updating prediction models. Stat. Med. 36, 4529–4539 (2017).",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "key": "1141_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harrell F. E. Regression modeling strategies: with applications to linear models, logistic regression, and survival analysis. In Statistics. New York, NY: Springer; 2001. http://link.springer.com/10.1007/978-1-4757-3462-1.",
+        "DOI": "10.1007/978-1-4757-3462-1"
+      },
+      {
+        "key": "1141_CR29",
+        "unstructured": "Canty A. J. Resampling methods in R: the boot package. Newsl R Proj Vol. 2002;2:2–7."
+      },
+      {
+        "key": "1141_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "4051",
+        "DOI": "10.1002/sim.8281",
+        "volume": "38",
+        "author": "PC Austin",
+        "year": "2019",
+        "unstructured": "Austin, P. C. & Steyerberg, E. W. The Integrated Calibration Index (ICI) and related metrics for quantifying the calibration of logistic regression models. Stat. Med. 38, 4051–4065 (2019).",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "key": "1141_CR31",
+        "unstructured": "R. Core Team. R: A language and environment for statistical computing. 2018. https://www.R-project.org/"
+      },
+      {
+        "key": "1141_CR32",
+        "unstructured": "Team Rs. RStudio: integrated development for R. RStudio, PBC, Boston, MA. 2020. 2021."
+      },
+      {
+        "key": "1141_CR33",
+        "unstructured": "Harrell F. E. Jr., Harrell M. F. E. Jr., Hmisc D. Package ‘rms.’ Vanderbilt Univ. 2017;229:Q8."
+      }
+    ],
+    "container-title": [
+      "npj Digital Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41746-024-01141-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41746-024-01141-5",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41746-024-01141-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2024-06-06T14:16:15Z",
+      "timestamp": 1717683375000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41746-024-01141-5"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1141"
+    ],
+    "URL": "https://doi.org/10.1038/s41746-024-01141-5",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.21203/rs.3.rs-3411582/v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2398-6352"
+    ],
+    "issn-type": [
+      {
+        "value": "2398-6352",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "4 October 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "22 May 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "6 June 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "149"
+  }
+}

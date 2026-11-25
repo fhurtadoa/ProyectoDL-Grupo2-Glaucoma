@@ -1,0 +1,796 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2026-11-19T01:04:58Z",
+      "timestamp": 1795050298415,
+      "version": "4.10.2"
+    },
+    "reference-count": 33,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2022-04-01T00:00:00Z",
+          "timestamp": 1648771200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2022-04-01T00:00:00Z",
+          "timestamp": 1648771200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              20
+            ]
+          ],
+          "date-time": "2022-01-20T00:00:00Z",
+          "timestamp": 1642636800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006785",
+        "name": "Google Inc",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006785",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "thelancet.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "The Lancet Digital Health"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/s2589-7500(22)00017-6",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2022-03-07T18:33:21Z",
+      "timestamp": 1646678001000
+    },
+    "page": "e235-e244",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 241,
+    "title": [
+      "Real-time diabetic retinopathy screening by deep learning in a multisite national screening programme: a prospective interventional cohort study"
+    ],
+    "prefix": "10.1016",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Paisan",
+        "family": "Ruamviboonsuk",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richa",
+        "family": "Tiwari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rory",
+        "family": "Sayres",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Variya",
+        "family": "Nganthavee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kornwipa",
+        "family": "Hemarat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Apinpat",
+        "family": "Kongprayoon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rajiv",
+        "family": "Raman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Levinstein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yun",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mike",
+        "family": "Schaekermann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roy",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sunny",
+        "family": "Virmani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kasumi",
+        "family": "Widner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Chambers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fred",
+        "family": "Hersch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lily",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dale R",
+        "family": "Webster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.diabres.2019.107843",
+        "article-title": "Global and regional diabetes prevalence estimates for 2019 and projections for 2030 and 2045: results from the International Diabetes Federation Diabetes Atlas, 9th edition",
+        "volume": "157",
+        "author": "Saeedi",
+        "year": "2019",
+        "journal-title": "Diabetes Res Clin Pract"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1608",
+        "DOI": "10.1016/j.ophtha.2018.04.007",
+        "article-title": "Guidelines on diabetic eye care: the international council of ophthalmology recommendations for screening, follow-up, referral, and treatment based on resource settings",
+        "volume": "125",
+        "author": "Wong",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1038/s41746-019-0099-8",
+        "article-title": "Deep learning versus human graders for classifying diabetic retinopathy severity in a nationwide screening program",
+        "volume": "2",
+        "author": "Raumviboonsuk",
+        "year": "2019",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "635",
+        "DOI": "10.1089/dia.2019.0164",
+        "article-title": "The value of automated diabetic retinopathy screening with the eyeart system: a study of more than 100,000 consecutive encounters from people with diabetes",
+        "volume": "21",
+        "author": "Bhaskaranand",
+        "year": "2019",
+        "journal-title": "Diabetes Technol Ther"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1291",
+        "DOI": "10.1007/s10792-020-01685-x",
+        "article-title": "Evaluation of a novel artificial intelligence-based screening system for diabetic retinopathy in community of China: a real-world study",
+        "volume": "41",
+        "author": "Ming",
+        "year": "2021",
+        "journal-title": "Int Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/bmjdrc-2020-001596",
+        "article-title": "Artificial intelligence-enabled screening for diabetic retinopathy: a real-world, multicenter and prospective study",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "BMJ Open Diabetes Res Care"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "723",
+        "DOI": "10.1136/bjophthalmol-2020-316594",
+        "article-title": "Prospective evaluation of an artificial intelligence-enabled algorithm for automated diabetic retinopathy screening of 30 000 patients",
+        "volume": "105",
+        "author": "Heydon",
+        "year": "2021",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "987",
+        "DOI": "10.1001/jamaophthalmol.2019.2004",
+        "article-title": "Performance of a deep-learning algorithm vs manual grading for detecting diabetic retinopathy in India",
+        "volume": "137",
+        "author": "Gulshan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e35",
+        "DOI": "10.1016/S2589-7500(19)30004-4",
+        "article-title": "Artificial intelligence using deep learning to screen for referable and vision-threatening diabetic retinopathy in Africa: a clinical validation study",
+        "volume": "1",
+        "author": "Bellemo",
+        "year": "2019",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "780",
+        "DOI": "10.2337/dc15-2338",
+        "article-title": "Variations in diabetes prevalence in low-, middle-, and high-income countries: results from the prospective urban and rural epidemiological study",
+        "volume": "39",
+        "author": "Dagenais",
+        "year": "2016",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1007/s11892-019-1189-3",
+        "article-title": "Artificial intelligence screening for diabetic retinopathy: the real-world emerging application",
+        "volume": "19",
+        "author": "Bellemo",
+        "year": "2019",
+        "journal-title": "Curr Diab Rep"
+      },
+      {
+        "issue": "suppl 1",
+        "key": "10.1016/S2589-7500(22)00017-6_bib15",
+        "first-page": "S136",
+        "article-title": "Diabetic retinopathy: current treatment and thailand perspective",
+        "volume": "100",
+        "author": "Silpa-archa",
+        "year": "2017",
+        "journal-title": "J Med Assoc Thai"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e537",
+        "DOI": "10.1016/S2589-7500(20)30218-1",
+        "article-title": "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension",
+        "volume": "2",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1264",
+        "DOI": "10.1016/j.ophtha.2018.01.034",
+        "article-title": "Grader variability and the importance of reference standards for evaluating machine learning models for diabetic retinopathy",
+        "volume": "125",
+        "author": "Krause",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "article-title": "Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales",
+        "volume": "110",
+        "author": "Wilkinson",
+        "year": "2003",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib20",
+        "series-title": "Sample size determination in health studies: a practical manual",
+        "author": "Kaggwa Lwanga",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1016/S0140-6736(03)12267-2",
+        "article-title": "Incidence of sight-threatening retinopathy in patients with type 2 diabetes in the Liverpool Diabetic Eye Study: a cohort study",
+        "volume": "361",
+        "author": "Younis",
+        "year": "2003",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "i189",
+        "DOI": "10.1136/bmj.i189",
+        "article-title": "Inverse probability weighting",
+        "volume": "352",
+        "author": "Mansournia",
+        "year": "2016",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib23",
+        "first-page": "A210",
+        "article-title": "Comparative study of 1- year health outcome related smoking among diabetes patients in primary care, Bangkok, Thailand",
+        "volume": "19",
+        "author": "Saritsiri",
+        "year": "2021",
+        "journal-title": "Tob Induc Dis"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib24",
+        "first-page": "280",
+        "article-title": "Smoking and death in Thai diabetic patients: the Thailand Diabetic Registry cohort",
+        "volume": "96",
+        "author": "Pratipanawatr",
+        "year": "2013",
+        "journal-title": "J Med Assoc Thai"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib25",
+        "series-title": "Proceedings of the 2020 CHI conference on human factors in computing systems",
+        "first-page": "1",
+        "article-title": "A human-centered evaluation of a deep learning system deployed in clinics for the detection of diabetic retinopathy",
+        "author": "Beede",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.oret.2020.06.016",
+        "article-title": "Diabetic retinopathy screening with automated retinal image analysis in a primary care setting improves adherence to ophthalmic care",
+        "volume": "5",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Ophthalmol Retina"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib27",
+        "article-title": "Redesigning clinical pathways for immediate diabetic retinopathy screening results",
+        "volume": "2",
+        "author": "Pedersen",
+        "year": "2021",
+        "journal-title": "NEJM Catal"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1007/s11892-019-1187-5",
+        "article-title": "Scaling up teleophthalmology for diabetic eye screening: opportunities for widespread implementation in the USA",
+        "volume": "19",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Curr Diab Rep"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "785",
+        "DOI": "10.1007/s00592-020-01506-8",
+        "article-title": "Fundamental principles of an effective diabetic retinopathy screening program",
+        "volume": "57",
+        "author": "Lanzetta",
+        "year": "2020",
+        "journal-title": "Acta Diabetol"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e240",
+        "DOI": "10.1016/S2589-7500(20)30060-1",
+        "article-title": "Artificial intelligence for teleophthalmology-based diabetic retinopathy screening in a national programme: an economic analysis modelling study",
+        "volume": "2",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1352",
+        "DOI": "10.1136/bjophthalmol-2016-310002",
+        "article-title": "Availability and variability in guidelines on diabetic retinopathy screening in Asian countries",
+        "volume": "101",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib32",
+        "first-page": "s22",
+        "article-title": "The Scottish diabetic retinopathy screening programme",
+        "volume": "28",
+        "author": "Zachariah",
+        "year": "2015",
+        "journal-title": "Community Eye Health"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e29",
+        "DOI": "10.1016/S2589-7500(20)30271-5",
+        "article-title": "Referral for disease-related visual impairment using retinal photograph-based deep learning: a proof-of-concept, model development study",
+        "volume": "3",
+        "author": "Tham",
+        "year": "2021",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "10.1016/S2589-7500(22)00017-6_bib35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      }
+    ],
+    "container-title": [
+      "The Lancet Digital Health"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750022000176?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750022000176?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2025-11-11T22:50:21Z",
+      "timestamp": 1762901421000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2589750022000176"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2589750022000176"
+    ],
+    "URL": "https://doi.org/10.1016/s2589-7500(22)00017-6",
+    "relation": {},
+    "ISSN": [
+      "2589-7500"
+    ],
+    "issn-type": [
+      {
+        "value": "2589-7500",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Real-time diabetic retinopathy screening by deep learning in a multisite national screening programme: a prospective interventional cohort study",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Lancet Digital Health",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/S2589-7500(22)00017-6",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "https://doi.org/10.1016/S2589-7500(22)00027-9",
+        "name": "associatedlink",
+        "label": "CrossRef DOI link to the associated document"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2022 The Author(s). Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

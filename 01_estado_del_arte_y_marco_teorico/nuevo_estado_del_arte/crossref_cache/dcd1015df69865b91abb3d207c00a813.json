@@ -1,0 +1,285 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2026-09-19T13:11:20Z",
+      "timestamp": 1789823480687,
+      "version": "4.0.1"
+    },
+    "reference-count": 0,
+    "publisher": "Rangsit University",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2026-09-15T00:00:00Z",
+          "timestamp": 1789430400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. Curr. Sci. Technol."
+    ],
+    "abstract": "<jats:p>Glaucoma is a chronic, progressive optic neuropathy and a leading cause of irreversible blindness worldwide. Early detection is crucial but is often limited by nonspecific clinical signs and the need for specialist expertise. Artificial intelligence (AI), particularly deep learning, has shown promise for glaucoma detection from ophthalmic images. This study independently validated an existing third-party AI tool, Cybersight AI, powered by the Visulytix Pegasus engine, for detecting primary glaucoma. No new algorithm was developed or proposed. A cross-sectional diagnostic accuracy study was conducted on 229 eyes from 121 patients, including 133 eyes with primary glaucoma and 96 controls, at Hue Central Hospital between December 2024 and September 2025. Fundus photographs were analyzed using the Cybersight AI platform, which estimated the vertical cup-to-disc ratio and generated a binary glaucoma referral recommendation. AI outputs were compared with diagnoses established by ophthalmologists using an expert multimodal clinical reference standard. Diagnostic performance was assessed using sensitivity, specificity, positive and negative predictive values, and the area under the receiver operating characteristic curve (AUC). At its default operating point, Cybersight AI achieved 51.9% sensitivity (95% CI 43.5–60.2) and 90.6% specificity (95% CI 83.1–95.0), with an AUC of 0.744 (95% CI 0.682–0.807). Positive and negative predictive values were 88.5% and 57.6%, respectively. The Youden-optimal cut-off was 10%, yielding 60.9% sensitivity and 85.4% specificity. Cybersight AI demonstrated moderate discrimination, high specificity, and modest sensitivity at its default binary setting in this Vietnamese tertiary-care cohort. It may serve as a screening or triage adjunct, although context-specific thresholding and further external validation are required before broad clinical deployment. Limitations include the single-center convenience sample, within-patient clustering, and comparison of a fundus-only index test against a multimodal reference standard. Future studies should prioritize multicenter validation in Vietnamese settings and comparison with expert fundus assessment alone.</jats:p>",
+    "DOI": "10.59796/jcst.v16n4.2026.220",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2026-09-19T12:41:07Z",
+      "timestamp": 1789821667000
+    },
+    "page": "220",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Diagnostic Accuracy of Cybersight AI for Glaucoma Detection: Sensitivity, Specificity, and ROC Analysis"
+    ],
+    "prefix": "10.59796",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-1594-5527",
+        "authenticated-orcid": false,
+        "given": "Nha Uyen",
+        "family": "Phan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Trong Van",
+        "family": "Pham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7420-4020",
+        "authenticated-orcid": false,
+        "given": "Kim Thanh",
+        "family": "Doan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3600-3911",
+        "authenticated-orcid": false,
+        "given": "Le Phuc",
+        "family": "Hoang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-6144-9593",
+        "authenticated-orcid": false,
+        "given": "Nhu Vinh Tuyen",
+        "family": "Pham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-1655-5766",
+        "authenticated-orcid": false,
+        "given": "Minh Tuan",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1201-1829",
+        "authenticated-orcid": false,
+        "given": "Quoc Tung",
+        "family": "Mai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3997-6532",
+        "authenticated-orcid": false,
+        "given": "Nicolas",
+        "family": "Jaccard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9866-3416",
+        "authenticated-orcid": false,
+        "given": "Nathan",
+        "family": "Congdon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "39274",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Current Science and Technology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ph04.tci-thaijo.org/index.php/JCST/article/download/12898/2804",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ph04.tci-thaijo.org/index.php/JCST/article/download/12898/2804",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2026-09-19T12:41:07Z",
+      "timestamp": 1789821667000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ph04.tci-thaijo.org/index.php/JCST/article/view/12898"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            15
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.59796/jcst.v16n4.2026.220",
+    "relation": {},
+    "ISSN": [
+      "2630-0656"
+    ],
+    "issn-type": [
+      {
+        "value": "2630-0656",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ]
+    }
+  }
+}

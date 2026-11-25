@@ -1,0 +1,846 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2026-09-08T11:42:59Z",
+      "timestamp": 1788867779997,
+      "version": "build-2803163510"
+    },
+    "reference-count": 53,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2025-03-21T00:00:00Z",
+          "timestamp": 1742515200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100010724",
+        "name": "Health Systems Research Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "672111040071"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "672111040071"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100010724",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "abstract": "<jats:p>Glaucoma is the leading cause of irreversible vision impairment, emphasizing the critical need for early detection. Typically, AI-based glaucoma screening relies on fundus imaging. To tackle the resource and time challenges in glaucoma screening with convolutional neural network (CNN), we chose the Data-efficient image Transformers (DeiT), a vision transformer, known for its reduced computational demands, with preprocessing time decreased by a factor of 10. Our approach utilized the meticulously annotated GlauCUTU-DATA dataset, curated by ophthalmologists through consensus, encompassing both unanimous agreement (3/3) and majority agreement (2/3) data. However, DeiT’s performance was initially lower than CNN. Therefore, we introduced the “pie method,\" an augmentation method aligned with the ISNT rule. Along with employing polar transformation to improved cup region visibility and alignment with the vision transformer’s input to elevated performance levels. The classification results demonstrated improvements comparable to CNN. Using the 3/3 data, excluding the superior and nasal regions, especially in glaucoma suspects, sensitivity increased by 40.18% from 47.06% to 88.24%. The average area under the curve (AUC) ± standard deviation (SD) for glaucoma, glaucoma suspects, and no glaucoma were 92.63 ± 4.39%, 92.35 ± 4.39%, and 92.32 ± 1.45%, respectively. With the 2/3 data, excluding the superior and temporal regions, sensitivity for diagnosing glaucoma increased by 11.36% from 47.73% to 59.09%. The average AUC ± SD for glaucoma, glaucoma suspects, and no glaucoma were 68.22 ± 4.45%, 68.23 ± 4.39%, and 73.09 ± 3.05%, respectively. For both datasets, the AUC values for glaucoma, glaucoma suspects, and no glaucoma were 84.53%, 84.54%, and 91.05%, respectively, which approach the performance of a CNN model that achieved 84.70%, 84.69%, and 93.19%, respectively. Moreover, the incorporation of attention maps from DeiT facilitated the precise localization of clinically significant areas, such as the disc rim and notching, thereby enhancing the overall effectiveness of glaucoma screening.</jats:p>",
+    "DOI": "10.1371/journal.pone.0314111",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          21
+        ]
+      ],
+      "date-time": "2025-03-21T17:40:13Z",
+      "timestamp": 1742578813000
+    },
+    "page": "e0314111",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Optimizing deep learning models for glaucoma screening with vision transformers for resource efficiency and the pie augmentation method"
+    ],
+    "prefix": "10.1371",
+    "volume": "20",
+    "author": [
+      {
+        "given": "Sirikorn",
+        "family": "Sangchocanonta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pakinee",
+        "family": "Pooprasert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nichapa",
+        "family": "Lerthirunvibul",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kanyarak",
+        "family": "Patchimnan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Phongphan",
+        "family": "Phienphanich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adirek",
+        "family": "Munthuli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sujittra",
+        "family": "Puangarom",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1580-7870",
+        "authenticated-orcid": true,
+        "given": "Rath",
+        "family": "Itthipanichpong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kitiya",
+        "family": "Ratanawongphaibul",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sunee",
+        "family": "Chansangpetch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anita",
+        "family": "Manassakorn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Visanee",
+        "family": "Tantisevi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prin",
+        "family": "Rojanapongpun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8996-2868",
+        "authenticated-orcid": true,
+        "given": "Charturong",
+        "family": "Tantibundhit",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "18",
+        "key": "pone.0314111.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "RN Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0314111.ref002",
+        "first-page": "887",
+        "article-title": "Glaucoma is second leading cause of blindness globally",
+        "volume": "82",
+        "author": "S Kingman",
+        "year": "2004",
+        "journal-title": "Bull World Health Organ"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0314111.ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Y-C Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0314111.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1016/S0161-6420(91)32296-6",
+        "article-title": "A comparison of treated and untreated glaucoma suspects",
+        "volume": "98",
+        "author": "M Schulzer",
+        "year": "1991",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "12S",
+        "key": "pone.0314111.ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "S57",
+        "DOI": "10.1016/j.ophtha.2017.07.015",
+        "article-title": "Detecting structural progression in glaucoma with optical coherence tomography",
+        "volume": "124",
+        "author": "AJ Tatham",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "pone.0314111.ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1007/978-981-16-3787-2_17",
+        "article-title": "Ophthalmology in South-East Asia: practices and priorities",
+        "author": "B Shamanna",
+        "year": "2021",
+        "journal-title": "South-East Asia Eye Health"
+      },
+      {
+        "key": "pone.0314111.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "36949",
+        "DOI": "10.1109/ACCESS.2022.3163845",
+        "article-title": "GlauCUTU: time until perceived virtual reality perimetry with humphrey field analyzer prediction-based artificial intelligence",
+        "volume": "10",
+        "author": "P Kunumpol",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0314111.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "1591",
+        "DOI": "10.1109/TMI.2021.3059956",
+        "article-title": "Multi-modal retinal image classification with modality-specific attention network",
+        "volume": "40",
+        "author": "X He",
+        "year": "2021",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0314111.ref009",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.survophthal.2022.08.005",
+        "article-title": "Automatic detection of glaucoma via fundus imaging and artificial intelligence: a review",
+        "volume": "68",
+        "author": "LJ Coan",
+        "year": "2023",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "key": "pone.0314111.ref010",
+        "first-page": "904",
+        "article-title": "Automated glaucoma screening from retinal fundus image using deep learning",
+        "author": "S Phasuk",
+        "year": "2019",
+        "journal-title": "Annu Int Conf IEEE Eng Med Biol Soc"
+      },
+      {
+        "key": "pone.0314111.ref011"
+      },
+      {
+        "issue": "12",
+        "key": "pone.0314111.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs",
+        "volume": "126",
+        "author": "S Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "pone.0314111.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "107036",
+        "DOI": "10.1016/j.compeleceng.2021.107036",
+        "article-title": "Screening of glaucoma disease from retinal vessel images using semantic segmentation",
+        "volume": "91",
+        "author": "R Imtiaz",
+        "year": "2021",
+        "journal-title": "Comput Electric Eng"
+      },
+      {
+        "key": "pone.0314111.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "102733",
+        "DOI": "10.1109/ACCESS.2020.2998635",
+        "article-title": "CDED-net: joint segmentation of optic disc and optic cup for glaucoma screening",
+        "volume": "8",
+        "author": "M Tabassum",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "pone.0314111.ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "37311",
+        "DOI": "10.1109/ACCESS.2021.3061451",
+        "article-title": "A review on glaucoma disease detection using computerized techniques",
+        "volume": "9",
+        "author": "F Abdullah",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "pone.0314111.ref016",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.cmpb.2018.08.003",
+        "article-title": "The region of interest localization for glaucoma analysis from retinal fundus image using deep learning",
+        "volume": "165",
+        "author": "A Mitra",
+        "year": "2018",
+        "journal-title": "Comput Methods Prog Biomed"
+      },
+      {
+        "key": "pone.0314111.ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1016/j.bspc.2018.01.014",
+        "article-title": "Survey on segmentation and classification approaches of optic cup and optic disc for diagnosis of glaucoma",
+        "volume": "42",
+        "author": "N Thakur",
+        "year": "2018",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "pone.0314111.ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "103283",
+        "DOI": "10.1016/j.advengsoft.2022.103283",
+        "article-title": "Collaboration of features optimization techniques for the effective diagnosis of glaucoma in retinal fundus images",
+        "volume": "173",
+        "author": "L Singh",
+        "year": "2022",
+        "journal-title": "Adv Eng Softw"
+      },
+      {
+        "key": "pone.0314111.ref019",
+        "doi-asserted-by": "crossref",
+        "first-page": "104077",
+        "DOI": "10.1016/j.medengphy.2023.104077",
+        "article-title": "Efficient feature selection based novel clinical decision support system for glaucoma prediction from retinal fundus images",
+        "volume": "123",
+        "author": "LK Singh",
+        "year": "2024",
+        "journal-title": "Med Eng Phys"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0314111.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "2431",
+        "DOI": "10.1007/s00500-023-08449-6",
+        "article-title": "Emperor penguin optimization algorithm- and bacterial foraging optimization algorithm-based novel feature selection approach for glaucoma classification from fundus images",
+        "volume": "28",
+        "author": "LK Singh",
+        "year": "2023",
+        "journal-title": "Soft Comput"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0314111.ref021",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1186/s12938-020-00767-2",
+        "article-title": "Machine learning applied to retinal image processing for glaucoma detection: review and perspective",
+        "volume": "19",
+        "author": "DMS Barros",
+        "year": "2020",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0314111.ref022",
+        "doi-asserted-by": "crossref",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "article-title": "Disc-aware ensemble network for glaucoma screening from fundus image",
+        "volume": "37",
+        "author": "H Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0314111.ref023",
+        "doi-asserted-by": "crossref",
+        "first-page": "100233",
+        "DOI": "10.1016/j.xops.2022.100233",
+        "article-title": "Detecting glaucoma from fundus photographs using deep learning without convolutions: transformer for improved generalization",
+        "volume": "3",
+        "author": "R Fan",
+        "year": "2022",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0314111.ref024",
+        "doi-asserted-by": "crossref",
+        "first-page": "1875",
+        "DOI": "10.1109/TMI.2023.3243692",
+        "article-title": "GLIM-net: chronic glaucoma forecast transformer for irregularly sampled sequential fundus images",
+        "volume": "42",
+        "author": "X Hu",
+        "year": "2023",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0314111.ref025",
+        "doi-asserted-by": "crossref",
+        "first-page": "807",
+        "DOI": "10.1007/s12530-022-09426-4",
+        "article-title": "Deep learning system applicability for rapid glaucoma prediction from fundus images across various data sets",
+        "volume": "13",
+        "author": "L Singh",
+        "year": "2022",
+        "journal-title": "Evol Syst"
+      },
+      {
+        "key": "pone.0314111.ref026",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition. 2016. p. 770–8.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "pone.0314111.ref027",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang G, Liu Z, Van Der Maaten L, Weinberger K. Densely connected convolutional networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE; 2017. p. 4700–8.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "pone.0314111.ref028",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sangchocanonta S, Ingpochai S, Puangarom S, Munthuli A, Phienphanich P, et al. Donut: augmentation technique for enhancing the efficacy of glaucoma suspect screening. In: Proceedings of the 45th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE; 2023.",
+        "DOI": "10.1109/EMBC40787.2023.10341115"
+      },
+      {
+        "key": "pone.0314111.ref029",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Z, Mao H, Wu C. A convnet for the 2020s. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE; 2022. p. 11976–86.",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0314111.ref030",
+        "doi-asserted-by": "crossref",
+        "first-page": "20313",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "R Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "pone.0314111.ref031",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou B, Khosla A, Lapedriza A. Learning deep features for discriminative localization. In :Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE; 2016. p. 2921–9.",
+        "DOI": "10.1109/CVPR.2016.319"
+      },
+      {
+        "key": "pone.0314111.ref032",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chattopadhay A, Sarkar A, Howlader P, et al. Grad-CAM++: generalized gradient-based visual explanations for deep convolutional networks. In: Proceedings of the IEEE Winter Conference on Applications of Computer Vision. 2018. p. 839–47.",
+        "DOI": "10.1109/WACV.2018.00097"
+      },
+      {
+        "key": "pone.0314111.ref033",
+        "unstructured": "Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez A, et al. Attention is all you need. In: Proceedings of the Advances in Neural Information Processing Systems. 2017. p. 5998–6008."
+      },
+      {
+        "key": "pone.0314111.ref034",
+        "unstructured": "Touvron H, Cord M, Douze M, Massa F, Sablayrolles A, Jegou H. Training data-efficient image transformers & distillation through attention. Proc Int Conf Mach Learn. 2021;139:10347–57."
+      },
+      {
+        "key": "pone.0314111.ref035"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0314111.ref036",
+        "doi-asserted-by": "crossref",
+        "first-page": "1579",
+        "DOI": "10.1001/archopht.124.11.1579",
+        "article-title": "The ISNT rule and differentiation of normal from glaucomatous eyes",
+        "volume": "124",
+        "author": "N Harizman",
+        "year": "2006",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "pone.0314111.ref037"
+      },
+      {
+        "key": "pone.0314111.ref038"
+      },
+      {
+        "key": "pone.0314111.ref039"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0314111.ref040",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "article-title": "Optic disc and cup segmentation methods for glaucoma detection with modification of U-Net convolutional neural network",
+        "volume": "27",
+        "author": "A Sevastopolsky",
+        "year": "2017",
+        "journal-title": "Pattern Recognit Image Anal"
+      },
+      {
+        "key": "pone.0314111.ref041",
+        "doi-asserted-by": "crossref",
+        "first-page": "72603L",
+        "DOI": "10.1117/12.811461",
+        "article-title": "Determination of cup-to-disc ratio of optical nerve head for diagnosis of glaucoma on stereo retinal fundus image pairs",
+        "author": "C Muramatsu",
+        "year": "2009",
+        "journal-title": "SPIE Proc"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0314111.ref042",
+        "doi-asserted-by": "crossref",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "H Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0314111.ref043",
+        "doi-asserted-by": "crossref",
+        "first-page": "330",
+        "DOI": "10.1109/TEC.1959.5222693",
+        "article-title": "The CORDIC trigonometric computing technique",
+        "author": "JE Volder",
+        "year": "1959",
+        "journal-title": "IRE Trans Electron Comput"
+      },
+      {
+        "key": "pone.0314111.ref044",
+        "first-page": "195",
+        "volume-title": "Proceedings of the International Workshop Artificial Neural Network",
+        "author": "J Han",
+        "year": "1995"
+      },
+      {
+        "key": "pone.0314111.ref045",
+        "doi-asserted-by": "crossref",
+        "article-title": "Quantifying attention flow in transformers",
+        "author": "S Abnar",
+        "DOI": "10.18653/v1/2020.acl-main.385"
+      },
+      {
+        "key": "pone.0314111.ref046"
+      },
+      {
+        "key": "pone.0314111.ref047"
+      },
+      {
+        "key": "pone.0314111.ref048",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1016/j.optlastec.2018.06.061",
+        "article-title": "An approach for de-noising and contrast enhancement of retinal fundus image using CLAHE",
+        "volume": "110",
+        "author": "S Sahu",
+        "year": "2019",
+        "journal-title": "Optics Laser Technol"
+      },
+      {
+        "key": "pone.0314111.ref049"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0314111.ref050",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1109/TKDE.2005.50",
+        "article-title": "Using AUC and accuracy in evaluating learning algorithms",
+        "volume": "17",
+        "author": "Huang Jin",
+        "year": "2005",
+        "journal-title": "IEEE Trans Knowl Data Eng"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0314111.ref051",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1016/S0001-2998(78)80014-2",
+        "article-title": "Basic principles of ROC analysis",
+        "volume": "8",
+        "author": "CE Metz",
+        "year": "1978",
+        "journal-title": "Semin Nucl Med"
+      },
+      {
+        "key": "pone.0314111.ref052",
+        "first-page": "2331",
+        "author": "K Nirmala",
+        "year": "2017"
+      },
+      {
+        "key": "pone.0314111.ref053",
+        "doi-asserted-by": "crossref",
+        "first-page": "105143",
+        "DOI": "10.1016/j.bspc.2023.105143",
+        "article-title": "Glaucoma multi-classification using the novel syndrome mechanism-based dual-channel network",
+        "volume": "86",
+        "author": "L Fang",
+        "year": "2023",
+        "journal-title": "Biomed Signal Process Control"
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0314111",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          21
+        ]
+      ],
+      "date-time": "2025-03-21T17:41:45Z",
+      "timestamp": 1742578905000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0314111"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Muhammad",
+        "family": "Mateen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          21
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            21
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0314111",
+    "relation": {},
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          21
+        ]
+      ]
+    }
+  }
+}

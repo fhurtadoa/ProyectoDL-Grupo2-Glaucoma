@@ -1,0 +1,717 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T16:10:42Z",
+      "timestamp": 1792858242307,
+      "version": "4.5.0"
+    },
+    "reference-count": 36,
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              26
+            ]
+          ],
+          "date-time": "2024-11-26T00:00:00Z",
+          "timestamp": 1732579200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100002924",
+        "name": "Glaucoma Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100002924",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000053",
+        "name": "NEI",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2024.100667",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          29
+        ]
+      ],
+      "date-time": "2024-11-29T12:18:45Z",
+      "timestamp": 1732882725000
+    },
+    "page": "100667",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Glaucoma Detection and Feature Identification via GPT-4V Fundus Image Analysis"
+    ],
+    "prefix": "10.1016",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Jalil",
+        "family": "Jalili",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anuwat",
+        "family": "Jiravarnsirikul",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Bowd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Benton",
+        "family": "Chuter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akram",
+        "family": "Belghith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael H.",
+        "family": "Goldbaum",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sally L.",
+        "family": "Baxter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert N.",
+        "family": "Weinreb",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linda M.",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6165-6175",
+        "authenticated-orcid": false,
+        "given": "Mark",
+        "family": "Christopher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2024.100667_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1046/j.1475-1313.2000.00528.x",
+        "article-title": "Observer variability in optic disc assessment: implications for glaucoma shared care",
+        "volume": "20",
+        "author": "Harper",
+        "year": "2000",
+        "journal-title": "Ophthalmic Physiol Opt"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib4",
+        "series-title": "High resolution imaging in microscopy and ophthalmology: new frontiers in biomedical optics",
+        "article-title": "Ophthalmic diagnostic imaging: glaucoma in",
+        "author": "Weinreb",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "560",
+        "DOI": "10.1001/jamaophthalmol.2014.96",
+        "article-title": "Glaucomatous optic neuropathy evaluation project: factors associated with underestimation of glaucoma likelihood",
+        "volume": "132",
+        "author": "O'Neill",
+        "year": "2014",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/j.ophtha.2020.07.045",
+        "article-title": "Detection of progressive glaucomatous optic nerve damage on fundus photographs with deep learning",
+        "volume": "128",
+        "author": "Medeiros",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1038/s41746-023-00857-0",
+        "article-title": "A generalizable deep learning regression model for automated glaucoma screening from fundus images",
+        "volume": "6",
+        "author": "Hemelings",
+        "year": "2023",
+        "journal-title": "NPJ Digital Med"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2022.100233",
+        "article-title": "Detecting glaucoma from fundus photographs using deep learning without convolutions: transformer for improved generalization",
+        "volume": "3",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "17290",
+        "DOI": "10.1109/ACCESS.2024.3359698",
+        "article-title": "Automated tool support for glaucoma identification with explainability using fundus images",
+        "volume": "12",
+        "author": "Shyamalee",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib12",
+        "series-title": "Attention U-net for glaucoma identification using fundus image segmentation. In 2022 international conference on decision aid sciences and applications (DASA)",
+        "first-page": "6",
+        "author": "Shyamalee",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib13",
+        "series-title": "CNN based fundus images classification for glaucoma identification. in 2022 2nd International Conference on Advanced Research in Computing (ICARC)",
+        "first-page": "200",
+        "author": "Shyamalee",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib14",
+        "article-title": "Mm-llms: recent advances in multimodal large language models",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib15",
+        "article-title": "A review of multi-modal large language and vision models",
+        "author": "Carolan",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib16",
+        "article-title": "Gpt-4 technical report",
+        "author": "Achiam",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2023.100324",
+        "article-title": "Evaluating the performance of chatgpt in ophthalmology: an analysis of its successes and shortcomings",
+        "volume": "3",
+        "author": "Antaki",
+        "year": "2023",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib18",
+        "article-title": "EyeGPT: ophthalmic assistant with large language models",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2345",
+        "DOI": "10.1007/s00417-023-06363-z",
+        "article-title": "Diagnostic capabilities of ChatGPT in ophthalmology",
+        "volume": "262",
+        "author": "Shemer",
+        "year": "2024",
+        "journal-title": "Graefes Arch Clin Exp Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "3694",
+        "DOI": "10.1038/s41433-023-02564-2",
+        "article-title": "Comparison of GPT-3.5, GPT-4, and human user performance on a practice ophthalmology written examination",
+        "volume": "37",
+        "author": "Lin",
+        "year": "2023",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1016/j.ajo.2023.05.024",
+        "article-title": "Performance of generative large language models on ophthalmology board-style questions",
+        "volume": "254",
+        "author": "Cai",
+        "year": "2023",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "3395",
+        "DOI": "10.1007/s40123-023-00789-8",
+        "article-title": "What can GPT-4 do for diagnosing rare eye diseases? A pilot study",
+        "volume": "12",
+        "author": "Hu",
+        "year": "2023",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fopht.2024.1387190",
+        "article-title": "Evaluating the strengths and limitations of multimodal ChatGPT-4 in detecting glaucoma using fundus images",
+        "volume": "4",
+        "author": "AlRyalat",
+        "year": "2024",
+        "journal-title": "Front Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib24",
+        "article-title": "Performance of GPT-4V(ision) in ophthalmology: use of images in clinical questions",
+        "author": "Tomita",
+        "year": "2024",
+        "journal-title": "medRxiv"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "371",
+        "DOI": "10.1001/jamaophthalmol.2023.6917",
+        "article-title": "Assessment of a large language model's responses to questions and cases about glaucoma and retina management",
+        "volume": "142",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3121",
+        "DOI": "10.1007/s40123-023-00805-x",
+        "article-title": "The use of chatgpt to assist in diagnosing glaucoma based on clinical case reports",
+        "volume": "12",
+        "author": "Delsoz",
+        "year": "2023",
+        "journal-title": "Ophthalmol. Ther"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: an extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib28",
+        "first-page": "3065",
+        "article-title": "ORIGA(-light): an online retinal fundus image database for glaucoma analysis and research",
+        "volume": "2010",
+        "author": "Zhang",
+        "year": "2010",
+        "journal-title": "Annu Int Conf IEEE Eng Med Biol Soc"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.5566/ias.2346",
+        "article-title": "RIM-ONE dl: a unified retinal image database for assessing glaucoma using deep learning",
+        "volume": "39",
+        "author": "Fumero Batista",
+        "year": "2020",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib30",
+        "series-title": "RIM-ONE: an open retinal image database for optic nerve evaluation. in 2011 24th International Symposium on Computer-Based Medical Systems (CBMS)",
+        "first-page": "1",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1167/tvst.9.2.27",
+        "article-title": "Effects of study population, labeling and training on glaucoma detection using deep learning algorithms",
+        "volume": "9",
+        "author": "Christopher",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib33",
+        "article-title": "Evaluating GPT-V4 (GPT-4 with vision) on detection of radiologic findings on chest radiographs",
+        "volume": "311",
+        "author": "Zhou",
+        "year": "2024",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib34",
+        "series-title": "Llava-med: training a large language-and-vision assistant for biomedicine in one day. Advances",
+        "author": "Li",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib35",
+        "article-title": "Advancing multimodal medical capabilities of Gemini",
+        "author": "Yang",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2024.100667_bib36",
+        "article-title": "Pefomed: parameter efficient fine-tuning on multimodal large language models for medical visual question answering",
+        "author": "He",
+        "year": "2024",
+        "journal-title": "arXiv"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914524002033?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914524002033?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2026-02-25T19:45:17Z",
+      "timestamp": 1772048717000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914524002033"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914524002033"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2024.100667",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Glaucoma Detection and Feature Identification via GPT-4V Fundus Image Analysis",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2024.100667",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 by the American Academy of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100667"
+  }
+}

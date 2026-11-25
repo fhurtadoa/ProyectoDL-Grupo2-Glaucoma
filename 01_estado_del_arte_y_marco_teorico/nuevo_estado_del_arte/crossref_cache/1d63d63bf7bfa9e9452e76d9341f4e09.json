@@ -1,0 +1,541 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2026-11-16T00:55:35Z",
+      "timestamp": 1794790535055,
+      "version": "4.9.1"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 20,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783031723896",
+        "type": "print"
+      },
+      {
+        "value": "9783031723902",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-72390-2_70",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2024-10-22T06:03:14Z",
+      "timestamp": 1729576994000
+    },
+    "page": "753-762",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "UrFound: Towards Universal Retinal Foundation Models via Knowledge-Guided Masked Modeling"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Kai",
+        "family": "Yu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhi Da",
+        "family": "Soh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinxing",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rick Siow Mong",
+        "family": "Goh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ching-Yu",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "70_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ahn, J.M., et al.: A deep learning model for the detection of both advanced and early glaucoma using fundus photography. PloS one 13(11), e0207982 (2018)",
+        "DOI": "10.1371/journal.pone.0207982"
+      },
+      {
+        "issue": "1",
+        "key": "70_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "4828",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "volume": "12",
+        "author": "LP Cen",
+        "year": "2021",
+        "unstructured": "Cen, L.P., et al.: Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks. Nat. Commun. 12(1),  4828 (2021)",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "issue": "3",
+        "key": "70_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "volume": "33",
+        "author": "E Decencière",
+        "year": "2014",
+        "unstructured": "Decencière, E., et al.: Feedback on a publicly distributed image database: the messidor database. Image Anal. Stereol. 33(3), 231–234 (2014)",
+        "journal-title": "Image Anal. Stereol."
+      },
+      {
+        "key": "70_CR4",
+        "unstructured": "Devlin, J., Chang, M.W., Lee, K., Toutanova, K.: BERT: pre-training of deep bidirectional transformers for language understanding. In: Proceedings of NAACL, pp. 4171–4186 (2019)"
+      },
+      {
+        "key": "70_CR5",
+        "unstructured": "Dosovitskiy, A., et al.: An image is worth 16x16 words: transformers for image recognition at scale. In: Proceedings of ICLR (2021)"
+      },
+      {
+        "key": "70_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gholami, P., Roy, P., Parthasarathy, M.K., Lakshminarayanan, V.: OCTID: optical coherence tomography image database. Comput. Electr. Eng. 81, 106532 (2020)",
+        "DOI": "10.1016/j.compeleceng.2019.106532"
+      },
+      {
+        "key": "70_CR7",
+        "unstructured": "Karthik, Maggie, S.D.: Aptos 2019 blindness detection (2019). https://kaggle.com/competitions/aptos2019-blindness-detection"
+      },
+      {
+        "key": "70_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kirillov, A., et al.: Segment anything. In: Proceedings of ICCV, pp. 4015–4026 (2023)",
+        "DOI": "10.1109/ICCV51070.2023.00371"
+      },
+      {
+        "key": "70_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kovalyk, O., et al.: PAPILA: dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment. Sci. Data 9(1),  291 (2022)",
+        "DOI": "10.1038/s41597-022-01388-1"
+      },
+      {
+        "key": "70_CR10",
+        "unstructured": "Li, C., et al.: Llava-med: training a large language-and-vision assistant for biomedicine in one day. In: Advances in Neural Information Processing Systems, vol. 36 (2024)"
+      },
+      {
+        "issue": "1",
+        "key": "70_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "654",
+        "DOI": "10.1038/s41467-024-44824-z",
+        "volume": "15",
+        "author": "J Ma",
+        "year": "2024",
+        "unstructured": "Ma, J., He, Y., Li, F., Han, L., You, C., Wang, B.: Segment anything in medical images. Nature Communications 15(1),  654 (2024)",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "70_CR12",
+        "unstructured": "OpenAI: Chatgpt-4. https://openai.com/chatgpt (2023). Accessed 01 Feb 2024"
+      },
+      {
+        "key": "70_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Porwal, P., et al.: Indian diabetic retinopathy image dataset (IDRiD): a database for diabetic retinopathy screening research. Data 3(3),  25 (2018)",
+        "DOI": "10.3390/data3030025"
+      },
+      {
+        "key": "70_CR14",
+        "unstructured": "Radford, A., et al.: Learning transferable visual models from natural language supervision. In: Proceddings of ICML, pp. 8748–8763 (2021)"
+      },
+      {
+        "key": "70_CR15",
+        "unstructured": "Silva-Rodriguez, J., Chakor, H., Kobbi, R., Dolz, J., Ayed, I.B.: A foundation language-image model of the retina (FLAIR): encoding expert knowledge in text supervision. arXiv preprint arXiv:2308.07898 (2023)"
+      },
+      {
+        "key": "70_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "You, K., et al.: CXR-CLIP: toward large scale chest x-ray language-image pre-training. In: Greenspan, H., et al. (ed.) Medical Image Computing and Computer Assisted Intervention - MICCAI 2023, MICCAI 2023, LNCS, vol. 14221, pp. 101–111. Springer, Cham (2023). https://doi.org/10.1007/978-3-031-43895-0_10",
+        "DOI": "10.1007/978-3-031-43895-0_10"
+      },
+      {
+        "issue": "1",
+        "key": "70_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "4542",
+        "DOI": "10.1038/s41467-023-40260-7",
+        "volume": "14",
+        "author": "X Zhang",
+        "year": "2023",
+        "unstructured": "Zhang, X., Wu, C., Zhang, Y., Xie, W., Wang, Y.: Knowledge-enhanced visual-language pre-training on chest radiology images. Nature Communications 14(1),  4542 (2023)",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "70_CR18",
+        "unstructured": "Zhang, Y., Jiang, H., Miura, Y., Manning, C.D., Langlotz, C.P.: Contrastive learning of medical visual representations from paired images and text. In: Machine Learning for Healthcare Conference, pp. 2–25. PMLR (2022)"
+      },
+      {
+        "key": "70_CR19",
+        "unstructured": "Zhou, H.Y., Lian, C., Wang, L., Yu, Y.: Advancing radiograph representation learning with masked record modeling. In: Proceedings of ICLR, pp. 1–16 (2023)"
+      },
+      {
+        "issue": "7981",
+        "key": "70_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "volume": "622",
+        "author": "Y Zhou",
+        "year": "2023",
+        "unstructured": "Zhou, Y., Chia, M.A., Wagner, S.K., Ayhan, M.S., Williamson, D.J., Struyven, R.R., Liu, T., Xu, M., Lozano, M.G., Woodward-Court, P., et al.: A foundation model for generalizable disease detection from retinal images. Nature 622(7981), 156–163 (2023)",
+        "journal-title": "Nature"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Medical Image Computing and Computer Assisted Intervention – MICCAI 2024"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-72390-2_70",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2024-10-22T06:16:14Z",
+      "timestamp": 1729577774000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-031-72390-2_70"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031723896",
+      "9783031723902"
+    ],
+    "references-count": 20,
+    "URL": "https://doi.org/10.1007/978-3-031-72390-2_70",
+    "relation": {
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1007/978-3-031-72390-2",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 October 2024",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "The authors have no competing interests to declare that are relevant to the content of this article.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Disclosure of Interests"
+        }
+      },
+      {
+        "value": "MICCAI",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Marrakesh",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Morocco",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2024",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "7 October 2024",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "11 October 2024",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "27",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "miccai2024",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://conferences.miccai.org/2024/en/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      }
+    ]
+  }
+}

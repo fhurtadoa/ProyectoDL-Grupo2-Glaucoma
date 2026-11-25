@@ -1,0 +1,161 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.8009107",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.8009107",
+      "prefix": "10.5281",
+      "suffix": "zenodo.8009107",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Ziyang Chen",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Yongsheng Pan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Yiwen Ye",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Hengfei Cui",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Xia, Yong",
+          "nameType": "Personal",
+          "givenName": "Yong",
+          "familyName": "Xia",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "A Fundus Image Dataset for Domain Generalization in Joint Segmentation of Optic Disc and Optic Cup"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2023-06-06",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.8009106",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "We provide a fundus image dataset for domain generalization, which includes 5 different medical centres.<br> This dataset is based on the REFUGE[1] dataset, Drishti-GS[2] dataset, ORIGA[3] dataset, and RIGA[4] dataset. We appreciate their efforts devoted by the authors of [1-4]. Details of this dataset Domain Cases in Each Domain<br> (Training/Test) REFUGE 320/80 Drishti-GS 50/51 ORIGA 500/150 BinRushed (RIGA) 156/39 Magrabia (RIGA) 76/19 [1] Orlando J I, Fu H, Breda J B, et al. Refuge challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs[J]. Medical image analysis, 2020, 59: 101570. [2] Sivaswamy J, Krishnadas S R, Joshi G D, et al. Drishti-GS: Retinal image dataset for optic nerve head (onh) segmentation[C]//2014 IEEE 11th international symposium on biomedical imaging (ISBI). IEEE, 2014: 53-56. [3] Zhang Z, Yin F S, Liu J, et al. Origa-light: An online retinal fundus image database for glaucoma analysis and research[C]//2010 Annual international conference of the IEEE engineering in medicine and biology. IEEE, 2010: 3065-3068. [4] Almazroa A, Alodhayb S, Osman E, et al. Retinal fundus images for glaucoma analysis: the RIGA dataset[C]//Medical Imaging 2018: Imaging Informatics for Healthcare, Research, and Applications. SPIE, 2018, 10579: 55-62. If you find this dataset useful for your research, please consider citing the paper as follows: <pre><code class=\"language-markdown\">@article{chen2023treasure, title={Treasure in Distribution: A Domain Randomization based Multi-Source Domain Generalization for 2D Medical Image Segmentation}, author={Chen, Ziyang and Pan, Yongsheng and Ye, Yiwen and Cui, Hengfei and Xia, Yong}, booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023}, year={2023} }</code></pre>",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjEvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC41MjgxL1pFTk9ETy44MDA5MTA3PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+Wml5YW5nIENoZW48L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5Zb25nc2hlbmcgUGFuPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+WWl3ZW4gWWU8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5IZW5nZmVpIEN1aTwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPllvbmcgWGlhPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+QSBGdW5kdXMgSW1hZ2UgRGF0YXNldCBmb3IgRG9tYWluIEdlbmVyYWxpemF0aW9uIGluIEpvaW50IFNlZ21lbnRhdGlvbiBvZiBPcHRpYyBEaXNjIGFuZCBPcHRpYyBDdXA8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+WmVub2RvPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDIzPC9wdWJsaWNhdGlvblllYXI+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyMy0wNi0wNjwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iRGF0YXNldCIvPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJ1cmwiPmh0dHBzOi8vemVub2RvLm9yZy9yZWNvcmQvODAwOTEwNzwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxyZWxhdGVkSWRlbnRpZmllcnM+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiIHJlbGF0aW9uVHlwZT0iSXNWZXJzaW9uT2YiPjEwLjUyODEvemVub2RvLjgwMDkxMDY8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvbGVnYWxjb2RlIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaW5mbzpldS1yZXBvL3NlbWFudGljcy9vcGVuQWNjZXNzIj5PcGVuIEFjY2VzczwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPiZsdDtwJmd0O1dlIHByb3ZpZGUgYSBmdW5kdXMgaW1hZ2UgZGF0YXNldCBmb3IgZG9tYWluIGdlbmVyYWxpemF0aW9uLCB3aGljaCBpbmNsdWRlcyA1JmFtcDtuYnNwO2RpZmZlcmVudCBtZWRpY2FsIGNlbnRyZXMuJmx0O2JyJmd0OwpUaGlzIGRhdGFzZXQgaXMgYmFzZWQgb24gdGhlIFJFRlVHRVsxXSBkYXRhc2V0LCBEcmlzaHRpLUdTWzJdIGRhdGFzZXQsIE9SSUdBWzNdIGRhdGFzZXQsIGFuZCBSSUdBWzRdIGRhdGFzZXQuIFdlJmFtcDtuYnNwO2FwcHJlY2lhdGUgdGhlaXImYW1wO25ic3A7ZWZmb3J0cyZhbXA7bmJzcDtkZXZvdGVkIGJ5IHRoZSBhdXRob3JzIG9mIFsxLTRdLiZsdDsvcCZndDsKCiZsdDt0YWJsZSZndDsKCSZsdDtjYXB0aW9uJmd0O0RldGFpbHMgb2YgdGhpcyBkYXRhc2V0Jmx0Oy9jYXB0aW9uJmd0OwoJJmx0O3Rib2R5Jmd0OwoJCSZsdDt0ciZndDsKCQkJJmx0O3RkJmd0O0RvbWFpbiZsdDsvdGQmZ3Q7CgkJCSZsdDt0ZCZndDtDYXNlcyBpbiBFYWNoIERvbWFpbiZsdDticiZndDsKCQkJKFRyYWluaW5nL1Rlc3QpJmx0Oy90ZCZndDsKCQkmbHQ7L3RyJmd0OwoJCSZsdDt0ciZndDsKCQkJJmx0O3RkJmd0O1JFRlVHRSZsdDsvdGQmZ3Q7CgkJCSZsdDt0ZCZndDszMjAvODAmbHQ7L3RkJmd0OwoJCSZsdDsvdHImZ3Q7CgkJJmx0O3RyJmd0OwoJCQkmbHQ7dGQmZ3Q7RHJpc2h0aS1HUyZsdDsvdGQmZ3Q7CgkJCSZsdDt0ZCZndDs1MC81MSZsdDsvdGQmZ3Q7CgkJJmx0Oy90ciZndDsKCQkmbHQ7dHImZ3Q7CgkJCSZsdDt0ZCZndDtPUklHQSZsdDsvdGQmZ3Q7CgkJCSZsdDt0ZCZndDs1MDAvMTUwJmx0Oy90ZCZndDsKCQkmbHQ7L3RyJmd0OwoJCSZsdDt0ciZndDsKCQkJJmx0O3RkJmd0O0JpblJ1c2hlZCAoUklHQSkmbHQ7L3RkJmd0OwoJCQkmbHQ7dGQmZ3Q7MTU2LzM5Jmx0Oy90ZCZndDsKCQkmbHQ7L3RyJmd0OwoJCSZsdDt0ciZndDsKCQkJJmx0O3RkJmd0O01hZ3JhYmlhIChSSUdBKSZsdDsvdGQmZ3Q7CgkJCSZsdDt0ZCZndDs3Ni8xOSZsdDsvdGQmZ3Q7CgkJJmx0Oy90ciZndDsKCSZsdDsvdGJvZHkmZ3Q7CiZsdDsvdGFibGUmZ3Q7CgombHQ7cCZndDtbMV0gT3JsYW5kbyBKIEksIEZ1IEgsIEJyZWRhIEogQiwgZXQgYWwuIFJlZnVnZSBjaGFsbGVuZ2U6IEEgdW5pZmllZCBmcmFtZXdvcmsgZm9yIGV2YWx1YXRpbmcgYXV0b21hdGVkIG1ldGhvZHMgZm9yIGdsYXVjb21hIGFzc2Vzc21lbnQgZnJvbSBmdW5kdXMgcGhvdG9ncmFwaHNbSl0uIE1lZGljYWwgaW1hZ2UgYW5hbHlzaXMsIDIwMjAsIDU5OiAxMDE1NzAuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7WzJdJmFtcDtuYnNwO1NpdmFzd2FteSBKLCBLcmlzaG5hZGFzIFMgUiwgSm9zaGkgRyBELCBldCBhbC4gRHJpc2h0aS1HUzogUmV0aW5hbCBpbWFnZSBkYXRhc2V0IGZvciBvcHRpYyBuZXJ2ZSBoZWFkIChvbmgpIHNlZ21lbnRhdGlvbltDXS8vMjAxNCBJRUVFIDExdGggaW50ZXJuYXRpb25hbCBzeW1wb3NpdW0gb24gYmlvbWVkaWNhbCBpbWFnaW5nIChJU0JJKS4gSUVFRSwgMjAxNDogNTMtNTYuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7WzNdJmFtcDtuYnNwO1poYW5nIFosIFlpbiBGIFMsIExpdSBKLCBldCBhbC4gT3JpZ2EtbGlnaHQ6IEFuIG9ubGluZSByZXRpbmFsIGZ1bmR1cyBpbWFnZSBkYXRhYmFzZSBmb3IgZ2xhdWNvbWEgYW5hbHlzaXMgYW5kIHJlc2VhcmNoW0NdLy8yMDEwIEFubnVhbCBpbnRlcm5hdGlvbmFsIGNvbmZlcmVuY2Ugb2YgdGhlIElFRUUgZW5naW5lZXJpbmcgaW4gbWVkaWNpbmUgYW5kIGJpb2xvZ3kuIElFRUUsIDIwMTA6IDMwNjUtMzA2OC4mbHQ7L3AmZ3Q7CgombHQ7cCZndDtbNF0mYW1wO25ic3A7QWxtYXpyb2EgQSwgQWxvZGhheWIgUywgT3NtYW4gRSwgZXQgYWwuIFJldGluYWwgZnVuZHVzIGltYWdlcyBmb3IgZ2xhdWNvbWEgYW5hbHlzaXM6IHRoZSBSSUdBIGRhdGFzZXRbQ10vL01lZGljYWwgSW1hZ2luZyAyMDE4OiBJbWFnaW5nIEluZm9ybWF0aWNzIGZvciBIZWFsdGhjYXJlLCBSZXNlYXJjaCwgYW5kIEFwcGxpY2F0aW9ucy4gU1BJRSwgMjAxOCwgMTA1Nzk6IDU1LTYyLiZsdDsvcCZndDsKCiZsdDtwJmd0O0lmIHlvdSBmaW5kIHRoaXMgZGF0YXNldCB1c2VmdWwgZm9yIHlvdXIgcmVzZWFyY2gsIHBsZWFzZSBjb25zaWRlciBjaXRpbmcgdGhlIHBhcGVyIGFzIGZvbGxvd3M6Jmx0Oy9wJmd0OwoKJmx0O3ByZSZndDsmbHQ7Y29kZSBjbGFzcz0ibGFuZ3VhZ2UtbWFya2Rvd24iJmd0O0BhcnRpY2xle2NoZW4yMDIzdHJlYXN1cmUsCiAgdGl0bGU9e1RyZWFzdXJlIGluIERpc3RyaWJ1dGlvbjogQSBEb21haW4gUmFuZG9taXphdGlvbiBiYXNlZCBNdWx0aS1Tb3VyY2UgRG9tYWluIEdlbmVyYWxpemF0aW9uIGZvciAyRCBNZWRpY2FsIEltYWdlIFNlZ21lbnRhdGlvbn0sCiAgYXV0aG9yPXtDaGVuLCBaaXlhbmcgYW5kIFBhbiwgWW9uZ3NoZW5nIGFuZCBZZSwgWWl3ZW4gYW5kIEN1aSwgSGVuZ2ZlaSBhbmQgWGlhLCBZb25nfSwKICBib29rdGl0bGU9e01lZGljYWwgSW1hZ2UgQ29tcHV0aW5nIGFuZCBDb21wdXRlciBBc3Npc3RlZCBJbnRlcnZlbnRpb24gLS0gTUlDQ0FJIDIwMjN9LAogIHllYXI9ezIwMjN9Cn0mbHQ7L2NvZGUmZ3Q7Jmx0Oy9wcmUmZ3Q7CgombHQ7cCZndDsmYW1wO25ic3A7Jmx0Oy9wJmd0OzwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+",
+      "url": "https://zenodo.org/record/8009107",
+      "contentUrl": null,
+      "metadataVersion": 5,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2023-06-06T06:28:53.000Z",
+      "registered": "2023-06-06T06:28:53.000Z",
+      "published": "2023",
+      "updated": "2023-06-06T08:07:05.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.8009107",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T07:42:08Z",
+      "timestamp": 1795506128794,
+      "version": "4.11.0"
+    },
+    "reference-count": 29,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              6
+            ]
+          ],
+          "date-time": "2018-11-06T00:00:00Z",
+          "timestamp": 1541462400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007277",
+        "name": "Icahn School of Medicine at Mount Sinai",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007277",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosmedicine.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Med"
+    ],
+    "DOI": "10.1371/journal.pmed.1002683",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2018-11-06T13:26:10Z",
+      "timestamp": 1541510770000
+    },
+    "page": "e1002683",
+    "update-policy": "https://doi.org/10.1371/journal.pmed.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1637,
+    "title": [
+      "Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study"
+    ],
+    "prefix": "10.1371",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1317-8951",
+        "authenticated-orcid": true,
+        "given": "John R.",
+        "family": "Zech",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8064-9050",
+        "authenticated-orcid": true,
+        "given": "Marcus A.",
+        "family": "Badgeley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0991-3741",
+        "authenticated-orcid": true,
+        "given": "Manway",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2202-6450",
+        "authenticated-orcid": true,
+        "given": "Anthony B.",
+        "family": "Costa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph J.",
+        "family": "Titano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1876-5963",
+        "authenticated-orcid": true,
+        "given": "Eric Karl",
+        "family": "Oermann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "article-title": "ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases",
+        "author": "X Wang",
+        "year": "2017",
+        "journal-title": "ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases"
+      },
+      {
+        "key": "ref2",
+        "article-title": "CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning",
+        "author": "P Rajpurkar",
+        "year": "2017",
+        "journal-title": "CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "article-title": "Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning",
+        "volume": "172",
+        "author": "DS Kermany",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "ref6",
+        "article-title": "ImageNet Large Scale Visual Recognition Challenge",
+        "author": "O Russakovsky",
+        "year": "2014",
+        "journal-title": "ImageNet Large Scale Visual Recognition Challenge"
+      },
+      {
+        "key": "ref7",
+        "first-page": "306",
+        "article-title": "Intelligent signal processing",
+        "author": "Y Lecun",
+        "year": "2001"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Do CIFAR-10 Classifiers Generalize to CIFAR-10?",
+        "author": "B Recht",
+        "year": "2018",
+        "journal-title": "Do CIFAR-10 Classifiers Generalize to CIFAR-10?"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1016/S0140-6736(04)17670-8",
+        "article-title": "External validity of randomised controlled trials: “To whom do the results of this trial apply?”",
+        "volume": "365",
+        "author": "PM Rothwell",
+        "year": "2005",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "j2835",
+        "DOI": "10.1136/bmj.j2835",
+        "article-title": "CONSORT 2010 statement: extension checklist for reporting within person randomised trials",
+        "volume": "357",
+        "author": "N Pandis",
+        "year": "2017",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1001/jama.2017.7797",
+        "article-title": "Unintended Consequences of Machine Learning in Medicine",
+        "volume": "318",
+        "author": "F Cabitza",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "304",
+        "DOI": "10.1093/jamia/ocv080",
+        "article-title": "Preparing a collection of radiology examinations for distribution and retrieval",
+        "volume": "23",
+        "author": "D Demner-Fushman",
+        "year": "2016",
+        "journal-title": "J Am Med Inform Assoc"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "Y LeCun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Deep Residual Learning for Image Recognition",
+        "author": "K He",
+        "year": "2015",
+        "journal-title": "Deep Residual Learning for Image Recognition"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Densely Connected Convolutional Networks",
+        "author": "G Huang",
+        "year": "2016",
+        "journal-title": "Densely Connected Convolutional Networks"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Understanding deep learning requires rethinking generalization",
+        "author": "C Zhang",
+        "year": "2016",
+        "journal-title": "Understanding deep learning requires rethinking generalization"
+      },
+      {
+        "issue": "2",
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "570",
+        "DOI": "10.1148/radiol.2018171093",
+        "article-title": "Natural Language-based Machine Learning Models for the Annotation of Clinical Radiology Reports",
+        "volume": "287",
+        "author": "J Zech",
+        "year": "2018",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Automatic differentiation in PyTorch",
+        "author": "A Paszke",
+        "year": "2017",
+        "journal-title": "Automatic differentiation in PyTorch"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Learning Deep Features for Discriminative Localization",
+        "author": "B Zhou",
+        "year": "2015",
+        "journal-title": "Learning Deep Features for Discriminative Localization"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.2307/2531595",
+        "article-title": "Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach",
+        "volume": "44",
+        "author": "ER DeLong",
+        "year": "1988",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1186/1471-2105-12-77",
+        "article-title": "pROC: an open-source package for R and S+ to analyze and compare ROC curves",
+        "volume": "12",
+        "author": "X Robin",
+        "year": "2011",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "ref22",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine Learning in Python",
+        "volume": "12",
+        "author": "F Pedregosa",
+        "year": "2011",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.7326/M14-0697",
+        "article-title": "Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD): The TRIPOD Statement",
+        "volume": "162",
+        "author": "GS Collins",
+        "year": "2015",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1925",
+        "DOI": "10.1093/eurheartj/ehu207",
+        "article-title": "Towards better clinical prediction models: seven steps for development and an ABCD for validation",
+        "volume": "35",
+        "author": "EW Steyerberg",
+        "year": "2014",
+        "journal-title": "European Heart Journal"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Detecting hip fractures with radiologist-level performance using deep neural networks",
+        "author": "W Gale",
+        "year": "2017",
+        "journal-title": "Detecting hip fractures with radiologist-level performance using deep neural networks"
+      },
+      {
+        "issue": "4",
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1007/s10278-018-0053-3",
+        "article-title": "MABAL: a Novel Deep-Learning Architecture for Machine-Assisted Bone Age Labeling",
+        "volume": "31",
+        "author": "S Mutasa",
+        "year": "2018",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref27",
+        "article-title": "High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks",
+        "author": "KJ Geras",
+        "year": "2017",
+        "journal-title": "High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Exploring the ChestXray14 dataset: problems",
+        "author": "L Oakden-Rayner",
+        "year": "2017",
+        "journal-title": "Exploring the ChestXray14 dataset: problems"
+      },
+      {
+        "issue": "Suppl 2",
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "S27",
+        "DOI": "10.1086/511159",
+        "article-title": "Infectious Diseases Society of America/American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults",
+        "volume": "44",
+        "author": "LA Mandell",
+        "year": "2007",
+        "journal-title": "Clin Infect Dis"
+      }
+    ],
+    "container-title": [
+      "PLOS Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pmed.1002683",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2020-05-09T10:28:29Z",
+      "timestamp": 1589020109000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pmed.1002683"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Aziz",
+        "family": "Sheikh",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          6
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            6
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pmed.1002683",
+    "relation": {
+      "has-part": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.g001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.g002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.g003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.t001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.t002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s004",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s005",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s006",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s007",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s008",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s009",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s010",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s011",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s012",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s013",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s014",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s015",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s016",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pmed.1002683.s017",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1549-1676"
+    ],
+    "issn-type": [
+      {
+        "value": "1549-1676",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          6
+        ]
+      ]
+    }
+  }
+}

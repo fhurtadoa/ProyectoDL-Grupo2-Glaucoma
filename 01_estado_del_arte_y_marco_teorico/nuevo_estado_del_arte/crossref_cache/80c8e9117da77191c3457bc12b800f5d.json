@@ -1,0 +1,1128 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2026-11-15T05:43:20Z",
+      "timestamp": 1794721400872,
+      "version": "4.9.1"
+    },
+    "reference-count": 40,
+    "publisher": "Massachusetts Medical Society",
+    "issue": "12",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "NEJM AI"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ]
+    },
+    "DOI": "10.1056/aioa2300221",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2024-11-27T09:00:28Z",
+      "timestamp": 1732698028000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 91,
+    "title": [
+      "Development and Validation of a Multimodal Multitask Vision                    Foundation Model for Generalist Ophthalmic Artificial                    Intelligence"
+    ],
+    "prefix": "10.1056",
+    "volume": "1",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4166-3428",
+        "authenticated-orcid": false,
+        "given": "Jianing",
+        "family": "Qiu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Engineering, The\r                Chinese University of Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3199-0492",
+        "authenticated-orcid": false,
+        "given": "Jian",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          },
+          {
+            "name": "Henan Academy of Innovations in Medical Science,\r                Zhengzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5719-8826",
+        "authenticated-orcid": false,
+        "given": "Hao",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Engineering, The\r                Chinese University of Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-4312-7182",
+        "authenticated-orcid": false,
+        "given": "Peilun",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Engineering, The\r                Chinese University of Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7214-0569",
+        "authenticated-orcid": false,
+        "given": "Minqing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Engineering, The\r                Chinese University of Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2174-6210",
+        "authenticated-orcid": false,
+        "given": "Yunyun",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6369-2663",
+        "authenticated-orcid": false,
+        "given": "Lin",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Informatics, King’s College\r                London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1469-124X",
+        "authenticated-orcid": false,
+        "given": "Hanruo",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-8921-3917",
+        "authenticated-orcid": false,
+        "given": "Hongyi",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-6721-5128",
+        "authenticated-orcid": false,
+        "given": "Simeng",
+        "family": "Hou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-9244-5558",
+        "authenticated-orcid": false,
+        "given": "Yuyang",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1790-5693",
+        "authenticated-orcid": false,
+        "given": "Xuehui",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2191-9393",
+        "authenticated-orcid": false,
+        "given": "Junfang",
+        "family": "Xian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology, Capital Medical\r                University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-2177-0644",
+        "authenticated-orcid": false,
+        "given": "Xiaoxia",
+        "family": "Qu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology, Capital Medical\r                University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-2177-0644",
+        "authenticated-orcid": false,
+        "given": "Sirui",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-7748-2309",
+        "authenticated-orcid": false,
+        "given": "Lijie",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7620-4400",
+        "authenticated-orcid": false,
+        "given": "Xiaoniao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-3197-991X",
+        "authenticated-orcid": false,
+        "given": "Xiaojia",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0770-9536",
+        "authenticated-orcid": false,
+        "given": "Shuai",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Intelligent Vision Plus Technology Co.,\r                Shenzhen, China"
+          },
+          {
+            "name": "School of Life Sciences, Sun Yat-sen University,\r                Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-8212-769X",
+        "authenticated-orcid": false,
+        "given": "Kebing",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Intelligent Vision Plus Technology Co.,\r                Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8102-8811",
+        "authenticated-orcid": false,
+        "given": "Chenlong",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Precision Neurosurgery and Oncology,\r                Peking University Health Science Center, Beijing"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-8661-6465",
+        "authenticated-orcid": false,
+        "given": "Mingqiang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "SightAI Technology Pte, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3758-5594",
+        "authenticated-orcid": false,
+        "given": "Sujie",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Handan City Eye Hospital, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-8253-6974",
+        "authenticated-orcid": false,
+        "given": "Jianhua",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Handan City Eye Hospital, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0920-6633",
+        "authenticated-orcid": false,
+        "given": "Aiguo",
+        "family": "Lv",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Handan City Eye Hospital, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-4579-5153",
+        "authenticated-orcid": false,
+        "given": "Hui",
+        "family": "Miao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Handan City Eye Hospital, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-6366-0395",
+        "authenticated-orcid": false,
+        "given": "Li",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Handan City Eye Hospital, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-9560-9941",
+        "authenticated-orcid": false,
+        "given": "Shujun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Handan City Eye Hospital, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3051-2061",
+        "authenticated-orcid": false,
+        "given": "Cheng",
+        "family": "Pei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, First Affiliated\r                Hospital of Xi’an Jiaotong University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-9453-9386",
+        "authenticated-orcid": false,
+        "given": "Xiaojuan",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, First Affiliated\r                Hospital of Xi’an Jiaotong University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5304-5972",
+        "authenticated-orcid": false,
+        "given": "Jianqin",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, First Affiliated\r                Hospital of Xi’an Jiaotong University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-9251-698X",
+        "authenticated-orcid": false,
+        "given": "Ting",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, First Affiliated\r                Hospital of Xi’an Jiaotong University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8605-9756",
+        "authenticated-orcid": false,
+        "given": "Junguo",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Ophthalmology, Chengdu University of\r                Traditional Chinese Medicine, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-3601-9261",
+        "authenticated-orcid": false,
+        "given": "Chun",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Ophthalmology, Chengdu University of\r                Traditional Chinese Medicine, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1720-7860",
+        "authenticated-orcid": false,
+        "given": "Xiaobo",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Eye Center of Xiangya Hospital, Central South\r                University, Changsha, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1281-8198",
+        "authenticated-orcid": false,
+        "given": "Siqi",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Eye Center of Xiangya Hospital, Central South\r                University, Changsha, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3681-1449",
+        "authenticated-orcid": false,
+        "given": "Junhong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanxi Eye Hospital Affiliated to Shanxi\r                Medical University, Taiyuan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6407-4912",
+        "authenticated-orcid": false,
+        "given": "Kyle",
+        "family": "Lam",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Surgery and Cancer, Imperial\r                College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5080-108X",
+        "authenticated-orcid": false,
+        "given": "Benny",
+        "family": "Lo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Precision Robotics (Hong Kong)"
+          },
+          {
+            "name": "Faculty of Medicine, Imperial College\r                London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6752-797X",
+        "authenticated-orcid": false,
+        "given": "Yih Chung",
+        "family": "Tham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Innovation and Precision Eye Health\r                &amp; Department of Ophthalmology, Yong Loo Lin School of Medicine, National\r                University of Singapore"
+          },
+          {
+            "name": "Singapore Eye Research Institute, Singapore\r                National Eye Centre"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8448-1264",
+        "authenticated-orcid": false,
+        "given": "Tien Yin",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua Medicine, Tsinghua University,\r                Beijing"
+          },
+          {
+            "name": "Beijing Tsinghua Changgung Hospital"
+          },
+          {
+            "name": "Singapore Eye Research Institute, Singapore\r                National Eye Centre"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8933-4482",
+        "authenticated-orcid": false,
+        "given": "Ningli",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Eye Center, Beijing Tongren\r                Hospital, Capital Medical University, Beijing"
+          },
+          {
+            "name": "Henan Academy of Innovations in Medical Science,\r                Zhengzhou, China"
+          },
+          {
+            "name": "Intelligent Vision Plus Technology Co.,\r                Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9405-519X",
+        "authenticated-orcid": false,
+        "given": "Wu",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Engineering, The\r                Chinese University of Hong Kong"
+          },
+          {
+            "name": "Intelligent Vision Plus Technology Co.,\r                Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "150",
+    "reference": [
+      {
+        "key": "e_1_3_4_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2214-109X(20)30425-3"
+      },
+      {
+        "key": "e_1_3_4_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2019-314336"
+      },
+      {
+        "key": "e_1_3_4_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "e_1_3_4_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.18152"
+      },
+      {
+        "key": "e_1_3_4_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.11.016"
+      },
+      {
+        "key": "e_1_3_4_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-23458-5"
+      },
+      {
+        "key": "e_1_3_4_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-13922-8"
+      },
+      {
+        "key": "e_1_3_4_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(21)00055-8"
+      },
+      {
+        "key": "e_1_3_4_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2017.3782"
+      },
+      {
+        "key": "e_1_3_4_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.oret.2016.12.009"
+      },
+      {
+        "key": "e_1_3_4_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.12.033"
+      },
+      {
+        "key": "e_1_3_4_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2019.07.024"
+      },
+      {
+        "key": "e_1_3_4_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-020-00329-9"
+      },
+      {
+        "key": "e_1_3_4_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.17-22721"
+      },
+      {
+        "key": "e_1_3_4_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2019.05.029"
+      },
+      {
+        "key": "e_1_3_4_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(21)00086-8"
+      },
+      {
+        "key": "e_1_3_4_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(22)00017-6"
+      },
+      {
+        "key": "e_1_3_4_19_2",
+        "unstructured": "Bommasani R Hudson DA Adeli E et al. On the opportunities and risks of foundation models. July 12 2022 (http://arxiv.org/abs/2108.07258). Preprint."
+      },
+      {
+        "key": "e_1_3_4_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-05881-4"
+      },
+      {
+        "key": "e_1_3_4_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2023.3316750"
+      },
+      {
+        "key": "e_1_3_4_22_2",
+        "unstructured": "OpenAI Achiam J Adler S et al. GPT-4 technical report. March 15 2023 (https://arxiv.org/abs/2303.08774). Preprint."
+      },
+      {
+        "key": "e_1_3_4_23_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kirillov A Mintun E Ravi N et al. Segment anything. April 5 2023 (http://arxiv.org/abs/2304.02643). Preprint.",
+        "DOI": "10.1109/ICCV51070.2023.00371"
+      },
+      {
+        "key": "e_1_3_4_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06555-x"
+      },
+      {
+        "key": "e_1_3_4_25_2",
+        "unstructured": "Salimans T Goodfellow I Zaremba W Cheung V Radford A Chen X. Improved techniques for training GANs. June 10 2016 (http://arxiv.org/abs/1606.03498). Preprint."
+      },
+      {
+        "key": "e_1_3_4_26_2",
+        "unstructured": "Dosovitskiy A Beyer L Kolesnikov A et al. An image is worth 16X16 words: transformers for image recognition at scale. International Conference on Learning Representations. June 23 2021 (https://dblp.org/rec/conf/iclr/DosovitskiyB0WZ21.html). Preprint."
+      },
+      {
+        "key": "e_1_3_4_27_2",
+        "unstructured": "Zhou J Wei C Wang H et al. IBOT: image bert pre-training with online tokenizer. International Conference on Learning Representations. November 15 2021 (https://arxiv.org/abs/2111.07832). Preprint."
+      },
+      {
+        "key": "e_1_3_4_28_2",
+        "unstructured": "Tan M Le QV. EfficientNet: rethinking model scaling for convolutional neural networks. International Conference on Learning Representations. May 28 2019(https://arxiv.org/abs/1905.11946). Preprint."
+      },
+      {
+        "key": "e_1_3_4_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dib.2021.107068"
+      },
+      {
+        "key": "e_1_3_4_30_2",
+        "unstructured": "Sivaswamy J Krishnadas SR Chakravarty A Joshi GD Syed TA. A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis. JSM Biomed Imaging Data Pap 2015;2:1004 (https://typeset.io/pdf/a-comprehensive-retinal-image-dataset-for-the-assessment-of-d4ljnpi2b4.pdf)."
+      },
+      {
+        "key": "e_1_3_4_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-024-03182-7"
+      },
+      {
+        "key": "e_1_3_4_32_2",
+        "unstructured": "Qian B Chen H Wang X et al. DRAC: diabetic retinopathy analysis challenge with ultra-wide optical coherence tomography angiography images. April 5 2023 (http://arxiv.org/abs/2304.02389). Preprint."
+      },
+      {
+        "key": "e_1_3_4_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patter.2022.100512"
+      },
+      {
+        "key": "e_1_3_4_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41551-018-0195-0"
+      },
+      {
+        "key": "e_1_3_4_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(23)00022-5"
+      },
+      {
+        "key": "e_1_3_4_36_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K Zhang X Ren S Sun J. Deep residual learning for image recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR).IEEE 2016:770-778. DOI: 10.1109/CVPR.2016.90.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "e_1_3_4_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.o1754"
+      },
+      {
+        "key": "e_1_3_4_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "e_1_3_4_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2017.10.031"
+      },
+      {
+        "key": "e_1_3_4_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2022.3375"
+      },
+      {
+        "key": "e_1_3_4_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lanwpc.2024.101048"
+      }
+    ],
+    "container-title": [
+      "NEJM AI"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2024-12-26T08:53:02Z",
+      "timestamp": 1735203182000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ai.nejm.org/doi/10.1056/AIoa2300221"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            27
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1056/AIoa2300221"
+    ],
+    "URL": "https://doi.org/10.1056/aioa2300221",
+    "relation": {},
+    "ISSN": [
+      "2836-9386"
+    ],
+    "issn-type": [
+      {
+        "value": "2836-9386",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ]
+    }
+  }
+}

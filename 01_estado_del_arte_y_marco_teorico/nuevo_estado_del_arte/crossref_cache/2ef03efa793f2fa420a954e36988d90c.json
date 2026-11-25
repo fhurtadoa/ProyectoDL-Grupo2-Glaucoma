@@ -1,0 +1,632 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T16:09:58Z",
+      "timestamp": 1792858198978,
+      "version": "4.5.0"
+    },
+    "reference-count": 36,
+    "publisher": "Galenos Yayinevi",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "tjo"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          29
+        ]
+      ]
+    },
+    "DOI": "10.4274/tjo.galenos.2021.29726",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2022-06-29T09:50:49Z",
+      "timestamp": 1656496249000
+    },
+    "page": "193-200",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "Investigation of the Role of Convolutional Neural Network Architectures in the Diagnosis of Glaucoma using Color Fundus Photography"
+    ],
+    "prefix": "10.4274",
+    "volume": "52",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2536-4279",
+        "authenticated-orcid": false,
+        "given": "Eray",
+        "family": "Atalay",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1079-7901",
+        "authenticated-orcid": false,
+        "given": "Onur",
+        "family": "Özalp",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9810-622X",
+        "authenticated-orcid": false,
+        "given": "Özer Can",
+        "family": "Devecioğlu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7749-2814",
+        "authenticated-orcid": false,
+        "given": "Hakika",
+        "family": "Erdoğan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8495-8958",
+        "authenticated-orcid": false,
+        "given": "Türker",
+        "family": "İnce",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6266-4951",
+        "authenticated-orcid": false,
+        "given": "Nilgün",
+        "family": "Yıldırım",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2811",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref0",
+        "doi-asserted-by": "publisher",
+        "unstructured": "1. Bourne RR, Stevens GA, White RA, Smith JL, Flaxman SR, Price H, Jonas JB, Keeffe J, Leasher J, Naidoo K, Pesudovs K, Resnikoff S, Taylor HR; Vision Loss Expert Group. Causes of vision loss worldwide, 1990-2010: a systematic analysis. Lancet Glob Health. 2013;1:e339-e349.",
+        "DOI": "10.1016/S2214-109X(13)70113-X"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "HA",
+        "year": "2006",
+        "unstructured": "2. Quigley HA, Broman AT. The number of people with glaucoma worldwide in 2010 and 2020. Br J Ophthalmol. 2006;90:262-267.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "unstructured": "3. Tham YC, Li X, Wong TY, Quigley HA, Aung T, Cheng CY. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology. 2014;121:2081-2090.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.4274/tjo.43.06025",
+        "article-title": "Risk Factors for Primary Open-Angle Glaucoma in Western Turkey",
+        "volume": "43",
+        "author": "Yavaş",
+        "year": "2013",
+        "unstructured": "4. Yavaş GF, Küsbeci T, Şanlı M, Toprak D, Ermiş SS, İnan ÜÜ, Öztürk F. Risk Factors for Primary Open-Angle Glaucoma in Western Turkey. Turk J Ophthalmol. 2013;43:87-90.",
+        "journal-title": "Turk J Ophthalmol"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "first-page": "629",
+        "DOI": "10.1136/bjophthalmol-2013-304033",
+        "article-title": "Prevalence and causes of vision loss in high-income countries and in Eastern and Central Europe: 1990-2010",
+        "volume": "98",
+        "author": "RR",
+        "year": "2014",
+        "unstructured": "5. Bourne RR, Jonas JB, Flaxman SR, Keeffe J, Leasher J, Naidoo K, Parodi MB, Pesudovs K, Price H, White RA, Wong TY, Resnikoff S, Taylor HR; Vision Loss Expert Group of the Global Burden of Disease Study. Prevalence and causes of vision loss in high-income countries and in Eastern and Central Europe: 1990-2010. Br J Ophthalmol. 2014;98:629-638.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1439",
+        "DOI": "10.1016/j.ophtha.2004.01.025",
+        "article-title": "Prevalence of open-angle glaucoma and ocular hypertension in Latinos: the Los Angeles Latino Eye Study",
+        "volume": "111",
+        "author": "Varma",
+        "year": "2004",
+        "unstructured": "6. Varma R, Ying-Lai M, Francis BA, Nguyen BB, Deneen J, Wilson MR, Azen SP; Los Angeles Latino Eye Study Group. Prevalence of open-angle glaucoma and ocular hypertension in Latinos: the Los Angeles Latino Eye Study. Ophthalmology. 2004;111:1439-1448.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "first-page": "874",
+        "DOI": "10.1001/jamaophthalmol.2015.1110",
+        "article-title": "The Prevalence and Types of Glaucoma in an Urban Chinese Population: The Singapore Chinese Eye Study",
+        "volume": "133",
+        "author": "Baskaran",
+        "year": "2015",
+        "unstructured": "7. Baskaran M, Foo RC, Cheng CY, Narayanaswamy AK, Zheng YF, Wu R, Saw SM, Foster PJ, Wong TY, Aung T. The Prevalence and Types of Glaucoma in an Urban Chinese Population: The Singapore Chinese Eye Study. JAMA Ophthalmol. 2015;133:874-880.",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "first-page": "2905",
+        "DOI": "10.1167/iovs.15-18469",
+        "article-title": "Prevalence of Glaucoma in the United States: The 2005-2008 National Health and Nutrition Examination Survey",
+        "volume": "57",
+        "author": "Gupta",
+        "year": "2016",
+        "unstructured": "8. Gupta P, Zhao D, Guallar E, Ko F, Boland MV, Friedman DS. Prevalence of Glaucoma in the United States: The 2005-2008 National Health and Nutrition Examination Survey. Invest Ophthalmol Vis Sci. 2016;57:2905-2913.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "unstructured": "9. Li Z, He Y, Keel S, Meng W, Chang RT, He M. Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs. Ophthalmology. 2018;125:1199-1206.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "first-page": "238",
+        "DOI": "10.1136/bjo.86.2.238",
+        "article-title": "The definition and classification of glaucoma in prevalence surveys",
+        "volume": "86",
+        "author": "Foster",
+        "year": "2002",
+        "unstructured": "10. Foster PJ, Buhrmann R, Quigley HA, Johnson GJ. The definition and classification of glaucoma in prevalence surveys. Br J Ophthalmol. 2002;86:238-242.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1641",
+        "DOI": "10.1016/s0161-6420(04)00665-7",
+        "article-title": "The prevalence of primary open-angle glaucoma in Japanese: the Tajimi Study",
+        "volume": "111",
+        "author": "Iwase",
+        "year": "2004",
+        "unstructured": "11. Iwase A, Suzuki Y, Araie M, Yamamoto T, Abe H, Shirato S, Kuwayama Y, Mishima HK, Shimizu H, Tomita G, Inoue Y, Kitazawa Y; Tajimi Study Group, Japan Glaucoma Society. The prevalence of primary open-angle glaucoma in Japanese: the Tajimi Study. Ophthalmology. 2004;111:1641-1648.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "7",
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "first-page": "2782",
+        "DOI": "10.1167/iovs.06-0051",
+        "article-title": "Prevalence and clinical characteristics of glaucoma in adult Chinese: a population-based study in Liwan District, Guangzhou",
+        "volume": "47",
+        "author": "He",
+        "year": "2006",
+        "unstructured": "12. He M, Foster PJ, Ge J, Huang W, Zheng Y, Friedman DS, Lee PS, Khaw PT. Prevalence and clinical characteristics of glaucoma in adult Chinese: a population-based study in Liwan District, Guangzhou. Invest Ophthalmol Vis Sci. 2006;47(7):2782-2788.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "first-page": "511",
+        "DOI": "10.1016/j.ajo.2007.06.029",
+        "article-title": "Prevalence of open-angle glaucoma in Greece: the Thessaloniki Eye Study",
+        "volume": "144",
+        "author": "Topouzis",
+        "year": "2007",
+        "unstructured": "13. Topouzis F, Wilson MR, Harris A, Anastasopoulos E, Yu F, Mavroudis L, Pappas T, Koskosas A, Coleman AL. Prevalence of open-angle glaucoma in Greece: the Thessaloniki Eye Study. Am J Ophthalmol. 2007;144:511-519.",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "first-page": "3207",
+        "DOI": "10.1162/NECO_a_00052",
+        "article-title": "Deep, big, simple neural nets for handwritten digit recognition",
+        "volume": "22",
+        "author": "Cireşan",
+        "year": "2010",
+        "unstructured": "14. Cireşan DC, Meier U, Gambardella LM, Schmidhuber J. Deep, big, simple neural nets for handwritten digit recognition. Neural Comput. 2010;22:3207-3220.",
+        "journal-title": "Neural Comput"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "unstructured": "15. Scherer D, Müller A, Behnke S. Evaluation of pooling operations in convolutional architectures for object recognition. International conference on artificial neural networks: Springer, 2010.",
+        "DOI": "10.1007/978-3-642-15825-4_10"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.1145/3065386",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "volume": "60",
+        "author": "Krizhevsky",
+        "year": "2017",
+        "unstructured": "16. Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. Communications of the ACM. 2017;60:84-90.",
+        "journal-title": "Communications of the ACM"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "Gómez-Valverde",
+        "year": "2019",
+        "unstructured": "17. Gómez-Valverde JJ, Antón A, Fatti G, Liefers B, Herranz A, Santos A, Sánchez CI, Ledesma-Carbayo MJ. Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning. Biomed Opt Express. 2019;10:892-913.",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: an extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "unstructured": "18. Diaz-Pinto A, Morales S, Naranjo V, Köhler T, Mossi JM, Navea A. CNNs for automatic glaucoma assessment using fundus images: an extensive validation. Biomed Eng Online. 2019;18:29.",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "unstructured": "19. Serener A, Serte S. Transfer learning for early and advanced glaucoma detection with convolutional neural networks. 2019 Medical Technologies Congress (TIPTEKNO): IEEE, 2019.",
+        "DOI": "10.1109/TIPTEKNO.2019.8894965"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "unstructured": "20. Deng J, Dong W, Socher R, Li L-J, Li K, Fei-Fei L. Imagenet: A large-scale hierarchical image database. 2009 IEEE conference on computer vision and pattern recognition: Ieee, 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "unstructured": "21. Ting DSW, Cheung CY, Lim G, Tan GSW, Quang ND, Gan A, Hamzah H, Garcia-Franco R, San Yeo IY, Lee SY, Wong EYM, Sabanayagam C, Baskaran M, Ibrahim F, Tan NC, Finkelstein EA, Lamoureux EL, Wong IY, Bressler NM, Sivaprasad S, Varma R, Jonas JB, He MG, Cheng CY, Cheung GCM, Aung T, Hsu W, Lee ML, Wong TY. Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes. JAMA. 2017;318:2211-2223.",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "unstructured": "22. Shibata N, Tanito M, Mitsuhashi K, Fujino Y, Matsuura M, Murata H, Asaoka R. Development of a deep residual learning algorithm to screen for glaucoma from fundus photography. Sci Rep. 2018;8:14665.",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "first-page": "647",
+        "DOI": "10.1097/IJG.0000000000000988",
+        "article-title": "Deep-learning Classifier With an Ultrawide-field Scanning Laser Ophthalmoscope Detects Glaucoma Visual Field Severity",
+        "volume": "27",
+        "author": "Masumoto",
+        "year": "2018",
+        "unstructured": "23. Masumoto H, Tabuchi H, Nakakura S, Ishitobi N, Miki M, Enno H. Deep-learning Classifier With an Ultrawide-field Scanning Laser Ophthalmoscope Detects Glaucoma Visual Field Severity. J Glaucoma. 2018;27:647-652.",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "article-title": "Using Deep Learning and Transfer Learning to Accurately Diagnose Early-Onset Glaucoma From Macular Optical Coherence Tomography Images",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "unstructured": "24. Asaoka R, Murata H, Hirasawa K, Fujino Y, Matsuura M, Miki A, Kanamoto T, Ikeda Y, Mori K, Iwase A, Shoji N, Inoue K, Yamagami J, Araie M. Using Deep Learning and Transfer Learning to Accurately Diagnose Early-Onset Glaucoma From Macular Optical Coherence Tomography Images. Am J Ophthalmol. 2019;198:136-145.",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "first-page": "4147",
+        "DOI": "10.1167/iovs.05-0366",
+        "article-title": "Optical coherence tomography machine learning classifiers for glaucoma detection: a preliminary study",
+        "volume": "46",
+        "author": "Burgansky-Eliash",
+        "year": "2005",
+        "unstructured": "25. Burgansky-Eliash Z, Wollstein G, Chu T, Ramsey JD, Glymour C, Noecker RJ, Ishikawa H, Schuman JS. Optical coherence tomography machine learning classifiers for glaucoma detection: a preliminary study. Invest Ophthalmol Vis Sci. 2005;46:4147-4152.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "unstructured": "26. Kim SJ, Cho KJ, Oh S. Development of machine learning models for diagnosis of glaucoma. PLoS One. 2017;12:e0177726.",
+        "DOI": "10.1371/journal.pone.0177726"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "first-page": "789129",
+        "DOI": "10.1155/2013/789129",
+        "article-title": "Glaucoma Diagnostic Accuracy of Machine Learning Classifiers Using Retinal Nerve Fiber Layer and Optic Nerve Data from SD-OCT",
+        "volume": "2013",
+        "author": "Barella",
+        "year": "2013",
+        "unstructured": "27. Barella KA, Costa VP, Gonçalves Vidotti V, Silva FR, Dias M, Gomi ES. Glaucoma Diagnostic Accuracy of Machine Learning Classifiers Using Retinal Nerve Fiber Layer and Optic Nerve Data from SD-OCT. J Ophthalmol. 2013;2013:789129.",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2748",
+        "DOI": "10.1167/iovs.17-23387",
+        "article-title": "Retinal Nerve Fiber Layer Features Identified by Unsupervised Machine Learning on Optical Coherence Tomography Scans Predict Glaucoma Progression",
+        "volume": "59",
+        "author": "Christopher",
+        "year": "2018",
+        "unstructured": "28. Christopher M, Belghith A, Weinreb RN, Bowd C, Goldbaum MH, Saunders LJ, Medeiros FA, Zangwill LM. Retinal Nerve Fiber Layer Features Identified by Unsupervised Machine Learning on Optical Coherence Tomography Scans Predict Glaucoma Progression. Invest Ophthalmol Vis Sci. 2018;59:2748-2756.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "first-page": "2255",
+        "DOI": "10.1167/iovs.03-1087",
+        "article-title": "Confocal scanning laser ophthalmoscopy classifiers and stereophotograph evaluation for prediction of visual field abnormalities in glaucoma-suspect eyes",
+        "volume": "45",
+        "author": "Bowd",
+        "year": "2004",
+        "unstructured": "29. Bowd C, Zangwill LM, Medeiros FA, Hao J, Chan K, Lee TW, Sejnowski TJ, Goldbaum MH, Sample PA, Crowston JG, Weinreb RN. Confocal scanning laser ophthalmoscopy classifiers and stereophotograph evaluation for prediction of visual field abnormalities in glaucoma-suspect eyes. Invest Ophthalmol Vis Sci. 2004;45:2255-2262.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "first-page": "814",
+        "DOI": "10.1136/bjo.2007.133074",
+        "article-title": "Heidelberg Retina Tomograph 3 machine learning classifiers for glaucoma detection",
+        "volume": "92",
+        "author": "Townsend",
+        "year": "2008",
+        "unstructured": "30. Townsend KA, Wollstein G, Danks D, Sung KR, Ishikawa H, Kagemann L, Gabriele ML, Schuman JS. Heidelberg Retina Tomograph 3 machine learning classifiers for glaucoma detection. Br J Ophthalmol. 2008;92:814-818.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "first-page": "3144",
+        "DOI": "10.1167/iovs.04-0202",
+        "article-title": "Heidelberg retina tomograph measurements of the optic disc and parapapillary retina for detecting glaucoma analyzed by machine learning classifiers",
+        "volume": "45",
+        "author": "Zangwill",
+        "year": "2004",
+        "unstructured": "31. Zangwill LM, Chan K, Bowd C, Hao J, Lee TW, Weinreb RN, Sejnowski TJ, Goldbaum MH. Heidelberg retina tomograph measurements of the optic disc and parapapillary retina for detecting glaucoma analyzed by machine learning classifiers. Invest Ophthalmol Vis Sci. 2004;45:3144-3151.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref31",
+        "unstructured": "32. Uchida H, Brigatti L, Caprioli J. Detection of structural damage from glaucoma with confocal laser image analysis. Invest Ophthalmol Vis Sci. 1996;37:2393-2401."
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "first-page": "38",
+        "DOI": "10.3414/ME0348",
+        "article-title": "Comparison of classifiers applied to confocal scanning laser ophthalmoscopy data",
+        "volume": "47",
+        "author": "Adler",
+        "year": "2008",
+        "unstructured": "33. Adler W, Peters A, Lausen B. Comparison of classifiers applied to confocal scanning laser ophthalmoscopy data. Methods Inf Med. 2008;47:38-46.",
+        "journal-title": "Methods Inf Med"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1583",
+        "DOI": "10.1001/archopht.116.12.1583",
+        "article-title": "Detection of glaucoma with scanning laser polarimetry",
+        "volume": "116",
+        "author": "Weinreb",
+        "year": "1998",
+        "unstructured": "34. Weinreb RN, Zangwill L, Berry CC, Bathija R, Sample PA. Detection of glaucoma with scanning laser polarimetry. Arch Ophthalmol. 1998;116:1583-1589.",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "article-title": "From Machine to Machine: An OCT-Trained Deep Learning Algorithm for Objective Quantification of Glaucomatous Damage in Fundus Photographs",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "unstructured": "35. Medeiros FA, Jammal AA, Thompson AC. From Machine to Machine: An OCT-Trained Deep Learning Algorithm for Objective Quantification of Glaucomatous Damage in Fundus Photographs. Ophthalmology. 2019;126:513-521.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "first-page": "511",
+        "DOI": "10.1016/S0002-9394(14)75425-X",
+        "article-title": "Neural networks to identify glaucoma with structural and functional measurements",
+        "volume": "121",
+        "author": "Brigatti",
+        "year": "1996",
+        "unstructured": "36. Brigatti L, Hoffman D, Caprioli J. Neural networks to identify glaucoma with structural and functional measurements. Am J Ophthalmol. 1996;121:511-521.",
+        "journal-title": "Am J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Turkish Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          26
+        ]
+      ],
+      "date-time": "2024-07-26T09:02:38Z",
+      "timestamp": 1721984558000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://oftalmoloji.org/articles/doi/tjo.galenos.2021.29726"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          29
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.4274/tjo.galenos.2021.29726",
+    "relation": {},
+    "ISSN": [
+      "1300-0659",
+      "2147-2661"
+    ],
+    "issn-type": [
+      {
+        "value": "1300-0659",
+        "type": "print"
+      },
+      {
+        "value": "2147-2661",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          29
+        ]
+      ]
+    }
+  }
+}

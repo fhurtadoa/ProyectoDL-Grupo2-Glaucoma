@@ -1,0 +1,725 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T07:35:44Z",
+      "timestamp": 1793172944455,
+      "version": "4.5.0"
+    },
+    "reference-count": 33,
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2026-06-17T00:00:00Z",
+          "timestamp": 1781654400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "lww.com",
+        "ovid.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Purpose:</jats:title>\n                    <jats:p>The diagnostic performance of artificial intelligence (AI) in real-world settings remains uncertain, particularly across different fundus camera systems. This study evaluates the diagnostic accuracy of three AI algorithms for diabetic retinopathy (DR) detection using two nonmydriatic fundus cameras, assessing image gradability and DR severity.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods:</jats:title>\n                    <jats:p>A prospective diagnostic accuracy study was conducted at a primary health center, Khijrabad, Punjab, India (March–July 2021). The study evaluated three commercially available artificial intelligence algorithms for DR detection using two nonmydriatic fundus cameras. Participants underwent two-field, nonmydriatic fundus imaging with both cameras. Image quality and DR presence were independently assessed by masked human graders, including optometrists and a retina specialist. Diagnostic performance was measured using sensitivity, specificity, and positive and negative predictive values.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>A total of 272 images from 136 participants (mean age 67.7 years; 62% female) were analyzed. Human graders classified more than 97% of images as gradable, with DR detected in 47% of the images. AI-1 demonstrated the highest sensitivity (Forus: 97.5% (0.956–0.994); Intuvision: 81.7% (0.768–0.867)) but comparatively low specificity: 62.7% (58.6–66.8) and 53.8% (0.474–0.602). AI-2 displayed a balanced performance (sensitivity 80.0% and 77.0%; specificity 95.7% and 92.0%). AI-3 had a moderate sensitivity (73–80%) with the specificity ranging from 82% to 86%.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion:</jats:title>\n                    <jats:p>AI performance varied across camera platforms, highlighting the need for context-specific validation to ensure safe integration into primary care and guide DR screening guidelines.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.4103/ijo.ijo_2774_25",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2026-06-17T16:01:03Z",
+      "timestamp": 1781712063000
+    },
+    "page": "1670-1675",
+    "update-policy": "https://doi.org/10.1097/lww.0000000000001000",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Diagnostic performance of multiple artificial intelligence (AI) algorithms for diabetic retinopathy screening in primary care: Evidence from real-world settings in India"
+    ],
+    "prefix": "10.4103",
+    "volume": "74",
+    "author": [
+      {
+        "given": "Anshul",
+        "family": "Chauhan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gursimran",
+        "family": "Rana",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Priyanka",
+        "family": "Verma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mitesh",
+        "family": "Yadav",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lakshay",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gagandeep",
+        "family": "Kaur",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vishali",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Advanced Eye Centre, PGIMER, Chandigarh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geeta",
+        "family": "Menon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frimley Health NHS Foundation Trust, National Dean for Inclusive Integrated Careers, NHS England, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Piyasena Mapa",
+        "family": "Prabhath",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vision and Eye Research Institute, Anglia Ruskin University, School of Medicine, Cambridge, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luke",
+        "family": "Vale",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Global Health Economics Centre, London School of Hygiene and Tropical Medicine, Tavistock Place, London, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mona",
+        "family": "Duggal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frimley Health NHS Foundation Trust, National Dean for Inclusive Integrated Careers, NHS England, United Kingdom"
+          },
+          {
+            "name": "National Institute for Research in Digital Health and Data Science (NIRDHDS), India Council of Medical Research (ICMR), New Delhi, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "276",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R2-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "260",
+        "DOI": "10.1111/ceo.12696",
+        "article-title": "Diabetic retinopathy: Global prevalence, major risk factors, screening practices and public health challenges: A review",
+        "volume": "44",
+        "author": "Ting",
+        "year": "2016",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "key": "R3-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "977",
+        "DOI": "10.1056/NEJM199309303291401",
+        "article-title": "The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus",
+        "volume": "329",
+        "author": "Nathan",
+        "year": "1993",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "R4-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1796",
+        "DOI": "10.1001/archopht.1985.01050120030015",
+        "article-title": "Photocoagulation for diabetic macular edema: Early treatment diabetic retinopathy study report number 1 early treatment diabetic retinopathy study research group",
+        "volume": "103",
+        "year": "1985",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "R5-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2328",
+        "DOI": "10.1167/iovs.05-0019",
+        "article-title": "Prevalence of diabetic retinopathy in urban India: The Chennai Urban Rural Epidemiology Study (CURES) eye study, I",
+        "volume": "46",
+        "author": "Rema",
+        "year": "2005",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "R6-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "100759",
+        "DOI": "10.1016/j.preteyeres.2019.04.003",
+        "article-title": "Deep learning in ophthalmology: The technical and clinical considerations",
+        "volume": "72",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "R7-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1339",
+        "DOI": "10.4103/ijo.IJO_1754_19",
+        "article-title": "Insights into the growing popularity of artificial intelligence in ophthalmology",
+        "volume": "68",
+        "author": "Dutt",
+        "year": "2020",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "R8-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2038",
+        "DOI": "10.1016/j.ophtha.2015.06.011",
+        "article-title": "Comparison among methods of retinopathy assessment (CAMRA) study: Smartphone, nonmydriatic, and mydriatic photography",
+        "volume": "122",
+        "author": "Ryan",
+        "year": "2015",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "R9-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2352018",
+        "DOI": "10.1080/07853890.2024.2352018",
+        "article-title": "Comparison of 21 artificial intelligence algorithms in automated diabetic retinopathy screening using handheld fundus camera",
+        "volume": "56",
+        "author": "Kubin",
+        "year": "2024",
+        "journal-title": "Ann Med"
+      },
+      {
+        "key": "R10-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1007/s00592-017-0974-1",
+        "article-title": "The English National Screening Programme for diabetic retinopathy 2003–2016",
+        "volume": "54",
+        "author": "Scanlon",
+        "year": "2017",
+        "journal-title": "Acta Diabetol"
+      },
+      {
+        "key": "R11-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1425",
+        "DOI": "10.1136/bjo.2007.120659",
+        "article-title": "Analysis of a comprehensive diabetic retinopathy screening model for rural and urban diabetics in developing countries",
+        "volume": "91",
+        "author": "Rani",
+        "year": "2007",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "R12-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1004",
+        "DOI": "10.4103/ijo.IJO_1989_18",
+        "article-title": "Artificial intelligence in diabetic retinopathy: A natural step to the future",
+        "volume": "67",
+        "author": "Padhy",
+        "year": "2019",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "R13-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "R14-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "R15-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "104072",
+        "DOI": "10.1016/j.ijmedinf.2019.104072",
+        "article-title": "A lesson in implementation: A pre-post study of providers’ experience with artificial intelligence-based clinical decision support",
+        "volume": "137",
+        "author": "Romero-Brufau",
+        "year": "2020",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "key": "R16-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "E2134254",
+        "DOI": "10.1001/jamanetworkopen.2021.34254",
+        "article-title": "Pivotal evaluation of an artificial intelligence system for autonomous detection of referrable and vision-threatening diabetic retinopathy",
+        "volume": "4",
+        "author": "Ipp",
+        "year": "2021",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "R17-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1001/archopht.116.3.297",
+        "article-title": "United Kingdom prospective diabetes study, 30: Diabetic retinopathy at diagnosis of non–insulin-dependent diabetes mellitus and associated risk factors",
+        "volume": "116",
+        "author": "Kohner",
+        "year": "1998",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "R18-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "article-title": "High-performance medicine: The convergence of human and artificial intelligence",
+        "volume": "25",
+        "author": "Topol",
+        "year": "2019",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "R19-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1608",
+        "DOI": "10.1016/j.ophtha.2018.04.007",
+        "article-title": "Guidelines on diabetic eye care: The International council of ophthalmology recommendations for screening, follow-up, referral, and treatment based on resource settings",
+        "volume": "125",
+        "author": "Wong",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "R20-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "e012799",
+        "DOI": "10.1136/bmjopen-2016-012799",
+        "article-title": "STARD 2015 guidelines for reporting diagnostic accuracy studies: Explanation and elaboration",
+        "volume": "6",
+        "author": "Cohen",
+        "year": "2016",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "R21-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1159/000512638",
+        "article-title": "Screening for diabetic retinopathy using an automated diagnostic system based on deep learning: Diagnostic accuracy assessment",
+        "volume": "244",
+        "author": "Rêgo",
+        "year": "2021",
+        "journal-title": "Ophthalmologica"
+      },
+      {
+        "key": "R22-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "10455",
+        "DOI": "10.1038/s41598-022-13919-2",
+        "article-title": "Assessment of image quality on color fundus retinal images using the automatic retinal image analysis",
+        "volume": "12",
+        "author": "Shi",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "R23-20261028",
+        "first-page": "856",
+        "article-title": "Diagnostic accuracy and reliability of retinal pathology using the Forus 3nethra fundus camera compared to ultra wide-field imaging",
+        "volume": "33",
+        "author": "Darwish",
+        "year": "2019",
+        "journal-title": "Eye (Basingstoke)"
+      },
+      {
+        "key": "R24-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "377",
+        "DOI": "10.1016/j.jbi.2008.08.010",
+        "article-title": "Research electronic data capture (REDCap)-A metadata-driven methodology and workflow process for providing translational research informatics support",
+        "volume": "42",
+        "author": "Harris",
+        "year": "2009",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "R26-20261028",
+        "first-page": "34",
+        "article-title": "Artificial intelligence for diabetic retinopathy screening: a review",
+        "author": "Grzybowski",
+        "year": "2020",
+        "journal-title": "Eye (Basingstoke). Springer Nature"
+      },
+      {
+        "key": "R27-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "R28-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "S42",
+        "DOI": "10.4103/IJO.IJO_1163_23",
+        "article-title": "Effect of simulated cataract on the accuracy of artificial intelligence in detecting diabetic retinopathy in color fundus photos",
+        "volume": "72",
+        "author": "Crane",
+        "year": "2024",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "R30-20261028",
+        "first-page": "1694",
+        "article-title": "Head to head comparison of diagnostic performance of three non-mydriatic cameras for diabetic retinopathy screening with artificial intelligence",
+        "volume": "38",
+        "author": "Doğan",
+        "year": "2024",
+        "journal-title": "Eye (Basingstoke)"
+      },
+      {
+        "key": "R31-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "R32-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1002/hcs2.10",
+        "article-title": "Two Singapore public healthcare AI applications for national screening programs and other examples",
+        "volume": "1",
+        "author": "Ta",
+        "year": "2022",
+        "journal-title": "Health Care Sci"
+      },
+      {
+        "key": "R33-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "987",
+        "DOI": "10.1001/jamaophthalmol.2019.2004",
+        "article-title": "Performance of a deep-learning algorithm vs manual grading for detecting diabetic retinopathy in India",
+        "volume": "137",
+        "author": "Gulshan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "R34-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.4103/ijo.IJO_1203_19",
+        "article-title": "Medios-An offline, smartphone-based artificial intelligence algorithm for the diagnosis of diabetic retinopathy",
+        "volume": "68",
+        "author": "Sosale",
+        "year": "2020",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "R35-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "678",
+        "DOI": "10.4103/ijo.IJO_667_20",
+        "article-title": "Diabetic retinopathy screening guidelines in India: All India Ophthalmological Society diabetic retinopathy task force and Vitreoretinal Society of India Consensus Statement",
+        "volume": "69",
+        "author": "Raman",
+        "year": "2021",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "R36-20261028",
+        "doi-asserted-by": "crossref",
+        "first-page": "e235",
+        "DOI": "10.1016/S2589-7500(22)00017-6",
+        "article-title": "Real-time diabetic retinopathy screening by deep learning in a multisite national screening programme: A prospective interventional cohort study",
+        "volume": "4",
+        "author": "Ruamviboonsuk",
+        "year": "2022",
+        "journal-title": "Lancet Digit Health"
+      }
+    ],
+    "container-title": [
+      "Indian Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.ovid.com/10.4103/IJO.IJO_2774_25",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T07:00:20Z",
+      "timestamp": 1793170820000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.ovid.com/10.4103/IJO.IJO_2774_25"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          17
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.4103/ijo.ijo_2774_25",
+    "relation": {},
+    "ISSN": [
+      "0301-4738",
+      "1998-3689"
+    ],
+    "issn-type": [
+      {
+        "value": "0301-4738",
+        "type": "print"
+      },
+      {
+        "value": "1998-3689",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          17
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-10-30",
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-04-06",
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

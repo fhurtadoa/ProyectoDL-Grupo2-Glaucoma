@@ -1,0 +1,482 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2026-08-01T04:58:41Z",
+      "timestamp": 1785560321770,
+      "version": "3.56.0"
+    },
+    "reference-count": 27,
+    "publisher": "MDPI AG",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2026-07-30T00:00:00Z",
+          "timestamp": 1785369600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Daejeon RISE",
+        "award": [
+          "2026-RISE-06-001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2026-RISE-06-001"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Bioengineering"
+    ],
+    "abstract": "<jats:p>Background: Automatic artery/vein (A/V) segmentation in color fundus photography underpins retinal biomarkers such as the arteriolar-to-venular ratio (AVR), yet single-dataset models generalize poorly across institutions and pathologies. Methods: Using pre-trained Recursive Refinement W-Net (RRWNet) weights as initialization, eight heterogeneous datasets were jointly fine-tuned under a single set of weights for 50 epochs: five A/V-labeled (Fundus-AVSeg, LES-AV, RITE, FIREFLY-Gen, PSEUDO_AV) and three vessel-only (DRIVE, CHASE_DB1, HRF). A vessel-only loss separation strategy applied only the vessel-channel loss to vessel-only datasets, preventing A/V metric dilution; post-processing combined field-of-view masking, connected-component denoising, and morphological refinement, outputting artery, vein, and vessel masks with crossing and junction maps. Results: Loss separation recovered validation DSC from 0.518 to 0.570 (AUC up to 0.959). On re-inference across four datasets (332 images), the single-weight model attained mean-AV DSC 0.657 ± 0.085 and AUC 0.976 ± 0.016; across normal, AMD, glaucoma, and DR subgroups, performance was statistically indistinguishable (Kruskal–Wallis, all p &gt; 0.36), indicating consistent behavior across pathologies. Conclusions: Within a leakage-aware internal evaluation, the single-weight model produced stable A/V segmentation across the four datasets and across pathology subgroups, indicating preliminary internal consistency rather than proven cross-domain generalization. Because the evaluation reuses data seen during training and no external or patient-level held-out set was used, robustness claims are deferred; leakage-free external validation and patient-level re-evaluation are identified as the essential next steps.</jats:p>",
+    "DOI": "10.3390/bioengineering13080882",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2026-07-30T16:15:00Z",
+      "timestamp": 1785428100000
+    },
+    "page": "882",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Generalized Retinal Artery/Vein Segmentation via Multi-Dataset Fine-Tuning and Pathology Subgroup Analysis"
+    ],
+    "prefix": "10.3390",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-3642-7434",
+        "authenticated-orcid": false,
+        "given": "Seo Gyeong",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Medical IT Engineering, Konyang University, 158 Gwanjeodong-ro, Seo-gu, Daejeon 35365, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ju-Hyuck",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical IT Engineering, Konyang University, 158 Gwanjeodong-ro, Seo-gu, Daejeon 35365, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2129",
+        "DOI": "10.1167/iovs.03-1390",
+        "article-title": "Are retinal arteriolar or venular diameters associated with markers for cardiovascular disorders? The Rotterdam Study",
+        "volume": "45",
+        "author": "Ikram",
+        "year": "2004",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.survophthal.2008.10.003",
+        "article-title": "Retinal vascular caliber: Systemic, environmental, and genetic associations",
+        "volume": "54",
+        "author": "Sun",
+        "year": "2009",
+        "journal-title": "Surv. Ophthalmol."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1941",
+        "DOI": "10.1109/TMI.2011.2159619",
+        "article-title": "Automated measurement of the arteriolar-to-venular width ratio in digital color fundus photographs",
+        "volume": "30",
+        "author": "Niemeijer",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "101905",
+        "DOI": "10.1016/j.media.2020.101905",
+        "article-title": "A review of machine learning methods for retinal blood vessel segmentation and artery/vein classification",
+        "volume": "68",
+        "author": "Mookiah",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1214",
+        "DOI": "10.1109/TMI.2006.879967",
+        "article-title": "Retinal vessel segmentation using the 2-D Gabor wavelet and supervised classification",
+        "volume": "25",
+        "author": "Soares",
+        "year": "2006",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1200",
+        "DOI": "10.1109/TMI.2006.879955",
+        "article-title": "Segmentation of retinal blood vessels by combining the detection of centerlines and morphological reconstruction",
+        "volume": "25",
+        "author": "Campilho",
+        "year": "2006",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1990",
+        "DOI": "10.1049/iet-ipr.2019.1646",
+        "article-title": "Deep learning-based automated detection of human knee joint’s synovial fluid from magnetic resonance images with transfer learning",
+        "volume": "14",
+        "author": "Iqbal",
+        "year": "2020",
+        "journal-title": "IET Image Process."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "109573",
+        "DOI": "10.1016/j.engappai.2024.109573",
+        "article-title": "An end-to-end deep convolutional neural network-based data-driven fusion framework for identification of human induced pluripotent stem cell-derived endothelial cells in photomicrographs",
+        "volume": "139",
+        "author": "Iqbal",
+        "year": "2025",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2369",
+        "DOI": "10.1109/TMI.2016.2546227",
+        "article-title": "Segmenting retinal blood vessels with deep neural networks",
+        "volume": "35",
+        "author": "Liskowski",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1109/TBME.2016.2535311",
+        "article-title": "A discriminatively trained fully connected conditional random field model for blood vessel segmentation in fundus images",
+        "volume": "64",
+        "author": "Orlando",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1912",
+        "DOI": "10.1109/TBME.2018.2828137",
+        "article-title": "Joint segment-level and pixel-wise losses for deep learning based retinal vessel segmentation",
+        "volume": "65",
+        "author": "Yan",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2631",
+        "DOI": "10.1109/TMI.2016.2587062",
+        "article-title": "Robust retinal vessel segmentation via locally adaptive derivative frames in orientation scores",
+        "volume": "35",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1073",
+        "DOI": "10.1109/TIP.2013.2263809",
+        "article-title": "An automatic graph-based approach for artery/vein classification in retinal images",
+        "volume": "23",
+        "author": "Dashtbozorg",
+        "year": "2014",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2518",
+        "DOI": "10.1109/TMI.2015.2443117",
+        "article-title": "Retinal artery-vein classification via topology estimation",
+        "volume": "34",
+        "author": "Estrada",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galdran, A., Meyer, M.I., Costa, P., Mendonça, A.M., and Campilho, A. (2019, January 8–11). Uncertainty-aware artery/vein classification on retinal images. Proceedings of the IEEE 16th International Symposium on Biomedical Imaging (ISBI), Venice, Italy.",
+        "DOI": "10.1109/ISBI.2019.8759380"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger, O., Fischer, P., and Brox, T. (2015, January 5–9). U-Net: Convolutional networks for biomedical image segmentation. Proceedings of the Medical Image Computing and Computer-Assisted Intervention (MICCAI), Munich, Germany.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "106650",
+        "DOI": "10.1016/j.cmpb.2022.106650",
+        "article-title": "Artery–vein classification in fundus images using serially connected U-Nets",
+        "volume": "216",
+        "author": "Karlsson",
+        "year": "2022",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "6174",
+        "DOI": "10.1038/s41598-022-09675-y",
+        "article-title": "State-of-the-art retinal vessel segmentation with minimalistic models",
+        "volume": "12",
+        "author": "Galdran",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "124970",
+        "DOI": "10.1016/j.eswa.2024.124970",
+        "article-title": "RRWNet: Recursive refinement network for effective retinal artery/vein segmentation and classification",
+        "volume": "256",
+        "author": "Morano",
+        "year": "2024",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Go, S., Ji, Y., Park, S.J., and Lee, S. (2024, January 17–18). Generation of structurally realistic retinal fundus images with diffusion models. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Seattle, WA, USA.",
+        "DOI": "10.1109/CVPRW63382.2024.00239"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, Q., Abràmoff, M.D., and Garvin, M.K. (2013, January 22–26). Automated separation of binary overlapping trees in low-contrast color retinal images. Proceedings of the Medical Image Computing and Computer-Assisted Intervention (MICCAI), Nagoya, Japan.",
+        "DOI": "10.1007/978-3-642-40763-5_54"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Orlando, J.I., Barbosa Breda, J., van Keer, K., Blaschko, M.B., Blanco, P.J., and Bulant, C.A. (2018, January 16–20). Towards a glaucoma risk index based on simulated hemodynamics from fundus images. Proceedings of the Medical Image Computing and Computer-Assisted Intervention (MICCAI), Granada, Spain.",
+        "DOI": "10.1007/978-3-030-00934-2_8"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "154860",
+        "DOI": "10.1155/2013/154860",
+        "article-title": "Robust vessel segmentation in fundus images",
+        "volume": "2013",
+        "author": "Budai",
+        "year": "2013",
+        "journal-title": "Int. J. Biomed. Imaging"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1109/TMI.2004.825627",
+        "article-title": "Ridge-based vessel segmentation in color images of the retina",
+        "volume": "23",
+        "author": "Staal",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "2538",
+        "DOI": "10.1109/TBME.2012.2205687",
+        "article-title": "An ensemble classification-based approach applied to retinal blood vessel segmentation",
+        "volume": "59",
+        "author": "Fraz",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1298",
+        "DOI": "10.1038/s41597-025-05381-2",
+        "article-title": "A fundus image dataset for AI-based artery-vein vessel segmentation",
+        "volume": "12",
+        "author": "Deng",
+        "year": "2025",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "102340",
+        "DOI": "10.1016/j.media.2021.102340",
+        "article-title": "TW-GAN: Topology and width aware GAN for retinal artery/vein classification",
+        "volume": "77",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      }
+    ],
+    "container-title": [
+      "Bioengineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2306-5354/13/8/882/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2026-08-01T04:24:27Z",
+      "timestamp": 1785558267000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2306-5354/13/8/882"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ]
+    },
+    "references-count": 27,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "bioengineering13080882"
+    ],
+    "URL": "https://doi.org/10.3390/bioengineering13080882",
+    "relation": {},
+    "ISSN": [
+      "2306-5354"
+    ],
+    "issn-type": [
+      {
+        "value": "2306-5354",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2026-06-02T09:20:58Z",
+      "timestamp": 1780392058613,
+      "version": "3.54.1"
+    },
+    "reference-count": 39,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2019-02-12T00:00:00Z",
+          "timestamp": 1549929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Digit Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10278-019-00189-0",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2019-02-12T19:38:29Z",
+      "timestamp": 1550000309000
+    },
+    "page": "151-158",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 36,
+    "title": [
+      "Glaucoma Detection from Retinal Images Using Statistical and Textural Wavelet Features"
+    ],
+    "prefix": "10.1007",
+    "volume": "33",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4066-6021",
+        "authenticated-orcid": false,
+        "given": "Lamiaa",
+        "family": "Abdel-Hamid",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "189_CR1",
+        "unstructured": "World Health Organization: Blindness and vision impairment prevention. Available at: \nhttp://www.who.int/blindness/causes/priority/en/\n\n. Accessed May 2018."
+      },
+      {
+        "key": "189_CR2",
+        "unstructured": "Bright Focus Foundation: Glaucoma: facts & figures. Available at: \nhttps://www.brightfocus.org/glaucoma/article/glaucoma-facts-figures\n\n. Accessed May 2018."
+      },
+      {
+        "issue": "2",
+        "key": "189_CR3",
+        "first-page": "275",
+        "volume": "33",
+        "author": "BN Kumar",
+        "year": "2018",
+        "unstructured": "Kumar BN, Chauhan RP, Dahiya N: Detection of glaucoma using image processing techniques: A critique. Semin Ophthalmol 33(2):275–228, 2018",
+        "journal-title": "Semin Ophthalmol"
+      },
+      {
+        "key": "189_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1155/2015/180972",
+        "volume": "2015",
+        "author": "A Almazroa",
+        "year": "2015",
+        "unstructured": "Almazroa A, Burman R, Raahemifar K, Lakshminarayanan V: Optic disc and optic cup segmentation methodologies for glaucoma image detection: A survey. Journal of ophthalmology 2015:1–28, 2015",
+        "journal-title": "Journal of ophthalmology"
+      },
+      {
+        "key": "189_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kavya N, Padmaja KV: Glaucoma detection using texture features extraction. Proceedings of the 51st IEEE Asilomar Conference on Signals, Systems, and Computers, 1471–1475, 2017.",
+        "DOI": "10.1109/ACSSC.2017.8335600"
+      },
+      {
+        "key": "189_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dey N et al.: Optical cup to disc ratio measurement for glaucoma diagnosis using harris corner. In: 3rd IEEE International Conference on Computing Communication & Networking Technologies (ICCCNT), pp. 1–5, 2012.",
+        "DOI": "10.1109/ICCCNT.2012.6395971"
+      },
+      {
+        "key": "189_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dutta MK et al.: Glaucoma detection by segmenting the super pixels from fundus colour retinal images. In: International IEEE Conference on Medical Imaging, m-Health and Emerging Communication Systems (MedCom), pp. 86–90, 2014.",
+        "DOI": "10.1109/MedCom.2014.7005981"
+      },
+      {
+        "issue": "3",
+        "key": "189_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "161",
+        "DOI": "10.1002/ima.22017",
+        "volume": "22",
+        "author": "MK Nath",
+        "year": "2012",
+        "unstructured": "Nath MK, Dandapat S: Differential entropy in wavelet subband for assessment of glaucoma. Int J Imaging Syst Technol 22(3):161–165, 2012",
+        "journal-title": "Int J Imaging Syst Technol"
+      },
+      {
+        "key": "189_CR9",
+        "unstructured": "Nawaldgi S, Lalitha YS and Reddy M: A novel adaptive threshold and ISNT rule based automatic glaucoma detection from color fundus images. In: Satapathy S, Bhateja V, Raju K, Janakiramaiah B Eds. Data Engineering and Intelligent Computing. Advances in Intelligent Systems and Computing, vol 542. Singapore: Springer, 2018."
+      },
+      {
+        "issue": "4",
+        "key": "189_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1016/j.survophthal.2006.04.008",
+        "volume": "51",
+        "author": "GL Spaeth",
+        "year": "2006",
+        "unstructured": "Spaeth GL: Systems for staging the amount of optic nerve damage in glaucoma: A critical review and new material. Surv Ophthalmol 51(4):293–315, 2006",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "issue": "3",
+        "key": "189_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "471",
+        "DOI": "10.1016/j.media.2009.12.006",
+        "volume": "14",
+        "author": "R Bock",
+        "year": "2010",
+        "unstructured": "Bock R, Meier J, Nyúl LG, Hornegger J, Michelson G: Glaucoma risk index: Automated glaucoma detection from color fundus images. Med Image Anal 14(3):471–481, 2010",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "189_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.1016/j.bspc.2018.01.014",
+        "volume": "42",
+        "author": "N Thakur",
+        "year": "2018",
+        "unstructured": "Thakur N, Juneja M: Survey on segmentation and classification approaches of optic cup and optic disc for diagnosis of glaucoma. Biomed Signal Process Control 42:162–189, 2018",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "issue": "1",
+        "key": "189_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1109/TMI.2007.900326",
+        "volume": "27",
+        "author": "AA Youssif",
+        "year": "2008",
+        "unstructured": "Youssif AA, Ghalwash AZ, Ghoneim AA: Optic disc detection from normalized digital fundus images by means of a vessels’ direction matched filter. IEEE Trans Med Imaging 27(1):11–18, 2008",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "3",
+        "key": "189_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "979",
+        "DOI": "10.1007/s11045-017-0483-y",
+        "volume": "29",
+        "author": "ME Bechar",
+        "year": "2018",
+        "unstructured": "Bechar ME et al.: Semi-supervised superpixel classification for medical images segmentation: Application to detection of glaucoma disease. Multidim Syst Sign Process 29(3):979–998, 2018",
+        "journal-title": "Multidim Syst Sign Process"
+      },
+      {
+        "issue": "1",
+        "key": "189_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "80",
+        "DOI": "10.1109/TITB.2011.2176540",
+        "volume": "16",
+        "author": "S Dua",
+        "year": "2012",
+        "unstructured": "Dua S, Acharya UR, Chowriappa P, Sree SV: Wavelet-based energy features for glaucomatous image classification. IEEE Trans Inf Technol Biomed 16(1):80–87, 2012",
+        "journal-title": "IEEE Trans Inf Technol Biomed"
+      },
+      {
+        "key": "189_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.1016/j.cmpb.2015.10.010",
+        "volume": "124",
+        "author": "A Singh",
+        "year": "2016",
+        "unstructured": "Singh A, Dutta MK, ParthaSarathi M, Uher V, Burget R: Image processing based automatic diagnosis of glaucoma using wavelet features of segmented optic disc from fundus image. Comput Methods Prog Biomed 124:108–120, 2016",
+        "journal-title": "Comput Methods Prog Biomed"
+      },
+      {
+        "key": "189_CR17",
+        "unstructured": "Dey A, Dey KN: Automated glaucoma detection from fundus images of eye using statistical feature extraction methods and support vector machine classification. In: Bhattacharyya S, Sen S, Dutta M, Biswas P, Chattopadhyay H Eds. Industry Interactive Innovations in Science, Engineering and Technology. Lecture Notes in Networks and Systems, vol 11. Singapore: Springer, 2018."
+      },
+      {
+        "issue": "4",
+        "key": "189_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "643",
+        "DOI": "10.1007/s13246-015-0377-y",
+        "volume": "38",
+        "author": "MU Akram",
+        "year": "2015",
+        "unstructured": "Akram MU, Tariq A, Khalid S, Javed MY, Abbas S, Yasin UU: Glaucoma detection using novel optic disc localization, hybrid feature set and classification techniques. Australas Phys Eng Sci Med 38(4):643–655, 2015",
+        "journal-title": "Australas Phys Eng Sci Med"
+      },
+      {
+        "issue": "3",
+        "key": "189_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "365",
+        "DOI": "10.1007/s40846-017-0234-4",
+        "volume": "37",
+        "author": "NA Vijapur",
+        "year": "2017",
+        "unstructured": "Vijapur NA, Kunte RSR: Sensitized glaucoma detection using a unique template based correlation filter and undecimated isotropic wavelet transform. J Med Biol Eng 37(3):365–373, 2017",
+        "journal-title": "J Med Biol Eng"
+      },
+      {
+        "issue": "9",
+        "key": "189_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "693",
+        "DOI": "10.1049/iet-ipr.2016.0812",
+        "volume": "11",
+        "author": "T Khalil",
+        "year": "2017",
+        "unstructured": "Khalil T, Usman Akram M, Khalid S, Jameel A: Improved automated detection of glaucoma from fundus image using hybrid structural and textural features. IET Image Process 11(9):693–700, 2017",
+        "journal-title": "IET Image Process"
+      },
+      {
+        "issue": "7",
+        "key": "189_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "674",
+        "DOI": "10.1109/34.192463",
+        "volume": "11",
+        "author": "SG Mallat",
+        "year": "1989",
+        "unstructured": "Mallat SG: A theory for multiresolution signal decomposition: The wavelet representation. IEEE Trans Pattern Anal Mach Intell 11(7):674–693, 1989",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "189_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1155/2013/154860",
+        "volume": "2013",
+        "author": "A Budai",
+        "year": "2013",
+        "unstructured": "Budai A, Bock R, Maier A, Hornegger J, Michelson G: Robust Vessel Segmentation in Fundus Images. Int J Biomed Imaging 2013:1–11, 2013",
+        "journal-title": "Int J Biomed Imaging"
+      },
+      {
+        "key": "189_CR23",
+        "unstructured": "HRF Dataset website link: \nhttps://www5.cs.fau.de/research/data/fundus-images/\n\n Accessed March 2018."
+      },
+      {
+        "key": "189_CR24",
+        "unstructured": "Jain AK: Fundamentals of digital image processing. Upper Saddle River: Prentice-Hall, Inc., 1989."
+      },
+      {
+        "key": "189_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zuiderveld K: Contrast limited adaptive histogram equalization. Chapter VIII.5, Graphics Gems IV. Heckbert PS Eds. Cambridge: Academic Press, 1994, pp 474–485.",
+        "DOI": "10.1016/B978-0-12-336156-1.50061-6"
+      },
+      {
+        "issue": "9",
+        "key": "189_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JBO.21.9.096007",
+        "volume": "21",
+        "author": "L Abdel-Hamid",
+        "year": "2016",
+        "unstructured": "Abdel-Hamid L, el-Rafei A, el-Ramly S, Michelson G, Hornegger J: Retinal image quality assessment based on image clarity and content. J Biomed Opt 21(9):96007, 2016",
+        "journal-title": "J Biomed Opt"
+      },
+      {
+        "issue": "1",
+        "key": "189_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1007/s11760-017-1124-5",
+        "volume": "12",
+        "author": "L Abdel-Hamid",
+        "year": "2017",
+        "unstructured": "Abdel-Hamid L et al.: Performance dependency of retinal image quality assessment algorithms on image resolution: Analyses and solutions. SIViP 12(1):9–16, 2017",
+        "journal-title": "SIViP"
+      },
+      {
+        "key": "189_CR28",
+        "unstructured": "Maths Work: Regionprops. Available at \nhttp://www.math-works.com/help/images/ref/regionprops.html\n\n. Accessed May 2018."
+      },
+      {
+        "key": "189_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1016/j.compbiomed.2017.09.012",
+        "volume": "90",
+        "author": "L Abdel-Hamid",
+        "year": "2017",
+        "unstructured": "Abdel-Hamid L, el-Rafei A, Michelson G: No-reference quality index for color retinal images. Computers in biology and medicine 90:68–75, 2017",
+        "journal-title": "Computers in biology and medicine"
+      },
+      {
+        "issue": "6",
+        "key": "189_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "610",
+        "DOI": "10.1109/TSMC.1973.4309314",
+        "volume": "SMC-3",
+        "author": "RM Haralick",
+        "year": "1973",
+        "unstructured": "Haralick RM, Shanmugam K: Textural features for image classification. IEEE Trans Syst Man Cybern SMC-3(6):610–621, 1973",
+        "journal-title": "IEEE Trans Syst Man Cybern"
+      },
+      {
+        "key": "189_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "273",
+        "DOI": "10.1016/0734-189X(84)90197-X",
+        "volume": "25",
+        "author": "RW Conners",
+        "year": "1984",
+        "unstructured": "Conners RW: Segmentation of a high-resolution urban scene using texture operators. Comput Vision Graph Image Processing 25:273–310, 1984",
+        "journal-title": "Comput Vision Graph Image Processing"
+      },
+      {
+        "key": "189_CR32",
+        "unstructured": "Abdel-Hamid L: Glaucoma detection using statistical features: comparative study in RGB, HSV and CIEL*a*b* color model. Proceeding of the 10th SPIE International Conference on Graphic and Image Processing (ICGIP2018), In Press."
+      },
+      {
+        "issue": "2",
+        "key": "189_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "713",
+        "DOI": "10.1109/18.119732",
+        "volume": "38",
+        "author": "RR Coifman",
+        "year": "1992",
+        "unstructured": "Coifman RR, Wickerhauser MV: Entropy-based algorithms for best basis selection. IEEE Trans. Inf. Theory 38(2):713–718, 1992",
+        "journal-title": "IEEE Trans. Inf. Theory"
+      },
+      {
+        "key": "189_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kira K, Rendell LA: A practical approach to feature selection. Proceedings of the 9th International Workshop on Machine Learning, pp. 249–256, 1992.",
+        "DOI": "10.1016/B978-1-55860-247-2.50037-1"
+      },
+      {
+        "key": "189_CR35",
+        "unstructured": "Quinlan JR: C4.5: Programs for machine learning. San Francisco: Morgan Kaufmann Publishers, 1993."
+      },
+      {
+        "issue": "1",
+        "key": "189_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1145/1656274.1656278",
+        "volume": "11",
+        "author": "M Hall",
+        "year": "2009",
+        "unstructured": "Hall M, Frank E, Holmes G, Pfahringer B, Reutemann P, Witten IH: The WEKA data mining software: An update. ACM SIGKDD Explor. Newsl. 11(1):10–18, 2009",
+        "journal-title": "ACM SIGKDD Explor. Newsl."
+      },
+      {
+        "key": "189_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abdel Hamid LS et al.: No-reference wavelet based retinal image quality assessment. Proceedings of the 5th Eccomas Thematic Conference on Computational Vision and Medical Image Processing (VipIMAGE), pp. 123–129, 2015.",
+        "DOI": "10.1201/b19241-22"
+      },
+      {
+        "key": "189_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salam AA et al.: Benchmark data set for glaucoma detection with annotated cup to disc ratio. Proceedings of IEEE International Conference Signals and Systems (ICSigSys), pp. 227–233, 2017.",
+        "DOI": "10.1109/ICSIGSYS.2017.7967046"
+      },
+      {
+        "issue": "2",
+        "key": "189_CR39",
+        "first-page": "329",
+        "volume": "38",
+        "author": "TR Kausu",
+        "year": "2018",
+        "unstructured": "Kausu TR, Gopi VP, Wahid KA, Doma W, Niwas SI: Combination of clinical and multiresolution features for glaucoma detection and its classification using fundus images. Bioprocess Biosyst Eng 38(2):329–341, 2018",
+        "journal-title": "Bioprocess Biosyst Eng"
+      }
+    ],
+    "container-title": [
+      "Journal of Digital Imaging"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10278-019-00189-0/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10278-019-00189-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10278-019-00189-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2020-03-25T07:16:23Z",
+      "timestamp": 1585120583000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s10278-019-00189-0"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          12
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "189"
+    ],
+    "URL": "https://doi.org/10.1007/s10278-019-00189-0",
+    "relation": {},
+    "ISSN": [
+      "0897-1889",
+      "1618-727X"
+    ],
+    "issn-type": [
+      {
+        "value": "0897-1889",
+        "type": "print"
+      },
+      {
+        "value": "1618-727X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "12 February 2019",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Compliance with Ethical Standards"
+        }
+      },
+      {
+        "value": "The author declares that there is no conflict of interest.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of Interest"
+        }
+      }
+    ]
+  }
+}

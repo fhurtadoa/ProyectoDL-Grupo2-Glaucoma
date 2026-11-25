@@ -1,0 +1,799 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2026-11-19T22:53:07Z",
+      "timestamp": 1795128787713,
+      "version": "4.10.3"
+    },
+    "reference-count": 59,
+    "publisher": "MDPI AG",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              23
+            ]
+          ],
+          "date-time": "2024-06-23T00:00:00Z",
+          "timestamp": 1719100800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Tri-Service General Hospital, Taipei, Taiwan",
+        "award": [
+          "TSGH-E-113269"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TSGH-E-113269"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomedicines"
+    ],
+    "abstract": "<jats:p>Objectives: This study aimed to use deep learning to identify glaucoma and normal eyes in groups with high myopia using fundus photographs. Methods: Patients who visited Tri-Services General Hospital from 1 November 2018 to 31 October 2022 were retrospectively reviewed. Patients with high myopia (spherical equivalent refraction of ≤−6.0 D) were included in the current analysis. Meanwhile, patients with pathological myopia were excluded. The participants were then divided into the high myopia group and high myopia glaucoma group. We used two classification models with the convolutional block attention module (CBAM), an attention mechanism module that enhances the performance of convolutional neural networks (CNNs), to investigate glaucoma cases. The learning data of this experiment were evaluated through fivefold cross-validation. The images were categorized into training, validation, and test sets in a ratio of 6:2:2. Grad-CAM visual visualization improved the interpretability of the CNN results. The performance indicators for evaluating the model include the area under the receiver operating characteristic curve (AUC), sensitivity, and specificity. Results: A total of 3088 fundus photographs were used for the deep-learning model, including 1540 and 1548 fundus photographs for the high myopia glaucoma and high myopia groups, respectively. The average refractive power of the high myopia glaucoma group and the high myopia group were −8.83 ± 2.9 D and −8.73 ± 2.6 D, respectively (p = 0.30). Based on a fivefold cross-validation assessment, the ConvNeXt_Base+CBAM architecture had the best performance, with an AUC of 0.894, accuracy of 82.16%, sensitivity of 81.04%, specificity of 83.27%, and F1 score of 81.92%. Conclusions: Glaucoma in individuals with high myopia was identified from their fundus photographs.</jats:p>",
+    "DOI": "10.3390/biomedicines12071394",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2024-06-24T03:53:43Z",
+      "timestamp": 1719201223000
+    },
+    "page": "1394",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 44,
+    "title": [
+      "Deep Learning Evaluation of Glaucoma Detection Using Fundus Photographs in Highly Myopic Populations"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Yen-Ying",
+        "family": "Chiang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Graduate Institute of Life Sciences, National Defense Medical Center, Taipei 114, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4058-7753",
+        "authenticated-orcid": false,
+        "given": "Ching-Long",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Tri-Service General Hospital, National Defense Medical Center, Taipei 114, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi-Hao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate Institute of Life Sciences, National Defense Medical Center, Taipei 114, Taiwan"
+          },
+          {
+            "name": "Department of Ophthalmology, Tri-Service General Hospital, National Defense Medical Center, Taipei 114, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "first-page": "120",
+        "article-title": "The Myopia Epidemic: A Growing Public Health Crisis Impacting Children Worldwide",
+        "volume": "2",
+        "author": "George",
+        "year": "2023",
+        "journal-title": "Partn. Univers. Int. Res. J."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1016/j.ophtha.2016.01.006",
+        "article-title": "Global Prevalence of Myopia and High Myopia and Temporal Trends from 2000 through 2050",
+        "volume": "123",
+        "author": "Holden",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1136/bjophthalmol-2021-egsguidelines",
+        "article-title": "European Glaucoma Society Terminology and Guidelines for Glaucoma",
+        "volume": "105",
+        "author": "Spaeth",
+        "year": "2021",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "S162",
+        "DOI": "10.1016/j.survophthal.2007.08.012",
+        "article-title": "What Is the Present Pathogenetic Concept of Glaucomatous Optic Neuropathy?",
+        "volume": "52",
+        "author": "Flammer",
+        "year": "2007",
+        "journal-title": "Surv. Ophthalmol."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schacknow, P.N., and Samples, J.R. (2010). The Glaucoma Book: A Practical, Evidence-Based Approach to Patient Care, Springer Science & Business Media.",
+        "DOI": "10.1007/978-0-387-76700-0"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global Prevalence of Glaucoma and Projections of Glaucoma Burden through 2040: A Systematic Review and Meta-Analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.2174/1874609811104020110",
+        "article-title": "Glaucoma and aging",
+        "volume": "4",
+        "author": "Guedes",
+        "year": "2011",
+        "journal-title": "Curr. Aging Sci."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choi, E.Y., Wong, R.C.S., Thein, T., Pasquale, L.R., Shen, L.Q., Wang, M., Li, D., Jin, Q., Wang, H., and Baniasadi, N. (2021). The Effect of Ametropia on Glaucomatous Visual Field Loss. J. Clin. Med., 10.",
+        "DOI": "10.3390/jcm10132796"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1989",
+        "DOI": "10.1016/j.ophtha.2011.03.012",
+        "article-title": "Myopia as a Risk Factor for Open-Angle Glaucoma: A Systematic Review and Meta-Analysis",
+        "volume": "118",
+        "author": "Marcus",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.1167/iovs.61.4.49",
+        "article-title": "The Complications of Myopia: A Review and Meta-Analysis",
+        "volume": "61",
+        "author": "Haarman",
+        "year": "2020",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1016/j.ajo.2021.10.007",
+        "article-title": "Degree of myopia and glaucoma risk: A dose-response meta-analysis",
+        "volume": "236",
+        "author": "Ha",
+        "year": "2022",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1347",
+        "DOI": "10.1136/bjophthalmol-2018-313530",
+        "article-title": "Glaucoma in myopia: Diagnostic dilemmas",
+        "volume": "103",
+        "author": "Tan",
+        "year": "2019",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1097/IJG.0000000000001217",
+        "article-title": "Different Disc Characteristics Associated With High Myopia and the Location of Glaucomatous Damage in Primary Open-Angle Glaucoma and Normal-Tension Glaucoma",
+        "volume": "28",
+        "author": "Lan",
+        "year": "2019",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "Lu, Y., Ji, Z., Jia, J., Shi, R., Liu, Y., Shu, Q., Lu, F., Ge, T., and He, Y. (2023). Progress in clinical characteristics of high myopia with primary open-angle glaucoma. Biotechnol. Genet. Eng. Rev., 1–20."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "286",
+        "DOI": "10.1136/bjo.82.3.286",
+        "article-title": "Histomorphometry of the optic disc in highly myopic eyes with absolute secondary angle closure glaucoma",
+        "volume": "82",
+        "author": "Dichtl",
+        "year": "1998",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1016/j.survophthal.2006.10.002",
+        "article-title": "Optic disk size and glaucoma",
+        "volume": "52",
+        "author": "Hoffmann",
+        "year": "2007",
+        "journal-title": "Surv. Ophthalmol."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "635",
+        "DOI": "10.1001/archopht.1981.03930010635009",
+        "article-title": "Optic nerve damage in human glaucoma: II. The site of injury and susceptibility to damage",
+        "volume": "99",
+        "author": "Quigley",
+        "year": "1981",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.1016/S0002-9394(14)72385-2",
+        "article-title": "Initial glaucomatous optic disk and retinal nerve fiber layer abnormalities and their progression",
+        "volume": "111",
+        "author": "Tuulonen",
+        "year": "1991",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/S0161-6420(13)31694-7",
+        "article-title": "Pattern of glaucomatous neuroretinal rim loss",
+        "volume": "100",
+        "author": "Jonas",
+        "year": "1993",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "234",
+        "DOI": "10.1097/APO.0000000000000288",
+        "article-title": "High Myopia and Glaucoma-Like Optic Neuropathy",
+        "volume": "9",
+        "author": "Jonas",
+        "year": "2020",
+        "journal-title": "Asia Pac. J. Ophthalmol."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1111/aos.13586",
+        "article-title": "Application of the ISNT rules on retinal nerve fibre layer thickness and neuroretinal rim area in healthy myopic eyes",
+        "volume": "96",
+        "author": "Qiu",
+        "year": "2018",
+        "journal-title": "Acta Ophthalmol."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4910",
+        "DOI": "10.1167/iovs.16-19104",
+        "article-title": "Comparison of Several Parameters in Two Optical Coherence Tomography Systems for Detecting Glaucomatous Defects in High Myopia",
+        "volume": "57",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "126",
+        "DOI": "10.1097/OPX.0000000000000776",
+        "article-title": "Macular Diagnostic Ability in OCT for Assessing Glaucoma in High Myopia",
+        "volume": "93",
+        "author": "Hung",
+        "year": "2016",
+        "journal-title": "Optom. Vis. Sci."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6472",
+        "DOI": "10.1167/iovs.12-10319",
+        "article-title": "Retinal nerve fiber layer defects in highly myopic eyes with early glaucoma",
+        "volume": "53",
+        "author": "Kimura",
+        "year": "2012",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "6660631",
+        "DOI": "10.1155/2021/6660631",
+        "article-title": "Retinal Thickness Asymmetry in Highly Myopic Eyes with Early Stage of Normal-Tension Glaucoma",
+        "volume": "2021",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vinod, K., and Salim, S. (2023). Addressing Glaucoma in Myopic Eyes: Diagnostic and Surgical Challenges. Bioengineering, 10.",
+        "DOI": "10.3390/bioengineering10111260"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "6999",
+        "DOI": "10.1109/TNNLS.2021.3084827",
+        "article-title": "A survey of convolutional neural networks: Analysis, applications, and prospects",
+        "volume": "33",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/s40537-016-0043-6",
+        "article-title": "A survey of transfer learning",
+        "volume": "3",
+        "author": "Weiss",
+        "year": "2016",
+        "journal-title": "J. Big Data"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "100377",
+        "DOI": "10.1016/j.imu.2020.100377",
+        "article-title": "Diabetic retinopathy detection through deep learning techniques: A review",
+        "volume": "20",
+        "author": "Alyoubi",
+        "year": "2020",
+        "journal-title": "Inform. Med. Unlocked"
+      },
+      {
+        "key": "ref_31",
+        "first-page": "41",
+        "article-title": "Glaucoma-deep: Detection of glaucoma eye disease on retinal fundus images using deep learning",
+        "volume": "8",
+        "author": "Abbas",
+        "year": "2017",
+        "journal-title": "Int. J. Adv. Comput. Sci. Appl."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nunez, R., Harris, A., Ibrahim, O., Keller, J., Wikle, C.K., Robinson, E., Zukerman, R., Siesky, B., Verticchio, A., and Rowe, L. (2022). Artificial Intelligence to Aid Glaucoma Diagnosis and Monitoring: State of the Art and New Directions. Photonics, 9.",
+        "DOI": "10.3390/photonics9110810"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1016/j.ophtha.2018.11.015",
+        "article-title": "DeepSeeNet: A deep learning model for automated classification of patient-based age-related macular degeneration severity from color fundus photographs",
+        "volume": "126",
+        "author": "Peng",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1235",
+        "DOI": "10.1016/j.oret.2021.02.006",
+        "article-title": "Deep learning approach for automated detection of myopic maculopathy and pathologic myopia in fundus images",
+        "volume": "5",
+        "author": "Du",
+        "year": "2021",
+        "journal-title": "Ophthalmol. Retin."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bragança, C.P., Torres, J.M., Macedo, L.O., and Soares, C.P.d.A. (2024). Advancements in Glaucoma Diagnosis: The Role of AI in Medical Imaging. Diagnostics, 14.",
+        "DOI": "10.3390/diagnostics14050530"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "8040",
+        "DOI": "10.1038/s41598-023-34794-5",
+        "article-title": "Development of a deep learning system to detect glaucoma using macular vertical optical coherence tomography scans of myopic eyes",
+        "volume": "13",
+        "author": "Kim",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1974",
+        "DOI": "10.1016/j.ophtha.2016.05.029",
+        "article-title": "Detecting Preperimetric Glaucoma with Standard Automated Perimetry Using a Deep Learning Classifier",
+        "volume": "123",
+        "author": "Asaoka",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "168",
+        "DOI": "10.4103/tjo.TJO-D-23-00022",
+        "article-title": "Use of artificial intelligence in forecasting glaucoma progression",
+        "volume": "13",
+        "author": "Thakur",
+        "year": "2023",
+        "journal-title": "Taiwan J. Ophthalmol."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anton, A., Nolivos, K., Pazos, M., Fatti, G., Ayala, M.E., Martínez-Prats, E., Peral, O., Poposki, V., Tsiroukis, E., and Morilla-Grasa, A. (2022). Diagnostic Accuracy and Detection Rate of Glaucoma Screening with Optic Disk Photos, Optical Coherence Tomography Images, and Telemedicine. J. Clin. Med., 11.",
+        "DOI": "10.3390/jcm11010216"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "M20",
+        "DOI": "10.1167/iovs.18-25957",
+        "article-title": "IMI–Defining and classifying myopia: A proposed set of standards for clinical and epidemiologic studies",
+        "volume": "60",
+        "author": "Flitcroft",
+        "year": "2019",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1949",
+        "DOI": "10.1109/TMM.2015.2477680",
+        "article-title": "Multi-task CNN model for attribute prediction",
+        "volume": "17",
+        "author": "Abdulnabi",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Multimed."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, W., Jiang, X., Yuan, H., Chen, J., Wang, X., and Huang, Z. (2023). Research on Algorithm for Authenticating the Authenticity of Calligraphy Works Based on Improved EfficientNet Network. Appl. Sci., 14.",
+        "DOI": "10.20944/preprints202312.0337.v1"
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T., and Xie, S. (2022, January 18–24). A convnet for the 2020s. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, New Orleans, LA, USA.",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and Fei-Fei, L. (2009, January 20–25). Imagenet: A large-scale hierarchical image database. Proceedings of the 2009 IEEE Conference on Computer Vision and Pattern Recognition, Miami, FL, USA.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "Loshchilov, I., and Hutter, F. (2019). Decoupled Weight Decay Regularization. arXiv."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woo, S., Park, J., Lee, J.-Y., and Kweon, I.S. (2018, January 8–14). Cbam: Convolutional block attention module. Proceedings of the European Conference on Computer Vision (ECCV), Munich, Germany.",
+        "DOI": "10.1007/978-3-030-01234-2_1"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., and Batra, D. (2017, January 22–29). Grad-cam: Visual explanations from deep networks via gradient-based localization. Proceedings of the IEEE International Conference on Computer Vision, Venice, Italy.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "13762",
+        "DOI": "10.1038/s41598-021-92971-w",
+        "article-title": "Prevalence of primary open angle glaucoma in the last 20 years: A meta-analysis and systematic review",
+        "volume": "11",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "e144",
+        "DOI": "10.1016/S2214-109X(20)30489-7",
+        "article-title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: The Right to Sight: An analysis for the Global Burden of Disease Study",
+        "volume": "9",
+        "author": "Blindness",
+        "year": "2021",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "23894",
+        "DOI": "10.1109/ACCESS.2021.3056641",
+        "article-title": "A comparative study of deep learning models for diagnosing glaucoma from fundus images",
+        "volume": "9",
+        "author": "Alghamdi",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1097/APO.0000000000000596",
+        "article-title": "Applications of Artificial Intelligence and Deep Learning in Glaucoma",
+        "volume": "12",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "Asia-Pac. J. Ophthalmol."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zedan, M.J.M., Zulkifley, M.A., Ibrahim, A.A., Moubark, A.M., Kamari, N.A.M., and Abdani, S.R. (2023). Automated Glaucoma Screening and Diagnosis Based on Retinal Fundus Images Using Deep Learning Approaches: A Comprehensive Review. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13132180"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "1516",
+        "DOI": "10.1080/02713683.2021.1900268",
+        "article-title": "Deep Learning Ensemble Method for Classifying Glaucoma Stages Using Fundus Photographs and Convolutional Neural Networks",
+        "volume": "46",
+        "author": "Cho",
+        "year": "2021",
+        "journal-title": "Curr. Eye Res."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1097/IJG.0b013e31821dac66",
+        "article-title": "Comparison of visual field severity classification systems for glaucoma",
+        "volume": "21",
+        "author": "Ng",
+        "year": "2012",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "2828",
+        "DOI": "10.1109/ACCESS.2021.3139160",
+        "article-title": "Deep learning-based glaucoma detection with cropped optic cup and disc and blood vessel segmentation",
+        "volume": "10",
+        "author": "Islam",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "415",
+        "DOI": "10.1097/APO.0000000000000230",
+        "article-title": "Pathologic Myopia",
+        "volume": "5",
+        "year": "2016",
+        "journal-title": "Asia-Pac. J. Ophthalmol."
+      }
+    ],
+    "container-title": [
+      "Biomedicines"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2227-9059/12/7/1394/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T15:03:15Z",
+      "timestamp": 1760108595000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2227-9059/12/7/1394"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          23
+        ]
+      ]
+    },
+    "references-count": 59,
+    "journal-issue": {
+      "issue": "7",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "biomedicines12071394"
+    ],
+    "URL": "https://doi.org/10.3390/biomedicines12071394",
+    "relation": {},
+    "ISSN": [
+      "2227-9059"
+    ],
+    "issn-type": [
+      {
+        "value": "2227-9059",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          23
+        ]
+      ]
+    }
+  }
+}

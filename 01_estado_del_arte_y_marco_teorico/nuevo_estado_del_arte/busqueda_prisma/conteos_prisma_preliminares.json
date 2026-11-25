@@ -1,0 +1,42 @@
+{
+  "updated_at_utc": "2026-11-24T23:52:54.608856+00:00",
+  "archivos_agentes_leidos": [
+    "A1_validacion_externa.md",
+    "A2_catalogo_bases.md",
+    "A3_variacion_imagen.md",
+    "A4_variacion_etiqueta_estadios.md",
+    "A5_umbral_calibracion_prevalencia.md",
+    "A6_estrategias_mitigacion.md"
+  ],
+  "archivos_gemini_leidos": [
+    "R1_validacion_externa.pdf",
+    "R2_catalogo_bases.pdf",
+    "R3_variacion_imagen.pdf",
+    "R4_variacion_etiqueta_estadios.pdf",
+    "R5_umbral_calibracion_prevalencia.pdf",
+    "R6_estrategias_mitigacion.pdf"
+  ],
+  "via1_bases_unicos": 131,
+  "agentes_antigravity_unicos": 117,
+  "gemini_deep_research_unicos": 227,
+  "semillas_sota": 9,
+  "referencias_metodologicas_gemini_separadas": 8,
+  "solapamiento": {
+    "bases_y_agentes": 34,
+    "bases_y_gemini": 24,
+    "agentes_y_gemini": 65,
+    "tres_vias_bases_agentes_gemini": 19,
+    "solo_agentes": 36,
+    "solo_gemini": 157,
+    "solo_bases": 92
+  },
+  "verificacion_doi": {
+    "total_unicos": 371,
+    "si_crossref": 336,
+    "si_datacite_preprint_o_dataset": 34,
+    "no_resolvio_descartados": 1
+  },
+  "total_matriz_corpus": 371,
+  "total_cribable_sin_doi_invalido": 370,
+  "muestra_ciega_revisor2": 74
+}

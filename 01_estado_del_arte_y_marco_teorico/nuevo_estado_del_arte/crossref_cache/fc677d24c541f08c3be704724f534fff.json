@@ -1,0 +1,717 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T21:44:07Z",
+      "timestamp": 1787003047668,
+      "version": "build-2736575974"
+    },
+    "reference-count": 30,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              18
+            ]
+          ],
+          "date-time": "2024-01-18T00:00:00Z",
+          "timestamp": 1705536000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              18
+            ]
+          ],
+          "date-time": "2024-01-18T00:00:00Z",
+          "timestamp": 1705536000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "82141128"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "82141128"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Eye"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41433-023-02914-0",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2024-01-18T09:02:07Z",
+      "timestamp": 1705568527000
+    },
+    "page": "1246-1251",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Predicting systemic diseases in fundus images: systematic review of setting, reporting, bias, and models’ clinical availability in deep learning studies"
+    ],
+    "prefix": "10.1038",
+    "volume": "38",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4432-2936",
+        "authenticated-orcid": false,
+        "given": "Yitong",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruiheng",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0120-5756",
+        "authenticated-orcid": false,
+        "given": "Li",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuhan",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenda",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haotian",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Heyan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chuyao",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2386-0989",
+        "authenticated-orcid": false,
+        "given": "Wenbin",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2914_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1276",
+        "DOI": "10.1161/STROKEAHA.120.031886",
+        "volume": "52",
+        "author": "G Liew",
+        "year": "2021",
+        "unstructured": "Liew G, Gopinath B, White AJ, Burlutsky G, Yin Wong T, Mitchell P. Retinal vasculature fractal and stroke mortality. Stroke. 2021;52:1276–82.",
+        "journal-title": "Stroke"
+      },
+      {
+        "key": "2914_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.1016/j.preteyeres.2005.07.001",
+        "volume": "25",
+        "author": "N Patton",
+        "year": "2006",
+        "unstructured": "Patton N, Aslam TM, MacGillivray T, Deary IJ, Dhillon B, Eikelboom RH, et al. Retinal image analysis: concepts, applications and potential. Prog Retin Eye Res. 2006;25:99–127.",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "2914_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1103",
+        "DOI": "10.1007/s00125-021-05388-5",
+        "volume": "64",
+        "author": "RB Forster",
+        "year": "2021",
+        "unstructured": "Forster RB, Garcia ES, Sluiman AJ, Grecian SM, McLachlan S, MacGillivray TJ, et al. Retinal venular tortuosity and fractal dimension predict incident retinopathy in adults with type 2 diabetes: the Edinburgh Type 2 Diabetes Study. Diabetologia. 2021;64:1103–12.",
+        "journal-title": "Diabetologia"
+      },
+      {
+        "key": "2914_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1183",
+        "DOI": "10.1016/j.ophtha.2003.09.039",
+        "volume": "111",
+        "author": "TY Wong",
+        "year": "2004",
+        "unstructured": "Wong TY, Knudtson MD, Klein R, Klein BE, Meuer SM, Hubbard LD. Computer-assisted measurement of retinal vessel diameters in the Beaver Dam Eye Study: methodology, correlation between eyes, and effect of refractive errors. Ophthalmology. 2004;111:1183–90.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2914_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "405",
+        "DOI": "10.1161/HYPERTENSIONAHA.109.133819",
+        "volume": "54",
+        "author": "S Thom",
+        "year": "2009",
+        "unstructured": "Thom S, Stettler C, Stanton A, Witt N, Tapp R, Chaturvedi N, et al. Differential effects of antihypertensive treatment on the retinal microcirculation: an anglo-scandinavian cardiac outcomes trial substudy. Hypertension. 2009;54:405–8.",
+        "journal-title": "Hypertension"
+      },
+      {
+        "key": "2914_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1499",
+        "DOI": "10.1007/s11357-020-00252-7",
+        "volume": "42",
+        "author": "C Czakó",
+        "year": "2020",
+        "unstructured": "Czakó C, Kovács T, Ungvari Z, Csiszar A, Yabluchanskiy A, Conley S, et al. Retinal biomarkers for Alzheimer’s disease and vascular cognitive impairment and dementia (VCID): implication for early diagnosis and prognosis. Geroscience. 2020;42:1499–525.",
+        "journal-title": "Geroscience"
+      },
+      {
+        "key": "2914_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "47a",
+        "DOI": "10.1016/S0161-6420(83)80032-3",
+        "volume": "90",
+        "author": "L Gamble",
+        "year": "1983",
+        "unstructured": "Gamble L, Mash AJ, Burdan T, Ruiz RS, Spivey BE. Ophthalmology (eye physician and surgeon) manpower studies for the United States. Part IV: Ophthalmology manpower distribution 1983. Ophthalmology. 1983;90:47a–64a.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2914_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1374",
+        "DOI": "10.21037/atm-20-2939",
+        "volume": "8",
+        "author": "M Yuan",
+        "year": "2020",
+        "unstructured": "Yuan M, Chen W, Wang T, Song Y, Zhu Y, Chen C, et al. Exploring the growth patterns of medical demand for eye care: a longitudinal hospital-level study over 10 years in China. Ann Transl Med. 2020;8:1374.",
+        "journal-title": "Ann Transl Med"
+      },
+      {
+        "key": "2914_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1157",
+        "DOI": "10.1164/rccm.201212-2311ED",
+        "volume": "187",
+        "author": "LA Celi",
+        "year": "2013",
+        "unstructured": "Celi LA, Mark RG, Stone DJ, Montgomery RA. “Big data” in the intensive care unit. Closing data loop. Am J Respir Crit Care Med. 2013;187:1157–60.",
+        "journal-title": "Am J Respir Crit Care Med"
+      },
+      {
+        "key": "2914_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "e489",
+        "DOI": "10.1016/S2589-7500(20)30186-2",
+        "volume": "2",
+        "author": "J Futoma",
+        "year": "2020",
+        "unstructured": "Futoma J, Simons M, Panch T, Doshi-Velez F, Celi LA. The myth of generalisability in clinical research and machine learning in health care. Lancet Digit Health. 2020;2:e489–e492.",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2914_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "101905",
+        "DOI": "10.1016/j.media.2020.101905",
+        "volume": "68",
+        "author": "MRK Mookiah",
+        "year": "2021",
+        "unstructured": "Mookiah MRK, Hogg S, MacGillivray TJ, Prathiba V, Pradeepa R, Mohan V, et al. A review of machine learning methods for retinal blood vessel segmentation and artery/vein classification. Med Image Anal. 2021;68:101905.",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "2914_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "3797",
+        "DOI": "10.1007/s00330-021-07892-z",
+        "volume": "31",
+        "author": "KG van Leeuwen",
+        "year": "2021",
+        "unstructured": "van Leeuwen KG, Schalekamp S, Rutten M, van Ginneken B, de Rooij M. Artificial intelligence in radiology: 100 commercially available products and their scientific evidence. Eur Radio. 2021;31:3797–804.",
+        "journal-title": "Eur Radio"
+      },
+      {
+        "key": "2914_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Auffermann WF, Gozansky EK, Tridandapani S. Artificial intelligence in cardiothoracic radiology. AJR Am J Roentgenol 2019;212:997–1001.",
+        "DOI": "10.2214/AJR.18.20771"
+      },
+      {
+        "key": "2914_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "e466",
+        "DOI": "10.1016/S2589-7500(22)00023-1",
+        "volume": "4",
+        "author": "OT Jones",
+        "year": "2022",
+        "unstructured": "Jones OT, Matin RN, van der Schaar M, Prathivadi Bhayankaram K, Ranmuthu CKI, Islam MS, et al. Artificial intelligence and machine learning algorithms for early detection of skin cancer in community and primary care settings: a systematic review. Lancet Digit Health. 2022;4:e466–e476.",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2914_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1913436",
+        "DOI": "10.1001/jamanetworkopen.2019.13436",
+        "volume": "2",
+        "author": "M Phillips",
+        "year": "2019",
+        "unstructured": "Phillips M, Marsden H, Jaffe W, Matin RN, Wali GN, Greenhalgh J, et al. Assessment of accuracy of an artificial intelligence algorithm to detect melanoma in images of skin lesions. JAMA Netw Open. 2019;2:e1913436.",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "2914_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2351",
+        "DOI": "10.1016/S0140-6736(18)32209-8",
+        "volume": "392",
+        "author": "J Nabi",
+        "year": "2018",
+        "unstructured": "Nabi J. Artificial intelligence can augment global pathology initiatives. Lancet. 2018;392:2351–2.",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "2914_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "703",
+        "DOI": "10.1038/s41571-019-0252-y",
+        "volume": "16",
+        "author": "K Bera",
+        "year": "2019",
+        "unstructured": "Bera K, Schalper KA, Rimm DL, Velcheti V, Madabhushi A. Artificial intelligence in digital pathology - new tools for diagnosis and precision oncology. Nat Rev Clin Oncol. 2019;16:703–15.",
+        "journal-title": "Nat Rev Clin Oncol"
+      },
+      {
+        "key": "2914_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1136/bjophthalmol-2019-315651",
+        "volume": "105",
+        "author": "DSJ Ting",
+        "year": "2021",
+        "unstructured": "Ting DSJ, Foo VH, Yang LWY, Sia JT, Ang M, Lin H, et al. Artificial intelligence for anterior segment diseases: Emerging applications in ophthalmology. Br J Ophthalmol. 2021;105:158–68.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "2914_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "g7594",
+        "DOI": "10.1136/bmj.g7594",
+        "volume": "350",
+        "author": "GS Collins",
+        "year": "2015",
+        "unstructured": "Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement. BMJ. 2015;350:g7594.",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "2914_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "W1",
+        "DOI": "10.7326/M14-0698",
+        "volume": "162",
+        "author": "KG Moons",
+        "year": "2015",
+        "unstructured": "Moons KG, Altman DG, Reitsma JB, Ioannidis JP, Macaskill P, Steyerberg EW, et al. Transparent Reporting of a multivariable prediction model for Individual Prognosis or Diagnosis (TRIPOD): explanation and elaboration. Ann Intern Med. 2015;162:W1–73.",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2914_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "m689",
+        "DOI": "10.1136/bmj.m689",
+        "volume": "368",
+        "author": "M Nagendran",
+        "year": "2020",
+        "unstructured": "Nagendran M, Chen Y, Lovejoy CA, Gordon AC, Komorowski M, Harvey H, et al. Artificial intelligence versus clinicians: systematic review of design, reporting standards, and claims of deep learning studies. BMJ. 2020;368:m689.",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "2914_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "102410",
+        "DOI": "10.1016/j.ctrv.2022.102410",
+        "volume": "108",
+        "author": "C Corti",
+        "year": "2022",
+        "unstructured": "Corti C, Cobanaj M, Marian F, Dee EC, Lloyd MR, Marcu S, et al. Artificial intelligence for prediction of treatment outcomes in breast cancer: systematic review of design, reporting standards, and bias. Cancer Treat Rev. 2022;108:102410.",
+        "journal-title": "Cancer Treat Rev"
+      },
+      {
+        "key": "2914_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.7326/M18-1376",
+        "volume": "170",
+        "author": "RF Wolff",
+        "year": "2019",
+        "unstructured": "Wolff RF, Moons KGM, Riley RD, Whiting PF, Westwood M, Collins GS, et al. PROBAST: a tool to assess the risk of bias and applicability of prediction model studies. Ann Intern Med. 2019;170:51–58.",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2914_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "W1",
+        "DOI": "10.7326/M18-1377",
+        "volume": "170",
+        "author": "KGM Moons",
+        "year": "2019",
+        "unstructured": "Moons KGM, Wolff RF, Riley RD, Whiting PF, Westwood M, Collins GS, et al. PROBAST: a tool to assess risk of bias and applicability of prediction model studies: explanation and elaboration. Ann Intern Med. 2019;170:W1–w33.",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2914_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "343",
+        "DOI": "10.1016/j.bja.2021.09.025",
+        "volume": "128",
+        "author": "J Gallifant",
+        "year": "2022",
+        "unstructured": "Gallifant J, Zhang J, Del Pilar Arias Lopez M, Zhu T, Camporota L, Celi LA, et al. Artificial intelligence for mechanical ventilation: systematic review of design, reporting standards, and bias. Br J Anaesth. 2022;128:343–51.",
+        "journal-title": "Br J Anaesth"
+      },
+      {
+        "key": "2914_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1168",
+        "DOI": "10.2337/dc20-1877",
+        "volume": "44",
+        "author": "AY Lee",
+        "year": "2021",
+        "unstructured": "Lee AY, Yanagihara RT, Lee CS, Blazes M, Jung HC, Chee YE, et al. Multicenter, head-to-head, real-world validation study of seven automated artificial intelligence diabetic retinopathy screening systems. Diabetes Care. 2021;44:1168–75.",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2914_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1212",
+        "DOI": "10.1001/jama.2020.12067",
+        "volume": "324",
+        "author": "A Kaushal",
+        "year": "2020",
+        "unstructured": "Kaushal A, Altman R, Langlotz C. Geographic distribution of US cohorts used to train deep learning algorithms. JAMA. 2020;324:1212–3.",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2914_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.1016/j.neunet.2014.09.003",
+        "volume": "61",
+        "author": "J Schmidhuber",
+        "year": "2015",
+        "unstructured": "Schmidhuber J. Deep learning in neural networks: an overview. Neural Netw. 2015;61:85–117.",
+        "journal-title": "Neural Netw"
+      },
+      {
+        "key": "2914_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "2131",
+        "DOI": "10.1016/j.jacc.2016.03.479",
+        "volume": "67",
+        "author": "MJ Blaha",
+        "year": "2016",
+        "unstructured": "Blaha MJ. The critical importance of risk score calibration: time for transformative approach to risk score validation? J Am Coll Cardiol. 2016;67:2131–4.",
+        "journal-title": "J Am Coll Cardiol"
+      },
+      {
+        "key": "2914_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "632",
+        "DOI": "10.1093/eurheartj/ehy726",
+        "volume": "40",
+        "author": "JA Laukkanen",
+        "year": "2019",
+        "unstructured": "Laukkanen JA, Kunutsor SK. Is ‘re-calibration’ of standard cardiovascular disease (CVD) risk algorithms the panacea to improved CVD risk prediction and prevention? Eur Heart J. 2019;40:632–4.",
+        "journal-title": "Eur Heart J"
+      }
+    ],
+    "container-title": [
+      "Eye"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41433-023-02914-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41433-023-02914-0",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41433-023-02914-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ],
+      "date-time": "2024-05-07T06:08:33Z",
+      "timestamp": 1715062113000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41433-023-02914-0"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2914"
+    ],
+    "URL": "https://doi.org/10.1038/s41433-023-02914-0",
+    "relation": {},
+    "ISSN": [
+      "0950-222X",
+      "1476-5454"
+    ],
+    "issn-type": [
+      {
+        "value": "0950-222X",
+        "type": "print"
+      },
+      {
+        "value": "1476-5454",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "28 February 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 November 2023",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "20 December 2023",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "18 January 2024",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

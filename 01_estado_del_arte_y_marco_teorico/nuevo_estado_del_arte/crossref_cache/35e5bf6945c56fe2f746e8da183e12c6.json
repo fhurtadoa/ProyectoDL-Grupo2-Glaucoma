@@ -1,0 +1,641 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2026-10-30T18:31:50Z",
+      "timestamp": 1793385110056,
+      "version": "4.5.0"
+    },
+    "reference-count": 21,
+    "publisher": "Elsevier BV",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2026-09-01T00:00:00Z",
+          "timestamp": 1788220800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2026-09-01T00:00:00Z",
+          "timestamp": 1788220800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2026-09-25T00:00:00Z",
+          "timestamp": 1790294400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 24,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100013129",
+        "name": "Ministry of SMEs and Startups",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100013129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003710",
+        "name": "Korea Health Industry Development Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003710",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Asia-Pacific Journal of Ophthalmology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.apjo.2026.100379",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T15:09:57Z",
+      "timestamp": 1790348997000
+    },
+    "page": "100379",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A multi-label deep learning system for simultaneous detection of nine fundus conditions"
+    ],
+    "prefix": "10.1016",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-2048-9947",
+        "authenticated-orcid": false,
+        "given": "Jungwoo",
+        "family": "Ha",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-2443-080X",
+        "authenticated-orcid": false,
+        "given": "Yeon Hee",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-5299-8484",
+        "authenticated-orcid": false,
+        "given": "Danbi",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junseo",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wonyoung",
+        "family": "Seo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geunyoung",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dongjin",
+        "family": "Nam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7948-6992",
+        "authenticated-orcid": false,
+        "given": "Sahil",
+        "family": "Thakur",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0890-8614",
+        "authenticated-orcid": false,
+        "given": "Tae Keun",
+        "family": "Yoo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-5142-8334",
+        "authenticated-orcid": false,
+        "given": "Sunjin",
+        "family": "Hwang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "11",
+        "key": "10.1016/j.apjo.2026.100379_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1580",
+        "DOI": "10.1016/j.ophtha.2021.04.027",
+        "article-title": "Global prevalence of diabetic retinopathy and projection of burden through 2045: systematic review and meta-analysis",
+        "volume": "128",
+        "author": "Teo",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.apjo.2026.100379_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e106",
+        "DOI": "10.1016/S2214-109X(13)70145-1",
+        "article-title": "Global prevalence of age-related macular degeneration and disease burden projection for 2020 and 2040: a systematic review and meta-analysis",
+        "volume": "2",
+        "author": "Wong",
+        "year": "2014",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.apjo.2026.100379_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.apjo.2026.100379_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1016/j.ophtha.2016.01.006",
+        "article-title": "Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050",
+        "volume": "123",
+        "author": "Holden",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.apjo.2026.100379_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "394",
+        "DOI": "10.1097/APO.0000000000000234",
+        "article-title": "Epidemiology of pathologic myopia in Asia and worldwide",
+        "volume": "5",
+        "author": "Wong",
+        "year": "2016",
+        "journal-title": "Asia Pac J Ophthalmol (Phila)"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.apjo.2026.100379_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e489",
+        "DOI": "10.1016/S2214-109X(20)30488-5",
+        "article-title": "The Lancet Global Health Commission on Global Eye Health: vision beyond 2020",
+        "volume": "9",
+        "author": "Burton",
+        "year": "2021",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.apjo.2026.100379_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "783",
+        "DOI": "10.1136/bjophthalmol-2011-301378",
+        "article-title": "The number of ophthalmologists in practice and training worldwide: a growing gap despite more than 200 000 practitioners",
+        "volume": "96",
+        "author": "Resnikoff",
+        "year": "2012",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.apjo.2026.100379_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.apjo.2026.100379_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.apjo.2026.100379_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.apjo.2026.100379_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4828",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "10.1016/j.apjo.2026.100379_bib12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/bmj-2023-078378",
+        "article-title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+        "volume": "385",
+        "author": "Collins",
+        "year": "2024",
+        "journal-title": "BMJ"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.apjo.2026.100379_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1016/j.ophtha.2012.10.036",
+        "article-title": "Clinical classification of age-related macular degeneration",
+        "volume": "120",
+        "author": "Ferris",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.apjo.2026.100379_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "877",
+        "DOI": "10.1016/j.ajo.2015.01.022",
+        "article-title": "International photographic classification and grading system for myopic maculopathy",
+        "volume": "159",
+        "author": "Ohno-Matsui",
+        "year": "2015",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.apjo.2026.100379_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.apjo.2026.100379_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "article-title": "Clinically applicable deep learning for diagnosis and referral in retinal disease",
+        "volume": "24",
+        "author": "De Fauw",
+        "year": "2018",
+        "journal-title": "Nat Med"
+      },
+      {
+        "issue": "7981",
+        "key": "10.1016/j.apjo.2026.100379_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.apjo.2026.100379_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1038/sj.eye.6701797",
+        "article-title": "Angle-closure glaucoma in East Asian and European people. Different diseases?",
+        "volume": "20",
+        "author": "He",
+        "year": "2006",
+        "journal-title": "Eye (Lond)"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.apjo.2026.100379_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1186/s12916-019-1466-7",
+        "article-title": "Topic Group 'Evaluating diagnostic tests and prediction models' of the STRATOS Initiative. Calibration: the Achilles heel of predictive analytics",
+        "volume": "17",
+        "author": "Van Calster",
+        "year": "2019",
+        "journal-title": "BMC Med"
+      },
+      {
+        "key": "10.1016/j.apjo.2026.100379_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.apjo.2026.100333",
+        "article-title": "Does lens opacity matter? The effect of cataract on deep learning based cardiovascular disease risk scores from fundus photos",
+        "author": "Lee",
+        "year": "2026",
+        "journal-title": "Asia Pac J Ophthalmol (Phila)"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.apjo.2026.100379_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jcjo.2025.07.008",
+        "article-title": "Quantifying the repeatability and reproducibility of Dr. Noon CVD, AI software as medical device for cardiovascular risk assessment via retinal imaging",
+        "volume": "61",
+        "author": "Hong",
+        "year": "2026",
+        "journal-title": "Can J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Asia-Pacific Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2162098926001052?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2162098926001052?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2026-10-30T17:51:01Z",
+      "timestamp": 1793382661000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2162098926001052"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "references-count": 21,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2162098926001052"
+    ],
+    "URL": "https://doi.org/10.1016/j.apjo.2026.100379",
+    "relation": {},
+    "ISSN": [
+      "2162-0989"
+    ],
+    "issn-type": [
+      {
+        "value": "2162-0989",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A multi-label deep learning system for simultaneous detection of nine fundus conditions",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Asia-Pacific Journal of Ophthalmology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.apjo.2026.100379",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 The Authors. Published by Elsevier Inc. on behalf of Asia-Pacific Academy of Ophthalmology and Academy of Asia-Pacific Professors of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100379"
+  }
+}

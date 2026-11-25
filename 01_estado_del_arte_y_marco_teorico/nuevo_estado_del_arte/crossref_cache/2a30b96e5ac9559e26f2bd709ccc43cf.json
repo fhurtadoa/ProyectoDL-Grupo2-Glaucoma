@@ -1,0 +1,681 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ],
+      "date-time": "2026-05-19T14:10:25Z",
+      "timestamp": 1779199825546,
+      "version": "3.51.4"
+    },
+    "reference-count": 49,
+    "publisher": "Association for Research in Vision and Ophthalmology (ARVO)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2026-05-19T00:00:00Z",
+          "timestamp": 1779148800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Trans. Vis. Sci. Tech."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.1167/tvst.15.5.14",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ],
+      "date-time": "2026-05-19T13:30:43Z",
+      "timestamp": 1779197443000
+    },
+    "page": "14",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "FunduSegmenter: Leveraging the RETFound Foundation Model for Joint Optic Disc and Optic Cup Segmentation in Retinal Fundus Images"
+    ],
+    "prefix": "10.1167",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Zhenyi",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "VAMPIRE Project, Computing, School of Science and Engineering, University of Dundee, Dundee, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Muthu Rama Krishnan",
+        "family": "Mookiah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VAMPIRE Project, Computing, School of Science and Engineering, University of Dundee, Dundee, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Emanuele",
+        "family": "Trucco",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VAMPIRE Project, Computing, School of Science and Engineering, University of Dundee, Dundee, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "27",
+    "reference": [
+      {
+        "key": "bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "105969",
+        "DOI": "10.1016/j.cmpb.2021.105969",
+        "article-title": "On the quantitative effects of compression of retinal fundus images on morphometric vascular measurements in VAMPIRE",
+        "volume": "202",
+        "author": "Mookiah",
+        "year": "2021",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "issue": "5",
+        "key": "bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "96",
+        "DOI": "10.1007/s10916-020-01561-2",
+        "article-title": "Optic disc and cup image segmentation utilizing contour-based transformation and sequence labeling networks",
+        "volume": "44",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "J Med Syst"
+      },
+      {
+        "key": "bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "105717",
+        "DOI": "10.1016/j.cmpb.2020.105717",
+        "article-title": "Optic disc and optic cup segmentation based on anatomy guided cascade network",
+        "volume": "197",
+        "author": "Bian",
+        "year": "2020",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "107036",
+        "DOI": "10.1016/j.compeleceng.2021.107036",
+        "article-title": "Screening of glaucoma disease from retinal vessel images using semantic segmentation",
+        "volume": "91",
+        "author": "Imtiaz",
+        "year": "2021",
+        "journal-title": "Comput Electr Eng"
+      },
+      {
+        "key": "bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "102253",
+        "DOI": "10.1016/j.media.2021.102253",
+        "article-title": "NENet: nested EfficientNet and adversarial learning for joint optic disc and cup segmentation",
+        "volume": "74",
+        "author": "Pachade",
+        "year": "2021",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "330",
+        "DOI": "10.1016/j.neucom.2021.08.102",
+        "article-title": "Deep level set learning for optic disc and cup segmentation",
+        "volume": "464",
+        "author": "Yin",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "3",
+        "key": "bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "847",
+        "DOI": "10.1007/s13246-022-01154-y",
+        "article-title": "Graph deep network for optic disc and optic cup segmentation for glaucoma disease using retinal imaging",
+        "volume": "45",
+        "author": "Joshi",
+        "year": "2022",
+        "journal-title": "Phys Eng Sci Med"
+      },
+      {
+        "key": "bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "108347",
+        "DOI": "10.1016/j.asoc.2021.108347",
+        "article-title": "End-to-end multi-task learning for simultaneous optic disc and cup segmentation and glaucoma classification in eye fundus images",
+        "volume": "116",
+        "author": "Hervella",
+        "year": "2022",
+        "journal-title": "Appl Soft Comput"
+      },
+      {
+        "issue": "1",
+        "key": "bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "108247",
+        "DOI": "10.1016/j.isci.2023.108247",
+        "article-title": "W-Net: a boundary-aware cascade network for robust and accurate optic disc segmentation",
+        "volume": "27",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "iScience"
+      },
+      {
+        "issue": "3",
+        "key": "bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.3390/data3030025",
+        "article-title": "Indian diabetic retinopathy image dataset (IDRiD): a database for diabetic retinopathy screening research",
+        "volume": "3",
+        "author": "Porwal",
+        "year": "2018",
+        "journal-title": "Data"
+      },
+      {
+        "issue": "1",
+        "key": "bib12",
+        "first-page": "1004",
+        "article-title": "A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis",
+        "volume": "2",
+        "author": "Sivaswamy",
+        "year": "2015",
+        "journal-title": "JSM Biomed Imaging Data Pap"
+      },
+      {
+        "key": "bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "issue": "7981",
+        "key": "bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "1",
+        "key": "bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.1038/s41746-024-01109-5",
+        "article-title": "RETFound–enhanced community-based fundus disease screening: real-world evidence and decision curve analysis",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "issue": "1",
+        "key": "bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "100623",
+        "DOI": "10.1016/j.xops.2024.100623",
+        "article-title": "Evaluating a foundation artificial intelligence model for glaucoma detection using color fundus photographs",
+        "volume": "5",
+        "author": "Chuter",
+        "year": "2025",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "issue": "12",
+        "key": "bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1186",
+        "DOI": "10.3390/bioengineering11121186",
+        "article-title": "Detection of disease features on retinal OCT scans using RETFound",
+        "volume": "11",
+        "author": "Du",
+        "year": "2024",
+        "journal-title": "Bioengineering"
+      },
+      {
+        "issue": "12",
+        "key": "bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "4237",
+        "DOI": "10.1109/TMI.2020.3015224",
+        "article-title": "DoFE: domain-oriented feature embedding for generalizable fundus image segmentation on unseen datasets",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "4",
+        "key": "bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "100079",
+        "DOI": "10.1016/j.xops.2021.100079",
+        "article-title": "Deepfakes in ophthalmology: applications and realism of synthetic retinal images from generative adversarial networks",
+        "volume": "1",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "issue": "2",
+        "key": "bib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "100258",
+        "DOI": "10.1016/j.xops.2022.100258",
+        "article-title": "SynthEye: investigating the impact of synthetic data on artificial intelligence-assisted gene diagnosis of inherited retinal disease",
+        "volume": "3",
+        "author": "Veturi",
+        "year": "2023",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "issue": "10",
+        "key": "bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1341",
+        "DOI": "10.1136/bjo-2024-325459",
+        "article-title": "Foundation models in ophthalmology",
+        "volume": "108",
+        "author": "Chia",
+        "year": "2024",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "bib26",
+        "article-title": "BEiT: Bert pre-training of image transformers",
+        "author": "Bao",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "bib28",
+        "article-title": "Uniform masking: enabling mae pre-training for pyramid-based vision transformers with locality",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "issue": "2",
+        "key": "bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "380",
+        "DOI": "10.1093/ije/dyx140",
+        "article-title": "Cohort profile: genetics of diabetes audit and research in Tayside Scotland (GoDARTS)",
+        "volume": "47",
+        "author": "Hebert",
+        "year": "2018",
+        "journal-title": "Int J Epidemiol"
+      },
+      {
+        "issue": "2",
+        "key": "bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "203",
+        "DOI": "10.1038/s41592-020-01008-z",
+        "article-title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+        "volume": "18",
+        "author": "Isensee",
+        "year": "2021",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "issue": "3",
+        "key": "bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "3819",
+        "DOI": "10.1007/s40747-024-01359-6",
+        "article-title": "ViT-UperNet: a hybrid vision transformer with unified-perceptual-parsing network for medical image segmentation",
+        "volume": "10",
+        "author": "Ruiping",
+        "year": "2024",
+        "journal-title": "Complex Intell Syst"
+      },
+      {
+        "key": "bib44",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-SNE",
+        "volume": "9",
+        "author": "van der Maaten",
+        "year": "2008",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "bib46",
+        "first-page": "9543",
+        "article-title": "Glioma segmentation with a unified algorithm in multimodal MRI images",
+        "volume": "6",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "1",
+        "key": "bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "523",
+        "DOI": "10.1038/s42003-023-04836-9",
+        "article-title": "Fine-mapping of retinal vascular complexity loci identifies Notch regulation as a shared mechanism with myocardial infarction outcomes",
+        "volume": "6",
+        "author": "Villaplana-Velasco",
+        "year": "2023",
+        "journal-title": "Commun Biol"
+      },
+      {
+        "issue": "5",
+        "key": "bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "478",
+        "DOI": "10.1001/jamapsychiatry.2023.0171",
+        "article-title": "Association between retinal features from multimodal imaging and schizophrenia",
+        "volume": "80",
+        "author": "Wagner",
+        "year": "2023",
+        "journal-title": "JAMA Psychiatry"
+      },
+      {
+        "issue": "3",
+        "key": "bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "710",
+        "DOI": "10.2337/dc21-1124",
+        "article-title": "Prediction of major adverse cardiovascular events from retinal, clinical, and genomic data in individuals with type 2 diabetes: a population cohort study",
+        "volume": "45",
+        "author": "Mordi",
+        "year": "2022",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "bib10",
+        "first-page": "3391",
+        "article-title": "VAMPIRE: vessel assessment and measurement platform for images of the retina",
+        "volume-title": "Proceedings of the 2011 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "author": "Perez-Rovira",
+        "year": "2011"
+      },
+      {
+        "key": "bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/CBMS.2011.5999143",
+        "article-title": "RIM-ONE: an open retinal image database for optic nerve evaluation",
+        "volume-title": "Proceedings of the 2011 24th International Symposium on Computer-Based Medical Systems (CBMS)",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "bib20",
+        "first-page": "420",
+        "article-title": "Generalizable medical image segmentation via random amplitude mixup and domain-specific image restoration",
+        "volume-title": "European Conference on Computer Vision",
+        "author": "Zhou",
+        "year": "2022"
+      },
+      {
+        "key": "bib21",
+        "first-page": "12548",
+        "article-title": "TVConv: efficient translation variant convolution for layout-aware visual processing",
+        "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Chen",
+        "year": "2022"
+      },
+      {
+        "key": "bib25",
+        "first-page": "16000",
+        "article-title": "Masked autoencoders are scalable vision learners",
+        "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "He",
+        "year": "2022"
+      },
+      {
+        "key": "bib27",
+        "first-page": "9653",
+        "article-title": "SimMIM: a simple framework for masked image modeling",
+        "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Xie",
+        "year": "2022"
+      },
+      {
+        "key": "bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1109/CVPR.2009.5206848",
+        "article-title": "ImageNet: a large-scale hierarchical image database",
+        "volume-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "Deng",
+        "year": "2009"
+      },
+      {
+        "key": "bib30",
+        "first-page": "7262",
+        "article-title": "Segmenter: transformer for semantic segmentation",
+        "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+        "author": "Strudel",
+        "year": "2021"
+      },
+      {
+        "key": "bib31",
+        "first-page": "3",
+        "article-title": "CBAM: convolutional block attention module",
+        "volume-title": "Proceedings of the European Conference on Computer Vision (ECCV)",
+        "author": "Woo",
+        "year": "2018"
+      },
+      {
+        "key": "bib34",
+        "author": "Chen",
+        "year": "2021"
+      },
+      {
+        "key": "bib36",
+        "first-page": "79",
+        "article-title": "Self-supervised learning to more efficiently generate segmentation masks for wrist ultrasound",
+        "volume-title": "International Workshop on Advances in Simplifying Medical Ultrasound",
+        "author": "Zhou",
+        "year": "2023"
+      },
+      {
+        "key": "bib37",
+        "first-page": "5186",
+        "article-title": "Revisiting MAE pre-training for 3D medical image segmentation",
+        "volume-title": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+        "author": "Wald",
+        "year": "2025"
+      },
+      {
+        "key": "bib38",
+        "first-page": "418",
+        "article-title": "Unified perceptual parsing for scene understanding",
+        "volume-title": "Proceedings of the European Conference on Computer Vision (ECCV)",
+        "author": "Xiao",
+        "year": "2018"
+      },
+      {
+        "key": "bib39",
+        "first-page": "6881",
+        "article-title": "Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers",
+        "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Zheng",
+        "year": "2021"
+      },
+      {
+        "key": "bib40",
+        "author": "Dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "key": "bib41",
+        "first-page": "4510",
+        "article-title": "MobileNetV2: inverted residuals and linear bottlenecks",
+        "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "Sandler",
+        "year": "2018"
+      },
+      {
+        "key": "bib42",
+        "author": "Cardoso",
+        "year": "2022"
+      },
+      {
+        "key": "bib43",
+        "author": "Zhang",
+        "year": "2019"
+      },
+      {
+        "key": "bib45",
+        "author": "Simonyan",
+        "year": "2015"
+      }
+    ],
+    "container-title": [
+      "Translational Vision Science &amp; Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://tvst.arvojournals.org/article.aspx?doi=10.1167/tvst.15.5.14",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ],
+      "date-time": "2026-05-19T13:30:46Z",
+      "timestamp": 1779197446000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://tvst.arvojournals.org/article.aspx?doi=10.1167/tvst.15.5.14"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ]
+    },
+    "references-count": 49,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1167/tvst.15.5.14",
+    "relation": {},
+    "ISSN": [
+      "2164-2591"
+    ],
+    "issn-type": [
+      {
+        "value": "2164-2591",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ]
+    }
+  }
+}

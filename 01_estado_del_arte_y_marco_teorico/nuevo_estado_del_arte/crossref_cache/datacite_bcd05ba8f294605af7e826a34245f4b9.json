@@ -1,0 +1,201 @@
+{
+  "data": {
+    "id": "10.13026/xcxw-8198",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.13026/xcxw-8198",
+      "prefix": "10.13026",
+      "suffix": "xcxw-8198",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Nakayama, Luis Filipe",
+          "givenName": "Luis Filipe",
+          "familyName": "Nakayama",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org/",
+              "nameIdentifier": "https://orcid.org/0000-0002-6847-6748",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Goncalves, Mariana",
+          "givenName": "Mariana",
+          "familyName": "Goncalves",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Zago Ribeiro, Lucas",
+          "givenName": "Lucas",
+          "familyName": "Zago Ribeiro",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Santos, Helen",
+          "givenName": "Helen",
+          "familyName": "Santos",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Ferraz, Daniel",
+          "givenName": "Daniel",
+          "familyName": "Ferraz",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Malerbi, Fernando",
+          "givenName": "Fernando",
+          "familyName": "Malerbi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Celi, Leo Anthony",
+          "givenName": "Leo Anthony",
+          "familyName": "Celi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Regatieri, Caio",
+          "givenName": "Caio",
+          "familyName": "Regatieri",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "A Brazilian Multilabel Ophthalmological Dataset (BRSET)"
+        }
+      ],
+      "publisher": "PhysioNet",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [],
+      "contributors": [],
+      "dates": [],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.13026/z9zv-g542",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1.0.0",
+      "rightsList": [],
+      "descriptions": [
+        {
+          "description": "The Brazilian Multilabel Ophthalmological Dataset (BRSET) is a multi-labeled\nophthalmological dataset designed to improve scientific community development\nand validate machine learning models. In ophthalmology, ancillary exams\nsupport medical decisions and can be used to develop algorithms; however, the\navailability and representativeness of ophthalmological datasets are limited.\nThis dataset consists of 16,266 images from 8,524 Brazilian patients.\nDemographics, macula, optic disc, and vessels anatomical parameters, focus,\nillumination, image field, and artifacts as quality control, and multi-labels\nare included alongside color fundus retinal photos. This dataset enables\ncomputer vision models to predict demographic characteristics and multi-label\ndisease classification using retinal fundus photos.\n\n",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTMwMjYvWENYVy04MTk4PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+TmFrYXlhbWEsIEx1aXMgRmlsaXBlPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5MdWlzIEZpbGlwZTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5OYWtheWFtYTwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwczovL29yY2lkLm9yZy8iPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMi02ODQ3LTY3NDg8L25hbWVJZGVudGlmaWVyPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5Hb25jYWx2ZXMsIE1hcmlhbmE8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1hcmlhbmE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+R29uY2FsdmVzPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5aYWdvIFJpYmVpcm8sIEx1Y2FzPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5MdWNhczwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5aYWdvIFJpYmVpcm88L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlNhbnRvcywgSGVsZW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhlbGVuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlNhbnRvczwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RmVycmF6LCBEYW5pZWw8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkRhbmllbDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5GZXJyYXo8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPk1hbGVyYmksIEZlcm5hbmRvPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5GZXJuYW5kbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5NYWxlcmJpPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5DZWxpLCBMZW8gQW50aG9ueTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TGVvIEFudGhvbnk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2VsaTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+UmVnYXRpZXJpLCBDYWlvPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5DYWlvPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlJlZ2F0aWVyaTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+QSBCcmF6aWxpYW4gTXVsdGlsYWJlbCBPcGh0aGFsbW9sb2dpY2FsIERhdGFzZXQgKEJSU0VUKTwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5QaHlzaW9OZXQ8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjM8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiLz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzVmVyc2lvbk9mIj4xMC4xMzAyNi96OXp2LWc1NDI8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uPjEuMC4wPC92ZXJzaW9uPgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+VGhlIEJyYXppbGlhbiBNdWx0aWxhYmVsIE9waHRoYWxtb2xvZ2ljYWwgRGF0YXNldCAoQlJTRVQpIGlzIGEgbXVsdGktbGFiZWxlZApvcGh0aGFsbW9sb2dpY2FsIGRhdGFzZXQgZGVzaWduZWQgdG8gaW1wcm92ZSBzY2llbnRpZmljIGNvbW11bml0eSBkZXZlbG9wbWVudAphbmQgdmFsaWRhdGUgbWFjaGluZSBsZWFybmluZyBtb2RlbHMuIEluIG9waHRoYWxtb2xvZ3ksIGFuY2lsbGFyeSBleGFtcwpzdXBwb3J0IG1lZGljYWwgZGVjaXNpb25zIGFuZCBjYW4gYmUgdXNlZCB0byBkZXZlbG9wIGFsZ29yaXRobXM7IGhvd2V2ZXIsIHRoZQphdmFpbGFiaWxpdHkgYW5kIHJlcHJlc2VudGF0aXZlbmVzcyBvZiBvcGh0aGFsbW9sb2dpY2FsIGRhdGFzZXRzIGFyZSBsaW1pdGVkLgpUaGlzIGRhdGFzZXQgY29uc2lzdHMgb2YgMTYsMjY2IGltYWdlcyBmcm9tIDgsNTI0IEJyYXppbGlhbiBwYXRpZW50cy4KRGVtb2dyYXBoaWNzLCBtYWN1bGEsIG9wdGljIGRpc2MsIGFuZCB2ZXNzZWxzIGFuYXRvbWljYWwgcGFyYW1ldGVycywgZm9jdXMsCmlsbHVtaW5hdGlvbiwgaW1hZ2UgZmllbGQsIGFuZCBhcnRpZmFjdHMgYXMgcXVhbGl0eSBjb250cm9sLCBhbmQgbXVsdGktbGFiZWxzCmFyZSBpbmNsdWRlZCBhbG9uZ3NpZGUgY29sb3IgZnVuZHVzIHJldGluYWwgcGhvdG9zLiBUaGlzIGRhdGFzZXQgZW5hYmxlcwpjb21wdXRlciB2aXNpb24gbW9kZWxzIHRvIHByZWRpY3QgZGVtb2dyYXBoaWMgY2hhcmFjdGVyaXN0aWNzIGFuZCBtdWx0aS1sYWJlbApkaXNlYXNlIGNsYXNzaWZpY2F0aW9uIHVzaW5nIHJldGluYWwgZnVuZHVzIHBob3Rvcy4KCjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+      "url": "https://physionet.org/content/brazilian-ophthalmological/1.0.0/",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 2,
+      "citationsOverTime": [
+        {
+          "year": "2024",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 1,
+      "created": "2023-01-24T19:43:59.000Z",
+      "registered": "2023-03-08T21:48:50.000Z",
+      "published": "2023",
+      "updated": "2024-11-26T08:55:24.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "mit.physio",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "mit",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.13026/xcxw-8198",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1088/1361-6579/aea2ee",
+            "type": "dois"
+          },
+          {
+            "id": "10.1101/2024.07.11.24310293",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": [
+          {
+            "id": "10.13026/z9zv-g542",
+            "type": "dois"
+          }
+        ]
+      }
+    }
+  }
+}

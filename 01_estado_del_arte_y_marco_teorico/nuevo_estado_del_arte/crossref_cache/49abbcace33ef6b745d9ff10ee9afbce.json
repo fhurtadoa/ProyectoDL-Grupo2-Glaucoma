@@ -1,0 +1,749 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2026-10-29T00:46:43Z",
+      "timestamp": 1793234803711,
+      "version": "4.5.0"
+    },
+    "reference-count": 45,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2023-07-17T00:00:00Z",
+          "timestamp": 1689552000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2023-07-17T00:00:00Z",
+          "timestamp": 1689552000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Independent validation studies of automatic diabetic retinopathy screening systems have recently shown a drop of screening performance on external data. Beyond diabetic retinopathy, this study investigates the generalizability of deep learning (DL) algorithms for screening various ocular anomalies in fundus photographs, across heterogeneous populations and imaging protocols\n                    <jats:bold>.</jats:bold>\n                    The following datasets are considered: OPHDIAT (France, diabetic population), OphtaMaine (France, general population), RIADD (India, general population) and ODIR (China, general population). Two multi-disease DL algorithms were developed: a Single-Dataset (SD) network, trained on the largest dataset (OPHDIAT), and a Multiple-Dataset (MD) network, trained on multiple datasets simultaneously. To assess their generalizability, both algorithms were evaluated whenever training and test data originate from overlapping datasets or from disjoint datasets. The SD network achieved a mean per-disease area under the receiver operating characteristic curve (mAUC) of 0.9571 on OPHDIAT. However, it generalized poorly to the other three datasets (mAUC &lt; 0.9). When all four datasets were involved in training, the MD network significantly outperformed the SD network (\n                    <jats:italic>p</jats:italic>\n                     = 0.0058), indicating improved generality. However, in leave-one-dataset-out experiments, performance of the MD network was significantly lower on populations unseen during training than on populations involved in training (\n                    <jats:italic>p</jats:italic>\n                     &lt; 0.0001), indicating imperfect generalizability.\n                  </jats:p>",
+    "DOI": "10.1038/s41598-023-38610-y",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2023-07-17T05:01:56Z",
+      "timestamp": 1689570116000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Towards population-independent, multi-disease detection in fundus photographs"
+    ],
+    "prefix": "10.1038",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Sarah",
+        "family": "Matta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mathieu",
+        "family": "Lamard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pierre-Henri",
+        "family": "Conze",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexandre",
+        "family": "Le Guilcher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clément",
+        "family": "Lecat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Romuald",
+        "family": "Carette",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fabien",
+        "family": "Basset",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pascale",
+        "family": "Massin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jean-Bernard",
+        "family": "Rottier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Béatrice",
+        "family": "Cochener",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gwenolé",
+        "family": "Quellec",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "38610_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan, V. et al. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA 316, 2402–2410 (2016).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "38610_CR2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-018-0076-7",
+        "volume": "2",
+        "author": "P Ruamviboonsuk",
+        "year": "2019",
+        "unstructured": "Ruamviboonsuk, P. et al. Deep learning versus human graders for classifying diabetic retinopathy severity in a nationwide screening program. Npj Digit. Med. 2, 1–9 (2019).",
+        "journal-title": "Npj Digit. Med."
+      },
+      {
+        "key": "38610_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "227",
+        "DOI": "10.1016/j.diabet.2007.12.006",
+        "volume": "34",
+        "author": "P Massin",
+        "year": "2008",
+        "unstructured": "Massin, P. et al. OPHDIAT©: A telemedical network screening system for diabetic retinopathy in the Île-de-France. Diabetes Metab. 34, 227–234 (2008).",
+        "journal-title": "Diabetes Metab."
+      },
+      {
+        "key": "38610_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "509",
+        "DOI": "10.1177/193229680900300315",
+        "volume": "3",
+        "author": "J Cuadros",
+        "year": "2009",
+        "unstructured": "Cuadros, J. & Bresnick, G. EyePACS: an adaptable telemedicine system for diabetic retinopathy screening. J. Diabetes Sci. Technol. 3, 509–516 (2009).",
+        "journal-title": "J. Diabetes Sci. Technol."
+      },
+      {
+        "key": "38610_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "unstructured": "Ting, D. S. W. et al. Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes. JAMA 318, 2211–2223 (2017).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "38610_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "volume": "1",
+        "author": "MD Abràmoff",
+        "year": "2018",
+        "unstructured": "Abràmoff, M. D., Lavin, P. T., Birch, M., Shah, N. & Folk, J. C. Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices. Npj Digit. Med. 1, 1–8 (2018).",
+        "journal-title": "Npj Digit. Med."
+      },
+      {
+        "key": "38610_CR7",
+        "first-page": "9",
+        "volume": "243",
+        "author": "TY Wong",
+        "year": "2020",
+        "unstructured": "Wong, T. Y. & Sabanayagam, C. Strategies to tackle the global burden of diabetic retinopathy: from epidemiology to artificial intelligence. Ophthalmol. J. Int. Ophtalmol. Int. J. Ophthalmol. Z. Augenheilkd. 243, 9–20 (2020).",
+        "journal-title": "Ophthalmol. J. Int. Ophtalmol. Int. J. Ophthalmol. Z. Augenheilkd."
+      },
+      {
+        "key": "38610_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "volume": "57",
+        "author": "MD Abràmoff",
+        "year": "2016",
+        "unstructured": "Abràmoff, M. D. et al. Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning. Investig. Ophthalmol. Vis. Sci. 57, 5200–5206 (2016).",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "38610_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "2509",
+        "DOI": "10.2337/dc18-0147",
+        "volume": "41",
+        "author": "Z Li",
+        "year": "2018",
+        "unstructured": "Li, Z. et al. An automated grading system for detection of vision-threatening referable diabetic retinopathy on the basis of color fundus photographs. Diabetes Care 41, 2509–2516 (2018).",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "38610_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "volume": "124",
+        "author": "R Gargeya",
+        "year": "2017",
+        "unstructured": "Gargeya, R. & Leng, T. Automated identification of diabetic retinopathy using deep learning. Ophthalmology 124, 962–969 (2017).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "38610_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "723",
+        "DOI": "10.1136/bjophthalmol-2020-316594",
+        "volume": "105",
+        "author": "P Heydon",
+        "year": "2021",
+        "unstructured": "Heydon, P. et al. Prospective evaluation of an artificial intelligence-enabled algorithm for automated diabetic retinopathy screening of 30 000 patients. Br. J. Ophthalmol. 105, 723–728 (2021).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "38610_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "e001596",
+        "DOI": "10.1136/bmjdrc-2020-001596",
+        "volume": "8",
+        "author": "Y Zhang",
+        "year": "2020",
+        "unstructured": "Zhang, Y. et al. Artificial intelligence-enabled screening for diabetic retinopathy: a real-world, multicenter and prospective study. BMJ Open Diabetes Res. Care 8, e001596 (2020).",
+        "journal-title": "BMJ Open Diabetes Res. Care"
+      },
+      {
+        "key": "38610_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1168",
+        "DOI": "10.2337/dc20-1877",
+        "volume": "44",
+        "author": "AY Lee",
+        "year": "2021",
+        "unstructured": "Lee, A. Y. et al. Multicenter, head-to-head, real-world validation study of seven automated artificial intelligence diabetic retinopathy screening systems. Diabetes Care 44, 1168–1175 (2021).",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "38610_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "e94",
+        "DOI": "10.1111/aos.14193",
+        "volume": "98",
+        "author": "R Hemelings",
+        "year": "2020",
+        "unstructured": "Hemelings, R. et al. Accurate prediction of glaucoma from colour fundus images with a convolutional neural network that relies on active and transfer learning. Acta Ophthalmol. (Copenh.) 98, e94–e100 (2020).",
+        "journal-title": "Acta Ophthalmol. (Copenh.)"
+      },
+      {
+        "key": "38610_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "JI Orlando",
+        "year": "2020",
+        "unstructured": "Orlando, J. I. et al. Refuge challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs. Med. Image Anal. 59, 101570 (2020).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "38610_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Phasuk, S. et al. Automated glaucoma screening from retinal fundus image using deep learning. in 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 904–907 (IEEE, 2019).",
+        "DOI": "10.1109/EMBC.2019.8857136"
+      },
+      {
+        "key": "38610_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "volume": "8",
+        "author": "N Shibata",
+        "year": "2018",
+        "unstructured": "Shibata, N. et al. Development of a deep residual learning algorithm to screen for glaucoma from fundus photography. Sci. Rep. 8, 14665 (2018).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "38610_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1945",
+        "DOI": "10.1038/s41598-021-81554-4",
+        "volume": "11",
+        "author": "S Gheisari",
+        "year": "2021",
+        "unstructured": "Gheisari, S. et al. A combined convolutional and recurrent neural network for enhanced glaucoma detection. Sci. Rep. 11, 1945 (2021).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "38610_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "368",
+        "DOI": "10.1111/aos.14306",
+        "volume": "98",
+        "author": "C González-Gonzalo",
+        "year": "2020",
+        "unstructured": "González-Gonzalo, C. et al. Evaluation of a deep learning system for the joint automated detection of diabetic retinopathy and age-related macular degeneration. Acta Ophthalmol. (Copenh.) 98, 368–377 (2020).",
+        "journal-title": "Acta Ophthalmol. (Copenh.)"
+      },
+      {
+        "key": "38610_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1009",
+        "DOI": "10.1111/ceo.13575",
+        "volume": "47",
+        "author": "S Keel",
+        "year": "2019",
+        "unstructured": "Keel, S. et al. Development and validation of a deep-learning algorithm for the detection of neovascular age-related macular degeneration from colour fundus photographs. Clin. Exp. Ophthalmol. 47, 1009–1018 (2019).",
+        "journal-title": "Clin. Exp. Ophthalmol."
+      },
+      {
+        "key": "38610_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-019-47390-3",
+        "volume": "9",
+        "author": "S Saha",
+        "year": "2019",
+        "unstructured": "Saha, S. et al. Automated detection and classification of early AMD biomarkers using deep learning. Sci. Rep. 9, 1–9 (2019).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "38610_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "677",
+        "DOI": "10.1007/s11517-018-1915-z",
+        "volume": "57",
+        "author": "TK Yoo",
+        "year": "2019",
+        "unstructured": "Yoo, T. K. et al. The possibility of the combination of OCT and fundus images for improving the diagnostic accuracy of deep learning for age-related macular degeneration: A preliminary experiment. Med. Biol. Eng. Comput. 57, 677–687 (2019).",
+        "journal-title": "Med. Biol. Eng. Comput."
+      },
+      {
+        "key": "38610_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "101533",
+        "DOI": "10.1016/j.bspc.2019.04.010",
+        "volume": "53",
+        "author": "T Pratap",
+        "year": "2019",
+        "unstructured": "Pratap, T. & Kokil, P. Computer-aided diagnosis of cataract using deep transfer learning. Biomed. Signal Process. Control 53, 101533 (2019).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "38610_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "239",
+        "DOI": "10.1016/j.procs.2020.01.084",
+        "volume": "165",
+        "author": "J Devda",
+        "year": "2019",
+        "unstructured": "Devda, J. & Eswari, R. Pathological myopia image analysis using deep learning. Procedia Comput. Sci. 165, 239–244 (2019).",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "key": "38610_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.1016/j.ophtha.2019.05.029",
+        "volume": "127",
+        "author": "J Son",
+        "year": "2020",
+        "unstructured": "Son, J. et al. Development and validation of deep learning models for screening multiple abnormal findings in retinal fundus images. Ophthalmology 127, 85–94 (2020).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "38610_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., Ju, L., Zhao, X. & Ge, Z. Retinal abnormalities recognition using regional multitask learning. in International Conference on Medical Image Computing and Computer-Assisted Intervention 30–38 (Springer, 2019).",
+        "DOI": "10.1007/978-3-030-32239-7_4"
+      },
+      {
+        "key": "38610_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "101660",
+        "DOI": "10.1016/j.media.2020.101660",
+        "volume": "61",
+        "author": "G Quellec",
+        "year": "2020",
+        "unstructured": "Quellec, G., Lamard, M., Conze, P.-H., Massin, P. & Cochener, B. Automatic detection of rare pathologies in fundus photographs using few-shot learning. Med. Image Anal. 61, 101660 (2020).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "38610_CR28",
+        "unstructured": "RIADD (ISBI-2021)—Grand Challenge. Retinal image analysis for multi-disease detection. https://riadd.grand-challenge.org/."
+      },
+      {
+        "key": "38610_CR29",
+        "unstructured": "ODIR-2019—Grand Challenge. Peking university international competition on ocular disease intelligent recognition (ODIR-2019). https://odir2019.grand-challenge.org/introduction/."
+      },
+      {
+        "key": "38610_CR30",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1097/OPX.0000000000001845",
+        "volume": "99",
+        "author": "S Matta",
+        "year": "2022",
+        "unstructured": "Matta, S. et al. Automatic screening for ocular anomalies using fundus photographs. Optom. Vis. Sci. 99, 281–291 (2022).",
+        "journal-title": "Optom. Vis. Sci."
+      },
+      {
+        "key": "38610_CR31",
+        "unstructured": "OphtaMaine—Ophtalmologue en Sarthe et Eure-et-Loir. Ophtamaine https://ophtamaine.fr/."
+      },
+      {
+        "key": "38610_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "14",
+        "DOI": "10.3390/data6020014",
+        "volume": "6",
+        "author": "S Pachade",
+        "year": "2021",
+        "unstructured": "Pachade, S. et al. Retinal fundus multi-disease image dataset (RFMID): A dataset for multi-disease detection research. Data 6, 14 (2021).",
+        "journal-title": "Data"
+      },
+      {
+        "key": "38610_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, N., Li, T., Hu, C., Wang, K. & Kang, H. A benchmark of ocular disease intelligent recognition: one shot for multi-disease detection. in International Symposium on Benchmarking, Measuring and Optimization 177–193 (Springer, 2020).",
+        "DOI": "10.1007/978-3-030-71058-3_11"
+      },
+      {
+        "key": "38610_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, Q., Luong, M.-T., Hovy, E. & Le, Q. V. Self-training with noisy student improves imagenet classification. in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 10687–10698 (2020).",
+        "DOI": "10.1109/CVPR42600.2020.01070"
+      },
+      {
+        "key": "38610_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "196",
+        "DOI": "10.1007/978-1-4612-4380-9_16",
+        "volume-title": "Breakthroughs in Statistics: Methodology and Distribution",
+        "author": "F Wilcoxon",
+        "year": "1992",
+        "unstructured": "Wilcoxon, F. Individual comparisons by ranking methods. In Breakthroughs in Statistics: Methodology and Distribution (eds Kotz, S. & Johnson, N. L.) 196–202 (Springer, 1992). https://doi.org/10.1007/978-1-4612-4380-9_16."
+      },
+      {
+        "key": "38610_CR36",
+        "unstructured": "RIADD (ISBI-2021)—Grand Challenge. Retinal image analysis for multi-disease detection. https://riadd.grand-challenge.org/download-all-classes/."
+      },
+      {
+        "key": "38610_CR37",
+        "unstructured": "Challenges | ISBI 2021. Challenges international symposium on biomedical imaging. https://biomedicalimaging.org/2021/challenges-2/."
+      },
+      {
+        "key": "38610_CR38",
+        "unstructured": "nkicsl. OIA-ODIR. OIA-ODIR. https://github.com/nkicsl/OIA-ODIR (2022)."
+      },
+      {
+        "key": "38610_CR39",
+        "unstructured": "Wightman, R. PyTorch Image Models. (2022)."
+      },
+      {
+        "key": "38610_CR40",
+        "unstructured": "Tan, M. & Le, Q. Efficientnet: Rethinking model scaling for convolutional neural networks. in International conference on machine learning 6105–6114 (PMLR, 2019)."
+      },
+      {
+        "key": "38610_CR41",
+        "unstructured": "Tan, M. & Le, Q. Efficientnetv2: Smaller models and faster training. in International Conference on Machine Learning 10096–10106 (PMLR, 2021)."
+      },
+      {
+        "key": "38610_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z. et al. Swin transformer: Hierarchical vision transformer using shifted windows. in Proceedings of the IEEE/CVF International Conference on Computer Vision 10012–10022 (2021).",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "38610_CR43",
+        "unstructured": "Wu, B. et al. Visual transformers: Token-based image representation and processing for computer vision. arXiv Prepr. arXiv:200603677 (2020)."
+      },
+      {
+        "key": "38610_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cubuk, E. D., Zoph, B., Shlens, J. & Le, Q. V. Randaugment: Practical automated data augmentation with a reduced search space. in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops 702–703 (2020).",
+        "DOI": "10.1109/CVPRW50498.2020.00359"
+      },
+      {
+        "key": "38610_CR45",
+        "unstructured": "Hanson. Code for RIADD (ISBI-2021). 1st solution for retinal image analysis for multi-disease detection challenge (RIADD (ISBI-2021)) https://github.com/Hanson0910/Pytorch-RIADD (2022)."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-023-38610-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-023-38610-y",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-023-38610-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2023-12-17T00:53:52Z",
+      "timestamp": 1702774432000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-023-38610-y"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "references-count": 45,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "38610"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-023-38610-y",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "21 June 2022",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 July 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "17 July 2023",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors Sarah Matta, Mathieu Lamard, Pierre-Henri Conze and Jean-Bernard Rottier declare no Competing Financial or Non-Financial Interests. The authors Clément Lecat, Fabien Basset and Romuald Carette declare no Competing Non-Financial Interests but the following Competing Financial Interests: Employee – Evolucare Technologies. The author Alexandre Le Guilcher declares no Competing Non-Financial Interests but the following Competing Financial Interests: Research & Innovation director – Evolucare Technologies; CEO – OphtAI. The author Pascale Massin declares no Competing Non-Financial Interests but the following Competing Financial Interests: Consultant – Allerga, Bayer, Novartis, Thea, Horus. The author Béatrice Cochener declares no Competing Non-Financial Interests but the following Competing Financial Interests: Consultant and clinical investigator – Thea, Alcon, Zeiss, B&L, Hoya, Horus, Santen, SIFI, Cutting Edge, J&J. The author Gwenolé Quellec declares no Competing Non-Financial Interests but the following Competing Financial Interests: Consultant – Evolucare Technologies, Adcis.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "11493"
+  }
+}

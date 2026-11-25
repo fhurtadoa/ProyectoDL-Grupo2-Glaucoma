@@ -1,0 +1,644 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2026-06-29T04:14:23Z",
+      "timestamp": 1782706463573,
+      "version": "3.54.5"
+    },
+    "reference-count": 35,
+    "publisher": "PeerJ",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2025-04-21T00:00:00Z",
+          "timestamp": 1745193600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Beijing Tianjin Hebei Basic Research Cooperation",
+        "award": [
+          "J210008, 21JCZXJC00170, and H2021202008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "J210008, 21JCZXJC00170, and H2021202008"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tianjin Key Medical Discipline (Specialty) Construction Project",
+        "award": [
+          "TJYXZDXK-032A"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TJYXZDXK-032A"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "abstract": "<jats:p>Automated glaucoma detection from retinal fundus images plays a crucial role in facilitating early intervention and improving the management of this progressive ocular condition. Although convolutional neural networks (CNNs) have significantly advanced image analysis, current CNN-based models encounter two major limitations. First, they rely primarily on convolutional operations, which restrict the ability to capture cross-channel correlations effectively due to the channel-specific focus of these operations. Second, they often depend on fully-connected (FC) layers for classification, which can introduce unnecessary complexity and limit adaptability, potentially impacting overall classification performance. This study introduces the Modular Convolution-Involution Cascade Network (MCICNet), an innovative CNN architecture designed to address these challenges in the context of glaucoma detection. The model employs a combination of convolution and involution operations in a cascade structure, allowing for the effective capture of inter-channel dependencies within the feature extraction process. Furthermore, the classification phase integrates light gradient boosting machine (LightGBM) as a replacement for traditional FC layers, offering enhanced precision and generalization while reducing model complexity. Extensive experiments conducted on the LAG and ACRIMA datasets demonstrate that MCICNet achieves significant improvements compared to existing CNN and transformer-based models. The model attained a classification accuracy of 95.6% on the LAG dataset and 96.2% on ACRIMA, outperforming nine widely used CNN architectures (AlexNet, MobileNetV2, SqueezeNet, ResNet18, GoogLeNet, DenseNet121, EfficientNetB0, ShuffleNet, and VGG16), as well as three transformer-based models (ViT, MaxViT, and SwinT). Additionally, MCICNet showed superior performance over its variant without involution (MCICNet-NoInvolution). With only 0.9 million parameters, MCICNet demonstrates substantial efficiency in resource utilization alongside its high learning capability, establishing it as an advanced and computationally efficient solution for glaucoma detection.</jats:p>",
+    "DOI": "10.7717/peerj-cs.2844",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2025-04-21T08:54:26Z",
+      "timestamp": 1745225666000
+    },
+    "page": "e2844",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Towards efficient glaucoma screening with modular convolution-involution cascade architecture"
+    ],
+    "prefix": "10.7717",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Mohamed",
+        "family": "Mouhafid",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Electronics and Information Engineering, Hebei University of Technology, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yatong",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronics and Information Engineering, Hebei University of Technology, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chunyan",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NHC Key Laboratory of Hormones and Development, Tianjin Key Laboratory of Metabolic Diseases, Chu Hsien-I Memorial Hospital & Tianjin Institute of Endocrinology, Tianjin Medical University, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhitao",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Life Sciences, Tiangong University, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.7717/peerj-cs.2844/ref-1",
+        "doi-asserted-by": "publisher",
+        "first-page": "449",
+        "DOI": "10.1109/TITB.2011.2119322",
+        "article-title": "Automated diagnosis of glaucoma using texture and higher order spectra features",
+        "volume": "15",
+        "author": "Acharya",
+        "year": "2011",
+        "journal-title": "IEEE Transactions on Information Technology in Biomedicine"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-2",
+        "first-page": "207",
+        "article-title": "Automated glaucoma diagnosis using deep learning approach",
+        "author": "Al-Bander",
+        "year": "2017"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12911-019-0842-8",
+        "article-title": "Two-stage framework for optic disc localization and glaucoma classification in retinal fundus images using deep learning",
+        "volume": "19",
+        "author": "Bajwa",
+        "year": "2019",
+        "journal-title": "BMC Medical Informatics and Decision Making"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-4",
+        "doi-asserted-by": "publisher",
+        "first-page": "253",
+        "DOI": "10.1136/bjo.2005.083527",
+        "article-title": "Worldwide glaucoma through the looking glass",
+        "volume": "90",
+        "author": "Bourne",
+        "year": "2006",
+        "journal-title": "British Journal of Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.2844/ref-5",
+        "doi-asserted-by": "publisher",
+        "first-page": "32",
+        "DOI": "10.1097/APO.0000000000000173",
+        "article-title": "Glaucoma suspect: diagnosis and management",
+        "volume": "5",
+        "author": "Chang",
+        "year": "2016",
+        "journal-title": "Asia-Pacific Journal of Ophthalmology"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-6",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/EMBC.2015.7318462",
+        "article-title": "Glaucoma detection based on deep convolutional neural network",
+        "author": "Chen",
+        "year": "2015"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.2844/ref-7",
+        "doi-asserted-by": "publisher",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.2844/ref-8",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.35882/jeeemi.v5i4.314",
+        "article-title": "Multi-stage CNN: U-Net and Xcep-dense of glaucoma detection in retinal images",
+        "volume": "5",
+        "author": "Desiani",
+        "year": "2023",
+        "journal-title": "Journal of Electronics, Electromedical Engineering, and Medical Informatics"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-9",
+        "doi-asserted-by": "publisher",
+        "first-page": "140031–140041",
+        "DOI": "10.1109/ACCESS.2021.3118102",
+        "article-title": "Real-time glaucoma detection from digital fundus images using self-ONNs",
+        "volume": "9",
+        "author": "Devecioglu",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.2844/ref-10",
+        "doi-asserted-by": "publisher",
+        "first-page": "253",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: an extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "BioMedical Engineering OnLine"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.2844/ref-11",
+        "doi-asserted-by": "publisher",
+        "first-page": "80",
+        "DOI": "10.1109/TITB.2011.2176540",
+        "article-title": "Wavelet-based energy features for glaucomatous image classification",
+        "volume": "16",
+        "author": "Dua",
+        "year": "2011",
+        "journal-title": "IEEE Transactions on Information Technology in Biomedicine"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-12",
+        "doi-asserted-by": "publisher",
+        "first-page": "955",
+        "DOI": "10.1002/ima.22494",
+        "article-title": "Glaucoma assessment from color fundus images using convolutional neural network",
+        "volume": "31",
+        "author": "Elangovan",
+        "year": "2021",
+        "journal-title": "International Journal of Imaging Systems and Technology"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1153",
+        "DOI": "10.1016/j.procs.2023.01.396",
+        "article-title": "Glaucoma detection using convolutional neural networks for mobile use",
+        "volume": "219",
+        "author": "Esengönül",
+        "year": "2023",
+        "journal-title": "Procedia Computer Science"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.2844/ref-14",
+        "doi-asserted-by": "publisher",
+        "first-page": "100233",
+        "DOI": "10.1016/j.xops.2022.100233",
+        "article-title": "Detecting glaucoma from fundus photographs using deep learning without convolutions",
+        "volume": "3",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "Ophthalmology Science"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.2844/ref-15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1901",
+        "DOI": "10.1038/s41598-024-55056-y",
+        "article-title": "Automated vertical cup-to-disc ratio determination from fundus images for glaucoma detection",
+        "volume": "14",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.2844/ref-16",
+        "doi-asserted-by": "publisher",
+        "first-page": "106989",
+        "DOI": "10.1016/j.bspc.2024.106989",
+        "article-title": "DEEP GD: deep learning-based snapshot ensemble CNN with EfficientNet for glaucoma detection",
+        "volume": "100",
+        "author": "Geetha",
+        "year": "2025",
+        "journal-title": "Biomedical Signal Processing and Control"
+      },
+      {
+        "issue": "6",
+        "key": "10.7717/peerj-cs.2844/ref-17",
+        "doi-asserted-by": "publisher",
+        "first-page": "714",
+        "DOI": "10.1001/archopht.120.6.714",
+        "article-title": "The ocular hypertension treatment study: baseline factors that predict the onset of primary open-angle glaucoma",
+        "volume": "120",
+        "author": "Gordon",
+        "year": "2002",
+        "journal-title": "Archives of Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-18",
+        "doi-asserted-by": "publisher",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "Gómez-Valverde",
+        "year": "2019",
+        "journal-title": "Biomedical Optics Express"
+      },
+      {
+        "issue": "18",
+        "key": "10.7717/peerj-cs.2844/ref-19",
+        "doi-asserted-by": "publisher",
+        "first-page": "108347",
+        "DOI": "10.1016/j.asoc.2021.108347",
+        "article-title": "End-to-end multi-task learning for simultaneous optic disc and cup segmentation and glaucoma classification in eye fundus images",
+        "volume": "116",
+        "author": "Hervella",
+        "year": "2022",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-20",
+        "doi-asserted-by": "publisher",
+        "first-page": "229",
+        "DOI": "10.1016/j.cmpb.2015.08.002",
+        "article-title": "An adaptive threshold based image processing technique for improved glaucoma detection and classification",
+        "volume": "122",
+        "author": "Issac",
+        "year": "2015",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-21",
+        "article-title": "Lightgbm: a highly efficient gradient boosting decision tree",
+        "author": "Ke",
+        "year": "2017"
+      },
+      {
+        "issue": "01",
+        "key": "10.7717/peerj-cs.2844/ref-22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1350011",
+        "DOI": "10.1142/S0219519413500115",
+        "article-title": "Automated glaucoma detection using hybrid feature extraction in retinal fundus images",
+        "volume": "13",
+        "author": "Krishnan",
+        "year": "2013",
+        "journal-title": "Journal of Mechanics in Medicine and Biology"
+      },
+      {
+        "issue": "6",
+        "key": "10.7717/peerj-cs.2844/ref-23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1080",
+        "DOI": "10.1038/s41433-022-02055-w",
+        "article-title": "Joint optic disk and cup segmentation for glaucoma screening using a region-based deep learning network",
+        "volume": "37",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/CVPR.2019.01082",
+        "article-title": "Attention-based glaucoma detection: a large-scale database and CNN model",
+        "author": "Li",
+        "year": "2019"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-25",
+        "doi-asserted-by": "publisher",
+        "first-page": "434",
+        "DOI": "10.3390/s22020434",
+        "article-title": "An efficient deep learning approach to automatic glaucoma detection using optic disc and optic cup localization",
+        "volume": "22",
+        "author": "Nawaz",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.2844/ref-26",
+        "doi-asserted-by": "publisher",
+        "first-page": "337",
+        "DOI": "10.1007/s10916-008-9195-z",
+        "article-title": "Automated diagnosis of glaucoma using digital fundus images",
+        "volume": "33",
+        "author": "Nayak",
+        "year": "2009",
+        "journal-title": "Journal of Medical Systems"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-27",
+        "doi-asserted-by": "publisher",
+        "first-page": "485",
+        "DOI": "10.1016/j.procs.2021.12.040",
+        "article-title": "Optic disc and cup segmentations for glaucoma assessment using cup-to-disc ratio",
+        "volume": "196",
+        "author": "Neto",
+        "year": "2022",
+        "journal-title": "Procedia Computer Science"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-28",
+        "article-title": "G-Eyenet: a convolutional autoencoding classifier framework for the detection of glaucoma from retinal fundus images",
+        "author": "Pal",
+        "year": "2019"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.2844/ref-29",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.55524/ijircst.2024.12.2.7",
+        "article-title": "A review on the detection and classification of glaucoma disease based on transfer learning",
+        "volume": "12",
+        "author": "Raj",
+        "year": "2024",
+        "journal-title": "International Journal of Innovative Research in Computer Science and Technology"
+      },
+      {
+        "issue": "17",
+        "key": "10.7717/peerj-cs.2844/ref-30",
+        "doi-asserted-by": "publisher",
+        "first-page": "e36759",
+        "DOI": "10.1016/j.heliyon.2024.e36759",
+        "article-title": "Cataract and glaucoma detection based on transfer learning using MobileNet",
+        "volume": "10",
+        "author": "Saqib",
+        "year": "2024",
+        "journal-title": "Heliyon"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-31",
+        "first-page": "1",
+        "article-title": "A generalized deep learning model for glaucoma detection",
+        "author": "Serte",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "10.7717/peerj-cs.2844/ref-32",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.1016/j.cmpb.2015.10.010",
+        "article-title": "Image processing based automatic diagnosis of glaucoma using wavelet features of segmented optic disc from fundus image",
+        "volume": "124",
+        "author": "Singh",
+        "year": "2016",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "10.7717/peerj-cs.2844/ref-33",
+        "article-title": "Attention is all you need",
+        "author": "Vaswani",
+        "year": "2017"
+      },
+      {
+        "issue": "8",
+        "key": "10.7717/peerj-cs.2844/ref-34",
+        "doi-asserted-by": "publisher",
+        "first-page": "6187",
+        "DOI": "10.1016/j.jksuci.2021.02.003",
+        "article-title": "A novel optic disc and optic cup segmentation technique to diagnose glaucoma using deep learning convolutional neural network over retinal fundus images",
+        "volume": "34",
+        "author": "Veena",
+        "year": "2022",
+        "journal-title": "Journal of King Saud University - Computer and Information Sciences"
+      },
+      {
+        "issue": "13",
+        "key": "10.7717/peerj-cs.2844/ref-35",
+        "doi-asserted-by": "publisher",
+        "first-page": "3827",
+        "DOI": "10.1049/ipr2.13211",
+        "article-title": "Glaucoma detection with explainable AI using convolutional neural networks-based feature extraction and machine learning classifiers",
+        "volume": "18",
+        "author": "Velpula",
+        "year": "2024",
+        "journal-title": "IET Image Processing"
+      }
+    ],
+    "container-title": [
+      "PeerJ Computer Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://peerj.com/articles/cs-2844.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-2844.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-2844.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-2844.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2025-04-21T08:54:37Z",
+      "timestamp": 1745225677000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://peerj.com/articles/cs-2844"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "references-count": 35,
+    "alternative-id": [
+      "10.7717/peerj-cs.2844"
+    ],
+    "URL": "https://doi.org/10.7717/peerj-cs.2844",
+    "archive": [
+      "CLOCKSS",
+      "LOCKSS",
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2376-5992"
+    ],
+    "issn-type": [
+      {
+        "value": "2376-5992",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "article-number": "e2844"
+  }
+}

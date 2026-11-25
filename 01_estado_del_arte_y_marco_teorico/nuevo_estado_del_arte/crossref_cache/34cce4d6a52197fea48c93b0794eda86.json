@@ -1,0 +1,1113 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2026-11-12T06:50:44Z",
+      "timestamp": 1794466244550,
+      "version": "4.9.1"
+    },
+    "reference-count": 54,
+    "publisher": "Elsevier BV",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2019-12-01T00:00:00Z",
+          "timestamp": 1575158400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2019-12-01T00:00:00Z",
+          "timestamp": 1575158400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              8
+            ]
+          ],
+          "date-time": "2019-08-08T00:00:00Z",
+          "timestamp": 1565222400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "N01-EY-0-2127"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N01-EY-0-2127"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "aaojournal.org",
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ophtha.2019.07.024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2019-09-24T08:02:39Z",
+      "timestamp": 1569312159000
+    },
+    "page": "1627-1639",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 182,
+    "title": [
+      "Deep Learning and Glaucoma Specialists"
+    ],
+    "prefix": "10.1016",
+    "volume": "126",
+    "author": [
+      {
+        "given": "Sonia",
+        "family": "Phene",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. Carter",
+        "family": "Dunn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naama",
+        "family": "Hammel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yun",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Krause",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naho",
+        "family": "Kitade",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mike",
+        "family": "Schaekermann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rory",
+        "family": "Sayres",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Derek J.",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ashish",
+        "family": "Bora",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Semturs",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anita",
+        "family": "Misra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abigail E.",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arielle",
+        "family": "Spitze",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felipe A.",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "April Y.",
+        "family": "Maa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Monica",
+        "family": "Gandhi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Greg S.",
+        "family": "Corrado",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lily",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dale R.",
+        "family": "Webster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2019.07.024_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ophtha.2019.07.024_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2019.07.024_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1590/S0004-27492011000200001",
+        "article-title": "Managing glaucoma in developing countries",
+        "volume": "74",
+        "author": "Leite",
+        "year": "2011",
+        "journal-title": "Arq Bras Oftalmol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2019.07.024_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1016/S0161-6420(02)01568-3",
+        "article-title": "Temba Glaucoma Study: a population-based cross-sectional survey in urban South Africa",
+        "volume": "110",
+        "author": "Rotchford",
+        "year": "2003",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ophtha.2019.07.024_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1816",
+        "DOI": "10.1016/j.ophtha.2007.06.013",
+        "article-title": "Awareness of incident open-angle glaucoma in a population study",
+        "volume": "114",
+        "author": "Hennis",
+        "year": "2007",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "P112",
+        "DOI": "10.1016/j.ophtha.2015.10.055",
+        "article-title": "Primary Open-Angle Glaucoma Suspect Preferred Practice Pattern(®) Guidelines",
+        "volume": "123",
+        "author": "Prum",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib7",
+        "series-title": "Glaucoma Screening",
+        "author": "Weinreb",
+        "year": "2008"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ophtha.2019.07.024_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "467",
+        "DOI": "10.1586/17469899.2014.967218",
+        "article-title": "Gaps in glaucoma care: a systematic review of monoscopic disc photos to screen for glaucoma",
+        "volume": "9",
+        "author": "Newman-Casey PA",
+        "year": "2014",
+        "journal-title": "Expert Rev Ophthalmol"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2019.07.024_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1159/000329597",
+        "article-title": "Digital ocular fundus imaging: a review",
+        "volume": "226",
+        "author": "Bernardes",
+        "year": "2011",
+        "journal-title": "Ophthalmologica"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ophtha.2019.07.024_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "823",
+        "DOI": "10.1136/bjophthalmol-2014-305631",
+        "article-title": "Telemedicine for detecting diabetic retinopathy: a systematic review and meta-analysis",
+        "volume": "99",
+        "author": "Shi",
+        "year": "2015",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "9422",
+        "key": "10.1016/j.ophtha.2019.07.024_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1711",
+        "DOI": "10.1016/S0140-6736(04)16257-0",
+        "article-title": "Primary open-angle glaucoma",
+        "volume": "363",
+        "author": "Weinreb",
+        "year": "2004",
+        "journal-title": "Lancet"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2019.07.024_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.3109/08820530009037871",
+        "article-title": "Evaluating the optic disc and retinal nerve fiber layer in glaucoma. I: clinical examination and photographic methods",
+        "volume": "15",
+        "author": "Bowd",
+        "year": "2000",
+        "journal-title": "Semin Ophthalmol"
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.ophtha.2019.07.024_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "P41",
+        "DOI": "10.1016/j.ophtha.2015.10.053",
+        "article-title": "Primary Open-Angle Glaucoma Preferred Practice Pattern(®) Guidelines",
+        "volume": "123",
+        "author": "Prum",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "19",
+        "key": "10.1016/j.ophtha.2019.07.024_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2035",
+        "DOI": "10.1001/jama.2013.5099",
+        "article-title": "Do findings on routine examination identify patients at risk for primary open-angle glaucoma?",
+        "volume": "309",
+        "author": "Hollands",
+        "year": "2013",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2019.07.024_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "308",
+        "DOI": "10.1055/s-2005-858855",
+        "article-title": "[Healthy optic discs with large cups—a diagnostic challenge in glaucoma]",
+        "volume": "223",
+        "author": "Mardin",
+        "year": "2006",
+        "journal-title": "Klin Monbl Augenheilkd"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2019.07.024_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1136/bjo.78.2.99",
+        "article-title": "Shape of the neuroretinal rim and position of the central retinal vessels in glaucoma",
+        "volume": "78",
+        "author": "Jonas",
+        "year": "1994",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ophtha.2019.07.024_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "759",
+        "DOI": "10.1007/BF00184280",
+        "article-title": "Localized retinal nerve fiber layer defects in nonglaucomatous optic nerve atrophy",
+        "volume": "232",
+        "author": "Jonas",
+        "year": "1994",
+        "journal-title": "Graefes Arch Clin Exp Ophthalmol"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ophtha.2019.07.024_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1147",
+        "DOI": "10.1016/S0161-6420(93)31513-7",
+        "article-title": "Retinal nerve fiber layer defect as an early manifestation of diabetic retinopathy",
+        "volume": "100",
+        "author": "Chihara",
+        "year": "1993",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2019.07.024_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "276",
+        "DOI": "10.1097/00041327-200112000-00010",
+        "article-title": "Nerve fiber bundle visual field defect resulting from a giant peripapillary cotton-wool spot",
+        "volume": "21",
+        "author": "Chaum",
+        "year": "2001",
+        "journal-title": "J Neuroophthalmol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ophtha.2019.07.024_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1001/archopht.1983.01040010739007",
+        "article-title": "Baring of a circumlinear vessel in glaucoma",
+        "volume": "101",
+        "author": "Sutton",
+        "year": "1983",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ophtha.2019.07.024_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "661",
+        "DOI": "10.1016/j.optm.2005.08.029",
+        "article-title": "Five rules to evaluate the optic disc and retinal nerve fiber layer for glaucoma",
+        "volume": "76",
+        "author": "Fingeret",
+        "year": "2005",
+        "journal-title": "Optometry"
+      },
+      {
+        "issue": "7553",
+        "key": "10.1016/j.ophtha.2019.07.024_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "LeCun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.ophtha.2019.07.024_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ophtha.2019.07.024_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1264",
+        "DOI": "10.1016/j.ophtha.2018.01.034",
+        "article-title": "Grader variability and the importance of reference standards for evaluating machine learning models for diabetic retinopathy",
+        "volume": "125",
+        "author": "Krause",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.ophtha.2019.07.024_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2019.07.024_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "552",
+        "DOI": "10.1016/j.ophtha.2018.11.016",
+        "article-title": "Using a deep learning algorithm and integrated gradients explanation to assist grading for diabetic retinopathy",
+        "volume": "126",
+        "author": "Sayres",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.ogla.2018.04.002",
+        "article-title": "A deep learning-based algorithm identifies glaucomatous discs using monoscopic fundus photographs",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ophtha.2019.07.024_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ophtha.2019.07.024_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0113779",
+        "article-title": "The effectiveness of teleglaucoma versus in-patient examination for glaucoma screening: a systematic review and meta-analysis",
+        "volume": "9",
+        "author": "Thomas",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ophtha.2019.07.024_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "573",
+        "DOI": "10.1016/S0197-2456(99)00031-8",
+        "article-title": "The Age-Related Eye Disease Study (AREDS): design implications. AREDS report no. 1",
+        "volume": "20",
+        "year": "1999",
+        "journal-title": "Control Clin Trials"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1186/1471-2415-14-72",
+        "article-title": "Analysis of neuroretinal rim distribution and vascular pattern in eyes with presumed large physiological cupping: a comparative study",
+        "volume": "14",
+        "author": "Lopes",
+        "year": "2014",
+        "journal-title": "BMC Ophthalmol"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2019.07.024_bib38",
+        "first-page": "124",
+        "article-title": "The lamina cribrosa and visual field defects in open-angle glaucoma",
+        "volume": "18",
+        "author": "Susanna",
+        "year": "1983",
+        "journal-title": "Can J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1016/j.ajo.2017.09.018",
+        "article-title": "The ISNT rule: how often does it apply to disc photographs and retinal nerve fiber layer measurements in the normal population?",
+        "volume": "184",
+        "author": "Poon",
+        "year": "2017",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib40",
+        "author": "Szegedy"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib41",
+        "unstructured": "Abadi M, Agarwal A, Barham P, et al. TensorFlow: Large-scale machine learning on heterogeneous systems, 2015. Available at: tensorflow.org."
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib42",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "Krizhevsky",
+        "year": "2012"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib43",
+        "first-page": "1",
+        "article-title": "Synthesis Lectures on Artificial Intelligence and Machine Learning",
+        "volume": "6",
+        "author": "Settles",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib44",
+        "first-page": "169",
+        "article-title": "Popular ensemble methods: an empirical study",
+        "volume": "11",
+        "author": "Opitz",
+        "year": "1999",
+        "journal-title": "J Artif Intell Res"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib45",
+        "series-title": "Mathematical statistics with resampling and R",
+        "author": "Chihara",
+        "year": "2018"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2019.07.024_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.1093/biomet/26.4.404",
+        "article-title": "The use of confidence or fiducial limits illustrated in the case of the binomial",
+        "volume": "26",
+        "author": "Clopper",
+        "year": "1934",
+        "journal-title": "Biometrika"
+      },
+      {
+        "issue": "253",
+        "key": "10.1016/j.ophtha.2019.07.024_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1080/01621459.1951.10500769",
+        "article-title": "The Kolmogorov-Smirnov test for goodness of fit",
+        "volume": "46",
+        "author": "Massey",
+        "year": "1951",
+        "journal-title": "J Am Stat Assoc"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib48",
+        "series-title": "Content Analysis: An Introduction to Its Methodology",
+        "author": "Krippendorff",
+        "year": "2018"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ophtha.2019.07.024_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.1001/archopht.1980.01020030859012",
+        "article-title": "Baring of the circumlinear vessel. An early sign of optic nerve damage",
+        "volume": "98",
+        "author": "Herschler",
+        "year": "1980",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib50",
+        "unstructured": "Susanna R Jr, Medeiros FA. The Optic Nerve in Glaucoma. 2nd ed. Amsterdam, the Netherlands; 2006."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2019.07.024_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "350",
+        "DOI": "10.1016/S0161-6420(88)33177-5",
+        "article-title": "Intraobserver and interobserver agreement in measurement of optic disc characteristics",
+        "volume": "95",
+        "author": "Tielsch",
+        "year": "1988",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2019.07.024_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/S0161-6420(92)31990-6",
+        "article-title": "Expert agreement in evaluating the optic disc for glaucoma",
+        "volume": "99",
+        "author": "Varma",
+        "year": "1992",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2019.07.024_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1001/archopht.122.1.22",
+        "article-title": "Racial differences in optic disc topography: baseline results from the confocal scanning laser ophthalmoscopy ancillary study to the ocular hypertension treatment study",
+        "volume": "122",
+        "author": "Zangwill",
+        "year": "2004",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ophtha.2019.07.024_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1142",
+        "DOI": "10.3109/02713683.2013.809123",
+        "article-title": "Ethnic variation in optic disc size by fundus photography",
+        "volume": "38",
+        "author": "Lee",
+        "year": "2013",
+        "journal-title": "Curr Eye Res"
+      },
+      {
+        "issue": "12S",
+        "key": "10.1016/j.ophtha.2019.07.024_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "S57",
+        "DOI": "10.1016/j.ophtha.2017.07.015",
+        "article-title": "Detecting structural progression in glaucoma with optical coherence tomography",
+        "volume": "124",
+        "author": "Tatham",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ophtha.2019.07.024_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1086",
+        "DOI": "10.1097/IJG.0000000000000765",
+        "article-title": "Hybrid deep learning on single wide-field optical coherence tomography scans accurately classifies glaucoma suspects",
+        "volume": "26",
+        "author": "Muhammad",
+        "year": "2017",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.ophtha.2019.07.024_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "article-title": "Using deep learning and transfer learning to accurately diagnose early-onset glaucoma from macular optical coherence tomography images",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0161642019318755?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0161642019318755?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2025-09-27T14:07:17Z",
+      "timestamp": 1758982037000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0161642019318755"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0161642019318755"
+    ],
+    "URL": "https://doi.org/10.1016/j.ophtha.2019.07.024",
+    "relation": {},
+    "ISSN": [
+      "0161-6420"
+    ],
+    "issn-type": [
+      {
+        "value": "0161-6420",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Deep Learning and Glaucoma Specialists",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ophtha.2019.07.024",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 by the American Academy of OphthalmologyThis is an open access article under the CC BY-NC-ND license (<inter-ref xlink: href=http://creativecommons.org/licenses/by-nc-nd/4.0/>http://creativecommons.org/licenses/by-nc-nd/4.0/</inter-ref>).",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

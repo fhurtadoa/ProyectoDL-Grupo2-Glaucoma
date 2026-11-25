@@ -1,0 +1,388 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2026-09-07T12:31:42Z",
+      "timestamp": 1788784302040,
+      "version": "build-2803163510"
+    },
+    "reference-count": 29,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              14
+            ]
+          ],
+          "date-time": "2025-07-14T00:00:00Z",
+          "timestamp": 1752451200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              14
+            ]
+          ],
+          "date-time": "2025-07-14T00:00:00Z",
+          "timestamp": 1752451200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          14
+        ]
+      ]
+    },
+    "DOI": "10.1109/embc58623.2025.11253669",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2025-12-03T18:38:20Z",
+      "timestamp": 1764787100000
+    },
+    "page": "1-7",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "OptiGuard: Generalized, Attention-Driven &amp; Explainable Glaucoma Classification"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Syed Safi Ullah",
+        "family": "Shah",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National University of Sciences and Technology,School of Electrical Engineering &#x0026; Computer Science,Islamabad,Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad",
+        "family": "Huzaifa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Sciences and Technology,School of Electrical Engineering &#x0026; Computer Science,Islamabad,Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Humza Khawar Khan",
+        "family": "Tareen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Sciences and Technology,School of Electrical Engineering &#x0026; Computer Science,Islamabad,Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad Naseer",
+        "family": "Bajwa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Sciences and Technology,National Center for Artificial Intelligence,Islamabad,Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7759/cureus.11686"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm11133850"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3109/02713683.2013.809123"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3603765.3603779"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Smdg, a standardized fundus glaucoma dataset",
+        "author": "Kiefer",
+        "year": "2023"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN48605.2020.9207664"
+      },
+      {
+        "issue": "7",
+        "key": "ref7",
+        "first-page": "1764",
+        "article-title": "Ranking of optic disc variables for detection of glaucomatous optic nerve damage",
+        "volume": "41",
+        "author": "Jonas",
+        "year": "2000",
+        "journal-title": "Investigative Ophthalmology & Visual Science"
+      },
+      {
+        "key": "ref8",
+        "author": "Selvaraju",
+        "year": "2016",
+        "journal-title": "Grad-CAM: Why did you say that?"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frai.2022.879603"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12911-019-0876-y"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2024.124888"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICAECA52838.2021.9675642"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12938-019-0649-y"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2022.117968"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102244"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ibmed.2021.100038"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11633-022-1354-z"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32604/cmes.2024.048557"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5566/ias.2346"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/I2CT61223.2024.10543549"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2023.3313786"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41433-024-03388-4"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Detectron2",
+        "author": "Wu",
+        "year": "2019"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "ref28",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2021"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "Loshchilov",
+        "year": "2019"
+      }
+    ],
+    "event": {
+      "name": "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+      "location": "Copenhagen, Denmark",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            14
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11251507/11251526/11253669.pdf?arnumber=11253669",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2025-12-04T08:44:31Z",
+      "timestamp": 1764837871000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11253669/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          14
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1109/embc58623.2025.11253669",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          14
+        ]
+      ]
+    }
+  }
+}

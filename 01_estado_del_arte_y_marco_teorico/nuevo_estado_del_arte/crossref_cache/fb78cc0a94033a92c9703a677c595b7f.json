@@ -1,0 +1,353 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          21
+        ]
+      ],
+      "date-time": "2026-05-21T16:57:33Z",
+      "timestamp": 1779382653111,
+      "version": "3.53.1"
+    },
+    "reference-count": 10,
+    "publisher": "MDPI AG",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2022-10-15T00:00:00Z",
+          "timestamp": 1665792000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Life"
+    ],
+    "abstract": "<jats:p>Background: The aim of this study was to assess the performance of regional graders and artificial intelligence algorithms across retinal cameras with different specifications in classifying an image as gradable and ungradable. Methods: Study subjects were included from a community-based nationwide diabetic retinopathy screening program in Thailand. Various non-mydriatic fundus cameras were used for image acquisition, including Kowa Nonmyd, Kowa Nonmyd α-DⅢ, Kowa Nonmyd 7, Kowa Nonmyd WX, Kowa VX 10 α, Kowa VX 20 and Nidek AFC 210. All retinal photographs were graded by deep learning algorithms and human graders and compared with a standard reference. Results: Images were divided into two categories as gradable and ungradable images. Four thousand eight hundred fifty-two participants with 19,408 fundus images were included, of which 15,351 (79.09%) were gradable images and the remaining 4057 (20.90%) were ungradable images. Conclusions: The deep learning (DL) algorithm demonstrated better sensitivity, specificity and kappa than the human graders for all eight types of non-mydriatic fundus cameras. The deep learning system showed, more consistent diagnostic performance than the human graders across images of varying quality and camera types.</jats:p>",
+    "DOI": "10.3390/life12101610",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2022-10-17T02:29:46Z",
+      "timestamp": 1665973786000
+    },
+    "page": "1610",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Influence of Different Types of Retinal Cameras on the Performance of Deep Learning Algorithms in Diabetic Retinopathy Screening"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Ramyaa",
+        "family": "Srinivasan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Shri Bhagwan Mahavir Vitreoretinal Services, Sankara Nethralaya (Main Campus), No 41 (Old 18), College Road, Chennai 600006, Tamil Nadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6326-532X",
+        "authenticated-orcid": false,
+        "given": "Janani",
+        "family": "Surya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shri Bhagwan Mahavir Vitreoretinal Services, Sankara Nethralaya (Main Campus), No 41 (Old 18), College Road, Chennai 600006, Tamil Nadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6114-6220",
+        "authenticated-orcid": false,
+        "given": "Paisan",
+        "family": "Ruamviboonsuk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Rajavithi Hospital, College of Medicine, Rangsit University, Bangkok 12000, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peranut",
+        "family": "Chotcomwongse",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Rajavithi Hospital, College of Medicine, Rangsit University, Bangkok 12000, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rajiv",
+        "family": "Raman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shri Bhagwan Mahavir Vitreoretinal Services, Sankara Nethralaya (Main Campus), No 41 (Old 18), College Road, Chennai 600006, Tamil Nadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1016/j.diabres.2018.02.023",
+        "article-title": "IDF Diabetes Atlas: Global estimates of diabetes prevalence for 2017 and projections for 2045",
+        "volume": "138",
+        "author": "Cho",
+        "year": "2018",
+        "journal-title": "Diabetes Res. Clin. Pract."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "588",
+        "DOI": "10.1136/bjophthalmol-2019-314336",
+        "article-title": "Estimated number of ophthalmologists worldwide (International Council of Ophthalmology update): Will we meet the needs?",
+        "volume": "104",
+        "author": "Resnikoff",
+        "year": "2020",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "632",
+        "DOI": "10.1038/s41433-020-0927-8",
+        "article-title": "Evaluation of an AI system for the detection of diabetic retinopathy from images captured with a handheld portable fundus camera: The MAILOR AI study",
+        "volume": "35",
+        "author": "Rogers",
+        "year": "2021",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2647",
+        "DOI": "10.1007/s00417-020-04853-y",
+        "article-title": "Automated diabetic retinopathy detection with two different retinal imaging devices using artificial intelligence: A comparison study",
+        "volume": "258",
+        "author": "Sarao",
+        "year": "2020",
+        "journal-title": "Graefe’s Arch. Clin. Exp. Ophthalmol."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2366",
+        "DOI": "10.1001/jama.2016.17563",
+        "article-title": "Artificial intelligence with deep learning technology looks into diabetic retinopathy screening",
+        "volume": "316",
+        "author": "Wong",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_7",
+        "first-page": "39",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "3",
+        "author": "Lavin",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2134254",
+        "DOI": "10.1001/jamanetworkopen.2021.34254",
+        "article-title": "Pivotal evaluation of an artificial intelligence system for autonomous detection of referrable and vision-threatening diabetic retinopathy",
+        "volume": "4",
+        "author": "Ipp",
+        "year": "2021",
+        "journal-title": "JAMA Netw. Open."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1038/s41746-019-0099-8",
+        "article-title": "Deep learning versus human graders for classifying diabetic retinopathy severity in a nationwide screening program",
+        "volume": "2",
+        "author": "Ruamviboonsuk",
+        "year": "2019",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      }
+    ],
+    "container-title": [
+      "Life"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2075-1729/12/10/1610/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T00:54:55Z",
+      "timestamp": 1760144095000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2075-1729/12/10/1610"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          15
+        ]
+      ]
+    },
+    "references-count": 10,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "life12101610"
+    ],
+    "URL": "https://doi.org/10.3390/life12101610",
+    "relation": {},
+    "ISSN": [
+      "2075-1729"
+    ],
+    "issn-type": [
+      {
+        "value": "2075-1729",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          15
+        ]
+      ]
+    }
+  }
+}

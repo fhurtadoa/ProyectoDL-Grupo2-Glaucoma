@@ -1,0 +1,697 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2026-07-22T16:22:53Z",
+      "timestamp": 1784737373557,
+      "version": "3.55.0"
+    },
+    "reference-count": 35,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Biomedical Signal Processing and Control"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.bspc.2026.109679",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          25
+        ]
+      ],
+      "date-time": "2026-01-25T06:54:39Z",
+      "timestamp": 1769324079000
+    },
+    "page": "109679",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "C",
+    "title": [
+      "CDFE-Net: Causality-inspired channel-masked feature disentanglement and enhancement for domain-generalizable optic cup/disc segmentation"
+    ],
+    "prefix": "10.1016",
+    "volume": "118",
+    "author": [
+      {
+        "given": "Puzhen",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ya",
+        "family": "Liao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaoli",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8126-0431",
+        "authenticated-orcid": false,
+        "given": "Jiani",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7404-5231",
+        "authenticated-orcid": false,
+        "given": "Lin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.bspc.2026.109679_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4327",
+        "DOI": "10.1109/ACCESS.2016.2596761",
+        "article-title": "Retinal fundus image analysis for diagnosis of glaucoma: A comprehensive survey",
+        "volume": "4",
+        "author": "Mary",
+        "year": "2016",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.bspc.2026.109679_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "643",
+        "DOI": "10.1007/s13246-015-0377-y",
+        "article-title": "Glaucoma detection using novel optic disc localization, hybrid feature set and classification techniques",
+        "volume": "38",
+        "author": "Akram",
+        "year": "2015",
+        "journal-title": "Australas. Phys. Eng. Sci. Med."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.bspc.2026.109679_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "5792",
+        "DOI": "10.1109/JBHI.2023.3342422",
+        "article-title": "Unsupervised domain adaptation fundus image segmentation via multi-scale adaptive adversarial learning",
+        "volume": "28",
+        "author": "Zhou",
+        "year": "2024",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2024.106481",
+        "article-title": "Low-frequency amplitude fusion based consistency learning method for multi-source domain adaptation for joint optic disc and cup segmentation",
+        "volume": "96",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Biomed. Signal Process. Control."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2024.108639",
+        "article-title": "SAMCF: Adaptive global style alignment and multi-color spaces fusion for joint optic cup and disc segmentation",
+        "volume": "178",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b6",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2023.107635",
+        "article-title": "Self-ensembling with mask-boundary domain adaptation for optic disc and cup segmentation",
+        "volume": "129",
+        "author": "He",
+        "year": "2024",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.bspc.2026.109679_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "4237",
+        "DOI": "10.1109/TMI.2020.3015224",
+        "article-title": "DoFE: Domain-oriented feature embedding for generalizable fundus image segmentation on unseen datasets",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.bspc.2026.109679_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1109/TMI.2022.3210133",
+        "article-title": "Domain and content adaptive convolution based multi-source domain generalization for medical image segmentation",
+        "volume": "42",
+        "author": "Hu",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2023.102904",
+        "article-title": "CDDSA: Contrastive domain disentanglement and style augmentation for generalizable medical image segmentation",
+        "volume": "89",
+        "author": "Gu",
+        "year": "2023",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Hu, Z. Liao, Y. Xia, Devil is in Channels: Contrastive Single Domain Generalization for Medical Image Segmentation, in: Medical Image Computing and Computer-Assisted Intervention – MICCAI 2023, volume 14223, Vancouver, Canada, 2023, pp. 14–23.",
+        "DOI": "10.1007/978-3-031-43901-8_2"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b11",
+        "unstructured": "C. Finn, P. Abbeel, S. Levine, Model-agnostic meta-learning for fast adaptation of deep networks, in: Proceedings of the 34th International Conference on Machine Learning, volume 70, Sydney, Australia, 2017, pp. 1126–1135."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.bspc.2026.109679_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2531",
+        "DOI": "10.1109/TMI.2020.2973595",
+        "article-title": "Generalizing deep learning for medical image segmentation to unseen domains via deep stacked transformation",
+        "volume": "39",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.bspc.2026.109679_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1095",
+        "DOI": "10.1109/TMI.2022.3224067",
+        "article-title": "Causality-inspired single-source domain generalization for medical image segmentation",
+        "volume": "42",
+        "author": "Ouyang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b14",
+        "unstructured": "V. Verma, A. Lamb, C. Beckham, A. Najafi, I. Mitliagkas, D. Lopez-Paz, Y. Bengio, Manifold Mixup: Better Representations by Interpolating Hidden States, in: Proceedings of the 36th International Conference on Machine Learning, volume 97, Long Beach, California, USA, 2019, pp. 6438–6447."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.bspc.2026.109679_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.3390/biomimetics9100637",
+        "article-title": "Lightweight optic disc and optic cup segmentation based on MobileNetv3 convolutional neural network",
+        "volume": "9",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "Biomimetics"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neucom.2023.03.044",
+        "article-title": "PKRT-net: Prior knowledge-based relation transformer network for optic cup and disc segmentation",
+        "volume": "538",
+        "author": "Lu",
+        "year": "2023",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.bspc.2026.109679_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1417",
+        "DOI": "10.1109/JBHI.2019.2899403",
+        "article-title": "Fully convolutional networks for monocular retinal depth estimation and optic disc-cup segmentation",
+        "volume": "23",
+        "author": "Shankaranarayana",
+        "year": "2019",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b18",
+        "series-title": "2018 25th IEEE International Conference on Image Processing",
+        "first-page": "2227",
+        "article-title": "Automatic optic disk and cup segmentation of fundus images using deep learning",
+        "author": "Edupuganti",
+        "year": "2018"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.bspc.2026.109679_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b20",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.compmedimag.2019.02.005",
+        "article-title": "Robust optic disc and cup segmentation with deep learning for glaucoma detection",
+        "volume": "74",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2021.108347",
+        "article-title": "End-to-end multi-task learning for simultaneous optic disc and cup segmentation and glaucoma classification in eye fundus images",
+        "volume": "116",
+        "author": "Hervella",
+        "year": "2022",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "102733",
+        "DOI": "10.1109/ACCESS.2020.2998635",
+        "article-title": "CDED-net: Joint segmentation of optic disc and optic cup for glaucoma screening",
+        "volume": "8",
+        "author": "Tabassum",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.bspc.2026.109679_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1109/TBME.2019.2913211",
+        "article-title": "JointRCNN: A region-based convolutional neural network for optic disc and cup segmentation",
+        "volume": "67",
+        "author": "Jiang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compeleceng.2021.107036",
+        "article-title": "Screening of Glaucoma disease from retinal vessel images using semantic segmentation",
+        "volume": "91",
+        "author": "Imtiaz",
+        "year": "2021",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b25",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2022, volume 13087",
+        "first-page": "86",
+        "article-title": "STCT: Spatial-temporal conv-transformer network for cardiac arrhythmias recognition",
+        "author": "Qiu",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b26",
+        "series-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "first-page": "5400",
+        "article-title": "Domain generalization with adversarial feature learning",
+        "author": "Li",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b27",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2020, volume 12262",
+        "first-page": "475",
+        "article-title": "Shape-aware meta-learning for generalizing prostate MRI segmentation to unseen domains",
+        "author": "Liu",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b28",
+        "series-title": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "first-page": "1013",
+        "article-title": "FedDG: Federated domain generalization on medical image segmentation via episodic learning in continuous frequency space",
+        "author": "Liu",
+        "year": "2021"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.bspc.2026.109679_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "3699",
+        "DOI": "10.1109/TMI.2022.3193146",
+        "article-title": "AADG: Automatic augmentation for domain generalization on retinal image segmentation",
+        "volume": "41",
+        "author": "Lyu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b30",
+        "series-title": "Biomedical Image Registration, Domain Generalisation and Out-of-Distribution Analysis, volume 13049",
+        "first-page": "40",
+        "article-title": "Domain-specific cycle-GAN augmentation improves domain generalizability for mitosis detection",
+        "author": "Fick",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/TMI.2025.3645821",
+        "article-title": "Mamba-sea: A mamba-based framework with global-to-local sequence augmentation for generalizable medical image segmentation",
+        "author": "Cheng",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2024.108459",
+        "article-title": "CauDR: A causality-inspired domain generalization framework for fundus-based diabetic retinopathy grading",
+        "volume": "175",
+        "author": "Wei",
+        "year": "2024",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b33",
+        "series-title": "Advances in Neural Information Processing Systems, volume 34",
+        "first-page": "12077",
+        "article-title": "SegFormer: Simple and efficient design for semantic segmentation with transformers",
+        "author": "Xie",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b34",
+        "series-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "first-page": "10217",
+        "article-title": "Unsupervised domain-specific deblurring via disentangled representations",
+        "author": "Lu",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.bspc.2026.109679_b35",
+        "unstructured": "D.P. Kingma, M. Welling, Auto-Encoding Variational Bayes, in: Proceedings of the International Conference on Learning Representations, ICLR, Banff, AB, Canada, 2014."
+      }
+    ],
+    "container-title": [
+      "Biomedical Signal Processing and Control"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1746809426002338?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1746809426002338?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2026-03-20T05:24:46Z",
+      "timestamp": 1773984286000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1746809426002338"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "references-count": 35,
+    "alternative-id": [
+      "S1746809426002338"
+    ],
+    "URL": "https://doi.org/10.1016/j.bspc.2026.109679",
+    "relation": {},
+    "ISSN": [
+      "1746-8094"
+    ],
+    "issn-type": [
+      {
+        "value": "1746-8094",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "CDFE-Net: Causality-inspired channel-masked feature disentanglement and enhancement for domain-generalizable optic cup/disc segmentation",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Biomedical Signal Processing and Control",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bspc.2026.109679",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "109679"
+  }
+}

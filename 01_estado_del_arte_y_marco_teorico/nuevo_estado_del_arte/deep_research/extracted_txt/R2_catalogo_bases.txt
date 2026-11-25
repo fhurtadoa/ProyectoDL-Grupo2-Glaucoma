@@ -1,0 +1,860 @@
+=== PAGINA 1 ===
+[72] Heterogeneidad de adquisición,
+[72] etiquetado y linaje en bases públicas de
+[72] retinografías para glaucoma
+[72] Las bases públicas de retinografías empleadas para entrenar y evaluar clasificadores profundos de glaucoma no conforman un dominio homogéneo, sino un conjunto fragmentado construido con propósitos dispares —desde segmentación geométrica del disco óptico hasta tamizaje poblacional de retinopatía diabética— que difieren simultáneamente en adquisición de imagen (cámara, campo de visión, midriasis, encuadre recortado frente a campo completo y resolución), definición clínica de la etiqueta (lectura visual aislada frente a diagnóstico multimodal con campo visual y optical coherence tomography [OCT], inclusión de sospechosos y estadificación) y prevalencia de clase (desde 4,3 % en tamizaje real hasta 69,3 % en colecciones caso-control) . Esta triple heterogeneidad ofrece un marco directo para interpretar el comportamiento observado en su experimento con ConvNeXt-Tiny entrenado en moondream/glaucoma-detection y probado sin reentrenar en ACRIMA, RIM-ONE DL y EyePACS: al cambiar de dominio, la discriminación global ( AUROC ) suele caer de forma moderada, pero el punto de decisión fijado en validación interna (especificidad ≥ 0,95) puede colapsar en sensibilidad por la concurrencia de cambio geométrico-fotométrico (recortes papilares frente a campo amplio con fondo negro), desplazamiento semántico de la etiqueta y descalibración probabilística entre dominios . En este informe se documenta el inventario técnico y metodológico de las bases públicas de glaucoma solicitadas y de colecciones adicionales relevantes, priorizando artículos revisados por pares entre 2016 y 2026, conservando las publicaciones fundacionales previas a 2016 cuando constituyen el origen primario de una base requerida (ORIGA-light, RIM-ONE r1, HRF, Drishti-GS y la red EyePACS) y marcando explícitamente como preprint los trabajos sin versión publicada verificada . Para cada cifra se precisa su ubicación documental y si se extrajo del texto completo, solo del resumen o de la ficha oficial del repositorio. Además, se cartografían las relaciones de derivación y solapamiento entre colecciones para prevenir fugas de datos ( data leakage ), se audita qué está verificado y qué permanece sin documentar en moondream/glaucoma-detection, se sintetiza la evidencia empírica distinguiendo validación interna, validación entre bases, leave-one-domain-out (LODO) y validación externa en centros o cohortes independientes, y se cierra con un registro de afirmaciones dudosas o contradictorias.
+[72] Inventario comparativo de bases públicas de
+[72] retinografías para glaucoma El análisis comparado de la documentación primaria evidencia tres fracturas estructurales que impiden tratar las bases públicas como intercambiables . La primera es el encuadre espacial : mientras las colecciones diseñadas para clasificación o segmentación papilar distribuyen
+
+=== PAGINA 2 ===
+[72] recortes centrados en la cabeza del nervio óptico (ACRIMA, RIM-ONE r1–r3, RIM-ONE DL y Kim's Eye Hospital), las bases clínicas recientes y de tamizaje proporcionan retinografías de campo completo centradas en la mácula o en el polo posterior (REFUGE1/2, AIROGS, JustRAIGS, BRSET, G1020, Chákṣu, GRAPE y OIA-ODIR) . La segunda fractura es el estándar de referencia : solo una fracción de las bases fundamenta la etiqueta diagnóstica en una evaluación clínica integral que incorpore perimetría (campo visual), OCT y presión intraocular (REFUGE1/2, PAPILA, GRAPE y Kim's Eye Hospital), mientras otras colecciones de uso extendido dependen exclusivamente de la inspección visual de la fotografía de fondo (ACRIMA, RIM-ONE DL, AIROGS, JustRAIGS, Chákṣu y BRSET) . La tercera fractura es la escala y la prevalencia , que abarcan más de tres órdenes de magnitud en número de imágenes (de 45 en HRF a más de 112 000 en AIROGS) junto con contrastes drásticos en la proporción de casos positivos .
+
+=== PAGINA 3 ===
+
+
+=== PAGINA 4 ===
+[72] La tabla siguiente consolida las 27 colecciones y versiones relevantes —incluidas todas las solicitadas más las referencias clave publicadas en 2016–2026— organizadas según las doce dimensiones exigidas. Para evitar confusión entre modalidades físicas distintas, al final se incorporan las colecciones de Harvard basadas en OCT o scanning laser ophthalmoscopy (SLO) y el repositorio moondream/glaucoma-detection, explicitando sus particularidades de adquisición.
+[81] Nomb re y versión
+[120] ArtículodeorigenconDOI
+[159] Paíseinstitución
+[198] N.ºdeimágen es y depacientes
+[237] Cámara(s)ycampodevisión(FOV)
+[276] Encuadre
+[315] Resolución
+[354] Definicióndelaetiqueta
+[393] Quiénetiquet ó y conquéestándar
+[432] ¿Unojoporpacient e o ambos?
+[471] ¿Particiónoficial?
+[510] Licenc ia y acceso
+[81] ACRIMA(v1)
+[120] Diaz-Pintoetal.(2019),CNNsforautomaticglaucomaassessmentusing
+[159] España(UPVValencia,Univ.CEUCardenalHerrera;proyectoTIN201
+[198] 705imágenes(396glaucoma,309normal)[textocompleto,Abstrac t y Tabl
+[237] TopconTRC+sistemaIMAGEnet®;FOV35°;conmidriasis[textocompleto,
+[276] Recortecentradoeneldiscoóptico(caja1,5×radiodeldisco;imágenes
+[315] Noreportadaeneloriginal;fuentessecundariasreportanrecorte
+[354] Binaria:glaucoma(396)vs.normal(309);sinmáscarasdesegmentaciónOD/
+[393] Pacientesseleccionadosclínicamente,perolasetiquetaslasasignar on 2 exp
+[432] Ambosojos(izquierdoyderechoenlamayoríadepacientes)[textocompl
+[510] AccesopúblicoenFigshare(artículobajoCCBY4.0;licenciaespecíficadelpaq
+[471] No
+
+=== PAGINA 5 ===
+[120] fundusimages:anextensivevalidati on , BioMedEngOnline18:29.DOI:10.1186/s12938-019-0649-y
+[159] 3-46751-R)yAlemania(FAUErlangen-Nuremberg)
+[198] a 1] . Pacientes:noreportado
+[237] Databasedescription]
+[276] deglaucomatienenmayortamañoquelassanas)[textocompleto,Fig. 1 y Hemelings2023Method s ]
+[315] svariable s de 202–63 7 px [preprint,Tabl a I] o2048×1536px(sinrecorte)
+[354] OC[textocompleto]
+[393] erto s en glaucoma(8añosexp.)solomedianteinspecciónvisualdelaimagen , sin usarotrainformaciónclínica[textocompleto]
+[432] eto]
+[510] ueteenFigsharenoverificadaporseparado)[textocompleto]
+[81] RIM-ONE
+[120] Fumer o et
+[159] España(Uni
+[198] 169imágen
+[237] NidekAF
+[276] Recortecen
+[315] Variable;
+[354] 5clases:
+[393] 5experto
+[432] Noreporta
+[510] Licenciafor
+[471] No
+
+=== PAGINA 6 ===
+[81] r1(v1)
+[120] al.(2011),RIM-ONE:Anopenretinalimagedatabaseforopticnerveevaluati on , IEEECBMS201 1 , pp.1–6.DOI:10.1109/CBMS.2011.5999143
+[159] v.deLaLaguna;hospitalesHCSCMadridyHUMSZaragoza)[textocompleto,Batista2020Tabl a 1]
+[198] es(118sanos,51glaucoma/OHT)[textocompleto,Batista2020CriticalRevision ] . Pacientesúnicosexactos:nodesglosadoaparte
+[237] C-210nomidriáti ca + CanonEOS5DMar k II (21,1MP);FOV45°[textocompleto,Batista2020]
+[276] tradoeneldiscoóptico(encuadrenoestandarizado)[textocompleto,Batista2020]
+[315] subconjuntoretenidoenDL:316–70 8 px [textocompleto,Batista2020Tabl a 1]
+[354] normal(118),early(12),moderate(14),deep(14),OHT(11)[extractoCBMS2011,Kumar2023textocompletoyfuentesecundaria ] + segme
+[393] s(diagnósticoprelimin ar + segmentaciónmanualdeOD)[textocompleto,Batista202 0] ; estándarclínicoexactonoverificado
+[432] doexplícitamente
+[510] malnoreportada;públicavíawebMIAG-ULL
+
+=== PAGINA 7 ===
+[354] ntacióndeOD
+[81] RIM-ONEr2(v2)
+[120] Extensión2014deFumer o et al.(auditadaenBatistaetal.2020,DOI:10.5566/ias.2346);sinartículoindependienteverifica
+[159] España(Univ.deLaLaguna;hospitalesHUCTenerif e y HUMSZaragoza)[textocompleto,Batista2020Tabl a 1]
+[198] 455imágenes(255sanas,200glaucoma)[textocompleto,Batista2020CriticalRevision ] . Pacientes:noreportado(incluyeduplica
+[237] NidekAFC-210nomidriáti ca + CanonEOS5DMar k II (21,1MP);FOV45°[textocompleto,Batista2020]
+[276] Recortecentradoeneldiscoóptico(noestandarizado)[textocompleto,Batista2020]
+[315] Variable;subconjuntoretenidoenDL:274–79 3 px [textocompleto,Batista2020Tabl a 1]
+[354] Binaria:normal(255)vs.glaucoma(20 0) + segmentacióndeOD[textocompleto,Batista2020]
+[393] 1especialistamédico(diagnósticoprelimin ar + segmentaciónmanualdeOD)[textocompleto,Batista2020]
+[432] Nocontrolado(contieneduplicadosder1,capturastest-retestysujetosrepetidosenr3)[textocompleto]
+[510] Licenciaformalnoreportada;públicavíawebMIAG-ULL
+[471] No
+
+=== PAGINA 8 ===
+[120] do(sinDOIverificado)
+[198] dosde r1 y test-ret est )
+[81] RIM-ONEr3(v3)
+[120] Fumer o et al.(2015),InteractiveToolandDatabaseforOpticDiscandCupSegmentationofStereoandMonocularRetinal
+[159] España(Univ.deLaLaguna;HospitalUniversitariodeCanarias,HUCTenerife)[textocompleto,Batista2020Tabl
+[198] 159imágenes/pares(85sanas,74glaucoma)[textocompleto,Batista2020CriticalRevision ] . Pacientesúnicos:norep
+[237] KowaWX3Destéreonomidriática;ángulo34°centradoenONH(parestéreoFOV20° H × 27°V)[textocompl
+[276] Centrad a en discoóptico(parestéreooriginal;recortenoestandarizado)[textocompleto,Batista2020]
+[315] Estéreooriginal2144×1424px(1072×1424pxporvista)[textocompleto,Batista2020];subconjuntoenDL:318–626
+[354] Binaria:normal(85)vs.glaucoma(74)+segmentacióndeODyOC[textocompleto,Batista2020]
+[393] 2especialistasparasegmentaciónmanualOD/OCconherramientaDCSeg[textocompleto,Batista202 0] ; estándar
+[432] Compartesujetosconr2;bilateralidadexactanoreportada
+[510] Licenciaformalnoreportada;públicavíawebMIAG-ULL
+[471] No
+
+=== PAGINA 9 ===
+[120] FundusIma ges , WSCG2015(sinDOIverificado)
+[198] ortado(solapasujetosconr2)
+[237] eto,Batista2020]
+[393] clínicodeldiagnósticonoverificado
+[159] a 1]
+[315] px
+[81] RIM-ONEDL
+[120] Batistaetal.(2020),RIM-ONEDL:AUnifiedRetinalImageDatabaseforAssessingGlaucomaUsin
+[159] España(Univ.deLaLaguna;3hospitales:HUCTenerife,HUMSZaragoza,HCSCMadrid)[tex
+[198] 485imágenes(313normal,172glaucoma)[textocompleto,Abstrac t y p. 4] . Conteoseparadodepaci
+[237] MezcladeNidekAFC-2 10 + CanonEOS5DMar k II (45°,r1/r 2) y KowaWX3Dvistaizq.(34°/20°×27
+[276] Recortecuadradoestandarizadocentradoeneldiscoópticoconigualproporcionalidad[texto
+[315] PNG;variablesegúnversiónfuente:274–79 3 px [textocompleto,Tabl a 1]
+[354] Binaria:normal(313 ) vs. glaucoma(172 ) + segmentaciónmanualdeODyOC[textocompleto,p.4]
+[393] Reetiquetadovisualcompletopor2expertos;desacuerdosresueltospor3.erespecialista(20año
+[432] Estrictamente1solaimagenporpacient e y ojo(sinduplicadosnitest-ret est ; nodescartabilateralidad
+[471] Sí,dosoficiales : (1) aleatoria70/30;(2)porhospital:trainHUC(311:195 N / 116G),testHCSC+
+[510] Licenciaformalnoespecificad a en elartículo;accesopúblicoenGitHub(miag-ull/rim-one-dl)
+
+=== PAGINA 10 ===
+[120] gDeepLearnin g , ImageAnalStereol39(3):161–167.DOI:10.5566/ias.2346
+[159] tocompleto,pp.1–3]
+[198] entesúnicos:noreportado
+[237] °,r3);nomidriáticas[textocompleto]
+[276] completo,p.4]
+[393] sexp.);segmentaciónOD/OCpor1especialista[textocompleto,p.4]
+[432] siexiste)[textocompleto,p.4]
+[471] HUMS(174 : 118 N / 56G)[textocompleto,EvaluationFramewor k ]
+[81] Drishti-GS/Drishti-GS1
+[120] Sivaswamyetal.(2014),Drishti-GS:Retinalimagedatase t for opti
+[159] India(IIITHyderabadyAravindEyeHospital,Madurai)
+[198] 101imágenes(70glaucoma,31normal)[textocompleto,Dia
+[237] Cámaradefondodealtaresolución(modeloexactoymid
+[276] Campocentradoeneldiscoóptico(30°FOV)[fuentes
+[315] PNGsincompresión;reportadacomo2896×1944px(version
+[354] Binaria:glaucoma(70)vs.normal(31)+mapassoftdesegmenta
+[393] 4expertosclínicos(3–20añosexp.,AravindEyeHospital)
+[432] Noreportado
+[471] Sí:50train(32G,18 N) y 51test(38G,13N)[fichaSMDG
+[510] Licenciaformalnoverificada;accesopúblicoenportalIIITHydera
+
+=== PAGINA 11 ===
+[120] cnervehead(ONH)segmentat ion , IEEEISBI201 4 , pp.53–56.DOI:10.1109/ISBI.2014.6867807;extensiónGS1:Sivaswamyetal.(2015),Acompr
+[198] z-Pinto2019Tabl a 1 yfichaSMDG-19].Pacientes:noreportado
+[237] riasi s no verificados);FOV30°[fuentessecundarias]
+[276] secundarias]
+[315] esrecortadascitadascomo2049×1751o2045×1752px)
+[354] ciónOD/OCynotching
+[393] parasegmentaciónOD/OCycriterioclínicohospitalario[soloresumen,Chaurasia202 4 y fuentessecundarias]
+[471] -19yfuentessecundarias]
+[510] bad
+
+=== PAGINA 12 ===
+[120] ehensiveretinalimagedatase t for theassessmentofglaucomafromtheopticnerveheadanal ysis , JSMBiomedImagingDataPapers
+
+=== PAGINA 13 ===
+[120] 2(1):1004(sinDOIverificado)
+[81] ORIGA/ORIGA-light
+[120] Zhangetal.(2010),ORIGA-light:AnOnlineRetinalFundusImageDatabaseforGlaucomaAnalysisandResear ch ,
+[159] Singapur(I2RA*STAR,SER I y NUS;cohortepoblacionalmalayaSiMES2004–2007)[textocompleto]
+[198] 650imágenes(336OI,314OD)[textocompleto,Tabla II] ; 482normaly168glaucomaenelusoestándar[fic
+[237] Noreportadaenoriginal201 0 ; fuentessecundariassobreSiMESreportanCanonCR-DGinomidriática,FO
+[276] Campocompletooriginal(herramientaORIGA-GTlocalizaROIdeldisco;variosestudioslausanrecortada)
+[315] Noreportadaenoriginal201 0 ; fuentessecundariasreportan3072×2048px
+[354] Binaria(168G,482 N) + segmentaciónOD/OC,CDR,reglaISNT,RNFL,muesca,hemorragi a y PPAalfa/beta[tex
+[393] ProfesionalesentrenadosdeSERIconherramientaORIGA-GT(protocoloCentreforEyeResearchAustrali a ) sob
+[432] CohorteSiMEScapturóambosojos ; en ORIGA-lighthay336 OI y 314ODsinconteoexactodeparesporpaciente[tex
+[471] No[textocompleto]
+[510] Originalmente«bajosolicitud»;actualmentenodisponibleoficialmenteenweboriginal[textocompleto,
+
+=== PAGINA 14 ===
+[120] IEEEEMBC201 0 , pp.3065–3068.DOI:10.1109/IEMBS.2010.5626137
+[198] haSMDG-19yfuentessecundaria s] . Pacientesúnicosensubconjunto650 : no reportado
+[237] V45°
+[276] [textocompleto,Sec.II.B.1]
+[354] tocompleto,TablasI–II]
+[393] recohorteclínicaSiMES[textocompleto,Sec.II]
+[432] tocompleto,TablaII]
+[510] Kumar202 3] ; redistribuidaenSMDG-19
+[81] REFUGE(REFUGE1)
+[120] Orland o et al.(2020),REFUGEChallenge:Aunifi
+[159] China(múltipleshospitalesyestudiosclínicos;
+[198] 1200imágenes(120glaucoma,1080noglau
+[237] 2cámaras:ZeissVisucam500(400trai n) y
+[276] Campocompletocentradoenpoloposteri
+[315] JPEG;2124×2056px(Zeiss,trai n) y 1634×1634px
+[354] Binaria:glaucoma(120;10%)vs.noglaucoma
+[393] Diagnósticoclínicoconhistoriaclínica,fotografía,
+[432] Noverificadoconcluyentemente(1200pacient
+[471] Sí ( cro ss-devi ce ): 400train(Zeiss:40G/360N),
+[510] Licenciaformalnoverificada;accesopúblicoprevio
+
+=== PAGINA 15 ===
+[120] edframeworkforevaluatingautomatedmethodsforglaucomaassessmentfromfundusphotograph s , MedImageAnal59:101570.DOI
+[159] etniachina;coordinadoconZhongshanOphthalmicCenteryconsorciointernacional)
+[198] coma)[textocompletoKumar202 3 y cita s] . Pacientes:citadocomo1200o600[preprint](noverificadoenoriginal)
+[237] CanonCR-2(800val+test);FOV45°[textocompletoKumar202 3 y citas]
+[276] or / mácula(incluyelocalizacióndefóvea)
+[315] (Canon,val/test)[textocompletoKumar202 3 y citas]
+[354] (1080;90%)+máscarasOD/OCyfóvea
+[393] PIO,OC T y VF[textocompletoCamara202 2 y Hemelings202 3] ; segmentaciónOD/OCpor7especialista s (8 añosexp.prom.,votomayoritario)
+[432] es/1ojoenvs.600sujetosen)
+[471] 400val/offline(Canon : 40 G/360N),400test/online(Canon : 40 G/360N)
+[510] registroenGrandChallenge
+
+=== PAGINA 16 ===
+[120] :10.1016/j.media.2019.101570
+[81] REFUGE2(Preprint)
+[120] Fan g et al.(2022),REFUGE2Challenge:ATreasureTroveforMulti-DimensionAnalysisandEvaluationinGlauco
+[159] China(ZhongshanOphthalmicCenter;desafíoMICCAI2020)
+[198] 2000imágenes(1200deREFUG E1 + 800nuevas);280glaucomay1720noglaucoma[fuentessecundaria
+[237] 4fabricantes:ZeissVisucam500yCanonCR-2(trai n = REFUGE1),Kowa(val,400 ) y TopconTRC-NW400(tes
+[276] Campocompleto(poloposterior)
+[315] Rango1634×1634a2124×2056px[fuentesecundaria ] ; resoluciónexactaKowa/Topconnoverificada
+[354] Binaria:glaucomavs.noglaucoma+segmentaciónOD/OCyfóvea
+[393] Estándarclínicomultimodal(fotografía,PIO, VF y OCT),equivalent e a REFUGE1[textocompleto,Hemelings202
+[432] Noreportado
+[471] Sí(multidispositivo):1200train(REFUGE1),400val(Kowa),400test(Topcon)
+[510] Licenciaformalnoverificada;accesovíaGrandChallenge
+
+=== PAGINA 17 ===
+[120] maScreeni ng , PreprintarXiv:2202.08994(sinDOIverificado)
+[237] t,400 ) . FOVnuevas:noverificado
+[198] s] . Pacientes:noreportado
+[393] 3]
+[81] LAG
+[120] Li et al.(2019),AttentionBasedGlaucomaDetection:ALarge-ScaleDatabaseand
+[159] China(BeijingTongrenHospital)
+[198] VersiónTMI:11760totales[fuentessecundaria s] ; CVPRconatención:5824(2392
+[237] Múltiplesmarcas:Zeiss,Can on y Topcon[textocompleto,Zhou2022Tabla 1] . FO
+[276] Campocompleto
+[315] Reportadacomo500×500pxentablacomparativa ; no especificad a en Zhou202
+[354] Binaria:glaucoma(GON)vs.normal+mapasdeatenciónvisualen5824imágen
+[393] EspecialistasdelBeijingTongrenHospital(etique ta a nive l de sujeto/imagen;prot
+[432] Noreportado
+[471] Sinparticiónpúblicafijaverificadaenellotede4854imágenes
+[510] Licenciaformalnoverificada;subconjuntode4854imágenesaccesiblevíaGitHub
+
+=== PAGINA 18 ===
+[120] CNNMo del , CVPR2019(sinDOIverificado);versiónrevista: Li et al.(2020),ALarge-ScaleDatabaseandaCNNModelforAttention-Based
+[198] G,3432N);subconjuntopúblicoGitHub:4854(171 1 G, 314 3 N) [textocompleto,Zhou2022Tabla 1] . Pacientes:noreportado
+[237] V:noreportado
+[354] es ( ey e-trackingsimulado)
+[393] ocoloVF/OCTexactonoverificadoentextocompletoprimario)
+[510] (smilell/AG-CNN)
+[315] 2
+
+=== PAGINA 19 ===
+[120] GlaucomaDetecti on , IEEETransMedImagin g , vol.39,p.413.DOI:10.1109/TMI.2019.2951844
+[81] G1020
+[120] Bajwaetal.(2020),G1020:ABenchmarkReti
+[159] Alemania(clínicaprivadaenKaiserslautern,2005–2
+[198] 1020imágenes(296glaucoma,724sanas)de
+[237] Modelodecámar a y midriasi s no verificados;FO
+[276] Campocompletocondiscoópticonocentrali
+[315] Variableentre1944×2108 px y 2426×3007px[extract
+[354] Binaria:glaucoma(296)vs.sano(72 4) + segme
+[393] Diagnósticoenprácticaclínicaprivada(Kaisers
+[432] Múltiplescapturasy/oambosojosporpaciente
+[471] Noverificadaenoriginal
+[510] Licenciaformaldeldatase t no verificada;accesopúb
+
+=== PAGINA 20 ===
+[120] nalFundusImageDatase t for Computer-AidedGlaucomaDetecti on , IEEEIJCNN202 0 , pp.1–7.DOI:10.1109/IJCNN48605.2020.9207664
+[159] 017;GermanResearchCenterenKaiserslautern)
+[198] 432pacientes[extractosBajwa202 0 y fichaSMDG-19]
+[237] V45°;capturaclínicarutinaria
+[276] zado(iluminaciónvariable,ruid o y bordesnegros)
+[315] oBajwa2020]
+[354] ntaciónOD/OC,boundingboxdeODyCDRvertical
+[393] lautern);númeroexactodeanotadore s y usodeVF/OCTnoverificadosentextocompleto
+[432] (~2,36imágenes/paciente)
+[510] lico(tambiénenSMDG-19)
+[81] PAP
+[120] Kovalyk
+[159] España
+[198] 488imá
+[237] Topcon
+[276] Camp
+[315] 2576×1
+[354] 3clas
+[393] Oftalm
+[432] Sí,am
+[471] Sí(par
+[510] CCBY
+
+=== PAGINA 21 ===
+[81] ILA
+[120] etal.(2022),PAPILA:Datasetwithfundusimagesandclinicaldat a of botheye s of thesamepatientforglaucomaassessme nt , SciData9(1):291.DOI
+[159] (Univ.PolitécnicadeCartagenayHospitalGeneralUniv.ReinaSofía[HGURS],Murcia;2018–2020)[textocompleto]
+[198] genesde244pacientes(333sanas,87glaucoma,68sospechosos;Tabl a 1 agrupa155G+sospechosos)[textocompleto,Tabl a 1 yfichaSMDG
+[237] TRC-NW400nomidriática;FOV(apertura)30°[textocompleto,Method s ]
+[276] ocompletocentradoenlapapila[textocompleto,Method s ]
+[315] 934px(JPEG,8bits/canal)[textocompleto,Method s ]
+[354] esclínicas:noglaucomatoso(333),glaucomatoso(87)ysospechoso(68)+segmentaciónOD/OCydatosclínicostabulares[textocompletoy
+[393] ólogosdelHGURSconexamenclínicointegral(PIONidekNT-2000,VFZeissHumphrey750i,paquimetría,biometríaaxial,refraccióne
+[432] bosojos(exactamente244paresOI/ODcompletos)[textocompleto,Abstrac t y Tabl a 1]
+[471] ticione s de validacióncruzad a en carpetaHelpCode)[textocompleto]
+[510] 4.0;accesopúblicoenFigshare(DOIdatos:10.6084/m9.figshare.14798004.v1)[textocompleto]
+
+=== PAGINA 22 ===
+[120] :10.1038/s41597-022-01388-1(correcciónsolodefinanciación:10.1038/s41597-024-03175-6)
+[198] -19]
+[354] SMDG-19]
+[393] historiaclínica);segmentaciónOD/OCpor2experto s (2 y 27 añosexp.)[textocompleto,Method s ]
+[81] EyePACS(KaggleDR2015)(sinetiquetas
+[120] Cuadro s & Bresnick(2009),EyePACS:AnAda
+[159] EE.UU.(reddetelemedicinaEyePACSLLC,
+[198] 88702imágenesenKaggleDR(35126train,
+[237] Múltiplescámar as y FOVsheterogéneos[fue
+[276] Campocompleto(tamizajedeRDenmúl
+[315] Heterogénea(altadefiniciónvariable)
+[354] Soloretinopatíadiabética(grados0–4);
+[393] Clínicoscalificadore s de retinopatíadiabética
+[432] Noreportadoexplícitamenteenlosextractos
+[471] Sí(paraRD):35126trai n / 53576test
+[510] DisponiblepúblicamenteenKaggle(términos
+
+=== PAGINA 23 ===
+[81] deglaucoma)
+[120] ptableTelemedicineSystemforDiabeticRetinopathyScreeni ng , JDiabetesSciTechnol3(3):509–516.DOI:10.1177/193229680900300315
+[159] SantaCruz,CA;UCBerkeley)
+[198] 53576test)[fuentessecundaria s] . Pacientes:noreportado
+[237] ntesecundaria]
+[276] tiplesclínicas)
+[354] NOcontieneetiquetasdeglaucoma
+[432] deKaggleDR
+[510] delicenciaexacto s no verificados)
+
+=== PAGINA 24 ===
+[81] AIROGS(RotterdamEyePACSAIROGS)
+[120] deVenteetal.(2024),AIROGS:ArtificialIntelligenceforRObustGlaucomaScreeningChallen ge , IEEETransMedImaging43(1):542–557.DOI
+[159] Captura : EE. UU.(~500centrosEyePACS,poblaciónmultiétnica).Etiquetado:PaísesBajos(RotterdamOphthalmicInstitute,RotterdamEyeHospita
+[198] 112732CFP s / 60071pacientesendeVenteTabl a 1 [textocompletopreprint](113893ojos / 60 357sujetosenLemij[soloresumen]ywebofici
+[237] ≥9modelos(OptovueiCam10025,8%,TopConNW40020,0%,CanonCR110,2%,CanonDGI9,4%,CanonCR29,3%,TopConNW2002,8%,Centerv
+[276] Campocompleto(tamizajeDREyePACS;sinrecortepapilarniespecificacione s de encuadreendeVente)
+[315] NoreportadaendeVen te ni weboficial
+[354] 3clases:referableglaucoma(RG:4872;4,3%),noreferableglaucoma(NRG:106306;94,3%),ungradable(U:1554;1,4%);RG=signosen
+[393] SoloinspecciónvisualdeCFP(sinVFniOCT),por20evaluadorescalibradosconexamenEODAT(≥8 5 % acc,≥92%esp.;monitoreo≥80%sen
+[432] Ambosojosposibles(~1,87CFPs/paciente;máx . 1 CFPporojo)[textocompletopreprint,Sec.2.1]
+[471] Sí(separadaporpaciente):Trainpúblico101442graduables(3270RG,98172NRG);Testcerrado11290(1602RG,8134NRG,155 4 U) [textocompl
+[510] Train:CCBY-NC-ND4.0enZenodo(10.5281/zenodo.5793241)y GrandChallenge;testcerrado(Docker)
+
+=== PAGINA 25 ===
+[120] :10.1109/TMI.2023.3313786(Tabla1extraídadeltextocompletodesupreprintarXiv:2302.01738v 2 ); Lemijetal.(2023),Ophthalmol Sci . DOI
+[159] l)[textocompletopreprin t y weboficial]
+[237] ueDRS1,6%,NidekAFC3000,1%,CrystalvueNFC-700<0,1%,desconocida20,8%)[textocompletopreprint,Tabla 1] . FOV:noreporta
+[354] CFPquehacenesperardañoenVF(10rasgos)[textocompletopreprint,Sec. 2.1 y Tabl a 1]
+[393] s / ≥95%esp.);doblelecturacieg a + adjudicaciónporespecialista(≥9 5 % EODAT)[textocompletopreprint,Sec.2.1]
+[471] etopreprint,Tabl a 1]
+[198] al ) .Train:101442(54274pac.);Test : 11 290(5797pac.)
+
+=== PAGINA 26 ===
+[120] :10.1016/j.xops.2023.100300
+[237] do
+[81] JustRAIGS(derivadoEyePAC S / Rotterdam)
+[120] Madad i et al.(2026),JustRAIGS:JustifiedReferra l in AIGlaucomaScreeningChallen ge , IEEETransMedImagin
+[159] Captura : EE. UU.(EyePACS,~500centros).Etiquetado/organización:PaísesBajos(ROIRotterdam)yEE.UU.(Uni
+[198] 111183imágenesgraduables(101442trai n + 9741test ) de ~60000sujetos[webofici al y Zenodo10.5281/zenodo.106
+[237] MismaadquisiciónmulticámaraheterogéneadeEyePACS;detalleexactoyFOVnoreportadosenfichaJus
+[276] Campocompleto(EyePACS);encuadrenoespecificadoenfichaoficial
+[315] Noreportadaenfichaoficial
+[354] Binaria(RGvs.NRG,solograduables;NRGincluyeenfermedadmuytempranasindañoesperadoenVF)
+[393] MismoestándarvisualdeROIRotterdam:doblelector(G1,G2)+adjudicaciónporespecialista(G3);rasgosendes
+[432] Ambosojosposibles(~111milfoto s de ~60milsujetos)
+[471] Sí:101442train(públic o) y 9741test(privadopermanente)[weboficial]
+[510] WeboficialdeclaratrainenZenodobajoCCBY-NC-SA;fichadocumentalZenodo10.5281/zenodo.106870
+
+=== PAGINA 27 ===
+[120] g45(1):320–335.DOI:10.1109/TMI.2025.3596874[resum en y piesdefigura]
+[159] v. of TennesseeHealthScienceCenter)
+[198] 87097]
+[237] tRAIGS
+[354] +10rasgosglaucomatososmultietiqueta(ANRS,ANRI,RNFLDS,RNFLDI,BCLVS,BCLVI,NVT,DH,LD,LC)[webofici al y Zenodo]
+[393] acuerd o se ignoranenevaluación[weboficial]
+[510] 97marcaCCBY4.0;testprivadopermanente
+[81] EyePACS-
+[120] Derivados
+[159] Imágenes
+[198] v1:reporta
+[237] Subconjunt
+[276] Campo
+[315] JPEG;v1:
+[354] Binariabala
+[393] Heredado
+[432] Noreporta
+[471] Síenv2:
+[510] Públicaen
+
+=== PAGINA 28 ===
+[81] AIROGS-light(v1yv2)
+[120] curado s en KaggleporR.Kiefer(2023–2024):v1DOI10.34740/KAGGLE/DS/3222646,v2DOI10.34740/KAGGLE/DSV/7300206;métodoenKieferet
+[159] deEE.UU./etiquetasPaísesBajos(subconjuntodeRotterdamEyePACSAIROGS);curadoporR.KieferenKaggle
+[198] docomo3270entablasecundaria(totalexactonoverificadoenfichav1);v2:9540imágenesbalanceadas(4770RG,4770NRG)[PM
+[237] odelascámarasdeAIROGS;FOVnoreportado
+[276] completoestandarizado(recortedinámicodefondonegro,centrad o y relleno)
+[315] 256×256px;v2:512×51 2 px [fuentesecundaria]
+[354] nceada50/50:RGvs.NRG(heredadadeAIROGS)
+[393] deAIROGS(lecturavisualEODATdeROIRotterdam)
+[432] do
+[471] 4000train,385valy385testporclase(80 00 / 770/770total)[OpenReview]
+[510] Kaggle(advertencia:posibleconflictoconcláusulaNoDerivativesCCBY-NC-ND4.0deAIROGS)
+
+=== PAGINA 29 ===
+[120] al.(2023),ICIVC202 3 , pp.460–465.DOI:10.1109/ICIVC58118.2023.10270429
+[198] C13639773yOpenReview]
+[198] (Remyes2025reporta9542).Pacientes:noreportado
+[81] SMDG-19
+[120] Kieferetal.(2023),ACatalo g of PublicGlaucoma
+[159] Compilaciónmultinacionalde19basespúblicas
+[198] 12449imágenes(7499noglaucoma,4817glauco
+[237] Múltiplescámar as y FOVsheterogéneosdelas19
+[276] Campocompletoestandarizado(excluyebasesrec
+[315] Estandariza da a 512×51 2 px (imágenesymáscarasOD/
+[354] 3códigosencolumnatypes:0noglaucoma(749
+[393] Heterogéneo:heredasinreetiquetadolosestándare
+[432] Mixto(heredado;incluyebasesbilaterales)
+[471] No(diseñadaexplícitamentesinparticióntrain/val/tes
+[510] Licenciadeclarada«Other(specifiedindescription)»
+
+=== PAGINA 30 ===
+[120] DatasetsforMachineLearningApplications,ACMICISDM202 3 . DOI:10.1145/3603765.3603779;dataset KaggleDOI:10.34740/KAGGLE
+[159] [fichaKaggle]
+[198] ma,133sospechosos)[fichaoficialKaggle,TablaDataStandardizatio n ] . Pacientesconsolidados:noreportado
+[237] fuentes
+[276] ortadaspuras;recortedinámicodefondonegro,centrad o y relleno)[fichaKaggle]
+[315] OC/vasoscuandoexisten)[fichaKaggle]
+[354] 9), 1 glaucoma(4817),-1sospechoso(133)[fichaKaggle]
+[393] sdispares(visuales,CDR,clínicosypalabrasclave)delas19fuentes
+[471] tfija)[fichaKaggle]
+[510] pormezcladelicenciasfuente;accesopúblicoenKaggle
+
+=== PAGINA 31 ===
+[120] /DS/2329670
+[81] BRSET(v1.0.0–v1.0.2)
+[120] Nakayamaetal.(2024),BRSET:ABrazilianMultilabelOphthalmologicalDatase t of RetinaFundusPho tos , PLOSDigitHealth
+[159] Brasil(3centrosambulatoriosenSãoPaulo,2010–2020;UNIFESPjuntoconMIT,Univ.delCauca,Univ.deOporto,BIDMC
+[198] 16266imágenesde8524pacientes[textocompleto,Abstrac t y Descriptiveanalysis]
+[237] 2cámaras:CanonCR-2(10592;65,1 %) y NikonNF505/NF5050(5674;34,9%);FOV45°;conmidriasisfarmacológica[texto
+[276] Campocompletocentradoenmácula(fóveacentradaconarcada s y ≥1diámetropapilarnasal;incluyetambiéntomascen
+[315] JPEG;altura874–2304px,ancho951–2984px[textocompleto,Datapreprocessing]
+[354] Multietiquetageneral;nohayglaucomaconfirmadoconVF/OC T : proveeoptic_discanormal(3281;20, 2 %) [textocompleto,Tabl
+[393] 1oftalmólogoespecialistaenretina(evaluaciónvisualdelaretinografía;criteriosICD R y SDRGparaRD;sinVFniOCTpar
+[432] Sí,ambosojos(examenpareado~1,91fotos/paciente;columnaexam_eye)[textocompletoyPhysioNet]
+[471] Particiónestratificad a 70 %train(20%internoval) / 30 %testenvalidacióntécnicadelartículo[textocompleto];sincarpetas
+[510] AccesoconcredencialesenPhysioNet(cursoCITI+DUA1.5.0);PhysioNetCredentialedHealthDataLicense1.5.0
+
+=== PAGINA 32 ===
+[120] (2024).DOI:10.1371/journal.pdig.000045 4 ; PhysioNetv1.0.2DOI:10.13026/mysn-8b26(última:10.13026/z9zv-g542)
+[159] yHarvardT.H.Chan)[textocompleto]
+[237] completoyfichaPhysioNet]
+[276] tradasendisco)[textocompletoTabl a 1 yPhysioNet]
+[354] a4]yincreased_cup_discbinario(conteopositivoexactonoverificadoenlosextractos)
+[393] aglaucoma)[textocompletoyPhysioNet]
+[471] fijasenPhysioNet
+[81] Chákṣu
+[120] Kumaretal.(2023),Chá
+[159] India(MIT/KMCManipa
+[198] 1345imágenes[texto
+[237] 3cámaras(incl.por
+[276] Campocompleto(má
+[315] JPEG/PNG(8bits/canal):
+[354] Binariaporimagen(normal
+[393] 5oftalmólogosexperto
+[432] Noreportado
+[471] Sí:1009train(810
+[510] CCBY4.0;accesopúblico
+
+=== PAGINA 33 ===
+[120] kṣu:Aglaucomaspecificfundusimagedataba se , SciData10(1):70.DOI:10.1038/s41597-023-01943-4
+[159] l,IIScBangalore,ASRAMEluru,HindInst.Sitapur,AasthaSuperspecialityEyeHospitalBangalore;etniaindia)[textocompleto]
+[198] completo].Conteoexactonormalvs.glaucomaynúmerodepacientesúnicos:noreportadoseneltextoverificado
+[237] tátiles):RemidioFundus-on-Phonenomidriática(1074),Bosch(145 ) y Forus3Nethra(126);FOV40°[textocompletoyespejoFigshare]
+[276] culaydisco)[fuentesecundaria]
+[315] 2448×3264px(Remidio),2048×1536px(Forus),1920×1440px(Bosch)[textocompletoyespejo]
+[354] vs.glaucomatoso/sospecha)+contornosOD/OC(media,mediana,mayoríaySTAPLE ) y CDRvertical/horizontal/área[textocompleto]
+[393] s;decisióndeglaucomaporvotomayoritariosob re la imagen(sinreportedeVF/OCT)[textocompleto,Abstract]
+[471] Remidio,104Bosch,95Forus)y336test(264Remidio,41Bosch,31Forus)[textocompleto]
+[510] enFigshare(DOIdatos:10.6084/m9.figshare.20123135)[textocompleto]
+[120] (correccióndeautores:10.1038/s41597
+
+=== PAGINA 34 ===
+[120] -023-02084-4)
+[81] GRAPE
+[120] Huangetal.(2023),GRAPE : A multi-modaldatase t of longitudinalfollow-upvisualfieldandfundusimagesforglaucoma
+[159] China(EyeCenter,SecondAffiliatedHospital,ZhejiangUniversity,Hangzhou;2015–2022)[textocompleto]
+[198] 1115registroslongitudinalesde263ojosy144pacientes(todosconglaucoma;0controlessan os ) [textocompleto,Abstrac t y
+[237] 3cámarasnomidriáticas:TopconTRC-NW8,CanonCR-2PLUSAF,CanonCR-2AF;FOV50°[textocompleto,Method s y
+[276] Campocompletocentradoenmácula(másROIrecortadodeOD/OC)[textocompleto,Method s y Tabla1]
+[315] JPG;1556×1556px,2136×2136 px y 1611×161 1 px [textocompleto,Tabla1]
+[354] Sologlaucomaconfirmado(OA G y ACG;sincontrolessanos) + 3 criterio s de progresión(PLR2,PLR3,MD) , VF 61puntos,OCT
+[393] Diagnósticoclínicoinicialconfirmadopor3especialistasenglaucoma(guíasAAOPreferredPracticePatt ern ) +VFOct
+[432] Ambosojosposibles(263ojos/144pacientes;~1,83ojos/pac.)[textocompleto]
+[471] Noreportadaparticiónfijaenelextractoverificado
+[510] CCBY4.0;accesopúblicoenFigshare[textocompleto]
+
+=== PAGINA 35 ===
+[120] managem ent , SciData10(1):520.DOI:10.1038/s41597-023-02424-4
+[198] Method s ]
+[237] Tabla1]
+[354] RNFLbasal,PIO,CC T y OD/OC[textocompleto,Tabla1]
+[393] opus900(FN/FP<30 %) y OCT;segmentaciónROIpor1autora[textocompleto,Method s ]
+[81] OIA-ODIR(ODIR-5K)
+[120] Li et al.(2021),ABenchmar k of OcularDiseaseIntel
+[159] China(ShanggongMedicalTechnology,Nankai
+[198] 10000imágenesde5000pacientes[solores
+[237] Múltiplescámaras:Zeiss,Can on y Kowa[textoco
+[276] Campocompleto
+[315] Variablesegúncámara;noespecificada
+[354] Multietiqueta(8clases:N,DR,Glaucoma,Catarata,
+[393] Etiquetadoclínicohospitalario;númeroexactode
+[432] Sí,ambosojos(5000paresbinocularesOI/OD)[sol
+[471] Sí:3500pac.train,500pac.off-sitetest,1000pac.
+[510] Licenciaformalnoverificada;accesopúblicoenGitHub
+
+=== PAGINA 36 ===
+[120] ligentRecognition:OneSho t for Multi-diseaseDetecti on , LNCS12614:177–193.DOI:10.1007/978-3-030-71058-3_11
+[159] Uni v. y CAS;487hospitalesen26provincias)[arXiv,soloresumen]
+[198] umen];subconjuntofiltradoparaglaucomaenSMDG-19:4494(415 1 N, 291G,52sospechosos)[fichaKaggle]
+[237] mpleto,Zhou2022Tabla 1] . FOV:noreportado
+[354] AMD,Hipertensión,Miopía,Otros)[soloresumen]
+[393] lectore s y usodeVF/OCTnoverificadosentextocompletoprimario
+[432] oresumen]
+[471] on-sitetest[fuentesecundaria]
+[510] (nkicsl/OIA-ODIR)yGrandChallenge
+[81] HRF(High-Resolution
+[120] Bud ai et al.(2013),Robust
+[159] Alemania(FAUErlange
+[198] 45imágenes(15sanas,
+[237] CanonCR-1;FOV45°
+[276] Campocompleto(co
+[315] 3504×2336px[fuentes
+[354] 3categorías(sano,DR,
+[393] Experto s en imagenretinal
+[432] Noreportado
+[471] No[weboficial]
+[510] CCBY4.0;descargadire
+
+=== PAGINA 37 ===
+[81] Fundus)
+[120] VesselSegmentationinFundusIma ges , Int J BiomedImaging2013:154860.DOI:10.1155/2013/154860(vertambiénOdstrcilik2013,10.1049/iet-
+[159] n-Nuremberg)yRep.Checa(Univ.TecnológicadeBrn o y EyeClinicZlin)[weboficial]
+[198] 15DR,15glaucoma)[weboficial].Pacientesúnicosexactos:noreportadoexplícitamente
+[237] [webofici al y revisiones]
+[276] nmáscarasdeFOV)[weboficial]
+[315] secundarias]
+[354] glaucoma);diseñadaparasegmentaciónvascular(incluyecentroyradiodeODpor2expertos)[weboficial]
+[393] yclínicosdeclínicascooperantes(estándarVF/OCTnoreportado)[weboficial]
+[510] ctaabiertaenwebFAU[weboficial]
+
+=== PAGINA 38 ===
+[120] ipr.2012.0455)
+[81] RIGA
+[120] Almazroaetal.(2018),Retinalfundusimagesforglaucomaanalysis:theRIGAdatase t , ProcSPIE10579:105790B.DOI:10.1
+[159] Compiladaconautore s de Canadá(Univ.Waterlo o y Ryerso n) a partirdetresfuentesclínicas:MESSIDOR(460),BinRushedOphth
+[198] 750imágenesoriginales[textocompletoKumar202 3 y fich a] . Pacientes:noreportado
+[237] Múltiplescámarasde3centros(nodesglosada s en extractos);FOV45°enMESSIDOR
+[276] Campocompleto
+[315] Variablesegúnfuente(enMESSIDOR:2304×1536,2240×1488y1440×960px)[textocompleto,Kumar2023]
+[354] Sinetiquetasdiagnósticasnideseveridaddeglauco ma ; solosegmentaciónmanualdecontornosdeODyOC[textocompleto,
+[393] 6oftalmólogosexperimentadosdeformaindependientecontabletaylápi z de precisión[resumen/ficha]
+[432] Noreportado
+[510] CCBY-NC4.0;accesoabiertoenDeepBlueUniv.Michigan(DOIdatos:10.7302/Z23R0R29)
+[471] No
+
+=== PAGINA 39 ===
+[120] 117/12.2293584
+[159] almicCenter(195 ) y unatercerafuente(95,nombrenoverificadoenelextracto)
+[354] Kumar2023]
+[81] Kim'sEyeHospital(Ah n et al.,2018)
+[120] Ahnetal.(2018),Adeeplearningmodelforthedetecti
+[159] CoreadelSur(Kim'sEyeHospitalSeúl,SoongsilUniv.,
+[198] 1542imágenesde1542pacientes(786normal,289glau
+[237] NidekAFC-330nomidriática[textocompleto,Method s ] .
+[276] Recortecentradoeneldiscoóptico(escalad as a 800pxde
+[315] 240×240px(y224×22 4 px trasaumento/distribución)[tex
+[354] 3estadi os : normal(786),earlyglaucoma(289:defect
+[393] Consensode2especialistasusandofotografíaRNFLlibr
+[432] 1542fotospara1542pacientes(implic a 1 imagen/pa
+[471] Sí:754train(38 5 N, 141E,228A),324val(165N,61E,98
+[510] ArtículobajoCCBY;datosenaccesoabiertoenHarvard
+
+=== PAGINA 40 ===
+[120] onofbothadvancedandearlyglaucomausingfundusphotograph y , PLoSONE13(11):e0207982.DOI:10.1371/journal.pone.0207982
+[159] PDXenBiosystemsyKonyangUniv.)[textocompleto]
+[198] comatemprano,467glaucomaavanzado)[textocompleto,Abstrac t y Tabla1]
+[237] FOV:noreportado
+[276] anc ho y recortadasalrededordeONH)[textocompleto,Method s ]
+[315] tocompletoMethod s y fuentesecundaria]
+[354] oRNFLsindefectoenVF)yadvancedglaucoma(467:excavacióncasitotalconosinpérdidaseveradeVFen10°)[textocompleto,Met
+[393] ederojo(KowaVx-10),CirrusHD-OC T y campovisualHumphrey740[textocompleto,Method s ]
+[432] ciente;lateralidadnoexplicitada)[textocompleto]
+[471] A),464test(23 6 N, 87E,141A)[textocompleto,Tabla1]
+[510] Dataverse(DOIdatos:10.7910/DVN/1YRRAC)[textocompleto]
+
+=== PAGINA 41 ===
+[354] hod s ]
+[81] Harvard-GDP(OCTRNF L + VF;sinCFP)
+[120] Luoetal.(2023),HarvardGlaucomaDetectionandProgressio n: A MultimodalMultitaskDatasetandGeneralization-ReinforcedSe
+[159] EE.UU.(HarvardOphthalmologyAILab,HarvardUniversity)
+[198] 1000pacientes(1000archivos.npzconmapaRNFL-OCT y VF emparejado)[preprintmedRxiv2026Sec. 2.1 y citas]
+[237] NOesCF P : escaneoOCTperipapilarde6×6mm(modeloexactonoverificado)+perímetroHumphrey24-2
+[276] Escaneoperipapilarcentradoeneldiscoóptico(ONH)
+[315] 225×22 5 px (mapasdeespesorRNFL)
+[354] Binariaporumbraldecampovisual:san o si MD ≥ −1 dB,glaucomasiMD < −1 dB(má s 52 valoresTDyvariablesdemográficas)[preprin
+[393] Umbralcuantitativodefunciónvisual(Humphrey24-2MD)
+[432] 1registroporpacienteenellotede1000
+[471] Partición700/150/150usadaenevaluaciónsecundaria;splitoficialdelreponoverificado
+[510] Accesopúblico;licenciaexactanoverificada
+
+=== PAGINA 42 ===
+[120] mi-SupervisedLearnin g , IEEE/CVFICCV202 3 . DOI:10.1109/ICCV51070.2023.01872
+[354] tmedRxiv2026Sec.2.1.1]
+[81] Harvard-FairVision(Glaucoma)(Preprint;SLOgris
+[120] Luoetal.(2023;v3abril2024),FairVision:Equitabl
+[159] EE.UU.(HarvardOphthalmologyAILab,Harvard
+[198] 10000sujeto s (1 imagenSLO + 1 volumenOCT/su
+[237] NOesCFPencol or : imagenSLOenescalade
+[276] Centradoeneldiscoóptico(ONH-centered)[tex
+[315] SLO:200×200pxescaladegrises;OCT:200B-s
+[354] Binariaestrictaporfunciónvisual ( ex cluyecasosinte
+[393] Criterioobjetivodecampovisual(MD,GH T y
+[432] 1ojoporsujeto(1SLO y 1 volumenOCT/sujeto)
+[471] Sí:Train6000(2898N,3102G),Val1000(48
+[510] AccesovíaHarvardOphthalmologyAILab;licencia
+
+=== PAGINA 43 ===
+[81] +OCT,sinCFP)
+[120] eDeepLearningforEyeDiseaseScreeningviaFairIdentityScal ing , PreprintarXiv:2310.02492.DOI:10.48550/arXiv.2310.02492(verherma
+[159] University)
+[198] jeto)dentrode30000totalesdeFairVision[textocompleto,Cho2026DiagnosticsSec.2.2]
+[237] gris es + volumen3DOCT(modelodeequipoyFOVnoreportadosenCho2026)[textocompleto]
+[276] tocompleto,Cho2026Tabla4]
+[315] can s de 200×200px[textocompleto,Cho2026Sec.2.3]
+[354] rmedi os ): normalsiMD ≥ −1 dB+GH T y PSDnormales;glaucomasiMD < −3 dB+GH T y PSDanormales[textocompleto,Cho2026Sec.2.2]
+[393] PSD ) + 6 atributosdemográficosautorreportados[textocompleto,Cho2026Sec.2.2]
+[432] [textocompleto]
+[471] 7 N, 513G),Test3000(146 7 N, 153 3 G) [textocompleto,Cho2026Tabl a 1]
+[510] específicanoverificada
+
+=== PAGINA 44 ===
+[120] noOCT-RNFL:HarvardGlaucomaFairness,IEEETMI2024,10.1109/TMI.2024.3377552)
+[81] moondream/glaucoma-detection(HuggingFac
+[120] Sinartículocientífic o ni preprint;repositoriocomercial
+[159] Noreportado(organizacióncomercialMoondream;
+[198] 5378muestrastotales(train2847,val1259,test
+[237] Noreportada;FOVnoreportado[fichadelreposit
+[276] Noreportadoenlafichaoficial(soloindica«ret
+[315] Noreportadaenlafichaoficial(archivosParque
+[354] 3estadios:normal,earl y y advanced,descritosen
+[393] Noreportado(noseindicaquiénetiquet ó ni sise
+[432] Noreportado
+[471] Sí(enParquet):train2847(52,9%),val1259
+[510] SinlicenciadeclaradaenYAMLnificha;descar
+
+=== PAGINA 45 ===
+[81] e)
+[120] deMoondream(moondream.ai)subidoenabri l de 2026(sinDOIverificado)
+[159] procedenciaclínicadelasimágenesnodeclarada)[fichadelrepositorio]
+[198] 1272)[fichaoficialREADME.md,commit56d14df].Conteoporclas e y pacientes:noreportados
+[237] orio]
+[276] inalfundusimages » ; pesomedio~13,2KB/muestrasugierebajaresoluciónorecorte)
+[315] t,total70,81MB)
+[354] unalíneasinumbralesclínicos[fichaREADME.md]
+[393] empleóVF,OC T o lecturavisual)
+[471] (23,4%),test1272(23, 7 %) [fichaREADME.md]
+[510] gapúblicalibreenHuggingFace
+[72] Aclaración sobre qué versión de EyePACS tiene etiquetas de glaucoma y alcance de Harvard-GDP / FairVision Una fuente habitual de ambigüedad en el estado del arte consiste en aludir genéricamente a «EyePACS» como si existiera un único conjunto de datos . El conjunto Kaggle EyePACS (2015) de 88 702 imágenes —proveniente de la red de telemedicina descrita por Cuadros y Bresnick (2009)— contiene únicamente grados de retinopatía diabética (0–4) y carece de etiquetas de glaucoma . Las versiones basadas en la red EyePACS que sí incorporan etiquetas de glaucoma proceden del programa de lectura clínica del Rotterdam Ophthalmic Institute (Rotterdam Eye Hospital, Países Bajos) : (1) Rotterdam EyePACS AIROGS (112 732 imágenes en la Tabla 1 de de Vente et al. / 113 893 en Lemij et al. 2023 y la web oficial, con 101 442 imágenes graduables públicas de entrenamiento), con etiquetas RG, NRG y U ; (2) JustRAIGS (2026), que
+
+=== PAGINA 46 ===
+[72] conserva las mismas 101 442 imágenes graduables de entrenamiento y añade 10 rasgos glaucomatosos justificativos ; y (3) los subconjuntos balanceados y estandarizados mediante recorte de fondo negro EyePACS-AIROGS-light v1 (256×256 px) y v2 (9540 imágenes a 512×512 px) publicados en Kaggle por Kiefer (2023–2024) . Para su manuscrito en DYNA , conviene especificar con exactitud cuál variante de EyePACS se empleó en la prueba externa, ya que el fondo negro sin estandarizar de AIROGS difiere geométricamente del recorte dinámico de EyePACS-AIROGS-light-v2 y su prevalencia cambia de 3,2–4,3 % a 50,0 % . Por su parte, ni Harvard-GDP ( ICCV 2023 ) ni Harvard-FairVision (preprint arXiv:2310.02492) son bases de retinografías en color (CFP) convencionales . Harvard-GDP empareja mapas 2D de espesor RNFL obtenidos mediante OCT (225×225 px) con perimetrías Humphrey 24-2 , mientras que Harvard-FairVision Glaucoma combina volúmenes OCT con imágenes de fondo adquiridas por oftalmoscopía láser de barrido (SLO) en escala de grises (200×200 px) . Evaluar un modelo entrenado en CFP sobre FairVision introduce un cambio de modalidad física ( modality shift ) además de la variación de cámara y etiqueta .
+[72] Linaje, derivación y riesgo de fuga de datos entre
+[72] bases Un riesgo metodológico frecuente en estudios de validación entre bases y leave-one-domain-out consiste en asumir independencia estadística entre colecciones cuyos nombres difieren, cuando en realidad comparten imágenes idénticas o pacientes repetidos. En el ecosistema público de glaucoma se identifican cinco cadenas principales de herencia confirmada cuya trazabilidad resulta indispensable para descartar data leakage .
+[72] El análisis de cada cadena de derivación revela vulnerabilidades concretas tanto para diseñar sus experimentos como para auditar resultados publicados en la literatura:
+
+=== PAGINA 47 ===
+[72] 1. Familia RIM-ONE (r1, r2, r3 → RIM-ONE DL): En su revisión crítica, Batista et al. (2020, texto completo, pp. 3–4) documentaron que RIM-ONE r2 contenía duplicados provenientes de r1 además de capturas test-retest casi idénticas del mismo ojo, y que varios sujetos de r2 reaparecían en r3 . Por ello, RIM-ONE DL (485 imágenes) no es un conjunto independiente, sino la unificación depurada, recortada uniformemente y reetiquetada de r1, r2 y r3, conservando la trazabilidad mediante los prefijos de archivo r1, r2 y r3 . Cualquier entrenamiento en r1, r2 o r3 evaluado en RIM-ONE DL (o a la inversa) introduce fuga directa de imágenes y sujetos . 2. Familia EyePACS → Rotterdam (AIROGS, JustRAIGS, AIROGS-light v1/v2 y SMDG-19): Tanto AIROGS como JustRAIGS comparten el acervo de EyePACS LLC etiquetado por el Rotterdam Ophthalmic Institute: ambos utilizan exactamente 101 442 imágenes graduables en su conjunto público de entrenamiento (y las 111 183 imágenes totales de JustRAIGS coinciden con el número exacto de ojos graduables reportado en Lemij et al. 2023) [texto completo preprint de Vente Tabla 1, web oficial JustRAIGS y resumen Lemij 2023] . A su vez, EyePACS-AIROGS-light v1 y v2 extraen subconjuntos balanceados de AIROGS , y SMDG-19 incorpora 3269 imágenes positivas de EyePACS-AIROGS (casi la totalidad de las 3270 imágenes RG del entrenamiento público de AIROGS) [ficha oficial Kaggle, Tabla Data Standardization ] . Entrenar en SMDG-19 o EyePACS-AIROGS-light y probar en AIROGS o JustRAIGS provoca una fuga severa; además, incluir 3269 positivos y 0 negativos de EyePACS-AIROGS dentro de SMDG-19 crea un riesgo serio de aprendizaje de atajos ( shortcut learning ), pues el modelo puede asociar rasgos instrumentales de EyePACS con la clase positiva . 3. Familia REFUGE1 → REFUGE2 → SMDG-19: Las 1200 imágenes completas de REFUGE1 (400 Zeiss Visucam 500 + 800 Canon CR-2) constituyen la partición de entrenamiento de REFUGE2 , que añade 400 imágenes Kowa (validación) y 400 Topcon (prueba) [texto completo Kumar 2023 y citas de Fang 2022] . A su vez, SMDG-19 incluye 800 imágenes de REFUGE1 (400 de entrenamiento y 400 de validación: 720 no glaucoma y 80 glaucoma) [ficha Kaggle] . 4. Compilación SMDG-19 y otros meta-conjuntos: Según la tabla Data Standardization de la ficha oficial en Kaggle, SMDG-19 agrupa 19 particiones/bases públicas (12 449 instancias totales): BEH (463 N / 171 G), CRFO-v4 (31 N / 48 G), DR-HAGIS (0 N / 10 G), DRISHTI-GS1-TRAIN (18 N / 32 G), DRISHTI-GS1-TEST (13 N / 38 G), EyePACS-AIROGS (0 N / 3269 G), FIVES (200 N / 200 G), G1020 (724 N / 296 G), HRF (15 N / 15 G), JSIEC-1000 (38 N / 0 G / 13 sospechosos), LES-AV (11 N / 11 G), OIA-ODIR-TRAIN (2932 N / 197 G / 18 sospechosos), OIA-ODIR-TEST-ONLINE (802 N / 58 G / 25 sospechosos), OIA-ODIR-TEST-OFFLINE (417 N / 36 G / 9 sospechosos), ORIGA-light (482 N / 168 G), PAPILA (333 N / 87 G / 68 sospechosos), REFUGE1-TRAIN (360 N / 40 G), REFUGE1-VALIDATION (360 N / 40 G) y sjchoi86-HRF (300 N / 101 G) . SMDG-19 no incluye ACRIMA ni RIM-ONE DL por limitarse a imágenes de campo completo, pero absorbe la mayoría de las bases clásicas de campo amplio . Igualmente, compilaciones como la de Chaurasia et al. (2024, Eye , 18 468 imágenes de 20 bases) o paquetes de Kaggle como eye_diseases_classification (4217 imágenes mezclando IDRiD, HRF y otras)
+
+=== PAGINA 48 ===
+[72] exigen auditoría de origen antes de usarse en evaluación entre bases . 5. Otras derivaciones y fuga intrapaciente: ORIGA-light (650 imágenes) se extrajo de la cohorte poblacional SiMES (3280 adultos malayos) [texto completo, Zhang et al. 2010] , y RIGA (750 imágenes) reutiliza 460 imágenes de MESSIDOR junto con 195 de Bin Rushed y 95 de una tercera fuente clínica . Finalmente, incluso dentro de una misma base, dividir aleatoriamente por imagen en lugar de por paciente introduce fuga intrapaciente en colecciones bilaterales o longitudinales como PAPILA (2 ojos/paciente), OIA-ODIR (2 ojos/paciente), BRSET (~1,91 fotos/paciente), G1020 (~2,36 imágenes/paciente), GRAPE (1115 visitas de 144 pacientes), ACRIMA (ambos ojos en la mayoría de sujetos) y AIROGS (~1,87 CFPs/paciente) .
+[72] Auditoría del dataset de Hugging Face
+[72] "moondream/glaucoma-detection" Al entrenar su clasificador ConvNeXt-Tiny sobre moondream/glaucoma-detection y evaluar la transferencia sin reentrenar hacia ACRIMA, RIM-ONE DL y EyePACS, conviene diferenciar con transparencia en su artículo de DYNA lo que está confirmado en el repositorio oficial de lo que no está documentado. Qué está verificado A partir del examen directo del historial de commits y del archivo README.md completo (commit 56d14df del 7 de abril de 2026 por err805), del script oficial train_glaucoma_query.py en GitHub (m87-labs/moondream) y de las páginas del producto Moondream Lens (moondream.ai/lens/glaucoma-detection y entrada de blog del 20 de abril de 2026) , se verifican únicamente los siguientes hechos: ● Naturaleza y propósito: Repositorio comercial sin revisión por pares (sin artículo científico ni DOI) publicado por la empresa Moondream como caso de demostración clínica para su servicio de ajuste fino por aprendizaje por refuerzo ( reinforcement learning , RL), Moondream Lens . ● Volumen, formato y particiones: Contiene 5378 muestras en formato Parquet repartidas en train ( 2847 muestras , 37 436 023 bytes; 52,9 %), validation ( 1259 muestras , 16 497 609 bytes; 23,4 %) y test ( 1272 muestras , 16 880 918 bytes; 23,7 %), con un tamaño total del dataset de 70 814 550 bytes (~70,81 MB; tamaño de descarga 71,09 MB) [ficha README.md, commit 56d14df] . ● Indicador indirecto de tamaño de imagen (cálculo explícito): Dividiendo 70 814 550 bytes entre 5378 muestras se obtiene un peso promedio de ~13,2 KB por muestra (incluyendo imagen y etiqueta de texto). Esta huella de almacenamiento es incompatible con retinografías clínicas sin comprimir de alta resolución y resulta coherente con recortes de baja resolución o compresión JPEG agresiva, en consonancia con las observaciones experimentales de su equipo. ● Esquema y clases: Solo ofrece dos columnas (image y class) con tres cadenas exactas —normal ( «No glaucoma visible in the image» ), early ( «Early-stage glaucoma findings» ) y advanced ( «Advanced glaucoma findings» )— sin metadatos demográficos, clínicos ni de
+
+=== PAGINA 49 ===
+[72] paciente [ficha README.md] . ● Cifras reportadas por el proveedor (fuente comercial, no revisada por pares): En la página promocional de Moondream Lens, la empresa declara que su modelo base obtiene 17,6 % de exactitud, GPT-5.4 alcanza 33,2 % y su modelo ajustado con 100 pasos de RL (47 minutos, costo USD 15,68) alcanza 69,2 % en este conjunto, sin divulgar AUROC, sensibilidad, especificidad ni métricas desagregadas por estadio [página web del proveedor] . Qué NO se sabe ni está documentado La tarjeta oficial de moondream/glaucoma-detection y las páginas asociadas de Moondream no reportan : (1) país, hospital, institución o cohorte clínica de origen; (2) modelo de cámara, campo de visión, midriasis, encuadre formal ni resolución exacta en píxeles; (3) distribución numérica de clases (normal, early, advanced) por partición; (4) número de pacientes únicos ni si existen ojos bilaterales o imágenes aumentadas repetidas entre train, validation y test; (5) criterios clínicos que definen el límite entre early y advanced (por ejemplo, glaucoma preperimétrico frente a criterios de campo visual o lectura visual subjetiva); (6) perfil y número de anotadores o protocolo de consenso; y (7) licencia legal de uso (el encabezado YAML del README.md carece de campo license:) . Hipótesis de reutilización y protocolo de auditoría recomendado para DYNA Con la documentación pública disponible no es posible confirmar ni descartar si moondream/glaucoma-detection reutiliza imágenes de otras bases públicas . No obstante, dos indicios técnicos ameritan una verificación empírica local antes de someter el manuscrito. Entre las bases públicas revisadas por pares documentadas en este informe, la colección clínica cuya taxonomía tri-clase coincide literalmente con normal, early y advanced es Kim's Eye Hospital (Ahn et al., 2018; PLoS ONE , DOI 10.1371/journal.pone.0207982, Harvard Dataverse 10.7910/DVN/1YRRAC) , compuesta por 1542 recortes papilares (240×240 / 224×224 px; 786 normales, 289 early preperimétricos y 467 advanced ) que también circula reempaquetada en Kaggle por terceros bajo nombres como «Advanced-early-normal Glaucoma Dataset» (orvile/glaucoma-dataset) . Otra colección conocida de tres estadios, GAMMA (multimodal CFP+OCT), emplea las etiquetas normal, early-glaucoma y progressive-glaucoma sobre un volumen muy inferior (99 casos) . El volumen de 5378 muestras de moondream/glaucoma-detection (~3,49 veces los 1542 casos de Kim's Eye Hospital) y sus proporciones inusuales de partición (~52,9 % / 23,4 % / 23,7 %) sugieren dos hipótesis aún sin verificar: que derive de un reempaquetado de Kim's Eye Hospital con aumentación fuera de línea (con riesgo potencial de fuga entre particiones si se dividió tras aumentar), o que mezcle múltiples colecciones recortadas de Kaggle, con posibilidad de solapar recortes de ACRIMA o RIM-ONE. Para blindar la validez externa de su estudio en DYNA , conviene ejecutar y reportar una auditoría directa sobre los archivos Parquet locales en tres pasos: (1) cuantificar en moondream/glaucoma-detection la distribución exacta de resoluciones, proporciones de aspecto, conteos de clase por split y presencia de bordes negros o recortes papilares; (2)
+
+=== PAGINA 50 ===
+[72] calcular hashes perceptuales (pHash/dHash) y similitud coseno de embeddings (p. ej., ConvNeXt/DINOv2) entre train, validation y test dentro de Moondream para detectar casi-duplicados o transformaciones geométricas compartidas entre particiones; y (3) correr el mismo cruce de similitud contra ACRIMA , RIM-ONE DL , EyePACS y la base de Kim's Eye Hospital (10.7910/DVN/1YRRAC) para descartar fuga entre entrenamiento y prueba externa y documentar con precisión la procedencia real de su conjunto de entrenamiento.
+[72] Implicaciones para el estado del arte en DYNA:
+[72] separación de los tres ejes de variación y regímenes
+[72] de validación La tesis central de su manuscrito —que la literatura muestra discriminación alta dentro de una base pero rara vez desacopla (1) variación de la imagen , (2) variación de la etiqueta y (3) desplazamiento del punto de decisión — encuentra respaldo sólido en la evidencia empírica publicada entre 2019 y 2026 cuando se diferencian los cuatro regímenes de evaluación: validación interna (partición aleatoria de la misma base), validación entre bases ( cross-dataset en otra base pública), leave-one-domain-out (LODO) (entrenar en K−1 bases y probar en la K-ésima) y validación externa en centros o cohortes poblacionales independientes .
+
+=== PAGINA 51 ===
+[72] Al integrar los atributos de adquisición de la tabla maestra con la evidencia experimental resumida en la figura anterior, se perfilan mecanismos diferenciados para cada uno de los tres ejes de su artículo: Eje 1: Variación de la imagen (adquisición, encuadre y atajos
+
+=== PAGINA 52 ===
+[72] geométricos) La degradación al cambiar de fuente aparece de forma consistente en arquitecturas convolucionales modernas. En Diaz-Pinto et al. (2019) ( BioMed Eng Online , 10.1186/s12938-019-0649-y, texto completo, Tabla 4 y texto bajo Fig. 10), la validación interna sobre una partición 70/30 de cinco bases combinadas (1195 entrenamiento, 512 prueba) obtuvo AUROC = 0,9464 (exactitud 0,8908, sensibilidad 0,9175, especificidad 0,8571), pero bajo leave-one-dataset-out (LODO) el AUROC cayó a 0,7678 en ACRIMA (IC 95 %: 68,41–81,81 %), 0,7739 en sjchoi86-HRF (IC 95 %: 66,44–86,85 %), 0,8041 en Drishti-GS1, 0,8354 en HRF y 0,8575 en RIM-ONE, con una pérdida aproximada de 15 % en exactitud . En Zhou et al. (2022) ( Biomedical Optics Express , 10.1364/BOE.450543, texto completo, Abstract y Tabla 2), una ResNet50 entrenada en LAG descendió desde AUROC = 0,978 ± 0,004 en validación interna hasta 0,638 ± 0,017 (ODIR), 0,683 ± 0,029 (RIM-ONE-r2), 0,724 ± 0,007 (ORIGA-light) y 0,761 ± 0,037 (REFUGE) en validación entre bases , y hasta 0,683 ± 0,051 (ZR, Second Affiliated Hospital of Zhejiang University) y 0,795 ± 0,011 (BY, Peking University Third Hospital) en validación externa en centros independientes ; la alineación de características entre vistas aumentadas (DAFA) recuperó hasta +16,3 % de mcAUC . Por su parte, Chaurasia et al. (2024) ( Eye , 10.1038/s41433-024-03388-4, solo resumen) reportaron AUROC = 0,9920 (sensibilidad y especificidad > 0,9530) en validación interna sobre 19 bases recortadas, pero una caída a 0,8751 (exactitud 0,8713) en Drishti-GS —etiquetada por los autores como validación externa, aunque bajo una taxonomía estricta constituye validación entre bases sobre otra colección pública . Resulta particularmente relevante para su diseño el contraste geométrico entre recortes papilares y campo completo . En un preprint reciente (medRxiv 10.1101/2025.04.22.25326210, abril de 2025, texto completo, Tabla 2), un modelo ResNet-18 preentrenado en AIROGS (campo completo) y evaluado bajo esquema LODO sobre cinco cohortes estandarizadas de SMDG-19 más ACRIMA (recorte papilar) registró su peor desempeño precisamente en ACRIMA (AUROC = 0,780 , precisión = 0,442, recall = 0,543, F1 = 0,487), por debajo de REFUGE1 (0,799), PAPILA (0,855), Drishti (0,882), ORIGA (0,893) y G1020 (0,930) . Su experimento documenta el fenómeno inverso: entrenar en imágenes compactas/recortadas (Moondream) y transferir sin reentrenar a campo amplio con fondo negro (EyePACS) altera radicalmente el tamaño relativo del nervio óptico y la estadística de fondo incluso con aumentación agresiva de escala y fotometría. Conviene añadir en la discusión que Hemelings et al. (2023) ( npj Digital Medicine , 10.1038/s41746-023-00857-0, texto completo, Methods — ACRIMA ) advirtieron un confusor geométrico adicional en ACRIMA: al recortar con una caja de 1,5× el radio del disco, las imágenes de glaucoma tienen mayor dimensión en píxeles que las normales . Asimismo, Rahman et al. (preprint arXiv:2611.01992, texto completo, Abstract y Sección V) evaluaron cinco CNNs en ACRIMA, ORIGA, RIM-ONE DL y G1020 y observaron que la normalización de color LAB (AUROC medio entre bases 0,755 vs. 0,702 base; ganancia pareada +0,053, IC 95 %: 0,046–0,060) y el aumento fotométrico fuerte ( ColorJitter , 0,754) atenúan parte del sesgo de color, pero fracasan ante el desplazamiento de encuadre y escala de G1020, donde el AUROC permaneció en nivel de azar (0,492–0,502) . Eje 2: Variación de la etiqueta (definición clínica y estándar de
+
+=== PAGINA 53 ===
+[72] referencia) Incluso con las mismas imágenes, redefinir qué constituye un caso positivo modifica sustancialmente la métrica observada. La demostración más controlada en literatura revisada por pares corresponde a Hemelings et al. (2023) ( npj Digital Medicine , 10.1038/s41746-023-00857-0, texto completo, Abstract, Discussion y Tabla 3): evaluando el mismo modelo de regresión de VCDR (G-RISK, entrenado en un centro terciario y validado externamente en dos cohortes poblacionales independientes , BMES [AUROC 0,976, IC 95 %: 0,967–0,986; sensibilidad 87,3 % a 95 % de especificidad] y GHS [AUROC 0,984, IC 95 %: 0,980–0,991; sensibilidad 90,3 % a 95 % de especificidad], además de 11 bases públicas con rango de AUROC 0,854–0,988 y 80 % de sensibilidad a 95 % de especificidad en AIROGS) sobre las 488 imágenes de PAPILA , el AUROC cayó de 0,882 (IC 95 %: 0,840–0,923) cuando los 68 sospechosos se asignaron a no referible a 0,769 (IC 95 %: 0,722–0,815) cuando esos mismos sospechosos se clasificaron como referibles —una reducción de 0,113 puntos atribuible únicamente al desplazamiento de la etiqueta . Este mecanismo afecta directamente la comparación de su estudio entre cabeza binaria y cabeza de 3 clases proyectada a binaria. En bases estadificadas como moondream/glaucoma-detection (o Kim's Eye Hospital, donde early corresponde a glaucoma preperimétrico con defecto RNFL pero sin defecto en campo visual ), proyectar early + advanced a positivo entrena al modelo a detectar signos incipientes; en cambio, AIROGS y JustRAIGS definen referable glaucoma solo cuando se espera daño campimétrico manifiesto (incluyendo en NRG la enfermedad muy temprana sin daño esperado en campo visual ), BRSET solo ofrece indicadores visuales presuntivos de un único retinólogo (increased_cup_disc y optic_disc anormal ), y Harvard-FairVision elimina deliberadamente todos los casos intermedios (−3 dB ≤ MD < −1 dB), amplificando la separación aparente en validación interna . Eje 3: Cambio del punto de decisión (umbral y calibración entre dominios) El contraste entre un AUROC moderado y un colapso de sensibilidad al trasladar sin reajuste un umbral interno (especificidad ≥ 0,95) está documentado en estudios recientes. En Cho et al. (2026) ( Diagnostics 16(23):3936, 10.3390/diagnostics16233936, texto completo, Abstract y Sección 4.2), al transferir modelos desde GAMMA (AUROC interno out-of-fold 0,90–0,95) hacia Harvard-FairVision sin reentrenamiento ni recalibración, el AUROC se situó en 0,635–0,653 , pero el umbral fijo de 0,5 sufrió una descalibración extrema que redujo la sensibilidad a 0,3 %–2,4 % . En Rahman et al. (preprint arXiv:2611.01992, texto completo, Abstract y Sección V), al transportar el umbral de Youden's J desde validación interna (sensibilidad 83,1 %, especificidad 87,0 %) hacia otras bases públicas sin recalibrar, la especificidad media cayó a 50,6 % (sensibilidad 72,6 %, exactitud balanceada 0,616); recalibrar usando 10 % de imágenes del dominio destino solo recuperó parcialmente el equilibrio (especificidad 67,0 %, sensibilidad 60,9 %, exactitud balanceada 0,639), y el entrenamiento multifuente ( leave-one-source-out ) tampoco evitó el colapso del umbral sin recalibrar (especificidad 47 % ) . En Remyes et al. (2025) ( Information 16(6):432, 10.3390/info16060432,
+
+=== PAGINA 54 ===
+[72] texto completo, Sección 2.3), una CNN entrenada en EyePACS-AIROGS-light-V2 bajó de 79,3 % de exactitud interna a 72,9 % en un subconjunto de 1923 imágenes de SMDG-19, mientras que LightGBM exhibió sobreajuste extremo (100 % interno frente a caída abrupta fuera de dominio) —con la salvedad metodológica adicional de que el artículo no aclara si excluyó las imágenes de EyePACS-AIROGS contenidas dentro de SMDG-19 . Fijar un punto de corte conservador a especificidad ≥ 0,95 en validación interna ubica el umbral en la cola alta de las probabilidades de la clase sana; cuando el cambio geométrico hacia campo amplio con fondo negro en EyePACS desplaza los logits a la baja, la sensibilidad colapsa de forma desproporcionada aun cuando el ordenamiento global (AUROC) conserve capacidad discriminativa parcial.
+[72] Afirmaciones dudosas o contradictorias La verificación cruzada de fuentes primarias, repositorios y revisiones de 2016 a 2026 detectó inconsistencias numéricas, erratas propagadas y vacíos documentales que conviene explicitar en el estado del arte para evitar arrastrar errores de fuentes secundarias:
+[81] Base de datos
+[175] Contradicción o dato no confirmado
+[268] Fuente(s) A
+[362] Fuente(s) B
+[456] Diagnóstico y recomendació n para DYNA
+[81] AIROGS
+[175] Conteo total de imágenes, pacientes, tasa de no graduables y número de evaluadoresaprobados
+[268] 113 893 imágenes / 60 357 sujetos (2,38 % no graduables = 2710) y 30/90 evaluadoresaprobados [Lemij et al. 2023,Ophthalmol Sci , solo resumen] ; web oficial reporta 113 893 / 60 357 y 32/89aprobados
+[362] 112 732 CFPs / 60 071 pacientes (1,4 % no graduables = 1554), train 101 442 + test 11 290, 30/90 aprobados [de Vente et al., texto completo preprintarXiv:2302.017 38v2 Tabla 1; train/test también en IEEE TMI 2024]
+[456] La diferencia de 1161 imágenes refleja el filtrado/submu estreo de no graduables al armar el test del desafío (11 290). Cite 101 442 para el train público (consistente en Zenodo, AIROGS y JustRAIGS) y aclare si cita el total de la cohorte (113 893) o del reto (112 732) .
+
+=== PAGINA 55 ===
+[81] JustRAIGS
+[175] Licencia de redistribución del conjunto público
+[268] Web oficial del desafío declara licencia CC BY-NC-SA para el conjunto de entrenamiento en Zenodo
+[362] Registro documental de Zenodo(10.5281/zenodo.10687097) consigna CC BY 4.0
+[456] Verificar la licencia en el archivo específico de imágenes en Zenodo antes de redistribuir oreempaquetar datos; el conteo de 101 442 train / 9741 test (111 183 graduables) sí coincide en ambas fuentes .
+[81] LAG
+[175] Tamaño total (11 760 vs. 5824 vs. 4854)
+[268] 11 760 imágenes en IEEE TMI 2020 (extractotruncado menciona 6882 sin glaucoma) y 5824imágenes (2392 G / 3432 N) con mapas de atención en CVPR 2019
+[362] 4854imágenes (1711 G / 3143 N) en estudios que descargan el lote público de GitHub [Zhou et al. 2022 BOE Tabla 1, PMC11214580,arXiv:2512.24066]
+[456] Corresponde a una liberación pública parcial (solo 4854 imágenes en GitHub).Indique siempre qué subconjunto de LAG se cita .
+[81] RIM-ONE (r1, r2, r3)
+[175] Conteos de imágenes y clases invertidas en citassecundarias
+[268] r1: 169 (118 N / 51 G-OHT); r2: 455 (255 N / 200 G); r3: 159 (85 N / 74 G) [Batista et al. 2020, texto completo,
+[362] r1 citado como 158 ; r2 citado como 261 N / 194 G en Diaz-Pinto 2019 Tabla 1 e invertido a 255 pos / 200 neg
+[456] Adopte la auditoría directa de los creadores en Batista et al. (2020)(10.5566/ias.23 46) y prefiera
+
+=== PAGINA 56 ===
+[268] Critical Revision ]
+[362] en Zhou 2022 Tabla 1 ; r3 citado como 318 (170/148) al separar pares estéreo
+[456] RIM-ONE DL (485) sobre r1–r3 para evitar duplicados .
+[81] Drishti-GS1
+[175] Resolución en píxeles e inversión errónea de clases
+[268] 70 glaucoma / 31 sanas (101 total)[Diaz-Pinto 2019 Tabla 1, SMDG-19, PMC9510498] ; resolución2896×1944px
+[362] 70 sanas / 31 glaucoma(inversión errónea en preprintarXiv:2410.1594 7) ; resoluciones citadas de 2049×1751 , 2045×1752 o 2048×2048px
+[456] El conteo verificado es 70 glaucoma / 31 sanas (50 train: 32 G / 18 N; 51 test: 38 G / 13 N) . Las resolucionesmenoresreflejan recortes de márgenes negros frente a 2896×1944 px.
+[81] ORIGA-light
+[175] Errata en suma de Tabla II del original, resolución y disponibilidadactual
+[268] Tabla II de Zhang et al. (2010, texto completo) imprime CDR ≥ 0,65: 168 y CDR < 0,65: 382 (suma = 550 , faltan 100), replicado como 382/168 en ; acceso «bajo solicitud» en 2010
+[362] Uso estándar verificado: 482 normales y 168 glaucoma (= 650) [SMDG-19 y revisiones] ; resolución3072×2048 px vs. 720×576 en revisión aislada ; Kumar et al. (2023) indica que ya no está disponiblepúblicamente en su web
+[456] Cite 650 imágenes (482 no glaucoma, 168 glaucoma) , señalando la errata histórica de Tabla II en Zhang et al. (2010) y que hoy circula principalmente vía espejos y SMDG-19 .
+
+=== PAGINA 57 ===
+[362] original
+[81] PAPILA
+[175] Desglose de glaucomaconfirmado frente a sospechosos
+[268] 333 sanas, 87 glaucoma y 68sospechosos (= 488) [SMDG-19,PMC12820054, EMBC] ; Tabla 1 del original agrupa 155 glaucoma+sospechosos
+[362] 333 sanas, 68 glaucoma y 87 sospechosos (invertido en artículosecundarioFusionFM)
+[456] Verificar contra los archivos tabulares de Figshare(10.6084/m9.figshare.147980 04.v1); el consenso en SMDG-19 y múltiples fuentes es 87 glaucoma y 68 sospechosos .
+[81] REFUGE1 y REFUGE2
+[175] Pacientes únicos en REFUGE1 y prevalencia exacta en REFUGE2
+[268] REFUGE1:1200 pacientes (ojo izq. o der.) ; REFUGE2: 280 glaucoma / 1720 no glaucoma (14 %)
+[362] REFUGE1: 600 sujetos chinos en preprint arXiv:2502.1951 4 ; REFUGE2 citado con prevalencia de 10 % (razón 9:1) en fuente secundaria
+[456] El conteo exacto de pacientes únicos en REFUGE1 y la prevalencia exacta en las 800 imágenes nuevas de REFUGE2 quedaron no verificados en los textos completos primarios de Orlando (2020) y Fang (2022).
+[81] EyePACS-AIROGS-light-V2
+[175] Conteo total (9540 vs. 9542), confusión por clase y tensión de licencia
+[268] 9540imágenes (4770 RG / 4770 NRG; 4000 train, 385 val, 385 test por clase )
+[362] 9542 imágenes en Remyes et al. (2025, Information ), donde listan 4000/385/385
+[456] Existe una variación de 2 imágenes entre versiones de Kaggle y una omisión del factor «por
+
+=== PAGINA 58 ===
+[268] [PMC13639773yOpenReview]
+[362] como totales de partición ; AIROGS original se distribuye bajo CC BY-NC-ND 4.0
+[456] clase» en Remyes et al. (2025). Además, la redistribuciónmodificada entra en tensión con la cláusulaNoDerivatives (ND) de AIROGS en Zenodo(10.5281/zenod o.5793241) .
+[81] SMDG-19
+[175] Confusión entre total de la compilación y subconjuntos filtrados
+[268] 12 449 instancias totales (7499 N, 4817 G, 133 sospechosos) [ficha oficial Kaggle]
+[362] Estudiosrecientes reportan 1923 imágenes[Remyes 2025] o 2873 tripletas al filtrarsubconjuntos (p. ej., solo imágenes con máscarascompletas)
+[456] Verificar siempre si un artículo utilizó las 12 449 imágenes completas o unsubconjuntoconsegmentación OD/OC, y comprobar que no haya fuga al combinarla con sus 19 fuentes .
+[81] HRF
+[175] Conteo de glaucoma y resolución
+[268] 45 imágenes (15 sanas, 15 DR, 15 glaucoma ) y 3504×2336 px [web oficial FAU y revisiones]
+[362] 27 glaucoma y 18 normales en Diaz-Pinto et al. (2019, Tabla 1) ; errata tipográfica de 3304×2336 px en revisión
+[456] La fuente primaria FAU confirma15/15/15(SMDG-19 toma solo las 15 sanas y 15 glaucoma) . La
+
+=== PAGINA 59 ===
+[456] tabla de Diaz-Pinto(2019) presenta una discrepancia no explicada en HRF .
+[362] secundaria
+[81] G1020
+[175] Sumainconsistente en fuente secundaria
+[268] 1020 imágenes (724 sanas, 296 glaucoma) de 432 pacientes [Bajwa 2020 y SMDG-19]
+[362] 625 sanas y 296 glaucoma (suma = 921) en revisión de 2024
+[456] Errata tipográfica en la revisión secundaria; el conteo verificado es 724 sanas y 296 glaucoma .
+[81] BRSET
+[175] Conteo de increased_cup _disc frente a optic_discanormal
+[268] optic_disc anormal = 3281 imágenes (20,2 %) [texto completo, Nakayama et al. 2024]
+[362] La columna increased_cup _disc existe en PhysioNetcomoindicadorvisualrelacionadocon glaucoma , pero su conteo positivo exacto no pudo verificarse en los extractos del artículo ni en la ficha web
+[456] No equiparar el 20,2 % de disco óptico anormal con prevalencia de glaucoma confirmado; si se emplea BRSET, calcular directamente el conteo de increased_cup _disc desde el CSV oficial de PhysioNet .
+[81] ACRIMA
+[175] Resolución real en píxeles de las imágenes públicas
+[268] No reportada en el artículo original de Diaz-Pinto et al. (2019)
+[362] Una revisión cita2048×1536 px , mientras Rahman et al. ( preprint
+[456] 2048×1536probablement e corresponde a las capturas originales sin recortar; los
+
+=== PAGINA 60 ===
+[362] arXiv:2611.0199 2, Tabla I) midió recortes variables de 202 a 637 px
+[456] archivos públicos en Figshare son recortes papilares de tamañovariable (mayores en glaucomasegúnHemelings 2023) .
+[81] Kim's Eye Hospital
+[175] 1542 frente a 1544 imágenes
+[268] 1542 imágenes (786 N, 289 E, 467 A) [Ahn et al. 2018, PLoS ONE , texto completo Tabla 1]
+[362] 1544imágenes citadas en un artículo secundario de 2025
+[456] Cite la cifra verificada del texto completo original: 1542 imágenes .
+[81] Harvard-GDP
+[175] 1000pacientes frente a 21 059 muestras
+[268] 1000pacientes (1000 archivos .npz de RNFL-OCT + VF) [preprint medRxiv 2026 Sec. 2.1 y citas]
+[362] 21 059 muestrasmencionadas en una revisión secundaria de 2025
+[456] No resuelto sin acceso directo al texto completo de ICCV 2023 (posibledistinción entre la cohorte pública de 1000 pacientes y un conjunto longitudinal o serie clínica completa).
+[81] moondream/glaucoma-dete
+[175] Procedencia,criteriosclínicos,
+[268] Ficha del repositorio(README.md,
+[362] PáginacomercialMoondream
+[456] Origenclínico,distribución
+
+=== PAGINA 61 ===
+[81] ction
+[175] licencia y cifras de desempeño del proveedor
+[268] commit 56d14df) solo verifica 5378 muestras(2847/1259/127 2) y tres nombres de clase
+[362] Lens declara 69,2 % de exactitud tras RL frente a 33,2 % de GPT-5.4
+[456] por clase, licencia y posiblesolapamiento con Kim's Eye Hospital, ACRIMA o RIM-ONE no verificados. Las cifras de Moondream Lens provienen dedocumentació n comercial del proveedor sin revisión por pares y no deben citarse comobenchmarkclínico validado .
+[72] Works cited
+[72] 1. CNNs for automatic glaucoma assessment using fundus images, https://pmc.ncbi.nlm.nih.gov/articles/PMC6425593/ 2. SMDG, A Standardized Fundus Glaucoma Dataset - Kaggle, https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset 3. (PDF) Chákṣu: A glaucoma specific fundus image database, https://www.researchgate.net/publication/368244788_Chaksu_A_glaucoma_specific_fundus_image_database 4. rim-one dl: a unified retinal image database for assessing glaucoma, https://scispace.com/pdf/rim-one-dl-a-unified-retinal-image-database-for-assessing-8ip59in09i.pdf 5. https://coendevente.com/files/2302.01738.pdf 6. PAPILA: Dataset with fundus images and clinical data of both eyes, https://pmc.ncbi.nlm.nih.gov/articles/PMC9184612/ 7. https://arxiv.org/pdf/2611.01992 8. When Does Multimodal Fusion Help? Cross-Domain Transfer, Joint, https://www.mdpi.com/2075-4418/16/23/3936 9. [2202.08994] REFUGE2 Challenge: A Treasure Trove for Multi,
+
+=== PAGINA 62 ===
+[72] https://arxiv.org/abs/2202.08994 10. (PDF) Drishti-GS: Retinal image dataset for optic nerve head(ONH, https://www.researchgate.net/publication/269272204_Drishti-GS_Retinal_image_dataset_for_optic_nerve_headONH_segmentation 11. BioVessel-Net and RetinaMix: Unsupervised Retinal Vessel ... - arXiv, https://arxiv.org/html/2509.23617v1 12. an adaptable telemedicine system for diabetic retinopathy screening, https://pubmed.ncbi.nlm.nih.gov/20144289/ 13. https://oar.a-star.edu.sg/storage/n/n2od11j13o/embc10-zhangz-apr12-v2.pdf 14. Retinal Glaucoma Public Datasets: What Do We Have and What Is, https://pmc.ncbi.nlm.nih.gov/articles/PMC9267177/ 15. https://pmc.ncbi.nlm.nih.gov/articles/PMC10219065/ 16. https://pmc.ncbi.nlm.nih.gov/articles/PMC10404253/ 17. https://pmc.ncbi.nlm.nih.gov/articles/PMC6258525/ 18. Chákṣu: A glaucoma specific fundus image database - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9898274/ 19. https://www5.cs.fau.de/research/data/fundus-images/ 20. Ensemble-Based Deep Learning Framework for Glaucoma, https://etasr.com/index.php/ETASR/article/view/19432 21. A generalizable deep learning regression model for automated, https://pmc.ncbi.nlm.nih.gov/articles/PMC10264390/ 22. A Review on Glaucoma Disease Detection Using Computerized, https://dro.deakin.edu.au/articles/journal_contribution/A_Review_on_Glaucoma_Disease_Detection_Using_Computerized_Techniques/20673606/1/files/56881820.pdf 23. RD-Net: Residual-Dense Network for Glaucoma Prediction Using, https://www.computer.org/csdl/journal/ai/2025/01/10643102/1ZAxofbLlbG 24. Rapid Classification of Glaucomatous Fundus Images - ResearchGate, https://www.researchgate.net/publication/349124573_Rapid_Classification_of_Glaucomatous_Fundus_Images 25. A Novel Deep Learning Algorithm for Optical Disc Segmentation for, https://www.iieta.org/journals/ts/paper/10.18280/ts.390132 26. RIM-ONE: An open retinal image database for optic nerve evaluation, https://www.computer.org/csdl/proceedings-article/cbms/2011/05999143/12OmNrkT7yK 27. Evaluation of Spatial Filtering Techniques in Retinal Fundus Images, https://scispace.com/pdf/evaluation-of-spatial-filtering-techniques-in-retinal-fundus-3y1t2nr4qa.pdf 28. Literature Review on Artificial Intelligence Methods for Glaucoma, https://pmc.ncbi.nlm.nih.gov/articles/PMC8878383/ 29. Interactive tool and database for optic disc and cup segmentation of, https://dspace.zcu.cz/items/d836ef62-0a68-40e0-8a62-9357192e2f8e 30. Detection of Glaucoma from Fundus Images Using Novel ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9485377/ 31. A Novel Prediction Method for Glaucoma Detection Using ... - PMC,
+
+=== PAGINA 63 ===
+[72] https://pmc.ncbi.nlm.nih.gov/articles/PMC11504323/ 32. AI-Powered Segmentation of Retinal Fundus Images: Optic Disc and, https://books.akademisyen.net/index.php/akya/en/catalog/book/3748 33. Classification of Glaucoma Using Invariant Moment Methods on K, https://ejurnal.seminar-id.com/index.php/bits/article/view/1244 34. Publications - Medical Image Processing @ CVIT, IIIT Hyderabad, https://cvit.iiit.ac.in/mip/publications.html 35. Deep Learning Approaches for Retinal Disease Identification in, https://journals.uhd.edu.iq/index.php/uhdjst/article/view/1429/1082 36. (PDF) Image Processing Techniques for Diagnosis of Glaucoma, https://www.researchgate.net/publication/339331595_Image_Processing_Techniques_for_Diagnosis_of_Glaucoma_from_Retinal_Image_Brief_Review 37. Detection of Glaucoma on Fundus Images Using Deep Learning on, https://pmc.ncbi.nlm.nih.gov/articles/PMC9778370/ 38. Glaucoma Identification Using Convolutional Neural Networks, https://epublications.vu.lt/object/elaba:206824187/206824187.pdf 39. Integrating Edge Information into Ground Truth for the Segmentation, https://arxiv.org/html/2408.05052 40. (PDF) Drishti-GS: Retinal image dataset for optic nerve head(ONH, https://scispace.com/papers/drishti-gs-retinal-image-dataset-for-optic-nerve-head-onh-120vmynnen 41. Deep Learning for Ophthalmology: The State-of-the-Art and Future, https://www.researchgate.net/publication/387862303_Deep_Learning_for_Ophthalmology_The_State-of-the-Art_and_Future_Trends 42. https://pmc.ncbi.nlm.nih.gov/articles/PMC11732976/ 43. Glaucoma Detection using Ensemble and Transfer Learning, https://www.atlantis-press.com/article/126016579.pdf 44. A Fundus Image Dataset for Domain Generalization in Joint, https://zenodo.org/records/8009107 45. AUBADE-syn: a novel deep learning ensemble method for ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC13416052/ 46. symmetry - Semantic Scholar, https://pdfs.semanticscholar.org/31d6/53f62be71c5f5dc1358f53329f150b5d5af0.pdf 47. Automatic Segmentation of Retinal Images for Glaucoma Screening, https://www.worldscientific.com/doi/pdf/10.1142/9789814611107_0012?download=true 48. Detection of Retinal Abnormalities in Fundus Image Using ... - HAL, https://hal.science/hal-02428351/document 49. Dense Fully Convolutional Segmentation of the Optic Disc and Cup, https://www.researchgate.net/publication/324119610_Dense_Fully_Convolutional_Segmentation_of_the_Optic_Disc_and_Cup_in_Colour_Fundus_for_Glaucoma_Diagnosis 50. (PDF) REFUGE Challenge: A Unified Framework for Evaluating, https://www.researchgate.net/publication/336359605_REFUGE_Challenge_A_Unifi
+
+=== PAGINA 64 ===
+[72] ed_Framework_for_Evaluating_Automated_Methods_for_Glaucoma_Assessment_from_Fundus_Photographs 51. REFUGE Challenge: A Unified Framework for Evaluating Automated, https://www.chapterpal.com/s/5q9fvv3n/refuge-challenge-a-unified-framework-for-evaluating-automated-methods-for-glaucoma-assessment-from-fundus-photographs 52. (PDF) PALM: Open Fundus Photograph Dataset with Pathologic, https://www.researchgate.net/publication/370776279_PALM_Open_Fundus_Photograph_Dataset_with_Pathologic_Myopia_Recognition_and_Anatomical_Structure_Annotation 53. Machine Learning and Deep Learning Techniques for Optic Disc, https://pmc.ncbi.nlm.nih.gov/articles/PMC8923700/ 54. (PDF) REFUGE Challenge: A Unified Framework for Evaluating, https://www.researchgate.net/publication/336371710_REFUGE_Challenge_A_Unified_Framework_for_Evaluating_Automated_Methods_for_Glaucoma_Assessment_from_Fundus_Photographs 55. ADAM Challenge: Detecting Age-related Macular Degeneration, https://www.researchgate.net/publication/358655196_ADAM_Challenge_Detecting_Age-related_Macular_Degeneration_from_Fundus_Images 56. A Generalizable Deep Learning Model for Glaucoma Detection - arXiv, https://arxiv.org/html/2502.19514v1 57. REFUGE Challenge: A unified framework for... - Ovid, https://www.ovid.com/journals/meian/fulltext/10.1016/j.media.2019.101570~refuge-challenge-a-unified-framework-for-evaluating 58. A method for quantifying sectoral optic disc pallor in fundus ... - arXiv, https://arxiv.org/pdf/2311.07213 59. Evaluating the strengths and limitations of multimodal ChatGPT-4 in, https://pmc.ncbi.nlm.nih.gov/articles/PMC11182172/ 60. Enhancing Glaucoma Detection through Supervised Pre-training, https://www.medrxiv.org/content/10.1101/2025.04.22.25326210v1.full.pdf 61. Enhanced Glaucoma Detection in Fundus Images Using CNNs with, https://ijettjournal.org/Volume-73/Issue-9/IJETT-V73I9P110.pdf 62. REFUGE2 Challenge: A Treasure Trove for Multi-Dimension ... - arXiv, https://arxiv.org/html/2202.08994v3 63. OcuWeave - Data Sorcerers, https://data-sorcerers.com/ocuweave/ 64. Model Ensembles for Retinal Vascular Analysis from Color Fundus, https://arxiv.org/html/2409.16016v2 65. CVPR 2019 Open Access Repository, https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Attention_Based_Glaucoma_Detection_A_Large-Scale_Database_and_CNN_Model_CVPR_2019_paper.html 66. A lightweight yet efficient convolutional neural network for ocular, https://www.researchgate.net/publication/371291522_Mixed-decomposed_convolutional_network_A_lightweight_yet_efficient_convolutional_neural_network_for_ocular_disease_recognition
+
+=== PAGINA 65 ===
+[72] 67. Applications of Deep Learning in Fundus Images: A Review, https://www.researchgate.net/publication/348756809_Applications_of_Deep_Learning_in_Fundus_Images_A_Review 68. Pathology Context Recalibration Network for Ocular Disease, https://www.mi-research.net/en/article/doi/10.1007/s11633-025-1631-8 69. One-Vote Veto: Semi-Supervised Learning for Low-Shot Glaucoma, https://pmc.ncbi.nlm.nih.gov/articles/PMC11214580/ 70. Pathology Context Recalibration Network for Ocular Disease ... - arXiv, https://arxiv.org/pdf/2512.24066 71. 【医 学 影 像 AI 】 50 个 眼 科 影 像 数 据 集 （ 1 ） 分 类 任 务 原 创 - CSDN 博 客 , https://blog.csdn.net/youcans/article/details/145357656 72. Deep Learning and Computer Vision for Glaucoma Detection - arXiv, https://arxiv.org/html/2307.16528v1 73. Improving the generalization of glaucoma detection on fundus, https://opg.optica.org/boe/fulltext.cfm?uri=boe-13-4-2018 74. Glaucoma Classification Using a NFNet-Based Deep Learning, https://pdfs.semanticscholar.org/bca5/804af63dc980ecf20792d998e4ca78090466.pdf 75. GitHub - smilell/AG-CNN: The model of "Attention Based Glaucoma, https://github.com/smilell/AG-CNN 76. (PDF) A Mobile Health Approach for Glaucoma Detection, https://www.researchgate.net/publication/394372781_A_Mobile_Health_Approach_for_Glaucoma_Detection 77. G1020: A Benchmark Retinal Fundus Image Dataset for Computer, https://arxiv.org/html/2006.09158v1 78. G1020: A Benchmark Retinal Fundus Image Dataset for Computer, https://www.researchgate.net/publication/347173299_G1020_A_Benchmark_Retinal_Fundus_Image_Dataset_for_Computer-Aided_Glaucoma_Detection 79. G1020 Dataset for Glaucoma Detection | PDF | Image Segmentation, https://www.scribd.com/document/908727274/Bajwa2020-G1020ABenchmarkRetinalFundusImageDatasetforComputer-AidedGlaucomaDetection 80. G1020: A Benchmark Retinal Fundus Image ... - Researcher.Life, https://artefacts-discovery.researcher.life/full_text/DA-2/e4/e4f7c4aceecd3e49a94c6ab9fee582dc/full_text/64d2b6e879fdd0891994c15c61575517.pdf 81. VALIDATING SEMANTIC ROBUSTNESS OF DEEP NEU- RAL, https://openreview.net/pdf/1149e7aede8ec87fee7c5e3c52e321caa11f47de.pdf 82. G1020 Glaucoma Dataset Overview | PDF | Image Segmentation, https://www.scribd.com/document/893262899/2006-09158v1 83. https://pmc.ncbi.nlm.nih.gov/articles/PMC11024128/ 84. Classifying retinal images via vascular-optic disc cross ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC12820054/ 85. EyePACS: An Adaptable Telemedicine System for Diabetic ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC2769884/ 86. Dataset - Justified Referral in AI Glaucoma Screening, https://justraigs.grand-challenge.org/dataset/
+
+=== PAGINA 66 ===
+[72] 87. A critical review on diagnosis of diabetic retinopathy using machine, https://pmc.ncbi.nlm.nih.gov/articles/PMC8940593/ 88. AUTOMATIC DETECTION OF DIABETIC EYE DISEASE THROUGH, https://vuir.vu.edu.au/42641/1/SARKI_Rubina-thesis_nosignature.pdf 89. Detection of Diabetic Retinopathy using Convolutional Neural ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9708148/ 90. Retinal Disease Detection Using Deep Learning Techniques, https://pdfs.semanticscholar.org/3e78/437215e0dec91c4a25a7e38cee0488078933.pdf 91. AIROGS: Artificial Intelligence for Robust Glaucoma Screening, https://pubmed.ncbi.nlm.nih.gov/37713220/ 92. AIROGS: Artificial Intelligence for Robust Glaucoma Screening, https://pure.skku.edu/en/publications/airogs-artificial-intelligence-for-robust-glaucoma-screening-chal/ 93. https://pubmed.ncbi.nlm.nih.gov/37113471/ 94. https://airogs.grand-challenge.org/data-and-challenge/ 95. Artificial Intelligence for Robust Glaucoma Screening Challenge, https://www.researchgate.net/publication/373961889_AIROGS_Artificial_Intelligence_for_RObust_Glaucoma_Screening_Challenge 96. https://zenodo.org/records/5793241 97. https://pubmed.ncbi.nlm.nih.gov/40773411/ 98. https://zenodo.org/records/10687097 99. TensorFlow-FlexUNet-Image-Segmentation-SMDG-Glaucoma, https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-SMDG-Glaucoma 100. Glaucoma Dataset: EyePACS-AIROGS-light-V2 - Kaggle, https://www.kaggle.com/datasets/deathtrooper/glaucoma-dataset-eyepacs-airogs-light-v2 101. Glaucoma Dataset: EyePACS AIROGS - Light - Kaggle, https://www.kaggle.com/datasets/deathtrooper/eyepacs-airogs-light 102. Deep Learning for Ophthalmology: The State-of-the-Art and Future, https://arxiv.org/html/2501.04073v1 103. DeepEyeNet: Adaptive Genetic Bayesian Algorithm Based Hybrid, https://openreview.net/pdf/b72024dd8c19a633102d19493e50f3a513b087bc.pdf 104. Code-Free Automated Machine Learning for Referable Glaucoma, https://pmc.ncbi.nlm.nih.gov/articles/PMC13639773/ 105. https://www.mdpi.com/2078-2489/16/6/432 106. Evidential Deep Learning with conditional entropy for glaucoma, https://arxiv.org/html/2611.13513v1 107. A Catalog of Public Glaucoma Datasets for Machine Learning, https://scholars.nova.edu/en/publications/a-catalog-of-public-glaucoma-datasets-for-machine-learning-applic/ 108. Ehsan Amjadian - ORCID, https://orcid.org/0000-0002-4400-6717 109. glaucoma-dataset-metadata/README.md at main - GitHub, https://github.com/TheBeastCoding/glaucoma-dataset-metadata/blob/main/REA
+
+=== PAGINA 67 ===
+[72] DME.md 110. https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000454 111. https://physionet.org/content/brazilian-ophthalmological/ 112. BRSET: A Brazilian Multilabel Ophthalmological Dataset of Retina, https://pmc.ncbi.nlm.nih.gov/articles/PMC10854338/ 113. Author Correction: Chákṣu: A glaucoma specific fundus ... - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC10079675/ 114. Chákṣu IMAGE: 1,345 glaucoma fundus photographs with optic disc, https://scigantic.com/archive/f9fe7432-5be1-57d0-9f1f-c376e4f28950 115. Chákṣu IMAGE: A glaucoma-specific fundus image database, https://figshare.com/articles/dataset/Ch_k_u_A_glaucoma_specific_fundus_image_database/20123135 116. Cross-Dataset Artificial Intelligence-Enabled Retinal Vasculometry, https://www.researchgate.net/publication/417175052_QUARTZ_Cross-Dataset_Artificial_Intelligence-Enabled_Retinal_Vasculometry 117. Chákṣu: A glaucoma specific fundus image database, https://impressions.manipal.edu/open-access-archive/7612/ 118. (PDF) A Benchmark of Ocular Disease Intelligent Recognition, https://www.researchgate.net/publication/349724342_A_Benchmark_of_Ocular_Disease_Intelligent_Recognition_One_Shot_for_Multi-disease_Detection 119. Multiple model visual feature embedding and selection method for, https://pmc.ncbi.nlm.nih.gov/articles/PMC11814330/ 120. Identification of multiple ocular diseases using a ... - Researcher.Life, https://artefacts-discovery.researcher.life/full_text/DA-2/28/28c7f8e5644935f5aedd149b1a2b2634/full_text/f12765734caa335505b5a87b9de2d6fa.pdf 121. (PDF) Identification of multiple ocular diseases using a hybrid, https://www.researchgate.net/publication/400301779_Identification_of_multiple_ocular_diseases_using_a_hybrid_quantum_convolutional_neural_network_with_fundus_images 122. https://arxiv.org/abs/2102.07978 123. Glaucoma patient screening from online retinal fundus images via, https://www.medrxiv.org/content/10.1101/2021.02.11.21251193v1.full-text 124. Glaucoma Detection from Retinal Images Using Statistical and, https://pmc.ncbi.nlm.nih.gov/articles/PMC7064658/ 125. (PDF) Classification and Segmentation of Diabetic Retinopathy, https://www.researchgate.net/publication/368905121_Classification_and_Segmentation_of_Diabetic_Retinopathy_A_Systemic_Review 126. Analyzing CNN-Based Glaucoma Decision Criteria Using ... - MDPI, https://www.mdpi.com/2227-7080/14/7/435 127. Retinal fundus images for glaucoma analysis: the RIGA dataset, https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10579/2293584/Retinal-fundus-images-for-glaucoma-analysis-the-RIGAdataset/10.1117/12.2293584.short 128. RIGA dataset (Retinal fundus images for glaucoma analysis), https://academictorrents.com/details/eb9dd9216a1c9a622250ad70a400204e753
+
+=== PAGINA 68 ===
+[72] 1196d 129. MaxGlaViT: A novel lightweight vision transformer-based approach, https://arxiv.org/pdf/2502.17154 130. Harvard Glaucoma Detection and Progression: A Multimodal, https://www.researchgate.net/publication/377427420_Harvard_Glaucoma_Detection_and_Progression_A_Multimodal_Multitask_Dataset_and_Generalization-Reinforced_Semi-Supervised_Learning 131. [2308.13411] Harvard Glaucoma Detection and Progression - arXiv, https://arxiv.org/abs/2308.13411 132. FairDomain: Achieving Fairness in Cross-Domain Medical Image, https://arxiv.org/html/2407.08813v2 133. Uncertainty-Gated Glaucoma Screening: Combining Semi, https://www.medrxiv.org/content/10.64898/2026.04.17.26351127v1.full-text 134. Balanced Soft mixture-of-expert model for Glaucoma Detection - arXiv, https://arxiv.org/html/2607.25324v1 135. Assessment of demographic bias in retinal age prediction machine, https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1653153/full 136. Assessment of demographic bias in retinal age prediction machine, https://pmc.ncbi.nlm.nih.gov/articles/PMC12549555/ 137. Reproducibility Study of "FairCLIP: Harnessing ... - OpenReview, https://openreview.net/notes/edits/attachment?id=q6q4b6tUBz&name=pdf 138. When Does Multimodal Fusion Help? Cross-Domain Transfer, Joint, https://www.mdpi.com/2075-4418/16/23/3936/pdf 139. Add custom dataset card for Glaucoma Detection - Hugging Face, https://huggingface.co/datasets/moondream/glaucoma-detection/commit/56d14df317198383ba7ff7005e8a6cb904785a67 140. Commit history · moondream/glaucoma-detection at 0f0b82b, https://huggingface.co/datasets/moondream/glaucoma-detection/commits/0f0b82b9defe0ef4c266edcc51eb753dc7f49a19 141. Lens: Moondream's Finetune Service, https://moondream.ai/blog/lens-moondreams-finetune-service 142. Glaucoma Detection | Moondream Fine-Tuning, https://moondream.ai/lens/glaucoma-detection 143. train_glaucoma_query.py - m87-labs/moondream · GitHub, https://github.com/m87-labs/moondream/blob/main/examples/quickstart/finetune/train_glaucoma_query.py 144. Glaucoma Dataset - Kaggle, https://www.kaggle.com/datasets/orvile/glaucoma-dataset 145. ctmedtech/GAMMA · Datasets at Hugging Face, https://huggingface.co/datasets/ctmedtech/GAMMA 146. Glaucoma Diagnosis Based on Retinal Fundus Image: A Review, https://iasj.mohesr.gov.iq/journals/uploads/2025/06/16/cfc64981c255c65dc770b0c4744a9492.pdf 147. Mobile CAD for Glaucoma Detection | PDF | Image Segmentation,
+
+=== PAGINA 69 ===
+[72] https://www.scribd.com/document/788318653/ORIGA-MOBILENETV2 148. Recent developments on computer aided systems for diagnosis of, https://pmc.ncbi.nlm.nih.gov/articles/PMC9510498/ 149. (PDF) AI-Driven Approaches for Glaucoma Detection - ResearchGate, https://www.researchgate.net/publication/385108255_AI-Driven_Approaches_for_Glaucoma_Detection_--_A_Comprehensive_Review 150. Multi-stage glaucoma classification using pre-trained convolutional, https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1175881/full 151. Deep Learning for Glaucoma Detection: R-CNN ResNet-50 and, https://www.researchgate.net/publication/375594871_Deep_Learning_for_Glaucoma_Detection_R-CNN_ResNet-50_and_Image_Segmentation 152. 3-LbNets: Tri-Labeling Deep Convolutional Neural Network for the, https://microsites.arinex.com.au/EMBC/pdf/full-paper_549.pdf 153. FusionFM: Fusing Eye-specific Foundational ... - ResearchGate, https://www.researchgate.net/publication/394541235_FusionFM_Fusing_Eye-specific_Foundational_Models_for_Optimized_Ophthalmic_Diagnosis/fulltext/68a3f2296327cf7b63d76c2c/FusionFM-Fusing-Eye-specific-Foundational-Models-for-Optimized-Ophthalmic-Diagnosis.pdf 154. Meeting Challenges in the Diagnosis and Treatment of Glaucoma, https://mdpi-res.com/bookfiles/book/10457/Meeting_Challenges_in_the_Diagnosis_and_Treatment_of_Glaucoma.pdf?v=1790730966 155. A CLINICALLY INTERPRETABLE YOLOV8N-SEG FRAMEWORK, https://actainnovations.com/index.php/pub/article/view/2186 156. Automatic Cataract Severity Detection and Grading Using Deep, https://www.researchgate.net/publication/371924877_Automatic_Cataract_Severity_Detection_and_Grading_Using_Deep_Learning 157. Precision Diagnosis of Glaucoma with VLLM Ensemble Deep, https://www.mdpi.com/2076-3417/14/11/4588 158. E-GlauNet: A CNN-Based Ensemble Deep Learning Model for, https://www.techscience.com/cmc/v84n2/62901/html 159. (PDF) BioVessel-Net and RetinaMix: Unsupervised Retinal Vessel, https://www.researchgate.net/publication/395969799_BioVessel-Net_and_RetinaMix_Unsupervised_Retinal_Vessel_Segmentation_from_OCTA_Images

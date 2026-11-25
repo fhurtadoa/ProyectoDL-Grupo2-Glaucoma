@@ -1,0 +1,237 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2026-03-02T16:51:33Z",
+      "timestamp": 1772470293656,
+      "version": "3.50.1"
+    },
+    "reference-count": 0,
+    "publisher": "International Information and Engineering Technology Association",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2022-02-28T00:00:00Z",
+          "timestamp": 1646006400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://iieta.org/sites/default/files/TEXT%20AND%20DATA%20MINING%20SERVICE%20AGREEMENT.pdf"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.iieta.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "TS"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:p>In India, first major cause of blindness is the cataract and the next major cause of blindness is the glaucoma which is approximately 11.9 million per yearly. The Optical Nerve Head (ONH) misalignment is the initial symptom which helps in predicting glaucoma in early stage. The optic cup and optic disc misalignment cause variation in Cup to Disc Ratio (CDR). Accurate segmentation of optic disc and cup is needed in order to calculate CDR properly. Manual segmentation can be automated to improve accuracy. Several deep learning algorithms are proposed to improve segmentation of optic cup and disc, still segmentation becomes difficult because of intersection of cup and disc. Here a Modified U-net model is proposed, which locate the optic disc in retinal fundus image, after that disc and cup segmentation is performed to calculate the CDR also the existing algorithm like adaptive thresholding, U-net model results are compared with the proposed model. The proposed and the existing methods are evaluated on three different publicly available dataset RIM-ONE, DRIONS-DB and Drishti-GS1.</jats:p>",
+    "DOI": "10.18280/ts.390132",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2022-03-25T08:50:36Z",
+      "timestamp": 1648198236000
+    },
+    "page": "305-311",
+    "update-policy": "https://doi.org/10.18280/crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A Novel Deep Learning Algorithm for Optical Disc Segmentation for Glaucoma Diagnosis"
+    ],
+    "prefix": "10.18280",
+    "volume": "39",
+    "author": [
+      {
+        "given": "Geethalakshmi",
+        "family": "Rakes",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Vani",
+        "family": "Rajamanickam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "7618",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ]
+    },
+    "container-title": [
+      "Traitement du Signal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.iieta.org/journals/ts/paper/10.18280/ts.390132",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2022-03-25T12:34:23Z",
+      "timestamp": 1648211663000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.iieta.org/journals/ts/paper/10.18280/ts.390132"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            28
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.18280/ts.390132",
+    "relation": {},
+    "ISSN": [
+      "0765-0019",
+      "1958-5608"
+    ],
+    "issn-type": [
+      {
+        "value": "0765-0019",
+        "type": "print"
+      },
+      {
+        "value": "1958-5608",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "27 December 2021",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "12 February 2022",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "28 February 2022",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

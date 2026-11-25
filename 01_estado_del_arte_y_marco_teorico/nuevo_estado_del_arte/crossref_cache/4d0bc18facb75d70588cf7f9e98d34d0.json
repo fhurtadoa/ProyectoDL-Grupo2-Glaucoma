@@ -1,0 +1,1656 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2026-11-21T11:54:57Z",
+      "timestamp": 1795262097243,
+      "version": "4.10.3"
+    },
+    "reference-count": 114,
+    "publisher": "Elsevier BV",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              11
+            ]
+          ],
+          "date-time": "2019-09-11T00:00:00Z",
+          "timestamp": 1568160000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000272",
+        "name": "National Institute for Health Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000272",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000272",
+        "name": "National Institute for Health Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000272",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "thelancet.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "The Lancet Digital Health"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/s2589-7500(19)30123-2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2019-09-25T07:10:36Z",
+      "timestamp": 1569395436000
+    },
+    "page": "e271-e297",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1768,
+    "title": [
+      "A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: a systematic review and meta-analysis"
+    ],
+    "prefix": "10.1016",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Xiaoxuan",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Livia",
+        "family": "Faes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aditya U",
+        "family": "Kale",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Siegfried K",
+        "family": "Wagner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dun Jack",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alice",
+        "family": "Bruynseels",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thushika",
+        "family": "Mahendiran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabriella",
+        "family": "Moraes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohith",
+        "family": "Shamdas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christoph",
+        "family": "Kern",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph R",
+        "family": "Ledsam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin K",
+        "family": "Schmid",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Konstantinos",
+        "family": "Balaskas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric J",
+        "family": "Topol",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucas M",
+        "family": "Bachmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pearse A",
+        "family": "Keane",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alastair K",
+        "family": "Denniston",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib1",
+        "first-page": "305",
+        "article-title": "Matter with a mind; a neurological research robot",
+        "volume": "4",
+        "author": "Fletcher",
+        "year": "1951",
+        "journal-title": "Research"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib2",
+        "series-title": "The AI Index 2018 annual report. AI Index Steering Committee, Human-Centered AI Initiative",
+        "author": "Shoham",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1145/3065386",
+        "article-title": "ImageNet classification with deep convolutional neural networks",
+        "volume": "60",
+        "author": "Krizhevsky",
+        "year": "2017",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "article-title": "A survey on deep learning in medical image analysis",
+        "volume": "42",
+        "author": "Litjens",
+        "year": "2017",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "652",
+        "DOI": "10.1109/TPAMI.2016.2587640",
+        "article-title": "Show and tell: lessons learned from the 2015 MSCOCO image captioning challenge",
+        "volume": "39",
+        "author": "Vinyals",
+        "year": "2017",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1109/MSP.2012.2205597",
+        "article-title": "Deep neural networks for acoustic modeling in speech recognition: the shared views of four research groups",
+        "volume": "29",
+        "author": "Hinton",
+        "year": "2012",
+        "journal-title": "IEEE Signal Process Mag"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib7",
+        "first-page": "2493",
+        "article-title": "Natural language processing (almost) from scratch",
+        "volume": "12",
+        "author": "Collobert",
+        "year": "2011",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hadsell R, Erkan A, Sermanet P, Scoffier M, Muller U, LeCun Y. Deep belief net learning in a long-range vision system for autonomous off-road driving. 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems; Nice, France; Sept 22–26, 2008: 628–33.",
+        "DOI": "10.1109/IROS.2008.4651217"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "120",
+        "DOI": "10.1002/rob.20276",
+        "article-title": "Learning long-range vision for autonomous off-road driving",
+        "volume": "26",
+        "author": "Hadsell",
+        "year": "2009",
+        "journal-title": "J Field Rob"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2353",
+        "DOI": "10.1001/jama.2016.17438",
+        "article-title": "Adapting to artificial intelligence: radiologists and pathologists as information specialists",
+        "volume": "316",
+        "author": "Jha",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1001/jama.2015.18421",
+        "article-title": "Machine learning and the profession of medicine",
+        "volume": "315",
+        "author": "Darcy",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2331",
+        "DOI": "10.1016/S0140-6736(18)31925-1",
+        "article-title": "The fate of medicine in the time of AI",
+        "volume": "392",
+        "author": "Coiera",
+        "year": "2018",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib13",
+        "article-title": "Big data and medical research in China",
+        "volume": "360",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib14",
+        "first-page": "1",
+        "article-title": "Global challenges for cancer imaging",
+        "volume": "4",
+        "author": "Schlemmer",
+        "year": "2018",
+        "journal-title": "J Glob Oncol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1016/j.jacr.2017.11.017",
+        "article-title": "Artificial intelligence and radiology: what will the future hold?",
+        "volume": "15",
+        "author": "King",
+        "year": "2018",
+        "journal-title": "J Am Coll Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "article-title": "High-performance medicine: the convergence of human and artificial intelligence",
+        "volume": "25",
+        "author": "Topol",
+        "year": "2019",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "336",
+        "DOI": "10.1016/j.ijsu.2010.02.007",
+        "article-title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+        "volume": "8",
+        "author": "Moher",
+        "year": "2010",
+        "journal-title": "Int J Surg"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pmed.1001744",
+        "article-title": "Critical appraisal and data extraction for systematic reviews of prediction modelling studies: the CHARMS checklist",
+        "volume": "11",
+        "author": "Moons",
+        "year": "2014",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "954",
+        "DOI": "10.1038/s41591-019-0447-x",
+        "article-title": "End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography",
+        "volume": "25",
+        "author": "Ardila",
+        "year": "2019",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1259/bjr.20170576",
+        "article-title": "Classification of breast cancer in ultrasound imaging using a generic deep learning analysis software: a pilot study",
+        "volume": "91",
+        "author": "Becker",
+        "year": "2018",
+        "journal-title": "Br J Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "803",
+        "DOI": "10.1001/jamaophthalmol.2018.1934",
+        "article-title": "Automated diagnosis of plus disease in retinopathy of prematurity using deep convolutional neural networks",
+        "volume": "136",
+        "author": "Brown",
+        "year": "2018",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "549",
+        "DOI": "10.1016/j.ophtha.2017.10.031",
+        "article-title": "Fully automated detection and quantification of macular fluid in OCT using deep learning",
+        "volume": "125",
+        "author": "Schlegl",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1095",
+        "DOI": "10.1016/j.jclinepi.2007.09.013",
+        "article-title": "An empirical comparison of methods for meta-analysis of diagnostic accuracy showed hierarchical models are necessary",
+        "volume": "61",
+        "author": "Harbord",
+        "year": "2008",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib24",
+        "series-title": "VipIMAGE 2017",
+        "first-page": "797",
+        "article-title": "Exploratory study on direct prediction of diabetes using deep residual networks",
+        "author": "Abbasi-Sureshjani",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1111/1754-9485.12828",
+        "article-title": "Computer vs human: deep learning versus perceptual training for the detection of neck of femur fractures",
+        "volume": "63",
+        "author": "Adams",
+        "year": "2019",
+        "journal-title": "J Med Imaging Radiat Oncol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "458",
+        "DOI": "10.1016/j.oooo.2018.10.002",
+        "article-title": "Contrast-enhanced computed tomography image assessment of cervical lymph node metastasis in patients with oral cancer by using a deep learning system of artificial intelligence",
+        "volume": "127",
+        "author": "Ariji",
+        "year": "2019",
+        "journal-title": "Oral Surg Oral Med Oral Pathol Oral Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ayed NGB, Masmoudi AD, Sellami D, Abid R. New developments in the diagnostic procedures to reduce prospective biopsies breast. 2015 International Conference on Advances in Biomedical Engineering (ICABME); Beirut, Lebanon; Sept 16–18, 2015: 205–08.",
+        "DOI": "10.1109/ICABME.2015.7323288"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "434",
+        "DOI": "10.1097/RLI.0000000000000358",
+        "article-title": "Deep learning in mammography: diagnostic accuracy of a multipurpose image analysis software in the detection of breast cancer",
+        "volume": "52",
+        "author": "Becker",
+        "year": "2017",
+        "journal-title": "Invest Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pmed.1002699",
+        "article-title": "Deep-learning-assisted diagnosis for knee magnetic resonance imaging: development and retrospective validation of MRNet",
+        "volume": "15",
+        "author": "Bien",
+        "year": "2018",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.ejca.2019.02.005",
+        "article-title": "A convolutional neural network trained with dermoscopic images performed on par with 145 dermatologists in a clinical melanoma image classification task",
+        "volume": "111",
+        "author": "Brinker",
+        "year": "2019",
+        "journal-title": "Eur J Cancer"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.compbiomed.2017.01.018",
+        "article-title": "Comparing humans and deep learning performance for grading AMD: a study in using universal deep features and transfer learning for automated AMD analysis",
+        "volume": "82",
+        "author": "Burlina",
+        "year": "2017",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1305",
+        "DOI": "10.1001/jamaophthalmol.2018.3799",
+        "article-title": "Utility of deep learning methods for referability classification of age-related macular degeneration",
+        "volume": "136",
+        "author": "Burlina",
+        "year": "2018",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1359",
+        "DOI": "10.1001/jamaophthalmol.2018.4118",
+        "article-title": "Use of deep learning for detailed severity characterization and estimation of 5-year risk among patients with age-related macular degeneration",
+        "volume": "136",
+        "author": "Burlina",
+        "year": "2018",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "746",
+        "DOI": "10.1002/mp.13361",
+        "article-title": "Breast mass classification in sonography with transfer learning using a deep convolutional neural network and color conversion",
+        "volume": "46",
+        "author": "Byra",
+        "year": "2019",
+        "journal-title": "Med Phys"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TMI.2019.2901928",
+        "article-title": "Joint prostate cancer detection and gleason score prediction in mp-MRI via FocalNet",
+        "author": "Cao",
+        "year": "2019",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2214/AJR.18.20817",
+        "article-title": "Performance of a deep learning algorithm in detecting osteonecrosis of the femoral head on digital radiography: a comparison with assessments by radiologists",
+        "author": "Chee",
+        "year": "2019",
+        "journal-title": "AJR Am J Roentgenol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "749",
+        "DOI": "10.3348/kjr.2018.0530",
+        "article-title": "Effect of a deep learning framework-based computer-aided diagnosis system on the diagnostic performance of radiologists in differentiating between malignant and benign masses on breast ultrasonography",
+        "volume": "20",
+        "author": "Choi",
+        "year": "2019",
+        "journal-title": "Korean J Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "688",
+        "DOI": "10.1148/radiol.2018180763",
+        "article-title": "Development and validation of a deep learning system for staging liver fibrosis by using contrast agent-enhanced CT images in the liver",
+        "volume": "289",
+        "author": "Choi",
+        "year": "2018",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib39",
+        "article-title": "Towards automatic pulmonary nodule management in lung cancer screening with deep learning",
+        "volume": "7",
+        "author": "Ciompi",
+        "year": "2017",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1147/JRD.2017.2708299",
+        "article-title": "Deep learning ensembles for melanoma recognition in dermoscopy images",
+        "volume": "61",
+        "author": "Codella",
+        "year": "2017",
+        "journal-title": "IBM J Res Dev"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1559",
+        "DOI": "10.1038/s41591-018-0177-5",
+        "article-title": "Classification and mutation prediction from non-small cell lung cancer histopathology images using deep learning",
+        "volume": "24",
+        "author": "Coudray",
+        "year": "2018",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "article-title": "Clinically applicable deep learning for diagnosis and referral in retinal disease",
+        "volume": "24",
+        "author": "De Fauw",
+        "year": "2018",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "456",
+        "DOI": "10.1148/radiol.2018180958",
+        "article-title": "A deep learning model to predict a diagnosis of Alzheimer disease by using 18F-FDG PET of the brain",
+        "volume": "290",
+        "author": "Ding",
+        "year": "2019",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "537",
+        "DOI": "10.1148/radiol.2018181422",
+        "article-title": "Assessment of convolutional neural networks for automated classification of chest radiographs",
+        "volume": "290",
+        "author": "Dunnmon",
+        "year": "2019",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "2199",
+        "DOI": "10.1001/jama.2017.14585",
+        "article-title": "Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer",
+        "volume": "318",
+        "author": "Ehteshami Bejnordi",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "115",
+        "DOI": "10.1038/nature21056",
+        "article-title": "Dermatologist-level classification of skin cancer with deep neural networks",
+        "volume": "542",
+        "author": "Esteva",
+        "year": "2017",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "466",
+        "DOI": "10.1007/s11604-019-00831-5",
+        "article-title": "Distinction between benign and malignant breast masses at breast ultrasound using deep learning method with convolutional neural network",
+        "volume": "37",
+        "author": "Fujioka",
+        "year": "2019",
+        "journal-title": "Jpn J Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1111/bjd.16924",
+        "article-title": "Deep-learning-based, computer-aided classifier developed with a small dataset of clinical images surpasses board-certified dermatologists in skin tumour diagnosis",
+        "volume": "180",
+        "author": "Fujisawa",
+        "year": "2019",
+        "journal-title": "Br J Dermatol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "Gómez-Valverde",
+        "year": "2019",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grewal M, Srivastava MM, Kumar P, Varadarajan S. RADnet: radiologist level accuracy using deep learning for hemorrhage detection in CT scans. 2018 IEEE 15th International Symposium on Biomedical Imaging (ISBI 2018); Washington, DC, USA; April 4–7, 2018: 281–84.",
+        "DOI": "10.1109/ISBI.2018.8363574"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1836",
+        "DOI": "10.1093/annonc/mdy166",
+        "article-title": "Man against machine: diagnostic performance of a deep learning convolutional neural network for dermoscopic melanoma recognition in comparison to 58 dermatologists",
+        "volume": "29",
+        "author": "Haenssle",
+        "year": "2018",
+        "journal-title": "Ann Oncol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "3338",
+        "DOI": "10.1007/s00330-019-06205-9",
+        "article-title": "Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI",
+        "volume": "29",
+        "author": "Hamm",
+        "year": "2019",
+        "journal-title": "Eur Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1529",
+        "DOI": "10.1016/j.jid.2018.01.028",
+        "article-title": "Classification of the clinical images for benign and malignant cutaneous tumors using a deep learning algorithm",
+        "volume": "138",
+        "author": "Han",
+        "year": "2018",
+        "journal-title": "J Invest Dermatol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib54",
+        "article-title": "Deep neural networks show an equivalent and often superior performance to dermatologists in onychomycosis diagnosis: automatic construction of onychomycosis datasets by region-based convolutional deep neural network",
+        "volume": "13",
+        "author": "Han",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib55",
+        "article-title": "Development and validation of a deep learning–based automatic detection algorithm for active pulmonary tuberculosis on chest radiographs",
+        "author": "Hwang",
+        "year": "2018",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.7150/thno.28447",
+        "article-title": "Artificial intelligence-based decision-making for age-related macular degeneration",
+        "volume": "9",
+        "author": "Hwang",
+        "year": "2019",
+        "journal-title": "Theranostics"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib57",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jamanetworkopen.2019.1095",
+        "article-title": "Development and validation of a deep learning–based automated detection algorithm for major thoracic diseases on chest radiographs",
+        "volume": "2",
+        "author": "Hwang",
+        "year": "2019",
+        "journal-title": "JAMA Network Open"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "article-title": "Identifying medical diagnoses and treatable diseases by image-based deep learning",
+        "volume": "172",
+        "author": "Kermany",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "599",
+        "DOI": "10.1007/s10278-012-9457-7",
+        "article-title": "A comparison of logistic regression analysis and an artificial neural network using the BI-RADS lexicon for ultrasonography in conjunction with introbserver variability",
+        "volume": "25",
+        "author": "Kim",
+        "year": "2012",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib60",
+        "article-title": "Performance of the deep convolutional neural network based magnetic resonance image scoring algorithm for differentiating between tuberculous and pyogenic spondylitis",
+        "volume": "8",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1097/RLI.0000000000000503",
+        "article-title": "Deep learning in diagnosis of maxillary sinusitis using conventional radiography",
+        "volume": "54",
+        "author": "Kim",
+        "year": "2019",
+        "journal-title": "Invest Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib62",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1259/dmfr.20190019",
+        "article-title": "Preliminary study on the application of deep learning system to diagnosis of Sjögren's syndrome on CT images",
+        "author": "Kise",
+        "year": "2019",
+        "journal-title": "Dentomaxillofac Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "885",
+        "DOI": "10.1002/hed.25415",
+        "article-title": "Deep convolutional neural network for the diagnosis of thyroid nodules on ultrasound",
+        "volume": "41",
+        "author": "Ko",
+        "year": "2019",
+        "journal-title": "Head Neck"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1007/s10388-018-0651-7",
+        "article-title": "Diagnosis using deep-learning artificial intelligence based on the endocytoscopic observation of the esophagus",
+        "volume": "16",
+        "author": "Kumagai",
+        "year": "2019",
+        "journal-title": "Esophagus"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1038/s41551-018-0324-9",
+        "article-title": "An explainable deep-learning algorithm for the detection of acute intracranial haemorrhage from small datasets",
+        "volume": "3",
+        "author": "Lee",
+        "year": "2019",
+        "journal-title": "Nat Biomed Eng"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1186/s40880-018-0325-9",
+        "article-title": "Development and validation of an endoscopic images-based deep learning model for detection with nasopharyngeal malignancies",
+        "volume": "38",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Cancer Commun"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1016/S1470-2045(18)30762-9",
+        "article-title": "Diagnosis of thyroid cancer using deep convolutional neural network models applied to sonographic images: a retrospective, multicohort, diagnostic study",
+        "volume": "20",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Lancet Oncol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "693",
+        "DOI": "10.1109/TFUZZ.2013.2269149",
+        "article-title": "Breast nodules computer-aided diagnostic system design using fuzzy cerebellar model neural networks",
+        "volume": "22",
+        "author": "Lin",
+        "year": "2014",
+        "journal-title": "IEEE Trans Fuzzy Syst"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "11591",
+        "DOI": "10.1073/pnas.1806905115",
+        "article-title": "Deep neural network improves fracture detection by clinicians",
+        "volume": "115",
+        "author": "Lindsey",
+        "year": "2018",
+        "journal-title": "Proc Natl Acad Sci USA"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "0024",
+        "DOI": "10.1038/s41551-016-0024",
+        "article-title": "An artificial intelligence platform for the multihospital collaborative management of congenital cataracts",
+        "volume": "1",
+        "author": "Long",
+        "year": "2017",
+        "journal-title": "Nat Biomed Eng"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1167/tvst.7.6.41",
+        "article-title": "Deep learning-based automated classification of multi-categorical abnormalities from optical coherence tomography images",
+        "volume": "7",
+        "author": "Lu",
+        "year": "2018",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "1269",
+        "DOI": "10.1007/s10792-018-0940-0",
+        "article-title": "Accuracy of ultra-wide-field fundus ophthalmoscopy-assisted deep learning, a machine-learning technology, for detecting age-related macular degeneration",
+        "volume": "39",
+        "author": "Matsuba",
+        "year": "2019",
+        "journal-title": "Int Ophthalmol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib73",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.gie.2019.04.245",
+        "article-title": "Classification for invasion depth of esophageal squamous cell carcinoma using a deep neural network compared with experienced endoscopists",
+        "author": "Nakagawa",
+        "year": "2019",
+        "journal-title": "Gastrointestinal Endoscopy"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib74",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1148/radiol.2018180237",
+        "article-title": "Development and validation of deep learning–based automatic detection algorithm for malignant pulmonary nodules on chest radiographs",
+        "volume": "290",
+        "author": "Nam",
+        "year": "2019",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib75",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1080/17453674.2017.1344459",
+        "article-title": "Artificial intelligence for analyzing orthopedic trauma radiographs",
+        "volume": "88",
+        "author": "Olczak",
+        "year": "2017",
+        "journal-title": "Acta Orthopaedica"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib76",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1016/j.ophtha.2018.11.015",
+        "article-title": "DeepSeeNet: a deep learning model for automated classification of patient-based age-related macular degeneration severity from color fundus photographs",
+        "volume": "126",
+        "author": "Peng",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib77",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.4258/hir.2018.24.3.236",
+        "article-title": "Application of convolutional neural network in the diagnosis of jaw tumors",
+        "volume": "24",
+        "author": "Poedjiastoeti",
+        "year": "2018",
+        "journal-title": "Healthc Inform Res"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib78",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pmed.1002686",
+        "article-title": "Deep learning for chest radiograph diagnosis: a retrospective comparison of the CheXNeXt algorithm to practicing radiologists",
+        "volume": "15",
+        "author": "Rajpurkar",
+        "year": "2018",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib79",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1038/s41746-019-0099-8",
+        "article-title": "Deep learning versus human graders for classifying diabetic retinopathy severity in a nationwide screening program",
+        "volume": "2",
+        "author": "Ruamviboonsuk",
+        "year": "2019",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib80",
+        "doi-asserted-by": "crossref",
+        "first-page": "552",
+        "DOI": "10.1016/j.ophtha.2018.11.016",
+        "article-title": "Using a deep learning algorithm and integrated gradients explanation to assist grading for diabetic retinopathy",
+        "volume": "126",
+        "author": "Sayres",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib81",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1007/s12149-018-1306-4",
+        "article-title": "Accuracy of an artificial neural network for detecting a regional abnormality in myocardial perfusion SPECT",
+        "volume": "33",
+        "author": "Shibutani",
+        "year": "2019",
+        "journal-title": "Ann Nucl Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib82",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1016/j.ebiom.2017.10.014",
+        "article-title": "Application of convolutional neural networks in the diagnosis of Helicobacter pylori infection based on endoscopic images",
+        "volume": "25",
+        "author": "Shichijo",
+        "year": "2017",
+        "journal-title": "EbioMedicine"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib83",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0204155",
+        "article-title": "Deep learning in chest radiography: detection of findings and presence of change",
+        "volume": "13",
+        "author": "Singh",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib84",
+        "doi-asserted-by": "crossref",
+        "first-page": "1215",
+        "DOI": "10.1109/JBHI.2018.2852718",
+        "article-title": "Multitask cascade convolution neural networks for automatic thyroid nodule detection and recognition",
+        "volume": "23",
+        "author": "Song",
+        "year": "2019",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib85",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1016/j.ejro.2018.09.002",
+        "article-title": "Distinction between phyllodes tumor and fibroadenoma in breast ultrasound using deep learning image analysis",
+        "volume": "5",
+        "author": "Stoffel",
+        "year": "2018",
+        "journal-title": "Eur J Radiol Open"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib86",
+        "doi-asserted-by": "crossref",
+        "first-page": "4427",
+        "DOI": "10.3748/wjg.v18.i32.4427",
+        "article-title": "Contrast-enhanced ultrasonography parameters in neural network diagnosis of liver tumors",
+        "volume": "18",
+        "author": "Streba",
+        "year": "2012",
+        "journal-title": "World J Gastroenterol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib87",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.7863/ultra.33.1.83",
+        "article-title": "A computer-aided diagnostic algorithm improves the accuracy of transesophageal echocardiography for left atrial thrombi: a single-center prospective study",
+        "volume": "33",
+        "author": "Sun",
+        "year": "2014",
+        "journal-title": "J Ultrasound Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib88",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1001/jamadermatol.2018.4378",
+        "article-title": "Expert-level diagnosis of nonpigmented skin cancer by combined convolutional neural networks",
+        "volume": "155",
+        "author": "Tschandl",
+        "year": "2019",
+        "journal-title": "JAMA Dermatol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib89",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1007/s00256-018-3016-3",
+        "article-title": "Detecting intertrochanteric hip fractures with orthopedist-level accuracy using a deep convolutional neural network",
+        "volume": "48",
+        "author": "Urakawa",
+        "year": "2019",
+        "journal-title": "Skeletal Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib90",
+        "doi-asserted-by": "crossref",
+        "first-page": "1273",
+        "DOI": "10.1109/TMI.2016.2526689",
+        "article-title": "Fast convolutional neural network training using selective data sampling: application to hemorrhage detection in color fundus images",
+        "volume": "35",
+        "author": "van Grinsven",
+        "year": "2016",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib91",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.1016/S2213-2600(18)30286-8",
+        "article-title": "Deep learning for classifying fibrotic lung disease on high-resolution computed tomography: a case-cohort study",
+        "volume": "6",
+        "author": "Walsh",
+        "year": "2018",
+        "journal-title": "Lancet Respir Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib92",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1186/s13550-017-0260-9",
+        "article-title": "Comparison of machine learning methods for classifying mediastinal lymph node metastasis of non-small cell lung cancer from F-18-FDG PET/CT images",
+        "volume": "7",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "EJNMMI Res"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib93",
+        "doi-asserted-by": "crossref",
+        "first-page": "491",
+        "DOI": "10.21037/qims.2018.06.03",
+        "article-title": "3D convolutional neural network for differentiating pre-invasive lesions from invasive adenocarcinomas appearing as ground-glass nodules with diameters ≤3 cm using HRCT",
+        "volume": "8",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Quant Imaging Med Surg"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib94",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1186/s12957-019-1558-z",
+        "article-title": "Automatic thyroid nodule recognition and diagnosis in ultrasound imaging with the YOLOv2 neural network",
+        "volume": "17",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "World J Surg Oncol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib95",
+        "doi-asserted-by": "crossref",
+        "first-page": "1789",
+        "DOI": "10.1088/0031-9155/59/7/1789",
+        "article-title": "Automatic classification of DMSA scans using an artificial neural network",
+        "volume": "59",
+        "author": "Wright",
+        "year": "2014",
+        "journal-title": "Phys Med Biol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib96",
+        "doi-asserted-by": "crossref",
+        "first-page": "522",
+        "DOI": "10.1055/a-0855-3532",
+        "article-title": "A deep neural network improves endoscopic detection of early gastric cancer without blind spots",
+        "volume": "51",
+        "author": "Wu",
+        "year": "2019",
+        "journal-title": "Endoscopy"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib97",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s00330-019-06163-2",
+        "article-title": "Precise diagnosis of intracranial hemorrhage and subtypes using a three-dimensional joint convolutional and recurrent neural network",
+        "author": "Ye",
+        "year": "2019",
+        "journal-title": "Eur Radiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib98",
+        "article-title": "Acral melanoma detection using a convolutional neural network for dermoscopy images",
+        "volume": "13",
+        "author": "Yu",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib99",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1634/theoncologist.2018-0908",
+        "article-title": "Toward an expert level of lung cancer detection and classification using a deep convolutional neural network",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Oncologist"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib100",
+        "doi-asserted-by": "crossref",
+        "first-page": "10232",
+        "DOI": "10.1109/ACCESS.2018.2881042",
+        "article-title": "Development of an automated screening system for retinopathy of prematurity using a deep neural network for wide-angle retinal images",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib101",
+        "doi-asserted-by": "crossref",
+        "first-page": "6881",
+        "DOI": "10.1158/0008-5472.CAN-18-0696",
+        "article-title": "3D deep learning from CT scans predicts tumor invasiveness of subcentimeter pulmonary adenocarcinomas",
+        "volume": "78",
+        "author": "Zhao",
+        "year": "2018",
+        "journal-title": "Cancer Res"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib102",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1136/eb-2012-101145",
+        "article-title": "Individual patient data meta-analysis of diagnostic studies: opportunities and challenges",
+        "volume": "18",
+        "author": "Riet",
+        "year": "2013",
+        "journal-title": "Evid Based Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib103",
+        "doi-asserted-by": "crossref",
+        "first-page": "453",
+        "DOI": "10.1002/(SICI)1097-0258(20000229)19:4<453::AID-SIM350>3.0.CO;2-5",
+        "article-title": "What do we mean by validating a prognostic model?",
+        "volume": "19",
+        "author": "Altman",
+        "year": "2000",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib104",
+        "doi-asserted-by": "crossref",
+        "first-page": "e323",
+        "DOI": "10.2196/jmir.5870",
+        "article-title": "Guidelines for developing and reporting machine learning predictive models in biomedical research: a multidisciplinary view",
+        "volume": "18",
+        "author": "Luo",
+        "year": "2016",
+        "journal-title": "J Med Internet Res"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib105",
+        "doi-asserted-by": "crossref",
+        "first-page": "1577",
+        "DOI": "10.1016/S0140-6736(19)30037-6",
+        "article-title": "Reporting of artificial intelligence prediction models",
+        "volume": "393",
+        "author": "Collins",
+        "year": "2019",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib106",
+        "doi-asserted-by": "crossref",
+        "first-page": "1925",
+        "DOI": "10.1093/eurheartj/ehu207",
+        "article-title": "Towards better clinical prediction models: seven steps for development and an ABCD for validation",
+        "volume": "35",
+        "author": "Steyerberg",
+        "year": "2014",
+        "journal-title": "Eur Heart J"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib107",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.1002/sim.4780030207",
+        "article-title": "Regression modelling strategies for improved prognostic prediction",
+        "volume": "3",
+        "author": "Harrell",
+        "year": "1984",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib108",
+        "first-page": "1885",
+        "article-title": "Understanding black-box predictions via influence functions",
+        "volume": "70",
+        "author": "Koh",
+        "year": "2017",
+        "journal-title": "Proc Mach Learn Res"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib109",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pmed.1002683",
+        "article-title": "Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: a cross-sectional study",
+        "volume": "15",
+        "author": "Zech",
+        "year": "2018",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib110",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1038/s41746-019-0105-1",
+        "article-title": "Deep learning predicts hip fracture using confounding patient and healthcare variables",
+        "volume": "2",
+        "author": "Badgeley",
+        "year": "2019",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib111",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1016/j.jclinepi.2008.02.007",
+        "article-title": "Multivariable adjustments counteract spectrum and test review bias in accuracy studies",
+        "volume": "62",
+        "author": "Bachmann",
+        "year": "2009",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib112",
+        "doi-asserted-by": "crossref",
+        "first-page": "e686",
+        "DOI": "10.1136/bmj.e686",
+        "article-title": "Assessing the value of diagnostic tests: a framework for designing and evaluating trials",
+        "volume": "344",
+        "author": "Ferrante di Ruffano",
+        "year": "2012",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib114",
+        "unstructured": "Liu X, Faes, L, Calvert MJ, Denniston AK, CONSORT-AI/SPIRIT-AI Extension Group. Extension of the CONSORT and SPIRIT statements. Lancet (in press)."
+      },
+      {
+        "key": "10.1016/S2589-7500(19)30123-2_bib115",
+        "unstructured": "The CONSORT-AI and SPIRIT-AI Steering Group. Reporting guidelines for clinical trials evaluating artificial intelligence interventions are needed. Nat Med (in press)."
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1016/s2589-7500(19)30160-8",
+        "type": "erratum",
+        "label": "Erratum",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2019-11-01T00:00:00Z",
+          "timestamp": 1572566400000
+        }
+      }
+    ],
+    "container-title": [
+      "The Lancet Digital Health"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750019301232?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750019301232?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2025-11-11T22:48:11Z",
+      "timestamp": 1762901291000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2589750019301232"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 114,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2589750019301232"
+    ],
+    "URL": "https://doi.org/10.1016/s2589-7500(19)30123-2",
+    "relation": {},
+    "ISSN": [
+      "2589-7500"
+    ],
+    "issn-type": [
+      {
+        "value": "2589-7500",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: a systematic review and meta-analysis",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Lancet Digital Health",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/S2589-7500(19)30123-2",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "https://doi.org/10.1016/S2589-7500(19)30124-4",
+        "name": "associatedlink",
+        "label": "CrossRef DOI link to the associated document"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Author(s). Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

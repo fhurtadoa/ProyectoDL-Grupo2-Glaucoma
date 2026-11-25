@@ -1,0 +1,397 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2026-11-12T05:25:42Z",
+      "timestamp": 1794461142138,
+      "version": "4.9.1"
+    },
+    "reference-count": 26,
+    "publisher": "Wiley",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2013-01-01T00:00:00Z",
+          "timestamp": 1356998400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/3.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "German National Science Foundation (DFG)"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "International Journal of Biomedical Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    One of the most common modalities to examine the human eye is the eye-fundus photograph. The evaluation of fundus photographs is carried out by medical experts during time-consuming visual inspection. Our aim is to accelerate this process using computer aided diagnosis. As a first step, it is necessary to segment structures in the images for tissue differentiation. As the eye is the only organ, where the vasculature can be imaged in an in vivo and noninterventional way without using expensive scanners, the vessel tree is one of the most interesting and important structures to analyze. The quality and resolution of fundus images are rapidly increasing. Thus, segmentation methods need to be adapted to the new challenges of high resolutions. In this paper, we present a method to reduce calculation time, achieve high accuracy, and increase sensitivity compared to the original\n                    <jats:italic>Frangi</jats:italic>\n                    method. This method contains approaches to avoid potential problems like specular reflexes of thick vessels. The proposed method is evaluated using the\n                    <jats:italic>STARE</jats:italic>\n                    and\n                    <jats:italic>DRIVE</jats:italic>\n                    databases and we propose a new high resolution fundus database to compare it to the state-of-the-art algorithms. The results show an average accuracy above 94% and low computational needs. This outperforms state-of-the-art methods.\n                  </jats:p>",
+    "DOI": "10.1155/2013/154860",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2013-12-12T16:01:27Z",
+      "timestamp": 1386864087000
+    },
+    "page": "1-11",
+    "source": "Crossref",
+    "is-referenced-by-count": 559,
+    "title": [
+      "Robust Vessel Segmentation in Fundus Images"
+    ],
+    "prefix": "10.1155",
+    "volume": "2013",
+    "author": [
+      {
+        "given": "A.",
+        "family": "Budai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Pattern Recognition Lab, Friedrich-Alexander University, Erlangen-Nuremberg, 91058 Erlangen, Germany"
+          },
+          {
+            "name": "International Max Planck Research School for Optics and Imaging (IMPRS), 91058 Erlangen, Germany"
+          },
+          {
+            "name": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), 91052 Erlangen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Bock",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pattern Recognition Lab, Friedrich-Alexander University, Erlangen-Nuremberg, 91058 Erlangen, Germany"
+          },
+          {
+            "name": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), 91052 Erlangen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Maier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pattern Recognition Lab, Friedrich-Alexander University, Erlangen-Nuremberg, 91058 Erlangen, Germany"
+          },
+          {
+            "name": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), 91052 Erlangen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Hornegger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pattern Recognition Lab, Friedrich-Alexander University, Erlangen-Nuremberg, 91058 Erlangen, Germany"
+          },
+          {
+            "name": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), 91052 Erlangen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Michelson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), 91052 Erlangen, Germany"
+          },
+          {
+            "name": "Department of Ophthalmology, Friedrich-Alexander University, Erlangen-Nuremberg, 91058 Erlangen, Germany"
+          },
+          {
+            "name": "Interdisciplinary Center of Ophthalmic Preventive Medicine and Imaging (IZPI), 91054 Erlangen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "reference": [
+      {
+        "key": "10",
+        "year": "1998"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1031120.1031121"
+      },
+      {
+        "key": "29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.preteyeres.2005.07.001"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/42.34715"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-ipr.2012.0455"
+      },
+      {
+        "key": "35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2006.884190"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/42.845178"
+      },
+      {
+        "key": "19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-009-9299-0"
+      },
+      {
+        "key": "42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2010.02.008"
+      },
+      {
+        "key": "17",
+        "year": "1995"
+      },
+      {
+        "key": "31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/42.913178"
+      },
+      {
+        "key": "39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2003.819920"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00133570"
+      },
+      {
+        "key": "32",
+        "first-page": "137",
+        "volume-title": "Contour fitting using stochastic and probabilistic relaxation for Cine MR Images",
+        "year": "1995"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2006.891503"
+      },
+      {
+        "key": "30",
+        "year": "2010"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/0600000020"
+      },
+      {
+        "issue": "6",
+        "key": "4",
+        "first-page": "679",
+        "volume": "8",
+        "year": "1986",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2010.2064333"
+      },
+      {
+        "key": "34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2006.879967"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2006.879955"
+      },
+      {
+        "key": "37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2004.825627"
+      },
+      {
+        "key": "41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/83.931095"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2006.11.004"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-85920-8_83"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1159954"
+      }
+    ],
+    "container-title": [
+      "International Journal of Biomedical Imaging"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://downloads.hindawi.com/journals/ijbi/2013/154860.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://downloads.hindawi.com/journals/ijbi/2013/154860.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://downloads.hindawi.com/journals/ijbi/2013/154860.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2016-07-30T06:37:17Z",
+      "timestamp": 1469860637000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.hindawi.com/journals/ijbi/2013/154860/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "references-count": 26,
+    "alternative-id": [
+      "154860",
+      "154860"
+    ],
+    "URL": "https://doi.org/10.1155/2013/154860",
+    "relation": {},
+    "ISSN": [
+      "1687-4188",
+      "1687-4196"
+    ],
+    "issn-type": [
+      {
+        "value": "1687-4188",
+        "type": "print"
+      },
+      {
+        "value": "1687-4196",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    }
+  }
+}

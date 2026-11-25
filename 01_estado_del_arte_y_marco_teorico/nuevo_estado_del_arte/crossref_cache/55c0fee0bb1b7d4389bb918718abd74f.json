@@ -1,0 +1,634 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2026-09-26T18:22:26Z",
+      "timestamp": 1790446946837,
+      "version": "4.1.0"
+    },
+    "reference-count": 42,
+    "publisher": "Informa UK Limited",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "EB"
+    ],
+    "DOI": "10.2147/eb.s555894",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2026-03-13T06:25:11Z",
+      "timestamp": 1773383111000
+    },
+    "page": "1-11",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Artificial Intelligence in Neuro-Ophthalmology for Optic Disc Pathologies and Neurodegenerative Disease"
+    ],
+    "prefix": "10.2147",
+    "volume": "Volume 18",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4333-9189",
+        "authenticated-orcid": true,
+        "given": "Abhimanyu",
+        "family": "Ahuja",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alfredo",
+        "family": "Paredes III",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-8521-9233",
+        "authenticated-orcid": true,
+        "given": "Mallory",
+        "family": "Eisel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cole",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nina",
+        "family": "Truong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julie",
+        "family": "Falardeau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1097/WCO.0000000000000880",
+        "volume": "34",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Curr Opin Neurol"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "first-page": "62",
+        "DOI": "10.1097/WCO.0000000000000635",
+        "volume": "32",
+        "author": "Stunkel",
+        "year": "2019",
+        "journal-title": "Curr Opin Neurol"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1728",
+        "DOI": "10.2337/dci23-0032",
+        "volume": "46",
+        "author": "Rajesh",
+        "year": "2023",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "first-page": "242",
+        "DOI": "10.1016/j.ejmp.2021.04.016",
+        "volume": "83",
+        "author": "Barragán-Montero",
+        "year": "2021",
+        "journal-title": "Phys Med"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/healthcare11030285",
+        "volume": "11",
+        "author": "Iyortsuun",
+        "year": "2023",
+        "journal-title": "Healthcare"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "first-page": "513",
+        "DOI": "10.1109/TSMCB.2011.2168604",
+        "volume": "42",
+        "author": "Huang",
+        "year": "2012",
+        "journal-title": "IEEE Trans Syst Man Cybern B Cybern"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1016/j.neunet.2012.04.002",
+        "volume": "33",
+        "author": "Liu",
+        "year": "2012",
+        "journal-title": "Neural Netwk"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "first-page": "409",
+        "DOI": "10.1007/s00401-023-02548-2",
+        "volume": "145",
+        "author": "Koronyo",
+        "year": "2023",
+        "journal-title": "Acta Neuropathol"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "first-page": "432",
+        "DOI": "10.1136/bjo-2022-321399",
+        "volume": "108",
+        "author": "Xie",
+        "year": "2024",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "first-page": "294",
+        "DOI": "10.1038/s41746-024-01292-5",
+        "volume": "7",
+        "author": "Hao",
+        "year": "2024",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "first-page": "e806",
+        "DOI": "10.1016/S2589-7500(22)00169-8",
+        "volume": "4",
+        "author": "Cheung",
+        "year": "2022",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "first-page": "e058552",
+        "DOI": "10.1136/bmjopen-2021-058552",
+        "volume": "12",
+        "author": "Wagner",
+        "year": "2022",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "first-page": "100429",
+        "DOI": "10.1016/j.esmoop.2022.100429",
+        "volume": "7",
+        "author": "Kleppe",
+        "year": "2022",
+        "journal-title": "ESMO Open"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "first-page": "3267",
+        "DOI": "10.2147/NDT.S333833",
+        "volume": "17",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Neuropsychiatr Dis Treat"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1687",
+        "DOI": "10.1056/NEJMoa1917130",
+        "volume": "382",
+        "author": "Milea",
+        "year": "2020",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "first-page": "47",
+        "DOI": "10.1097/WNO.0000000000001945",
+        "volume": "44",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "J Neuroophthalmol"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "first-page": "454",
+        "DOI": "10.1097/WNO.0000000000002223",
+        "volume": "44",
+        "author": "Sathianvichitr",
+        "year": "2024",
+        "journal-title": "J Neuroophthalmol"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2119",
+        "DOI": "10.1007/s10792-020-01365-w",
+        "volume": "40",
+        "author": "Allegrini",
+        "year": "2020",
+        "journal-title": "Int Ophthalmol"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1016/j.optm.2006.07.009",
+        "volume": "78",
+        "author": "Aumiller",
+        "year": "2007",
+        "journal-title": "Optometry"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "first-page": "e192",
+        "DOI": "10.1212/WNL.0000000000201350",
+        "volume": "100",
+        "author": "Girard",
+        "year": "2023",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "volume": "25",
+        "author": "Topol",
+        "year": "2019",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Kaur K, Margolin E. Nonarteritic anterior ischemic optic neuropathy. StatPearls; 2025. Available from: https://www.ncbi.nlm.nih.gov/books/NBK559045/. Accessed October 17, 2025."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1097/WNO.0000000000001925",
+        "volume": "44",
+        "author": "Jalili",
+        "year": "2024",
+        "journal-title": "J Neuroophthalmol"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1073",
+        "DOI": "10.1001/jamaophthalmol.2024.4269",
+        "volume": "142",
+        "author": "Gungor",
+        "year": "2024",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "first-page": "249",
+        "DOI": "10.1016/j.ajo.2025.05.036",
+        "volume": "277",
+        "author": "Szanto",
+        "year": "2025",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2025.04.006",
+        "volume": "276",
+        "author": "Szanto",
+        "year": "2025",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "first-page": "5079",
+        "DOI": "10.1038/s41598-024-55054-0",
+        "volume": "14",
+        "author": "Lee",
+        "year": "2024",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "first-page": "164",
+        "DOI": "10.1001/jama.2020.21899",
+        "volume": "325",
+        "author": "Stein",
+        "year": "2021",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1627",
+        "DOI": "10.3390/app15031627",
+        "volume": "15",
+        "author": "Majid",
+        "year": "2025",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "first-page": "5212128",
+        "DOI": "10.1155/2022/5212128",
+        "volume": "2022",
+        "author": "Gong",
+        "year": "2022",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "first-page": "785",
+        "DOI": "10.1002/ana.25839",
+        "volume": "88",
+        "author": "Biousse",
+        "year": "2020",
+        "journal-title": "Ann Neurol"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1167/tvst.11.3.4",
+        "volume": "11",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.1159/000541627",
+        "volume": "54",
+        "author": "Henkel",
+        "year": "2025",
+        "journal-title": "Dement Geriatr Cognit Disord"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "first-page": "1619463",
+        "DOI": "10.3389/frai.2025.1619463",
+        "volume": "8",
+        "author": "Nasir",
+        "year": "2025",
+        "journal-title": "Front Artif Intell"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "first-page": "542",
+        "DOI": "10.1016/j.csbj.2024.08.005",
+        "volume": "24",
+        "author": "Muhammad",
+        "year": "2024",
+        "journal-title": "Comput Struct Biotechnol J"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "first-page": "2573",
+        "DOI": "10.2147/OPTH.S312236",
+        "volume": "15",
+        "author": "Singh",
+        "year": "2021",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "first-page": "100864",
+        "DOI": "10.1016/j.landig.2025.02.004",
+        "volume": "7",
+        "author": "Sadée",
+        "year": "2025",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4266/acc.003050",
+        "author": "Kim",
+        "year": "2025",
+        "journal-title": "Acute Crit Care"
+      }
+    ],
+    "container-title": [
+      "Eye and Brain"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.dovepress.com/article/download/113012",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.dovepress.com/article/download/113012",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2026-03-13T06:25:14Z",
+      "timestamp": 1773383114000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.dovepress.com/artificial-intelligence-in-neuro-ophthalmology-for-optic-disc-patholog-peer-reviewed-fulltext-article-EB"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.2147/eb.s555894",
+    "relation": {},
+    "ISSN": [
+      "1179-2744"
+    ],
+    "issn-type": [
+      {
+        "value": "1179-2744",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    }
+  }
+}

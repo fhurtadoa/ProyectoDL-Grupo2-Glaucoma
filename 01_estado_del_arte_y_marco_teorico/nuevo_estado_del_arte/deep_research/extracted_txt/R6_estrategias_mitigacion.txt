@@ -1,0 +1,586 @@
+=== PAGINA 1 ===
+[72] Estrategias de generalización entre
+[72] fuentes en clasificadores profundos de
+[72] glaucoma en retinografías: evidencia
+[72] controlada, límites y brechas para el
+[72] estado del arte
+[72] La literatura revisada por pares de 2016 a 2026 respalda directamente la tesis central de su manuscrito para DYNA : aunque los clasificadores profundos alcanzan discriminaciones internas elevadas (AUROC > 0,90–0,99), casi todas las estrategias propuestas para mejorar la transferencia entre fuentes intervienen sobre la variación de la imagen (color, iluminación, campo de visión, encuadre, calidad o estilo de cámara), abordan solo de forma tangencial la variación de la etiqueta (criterio de glaucoma referible frente a confirmado, manejo de casos sospechosos y sesgo por severidad) y prácticamente carecen de soluciones efectivas en generalización estricta para el cambio del punto de decisión (calibración y transporte de un umbral fijado sin reajuste en el destino) . Bajo protocolos controlados que mantienen fija la arquitectura, las intervenciones más eficaces en generalización estricta —normalización en espacio CIELAB, aumento fotométrico fuerte, alineación de características entre vistas aumentadas (DAFA), Masked Image Modeling (MIM) con color estandarizado y preentrenamiento autosupervisado retiniano— reducen solo una fracción de la caída de AUROC en bases no vistas y no impiden el desbalance abrupto entre sensibilidad y especificidad cuando el umbral de origen se transporta sin recalibrar . Dos hallazgos empíricos controlados explican de forma directa el colapso de sensibilidad que observan en EyePACS (retinografías de campo amplio con fondo negro) frente a recortes papilares. Primero, el efecto del recorte centrado en el disco óptico (ROI) depende de la arquitectura y de la simetría entre entrenamiento y prueba: recortar mejora la discriminación externa en CNNs convencionales como VGG-19, pero puede degradar significativamente la generalización externa de modelos fundacionales basados en Vision Transformers como RETFound y provoca caídas severas de exactitud o sensibilidad si el umbral interno permanece congelado . Segundo, las estrategias que logran mayores recuperaciones absolutas ante cambios fuertes de adquisición —como la adaptación de dominio no supervisada (UDA), el ajuste fino específico por sitio o la recalibración local de umbrales— requieren datos del dominio destino durante el desarrollo y, por tanto, abandonan la generalización estricta ( zero-shot ) . A continuación se entregan los cuatro productos solicitados: (1) la tabla comparativa estructurada con DOI canónicos, régimen de validación y trazabilidad exacta de cada cifra, (2) la síntesis analítica que separa generalización estricta de adaptación de dominio y jerarquiza el nivel de evidencia de las diez familias de estrategias, (3) la lista comentada de los trabajos más
+
+=== PAGINA 2 ===
+[72] recientes de 2024–2026 y (4) la sección de afirmaciones dudosas o contradictorias.
+[72] Matriz comparativa de estrategias de generalización
+[72] entre fuentes en glaucoma En la tabla se distingue de forma sistemática entre validación interna (partición aleatoria de la misma base o mezcla), validación entre bases (otra base pública no vista), leave-one-domain-out (LODO) y validación externa en centro o cohorte independiente , especificando si las cifras se extrajeron del texto completo o solo del resumen . Los trabajos sin revisión por pares verificada se etiquetan explícitamente como (preprint) .
+[81] Autor y año
+[133] DOI
+[184] Estrategia
+[236] Variaciónqueataca(imagen,etique ta o puntodedecisión)
+[288] ¿Usaimágenesdeldominiodestinoduran te el desarrollo?
+[340] Líneabasecomparada
+[392] Basesdeprueb a no vistas
+[443] Mejorareportadaconsumétrica
+[495] Ubicación de las cifras
+[81] Rahm an et al.,2026(preprint,arXiv:2611.01992)
+[133] sinDOIverificado
+[184] Normalizaci ón de color ( LAB refere nce , BenGraham,CLAHE,gray- world ) yaumentofotom
+[236] Imagen(coloreiluminación)
+[288] No(estrictamen te no vistas)
+[340] 5CNNsImageNetsinnormalizació n de color(intern o AUC 0,913±0,018;entrebases0,702±
+[392] Validaciónentrebases:ACRIMA,ORIGA,RIM-O NE DL (yG1020externo)
+[443] AUCentrebases(medi a de 5 CNNs,3semilla s): LAB 0,755(+0,05 3; IC 95%:0,046–0,06 0; p = 0,0010);
+[495] Resum en y TablaIX(textocompleto)
+
+=== PAGINA 3 ===
+[184] étricofuerte ( Color Jitter )
+[340] 0,014;caída 0,211 ± 0,030)
+[443] Coloraug.fuerte0,754(+0,05 2; p = 0,007 3); Ben Graham0,733(+0,03 1; p = 0,0078);CLAHE0,712(+0,01 0; p = 0,0142);gray-world0,696(−0,00 6; p = 0,2781 ). Los doslídereselevaronespecificidadperoredujeronsensibilidadalumbra
+
+=== PAGINA 4 ===
+[443] lfuente
+[81] Rahm an et al.,2026(preprint,arXiv:2611.01992)
+[133] sinDOIverificado
+[184] Entrenamientomultifuente(LOD O, 2 fuente s → 1 destin o) con controlempatadoportamaño
+[236] Image n y mezcl a de fuentes
+[288] No
+[340] Misma s 5 CNNsentrenadas en 1 solafuente(AUC0,702)ycontrolempatadoporvolumen
+[392] LODO:ACRIMA,ORIG A o RIM-O NE DL retenida;externa:G1020
+[443] Sinmejor a: AUC LODOmultifuente0,695vs.0,702unifue nte; en G1020externo:multifuente0,495vs.contro l de tamaño0,494vs.unifuente0,493
+[495] Resumen,Sec. IV-G y Fig. 8 (textocompleto)
+[81] Rahm an et al.,2026(preprint,arXiv:2611.01992)
+[133] sinDOIverificado
+[184] Recalibració n de umbra l en el destino(Youdensobre
+[236] Puntodedecisión
+[288] Sí(10%etiquetadodeldestino)
+[340] Misma s 5 CNNsconumbra l fijado envalidaciónde
+[392] 90%restan te de ACRIMA,ORIG A y RIM-O NE DL
+[443] Unifue nte: Sp 0,506→0,670,Se0,726→0,609,Bal.
+[495] Resumen,TablaIV,Sec. IV-F y IV-G(textocompleto)
+
+=== PAGINA 5 ===
+[184] 10%etiquetadodeldestino)
+[340] origen(intern o Sp 0,870 / Se 0,831;entrebasesSp0,506 / Se 0,726 / Bal.Acc0,616)
+[443] Acc0,616→0,639(+0,023);multifuente:Sp0,467→0,654,Se0,757→0,615,Bal.Acc0,612→0,635(+0,02 3; IC 95%:−0,015a0,060)
+[81] Diaz-P into et al.,2019
+[133] 10.1186/s12938-019-0649-y
+[184] Entrenamientomultifuente(4basescombinadas)conXception
+[236] Imagen(diversidad de 4 bases)
+[288] No en LODO (sí en validacióninternacombinada)
+[340] Validaciónintern a 5 basesagrupadas(AUC0,9605;partición70/30intern
+[392] LODO(entrebases):ACRIMA,RIM-ONE,Drishti-GS1, HRF y sjchoi86-HR
+[443] Caída pese a multifuente:AUCLODO=0,7678(ACRIMA),0,8575(RIM-ONE),0,8041
+[495] Resumen,Resultados,Tabla 4 y Conclusión(textocompleto)
+
+=== PAGINA 6 ===
+[340] o0,946 4); sin controlunifuente
+[392] F
+[443] (Drishti-GS1),0,8354(HRF),0,7739(sjchoi86-HRF);caídaglobaldeexactitud~15%
+[81] Chaur asia et al.,2024/2025
+[133] 10.1038/s41433-024-03388-4
+[184] Entrenamientomultifuentemasiv o (19 basespúblicas,18.468imágenes)
+[236] Image n y diversidadpoblacional
+[288] No
+[340] Validacióninternasobre las 19 basesagrupadas(AUROC0,992 0; Acc 0,9671 ; Se/Sp ≥0,953 0); sin controlunifuente
+[392] Validaciónentrebases:Drishti-GS1(101imágenes)
+[443] AUROCextern o = 0,8751 y Acc =0,8713(caídade−0,116 9 en AUROCrespe cto a validaciónintern a pese a 19 fuentes)
+[495] Resumen,Tabla 2 y Fig. 1(textocompleto)
+[81] Ko et
+[133] 10.339
+[184] Ajuste
+[236] Image
+[288] Sí (en
+[340] CNN
+[392] Entre
+[443] Ajuste
+[495] Result
+
+=== PAGINA 7 ===
+[81] al.,2022
+[133] 0/biomedicines10061314
+[184] finoespecíficopordestinofrenteamodelounifuente(TVGH ) y modelointegr ado (4 bases)
+[236] n y parcialmenteetiqueta/pun to de decisión
+[288] ajuste fino e integrado); No (en modeloTVGHbase)
+[340] entrenadasoloenTVGH(intern o AUC 0,991,Acc95,62%;extern os Acc 52,5%–80,0%,DRISHTI-GS1AUC0,770)
+[392] basesycentroexterno(paramodeloTVGHbase):DRISHTI-GS1,RIM-O NE r2, CHGH
+[443] finopordestin o (con etiquetasdestino):Accexterna87,50%–92,5%(DRISHTI-GS1AUC0,770→0,990).Integr ado 4 bases:DRISHTI-GS1AUC0,840peroAcc50,0%;RIM-O NE r2 AUC0,930(Acc82,50%);CHGHAUC
+[495] ados y Tabla3(textocompleto)
+
+=== PAGINA 8 ===
+[443] 0,960(Acc85,0%)
+[81] Bolo et al., 2025/2026
+[133] 10.1016/j.xops.2025.101008
+[184] Diseñofactori al 2×2: recortecentra do en ONH ( cropp ed vs. uncro pped ) ×preentrenamientoSSLretiniano(RETFoundvs.VGG-19)
+[236] Imagen(encuadre/F OV y representacionesSSL)
+[288] No(umbr al de Youdenfijadoendesarrollointerno)
+[340] VGG-1 9 sin recort e y conrecorte(entrenadosenLACDHS, N = 8.996;interno:CroppedVGG-1 9 AUC 0,924vs.CroppedRETFound0,911, p = 0,07)
+[392] Validaciónextern a en centroindependiente:clínica s USC (N = 300)
+[443] Extern o USC: UncroppedRETFoundAUC0,886(F10,812;Se83,3%;Sp78,0% ) > CroppedRETFound0,797(F10,727;Se64,0% ; Sp 88,0% ) > CroppedVGG-190,767(F10,682;Se60,0% ; Sp
+[495] Resum en y Tabla3(textocompleto)
+
+=== PAGINA 9 ===
+[443] 88,0% ) > UncroppedVGG-190,634(F10,648;Se51,3%;Sp76,0%).Recortarmejor ó a VGG-19(+0,133)peroperjud icó a RETFound(−0,08 9; p < 0,001)
+[81] Hemel ings et al.,2021
+[133] 10.1038/s41598-021-99605-1
+[184] Estudiocontroladoderecorte:imagencompleta
+[236] Imagen(encu adre y localizaciónanatómicadeseñal)
+[288] No
+[340] Imagencompleta0%crop(UZLintern o AUC 0,94;REFU
+[392] Validaciónentrebases:REFU GE (y UZLinterno)
+[443] Aleliminar60%centra do en ONH(reentrenado):UZL
+[495] Resumen(PubM ed) y Fig. 1, Fig. 2 y Tabla 1 (textocompl eto vía
+
+=== PAGINA 10 ===
+[184] (0%)vs.ocultamient o del ONH ( ONH crop ) vs.recorteperiférico ( perip hery crop )
+[340] GEextern o AUC 0,87)
+[443] AUC0,87– 0,88 y REFUGEextern o 0,80 (−0,07),demostrandoseñaldiagnósticaextrapapilar.Conservarcentro(60%periphery crop ) obtuv o UZL AUC0,93;sinreentrenar,elrecort e de ONHempe ora el desempeño
+[495] arXiv)
+[81] Hemel ings et
+[133] 10.1038/s417
+[184] Armonizació
+[236] Imagen
+[288] No
+[340] Sinablaci
+[392] 2cohort
+[443] BMESpartici
+[495] Resum en y
+
+=== PAGINA 11 ===
+[81] al.,2023
+[133] 46-023-00857-0
+[184] n ROI (recor te 30° centra do en disco)+regresióncontin ua de VCDR(G-RISK)
+[236] (FOV/encuad re) y parcialmenteetiqueta(riesgocontinuo)
+[340] ónnuméricacontroladafrenteaclasificaciónbinarianifrente a sin recort e en el textoverificado
+[392] espoblacionalesindependientes(BMES , GHS) + 11 basespúblicas(AIROGS,ORIGA,REFUGE1/2,LAG,ODIR,GAMMA,RIM-ONEr3/DL,ACRIMA,PAPILA)
+[443] panteAUC0,976(Se@95Sp87,3%,TV0,73);GHSparticipanteAUC0,984(Se@95Sp90,3%,TV0,72);AIROGSAUC0,963(Se@95Sp79,8%,TV0,78);11basespúblicasAUC0,854(ORIG A) a 0,987(GAMMAcompleto;0,988subgr
+[495] Tabla 1 (textocompleto)
+
+=== PAGINA 12 ===
+[443] upoavanzado).EnPAPIL A ojo, reclasificarsospechososcambi ó el AUCde0,769a0,882
+[81] Chen et al., 2025
+[133] 10.1097/JCMA.0000000000001289
+[184] Ablaciónescalonada:canalverde,preprocesamiento(CLAH E + unshar p ), segmentació n ROI (DeepLabV3 +) y ponderación de ROI (Efficie
+[236] Imagen(color,contra ste y comorbilidades)
+[288] No
+[340] TVGH-Origi nal sin preprocesamiento ni ROI (entrenadoen1.696imáge nes de TVGH)
+[392] 1centroindependiente(CHG H) + 4 basespúblicas(DRISHTI-GS1,REFUGE,LES-AV,VEIRC)
+[443] EnDRISHTI-GS1:Origin al AUC 0,844(Bal.Acc64,10 %) → Preprocessing0,922(82,65 %) → Weighted0,889(80,51 %). El recort
+[495] Resumen,Result ados y Tabla2(textocompleto)
+
+=== PAGINA 13 ===
+[184] ntNetV2-M)
+[443] e duro ( Segm entati on ) redujo el AUC enREFUGE(0,904vs.0,939),LES-AV(0,851vs.0,909)yVEIRC(0,807vs.0,882).Weightedsostuv o Bal. Acc ≥ 80% en las 5externas
+[81] Alhass on et al.,2026
+[133] 10.3390/jcm15166418
+[184] Benchmarkcontro lado: 6 familias(híbrid o RF, VGG1
+[236] Image n y evaluaciónexplíci ta de calibración/u
+[288] No
+[340] Validaciónintern a (líder HybridRF:Acc0,8697 ; AUC
+[392] Validaciónentrebases(12paresentreRIM-ONE,
+[443] Caídaseveraentodos:HybridRFmedioentrebases
+[495] Resumen,Tablas 5, 6 y 9, Sec. 4.4–4.5(textocompl
+
+=== PAGINA 14 ===
+[184] 6,DAE+VGG16,SSCN N) × 4 preprocesamientos ( raw , retinex , roi , roi_ret inex ) + calibración
+[236] mbral
+[340] 0,8972 ; ECE 0,1621 ) y preprocesamientoraw
+[392] DRISHTI-GS,HYGDyORIGA)
+[443] AUC0,5798 , Acc 0,5685,MCC0,0871 . ROI diomayorAccmediaentrebasesyRetinexmayorMCC,peroconcolaps o de umbral(RIM-ONE→ORIG A roi : AUC0,7659conAcc0,3231).Mejorcalibraciónexterna:DAE+T
+[495] eto)
+
+=== PAGINA 15 ===
+[443] CNN-VGG1 6 (ECE medio0,2504)
+[81] Chute r et al., 2024a
+[133] 10.1167/tvst.13.1.23
+[184] Filtradoautomáticoporcalida d de imagen(IQA)específicoparaPOAG(mode lo DL decalidadAUROC0,97)
+[236] Imagen(calida d de captura,foco,iluminación,centrado)
+[288] No
+[340] Mismoclasificador DL de POAGevaluadosobrefotografíasdebajacalida d (sin cifraglobalsinfiltrar en el fragmento)
+[392] Validaciónexternamulticéntric a (>30 centros):OHTS(11.350fotos)
+[443] AURO C del clasificadorPOAG:0,87(IC95%:0,80–0,92)enfotosdebuenacalida d vs. 0,77(IC95%:0,67–0,88)enbajacalidad(+0,10AURO C; p < 0,001)
+[495] Resum en y Discusión/Conclusiones(textocompleto)
+[81] deVente et al., 2024
+[133] 10.1109/TMI.2023.331378
+[184] Desafí o de cribado
+[236] Imagen(calidad,
+[288] No(evaluaciónextern
+[340] Comparaciónentre
+[392] TestAIRO GS y extern
+[443] Mejorequip o en no
+[495] Resum en y Sec.6.1
+
+=== PAGINA 16 ===
+[81] (AIROGS)
+[133] 6
+[184] robust o (500 centros):recort e OD +VisionTransformer s + detección de no graduables/OOD
+[236] OODyencuadre)
+[288] aciega)
+[340] 14equiposparticipantesypanel de 20 expertos (κ_ U 0,85;Se 0,95 a Sp0,97)
+[392] aspúblicas:REFU GE y DRIMDB(robustez)
+[443] graduabilidad:AUC_ U = 0,99(IC95%:0,98–0,99), κ_ U = 0,82,Se 0,90 a Sp0,97;enDRIMDBexternoAUC_ U = 1,0 y κ_ U = 0,94. Los 3 equiposlíderescombinaronlocalización/recort e OD +Transformer s y superaronen
+[495] (textocompleto)
+
+=== PAGINA 17 ===
+[443] prome dio en REFUGEextern o a los participantesorigina les de REFUGE
+[81] vanMeyel et al., 2026
+[133] 10.1016/j.ophtha.2026.10.030
+[184] Validaciónextern a del ganad or de AIROGS:análisi s de centrado(discovs.mácul a) y exclusi ón de ONHincompleto
+[236] Imagen(centr ado y visibilidaddelONH)yetiqueta(severidadperimétrica)
+[288] No
+[340] Fotoscentra das en mácula(mismaorientaciónqueentrenamien to) y conjun to sin excluirvisibilidadincompletadelONH
+[392] Validaciónextern a en cohortepoblacionalindependiente:RotterdamStudy(19.08 8 ojos, 201glaucomasperimétricos)
+[443] Ojo:AUROC0,911,Se@95Sp70,6%,PR-AUC0,343;participante:AUROC0,909,Se@95Sp68,8%.Fotoscentra das en discolograronmayorpAUC(90–100%Sp)
+[495] Resumen(soloresumen)
+
+=== PAGINA 18 ===
+[443] quecentra das en mácula ( 0,86 0 vs. 0,802 ; p = 0,003).ExcluirONHincompletomejorósustancialme nte el PPV.Falsosnegativoscondañomásleve(MD−5,8vs.−10,8 dB; p < 0,001)
+[81] Zhou et al., 2022(DAFA)
+[133] 10.1364/BOE.450543
+[184] Generalizaci ón de dominiounifuente
+[236] Imagen(estilo,contra ste y aparie
+[288] No
+[340] ResNet-50estándar(mcAUC0,655)
+[392] Validaciónentrebases(1fuente → 6
+[443] EntrenadoenLAG(mcAUC):ResNe
+[495] Resum en y Tablas 2, 3, 5 y 7 (textocompl
+
+=== PAGINA 19 ===
+[184] (DAFA):alineacióndecaracterísticasentrevistasfuertementeaumentadas
+[236] ncia)
+[340] ,aumentosfuerte s sin alineación(0,752–0,800),AugMix(0,700),AdvProp(0,728),IBN-ResNet50-b(0,792),ERDG(0,839),EISNet(0,846),JigenDG(0,877)
+[392] novistasentreLAG,ODIR,ORIGA,REFUGE,RIM-O NE r2, BY, ZR)
+[443] t-500,655→Baseline+BarlowTwins0,792→DAFA0,918±0,012(+0,126sobreaumentosolo;+0,041sobreJigenDG;igualaResNeXt101).Entrenado en ZR: 0,718→0,835(+16,3%relativ o). En REFU GE no vista(desdeLAG):
+[495] eto)
+
+=== PAGINA 20 ===
+[443] AUC0,761→0,942;enODIR:0,638→0,830
+[81] Wang et al., 2020(DoFE)
+[133] 10.1109/TMI.2020.3015224
+[184] Generalizaci ón de domini o por bancodecaracterístic as de dominio ( Doma in-OrientedFeatureEmbe dding ) —segmentaciónOD/O C , no clasificacióndirecta
+[236] Imagen(camb io de cámara/cent ro en segmentaciónOD/OC)
+[288] No
+[340] Deep All y métodosDG/regularizaciónensegmentaciónOD/O C bajo protocoloLODO
+[392] LODO(4dominios):Drishti-GS,RIM-ONE-r3,REFUGE-train,REFUGE-val
+[443] SuperioridadcualitativasobreDeep All y otrosmétod os DG ensegmentaciónOD/OC;cifrasexacta s del artículoorigina l no verificadasentextocompleto(citassecundarias
+[495] Solocitassecundarias(textoorigina l no accesible)
+
+=== PAGINA 21 ===
+[443] reportanDice85,12%–92,57%segúnprotocolo)
+[81] Jang et al., 2025
+[133] 10.1007/978-3-032-04981-0_51
+[184] DGmedianteMaskedImageModeling(MIM)conreconstrucci ón en espaci o RGB estandariza do + atencióncruzada
+[236] Imagen(color,contra ste y estilodedominio)
+[288] No
+[340] RETFound(RET-LP54,0%,RET-FT57,4%,RET-LoRA57,6%)ymétod os DG (SPSD-ViT65,1%,PLDG70,9%)
+[392] LODO en 4 domini os de glaucoma:DRISHTI-GS,G1020 , LAG, ORIGA
+[443] ExactitudpromedioLODOenglaucoma:74,8%(+3,9 pp vs. PLDG;+17,2 pp vs. RET-LoRA):DRISHTI-GS79,2%,G102070,9%,LAG78,3%,ORIGA70,9%.(NoreportaAURO C en Tabla
+[495] Tabla 2 y Resultados(textocompleto)
+
+=== PAGINA 22 ===
+[443] 2)
+[81] Shi et al.,2026(CausalFund)(preprint)
+[133] 10.64898/2026.03.02.26347127(preprint)
+[184] Generalizaci ón de dominioinspira da en causalidad(CausalFund)
+[236] Imagen(cámarahospitalaria→smartphoneydegradacióndecalidad)
+[288] No
+[340] ERM en 7 arquitecturas(ResNet,DenseNet,EfficientNet,VGG,ViT,MobileNet,SqueezeNet)
+[392] Validaciónentrebases(camb io de dispositivo):Hospital(Multichannel,12.316)→SmartphoneBrG(2.000)
+[443] AUCensmartphonenovisto:ERM0,649–0,88 5 vs. CausalFund0,757–0,889;EfficientNet0,649→0,757(+0,10 8; p < 0,001);SqueezeNet0,816→0,835(+0,01 9; p < 0,001) ; ViT 0,854→0,881(+0,02 7; p < 0,001)
+[495] Resultados(textocompletoparcial ; tabla vs.IRM/CORALnoverificada)
+
+=== PAGINA 23 ===
+[81] Fan et al.,2022/2023
+[133] 10.1016/j.xops.2022.100233
+[184] Cambi o de arquitectura:VisionTransformer(DeiT)frente a CNN (ResNet-50)conrecort e ONH yaumentosgeométricos
+[236] Image n (y contra ste de 5definicionesdeetique ta en OHTS)
+[288] No
+[340] ResNet-50bajoprotocoloidéntic o de recort e ONH yaumentos(internoOHTSModel o 1: 0,91vs.0,91)
+[392] 5basesexternasindependientes(16.137fotos):DIGS/ADAGES,ACRIMA,LAG,RIM-ONE,ORIGA
+[443] Model o 3 (endpointprincipalOHTS) : DeiT super a a ResNet-50por+0,08a+0,20enAURO C en externas.Model o 1 (Tabla3):ORIG A 0,73 vs.0,55(+0,18) , LAG 0,88vs.0,79(+0,09),DIGS0,77vs.0,74,RIM-ONE
+[495] Resumen,Result ados y Tabla3(textocompleto)
+
+=== PAGINA 24 ===
+[443] 0,91vs.0,90,ACRIMA0,74vs.0,74
+[81] Rashidisabet et al., 2026
+[133] 10.1167/tvst.15.9.3
+[184] Adaptacióndedomini o no supervisada(UDA)adversarialconGradientReversalLayer(ResNet-18/50)
+[236] Imagen(característic as de adquis ición y entornoclínico)
+[288] Sí(imágenesnoetiquetadasdeldestinoduranteentrenamiento)
+[340] Stand ard DL entrenadosoloenfuente(Acccampocompleto54,3%–71,8 %) y cotasuperiorIdeal(86,8%–97,7%)
+[392] Dominiosdestin o sin etiquetas,perovistosduran te el entrenamiento UDA : UIC,UICCrop,RIMONE-DL,REFUGE,LAG
+[443] Campocompleto:Accsubede54,3%–71,8 % a 76,0%–90,0 % . Gananciaprome dio en destino:+14,7%(UIC),+14,0%(REFUGE),+9,3%(LAG),cerrando52,0%–82,6 % de
+[495] Resumen,Tablas 3 y 8, Resultados(textocompleto)
+
+=== PAGINA 25 ===
+[443] labrechahaciaIdeal.Encambioextremo:hasta+40,0 % Acc y+59,8%AUC
+[81] Zeng et al., 2025(FunOTTA)
+[133] 10.1109/TMI.2025.3631049
+[184] Adaptaciónentiemp o de prueb a en línea(TTA):actualizaciónsolodelclasificadorlinealconbancodememoriafiltradodinámi
+[236] Image n y parcialmentepuntodedecisi ón en inferencia
+[288] Sí, en tiemp o de prueb a (flujo noetiquetadodeldestin o; no enentrenamientooffline)
+[340] Modelofuentesinadapt ar y TTAbasad o en entropía(TENT,SHOT)
+[392] 6dominiosdestin o de glaucoma(desdeEyePACS+OIA-ODIR):ORIGA,BEH,FIVES,sjchoi86,REFUGE1,PAPILA
+[443] Evitaladegradaciónde TENT y SHOTysuper a a la líneabase(elfragmentotruncadomenciona+2,61 en F1 sinconfir mar si
+[495] TextoparcialarXiv:2407.04396v3(tablascompletasinaccesibles)
+
+=== PAGINA 26 ===
+[184] camente
+[443] correspondeaglauco ma o RD);tablasexacta s por basenoverificables
+[81] Liu et al.,2025(DiffCTA)
+[133] 10.1007/978-3-032-04971-1_32
+[184] Adaptacióncontin ua en tiemp o de prueba(CTTA)mediantedifusióninversaguiada(sinmodificarpesosdelclasificador)
+[236] Imagen(armonizaci ón de estiloeninferencia)
+[288] Sí, en tiemp o de prueba(imágenesnoetiquetadasenflujo)
+[340] MétodosCTTA/TTAprevios(incluidoDDA)
+[392] 5datase ts de glaucoma(nombresexacto s no verificados)
+[443] +2,6%deexactitudsobreelmejormétodoprevioenglauco ma; en domini o C difícil,68,46 % vs. 67,20%(DDA).AURO C y sensibilidad/especificidadno
+[495] Resum en y reseñasabiertasMICCAI2025(soloresumen/revisión;PDFinaccesible)
+
+=== PAGINA 27 ===
+[443] verificados
+[81] Zhou et al., 2023(RETFound)
+[133] 10.1038/s41586-023-06555-x
+[184] Modelofundacionalretinia no SSL (MAEsobre~904k CFP + ~736kOCT)
+[236] Imagen(representacionesretinianasgenéricas)
+[288] No ( sin evaluaciónexternaentrebasesenglaucoma en el artículooriginal)
+[340] ViTsupervisado(SL-ImageNet),SSL-Image Net y SSL-Retinal
+[392] Ningunaexter na en glaucoma(solovalidaciónintern a en PAPIL A y GlaucomaFundus;externaúnicamente en RD)
+[443] Validaciónintern a en glaucoma:AUROC~0,86enPAPIL A (IC 95%:0,84– 0,87) y ~0,94enGlaucomaFundus(0,94–0,95),super ando a SL-ImageNe t y SSL-ImageNet(cifrasexacta s vía citasecundaria;Tabla Supl. 3
+[495] Fig. 2a y texto principal(textocompleto;cifrasexacta s de glauco ma vía citasecundaria)
+
+=== PAGINA 28 ===
+[443] noaccesibledirectamente)
+[81] Chute r et al., 2024b/2025
+[133] 10.1016/j.xops.2024.100623
+[184] EvaluacióncontroladadeRETFo und en cohorteclínicamultiétnicasegúntamañomuestral,demografíayseveridad
+[236] Imagen(eficienciadedatos)yetiqueta(efect o de severidad)
+[288] No ( valid aciónintern a en DIGS/ADAGES)
+[340] ResNet-50previo(AUC0,74con~10.000fotos)yTransformerprevio(AUC0,77)sobrelamismacohorte
+[392] Ningunaexternaadicional(9.787fotosintern as de DIGS/ADAGES)
+[443] Con500–1.000fotosRETFoundigualóosuper ó a ResNet-50(AUC0,777–0,83);con2.000fotos/50épocasalcanz ó AUC 0,86 , peroconmarcadabrech a por severidad:0,95moderado-a
+[495] Resumen,Result ados y Tabla4(textocompleto)
+
+=== PAGINA 29 ===
+[443] vanza do vs. 0,84leve
+[81] Qiu et al.,2024(VisionFM)
+[133] 10.1056/AIoa2300221
+[184] Modelofundacionalvisualmultimodal/multitarea(SSL en 8 modalidades+datossintéticos)
+[236] Imagen(representaciónmultimodal)
+[288] No
+[340] RETFo und (y U-Netensegmentación)
+[392] Validaciónexternaentrebasesenglaucoma:Drishti-GS1 (n = 101)
+[443] Drishti-GS1externo:VisionFMAUROC0,857(IC95%:0,760–0,93 5) vs. RETFound0,778(IC95%:0,660–0,877;+0,07 9 con intervalossolapados)
+[495] Result ados y Figura2B(textocompletoparcial)
+[81] Yu et al.,2024(UrFound)
+[133] 10.1007/978-3-031-72390-2_70
+[184] Modelofundacionalretinia no con MIM
+[236] Image n y semánticaclínica
+[288] No ( evalu aciónintern a por base)
+[340] MAE-ImageNet,RETFound-CFP,RETFo
+[392] Ningunaexter na en glaucoma(valida
+[443] PAPILAinterno:UrFoundAURO
+[495] Tabla 1 (textocompleto)
+
+=== PAGINA 30 ===
+[184] guiad o por conocimientotextual (CFP + OCT)
+[340] und-O CT y FLAIR
+[392] ciónintern a en PAPIL A y GlaucomaFundus)
+[443] C78,32%(AUPR62,54 %) vs. FLAIR74,80%,RETFound-CFP74,36%(+3,96 pp) y MAE-ImageNet62,85%(+15,4 7 pp). GlaucomaFundusinterno:UrFound95,75 % vs. RETFound-CFP95,68%(+0,07 pp) y FLAIR78,87
+
+=== PAGINA 31 ===
+[443] %
+[81] Hou et al.,2025/2026
+[133] 10.1016/j.xops.2025.100923
+[184] Comparacióncontrolada: SSL en imágenesnaturales(DINOv2)frente a SSL retiniano(RETFound)
+[236] Image n (y calibraciónenPAPILA)
+[288] No ( valid aciónintern a en glaucoma;extern a en RD)
+[340] RETFoundbajoprotocoloidéntic o de ajustefino
+[392] Englaucoma:solointerna(GlaucomaFundu s y PAPILA);extern a solo en RD (APTO S → MESSIDOR-2)
+[443] GlaucomaFundusinterno:DINOv2-Ba se y DINOv2-SmallAUROC0,958vs.RETFound0,940(+0,01 8; p < 0,001) . (En RDexternaAPTO S → MESSIDOR-2:DINOv2-Large0,817vs.RETFound0,725; p <
+[495] Resultados, Fig. 2, Fig. S5 y Tabla S4(textocompleto)
+
+=== PAGINA 32 ===
+[443] 0,001)
+[81] Isztl et al.,2026
+[133] 10.1371/journal.pone.0356202
+[184] Benchmarksistemático:arquitecturascompactas(~27–2 9M, p. ej.,SwinV2-tiny,ConvNeXtV2-tiny)vs.RETFound(303M)
+[236] Imagen(capac idad y preentrenamiento)
+[288] No ( valid acióninternaestratificada70/15/15sobreAIROGS+PAPILA)
+[340] RETFound-MAE-CFP,RETFound-DINOv2 -CFP y ViT-basebajoentrenamientoidéntico
+[392] Ningunaexterna(validacióninternasobreconjuntounificadoAIRO GS + PAPILA,114.381imágenes)
+[443] SwinV2-tiny(27,6M)ocupó el 1.er lugarenglauco ma y lasarquitecturascompactasigualar on o super aron a RETFound(303M);cifrasexacta s de AURO C por model o solo graficadas en Fig. 1 (no tabula das en texto)
+[495] Resultados,Tablas 1–2 y Fig. 1 (textocompleto)
+
+=== PAGINA 33 ===
+[81] Meen a & Seelamantula,2026(aceptadoenMLMI/MICCAI2026;versiónpreprint)
+[133] 10.48550/arXiv.2610.32511(preprint)
+[184] Aumentomultiescalaasimétricoanclad o en el discoópticoparaSSL(DINO)frente a FMs yVLMs(sond a lineal congelada)
+[236] Imagen(escala,encua dre y supres ión de texturaespuria)
+[288] No(aunqueRetiZeropreentrenóenvariasbasesdestino)
+[340] VanillaDINO,RETFound-DINOv2,FLAIRyRetiZe ro con sondalinealentren ada en REFUGE(~1,2k)oAIROGS(~78k)
+[392] Validaciónentrebases en 7 datasets:REFUGE,ACRIMA,LAG,ORIGA,FIVES,PAPILA,CHAKSU
+[443] Sondaentren ada en AIROGS(~78k, las 7 basesexternas),AUROCmedio ± DE: VanillaDINO0,780±0,071;RETFound-DINOv20,801±0,061 (cae a 0,667enCHAKSU);FLAIR0,820±0,043;RetiZero0,832±0,067 (cae a 0,698en
+[495] Sec. 5 / Tabla 1(textocompleto)
+
+=== PAGINA 34 ===
+[443] ACRIMA);Task-awareDINO0,836±0,059(mejorpeor-caso0,787;+0,056sobreVanillaDINOy+0,035sobreRETFound)
+[81] Silva-Rodrígu ez et al.,2025(FLAIR)
+[133] 10.1016/j.media.2024.103357
+[184] VLMretiniano(ResNet-50+texto)preentrenad o en 38bases(288kimágenes)condescripcione
+[236] Image n y parcialmenteetiqueta(conocimientotextual)
+[288] Inciert o para REFUGE(listacompl eta de 38basesnoverificada)
+[340] CLIP(ViT-B/32),BioMedCLIP(ViT-B/16),ImageNet-R N50 y RETFound(ViT-B/16)
+[392] REFUGE(5-foldCV,20%test;zero-s hot y linear probe )
+[443] REFUGEBalancedAverageAccur acy : Zero-shotFLAIR0,883vs.BioMedCLIP0,624 y CLIP 0,433;
+[495] Tabla 1a y Tabla 1b de versióncortaOpenReview(textocompleto)
+
+=== PAGINA 35 ===
+[184] sexpertas
+[443] LinearprobeFLAIR0,843vs.RETFound0,747eImageNet-RN500,733(verdiscrepanciaconAlaval a 2026 en Sec. 4)
+[81] Shi et al.,2025(EyeCLIP)
+[133] 10.1038/s41746-025-01772-2
+[184] VLM + MAEmultimodaloftálmico(2,78Mimáge nes + 11.180informes)
+[236] Image n y semánticaclínicamultimodal
+[288] No en zero-shot
+[340] CLIP,BioMedCLIP,PubMedCLIP,FLAIR ( zero- shot ) y RETFound(ajustefino)
+[392] Zero-shotentrebases:GlaucomaFundu s y PAPILA
+[443] Zero-shotglaucoma:AUROC0,721y0,684(sinasignaciónindividualverificadaporbase en el fragm
+[495] Textoprinci pal y Fig. 2b / Fig. 4a(textocompletodelartícul o y preprintv2)
+
+=== PAGINA 36 ===
+[443] ento),super ando a CLIP,BioMedCLIP,PubMedCLI P y FLAIR (p < 0,001) . En ajustefinointernosuperóconsistentementeaRETFound(cifrasexacta s en Tabla Supl. 5 noaccesibles)
+[81] Wang et al., 2025(RetiZero)
+[133] 10.1038/s41467-025-60577-9
+[184] VLMretinianocalibrado(>400enfermeda
+[236] Image n y semánticamultienfermedad
+[288] Síparabasespúblicas(preentrenócon
+[340] RETFo und y FLAIR
+[392] Zero-shotmultienfermedad(EYE-15,EYE-5
+[443] Glaucomaenzero-shotmulticlase:Top-1
+[495] Fig.4b,Fig. 5b–c y resulta dos de preprint/artí
+
+=== PAGINA 37 ===
+[184] des,341.896paresimagen-texto)
+[288] ACRIMA,AIROGS,FIVES,G1020,REFU GE y ORIG A); No encohortesclínicasH1–H3
+[392] 2) y externasclínicasH1/H2/H3(12–15enfermedades)
+[443] 0,7477,Top-30,9292,Top-50,9718 . En pruebasexternasmultienfermedad(H1–H3):todoslosAURO C ≥ 0,912;en5-shotsuper ó a RETFo und y FLAIRpor7,21%–35,10 % (p < 0,01).SinAUROCbinarioexclusi vo de glauco
+[495] culo(textocompletoparcial)
+
+=== PAGINA 38 ===
+[443] ma en basenovistaverificable
+[81] Alaval a et al.,2026(Pixel-FLAIR)
+[133] sinDOIverificado
+[184] VLMconsupervisióntextualregionalanatómica(10signosdeglauco ma) + mezcl a de pesosWiSE-FT
+[236] Imagen(localizacióndesignos ) y etiqueta(descriptoresclínicos)
+[288] No en 0-shot ; 5 y 10muestrasetiquetadasenfew-shot
+[340] FLAIRbase (λ = 0) bajoprotocoloidéntico
+[392] REFUGE(400imágenes,train split )
+[443] BalancedAverageAccuracy(ACA)enREFUGE:0-shot0,539→0,711(+0,172);5-shot0,654→0,690(+0,036);10-shot0,696→0,716(+0,020)
+[495] Tabla3(textocompleto,actasELAMI/MICCAI2026)
+[81] Jalili et al.,2024
+[133] 10.1016/j.xops.2024.10066
+[184] MLLMgeneralista(GPT-
+[236] Image n y razonamient
+[288] No
+[340] Dosevaluadoresexpert
+[392] 3basespúblicas
+[443] ExactitudGPT-4V
+[495] Resum en y texto(texto
+
+=== PAGINA 39 ===
+[133] 7
+[184] 4V) en régimenzero-shotsobrefotoscentra das en disco
+[236] otextual(sinajuste)
+[340] os en glauco ma (y etiquetaspublicadas de las bases)
+[392] (300fotos):ACRIMA,ORIGA,RIM-O NE v3
+[443] inferio r a expertos:0,68vs.0,78/0,72(ACRIMA);0,70vs.0,80/0,78(ORIGA);0,81vs.0,88/0,87(RIM-ONE v3); κ =0,08–0,72;~35%requiriómúltiplesprompts
+[495] completoparcial ; Tabla 4compl eta no accesible)
+[81] Medei ros et al.,2019(M2M)
+[133] 10.1016/j.ophtha.2018.12.033
+[184] SupervisiónobjetivaMachine-to-Machine
+[236] Etiqueta(eliminasubjetividaddeetique
+[288] No ( solo validaciónintern a en el artículo
+[340] Medici ón real deSD-OCTRNFL(AUROC
+[392] Ningunaextern a en esteestudi o (test intern
+[443] PredicciónRNFLdesderetinografía: r = 0,832,
+[495] Resumen(verificadoenPubMed/PM
+
+=== PAGINA 40 ===
+[184] (entrenamientoparapredecirespesorRNFLdeSD-OCT)
+[236] tadohumano)
+[288] original)
+[340] 0,940;IC95%:0,902–0,966)
+[392] o de 6.292paressepara do por paciente)
+[443] R² = 69,3%, MAE = 7,39µm;AUROCglaucomacampimétric o vs. sano = 0,944(IC95%:0,912–0,966; p = 0,724vs.SD-OCTreal)
+[495] C)
+[72] Síntesis crítica: generalización estricta frente a
+[72] adaptación de dominio y jerarquía de la evidencia
+[72] Frontera metodológica: destino no visto frente a uso de datos del destino Para fundamentar con rigor el estado del arte en DYNA , es indispensable separar tres regímenes que la literatura clínica suele mezclar bajo el término genérico de «generalización». En primer lugar, la generalización estricta ( zero-shot entre fuentes o LODO) prohíbe cualquier acceso a imágenes —etiquetadas o sin etiquetar— del dominio destino durante el entrenamiento, la selección de hiperparámetros y la fijación del umbral de decisión. A este régimen pertenecen la normalización de color fija, el aumento de datos, la armonización ROI, el filtrado de calidad preentrenado, el entrenamiento multifuente LODO, los métodos de generalización de dominio (DAFA, DoFE, MIM con color estandarizado, CausalFund), los cambios arquitectónicos (DeiT frente a ResNet-50), los modelos fundacionales transferidos sin reentrenar y los VLMs en modo zero-shot . Este es exactamente el escenario que su equipo evalúa al transferir ConvNeXt-Tiny desde Moondream Staged hacia ACRIMA, RIM-ONE DL y
+
+=== PAGINA 41 ===
+[72] EyePACS con umbral congelado a especificidad ≥ 0,95. En un punto intermedio se sitúa la adaptación en tiempo de prueba (TTA / CTTA) , que no utiliza imágenes del destino durante el entrenamiento offline , pero sí explota imágenes no etiquetadas del destino durante la inferencia, ya sea actualizando el clasificador lineal en flujo (FunOTTA) o traduciendo cada imagen entrante hacia el estilo de origen mediante difusión (DiffCTA) . Finalmente, la adaptación de dominio durante el desarrollo incorpora datos del sitio receptor antes del despliegue: la UDA adversarial (Rashidisabet et al., 2026) emplea imágenes no etiquetadas del destino en el entrenamiento , mientras que la recalibración de umbral (Rahman et al., 2026) y el ajuste fino específico (Ko et al., 2022) exigen muestras etiquetadas del destino . Aunque estas estrategias con acceso al destino alcanzan las mayores recuperaciones de exactitud y sensibilidad, no demuestran portabilidad sin intervención previa en el centro receptor.
+[72] Análisis por estrategia: qué tiene evidencia controlada y dónde persisten las fallas Al contrastar estudios con protocolos estrictamente controlados frente a evaluaciones sin línea base equivalente emergen límites muy precisos para cada familia de intervenciones. Antes de examinarlas una por una, los dos experimentos controlados más informativos para su diseño —la interacción factorial entre recorte papilar y preentrenamiento retiniano (Bolo et al., 2025/2026) y el efecto aislado de la normalización de color, el aumento fotométrico y el entrenamiento multifuente sobre cinco CNNs (Rahman et al., 2026)— muestran hasta qué punto las soluciones habituales de imagen apenas cierran una fracción del problema.
+
+=== PAGINA 42 ===
+[72] 1. Armonización o recorte centrado en el disco óptico (ROI) El recorte centrado en el disco óptico constituye la medida más popular para armonizar el campo de visión (FOV) y el encuadre; fue un denominador común de los tres equipos ganadores en AIROGS (de Vente et al., 2024, Sec. 6.1, texto completo) y sustentó el desempeño externo de G-RISK (Hemelings et al., 2023, Tabla 1, texto completo), que al estandarizar las entradas a recortes de 30° alcanzó AUROC de 0,976–0,984 en dos cohortes
+
+=== PAGINA 43 ===
+[72] poblacionales y 0,854–0,987 en once bases públicas . Asimismo, en la validación externa del ganador de AIROGS sobre el Rotterdam Study (van Meyel et al., 2026, solo resumen), las fotografías centradas en el disco alcanzaron un pAUC (90–100% especificidad) superior al de las centradas en mácula (0,860 frente a 0,802; p = 0,003) . Sin embargo, nótese que incluso con recorte de 30° y regresión continua en Hemelings et al. (2023, Tabla 1, texto completo), el umbral requerido para sostener 95% de especificidad varió sustancialmente entre bases (0,70 en BMES por ojo, 0,72 en GHS y 0,78 en AIROGS, y entre 0,58 en REFUGE1 y 0,75 en ODIR para puntos balanceados), confirmando que armonizar el recorte no elimina el desplazamiento del punto operativo . Además, la evidencia controlada demuestra que recortar no es universalmente beneficioso fuera de dominio. En Bolo et al. (2025/2026, Tabla 3, texto completo), recortar el disco óptico mejoró la validación interna de ambas arquitecturas (p < 0,001), pero en el centro externo independiente (USC, N = 300) produjo efectos divergentes: amortiguó la caída de VGG-19 (AUROC 0,767 frente a 0,634; sensibilidad 60,0% frente a 51,3%), pero perjudicó a RETFound (AUROC 0,797 y sensibilidad 64,0% con recorte frente a 0,886 y 83,3% sin recorte; p < 0,001) . Dos resultados controlados aclaran el mecanismo: Hemelings et al. (2021, Fig. 2, texto completo vía arXiv) demostraron que las CNNs captan señal glaucomatosa fuera del disco óptico (manteniendo AUROC externo de 0,80 en REFUGE incluso al ocultar un 60% centrado en el ONH) , y Chen et al. (2025, Tabla 2, texto completo) observaron que el recorte duro por segmentación (TVGH-Segmentation) disminuyó el AUROC en tres de cinco bases externas frente a las imágenes sin recortar, mientras que ponderar la ROI preservando el contexto (TVGH-Weighted) estabilizó la exactitud balanceada en ≥ 80% en todas las externas . En su protocolo con ConvNeXt-Tiny entrenado en Moondream Staged (recortes papilares) y probado en EyePACS (campo completo con fondo negro), el fallo principal responde a la asimetría geométrica de escala y contexto entre entrenamiento y prueba : la red convolucional aprende un tamaño relativo rígido del disco que deja de cumplirse al recibir retinografías sin recortar. 2. Normalización o estandarización de color y aumento fotométrico Esta familia dispone de evidencia controlada sólida, pero de alcance parcial. En Rahman et al. (2026, preprint, Tabla IX, texto completo), promediando cinco CNNs en tres semillas, la normalización por referencia en espacio CIELAB elevó el AUROC entre bases de 0,702 a 0,755 (+0,053; IC 95%: 0,046–0,060; p = 0,0010) y el aumento fotométrico agresivo ( ColorJitter amplio en brillo, contraste, saturación y tono) logró un efecto equivalente (+0,052; 0,754; p = 0,0073), superando a Ben Graham (+0,031), CLAHE en canal L (+0,010) y gray-world (−0,006, no significativo) . Pese a reducir cerca de una cuarta parte de la caída inicial de 0,211 AUROC, ambos enfoques dejaron intacta la mayor parte de la brecha (~0,155–0,158) y desplazaron el equilibrio operativo al aumentar especificidad a costa de menor sensibilidad bajo el umbral de origen . Estudios controlados complementarios confirman esta heterogeneidad. En Chen et al. (2025, Tabla 2, texto completo), el preprocesamiento basado en canal verde, CLAHE y unsharp masking impulsó notablemente el desempeño en DRISHTI-GS1 (AUROC 0,844 → 0,922; exactitud balanceada 64,10% → 82,65%), pero redujo el AUROC en REFUGE (0,939 → 0,902) .
+
+=== PAGINA 44 ===
+[72] En Alhasson et al. (2026, Sec. 4.4 y Tabla 9, texto completo), Retinex lideró el coeficiente MCC medio entre bases sin impedir que todos los modelos fracasaran en transferencia zero-shot (AUC medio de Hybrid RF 0,5798) . Una vía más efectiva consiste en acoplar la estandarización cromática directamente al objetivo de representación: Jang et al. (2025, MICCAI, Tabla 2, texto completo) entrenaron un modelo MIM para reconstruir parches hacia un espacio RGB con media y varianza estandarizadas, alcanzando 74,8% de exactitud LODO en cuatro dominios de glaucoma frente a 70,9% de PLDG y 54,0%–57,6% de RETFound . 3. Aumento de datos geométrico y de escala (incluido el aumento agresivo de escala) La evidencia controlada sobre aumentos geométricos y de escala revela tanto su potencial como su restricción anatómica en retinografías. Por un lado, Zhou et al. (2022, DAFA, Tablas 5 y 7, texto completo) mostraron que adoptar políticas de aumento intensivo (como SimCLR o BarlowTwins, con recortes aleatorios multiescala y perturbaciones fotométricas) eleva el mcAUC fuera de dominio de ResNet-50 entrenado en LAG de 0,655 a 0,792–0,800, aunque el salto decisivo hasta 0,918 exige añadir alineación explícita de características entre las vistas aumentadas . Por otro lado, Meena y Seelamantula (2026, MLMI/MICCAI 2026, Sec. 3 y Tabla 1, texto completo) probaron que el recorte multiescala agresivo sin conciencia anatómica degrada el aprendizaje autosupervisado: en RETFound-DINOv2, la similitud coseno entre un recorte del disco óptico y un recorte periférico sin disco (0,58 en REFUGE; 0,56 en ORIGA) supera largamente la similitud entre la imagen completa y el disco (0,14 y 0,09) . Al forzar que las vistas multiescala del estudiante siempre incluyan el disco óptico mientras el maestro recibe recortes compactos del disco, el AUROC medio en siete bases externas (sonda lineal sobre AIROGS) subió de 0,780 (Vanilla DINO) a 0,836 . A su vez, el aumento generativo mediante difusión (EyeDiff; Chen et al., 2026, Tabla 4, texto completo) arrojó mejoras modestas e inconsistentes incluso en validación interna (+0,009 AUROC en Glaucoma Fundus, pero −0,006 en PAPILA frente a RETFound sin aumento) . No se identificó ningún estudio controlado en CNNs supervisadas que evalúe específicamente si el aumento agresivo de escala logra compensar el paso de recortes papilares a campo completo (EyePACS) con umbral congelado, lo que convierte ese experimento de su manuscrito en una brecha concreta del estado del arte. 4. Entrenamiento multifuente Existe una disonancia notable entre la intuición extendida de «combinar más bases» y los hallazgos controlados. Múltiples estudios confirman que agrupar bases no suprime el colapso fuera de dominio: Diaz-Pinto et al. (2019, Tabla 4, texto completo) descendieron de AUC 0,9605 interno (cinco bases) a 0,7678–0,8575 en LODO ; Chaurasia et al. (2024/2025, Tabla 2 y Fig. 1–2, texto completo) entrenaron con 19 bases públicas (18.468 imágenes; AUROC interno 0,9920), pero cayeron a 0,8751 en la vigésima base retenida (Drishti-GS1), señalando como causa central las definiciones incompatibles de glaucoma entre fuentes ; y Ko et al. (2022, Tabla 3, texto completo) documentaron que un modelo integrado con cuatro bases obtuvo AUC 0,840 pero apenas 50,0% de exactitud en DRISHTI-GS1 . Incluso dentro de un mismo repositorio armonizado como RIM-ONE DL, Fumero Batista et al. (2020, 10.5566/ias.2346, Tablas 2 y 3, texto completo) evidenciaron que pasar de una partición aleatoria a una partición por hospital a especificidad fija de 0,85 desplomó el desempeño de diez CNNs (por ejemplo,
+
+=== PAGINA 45 ===
+[72] MobileNetV2 cayó de AUC 0,9738 y sensibilidad 0,9423 a AUC 0,7765 y sensibilidad 0,4464) . El único ensayo estrictamente controlado que separa volumen de datos frente a diversidad de fuentes (Rahman et al., 2026, preprint, Sec. IV-G y Fig. 8, texto completo) confirmó que el entrenamiento multifuente LODO no mejoró el AUROC medio en la base retenida respecto al entrenamiento unifuente (0,695 frente a 0,702) ni en G1020 externo (0,495 frente a 0,494 del control empatado por tamaño y 0,493 unifuente) . Mezclar fuentes con criterios de etiquetado divergentes y estilos dominantes sin armonización explícita puede contaminar la frontera de decisión en lugar de estabilizarla. 5. Filtrado por calidad de imagen El filtrado automático por calidad de imagen (IQA) cuenta con respaldo externo multicéntrico robusto, aunque dirigido exclusivamente a la variación por degradación de captura. Chuter et al. (2024a, TVST , Resumen y Discusión, texto completo) entrenaron un clasificador de calidad orientado específicamente a la graduabilidad de POAG (AUROC = 0,97) y lo aplicaron a 11.350 retinografías de más de 30 centros del estudio externo OHTS: la discriminación del modelo diagnóstico subió de AUROC 0,77 (IC 95%: 0,67–0,88) en fotografías de baja calidad a 0,87 (IC 95%: 0,80–0,92) en fotografías de buena calidad (p < 0,001) . En concordancia, AIROGS (de Vente et al., 2024, Sec. 6.1, texto completo) demostró que las puertas de rechazo de imágenes no graduables apoyadas en la detección del disco óptico alcanzan AUC_U = 0,99 en AIROGS y 1,0 en el conjunto externo DRIMDB , y la validación en el Rotterdam Study (van Meyel et al., 2026, solo resumen) identificó la visibilidad incompleta del ONH como fuente principal de falsos positivos cuya exclusión eleva marcadamente el valor predictivo positivo . Con todo, filtrar imágenes no graduables no resuelve las diferencias sistemáticas de cámara, encuadre válido ni el desplazamiento del punto operativo entre poblaciones graduables. 6. Generalización de dominio (DoFE y métodos afines) y cambio arquitectónico Dentro de la generalización estricta conviene distinguir entre los métodos diseñados para segmentación de disco y copa óptica y los validados para clasificación directa de glaucoma . DoFE (Wang et al., 2020, IEEE TMI ) es el referente clásico de generalización de dominio en retinografías mediante memoria de características de dominio bajo un protocolo LODO de cuatro conjuntos (Drishti-GS, RIM-ONE-r3, REFUGE-train y REFUGE-val), pero aborda únicamente segmentación anatómica —aplicable a tuberías de dos etapas basadas en CDR—, al igual que desarrollos recientes como WaveSDG o NPS-Net . En clasificación directa de glaucoma , la evidencia controlada muestra ganancias consistentes cuando el mecanismo de generalización de dominio se diseña específicamente para la modalidad retiniana. DAFA (Zhou et al., 2022, Tablas 2, 3 y 7, texto completo) superó en generalización unifuente (mcAUC en siete bases) tanto a aumentos fuertes sin alineación (0,918 frente a 0,792) como a técnicas genéricas de DG y robustez (AugMix 0,700; AdvProp 0,728; IBN-ResNet50-b 0,792; ERDG 0,839; EISNet 0,846; JigenDG 0,877) . En la misma dirección, el MIM con espacio de color estandarizado de Jang et al. (2025, MICCAI, Tabla 2, texto completo) superó a SPSD-ViT (65,1%) y PLDG (70,9%) al lograr 74,8% de exactitud promedio LODO en glaucoma , y CausalFund (Shi et al., 2026, preprint, Resultados) mejoró sobre ERM en la transferencia de cámara hospitalaria a smartphone (+0,108 AUC en EfficientNet y +0,027 en ViT; p < 0,001) . Paralelamente, el cambio de arquitectura por sí solo
+
+=== PAGINA 46 ===
+[72] tiene impacto demostrable: Fan et al. (2022/2023, Tabla 3, texto completo) probaron bajo protocolo idéntico que un Vision Transformer (DeiT) superó a ResNet-50 en +0,08 a +0,20 AUROC a través de cinco bases externas en el criterio principal de OHTS (p. ej., ORIGA 0,73 frente a 0,55 en Modelo 1) . En contraste, los benchmarks de DG tipo DomainBed (comparando ERM frente a IRM, CORAL o MixStyle) se han concentrado casi por completo en retinopatía diabética —donde ERM suele resultar difícil de superar —, sin un benchmark equivalente consolidado para glaucoma que incorpore calibración y sensibilidad a umbral congelado. 7. Adaptación de dominio no supervisada (UDA) y adaptación en tiempo de prueba (TTA / CTTA) Las familias UDA y TTA renuncian a la generalización estricta al explotar imágenes no etiquetadas del dominio destino, pero ofrecen una cota empírica útil sobre cuánto se puede recuperar sin anotar datos locales. En UDA, Rashidisabet et al. (2026, TVST , Tablas 3 y 8, texto completo) compararon directamente una red estándar entrenada solo en fuente frente a UDA adversarial con Gradient Reversal Layer sobre la misma arquitectura (ResNet-18/50): en retinografías de campo completo, la exactitud pasó de 54,3%–71,8% a 76,0%–90,0% , cerrando entre el 52,0% y el 82,6% de la brecha hacia el modelo ideal entrenado en destino (86,8%–97,7%) . En el enfoque multitarea conjunto de segmentación y clasificación destaca también ECSD-Net (Liu et al., 2022, 10.1016/j.cmpb.2021.106530), aunque sus resultados completos entre bases no fueron verificables en las fuentes accesibles . La limitación práctica de UDA es operativa: exige recolectar previamente imágenes del centro destino y reentrenar el modelo para cada nueva institución. Para evitar ese reentrenamiento offline , la adaptación en tiempo de prueba actualiza el modelo o la imagen entrante durante la inferencia. No obstante, Zeng et al. (2025, FunOTTA, IEEE TMI , texto parcial) demostraron sobre seis dominios de glaucoma en seis países que las técnicas TTA convencionales basadas en minimización de entropía (TENT, SHOT) degradan el rendimiento en retinografías debido a la sutileza interclase, el tamaño muestral reducido y la alta sensibilidad paramétrica . Congelar el extractor y adaptar únicamente el clasificador lineal mediante un banco de memoria con filtrado dinámico evitó el colapso en FunOTTA , aunque trabajos posteriores sobre TTA en retinografía señalan que los métodos con banco de memoria siguen siendo sensibles al orden del flujo, la composición de lotes y la calidad de las pseudoetiquetas . Como alternativa sin alteración de pesos del clasificador, DiffCTA (Liu et al., 2025, MICCAI, solo resumen/revisión abierta) alinea cada imagen de prueba hacia el estilo de origen mediante difusión inversa guiada (+2,6% de exactitud sobre el mejor método previo en cinco bases de glaucoma), aunque a costa del cómputo iterativo de difusión y con ganancias modestas en dominios difíciles . 8. Preentrenamiento autosupervisado, modelos fundacionales retinianos y modelos de visión y lenguaje (VLMs/MLLMs) La evidencia específica para glaucoma en evaluación externa obliga a moderar la narrativa habitual sobre los modelos fundacionales retinianos y los VLMs. Como ilustran los dos benchmarks controlados más recientes de 2025–2026 (Meena & Seelamantula, 2026; Jang et al., 2025), estos modelos siguen sufriendo fallos severos en bases concretas y pueden quedar
+
+=== PAGINA 47 ===
+[72] claramente detrás de estrategias de generalización de dominio cuando se evalúan bajo LODO.
+[72] En el caso de RETFound (Zhou et al., 2023, Nature ), es clave precisar que el artículo original no incluyó evaluación externa entre bases en glaucoma : la validación cruzada entre bases se restringió a retinopatía diabética, mientras que PAPILA y Glaucoma Fundus se evaluaron únicamente de forma interna . Evaluaciones independientes posteriores confirmaron ventajas claras en eficiencia de datos sobre DIGS/ADAGES (Chuter et al., 2024b/2025, texto completo: con 500–1.000 fotos igualó o superó a ResNet-50 entrenado en ~10.000 fotos, aunque con
+
+=== PAGINA 48 ===
+[72] una caída fuerte entre glaucoma moderado-avanzado [0,95] y leve [0,84]) y en transferencia externa sin recorte hacia USC (Bolo et al., 2025/2026, Tabla 3, texto completo: AUROC 0,886 frente a 0,634 de VGG-19 sin recorte) . Sin embargo, cuatro resultados controlados acotan su supremacía: DINOv2 (SSL en imágenes naturales) superó a RETFound en Glaucoma Fundus interno (0,958 frente a 0,940; p < 0,001; Hou et al., 2025/2026, Fig. 2, texto completo) ; arquitecturas compactas jerárquicas (~27–29M, lideradas por SwinV2-tiny y con ConvNeXtV2-tiny competitivo) igualaron o superaron a RETFound (303M) en el conjunto interno grande AIROGS+PAPILA (Isztl et al., 2026, texto completo) ; en LODO de glaucoma, adaptar RETFound mediante linear probing , fine-tuning o LoRA obtuvo solo 54,0%–57,6% frente a 74,8% del MIM con color estandarizado (Jang et al., 2025, Tabla 2, texto completo) ; y con sonda lineal congelada entrenada en AIROGS, RETFound-DINOv2 sufrió una caída aislada severa en CHAKSU (0,667; Meena & Seelamantula, 2026, Tabla 1, texto completo) . Otros modelos fundacionales visuales más recientes exhiben resultados prometedores pero con validación externa aún muy limitada específicamente en glaucoma. VisionFM (Qiu et al., 2024, NEJM AI , Fig. 2B, texto completo parcial) superó a RETFound en la evaluación externa sobre Drishti-GS1 (AUROC 0,857 frente a 0,778), aunque sobre una muestra pequeña (n = 101) y con intervalos de confianza ampliamente solapados . UrFound (Yu et al., 2024, MICCAI, Tabla 1, texto completo) superó a RETFound-CFP y FLAIR en PAPILA (78,32% frente a 74,36% y 74,80%) e igualó en Glaucoma Fundus (95,75% frente a 95,68%), pero únicamente bajo validación interna . De modo similar, PRETI (Lee et al., 2025, MICCAI, Tabla 3, texto completo parcial) elevó el AUROC interno en PAPILA de 0,813 a 0,879 mediante enmascaramiento adaptativo y metadatos del paciente, sin evidencia externa entre bases verificada . Los modelos de visión y lenguaje (VLMs) especializados en retina ( FLAIR , EyeCLIP , RetiZero , Pixel-FLAIR ) superan holgadamente a VLMs generalistas como CLIP o BioMedCLIP, cuyo rendimiento zero-shot en glaucoma suele rondar el azar . En zero-shot entre bases, EyeCLIP (Shi et al., 2025, npj Digit Med ) alcanzó AUROC de 0,721 y 0,684 en los dos bancos públicos de glaucoma (p < 0,001 frente a CLIP, BioMedCLIP, PubMedCLIP y FLAIR) , y Pixel-FLAIR (Alavala et al., 2026, Tabla 3, texto completo) demostró que añadir supervisión regional con diez descriptores anatómicos de glaucoma eleva la exactitud balanceada zero-shot de FLAIR en REFUGE de 0,539 a 0,711 . Aun así, ese rango de discriminación zero-shot permanece lejos de los requisitos de cribado con especificidad ≥ 0,95, y en RetiZero (Wang et al., 2025) las principales bases públicas de glaucoma forman parte del propio conjunto de preentrenamiento . En cuanto a MLLMs generalistas , Jalili et al. (2024, Ophthalmol Sci , Resumen y texto) mostraron que GPT-4V quedó por debajo de dos expertos en ACRIMA, ORIGA y RIM-ONE v3 (exactitud 0,68–0,81 frente a 0,72–0,88), con κ muy inestable (0,08–0,72) y necesidad de reintentos en ~35% de los casos . Por último, el problema del punto de decisión tampoco desaparece en modelos fundacionales: un estudio reciente en preprint (Research Square rs-11262974, año y autores no verificados en el fragmento, texto completo) demostró que el ajuste fino orientado a calibración en origen degradó la exactitud interna (0,781 frente a 0,928), empeoró el ECE OOD (0,450 frente a 0,081) y clasificó erróneamente como glaucoma al 69% de los ojos normales de la base retenida ORIGA .
+
+=== PAGINA 49 ===
+[72] Clasificación del nivel de evidencia: evidencia controlada frente a estrategias plausibles
+[81] Nivel de respaldo empírico
+[237] Estrategias
+[393] Diagnóstico crítico para generalización estricta (zero-shot)
+[81] Evidencia controlada sólida bajo el mismo protocolo (beneficio real pero incompleto)
+[237] Normalización de color CIELAB y aumento fotométrico fuerte ; alineación de características entre vistas aumentadas (DAFA) ; MIM con espacio de color estandarizado ; filtrado automático por calidad de imagen (IQA) ; aumento multiescala anclado en el disco óptico para SSL ; sustitución de ResNet-50 por DeiT ; UDA adversarial (con datos destino no etiquetados)
+[393] Reducen la pérdida de discriminación causada por variaciones de apariencia o calidad, pero ninguna cierra por sí sola toda la caída entre fuentes ni garantiza estabilidad de sensibilidad bajo un umbral congelado a alta especificidad (≥ 0,95). UDA no pertenece a generalización estricta.
+[81] Evidencia controlada mixta, condicional o dependiente de arquitectura
+[237] Recorte centrado en el disco óptico (ROI) ; modelos fundacionales retinianos SSL (RETFound frente a VGG-19, DINOv2, SwinV2-tiny y DG) ; entrenamiento multifuente LODO ; aumento generativo por difusión (EyeDiff) ; TTA/CTTA en flujo (FunOTTA, DiffCTA frente al fallo de TENT/SHOT)
+[393] El recorte ROI beneficia a CNNs convencionales ante cambios de FOV, pero puede degradar a RETFound y descartar señal extrapapilar . El entrenamiento multifuente sin armonización de etiquetas no superó al entrenamiento unifuente bajo control de volumen .
+[81] Estrategias plausibles o con evidencia controlada
+[237] Aumento agresivo de escala en CNNs
+[393] Aquí se ubica con precisión el aporte de su
+
+=== PAGINA 50 ===
+[81] insuficiente en generalización estricta de glaucoma
+[237] supervisadas para puentear recortes papilares hacia campo amplio (EyePACS); regresión continua de VCDR (G-RISK) o supervisión OCT-M2M comparada de forma controlada frente a clasificación binaria/multiclase en las mismas bases externas ; VLMs y MLLMs en zero-shot para cribado de alta especificidad ; transporte zero-shot del punto de decisión y calibración sin datos del destino
+[393] investigación : aislar el efecto de la formulación de etiqueta (3 estadios proyectados a binario frente a cabeza binaria) y del aumento agresivo de escala/fotometría en ConvNeXt-Tiny, midiendo explícitamente el desacoplamiento entre AUROC y sensibilidad a umbral congelado (Sp ≥ 0,95) en EyePACS.
+[72] Trabajos más recientes imprescindibles (2024–2026) 1. Bolo et al. (2025/2026) — Comparison of RETFound and a Supervised Convolutional Neural Network for Detection of Referable Glaucoma from Fundus Photographs , Ophthalmology Science , 10.1016/j.xops.2025.101008 . Referencia central sobre la interacción opuesta del recorte papilar en CNNs frente a modelos fundacionales al evaluar en un centro externo independiente (USC). 2. van Meyel et al. (2026) — External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study , Ophthalmology , 10.1016/j.ophtha.2026.10.030 . Validación poblacional de referencia (19.088 ojos) sobre sensibilidad a 95% de especificidad (70,6%), sesgo por severidad campimétrica, centrado en disco frente a mácula y visibilidad del ONH. 3. Alhasson, Alharbi & Alluwimi (2026) — Beyond Accuracy: A Controlled Comparative Glaucoma Screening Benchmark Across Deep Learning and Hybrid Models Under Within- and Cross-Dataset Conditions , Journal of Clinical Medicine , 10.3390/jcm15166418 . Benchmark controlado que respalda directamente su tesis sobre calibración (ECE), colapso de umbral y fracaso del despliegue zero-shot entre bases públicas. 4. Rashidisabet et al. (2026) — Improving Generalization of Deep Learning for Glaucoma Classification Under Real-World Domain Shift via Unsupervised Domain Adaptation , Translational Vision Science & Technology , 10.1167/tvst.15.9.3 . Referente actualizado para contrastar generalización estricta frente a UDA adversarial en pares de campo completo y recortados.
+
+=== PAGINA 51 ===
+[72] 5. Isztl et al. (2026) — Compact vision models match domain-specific foundation models for several retinal imaging classification tasks: A systematic benchmark , PLoS ONE , 10.1371/journal.pone.0356202 . Justifica directamente el uso de arquitecturas compactas modernas (como ConvNeXt-Tiny) frente a modelos fundacionales de 303M de parámetros en glaucoma. 6. Hou et al. (2025/2026) — Can a Natural Image-Based Foundation Model Outperform a Retina-Specific Model in Detecting Ocular and Systemic Diseases? , Ophthalmology Science , 10.1016/j.xops.2025.100923 . Contraste controlado donde DINOv2 (imágenes naturales) supera a RETFound en Glaucoma Fundus (0,958 frente a 0,940). 7. Madadi et al. (2026) — JustRAIGS: Justified Referral in AI Glaucoma Screening Challenge , IEEE Transactions on Medical Imaging , 10.1109/TMI.2025.3596874 . Fundamental para documentar la variación de etiqueta (glaucoma referible en retinografía frente a glaucoma confirmado con campo visual en OHTS) y la justificación clínica por hallazgos. 8. Jang et al. (2025) — Revisiting Masked Image Modeling with Standardized Color Space for Domain Generalized Fundus Photography Classification , MICCAI 2025 , 10.1007/978-3-032-04981-0_51 . Benchmark LODO en cuatro dominios de glaucoma que demuestra la superioridad de MIM con estandarización cromática frente a RETFound adaptado (LP/FT/LoRA). 9. Zeng et al. (2025) — FunOTTA: On-the-Fly Adaptation on Cross-Domain Fundus Image via Stable Test-Time Training , IEEE Transactions on Medical Imaging , 10.1109/TMI.2025.3631049 y Liu et al. (2025) — Leveraging Diffusion Models for Continual Test-Time Adaptation in Fundus Image Classification , MICCAI 2025 , 10.1007/978-3-032-04971-1_32 . Trabajos clave sobre TTA/CTTA en glaucoma y la inestabilidad de la minimización de entropía en retinografías. 10. Chen et al. (2025) — Artificial intelligence-assisted glaucoma detection on color fundus images: with comorbidity and cross-institutional analysis , Journal of the Chinese Medical Association , 10.1097/JCMA.0000000000001289 . Ablación escalonada de canal verde, CLAHE, segmentación ROI y ponderación contextual sobre cinco bases externas. 11. Chuter et al. (2024a) — Deep Learning Identifies High-Quality Fundus Photographs and Increases Accuracy in Automated Primary Open Angle Glaucoma Detection , TVST , 10.1167/tvst.13.1.23 y Chuter et al. (2024b/2025) — Evaluating a Foundation Artificial Intelligence Model for Glaucoma Detection Using Color Fundus Photographs , Ophthalmology Science , 10.1016/j.xops.2024.100623 . Cuantifican el efecto de la calidad de imagen en OHTS (+0,10 AUROC) y la brecha diagnóstica entre glaucoma leve (0,84) y moderado-avanzado (0,95). 12. de Vente et al. (2024) — AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge , IEEE Transactions on Medical Imaging , 10.1109/TMI.2023.3313786 . Referencia metodológica esencial para EyePACS/AIROGS, la métrica Se@95Sp y el rechazo automático de imágenes no graduables. 13. Modelos fundacionales y VLMs de 2024–2026 : Qiu et al. (2024, VisionFM) , NEJM AI , 10.1056/AIoa2300221 ; Yu et al. (2024, UrFound) , MICCAI 2024 ,
+
+=== PAGINA 52 ===
+[72] 10.1007/978-3-031-72390-2_70 ; Silva-Rodríguez et al. (2025, FLAIR) , Medical Image Analysis , 10.1016/j.media.2024.103357 ; Shi et al. (2025, EyeCLIP) , npj Digital Medicine , 10.1038/s41746-025-01772-2 ; Wang et al. (2025, RetiZero) , Nature Communications , 10.1038/s41467-025-60577-9 ; Jalili et al. (2024, GPT-4V) , Ophthalmology Science , 10.1016/j.xops.2024.100667 ; Chaurasia et al. (2024/2025) , Eye , 10.1038/s41433-024-03388-4 ; y Meena & Seelamantula (2026, aceptado en MLMI/MICCAI 2026; versión preprint) , 10.48550/arXiv.2610.32511 . 14. Preprints recientes de seguimiento obligado (sin revisión por pares verificada) : Rahman et al. (2026, preprint, arXiv:2611.01992) —benchmark controlado directamente comparable con su diseño sobre umbral operativo, normalización cromática y entrenamiento multifuente en ACRIMA, ORIGA, RIM-ONE DL y G1020 —; Shi et al. (2026, preprint, CausalFund) sobre DG causal hospital→smartphone ; y FOCUS (preprint, arXiv:2609.33158; autores y fecha formal de publicación no verificados en texto) sobre evaluación multidimensional armonizada de VMs, VLMs y MLLMs en GON .
+[72] Afirmaciones dudosas o contradictorias 1. Contradicción directa sobre el recorte centrado en el disco óptico (ROI) : Mientras el análisis de los ganadores de AIROGS (de Vente et al., 2024), el rendimiento externo de G-RISK (Hemelings et al., 2023) y los resultados de VGG-19 en Bolo et al. (2025/2026; +0,133 AUROC externo) respaldan el recorte papilar, el mismo experimento controlado de Bolo et al. demuestra que recortar deteriora severamente la generalización externa de RETFound (−0,089 AUROC y caída de sensibilidad de 83,3% a 64,0%), y Chen et al. (2025) hallan que el recorte duro por segmentación reduce el AUROC en tres de cinco bases externas . El efecto del recorte no es universal: reduce el ruido de campo en CNNs simples, pero suprime información extrapapilar diagnóstica (Hemelings et al., 2021) y puede inducir sobreajuste al encuadre . 2. Contradicción sobre la superioridad generalizable de los modelos fundacionales retinianos : Aunque RETFound suele citarse como prueba de generalización robusta en retina, su artículo original ( Nature , 2023) no realizó validación externa entre bases en glaucoma . Estudios controlados posteriores cuestionan una superioridad general: DINOv2 (SSL naturalista) superó a RETFound en Glaucoma Fundus (0,958 frente a 0,940; Hou et al., 2025/2026), SwinV2-tiny (27,6M) superó a RETFound (303M) en AIROGS+PAPILA interno (Isztl et al., 2026), RETFound-DINOv2 sufrió un fallo aislado severo en CHAKSU (0,618–0,667; Meena & Seelamantula, 2026) y RETFound adaptado obtuvo solo 54,0%–57,6% frente a 74,8% del MIM con color estandarizado en LODO de glaucoma (Jang et al., 2025) . 3. Solapamiento de bases públicas en el preentrenamiento de VLMs (RetiZero y FLAIR) y discrepancia en REFUGE : El corpus de preentrenamiento de RetiZero incluye explícitamente ACRIMA, AIROGS, FIVES, G1020, REFUGE y ORIGA ; por consiguiente, evaluaciones posteriores sobre dichas bases (p. ej., Meena & Seelamantula, 2026) no constituyen dominios estrictamente no vistos para RetiZero. En FLAIR (38 bases abiertas), la lista íntegra no pudo verificarse para descartar REFUGE, y además existe una
+
+=== PAGINA 53 ===
+[72] contradicción marcada en la exactitud balanceada zero-shot de FLAIR sobre REFUGE : 0,883 en la versión corta de Silva-Rodríguez et al. frente a 0,539 en la evaluación independiente de Alavala et al. (2026) , diferencia probablemente ligada a la partición (5-fold CV frente a train split de 400 imágenes), a los prompts o al punto de corte. 4. Ambigüedad en las cifras de VisionFM vs. RETFound sobre Drishti-GS1 : En Qiu et al. (2024, NEJM AI ), la Figura 2B reporta en Drishti-GS1 externo (n = 101) AUROC 0,857 (IC 95%: 0,760–0,935) para VisionFM frente a 0,778 (0,660–0,877) para RETFound —con amplio solapamiento de intervalos— , pero otro fragmento del mismo artículo menciona un AUROC de 0,911 (0,812–0,981) para RETFound junto a una referencia a cinco muestras que no fue posible desambiguar por acceso parcial al texto completo. 5. Ilusión de exactitud en G1020 y desacuerdo sobre su aprendibilidad : Rahman et al. (2026, preprint) hallan que G1020 (296 glaucomas y 724 normales; prevalencia negativa = 71,0%) resulta casi impredecible incluso en validación interna (AUC ≈ 0,49–0,50) , y FOCUS (preprint) lo señala como el conjunto externo más difícil en glaucoma . En cambio, Jang et al. (2025, Tabla 2) reportan 70,9% de exactitud LODO en G1020 sin acompañar AUROC ni sensibilidad/especificidad . Dado que un clasificador trivial que predice siempre la clase mayoritaria logra exactamente 71,0% (724 / 1.020), esa cifra no prueba capacidad discriminativa real. 6. Inconsistencia intrínseca de las etiquetas de referencia entre bases públicas : En ACRIMA, dos expertos en glaucoma de UCSD solo coincidieron en 72% y 78% de los casos con las etiquetas publicadas del dataset, discrepando incluso en imágenes donde tanto los expertos como GPT-4V diagnosticaron glaucoma . En PAPILA (Hemelings et al., 2023, Tabla 1), el solo cambio metodológico de tratar los ojos «sospechosos» como positivos o negativos desplazó el AUROC en 0,113 puntos (0,769 frente a 0,882) . Gran parte de la degradación entre bases refleja, por tanto, incompatibilidad de estándares de referencia más que fallo puramente visual. 7. Datos, fechas o tablas no verificables en texto completo : No fue posible inspeccionar las tablas numéricas originales completas de DoFE (Wang et al., 2020; solo citas secundarias con Dice entre 85,12% y 92,57%), FunOTTA (Zeng et al., 2025; tablas por dataset inaccesibles y referencia truncada a +2,61 en F1 sin confirmar si corresponde a glaucoma o RD), DiffCTA (Liu et al., 2025; PDF inaccesible; la revisión abierta de MICCAI 2025 advierte que la ventaja en el dominio difícil C frente a DDA fue modesta —68,46% vs. 67,20%— y cuestiona la falta de exactitud por clase), EyeCLIP (Tabla Suplementaria 5 inaccesible; el AUROC supervisado de 0,913 en glaucoma aparece únicamente en una revisión secundaria y no en el texto principal verificado), JustRAIGS (Madadi et al., 2026; métricas externas en OHTS no presentes en el fragmento), CausalFund (tabla contra IRM/MixStyle/CORAL no accesible), FOCUS (tablas exactas de GON y ECE inaccesibles) ni los metadatos de autoría y año del preprint de Research Square rs-11262974 sobre calibración OOD en modelos fundacionales . Tampoco se verificó la fecha explícita dentro del PDF de Rahman et al. (inferida como 2026 a partir del identificador arXiv 2611.01992), ni se halló ningún estudio controlado que aísle el aumento agresivo de
+
+=== PAGINA 54 ===
+[72] escala en CNNs supervisadas al pasar de recortes papilares a EyePACS, vacío que debe declararse explícitamente en su manuscrito.
+[72] Works cited
+[72] 1. https://www.mdpi.com/2077-0383/15/16/6418 2. https://arxiv.org/pdf/2611.01992 3. https://pmc.ncbi.nlm.nih.gov/articles/PMC10264390/ 4. https://pmc.ncbi.nlm.nih.gov/articles/PMC12809483/ 5. https://papers.miccai.org/miccai-2025/paper/4143_paper.pdf 6. https://opg.optica.org/boe/fulltext.cfm?uri=boe-13-4-2018 7. Improving Generalization of Deep Learning for Glaucoma, https://tvst.arvojournals.org/article.aspx?articleid=2818538 8. https://pmc.ncbi.nlm.nih.gov/articles/PMC9219722/ 9. (PDF) Cross-Dataset Generalization of Glaucoma Detection CNNs, https://www.researchgate.net/publication/417411630_Cross-Dataset_Generalization_of_Glaucoma_Detection_CNNs_Effects_of_Operating_Threshold_Multi-Source_Training_and_Color_Normalization 10. Investigation of the Role of Convolutional Neural Network ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9249112/ 11. CNNs for automatic glaucoma assessment using fundus images, https://pmc.ncbi.nlm.nih.gov/articles/PMC6425593/ 12. https://pmc.ncbi.nlm.nih.gov/articles/PMC11732976/ 13. Detecting Glaucoma from Fundus Photographs Using Deep ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9762193/ 14. https://arxiv.org/pdf/2103.11895 15. Deep learning on fundus images detects glaucoma beyond the optic, https://pubmed.ncbi.nlm.nih.gov/34645908/ 16. https://pmc.ncbi.nlm.nih.gov/articles/PMC12718736/ 17. https://pmc.ncbi.nlm.nih.gov/articles/PMC10829806/ 18. AIROGS: Artificial Intelligence for Robust Glaucoma Screening, https://pubmed.ncbi.nlm.nih.gov/37713220/ 19. https://coendevente.com/files/2302.01738.pdf 20. https://pubmed.ncbi.nlm.nih.gov/42971439/ 21. https://pmc.ncbi.nlm.nih.gov/articles/PMC9045897/ 22. a physically secure framework for clinical multi-site deep learning, https://pmc.ncbi.nlm.nih.gov/articles/PMC10625523/ 23. (PDF) DoFE: Domain-Oriented Feature Embedding for, https://www.researchgate.net/publication/343561008_DoFE_Domain-Oriented_Feature_Embedding_for_Generalizable_Fundus_Image_Segmentation_on_Unseen_Datasets 24. Spectral-Distribution Uncertainty Modeling for Robust Cross-Domain, https://www.mdpi.com/2306-5354/13/10/1163 25. Xin Yang ( 楊 鑫 ) | alphaXiv, https://www.alphaxiv.org/@xin-yang-yang-xin 26. Revisiting Masked Image Modeling with Standardized Color Space,
+
+=== PAGINA 55 ===
+[72] https://papers.miccai.org/miccai-2025/0784-Paper4143.html 27. https://www.medrxiv.org/content/10.64898/2026.03.02.26347127v1.full-text 28. FunOTTA: On-the-Fly Adaptation on Cross-Domain Fundus Image, https://arxiv.org/html/2407.04396v3 29. FunOTTA: On-the-Fly Adaptation on Cross-Domain Fundus Image, https://www.semanticscholar.org/paper/FunOTTA%3A-On-the-Fly-Adaptation-on-Cross-Domain-via-Zeng-Zhang/998e7c5635707e4abc006fc746970e17169bf5de 30. Leveraging Diffusion Models for Continual Test-Time Adaptation in, https://papers.miccai.org/miccai-2025/0494-Paper1304.html 31. Leveraging Diffusion Models for Continual Test-Time Adaptation in, https://www.researchgate.net/publication/395693794_Leveraging_Diffusion_Models_for_Continual_Test-Time_Adaptation_in_Fundus_Image_Classification 32. https://papers.miccai.org/miccai-2025/paper/1304_paper.pdf 33. (PDF) A foundation model for generalizable disease detection from, https://www.researchgate.net/publication/373901629_A_foundation_model_for_generalizable_disease_detection_from_retinal_images 34. A foundation model for generalizable disease detection from retinal, https://pubmed.ncbi.nlm.nih.gov/37704728/ 35. Evaluating a Foundation Artificial Intelligence Model for Glaucoma, https://pmc.ncbi.nlm.nih.gov/articles/PMC11625234/ 36. https://pmc.ncbi.nlm.nih.gov/articles/PMC10550819/ 37. Development and Validation of a Multimodal... : NEJM AI - Ovid, https://www.ovid.com/journals/neai/fulltext/10.1056/aioa2300221~development-and-validation-of-a-multimodal-multitask-vision 38. UrFound: Towards Universal Retinal Foundation Models via, https://papers.miccai.org/miccai-2024/825-Paper1942.html 39. https://papers.miccai.org/miccai-2024/paper/1942_paper.pdf 40. https://pmc.ncbi.nlm.nih.gov/articles/PMC12548085/ 41. https://pmc.ncbi.nlm.nih.gov/articles/PMC13484977/ 42. Augmentation Strategy for DINO in Glaucoma Classification - arXiv, https://arxiv.org/html/2610.32511v1 43. Augmentation Strategy for DINO in Glaucoma Classification - arXiv, https://arxiv.org/abs/2610.32511 44. A Foundation Language-Image Model of the Retina (FLAIR) - PubMed, https://pubmed.ncbi.nlm.nih.gov/39418828/ 45. https://openreview.net/pdf?id=RnaTcnSI8n 46. EyeCLIP: Multimodal Model for Ophthalmology | PDF - Scribd, https://www.scribd.com/document/901840813/20240911-EyeCLIP-a-Visual-language-Foundation-Model-for-Multi-modal-Ophthalmic-Image-Analysis-2409-06644v2 47. https://pmc.ncbi.nlm.nih.gov/articles/PMC12181238/ 48. (PDF) A multimodal visual-language foundation model for, https://www.researchgate.net/publication/392897403_A_multimodal_visual-language_foundation_model_for_computational_ophthalmology 49. https://pmc.ncbi.nlm.nih.gov/articles/PMC12214743/
+
+=== PAGINA 56 ===
+[72] 50. Common and Rare Fundus Diseases Identification Using Vision, https://arxiv.org/html/2406.09317v1 51. Enhancing Diagnostic Accuracy in Rare and Common Fundus, https://arxiv.org/html/2406.09317v3 52. (PDF) Common and Rare Fundus Diseases Identification Using, https://www.researchgate.net/publication/381404457_Common_and_Rare_Fundus_Diseases_Identification_Using_Vision-Language_Foundation_Model_with_Knowledge_of_Over_400_Diseases 53. Pixel-FLAIR: Leveraging Anatomical Segmentation for Region, https://papers.miccai.org/miccai-2026-sat/paper/ELAMI_007.pdf 54. Glaucoma Detection and Feature Identification via GPT-4V Fundus, https://pmc.ncbi.nlm.nih.gov/articles/PMC11773068/ 55. An OCT-trained Deep Learning Algorithm for Objective ... - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC6884092/ 56. An OCT-Trained Deep Learning Algorithm for Objective ... - PubMed, https://pubmed.ncbi.nlm.nih.gov/30578810/ 57. Augmentation Strategy for DINO in Glaucoma Classification, https://www.researchgate.net/publication/416825886_Augmentation_Strategy_for_DINO_in_Glaucoma_Classification 58. Augmentation Strategy for DINO in Glaucoma Classification - arXiv, https://arxiv.org/pdf/2610.32511 59. https://pmc.ncbi.nlm.nih.gov/articles/PMC13172480/ 60. https://scispace.com/pdf/rim-one-dl-a-unified-retinal-image-database-for-asses sing-8ip59in09i.pdf 61. Nested Radially Monotone Polar Occupancy Estimation - arXiv, https://arxiv.org/html/2604.09062v1 62. Leveraging the RETFound Foundation Model for Joint Optic Disc, https://arxiv.org/pdf/2508.11354 63. Generalizing to Unseen Domains in Diabetic Retinopathy, https://openaccess.thecvf.com/content/WACV2024/papers/Galappaththige_Generalizing_to_Unseen_Domains_in_Diabetic_Retinopathy_Classification_WACV_2024_paper.pdf 64. Multiscale guided attention network for optic disc segmentation of, https://researchportal.murdoch.edu.au/view/pdfCoverPage?instCode=61MUN_INST&filePid=13172178860007891&download=true 65. ECSD-Net: A joint optic disc and cup segmentation and glaucoma, https://www.researchgate.net/publication/356200171_ECSD-Net_A_joint_optic_disc_and_cup_segmentation_and_glaucoma_classification_network_based_on_unsupervised_domain_adaptation 66. Counterfactual Spatial Node Intervention for Test-Time Adaptation, https://arxiv.org/pdf/2610.22437 67. https://papers.miccai.org/miccai-2025/paper/0634_paper.pdf 68. Benchmarking Retinal Model Generalization from Foundation Vision, https://openreview.net/pdf/37cf403f6ffc32234d1aa47e08edb1aab01f9495.pdf 69. RetiZero: Advancing Fundus Disease Diagnosis | PDF - Scribd,
+
+=== PAGINA 57 ===
+[72] https://www.scribd.com/document/901840599/20240613-Enhancing-Diagnostic-Accuracy-in-Rare-and-Common-Fundus-Diseases-With-a-Knowledge-Rich-Vision-Language-Model-2406-09317v3 70. Reliable Retinal Screening with Foundation Models under, https://assets-eu.researchsquare.com/files/rs-11262974/v1_covered_4404dadf-14c6-4a19-ac6f-8257f5954833.pdf 71. JustRAIGS: Justified Referral in AI Glaucoma Screening Challenge, https://pmc.ncbi.nlm.nih.gov/articles/PMC12882781/ 72. Benchmarking Retinal Model Generalization from Foundation Vision, https://arxiv.org/pdf/2609.33158.pdf?ref=taaft&utm_source=taaft&utm_medium=referral 73. Benchmarking Retinal Model Generalization from Foundation Vision, https://arxiv.org/html/2609.33158v2 74. (PDF) A Clinician-Friendly Platform for Ophthalmic Image Analysis, https://www.researchgate.net/publication/391019767_A_Clinician-Friendly_Platform_for_Ophthalmic_Image_Analysis_Without_Technical_Barriers 75. Benchmarking Retinal Model Generalization from Foundation Vision, https://arxiv.org/html/2609.33158v1 76. A systematic review of vision and vision-language foundation ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC12794246/

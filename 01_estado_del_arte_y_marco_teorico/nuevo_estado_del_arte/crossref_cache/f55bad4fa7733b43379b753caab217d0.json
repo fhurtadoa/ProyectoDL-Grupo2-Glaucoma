@@ -1,0 +1,382 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2026-05-06T16:08:20Z",
+      "timestamp": 1778083700124,
+      "version": "3.51.4"
+    },
+    "reference-count": 22,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              29
+            ]
+          ],
+          "date-time": "2025-08-29T00:00:00Z",
+          "timestamp": 1756425600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              29
+            ]
+          ],
+          "date-time": "2025-08-29T00:00:00Z",
+          "timestamp": 1756425600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          29
+        ]
+      ]
+    },
+    "DOI": "10.1109/mpcon66082.2025.11256761",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          2
+        ]
+      ],
+      "date-time": "2025-12-02T18:44:59Z",
+      "timestamp": 1764701099000
+    },
+    "page": "123-127",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "An Efficient Approach for Glaucoma Detection Using Deep Learning"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Sonam",
+        "family": "Karsoliya",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "UIT- RGPV,Bhopal,MadhyaPradesh,India"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shikha",
+        "family": "Agrawal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UIT- RGPV,Department of CSE,Bhopal,MadhyaPradesh,India"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "issue": "1",
+        "key": "ref2",
+        "first-page": "1",
+        "article-title": "Importance of early detection and treatment of glaucoma",
+        "volume": "132",
+        "author": "Friedman",
+        "year": "2014",
+        "journal-title": "JAMA Ophthalmology"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/engproc2024062003"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-87000-3_14"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Graph-Guided Test-Time Adaptation for Glaucoma Diagnosis using Fundus Photography",
+        "author": "Zeng",
+        "year": "2024"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Adaptive Feature Fusion Neural Network for Glaucoma Segmentation on Unseen Fundus Images",
+        "author": "Zhong",
+        "year": "2024"
+      },
+      {
+        "key": "ref7",
+        "first-page": "106267",
+        "article-title": "Glaucoma detection using EfficientNet and transfer learning on fundus images",
+        "volume": "152",
+        "author": "Ahn",
+        "year": "2023",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "issue": "5",
+        "key": "ref8",
+        "first-page": "1681",
+        "article-title": "Disc-aware ensemble network for glaucoma screening from fundus images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref9",
+        "first-page": "103912",
+        "article-title": "Multi-task learning with deep CNN for glaucoma detection using fundus images",
+        "volume": "78",
+        "author": "Mahapatra",
+        "year": "2023",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "ref10",
+        "first-page": "65411",
+        "article-title": "Hybrid deep learning and handcrafted features for glaucoma detection",
+        "volume": "9",
+        "author": "Chai",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref11",
+        "first-page": "102676",
+        "article-title": "3D convolutional neural network for glaucoma detection using OCT volumes",
+        "volume": "68",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "ref12",
+        "first-page": "103960",
+        "article-title": "Fusion of multimodal ocular images for glaucoma detection using deep learning",
+        "volume": "124",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "J. Biomed. Inform."
+      },
+      {
+        "issue": "9",
+        "key": "ref13",
+        "first-page": "2725",
+        "article-title": "RIM-ONE: A benchmark dataset for glaucoma detection using fundus images",
+        "volume": "68",
+        "author": "Radhakrishnan",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "issue": "10",
+        "key": "ref14",
+        "first-page": "2999",
+        "article-title": "A novel hybrid model for glaucoma detection using deep learning and handcrafted features",
+        "volume": "39",
+        "author": "Chai",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref15",
+        "first-page": "122413",
+        "article-title": "A 3D convolutional neural network for glaucoma detection using optical coherence tomography",
+        "volume": "8",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "8",
+        "key": "ref16",
+        "first-page": "2215",
+        "article-title": "OCT-CLINIC: A dataset for glaucoma detection using optical coherence tomography",
+        "volume": "24",
+        "author": "Ravishankar",
+        "year": "2021",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "issue": "10",
+        "key": "ref17",
+        "first-page": "2829",
+        "article-title": "OCT-IDB: A large-scale dataset for glaucoma detection using OCT images",
+        "volume": "68",
+        "author": "Silva",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "ref18",
+        "article-title": "Kaggle Glaucoma Detection Challenge",
+        "volume-title": "Kaggle",
+        "year": "2020"
+      },
+      {
+        "issue": "5",
+        "key": "ref19",
+        "first-page": "1161",
+        "article-title": "REFUGE: A large-scale multimodal dataset for glaucoma detection",
+        "volume": "39",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "10",
+        "key": "ref20",
+        "first-page": "1738",
+        "article-title": "Automatic Diagnosis of Glaucoma from Retinal Images Using Deep Learning Approach. Diagnostics",
+        "volume": "13",
+        "author": "Shoukat",
+        "year": "2023",
+        "journal-title": "(Basel, Switzerland)"
+      },
+      {
+        "key": "ref21",
+        "first-page": "102731",
+        "article-title": "Glaucoma classification using pre- trained VGG19 and fine-tuning with fundus images",
+        "volume": "68",
+        "author": "Park",
+        "year": "2021",
+        "journal-title": "Biomedical Signal Processing and Control"
+      },
+      {
+        "key": "ref22",
+        "article-title": "EfficientNet in medical imaging: Application to glaucoma detection from fundus images",
+        "volume-title": "International Conference on Medical Imaging Physics and Engineering",
+        "author": "Zhao"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE Madhya Pradesh Section Conference (MPCON)",
+      "location": "Jabalpur, India",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            29
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            30
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE Madhya Pradesh Section Conference (MPCON)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11251517/11256497/11256761.pdf?arnumber=11256761",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2025-12-03T08:09:50Z",
+      "timestamp": 1764749390000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11256761/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          29
+        ]
+      ]
+    },
+    "references-count": 22,
+    "URL": "https://doi.org/10.1109/mpcon66082.2025.11256761",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          29
+        ]
+      ]
+    }
+  }
+}

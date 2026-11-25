@@ -1,0 +1,210 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2502.02544",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2502.02544",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2502.02544",
+      "identifiers": [
+        {
+          "identifier": "2502.02544",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2502.02544"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Wu, Zhiyuan",
+          "nameType": "Personal",
+          "givenName": "Zhiyuan",
+          "familyName": "Wu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Choi, Changkyu",
+          "nameType": "Personal",
+          "givenName": "Changkyu",
+          "familyName": "Choi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Cao, Xiangcheng",
+          "nameType": "Personal",
+          "givenName": "Xiangcheng",
+          "familyName": "Cao",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Cevher, Volkan",
+          "nameType": "Personal",
+          "givenName": "Volkan",
+          "familyName": "Cevher",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Ramezani-Kebrya, Ali",
+          "nameType": "Personal",
+          "givenName": "Ali",
+          "familyName": "Ramezani-Kebrya",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Addressing Label Shift in Distributed Learning via Entropy Regularization"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2025,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Machine Learning (cs.LG)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2025-02-04T18:14:27Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025-02-05T02:04:32Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025-02",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "arXiv.org perpetual, non-exclusive license",
+          "rightsUri": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "We address the challenge of minimizing true risk in multi-node distributed learning. These systems are frequently exposed to both inter-node and intra-node label shifts, which present a critical obstacle to effectively optimizing model performance while ensuring that data remains confined to each node. To tackle this, we propose the Versatile Robust Label Shift (VRLS) method, which enhances the maximum likelihood estimation of the test-to-train label density ratio. VRLS incorporates Shannon entropy-based regularization and adjusts the density ratio during training to better handle label shifts at the test time. In multi-node learning environments, VRLS further extends its capabilities by learning and adapting density ratios across nodes, effectively mitigating label shifts and improving overall model performance. Experiments conducted on MNIST, Fashion MNIST, and CIFAR-10 demonstrate the effectiveness of VRLS, outperforming baselines by up to 20% in imbalanced settings. These results highlight the significant improvements VRLS offers in addressing label shifts. Our theoretical analysis further supports this by establishing high-probability bounds on estimation errors.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Accepted at the International Conference on Learning Representations (ICLR 2025)",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNTAyLjAyNTQ0PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjUwMi4wMjU0NDwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XdSwgWmhpeXVhbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WmhpeXVhbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XdTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5DaG9pLCBDaGFuZ2t5dTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2hhbmdreXU8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2hvaTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5DYW8sIFhpYW5nY2hlbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlhpYW5nY2hlbmc8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2FvPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkNldmhlciwgVm9sa2FuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Wb2xrYW48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2V2aGVyPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlJhbWV6YW5pLUtlYnJ5YSwgQWxpPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5BbGk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UmFtZXphbmktS2VicnlhPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5BZGRyZXNzaW5nIExhYmVsIFNoaWZ0IGluIERpc3RyaWJ1dGVkIExlYXJuaW5nIHZpYSBFbnRyb3B5IFJlZ3VsYXJpemF0aW9uPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPmFyWGl2PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI1PC9wdWJsaWNhdGlvblllYXI+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+TWFjaGluZSBMZWFybmluZyAoY3MuTEcpPC9zdWJqZWN0PgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+QXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgKGNzLkFJKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjUtMDItMDRUMTg6MTQ6MjdaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjUtMDItMDVUMDI6MDQ6MzJaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNS0wMjwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9hcnhpdi5vcmcvbGljZW5zZXMvbm9uZXhjbHVzaXZlLWRpc3RyaWIvMS4wLyI+YXJYaXYub3JnIHBlcnBldHVhbCwgbm9uLWV4Y2x1c2l2ZSBsaWNlbnNlPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+V2UgYWRkcmVzcyB0aGUgY2hhbGxlbmdlIG9mIG1pbmltaXppbmcgdHJ1ZSByaXNrIGluIG11bHRpLW5vZGUgZGlzdHJpYnV0ZWQgbGVhcm5pbmcuIFRoZXNlIHN5c3RlbXMgYXJlIGZyZXF1ZW50bHkgZXhwb3NlZCB0byBib3RoIGludGVyLW5vZGUgYW5kIGludHJhLW5vZGUgbGFiZWwgc2hpZnRzLCB3aGljaCBwcmVzZW50IGEgY3JpdGljYWwgb2JzdGFjbGUgdG8gZWZmZWN0aXZlbHkgb3B0aW1pemluZyBtb2RlbCBwZXJmb3JtYW5jZSB3aGlsZSBlbnN1cmluZyB0aGF0IGRhdGEgcmVtYWlucyBjb25maW5lZCB0byBlYWNoIG5vZGUuIFRvIHRhY2tsZSB0aGlzLCB3ZSBwcm9wb3NlIHRoZSBWZXJzYXRpbGUgUm9idXN0IExhYmVsIFNoaWZ0IChWUkxTKSBtZXRob2QsIHdoaWNoIGVuaGFuY2VzIHRoZSBtYXhpbXVtIGxpa2VsaWhvb2QgZXN0aW1hdGlvbiBvZiB0aGUgdGVzdC10by10cmFpbiBsYWJlbCBkZW5zaXR5IHJhdGlvLiBWUkxTIGluY29ycG9yYXRlcyBTaGFubm9uIGVudHJvcHktYmFzZWQgcmVndWxhcml6YXRpb24gYW5kIGFkanVzdHMgdGhlIGRlbnNpdHkgcmF0aW8gZHVyaW5nIHRyYWluaW5nIHRvIGJldHRlciBoYW5kbGUgbGFiZWwgc2hpZnRzIGF0IHRoZSB0ZXN0IHRpbWUuIEluIG11bHRpLW5vZGUgbGVhcm5pbmcgZW52aXJvbm1lbnRzLCBWUkxTIGZ1cnRoZXIgZXh0ZW5kcyBpdHMgY2FwYWJpbGl0aWVzIGJ5IGxlYXJuaW5nIGFuZCBhZGFwdGluZyBkZW5zaXR5IHJhdGlvcyBhY3Jvc3Mgbm9kZXMsIGVmZmVjdGl2ZWx5IG1pdGlnYXRpbmcgbGFiZWwgc2hpZnRzIGFuZCBpbXByb3Zpbmcgb3ZlcmFsbCBtb2RlbCBwZXJmb3JtYW5jZS4gRXhwZXJpbWVudHMgY29uZHVjdGVkIG9uIE1OSVNULCBGYXNoaW9uIE1OSVNULCBhbmQgQ0lGQVItMTAgZGVtb25zdHJhdGUgdGhlIGVmZmVjdGl2ZW5lc3Mgb2YgVlJMUywgb3V0cGVyZm9ybWluZyBiYXNlbGluZXMgYnkgdXAgdG8gMjAlIGluIGltYmFsYW5jZWQgc2V0dGluZ3MuIFRoZXNlIHJlc3VsdHMgaGlnaGxpZ2h0IHRoZSBzaWduaWZpY2FudCBpbXByb3ZlbWVudHMgVlJMUyBvZmZlcnMgaW4gYWRkcmVzc2luZyBsYWJlbCBzaGlmdHMuIE91ciB0aGVvcmV0aWNhbCBhbmFseXNpcyBmdXJ0aGVyIHN1cHBvcnRzIHRoaXMgYnkgZXN0YWJsaXNoaW5nIGhpZ2gtcHJvYmFiaWxpdHkgYm91bmRzIG9uIGVzdGltYXRpb24gZXJyb3JzLjwvZGVzY3JpcHRpb24+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJPdGhlciI+QWNjZXB0ZWQgYXQgdGhlIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBMZWFybmluZyBSZXByZXNlbnRhdGlvbnMgKElDTFIgMjAyNSk8L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2502.02544",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2025-02-05T03:11:01.000Z",
+      "registered": "2025-02-05T03:11:02.000Z",
+      "published": "2025",
+      "updated": "2025-02-05T03:11:02.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2502.02544",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

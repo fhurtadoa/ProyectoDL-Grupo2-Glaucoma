@@ -1,0 +1,232 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2607.02692",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2607.02692",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2607.02692",
+      "identifiers": [
+        {
+          "identifier": "2607.02692",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2607.02692"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Jahan, Ishrat",
+          "nameType": "Personal",
+          "givenName": "Ishrat",
+          "familyName": "Jahan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Chowdhury, Muhammad E. H",
+          "nameType": "Personal",
+          "givenName": "Muhammad E. H",
+          "familyName": "Chowdhury",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Murugappan, Murugappan",
+          "nameType": "Personal",
+          "givenName": "Murugappan",
+          "familyName": "Murugappan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Podder, Kanchon Kanti",
+          "nameType": "Personal",
+          "givenName": "Kanchon Kanti",
+          "familyName": "Podder",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Rahman, Tawsifur",
+          "nameType": "Personal",
+          "givenName": "Tawsifur",
+          "familyName": "Rahman",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Datta, Shrestha",
+          "nameType": "Personal",
+          "givenName": "Shrestha",
+          "familyName": "Datta",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Hossain, Md Sakib Abrar",
+          "nameType": "Personal",
+          "givenName": "Md Sakib Abrar",
+          "familyName": "Hossain",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Hossen, Md Mosarrof",
+          "nameType": "Personal",
+          "givenName": "Md Mosarrof",
+          "familyName": "Hossen",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Mekki, Yosra Magdi Salih",
+          "nameType": "Personal",
+          "givenName": "Yosra Magdi Salih",
+          "familyName": "Mekki",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Roy, Sanjiban Sekhar",
+          "nameType": "Personal",
+          "givenName": "Sanjiban Sekhar",
+          "familyName": "Roy",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "An Automated Multimodal Glaucoma Detection Framework Using ViT and a Stacking-Based Ensemble"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-07-02T18:33:04Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-07-07T00:04:51Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-07",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "arXiv.org perpetual, non-exclusive license",
+          "rightsUri": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Glaucoma is a progressive eye disease that can lead to irreversible vision loss if not detected at an early stage. Conventional diagnostic procedures are often time-consuming and rely heavily on expert interpretation, limiting their scalability for large-scale screening. In this study, glaucoma detection is investigated under two evaluation settings: sample-wise, where individual samples are analyzed independently, and patient-wise, where data from each patient are aggregated for final prediction. An automated multimodal framework is proposed that integrates fundus images with clinical data. Under the sample-wise setting, detection is performed using fundus images and clinical features individually, as well as through their multimodal combination. Under the patient-wise setting, predictions are obtained by aggregating multiple fundus image representations with corresponding clinical information for each patient. Deep visual features are extracted using a Vision Transformer (ViT) architecture and classified using classical machine-learning models, with a stacking-based ensemble of the three best-performing classifiers employed to optimize performance. Experiments conducted on the publicly available PAPILA dataset demonstrate strong diagnostic performance, achieving 97.47% accuracy and a 97.50% F1-score for sample-wise multimodal classification, and 98.97% accuracy and F1-score for subject-wise detection. The proposed framework is further deployed as an end-to-end web-based platform to support automated glaucoma screening and clinical decision support.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNjA3LjAyNjkyPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjYwNy4wMjY5MjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5KYWhhbiwgSXNocmF0PC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Jc2hyYXQ8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+SmFoYW48L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+Q2hvd2RodXJ5LCBNdWhhbW1hZCBFLiBIPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5NdWhhbW1hZCBFLiBIPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkNob3dkaHVyeTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5NdXJ1Z2FwcGFuLCBNdXJ1Z2FwcGFuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5NdXJ1Z2FwcGFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPk11cnVnYXBwYW48L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+UG9kZGVyLCBLYW5jaG9uIEthbnRpPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5LYW5jaG9uIEthbnRpPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlBvZGRlcjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5SYWhtYW4sIFRhd3NpZnVyPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5UYXdzaWZ1cjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5SYWhtYW48L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+RGF0dGEsIFNocmVzdGhhPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5TaHJlc3RoYTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5EYXR0YTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Ib3NzYWluLCBNZCBTYWtpYiBBYnJhcjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TWQgU2FraWIgQWJyYXI8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+SG9zc2FpbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Ib3NzZW4sIE1kIE1vc2Fycm9mPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5NZCBNb3NhcnJvZjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Ib3NzZW48L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+TWVra2ksIFlvc3JhIE1hZ2RpIFNhbGloPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Zb3NyYSBNYWdkaSBTYWxpaDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5NZWtraTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Sb3ksIFNhbmppYmFuIFNla2hhcjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+U2FuamliYW4gU2VraGFyPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlJveTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+QW4gQXV0b21hdGVkIE11bHRpbW9kYWwgR2xhdWNvbWEgRGV0ZWN0aW9uIEZyYW1ld29yayBVc2luZyBWaVQgYW5kIGEgU3RhY2tpbmctQmFzZWQgRW5zZW1ibGU8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+YXJYaXY8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjY8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMDctMDJUMTg6MzM6MDRaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMDctMDdUMDA6MDQ6NTFaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNi0wNzwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9hcnhpdi5vcmcvbGljZW5zZXMvbm9uZXhjbHVzaXZlLWRpc3RyaWIvMS4wLyI+YXJYaXYub3JnIHBlcnBldHVhbCwgbm9uLWV4Y2x1c2l2ZSBsaWNlbnNlPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+R2xhdWNvbWEgaXMgYSBwcm9ncmVzc2l2ZSBleWUgZGlzZWFzZSB0aGF0IGNhbiBsZWFkIHRvIGlycmV2ZXJzaWJsZSB2aXNpb24gbG9zcyBpZiBub3QgZGV0ZWN0ZWQgYXQgYW4gZWFybHkgc3RhZ2UuIENvbnZlbnRpb25hbCBkaWFnbm9zdGljIHByb2NlZHVyZXMgYXJlIG9mdGVuIHRpbWUtY29uc3VtaW5nIGFuZCByZWx5IGhlYXZpbHkgb24gZXhwZXJ0IGludGVycHJldGF0aW9uLCBsaW1pdGluZyB0aGVpciBzY2FsYWJpbGl0eSBmb3IgbGFyZ2Utc2NhbGUgc2NyZWVuaW5nLiBJbiB0aGlzIHN0dWR5LCBnbGF1Y29tYSBkZXRlY3Rpb24gaXMgaW52ZXN0aWdhdGVkIHVuZGVyIHR3byBldmFsdWF0aW9uIHNldHRpbmdzOiBzYW1wbGUtd2lzZSwgd2hlcmUgaW5kaXZpZHVhbCBzYW1wbGVzIGFyZSBhbmFseXplZCBpbmRlcGVuZGVudGx5LCBhbmQgcGF0aWVudC13aXNlLCB3aGVyZSBkYXRhIGZyb20gZWFjaCBwYXRpZW50IGFyZSBhZ2dyZWdhdGVkIGZvciBmaW5hbCBwcmVkaWN0aW9uLiBBbiBhdXRvbWF0ZWQgbXVsdGltb2RhbCBmcmFtZXdvcmsgaXMgcHJvcG9zZWQgdGhhdCBpbnRlZ3JhdGVzIGZ1bmR1cyBpbWFnZXMgd2l0aCBjbGluaWNhbCBkYXRhLiBVbmRlciB0aGUgc2FtcGxlLXdpc2Ugc2V0dGluZywgZGV0ZWN0aW9uIGlzIHBlcmZvcm1lZCB1c2luZyBmdW5kdXMgaW1hZ2VzIGFuZCBjbGluaWNhbCBmZWF0dXJlcyBpbmRpdmlkdWFsbHksIGFzIHdlbGwgYXMgdGhyb3VnaCB0aGVpciBtdWx0aW1vZGFsIGNvbWJpbmF0aW9uLiBVbmRlciB0aGUgcGF0aWVudC13aXNlIHNldHRpbmcsIHByZWRpY3Rpb25zIGFyZSBvYnRhaW5lZCBieSBhZ2dyZWdhdGluZyBtdWx0aXBsZSBmdW5kdXMgaW1hZ2UgcmVwcmVzZW50YXRpb25zIHdpdGggY29ycmVzcG9uZGluZyBjbGluaWNhbCBpbmZvcm1hdGlvbiBmb3IgZWFjaCBwYXRpZW50LiBEZWVwIHZpc3VhbCBmZWF0dXJlcyBhcmUgZXh0cmFjdGVkIHVzaW5nIGEgVmlzaW9uIFRyYW5zZm9ybWVyIChWaVQpIGFyY2hpdGVjdHVyZSBhbmQgY2xhc3NpZmllZCB1c2luZyBjbGFzc2ljYWwgbWFjaGluZS1sZWFybmluZyBtb2RlbHMsIHdpdGggYSBzdGFja2luZy1iYXNlZCBlbnNlbWJsZSBvZiB0aGUgdGhyZWUgYmVzdC1wZXJmb3JtaW5nIGNsYXNzaWZpZXJzIGVtcGxveWVkIHRvIG9wdGltaXplIHBlcmZvcm1hbmNlLiBFeHBlcmltZW50cyBjb25kdWN0ZWQgb24gdGhlIHB1YmxpY2x5IGF2YWlsYWJsZSBQQVBJTEEgZGF0YXNldCBkZW1vbnN0cmF0ZSBzdHJvbmcgZGlhZ25vc3RpYyBwZXJmb3JtYW5jZSwgYWNoaWV2aW5nIDk3LjQ3JSBhY2N1cmFjeSBhbmQgYSA5Ny41MCUgRjEtc2NvcmUgZm9yIHNhbXBsZS13aXNlIG11bHRpbW9kYWwgY2xhc3NpZmljYXRpb24sIGFuZCA5OC45NyUgYWNjdXJhY3kgYW5kIEYxLXNjb3JlIGZvciBzdWJqZWN0LXdpc2UgZGV0ZWN0aW9uLiBUaGUgcHJvcG9zZWQgZnJhbWV3b3JrIGlzIGZ1cnRoZXIgZGVwbG95ZWQgYXMgYW4gZW5kLXRvLWVuZCB3ZWItYmFzZWQgcGxhdGZvcm0gdG8gc3VwcG9ydCBhdXRvbWF0ZWQgZ2xhdWNvbWEgc2NyZWVuaW5nIGFuZCBjbGluaWNhbCBkZWNpc2lvbiBzdXBwb3J0LjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+",
+      "url": "https://arxiv.org/abs/2607.02692",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-07-07T03:51:32.000Z",
+      "registered": "2026-07-07T03:51:33.000Z",
+      "published": "2026",
+      "updated": "2026-07-07T03:51:33.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2607.02692",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

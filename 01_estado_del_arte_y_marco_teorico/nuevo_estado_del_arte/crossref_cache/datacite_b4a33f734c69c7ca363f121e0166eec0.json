@@ -1,0 +1,146 @@
+{
+  "data": {
+    "id": "10.25959/29388569",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.25959/29388569",
+      "prefix": "10.25959",
+      "suffix": "29388569",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Abadh Chaurasia",
+          "givenName": "Abadh",
+          "familyName": "Chaurasia",
+          "affiliation": [
+            "University of Tasmania"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0003-4691-2921",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Clinical application of artificial intelligence to improve glaucoma care using imaging modalities"
+        }
+      ],
+      "publisher": "University of Tasmania",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-08-21",
+          "dateType": "Created"
+        },
+        {
+          "date": "2026-08-21",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2024-12-17",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "THES",
+        "bibtex": "phdthesis",
+        "citeproc": "thesis",
+        "schemaOrg": "Thesis",
+        "resourceType": "Thesis",
+        "resourceTypeGeneral": "Dissertation"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [
+        "17004930 Bytes"
+      ],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "In Copyright",
+          "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Glaucoma, a leading cause of irreversible blindness, presents significant challenges for early diagnosis and timely intervention due to its asymptomatic nature and subtle clinical morphology. Early detection and intervention are critical for preventing the disease's progression and vision loss. The increasing global prevalence of glaucoma highlights the need for improved diagnostic and predictive tools to ensure timely and accurate detection of the disease, especially in low-resource settings. Recent advances in artificial intelligence (AI), particularly deep learning (DL) algorithms, have shown promising results in ophthalmic disease diagnosis, including glaucoma. However, there is a paucity of studies developing predictive models based on longitudinal functional data using imaging modalities. This thesis primarily focuses on ophthalmic imaging modalities, such as fundus photographs and optical coherence tomography (OCT) images, to develop and validate diagnostic and predictive AI models for glaucoma care. <br>The first aim was to critically evaluate the literature to ascertain the overall diagnostic accuracy of AI in detecting glaucoma and to identify the factors that currently limit the implementation of these algorithms in clinical practice. This systematic review and meta-analysis found that, of all the imaging options, fundus and OCT images were the most used modalities with potential for diagnosing glaucoma using DL algorithms. This study highlighted the factors that affected the diagnostic performance, including the reference standard, the instrument used for imaging, dataset selection, image dimensions, and the machine learning classifier. Finally, this study recommended implementing a standard diagnostic protocol for grading, implementing external data validation, and analysis across different ethnicity groups. <br>Second, this thesis addressed the clinical challenge of predicting glaucoma progression from optic nerve head (ONH) images using AI. The participants were recruited as part of a longitudinal study, and classified as Healthy, Progressed, or Glaucoma based on baseline and follow-up Humphrey visual field (VF) tests. Four potential convolutional neural network (CNN)-based architectures were trained to classify the patients with manifest glaucoma from ONH images. The best-performing model achieved promising results on the testing and external datasets. However, due to a lack of publicly available datasets, the model could not be validated on external data for manifest glaucoma. This study demonstrated the potential of DL techniques in predicting the onset of glaucoma, reducing clinical and financial burdens. <br>The Humphrey VF test is the gold standard for assessing glaucoma and identifying glaucomatous VF defects (GVFD) patterns, but it is a subjective measurement. Thus, the thesis's third aim was to develop and validate DL-based models to classify patients with and without GVFD and its progression from the OCT scan objectively, without the Humphrey VF test. This aim analysed 1,657 OCT scans from 1,157 patients with follow-up intervals of 4.5 years. Three Densenet201-based models were developed. The potential model exhibited the highest accuracy (80%) in differentiating between eyes with no GVFD and GVFD. This study showed the relationship between the structural and functional impact of glaucoma but had limited accuracy in predicting the severity of progression. However, the model can objectively classify patients with or without GVFD, supporting clinicians in making an accurate diagnosis from both structural and functional parameters without extended follow-up. <br>Clinicians can construct a more personalised treatment plan and potentially delay or prevent glaucoma progression by predicting early visual function loss. To achieve this, the thesis sought to develop a DL?based regression model to forecast the global VF indices from the OCT scan. This study included a reliable baseline of 3,224 OCT scans and VF reports from 1859 patients with suspected glaucoma or early-stage glaucoma at enrolment. Three predictive models were trained on 80% of total data and validated on 20%, using the baseline OCT scan as input to the models. The best-performing model, Vgg19_bn, achieved notably low predicted errors on the validation set of 255 eyes. For the model's performance across all VF indices, the overall errors were calculated to be a mean absolute error of 1.40 and a root mean square error of 1.74. While these errors suggest the model's overall robust performance, there remains potential for further refinement. <br>Accurately assessing the cup-to-disc ratio (CDR) is essential for glaucoma screening and monitoring, but manual assessment can be inaccurate and time-consuming. To tackle this challenge, the fifth purpose of the thesis was to develop and validate a DL-based algorithm for automatic CDR quantification for glaucoma screening. A total of 184,580 fundus images were analysed from the UK Biobank, Drishti_GS, and EyePACS. FastAI and PyTorch libraries were used to train a CNN-based model on fundus images from the UK Biobank. Models were constructed to determine image gradability and estimate CDR. The gradability model achieved an accuracy of 97.13% on a validation set of 16,045 images, with 99.26% precision. Using regression analysis, the best-performing model attained an R2 of 0.8561 on a validation set of 12,183 images for determining CDR. This analysis indicated that AI can be effectively employed to automate and enhance the precision of CDR estimation, thereby facilitating more accurate glaucoma diagnosis in clinical practice. <br>The sixth aim was to develop a robust computer vision model for global glaucoma screening using fundus images. To achieve this aim, the glaucomatous data were collected from 20 publicly accessible databases worldwide and selected the best-performing model from 20 pre-trained models. The top-performing model was further trained to classify healthy and glaucomatous fundus images using Fastai and PyTorch libraries. The best-performing model was validated on 1,364 glaucomatous discs and 2,047 healthy discs with an Area Under the Receiver Operating Characteristic (AUROC) of 0.9920 for glaucoma and 0.9920 for healthy class. The model performed well on an external validation (unseen) set of the Drishti-GS dataset, with an AUROC of 0.8751 and an accuracy of 0.8713. Although the model's accuracy slightly decreased when evaluated on unseen data, this study highlighted the potential of computer vision to assist in glaucoma screening in diverse populations. <br>Lastly, this thesis addressed the issue of the limited availability of high-quality fundus images for developing AI models for detecting glaucomatous optic neuropathy (GON). The Generative Adversarial Networks (GANs) were explored to train an adversarial model to generate high-quality optic disc images from a diverse and vast dataset. A total of 17,060 fundus images (6,874 glaucomatous and 10,186 healthy) were collected from publicly accessible databases. These images were used to train deep convolutional generative adversarial networks (DCGANs) to synthesise disc images with or without GON. The DCGANs generated high-quality synthetic disc images for healthy and glaucomatous eyes. Two DL-based models were trained to detect GON, one solely on these synthetic images and another on a mixed dataset. When trained on a mixed dataset, the model's AUROC attained 99.85% on internal validation and 86.45% on external validation. This project demonstrated that combining synthetic and real clinical images can improve the DL model’s performance in detecting glaucoma. <br>In conclusion, this thesis highlighted the potential of integrating AI and computer vision techniques with ophthalmic imaging to revolutionise glaucoma care. This thesis covers various issues, from diagnostics to prediction and from real to synthetic image utilisation. Through multiple projects, these emphasised the pathways for improved diagnostic accuracy, early disease prediction, global screening techniques, and generating fundus images. Future work will refine and validate these models in diverse populations and real-world settings to optimise their potential for global glaucoma care.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC4yNTk1OS8yOTM4ODU2OTwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkFiYWRoIENoYXVyYXNpYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+QWJhZGg8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2hhdXJhc2lhPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj4wMDAwLTAwMDMtNDY5MS0yOTIxPC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzAxbmZtZWg3MiIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiIHNjaGVtZVVSST0iaHR0cHM6Ly9yb3Iub3JnLyI+VW5pdmVyc2l0eSBvZiBUYXNtYW5pYTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkNsaW5pY2FsIGFwcGxpY2F0aW9uIG9mIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIHRvIGltcHJvdmUgZ2xhdWNvbWEgY2FyZSB1c2luZyBpbWFnaW5nIG1vZGFsaXRpZXM8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+Jmx0O3AgZGlyPSJsdHIiJmd0O0dsYXVjb21hLCBhIGxlYWRpbmcgY2F1c2Ugb2YgaXJyZXZlcnNpYmxlIGJsaW5kbmVzcywgcHJlc2VudHMgc2lnbmlmaWNhbnQgY2hhbGxlbmdlcyBmb3IgZWFybHkgZGlhZ25vc2lzIGFuZCB0aW1lbHkgaW50ZXJ2ZW50aW9uIGR1ZSB0byBpdHMgYXN5bXB0b21hdGljIG5hdHVyZSBhbmQgc3VidGxlIGNsaW5pY2FsIG1vcnBob2xvZ3kuIEVhcmx5IGRldGVjdGlvbiBhbmQgaW50ZXJ2ZW50aW9uIGFyZSBjcml0aWNhbCBmb3IgcHJldmVudGluZyB0aGUgZGlzZWFzZSdzIHByb2dyZXNzaW9uIGFuZCB2aXNpb24gbG9zcy4gVGhlIGluY3JlYXNpbmcgZ2xvYmFsIHByZXZhbGVuY2Ugb2YgZ2xhdWNvbWEgaGlnaGxpZ2h0cyB0aGUgbmVlZCBmb3IgaW1wcm92ZWQgZGlhZ25vc3RpYyBhbmQgcHJlZGljdGl2ZSB0b29scyB0byBlbnN1cmUgdGltZWx5IGFuZCBhY2N1cmF0ZSBkZXRlY3Rpb24gb2YgdGhlIGRpc2Vhc2UsIGVzcGVjaWFsbHkgaW4gbG93LXJlc291cmNlIHNldHRpbmdzLiBSZWNlbnQgYWR2YW5jZXMgaW4gYXJ0aWZpY2lhbCBpbnRlbGxpZ2VuY2UgKEFJKSwgcGFydGljdWxhcmx5IGRlZXAgbGVhcm5pbmcgKERMKSBhbGdvcml0aG1zLCBoYXZlIHNob3duIHByb21pc2luZyByZXN1bHRzIGluIG9waHRoYWxtaWMgZGlzZWFzZSBkaWFnbm9zaXMsIGluY2x1ZGluZyBnbGF1Y29tYS4gSG93ZXZlciwgdGhlcmUgaXMgYSBwYXVjaXR5IG9mIHN0dWRpZXMgZGV2ZWxvcGluZyBwcmVkaWN0aXZlIG1vZGVscyBiYXNlZCBvbiBsb25naXR1ZGluYWwgZnVuY3Rpb25hbCBkYXRhIHVzaW5nIGltYWdpbmcgbW9kYWxpdGllcy4gVGhpcyB0aGVzaXMgcHJpbWFyaWx5IGZvY3VzZXMgb24gb3BodGhhbG1pYyBpbWFnaW5nIG1vZGFsaXRpZXMsIHN1Y2ggYXMgZnVuZHVzIHBob3RvZ3JhcGhzIGFuZCBvcHRpY2FsIGNvaGVyZW5jZSB0b21vZ3JhcGh5IChPQ1QpIGltYWdlcywgdG8gZGV2ZWxvcCBhbmQgdmFsaWRhdGUgZGlhZ25vc3RpYyBhbmQgcHJlZGljdGl2ZSBBSSBtb2RlbHMgZm9yIGdsYXVjb21hIGNhcmUuICZsdDticiZndDtUaGUgZmlyc3QgYWltIHdhcyB0byBjcml0aWNhbGx5IGV2YWx1YXRlIHRoZSBsaXRlcmF0dXJlIHRvIGFzY2VydGFpbiB0aGUgb3ZlcmFsbCBkaWFnbm9zdGljIGFjY3VyYWN5IG9mIEFJIGluIGRldGVjdGluZyBnbGF1Y29tYSBhbmQgdG8gaWRlbnRpZnkgdGhlIGZhY3RvcnMgdGhhdCBjdXJyZW50bHkgbGltaXQgdGhlIGltcGxlbWVudGF0aW9uIG9mIHRoZXNlIGFsZ29yaXRobXMgaW4gY2xpbmljYWwgcHJhY3RpY2UuIFRoaXMgc3lzdGVtYXRpYyByZXZpZXcgYW5kIG1ldGEtYW5hbHlzaXMgZm91bmQgdGhhdCwgb2YgYWxsIHRoZSBpbWFnaW5nIG9wdGlvbnMsIGZ1bmR1cyBhbmQgT0NUIGltYWdlcyB3ZXJlIHRoZSBtb3N0IHVzZWQgbW9kYWxpdGllcyB3aXRoIHBvdGVudGlhbCBmb3IgZGlhZ25vc2luZyBnbGF1Y29tYSB1c2luZyBETCBhbGdvcml0aG1zLiBUaGlzIHN0dWR5IGhpZ2hsaWdodGVkIHRoZSBmYWN0b3JzIHRoYXQgYWZmZWN0ZWQgdGhlIGRpYWdub3N0aWMgcGVyZm9ybWFuY2UsIGluY2x1ZGluZyB0aGUgcmVmZXJlbmNlIHN0YW5kYXJkLCB0aGUgaW5zdHJ1bWVudCB1c2VkIGZvciBpbWFnaW5nLCBkYXRhc2V0IHNlbGVjdGlvbiwgaW1hZ2UgZGltZW5zaW9ucywgYW5kIHRoZSBtYWNoaW5lIGxlYXJuaW5nIGNsYXNzaWZpZXIuIEZpbmFsbHksIHRoaXMgc3R1ZHkgcmVjb21tZW5kZWQgaW1wbGVtZW50aW5nIGEgc3RhbmRhcmQgZGlhZ25vc3RpYyBwcm90b2NvbCBmb3IgZ3JhZGluZywgaW1wbGVtZW50aW5nIGV4dGVybmFsIGRhdGEgdmFsaWRhdGlvbiwgYW5kIGFuYWx5c2lzIGFjcm9zcyBkaWZmZXJlbnQgZXRobmljaXR5IGdyb3Vwcy4gJmx0O2JyJmd0O1NlY29uZCwgdGhpcyB0aGVzaXMgYWRkcmVzc2VkIHRoZSBjbGluaWNhbCBjaGFsbGVuZ2Ugb2YgcHJlZGljdGluZyBnbGF1Y29tYSBwcm9ncmVzc2lvbiBmcm9tIG9wdGljIG5lcnZlIGhlYWQgKE9OSCkgaW1hZ2VzIHVzaW5nIEFJLiBUaGUgcGFydGljaXBhbnRzIHdlcmUgcmVjcnVpdGVkIGFzIHBhcnQgb2YgYSBsb25naXR1ZGluYWwgc3R1ZHksIGFuZCBjbGFzc2lmaWVkIGFzIEhlYWx0aHksIFByb2dyZXNzZWQsIG9yIEdsYXVjb21hIGJhc2VkIG9uIGJhc2VsaW5lIGFuZCBmb2xsb3ctdXAgSHVtcGhyZXkgdmlzdWFsIGZpZWxkIChWRikgdGVzdHMuIEZvdXIgcG90ZW50aWFsIGNvbnZvbHV0aW9uYWwgbmV1cmFsIG5ldHdvcmsgKENOTiktYmFzZWQgYXJjaGl0ZWN0dXJlcyB3ZXJlIHRyYWluZWQgdG8gY2xhc3NpZnkgdGhlIHBhdGllbnRzIHdpdGggbWFuaWZlc3QgZ2xhdWNvbWEgZnJvbSBPTkggaW1hZ2VzLiBUaGUgYmVzdC1wZXJmb3JtaW5nIG1vZGVsIGFjaGlldmVkIHByb21pc2luZyByZXN1bHRzIG9uIHRoZSB0ZXN0aW5nIGFuZCBleHRlcm5hbCBkYXRhc2V0cy4gSG93ZXZlciwgZHVlIHRvIGEgbGFjayBvZiBwdWJsaWNseSBhdmFpbGFibGUgZGF0YXNldHMsIHRoZSBtb2RlbCBjb3VsZCBub3QgYmUgdmFsaWRhdGVkIG9uIGV4dGVybmFsIGRhdGEgZm9yIG1hbmlmZXN0IGdsYXVjb21hLiBUaGlzIHN0dWR5IGRlbW9uc3RyYXRlZCB0aGUgcG90ZW50aWFsIG9mIERMIHRlY2huaXF1ZXMgaW4gcHJlZGljdGluZyB0aGUgb25zZXQgb2YgZ2xhdWNvbWEsIHJlZHVjaW5nIGNsaW5pY2FsIGFuZCBmaW5hbmNpYWwgYnVyZGVucy4gJmx0O2JyJmd0O1RoZSBIdW1waHJleSBWRiB0ZXN0IGlzIHRoZSBnb2xkIHN0YW5kYXJkIGZvciBhc3Nlc3NpbmcgZ2xhdWNvbWEgYW5kIGlkZW50aWZ5aW5nIGdsYXVjb21hdG91cyBWRiBkZWZlY3RzIChHVkZEKSBwYXR0ZXJucywgYnV0IGl0IGlzIGEgc3ViamVjdGl2ZSBtZWFzdXJlbWVudC4gVGh1cywgdGhlIHRoZXNpcydzIHRoaXJkIGFpbSB3YXMgdG8gZGV2ZWxvcCBhbmQgdmFsaWRhdGUgREwtYmFzZWQgbW9kZWxzIHRvIGNsYXNzaWZ5IHBhdGllbnRzIHdpdGggYW5kIHdpdGhvdXQgR1ZGRCBhbmQgaXRzIHByb2dyZXNzaW9uIGZyb20gdGhlIE9DVCBzY2FuIG9iamVjdGl2ZWx5LCB3aXRob3V0IHRoZSBIdW1waHJleSBWRiB0ZXN0LiBUaGlzIGFpbSBhbmFseXNlZCAxLDY1NyBPQ1Qgc2NhbnMgZnJvbSAxLDE1NyBwYXRpZW50cyB3aXRoIGZvbGxvdy11cCBpbnRlcnZhbHMgb2YgNC41IHllYXJzLiBUaHJlZSBEZW5zZW5ldDIwMS1iYXNlZCBtb2RlbHMgd2VyZSBkZXZlbG9wZWQuIFRoZSBwb3RlbnRpYWwgbW9kZWwgZXhoaWJpdGVkIHRoZSBoaWdoZXN0IGFjY3VyYWN5ICg4MCUpIGluIGRpZmZlcmVudGlhdGluZyBiZXR3ZWVuIGV5ZXMgd2l0aCBubyBHVkZEIGFuZCBHVkZELiBUaGlzIHN0dWR5IHNob3dlZCB0aGUgcmVsYXRpb25zaGlwIGJldHdlZW4gdGhlIHN0cnVjdHVyYWwgYW5kIGZ1bmN0aW9uYWwgaW1wYWN0IG9mIGdsYXVjb21hIGJ1dCBoYWQgbGltaXRlZCBhY2N1cmFjeSBpbiBwcmVkaWN0aW5nIHRoZSBzZXZlcml0eSBvZiBwcm9ncmVzc2lvbi4gSG93ZXZlciwgdGhlIG1vZGVsIGNhbiBvYmplY3RpdmVseSBjbGFzc2lmeSBwYXRpZW50cyB3aXRoIG9yIHdpdGhvdXQgR1ZGRCwgc3VwcG9ydGluZyBjbGluaWNpYW5zIGluIG1ha2luZyBhbiBhY2N1cmF0ZSBkaWFnbm9zaXMgZnJvbSBib3RoIHN0cnVjdHVyYWwgYW5kIGZ1bmN0aW9uYWwgcGFyYW1ldGVycyB3aXRob3V0IGV4dGVuZGVkIGZvbGxvdy11cC4gJmx0O2JyJmd0O0NsaW5pY2lhbnMgY2FuIGNvbnN0cnVjdCBhIG1vcmUgcGVyc29uYWxpc2VkIHRyZWF0bWVudCBwbGFuIGFuZCBwb3RlbnRpYWxseSBkZWxheSBvciBwcmV2ZW50IGdsYXVjb21hIHByb2dyZXNzaW9uIGJ5IHByZWRpY3RpbmcgZWFybHkgdmlzdWFsIGZ1bmN0aW9uIGxvc3MuIFRvIGFjaGlldmUgdGhpcywgdGhlIHRoZXNpcyBzb3VnaHQgdG8gZGV2ZWxvcCBhIERMP2Jhc2VkIHJlZ3Jlc3Npb24gbW9kZWwgdG8gZm9yZWNhc3QgdGhlIGdsb2JhbCBWRiBpbmRpY2VzIGZyb20gdGhlIE9DVCBzY2FuLiBUaGlzIHN0dWR5IGluY2x1ZGVkIGEgcmVsaWFibGUgYmFzZWxpbmUgb2YgMywyMjQgT0NUIHNjYW5zIGFuZCBWRiByZXBvcnRzIGZyb20gMTg1OSBwYXRpZW50cyB3aXRoIHN1c3BlY3RlZCBnbGF1Y29tYSBvciBlYXJseS1zdGFnZSBnbGF1Y29tYSBhdCBlbnJvbG1lbnQuIFRocmVlIHByZWRpY3RpdmUgbW9kZWxzIHdlcmUgdHJhaW5lZCBvbiA4MCUgb2YgdG90YWwgZGF0YSBhbmQgdmFsaWRhdGVkIG9uIDIwJSwgdXNpbmcgdGhlIGJhc2VsaW5lIE9DVCBzY2FuIGFzIGlucHV0IHRvIHRoZSBtb2RlbHMuIFRoZSBiZXN0LXBlcmZvcm1pbmcgbW9kZWwsIFZnZzE5X2JuLCBhY2hpZXZlZCBub3RhYmx5IGxvdyBwcmVkaWN0ZWQgZXJyb3JzIG9uIHRoZSB2YWxpZGF0aW9uIHNldCBvZiAyNTUgZXllcy4gRm9yIHRoZSBtb2RlbCdzIHBlcmZvcm1hbmNlIGFjcm9zcyBhbGwgVkYgaW5kaWNlcywgdGhlIG92ZXJhbGwgZXJyb3JzIHdlcmUgY2FsY3VsYXRlZCB0byBiZSBhIG1lYW4gYWJzb2x1dGUgZXJyb3Igb2YgMS40MCBhbmQgYSByb290IG1lYW4gc3F1YXJlIGVycm9yIG9mIDEuNzQuIFdoaWxlIHRoZXNlIGVycm9ycyBzdWdnZXN0IHRoZSBtb2RlbCdzIG92ZXJhbGwgcm9idXN0IHBlcmZvcm1hbmNlLCB0aGVyZSByZW1haW5zIHBvdGVudGlhbCBmb3IgZnVydGhlciByZWZpbmVtZW50LiAmbHQ7YnImZ3Q7QWNjdXJhdGVseSBhc3Nlc3NpbmcgdGhlIGN1cC10by1kaXNjIHJhdGlvIChDRFIpIGlzIGVzc2VudGlhbCBmb3IgZ2xhdWNvbWEgc2NyZWVuaW5nIGFuZCBtb25pdG9yaW5nLCBidXQgbWFudWFsIGFzc2Vzc21lbnQgY2FuIGJlIGluYWNjdXJhdGUgYW5kIHRpbWUtY29uc3VtaW5nLiBUbyB0YWNrbGUgdGhpcyBjaGFsbGVuZ2UsIHRoZSBmaWZ0aCBwdXJwb3NlIG9mIHRoZSB0aGVzaXMgd2FzIHRvIGRldmVsb3AgYW5kIHZhbGlkYXRlIGEgREwtYmFzZWQgYWxnb3JpdGhtIGZvciBhdXRvbWF0aWMgQ0RSIHF1YW50aWZpY2F0aW9uIGZvciBnbGF1Y29tYSBzY3JlZW5pbmcuIEEgdG90YWwgb2YgMTg0LDU4MCBmdW5kdXMgaW1hZ2VzIHdlcmUgYW5hbHlzZWQgZnJvbSB0aGUgVUsgQmlvYmFuaywgRHJpc2h0aV9HUywgYW5kIEV5ZVBBQ1MuIEZhc3RBSSBhbmQgUHlUb3JjaCBsaWJyYXJpZXMgd2VyZSB1c2VkIHRvIHRyYWluIGEgQ05OLWJhc2VkIG1vZGVsIG9uIGZ1bmR1cyBpbWFnZXMgZnJvbSB0aGUgVUsgQmlvYmFuay4gTW9kZWxzIHdlcmUgY29uc3RydWN0ZWQgdG8gZGV0ZXJtaW5lIGltYWdlIGdyYWRhYmlsaXR5IGFuZCBlc3RpbWF0ZSBDRFIuIFRoZSBncmFkYWJpbGl0eSBtb2RlbCBhY2hpZXZlZCBhbiBhY2N1cmFjeSBvZiA5Ny4xMyUgb24gYSB2YWxpZGF0aW9uIHNldCBvZiAxNiwwNDUgaW1hZ2VzLCB3aXRoIDk5LjI2JSBwcmVjaXNpb24uIFVzaW5nIHJlZ3Jlc3Npb24gYW5hbHlzaXMsIHRoZSBiZXN0LXBlcmZvcm1pbmcgbW9kZWwgYXR0YWluZWQgYW4gUjIgb2YgMC44NTYxIG9uIGEgdmFsaWRhdGlvbiBzZXQgb2YgMTIsMTgzIGltYWdlcyBmb3IgZGV0ZXJtaW5pbmcgQ0RSLiBUaGlzIGFuYWx5c2lzIGluZGljYXRlZCB0aGF0IEFJIGNhbiBiZSBlZmZlY3RpdmVseSBlbXBsb3llZCB0byBhdXRvbWF0ZSBhbmQgZW5oYW5jZSB0aGUgcHJlY2lzaW9uIG9mIENEUiBlc3RpbWF0aW9uLCB0aGVyZWJ5IGZhY2lsaXRhdGluZyBtb3JlIGFjY3VyYXRlIGdsYXVjb21hIGRpYWdub3NpcyBpbiBjbGluaWNhbCBwcmFjdGljZS4gJmx0O2JyJmd0O1RoZSBzaXh0aCBhaW0gd2FzIHRvIGRldmVsb3AgYSByb2J1c3QgY29tcHV0ZXIgdmlzaW9uIG1vZGVsIGZvciBnbG9iYWwgZ2xhdWNvbWEgc2NyZWVuaW5nIHVzaW5nIGZ1bmR1cyBpbWFnZXMuIFRvIGFjaGlldmUgdGhpcyBhaW0sIHRoZSBnbGF1Y29tYXRvdXMgZGF0YSB3ZXJlIGNvbGxlY3RlZCBmcm9tIDIwIHB1YmxpY2x5IGFjY2Vzc2libGUgZGF0YWJhc2VzIHdvcmxkd2lkZSBhbmQgc2VsZWN0ZWQgdGhlIGJlc3QtcGVyZm9ybWluZyBtb2RlbCBmcm9tIDIwIHByZS10cmFpbmVkIG1vZGVscy4gVGhlIHRvcC1wZXJmb3JtaW5nIG1vZGVsIHdhcyBmdXJ0aGVyIHRyYWluZWQgdG8gY2xhc3NpZnkgaGVhbHRoeSBhbmQgZ2xhdWNvbWF0b3VzIGZ1bmR1cyBpbWFnZXMgdXNpbmcgRmFzdGFpIGFuZCBQeVRvcmNoIGxpYnJhcmllcy4gVGhlIGJlc3QtcGVyZm9ybWluZyBtb2RlbCB3YXMgdmFsaWRhdGVkIG9uIDEsMzY0IGdsYXVjb21hdG91cyBkaXNjcyBhbmQgMiwwNDcgaGVhbHRoeSBkaXNjcyB3aXRoIGFuIEFyZWEgVW5kZXIgdGhlIFJlY2VpdmVyIE9wZXJhdGluZyBDaGFyYWN0ZXJpc3RpYyAoQVVST0MpIG9mIDAuOTkyMCBmb3IgZ2xhdWNvbWEgYW5kIDAuOTkyMCBmb3IgaGVhbHRoeSBjbGFzcy4gVGhlIG1vZGVsIHBlcmZvcm1lZCB3ZWxsIG9uIGFuIGV4dGVybmFsIHZhbGlkYXRpb24gKHVuc2Vlbikgc2V0IG9mIHRoZSBEcmlzaHRpLUdTIGRhdGFzZXQsIHdpdGggYW4gQVVST0Mgb2YgMC44NzUxIGFuZCBhbiBhY2N1cmFjeSBvZiAwLjg3MTMuIEFsdGhvdWdoIHRoZSBtb2RlbCdzIGFjY3VyYWN5IHNsaWdodGx5IGRlY3JlYXNlZCB3aGVuIGV2YWx1YXRlZCBvbiB1bnNlZW4gZGF0YSwgdGhpcyBzdHVkeSBoaWdobGlnaHRlZCB0aGUgcG90ZW50aWFsIG9mIGNvbXB1dGVyIHZpc2lvbiB0byBhc3Npc3QgaW4gZ2xhdWNvbWEgc2NyZWVuaW5nIGluIGRpdmVyc2UgcG9wdWxhdGlvbnMuICZsdDticiZndDtMYXN0bHksIHRoaXMgdGhlc2lzIGFkZHJlc3NlZCB0aGUgaXNzdWUgb2YgdGhlIGxpbWl0ZWQgYXZhaWxhYmlsaXR5IG9mIGhpZ2gtcXVhbGl0eSBmdW5kdXMgaW1hZ2VzIGZvciBkZXZlbG9waW5nIEFJIG1vZGVscyBmb3IgZGV0ZWN0aW5nIGdsYXVjb21hdG91cyBvcHRpYyBuZXVyb3BhdGh5IChHT04pLiBUaGUgR2VuZXJhdGl2ZSBBZHZlcnNhcmlhbCBOZXR3b3JrcyAoR0FOcykgd2VyZSBleHBsb3JlZCB0byB0cmFpbiBhbiBhZHZlcnNhcmlhbCBtb2RlbCB0byBnZW5lcmF0ZSBoaWdoLXF1YWxpdHkgb3B0aWMgZGlzYyBpbWFnZXMgZnJvbSBhIGRpdmVyc2UgYW5kIHZhc3QgZGF0YXNldC4gQSB0b3RhbCBvZiAxNywwNjAgZnVuZHVzIGltYWdlcyAoNiw4NzQgZ2xhdWNvbWF0b3VzIGFuZCAxMCwxODYgaGVhbHRoeSkgd2VyZSBjb2xsZWN0ZWQgZnJvbSBwdWJsaWNseSBhY2Nlc3NpYmxlIGRhdGFiYXNlcy4gVGhlc2UgaW1hZ2VzIHdlcmUgdXNlZCB0byB0cmFpbiBkZWVwIGNvbnZvbHV0aW9uYWwgZ2VuZXJhdGl2ZSBhZHZlcnNhcmlhbCBuZXR3b3JrcyAoRENHQU5zKSB0byBzeW50aGVzaXNlIGRpc2MgaW1hZ2VzIHdpdGggb3Igd2l0aG91dCBHT04uIFRoZSBEQ0dBTnMgZ2VuZXJhdGVkIGhpZ2gtcXVhbGl0eSBzeW50aGV0aWMgZGlzYyBpbWFnZXMgZm9yIGhlYWx0aHkgYW5kIGdsYXVjb21hdG91cyBleWVzLiBUd28gREwtYmFzZWQgbW9kZWxzIHdlcmUgdHJhaW5lZCB0byBkZXRlY3QgR09OLCBvbmUgc29sZWx5IG9uIHRoZXNlIHN5bnRoZXRpYyBpbWFnZXMgYW5kIGFub3RoZXIgb24gYSBtaXhlZCBkYXRhc2V0LiBXaGVuIHRyYWluZWQgb24gYSBtaXhlZCBkYXRhc2V0LCB0aGUgbW9kZWwncyBBVVJPQyBhdHRhaW5lZCA5OS44NSUgb24gaW50ZXJuYWwgdmFsaWRhdGlvbiBhbmQgODYuNDUlIG9uIGV4dGVybmFsIHZhbGlkYXRpb24uIFRoaXMgcHJvamVjdCBkZW1vbnN0cmF0ZWQgdGhhdCBjb21iaW5pbmcgc3ludGhldGljIGFuZCByZWFsIGNsaW5pY2FsIGltYWdlcyBjYW4gaW1wcm92ZSB0aGUgREwgbW9kZWzigJlzIHBlcmZvcm1hbmNlIGluIGRldGVjdGluZyBnbGF1Y29tYS4gJmx0O2JyJmd0O0luIGNvbmNsdXNpb24sIHRoaXMgdGhlc2lzIGhpZ2hsaWdodGVkIHRoZSBwb3RlbnRpYWwgb2YgaW50ZWdyYXRpbmcgQUkgYW5kIGNvbXB1dGVyIHZpc2lvbiB0ZWNobmlxdWVzIHdpdGggb3BodGhhbG1pYyBpbWFnaW5nIHRvIHJldm9sdXRpb25pc2UgZ2xhdWNvbWEgY2FyZS4gVGhpcyB0aGVzaXMgY292ZXJzIHZhcmlvdXMgaXNzdWVzLCBmcm9tIGRpYWdub3N0aWNzIHRvIHByZWRpY3Rpb24gYW5kIGZyb20gcmVhbCB0byBzeW50aGV0aWMgaW1hZ2UgdXRpbGlzYXRpb24uIFRocm91Z2ggbXVsdGlwbGUgcHJvamVjdHMsIHRoZXNlIGVtcGhhc2lzZWQgdGhlIHBhdGh3YXlzIGZvciBpbXByb3ZlZCBkaWFnbm9zdGljIGFjY3VyYWN5LCBlYXJseSBkaXNlYXNlIHByZWRpY3Rpb24sIGdsb2JhbCBzY3JlZW5pbmcgdGVjaG5pcXVlcywgYW5kIGdlbmVyYXRpbmcgZnVuZHVzIGltYWdlcy4gRnV0dXJlIHdvcmsgd2lsbCByZWZpbmUgYW5kIHZhbGlkYXRlIHRoZXNlIG1vZGVscyBpbiBkaXZlcnNlIHBvcHVsYXRpb25zIGFuZCByZWFsLXdvcmxkIHNldHRpbmdzIHRvIG9wdGltaXNlIHRoZWlyIHBvdGVudGlhbCBmb3IgZ2xvYmFsIGdsYXVjb21hIGNhcmUuJmx0Oy9wJmd0OzwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CiAgPHB1Ymxpc2hlcj5Vbml2ZXJzaXR5IG9mIFRhc21hbmlhPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI2PC9wdWJsaWNhdGlvblllYXI+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IkNyZWF0ZWQiPjIwMjYtMDgtMjE8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCI+MjAyNi0wOC0yMTwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjQtMTItMTc8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRpc3NlcnRhdGlvbiI+VGhlc2lzPC9yZXNvdXJjZVR5cGU+CiAgPHNpemVzPgogICAgPHNpemU+MTcwMDQ5MzAgQnl0ZXM8L3NpemU+CiAgPC9zaXplcz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwOi8vcmlnaHRzc3RhdGVtZW50cy5vcmcvdm9jYWIvSW5DLzEuMC8iPkluIENvcHlyaWdodDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KPC9yZXNvdXJjZT4=",
+      "url": "https://figshare.utas.edu.au/articles/thesis/Clinical_application_of_artificial_intelligence_to_improve_glaucoma_care_using_imaging_modalities/29388569",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-08-21T01:58:50.000Z",
+      "registered": "2026-08-21T01:58:51.000Z",
+      "published": "2026",
+      "updated": "2026-08-21T01:58:51.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ardcx.utas",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "utas",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.25959/29388569",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

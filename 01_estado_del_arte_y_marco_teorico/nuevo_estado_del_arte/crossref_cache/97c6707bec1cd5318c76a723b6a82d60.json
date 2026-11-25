@@ -1,0 +1,795 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T18:13:55Z",
+      "timestamp": 1793038435342,
+      "version": "4.5.0"
+    },
+    "reference-count": 77,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2025-06-13T00:00:00Z",
+          "timestamp": 1749772800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003493",
+        "name": "Gemeinnützige Hertie-Stiftung",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003493",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "390727645"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "390727645"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Medical Image Analysis"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.media.2025.103628",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2025-06-06T11:16:20Z",
+      "timestamp": 1749208580000
+    },
+    "page": "103628",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "special_numbering": "C",
+    "title": [
+      "Disentangling representations of retinal images with generative models"
+    ],
+    "prefix": "10.1016",
+    "volume": "105",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1500-8673",
+        "authenticated-orcid": false,
+        "given": "Sarah",
+        "family": "Müller",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4377-7074",
+        "authenticated-orcid": false,
+        "given": "Lisa M.",
+        "family": "Koch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3616-8668",
+        "authenticated-orcid": false,
+        "given": "Hendrik P.A.",
+        "family": "Lensch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0199-4727",
+        "authenticated-orcid": false,
+        "given": "Philipp",
+        "family": "Berens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.media.2025.103628_b1",
+        "series-title": "Eyepacs digital retinal grading protocol (eyepacs)",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b2",
+        "unstructured": "Alemi, Alexander A., Fischer, Ian, Dillon, Joshua V., Murphy, Kevin, 2017. Deep Variational Information Bottleneck. In: International Conference on Learning Representations. ICLR."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b3",
+        "unstructured": "Bass, Cher, da Silva, Mariana, Sudre, Carole, Tudosiu, Petru-Daniel, Smith, Stephen M., Robinson, Emma C., 2020. ICAM: Interpretable Classification via Disentangled Representations and Feature Attribution Mapping. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b4",
+        "unstructured": "Bass, Cher, da Silva, Mariana, Sudre, Carole, Williams, Logan Z.J., Tudosiu, Petru-Daniel, Alfaro-Almagro, Fidel, Fitzgibbon, Sean P., Glasser, Matthew F., Smith, Stephen M., Robinson, Emma C., 2021. ICAM-Reg: Interpretable Classification and Regression With Feature Attribution for Mapping Neurological Phenotypes in Individual Scans."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b5",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "article-title": "Instability and local minima in gan training with kernel discriminators",
+        "author": "Becker",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b6",
+        "unstructured": "Belghazi, Mohamed Ishmael, Baratin, Aristide, Rajeshwar, Sai, Ozair, Sherjil, Bengio, Yoshua, Courville, Aaron, Hjelm, Devon, 2018. Mutual Information Neural Estimation. In: Proceedings of the 35th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TPAMI.2013.50",
+        "article-title": "Representation learning: a review and new perspectives",
+        "author": "Bengio",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b8",
+        "article-title": "Measuring disentanglement: a review of metrics",
+        "author": "Carbonneau",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Networks Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41467-020-17478-w",
+        "article-title": "Causality matters in medical imaging",
+        "author": "Castro",
+        "year": "2020",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b10",
+        "unstructured": "Chen, Xi, Duan, Yan, Houthooft, Rein, Schulman, John, Sutskever, Ilya, Abbeel, Pieter, 2016. InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b11",
+        "unstructured": "Cheng, Pengyu, Hao, Weituo, Dai, Shuyang, Liu, Jiachang, Gan, Zhe, Carin, Lawrence, 2020. CLUB: A Contrastive Log-ratio Upper Bound of Mutual Information. In: Proceedings of the 37th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2589-7500(22)00169-8",
+        "article-title": "A deep learning model for detection of alzheimer’s disease based on retinal photographs: a retrospective, multicentre case-control study",
+        "author": "Cheung",
+        "year": "2022",
+        "journal-title": "Lancet Digit. Heal."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1177/193229680900300315",
+        "article-title": "Eyepacs: an adaptable telemedicine system for diabetic retinopathy screening",
+        "author": "Cuadros",
+        "year": "2009",
+        "journal-title": "J. Diabetes Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b14",
+        "unstructured": "Eastwood, Cian, Williams, Christopher K.I., 2018. A framework for the quantitative evaluation of disentangled representations. In: International Conference on Learning Representations."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b15",
+        "series-title": "Pytorch lightning",
+        "author": "Falcon",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ACCESS.2023.3289397",
+        "article-title": "Avoiding shortcut-learning by mutual information minimization in deep learning-based image processing",
+        "author": "Fay",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b17",
+        "unstructured": "Funke, Christina M., Vicol, Paul, Wang, Kuan-Chieh, Kümmerer, Matthias, Zemel, Richard, Bethge, Matthias, 2022. Disentanglement and Generalization Under Correlation Shifts. In: ICLR 2022 Workshop on Objects, Structure and Causality."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b18",
+        "series-title": "34th British Machine Vision Conference 2023, BMVC 2023, Aberdeen, UK, November 20-24, 2023",
+        "article-title": "A2v: a semi-supervised domain adaptation framework for brain vessel segmentation via two-phase training angiography-to-venography translation",
+        "author": "Galati",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b19",
+        "unstructured": "Ganin, Yaroslav, Lempitsky, Victor, 2015. Unsupervised Domain Adaptation by Backpropagation. In: Proceedings of the 32nd International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b20",
+        "article-title": "Domain-adversarial training of neural networks",
+        "author": "Ganin",
+        "year": "2016",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s42256-020-00257-z",
+        "article-title": "Shortcut learning in deep neural networks",
+        "author": "Geirhos",
+        "year": "2020",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghosh, Partha, Zietlow, Dominik, Black, Michael J., Davis, Larry S., Hu, Xiaochen, 2022. InvGAN: Invertible GANs. In: Pattern Recognition.",
+        "DOI": "10.1007/978-3-031-16788-1_1"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2021.102106",
+        "article-title": "Conditional generation of medical images via disentangled adversarial inference",
+        "volume": "72",
+        "author": "Havaei",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, Kaiming, Zhang, Xiangyu, Ren, Shaoqing, Sun, Jian, 2016. Deep Residual Learning for Image Recognition. In: Conference on Computer Vision and Pattern Recognition.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b25",
+        "unstructured": "Heusel, Martin, Ramsauer, Hubert, Unterthiner, Thomas, Nessler, Bernhard, Hochreiter, Sepp, 2018. GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b26",
+        "series-title": "Towards a definition of disentangled representations",
+        "author": "Higgins",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b27",
+        "unstructured": "Higgins, Irina, Matthey, Loic, Pal, Arka, Burgess, Christopher, Glorot, Xavier, Botvinick, Matthew, Mohamed, Shakir, Lerchner, Alexander, 2017. beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework. In: International Conference on Learning Representations."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b28",
+        "series-title": "Generating realistic counterfactuals for retinal fundus and oct images using diffusion models",
+        "author": "Ilanchezian",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karras, Tero, Laine, Samuli, Aittala, Miika, Hellsten, Janne, Lehtinen, Jaakko, Aila, Timo, 2020. Analyzing and Improving the Image Quality of StyleGAN. In: Conference on Computer Vision and Pattern Recognition.",
+        "DOI": "10.1109/CVPR42600.2020.00813"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b30",
+        "article-title": "Effects of hypertension, diabetes, and smoking on age and sex prediction from retinal fundus images",
+        "author": "Kim",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b31",
+        "unstructured": "Kingma, Diederik P., Welling, Max, 2014. Auto-Encoding Variational Bayes. In: International Conference on Learning Representations."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b32",
+        "unstructured": "Klys, Jack, Snell, Jake, Zemel, Richard, 2018. Learning Latent Subspaces in Variational Autoencoders. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lang, Oran, Gandelsman, Yossi, Yarom, Michal, Wald, Yoav, Elidan, Gal, Hassidim, Avinatan, Freeman, William T., Isola, Phillip, Globerson, Amir, Irani, Michal, Mosseri, Inbar, 2021. Explaining in Style: Training a GAN to explain a classifier in StyleSpace. In: International Conference on Computer Vision.",
+        "DOI": "10.1109/ICCV48922.2021.00073"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee, Hsin-Ying, Tseng, Hung-Yu, Huang, Jia-Bin, Singh, Maneesh Kumar, Yang, Ming-Hsuan, 2018. Diverse Image-to-Image Translation via Disentangled Representations. In: European Conference on Computer Vision.",
+        "DOI": "10.1007/978-3-030-01246-5_3"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2022.102516",
+        "article-title": "Learning disentangled representations in the imaging domain",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Xiao, Thermos, Spyridon, Valvano, Gabriele, Chartsias, Agisilaos, O’Neil, Alison, Tsaftaris, Sotirios A., 2021. Measuring the Biases and Effectiveness of Content-Style Disentanglement. In: Proc. of the British Machine Vision Conference. BMVC.",
+        "DOI": "10.5244/C.35.24"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b37",
+        "unstructured": "Locatello, Francesco, Bauer, Stefan, Lucic, Mario, Raetsch, Gunnar, Gelly, Sylvain, Schölkopf, Bernhard, Bachem, Olivier, 2019. Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations. In: Proceedings of the 36th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b38",
+        "series-title": "The variational fair autoencoder",
+        "author": "Louizos",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b39",
+        "unstructured": "Mescheder, Lars, Nowozin, Sebastian, Geiger, Andreas, 2018. Which Training Methods for GANs do actually Converge. In: International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b40",
+        "series-title": "Conditional generative adversarial nets",
+        "author": "Mirza",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b41",
+        "unstructured": "Miyato, Takeru, Koyama, Masanori, 2018. cGANs with Projection Discriminator. In: International Conference on Learning Representations."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b42",
+        "unstructured": "Moyer, Daniel, Gao, Shuyang, Brekelmans, Rob, Steeg, Greg Ver, Galstyan, Aram, 2018. Invariant Representations without Adversarial Training. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b43",
+        "series-title": "Fundus circle cropping",
+        "author": "Müller",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b44",
+        "unstructured": "Müller, Sarah, Koch, Lisa M., Lensch, Hendrik, Berens, Philipp, 2022. A Generative Model Reveals the Influence of Patient Attributes on Fundus Images. In: Medical Imaging with Deep Learning. URL https://openreview.net/forum?id=u9idZRTwmWR."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b45",
+        "unstructured": "Nie, Weili, Karras, Tero, Garg, Animesh, Debnath, Shoubhik, Patney, Anjul, Patel, Ankit B., Anandkumar, Anima, 2020. Semi-Supervised StyleGAN for Disentanglement Learning. In: Proceedings of the 37th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/ageing/afac065",
+        "article-title": "Retinal photograph-based deep learning predicts biological age, and stratifies morbidity and mortality risk",
+        "author": "Nusinovici",
+        "year": "2022",
+        "journal-title": "Age Ageing"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b47",
+        "unstructured": "Odena, Augustus, Olah, Christopher, Shlens, Jonathon, 2017. Conditional Image Synthesis With Auxiliary Classifier GANs. In: Proceedings of the 34th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ouyang, Jiahong, Adeli, Ehsan, Pohl, Kilian M., Zhao, Qingyu, Zaharchuk, Greg, 2021. Representation Disentanglement for Multi-modal brain MR Analysis. In: Information Processing in Medical Imaging.",
+        "DOI": "10.1007/978-3-030-78191-0_25"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parmar, Gaurav, Zhang, Richard, Zhu, Jun-Yan, 2022. On Aliased Resizing and Surprising Subtleties in GAN Evaluation. In: Conference on Computer Vision and Pattern Recognition.",
+        "DOI": "10.1109/CVPR52688.2022.01112"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b50",
+        "series-title": "Pytorch: an imperative style, high-performance deep learning library",
+        "author": "Paszke",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2025.103628_b51",
+        "doi-asserted-by": "crossref",
+        "first-page": "802",
+        "DOI": "10.1162/neco_a_01359",
+        "article-title": "Unsupervised discovery, control, and disentanglement of semantic attributes with applications to anomaly detection",
+        "volume": "33",
+        "author": "Paul",
+        "year": "2021",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b52",
+        "series-title": "Opentsne: a modular python library for t-sne dimensionality reduction and embedding",
+        "author": "Poličar",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b53",
+        "unstructured": "Poole, Ben, Ozair, Sherjil, Van Den Oord, Aaron, Alemi, Alex, Tucker, George, 2019. On Variational Bounds of Mutual Information. In: Proceedings of the 36th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b54",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "article-title": "Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning",
+        "author": "Poplin",
+        "year": "2018",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Preechakul, Konpat, Chatthee, Nattanat, Wizadwongsa, Suttisak, Suwajanakorn, Supasorn, 2022. Diffusion Autoencoders: Toward a Meaningful and Decodable Representation. In: IEEE Conference on Computer Vision and Pattern Recognition. CVPR.",
+        "DOI": "10.1109/CVPR52688.2022.01036"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quiros, Adalberto Claudio, Coudray, Nicolas, Yeaton, Anna, Sunhem, Wisuwat, Murray-Smith, Roderick, Tsirigos, Aristotelis, Yuan, Ke, 2021. Adversarial learning of cancer tissue representations. In: Medical Image Computing and Computer Assisted Intervention.",
+        "DOI": "10.1007/978-3-030-87237-3_58"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b57",
+        "series-title": "Ethnicity is not biology: retinal pigment score to evaluate biological variability from ophthalmic imaging using machine learning",
+        "author": "Rajesh",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b58",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2589-7500(20)30216-8",
+        "article-title": "Prediction of systemic biomarkers from retinal photographs: development and validation of deep-learning algorithms",
+        "author": "Rim",
+        "year": "2020",
+        "journal-title": "Lancet Digit. Heal."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b59",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2589-7500(21)00043-1",
+        "article-title": "Deep-learning-based cardiovascular risk stratification using coronary artery calcium scores predicted from retinal photographs",
+        "author": "Rim",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Heal."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b60",
+        "unstructured": "Roth, Karsten, Ibrahim, Mark, Akata, Zeynep, Vincent, Pascal, Bouchacourt, Diane, 2023. Disentanglement of Correlated Factors via Hausdorff Factorized Support. In: International Conference on Learning Representations."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b61",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2589-7500(20)30063-7",
+        "article-title": "A deep learning algorithm to detect chronic kidney disease from retinal photographs in community-based populations",
+        "author": "Sabanayagam",
+        "year": "2020",
+        "journal-title": "Lancet Digit. Heal."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.media.2025.103628_b62",
+        "doi-asserted-by": "crossref",
+        "first-page": "612",
+        "DOI": "10.1109/JPROC.2021.3058954",
+        "article-title": "Toward causal representation learning",
+        "volume": "109",
+        "author": "Schölkopf",
+        "year": "2021",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b63",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1214/13-AOS1140",
+        "article-title": "Equivalence of distance-based and rkhs-based statistics in hypothesis testing",
+        "author": "Sejdinovic",
+        "year": "2013",
+        "journal-title": "Ann. Statist."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b64",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "Simonyan",
+        "year": "2015",
+        "journal-title": "Int. Conf. Learn. Represent."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b65",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1167/tvst.9.2.28",
+        "article-title": "Predicting high coronary artery calcium score from retinal fundus images with deep learning algorithms",
+        "author": "Son",
+        "year": "2020",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b66",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1214/009053607000000505",
+        "article-title": "Measuring and testing dependence by correlation of distances",
+        "author": "Székely",
+        "year": "2007",
+        "journal-title": "Ann. Statist."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b67",
+        "unstructured": "Träuble, Frederik, Creager, Elliot, Kilbertus, Niki, Locatello, Francesco, Dittadi, Andrea, Goyal, Anirudh, Schölkopf, Bernhard, Bauer, Stefan, 2021. On Disentangled Representations Learned From Correlated Data. In: Proceedings of the 38th International Conference on Machine Learning."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b68",
+        "unstructured": "Tschannen, Michael, Bachem, Olivier, Lucic, Mario, 2018. Recent Advances in Autoencoder-Based Representation Learning. In: Bayesian Deep Learning Workshop, NeurIPS."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b69",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1186/s12916-022-02684-8",
+        "article-title": "Validation of a deep-learning-based retinal biomarker (reti-cvd) in the prediction of cardiovascular disease: data from uk biobank",
+        "author": "Tseng",
+        "year": "2023",
+        "journal-title": "BMC Med."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b70",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.15353/cjo.v44i1.4194",
+        "article-title": "Reflections from the retinal surface: some clinical implications",
+        "author": "Williams",
+        "year": "1982",
+        "journal-title": "Can. J. Optom."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b71",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2589-7500(20)30288-0",
+        "article-title": "Screening and identifying hepatobiliary diseases through deep learning using ocular images: a prospective, multicentre study",
+        "author": "Xiao",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Heal."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b72",
+        "unstructured": "Xie, Qizhe, Dai, Zihang, Du, Yulun, Hovy, Eduard, Neubig, Graham, 2017. Controllable Invariance through Adversarial Feature Learning. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b73",
+        "unstructured": "Yang, Tao, Wang, Yuwang, Lu, Yan, Zheng, Nanning, 2023. DisDiff: Unsupervised Disentanglement of Diffusion Probabilistic Models. In: Thirty-Seventh Conference on Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b74",
+        "series-title": "Unifying causal representation learning with the invariance principle",
+        "author": "Yao",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b75",
+        "unstructured": "Yao, Dingling, Xu, Danru, Lachapelle, Sebastien, Magliacane, Sara, Taslakian, Perouz, Martius, Georg, von Kügelgen, Julius, Locatello, Francesco, 2024b. Multi-View Causal Representation Learning with Partial Observability. In: The Twelfth International Conference on Learning Representations."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b76",
+        "unstructured": "Zhang, Zijian, Zhao, Zhou, Lin, Zhijie, 2022. Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models. In: Advances in Neural Information Processing Systems."
+      },
+      {
+        "key": "10.1016/j.media.2025.103628_b77",
+        "series-title": "European Conference on Computer Vision",
+        "first-page": "327",
+        "article-title": "On the versatile uses of partial distance correlation in deep learning",
+        "author": "Zhen",
+        "year": "2022"
+      }
+    ],
+    "container-title": [
+      "Medical Image Analysis"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361841525001756?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361841525001756?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2026-05-12T16:36:53Z",
+      "timestamp": 1778603813000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361841525001756"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "references-count": 77,
+    "alternative-id": [
+      "S1361841525001756"
+    ],
+    "URL": "https://doi.org/10.1016/j.media.2025.103628",
+    "relation": {},
+    "ISSN": [
+      "1361-8415"
+    ],
+    "issn-type": [
+      {
+        "value": "1361-8415",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Disentangling representations of retinal images with generative models",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Medical Image Analysis",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.media.2025.103628",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 The Authors. Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "103628"
+  }
+}

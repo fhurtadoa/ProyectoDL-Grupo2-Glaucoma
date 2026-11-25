@@ -1,0 +1,638 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2026-08-26T17:25:31Z",
+      "timestamp": 1787765131439,
+      "version": "build-2784847793"
+    },
+    "reference-count": 42,
+    "publisher": "MDPI AG",
+    "issue": "14",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              8
+            ]
+          ],
+          "date-time": "2025-07-08T00:00:00Z",
+          "timestamp": 1751932800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NSRF",
+        "award": [
+          "B04G640070"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "B04G640070"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NSRF",
+        "award": [
+          "1-2566-02-010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1-2566-02-010"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Faculty of Science, Prince of Songkla University",
+        "award": [
+          "B04G640070"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "B04G640070"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Faculty of Science, Prince of Songkla University",
+        "award": [
+          "1-2566-02-010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1-2566-02-010"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Diagnostics"
+    ],
+    "abstract": "<jats:p>Background/Objectives: In automatic medical image analysis, particularly for diabetic retinopathy, the accuracy of labeled data is crucial, as label noise can significantly complicate the analysis and lead to diagnostic errors. To tackle the issue of label noise in retinal image segmentation, an innovative label correction framework is introduced that combines Confident Learning (CL) with a human-in-the-loop re-annotation process to meticulously detect and rectify pixel-level labeling inaccuracies. Methods: Two CL-oriented strategies are assessed: Confident Joint Analysis (CJA) employing DeeplabV3+ with a ResNet-50 architecture, and Prune by Noise Rate (PBNR) utilizing ResNet-18. These methodologies are implemented on four publicly available retinal image datasets: HRF, STARE, DRIVE, and CHASE_DB1. After the models have been trained on the original labeled datasets, label noise is quantified, and amendments are executed on suspected misclassified pixels prior to the assessment of model performance. Results: The reduction in label noise yielded consistent advancements in accuracy, Intersection over Union (IoU), and weighted IoU across all the datasets. The segmentation of tiny structures, such as the fovea, demonstrated a significant enhancement following refinement. The Mean Boundary F1 Score (MeanBFScore) remained invariant, signifying the maintenance of boundary integrity. CJA and PBNR demonstrated strengths under different conditions, producing variations in performance that were dependent on the noise level and dataset characteristics. CL-based label correction techniques, when amalgamated with human refinement, could significantly enhance the segmentation accuracy and evaluation robustness for Accuracy, IoU, and MeanBFScore, achieving values of 0.9156, 0.8037, and 0.9856, respectively, with regard to the original ground truth, reflecting increases of 4.05%, 9.95%, and 1.28% respectively. Conclusions: This methodology represents a feasible and scalable solution to the challenge of label noise in medical image analysis, holding particular significance for real-world clinical applications.</jats:p>",
+    "DOI": "10.3390/diagnostics15141735",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2025-07-08T09:12:48Z",
+      "timestamp": 1751965968000
+    },
+    "page": "1735",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Confident Learning-Based Label Correction for Retinal Image Segmentation"
+    ],
+    "prefix": "10.3390",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Tanatorn",
+        "family": "Pethmunee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Division of Computational Science, Faculty of Science, Prince of Songkla University, Songkhla 90110, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Supaporn",
+        "family": "Kansomkeat",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Computational Science, Faculty of Science, Prince of Songkla University, Songkhla 90110, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4015-1941",
+        "authenticated-orcid": false,
+        "given": "Patama",
+        "family": "Bhurayanontachai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Faculty of Medicine, Prince of Songkla University, Songkhla 90110, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sathit",
+        "family": "Intajag",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Computational Science, Faculty of Science, Prince of Songkla University, Songkhla 90110, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "96273",
+        "DOI": "10.1109/ACCESS.2024.3427394",
+        "article-title": "A systematic review on fundus image-based diabetic retinopathy detection and grading: Current status and future directions",
+        "volume": "12",
+        "author": "Ikram",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Del Pinto, R., Mulè, G., Vadalà, M., Carollo, C., Cottone, S., Agabiti Rosei, C., De Ciuceis, C., Rizzoni, D., Ferri, C., and Muiesan, M.L. (2022). Arterial hypertension and the hidden disease of the eye: Diagnostic tools and therapeutic strategies. Nutrients, 14.",
+        "DOI": "10.3390/nu14112200"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camara, J., Neto, A., Pires, I.M., Villasana, M.V., Zdravevski, E., and Cunha, A. (2022). A comprehensive review of methods and equipment for aiding automatic glaucoma tracking. Diagnostics, 12.",
+        "DOI": "10.3390/diagnostics12040935"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/j.preteyeres.2005.07.001",
+        "article-title": "Retinal image analysis: Concepts, applications and potential",
+        "volume": "25",
+        "author": "Patton",
+        "year": "2006",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1109/RBME.2010.2084567",
+        "article-title": "Retinal imaging and image analysis",
+        "volume": "3",
+        "author": "Garvin",
+        "year": "2010",
+        "journal-title": "IEEE Rev. Biomed. Eng."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Long, J., Shelhamer, E., and Darrell, T. (2014). Fully convolutional networks for semantic segmentation. arXiv.",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, Z., Jia, M., Yang, X., and Xu, M. (2021). Blood vessel segmentation of retinal image based on dense-U-Net network. Micromachines, 12.",
+        "DOI": "10.3390/mi12121478"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, L., Zhu, Y., Papandreou, G., Schroff, F., and Adam, H. (2018, January 8–14). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation. Proceedings of the European Conference on Computer Vision (ECCV), Munich, Germany.",
+        "DOI": "10.1007/978-3-030-01234-2_49"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1109/TMI.2004.825627",
+        "article-title": "Ridge-Based Vessel Segmentation in Color Images of the Retina",
+        "volume": "23",
+        "author": "Staal",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1109/42.845178",
+        "article-title": "Locating Blood Vessels in Retinal Images by Piecewise Threshold Probing of a Matched Filter Response",
+        "volume": "19",
+        "author": "Hoover",
+        "year": "2000",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2538",
+        "DOI": "10.1109/TBME.2012.2205687",
+        "article-title": "An ensemble classification-based approach applied to retinal blood vessel segmentation",
+        "volume": "59",
+        "author": "Fraz",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Budai, A., Bock, R., Maier, A., Hornegger, J., and Michelson, G. (2013). Robust Vessel Segmentation in Fundus Images. Int. J. Biomed. Imaging, 2013.",
+        "DOI": "10.1155/2013/154860"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1038/s41597-022-01564-3",
+        "article-title": "FIVES: A Fundus Image Dataset for Artificial Intelligence Based Vessel Segmentation",
+        "volume": "9",
+        "author": "Jin",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1038/s41597-022-01507-y",
+        "article-title": "The RETA Benchmark for Retinal Vascular Tree Analysis",
+        "volume": "9",
+        "author": "Lyu",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "914",
+        "DOI": "10.1038/s41597-024-03739-6",
+        "article-title": "MAPLES-DR: MESSIDOR Anatomical and Pathological Labels for Explainable Screening of Diabetic Retinopathy",
+        "volume": "11",
+        "author": "Playout",
+        "year": "2024",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, E., Wang, Z., Zhao, Z., and Zhou, L. (2025). Imbalanced Medical Image Segmentation with Pixel-dependent Noisy Labels. arXiv.",
+        "DOI": "10.1109/TMI.2024.3524253"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2039348",
+        "DOI": "10.1080/08839514.2022.2039348",
+        "article-title": "Effect of Label Noise on Multi-Class Semantic Segmentation: A Case Study on Bangladesh Marine Region",
+        "volume": "36",
+        "author": "Pranto",
+        "year": "2022",
+        "journal-title": "Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "3062",
+        "DOI": "10.1109/TMI.2022.3176915",
+        "article-title": "Anti-Interference from Noisy Labels: Mean-Teacher-Assisted Confident Learning for Medical Image Segmentation",
+        "volume": "41",
+        "author": "Xu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "101693",
+        "DOI": "10.1016/j.media.2020.101693",
+        "article-title": "Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation",
+        "volume": "63",
+        "author": "Tajbakhsh",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_20",
+        "unstructured": "Northcutt, C.G., Athalye, A., and Mueller, J. (2021). Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks. arXiv."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "101759",
+        "DOI": "10.1016/j.media.2020.101759",
+        "article-title": "Deep Learning with Noisy Labels: Exploring Techniques and Remedies in Medical Image Analysis",
+        "volume": "65",
+        "author": "Karimi",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "103489",
+        "DOI": "10.1016/j.media.2025.103489",
+        "article-title": "Learning robust medical image segmentation from multi-source annotations",
+        "volume": "83",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1023/A:1022873112823",
+        "article-title": "Learning from Noisy Examples",
+        "volume": "2",
+        "author": "Angluin",
+        "year": "1988",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1373",
+        "DOI": "10.1613/jair.1.12125",
+        "article-title": "Confident Learning: Estimating Uncertainty in Dataset Labels",
+        "volume": "70",
+        "author": "Northcutt",
+        "year": "2021",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "ref_25",
+        "unstructured": "Northcutt, C.G. (2021). Confident Learning for Machines and Humans. [Doctoral Dissertation, Massachusetts Institute of Technology]."
+      },
+      {
+        "key": "ref_26",
+        "first-page": "234",
+        "article-title": "Uncertainty-aware iterative learning for noisy-labeled medical image segmentation",
+        "volume": "19",
+        "author": "Hao",
+        "year": "2023",
+        "journal-title": "IET Image Process."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.jocs.2017.02.006",
+        "article-title": "Segmentation of Optic Disc, Fovea and Retinal Vasculature Using a Single Convolutional Neural Network",
+        "volume": "20",
+        "author": "Tan",
+        "year": "2017",
+        "journal-title": "J. Comput. Sci."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alsayat, A., Elmezain, M., Alanazi, S., Alruily, M., Mostafa, A.M., and Said, W. (2023). Multi-layer Preprocessing and U-Net with Residual Attention Block for Retinal Blood Vessel Segmentation. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13213364"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, R., Pu, W., Nan, H., and Zou, Y. (2023). Retina image segmentation using the three-path Unet model. Sci. Rep., 13.",
+        "DOI": "10.1038/s41598-023-50141-0"
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "Lad, V., and Mueller, J. (2023). Estimating Label Quality and Errors in Semantic Segmentation Data via Any Model. arXiv."
+      },
+      {
+        "key": "ref_31",
+        "first-page": "15750",
+        "article-title": "Disentangling Human Error from Ground Truth in Segmentation of Medical Images",
+        "volume": "Volume 33",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems, Proceedings of the NeurIPS 2020, Vancouver, BC, Canada, 6–12 December 2020"
+      },
+      {
+        "key": "ref_32",
+        "first-page": "721",
+        "article-title": "Characterizing Label Errors: Confident Learning for Noisy-Labeled Image Segmentation",
+        "volume": "Volume 12261",
+        "author": "Martel",
+        "year": "2020",
+        "journal-title": "Medical Image Computing and Computer-Assisted Intervention—MICCAI 2020, Proceedings of the 23rd International Conference, Lima, Peru, 4–8 October 2020"
+      },
+      {
+        "key": "ref_33",
+        "first-page": "668",
+        "article-title": "Distilling Effective Supervision for Robust Medical Image Segmentation with Noisy Labels",
+        "volume": "Volume 12901",
+        "author": "Shi",
+        "year": "2021",
+        "journal-title": "Medical Image Computing and Computer-Assisted Intervention—MICCAI 2021, Part I"
+      },
+      {
+        "key": "ref_34",
+        "first-page": "106283",
+        "article-title": "Enhancing point annotations with superpixel and confident learning guided for improving semi-supervised OCT fluid segmentation. Biomed. Signal Process",
+        "volume": "86",
+        "author": "Weng",
+        "year": "2024",
+        "journal-title": "Control"
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Targ, S., Almeida, D., and Lyman, K. (2016). Resnet in Resnet: Generalizing Residual Architectures. arXiv."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1023/B:VLSI.0000028532.53893.82",
+        "article-title": "Realization of the Contrast Limited Adaptive Histogram Equalization (CLAHE) for Real-Time Image Enhancement",
+        "volume": "38",
+        "author": "Reza",
+        "year": "2004",
+        "journal-title": "J. VLSI Signal Process. Syst. Signal Image Video Technol."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "(2025, May 31). Image Labeler Documentation. Available online: https://www.mathworks.com/help/vision/ref/."
+      },
+      {
+        "key": "ref_38",
+        "first-page": "53",
+        "article-title": "DCNN-based embedded models for parallel diagnosis of ocular diseases",
+        "volume": "4",
+        "author": "Dawwd",
+        "year": "2023",
+        "journal-title": "East.-Eur. J. Enterp. Technol."
+      },
+      {
+        "key": "ref_39",
+        "first-page": "98",
+        "article-title": "SIMD implementation of deep CNNs for myopia detection on a single-board computer system",
+        "volume": "5",
+        "author": "Dawwd",
+        "year": "2023",
+        "journal-title": "East.–Eur. J. Enterp. Technol."
+      },
+      {
+        "key": "ref_40",
+        "first-page": "8536",
+        "article-title": "Co-teaching: Robust training of deep neural networks with extremely noisy labels",
+        "volume": "31",
+        "author": "Han",
+        "year": "2018",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "Jiang, L., Zhou, Z., Leung, T., Li, L.J., and Li, F.-F. (2018, January 10–15). MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels. Proceedings of the 35th International Conference on Machine Learning (ICML), Stockholm, Sweden. Available online: https://proceedings.mlr.press/v80/jiang18c.html."
+      },
+      {
+        "key": "ref_42",
+        "first-page": "8792",
+        "article-title": "Generalized cross entropy loss for training deep neural networks with noisy labels",
+        "volume": "31",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      }
+    ],
+    "container-title": [
+      "Diagnostics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2075-4418/15/14/1735/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T18:06:40Z",
+      "timestamp": 1760033200000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2075-4418/15/14/1735"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          8
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "14",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "diagnostics15141735"
+    ],
+    "URL": "https://doi.org/10.3390/diagnostics15141735",
+    "relation": {},
+    "ISSN": [
+      "2075-4418"
+    ],
+    "issn-type": [
+      {
+        "value": "2075-4418",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          8
+        ]
+      ]
+    }
+  }
+}

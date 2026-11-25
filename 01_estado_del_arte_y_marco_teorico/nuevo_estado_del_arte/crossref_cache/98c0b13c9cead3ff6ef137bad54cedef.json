@@ -1,0 +1,730 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T04:39:32Z",
+      "timestamp": 1792643972234,
+      "version": "4.5.0"
+    },
+    "reference-count": 35,
+    "publisher": "MDPI AG",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2026-10-05T00:00:00Z",
+          "timestamp": 1791158400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2026-10-05T00:00:00Z",
+          "timestamp": 1791158400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62406071"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62406071"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "32288101"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32288101"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U23A20475"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U23A20475"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "62406071"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62406071"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01h0zpd94",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "32288101"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32288101"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01h0zpd94",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "U23A20475"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U23A20475"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01h0zpd94",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "The Health Major Science and Technology Planning Project of Zhejiang Province",
+        "award": [
+          "WKJ-ZJ-2411"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "WKJ-ZJ-2411"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Medical and Health Research Project of Zhejiang Province",
+        "award": [
+          "2025KY1361"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2025KY1361"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Medical and Health Research Project of Zhejiang Province",
+        "award": [
+          "2022PY089"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022PY089"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Ningbo Major Research and Development Plan Project",
+        "award": [
+          "2024Z228"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024Z228"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Ningbo Major Research and Development Plan Project",
+        "award": [
+          "2024Z197"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024Z197"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The CAMS Innovation Fund for Medical Science",
+        "award": [
+          "2019-I2M-5-066"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2019-I2M-5-066"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Shanghai Municipal Science and Technology Major Project",
+        "award": [
+          "2023SHZDZX02"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023SHZDZX02"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Bioengineering"
+    ],
+    "abstract": "<jats:p>Domain generalization (DG) for medical image segmentation is commonly approached by simulating domain shifts through deterministic image transformations or feature perturbations. However, such methods implicitly assume that unseen domains can be approximated by predefined appearance variations. In this work, we challenge this assumption and hypothesize that medical domain shifts are more fundamentally characterized as uncertainty in spectral distributions. While anatomical structures are largely preserved across institutions, scanners, and acquisition protocols, substantial variations arise in image appearance, texture, and artifacts, which are predominantly manifested in the spectral domain. To test this hypothesis, we propose Spectral-Distribution Uncertainty (SDU), a frequency-aware DG framework that explicitly models uncertainty in the Fourier amplitude distributions of intermediate representations. By decomposing Transformer features into amplitude and phase components, SDU disentangles domain-specific spectral characteristics from domain-invariant anatomical semantics. Instead of imposing handcrafted frequency perturbations, SDU estimates spectral-distribution uncertainty during training and injects stochastic variations into the amplitude space, synthesizing diverse yet anatomically consistent representations that emulate potential unseen domains. Consequently, SDU expands the support of spectral feature distributions, enabling the model to learn representations that are robust to uncertainty-induced spectral shifts. Extensive experiments on retinal fundus and prostate MRI benchmarks demonstrate that SDU consistently outperforms state-of-the-art DG methods. Beyond empirical gains, these findings provide evidence that medical domain shifts are more appropriately characterized as uncertainty in spectral feature distributions, offering a principled perspective for generalizable medical image segmentation.</jats:p>",
+    "DOI": "10.3390/bioengineering13101163",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T10:57:46Z",
+      "timestamp": 1791197866000
+    },
+    "page": "1163",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Spectral-Distribution Uncertainty Modeling for Robust Cross-Domain Medical Image Segmentation"
+    ],
+    "prefix": "10.3390",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8360-5344",
+        "authenticated-orcid": false,
+        "given": "Chao",
+        "family": "Xin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Genetics and Development of Complex Phenotypes, School of Life Sciences and Human Phenome Institute, Fudan University, Shanghai 200433, China"
+          },
+          {
+            "name": "Medical Informatics Center, The First Affiliated Hospital of Ningbo University, Ningbo 315010, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhixiong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou 350100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zeyu",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou 350100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2765-0620",
+        "authenticated-orcid": false,
+        "given": "Jiucun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Genetics and Development of Complex Phenotypes, School of Life Sciences and Human Phenome Institute, Fudan University, Shanghai 200433, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1141-2487",
+        "authenticated-orcid": false,
+        "given": "Luojun",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou 350100, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamrani, A., and Godavarty, A. (2025). Self-Attention Diffusion Models for Zero-Shot Biomedical Image Segmentation: Unlocking New Frontiers in Medical Imaging. Bioengineering, 12.",
+        "DOI": "10.3390/bioengineering12101036"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding, W., and Li, Z. (2023). Curriculum consistency learning and multi-scale contrastive constraint in semi-supervised medical image segmentation. Bioengineering, 11.",
+        "DOI": "10.3390/bioengineering11010010"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, J., Ma, X., and Shi, Y. (2025). Multi-label conditioned diffusion for cardiac MR image augmentation and segmentation. Bioengineering, 12.",
+        "DOI": "10.3390/bioengineering12080812"
+      },
+      {
+        "key": "ref_4",
+        "unstructured": "Dou, Q., Chen, H., Yu, L., Qin, J., and Heng, P.A. (2018, January 16–20). Unsupervised cross-modality domain adaptation of convolutional neural networks for biomedical image segmentation. Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, Granada, Spain."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zheng, Y., Wu, S., Chen, J., Yao, Q., and Zheng, S. (2025). Cross-Subject Motor Imagery Electroencephalogram Decoding with Domain Generalization. Bioengineering, 12.",
+        "DOI": "10.3390/bioengineering12050495"
+      },
+      {
+        "key": "ref_6",
+        "first-page": "101799",
+        "article-title": "Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization",
+        "volume": "65",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, Z., Qi, L., and Shi, Y. (2022, January 23–27). Generalizable medical image segmentation via random amplitude mixup and domain-specific image restoration. Proceedings of the European Conference on Computer Vision, Tel Aviv, Israel.",
+        "DOI": "10.1007/978-3-031-19803-8_25"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, Q., Zhang, R., Zhang, Y., Wang, Y., and Tian, Q. (2021, January 20–25). A Fourier-based framework for domain generalization. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, TN, USA.",
+        "DOI": "10.1109/CVPR46437.2021.01415"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, X., Liu, C., Sicilia, A., Hwang, S.J., and Fu, Y. (2022, January 23–29). Test-time Fourier Style Calibration for Domain Generalization. Proceedings of the International Joint Conference of Artificial Intelligence, Vienna, Austria.",
+        "DOI": "10.24963/ijcai.2022/240"
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Lin, L., Shen, Z., Sun, Z., Yu, Y., Zhang, L., and Chen, W. (November, January 29). Parameter Exchange for Robust Dynamic Domain Generalization. Proceedings of the 31st ACM International Conference on Multimedia, Ottawa, ON, Canada."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "110280",
+        "DOI": "10.1016/j.patcog.2024.110280",
+        "article-title": "Semi-supervised domain generalization with evolving intermediate domain",
+        "volume": "149",
+        "author": "Lin",
+        "year": "2024",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "ref_12",
+        "unstructured": "Tong, P., Su, W., Li, H., Ding, J., Zhan, H., and Chen, S.X. (2023, January 23–29). Distribution free domain generalization. Proceedings of the International Conference on Machine Learning, Honolulu, HI, USA."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, X., Chen, W., Yang, S., Li, Y., Guan, W., and Li, L. (2024, January 14–19). Multivariate Fourier Distribution Perturbation: Domain Shifts with Uncertainty in Frequency Domain. Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing, Seoul, Republic of Korea.",
+        "DOI": "10.1109/ICASSP48485.2024.10447338"
+      },
+      {
+        "key": "ref_14",
+        "first-page": "7020",
+        "article-title": "Frequency-aware Interaction Network for Ultrasound Image Segmentation",
+        "volume": "5",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "3193",
+        "DOI": "10.1007/s10278-024-01088-9",
+        "article-title": "Invariant Content Representation for Generalizable Medical Image Segmentation",
+        "volume": "37",
+        "author": "Cheng",
+        "year": "2024",
+        "journal-title": "J. Imaging Inform. Med."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yi, J., Bi, Q., Zheng, H., Zhan, H., Ji, W., Huang, Y., Li, S., Li, Y., Zheng, Y., and Huang, F. (2024, January 6–10). Hallucinated style distillation for single domain generalization in medical image segmentation. Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, Marrakesh, Morocco.",
+        "DOI": "10.1007/978-3-031-72117-5_41"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, H., Dong, W., Yu, R., Zhao, Z., Du, B., and Xu, Y. (2024, January 6–10). Morestyle: Relax low-frequency constraint of fourier-based image reconstruction in generalizable medical image segmentation. Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, Marrakesh, Morocco.",
+        "DOI": "10.1007/978-3-031-72111-3_41"
+      },
+      {
+        "key": "ref_18",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets",
+        "volume": "27",
+        "author": "Goodfellow",
+        "year": "2014",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "4237",
+        "DOI": "10.1109/TMI.2020.3015224",
+        "article-title": "DoFE: Domain-oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "107073",
+        "DOI": "10.1016/j.neunet.2024.107073",
+        "article-title": "Dynamic domain generalization for medical image segmentation",
+        "volume": "184",
+        "author": "Cheng",
+        "year": "2025",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Y., Lao, D., Sundaramoorthi, G., and Soatto, S. (2020, January 14–19). Phase consistent ecological domain adaptation. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA.",
+        "DOI": "10.1109/CVPR42600.2020.00903"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Y., and Soatto, S. (2020, January 14–19). FDA: Fourier domain adaptation for semantic segmentation. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA.",
+        "DOI": "10.1109/CVPR42600.2020.00414"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, H., Li, H., Zhao, W., Fu, H., Su, X., Hu, Y., and Liu, J. (2023, January 8–12). Frequency-mixed single-source domain generalization for medical image segmentation. Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, Vancouver, BC, Canada.",
+        "DOI": "10.1007/978-3-031-43987-2_13"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qiao, Q., Wang, W., Qu, M., Su, K., Jiang, B., and Guo, Q. (2024, January 6–10). Medical image segmentation via single-source domain generalization with random amplitude spectrum synthesis. Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, Marrakesh, Morocco.",
+        "DOI": "10.1007/978-3-031-72114-4_42"
+      },
+      {
+        "key": "ref_25",
+        "unstructured": "Liu, C., Cao, Y., Su, X., and Zhu, H. (November, January 28). Universal frequency domain perturbation for single-source domain generalization. Proceedings of the 32nd ACM International Conference on Multimedia, Melbourne, Australia."
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., and Gelly, S. (2021, January 19–25). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Virtual."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "103280",
+        "DOI": "10.1016/j.media.2024.103280",
+        "article-title": "TransUNet: Rethinking the U-Net architecture design for medical image segmentation through the lens of transformers",
+        "volume": "97",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_28",
+        "first-page": "102846",
+        "article-title": "Frequency-Aware Transformers for Generalized Ultrasound Image Segmentation",
+        "volume": "88",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei, Z., Dong, W., Zhou, P., Gu, Y., Zhao, Z., and Xu, Y. (2024, January 6–10). Prompting segment anything model with domain-adaptive prototype for generalizable medical image segmentation. Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, Marrakesh, Morocco.",
+        "DOI": "10.1007/978-3-031-72111-3_50"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1109/PROC.1981.12022",
+        "article-title": "The importance of phase in signals",
+        "volume": "69",
+        "author": "Oppenheim",
+        "year": "1981",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Q., Dou, Q., and Heng, P.A. (2020, January 4–8). Shape-aware meta-learning for generalizing prostate MRI segmentation to unseen domains. Proceedings of the International Conference on Medical Image Computing and Computer Assisted Intervention, Virtual.",
+        "DOI": "10.1007/978-3-030-59713-9_46"
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "Yang, S., Bi, H., Zhang, H., and Sun, J. (2024). Sam-unet: Enhancing zero-shot segmentation of sam for universal medical images. arXiv."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1109/TMI.2022.3210133",
+        "article-title": "Domain and Content Adaptive Convolution Based Multi-Source Domain Generalization for Medical Image Segmentation",
+        "volume": "42",
+        "author": "Hu",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tishby, N., and Zaslavsky, N. (May, January 26). Deep learning and the information bottleneck principle. Proceedings of the 2015 IEEE Information Theory Workshop, Jerusalem, Israel.",
+        "DOI": "10.1109/ITW.2015.7133169"
+      },
+      {
+        "key": "ref_35",
+        "first-page": "723",
+        "article-title": "A Kernel Two-Sample Test",
+        "volume": "13",
+        "author": "Gretton",
+        "year": "2012",
+        "journal-title": "J. Mach. Learn. Res."
+      }
+    ],
+    "container-title": [
+      "Bioengineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2306-5354/13/10/1163/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T04:11:54Z",
+      "timestamp": 1792642314000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2306-5354/13/10/1163"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "bioengineering13101163"
+    ],
+    "URL": "https://doi.org/10.3390/bioengineering13101163",
+    "relation": {},
+    "ISSN": [
+      "2306-5354"
+    ],
+    "issn-type": [
+      {
+        "value": "2306-5354",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2026-08-01T17:35:58Z",
+      "timestamp": 1785605758979,
+      "version": "3.56.0"
+    },
+    "reference-count": 24,
+    "publisher": "Optica Publishing Group",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2022-03-11T00:00:00Z",
+          "timestamp": 1646956800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v2#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2022-03-11T00:00:00Z",
+          "timestamp": 1646956800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003399",
+        "name": "Science and Technology Commission of Shanghai Municipality",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "20DZ2220400"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "20DZ2220400"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003399",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "81974276"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "81974276"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "opg.optica.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomed. Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Convolutional neural networks (CNNs) are commonly used in glaucoma detection. Due to the various data distribution shift, however, a well-behaved model may be plummeting in performance when deployed in a new environment. On the other hand, the most straightforward method, data collection, is costly and even unrealistic in practice. To address these challenges, we propose a new method named data augmentation-based (DA) feature alignment (<jats:italic>DAFA</jats:italic>) to improve the out-of-distribution (OOD) generalization with a single dataset, which is based on the principle of feature alignment to learn the invariant features and eliminate the effect of data distribution shifts. <jats:italic>DAFA</jats:italic> creates two views of a sample by data augmentation and performs the feature alignment between that augmented views through latent feature recalibration and semantic representation alignment. Latent feature recalibration is normalizing the middle features to the same distribution by instance normalization (IN) layers. Semantic representation alignment is conducted by minimizing the Topk NT-Xent loss and the maximum mean discrepancy (MMD), which maximize the semantic agreement across augmented views from individual and population levels. Furthermore, a benchmark is established with seven glaucoma detection datasets and a new metric named mean of clean area under curve (<jats:italic>mcAUC</jats:italic>) for a comprehensive evaluation of the model performance. Experimental results of five-fold cross-validation demonstrate that <jats:italic>DAFA</jats:italic> can consistently and significantly improve the out-of-distribution generalization (up to +16.3% <jats:italic>mcAUC</jats:italic>) regardless of the training data, network architectures, and augmentation policies and outperform lots of state-of-the-art methods.</jats:p>",
+    "DOI": "10.1364/boe.450543",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2022-03-07T16:00:11Z",
+      "timestamp": 1646668811000
+    },
+    "page": "2018",
+    "update-policy": "https://doi.org/10.1364/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Improving the generalization of glaucoma detection on fundus images via feature alignment between augmented views"
+    ],
+    "prefix": "10.1364",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5179-327X",
+        "authenticated-orcid": true,
+        "given": "Chengfeng",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Shanghai Jiao Tong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "the Second Affiliated Hospital of Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University City College"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhiyong",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai Dianji University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linyan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "the Second Affiliated Hospital of Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kai",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "the Second Affiliated Hospital of Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yaofeng",
+        "family": "Wen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai Jiao Tong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Peking University Third Hospital"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dahong",
+        "family": "Qian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai Jiao Tong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "boe-13-4-2018-R1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "volume": "172",
+        "author": "Kermany",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "boe-13-4-2018-R2",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "volume": "2",
+        "author": "Poplin",
+        "year": "2018",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "boe-13-4-2018-R4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "boe-13-4-2018-R5",
+        "doi-asserted-by": "publisher",
+        "first-page": "413",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "volume": "39",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-13-4-2018-R7",
+        "author": "Quionero-Candela",
+        "year": "2009"
+      },
+      {
+        "key": "boe-13-4-2018-R8",
+        "doi-asserted-by": "publisher",
+        "first-page": "2713",
+        "DOI": "10.1109/TMI.2020.2974574",
+        "volume": "39",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-13-4-2018-R10",
+        "doi-asserted-by": "publisher",
+        "first-page": "2494",
+        "DOI": "10.1109/TMI.2020.2972701",
+        "volume": "39",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-13-4-2018-R11",
+        "first-page": "484",
+        "article-title": "Two at once: Enhancing learning and generalization capacities via ibn-net",
+        "volume": "11208",
+        "author": "Pan",
+        "year": "2018"
+      },
+      {
+        "key": "boe-13-4-2018-R12",
+        "first-page": "7324",
+        "article-title": "Making convolutional networks shift-invariant again",
+        "volume": "97",
+        "author": "Zhang",
+        "year": "2019"
+      },
+      {
+        "key": "boe-13-4-2018-R29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1310",
+        "DOI": "10.1109/TMI.2010.2046908",
+        "volume": "29",
+        "author": "Tustison",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-13-4-2018-R37",
+        "doi-asserted-by": "publisher",
+        "first-page": "2011",
+        "DOI": "10.1109/TPAMI.2019.2913372",
+        "volume": "42",
+        "author": "Hu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "boe-13-4-2018-R38",
+        "doi-asserted-by": "publisher",
+        "first-page": "742",
+        "DOI": "10.1007/s11263-019-01198-w",
+        "volume": "128",
+        "author": "Wu",
+        "year": "2020",
+        "journal-title": "Int. J. Comput. Vis."
+      },
+      {
+        "key": "boe-13-4-2018-R40",
+        "first-page": "2579",
+        "volume": "9",
+        "author": "van der Maaten",
+        "year": "2008",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "boe-13-4-2018-R42",
+        "unstructured": ", “,” Shanggong Medical Technology Co., Ltd, 2019, https://odir2019.grand-challenge.org/dataset/."
+      },
+      {
+        "key": "boe-13-4-2018-R43",
+        "doi-asserted-by": "publisher",
+        "first-page": "3065",
+        "DOI": "10.1109/IEMBS.2010.5626137",
+        "volume": "2010",
+        "author": "Zhang",
+        "year": "2010",
+        "journal-title": "2010 Annual International Conference of the IEEE Engineering in Medicine and Biology"
+      },
+      {
+        "key": "boe-13-4-2018-R44",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "boe-13-4-2018-R45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/CBMS.2011.5999143",
+        "volume": "2011",
+        "author": "Fumero",
+        "year": "2011",
+        "journal-title": "International Symposium on Computer-Based Medical Systems (CBMS)"
+      },
+      {
+        "key": "boe-13-4-2018-R47",
+        "doi-asserted-by": "publisher",
+        "author": "Zhou",
+        "year": "2022",
+        "DOI": "10.6084/m9.figshare.19294316"
+      },
+      {
+        "key": "boe-13-4-2018-R48",
+        "doi-asserted-by": "publisher",
+        "author": "Zhou",
+        "year": "2022",
+        "DOI": "10.6084/m9.figshare.19294313"
+      },
+      {
+        "key": "boe-13-4-2018-R50",
+        "doi-asserted-by": "publisher",
+        "author": "Zhou",
+        "year": "2022",
+        "DOI": "10.6084/m9.figshare.19294358"
+      },
+      {
+        "key": "boe-13-4-2018-R51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.48550/arXiv.1505.07818",
+        "volume": "17",
+        "author": "Ganin",
+        "year": "2016",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "boe-13-4-2018-R52",
+        "doi-asserted-by": "publisher",
+        "author": "Zhou",
+        "year": "2022",
+        "DOI": "10.6084/m9.figshare.19297751"
+      },
+      {
+        "key": "boe-13-4-2018-R58",
+        "doi-asserted-by": "publisher",
+        "author": "Zhou",
+        "year": "2022",
+        "DOI": "10.6084/m9.figshare.19297754"
+      },
+      {
+        "key": "boe-13-4-2018-R59",
+        "doi-asserted-by": "publisher",
+        "author": "Zhou",
+        "year": "2022",
+        "DOI": "10.6084/m9.figshare.19297757"
+      }
+    ],
+    "container-title": [
+      "Biomedical Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://opg.optica.org/viewmedia.cfm?URI=boe-13-4-2018&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T19:28:26Z",
+      "timestamp": 1722972506000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=boe-13-4-2018"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          11
+        ]
+      ]
+    },
+    "references-count": 24,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/boe.450543",
+    "relation": {},
+    "ISSN": [
+      "2156-7085",
+      "2156-7085"
+    ],
+    "issn-type": [
+      {
+        "value": "2156-7085",
+        "type": "print"
+      },
+      {
+        "value": "2156-7085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Optica Publishing Group",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/BOE.450543",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "10 December 2021",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "27 February 2022",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "11 March 2022",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2022 Optica Publishing Group under the terms of the Optica Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

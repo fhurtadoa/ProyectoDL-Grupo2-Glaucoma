@@ -1,0 +1,784 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T19:29:31Z",
+      "timestamp": 1795202971394,
+      "version": "4.10.3"
+    },
+    "reference-count": 57,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2023-06-13T00:00:00Z",
+          "timestamp": 1686614400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Physiol."
+    ],
+    "abstract": "<jats:p>\n                    <jats:bold>Aim:</jats:bold>\n                    To design an automated glaucoma detection system for early detection of glaucoma using fundus images.\n                  </jats:p>\n                  <jats:p>\n                    <jats:bold>Background:</jats:bold>\n                    Glaucoma is a serious eye problem that can cause vision loss and even permanent blindness. Early detection and prevention are crucial for effective treatment. Traditional diagnostic approaches are time consuming, manual, and often inaccurate, thus making automated glaucoma diagnosis necessary.\n                  </jats:p>\n                  <jats:p>\n                    <jats:bold>Objective:</jats:bold>\n                    To propose an automated glaucoma stage classification model using pre-trained deep convolutional neural network (CNN) models and classifier fusion.\n                  </jats:p>\n                  <jats:p>\n                    <jats:bold>Methods:</jats:bold>\n                    The proposed model utilized five pre-trained CNN models: ResNet50, AlexNet, VGG19, DenseNet-201, and Inception-ResNet-v2. The model was tested using four public datasets: ACRIMA, RIM-ONE, Harvard Dataverse (HVD), and Drishti. Classifier fusion was created to merge the decisions of all CNN models using the maximum voting-based approach.\n                  </jats:p>\n                  <jats:p>\n                    <jats:bold>Results:</jats:bold>\n                    The proposed model achieved an area under the curve of 1 and an accuracy of 99.57% for the ACRIMA dataset. The HVD dataset had an area under the curve of 0.97 and an accuracy of 85.43%. The accuracy rates for Drishti and RIM-ONE were 90.55 and 94.95%, respectively. The experimental results showed that the proposed model performed better than the state-of-the-art methods in classifying glaucoma in its early stages. Understanding the model output includes both attribution-based methods such as activations and gradient class activation map and perturbation-based methods such as locally interpretable model-agnostic explanations and occlusion sensitivity, which generate heatmaps of various sections of an image for model prediction.\n                  </jats:p>\n                  <jats:p>\n                    <jats:bold>Conclusion:</jats:bold>\n                    The proposed automated glaucoma stage classification model using pre-trained CNN models and classifier fusion is an effective method for the early detection of glaucoma. The results indicate high accuracy rates and superior performance compared to the existing methods.\n                  </jats:p>",
+    "DOI": "10.3389/fphys.2023.1175881",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2023-06-13T00:16:31Z",
+      "timestamp": 1686615391000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 67,
+    "title": [
+      "Multi-stage glaucoma classification using pre-trained convolutional neural networks and voting-based classifier fusion"
+    ],
+    "prefix": "10.3389",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Vijaya Kumar",
+        "family": "Velpula",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lakhan Dev",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "449",
+        "DOI": "10.1109/TITB.2011.2119322",
+        "article-title": "Auto-mated diagnosis of glaucoma using texture and higher order spectra features",
+        "volume": "15",
+        "author": "Acharya",
+        "year": "2011",
+        "journal-title": "IEEE Trans. informa- tion Technol. Biomed."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2702",
+        "DOI": "10.4103/ijo.ijo_92_21",
+        "article-title": "Identification of glaucoma from fundus images using deep learning tech-niques",
+        "volume": "69",
+        "author": "Ajitha",
+        "year": "2021",
+        "journal-title": "Indian J. Ophthalmol."
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "2259",
+        "DOI": "10.1002/jemt.24083",
+        "article-title": "Detection of microscopic glaucoma through fun-dus images using deep transfer learning approach",
+        "volume": "85",
+        "author": "Akbar",
+        "year": "2022",
+        "journal-title": "Mi- croscopy Res. Tech."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "23894",
+        "DOI": "10.1109/access.2021.3056641",
+        "article-title": "A comparative study of deep learning models for diagnosing glaucoma from fundus images",
+        "volume": "9",
+        "author": "Alghamdi",
+        "year": "2021",
+        "journal-title": "IEEE access"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "226",
+        "DOI": "10.1007/s10916-018-1088-1",
+        "article-title": "Medical image analysis using con-volutional neural networks: A review",
+        "volume": "42",
+        "author": "Anwar",
+        "year": "2018",
+        "journal-title": "J. Med. Syst."
+      },
+      {
+        "key": "B6",
+        "first-page": "355",
+        "article-title": "Classifying glaucoma with image-based features from fundus photographs",
+        "volume-title": "Joint pattern recogni-tion symposium",
+        "author": "Bock",
+        "year": "2007"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "103483",
+        "DOI": "10.1016/j.compbiomed.2019.103483",
+        "article-title": "Automated detec-tion of glaucoma using optical coherence tomography angiogram images",
+        "volume": "115",
+        "author": "Chan",
+        "year": "2019",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1019",
+        "DOI": "10.1109/TMI.2013.2247770",
+        "article-title": "Super-pixel classification based optic disc and optic cup seg-mentation for glaucoma screening",
+        "volume": "32",
+        "author": "Cheng",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Med. imaging"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learn-ing architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.1016/j.compbiomed.2014.01.005",
+        "article-title": "Application of vascular bundle displacement in the optic disc for glaucoma detec-tion using fundus images",
+        "volume": "47",
+        "author": "De La Fuente-Arriaga",
+        "year": "2014",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1109/TMI.2019.2903434",
+        "article-title": "Retinal image synthesis and semi-supervised learning for glaucoma assessment",
+        "volume": "38",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. imaging"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "Cnns for automatic glaucoma assess-ment using fundus images: An extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "Biomed. Eng. online"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/CBMS.2011.5999143",
+        "article-title": "Rim-one: An open retinal im-age database for optic nerve evaluation",
+        "volume-title": "2011 24th international symposium on computer-based medical systems (CBMS)",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "G´omez-Valverde",
+        "year": "2019",
+        "journal-title": "Biomed. Opt. express"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.1007/s10916-016-0482-9",
+        "article-title": "Regional image features model for automatic classification be-tween normal and glaucoma in fundus and scanning laser ophthalmoscopy (SLO) images",
+        "volume": "40",
+        "author": "Haleem",
+        "year": "2016",
+        "journal-title": "J. med- ical Syst."
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1007/s10916-017-0859-4",
+        "article-title": "A novel adaptive deformable model for automated optic disc and cup segmentation to aid glaucoma diagnosis",
+        "volume": "42",
+        "author": "Haleem",
+        "year": "2018",
+        "journal-title": "J. Med. Syst."
+      },
+      {
+        "key": "B17",
+        "first-page": "198",
+        "article-title": "Automated measure-ment of cup-to-disc ratio for diagnosing glaucoma in retinal fundus images",
+        "volume-title": "World congress on medical physics and biomedical engineering",
+        "author": "Hatanaka",
+        "year": "2009"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "435",
+        "DOI": "10.1007/s00417-009-1259-3",
+        "article-title": "Linear discriminant analysis and artificial neural net-work for glaucoma diagnosis using scanning laser polarimetry–variable cornea compensation measure-ments in taiwan Chinese population",
+        "volume": "248",
+        "author": "Huang",
+        "year": "2010",
+        "journal-title": "Graefe’s Archive Clin. Exp. Ophthalmol."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2407",
+        "DOI": "10.1007/s00371-020-01994-3",
+        "article-title": "Fundus image-based cataract classification using a hybrid convolutional and recurrent neural net-work",
+        "volume": "37",
+        "author": "Imran",
+        "year": "2021",
+        "journal-title": "Vis. Comput."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1691",
+        "DOI": "10.3233/jifs-169462",
+        "article-title": "Neural network based robust image watermarking technique in lwt domain",
+        "volume": "34",
+        "author": "Islam",
+        "year": "2018",
+        "journal-title": "J. Intelligent Fuzzy Syst."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "118650",
+        "DOI": "10.1016/j.eswa.2022.118650",
+        "article-title": "Automated multi-class classification of lung diseases from cxr-images using pre-trained convolutional neural networks",
+        "volume": "211",
+        "author": "Karaddi",
+        "year": "2022",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "329",
+        "DOI": "10.1016/j.bbe.2018.02.003",
+        "article-title": "Combination of clinical and multiresolution fea-tures for glaucoma detection and its classification us-ing fundus images",
+        "volume": "38",
+        "author": "Kausu",
+        "year": "2018",
+        "journal-title": "Biocybern. Biomed. En- gineering"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1177/1063293x211026620",
+        "article-title": "Automated glaucoma detection from fundus images using wavelet-based de-noising and machine learning",
+        "volume": "30",
+        "author": "Khan",
+        "year": "2022",
+        "journal-title": "Concurr. Eng."
+      },
+      {
+        "key": "B24",
+        "article-title": "Machine learn for glaucoma",
+        "volume-title": "Harvard Dataverse",
+        "author": "Kim",
+        "year": "2018"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "3089",
+        "DOI": "10.1016/j.ygeno.2020.05.017",
+        "article-title": "Glaucoma classifica-tion based on intra-class and extra-class discriminative correlation and consensus ensemble classifier",
+        "volume": "112",
+        "author": "Kishore",
+        "year": "2020",
+        "journal-title": "Genomics"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1350011",
+        "DOI": "10.1142/s0219519413500115",
+        "article-title": "Automated glaucoma de-tection using hybrid feature extraction in retinal fundus images",
+        "volume": "13",
+        "author": "Krishnan",
+        "year": "2013",
+        "journal-title": "J. Mech. Med. Biol."
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "521",
+        "DOI": "10.1007/s11831-022-09807-7",
+        "article-title": "Deep transfer learning approaches to predict glaucoma, cataract, choroidal neovascular-ization, diabetic macular edema, drusen and healthy eyes: An experimental review",
+        "volume": "30",
+        "author": "Kumar",
+        "year": "2022",
+        "journal-title": "Archives Computa- tional Methods Eng."
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "413",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "article-title": "A large-scale database and a CNN model for attention-based glaucoma detection",
+        "volume": "39",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. imaging"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "558",
+        "DOI": "10.1038/s41598-023-27783-1",
+        "article-title": "Assessing the external validity of ma-chine learning-based detection of glaucoma",
+        "volume": "13",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1405",
+        "DOI": "10.1109/JBHI.2019.2949075",
+        "article-title": "Clinical interpretable deep learning model for glaucoma diagnosis",
+        "volume": "24",
+        "author": "Liao",
+        "year": "2019",
+        "journal-title": "IEEE J. Biomed. health infor- matics"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1016/j.ogla.2018.04.002",
+        "article-title": "A deep learning-based algorithm iden-tifies glaucomatous discs using monoscopic fundus pho-tographs",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Ophthalmol. Glaucoma"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "101454",
+        "DOI": "10.1016/j.bspc.2019.01.003",
+        "article-title": "An automated glaucoma screening system using cup-to-disc ratio via simple linear iterative clus-tering superpixel approach",
+        "volume": "53",
+        "author": "Mohamed",
+        "year": "2019",
+        "journal-title": "Biomed. Signal Process- ing Control"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1016/j.knosys.2012.02.010",
+        "article-title": "Data mining technique for automated diagnosis of glaucoma using higher order spectra and wavelet energy features",
+        "volume": "33",
+        "author": "Mookiah",
+        "year": "2012",
+        "journal-title": "Knowledge-Based Syst."
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "174",
+        "DOI": "10.1016/j.bspc.2013.11.006",
+        "article-title": "Automated classification of glaucoma stages using higher order cumulant features",
+        "volume": "10",
+        "author": "Noronha",
+        "year": "2014",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "3727",
+        "DOI": "10.1007/s10792-021-01931-w",
+        "article-title": "Glaucoma detec-tion in latino population through OCT’s rnfl thickness map using transfer learning",
+        "volume": "41",
+        "author": "Olivas",
+        "year": "2021",
+        "journal-title": "Int. Ophthalmol- ogy"
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.1109/lsp.2020.3045638",
+        "article-title": "Automatic classification of glaucoma stages using two-dimensional tensor empirical wavelet transform",
+        "volume": "28",
+        "author": "Parashar",
+        "year": "2020",
+        "journal-title": "IEEE Signal Process. Lett."
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "12885",
+        "DOI": "10.1109/jsen.2020.3001972",
+        "article-title": "Automated classification of glaucoma stages using flexible analytic wavelet trans-form from retinal fundus images",
+        "volume": "20",
+        "author": "Parashar",
+        "year": "2020",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "170",
+        "DOI": "10.1016/j.bbe.2017.11.002",
+        "article-title": "Novel expert system for glaucoma identifica-tion using non-parametric spatial envelope energy spec-trum with fundus images",
+        "volume": "38",
+        "author": "Raghavendra",
+        "year": "2018",
+        "journal-title": "Biocybern. Biomed- ical Eng."
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "312",
+        "DOI": "10.1016/j.bbe.2022.02.006",
+        "article-title": "Automatic cardiac arrhyth-mia classification based on hybrid 1-d cnn and bi-lstm model",
+        "volume": "42",
+        "author": "Rahul",
+        "year": "2022",
+        "journal-title": "Biocybern. Biomed. Engineer- ing"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "523",
+        "DOI": "10.1007/s11277-020-08029-z",
+        "article-title": "An automated early detection of glaucoma using support vector ma-chine based visual geometry group 19 (VGG-19) con-volutional neural network",
+        "volume": "118",
+        "author": "Raja",
+        "year": "2021",
+        "journal-title": "Wirel. Personal. Commu- nications"
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "5321",
+        "DOI": "10.3934/mbe.2021270",
+        "article-title": "An ensemble framework based on deep cnns architec-ture for glaucoma classification using fundus photogra-phy",
+        "volume": "18",
+        "author": "Rehman",
+        "year": "2021",
+        "journal-title": "Math. Biosci. Eng. MBE"
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1016/j.sigpro.2016.04.007",
+        "article-title": "Impulse noise removal using SVM classification based fuzzy filter from gray scale images",
+        "volume": "128",
+        "author": "Roy",
+        "year": "2016",
+        "journal-title": "Signal Process."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/TIPTEKNO.2019.8894965",
+        "article-title": "Transfer learning for early and advanced glaucoma detection with convolutional neu-ral networks",
+        "volume-title": "2019 Medical technologies congress (TIPTEKNO)",
+        "author": "Serener",
+        "year": "2019"
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/ISMSIT.2019.8932753",
+        "article-title": "A generalized deep learning model for glaucoma detection",
+        "volume-title": "2019 3rd International symposium on multidisciplinary studies and innovative technologies (ISMSIT)",
+        "author": "Serte",
+        "year": "2019"
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "2033",
+        "DOI": "10.3934/mbe.2021106",
+        "article-title": "Detection of glaucoma using retinal fundus images: A comprehen-sive review",
+        "volume": "18",
+        "author": "Shabbir",
+        "year": "2021",
+        "journal-title": "Math. Biosci. Eng."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "199",
+        "DOI": "10.1007/s11760-017-1146-z",
+        "article-title": "Inferior myocardial in-farction detection using stationary wavelet transform and machine learning approach",
+        "volume": "12",
+        "author": "Sharma",
+        "year": "2018",
+        "journal-title": "Signal, Image Video Process."
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "2363",
+        "DOI": "10.1007/s41870-021-00807-7",
+        "article-title": "Mental arithmetic task load recognition using EEG signal and bayesian optimized k-nearest neighbor",
+        "volume": "13",
+        "author": "Sharma",
+        "year": "2021",
+        "journal-title": "Int. J. Inf. Technol."
+      },
+      {
+        "key": "B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "100038",
+        "DOI": "10.1016/j.ibmed.2021.100038",
+        "article-title": "Glaucoma detection in retinal fundus im-ages using u-net and supervised machine learning algo-rithms",
+        "volume": "5",
+        "author": "Shinde",
+        "year": "2021",
+        "journal-title": "Intelligence-Based Med."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1186/s40537-020-00392-9",
+        "article-title": "Deep learn-ing applications for Covid-19",
+        "volume": "8",
+        "author": "Shorten",
+        "year": "2021",
+        "journal-title": "J. big Data"
+      },
+      {
+        "key": "B50",
+        "first-page": "53",
+        "article-title": "Drishti-gs: Retinal image dataset for optic nerve head(onh) segmentation",
+        "author": "Sivaswamy",
+        "year": "2014"
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "366",
+        "DOI": "10.1016/j.bspc.2017.10.009",
+        "article-title": "A new expert system based on fuzzy logic and image process-ing algorithms for early glaucoma diagnosis",
+        "volume": "40",
+        "author": "Soltani",
+        "year": "2018",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1090",
+        "DOI": "10.1001/archopht.1991.01080080050026",
+        "article-title": "Relationship between in-traocular pressure and primary open angle glaucoma among white and black americans: The baltimore eye survey",
+        "volume": "109",
+        "author": "Sommer",
+        "year": "1991",
+        "journal-title": "Archives Ophthalmol."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "4916",
+        "DOI": "10.3390/app10144916",
+        "article-title": "Deep learning for optic disc segmentation and glaucoma diag-nosis on retinal images",
+        "volume": "10",
+        "author": "Sreng",
+        "year": "2020",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0252339",
+        "DOI": "10.1371/journal.pone.0252339",
+        "article-title": "Glau-coma classification based on scanning laser ophthalmo-scopic images using a deep learning ensemble method",
+        "volume": "16",
+        "author": "Sułot",
+        "year": "2021",
+        "journal-title": "Plos one"
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: A systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "819",
+        "DOI": "10.1016/j.bbe.2021.05.011",
+        "article-title": "Automated segmen-tation of optic disc and optic cup for glaucoma assess-ment using improved unet++ architecture",
+        "volume": "41",
+        "author": "Tulsani",
+        "year": "2021",
+        "journal-title": "Biocyber- netics Biomed. Eng."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "104951",
+        "DOI": "10.1016/j.compbiomed.2021.104951",
+        "article-title": "Segmentation technique and dynamic ensemble selection to enhance glaucoma severity detection",
+        "volume": "139",
+        "author": "Zulfira",
+        "year": "2021",
+        "journal-title": "Comput. Biol. Med."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Physiology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fphys.2023.1175881/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2023-06-13T00:16:37Z",
+      "timestamp": 1686615397000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fphys.2023.1175881/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          13
+        ]
+      ]
+    },
+    "references-count": 57,
+    "alternative-id": [
+      "10.3389/fphys.2023.1175881"
+    ],
+    "URL": "https://doi.org/10.3389/fphys.2023.1175881",
+    "relation": {},
+    "ISSN": [
+      "1664-042X"
+    ],
+    "issn-type": [
+      {
+        "value": "1664-042X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          13
+        ]
+      ]
+    },
+    "article-number": "1175881"
+  }
+}

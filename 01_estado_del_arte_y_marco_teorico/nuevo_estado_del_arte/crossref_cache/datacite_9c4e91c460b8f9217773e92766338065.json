@@ -1,0 +1,215 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2602.10315",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2602.10315",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2602.10315",
+      "identifiers": [
+        {
+          "identifier": "2602.10315",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2602.10315"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Bellaj, Ali El",
+          "nameType": "Personal",
+          "givenName": "Ali El",
+          "familyName": "Bellaj",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Benradi, Aya",
+          "nameType": "Personal",
+          "givenName": "Aya",
+          "familyName": "Benradi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Youssoufi, Salman El",
+          "nameType": "Personal",
+          "givenName": "Salman El",
+          "familyName": "Youssoufi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Marzouki, Taha El",
+          "nameType": "Personal",
+          "givenName": "Taha El",
+          "familyName": "Marzouki",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Cheddadi, Mohammed-Amine",
+          "nameType": "Personal",
+          "givenName": "Mohammed-Amine",
+          "familyName": "Cheddadi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Uncertainty-Aware Ordinal Deep Learning for cross-Dataset Diabetic Retinopathy Grading"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Image and Video Processing (eess.IV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-02-10T21:44:04Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-02-12T01:08:56Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-02",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "arXiv.org perpetual, non-exclusive license",
+          "rightsUri": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Diabetes mellitus is a chronic metabolic disorder characterized by persistent hyperglycemia due to insufficient insulin production or impaired insulin utilization. One of its most severe complications is diabetic retinopathy (DR), a progressive retinal disease caused by microvascular damage, leading to hemorrhages, exudates, and potential vision loss. Early and reliable detection of DR is therefore critical for preventing irreversible blindness.\n In this work, we propose an uncertainty-aware deep learning framework for automated DR severity grading that explicitly models the ordinal nature of disease progression. Our approach combines a convolutional backbone with lesion-query attention pooling and an evidential Dirichlet-based ordinal regression head, enabling both accurate severity prediction and principled estimation of predictive uncertainty. The model is trained using an ordinal evidential loss with annealed regularization to encourage calibrated confidence under domain shift.\n We evaluate the proposed method on a multi-domain training setup combining APTOS, Messidor-2, and a subset of EyePACS fundus datasets. Experimental results demonstrate strong cross-dataset generalization, achieving competitive classification accuracy and high quadratic weighted kappa on held-out test sets, while providing meaningful uncertainty estimates for low-confidence cases. These results suggest that ordinal evidential learning is a promising direction for robust and clinically reliable diabetic retinopathy grading.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNjAyLjEwMzE1PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjYwMi4xMDMxNTwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5CZWxsYWosIEFsaSBFbDwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+QWxpIEVsPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkJlbGxhajwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5CZW5yYWRpLCBBeWE8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkF5YTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5CZW5yYWRpPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPllvdXNzb3VmaSwgU2FsbWFuIEVsPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5TYWxtYW4gRWw8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+WW91c3NvdWZpPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPk1hcnpvdWtpLCBUYWhhIEVsPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5UYWhhIEVsPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPk1hcnpvdWtpPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkNoZWRkYWRpLCBNb2hhbW1lZC1BbWluZTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TW9oYW1tZWQtQW1pbmU8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2hlZGRhZGk8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPlVuY2VydGFpbnR5LUF3YXJlIE9yZGluYWwgRGVlcCBMZWFybmluZyBmb3IgY3Jvc3MtRGF0YXNldCBEaWFiZXRpYyBSZXRpbm9wYXRoeSBHcmFkaW5nPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPmFyWGl2PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI2PC9wdWJsaWNhdGlvblllYXI+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+SW1hZ2UgYW5kIFZpZGVvIFByb2Nlc3NpbmcgKGVlc3MuSVYpPC9zdWJqZWN0PgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+Q29tcHV0ZXIgVmlzaW9uIGFuZCBQYXR0ZXJuIFJlY29nbml0aW9uIChjcy5DVik8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGaWVsZHMgb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSAoRk9TKSI+Rk9TOiBFbGVjdHJpY2FsIGVuZ2luZWVyaW5nLCBlbGVjdHJvbmljIGVuZ2luZWVyaW5nLCBpbmZvcm1hdGlvbiBlbmdpbmVlcmluZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMDItMTBUMjE6NDQ6MDRaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMDItMTJUMDE6MDg6NTZaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNi0wMjwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9hcnhpdi5vcmcvbGljZW5zZXMvbm9uZXhjbHVzaXZlLWRpc3RyaWIvMS4wLyI+YXJYaXYub3JnIHBlcnBldHVhbCwgbm9uLWV4Y2x1c2l2ZSBsaWNlbnNlPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+RGlhYmV0ZXMgbWVsbGl0dXMgaXMgYSBjaHJvbmljIG1ldGFib2xpYyBkaXNvcmRlciBjaGFyYWN0ZXJpemVkIGJ5IHBlcnNpc3RlbnQgaHlwZXJnbHljZW1pYSBkdWUgdG8gaW5zdWZmaWNpZW50IGluc3VsaW4gcHJvZHVjdGlvbiBvciBpbXBhaXJlZCBpbnN1bGluIHV0aWxpemF0aW9uLiBPbmUgb2YgaXRzIG1vc3Qgc2V2ZXJlIGNvbXBsaWNhdGlvbnMgaXMgZGlhYmV0aWMgcmV0aW5vcGF0aHkgKERSKSwgYSBwcm9ncmVzc2l2ZSByZXRpbmFsIGRpc2Vhc2UgY2F1c2VkIGJ5IG1pY3JvdmFzY3VsYXIgZGFtYWdlLCBsZWFkaW5nIHRvIGhlbW9ycmhhZ2VzLCBleHVkYXRlcywgYW5kIHBvdGVudGlhbCB2aXNpb24gbG9zcy4gRWFybHkgYW5kIHJlbGlhYmxlIGRldGVjdGlvbiBvZiBEUiBpcyB0aGVyZWZvcmUgY3JpdGljYWwgZm9yIHByZXZlbnRpbmcgaXJyZXZlcnNpYmxlIGJsaW5kbmVzcy4KICBJbiB0aGlzIHdvcmssIHdlIHByb3Bvc2UgYW4gdW5jZXJ0YWludHktYXdhcmUgZGVlcCBsZWFybmluZyBmcmFtZXdvcmsgZm9yIGF1dG9tYXRlZCBEUiBzZXZlcml0eSBncmFkaW5nIHRoYXQgZXhwbGljaXRseSBtb2RlbHMgdGhlIG9yZGluYWwgbmF0dXJlIG9mIGRpc2Vhc2UgcHJvZ3Jlc3Npb24uIE91ciBhcHByb2FjaCBjb21iaW5lcyBhIGNvbnZvbHV0aW9uYWwgYmFja2JvbmUgd2l0aCBsZXNpb24tcXVlcnkgYXR0ZW50aW9uIHBvb2xpbmcgYW5kIGFuIGV2aWRlbnRpYWwgRGlyaWNobGV0LWJhc2VkIG9yZGluYWwgcmVncmVzc2lvbiBoZWFkLCBlbmFibGluZyBib3RoIGFjY3VyYXRlIHNldmVyaXR5IHByZWRpY3Rpb24gYW5kIHByaW5jaXBsZWQgZXN0aW1hdGlvbiBvZiBwcmVkaWN0aXZlIHVuY2VydGFpbnR5LiBUaGUgbW9kZWwgaXMgdHJhaW5lZCB1c2luZyBhbiBvcmRpbmFsIGV2aWRlbnRpYWwgbG9zcyB3aXRoIGFubmVhbGVkIHJlZ3VsYXJpemF0aW9uIHRvIGVuY291cmFnZSBjYWxpYnJhdGVkIGNvbmZpZGVuY2UgdW5kZXIgZG9tYWluIHNoaWZ0LgogIFdlIGV2YWx1YXRlIHRoZSBwcm9wb3NlZCBtZXRob2Qgb24gYSBtdWx0aS1kb21haW4gdHJhaW5pbmcgc2V0dXAgY29tYmluaW5nIEFQVE9TLCBNZXNzaWRvci0yLCBhbmQgYSBzdWJzZXQgb2YgRXllUEFDUyBmdW5kdXMgZGF0YXNldHMuIEV4cGVyaW1lbnRhbCByZXN1bHRzIGRlbW9uc3RyYXRlIHN0cm9uZyBjcm9zcy1kYXRhc2V0IGdlbmVyYWxpemF0aW9uLCBhY2hpZXZpbmcgY29tcGV0aXRpdmUgY2xhc3NpZmljYXRpb24gYWNjdXJhY3kgYW5kIGhpZ2ggcXVhZHJhdGljIHdlaWdodGVkIGthcHBhIG9uIGhlbGQtb3V0IHRlc3Qgc2V0cywgd2hpbGUgcHJvdmlkaW5nIG1lYW5pbmdmdWwgdW5jZXJ0YWludHkgZXN0aW1hdGVzIGZvciBsb3ctY29uZmlkZW5jZSBjYXNlcy4gVGhlc2UgcmVzdWx0cyBzdWdnZXN0IHRoYXQgb3JkaW5hbCBldmlkZW50aWFsIGxlYXJuaW5nIGlzIGEgcHJvbWlzaW5nIGRpcmVjdGlvbiBmb3Igcm9idXN0IGFuZCBjbGluaWNhbGx5IHJlbGlhYmxlIGRpYWJldGljIHJldGlub3BhdGh5IGdyYWRpbmcuPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+      "url": "https://arxiv.org/abs/2602.10315",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-02-12T02:51:31.000Z",
+      "registered": "2026-02-12T02:51:31.000Z",
+      "published": "2026",
+      "updated": "2026-02-12T02:51:31.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2602.10315",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

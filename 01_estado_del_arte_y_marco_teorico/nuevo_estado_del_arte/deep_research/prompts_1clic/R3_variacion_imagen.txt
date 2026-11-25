@@ -1,0 +1,27 @@
+CONTEXTO DEL PROYECTO
+Somos un equipo de estudiantes de Deep Learning (Universidad Nacional de Colombia, Medellín) escribiendo un artículo en formato de la revista DYNA titulado "Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías". Entrenamos ConvNeXt-Tiny (preentrenado en ImageNet) en el dataset Moondream Staged (Hugging Face, 3 estadios: normal, temprano, avanzado) y lo probamos sin reentrenar en ACRIMA, RIM-ONE DL y EyePACS (glaucoma binario). Comparamos cabeza binaria frente a cabeza de 3 clases proyectada a binaria, y un aumento de datos agresivo de escala y fotometría. El umbral se fija en validación interna (especificidad ≥ 0,95) y no se reajusta en las bases externas. Observamos que el AUROC cae moderadamente fuera de dominio, pero la sensibilidad colapsa en EyePACS (recortes papilares frente a campo amplio con fondo negro).
+
+Nuestra tesis para el estado del arte: la literatura demuestra discriminación alta dentro de una base, pero rara vez separa tres fuentes de variación cuando el modelo cambia de fuente: (1) variación de la imagen (cámara, campo de visión, encuadre, color, calidad), (2) variación de la etiqueta (qué cuenta como glaucoma, sospechoso, referible o estadio, y con qué estándar de referencia) y (3) cambio del punto de decisión (umbral y calibración transportados entre dominios).
+
+REGLAS PARA TU RESPUESTA
+- Prioriza artículos revisados por pares de 2016 a 2026. Incluye preprints solo si no hay versión publicada y márcalos como preprint.
+- No inventes cifras, DOI, autores, años ni nombres de revista. Si no pudiste ver el dato en la fuente, escribe "no reportado" o "no verificado". No estimes valores a partir de figuras salvo que lo indiques.
+- Para cada cifra, indica dónde aparece (tabla, figura, sección o resumen) y si la tomaste del texto completo o solo del resumen.
+- Distingue siempre validación interna (partición aleatoria de la misma base), validación entre bases (otra base pública), leave-one-domain-out y validación externa en un centro independiente.
+- Busca en inglés. Responde en español, conservando en inglés los títulos de los artículos y los términos técnicos estándar.
+- Al final incluye una sección "Afirmaciones dudosas o contradictorias" con lo que no pudiste confirmar o donde las fuentes no coinciden.
+- Incluye siempre el DOI exacto en formato canónico (10.xxxx/...) en la columna correspondiente; si el trabajo no tiene DOI o no pudiste comprobarlo, escribe "sin DOI verificado".
+
+PREGUNTA
+¿Qué evidencia hay de que factores concretos de adquisición (fabricante y modelo de cámara, campo de visión, encuadre o recorte, resolución, color e iluminación, calidad de imagen, retinógrafos portátiles o de smartphone) causan la caída de desempeño de clasificadores de glaucoma o de enfermedades retinianas, y qué estudios aíslan cada factor con comparaciones controladas?
+
+QUÉ BUSCAR
+- Estudios que comparan el mismo modelo en imágenes de distintas cámaras del mismo paciente o de la misma población.
+- Experimentos de ablación o perturbación controlada (recortar, cambiar escala, alterar color, degradar calidad) y su efecto en glaucoma o, si no hay, en retinopatía diabética.
+- Trabajos sobre evaluación de calidad de imagen y rechazo de imágenes no gradables (AIROGS y otros).
+- Evidencia de "shortcut learning" en retinografías: modelos que aprenden la fuente, el borde negro, texto incrustado o el color de la cámara en lugar de signos clínicos.
+
+ENTREGA
+1. Una tabla: autor y año | DOI | factor estudiado | diseño (controlado, observacional entre bases o perturbación sintética) | enfermedad | magnitud del efecto con su métrica | ubicación de la cifra.
+2. Una síntesis que separe lo que está demostrado con comparaciones controladas de lo que solo se infiere de comparaciones entre bases donde cambian muchas cosas a la vez.
+3. La sección de afirmaciones dudosas.

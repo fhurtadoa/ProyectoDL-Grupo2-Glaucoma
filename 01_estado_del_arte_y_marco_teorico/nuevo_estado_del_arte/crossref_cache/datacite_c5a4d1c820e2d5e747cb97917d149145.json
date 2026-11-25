@@ -1,0 +1,127 @@
+{
+  "data": {
+    "id": "10.21227/7d23-j419",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.21227/7d23-j419",
+      "prefix": "10.21227",
+      "suffix": "7d23-j419",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Huihui Fang",
+          "nameType": "Personal",
+          "givenName": "Huihui",
+          "familyName": "Fang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "\"REFUGE2 Challenge: A Treasure Trove for Multi-Dimension Analysis and Evaluation in Glaucoma Screening\""
+        }
+      ],
+      "publisher": "IEEE DataPort",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [],
+      "contributors": [],
+      "dates": [],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "\"With the rapid development of artificial intelligence (AI) in medical image processing, deep learning in color fundus photography (CFP) analysis is also evolving. Although there are some open-source, labeled datasets of CFPs in the ophthalmology community, large-scale datasets for screening only have labels of disease categories, and datasets with annotations of fundus structures are usually small in size. In addition, labeling standards are not uniform across datasets, and there is no clear information on the acquisition device. Here, we release a multi-annotation, multi-quality, and multi-device color fundus image dataset for glaucoma analysis on an original challenge -- Retinal Fundus Glaucoma Challenge 2nd Edition (REFUGE2). The REFUGE2 dataset contains 2000 color fundus images with annotations of glaucoma classification, optic disc\\/cup segmentation, as well as fovea localization. Meanwhile, the REFUGE2 challenge sets three sub-tasks of automatic glaucoma diagnosis and fundus structure analysis and provides an online evaluation framework. Based on the characteristics of multi-device and multi-quality data, some methods with strong generalizations are provided in the challenge to make the predictions more robust. This shows that REFUGE2 brings attention to the characteristics of real-world multi-domain data, bridging the gap between scientific research and clinical application.\"",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMjEyMjcvN0QyMy1KNDE5PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5GYW5nLCBIdWlodWk8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkh1aWh1aTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5GYW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT4iUkVGVUdFMiBDaGFsbGVuZ2U6IEEgVHJlYXN1cmUgVHJvdmUgZm9yIE11bHRpLURpbWVuc2lvbiBBbmFseXNpcyBhbmQgRXZhbHVhdGlvbiBpbiBHbGF1Y29tYSBTY3JlZW5pbmciPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPklFRUUgRGF0YVBvcnQ8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjY8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPkRhdGFzZXQ8L3Jlc291cmNlVHlwZT4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC9sZWdhbGNvZGUiIHJpZ2h0c0lkZW50aWZpZXI9ImNjLWJ5LTQuMCIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgc2NoZW1lVVJJPSJodHRwczovL3NwZHgub3JnL2xpY2Vuc2VzLyI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPiJXaXRoIHRoZSByYXBpZCBkZXZlbG9wbWVudCBvZiBhcnRpZmljaWFsIGludGVsbGlnZW5jZSAoQUkpIGluIG1lZGljYWwgaW1hZ2UgcHJvY2Vzc2luZywgZGVlcCBsZWFybmluZyBpbiBjb2xvciBmdW5kdXMgcGhvdG9ncmFwaHkgKENGUCkgYW5hbHlzaXMgaXMgYWxzbyBldm9sdmluZy4gQWx0aG91Z2ggdGhlcmUgYXJlIHNvbWUgb3Blbi1zb3VyY2UsIGxhYmVsZWQgZGF0YXNldHMgb2YgQ0ZQcyBpbiB0aGUgb3BodGhhbG1vbG9neSBjb21tdW5pdHksIGxhcmdlLXNjYWxlIGRhdGFzZXRzIGZvciBzY3JlZW5pbmcgb25seSBoYXZlIGxhYmVscyBvZiBkaXNlYXNlIGNhdGVnb3JpZXMsIGFuZCBkYXRhc2V0cyB3aXRoIGFubm90YXRpb25zIG9mIGZ1bmR1cyBzdHJ1Y3R1cmVzIGFyZSB1c3VhbGx5IHNtYWxsIGluIHNpemUuIEluIGFkZGl0aW9uLCBsYWJlbGluZyBzdGFuZGFyZHMgYXJlIG5vdCB1bmlmb3JtIGFjcm9zcyBkYXRhc2V0cywgYW5kIHRoZXJlIGlzIG5vIGNsZWFyIGluZm9ybWF0aW9uIG9uIHRoZSBhY3F1aXNpdGlvbiBkZXZpY2UuIEhlcmUsIHdlIHJlbGVhc2UgYSBtdWx0aS1hbm5vdGF0aW9uLCBtdWx0aS1xdWFsaXR5LCBhbmQgbXVsdGktZGV2aWNlIGNvbG9yIGZ1bmR1cyBpbWFnZSBkYXRhc2V0IGZvciBnbGF1Y29tYSBhbmFseXNpcyBvbiBhbiBvcmlnaW5hbCBjaGFsbGVuZ2UgLS0gUmV0aW5hbCBGdW5kdXMgR2xhdWNvbWEgQ2hhbGxlbmdlIDJuZCBFZGl0aW9uIChSRUZVR0UyKS4gVGhlIFJFRlVHRTIgZGF0YXNldCBjb250YWlucyAyMDAwIGNvbG9yIGZ1bmR1cyBpbWFnZXMgd2l0aCBhbm5vdGF0aW9ucyBvZiBnbGF1Y29tYSBjbGFzc2lmaWNhdGlvbiwgb3B0aWMgZGlzY1wvY3VwIHNlZ21lbnRhdGlvbiwgYXMgd2VsbCBhcyBmb3ZlYSBsb2NhbGl6YXRpb24uIE1lYW53aGlsZSwgdGhlIFJFRlVHRTIgY2hhbGxlbmdlIHNldHMgdGhyZWUgc3ViLXRhc2tzIG9mIGF1dG9tYXRpYyBnbGF1Y29tYSBkaWFnbm9zaXMgYW5kIGZ1bmR1cyBzdHJ1Y3R1cmUgYW5hbHlzaXMgYW5kIHByb3ZpZGVzIGFuIG9ubGluZSBldmFsdWF0aW9uIGZyYW1ld29yay4gQmFzZWQgb24gdGhlIGNoYXJhY3RlcmlzdGljcyBvZiBtdWx0aS1kZXZpY2UgYW5kIG11bHRpLXF1YWxpdHkgZGF0YSwgc29tZSBtZXRob2RzIHdpdGggc3Ryb25nIGdlbmVyYWxpemF0aW9ucyBhcmUgcHJvdmlkZWQgaW4gdGhlIGNoYWxsZW5nZSB0byBtYWtlIHRoZSBwcmVkaWN0aW9ucyBtb3JlIHJvYnVzdC4gVGhpcyBzaG93cyB0aGF0IFJFRlVHRTIgYnJpbmdzIGF0dGVudGlvbiB0byB0aGUgY2hhcmFjdGVyaXN0aWNzIG9mIHJlYWwtd29ybGQgbXVsdGktZG9tYWluIGRhdGEsIGJyaWRnaW5nIHRoZSBnYXAgYmV0d2VlbiBzY2llbnRpZmljIHJlc2VhcmNoIGFuZCBjbGluaWNhbCBhcHBsaWNhdGlvbi4iPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "https://ieee-dataport.org/documents/refuge2-challenge-treasure-trove-multi-dimension-analysis-and-evaluation-glaucoma",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": null,
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-06-18T10:31:52.000Z",
+      "registered": "2026-06-18T10:31:53.000Z",
+      "published": "2026",
+      "updated": "2026-06-18T10:31:53.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ieee.dataport",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "ieee",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.21227/7d23-j419",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

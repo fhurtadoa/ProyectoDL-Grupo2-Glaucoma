@@ -1,0 +1,968 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T22:03:44Z",
+      "timestamp": 1791583424697,
+      "version": "4.3.4"
+    },
+    "reference-count": 60,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2022-08-18T00:00:00Z",
+          "timestamp": 1660780800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2022-08-18T00:00:00Z",
+          "timestamp": 1660780800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000096",
+        "name": "National Center on Minority Health and Health Disparities",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000096",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007414",
+        "name": "Horncrest Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007414",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "NIH Vision Core Grant"
+      },
+      {
+        "name": "Merck Research Laboratories"
+      },
+      {
+        "name": "Pfizer, Inc., White House Station, New Jersey"
+      },
+      {
+        "name": "Prevent Blindness, Inc., New York, NY"
+      },
+      {
+        "DOI": "10.13039/100000092",
+        "name": "U.S. National Library of Medicine",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "4R00LM013001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "4R00LM013001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000092",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Primary open-angle glaucoma (POAG) is a leading cause of irreversible blindness worldwide. Although deep learning methods have been proposed to diagnose POAG, it remains challenging to develop a robust and explainable algorithm to automatically facilitate the downstream diagnostic tasks. In this study, we present an automated classification algorithm, GlaucomaNet, to identify POAG using variable fundus photographs from different populations and settings. GlaucomaNet consists of two convolutional neural networks to simulate the human grading process: learning the discriminative features and fusing the features for grading. We evaluated GlaucomaNet on two datasets: Ocular Hypertension Treatment Study (OHTS) participants and the Large-scale Attention-based Glaucoma (LAG) dataset. GlaucomaNet achieved the highest AUC of 0.904 and 0.997 for POAG diagnosis on OHTS and LAG datasets. An ensemble of network architectures further improved diagnostic accuracy. By simulating the human grading process, GlaucomaNet demonstrated high accuracy with increased transparency in POAG diagnosis (comprehensiveness scores of 97% and 36%). These methods also address two well-known challenges in the field: the need for increased image data diversity and relying heavily on perimetry for POAG diagnosis. These results highlight the potential of deep learning to assist and enhance clinical POAG diagnosis. GlaucomaNet is publicly available on<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/bionlplab/GlaucomaNet\">https://github.com/bionlplab/GlaucomaNet</jats:ext-link>.</jats:p>",
+    "DOI": "10.1038/s41598-022-17753-4",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2022-08-18T14:11:17Z",
+      "timestamp": 1660831877000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 35,
+    "title": [
+      "Automated diagnosing primary open-angle glaucoma from fundus image by simulating human’s grading with deep learning"
+    ],
+    "prefix": "10.1038",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Mingquan",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bojian",
+        "family": "Hou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mae",
+        "family": "Gordon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Kass",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sarah H.",
+        "family": "Van Tassel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yifan",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "17753_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e339",
+        "DOI": "10.1016/S2214-109X(13)70113-X",
+        "volume": "1",
+        "author": "RR Bourne",
+        "year": "2013",
+        "unstructured": "Bourne, R. R. et al. Causes of vision loss worldwide, 1990–2010: a systematic analysis. Lancet Glob. Health 1, e339–e349 (2013).",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "17753_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "volume": "90",
+        "author": "HA Quigley",
+        "year": "2006",
+        "unstructured": "Quigley, H. A. & Broman, A. T. The number of people with glaucoma worldwide in 2010 and 2020. Br. J. Ophthalmol. 90, 262–267 (2006).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "17753_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1412",
+        "DOI": "10.1056/NEJM199111143252004",
+        "volume": "325",
+        "author": "A Sommer",
+        "year": "1991",
+        "unstructured": "Sommer, A. et al. Racial differences in the cause-specific prevalence of blindness in east Baltimore. N. Engl. J. Med. 325, 1412–1417 (1991).",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "17753_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1016/j.ajo.2018.01.013",
+        "volume": "188",
+        "author": "X Jiang",
+        "year": "2018",
+        "unstructured": "Jiang, X., Torres, M., Varma, R., Group, L. A. L. E. S. Variation in intraocular pressure and the risk of developing open-angle glaucoma: The Los Angeles Latino eye study. Am. J. Ophthalmol. 188, 51–59 (2018).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "17753_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "639",
+        "DOI": "10.1016/j.ophtha.2007.05.032",
+        "volume": "115",
+        "author": "V Doshi",
+        "year": "2008",
+        "unstructured": "Doshi, V., Ying-Lai, M., Azen, S. P., Varma, R., Group, L. A. L. E. S. Sociodemographic, family history, and lifestyle risk factors for open-angle glaucoma and ocular hypertension: The Los Angeles Latino Eye Study. Ophthalmology 115, 639-647.e632 (2008).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/S0161-6420(92)32018-4",
+        "volume": "99",
+        "author": "HA Quigley",
+        "year": "1992",
+        "unstructured": "Quigley, H. A., Katz, J., Derick, R. J., Gilbert, D. & Sommer, A. An evaluation of optic disc and nerve fiber layer examinations in monitoring progression of early glaucoma damage. Ophthalmology 99, 19–28 (1992).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR7",
+        "first-page": "2123",
+        "volume": "21",
+        "author": "NN Kolomeyer",
+        "year": "2021",
+        "unstructured": "Kolomeyer, N. N. et al. Lessons learned from two large community-based glaucoma screening studies. J. Glaucoma 21, 2123 (2021).",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "17753_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.1016/j.cmpb.2015.10.010",
+        "volume": "124",
+        "author": "A Singh",
+        "year": "2016",
+        "unstructured": "Singh, A., Dutta, M. K., ParthaSarathi, M., Uher, V. & Burget, R. Image processing based automatic diagnosis of glaucoma using wavelet features of segmented optic disc from fundus image. Comput. Methods Programs Biomed. 124, 108–120 (2016).",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "17753_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "449",
+        "DOI": "10.1109/TITB.2011.2119322",
+        "volume": "15",
+        "author": "UR Acharya",
+        "year": "2011",
+        "unstructured": "Acharya, U. R., Dua, S., Du, X. & Chua, C. K. Automated diagnosis of glaucoma using texture and higher order spectra features. IEEE Trans. Inf. Technol. Biomed. 15, 449–455 (2011).",
+        "journal-title": "IEEE Trans. Inf. Technol. Biomed."
+      },
+      {
+        "key": "17753_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "80",
+        "DOI": "10.1109/TITB.2011.2176540",
+        "volume": "16",
+        "author": "S Dua",
+        "year": "2011",
+        "unstructured": "Dua, S., Acharya, U. R., Chowriappa, P. & Sree, S. V. Wavelet-based energy features for glaucomatous image classification. IEEE Trans. Inf Technol. Biomed. 16, 80–87 (2011).",
+        "journal-title": "IEEE Trans. Inf Technol. Biomed."
+      },
+      {
+        "key": "17753_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "229",
+        "DOI": "10.1016/j.cmpb.2015.08.002",
+        "volume": "122",
+        "author": "A Issac",
+        "year": "2015",
+        "unstructured": "Issac, A., Sarathi, M. P. & Dutta, M. K. An adaptive threshold based image processing technique for improved glaucoma detection and classification. Comput. Methods Programs Biomed. 122, 229–244 (2015).",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "17753_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "4365",
+        "DOI": "10.1002/mp.15032",
+        "volume": "48",
+        "author": "M Lin",
+        "year": "2021",
+        "unstructured": "Lin, M. et al. Fully automated segmentation of brain tumor from multiparametric MRI using 3D context deep supervised U-Net. Med. Phys. 48, 4365 (2021).",
+        "journal-title": "Med. Phys."
+      },
+      {
+        "key": "17753_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "12935",
+        "DOI": "10.1007/s00521-020-04738-5",
+        "volume": "32",
+        "author": "Y Zhang",
+        "year": "2020",
+        "unstructured": "Zhang, Y., Li, X., Lin, M., Chiu, B. & Zhao, M. Deep-recursive residual network for image semantic segmentation. Neural Comput. Appl. 32, 12935–12947 (2020).",
+        "journal-title": "Neural Comput. Appl."
+      },
+      {
+        "key": "17753_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-020-0273-z",
+        "volume": "3",
+        "author": "Y-X Tang",
+        "year": "2020",
+        "unstructured": "Tang, Y.-X. et al. Automated abnormality classification of chest radiographs using deep convolutional neural networks. NPJ Digit. Med. 3, 1–8 (2020).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "17753_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "2904",
+        "DOI": "10.1109/TMI.2020.2980117",
+        "volume": "39",
+        "author": "Z Wang",
+        "year": "2020",
+        "unstructured": "Wang, Z., Jiang, X., Liu, J., Cheng, K.-T. & Yang, X. Multi-task siamese network for retinal artery/vein separation via deep convolution along vessel. IEEE Trans. Med. Imaging 39, 2904–2919 (2020).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "17753_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1127",
+        "DOI": "10.1109/TMI.2017.2789181",
+        "volume": "37",
+        "author": "Z Wang",
+        "year": "2018",
+        "unstructured": "Wang, Z. et al. Automated detection of clinically significant prostate cancer in mp-MRI images based on an end-to-end deep neural network. IEEE Trans. Med. Imaging 37, 1127–1139 (2018).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "6",
+        "key": "17753_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "2582",
+        "DOI": "10.1109/JBHI.2022.3146013",
+        "volume": "26",
+        "author": "M Lin",
+        "year": "2022",
+        "unstructured": "Lin, M. et al. Cascaded triplanar autoencoder m-net for fully automatic segmentation of left ventricle myocardial scar from three-dimensional late gadolinium-enhanced mr images. IEEE Journal of Biomedical and Health Informatics. 26(6), 2582–2593 (2022).",
+        "journal-title": "IEEE Journal of Biomedical and Health Informatics"
+      },
+      {
+        "key": "17753_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wanyan, T. et al. Supervised pretraining through contrastive categorical positive samplings to improve COVID-19 mortality prediction. Proceedings of the 13th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics. (2022).",
+        "DOI": "10.1145/3535508.3545541"
+      },
+      {
+        "key": "17753_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan, V. et al. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA 316, 2402–2410 (2016).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "17753_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-020-00317-z",
+        "volume": "3",
+        "author": "Y Peng",
+        "year": "2020",
+        "unstructured": "Peng, Y. et al. Predicting risk of late age-related macular degeneration using deep learning. NPJ Digit. Med. 3, 1–10 (2020).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "17753_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1674",
+        "DOI": "10.1016/j.ophtha.2020.05.036",
+        "volume": "127",
+        "author": "TD Keenan",
+        "year": "2020",
+        "unstructured": "Keenan, T. D. et al. Deep learning automated detection of reticular pseudodrusen from fundus autofluorescence images or color fundus photographs in AREDS2. Ophthalmology 127, 1674–1687 (2020).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "565",
+        "DOI": "10.1016/j.ophtha.2018.11.015",
+        "volume": "126",
+        "author": "Y Peng",
+        "year": "2019",
+        "unstructured": "Peng, Y. et al. DeepSeeNet: A deep learning model for automated classification of patient-based age-related macular degeneration severity from color fundus photographs. Ophthalmology 126, 565–575 (2019).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1533",
+        "DOI": "10.1016/j.ophtha.2019.06.005",
+        "volume": "126",
+        "author": "TD Keenan",
+        "year": "2019",
+        "unstructured": "Keenan, T. D. et al. A deep learning approach for automated detection of geographic atrophy from color fundus photographs. Ophthalmology 126, 1533–1540 (2019).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1410",
+        "DOI": "10.1016/j.ophtha.2018.02.037",
+        "volume": "125",
+        "author": "F Grassmann",
+        "year": "2018",
+        "unstructured": "Grassmann, F. et al. A deep learning algorithm for prediction of age-related eye disease study severity scale for age-related macular degeneration from color fundus photography. Ophthalmology 125, 1410–1420 (2018).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "volume": "2",
+        "author": "R Poplin",
+        "year": "2018",
+        "unstructured": "Poplin, R. et al. Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning. Nat. Biomed. Eng. 2, 158–164 (2018).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "issue": "7",
+        "key": "17753_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1002/acm2.13321",
+        "volume": "22",
+        "author": "M Lin",
+        "year": "2017",
+        "unstructured": "Lin, M, et al. Artificial intelligence in tumor subregion analysis based on medical imaging: A review. J. Appl. Clin. Med. Phys. 22(7), 10–26 (2021).",
+        "journal-title": "J. Appl. Clin. Med. Phys."
+      },
+      {
+        "key": "17753_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghahramani, G. et al. Multi-task deep learning-based survival analysis on the prognosis of late AMD using the longitudinal data in AREDS. AMIA Annual Symposium Proceedings. Vol. 2021. (American Medical Informatics Association, 2021).",
+        "DOI": "10.1101/2021.08.26.21262548"
+      },
+      {
+        "key": "17753_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X. et al. Glaucoma detection based on deep convolutional neural network. 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). 715–718 (2015).",
+        "DOI": "10.1109/EMBC.2015.7318462"
+      },
+      {
+        "key": "17753_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1016/j.ins.2018.01.051",
+        "volume": "441",
+        "author": "U Raghavendra",
+        "year": "2018",
+        "unstructured": "Raghavendra, U. et al. Deep convolution neural network for accurate diagnosis of glaucoma using digital fundus images. Inf. Sci. 441, 41–49 (2018).",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "17753_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "413",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "volume": "39",
+        "author": "L Li",
+        "year": "2019",
+        "unstructured": "Li, L. et al. A large-scale database and a CNN model for attention-based glaucoma detection. IEEE Trans. Med. Imaging 39, 413–424 (2019).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "17753_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "volume": "125",
+        "author": "Z Li",
+        "year": "2018",
+        "unstructured": "Li, Z. et al. Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs. Ophthalmology 125, 1199–1206 (2018).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "17753_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1016/j.ogla.2020.04.012",
+        "volume": "3",
+        "author": "A Thakur",
+        "year": "2020",
+        "unstructured": "Thakur, A. et al. Predicting glaucoma before onset using deep learning. Ophthalmol. Glaucoma 3, 262–268 (2020).",
+        "journal-title": "Ophthalmol. Glaucoma"
+      },
+      {
+        "key": "17753_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "volume": "8",
+        "author": "M Christopher",
+        "year": "2018",
+        "unstructured": "Christopher, M. et al. Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs. Sci. Rep. 8, 1–13 (2018).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "17753_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "volume": "37",
+        "author": "H Fu",
+        "year": "2018",
+        "unstructured": "Fu, H. et al. Disc-aware ensemble network for glaucoma screening from fundus image. IEEE Trans. Med. Imaging 37, 2493–2501 (2018).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "17753_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, A. et al. Integrating holistic and local deep features for glaucoma classification. 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). 1328–1331 (2016).",
+        "DOI": "10.1109/EMBC.2016.7590952"
+      },
+      {
+        "key": "17753_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "212",
+        "DOI": "10.1016/j.media.2017.08.006",
+        "volume": "42",
+        "author": "X Yang",
+        "year": "2017",
+        "unstructured": "Yang, X. et al. Co-trained convolutional neural networks for automated detection of prostate cancer in multi-parametric MRI. Med. Image Anal. 42, 212–227 (2017).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "17753_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-020-00372-6",
+        "volume": "4",
+        "author": "Y Zoabi",
+        "year": "2021",
+        "unstructured": "Zoabi, Y., Deri-Rozov, S. & Shomron, N. Machine learning-based prediction of COVID-19 diagnosis based on symptoms. npj Digit. Med. 4, 1–5 (2021).",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "17753_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "456",
+        "DOI": "10.34067/KID.0003802020",
+        "volume": "13",
+        "author": "Y Monaghan",
+        "year": "2021",
+        "unstructured": "Monaghan, C. et al. Machine Learning for Prediction of Patients on Hemodialysis with an Undetected SARS-CoV-2 Infection. Kidney360 13, 456–468 (2021).",
+        "journal-title": "Kidney360"
+      },
+      {
+        "key": "17753_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "701",
+        "DOI": "10.1001/archopht.120.6.701",
+        "volume": "120",
+        "author": "M Kass",
+        "year": "2002",
+        "unstructured": "Kass, M. et al. The ocular hypertension treatment study: A randomized trial determines that topical ocular hypotensive medication delays or prevents the onset of primary open-angle glaucoma. Arch. Ophthalmol 120, 701–713 (2002).",
+        "journal-title": "Arch. Ophthalmol"
+      },
+      {
+        "key": "17753_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, L. et al. Attention Based Glaucoma Detection: A Large-Scale Database and CNN Model. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 10571–10580 (2019).",
+        "DOI": "10.1109/CVPR.2019.01082"
+      },
+      {
+        "key": "17753_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, G. et al. Densely Connected Convolutional Networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 4700–4708 (2017).",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "17753_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K. et al. Deep Residual Learning for Image Recognition. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 770–778 (2016).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "17753_CR43",
+        "unstructured": "Ioffe, S. et al. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. International Conference on Machine Learning. 448–456 (2015)."
+      },
+      {
+        "key": "17753_CR44",
+        "unstructured": "Glorot, X. et al. Deep Sparse Rectifier Neural Networks. Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics. 315–323 (2011)."
+      },
+      {
+        "key": "17753_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "2278",
+        "DOI": "10.1109/5.726791",
+        "volume": "86",
+        "author": "Y LeCun",
+        "year": "1998",
+        "unstructured": "LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. Gradient-based learning applied to document recognition. Proc. IEEE 86, 2278–2324 (1998).",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "17753_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "4806",
+        "DOI": "10.1109/ACCESS.2019.2962617",
+        "volume": "8",
+        "author": "Y Ho",
+        "year": "2019",
+        "unstructured": "Ho, Y. & Wookey, S. The real-world-weight cross-entropy loss function: Modeling the costs of mislabeling. IEEE Access 8, 4806–4813 (2019).",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "17753_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-020-00341-z",
+        "volume": "3",
+        "author": "S-C Huang",
+        "year": "2020",
+        "unstructured": "Huang, S.-C., Pareek, A., Seyyedi, S., Banerjee, I. & Lungren, M. P. Fusion of medical imaging and electronic health records using deep learning: A systematic review and implementation guidelines. NPJ Digit. Med. 3, 1–9 (2020).",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "17753_CR48",
+        "unstructured": "Kingma, D. P. & Ba, J. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 (2014)."
+      },
+      {
+        "key": "17753_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "832",
+        "DOI": "10.1109/34.709601",
+        "volume": "20",
+        "author": "TK Ho",
+        "year": "1998",
+        "unstructured": "Ho, T. K. The random subspace method for constructing decision forests. IEEE Trans. Pattern Anal. Mach. Intell. 20, 832–844 (1998).",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "17753_CR50",
+        "first-page": "2267",
+        "volume": "31",
+        "author": "B-J Hou",
+        "year": "2020",
+        "unstructured": "Hou, B.-J. & Zhou, Z.-H. Learning with interpretable structure from gated RNN. IEEE Trans. Neural Netw. Learn. Syst. 31, 2267–2279 (2020).",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "#cr-split#-17753_CR51.1",
+        "unstructured": "Zaidan, O. et al. Using \"annotator rationales\" to improve machine learning for text categorization. Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics"
+      },
+      {
+        "key": "#cr-split#-17753_CR51.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Proceedings of the Main Conference. 260-267 (2007).",
+        "DOI": "10.1049/cp:20070379"
+      },
+      {
+        "key": "17753_CR52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, M., Chang, S., Zhang, Y. & Jaakkola, T. S. Rethinking cooperative rationalization: Introspective extraction and complement control. arXiv preprint arXiv:1910.13294 (2019).",
+        "DOI": "10.18653/v1/D19-1420"
+      },
+      {
+        "key": "17753_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeYoung, J. et al. ERASER: A benchmark to evaluate rationalized NLP models. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics arXiv:1911.03429. 4443–4458 (2019).",
+        "DOI": "10.18653/v1/2020.acl-main.408"
+      },
+      {
+        "key": "17753_CR54",
+        "unstructured": "Simonyan, K. & Zisserman, A. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556 (2014)."
+      },
+      {
+        "key": "17753_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zoph, B. et al. Learning Transferable Architectures for Scalable Image Recognition. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 8697–8710 (2018).",
+        "DOI": "10.1109/CVPR.2018.00907"
+      },
+      {
+        "key": "17753_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chollet, F. et al. Xception: Deep Learning with Depthwise Separable Convolutions. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 1251–1258 (2017).",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "17753_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sandler, M. et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 4510–4520 (2018).",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "17753_CR58",
+        "first-page": "11",
+        "volume": "9",
+        "author": "L Van der Maaten",
+        "year": "2008",
+        "unstructured": "Van der Maaten, L. & Hinton, G. Visualizing data using t-SNE. J. Mach. Learn. Res. 9, 11 (2008).",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "17753_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "383",
+        "DOI": "10.1001/jamaophthalmol.2022.0244",
+        "volume": "140",
+        "author": "R Fan",
+        "year": "2022",
+        "unstructured": "Fan, R. et al. Detecting glaucoma in the ocular hypertension study using deep learning. JAMA Ophthalmol. 140, 383–391 (2022).",
+        "journal-title": "JAMA Ophthalmol."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-022-17753-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-022-17753-4",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-022-17753-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2024-10-02T00:57:51Z",
+      "timestamp": 1727830671000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-022-17753-4"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          18
+        ]
+      ]
+    },
+    "references-count": 60,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "17753"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-022-17753-4",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "25 February 2022",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 July 2022",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "18 August 2022",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "14080"
+  }
+}

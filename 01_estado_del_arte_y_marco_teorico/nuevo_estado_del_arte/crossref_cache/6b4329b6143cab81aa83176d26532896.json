@@ -1,0 +1,372 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T16:10:00Z",
+      "timestamp": 1792858200806,
+      "version": "4.5.0"
+    },
+    "reference-count": 18,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              7
+            ]
+          ],
+          "date-time": "2024-06-07T00:00:00Z",
+          "timestamp": 1717718400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Ophthalmol."
+    ],
+    "abstract": "<jats:sec><jats:title>Overview</jats:title><jats:p>This study evaluates the diagnostic accuracy of a multimodal large language model (LLM), ChatGPT-4, in recognizing glaucoma using color fundus photographs (CFPs) with a benchmark dataset and without prior training or fine tuning.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>The publicly accessible Retinal Fundus Glaucoma Challenge “REFUGE” dataset was utilized for analyses. The input data consisted of the entire 400 image testing set. The task involved classifying fundus images into either ‘Likely Glaucomatous’ or ‘Likely Non-Glaucomatous’. We constructed a confusion matrix to visualize the results of predictions from ChatGPT-4, focusing on accuracy of binary classifications (glaucoma vs non-glaucoma).</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>ChatGPT-4 demonstrated an accuracy of 90% with a 95% confidence interval (CI) of 87.06%-92.94%. The sensitivity was found to be 50% (95% CI: 34.51%-65.49%), while the specificity was 94.44% (95% CI: 92.08%-96.81%). The precision was recorded at 50% (95% CI: 34.51%-65.49%), and the F1 Score was 0.50.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>ChatGPT-4 achieved relatively high diagnostic accuracy without prior fine tuning on CFPs. Considering the scarcity of data in specialized medical fields, including ophthalmology, the use of advanced AI techniques, such as LLMs, might require less data for training compared to other forms of AI with potential savings in time and financial resources. It may also pave the way for the development of innovative tools to support specialized medical care, particularly those dependent on multimodal data for diagnosis and follow-up, irrespective of resource constraints.</jats:p></jats:sec>",
+    "DOI": "10.3389/fopht.2024.1387190",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2024-06-11T10:52:28Z",
+      "timestamp": 1718103148000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "Evaluating the strengths and limitations of multimodal ChatGPT-4 in detecting glaucoma using fundus images"
+    ],
+    "prefix": "10.3389",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Saif Aldeen",
+        "family": "AlRyalat",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ayman Mohammed",
+        "family": "Musleh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Malik Y.",
+        "family": "Kahook",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gie.2020.06.040",
+        "article-title": "History of artificial intelligence in medicine",
+        "volume": "92",
+        "author": "Kaul",
+        "year": "2020",
+        "journal-title": "Gastrointest Endosc"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1016/0010-4825(78)90011-2",
+        "article-title": "Glaucoma consultation by computer",
+        "volume": "8",
+        "author": "Weiss",
+        "year": "1978",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/17469899.2021.1964956",
+        "article-title": "Machine learning in glaucoma: a bibliometric analysis comparing computer science and medical fields’ research",
+        "volume": "16",
+        "author": "AlRyalat",
+        "year": "2021",
+        "journal-title": "Expert Rev Ophthalmol"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/IJG.0000000000002015",
+        "article-title": "Diagnostic accuracy of artificial intelligence in glaucoma screening and clinical practice",
+        "volume": "31",
+        "author": "Chaurasia",
+        "year": "2022",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2022-321141",
+        "article-title": "New meaning for NLP: the trials and tribulations of natural language processing with GPT-3 in ophthalmology",
+        "volume": "106",
+        "author": "Nath",
+        "year": "2022",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1186/s42492-023-00136-5",
+        "article-title": "Translating radiology reports into plain language using ChatGPT and GPT-4 with prompt learning: results, limitations, and potential",
+        "volume": "6",
+        "author": "Lyu",
+        "year": "2023",
+        "journal-title": "Vis Comput Ind BioMed Art"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0219467823500122",
+        "article-title": "CNN with multiple inputs for automatic glaucoma assessment using fundus images",
+        "volume": "23",
+        "author": "Elmoufidi",
+        "year": "2023",
+        "journal-title": "Int J Image Graph"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "103283",
+        "DOI": "10.1016/j.advengsoft.2022.103283",
+        "article-title": "Collaboration of features optimization techniques for the effective diagnosis of glaucoma in retinal fundus images",
+        "volume": "173",
+        "author": "Singh",
+        "year": "2022",
+        "journal-title": "Adv Eng Software"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1155/2021/2921737",
+        "article-title": "A novel context aware joint segmentation and classification framework for glaucoma detection",
+        "volume": "2021",
+        "author": "Ganesh",
+        "year": "2021",
+        "journal-title": "Comput Math Methods Med"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "4916",
+        "DOI": "10.3390/app10144916",
+        "article-title": "Deep learning for optic disc segmentation and glaucoma diagnosis on retinal images",
+        "volume": "10",
+        "author": "Sreng",
+        "year": "2020",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2147/OPTH.S410905",
+        "article-title": "Artificial intelligence and glaucoma: going back to basics",
+        "volume": "17",
+        "author": "AlRyalat",
+        "year": "2023",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41562-023-01744-0",
+        "article-title": "To protect science, we must use LLMs as zero-shot translators",
+        "volume": "7",
+        "author": "Mittelstadt",
+        "year": "2023",
+        "journal-title": "Nat Hum Behav"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40123-023-00805-x",
+        "article-title": "The use of chatGPT to assist in diagnosing glaucoma based on clinical case reports",
+        "volume": "12",
+        "author": "Delsoz",
+        "year": "2023",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2023.25000",
+        "article-title": "Use of GPT-4 to analyze medical records of patients with extensive investigations and delayed diagnosis",
+        "volume": "6",
+        "author": "Shea",
+        "year": "2023",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3571730",
+        "article-title": "Survey of hallucination in natural language generation",
+        "volume": "55",
+        "author": "Ji",
+        "year": "2023",
+        "journal-title": "ACM Comput Surv"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7759/cureus.35179",
+        "article-title": "Artificial hallucinations in chatGPT: Implications in scientific writing",
+        "author": "Alkaissi",
+        "year": "2023",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2023.05.024",
+        "article-title": "Performance of generative large language models on ophthalmology board–style questions",
+        "volume": "254",
+        "author": "Cai",
+        "year": "2023",
+        "journal-title": "Am J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Ophthalmology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fopht.2024.1387190/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2024-06-11T10:52:40Z",
+      "timestamp": 1718103160000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fopht.2024.1387190/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          7
+        ]
+      ]
+    },
+    "references-count": 18,
+    "alternative-id": [
+      "10.3389/fopht.2024.1387190"
+    ],
+    "URL": "https://doi.org/10.3389/fopht.2024.1387190",
+    "relation": {},
+    "ISSN": [
+      "2674-0826"
+    ],
+    "issn-type": [
+      {
+        "value": "2674-0826",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          7
+        ]
+      ]
+    },
+    "article-number": "1387190"
+  }
+}

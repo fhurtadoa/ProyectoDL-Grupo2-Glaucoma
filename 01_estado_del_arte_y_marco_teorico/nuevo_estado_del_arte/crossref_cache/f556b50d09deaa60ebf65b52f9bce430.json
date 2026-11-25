@@ -1,0 +1,656 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T17:59:46Z",
+      "timestamp": 1795197586883,
+      "version": "4.10.3"
+    },
+    "reference-count": 51,
+    "publisher": "MDPI AG",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              11
+            ]
+          ],
+          "date-time": "2025-08-11T00:00:00Z",
+          "timestamp": 1754870400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ASI"
+    ],
+    "abstract": "<jats:p>Glaucoma is a serious eye condition that damages the optic nerve and affects the transmission of visual information to the brain. It is the second leading cause of blindness worldwide. With deep learning, CAD systems have shown promising results in diagnosing glaucoma but mostly rely on small-labeled datasets. Annotated fundus image datasets improve deep learning predictions by aiding pattern identification but require extensive curation. In contrast, unlabeled fundus images are more accessible. The proposed method employs a semi-supervised learning approach to utilize both labeled and unlabeled data effectively. It follows traditional supervised training with the generation of pseudo-labels for unlabeled data, and incorporates self-supervised techniques that eliminate the need for manual annotation. It uses a twin self-supervised learning approach to improve glaucoma diagnosis by integrating pseudo-labels from one model into another self-supervised model for effective detection. The self-supervised patch-based exemplar CNN generates pseudo-labels in the first stage. These pseudo-labeled data, combined with labeled data, train a convolutional auto-encoder classification model in the second stage to identify glaucoma features. A support vector machine classifier handles the final classification of glaucoma in the model, achieving 98% accuracy and 0.98 AUC on the internal, same-source combined fundus image datasets. Also, the model maintains reasonably good generalization to the external (fully unseen) data, achieving AUC of 0.91 on the CRFO dataset and AUC of 0.87 on the Papilla dataset. These results demonstrate the method’s effectiveness, robustness, and adaptability in addressing limited labeled fundus data and aid in improved health and lifestyle.</jats:p>",
+    "DOI": "10.3390/asi8040111",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2025-08-11T14:32:36Z",
+      "timestamp": 1754922756000
+    },
+    "page": "111",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Twin Self-Supervised Learning Framework for Glaucoma Diagnosis Using Fundus Images"
+    ],
+    "prefix": "10.3390",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7341-0049",
+        "authenticated-orcid": false,
+        "given": "Suguna",
+        "family": "Gnanaprakasam",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electronics and Communication Engineering, Amrita School of Engineering, Coimbatore, Amrita Vishwa Vidyapeetham, Coimbatore 641112, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8013-1398",
+        "authenticated-orcid": false,
+        "given": "Rolant Gini",
+        "family": "John Barnabas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electronics and Communication Engineering, Amrita School of Engineering, Coimbatore, Amrita Vishwa Vidyapeetham, Coimbatore 641112, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1001/jama.2020.21899",
+        "article-title": "Glaucoma in Adults-Screening, Diagnosis, and Management: A Review",
+        "volume": "325",
+        "author": "Stein",
+        "year": "2021",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.cmpb.2018.07.012",
+        "article-title": "Computer-Aided Diagnosis of Glaucoma Using Fundus Images: A Review",
+        "volume": "165",
+        "author": "Hagiwara",
+        "year": "2018",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "101758",
+        "DOI": "10.1016/j.artmed.2019.101758",
+        "article-title": "Ophthalmic Diagnosis Using Deep Learning with Fundus Images—A Critical Review",
+        "volume": "102",
+        "author": "Sengupta",
+        "year": "2020",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bindu, A., Thangavel, S.K., Somasundaram, K., Parthasaradhi, S., Pulgurthi, R.G., and Dhar, M.Y. (2024, January 24–28). Beyond the Black Box: Explainable AI for Glaucoma Detection and Future Improvements. Proceedings of the 2024 15th International Conference on Computing Communication and Networking Technologies, Kamand, India.",
+        "DOI": "10.1109/ICCCNT61001.2024.10725963"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajanbabu, K., Veetil, I.K., Sowmya, V., Gopalakrishnan, E.A., and Soman, K.P. (2022). Ensemble of Deep Transfer Learning Models for Parkinson’s Disease Classification. Soft Computing and Signal Processing, Springer.",
+        "DOI": "10.1007/978-981-16-1249-7_14"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1167/tvst.9.2.42",
+        "article-title": "A Review of Deep Learning for Screening, Diagnosis, and Detection of Glaucoma Progression",
+        "volume": "9",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zedan, M.J.M., Zulkifley, M.A., Ibrahim, A.A., Moubark, A.M., Kamari, N.A.M., and Abdani, S.R. (2023). Automated Glaucoma Screening and Diagnosis Based on Retinal Fundus Images Using Deep Learning Approaches: A Comprehensive Review. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13132180"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "5978495",
+        "DOI": "10.1155/2021/5978495",
+        "article-title": "Unsupervised Anomaly Detection for Glaucoma Diagnosis",
+        "volume": "2021",
+        "author": "Zhou",
+        "year": "2021",
+        "journal-title": "Wirel. Commun. Mob. Comput."
+      },
+      {
+        "key": "ref_9",
+        "first-page": "1059",
+        "article-title": "A Tour of Unsupervised Deep Learning for Medical Image Analysis",
+        "volume": "17",
+        "author": "Raza",
+        "year": "2021",
+        "journal-title": "Curr. Med. Imaging"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "36522",
+        "DOI": "10.1109/ACCESS.2021.3063176",
+        "article-title": "Weighted Pseudo Labeled Data and Mutual Learning for Semi-Supervised Classification",
+        "volume": "9",
+        "author": "Mo",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "5535218",
+        "DOI": "10.1109/TGRS.2022.3195924",
+        "article-title": "Semisupervised Hyperspectral Image Classification Using a Probabilistic Pseudo-Label Generation Framework",
+        "volume": "60",
+        "author": "Seydgar",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al Ghamdi, M., Li, M., Abdel-Mottaleb, M., and Shousha, M.A. (2019, January 12–17). Semi-Supervised Transfer Learning for Convolutional Neural Networks for Glaucoma Detection. Proceedings of the ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing—Proceedings 2019, Brighton, UK.",
+        "DOI": "10.1109/ICASSP.2019.8682915"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.14358/PERS.85.11.841",
+        "article-title": "A Double-Strategy-Check Active Learning Algorithm for Hyperspectral Image Classification",
+        "volume": "85",
+        "author": "Cui",
+        "year": "2019",
+        "journal-title": "Photogramm. Eng. Remote Sens."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "212",
+        "DOI": "10.1109/TGRS.2016.2604290",
+        "article-title": "Random-Walker-Based Collaborative Learning for Hyperspectral Image Classification",
+        "volume": "55",
+        "author": "Sun",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Cao, G., Li, X., Wang, B., and Fu, P. (2019). Active Semi-Supervised Random Forest for Hyperspectral Image Classification. Remote Sens., 11.",
+        "DOI": "10.3390/rs11242974"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "126971",
+        "DOI": "10.1016/j.neucom.2023.126971",
+        "article-title": "Revisiting Pretraining for Semi-Supervised Learning in the Low-Label Regime",
+        "volume": "565",
+        "author": "Xu",
+        "year": "2024",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1346",
+        "DOI": "10.1038/s41551-022-00914-1",
+        "article-title": "Self-Supervised Learning in Medicine and Healthcare",
+        "volume": "6",
+        "author": "Krishnan",
+        "year": "2022",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "8934",
+        "DOI": "10.1109/TKDE.2022.3220219",
+        "article-title": "A Survey on Deep Semi-Supervised Learning",
+        "volume": "35",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mao, J., Yin, X., Zhang, G., Chen, B., Chang, Y., Chen, W., Yu, J., and Wang, Y. (2022). Pseudo-Labeling Generative Adversarial Networks for Medical Image Classification. Comput. Biol. Med., 147.",
+        "DOI": "10.1016/j.compbiomed.2022.105729"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1045",
+        "DOI": "10.7717/peerj-cs.1045",
+        "article-title": "Self-Supervised Learning Methods and Applications in Medical Imaging Analysis: A Survey",
+        "volume": "8",
+        "author": "Shurrab",
+        "year": "2022",
+        "journal-title": "PeerJ Comput. Sci."
+      },
+      {
+        "key": "ref_21",
+        "first-page": "42",
+        "article-title": "Gaze Fusion-Deep Neural Network Model for Glaucoma Detection",
+        "volume": "1366",
+        "author": "Krishnan",
+        "year": "2021",
+        "journal-title": "Commun. Comput. Inf. Sci."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gómez-Valverde, J.J., Antón, A., Fatti, G., Liefers, B., Herranz, A., Santos, A., Sánchez, C.I., and Ledesma-Carbayo, M.J. (2019). Automatic Glaucoma Classification Using Color Fundus Images Based on Convolutional Neural Networks and Transfer Learning. Biomed. Opt. Express, 10.",
+        "DOI": "10.1364/BOE.10.000892"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1007/978-3-030-00665-5_62",
+        "article-title": "Performance Comparison of Pre-Trained Deep Neural Networks for Automated Glaucoma Detection",
+        "volume": "Volume 30",
+        "author": "Sushil",
+        "year": "2019",
+        "journal-title": "Lecture Notes in Computational Vision and Biomechanics"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4494447",
+        "DOI": "10.1155/2021/4494447",
+        "article-title": "Digital Forensics Use Case for Glaucoma Detection Using Transfer Learning Based on Deep Convolutional Neural Networks",
+        "volume": "2021",
+        "author": "Latif",
+        "year": "2021",
+        "journal-title": "Secur. Commun. Netw."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "334",
+        "DOI": "10.1134/S1054661821020164",
+        "article-title": "Performance Assessment of EyeNet Model in Glaucoma Diagnosis",
+        "volume": "31",
+        "author": "Suguna",
+        "year": "2021",
+        "journal-title": "Pattern Recognit. Image Anal."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "807",
+        "DOI": "10.1007/s12530-022-09426-4",
+        "article-title": "Deep Learning System Applicability for Rapid Glaucoma Prediction from Fundus Images across Various Data Sets",
+        "volume": "13",
+        "author": "Singh",
+        "year": "2022",
+        "journal-title": "Evol. Syst."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shoukat, A., Akbar, S., Hassan, S.A., Iqbal, S., Mehmood, A., and Ilyas, Q.M. (2023). Automatic Diagnosis of Glaucoma from Retinal Images Using Deep Learning Approach. Diagnostics, 13.",
+        "DOI": "10.3390/diagnostics13101738"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "979",
+        "DOI": "10.1007/s11045-017-0483-y",
+        "article-title": "Semi-Supervised Superpixel Classification for Medical Images Segmentation",
+        "volume": "29",
+        "author": "Bechar",
+        "year": "2018",
+        "journal-title": "Multidimens. Syst. Signal Process"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pal, A., Moorthy, M.R., and Shahina, A. (2018, January 7–10). G-Eyenet: A Convolutional Autoencoding Classifier Framework for the Detection of Glaucoma from Retinal Fundus Images. Proceedings of the 2018 25th International Conference on Image Processing, ICIP, Athens, Greece.",
+        "DOI": "10.1109/ICIP.2018.8451029"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1007/s10916-019-1427-x",
+        "article-title": "A Two Layer Sparse Autoencoder for Glaucoma Identification with Fundus Images",
+        "volume": "43",
+        "author": "Raghavendra",
+        "year": "2019",
+        "journal-title": "J. Med. Syst."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1109/TMI.2019.2903434",
+        "article-title": "Retinal Image Synthesis and Semi-Supervised Learning for Glaucoma Assessment",
+        "volume": "38",
+        "author": "Colomer",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "23894",
+        "DOI": "10.1109/ACCESS.2021.3056641",
+        "article-title": "A Comparative Study of Deep Learning Models for Diagnosing Glaucoma from Fundus Images",
+        "volume": "9",
+        "author": "Alghamdi",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "3764",
+        "DOI": "10.1109/TMI.2023.3307689",
+        "article-title": "One-Vote Veto: Semi-Supervised Learning for Low-Shot Glaucoma Diagnosis",
+        "volume": "42",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camara, J., Rezende, R., Pires, I.M., and Cunha, A. (2022). Retinal Glaucoma Public Datasets: What Do We Have and What Is Missing?. J. Clin. Med., 11.",
+        "DOI": "10.3390/jcm11133850"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy, J., Krishnadas, S.R., Joshi, G.D., Ujjwal, M.J., and Tabish, S. (May, January 29). Drishti-GS: Retinal Image Dataset for Optic Nerve Head(ONH) Segmentation. Proceedings of the 2014 IEEE 11th International Symposium on Biomedical Imaging, ISBI 2014, Beijing, China.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "Zhang, Z., Yin, F.S., Liu, J., Wong, W.K., Tan, N.M., Lee, B.H., Cheng, J., and Wong, T.Y. (September, January 31). ORIGA-Light: An Online Retinal Fundus Image Database for Glaucoma Analysis and Research. Proceedings of the 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology 2010, Buenos Aires, Argentina."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Budai, A., Bock, R., Maier, A., Hornegger, J., and Michelson, G. (2013). Robust Vessel Segmentation in Fundus Images. Int. J. Biomed. Imaging, 2013.",
+        "DOI": "10.1155/2013/154860"
+      },
+      {
+        "key": "ref_38",
+        "first-page": "542",
+        "article-title": "AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge",
+        "volume": "43",
+        "author": "Vermeer",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1038/s41597-022-01564-3",
+        "article-title": "FIVES: A Fundus Image Dataset for Artificial Intelligence Based Vessel Segmentation",
+        "volume": "9",
+        "author": "Jin",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "286",
+        "DOI": "10.1038/s41597-023-02188-x",
+        "article-title": "MSHF: A Multi-Source Heterogeneous Fundus (MSHF) Dataset for Image Quality Assessment",
+        "volume": "10",
+        "author": "Jin",
+        "year": "2023",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_41",
+        "first-page": "65",
+        "article-title": "Towards a Glaucoma Risk Index Based on Simulated Hemodynamics from Fundus Images",
+        "volume": "Volume 11071",
+        "author": "Orlando",
+        "year": "2018",
+        "journal-title": "Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bajwa, M.N., Singh, G.A.P., Neumeier, W., Malik, M.I., Dengel, A., and Ahmed, S. (2020, January 19–24). G1020: A Benchmark Retinal Fundus Image Dataset for Computer-Aided Glaucoma Detection. Proceedings of the International Joint Conference on Neural Networks 2020, Glasgow, UK.",
+        "DOI": "10.1109/IJCNN48605.2020.9207664"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hassan, T., Akram, M.U., and Nazir, M.N. (2022, January 24–26). A Composite Retinal Fundus and OCT Dataset with Detailed Clinical Markings of Retinal Layers and Retinal Lesions to Grade Macular and Glaucomatous Disorders. Proceedings of the 2022 2nd International Conference on Digital Futures and Transformative Technologies (ICoDT2), Rawalpindi, Pakistan.",
+        "DOI": "10.1109/ICoDT255437.2022.9787482"
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "750",
+        "DOI": "10.1109/TBDATA.2017.2717439",
+        "article-title": "Deep Feature Learning for Medical Image Analysis with Convolutional Autoencoder Neural Network",
+        "volume": "7",
+        "author": "Chen",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Big Data"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Keerthana, D., Venugopal, V., Nath, M.K., and Mishra, M. (2023). Hybrid Convolutional Neural Networks with SVM Classifier for Classification of Skin Cancer. Biomed. Eng. Adv., 5.",
+        "DOI": "10.1016/j.bea.2022.100069"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.jelekin.2018.07.005",
+        "article-title": "A CNN-SVM combined model for pattern recognition of knee motion using mechanomyography signals",
+        "volume": "42",
+        "author": "Wu",
+        "year": "2018",
+        "journal-title": "J. Electromyogr. Kinesiol."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1734",
+        "DOI": "10.1109/TPAMI.2015.2496141",
+        "article-title": "Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks",
+        "volume": "38",
+        "author": "Dosovitskiy",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1109/MCI.2018.2866730",
+        "article-title": "Cross-validation for imbalanced datasets: Avoiding overoptimistic and overfitting approaches [Research Frontier]",
+        "volume": "13",
+        "author": "Santos",
+        "year": "2018",
+        "journal-title": "IEEE Comput. Intell. Mag."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1038/s41597-022-01388-1",
+        "article-title": "PAPILA: Dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment",
+        "volume": "9",
+        "author": "Kovalyk",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Remyes, D., Nasef, D., Remyes, S., Tawfellos, J., Sher, M., Nasef, D., and Toma, M. (2025). Clinical Applicability and Cross-Dataset Validation of Machine Learning Models for Binary Glaucoma Detection. Information, 16.",
+        "DOI": "10.3390/info16060432"
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "Chowdhury, R.P., and Karkera, N.S. (2025). Early Glaucoma Detection using Deep Learning with Multiple Datasets of Fundus Images. arXiv."
+      }
+    ],
+    "container-title": [
+      "Applied System Innovation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2571-5577/8/4/111/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T18:25:00Z",
+      "timestamp": 1760034300000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2571-5577/8/4/111"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          11
+        ]
+      ]
+    },
+    "references-count": 51,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "asi8040111"
+    ],
+    "URL": "https://doi.org/10.3390/asi8040111",
+    "relation": {},
+    "ISSN": [
+      "2571-5577"
+    ],
+    "issn-type": [
+      {
+        "value": "2571-5577",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          11
+        ]
+      ]
+    }
+  }
+}

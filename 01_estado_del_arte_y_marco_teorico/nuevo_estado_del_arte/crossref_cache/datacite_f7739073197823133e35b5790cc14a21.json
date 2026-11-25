@@ -1,0 +1,216 @@
+{
+  "data": {
+    "id": "10.13026/mysn-8b26",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.13026/mysn-8b26",
+      "prefix": "10.13026",
+      "suffix": "mysn-8b26",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Nakayama, Luis Filipe",
+          "givenName": "Luis Filipe",
+          "familyName": "Nakayama",
+          "affiliation": [
+            "São Paulo Federal University - UNIFESP, São Paulo, Brazil",
+            "Massachusetts Institute of Technology, Cambridge, USA"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org/",
+              "nameIdentifier": "https://orcid.org/0000-0002-6847-6748",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Goncalves, Mariana",
+          "givenName": "Mariana",
+          "familyName": "Goncalves",
+          "affiliation": [
+            "São Paulo Federal University - UNIFESP, São Paulo, Brazil",
+            "Moorfields Eye Hospital, London, UK"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Zago Ribeiro, Lucas",
+          "givenName": "Lucas",
+          "familyName": "Zago Ribeiro",
+          "affiliation": [
+            "São Paulo Federal University - UNIFESP, São Paulo, Brazil"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Santos, Helen",
+          "givenName": "Helen",
+          "familyName": "Santos",
+          "affiliation": [
+            "São Paulo Federal University - UNIFESP, São Paulo, Brazil"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Ferraz, Daniel",
+          "givenName": "Daniel",
+          "familyName": "Ferraz",
+          "affiliation": [
+            "Universidade Federal de Sao Paulo, Brazil. University College London, UK. Instituto D'Or de Pesquisa e Ensino. Brazil"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Malerbi, Fernando",
+          "givenName": "Fernando",
+          "familyName": "Malerbi",
+          "affiliation": [
+            "São Paulo Federal University - UNIFESP, São Paulo, Brazil"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Celi, Leo Anthony",
+          "givenName": "Leo Anthony",
+          "familyName": "Celi",
+          "affiliation": [
+            "Massachusetts Institute of Technology, Cambridge, USA"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Regatieri, Caio",
+          "givenName": "Caio",
+          "familyName": "Regatieri",
+          "affiliation": [
+            "Federal University of São Paulo"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "A Brazilian Multilabel Ophthalmological Dataset (BRSET)"
+        }
+      ],
+      "publisher": "PhysioNet",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [],
+      "contributors": [],
+      "dates": [],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.13026/z9zv-g542",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "relationType": "IsDerivedFrom",
+          "relatedIdentifier": "10.13026/qxpd-1y65",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1.0.2",
+      "rightsList": [],
+      "descriptions": [
+        {
+          "description": "The Brazilian Multilabel Ophthalmological Dataset (BRSET) is a multi-labeled\nophthalmological dataset designed to improve scientific community development\nand validate machine learning models. In ophthalmology, ancillary exams\nsupport medical decisions and can be used to develop algorithms; however, the\navailability and representativeness of ophthalmological datasets are limited.\nThis dataset consists of 16,266 images from 8,524 Brazilian patients.\nDemographics, macula, optic disc, and vessels anatomical parameters, focus,\nillumination, image field, and artifacts as quality control, and multi-labels\nare included alongside color fundus retinal photos. This dataset enables\ncomputer vision models to predict demographic characteristics and multi-label\ndisease classification using retinal fundus photos.\n\n",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTMwMjYvTVlTTi04QjI2PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+TmFrYXlhbWEsIEx1aXMgRmlsaXBlPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5MdWlzIEZpbGlwZTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5OYWtheWFtYTwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwczovL29yY2lkLm9yZy8iPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMi02ODQ3LTY3NDg8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+U8OjbyBQYXVsbyBGZWRlcmFsIFVuaXZlcnNpdHkgLSBVTklGRVNQLCBTw6NvIFBhdWxvLCBCcmF6aWw8L2FmZmlsaWF0aW9uPgogICAgICA8YWZmaWxpYXRpb24+TWFzc2FjaHVzZXR0cyBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSwgQ2FtYnJpZGdlLCBVU0E8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5Hb25jYWx2ZXMsIE1hcmlhbmE8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1hcmlhbmE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+R29uY2FsdmVzPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24+U8OjbyBQYXVsbyBGZWRlcmFsIFVuaXZlcnNpdHkgLSBVTklGRVNQLCBTw6NvIFBhdWxvLCBCcmF6aWw8L2FmZmlsaWF0aW9uPgogICAgICA8YWZmaWxpYXRpb24+TW9vcmZpZWxkcyBFeWUgSG9zcGl0YWwsIExvbmRvbiwgVUs8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5aYWdvIFJpYmVpcm8sIEx1Y2FzPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5MdWNhczwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5aYWdvIFJpYmVpcm88L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5Tw6NvIFBhdWxvIEZlZGVyYWwgVW5pdmVyc2l0eSAtIFVOSUZFU1AsIFPDo28gUGF1bG8sIEJyYXppbDwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlNhbnRvcywgSGVsZW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhlbGVuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlNhbnRvczwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPlPDo28gUGF1bG8gRmVkZXJhbCBVbml2ZXJzaXR5IC0gVU5JRkVTUCwgU8OjbyBQYXVsbywgQnJhemlsPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RmVycmF6LCBEYW5pZWw8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkRhbmllbDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5GZXJyYXo8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5Vbml2ZXJzaWRhZGUgRmVkZXJhbCBkZSBTYW8gUGF1bG8sIEJyYXppbC4gVW5pdmVyc2l0eSBDb2xsZWdlIExvbmRvbiwgVUsuIEluc3RpdHV0byBEJ09yIGRlIFBlc3F1aXNhIGUgRW5zaW5vLiBCcmF6aWw8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5NYWxlcmJpLCBGZXJuYW5kbzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+RmVybmFuZG88L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TWFsZXJiaTwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPlPDo28gUGF1bG8gRmVkZXJhbCBVbml2ZXJzaXR5IC0gVU5JRkVTUCwgU8OjbyBQYXVsbywgQnJhemlsPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+Q2VsaSwgTGVvIEFudGhvbnk8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkxlbyBBbnRob255PC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkNlbGk8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5NYXNzYWNodXNldHRzIEluc3RpdHV0ZSBvZiBUZWNobm9sb2d5LCBDYW1icmlkZ2UsIFVTQTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlJlZ2F0aWVyaSwgQ2FpbzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2FpbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5SZWdhdGllcmk8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5GZWRlcmFsIFVuaXZlcnNpdHkgb2YgU8OjbyBQYXVsbzwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkEgQnJhemlsaWFuIE11bHRpbGFiZWwgT3BodGhhbG1vbG9naWNhbCBEYXRhc2V0IChCUlNFVCk8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+UGh5c2lvTmV0PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI2PC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ii8+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1ZlcnNpb25PZiI+MTAuMTMwMjYvejl6di1nNTQyPC9yZWxhdGVkSWRlbnRpZmllcj4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc0Rlcml2ZWRGcm9tIj4xMC4xMzAyNi9xeHBkLTF5NjU8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uPjEuMC4yPC92ZXJzaW9uPgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+VGhlIEJyYXppbGlhbiBNdWx0aWxhYmVsIE9waHRoYWxtb2xvZ2ljYWwgRGF0YXNldCAoQlJTRVQpIGlzIGEgbXVsdGktbGFiZWxlZApvcGh0aGFsbW9sb2dpY2FsIGRhdGFzZXQgZGVzaWduZWQgdG8gaW1wcm92ZSBzY2llbnRpZmljIGNvbW11bml0eSBkZXZlbG9wbWVudAphbmQgdmFsaWRhdGUgbWFjaGluZSBsZWFybmluZyBtb2RlbHMuIEluIG9waHRoYWxtb2xvZ3ksIGFuY2lsbGFyeSBleGFtcwpzdXBwb3J0IG1lZGljYWwgZGVjaXNpb25zIGFuZCBjYW4gYmUgdXNlZCB0byBkZXZlbG9wIGFsZ29yaXRobXM7IGhvd2V2ZXIsIHRoZQphdmFpbGFiaWxpdHkgYW5kIHJlcHJlc2VudGF0aXZlbmVzcyBvZiBvcGh0aGFsbW9sb2dpY2FsIGRhdGFzZXRzIGFyZSBsaW1pdGVkLgpUaGlzIGRhdGFzZXQgY29uc2lzdHMgb2YgMTYsMjY2IGltYWdlcyBmcm9tIDgsNTI0IEJyYXppbGlhbiBwYXRpZW50cy4KRGVtb2dyYXBoaWNzLCBtYWN1bGEsIG9wdGljIGRpc2MsIGFuZCB2ZXNzZWxzIGFuYXRvbWljYWwgcGFyYW1ldGVycywgZm9jdXMsCmlsbHVtaW5hdGlvbiwgaW1hZ2UgZmllbGQsIGFuZCBhcnRpZmFjdHMgYXMgcXVhbGl0eSBjb250cm9sLCBhbmQgbXVsdGktbGFiZWxzCmFyZSBpbmNsdWRlZCBhbG9uZ3NpZGUgY29sb3IgZnVuZHVzIHJldGluYWwgcGhvdG9zLiBUaGlzIGRhdGFzZXQgZW5hYmxlcwpjb21wdXRlciB2aXNpb24gbW9kZWxzIHRvIHByZWRpY3QgZGVtb2dyYXBoaWMgY2hhcmFjdGVyaXN0aWNzIGFuZCBtdWx0aS1sYWJlbApkaXNlYXNlIGNsYXNzaWZpY2F0aW9uIHVzaW5nIHJldGluYWwgZnVuZHVzIHBob3Rvcy4KCjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+      "url": "https://physionet.org/content/brazilian-ophthalmological/1.0.2/",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 1,
+      "citationsOverTime": [
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 1,
+      "created": "2026-07-16T00:53:45.000Z",
+      "registered": "2026-07-27T13:58:07.000Z",
+      "published": "2026",
+      "updated": "2026-07-27T13:58:07.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "mit.physio",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "mit",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.13026/mysn-8b26",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.64898/2026.10.23.26366103",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": [
+          {
+            "id": "10.13026/z9zv-g542",
+            "type": "dois"
+          }
+        ]
+      }
+    }
+  }
+}

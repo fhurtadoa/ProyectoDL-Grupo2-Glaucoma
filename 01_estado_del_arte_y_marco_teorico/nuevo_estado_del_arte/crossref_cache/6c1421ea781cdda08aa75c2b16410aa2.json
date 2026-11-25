@@ -1,0 +1,748 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T23:03:29Z",
+      "timestamp": 1793747009910,
+      "version": "4.6.1"
+    },
+    "reference-count": 88,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              7
+            ]
+          ],
+          "date-time": "2024-05-07T00:00:00Z",
+          "timestamp": 1715040000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "No. 62376173"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "No. 62376173"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ietresearch.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "IET Image Processing"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Optic disc (OD) and optic cup (OC) segmentation is an important task in ophthalmic medicine and is crucial for aiding glaucoma screening. With the development of smart healthcare and the increase of large datasets, there is an increasing number of research efforts targeting OD and OC segmentation, making it particularly important to provide a systematic review of the latest advances in the field. This paper presents a systematic review of commonly used datasets, evaluation metrics, and related research results in the field of OD and OC segmentation. The advantages and disadvantages of segmentation techniques based on traditional and deep learning methods are comparatively analysed. In addition, this study emphasizes the importance of OD and OC segmentation efforts in smart healthcare. Despite the technological advances, the lack of generalization capability is still a major obstacle limiting its clinical application. To address this issue, this study explores unsupervised domain adaptation methods to enhance the generalization performance of segmentation techniques and provide new strategies for clinical diagnosis. Finally, this paper discusses the challenges and future research directions faced by OD and OC segmentation when applied in the medical field to help readers comprehensively grasp the research dynamics in this area.</jats:p>",
+    "DOI": "10.1049/ipr2.13115",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ],
+      "date-time": "2024-05-07T23:20:30Z",
+      "timestamp": 1715124030000
+    },
+    "page": "2521-2539",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "A review of optic disc and optic cup segmentation based on fundus images"
+    ],
+    "prefix": "10.1049",
+    "volume": "18",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-5490-2415",
+        "authenticated-orcid": false,
+        "given": "Xiaoyue",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Machine Intelligence Lab, College of Computer Science Sichuan University Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guiqun",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Translational Innovation Center and Molecular Medicine Research Center West China Hospital of Sichuan University Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5358-9213",
+        "authenticated-orcid": false,
+        "given": "Yuanyuan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Machine Intelligence Lab, College of Computer Science Sichuan University Chengdu China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "265",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2021.102253"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBME.2019.2913211"
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bea.2023.100089"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s42979-021-00784-5"
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/ipr2.12744"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/ipr2.12987"
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00034-022-02190-5"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ima.22761"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JIFS-211479"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_11_11_1",
+        "first-page": "33",
+        "article-title": "Detection of glaucoma from fundus image using pre‐trained Densenet201 model",
+        "volume": "50",
+        "author": "Elangovan P.",
+        "year": "2021",
+        "journal-title": "Indian J. Radio Space Phys."
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Madhusudhan M. Malay N. Nirmala S. Samerendra D.:Image processing techniques for glaucoma detection. In:Proceedings of the First International Conference on Advances in Computing and Communications: First International Conference pp.365–373.Springer Cham(2011)",
+        "DOI": "10.1007/978-3-642-22720-2_38"
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ima.22017"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2015.08.002"
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmedinf.2017.11.015"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104951"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang Y. Li X. vonFreyberg A. Goch G.:Automatic segmentation of the papilla in a fundus image based on the C‐V model and a shape restraint. In:18th International Conference on Pattern Recognition (ICPR'06) vol.1 pp.183–186.IEEE Piscataway NJ(2006)",
+        "DOI": "10.1109/ICPR.2006.307"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2011.2106509"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-017-0859-4"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/21655979.2016.1227144"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-ipr.2019.0845"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compmedimag.2019.101643"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compmedimag.2020.101797"
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2019.03.009"
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2016.10.026"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102004"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2013.2247770"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_11_28_1",
+        "first-page": "640",
+        "article-title": "Fully convolutional networks for semantic segmentation",
+        "volume": "39",
+        "author": "Long J.",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edupuganti V.G. Chawla A. Kale A.:Automatic optic disk and cup segmentation of fundus images using deep learning. In:2018 25th IEEE International Conference on Image Processing (ICIP) pp.2227–2231.IEEE Piscataway NJ(2018)",
+        "DOI": "10.1109/ICIP.2018.8451753"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2019.2899403"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2791488"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2838550"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compmedimag.2019.02.005"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-020-01561-2"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2021.08.102"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2021.102035"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2021.106423"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2021.107512"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2020.102001"
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2021.108347"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2837012"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/int.23051"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2019.05.039"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compeleceng.2021.107036"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41433-022-02055-w"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2022.117968"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2899910"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2020.106668"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2021.106530"
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2021.3085770"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2021.3117996"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2021.102214"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2020.3047807"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2004.825627"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2003.823261"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2008.04.005"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.12-9576"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/data3030025"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "unstructured": "Zhang Z. Yin F.S. Liu J. Wong W.K. Tan N.M. Lee B.H. Cheng J. YinWong T.:ORIGA‐light: an online retinal fundus image database for glaucoma analysis and research. In:2010 Annual International Conference of the IEEE Engineering in Medicine and Biology pp.3065–3068.IEEE Piscataway NJ(2010)"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero F. Alayon S. Sanchez J.L. Sigut J. Gonzalez‐Hernandez M.:RIM‐ONE: an open retinal image database for optic nerve evaluation. In:2011 24th International Symposium on Computer‐Based Medical Systems (CBMS) pp.1–6.IEEE Piscataway NJ(2011)",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy J. Krishnadas S.R. Datt.Joshi G. Jain M. Syed‐Tabish A.U.:Drishti‐GS: retinal image dataset for optic nerve head(ONH) segmentation. In:2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI) pp.53–56.IEEE Piscataway NJ(2014)",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.2293584"
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bajwa M.N. Singh G.A.P. Neumeier W. Malik M.I. Dengel A. Ahmed S.:G1020: a benchmark retinal fundus image dataset for computer‐aided glaucoma detection. In:2020 International Joint Conference on Neural Networks (IJCNN) pp.1–7.IEEE Piscataway NJ(2020)",
+        "DOI": "10.1109/IJCNN48605.2020.9207664"
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-022-01388-1"
+      },
+      {
+        "key": "e_1_2_11_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2020.106328"
+      },
+      {
+        "key": "e_1_2_11_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBME.2012.2187293"
+      },
+      {
+        "key": "e_1_2_11_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2017.06.004"
+      },
+      {
+        "key": "e_1_2_11_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-019-1303-8"
+      },
+      {
+        "key": "e_1_2_11_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1022627411411"
+      },
+      {
+        "key": "e_1_2_11_71_1",
+        "first-page": "747",
+        "volume-title": "Medical Image Computing and Computer‐Assisted Intervention – MICCAI 2014",
+        "author": "Chakravarty A.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_11_72_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramaswamy A. Ram K. Sivaprakasam M.:A depth based approach to glaucoma detection using retinal fundus images. In:Proceedings of the Ophthalmic Medical Image Analysis International Workshop vol.3 pp.9–16.Springer Cham(2016)",
+        "DOI": "10.17077/omia.1041"
+      },
+      {
+        "key": "e_1_2_11_73_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O. Fischer P. Brox T.:U‐Net: convolutional networks for biomedical image segmentation. In:Navab N. Hornegger J. Wells W.M. Frangi A.F. (eds.)Medical Image Computing and Computer‐Assisted Intervention – MICCAI 2015 pp.234–241.Springer Cham(2015)",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "e_1_2_11_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.107215"
+      },
+      {
+        "key": "e_1_2_11_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.107209"
+      },
+      {
+        "key": "e_1_2_11_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsp.2023.104308"
+      },
+      {
+        "key": "e_1_2_11_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13246-022-01154-y"
+      },
+      {
+        "key": "e_1_2_11_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2021.3123567"
+      },
+      {
+        "key": "e_1_2_11_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2020.105717"
+      },
+      {
+        "key": "e_1_2_11_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2644615"
+      },
+      {
+        "key": "e_1_2_11_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2018.2852635"
+      },
+      {
+        "key": "e_1_2_11_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2020.3015224"
+      },
+      {
+        "key": "e_1_2_11_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2019.103485"
+      },
+      {
+        "key": "e_1_2_11_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.107018"
+      },
+      {
+        "key": "e_1_2_11_85_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meng Y. Chen X. Zhang H. Zhao Y. Gao D. Hamill B. Patri G. Peto T. Madhusudhan S. Zheng Y.:Shape‐aware weakly/semi‐supervised optic disc and cup segmentation with regional/marginal consistency. In:International Conference on Medical Image Computing and Computer‐Assisted Intervention pp.524–534.Springer Cham(2022)",
+        "DOI": "10.1007/978-3-031-16440-8_50"
+      },
+      {
+        "key": "e_1_2_11_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2021.108074"
+      },
+      {
+        "key": "e_1_2_11_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/sym12010145"
+      },
+      {
+        "key": "e_1_2_11_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2022.102261"
+      },
+      {
+        "key": "e_1_2_11_89_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yi Z. Zhang H. Tan P. Gong M.:DualGAN: unsupervised dual learning for image‐to‐image translation. In:Proceedings of the IEEE international conference on computer vision pp.2849–2857.IEEE Piscataway NJ(2017)",
+        "DOI": "10.1109/ICCV.2017.310"
+      }
+    ],
+    "container-title": [
+      "IET Image Processing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/ipr2.13115",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2025-10-28T21:15:50Z",
+      "timestamp": 1761686150000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.13115"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "references-count": 88,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1049/ipr2.13115"
+    ],
+    "URL": "https://doi.org/10.1049/ipr2.13115",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1751-9659",
+      "1751-9667"
+    ],
+    "issn-type": [
+      {
+        "value": "1751-9659",
+        "type": "print"
+      },
+      {
+        "value": "1751-9667",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-11-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-04-14",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-05-07",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}
