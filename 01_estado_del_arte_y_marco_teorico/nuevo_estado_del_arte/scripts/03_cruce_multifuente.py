@@ -1228,11 +1228,19 @@ def main() -> None:
         ),
     )
 
+    extra_abs_path = CACHE_DIR / "abstracts_extra_cache.json"
+    extra_abs_cache = (
+        json.loads(extra_abs_path.read_text(encoding="utf-8"))
+        if extra_abs_path.exists()
+        else {}
+    )
+
     for key in sorted_keys:
         ent = origins_by_key[key]
         d = ent["doi"]
         r = ent["bd_row"]
         cr = cr_map.get(d, {})
+        extra_info = extra_abs_cache.get((d or "").lower(), {})
         via = via_prisma_of(ent)
         origen_str = origen_str_of(ent)
 
@@ -1260,7 +1268,11 @@ def main() -> None:
         venue = cr.get("revista_crossref") or (r.get("revista_o_congreso", "") if r else "")
         tipo_doc = cr.get("tipo_crossref") or (r.get("tipo_documento", "") if r else "")
         anio = cr.get("anio_crossref") or (r.get("anio", "") if r else "")
-        resumen = (r.get("resumen", "") if r else "") or cr.get("abstract_crossref", "")
+        resumen = (
+            (r.get("resumen", "") if r else "")
+            or cr.get("abstract_crossref", "")
+            or extra_info.get("abstract", "")
+        )
 
         mapped_hints: dict[str, str] = {}
         for h in hints_by_doi.get(d, []):
