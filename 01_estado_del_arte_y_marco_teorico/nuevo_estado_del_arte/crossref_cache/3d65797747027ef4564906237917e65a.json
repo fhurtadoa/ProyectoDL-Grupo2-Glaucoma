@@ -1,0 +1,653 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T08:42:49Z",
+      "timestamp": 1795509769491,
+      "version": "4.11.0"
+    },
+    "reference-count": 37,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2016-06-01T00:00:00Z",
+          "timestamp": 1464739200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.jp",
+        "clinicalkey.com",
+        "jclinepi.com",
+        "clinicalkey.es",
+        "clinicalkey.com.au",
+        "clinicalkey.fr",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Clinical Epidemiology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jclinepi.2015.12.005",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2016-01-06T12:31:25Z",
+      "timestamp": 1452083485000
+    },
+    "page": "167-176",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 917,
+    "special_numbering": "C",
+    "title": [
+      "A calibration hierarchy for risk models was defined: from utopia to empirical data"
+    ],
+    "prefix": "10.1016",
+    "volume": "74",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1613-7450",
+        "authenticated-orcid": false,
+        "given": "Ben",
+        "family": "Van Calster",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daan",
+        "family": "Nieboer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yvonne",
+        "family": "Vergouwe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1310-6336",
+        "authenticated-orcid": false,
+        "given": "Bavo",
+        "family": "De Cock",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael J.",
+        "family": "Pencina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ewout W.",
+        "family": "Steyerberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1186/1471-2288-14-40",
+        "article-title": "External validation of multivariable prediction models: a systematic review of methodological conduct and reporting",
+        "volume": "14",
+        "author": "Collins",
+        "year": "2014",
+        "journal-title": "BMC Med Res Methodol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib2",
+        "series-title": "Clinical prediction models. A practical approach to development, validation, and updating",
+        "author": "Steyerberg",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "399",
+        "DOI": "10.1093/biostatistics/kxq069",
+        "article-title": "Probabilistic classifiers with high-dimensional data",
+        "volume": "12",
+        "author": "Kim",
+        "year": "2011",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib4",
+        "series-title": "Risk Assessment and Evaluation of Predictions",
+        "first-page": "107",
+        "article-title": "Methods for evaluating prediction performance of biomarkers and tests",
+        "author": "Pepe",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1296",
+        "DOI": "10.1016/j.jclinepi.2013.06.003",
+        "article-title": "Calibration of clinical prediction rules does not just assess bias",
+        "volume": "66",
+        "author": "Vach",
+        "year": "2013",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib6",
+        "series-title": "Regression modeling strategies. With applications to linear models, logistic regression, and survival analysis",
+        "author": "Harrell",
+        "year": "2001"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1002/(SICI)1097-0258(19970515)16:9<965::AID-SIM509>3.0.CO;2-O",
+        "article-title": "A comparison of goodness-of-fit tests for the logistic regression model",
+        "volume": "16",
+        "author": "Hosmer",
+        "year": "1997",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1007/s00345-011-0818-5",
+        "article-title": "Evaluating the PCPT risk calculator in ten international biopsy cohorts: results from the Prostate Biopsy Collaborative Group",
+        "volume": "30",
+        "author": "Ankerst",
+        "year": "2012",
+        "journal-title": "World J Urol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "562",
+        "DOI": "10.1093/biomet/45.3-4.562",
+        "article-title": "Two further applications of a model for binary regression",
+        "volume": "45",
+        "author": "Cox",
+        "year": "1958",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.1177/0272989X9301300107",
+        "article-title": "Validation of probabilistic predictions",
+        "volume": "13",
+        "author": "Miller",
+        "year": "1993",
+        "journal-title": "Med Decis Making"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1002/sim.5941",
+        "article-title": "Graphical assessment of internal and external calibration of logistic regression models by using loess smoothers",
+        "volume": "33",
+        "author": "Austin",
+        "year": "2014",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "214",
+        "DOI": "10.1002/sim.6787",
+        "article-title": "Sample size considerations for the external validation of a multivariable prognostic model: a resampling study",
+        "volume": "35",
+        "author": "Collins",
+        "year": "2016",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1097/EDE.0b013e3181c30fb2",
+        "article-title": "Assessing the performance of prediction models: a framework for traditional and novel measures",
+        "volume": "21",
+        "author": "Steyerberg",
+        "year": "2010",
+        "journal-title": "Epidemiology"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1298",
+        "DOI": "10.1016/j.urology.2010.06.019",
+        "article-title": "Everything you always wanted to know about evaluating prediction models (but were too afraid to ask)",
+        "volume": "76",
+        "author": "Vickers",
+        "year": "2010",
+        "journal-title": "Urology"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2699",
+        "DOI": "10.1002/sim.6167",
+        "article-title": "Bootstrap confidence intervals for loess-based calibration curves",
+        "volume": "33",
+        "author": "Austin",
+        "year": "2014",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1016/j.jbi.2014.12.016",
+        "article-title": "A spline-based tool to assess and visualize the calibration of multiclass risk predictions",
+        "volume": "54",
+        "author": "Van Hoorde",
+        "year": "2015",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1686",
+        "DOI": "10.1093/jnci/djj463",
+        "article-title": "Gail model for prediction of absolute risk of invasive breast cancer: independent evaluation in the Florence-European Prospective Investigation into Cancer and Nutrition cohort",
+        "volume": "98",
+        "author": "Decarli",
+        "year": "2006",
+        "journal-title": "J Natl Cancer Inst"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1177/0272989X14547233",
+        "article-title": "Calibration of risk prediction models: impact on decision-analytic performance",
+        "volume": "35",
+        "author": "Van Calster",
+        "year": "2015",
+        "journal-title": "Med Decis Making"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "490",
+        "DOI": "10.1177/0272989X12470757",
+        "article-title": "Evaluation of markers and risk prediction models: overview of relationships between NRI and decision-analytic measures",
+        "volume": "33",
+        "author": "Van Calster",
+        "year": "2013",
+        "journal-title": "Med Decis Making"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1177/0272989X06295361",
+        "article-title": "Decision curve analysis: a novel method for evaluating prediction models",
+        "volume": "26",
+        "author": "Vickers",
+        "year": "2006",
+        "journal-title": "Med Decis Making"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.1056/NEJM197507312930505",
+        "article-title": "Therapeutic decision making: a cost-benefit analysis",
+        "volume": "293",
+        "author": "Pauker",
+        "year": "1975",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "419",
+        "DOI": "10.2307/2983440",
+        "article-title": "Model uncertainty, data mining and statistical inference",
+        "volume": "158",
+        "author": "Chatfield",
+        "year": "1995",
+        "journal-title": "J R Stat Soc Ser A"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1186/1471-2288-9-56",
+        "article-title": "Bias in odds ratios by logistic regression modelling and sample size",
+        "volume": "9",
+        "author": "Nemes",
+        "year": "2009",
+        "journal-title": "BMC Med Res Methodol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "627",
+        "DOI": "10.1016/j.jclinepi.2014.12.014",
+        "article-title": "The number of subjects per variable required in linear regression analyses",
+        "volume": "68",
+        "author": "Austin",
+        "year": "2015",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1111/1467-9574.00157",
+        "article-title": "Application of shrinkage techniques in logistic regression analysis: a case study",
+        "volume": "55",
+        "author": "Steyerberg",
+        "year": "2001",
+        "journal-title": "Stat Neerlandica"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1111/1467-9574.00154",
+        "article-title": "Shrinkage and penalized likelihood as methods to improve predictive accuracy",
+        "volume": "55",
+        "author": "Van Houwelingen",
+        "year": "2001",
+        "journal-title": "Stat Neerlandica"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1150",
+        "DOI": "10.1002/sim.4371",
+        "article-title": "An evaluation of penalised survival methods for developing prognostic models with rare events",
+        "volume": "31",
+        "author": "Ambler",
+        "year": "2012",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib28",
+        "series-title": "Measurement error models",
+        "author": "Fuller",
+        "year": "1987"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "993",
+        "DOI": "10.1198/jasa.2009.tm07543",
+        "article-title": "Nonparametric prediction in measurement error models",
+        "volume": "104",
+        "author": "Carroll",
+        "year": "2009",
+        "journal-title": "J Am Stat Assoc"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib30",
+        "series-title": "Regression models as a tool in medical research",
+        "author": "Vach",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2501",
+        "DOI": "10.1002/(SICI)1097-0258(19981115)17:21<2501::AID-SIM938>3.0.CO;2-M",
+        "article-title": "A comparison of statistical learning methods on the Gusto database",
+        "volume": "17",
+        "author": "Ennis",
+        "year": "1998",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1002/sim.2331",
+        "article-title": "Dichotomizing continuous predictors in multiple regression: a bad idea",
+        "volume": "25",
+        "author": "Royston",
+        "year": "2006",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.31887/DCNS.2012.14.1/jmarewski",
+        "article-title": "Heuristic decision making in medicine",
+        "volume": "14",
+        "author": "Marewski",
+        "year": "2012",
+        "journal-title": "Dialogues Clin Neurosci"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2567",
+        "DOI": "10.1002/sim.1844",
+        "article-title": "Validation and updating of predictive logistic regression models: a study on sample size and shrinkage",
+        "volume": "23",
+        "author": "Steyerberg",
+        "year": "2004",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1158",
+        "DOI": "10.1016/j.jclinepi.2013.04.014",
+        "article-title": "Simple dichotomous updating methods improved the validity of polytomous prediction models",
+        "volume": "66",
+        "author": "Van Hoorde",
+        "year": "2013",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/j.jclinepi.2004.06.017",
+        "article-title": "Substantial effective sample sizes were required for external validation studies of predictive logistic regression models",
+        "volume": "58",
+        "author": "Vergouwe",
+        "year": "2005",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "key": "10.1016/j.jclinepi.2015.12.005_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "2723",
+        "DOI": "10.1002/sim.1200",
+        "article-title": "Goodness-of-fit processes for logistic regression: simulation results",
+        "volume": "21",
+        "author": "Hosmer",
+        "year": "2002",
+        "journal-title": "Stat Med"
+      }
+    ],
+    "container-title": [
+      "Journal of Clinical Epidemiology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0895435615005818?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0895435615005818?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          31
+        ]
+      ],
+      "date-time": "2022-05-31T21:43:46Z",
+      "timestamp": 1654033426000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0895435615005818"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "references-count": 37,
+    "alternative-id": [
+      "S0895435615005818"
+    ],
+    "URL": "https://doi.org/10.1016/j.jclinepi.2015.12.005",
+    "relation": {},
+    "ISSN": [
+      "0895-4356"
+    ],
+    "issn-type": [
+      {
+        "value": "0895-4356",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A calibration hierarchy for risk models was defined: from utopia to empirical data",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Clinical Epidemiology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jclinepi.2015.12.005",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2016 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

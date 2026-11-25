@@ -1,0 +1,1178 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2026-11-24T07:48:20Z",
+      "timestamp": 1795506500920,
+      "version": "4.11.0"
+    },
+    "reference-count": 91,
+    "publisher": "Association for Research in Vision and Ophthalmology (ARVO)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              22
+            ]
+          ],
+          "date-time": "2020-07-22T00:00:00Z",
+          "timestamp": 1595376000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Trans. Vis. Sci. Tech."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          22
+        ]
+      ]
+    },
+    "DOI": "10.1167/tvst.9.2.42",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2020-07-22T11:31:56Z",
+      "timestamp": 1595417516000
+    },
+    "page": "42",
+    "source": "Crossref",
+    "is-referenced-by-count": 188,
+    "title": [
+      "A Review of Deep Learning for Screening, Diagnosis, and Detection of Glaucoma Progression"
+    ],
+    "prefix": "10.1167",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Atalie C.",
+        "family": "Thompson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Vision, Imaging and Performance Laboratory (VIP), Duke Eye Center, Duke University, Durham, NC, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alessandro A.",
+        "family": "Jammal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vision, Imaging and Performance Laboratory (VIP), Duke Eye Center, Duke University, Durham, NC, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felipe A.",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vision, Imaging and Performance Laboratory (VIP), Duke Eye Center, Duke University, Durham, NC, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "27",
+    "reference": [
+      {
+        "key": "bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1001/jamaophthalmol.2013.1686",
+        "article-title": "Prevalence of glaucoma in an urban West African population: the Tema Eye Survey",
+        "volume": "131",
+        "author": "Budenz",
+        "year": "2013",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1816",
+        "DOI": "10.1016/j.ophtha.2007.06.013",
+        "article-title": "Awareness of incident open-angle glaucoma in a population study: the Barbados Eye Studies",
+        "volume": "114",
+        "author": "Hennis",
+        "year": "2007",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "3152",
+        "DOI": "10.1167/iovs.04-0227",
+        "article-title": "Neural Losses Correlated with Visual Losses in Clinical Perimetry",
+        "volume": "45",
+        "author": "Harwerth",
+        "year": "2004",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib6",
+        "first-page": "2242",
+        "article-title": "Ganglion cell losses underlying visual field defects from experimental glaucoma",
+        "volume": "40",
+        "author": "Harwerth",
+        "year": "1999",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "article-title": "Using deep learning and transform learning to accurately diagnose early-onset glaucoma from macular optical coherence tomography images",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1974",
+        "DOI": "10.1016/j.ophtha.2016.05.029",
+        "article-title": "Detecting Preperimetric Glaucoma with Standard Automated Perimetry Using a Deep Learning Classifier",
+        "volume": "123",
+        "author": "Asaoka",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "4147",
+        "DOI": "10.1167/iovs.05-0366",
+        "article-title": "Optical coherence tomography machine learning classifiers for glaucoma detection: a preliminary study",
+        "volume": "46",
+        "author": "Burgansky-Eliash",
+        "year": "2005",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1016/j.artmed.2015.04.002",
+        "article-title": "Learning from healthy and stable eyes: A new approach for detection of glaucomatous progression",
+        "volume": "64",
+        "author": "Belghith",
+        "year": "2015",
+        "journal-title": "Artif Intell Med"
+      },
+      {
+        "key": "bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0207784",
+        "DOI": "10.1371/journal.pone.0207784",
+        "article-title": "Automated algorithms combining structure and function outperform general ophthalmologists in diagnosing glaucoma",
+        "volume": "13",
+        "author": "Shigueoka",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "945",
+        "DOI": "10.1167/iovs.07-1083",
+        "article-title": "Bayesian machine learning classifiers for combining structural and functional measurements to classify healthy and glaucomatous eyes",
+        "volume": "49",
+        "author": "Bowd",
+        "year": "2008",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "963",
+        "DOI": "10.1109/TBME.2002.802012",
+        "article-title": "Comparison of machine learning and traditional classifiers in glaucoma diagnosis",
+        "volume": "49",
+        "author": "Chan",
+        "year": "2002",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "key": "bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0177726",
+        "DOI": "10.1371/journal.pone.0177726",
+        "article-title": "Development of machine learning models for diagnosis of glaucoma",
+        "volume": "12",
+        "author": "Kim",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "3684",
+        "DOI": "10.1167/iovs.04-1168",
+        "article-title": "Unsupervised machine learning with independent component analysis to identify areas of progression in glaucomatous visual fields",
+        "volume": "46",
+        "author": "Sample",
+        "year": "2005",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "6557",
+        "DOI": "10.1167/iovs.11-8363",
+        "article-title": "Progression of patterns (POP): a machine classifier algorithm to identify glaucoma progression in visual fields",
+        "volume": "53",
+        "author": "Goldbaum",
+        "year": "2012",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1167/tvst.5.3.2",
+        "article-title": "Unsupervised Gaussian mixture-model with expectation maximization for detecting glaucomatous progression in standard automated perimetry visual fields",
+        "volume": "5",
+        "author": "Yousefi",
+        "year": "2016",
+        "journal-title": "Translational Vision Science & Technology"
+      },
+      {
+        "key": "bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.1016/j.ajo.2018.06.007",
+        "article-title": "Detection of longitudinal visual field progression in glaucoma using machine learning",
+        "volume": "193",
+        "author": "Yousefi",
+        "year": "2018",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib21",
+        "first-page": "162",
+        "article-title": "Comparing machine learning classifiers for diagnosing glaucoma from standard automated perimetry",
+        "volume": "43",
+        "author": "Goldbaum",
+        "year": "2002",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib22",
+        "first-page": "3362",
+        "article-title": "Interpretation of automated perimetry for glaucoma by neural network",
+        "volume": "35",
+        "author": "Goldbaum",
+        "year": "1994",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "article-title": "From machine to machine: an OCT-trained deep learning algorithm for objective quantification of glaucomatous damage in fundus photographs",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "333",
+        "DOI": "10.1001/jamaophthalmol.2019.5983",
+        "article-title": "Assessment of a segmentation-free deep learning algorithm for diagnosing glaucoma from optical coherence tomography scans",
+        "volume": "138",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1016/j.ajo.2019.01.011",
+        "article-title": "A deep learning algorithm to quantify neuroretinal rim loss from optic disc photographs",
+        "volume": "201",
+        "author": "Thompson",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development and validation of a deep learning system to detect glaucomatous optic neuropathy using fundus photographs",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmology"
+      },
+      {
+        "key": "bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0207982",
+        "DOI": "10.1371/journal.pone.0207982",
+        "article-title": "A deep learning model for the detection of both advanced and early glaucoma using fundus photography",
+        "volume": "13",
+        "author": "Ahn",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "851",
+        "DOI": "10.1007/s00417-020-04609-8",
+        "article-title": "Deep learning-based automated detection of glaucomatous optic neuropathy on color fundus photographs",
+        "volume": "258",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Graefes Arch Clin Exp Ophthalmol"
+      },
+      {
+        "key": "bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs",
+        "volume": "126",
+        "author": "Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "190",
+        "DOI": "10.1001/jamaophthalmol.2019.5413",
+        "article-title": "Characterization of central visual field loss in end-stage glaucoma by unsupervised artificial intelligence",
+        "volume": "138",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "2596",
+        "DOI": "10.1167/iovs.03-0343",
+        "article-title": "Using unsupervised learning with variational bayesian mixture of factor analysis to identify patterns of glaucomatous visual field defects",
+        "volume": "45",
+        "author": "Sample",
+        "year": "2004",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib34",
+        "first-page": "270",
+        "article-title": "Unsupervised learning with independent component analysis can identify patterns of glaucomatous visual field defects",
+        "volume": "103",
+        "author": "Goldbaum",
+        "year": "2005",
+        "journal-title": "Trans Am Ophthalmol Soc"
+      },
+      {
+        "key": "bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "3676",
+        "DOI": "10.1167/iovs.04-1167",
+        "article-title": "Using unsupervised learning with independent component analysis to identify patterns of glaucomatous visual field defects",
+        "volume": "46",
+        "author": "Goldbaum",
+        "year": "2005",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1104",
+        "DOI": "10.1109/JBHI.6221020",
+        "article-title": "Direct cup-to-disc ratio estimation for glaucoma screening via semi-supervised learning",
+        "volume": "24",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1186/s40537-016-0043-6",
+        "article-title": "A survey of transfer learning",
+        "volume": "3",
+        "author": "Weiss",
+        "year": "2016",
+        "journal-title": "J Big Data"
+      },
+      {
+        "key": "bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "174",
+        "DOI": "10.1001/jamaophthalmol.2014.4652",
+        "article-title": "Diabetes eye screening in urban settings serving minority populations: detection of diabetic retinopathy and other ocular findings using telemedicine",
+        "volume": "133",
+        "author": "Owsley",
+        "year": "2015",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2017.07.010",
+        "article-title": "Glaucoma screening in nepal: cup-to-disc estimate with standard mydriatic fundus camera compared to portable nonmydriatic camera",
+        "volume": "182",
+        "author": "Miller",
+        "year": "2017",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "918",
+        "DOI": "10.1016/j.ajo.2013.06.017",
+        "article-title": "Likelihood ratios for glaucoma diagnosis using spectral-domain optical coherence tomography",
+        "volume": "156",
+        "author": "Lisboa",
+        "year": "2013",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "827",
+        "DOI": "10.1001/archopht.122.6.827",
+        "article-title": "Comparison of the GDx VCC scanning laser polarimeter, HRT II confocal scanning laser ophthalmoscope, and stratus OCT optical coherence tomograph for the detection of glaucoma",
+        "volume": "122",
+        "author": "Medeiros",
+        "year": "2004",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1010",
+        "DOI": "10.1016/j.ajo.2005.01.003",
+        "article-title": "Use of progressive glaucomatous optic disk change as the reference standard for evaluation of diagnostic tests in glaucoma",
+        "volume": "139",
+        "author": "Medeiros",
+        "year": "2005",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "703",
+        "DOI": "10.1001/jama.1994.03510330081039",
+        "article-title": "Users' guides to the medical literature. III. How to use an article about a diagnostic test. B. What are the results and will they help me in caring for my patients? The Evidence-Based Medicine Working Group",
+        "volume": "271",
+        "author": "Jaeschke",
+        "year": "1994",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "215",
+        "DOI": "10.1016/S0161-6420(92)31990-6",
+        "article-title": "Expert agreement in evaluating the optic disc for glaucoma",
+        "volume": "99",
+        "author": "Varma",
+        "year": "1992",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "1662",
+        "DOI": "10.1016/S0161-6420(94)31118-3",
+        "article-title": "Agreement among optometrists, ophthalmologists, and residents in evaluating the optic disc for glaucoma",
+        "volume": "101",
+        "author": "Abrams",
+        "year": "1994",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "39–44 e31",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "article-title": "Agreement among glaucoma specialists in assessing progressive disc changes from photographs in open-angle glaucoma patients",
+        "volume": "147",
+        "author": "Jampel",
+        "year": "2009",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "936",
+        "DOI": "10.1016/j.ajo.2014.01.024",
+        "article-title": "Glaucomatous optic neuropathy evaluation (GONE) project: the effect of monoscopic versus stereoscopic viewing conditions on optic nerve evaluation",
+        "volume": "157",
+        "author": "Chan",
+        "year": "2014",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1257",
+        "DOI": "10.1016/j.ophtha.2009.04.013",
+        "article-title": "Retinal nerve fiber layer imaging with spectral-domain optical coherence tomography: a variability and diagnostic performance study",
+        "volume": "116",
+        "author": "Leung",
+        "year": "2009",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "S57",
+        "DOI": "10.1016/j.ophtha.2017.07.015",
+        "article-title": "Detecting structural progression in glaucoma with optical coherence tomography",
+        "volume": "124",
+        "author": "Tatham",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib53",
+        "first-page": "1534",
+        "article-title": "Structure-function relationship comparison between retinal nerve fibre layer and Bruch's membrane opening-minimum rim width in glaucoma",
+        "volume": "10",
+        "author": "Reznicek",
+        "year": "2017",
+        "journal-title": "Int J Ophthalmol-Chi"
+      },
+      {
+        "key": "bib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.1016/j.ajo.2019.11.006",
+        "article-title": "Human versus machine: comparing a deep learning algorithm to human gradings for detecting glaucoma on fundus photographs",
+        "volume": "211",
+        "author": "Jammal",
+        "year": "2020",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1791",
+        "DOI": "10.1038/s41433-019-0510-3",
+        "article-title": "Evaluation of an AI system for the automated detection of glaucoma from stereoscopic optic disc photographs: the European Optic Disc Assessment Study",
+        "volume": "33",
+        "author": "Rogers",
+        "year": "2019",
+        "journal-title": "Eye (Lond)"
+      },
+      {
+        "key": "bib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1016/j.ajo.2004.08.069",
+        "article-title": "Evaluation of retinal nerve fiber layer, optic nerve head, and macular thickness measurements for glaucoma detection using optical coherence tomography",
+        "volume": "139",
+        "author": "Medeiros",
+        "year": "2005",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "969",
+        "DOI": "10.1016/j.ophtha.2012.11.008",
+        "article-title": "Long-term reproducibility of cirrus HD optical coherence tomography deviation map in clinically stable glaucomatous eyes",
+        "volume": "120",
+        "author": "Roh",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "OCT556",
+        "DOI": "10.1167/iovs.16-19933",
+        "article-title": "Clinical utility of optical coherence tomography in glaucoma",
+        "volume": "57",
+        "author": "Dong",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib59",
+        "doi-asserted-by": "publisher",
+        "first-page": "396",
+        "DOI": "10.1001/jamaophthalmol.2013.7974",
+        "article-title": "Artifacts in spectral-domain optical coherence tomography measurements in glaucoma",
+        "volume": "132",
+        "author": "Asrani",
+        "year": "2014",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "bib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajo.2016.10.020",
+        "article-title": "Automated segmentation errors when using optical coherence tomography to measure retinal nerve fiber layer thickness in glaucoma",
+        "volume": "174",
+        "author": "Mansberger",
+        "year": "2017",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "565",
+        "DOI": "10.1016/j.ajo.2014.12.006",
+        "article-title": "Patient characteristics associated with artifacts in Spectralis optical coherence tomography imaging of the retinal nerve fiber layer in glaucoma",
+        "volume": "159",
+        "author": "Liu",
+        "year": "2015",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib62",
+        "doi-asserted-by": "publisher",
+        "first-page": "995",
+        "DOI": "10.1097/IJG.0000000000000771",
+        "article-title": "Prevalence and associated factors of segmentation errors in the peripapillary retinal nerve fiber layer and macular ganglion cell complex in spectral-domain optical coherence tomography images",
+        "volume": "26",
+        "author": "Miki",
+        "year": "2017",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "bib63",
+        "doi-asserted-by": "publisher",
+        "first-page": "746150",
+        "DOI": "10.1155/2015/746150",
+        "article-title": "Factors affecting cirrus-HD OCT optic disc scan quality: a review with case examples",
+        "volume": "2015",
+        "author": "Hardin",
+        "year": "2015",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "bib64",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1097/ICU.0b013e32834ff431",
+        "article-title": "Glaucoma versus red disease: imaging and glaucoma diagnosis",
+        "volume": "23",
+        "author": "Chong",
+        "year": "2012",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "key": "bib65",
+        "doi-asserted-by": "publisher",
+        "first-page": "402",
+        "DOI": "10.1038/s41598-019-57196-y",
+        "article-title": "Quantification of retinal nerve fibre layer thickness on optical coherence tomography with a deep learning segmentation-free approach",
+        "volume": "10",
+        "author": "Mariottoni",
+        "year": "2020",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "bib66",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0219126",
+        "DOI": "10.1371/journal.pone.0219126",
+        "article-title": "A feature agnostic approach for glaucoma detection in OCT volumes",
+        "volume": "14",
+        "author": "Maetschke",
+        "year": "2019",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "bib67",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1167/iovs.17-22617",
+        "article-title": "A deep learning approach to digitally stain optical coherence tomography images of the optic nerve head",
+        "volume": "59",
+        "author": "Devalla",
+        "year": "2018",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib68",
+        "doi-asserted-by": "publisher",
+        "first-page": "1086",
+        "DOI": "10.1097/IJG.0000000000000765",
+        "article-title": "Hybrid deep learning on single wide-field optical coherence tomography scans accurately classifies glaucoma suspects",
+        "volume": "26",
+        "author": "Muhammad",
+        "year": "2017",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "bib69",
+        "doi-asserted-by": "publisher",
+        "first-page": "273",
+        "DOI": "10.1016/j.ajo.2019.08.004",
+        "article-title": "Deep learning classifiers for automated detection of gonioscopic angle closure based on anterior segment OCT images",
+        "volume": "208",
+        "author": "Xu",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib70",
+        "doi-asserted-by": "publisher",
+        "first-page": "37",
+        "DOI": "10.1016/j.ajo.2019.02.028",
+        "article-title": "A deep learning system for automated angle-closure detection in anterior segment optical coherence tomography images",
+        "volume": "203",
+        "author": "Fu",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib71",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1186/s12880-018-0273-5",
+        "article-title": "Automatic differentiation of Glaucoma visual field from non-glaucoma visual filed using deep convolutional neural network",
+        "volume": "18",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "BMC Med Imaging"
+      },
+      {
+        "key": "bib72",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0206081",
+        "DOI": "10.1371/journal.pone.0206081",
+        "article-title": "A deep learning approach to automatic detection of early glaucoma from visual fields",
+        "volume": "13",
+        "author": "Kucur",
+        "year": "2018",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "bib73",
+        "doi-asserted-by": "publisher",
+        "first-page": "20141118",
+        "DOI": "10.1098/rsif.2014.1118",
+        "article-title": "Patterns of functional vision loss in glaucoma determined with archetypal analysis",
+        "volume": "12",
+        "author": "Elze",
+        "year": "2015",
+        "journal-title": "J R Soc Interface"
+      },
+      {
+        "key": "bib74",
+        "doi-asserted-by": "publisher",
+        "first-page": "511",
+        "DOI": "10.1016/S0002-9394(14)75425-X",
+        "article-title": "Neural networks to identify glaucoma with structural and functional measurements",
+        "volume": "121",
+        "author": "Brigatti",
+        "year": "1996",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib75",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1097/IJG.0b013e3181a98b85",
+        "article-title": "Combining functional and structural tests improves the diagnostic accuracy of relevance vector machine classifiers",
+        "volume": "19",
+        "author": "Racette",
+        "year": "2010",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "bib76",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1101/2020.04.10.20057836",
+        "article-title": "An objective structural and functional reference standard for diagnostic studies in glaucoma",
+        "author": "Mariottoni",
+        "year": "2020"
+      },
+      {
+        "key": "bib77",
+        "doi-asserted-by": "publisher",
+        "first-page": "2748",
+        "DOI": "10.1167/iovs.17-23387",
+        "article-title": "Retinal nerve fiber layer features identified by unsupervised machine learning on optical coherence tomography scans predict glaucoma progression",
+        "volume": "59",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib78",
+        "doi-asserted-by": "publisher",
+        "first-page": "725",
+        "DOI": "10.1001/archopht.1997.01100150727005",
+        "article-title": "Automatic detection of glaucomatous visual field progression with neural networks",
+        "volume": "115",
+        "author": "Brigatti",
+        "year": "1997",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib79",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1007/s10384-019-00706-2",
+        "article-title": "Machine learning classifiers-based prediction of normal-tension glaucoma progression in young myopic patients",
+        "volume": "64",
+        "author": "Lee",
+        "year": "2020",
+        "journal-title": "Jpn J Ophthalmol"
+      },
+      {
+        "key": "bib80",
+        "doi-asserted-by": "publisher",
+        "first-page": "1143",
+        "DOI": "10.1109/TBME.2013.2295605",
+        "article-title": "Glaucoma progression detection using structural retinal nerve fiber layer measurements and functional visual field points",
+        "volume": "61",
+        "author": "Yousefi",
+        "year": "2014",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "key": "bib81",
+        "doi-asserted-by": "publisher",
+        "first-page": "111",
+        "DOI": "10.1016/j.ajo.2018.10.012",
+        "article-title": "Using Kalman filtering to forecast disease trajectory for patients with normal tension glaucoma",
+        "volume": "199",
+        "author": "Garcia",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib82",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1097/IJG.0b013e31820bd1fd",
+        "article-title": "Improved prediction of rates of visual field loss in glaucoma using empirical Bayes estimates of slopes of change",
+        "volume": "21",
+        "author": "Medeiros",
+        "year": "2012",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "bib83",
+        "doi-asserted-by": "publisher",
+        "first-page": "1197",
+        "DOI": "10.1016/j.ajo.2011.11.015",
+        "article-title": "Combining structural and functional measurements to improve estimates of rates of glaucomatous progression",
+        "volume": "153",
+        "author": "Medeiros",
+        "year": "2012",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib84",
+        "doi-asserted-by": "publisher",
+        "first-page": "2199",
+        "DOI": "10.1167/iovs.11-8639",
+        "article-title": "Incorporating risk factors to improve the assessment of rates of glaucomatous progression",
+        "volume": "53",
+        "author": "Medeiros",
+        "year": "2012",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib85",
+        "doi-asserted-by": "publisher",
+        "first-page": "458",
+        "DOI": "10.1016/j.ophtha.2011.10.003",
+        "article-title": "Integrating event- and trend-based analyses to improve detection of glaucomatous visual field progression",
+        "volume": "119",
+        "author": "Medeiros",
+        "year": "2012",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "bib86",
+        "doi-asserted-by": "publisher",
+        "first-page": "6077",
+        "DOI": "10.1167/iovs.15-16957",
+        "article-title": "More accurate modeling of visual field progression in glaucoma: ANSWERS",
+        "volume": "56",
+        "author": "Zhu",
+        "year": "2015",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib87",
+        "doi-asserted-by": "publisher",
+        "first-page": "1897",
+        "DOI": "10.1167/iovs.17-22907",
+        "article-title": "Validating variational Bayes linear regression method with multi-central datasets",
+        "volume": "59",
+        "author": "Murata",
+        "year": "2018",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib88",
+        "doi-asserted-by": "publisher",
+        "first-page": "8386",
+        "DOI": "10.1167/iovs.14-14625",
+        "article-title": "A new approach to measure visual field progression in glaucoma patients using variational bayes linear regression",
+        "volume": "55",
+        "author": "Murata",
+        "year": "2014",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "bib89",
+        "doi-asserted-by": "publisher",
+        "first-page": "18113",
+        "DOI": "10.1038/s41598-019-54653-6",
+        "article-title": "Estimating rates of progression and predicting future visual fields in glaucoma using a deep variational autoencoder",
+        "volume": "9",
+        "author": "Berchuck",
+        "year": "2019",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "bib90",
+        "doi-asserted-by": "publisher",
+        "first-page": "8385",
+        "DOI": "10.1038/s41598-019-44852-6",
+        "article-title": "Visual field prediction using recurrent neural network",
+        "volume": "9",
+        "author": "Park",
+        "year": "2019",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib91",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0214875",
+        "DOI": "10.1371/journal.pone.0214875",
+        "article-title": "Forecasting future Humphrey visual fields using deep learning",
+        "volume": "14",
+        "author": "Wen",
+        "year": "2019",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "bib23",
+        "volume-title": "Deep Learning with Python",
+        "author": "Chollet",
+        "year": "2018"
+      },
+      {
+        "key": "bib39",
+        "article-title": "Deep residual learning for image recognition",
+        "author": "He",
+        "year": "2015"
+      },
+      {
+        "key": "bib40",
+        "article-title": "Rethinking the inception architecture for computer vision",
+        "author": "Szegedy",
+        "year": "2015"
+      }
+    ],
+    "container-title": [
+      "Translational Vision Science &amp; Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://tvst.arvojournals.org/article.aspx?articleid=2770356",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2022-11-03T20:10:51Z",
+      "timestamp": 1667506251000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://tvst.arvojournals.org/article.aspx?articleid=2770356"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          22
+        ]
+      ]
+    },
+    "references-count": 91,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            28
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1167/tvst.9.2.42",
+    "relation": {},
+    "ISSN": [
+      "2164-2591"
+    ],
+    "issn-type": [
+      {
+        "value": "2164-2591",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          22
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2026-09-01T15:47:53Z",
+      "timestamp": 1788277673964,
+      "version": "build-2803163510"
+    },
+    "reference-count": 25,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2025-07-18T00:00:00Z",
+          "timestamp": 1752796800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2025-07-18T00:00:00Z",
+          "timestamp": 1752796800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Faculty of Medicine, Khon Kaen University, Thailand",
+        "award": [
+          "RU68001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RU68001"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>This study evaluates the performance of a machine learning model in classifying glaucoma severity using color fundus photographs. Glaucoma severity grading was based on the Hodapp-Parrish-Anderson (HPA) criteria incorporating the mean deviation value, defective points in the pattern deviation probability map, and defect proximity to the fixation point. The dataset of 2,940 fundus photographs from 1,789 patients was matched with visual field tests and equally classified into three classes: normal, mild-moderate, and severe glaucoma stages. The EfficientNetB7, a convolutional neural network model, was trained on these images using transfer learning and fine-tuning techniques. The model achieved an overall accuracy of 0.871 (95% CI, 0.822–0.919). For normal, mild-moderate, and severe classes, the area under the curve (AUC) values were 0.988, 0.932, and 0.963; sensitivity 0.903, 0.823, and 0.887; and specificity 0.960, 0.911, and 0.936, respectively. Analysis of the confusion matrix revealed the impact of structural-functional relationships in glaucoma on model performance. In conclusion, the EfficientNetB7 demonstrated high accuracy in classifying glaucoma severity based on the HPA criteria using fundus photographs, offering potential for clinical application in glaucoma diagnosis and management.</jats:p>",
+    "DOI": "10.1038/s41598-025-11697-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2025-07-18T18:18:14Z",
+      "timestamp": 1752862694000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Machine learning technology in the classification of glaucoma severity using fundus photographs"
+    ],
+    "prefix": "10.1038",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Sukhumal",
+        "family": "Thanapaisal",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Passawut",
+        "family": "Uttakit",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Worapon",
+        "family": "Ittharat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pukkapol",
+        "family": "Suvannachart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pawasoot",
+        "family": "Supasai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pattarawit",
+        "family": "Polpinit",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prapassara",
+        "family": "Sirikarn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Panawit",
+        "family": "Hanpinitsak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "11697_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "YC Tham",
+        "year": "2014",
+        "unstructured": "Tham, Y. C. et al. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology 121, 2081–2090 (2014).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "11697_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1186/s12880-018-0273-5",
+        "volume": "18",
+        "author": "F Li",
+        "year": "2018",
+        "unstructured": "Li, F. et al. Automatic differentiation of glaucoma visual field from non-glaucoma visual filed using deep convolutional neural network. BMC Med. Imaging. 18, 35 (2018).",
+        "journal-title": "BMC Med. Imaging"
+      },
+      {
+        "key": "11697_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "volume": "125",
+        "author": "Z Li",
+        "year": "2018",
+        "unstructured": "Li, Z. et al. Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs. Ophthalmology 125, 1199–1206 (2018).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "11697_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "volume": "137",
+        "author": "H Liu",
+        "year": "2019",
+        "unstructured": "Liu, H. et al. Development and validation of a deep learning system to detect glaucomatous optic neuropathy using fundus photographs. JAMA Ophthalmol. 137, 1353–1360 (2019).",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "11697_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "19042",
+        "DOI": "10.1038/s41598-020-76154-7",
+        "volume": "10",
+        "author": "SB Seo",
+        "year": "2020",
+        "unstructured": "Seo, S. B. & Cho, H. K. Deep learning classification of early normal-tension glaucoma and glaucoma suspects using bruch’s membrane opening-minimum rim width and RNFL. Sci. Rep. 10, 19042 (2020).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "11697_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "510",
+        "DOI": "10.3390/diagnostics11030510",
+        "volume": "11",
+        "author": "S Oh",
+        "year": "2021",
+        "unstructured": "Oh, S., Park, Y., Cho, K. J. & Kim, S. J. Explainable machine learning model for glaucoma diagnosis and its interpretation. Diagnostics 11, 510 (2021).",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "11697_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "803",
+        "DOI": "10.1097/IJG.0000000000001885",
+        "volume": "30",
+        "author": "Y Shin",
+        "year": "2021",
+        "unstructured": "Shin, Y. et al. Deep learning-based diagnosis of glaucoma using wide-field optical coherence tomography images. J. Glaucoma. 30, 803 (2021).",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "11697_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "7434",
+        "DOI": "10.1364/BOE.439991",
+        "volume": "12",
+        "author": "J Schottenhamml",
+        "year": "2021",
+        "unstructured": "Schottenhamml, J. et al. Glaucoma classification in 3 x 3 mm en face macular scans using deep learning in a different plexus. Biomed. Opt. Express. 12, 7434–7444 (2021).",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "11697_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajo.2021.12.008",
+        "volume": "237",
+        "author": "JH Wu",
+        "year": "2022",
+        "unstructured": "Wu, J. H., Nishida, T., Weinreb, R. N. & Lin, J. W. Performances of machine learning in detecting glaucoma using fundus and retinal optical coherence tomography images: a meta-analysis. Am. J. Ophthalmol. 237, 1–12 (2022).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "11697_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1016/j.ophtha.2021.07.032",
+        "volume": "129",
+        "author": "J Xiong",
+        "year": "2022",
+        "unstructured": "Xiong, J. et al. Multimodal machine learning using visual fields and peripapillary circular OCT scans in detection of glaucomatous optic neuropathy. Ophthalmology 129, 171–180 (2022).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "11697_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1516",
+        "DOI": "10.1080/02713683.2021.1900268",
+        "volume": "46",
+        "author": "H Cho",
+        "year": "2021",
+        "unstructured": "Cho, H. et al. Deep learning ensemble method for classifying glaucoma stages using fundus photographs and convolutional neural networks. Curr. Eye Res. 46, 1516–1524 (2021).",
+        "journal-title": "Curr. Eye Res."
+      },
+      {
+        "key": "11697_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1167/tvst.11.5.11",
+        "volume": "11",
+        "author": "E Noury",
+        "year": "2022",
+        "unstructured": "Noury, E. et al. Deep learning for glaucoma detection and identification of novel diagnostic areas in diverse real-world datasets. Transl Vis. Sci. Technol. 11, 11 (2022).",
+        "journal-title": "Transl Vis. Sci. Technol."
+      },
+      {
+        "key": "11697_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "483",
+        "DOI": "10.1186/s12886-022-02730-2",
+        "volume": "22",
+        "author": "KH Hung",
+        "year": "2022",
+        "unstructured": "Hung, K. H. et al. Application of a deep learning system in glaucoma screening and further classification with colour fundus photographs: a case control study. BMC Ophthalmol. 22, 483 (2022).",
+        "journal-title": "BMC Ophthalmol."
+      },
+      {
+        "key": "11697_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Valente, C., D’Alessandro, E. & Iester, M. Classification and statistical trend analysis in detecting glaucomatous visual field progression. J. Ophthalmol. 2019,1583260 (2019).",
+        "DOI": "10.1155/2019/1583260"
+      },
+      {
+        "key": "11697_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "21",
+        "DOI": "10.1097/APO.0000000000000201",
+        "volume": "6",
+        "author": "T Chakravarti",
+        "year": "2017",
+        "unstructured": "Chakravarti, T. Assessing precision of Hodapp-Parrish-Anderson criteria for staging early glaucomatous damage in an ocular hypertension cohort: a retrospective study. Asia-Pac J. Ophthalmol. 6, 21 (2017).",
+        "journal-title": "Asia-Pac J. Ophthalmol."
+      },
+      {
+        "key": "11697_CR16",
+        "unstructured": "Anderson, D. R. & Patella, V. M. Automated Static Perimetry (Mosby Inc, 1999)."
+      },
+      {
+        "key": "11697_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Tan, M. &  Le, Q. V.  EfficientNet rethinking model scaling for convolutional neural networks. Preprint At. https://doi.org/10.48550/arXiv.1905.11946 (2020).",
+        "DOI": "10.48550/arXiv.1905.11946"
+      },
+      {
+        "key": "11697_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J. et al. ImageNet: a large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition 248–255 (2009).",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "11697_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "104233",
+        "DOI": "10.1016/j.jbi.2022.104233",
+        "volume": "136",
+        "author": "Y Xue",
+        "year": "2022",
+        "unstructured": "Xue, Y. et al. A multi-feature deep learning system to enhance glaucoma severity diagnosis with high accuracy and fast speed. J. Biomed. Inf. 136, 104233 (2022).",
+        "journal-title": "J. Biomed. Inf."
+      },
+      {
+        "key": "11697_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1240",
+        "DOI": "10.1136/bjophthalmol-2014-306019",
+        "volume": "99",
+        "author": "A Matsuda",
+        "year": "2015",
+        "unstructured": "Matsuda, A. et al. Do pattern deviation values accurately estimate glaucomatous visual field damage in eyes with glaucoma and cataract? Br. J. Ophthalmol. 99, 1240–1244 (2015).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "11697_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "78",
+        "DOI": "10.1136/bjo-2022-322274",
+        "volume": "108",
+        "author": "R Tomita",
+        "year": "2023",
+        "unstructured": "Tomita, R. et al. Accuracy of pattern deviation in estimating the glaucomatous damage in the central 10° visual field in eyes with glaucoma and cataract. Br. J. Ophthalmol. 108, 78–83 (2023).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "11697_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, S., Yun, W., Oh, J. & Lee, S. Efficient deep learning approaches for processing ultra-widefield retinal imaging. In MICCAI Challenge on ultra-widefield fundus imaging for diabetic retinopathy, Marrakesh, Morocco, October 10, 2024. Proceedings (ed. Sheng, B.) 125–134 (Springer, 2025).",
+        "DOI": "10.1007/978-3-031-89388-9_13"
+      },
+      {
+        "key": "11697_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "3763",
+        "DOI": "10.1038/s41598-025-87171-9",
+        "volume": "15",
+        "author": "S Akhtar",
+        "year": "2025",
+        "unstructured": "Akhtar, S. et al. A deep learning based model for diabetic retinopathy grading. Sci. Rep. 15, 3763 (2025).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "11697_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sudhan, M. B. et al. Segmentation and classification of glaucoma using U-Net with deep learning model. J. Healthc Eng. 2022,  1601354 (2022).",
+        "DOI": "10.1155/2022/1601354"
+      },
+      {
+        "key": "11697_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-024-01122-8",
+        "volume": "7",
+        "author": "AJ Thirunavukarasu",
+        "year": "2024",
+        "unstructured": "Thirunavukarasu, A. J. et al. A validated web-application (GFDC) for automatic classification of glaucomatous visual field defects using Hodapp-Parrish-Anderson criteria. Npj Digit. Med. 7, 1–4 (2024).",
+        "journal-title": "Npj Digit. Med."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-11697-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-11697-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-11697-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2025-09-07T14:38:34Z",
+      "timestamp": 1757255914000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-025-11697-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "11697"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-025-11697-1",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 April 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 July 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "18 July 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "26151"
+  }
+}

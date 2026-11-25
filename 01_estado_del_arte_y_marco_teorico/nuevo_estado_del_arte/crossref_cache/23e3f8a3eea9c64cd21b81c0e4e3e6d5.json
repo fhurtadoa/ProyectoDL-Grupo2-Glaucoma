@@ -1,0 +1,1718 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2026-08-20T18:51:41Z",
+      "timestamp": 1787251901162,
+      "version": "build-2736575974"
+    },
+    "reference-count": 156,
+    "publisher": "MDPI AG",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              20
+            ]
+          ],
+          "date-time": "2022-01-20T00:00:00Z",
+          "timestamp": 1642636800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001871",
+        "name": "Fundação para a Ciência e Tecnologia",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "UIDB/50014/2020"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "UIDB/50014/2020"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001871",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001871",
+        "name": "Fundação para a Ciência e Tecnologia",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "UIDB/50008/2020"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "UIDB/50008/2020"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001871",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. Imaging"
+    ],
+    "abstract": "<jats:p>Artificial intelligence techniques are now being applied in different medical solutions ranging from disease screening to activity recognition and computer-aided diagnosis. The combination of computer science methods and medical knowledge facilitates and improves the accuracy of the different processes and tools. Inspired by these advances, this paper performs a literature review focused on state-of-the-art glaucoma screening, segmentation, and classification based on images of the papilla and excavation using deep learning techniques. These techniques have been shown to have high sensitivity and specificity in glaucoma screening based on papilla and excavation images. The automatic segmentation of the contours of the optic disc and the excavation then allows the identification and assessment of the glaucomatous disease’s progression. As a result, we verified whether deep learning techniques may be helpful in performing accurate and low-cost measurements related to glaucoma, which may promote patient empowerment and help medical doctors better monitor patients.</jats:p>",
+    "DOI": "10.3390/jimaging8020019",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          20
+        ]
+      ],
+      "date-time": "2022-01-20T22:51:06Z",
+      "timestamp": 1642719066000
+    },
+    "page": "19",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 46,
+    "title": [
+      "Literature Review on Artificial Intelligence Methods for Glaucoma Screening, Segmentation, and Classification"
+    ],
+    "prefix": "10.3390",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2207-0897",
+        "authenticated-orcid": false,
+        "given": "José",
+        "family": "Camara",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "R. Escola Politécnica, Universidade Aberta, 1250-100 Lisboa, Portugal"
+          },
+          {
+            "name": "Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência, 3200-465 Porto, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4132-3186",
+        "authenticated-orcid": false,
+        "given": "Alexandre",
+        "family": "Neto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência, 3200-465 Porto, Portugal"
+          },
+          {
+            "name": "Escola de Ciências e Tecnologia, University of Trás-os-Montes e Alto Douro, Quinta de Prados, 5001-801 Vila Real, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3394-6762",
+        "authenticated-orcid": false,
+        "given": "Ivan Miguel",
+        "family": "Pires",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Escola de Ciências e Tecnologia, University of Trás-os-Montes e Alto Douro, Quinta de Prados, 5001-801 Vila Real, Portugal"
+          },
+          {
+            "name": "Instituto de Telecomunicações, Universidade da Beira Interior, 6200-001 Covilhã, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4957-9477",
+        "authenticated-orcid": false,
+        "given": "María Vanessa",
+        "family": "Villasana",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centro Hospitalar Universitário Cova da Beira, 6200-251 Covilhã, Portugal"
+          },
+          {
+            "name": "UICISA:E Research Centre, School of Health, Polytechnic Institute of Viseu, 3504-510 Viseu, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7664-0168",
+        "authenticated-orcid": false,
+        "given": "Eftim",
+        "family": "Zdravevski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Computer Science and Engineering, University Ss Cyril and Methodius, 1000 Skopje, North Macedonia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3458-7693",
+        "authenticated-orcid": false,
+        "given": "António",
+        "family": "Cunha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência, 3200-465 Porto, Portugal"
+          },
+          {
+            "name": "Escola de Ciências e Tecnologia, University of Trás-os-Montes e Alto Douro, Quinta de Prados, 5001-801 Vila Real, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "DOI": "10.1016/j.ijmedinf.2005.12.002",
+        "article-title": "Doctor–Patient Relationship as Motivation and Outcome: Examining Uses of an Interactive Cancer Communication System",
+        "volume": "76",
+        "author": "Shaw",
+        "year": "2007",
+        "journal-title": "Int. J. Med. Inform."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3536",
+        "DOI": "10.1109/JSYST.2018.2890121",
+        "article-title": "A Comprehensive Review on Smart Decision Support Systems for Health Care",
+        "volume": "13",
+        "author": "Moreira",
+        "year": "2019",
+        "journal-title": "IEEE Syst. J."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.pmcj.2017.06.018",
+        "article-title": "Advanced Internet of Things for Personalised Healthcare Systems: A Survey",
+        "volume": "41",
+        "author": "Qi",
+        "year": "2017",
+        "journal-title": "Pervasive Mob. Comput."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1136/svn-2017-000101",
+        "article-title": "Artificial Intelligence in Healthcare: Past, Present and Future",
+        "volume": "2",
+        "author": "Jiang",
+        "year": "2017",
+        "journal-title": "Stroke Vasc. Neurol."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lopes, H., Pires, I.M., Sánchez San Blas, H., García-Ovejero, R., and Leithardt, V. (2020). PriADA: Management and Adaptation of Information Based on Data Privacy in Public Environments. Computers, 9.",
+        "DOI": "10.3390/computers9040077"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1186/s40537-019-0217-0",
+        "article-title": "Big Data in Healthcare: Management, Analysis and Future Prospects",
+        "volume": "6",
+        "author": "Dash",
+        "year": "2019",
+        "journal-title": "J. Big Data"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1007/s10916-018-1121-4",
+        "article-title": "Blockchain-Based Medical Records Secure Storage and Medical Service Framework",
+        "volume": "43",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "J. Med. Syst"
+      },
+      {
+        "key": "ref_8",
+        "first-page": "100129",
+        "article-title": "Industry 4.0 and Health: Internet of Things, Big Data, and Cloud Computing for Healthcare 4.0",
+        "volume": "18",
+        "author": "Aceto",
+        "year": "2020",
+        "journal-title": "J. Ind. Inf. Integr."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Verri Lucca, A., Augusto Silva, L., Luchtenberg, R., Garcez, L., Mao, X., García Ovejero, R., Miguel Pires, I., Luis Victória Barbosa, J., and Reis Quietinho Leithardt, V. (2020). A Case Study on the Development of a Data Privacy Management Solution Based on Patient Information. Sensors, 20.",
+        "DOI": "10.3390/s20216030"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.1016/j.schres.2019.12.034",
+        "article-title": "An Investigation of Retinal Layer Thicknesses in Unaffected First-Degree Relatives of Schizophrenia Patients",
+        "volume": "218",
+        "author": "Kurtulmus",
+        "year": "2020",
+        "journal-title": "Schizophr. Res."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1016/j.ajo.2018.03.014",
+        "article-title": "Family History in the Primary Open-Angle African American Glaucoma Genetics Study Cohort",
+        "volume": "192",
+        "author": "Salowe",
+        "year": "2018",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.optom.2016.02.003",
+        "article-title": "Glaucoma History and Risk Factors",
+        "volume": "10",
+        "author": "McMonnies",
+        "year": "2017",
+        "journal-title": "J. Optom."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "4007",
+        "DOI": "10.1167/iovs.04-1389",
+        "article-title": "Vision and Quality of Life: The Development of a Utility Measure",
+        "volume": "46",
+        "author": "Misajon",
+        "year": "2005",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1038/s41433-019-0603-z",
+        "article-title": "A Review of Systemic Medications That May Modulate the Risk of Glaucoma",
+        "volume": "34",
+        "author": "Wu",
+        "year": "2020",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1080/23808993.2020.1756770",
+        "article-title": "Personalized Approaches for the Management of Glaucoma",
+        "volume": "5",
+        "author": "Balendra",
+        "year": "2020",
+        "journal-title": "Expert Rev. Precis. Med. Drug Dev."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1080/14728214.2021.2011858",
+        "article-title": "Emerging Therapies for Dry Eye Disease",
+        "volume": "26",
+        "author": "Mason",
+        "year": "2021",
+        "journal-title": "Expert Opin. Emerg. Drugs"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajo.2019.02.003",
+        "article-title": "Fluctuations of the Intraocular Pressure in Medically Versus Surgically Treated Glaucoma Patients by a Contact Lens Sensor",
+        "volume": "203",
+        "author": "Muniesa",
+        "year": "2019",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1588",
+        "DOI": "10.1177/1120672120960337",
+        "article-title": "Effect of Dietary Modification and Antioxidant Supplementation on Intraocular Pressure and Open-Angle Glaucoma",
+        "volume": "31",
+        "author": "Jabbehdari",
+        "year": "2021",
+        "journal-title": "Eur. J. Ophthalmol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1145",
+        "DOI": "10.4103/1673-5374.235017",
+        "article-title": "Glaucomatous Optic Neuropathy Treatment Options: The Promise of Novel Therapeutics, Techniques and Tools to Help Preserve Vision",
+        "volume": "13",
+        "author": "Sharif",
+        "year": "2018",
+        "journal-title": "Neural Regen. Res."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1080/02713683.2019.1660371",
+        "article-title": "Optic Nerve Traction During Adduction in Open Angle Glaucoma with Normal versus Elevated Intraocular Pressure",
+        "volume": "45",
+        "author": "Demer",
+        "year": "2020",
+        "journal-title": "Curr. Eye Res."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "375",
+        "DOI": "10.1109/JSYST.2019.2938611",
+        "article-title": "SieveDroid: Intercepting Undesirable Private-Data Transmissions in Android Applications",
+        "volume": "14",
+        "author": "Huang",
+        "year": "2020",
+        "journal-title": "IEEE Syst. J."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chanal, P.M., and Kakkasageri, M.S. (2020). Security and Privacy in IoT: A Survey. Wirel. Pers. Commun.",
+        "DOI": "10.1007/s11277-020-07649-9"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "131723",
+        "DOI": "10.1109/ACCESS.2020.3009876",
+        "article-title": "Data Security and Privacy Protection for Cloud Storage: A Survey",
+        "volume": "8",
+        "author": "Yang",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4159",
+        "DOI": "10.1109/TII.2020.3012157",
+        "article-title": "Privacy-Aware Data Fusion and Prediction with Spatial-Temporal Context for Smart City Industrial Environment",
+        "volume": "17",
+        "author": "Qi",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Inf."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vermeulen, A.F. (2020). Unsupervised Learning: Deep Learning. Industrial Machine Learning, Apress.",
+        "DOI": "10.1007/978-1-4842-5316-8"
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "Foote, K.D. (2021, December 07). A Brief History of Deep Learning. DATAVERSITY. Available online: https://www.dataversity.net/brief-history-deep-learning."
+      },
+      {
+        "key": "ref_27",
+        "first-page": "1097",
+        "article-title": "Imagenet Classification with Deep Convolutional Neural Networks",
+        "volume": "25",
+        "author": "Krizhevsky",
+        "year": "2012",
+        "journal-title": "Adv. Neural Inf. Processing Syst."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.1186/s13007-021-00748-z",
+        "article-title": "A Handheld Device for Measuring the Diameter at Breast Height of Individual Trees Using Laser Ranging and Deep-Learning Based Image Recognition",
+        "volume": "17",
+        "author": "Song",
+        "year": "2021",
+        "journal-title": "Plant Methods"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bock, R., Meier, J., Michelson, G., Nyúl, L.G., and Hornegger, J. (2007). Classifying Glaucoma with Image-Based Features from Fundus Photographs. Joint Pattern Recognition Symposium, Springer.",
+        "DOI": "10.1007/978-3-540-74936-3_36"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "447",
+        "DOI": "10.1093/ptj/pzz173",
+        "article-title": "Inertial Sensors Embedded in Smartphones as a Tool for Fatigue Assessment Based on Acceleration in Survivors of Breast Cancer",
+        "volume": "100",
+        "author": "Pajares",
+        "year": "2020",
+        "journal-title": "Phys. Ther."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1016/j.knosys.2018.07.043",
+        "article-title": "Glaucoma Diagnosis Based on Both Hidden Features and Domain Knowledge through Deep Learning Models",
+        "volume": "161",
+        "author": "Chai",
+        "year": "2018",
+        "journal-title": "Knowl. -Based Syst."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/j.ins.2018.01.051",
+        "article-title": "Deep Convolution Neural Network for Accurate Diagnosis of Glaucoma Using Digital Fundus Images",
+        "volume": "441",
+        "author": "Raghavendra",
+        "year": "2018",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "981",
+        "DOI": "10.1007/s00592-019-01373-y",
+        "article-title": "New Imaging Systems in Diabetic Retinopathy",
+        "volume": "56",
+        "author": "Cicinelli",
+        "year": "2019",
+        "journal-title": "Acta Diabetol."
+      },
+      {
+        "key": "ref_34",
+        "first-page": "318",
+        "article-title": "Automatic Identification of Glaucoma Using Deep Learning Methods",
+        "volume": "245",
+        "author": "Cerentini",
+        "year": "2017",
+        "journal-title": "Stud. Health Technol. Inform."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1591",
+        "DOI": "10.2147/OPTH.S256755",
+        "article-title": "Individual Macular Layer Evaluation with Spectral Domain Optical Coherence Tomography in Normal and Glaucomatous Eyes",
+        "volume": "14",
+        "author": "Fujihara",
+        "year": "2020",
+        "journal-title": "Clin. Ophthalmol. (Auckl. NZ)"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1080/08820538.2021.1887899",
+        "article-title": "Anterior Segment Imaging Devices in Ophthalmic Telemedicine",
+        "volume": "36",
+        "author": "Armstrong",
+        "year": "2021",
+        "journal-title": "Semin. Ophthalmol."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ichhpujani, P., and Thakur, S. (2018). Smartphones and Telemedicine in Ophthalmology. Smart Resources in Ophthalmology, Springer.",
+        "DOI": "10.1007/978-981-13-0140-7"
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.1007/s40292-016-0143-6",
+        "article-title": "Telemedicine and M-Health in Hypertension Management: Technologies, Applications and Clinical Evidence",
+        "volume": "23",
+        "author": "Omboni",
+        "year": "2016",
+        "journal-title": "High Blood Press. Cardiovasc. Prev."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "(2019). Promising Artificial Intelligence-Machine Learning-Deep Learning Algorithms in Ophthalmology. Asia Pac. J. Ophthalmol. (Phila), 8, 264–272."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "100759",
+        "DOI": "10.1016/j.preteyeres.2019.04.003",
+        "article-title": "Deep Learning in Ophthalmology: The Technical and Clinical Considerations",
+        "volume": "72",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lidströmer, N., and Ashrafian, H. (2021). Artificial Intelligence and Deep Learning in Ophthalmology. Artificial Intelligence in Medicine, Springer International Publishing.",
+        "DOI": "10.1007/978-3-030-58080-3"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.18359/rcin.4242",
+        "article-title": "A Systematic Review of Deep Learning Methods Applied to Ocular Images",
+        "volume": "30",
+        "year": "2019",
+        "journal-title": "Cien. Ing. Neogranadina"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1016/j.jcjo.2018.04.019",
+        "article-title": "Deep Learning in Ophthalmology: A Review",
+        "volume": "53",
+        "author": "Grewal",
+        "year": "2018",
+        "journal-title": "Can. J. Ophthalmol."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pires, I.M., Denysyuk, H.V., Villasana, M.V., Sá, J., Lameski, P., Chorbev, I., Zdravevski, E., Trajkovik, V., Morgado, J.F., and Garcia, N.M. (2021). Mobile 5P-Medicine Approach for Cardiovascular Patients. Sensors, 21.",
+        "DOI": "10.3390/s21216986"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pires, I.M., Marques, G., Garcia, N.M., Flórez-Revuelta, F., Ponciano, V., and Oniani, S. (2020). A Research on the Classification and Applicability of the Mobile Health Applications. J. Pers. Med., 10.",
+        "DOI": "10.3390/jpm10010011"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Villasana, M.V., Pires, I.M., Sá, J., Garcia, N.M., Zdravevski, E., Chorbev, I., Lameski, P., and Flórez-Revuelta, F. (2020). Promotion of Healthy Nutrition and Physical Activity Lifestyles for Teenagers: A Systematic Literature Review of The Current Methodologies. J. Pers. Med., 10.",
+        "DOI": "10.3390/jpm10010012"
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Pires, I.M., Garcia, N.M., Pombo, N., and Flórez-Revuelta, F. (2018, January 26–28). Framework for the Recognition of Activities of Daily Living and Their Environments in the Development of a Personal Digital Life Coach. Proceedings of the DATA, Porto, Portugal."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferreira, F., Pires, I.M., Costa, M., Ponciano, V., Garcia, N.M., Zdravevski, E., Chorbev, I., and Mihajlov, M. (2021). A Systematic Investigation of Models for Color Image Processing in Wound Size Estimation. Computers, 10.",
+        "DOI": "10.3390/computers10040043"
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ponciano, V., Pires, I.M., Ribeiro, F.R., Garcia, N.M., Pombo, N., Spinsante, S., and Crisóstomo, R. (2019, January 25–27). Smartphone-Based Automatic Measurement of the Results of the Timed-Up and Go Test. Proceedings of the 5th EAI International Conference on Smart Objects and Technologies for Social Good, Valencia, Spain.",
+        "DOI": "10.1145/3342428.3343035"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1603",
+        "DOI": "10.1007/s11042-019-08386-3",
+        "article-title": "Perceptual Quality Assessment of 3D Videos with Stereoscopic Degradations",
+        "volume": "79",
+        "author": "Silva",
+        "year": "2020",
+        "journal-title": "Multimed. Tools Appl."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated Identification of Diabetic Retinopathy Using Deep Learning",
+        "volume": "124",
+        "author": "Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "1205",
+        "DOI": "10.3758/APP.72.5.1205",
+        "article-title": "Current Perspectives in Medical Image Perception",
+        "volume": "72",
+        "author": "Krupinski",
+        "year": "2010",
+        "journal-title": "Atten. Percept. Psychophys."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "González-Márquez, F., Luque-Romero, L., Ruiz-Romero, M.V., Castillón-Torre, L., Hernández-Martínez, F.J., Olea-Pabón, L., Moro-Muñoz, S., and García-Díaz, R. (2021). del M.; García-Garmendia, J.L. Remote Ophthalmology with a Smartphone Adapter Handled by Nurses for the Diagnosis of Eye Posterior Pole Pathologies during the COVID-19 Pandemic. J. Telemed. Telecare.",
+        "DOI": "10.1177/1357633X21994017"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1169",
+        "DOI": "10.1016/j.ajo.2013.06.035",
+        "article-title": "Identification of Persons With Incident Ocular Diseases Using Health Care Claims Databases",
+        "volume": "156",
+        "author": "Stein",
+        "year": "2013",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "e51",
+        "DOI": "10.1016/S2589-7500(20)30240-5",
+        "article-title": "A Global Review of Publicly Available Datasets for Ophthalmological Imaging: Barriers to Access, Usability, and Generalisability",
+        "volume": "3",
+        "author": "Khan",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero, F., Alayon, S., Sanchez, J.L., Sigut, J., and Gonzalez-Hernandez, M. (2011, January 27–30). RIM-ONE: An Open Retinal Image Database for Optic Nerve Evaluation. Proceedings of the 2011 24th International Symposium on Computer-Based Medical Systems (CBMS), Bristol, UK.",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "(2021, December 07). Medical Image Analysis Group. Available online: https://medimrg.webs.ull.es/."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "2055",
+        "DOI": "10.1007/s11517-019-02011-z",
+        "article-title": "Adaptive Weighted Locality-Constrained Sparse Coding for Glaucoma Diagnosis",
+        "volume": "57",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "Med. Biol. Eng. Comput."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.5566/ias.2346",
+        "article-title": "RIM-ONE DL: A Unified Retinal Image Database for Assessing Glaucoma Using Deep Learning",
+        "volume": "39",
+        "author": "Sigut",
+        "year": "2020",
+        "journal-title": "Image Anal. Stereol"
+      },
+      {
+        "key": "ref_60",
+        "unstructured": "(2021, December 07). Drishti-GS Dataset Webpage. Available online: http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy, J., Krishnadas, S.R., Datt Joshi, G., Jain, M., and Syed Tabish, A.U. (May, January 29). Drishti-GS: Retinal Image Dataset for Optic Nerve Head(ONH) Segmentation. Proceedings of the 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI), Beijing, China.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "ref_62",
+        "unstructured": "(2021, December 07). DRIONS-DB: RETINAL IMAGE DATABASE. Available online: http://www.ia.uned.es/~ejcarmona/DRIONS-DB.html."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patil, D.D., Manza, R.R., Bedke, G.C., and Rathod, D.D. (2015, January 8–10). Development of Primary Glaucoma Classification Technique Using Optic Cup & Disc Ratio. Proceedings of the 2015 International Conference on Pervasive Computing (ICPC), Pune, India.",
+        "DOI": "10.1109/PERVASIVE.2015.7087139"
+      },
+      {
+        "key": "ref_64",
+        "unstructured": "MAFFRE, G.P. (2021, December 07). Messidor-2. Available online: https://www.adcis.net/en/third-party/messidor2/."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: The messidor database",
+        "volume": "33",
+        "author": "Zhang",
+        "year": "2014",
+        "journal-title": "Image Anal. Stereol"
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1049/iet-ipr.2012.0455",
+        "article-title": "Retinal Vessel Segmentation by Improved Matched Filtering: Evaluation on a New High-resolution Fundus Image Database",
+        "volume": "7",
+        "author": "Odstrcilik",
+        "year": "2013",
+        "journal-title": "IET Image Processing"
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1109/TMI.2003.823261",
+        "article-title": "Optic Nerve Head Segmentation",
+        "volume": "23",
+        "author": "Lowell",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for Automatic Glaucoma Assessment Using Fundus Images: An Extensive Validation",
+        "volume": "18",
+        "author": "Morales",
+        "year": "2019",
+        "journal-title": "BioMed. Eng. OnLine"
+      },
+      {
+        "key": "ref_69",
+        "unstructured": "(2021, December 07). REFUGE-Grand Challenge. Available online: https://refuge.grand-challenge.org/."
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "Zhang, Z., Yin, F.S., Liu, J., Wong, W.K., Tan, N.M., Lee, B.H., Cheng, J., and Wong, T.Y. (September, January 31). ORIGA: An Online Retinal Fundus Image Database for Glaucoma Analysis and Research. Proceedings of the 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology, Buenos Aires, Argentina."
+      },
+      {
+        "key": "ref_71",
+        "first-page": "41",
+        "article-title": "Glaucoma-Deep: Detection of Glaucoma Eye Disease on Retinal Fundus Images Using Deep Learning",
+        "volume": "8",
+        "author": "Abbas",
+        "year": "2017",
+        "journal-title": "Int. J. Adv. Comput. Sci. Appl."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "article-title": "Disc-Aware Ensemble Network for Glaucoma Screening From Fundus Image",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/1472-6947-14-80",
+        "article-title": "A Survey on Computer Aided Diagnosis for Ocular Diseases",
+        "volume": "14",
+        "author": "Zhang",
+        "year": "2014",
+        "journal-title": "BMC Med. Inform. Decis. Mak."
+      },
+      {
+        "key": "ref_74",
+        "unstructured": "Chima Ambrose Dibia, and Ezenwa, N.S. (2018). Automated detection of glaucoma from retinal. Int. J. Adv. Sci. Eng. Technol., 2, 13–18."
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Phasuk, S., Poopresert, P., Yaemsuk, A., Suvannachart, P., Itthipanichpong, R., Chansangpetch, S., Manassakorn, A., Tantisevi, V., Rojanapongpun, P., and Tantibundhit, C. (2019, January 23–27). Automated Glaucoma Screening from Retinal Fundus Image Using Deep Learning. Proceedings of the 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Berlin, Germany.",
+        "DOI": "10.1109/EMBC.2019.8857136"
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sreng, S., Maneerat, N., Hamamoto, K., and Win, K.Y. (2020). Deep Learning for Optic Disc Segmentation and Glaucoma Diagnosis on Retinal Images. Appl. Sci., 10.",
+        "DOI": "10.3390/app10144916"
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maadi, F., Faraji, N., and Bibalan, M.H. (2020, January 26–27). A Robust Glaucoma Screening Method for Fundus Images Using Deep Learning Technique. Proceedings of the 2020 27th National and 5th International Iranian Conference on Biomedical Engineering (ICBME), Tehran, Iran.",
+        "DOI": "10.1109/ICBME51989.2020.9319434"
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "1104",
+        "DOI": "10.1109/JBHI.2019.2934477",
+        "article-title": "Direct Cup-to-Disc Ratio Estimation for Glaucoma Screening via Semi-Supervised Learning",
+        "volume": "24",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "first-page": "2476",
+        "DOI": "10.1109/TII.2020.3000204",
+        "article-title": "Optic Disk and Cup Segmentation Through Fuzzy Broad Learning System for Glaucoma Screening",
+        "volume": "17",
+        "author": "Ali",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Inf."
+      },
+      {
+        "key": "ref_80",
+        "first-page": "6148",
+        "article-title": "Multi-Strategy Deep Learning Method for Glaucoma Screening on Fundus Image",
+        "volume": "60",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_81",
+        "first-page": "1002",
+        "article-title": "Development and Performance of a Novel ‘Offline’ Deep Learning (DL)-Based Glaucoma Screening Tool Integrated on a Portable Smartphone-Based Fundus Camera",
+        "volume": "62",
+        "author": "Hsu",
+        "year": "2021",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_82",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.5114/ko.2020.94205",
+        "article-title": "A New Platform Designed for Glaucoma Screening: Identifying the Risk of Glaucomatous Optic Neuropathy Using Fundus Photography with Deep Learning Architecture Together with Intraocular Pressure Measurements",
+        "volume": "2020",
+        "author": "Szaflik",
+        "year": "2020",
+        "journal-title": "Klin. Ocz."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development of an End-to-End Deep Learning System for Glaucoma Screening Using Color Fundus Images",
+        "volume": "137",
+        "author": "Lee",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chakrabarty, N., and Chatterjee, S. (2019, January 27–29). A Novel Approach to Glaucoma Screening Using Computer Vision. Proceedings of the 2019 International Conference on Smart Systems and Inventive Technology (ICSSIT), Tirunelveli, India.",
+        "DOI": "10.1109/ICSSIT46314.2019.8987803"
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1007/s42979-021-00491-1",
+        "article-title": "GlaucoNet: Patch-Based Residual Deep Learning Network for Optic Disc and Cup Segmentation Towards Glaucoma Assessment",
+        "volume": "2",
+        "author": "Panda",
+        "year": "2021",
+        "journal-title": "SN COMPUT. SCI."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Y., Yip, L.W.L., Zheng, Y., and Wang, L. (2021, June 19). Glaucoma Screening Using an Attention-Guided Stereo Ensemble Network. Methods, Available online: https://doi.org/10.1016/j.ymeth.2021.06.010.",
+        "DOI": "10.1016/j.ymeth.2021.06.010"
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alghamdi, H.S., Tang, H.L., Waheeb, S.A., and Peto, T. (2016). Automatic Optic Disc Abnormality Detection in Fundus Images: A Deep Learning Approach, University of Iowa.",
+        "DOI": "10.17077/omia.1042"
+      },
+      {
+        "key": "ref_88",
+        "first-page": "140",
+        "article-title": "Deep Retinal Image Understanding",
+        "volume": "Volume 9901 LNCS",
+        "author": "Maninis",
+        "year": "2016",
+        "journal-title": "Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)"
+      },
+      {
+        "key": "ref_89",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "article-title": "Optic Disc and Cup Segmentation Methods for Glaucoma Detection with Modification of U-Net Convolutional Neural Network",
+        "volume": "27",
+        "author": "Sevastopolsky",
+        "year": "2017",
+        "journal-title": "Pattern Recognit. Image Anal."
+      },
+      {
+        "key": "ref_90",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.22161/ijaers.4.5.27",
+        "article-title": "Segmentation of Optic Disc in Fundus Images Using Convolutional Neural Networks for Detection of Glaucoma",
+        "volume": "4",
+        "author": "Priyanka",
+        "year": "2017",
+        "journal-title": "Int. J. Adv. Eng. Res. Sci."
+      },
+      {
+        "key": "ref_91",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.jocs.2017.02.006",
+        "article-title": "Segmentation of Optic Disc, Fovea and Retinal Vasculature Using a Single Convolutional Neural Network",
+        "volume": "20",
+        "author": "Tan",
+        "year": "2017",
+        "journal-title": "J. Comput. Sci."
+      },
+      {
+        "key": "ref_92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, X., Xu, Y., Zhao, W., You, T., and Liu, J. (2018, January 18–21). Optic Disc Segmentation from Retinal Fundus Images via Deep Object Detection Networks. Proceedings of the 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Honolulu, HI, USA.",
+        "DOI": "10.1109/EMBC.2018.8513592"
+      },
+      {
+        "key": "ref_93",
+        "first-page": "373",
+        "article-title": "Retinal Optic Disc Segmentation Using Conditional Generative Adversarial Network",
+        "volume": "308",
+        "author": "Singh",
+        "year": "2018",
+        "journal-title": "Front. Artif. Intell. Appl."
+      },
+      {
+        "key": "ref_94",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1109/TMI.2019.2903434",
+        "article-title": "Retinal Image Synthesis and Semi-Supervised Learning for Glaucoma Assessment",
+        "volume": "38",
+        "author": "Colomer",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gonzalez-Hernandez, M., Gonzalez-Hernandez, D., Perez-Barbudo, D., Rodriguez-Esteve, P., Betancor-Caro, N., and Gonzalez de la Rosa, M. (2021). Fully Automated Colorimetric Analysis of the Optic Nerve Aided by Deep Learning and Its Association with Perimetry and OCT for the Study of Glaucoma. JCM, 10.",
+        "DOI": "10.3390/jcm10153231"
+      },
+      {
+        "key": "ref_96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, R., Wang, X., Wei, Y., Fang, Y., Tian, T., Kang, L., Li, M., Cai, Y., and Pan, Y. (2021). Diagnostic Capability of Different Morphological Parameters for Primary Open-angle Glaucoma in the Chinese Population. BMC Ophthalmol., 21.",
+        "DOI": "10.1186/s12886-021-01906-6"
+      },
+      {
+        "key": "ref_97",
+        "first-page": "669",
+        "article-title": "Automatic Feature  Learning for Glaucoma Detection Based on Deep Learning",
+        "volume": "Volume 9351",
+        "author": "Chen",
+        "year": "2015",
+        "journal-title": "Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)"
+      },
+      {
+        "key": "ref_98",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1007/978-3-030-00949-6_22",
+        "article-title": "Segmentation of Corneal Nerves Using a U-Net-Based Convolutional Neural Network",
+        "volume": "Volume 11039",
+        "author": "Stoyanov",
+        "year": "2018",
+        "journal-title": "Computational Pathology and Ophthalmic Medical Image Analysis"
+      },
+      {
+        "key": "ref_99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edupuganti, V.G., Chawla, A., and Kale, A. (2018, January 7–10). Automatic Optic Disk and Cup Segmentation of Fundus Images Using Deep Learning. Proceedings of the 25th IEEE International Conference on Image Processing, Athens, Greece.",
+        "DOI": "10.1109/ICIP.2018.8451753"
+      },
+      {
+        "key": "ref_100",
+        "first-page": "31",
+        "article-title": "Glaucoma Diagnosis Using Cooperative Convolutional Neural Networks",
+        "volume": "5",
+        "author": "Benzebouchi",
+        "year": "2018",
+        "journal-title": "Int. J. Adv. Electron. Comput. Sci."
+      },
+      {
+        "key": "ref_101",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0207982",
+        "DOI": "10.1371/journal.pone.0207982",
+        "article-title": "A Deep Learning Model for the Detection of Both Advanced and Early Glaucoma Using Fundus Photography",
+        "volume": "13",
+        "author": "Ahn",
+        "year": "2018",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "ref_102",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.bspc.2017.09.008",
+        "article-title": "Multiscale Sequential Convolutional Neural Networks for Simultaneous Detection of Fovea and Optic Disc",
+        "volume": "40",
+        "author": "Williams",
+        "year": "2018",
+        "journal-title": "Biomed. Signal Processing Control"
+      },
+      {
+        "key": "ref_104",
+        "unstructured": "Angelini, E.D., and Landman, B.A. (2019). Stack-U-Net: Refinement Network for Improved Optic Disc and Cup Image Segmentation., SPIE Medical Imaging."
+      },
+      {
+        "key": "ref_105",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1038/s41746-021-00417-4",
+        "article-title": "A Hierarchical Deep Learning Approach with Transparency and Interpretability Based on Small Samples for Glaucoma Diagnosis",
+        "volume": "4",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "Npj Digit. Med."
+      },
+      {
+        "key": "ref_106",
+        "doi-asserted-by": "crossref",
+        "first-page": "20313",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep Learning on Fundus Images Detects Glaucoma beyond the Optic Disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, M., Han, J.C., Hyun, S.H., Janssens, O., Van Hoecke, S., Kee, C., and De Neve, W. (2019). Medinoid: Computer-Aided Diagnosis and Localization of Glaucoma Using Deep Learning †. Appl. Sci., 9.",
+        "DOI": "10.3390/app9153064"
+      },
+      {
+        "key": "ref_108",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.compmedimag.2019.02.005",
+        "article-title": "Robust Optic Disc and Cup Segmentation with Deep Learning for Glaucoma Detection",
+        "volume": "74",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1159/000337842",
+        "article-title": "Ophthalmic Features of Optic Disc Drusen",
+        "volume": "228",
+        "author": "Gili",
+        "year": "2012",
+        "journal-title": "Ophthalmologica"
+      },
+      {
+        "key": "ref_110",
+        "doi-asserted-by": "crossref",
+        "first-page": "1660",
+        "DOI": "10.1097/IAE.0000000000001414",
+        "article-title": "Image quality and artifacts on optical coherence tomography angiography: Comparison of Pathologic and Paired Fellow Eyes in 65 Patients With Unilateral Choroidal Melanoma Treated With Plaque Radiotherapy",
+        "volume": "37",
+        "author": "Say",
+        "year": "2017",
+        "journal-title": "Retina"
+      },
+      {
+        "key": "ref_111",
+        "first-page": "33",
+        "article-title": "Analysis of Retinal Images Using Detection of the Blood Vessels by Optic Disc and Optic Cup Segmentation Method",
+        "volume": "3",
+        "author": "Princy",
+        "year": "2016",
+        "journal-title": "Int. Sci. J. Sci. Eng. Technol."
+      },
+      {
+        "key": "ref_112",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1016/j.media.2009.12.006",
+        "article-title": "Glaucoma Risk Index:Automated Glaucoma Detection from Color Fundus Images",
+        "volume": "14",
+        "author": "Bock",
+        "year": "2010",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_113",
+        "unstructured": "Bhartiya, S., Clement, C., Dorairaj, S., Kong, G.Y.X., and Albis-Donado, O. (2019). Clinical Decision Making in Glaucoma, Jaypee Brothers Medical Publishers."
+      },
+      {
+        "key": "ref_114",
+        "doi-asserted-by": "crossref",
+        "first-page": "e27414",
+        "DOI": "10.2196/27414",
+        "article-title": "Accuracy of Using Generative Adversarial Networks for Glaucoma Detection: Systematic Review and Bibliometric Analysis",
+        "volume": "23",
+        "author": "Saeed",
+        "year": "2021",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "key": "ref_115",
+        "doi-asserted-by": "crossref",
+        "first-page": "1095",
+        "DOI": "10.1080/17434440.2020.1816167",
+        "article-title": "Recent Advances in Imaging Technologies for Assessment of Retinal Diseases",
+        "volume": "17",
+        "author": "Soomro",
+        "year": "2020",
+        "journal-title": "Expert Rev. Med. Devices"
+      },
+      {
+        "key": "ref_116",
+        "doi-asserted-by": "crossref",
+        "first-page": "101454",
+        "DOI": "10.1016/j.bspc.2019.01.003",
+        "article-title": "An Automated Glaucoma Screening System Using Cup-to-Disc Ratio via Simple Linear Iterative Clustering Superpixel Approach",
+        "volume": "53",
+        "author": "Mohamed",
+        "year": "2019",
+        "journal-title": "Biomed. Signal Processing Control"
+      },
+      {
+        "key": "ref_117",
+        "first-page": "5194",
+        "article-title": "Focal Loss Analysis of Nerve Fiber Layer Reflectance for Glaucoma Diagnosis",
+        "volume": "61",
+        "author": "Tan",
+        "year": "2020",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_118",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.15353/cjo.v79i1.1606",
+        "article-title": "Screening, Diagnosis, and Management of Open Angle Glaucoma: An Evidence-Based Guideline for Canadian Optometrists",
+        "volume": "79",
+        "author": "MacIver",
+        "year": "2017",
+        "journal-title": "Can. J. Optom."
+      },
+      {
+        "key": "ref_119",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Claro, M., Santos, L., Silva, W., Araújo, F., and Santana, A.D.A. (2015, January 19–23). Automatic Detection of Glaucoma Using Disc Optic Segmentation and Feature Extraction. Proceedings of the 2015 41st Latin American Computing Conference, CLEI 2015, Arequipa, Peru.",
+        "DOI": "10.1109/CLEI.2015.7360047"
+      },
+      {
+        "key": "ref_120",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.22456/2175-2745.76387",
+        "article-title": "Glaucoma Diagnosis Using Texture Attributes and Pre-Trained CNN’s",
+        "volume": "25",
+        "author": "Claro",
+        "year": "2018",
+        "journal-title": "Rev. Inf. Te orica e Aplicada-RITA-ISSN"
+      },
+      {
+        "key": "ref_121",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1016/j.bspc.2015.09.003",
+        "article-title": "Segmentation of Optic Disk and Optic Cup from Digital Fundus Images for the Assessment of Glaucoma",
+        "volume": "24",
+        "author": "Mittapalli",
+        "year": "2016",
+        "journal-title": "Biomed. Signal Processing Control"
+      },
+      {
+        "key": "ref_122",
+        "doi-asserted-by": "crossref",
+        "first-page": "786",
+        "DOI": "10.1109/TMI.2013.2238244",
+        "article-title": "Automatic detection of optic disc based on PCA and mathematical morphology",
+        "volume": "32",
+        "author": "Morales",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_123",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.13005/bpj/626",
+        "article-title": "Segmentation and Localization of Optic Disc Using Feature Match and Medial Axis Detection in Retinal Images",
+        "volume": "8",
+        "author": "Pradhepa",
+        "year": "2015",
+        "journal-title": "Biomed. Pharmacol. J."
+      },
+      {
+        "key": "ref_124",
+        "first-page": "8887",
+        "article-title": "Glaucoma Screening Using Digital Fundus Image through Optic Disc and Cup Segmentation",
+        "volume": "975",
+        "author": "Lotankar",
+        "year": "2015",
+        "journal-title": "Int. J. Comput. Appl."
+      },
+      {
+        "key": "ref_125",
+        "first-page": "8",
+        "article-title": "ANN Glaucoma Detection Using Cup-to-Disk Ratio and Neuroretinal Rim",
+        "volume": "111",
+        "author": "Choudhary",
+        "year": "2015",
+        "journal-title": "Int. J. Comput. Appl."
+      },
+      {
+        "key": "ref_126",
+        "unstructured": "Müller, H., and González, F.A. (2018, January 16–20). Glaucoma Diagnosis from Eye Fundus Images Based on Deep Morphometric Feature Estimation. Proceedings of the Computational Pathology and Ophthalmic Medical Image Analysis: First International Workshop, COMPAY 2018, and 5th International Workshop, OMIA 2018, Held in Conjunction with MICCAI 2018, Granada, Spain."
+      },
+      {
+        "key": "ref_127",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lima, A., Maia, L.B., dos Santos, P.T.C., Junior, G.B., de Almeida, J.D., and de Paiva, A.C. (2018). Evolving Convolutional Neural Networks for Glaucoma Diagnosis. Proceedings of the Anais do XVIII Simpósio Brasileiro de Computação Aplicada à Saúde, SBC.",
+        "DOI": "10.5753/sbcas.2018.3687"
+      },
+      {
+        "key": "ref_128",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1155/2015/180972",
+        "article-title": "Optic Disc and Optic Cup Segmentation Methodologies for Glaucoma Image Detection: A Survey",
+        "volume": "2015",
+        "author": "Almazroa",
+        "year": "2015",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "ref_129",
+        "unstructured": "Chakravarty, A., and Sivswamy, J. (2018). A Deep Learning Based Joint Segmentation and Classification Framework for Glaucoma Assesment in Retinal Color Fundus Images. arXiv."
+      },
+      {
+        "key": "ref_130",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lim, G., Cheng, Y., Hsu, W., and Lee, M.L. (2015, January 9–11). Integrated Optic Disc and Cup Segmentation with Deep Learning. Proceedings of the 2015 IEEE 27th International Conference on Tools with Artificial Intelligence (ICTAI), Vietri sul Mare, Italy.",
+        "DOI": "10.1109/ICTAI.2015.36"
+      },
+      {
+        "key": "ref_131",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.cmpb.2018.08.003",
+        "article-title": "The Region of Interest Localization for Glaucoma Analysis from Retinal Fundus Image Using Deep Learning",
+        "volume": "165",
+        "author": "Mitra",
+        "year": "2018",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "ref_132",
+        "doi-asserted-by": "crossref",
+        "first-page": "101758",
+        "DOI": "10.1016/j.artmed.2019.101758",
+        "article-title": "Ophthalmic Diagnosis Using Deep Learning with Fundus Images—A Critical Review",
+        "volume": "102",
+        "author": "Sengupta",
+        "year": "2020",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "key": "ref_133",
+        "doi-asserted-by": "crossref",
+        "first-page": "1417",
+        "DOI": "10.1109/JBHI.2019.2899403",
+        "article-title": "Fully Convolutional Networks for Monocular Retinal Depth Estimation and Optic Disc-Cup Segmentation",
+        "volume": "23",
+        "author": "Shankaranarayana",
+        "year": "2019",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_134",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic Glaucoma Classification Using Color Fundus Images Based on Convolutional Neural Networks and Transfer Learning",
+        "volume": "10",
+        "author": "Fatti",
+        "year": "2019",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "ref_135",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kabir, M.A. (2020, January 5–7). Retinal Blood Vessel Extraction Based on Adaptive Segmentation Algorithm. Proceedings of the 2020 IEEE Region 10 Symposium (TENSYMP), Dhaka, Bangladesh.",
+        "DOI": "10.1109/TENSYMP50017.2020.9230962"
+      },
+      {
+        "key": "ref_136",
+        "doi-asserted-by": "crossref",
+        "first-page": "105341",
+        "DOI": "10.1016/j.cmpb.2020.105341",
+        "article-title": "Offline Computer-Aided Diagnosis for Glaucoma Detection Using Fundus Images Targeted at Mobile Devices",
+        "volume": "192",
+        "author": "Martins",
+        "year": "2020",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "ref_137",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bajwa, M.N., Singh, G.A.P., Neumeier, W., Malik, M.I., Dengel, A., and Ahmed, S. (2020, January 19–24). G1020: A Benchmark Retinal Fundus Image Dataset for Computer-Aided Glaucoma Detection. Proceedings of the 2020 International Joint Conference on Neural Networks (IJCNN), Glasgow, UK.",
+        "DOI": "10.1109/IJCNN48605.2020.9207664"
+      },
+      {
+        "key": "ref_138",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Krishnan, R., Sekhar, V., Sidharth, J., Gautham, S., and Gopakumar, G. (2020, January 28–30). Glaucoma Detection from Retinal Fundus Images. Proceedings of the 2020 International Conference on Communication and Signal Processing (ICCSP), Chennai, India.",
+        "DOI": "10.1109/ICCSP48568.2020.9182388"
+      },
+      {
+        "key": "ref_139",
+        "doi-asserted-by": "crossref",
+        "first-page": "102733",
+        "DOI": "10.1109/ACCESS.2020.2998635",
+        "article-title": "CDED-Net: Joint Segmentation of Optic Disc and Optic Cup for Glaucoma Screening",
+        "volume": "8",
+        "author": "Tabassum",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_140",
+        "first-page": "977",
+        "article-title": "Mutations in Crystallin Genes Result in Congenital Cataract Associated with Other Ocular Abnormalities",
+        "volume": "23",
+        "author": "Sun",
+        "year": "2017",
+        "journal-title": "Mol. Vis."
+      },
+      {
+        "key": "ref_141",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep Learning and Glaucoma Specialists: The Relative Importance of Optic Disc Features to Predict Glaucoma Referral in Fundus Photographs",
+        "volume": "126",
+        "author": "Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_142",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images from Multiethnic Populations with Diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA—J. Am. Med. Assoc."
+      },
+      {
+        "key": "ref_143",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Serener, A., and Serte, S. (2019, January 3–5). Transfer Learning for Early and Advanced Glaucoma Detection with Convolutional Neural Networks. Proceedings of the 2019 Medical Technologies Congress (TIPTEKNO), Izmir, Turkey.",
+        "DOI": "10.1109/TIPTEKNO.2019.8894965"
+      },
+      {
+        "key": "ref_144",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Norouzifard, M., Nemati, A., Gholamhosseini, H., Klette, R., Nouri-Mahdavi, K., and Yousefi, S. (2018, January 19–21). Automated Glaucoma Diagnosis Using Deep and Transfer Learning: Proposal of a System for Clinical Testing. Proceedings of the 2018 International Conference on Image and Vision Computing New Zealand (IVCNZ), Auckland, New Zealand.",
+        "DOI": "10.1109/IVCNZ.2018.8634671"
+      },
+      {
+        "key": "ref_145",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/j.compmedimag.2016.07.012",
+        "article-title": "Glaucoma Detection Using Entropy Sampling and Ensemble Learning for Automatic Optic Cup and Disc Segmentation",
+        "volume": "55",
+        "author": "Zilly",
+        "year": "2017",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "ref_146",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Panda, R., Puhan, N.B., Rao, A., Padhy, D., and Panda, G. (2017, January 18–21). Recurrent Neural Network Based Retinal Nerve Fiber Layer Defect Detection in Early Glaucoma. Proceedings of the 2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017), Melbourne, VIC, Australia.",
+        "DOI": "10.1109/ISBI.2017.7950614"
+      },
+      {
+        "key": "ref_147",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.4258/hir.2018.24.4.335",
+        "article-title": "Automated Detection of Retinal Nerve Fiber Layer by Texture-Based Analysis for Glaucoma Evaluation",
+        "volume": "24",
+        "author": "Septiarini",
+        "year": "2018",
+        "journal-title": "Healthc. Inform. Res."
+      },
+      {
+        "key": "ref_148",
+        "doi-asserted-by": "crossref",
+        "first-page": "3351",
+        "DOI": "10.1109/JBHI.2020.3011805",
+        "article-title": "How to Extract More Information With Less Burden: Fundus Image Classification and Retinal Disease Localization With Ophthalmologist Intervention",
+        "volume": "24",
+        "author": "Meng",
+        "year": "2020",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_149",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1038/s41746-020-00329-9",
+        "article-title": "Development and Clinical Deployment of a Smartphone-Based Visual Field Deep Learning System for Glaucoma Detection",
+        "volume": "3",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "ref_150",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, P., Geng, L., Zhu, W., Shi, F., and Chen, X. (2020). Automatic Angle-Closure Glaucoma Screening Based on the Localization of Scleral Spur in Anterior Segment OCT. Proceedings of the 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), IEEE.",
+        "DOI": "10.1109/ISBI45749.2020.9098594"
+      },
+      {
+        "key": "ref_151",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gupta, K., Thakur, A., Goldbaum, M., and Yousefi, S. (2020). Glaucoma Precognition: Recognizing Preclinical Visual Functional Signs of Glaucoma. Proceedings of the 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), IEEE.",
+        "DOI": "10.1109/CVPRW50498.2020.00518"
+      },
+      {
+        "key": "ref_152",
+        "doi-asserted-by": "crossref",
+        "first-page": "251584141982717",
+        "DOI": "10.1177/2515841419827172",
+        "article-title": "Embedded Deep Learning in Ophthalmology: Making Ophthalmic Imaging Smarter",
+        "volume": "11",
+        "author": "Teikari",
+        "year": "2019",
+        "journal-title": "Ophthalmol. Eye Dis."
+      },
+      {
+        "key": "ref_153",
+        "unstructured": "Plötz, T., and Roth, S. (2018). Neural Nearest Neighbors Networks. arXiv."
+      },
+      {
+        "key": "ref_154",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1016/j.ogla.2018.06.002",
+        "article-title": "de los A.; Schuman, J.S. Glaucoma Diagnosis",
+        "volume": "1",
+        "author": "Anderson",
+        "year": "2018",
+        "journal-title": "Ophthalmol. Glaucoma"
+      },
+      {
+        "key": "ref_155",
+        "first-page": "98",
+        "article-title": "Patient Literacy Levels within an Inner-City Optometry Clinic",
+        "volume": "79",
+        "author": "Goodfellow",
+        "year": "2008",
+        "journal-title": "Optom. -J. Am. Optom. Assoc."
+      },
+      {
+        "key": "ref_156",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2017.07.010",
+        "article-title": "Glaucoma Screening in Nepal: Cup-to-Disc Estimate With Standard Mydriatic Fundus Camera Compared to Portable Nonmydriatic Camera",
+        "volume": "182",
+        "author": "Miller",
+        "year": "2017",
+        "journal-title": "Am. J. Ophthalmol."
+      }
+    ],
+    "container-title": [
+      "Journal of Imaging"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2313-433X/8/2/19/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T22:04:43Z",
+      "timestamp": 1760133883000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2313-433X/8/2/19"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          20
+        ]
+      ]
+    },
+    "references-count": 156,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "jimaging8020019"
+    ],
+    "URL": "https://doi.org/10.3390/jimaging8020019",
+    "relation": {},
+    "ISSN": [
+      "2313-433X"
+    ],
+    "issn-type": [
+      {
+        "value": "2313-433X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          20
+        ]
+      ]
+    }
+  }
+}

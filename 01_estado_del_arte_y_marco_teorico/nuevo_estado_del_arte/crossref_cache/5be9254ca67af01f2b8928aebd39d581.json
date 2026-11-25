@@ -1,0 +1,949 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T16:10:46Z",
+      "timestamp": 1792858246793,
+      "version": "4.5.0"
+    },
+    "reference-count": 60,
+    "publisher": "Elsevier BV",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              11
+            ]
+          ],
+          "date-time": "2026-06-11T00:00:00Z",
+          "timestamp": 1781136000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012643",
+        "name": "Ohio Lions Eye Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100012643",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P30EY032857"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "P30EY032857"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2026.101292",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2026-06-17T06:48:21Z",
+      "timestamp": 1781678901000
+    },
+    "page": "101292",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Artificial Intelligence-Driven Multimodal Prediction of 10-Year Incident Glaucoma Integrating Genetic and Deep Learning–Derived Imaging Features"
+    ],
+    "prefix": "10.1016",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Fengze",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7251-8218",
+        "authenticated-orcid": false,
+        "given": "Xiaoyi Raymond",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "9",
+        "key": "10.1016/j.xops.2026.101292_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3064",
+        "DOI": "10.1172/JCI43085",
+        "article-title": "Glaucoma: genes, phenotypes, and new directions for therapy",
+        "volume": "120",
+        "author": "Fan",
+        "year": "2010",
+        "journal-title": "J Clin Invest"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/nrdp.2016.67",
+        "article-title": "Primary open-angle glaucoma",
+        "volume": "2",
+        "author": "Weinreb",
+        "year": "2016",
+        "journal-title": "Nat Rev Dis Primers"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.xops.2026.101292_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101292_bib4",
+        "first-page": "253",
+        "article-title": "Glaucoma: diagnosis and management",
+        "volume": "107",
+        "author": "Michels",
+        "year": "2023",
+        "journal-title": "Am Fam Physician"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.maturitas.2022.05.002",
+        "article-title": "Glaucoma–risk factors and current challenges in the diagnosis of a leading cause of visual impairment",
+        "volume": "163",
+        "author": "Lee",
+        "year": "2022",
+        "journal-title": "Maturitas"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.xops.2026.101292_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1097",
+        "DOI": "10.1056/NEJM199304153281507",
+        "article-title": "Open-angle glaucoma",
+        "volume": "328",
+        "author": "Quigley",
+        "year": "1993",
+        "journal-title": "The New Engl J Med"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101292_bib7",
+        "first-page": "323",
+        "article-title": "The global impact of glaucoma",
+        "volume": "72",
+        "author": "Thylefors",
+        "year": "1994",
+        "journal-title": "Bull World Health Organ"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1038/s41598-022-26798-4",
+        "article-title": "Screening fundus photography predicts and reveals risk factors for glaucoma conversion in eyes with large optic disc cupping",
+        "volume": "13",
+        "author": "Kim",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1016/j.ajo.2021.04.021",
+        "article-title": "Automated detection of glaucoma with interpretable machine learning using clinical data and multimodal retinal images",
+        "volume": "231",
+        "author": "Mehta",
+        "year": "2021",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.xops.2026.101292_bib10",
+        "first-page": "5566",
+        "article-title": "Frequency of gonioscopy and pachymetry on first visit glaucoma patients",
+        "volume": "55",
+        "author": "Ma",
+        "year": "2014",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101292_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "788",
+        "DOI": "10.1167/iovs.17-23713",
+        "article-title": "Challenges to the common clinical paradigm for diagnosis of glaucomatous damage with OCT and visual fields",
+        "volume": "59",
+        "author": "Hood",
+        "year": "2018",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.2147/OPTH.S120398",
+        "article-title": "Cost and detection rate of glaucoma screening with imaging devices in a primary care center",
+        "volume": "11",
+        "author": "Anton",
+        "year": "2017",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.xops.2026.101292_bib13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2214-109X(19)30395-X",
+        "article-title": "Is it time to consider glaucoma screening cost-effective?",
+        "volume": "7",
+        "author": "Kanclerz",
+        "year": "2019",
+        "journal-title": "The Lancet Glob Health"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1258",
+        "DOI": "10.1038/s41467-020-20851-4",
+        "article-title": "Genome-wide meta-analysis identifies 127 open-angle glaucoma loci with consistent effect across ancestries",
+        "volume": "12",
+        "author": "Gharahkhani",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.xops.2026.101292_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1486",
+        "DOI": "10.1093/hmg/ddy053",
+        "article-title": "Genome-wide association study identifies seven novel susceptibility loci for primary open-angle glaucoma",
+        "volume": "27",
+        "author": "Shiga",
+        "year": "2018",
+        "journal-title": "Hum Mol Genet"
+      },
+      {
+        "issue": "7256",
+        "key": "10.1016/j.xops.2026.101292_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1038/nature08185",
+        "article-title": "Common polygenic variation contributes to risk of schizophrenia and bipolar disorder",
+        "volume": "460",
+        "author": "Consortium",
+        "year": "2009",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.xops.2026.101292_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1038/s41576-018-0018-x",
+        "article-title": "The personal and clinical utility of polygenic risk scores",
+        "volume": "19",
+        "author": "Torkamani",
+        "year": "2018",
+        "journal-title": "Nat Rev Genet"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101292_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1001/jamacardio.2022.4466",
+        "article-title": "Predictive utility of a coronary artery disease polygenic risk score in primary prevention",
+        "volume": "8",
+        "author": "Marston",
+        "year": "2023",
+        "journal-title": "JAMA Cardiol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "450",
+        "DOI": "10.1038/s41598-023-27551-1",
+        "article-title": "Explainable machine learning aggregates polygenic risk scores and electronic health records for Alzheimer's disease prediction",
+        "volume": "13",
+        "author": "Gao",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101292_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1167/tvst.8.2.10",
+        "article-title": "Polygenic risk Score is associated with intraocular pressure and improves glaucoma prediction in the UK biobank cohort",
+        "volume": "8",
+        "author": "Gao",
+        "year": "2019",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "7981",
+        "key": "10.1016/j.xops.2026.101292_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib22",
+        "article-title": "REFUGE2 challenge: a treasure trove for multi-dimension analysis and evaluation in glaucoma screening",
+        "author": "Fang",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1038/s41586-025-09529-3",
+        "article-title": "Learning the natural history of human disease with generative transformers",
+        "volume": "647",
+        "author": "Shmatko",
+        "year": "2025",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3767",
+        "DOI": "10.1038/s41467-025-58724-3",
+        "article-title": "UKB-MDRMF: a multi-disease risk and multimorbidity framework based on UK biobank data",
+        "volume": "16",
+        "author": "Jiang",
+        "year": "2025",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "7544",
+        "DOI": "10.1038/s41598-023-34303-8",
+        "article-title": "Multimodal fusion models for pulmonary embolism mortality prediction",
+        "volume": "13",
+        "author": "Cahan",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.xops.2026.101292_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2131",
+        "DOI": "10.1109/TCBB.2019.2911071",
+        "article-title": "XGBoost model for chronic kidney disease diagnosis",
+        "volume": "17",
+        "author": "Ogunleye",
+        "year": "2019",
+        "journal-title": "IEEE/ACM Trans Comput Biol Bioinform"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101292_bib27",
+        "first-page": "917",
+        "article-title": "Thyroid disease prediction using XGBoost algorithms",
+        "volume": "18",
+        "author": "Sankar",
+        "year": "2022",
+        "journal-title": "J Mobile Multimedia"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1038/s42256-019-0138-9",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "author": "Lundberg",
+        "year": "2020",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101292_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pmed.1001779",
+        "article-title": "UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age",
+        "volume": "12",
+        "author": "Sudlow",
+        "year": "2015",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib30",
+        "series-title": "Science Translational Medicine",
+        "first-page": "224ed4",
+        "article-title": "UK biobank data: come and get it",
+        "volume": "6",
+        "author": "Allen",
+        "year": "2014"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "4494",
+        "DOI": "10.1038/s41598-024-55056-y",
+        "article-title": "Automated vertical cup-to-disc ratio determination from fundus images for glaucoma detection",
+        "volume": "14",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41746-026-02752-w",
+        "article-title": "AUBADE-syn: a novel deep learning ensemble method for glaucoma detection using synthetic fundus images on imbalanced datasets",
+        "author": "Wu",
+        "year": "2026",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "324",
+        "DOI": "10.1016/j.ajo.2025.12.013",
+        "article-title": "Global glaucoma prevalence: burden and projection to 2060",
+        "volume": "283",
+        "author": "Wang",
+        "year": "2026",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.xops.2026.101292_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1167/tvst.12.10.18",
+        "article-title": "Identifying, understanding, and addressing disparities in glaucoma care in the United States",
+        "volume": "12",
+        "author": "Davuluru",
+        "year": "2023",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101292_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1167/iovs.66.2.48",
+        "article-title": "Lung function as a biomarker for glaucoma: the UK biobank Study",
+        "volume": "66",
+        "author": "Yu",
+        "year": "2025",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1016/j.ophtha.2020.06.067",
+        "article-title": "Cardiovascular disease predicts structural and functional progression in early glaucoma",
+        "volume": "128",
+        "author": "Marshall",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.xops.2026.101292_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.1016/j.ophtha.2020.12.009",
+        "article-title": "Intraocular pressure, glaucoma, and dietary caffeine consumption: a gene–diet interaction study from the UK biobank",
+        "volume": "128",
+        "author": "Kim",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2006.09.036",
+        "article-title": "Changes in corneal biomechanics and intraocular pressure following LASIK using static, dynamic, and noncontact tonometry",
+        "volume": "143",
+        "author": "Pepose",
+        "year": "2007",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2255",
+        "DOI": "10.2147/OPTH.S236114",
+        "article-title": "Corneal hysteresis as a biomarker of glaucoma: current insights",
+        "volume": "14",
+        "author": "Zimprich",
+        "year": "2020",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "7376",
+        "DOI": "10.1038/s41467-022-35188-3",
+        "article-title": "Whole-exome sequencing study identifies rare variants and genes associated with intraocular pressure and glaucoma",
+        "volume": "13",
+        "author": "Gao",
+        "year": "2022",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101292_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "160",
+        "DOI": "10.1038/s41588-019-0556-y",
+        "article-title": "Multitrait analysis of glaucoma identifies new risk loci and enables polygenic prediction of disease susceptibility and progression",
+        "volume": "52",
+        "author": "Craig",
+        "year": "2020",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.xops.2026.101292_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1067",
+        "DOI": "10.1038/s41588-018-0176-y",
+        "article-title": "Genome-wide association study of intraocular pressure uncovers new pathways to glaucoma",
+        "volume": "50",
+        "author": "MacGregor",
+        "year": "2018",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib43",
+        "article-title": "Enhancing Glaucoma prediction across ancestries: integrating functional annotation into multi-trait polygenic risk scores",
+        "volume": "17",
+        "author": "Gao",
+        "year": "2026",
+        "journal-title": "Front Genet"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.xops.2026.101292_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "767",
+        "DOI": "10.1038/s41588-024-01704-y",
+        "article-title": "Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries",
+        "volume": "56",
+        "author": "Zheng",
+        "year": "2024",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib45",
+        "series-title": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+        "first-page": "7464",
+        "author": "Wang",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "Refuge challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med image Anal"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101292_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1111/j.2517-6161.1958.tb00292.x",
+        "article-title": "The regression analysis of binary sequences",
+        "volume": "20",
+        "author": "Cox",
+        "year": "1958",
+        "journal-title": "J R Stat Soc Ser B: Stat Methodol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib48",
+        "volume": "1",
+        "author": "Fix",
+        "year": "1985"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101292_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1023/A:1022627411411",
+        "article-title": "Support-vector networks",
+        "volume": "20",
+        "author": "Cortes",
+        "year": "1995",
+        "journal-title": "Machine Learn"
+      },
+      {
+        "issue": "6088",
+        "key": "10.1016/j.xops.2026.101292_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1038/323533a0",
+        "article-title": "Learning representations by back-propagating errors",
+        "volume": "323",
+        "author": "Rumelhart",
+        "year": "1986",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib51",
+        "series-title": "Tabnet: Attentive interpretable tabular learning",
+        "first-page": "6679",
+        "volume": "35",
+        "author": "Arik",
+        "year": "2021"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1023/A:1022643204877",
+        "article-title": "Induction of decision trees",
+        "volume": "1",
+        "author": "Quinlan",
+        "year": "1986",
+        "journal-title": "Machine Learn"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101292_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1023/A:1010933404324",
+        "article-title": "Random forests",
+        "volume": "45",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Machine Learn"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib54",
+        "first-page": "6638",
+        "article-title": "CatBoost: unbiased boosting with categorical features",
+        "volume": "31",
+        "author": "Prokhorenkova",
+        "year": "2018",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib55",
+        "article-title": "Lightgbm: a highly efficient gradient boosting decision tree",
+        "volume": "30",
+        "author": "Ke",
+        "year": "2017",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib56",
+        "series-title": "Xgboost: A scalable tree boosting system",
+        "first-page": "785",
+        "author": "Chen",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib57",
+        "series-title": "Optuna: A next-generation hyperparameter optimization framework",
+        "first-page": "2623",
+        "author": "Akiba",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib58",
+        "first-page": "4766",
+        "article-title": "A unified approach to interpreting model predictions",
+        "volume": "30",
+        "author": "Lundberg",
+        "year": "2017",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101292_bib59",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.artmed.2024.103050",
+        "article-title": "Glaucoma detection: binocular approach and clinical data in machine learning",
+        "volume": "160",
+        "author": "Kovalyk-Borodyak",
+        "year": "2025",
+        "journal-title": "Artif Intellig Med"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.xops.2026.101292_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "336",
+        "DOI": "10.1016/j.ogla.2019.06.003",
+        "article-title": "Diagnostic accuracy of spectral-domain Oct circumpapillary, optic nerve head, and macular parameters in the detection of perimetric glaucoma",
+        "volume": "2",
+        "author": "McCann",
+        "year": "2019",
+        "journal-title": "Ophthalmol Glaucoma"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526002307?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526002307?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T08:14:22Z",
+      "timestamp": 1786954462000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914526002307"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "references-count": 60,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914526002307"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2026.101292",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Artificial Intelligence-Driven Multimodal Prediction of 10-Year Incident Glaucoma Integrating Genetic and Deep Learning–Derived Imaging Features",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2026.101292",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 American Academy of Ophthalmology, Inc. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101292"
+  }
+}

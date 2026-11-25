@@ -1,0 +1,1196 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T04:05:02Z",
+      "timestamp": 1793073902243,
+      "version": "4.5.0"
+    },
+    "reference-count": 171,
+    "publisher": "MDPI AG",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              21
+            ]
+          ],
+          "date-time": "2023-05-21T00:00:00Z",
+          "timestamp": 1684627200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JCM"
+    ],
+    "abstract": "<jats:p>This article provides a comprehensive and up-to-date overview of the repositories that contain color fundus images. We analyzed them regarding availability and legality, presented the datasets’ characteristics, and identified labeled and unlabeled image sets. This study aimed to complete all publicly available color fundus image datasets to create a central catalog of available color fundus image datasets.</jats:p>",
+    "DOI": "10.3390/jcm12103587",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ],
+      "date-time": "2023-05-22T02:00:27Z",
+      "timestamp": 1684720827000
+    },
+    "page": "3587",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "A Global Review of Publicly Available Datasets Containing Fundus Images: Characteristics, Barriers to Access, Usability, and Generalizability"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5353-5231",
+        "authenticated-orcid": false,
+        "given": "Tomasz",
+        "family": "Krzywicki",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Mathematics and Computer Science, University of Warmia and Mazury, 10-710 Olsztyn, Poland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9664-6137",
+        "authenticated-orcid": false,
+        "given": "Piotr",
+        "family": "Brona",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Poznan City Hospital, 61-285 Poznań, Poland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9897-3561",
+        "authenticated-orcid": false,
+        "given": "Agnieszka M.",
+        "family": "Zbrzezny",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Mathematics and Computer Science, University of Warmia and Mazury, 10-710 Olsztyn, Poland"
+          },
+          {
+            "name": "Faculty of Design, SWPS University of Social Sciences and Humanities, Chodakowska 19/31, 03-815 Warsaw, Poland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3724-2391",
+        "authenticated-orcid": false,
+        "given": "Andrzej E.",
+        "family": "Grzybowski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Research in Ophthalmology, Foundation for Ophthalmology Development, 60-836 Poznań, Poland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e260",
+        "DOI": "10.1016/S2589-7500(20)30317-4",
+        "article-title": "Health data poverty: An assailable barrier to equitable digital health care",
+        "volume": "3",
+        "author": "Ibrahim",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1038/s41591-018-0316-z",
+        "article-title": "A guide to deep learning in healthcare",
+        "volume": "25",
+        "author": "Esteva",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1038/s41591-018-0320-3",
+        "article-title": "A call for deep-learning healthcare",
+        "volume": "25",
+        "author": "Norgeot",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "DOI": "10.1038/s41433-019-0566-0",
+        "article-title": "Artificial intelligence for diabetic retinopathy screening: A review",
+        "volume": "34",
+        "author": "Grzybowski",
+        "year": "2019",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1149",
+        "DOI": "10.1111/aos.14132",
+        "article-title": "A pilot study of autonomous artificial intelligence-based diabetic retinopathy screening in Poland",
+        "volume": "97",
+        "author": "Grzybowski",
+        "year": "2019",
+        "journal-title": "Acta Ophthalmol."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1236",
+        "DOI": "10.1093/bib/bbx044",
+        "article-title": "Deep learning for healthcare: Review, opportunities and challenges",
+        "volume": "19",
+        "author": "Miotto",
+        "year": "2017",
+        "journal-title": "Briefings Bioinform."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "article-title": "A survey on deep learning in medical image analysis",
+        "volume": "42",
+        "author": "Litjens",
+        "year": "2017",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.1148/radiol.2019192515",
+        "article-title": "Assessing Radiology Research on Artificial Intelligence: A Brief Guide for Authors, Reviewers, and Readers from the Editorial Board",
+        "volume": "294",
+        "author": "Bluemke",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1038/s41746-021-00438-z",
+        "article-title": "Diagnostic accuracy of deep learning in medical imaging: A systematic review and meta-analysis",
+        "volume": "4",
+        "author": "Aggarwal",
+        "year": "2021",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2018",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e51",
+        "DOI": "10.1016/S2589-7500(20)30240-5",
+        "article-title": "A global review of publicly available datasets for ophthalmological imaging: Barriers to access, usability, and generalisability",
+        "volume": "3",
+        "author": "Khan",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_12",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/linchundan/fundusimage1000."
+      },
+      {
+        "key": "ref_13",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/dh2x8v6nf8/1."
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/trghs22fpg/1."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/trghs22fpg/2."
+      },
+      {
+        "key": "ref_16",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/trghs22fpg/3."
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/trghs22fpg/4."
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "(2023, May 16). Available online: https://figshare.com/s/c2d31f850af14c5b5232."
+      },
+      {
+        "key": "ref_19",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/c/aptos2019-blindness-detection/data."
+      },
+      {
+        "key": "ref_20",
+        "unstructured": "(2023, May 16). Available online: https://people.eng.unimelb.edu.au/thivun/projects/AV_nicking_quantification/."
+      },
+      {
+        "key": "ref_21",
+        "unstructured": "(2023, May 16). Available online: https://blogs.kingston.ac.uk/retinal/chasedb1/."
+      },
+      {
+        "key": "ref_22",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/gilescodes/cropped-train-diabetic-retinopathy-detection."
+      },
+      {
+        "key": "ref_23",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification."
+      },
+      {
+        "key": "ref_24",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/fareesamasroor/cardiacemboli."
+      },
+      {
+        "key": "ref_25",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/mariaherrerot/ddrdataset."
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "(2023, May 16). Available online: https://medicine.uiowa.edu/eye/abramoff/."
+      },
+      {
+        "key": "ref_27",
+        "unstructured": "(2023, May 16). Available online: https://zenodo.org/record/4532361#.Yrr5sOzP1W4."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "(2023, May 16). Available online: https://zenodo.org/record/4647952#.YtRttC-plQI."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "(2023, May 16). Available online: https://zenodo.org/record/4891308#.YtRwDS-plQI."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/nikkich9/derbi-hackathon-retinal-fundus-image-dataset."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/3csr652p9y/1."
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/2rnnz5nz74/1."
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "(2023, May 16). Available online: https://data.mendeley.com/datasets/2rnnz5nz74/2."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/tanlikesmath/diabetic-retinopathy-resized."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "(2023, May 16). Available online: https://figshare.com/articles/dataset/Advancing_Bag_of_Visual_Words_Representations_for_Lesion_Classification_in_Retinal_Images/953671/2."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "(2023, May 16). Available online: https://figshare.com/articles/dataset/Advancing_Bag_of_Visual_Words_Representations_for_Lesion_Classification_in_Retinal_Images/953671/3."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/mustaqimabrar/diabeticretinopathy."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/rutujachaudhari/diabetic-retinopathy."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/himanshuagarwal1998/diabetic-retinopathy."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/analaura000/diabetic-retinopathy."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/kameshwarandhayalan/diabetic-retinopathy."
+      },
+      {
+        "key": "ref_42",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-2015-data-colored-resized."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-2019-data."
+      },
+      {
+        "key": "ref_44",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-gaussian-filtered."
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-grayscale-images."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/amanneo/diabetic-retinopathy-resized-arranged."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/kushagratandon12/diabetic-retinopathy-balanced."
+      },
+      {
+        "key": "ref_48",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/makrovh/diabetic-retinopathy-blindness-detection-c-data."
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/dola1507108/diabetic-retinopathy-classified."
+      },
+      {
+        "key": "ref_50",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/competitions/diabetic-retinopathy-classification-2/data."
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/competitions/retinopathy-classification-sai/data."
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/sachinkumar413/diabetic-retinopathy-dataset."
+      },
+      {
+        "key": "ref_53",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/ahmedghazal54/diabetic-retinopathy-detection."
+      },
+      {
+        "key": "ref_54",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/poojita2305/diabetic-retinopathy-detection."
+      },
+      {
+        "key": "ref_55",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/mostafaeltalawy/diabetic-retinopathy-dataset."
+      },
+      {
+        "key": "ref_56",
+        "unstructured": "(2023, May 16). Available online: https://personalpages.manchester.ac.uk/staff/niall.p.mcloughlin/."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "(2023, May 16). Available online: http://www.ia.uned.es/~ejcarmona/DRIONS-DB.html."
+      },
+      {
+        "key": "ref_58",
+        "unstructured": "(2023, May 16). Available online: https://drive.grand-challenge.org."
+      },
+      {
+        "key": "ref_59",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/dola1507108/diabetic-retinopathy-organized."
+      },
+      {
+        "key": "ref_60",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/sachinkumar413/diabetic-retinopathy-preprocessed-dataset."
+      },
+      {
+        "key": "ref_61",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/shuvokkr/diabeticresized300."
+      },
+      {
+        "key": "ref_62",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/makjn10/diabetic-retinopathy-small."
+      },
+      {
+        "key": "ref_63",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/dantealonso/diabeticretinopathytrainvalidation."
+      },
+      {
+        "key": "ref_64",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/saipavansaketh/diabetic-retinopathy-unziped."
+      },
+      {
+        "key": "ref_65",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/zhizhid/dr-2000."
+      },
+      {
+        "key": "ref_66",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/aviagarwal123/dr-201010."
+      },
+      {
+        "key": "ref_67",
+        "unstructured": "(2023, May 16). Available online: https://github.com/deepdrdoc/DeepDRiD/blob/master/README.md."
+      },
+      {
+        "key": "ref_68",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/nguyenhung1903/diaretdb1-v21."
+      },
+      {
+        "key": "ref_69",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/muhamedahmed/diabetic."
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/alisalen/diabetic-retinopathy-detection-processed."
+      },
+      {
+        "key": "ref_71",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/lokeshsaipureddi/drishtigs-retina-dataset-for-onh-segmentation."
+      },
+      {
+        "key": "ref_72",
+        "unstructured": "(2023, May 16). Available online: http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php."
+      },
+      {
+        "key": "ref_73",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/diveshthakker/eoptha-diabetic-retinopathy."
+      },
+      {
+        "key": "ref_74",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/c/diabetic-retinopathy-detection."
+      },
+      {
+        "key": "ref_75",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/bishalbanerjee/eye-dataset."
+      },
+      {
+        "key": "ref_76",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/iamachal/fundus-image-dataset."
+      },
+      {
+        "key": "ref_77",
+        "unstructured": "(2023, May 16). Available online: https://projects.ics.forth.gr/cvrl/fire/."
+      },
+      {
+        "key": "ref_78",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/izander/fundus."
+      },
+      {
+        "key": "ref_79",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/klmsathishkumar/fundus-images."
+      },
+      {
+        "key": "ref_80",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/spikeetech/fundus-dr."
+      },
+      {
+        "key": "ref_81",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/balnyaupane/gaussian-filtered-diabetic-retinopathy."
+      },
+      {
+        "key": "ref_82",
+        "unstructured": "(2023, May 16). Available online: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC."
+      },
+      {
+        "key": "ref_83",
+        "unstructured": "(2023, May 16). Available online: https://github.com/lgiancaUTH/HEI-MED."
+      },
+      {
+        "key": "ref_84",
+        "unstructured": "(2023, May 16). Available online: https://www5.cs.fau.de/research/data/fundus-images/."
+      },
+      {
+        "key": "ref_85",
+        "unstructured": "(2023, May 16). Available online: http://ai.baidu.com/broad/introduction."
+      },
+      {
+        "key": "ref_86",
+        "unstructured": "(2023, May 16). Available online: https://idrid.grand-challenge.org/Rules/."
+      },
+      {
+        "key": "ref_87",
+        "unstructured": "(2023, May 16). Available online: https://medicine.uiowa.edu/eye/inspire-datasets."
+      },
+      {
+        "key": "ref_88",
+        "unstructured": "(2023, May 16). Available online: http://ai.baidu.com/broad/subordinate?dataset=pm."
+      },
+      {
+        "key": "ref_89",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/dineswarreddy/indian-retina-classification."
+      },
+      {
+        "key": "ref_90",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/bachaboos/isbi-2021-retina-23."
+      },
+      {
+        "key": "ref_91",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/bachaboos/isbi-retina-test."
+      },
+      {
+        "key": "ref_92",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/linchundan/fundusimage1000."
+      },
+      {
+        "key": "ref_93",
+        "unstructured": "(2023, May 16). Available online: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179790#sec006."
+      },
+      {
+        "key": "ref_94",
+        "unstructured": "(2023, May 16). Available online: https://github.com/smilell/AG-CNN."
+      },
+      {
+        "key": "ref_95",
+        "unstructured": "(2023, May 16). Available online: https://www.adcis.net/en/third-party/messidor2/."
+      },
+      {
+        "key": "ref_96",
+        "unstructured": "(2023, May 16). Available online: https://odir2019.grand-challenge.org/Download/."
+      },
+      {
+        "key": "ref_97",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k."
+      },
+      {
+        "key": "ref_98",
+        "unstructured": "(2023, May 16). Available online: https://aistudio.baidu.com/aistudio/datasetdetail/122940."
+      },
+      {
+        "key": "ref_99",
+        "unstructured": "(2023, May 16). Available online: https://figshare.com/articles/dataset/PAPILA/14798004/1."
+      },
+      {
+        "key": "ref_100",
+        "unstructured": "(2023, May 16). Available online: https://figshare.com/articles/dataset/PAPILA/14798004."
+      },
+      {
+        "key": "ref_101",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/benjaminwarner/resized-2015-2019-blindness-detection-images."
+      },
+      {
+        "key": "ref_102",
+        "unstructured": "(2023, May 16). Available online: https://refuge.grand-challenge.org/."
+      },
+      {
+        "key": "ref_103",
+        "unstructured": "(2023, May 16). Available online: https://ai.baidu.com/broad/download?dataset=gon."
+      },
+      {
+        "key": "ref_104",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/kssanjaynithish03/retinal-fundus-images."
+      },
+      {
+        "key": "ref_105",
+        "unstructured": "(2023, May 16). Available online: https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z?locale=en."
+      },
+      {
+        "key": "ref_106",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/andrewmvd/fundus-image-registration."
+      },
+      {
+        "key": "ref_107",
+        "unstructured": "(2023, May 16). Available online: http://medimrg.webs.ull.es/research/downloads/."
+      },
+      {
+        "key": "ref_108",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/priyanagda/ritedataset."
+      },
+      {
+        "key": "ref_109",
+        "unstructured": "(2023, May 16). Available online: http://www.rodrep.com/longitudinal-diabetic-retinopathy-screening—description.html."
+      },
+      {
+        "key": "ref_110",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/aifahim/retinal-vassel-combine-same-format."
+      },
+      {
+        "key": "ref_111",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/jr2ngb/cataractdataset."
+      },
+      {
+        "key": "ref_112",
+        "unstructured": "(2023, May 16). Available online: http://webeye.ophth.uiowa.edu/ROC/."
+      },
+      {
+        "key": "ref_113",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/beatrizsimoes/retina-quality."
+      },
+      {
+        "key": "ref_114",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/hebamohamed/retinagen."
+      },
+      {
+        "key": "ref_115",
+        "unstructured": "(2023, May 16). Available online: http://bioimlab.dei.unipd.it/Retinal%20Vessel%20Tortuosity.htm."
+      },
+      {
+        "key": "ref_116",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/ustinianw/retinal-tiny."
+      },
+      {
+        "key": "ref_117",
+        "unstructured": "(2023, May 16). Available online: http://cecas.clemson.edu/~ahoover/stare/."
+      },
+      {
+        "key": "ref_118",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/balnyaupane/small-diabetic-retinopathy-dataset."
+      },
+      {
+        "key": "ref_119",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/mariaherrerot/the-sustechsysu-dataset."
+      },
+      {
+        "key": "ref_120",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/competitions/innovation-challenge-2019/data."
+      },
+      {
+        "key": "ref_121",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/competitions/vietai-advance-retinal-disease-detection-2020/data."
+      },
+      {
+        "key": "ref_122",
+        "unstructured": "(2023, May 16). Available online: http://www.varpa.es/research/ophtalmology.html#vicavr."
+      },
+      {
+        "key": "ref_123",
+        "unstructured": "(2023, May 16). Available online: http://people.duke.edu/~sf59/Estrada_TMI_2015_dataset.htm."
+      },
+      {
+        "key": "ref_124",
+        "unstructured": "(2023, May 16). Available online: https://novel.utah.edu/Hoyt/."
+      },
+      {
+        "key": "ref_125",
+        "unstructured": "(2023, May 16). Available online: https://zenodo.org/record/3393265#.XazZaOgzbIV."
+      },
+      {
+        "key": "ref_126",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/nawa393/dr15_test."
+      },
+      {
+        "key": "ref_127",
+        "unstructured": "(2023, May 16). Available online: https://www.kaggle.com/datasets/makorromanuel/merged-retina-datasets."
+      },
+      {
+        "key": "ref_128",
+        "doi-asserted-by": "crossref",
+        "first-page": "4828",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_129",
+        "doi-asserted-by": "crossref",
+        "first-page": "1631",
+        "DOI": "10.1007/s00417-020-04709-5",
+        "article-title": "A CycleGAN Deep Learning Technique for Artifact Reduction in Fundus Photography",
+        "volume": "258",
+        "author": "Yoo",
+        "year": "2020",
+        "journal-title": "Graefe’s Arch. Clin. Exp. Ophthalmol."
+      },
+      {
+        "key": "ref_130",
+        "unstructured": "Hassan, T. (2021). A Composite Retinal Fundus and OCT Dataset along with Detailed Clinical Markings for Extracting Retinal Layers, Retinal Lesions and Screening Macular and Glaucomatous Disorders (dataset 1)."
+      },
+      {
+        "key": "ref_131",
+        "unstructured": "Hassan, T. (2021). A Composite Retinal Fundus and OCT Dataset along with Detailed Clinical Markings for Extracting Retinal Layers, Retinal Lesions and Screening Macular and Glaucomatous Disorders (dataset 2)."
+      },
+      {
+        "key": "ref_132",
+        "unstructured": "Hassan, T. (2021). A Composite Retinal Fundus and OCT Dataset along with Detailed Clinical Markings for Extracting Retinal Layers, Retinal Lesions and Screening Macular and Glaucomatous Disorders (dataset 3)."
+      },
+      {
+        "key": "ref_133",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1016/j.compbiomed.2018.12.015",
+        "article-title": "Deep structure tensor graph search framework for automated extraction and characterization of retinal layers and fluid pathology in retinal SD-OCT scans",
+        "volume": "105",
+        "author": "Hassan",
+        "year": "2019",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "ref_134",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1109/JBHI.2020.2982914",
+        "article-title": "RAG-FW: A Hybrid Convolutional Framework for the Automated Extraction of Retinal Lesions and Lesion-Influenced Grading of Human Retinal Pathology",
+        "volume": "25",
+        "author": "Hassan",
+        "year": "2021",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_135",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: An extensive validation",
+        "volume": "18",
+        "author": "Morales",
+        "year": "2019",
+        "journal-title": "Biomed. Eng. Online"
+      },
+      {
+        "key": "ref_136",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pachade, S., Porwal, P., Thulkar, D., Kokare, M., Deshmukh, G., Sahasrabuddhe, V., Giancardo, L., Quellec, G., and Mériaudeau, F. (2021). Retinal Fundus Multi-Disease Image Dataset (RFMiD): A Dataset for Multi-Disease Detection Research. Data, 6.",
+        "DOI": "10.3390/data6020014"
+      },
+      {
+        "key": "ref_137",
+        "doi-asserted-by": "crossref",
+        "first-page": "511",
+        "DOI": "10.1016/j.ins.2019.06.011",
+        "article-title": "Diagnostic assessment of deep learning algorithms for diabetic retinopathy screening",
+        "volume": "501",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_138",
+        "doi-asserted-by": "crossref",
+        "first-page": "107068",
+        "DOI": "10.1016/j.dib.2021.107068",
+        "article-title": "Dataset from fundus images for the study of diabetic retinopathy",
+        "volume": "36",
+        "author": "Matto",
+        "year": "2021",
+        "journal-title": "Data Brief"
+      },
+      {
+        "key": "ref_139",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1002/jemt.23172",
+        "article-title": "Automated techniques for blood vessels segmentation through fundus retinal images: A review",
+        "volume": "82",
+        "author": "Akbar",
+        "year": "2019",
+        "journal-title": "Microsc. Res. Tech."
+      },
+      {
+        "key": "ref_140",
+        "unstructured": "Raja, H. (2020). Data on OCT and Fundus Images."
+      },
+      {
+        "key": "ref_141",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pires, R., Jelinek, H.F., Wainer, J., Valle, E., and Rocha, A. (2014). Advancing Bag-of-Visual-Words Representations for Lesion Classification in Retinal Images. PLoS ONE, 9.",
+        "DOI": "10.1371/journal.pone.0096814"
+      },
+      {
+        "key": "ref_142",
+        "doi-asserted-by": "crossref",
+        "first-page": "014503",
+        "DOI": "10.1117/1.JMI.4.1.014503",
+        "article-title": "DR HAGIS—a fundus image database for the automatic extraction of retinal surface vessels from diabetic patients",
+        "volume": "4",
+        "author": "Holm",
+        "year": "2017",
+        "journal-title": "J. Med. Imaging"
+      },
+      {
+        "key": "ref_143",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/j.artmed.2008.04.005",
+        "article-title": "Identification of the optic nerve head with genetic algorithms",
+        "volume": "43",
+        "author": "Carmona",
+        "year": "2008",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "key": "ref_144",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kauppi, T., Kalesnykiene, V., Kamarainen, J.K., Lensu, L., Sorri, I., Raninen, A., Voutilainen, R., Uusitalo, H., Kalviainen, H., and Pietila, J. (2007, January 10–13). The DIARETDB1 diabetic retinopathy database and evaluation protocol. Proceedings of the British Machine Vision Conference 2007, Warwick, UK.",
+        "DOI": "10.5244/C.21.15"
+      },
+      {
+        "key": "ref_145",
+        "first-page": "1004",
+        "article-title": "A Comprehensive Retinal Image Dataset for the Assessment of Glaucoma from the Optic Nerve Head Analysis",
+        "volume": "2",
+        "author": "Sivaswamy",
+        "year": "2015",
+        "journal-title": "JSM Biomed. Imaging Data Pap."
+      },
+      {
+        "key": "ref_146",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy, J., Krishnadas, S.R., Datt Joshi, G., Jain, M., and Syed Tabish, A.U. (May, January 29). Drishti-GS: Retinal image dataset for optic nerve head(ONH) segmentation. Proceedings of the 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI), Beijing, China.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "ref_147",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.35119/maio.v1i4.42",
+        "article-title": "FIRE: Fundus Image Registration dataset",
+        "volume": "1",
+        "author": "Zabulis",
+        "year": "2017",
+        "journal-title": "Model. Artif. Intell. Ophthalmol."
+      },
+      {
+        "key": "ref_148",
+        "unstructured": "Akbar, S., Hassan, T., Akram, M.U., Yasin, U., and Basit, I. (2017). AVRDB: Annotated Dataset for Vessel Segmentation and Calculation of Arteriovenous Ratio."
+      },
+      {
+        "key": "ref_149",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.1016/j.media.2011.07.004",
+        "article-title": "Exudate-based diabetic macular edema detection in fundus images using publicly available datasets",
+        "volume": "16",
+        "author": "Giancardo",
+        "year": "2012",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_150",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kohler, T., Budai, A., Kraus, M.F., Odstrcilik, J., Michelson, G., and Hornegger, J. (2013, January 20–22). Automatic no-reference quality assessment for retinal fundus images using vessel segmentation. Proceedings of the 26th IEEE International Symposium on Computer-Based Medical Systems, Porto, Portugal.",
+        "DOI": "10.1109/CBMS.2013.6627771"
+      },
+      {
+        "key": "ref_151",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1155/2013/154860",
+        "article-title": "Robust Vessel Segmentation in Fundus Images",
+        "volume": "2013",
+        "author": "Budai",
+        "year": "2013",
+        "journal-title": "Int. J. Biomed. Imaging"
+      },
+      {
+        "key": "ref_152",
+        "unstructured": "Prasanna Porwal, S.P. (2018). Indian Diabetic Retinopathy Image Dataset (IDRiD)."
+      },
+      {
+        "key": "ref_153",
+        "doi-asserted-by": "crossref",
+        "first-page": "1941",
+        "DOI": "10.1109/TMI.2011.2159619",
+        "article-title": "Automated Measurement of the Arteriolar-to-Venular Width Ratio in Digital Color Fundus Photographs",
+        "volume": "30",
+        "author": "Niemeijer",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_154",
+        "doi-asserted-by": "crossref",
+        "first-page": "2245",
+        "DOI": "10.1109/TPAMI.2011.69",
+        "article-title": "Robust Multiscale Stereo Matching from Fundus Images with Radiometric Differences",
+        "volume": "33",
+        "author": "Tang",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "ref_155",
+        "unstructured": "Fu, H., Li, F., Orlando, J.I., Bogunović, H., Sun, X., Liao, J., Xu, Y., Zhang, S., and Zhang, X. (2020). ADAM: Automatic Detection Challenge on Age-Related Macular Degeneration."
+      },
+      {
+        "key": "ref_156",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, L., Xu, M., Wang, X., Jiang, L., and Liu, H. (2019). Attention Based Glaucoma Detection: A Large-scale Database and CNN Model. arXiv.",
+        "DOI": "10.1109/CVPR.2019.01082"
+      },
+      {
+        "key": "ref_157",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: The messidor database",
+        "volume": "33",
+        "author": "Decenciere",
+        "year": "2014",
+        "journal-title": "Image Anal. Stereol."
+      },
+      {
+        "key": "ref_158",
+        "unstructured": "Kovalyk, O., Morales-Sánchez, J., Verdú-Monedero, R., Sellés-Navarro, I., Palazón-Cabanes, A., and Sancho-Gómez, J.L. (2022). PAPILA."
+      },
+      {
+        "key": "ref_159",
+        "doi-asserted-by": "crossref",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_160",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almazroa, A. (2018). Retinal Fundus Images for Glaucoma Analysis: The Riga Dataset.",
+        "DOI": "10.1117/12.2293584"
+      },
+      {
+        "key": "ref_161",
+        "unstructured": "Hu, Q., Abràmoff, M.D., and Garvin, M.K. (2013). Advanced Information Systems Engineering, Springer."
+      },
+      {
+        "key": "ref_162",
+        "doi-asserted-by": "crossref",
+        "first-page": "1805",
+        "DOI": "10.1167/iovs.14-15949",
+        "article-title": "Accuracy Assessment of Intra- and Intervisit Fundus Image Registration for Diabetic Retinopathy Screening",
+        "volume": "56",
+        "author": "Adal",
+        "year": "2015",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_163",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1109/TMI.2007.904657",
+        "article-title": "A Novel Method for the Automatic Grading of Retinal Vessel Tortuosity",
+        "volume": "27",
+        "author": "Grisan",
+        "year": "2008",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_164",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1038/s41597-020-00755-0",
+        "article-title": "The SUSTech-SYSU dataset for automated exudate detection and diabetic retinopathy grading",
+        "volume": "7",
+        "author": "Lin",
+        "year": "2020",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_165",
+        "first-page": "919",
+        "article-title": "Improving retinal artery and vein classification by means of a minimal path approach",
+        "volume": "24",
+        "author": "Cancela",
+        "year": "2012",
+        "journal-title": "Mach. Vis. Appl."
+      },
+      {
+        "key": "ref_166",
+        "doi-asserted-by": "crossref",
+        "first-page": "2518",
+        "DOI": "10.1109/TMI.2015.2443117",
+        "article-title": "Retinal Artery-Vein Classification via Topology Estimation",
+        "volume": "34",
+        "author": "Estrada",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_167",
+        "doi-asserted-by": "crossref",
+        "first-page": "783",
+        "DOI": "10.1136/bjophthalmol-2011-301378",
+        "article-title": "The number of ophthalmologists in practice and training worldwide: A growing gap despite more than 200,000 practitioners",
+        "volume": "96",
+        "author": "Resnikoff",
+        "year": "2012",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_168",
+        "doi-asserted-by": "crossref",
+        "first-page": "e160",
+        "DOI": "10.1016/S2589-7500(20)30027-3",
+        "article-title": "Sub-Saharan Africa—the new breeding ground for global digital health",
+        "volume": "2",
+        "author": "Holst",
+        "year": "2020",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_169",
+        "unstructured": "Müller, S., Koch, L.M., Lensch, H., and Berens, P. (2022, January 6–8). A Generative Model Reveals the Influence of Patient Attributes on Fundus Images. Proceedings of the Medical Imaging with Deep Learning, Zurich, Switzerland."
+      },
+      {
+        "key": "ref_170",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_171",
+        "doi-asserted-by": "crossref",
+        "first-page": "664",
+        "DOI": "10.3906/elk-1902-131",
+        "article-title": "Geographic variation and ethnicity in diabetic retinopathy detection via deeplearning",
+        "volume": "28",
+        "author": "Serener",
+        "year": "2020",
+        "journal-title": "Turk. J. Electr. Eng. Comput. Sci."
+      }
+    ],
+    "container-title": [
+      "Journal of Clinical Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2077-0383/12/10/3587/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T19:39:28Z",
+      "timestamp": 1760125168000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2077-0383/12/10/3587"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          21
+        ]
+      ]
+    },
+    "references-count": 171,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "jcm12103587"
+    ],
+    "URL": "https://doi.org/10.3390/jcm12103587",
+    "relation": {},
+    "ISSN": [
+      "2077-0383"
+    ],
+    "issn-type": [
+      {
+        "value": "2077-0383",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          21
+        ]
+      ]
+    }
+  }
+}

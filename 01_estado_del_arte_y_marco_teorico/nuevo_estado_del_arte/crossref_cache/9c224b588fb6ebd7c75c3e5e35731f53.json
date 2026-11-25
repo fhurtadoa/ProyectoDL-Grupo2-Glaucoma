@@ -1,0 +1,762 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T17:49:12Z",
+      "timestamp": 1791395352003,
+      "version": "4.3.3"
+    },
+    "reference-count": 40,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2019-05-01T00:00:00Z",
+          "timestamp": 1556668800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2019-05-01T00:00:00Z",
+          "timestamp": 1556668800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              14
+            ]
+          ],
+          "date-time": "2020-03-14T00:00:00Z",
+          "timestamp": 1584144000000
+        },
+        "content-version": "am",
+        "delay-in-days": 318,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EY025056"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EY025056"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EY021818"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EY021818"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Heed Foundation, San Francisco, CA"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ajo.com",
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "American Journal of Ophthalmology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ajo.2019.01.011",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          26
+        ]
+      ],
+      "date-time": "2019-01-26T12:34:01Z",
+      "timestamp": 1548506041000
+    },
+    "page": "9-18",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 92,
+    "special_numbering": "C",
+    "title": [
+      "A Deep Learning Algorithm to Quantify Neuroretinal Rim Loss From Optic Disc Photographs"
+    ],
+    "prefix": "10.1016",
+    "volume": "201",
+    "author": [
+      {
+        "given": "Atalie C.",
+        "family": "Thompson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5341-8353",
+        "authenticated-orcid": false,
+        "given": "Alessandro A.",
+        "family": "Jammal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felipe A.",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.1016/j.ajo.2019.01.011_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2019.01.011_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "651",
+        "DOI": "10.1001/jamaophthalmol.2013.1686",
+        "article-title": "Prevalence of glaucoma in an urban West African population: the Tema Eye Survey",
+        "volume": "131",
+        "author": "Budenz",
+        "year": "2013",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ajo.2019.01.011_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1816",
+        "DOI": "10.1016/j.ophtha.2007.06.013",
+        "article-title": "Awareness of incident open-angle glaucoma in a population study: the Barbados Eye Studies",
+        "volume": "114",
+        "author": "Hennis",
+        "year": "2007",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2019.01.011_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "355",
+        "DOI": "10.4103/0301-4738.55073",
+        "article-title": "Determinants of glaucoma awareness and knowledge in urban Chennai",
+        "volume": "57",
+        "author": "Sathyamangalam",
+        "year": "2009",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.ajo.2019.01.011_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ajo.2019.01.011_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1001/jamaophthalmol.2014.4652",
+        "article-title": "Diabetes eye screening in urban settings serving minority populations: detection of diabetic retinopathy and other ocular findings using telemedicine",
+        "volume": "133",
+        "author": "Owsley",
+        "year": "2015",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ajo.2019.01.011_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1089/tmj.2016.0039",
+        "article-title": "Retrospective evaluation of a teleretinal screening program in detecting multiple nondiabetic eye diseases",
+        "volume": "23",
+        "author": "Maa",
+        "year": "2017",
+        "journal-title": "Telemed J E Health"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2019.01.011_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "936",
+        "DOI": "10.1016/j.ajo.2014.01.024",
+        "article-title": "Glaucomatous optic neuropathy evaluation (GONE) project: the effect of monoscopic versus stereoscopic viewing conditions on optic nerve evaluation",
+        "volume": "157",
+        "author": "Chan",
+        "year": "2014",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib9",
+        "first-page": "532",
+        "article-title": "Variability of expert observers in evaluating the optic disc",
+        "volume": "74",
+        "author": "Lichter",
+        "year": "1976",
+        "journal-title": "Trans Am Ophthalmol Soc"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ajo.2019.01.011_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1111/j.1442-9071.2007.01457.x",
+        "article-title": "Glaucoma screening: analysis of conventional and telemedicine-friendly devices",
+        "volume": "35",
+        "author": "Kumar",
+        "year": "2007",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ajo.2019.01.011_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "318",
+        "DOI": "10.1089/tmj.2013.0185",
+        "article-title": "A novel tele-eye protocol for ocular disease detection and access to eye care services",
+        "volume": "20",
+        "author": "Maa",
+        "year": "2014",
+        "journal-title": "Telemed J E Health"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ajo.2019.01.011_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1907",
+        "DOI": "10.1016/S0161-6420(98)91040-5",
+        "article-title": "Telemedicine diagnosis of eye disorders by direct ophthalmoscopy. A pilot study",
+        "volume": "105",
+        "author": "Marcus",
+        "year": "1998",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2019.01.011_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1097/00061198-199910000-00004",
+        "article-title": "Evaluation of a portable fundus camera for use in the teleophthalmologic diagnosis of glaucoma",
+        "volume": "8",
+        "author": "Yogesan",
+        "year": "1999",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ajo.2019.01.011_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/S0161-6420(92)31990-6",
+        "article-title": "Expert agreement in evaluating the optic disc for glaucoma",
+        "volume": "99",
+        "author": "Varma",
+        "year": "1992",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ajo.2019.01.011_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1662",
+        "DOI": "10.1016/S0161-6420(94)31118-3",
+        "article-title": "Agreement among optometrists, ophthalmologists, and residents in evaluating the optic disc for glaucoma",
+        "volume": "101",
+        "author": "Abrams",
+        "year": "1994",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ajo.2019.01.011_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "article-title": "Agreement among glaucoma specialists in assessing progressive disc changes from photographs in open-angle glaucoma patients",
+        "volume": "147",
+        "author": "Jampel",
+        "year": "2009",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ajo.2019.01.011_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.ajo.2019.01.011_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.ajo.2019.01.011_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib20",
+        "first-page": "559",
+        "article-title": "Development of a deep learning algorithm for automatic diagnosis of diabetic retinopathy",
+        "volume": "245",
+        "author": "Raju",
+        "year": "2017",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ajo.2019.01.011_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0179790",
+        "DOI": "10.1371/journal.pone.0179790",
+        "article-title": "Applying artificial intelligence to disease staging: deep learning for improved staging of diabetic retinopathy",
+        "volume": "12",
+        "author": "Takahashi",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ajo.2019.01.011_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "535",
+        "DOI": "10.1016/j.ophtha.2012.09.055",
+        "article-title": "Enhanced detection of open-angle glaucoma with an anatomically accurate optical coherence tomography-derived neuroretinal rim parameter",
+        "volume": "120",
+        "author": "Chauhan",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ajo.2019.01.011_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1852",
+        "DOI": "10.1167/iovs.11-9309",
+        "article-title": "Influence of clinically invisible, but optical coherence tomography detected, optic disc margin anatomy on neuroretinal rim evaluation",
+        "volume": "53",
+        "author": "Reis",
+        "year": "2012",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2019.01.011_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "2953",
+        "DOI": "10.1167/iovs.13-13482",
+        "article-title": "Structure-function relationships with spectral-domain optical coherence tomography retinal nerve fiber layer and optic nerve head measurements",
+        "volume": "55",
+        "author": "Pollet-Villard",
+        "year": "2014",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ajo.2019.01.011_bib25",
+        "first-page": "1534",
+        "article-title": "Structure-function relationship comparison between retinal nerve fibre layer and Bruch’s membrane opening-minimum rim width in glaucoma",
+        "volume": "10",
+        "author": "Reznicek",
+        "year": "2017",
+        "journal-title": "Int J Ophthalmol"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ajo.2019.01.011_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "Oct575",
+        "DOI": "10.1167/iovs.15-18906",
+        "article-title": "Comparison of Bruch’s membrane opening minimum rim width and peripapillary retinal nerve fiber layer thickness in early glaucoma assessment",
+        "volume": "57",
+        "author": "Gmeiner",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ajo.2019.01.011_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1167/iovs.15-17820",
+        "article-title": "Diagnostic accuracy of glaucoma with sector-based and a new total profile-based analysis of neuroretinal rim and retinal nerve fiber layer thickness",
+        "volume": "57",
+        "author": "Danthurebandara",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ajo.2019.01.011_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "540",
+        "DOI": "10.1016/j.ajo.2013.11.007",
+        "article-title": "A method to estimate the amount of neuroretinal rim tissue in glaucoma: comparison with current methods for measuring rim area",
+        "volume": "157",
+        "author": "Gardiner",
+        "year": "2014",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ajo.2019.01.011_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "6886",
+        "DOI": "10.1167/iovs.15-16701",
+        "article-title": "Structural measurements for monitoring change in glaucoma: comparing retinal nerve fiber layer thickness with minimum rim width and area",
+        "volume": "56",
+        "author": "Gardiner",
+        "year": "2015",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ajo.2019.01.011_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1809",
+        "DOI": "10.1016/S0161-6420(00)00284-0",
+        "article-title": "Mapping the visual field to the optic disc in normal tension glaucoma eyes",
+        "volume": "107",
+        "author": "Garway-Heath",
+        "year": "2000",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J, Dong W, Socher R, et al. Imagenet: a large-scale hierarchical image database. 2009 IEEE Conference on Computer Vision and Pattern Recognition. 2009 June;248–255.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib32",
+        "article-title": "Deep Residual Learning for Image Recognition",
+        "author": "He",
+        "year": "2015",
+        "journal-title": "ArXiv e-prints"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib33",
+        "article-title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization",
+        "author": "Selvaraju",
+        "year": "2016",
+        "journal-title": "ArXiv e-prints"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib34",
+        "article-title": "Grad-CAM: Why did you say that?",
+        "author": "Selvaraju",
+        "year": "2016",
+        "journal-title": "ArXiv e-prints"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ajo.2019.01.011_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "2520",
+        "DOI": "10.1167/iovs.05-1441",
+        "article-title": "A statistical approach to the evaluation of covariate effects on the receiver operating characteristic curves of diagnostic tests in glaucoma",
+        "volume": "47",
+        "author": "Medeiros",
+        "year": "2006",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ajo.2019.01.011_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "e548",
+        "DOI": "10.1111/aos.13464",
+        "article-title": "Intra- and interobserver reproducibility of Bruch’s membrane opening minimum rim width measurements with spectral domain optical coherence tomography",
+        "volume": "95",
+        "author": "Reis",
+        "year": "2017",
+        "journal-title": "Acta Ophthalmol"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ajo.2019.01.011_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "836",
+        "DOI": "10.3341/jkos.2017.58.7.836",
+        "article-title": "Diagnostic accuracies of Bruch membrane opening-minimum rim width and retinal nerve fiber layer thickness in glaucoma",
+        "volume": "58",
+        "author": "Kim",
+        "year": "2017",
+        "journal-title": "J Korean Ophthalmol Soc"
+      },
+      {
+        "key": "10.1016/j.ajo.2019.01.011_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2017.07.010",
+        "article-title": "Glaucoma screening in Nepal: cup-to-disc estimate with standard mydriatic fundus camera compared to portable nonmydriatic camera",
+        "volume": "182",
+        "author": "Miller",
+        "year": "2017",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ajo.2019.01.011_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1370/afm.293",
+        "article-title": "Screening for primary open-angle glaucoma in the primary care setting: an update for the US preventive services task force",
+        "volume": "3",
+        "author": "Fleming",
+        "year": "2005",
+        "journal-title": "Ann Fam Med"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ajo.2019.01.011_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1167/tvst.7.4.14",
+        "article-title": "The relationship between Bruch’s membrane opening-minimum rim width and retinal nerve fiber layer thickness and a new index using a neural network",
+        "volume": "7",
+        "author": "Park",
+        "year": "2018",
+        "journal-title": "Transl Vis Sci Technol"
+      }
+    ],
+    "container-title": [
+      "American Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0002939419300248?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0002939419300248?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2025-09-11T13:38:42Z",
+      "timestamp": 1757597922000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0002939419300248"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "S0002939419300248"
+    ],
+    "URL": "https://doi.org/10.1016/j.ajo.2019.01.011",
+    "relation": {},
+    "ISSN": [
+      "0002-9394"
+    ],
+    "issn-type": [
+      {
+        "value": "0002-9394",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A Deep Learning Algorithm to Quantify Neuroretinal Rim Loss From Optic Disc Photographs",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "American Journal of Ophthalmology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ajo.2019.01.011",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

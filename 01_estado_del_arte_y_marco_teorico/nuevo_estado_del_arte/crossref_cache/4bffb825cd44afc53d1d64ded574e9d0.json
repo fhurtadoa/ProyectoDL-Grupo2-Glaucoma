@@ -1,0 +1,780 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T10:19:45Z",
+      "timestamp": 1785320385125,
+      "version": "3.55.0"
+    },
+    "reference-count": 66,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              20
+            ]
+          ],
+          "date-time": "2025-05-20T00:00:00Z",
+          "timestamp": 1747699200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              20
+            ]
+          ],
+          "date-time": "2025-05-20T00:00:00Z",
+          "timestamp": 1747699200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100004836",
+        "name": "Danmarks Frie Forskningsfond",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DFF - Inge Lehmann 1134-00017B"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DFF - Inge Lehmann 1134-00017B"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004836",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100009708",
+        "name": "Novo Nordisk Fonden",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NNF21OC0068816"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NNF21OC0068816"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100009708",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Digit Imaging. Inform. med."
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    The development of larger models for medical image analysis has led to increased performance. However, it also affected our ability to explain and validate model decisions. Models can use non-relevant parts of images, also called spurious correlations or\n                    <jats:italic>shortcuts</jats:italic>\n                    , to obtain high performance on benchmark datasets but fail in real-world scenarios. In this work, we challenge the capacity of convolutional neural networks (CNN) to classify chest X-rays and eye fundus images while masking out clinically relevant parts of the image. We show that all models trained on the PadChest dataset, irrespective of the masking strategy, are able to obtain an area under the curve (AUC) above random. Moreover, the models trained on full images obtain good performance on images without the region of interest (ROI), even superior to the one obtained on images only containing the ROI. We also reveal a possible spurious correlation in the Chákṣu dataset while the performances are more aligned with the expectation of an unbiased model. We go beyond the performance analysis with the usage of the explainability method SHAP and the analysis of embeddings. We asked a radiology resident to interpret chest X-rays under different masking to complement our findings with clinical knowledge.\n                  </jats:p>",
+    "DOI": "10.1007/s10278-025-01531-5",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          20
+        ]
+      ],
+      "date-time": "2025-05-20T11:38:31Z",
+      "timestamp": 1747741111000
+    },
+    "page": "767-784",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Mask of Truth: Model Sensitivity to Unexpected Regions of Medical Images"
+    ],
+    "prefix": "10.1007",
+    "volume": "39",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0005-0220-9590",
+        "authenticated-orcid": false,
+        "given": "Théo",
+        "family": "Sourget",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6530-3078",
+        "authenticated-orcid": false,
+        "given": "Michelle",
+        "family": "Hestbek-Møller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7870-0603",
+        "authenticated-orcid": false,
+        "given": "Amelia",
+        "family": "Jiménez-Sánchez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2259-6795",
+        "authenticated-orcid": false,
+        "given": "Jack",
+        "family": "Junchi Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0176-9324",
+        "authenticated-orcid": false,
+        "given": "Veronika",
+        "family": "Cheplygina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1531_CR1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wu K., Wu E., Theodorou B., Liang W., Mack C., Glass L., Sun J., and Zou J. “Characterizing the clinical adoption of medical ai devices through U.S. insurance claims”. In: NEJM AI 1.1 (2023), AIoa2300030. https://doi.org/10.1056/AIoa2300030",
+        "DOI": "10.1056/AIoa2300030"
+      },
+      {
+        "key": "1531_CR2",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Shen J., Zhang C. J., Jiang B., Chen J., Song J., Liu Z., He Z., Wong S. Y., Fang P.-H., Ming W.-K., et al. “Artificial intelligence versus clinicians in disease diagnosis: systematic review”. In: JMIR medical informatics 7.3 (2019), e10010. https://doi.org/10.2196/10010",
+        "DOI": "10.2196/10010"
+      },
+      {
+        "key": "1531_CR3",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Plesner L. L., Müller F. C., Nybing J. D., Laustrup L. C., Rasmussen F., Nielsen O. W., Boesen M., and Andersen M. B. “Autonomous chest radiograph reporting using ai: estimation of clinical impact”. In: Radiology 307.3 (2023), e222268. https://doi.org/10.1148/radiol.222268",
+        "DOI": "10.1148/radiol.222268"
+      },
+      {
+        "key": "1531_CR4",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wu E., Wu K., Daneshjou R., Ouyang D., Ho D. E., and Zou J. “How medical ai devices are evaluated: limitations and recommendations from an analysis of fda approvals”. In: Nature Medicine 27.4 (2021), 582–584. https://doi.org/10.1038/s41591-021-01312-x",
+        "DOI": "10.1038/s41591-021-01312-x"
+      },
+      {
+        "key": "1531_CR5",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jiménez-Sánchez, A., Juodelyte, D., Chamberlain, B., and Cheplygina, V. “Detecting shortcuts in medical images-a case study in chest x-rays”. In: 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI). 2023, pp. 1–5. https://doi.org/10.1109/ISBI53787.2023.10230572",
+        "DOI": "10.1109/ISBI53787.2023.10230572"
+      },
+      {
+        "key": "1531_CR6",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Oakden-Rayner, L., Dunnmon, J., and Carneiro, G., Ré, C. “Hidden stratification causes clinically meaningful failures in machine learning for medical imaging”. In: ACM Conference on Health, Inference, and Learning. 2020, pp. 151–159. https://doi.org/10.1145/3368555.3384468",
+        "DOI": "10.1145/3368555.3384468"
+      },
+      {
+        "key": "1531_CR7",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Roschewitz, M., de Sousa Ribeiro, F., Xia, T., Khara, G., and Glocker, B. “Counterfactual contrastive learning: robust representations via causal image synthesis”. In: MICCAI Workshop on Data Engineering in Medical Imaging. 2024, pp. 22–32. https://doi.org/10.1007/978-3-031-73748-0_3",
+        "DOI": "10.1007/978-3-031-73748-0_3"
+      },
+      {
+        "key": "1531_CR8",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Boland, C., Anderson, O., Goatman, K. A., Hipwell, J., Tsaftaris, S. A., and Dahdouh, S. “All you need is a guiding hand: Mitigating shortcut bias in deep learning models for medical imaging”. In: MICCAI Workshop on Fairness of AI in Medical Imaging. 2024, pp. 67–77. https://doi.org/10.1007/978-3-031-72787-0_7",
+        "DOI": "10.1007/978-3-031-72787-0_7"
+      },
+      {
+        "key": "1531_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "291",
+        "DOI": "10.1016/j.future.2023.03.005",
+        "volume": "144",
+        "author": "H Liz",
+        "year": "2023",
+        "unstructured": "Liz, H., Huertas-Tato, J., Sánchez-Montañés, M., Del Ser, J., and Camacho, D. “Deep learning for understanding multilabel imbalanced chest x-ray datasets”. In: Future Generation Computer Systems 144 (2023), pp. 291–306. https://doi.org/10.1016/j.future.2023.03.005",
+        "journal-title": "Future Generation Computer Systems"
+      },
+      {
+        "key": "1531_CR10",
+        "doi-asserted-by": "publisher",
+        "unstructured": "De Vente C., Vermeer K. A., Jaccard N., Wang H., Sun H., Khader F., Truhn D., Aimyshev T., Zhanibekuly Y., Le T.-D., et al. “AIROGS: artificial intelligence for robust glaucoma screening challenge”. In: IEEE transactions on medical imaging (2023). https://doi.org/10.1109/TMI.2023.3313786",
+        "DOI": "10.1109/TMI.2023.3313786"
+      },
+      {
+        "key": "1531_CR11",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kassem, M. A., Hosny, K. M., Damaševičius, R., and Eltoukhy, M. M. Machine learning and deep learning methods for skin lesion classification and diagnosis: a systematic review. In: Diagnostics 11.8 (2021), 1390. https://doi.org/10.3390/diagnostics11081390",
+        "DOI": "10.3390/diagnostics11081390"
+      },
+      {
+        "key": "1531_CR12",
+        "unstructured": "Sabour, S., Frosst, N., and Hinton, G. E. (2017). Dynamic routing between capsules. In: Advances in neural information processing systems, 30."
+      },
+      {
+        "key": "1531_CR13",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jiménez-Sánchez, A., Albarqouni, S., and Mateus, D. Capsule networks against medical imaging data challenges. In: Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis. 2018, pp. 150–160. https://doi.org/10.1007/978-3-030-01364-6_17",
+        "DOI": "10.1007/978-3-030-01364-6_17"
+      },
+      {
+        "key": "1531_CR14",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Dos Santos, P. R. S., de Carvalho Brito, V., de Carvalho Filho, A. O., de Araújo, F. H. D., Rabêlo, R. d. A. L., and Mathew, M. J. A capsule network-based for identification of glaucoma in retinal images. In: 2020 IEEE Symposium on Computers and Communications (ISCC). 2020, pp. 1–6. https://doi.org/10.1109/ISCC50000.2020.9219708",
+        "DOI": "10.1109/ISCC50000.2020.9219708"
+      },
+      {
+        "key": "1531_CR15",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Shamshad, F., Khan, S., Zamir, S. W., Khan, M. H., Hayat, M., Khan, F. S., and Fu, H. “Transformers in medical imaging: A survey”. In: Medical Image Analysis 88 (2023), p. 102802. https://doi.org/10.1016/j.media.2023.102802",
+        "DOI": "10.1016/j.media.2023.102802"
+      },
+      {
+        "key": "1531_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Marikkar, U., Atito, S., Awais, M., and Mahdi, A. “Lt-vit: A vision transformer for multi-label chest x-ray classification”. In: 2023 IEEE International Conference on Image Processing (ICIP). (2023), pp. 2565–2569. https://doi.org/10.1109/ICIP49359.2023.10222175",
+        "DOI": "10.1109/ICIP49359.2023.10222175"
+      },
+      {
+        "key": "1531_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Fan R., Alipour K., Bowd C., Christopher M., Brye N., Proudfoot J. A., Goldbaum M. H., Belghith A., Girkin C. A., Fazio M. A., et al. “Detecting glaucoma from fundus photographs using deep learning without convolutions: transformer for improved generalization”. In: Ophthalmology science 3.1 (2023), 100233. https://doi.org/10.1016/j.xops.2022.100233",
+        "DOI": "10.1016/j.xops.2022.100233"
+      },
+      {
+        "key": "1531_CR18",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Moutakanni, T., Bojanowski, P., Chassagnon, G., Hudelot, C., Joulin, A., LeCun, Y., and Vakalopoulou, M. Advancing human-centric ai for robust x-ray analysis through holistic self-supervised learning. In: arXiv preprint arXiv:2405.01469. (2024). https://doi.org/10.48550/arXiv.2405.01469",
+        "DOI": "10.48550/arXiv.2405.01469"
+      },
+      {
+        "key": "1531_CR19",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wu, C., Zhang, X., Zhang, Y., Wang, Y., and Xie, W. “Towards generalist foundation model for radiology”. In: arXiv preprint arXiv:2308.02463 (2023). https://doi.org/10.48550/arXiv.2308.02463",
+        "DOI": "10.48550/arXiv.2308.02463"
+      },
+      {
+        "key": "1531_CR20",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Liu C., Jin Y., Guan Z., Li T., Qin Y., Qian B., Jiang Z., Wu Y., Wang X., Zheng Y. F., et al. “Visual-language foundation models in medicine”. In: The Visual Computer (2024), pp. 1–20. https://doi.org/10.1007/s00371-024-03579-w.",
+        "DOI": "10.1007/s00371-024-03579-w"
+      },
+      {
+        "key": "1531_CR21",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Li Z., Song D., Yang Z., Wang D., Li F., Zhang X., Kinahan P. E., and Qiao Y. “VisionUnite: A Vision-Language Foundation Model for Ophthalmology Enhanced with Clinical Knowledge”. In: arXiv preprint arXiv:2408.02865 (2024). https://doi.org/10.48550/arXiv.2408.02865.",
+        "DOI": "10.48550/arXiv.2408.02865"
+      },
+      {
+        "key": "1531_CR22",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Geirhos R., Jacobsen J.-H., Michaelis C., Zemel R., Brendel W., Bethge M., and Wichmann F. A. “Shortcut learning in deep neural networks”. In: Nature Machine Intelligence 2.11 (2020), pp. 665–673. https://doi.org/10.1038/s42256-020-00257-z.",
+        "DOI": "10.1038/s42256-020-00257-z"
+      },
+      {
+        "key": "1531_CR23",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Banerjee I., Bhattacharjee K., Burns J. L., Trivedi H., Purkayastha S., Seyyed-Kalantari L., Patel B. N., Shiradkar R., and Gichoya J. ““Shortcuts” causing bias in radiology artificial intelligence: causes, evaluation and mitigation.” In: Journal of the American College of Radiology (2023). https://doi.org/10.1016/j.jacr.2023.06.025.",
+        "DOI": "10.1016/j.jacr.2023.06.025"
+      },
+      {
+        "key": "1531_CR24",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Vásquez-Venegas C., Wu C., Sundar S., Prôa R., Beloy F. J., Medina J. R., McNichol M., Parvataneni K., Kurtzman N., Mirshawka F., et al. “Detecting and Mitigating the Clever Hans Effect in Medical Imaging: A Scoping Review”. In: Journal of Imaging Informatics in Medicine (2024), pp. 1–17. https://doi.org/10.1007/s10278-024-01335-z.",
+        "DOI": "10.1007/s10278-024-01335-z"
+      },
+      {
+        "key": "1531_CR25",
+        "unstructured": "Wargnier-Dauchelle V., Grenier T., and Sdika M. “An unexpected confounder: how brain shape can be used to classify MRI scans?” In: Medical Imaging with Deep Learning. 2024."
+      },
+      {
+        "key": "1531_CR26",
+        "unstructured": "Boland C., Goatman K. A., Tsaftaris S. A., and Dahdouh S. “There Are No Shortcuts to Anywhere Worth Going: Identifying Shortcuts in Deep Learning Models for Medical Image Analysis”. In: Medical Imaging with Deep Learning. 2024."
+      },
+      {
+        "key": "1531_CR27",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Weng N., Pegios P., Petersen E., Feragen A., and Bigdeli S. “Fast diffusionbased counterfactuals for shortcut removal and generation”. In: European Conference on Computer Vision. 2025, pp. 338–357. https://doi.org/10.1007/978-3-031-73016-0_20.",
+        "DOI": "10.1007/978-3-031-73016-0_20"
+      },
+      {
+        "key": "1531_CR28",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Pérez-García F., Bond-Taylor S., Sanchez P. P., Breugel B. van, Castro D. C., Sharma H., Salvatelli V., Wetscherek M. T., Richardson H., Lungren M. P., et al. “RadEdit: stress-testing biomedical vision models via diffusion image editing”. In: European Conference on Computer Vision. 2024, pp. 358–376. https://doi.org/10.1007/978-3-031-73254-6_21.",
+        "DOI": "10.1007/978-3-031-73254-6_21"
+      },
+      {
+        "key": "1531_CR29",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bissoto A., Fornaciali M., Valle E., and Avila S. “(De)Constructing Bias on Skin Lesion Datasets”. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops. 2019. https://doi.org/10.1109/CVPRW.2019.00335.",
+        "DOI": "10.1109/CVPRW.2019.00335"
+      },
+      {
+        "key": "1531_CR30",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hemelings R., Elen B., Barbosa-Breda J., Blaschko M. B., De Boever P., and Stalmans I. “Deep learning on fundus images detects glaucoma beyond the optic disc”. In: Scientific Reports 11.1 (2021), p. 20313. https://doi.org/10.1038/s41598-021-99605-1.",
+        "DOI": "10.1038/s41598-021-99605-1"
+      },
+      {
+        "key": "1531_CR31",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Haynes S. C., Johnston P., and Elyan E. “Generalisation challenges in deep learning models for medical imagery: insights from external validation of covid-19 classifiers”. In: Multimedia Tools and Applications 83.31 (2024), pp. 76753–76772. https://doi.org/10.1007/s11042-024-18543-y.",
+        "DOI": "10.1007/s11042-024-18543-y"
+      },
+      {
+        "key": "1531_CR32",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Aslani S., Lilaonitkul W., Gnanananthan V., Raj D., Rangelov B., Young A. L., Hu Y., Taylor P., Alexander D. C., Collaborative N., et al. “Optimising Chest X-Rays for Image Analysis by Identifying and Removing Confounding Factors”. In: International Conference on Medical Imaging and Computer-Aided Diagnosis. Springer. 2022, pp. 245–254. https://doi.org/10.1007/978-981-16-6775-6_20.",
+        "DOI": "10.1007/978-981-16-6775-6_20"
+      },
+      {
+        "key": "1531_CR33",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Lin M., Weng N., Mikolaj K., Bashir Z., Svendsen M. B., Tolsgaard M. G., Christensen A. N., and Feragen A. “Shortcut learning in medical image segmentation”. In: International Conference on Medical Image Computing and Computer-Assisted Intervention. 2024, pp. 623–633. https://doi.org/10.1007/978-3-031-72111-3_59.",
+        "DOI": "10.1007/978-3-031-72111-3_59"
+      },
+      {
+        "key": "1531_CR34",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Juodelyte D., Lu Y., Jiménez-Sánchez A., Bottazzi S., Ferrante E., and Cheplygina V. “Source matters: Source dataset impact on model robustness in medical imaging”. In: International Workshop on Applications of Medical AI. 2024, pp. 105–115. https://doi.org/10.1007/978-3-031-82007-6_11.",
+        "DOI": "10.1007/978-3-031-82007-6_11"
+      },
+      {
+        "key": "1531_CR35",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Deng J., Dong W., Socher R., Li L.-J., Li K., and Fei-Fei L. “Imagenet: A large-scale hierarchical image database”. In: Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on. 2009, pp. 248–255. https://doi.org/10.1109/CVPR.2009.5206848.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "1531_CR36",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Mei X., Liu Z., Robson P. M., Marinelli B., Huang M., Doshi A., Jacobi A., Cao C., Link K. E., Yang T., et al. “RadImageNet: an open radiologic deep learning research dataset for effective transfer learning”. In: Radiology: Artificial Intelligence 4.5 (2022), e210315. https://doi.org/10.1148/ryai.210315.",
+        "DOI": "10.1148/ryai.210315"
+      },
+      {
+        "key": "1531_CR37",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Sun S., Koch L. M., and Baumgartner C. F. “Right for the Wrong Reason: Can Interpretable ML Techniques Detect Spurious Correlations?” In: International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer. 2023, pp. 425–434. https://doi.org/10.1007/978-3-031-43895-0_40.",
+        "DOI": "10.1007/978-3-031-43895-0_40"
+      },
+      {
+        "key": "1531_CR38",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kim C., Gadgil S. U., DeGrave A. J., Omiye J. A., Cai Z. R., Daneshjou R., and Lee S.-I. “Transparent medical image AI via an image-text foundation model grounded in medical literature”. In: Nature Medicine (2024), pp. 1– 12. https://doi.org/10.1038/s41591-024-02887-x.",
+        "DOI": "10.1038/s41591-024-02887-x"
+      },
+      {
+        "key": "1531_CR39",
+        "unstructured": "Koh P. W., Nguyen T., Tang Y. S., Mussmann S., Pierson E., Kim B., and Liang P. “Concept bottleneck models”. In: International conference on machine learning. 2020, pp. 5338–5348."
+      },
+      {
+        "key": "1531_CR40",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bustos A., Pertusa A., Salinas J.-M., and Iglesia-Vayá M. de la. “Padchest: A large chest x-ray image dataset with multi-label annotated reports”. In: Medical Image Analysis 66 (2020), p. 101797. https://doi.org/10.1016/j.media.2020.101797.",
+        "DOI": "10.1016/j.media.2020.101797"
+      },
+      {
+        "key": "1531_CR41",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Irvin J., Rajpurkar P., Ko M., Yu Y., Ciurea-Ilcus S., Chute C., Marklund H., Haghgoo B., Ball R., Shpanskaya K., et al. “Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison”. In: AAAI Conference on Artificial Intelligence. Vol. 33. 01. 2019, pp. 590–597. https://doi.org/10.1609/aaai.v33i01.3301590.",
+        "DOI": "10.1609/aaai.v33i01.3301590"
+      },
+      {
+        "key": "1531_CR42",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang X., Peng Y., Lu L., Lu Z., Bagheri M., and Summers R. M. “Chestx-ray8: Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases”. In: Computer Vision and Pattern Recognition. 2017, pp. 2097–2106. https://doi.org/10.1007/978-3-030-13969-8_18.",
+        "DOI": "10.1007/978-3-030-13969-8_18"
+      },
+      {
+        "key": "1531_CR43",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Gaggion N., Mosquera C., Mansilla L., Saidman J. M., Aineseder M., Milone D. H., and Ferrante E. “CheXmask: a large-scale dataset of anatomical segmentation masks for multi-center chest x-ray images”. In: Scientific Data 11.1 (2024), p. 511. https://doi.org/10.1038/s41597-024-03358-1.",
+        "DOI": "10.1038/s41597-024-03358-1"
+      },
+      {
+        "key": "1531_CR44",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Valindria V. V., Lavdas I., Bai W., Kamnitsas K., Aboagye E. O., Rockall A. G., Rueckert D., and Glocker B. “Reverse classification accuracy: predicting segmentation performance in the absence of ground truth”. In: IEEE transactions on medical imaging 36.8 (2017), pp. 1597–1606. https://doi.org/10.1109/TMI.2017.2665165.",
+        "DOI": "10.1109/TMI.2017.2665165"
+      },
+      {
+        "key": "1531_CR45",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kumar J. H., Seelamantula C. S., Gagan J., Kamath Y. S., Kuzhuppilly N. I., Vivekanand U., Gupta P., and Patil S. “Cháku: A glaucoma specific fundus image database”. In: Scientific data 10.1 (2023), p. 70. https://doi.org/10.1038/s41597-023-01943-4.",
+        "DOI": "10.1038/s41597-023-01943-4"
+      },
+      {
+        "key": "1531_CR46",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Warfield S. K., Zou K. H., and Wells W. M. “Simultaneous truth and performance level estimation (STAPLE): an algorithm for the validation of image segmentation”. In: IEEE Transactions on Medical Imaging 23.7 (2004), pp. 903–921. https://doi.org/10.1109/TMI.2004.828354.",
+        "DOI": "10.1109/TMI.2004.828354"
+      },
+      {
+        "key": "1531_CR47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang G., Liu Z., Van Der Maaten L., and Weinberger K. Q. “Densely connected convolutional networks”. In: Proceedings of the IEEE conference on computer vision and pattern recognition. 2017, pp. 4700–4708.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "1531_CR48",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jiménez-Sánchez A., Avlona N.-R., Boer S. de, Campello V. M., Feragen A., Ferrante E., Ganz M., Gichoya J. W., González C., Groefsema S., et al. “In the Picture: Medical Imaging Datasets, Artifacts, and their Living Review”. In: arXiv preprint arXiv:2501.10727 (2025). https://doi.org/10.48550/arXiv.2501.10727.",
+        "DOI": "10.48550/arXiv.2501.10727"
+      },
+      {
+        "key": "1531_CR49",
+        "doi-asserted-by": "publisher",
+        "unstructured": "DeLong E. R., DeLong D. M., and Clarke-Pearson D. L. “Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach”. In: Biometrics (1988), pp. 837–845. https://doi.org/10.2307/2531595.",
+        "DOI": "10.2307/2531595"
+      },
+      {
+        "key": "1531_CR50",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Sun X. and Xu W. “Fast implementation of DeLong’s algorithm for comparing the areas under correlated receiver operating characteristic curves”. In: IEEE Signal Processing Letters 21.11 (2014), pp. 1389–1393. https://doi.org/10.1109/LSP.2014.2337313.",
+        "DOI": "10.1109/LSP.2014.2337313"
+      },
+      {
+        "key": "1531_CR51",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cheplygina V., Sørensen L., Tax D. M., Pedersen J. H., Loog M., and De Bruijne M. “Classification of COPD with multiple instance learning”. In: 2014 22nd International Conference on pattern recognition. 2014, pp. 1508–1513. https://doi.org/10.1109/ICPR.2014.268.",
+        "DOI": "10.1109/ICPR.2014.268"
+      },
+      {
+        "key": "1531_CR52",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Larsen K., He Z., A Fernandes F. de, Zhang X., Zhao C., Sha Q., Mesquita C. T., Paez D., Garcia E. V., Zou J., et al. “A New Method Using Deep Learning to Predict the Response to Cardiac Resynchronization Therapy”. In: Journal of Imaging Informatics in Medicine (2025), pp. 1–17. https://doi.org/10.1007/s10278-024-01380-8.",
+        "DOI": "10.1007/s10278-024-01380-8."
+      },
+      {
+        "key": "1531_CR53",
+        "unstructured": "Van der Maaten L. and Hinton G. “Visualizing data using t-SNE.” In: Journal of machine learning research 9.11 (2008)."
+      },
+      {
+        "key": "1531_CR54",
+        "unstructured": "Lundberg S. M. and Lee S.-I. “A unified approach to interpreting model predictions”. In: Advances in neural information processing systems 30 (2017)."
+      },
+      {
+        "key": "1531_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Klein L., Lüth C., Schlegel U., Bungert T., El-Assady M., and Jaeger P. “Navigating the Maze of Explainable AI: A Systematic Approach to Evaluating Methods and Metrics”. In: Advances in Neural Information Processing Systems. Vol. 37. 2024, pp. 67106–67146.",
+        "DOI": "10.52202/079017-2142"
+      },
+      {
+        "key": "1531_CR56",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bilodeau B., Jaques N., Koh P. W., and Kim B. “Impossibility theorems for feature attribution”. In: Proceedings of the National Academy of Sciences 121.2 (2024), e2304406120. https://doi.org/10.1073/pnas.2304406120.",
+        "DOI": "10.1073/pnas.2304406120"
+      },
+      {
+        "key": "1531_CR57",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Selvaraju R. R., Cogswell M., Das A., Vedantam R., Parikh D., and Batra D. “Grad-cam: Visual explanations from deep networks via gradient-based localization”. In: Proceedings of the IEEE international conference on computer vision. 2017, pp. 618–626. https://doi.org/10.1109/ICCV.2017.74.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "1531_CR58",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Coan L. J., Williams B. M., Adithya V. K., Upadhyaya S., Alkafri A., Czanner S., Venkatesh R., Willoughby C. E., Kavitha S., and Czanner G. “Automatic detection of glaucoma via fundus imaging and artificial intelligence: A review”. In: Survey of ophthalmology 68.1 (2023), pp. 17–41. https://doi.org/10.1016/j.survophthal.2022.08.005.",
+        "DOI": "10.1016/j.survophthal.2022.08.005"
+      },
+      {
+        "key": "1531_CR59",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Heijl A. and Mölder H. “Optic disc diameter influences the ability to detect glaucomatous disc damage”. In: Acta ophthalmologica 71.1 (1993), pp. 122–129. https://doi.org/10.1111/j.1755-3768.1993.tb04974.x.",
+        "DOI": "10.1111/j.1755-3768.1993.tb04974.x"
+      },
+      {
+        "key": "1531_CR60",
+        "doi-asserted-by": "publisher",
+        "unstructured": "OD M. D. H. “Optic disc size, an important consideration in the glaucoma evaluation”. In: Clinical Eye and Vision Care 11.2 (1999), pp. 59–62. https://doi.org/10.1016/S0953-4431(99)00012-0.",
+        "DOI": "10.1016/S0953-4431(99)00012-0"
+      },
+      {
+        "key": "1531_CR61",
+        "unstructured": "Aubreville M., Ganz J., Ammeling J., Kaltenecker C., and Bertram C. “Model-based Cleaning of the QUILT-1M Pathology Dataset for TextConditional Image Synthesis”. In: Medical Imaging with Deep Learning."
+      },
+      {
+        "key": "1531_CR62",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Abhishek K., Jain A., and Hamarneh G. “Investigating the quality of dermamnist and fitzpatrick17k dermatological image datasets”. In: Scientific Data 12.1 (2025), p. 196. https://doi.org/10.1038/s41597-025-04382-5.",
+        "DOI": "10.1038/s41597-025-04382-5"
+      },
+      {
+        "key": "1531_CR63",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Schouten D., Nicoletti G., Dille B., Chia C., Vendittelli P., Schuurmans M., Litjens G., and Khalili N. “Navigating the landscape of multimodal AI in medicine: a scoping review on technical challenges and clinical applications”. In: arXiv preprint arXiv:2411.03782 (2024). https://doi.org/10.48550/arXiv.2411.03782.",
+        "DOI": "10.48550/arXiv.2411.03782"
+      },
+      {
+        "key": "1531_CR64",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hill B. G., Koback F. L., and Schilling P. L. “The risk of shortcutting in deep learning algorithms for medical imaging research”. In: Scientific Reports 14.1 (2024), p. 29224. https://doi.org/10.1038/s41598-024-79838-6.",
+        "DOI": "10.1038/s41598-024-79838-6"
+      },
+      {
+        "key": "1531_CR65",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ghosal S. S. and Li Y. “Are vision transformers robust to spurious correlations?” In: International Journal of Computer Vision 132.3 (2024), pp. 689–709. https://doi.org/10.1007/s11263-023-01916-5.",
+        "DOI": "10.1007/s11263-023-01916-5"
+      },
+      {
+        "key": "1531_CR66",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Maier-Hein L., Reinke A., Godau P., Tizabi M. D., Buettner F., Christodoulou E., Glocker B., Isensee F., Kleesiek J., Kozubek M., et al. “Metrics reloaded: recommendations for image analysis validation”. In: Nature methods (2024), pp. 1–18. https://doi.org/10.1038/s41592-023-02151-z.",
+        "DOI": "10.1038/s41592-023-02151-z"
+      }
+    ],
+    "container-title": [
+      "Journal of Imaging Informatics in Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10278-025-01531-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10278-025-01531-5",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10278-025-01531-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2026-02-19T18:46:32Z",
+      "timestamp": 1771526792000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10278-025-01531-5"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          20
+        ]
+      ]
+    },
+    "references-count": 66,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1531"
+    ],
+    "URL": "https://doi.org/10.1007/s10278-025-01531-5",
+    "relation": {},
+    "ISSN": [
+      "2948-2933"
+    ],
+    "issn-type": [
+      {
+        "value": "2948-2933",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "11 December 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "28 April 2025",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "28 April 2025",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "20 May 2025",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "Not applicable",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethics Approval"
+        }
+      },
+      {
+        "value": "Not applicable",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Consent to Participate"
+        }
+      },
+      {
+        "value": "Not applicable",
+        "order": 4,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Consent for Publication"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 5,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of Interest"
+        }
+      }
+    ]
+  }
+}

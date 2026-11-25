@@ -1,0 +1,629 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T21:30:03Z",
+      "timestamp": 1792618203809,
+      "version": "4.5.0"
+    },
+    "reference-count": 42,
+    "publisher": "MDPI AG",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              24
+            ]
+          ],
+          "date-time": "2025-05-24T00:00:00Z",
+          "timestamp": 1748044800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Information"
+    ],
+    "abstract": "<jats:p>Glaucoma is a progressive optic nerve disease and a leading cause of irreversible blindness worldwide. Early and accurate detection is critical to prevent vision loss, yet traditional diagnostic methods such as optical coherence tomography and visual field tests face challenges in accessibility, cost, and consistency, especially in under-resourced areas. This study evaluates the clinical applicability and robustness of three machine learning models for automated glaucoma detection: a convolutional neural network, a deep neural network, and an automated ensemble approach. The models were trained and validated on retinal fundus images and tested on an independent dataset to assess their ability to generalize across different patient populations. Data preprocessing included resizing, normalization, and feature extraction to ensure consistency. Among the models, the deep neural network demonstrated the highest generalizability with stable performance across datasets, while the convolutional neural network showed moderate but consistent results. The ensemble model exhibited overfitting, which limited its practical use. These findings highlight the importance of proper evaluation frameworks, including external validation, to ensure the reliability of artificial intelligence tools for clinical use. The study provides insights into the development of scalable, effective diagnostic solutions that align with regulatory guidelines, addressing the critical need for accessible glaucoma detection tools in diverse healthcare settings.</jats:p>",
+    "DOI": "10.3390/info16060432",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          25
+        ]
+      ],
+      "date-time": "2025-05-25T20:26:50Z",
+      "timestamp": 1748204810000
+    },
+    "page": "432",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 17,
+    "title": [
+      "Clinical Applicability and Cross-Dataset Validation of Machine Learning Models for Binary Glaucoma Detection"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-5453-8101",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Remyes",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Osteopathic Manipulative Medicine, College of Osteopathic Medicine, New York Institute of Technology, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-8000-8108",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Nasef",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Osteopathic Manipulative Medicine, College of Osteopathic Medicine, New York Institute of Technology, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sarah",
+        "family": "Remyes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological Sciences, School of Arts and Sciences, State University of New York at Old Westbury, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph",
+        "family": "Tawfellos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Osteopathic Manipulative Medicine, College of Osteopathic Medicine, New York Institute of Technology, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-6317-0066",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Sher",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Osteopathic Manipulative Medicine, College of Osteopathic Medicine, New York Institute of Technology, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Demarcus",
+        "family": "Nasef",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Osteopathic Manipulative Medicine, College of Osteopathic Medicine, New York Institute of Technology, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2154-3728",
+        "authenticated-orcid": false,
+        "given": "Milan",
+        "family": "Toma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Osteopathic Manipulative Medicine, College of Osteopathic Medicine, New York Institute of Technology, Old Westbury, NY 11568, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, N., Wang, J., Li, Y., and Jiang, B. (2021). Prevalence of primary open angle glaucoma in the last 20 years: A meta-analysis and systematic review. Sci. Rep., 11.",
+        "DOI": "10.1038/s41598-021-92971-w"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2183",
+        "DOI": "10.1016/S0140-6736(17)31469-1",
+        "article-title": "Glaucoma",
+        "volume": "390",
+        "author": "Jonas",
+        "year": "2017",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global Prevalence of Glaucoma and Projections of Glaucoma Burden through 2040",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_4",
+        "first-page": "e11686",
+        "article-title": "Epidemiology of Glaucoma: The Past, Present, and Predictions for the Future",
+        "volume": "12",
+        "author": "Allison",
+        "year": "2020",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, A.S., Wang, H.S., Li, T.J., Liu, C.H., and Chen, C.M. (2025). Diagnosis of early glaucoma likely combined with high myopia by integrating OCT thickness map and standard automated and Pulsar perimetries. Sci. Rep., 15.",
+        "DOI": "10.1038/s41598-025-97883-7"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "6939",
+        "DOI": "10.1167/iovs.12-10345",
+        "article-title": "The Structure and Function Relationship in Glaucoma: Implications for Detection of Progression and Measurement of Rates of Change",
+        "volume": "53",
+        "author": "Medeiros",
+        "year": "2012",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1001/jama.2020.21899",
+        "article-title": "Glaucoma in Adults–Screening, Diagnosis, and Management: A Review",
+        "volume": "325",
+        "author": "Stein",
+        "year": "2021",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "S17",
+        "DOI": "10.1016/j.survophthal.2008.08.003",
+        "article-title": "Diagnostic Tools for Glaucoma Detection and Management",
+        "volume": "53",
+        "author": "Sharma",
+        "year": "2008",
+        "journal-title": "Surv. Ophthalmol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1038/s41433-021-01687-8",
+        "article-title": "Population screening for glaucoma in UK: Current recommendations and future directions",
+        "volume": "36",
+        "author": "Hamid",
+        "year": "2021",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "875",
+        "DOI": "10.1097/IJG.0000000000001920",
+        "article-title": "Lessons Learned From 2 Large Community-based Glaucoma Screening Studies",
+        "volume": "30",
+        "author": "Kolomeyer",
+        "year": "2021",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e000278",
+        "DOI": "10.1136/bmjophth-2019-000278",
+        "article-title": "Impact of the Manchester Glaucoma Enhanced Referral Scheme on NHS costs",
+        "volume": "4",
+        "author": "Forbes",
+        "year": "2019",
+        "journal-title": "BMJ Open Ophthalmol."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.7326/0003-4819-159-6-201309170-00686",
+        "article-title": "Screening for Glaucoma: U.S. Preventive Services Task Force Recommendation Statement",
+        "volume": "159",
+        "author": "Moyer",
+        "year": "2013",
+        "journal-title": "Ann. Intern. Med."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, X., Islam, M.R., Akter, S., Ahmed, F., Kazami, E., Serhan, H.A., Abd-alrazaq, A., and Yousefi, S. (2023). Artificial intelligence in glaucoma: Opportunities, challenges, and future directions. BioMed. Eng. OnLine, 22.",
+        "DOI": "10.1186/s12938-023-01187-8"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Balasubramanian, K., Ramya, K., and Gayathri Devi, K. (2022). Improved swarm optimization of deep features for glaucoma classification using SEGSO and VGGNet. Biomed. Signal Process. Control, 77.",
+        "DOI": "10.1016/j.bspc.2022.103845"
+      },
+      {
+        "key": "ref_16",
+        "first-page": "104",
+        "article-title": "Artificial intelligence for glaucoma: State of the art and future perspectives",
+        "volume": "35",
+        "author": "Hemelings",
+        "year": "2023",
+        "journal-title": "Curr. Opin. Ophthalmol."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tonti, E., Tonti, S., Mancini, F., Bonini, C., Spadea, L., D’Esposito, F., Gagliano, C., Musa, M., and Zeppieri, M. (2024). Artificial Intelligence and Advanced Technology in Glaucoma: A Review. J. Pers. Med., 14.",
+        "DOI": "10.3390/jpm14101062"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1618",
+        "DOI": "10.1177/1120672120977346",
+        "article-title": "Applications of deep learning in detection of glaucoma: A systematic review",
+        "volume": "31",
+        "author": "Mirzania",
+        "year": "2020",
+        "journal-title": "Eur. J. Ophthalmol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Tian, B., Tian, M., Si, X., Li, J., and Fan, T. (2025). A scoping review of advancements in machine learning for glaucoma: Current trends and future direction. Front. Med., 12.",
+        "DOI": "10.3389/fmed.2025.1573329"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1728",
+        "DOI": "10.2337/dci23-0032",
+        "article-title": "Artificial Intelligence and Diabetic Retinopathy: AI Framework, Prospective Studies, Head-to-head Validation, and Cost-effectiveness",
+        "volume": "46",
+        "author": "Rajesh",
+        "year": "2023",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qinghao, M., Sheng, Z., Jun, Y., Xiaochun, W., and Min, Z. (2025). Keypoint localization and parameter measurement in ultrasound biomicroscopy anterior segment images based on deep learning. BioMed. Eng. OnLine, 24.",
+        "DOI": "10.1186/s12938-025-01388-3"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, R., Kim, H., Kim, T.W., and Lee, E.J. (2025). Predictive modeling of rapid glaucoma progression based on systemic data from electronic medical records. Sci. Rep., 15.",
+        "DOI": "10.1038/s41598-025-97344-1"
+      },
+      {
+        "key": "ref_23",
+        "first-page": "222",
+        "article-title": "Advancing glaucoma detection with convolutional neural networks: A paradigm shift in ophthalmology",
+        "volume": "67",
+        "author": "Haja",
+        "year": "2023",
+        "journal-title": "Rom. J. Ophthalmol."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "110010",
+        "DOI": "10.1016/j.engappai.2025.110010",
+        "article-title": "Enhancing glaucoma detection through multi-modal integration of retinal images and clinical biomarkers",
+        "volume": "143",
+        "author": "Sivakumar",
+        "year": "2025",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1038/s41433-024-03388-4",
+        "article-title": "A generalised computer vision model for improved glaucoma screening using fundus images",
+        "volume": "39",
+        "author": "Chaurasia",
+        "year": "2024",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_26",
+        "first-page": "e81064",
+        "article-title": "Comparing No-Code Platforms and Deep Learning Models for Glaucoma Detection From Fundus Images",
+        "volume": "17",
+        "author": "Gobira",
+        "year": "2025",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Noroozi, Z., Orooji, A., and Erfannia, L. (2023). Analyzing the impact of feature selection methods on machine learning algorithms for heart disease prediction. Scientific Reports, 13.",
+        "DOI": "10.1038/s41598-023-49962-w"
+      },
+      {
+        "key": "ref_28",
+        "first-page": "1344",
+        "article-title": "A New Approach For Feature Selection In Intrusion Detection System",
+        "volume": "36",
+        "author": "Taheri",
+        "year": "2015",
+        "journal-title": "Cumhur. Sci. J."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al-Bander, B., Al-Nuaimy, W., Al-Taee, M.A., and Zheng, Y. (2017, January 28–31). Automated glaucoma diagnosis using deep learning approach. Proceedings of the 2017 14th International Multi-Conference on Systems, Signals & Devices (SSD), Marrakech, Morocco.",
+        "DOI": "10.1109/SSD.2017.8166974"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "819",
+        "DOI": "10.1016/j.bbe.2021.05.011",
+        "article-title": "Automated segmentation of optic disc and optic cup for glaucoma assessment using improved UNET++ architecture",
+        "volume": "41",
+        "author": "Tulsani",
+        "year": "2021",
+        "journal-title": "Biocybern. Biomed. Eng."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "6187",
+        "DOI": "10.1016/j.jksuci.2021.02.003",
+        "article-title": "A novel optic disc and optic cup segmentation technique to diagnose glaucoma using deep learning convolutional neural network over retinal fundus images",
+        "volume": "34",
+        "author": "Veena",
+        "year": "2022",
+        "journal-title": "J. King Saud Univ.-Comput. Inf. Sci."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "258",
+        "DOI": "10.1097/IJG.0000000000001187",
+        "article-title": "Screening Glaucoma with Red-free Fundus Photography Using Deep Learning Classifier and Polar Transformation",
+        "volume": "28",
+        "author": "Lee",
+        "year": "2019",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "U.S. Food and Drug Administration (FDA) (2025, April 16). Considerations for the Use of Artificial Intelligence to Support Regulatory Decision-Making for Drug and Biological Products. Technical Report, U.S. Department of Health and Human Services, Food and Drug Administration, Available online: https://www.fda.gov/media/184830/download."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "U.S. Food and Drug Administration (FDA), Health Canada, and Medicines and Healthcare Products Regulatory Agency (MHRA) (2025, April 21). Good Machine Learning Practice for Medical Device Development: Guiding Principles. Technical Report, U.S. Food and Drug Administration (FDA), Health Canada, and MHRA, Available online: https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Kiefer, R. (2025, April 21). Glaucoma Dataset: EyePACS-AIROGS-Light-V2. Available online: https://www.kaggle.com/datasets/deathtrooper/glaucoma-dataset-eyepacs-airogs-light-v2/versions/4."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kiefer, R., Abid, M., Ardali, M.R., Steen, J., and Amjadian, E. (2023, January 27–29). Automated Fundus Image Standardization Using a Dynamic Global Foreground Threshold Algorithm. Proceedings of the 2023 8th International Conference on Image, Vision and Computing (ICIVC), Dalian, China.",
+        "DOI": "10.1109/ICIVC58118.2023.10270429"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kiefer, R., Steen, J., Abid, M., Ardali, M.R., and Amjadian, E. (2022, January 12–15). A Survey of Glaucoma Detection Algorithms using Fundus and OCT Images. Proceedings of the 2022 IEEE 13th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), Vancouver, BC, Canada.",
+        "DOI": "10.1109/IEMCON56893.2022.9946629"
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Kiefer, R. (2025, April 21). SMDG, A Standardized Fundus Glaucoma Dataset. Available online: https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kiefer, R., Abid, M., Steen, J., Ardali, M.R., and Amjadian, E. (2023, January 10–12). A Catalog of Public Glaucoma Datasets for Machine Learning Applications: A detailed description and analysis of public glaucoma datasets available to machine learning engineers tackling glaucoma-related problems using retinal fundus images and OCT images. Proceedings of the 2023 the 7th International Conference on Information System and Data Mining (ICISDM), Atlanta, GA, USA. ICISDM 2023.",
+        "DOI": "10.1145/3603765.3603779"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Husain, G., Nasef, D., Jose, R., Mayer, J., Bekbolatova, M., Devine, T., and Toma, M. (2025). SMOTE vs. SMOTEENN: A Study on the Performance of Resampling Algorithms for Addressing Class Imbalance in Regression Models. Algorithms, 18.",
+        "DOI": "10.3390/a18010037"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sher, M., Sharma, R., Remyes, D., Nasef, D., Nasef, D., and Toma, M. (2025). Stratified Multisource Optical Coherence Tomography Integration and Cross-Pathology Validation Framework for Automated Retinal Diagnostics. Appl. Sci., 15.",
+        "DOI": "10.3390/app15094985"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "9803788",
+        "DOI": "10.1155/joph/9803788",
+        "article-title": "Democratizing Glaucoma Care: A Framework for AI-Driven Progression Prediction Across Diverse Healthcare Settings",
+        "volume": "2025",
+        "year": "2025",
+        "journal-title": "J. Ophthalmol."
+      }
+    ],
+    "container-title": [
+      "Information"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2078-2489/16/6/432/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T17:39:43Z",
+      "timestamp": 1760031583000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2078-2489/16/6/432"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          24
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "info16060432"
+    ],
+    "URL": "https://doi.org/10.3390/info16060432",
+    "relation": {},
+    "ISSN": [
+      "2078-2489"
+    ],
+    "issn-type": [
+      {
+        "value": "2078-2489",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          24
+        ]
+      ]
+    }
+  }
+}

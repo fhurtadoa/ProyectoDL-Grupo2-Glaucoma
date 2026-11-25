@@ -1,0 +1,197 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "Research Square"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2026-11-05T10:30:26Z",
+      "timestamp": 1793874626772,
+      "version": "4.6.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "group-title": "In Review",
+    "reference-count": 0,
+    "publisher": "Springer Science and Business Media LLC",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2026-11-05T00:00:00Z",
+          "timestamp": 1793836800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    },
+    "abstract": "<title>Abstract</title>\n                <p>Reliable deployment of deep learning classifiers for retinal disease screening requires accurate in-distribution classification, effective out-of-distribution (OOD) detection, and well-calibrated predictions under distribution shift. This study investigates the open-world reliability of the EyeCLIP foundation model and evaluates whether calibration-oriented fine-tuning improves performance under external-domain shift. A three-class fundus classification task comprising diabetic retinopathy, glaucoma, and normal images was constructed using APTOS2019, G1020, and ORIGA, with ORIGA held out entirely for external evaluation. Standard balanced fine-tuning was compared with calibration-oriented fine-tuning and a frozen-feature linear probe. Five OOD scoring methods were evaluated alongside post-hoc temperature scaling and accept–reject analysis. Performance was assessed using classification, OOD detection, and calibration metrics. Standard balanced fine-tuning out-performed calibration-oriented fine-tuning in in-distribution accuracy (0.928 vs. 0.781), k-nearest-neighbor OOD detection (AUROC 0.938 vs. 0.878), and post-hoc OOD calibration (ECE 0.081 vs. 0.450). The calibration-oriented model misclassified 69% of normal ORIGA images as glaucoma. At 25% overall rejection, standard balanced fine-tuning rejected 50.9% of OOD samples while falsely rejecting 1.6% of in-distribution samples. Standard balanced fine-tuning combined with post-hoc calibration and feature-space k-nearest-neighbor abstention provides a simple and effective strategy for improving the reliability of open-world retinal screening.</p>",
+    "DOI": "10.21203/rs.3.rs-11262974/v1",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2026-11-05T10:07:33Z",
+      "timestamp": 1793873253000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Reliable Retinal Screening with Foundation Models under Distribution Shift"
+    ],
+    "prefix": "10.21203",
+    "author": [
+      {
+        "given": "Amreen",
+        "family": "Batool",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Jeju National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Faheem",
+        "family": "Ahmed",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jeju National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fakhri Alam",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "King Fahd University of Petroleum and Minerals"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.researchsquare.com/article/rs-11262974/v1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.researchsquare.com/article/rs-11262974/v1.html",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2026-11-05T10:07:33Z",
+      "timestamp": 1793873253000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.researchsquare.com/article/rs-11262974/v1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.21203/rs.3.rs-11262974/v1",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

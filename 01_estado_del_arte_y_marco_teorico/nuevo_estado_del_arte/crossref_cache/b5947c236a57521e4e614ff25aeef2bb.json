@@ -1,0 +1,721 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2026-09-01T04:37:23Z",
+      "timestamp": 1788237443713,
+      "version": "build-2803163510"
+    },
+    "reference-count": 34,
+    "publisher": "BMJ",
+    "issue": "4",
+    "funder": [
+      {
+        "DOI": "10.13039/100009619",
+        "name": "Japan Agency for Medical Research and Development",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "The Translational Research program; Strategic Prom"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "The Translational Research program; Strategic Prom"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100009619",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007434",
+        "name": "Suzuken Memorial Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Grant"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Grant"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007434",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "18KK0253"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "18KK0253"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "19H01114"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "19H01114"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "20K09784"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "20K09784"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002241",
+        "name": "Japan Science and Technology Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "AIP acceleration research"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AIP acceleration research"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002241",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008734",
+        "name": "Mitsui Sumitomo Insurance Welfare Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Grant"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Grant"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100008734",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "bmj.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Br J Ophthalmol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:sec><jats:title>Background/aims</jats:title><jats:p>To validate a deep learning algorithm to diagnose glaucoma from fundus photography obtained with a smartphone.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>A training dataset consisting of 1364 colour fundus photographs with glaucomatous indications and 1768 colour fundus photographs without glaucomatous features was obtained using an ordinary fundus camera. The testing dataset consisted of 73 eyes of 73 patients with glaucoma and 89 eyes of 89 normative subjects. In the testing dataset, fundus photographs were acquired using an ordinary fundus camera and a smartphone. A deep learning algorithm was developed to diagnose glaucoma using a training dataset. The trained neural network was evaluated by prediction result of the diagnostic of glaucoma or normal over the test datasets, using images from both an ordinary fundus camera and a smartphone. Diagnostic accuracy was assessed using the area under the receiver operating characteristic curve (AROC).</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>The AROC with a fundus camera was 98.9% and 84.2% with a smartphone. When validated only in eyes with advanced glaucoma (mean deviation value &lt; −12 dB, N=26), the AROC with a fundus camera was 99.3% and 90.0% with a smartphone. There were significant differences between these AROC values using different cameras.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>The usefulness of a deep learning algorithm to automatically screen for glaucoma from smartphone-based fundus photographs was validated. The algorithm had a considerable high diagnostic ability, particularly in eyes with advanced glaucoma.</jats:p></jats:sec>",
+    "DOI": "10.1136/bjophthalmol-2020-318107",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2021-07-14T17:20:31Z",
+      "timestamp": 1626283231000
+    },
+    "page": "587-592",
+    "update-policy": "https://doi.org/10.1136/crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "title": [
+      "Deep learning-assisted (automatic) diagnosis of glaucoma using a smartphone"
+    ],
+    "prefix": "10.1136",
+    "volume": "106",
+    "author": [
+      {
+        "given": "Kenichi",
+        "family": "Nakahara",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7182-1912",
+        "authenticated-orcid": false,
+        "given": "Ryo",
+        "family": "Asaoka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6512-7203",
+        "authenticated-orcid": false,
+        "given": "Masaki",
+        "family": "Tanito",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naoto",
+        "family": "Shibata",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keita",
+        "family": "Mitsuhashi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6082-0738",
+        "authenticated-orcid": false,
+        "given": "Yuri",
+        "family": "Fujino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6120-1100",
+        "authenticated-orcid": false,
+        "given": "Masato",
+        "family": "Matsuura",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tatsuya",
+        "family": "Inoue",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keiko",
+        "family": "Azuma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1762-0797",
+        "authenticated-orcid": false,
+        "given": "Ryo",
+        "family": "Obata",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hiroshi",
+        "family": "Murata",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "239",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2022032202400775000_106.4.587.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.2006.18.7.1527"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1016/j.ogla.2019.03.008",
+        "article-title": "Validation of a deep learning model to screen for glaucoma using images from different fundus cameras and data augmentation",
+        "volume": "2",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1167/tvst.9.2.27",
+        "article-title": "Effects of study population, labeling, and training strategies on the performance of deep learning algorithms to detect glaucoma from fundus Photographs",
+        "volume": "28",
+        "author": "Christopher",
+        "year": "2020",
+        "journal-title": "Trans Vis Sci Technol"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3310/hta11030"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.ijg.0000133385.74502.29"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo.80.5.389"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archopht.122.4.477"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2579",
+        "DOI": "10.1007/s00417-019-04470-4",
+        "article-title": "Smartphone-Based fundus photography for screening of plus-disease retinopathy of prematurity",
+        "volume": "257",
+        "author": "Patel",
+        "year": "2019",
+        "journal-title": "Graefes Arch Clin Exp Ophthalmol"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "840",
+        "DOI": "10.4103/ijo.IJO_1177_18",
+        "article-title": "Smartphone guided wide-field imaging for retinopathy of prematurity in neonatal intensive care unit - a Smart ROP (SROP) initiative",
+        "volume": "67",
+        "author": "Goyal",
+        "year": "2019",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1188",
+        "DOI": "10.1001/jamaophthalmol.2019.2883",
+        "article-title": "Smartphone-Based, artificial Intelligence-Enabled diabetic retinopathy screening",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jamaophthalmol.2019.2923",
+        "article-title": "Diagnostic accuracy of community-based diabetic retinopathy screening with an Offline artificial intelligence system on a smartphone",
+        "volume": "137",
+        "author": "Natarajan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.13",
+        "unstructured": "Japan Glaucoma Society. Available: http://www.ryokunaisho.jp/english/guidelines.html"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J , Dong W , Scocher R . ImageNet: a large-scale hierarchical image database. 2009 IEEE Conference on Computer Vision and Pattern Recognition, 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu W , Anguelov D , Erhan D . SSD: single shot MultiBox detector. Proceedings of the European Conference on Computer Vision (ECCV), 2016:21–37.",
+        "DOI": "10.1007/978-3-319-46448-0_2"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.16",
+        "unstructured": "Anderson DR , Patella VM . Automated static perimetry. 2nd ed. St.Louis: Mosby, 1999."
+      },
+      {
+        "key": "2022032202400775000_106.4.587.17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus Photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "Gómez-Valverde",
+        "year": "2019",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: an extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1016/j.ophtha.2019.05.029",
+        "article-title": "Development and validation of deep learning models for screening multiple abnormal findings in retinal fundus images",
+        "volume": "127",
+        "author": "Son",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1138",
+        "DOI": "10.1038/s41433-018-0064-9",
+        "article-title": "Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligence",
+        "volume": "32",
+        "author": "Rajalakshmi",
+        "year": "2018",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "S18",
+        "DOI": "10.3928/23258160-20190108-05",
+        "article-title": "Validation of smartphone-based retinal photography for diabetic retinopathy screening",
+        "volume": "50",
+        "author": "Bilong",
+        "year": "2019",
+        "journal-title": "Ophthalmic Surg Lasers Imaging Retina"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1167/iovs.17-22617",
+        "article-title": "A deep learning approach to digitally stain optical coherence tomography images of the optic nerve head",
+        "volume": "59",
+        "author": "Devalla",
+        "year": "2018",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2019-314170"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-64869-6"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "210",
+        "DOI": "10.1016/j.ogla.2020.01.001",
+        "article-title": "Improving the structure-function relationship in glaucomatous visual fields by using a deep Learning-Based noise reduction approach",
+        "volume": "3",
+        "author": "Asaoka",
+        "year": "2020",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archophthalmol.2009.134"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2011.02.040"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0161-6420(99)90416-5"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2006.03.059"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2006.06.050"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archophthalmol.2010.125"
+      },
+      {
+        "key": "2022032202400775000_106.4.587.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.10-5528"
+      }
+    ],
+    "container-title": [
+      "British Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1136/bjophthalmol-2020-318107",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ],
+      "date-time": "2022-03-22T09:47:03Z",
+      "timestamp": 1647942423000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://bjo.bmj.com/lookup/doi/10.1136/bjophthalmol-2020-318107"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          14
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            22
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1136/bjophthalmol-2020-318107"
+    ],
+    "URL": "https://doi.org/10.1136/bjophthalmol-2020-318107",
+    "relation": {},
+    "ISSN": [
+      "0007-1161",
+      "1468-2079"
+    ],
+    "issn-type": [
+      {
+        "value": "0007-1161",
+        "type": "print"
+      },
+      {
+        "value": "1468-2079",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          14
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "data": {
+    "id": "10.6084/m9.figshare.14798004.v1",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.6084/m9.figshare.14798004.v1",
+      "prefix": "10.6084",
+      "suffix": "m9.figshare.14798004.v1",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Kovalyk, Oleksandr",
+          "givenName": "Oleksandr",
+          "familyName": "Kovalyk",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0003-4815-8248",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Morales-Sánchez, Juan",
+          "givenName": "Juan",
+          "familyName": "Morales-Sánchez",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-2894-3292",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Verdú-Monedero, Rafael",
+          "givenName": "Rafael",
+          "familyName": "Verdú-Monedero",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-9227-7397",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Sellés-Navarro, Inmaculada",
+          "givenName": "Inmaculada",
+          "familyName": "Sellés-Navarro",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-8757-2559",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Palazón-Cabanes, Ana",
+          "givenName": "Ana",
+          "familyName": "Palazón-Cabanes",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-7640-4955",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "Sancho-Gómez, José-Luis",
+          "givenName": "José-Luis",
+          "familyName": "Sancho-Gómez",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-8009-1616",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "PAPILA"
+        }
+      ],
+      "publisher": "figshare",
+      "container": {},
+      "publicationYear": 2022,
+      "subjects": [
+        {
+          "subject": "111301 Ophthalmology",
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subjectScheme": "FOR"
+        },
+        {
+          "subject": "FOS: Clinical medicine",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2022-04-29",
+          "dateType": "Created"
+        },
+        {
+          "date": "2022-05-31",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2022",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsPreviousVersionOf",
+          "relatedIdentifier": "10.6084/m9.figshare.14798004",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [
+        "590846547 Bytes"
+      ],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "GPL 3.0+",
+          "rightsUri": "https://www.gnu.org/licenses/gpl-3.0.html"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "This work provides a public dataset with medical data and fundus images of both eyes of the same patient. Segmentations of the cup and optic disc, as well as the labeling of the patients based on the evaluation of clinical data are also provided.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC42MDg0L005LkZJR1NIQVJFLjE0Nzk4MDA0LlYxPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+T2xla3NhbmRyIEtvdmFseWs8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk9sZWtzYW5kcjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Lb3ZhbHlrPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj4wMDAwLTAwMDMtNDgxNS04MjQ4PC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+SnVhbiBNb3JhbGVzLVPDoW5jaGV6PC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5KdWFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPk1vcmFsZXMtU8OhbmNoZXo8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPjAwMDAtMDAwMi0yODk0LTMyOTI8L25hbWVJZGVudGlmaWVyPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5SYWZhZWwgVmVyZMO6LU1vbmVkZXJvPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5SYWZhZWw8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+VmVyZMO6LU1vbmVkZXJvPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj4wMDAwLTAwMDEtOTIyNy03Mzk3PC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+SW5tYWN1bGFkYSBTZWxsw6lzLU5hdmFycm88L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPklubWFjdWxhZGE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+U2VsbMOpcy1OYXZhcnJvPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj4wMDAwLTAwMDItODc1Ny0yNTU5PC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+QW5hIFBhbGF6w7NuLUNhYmFuZXM8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkFuYTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5QYWxhesOzbi1DYWJhbmVzPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj4wMDAwLTAwMDItNzY0MC00OTU1PC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+Sm9zw6ktTHVpcyBTYW5jaG8tR8OzbWV6PC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Kb3PDqS1MdWlzPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlNhbmNoby1Hw7NtZXo8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPjAwMDAtMDAwMS04MDA5LTE2MTY8L25hbWVJZGVudGlmaWVyPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5QQVBJTEE8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+Jmx0O3AmZ3Q7VGhpcyB3b3JrIHByb3ZpZGVzIGEgcHVibGljIGRhdGFzZXQgd2l0aCBtZWRpY2FsIGRhdGEgYW5kIGZ1bmR1cyBpbWFnZXMgb2YgYm90aCBleWVzIG9mIHRoZSBzYW1lIHBhdGllbnQuIFNlZ21lbnRhdGlvbnMgb2YgdGhlIGN1cCBhbmQgb3B0aWMgZGlzYywgYXMgd2VsbCBhcyB0aGUgbGFiZWxpbmcgb2YgdGhlIHBhdGllbnRzIGJhc2VkIG9uIHRoZSBldmFsdWF0aW9uIG9mIGNsaW5pY2FsIGRhdGEgYXJlIGFsc28gcHJvdmlkZWQuJmx0Oy9wJmd0OzwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3Qgc2NoZW1lVVJJPSJodHRwOi8vd3d3LmFicy5nb3YuYXUvYXVzc3RhdHMvYWJzQC5uc2YvMC82QkI0MjdBQjk2OTZDMjI1Q0EyNTc0MTgwMDA0NDYzRSIgc3ViamVjdFNjaGVtZT0iRk9SIj4xMTEzMDEgT3BodGhhbG1vbG9neTwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxwdWJsaXNoZXI+Zmlnc2hhcmU8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjI8L3B1YmxpY2F0aW9uWWVhcj4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQ3JlYXRlZCI+MjAyMi0wNC0yOTwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIj4yMDIyLTA1LTMxPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ij5EYXRhc2V0PC9yZXNvdXJjZVR5cGU+CiAgPHNpemVzPgogICAgPHNpemU+NTkwODQ2NTQ3IEJ5dGVzPC9zaXplPgogIDwvc2l6ZXM+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1ByZXZpb3VzVmVyc2lvbk9mIj4xMC42MDg0L205LmZpZ3NoYXJlLjE0Nzk4MDA0PC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzL2dwbC0zLjAuaHRtbCI+R1BMIDMuMCs8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CjwvcmVzb3VyY2U+",
+      "url": "https://figshare.com/articles/dataset/PAPILA/14798004/1",
+      "contentUrl": null,
+      "metadataVersion": 4,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 2381,
+      "viewsOverTime": [
+        {
+          "yearMonth": "2025-02",
+          "total": 4
+        },
+        {
+          "yearMonth": "2025-02",
+          "total": 3
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 201
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 201
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 248
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 172
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 191
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 106
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 1
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 119
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 1
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 116
+        },
+        {
+          "yearMonth": "2025-09",
+          "total": 120
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 121
+        },
+        {
+          "yearMonth": "2025-11",
+          "total": 107
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 75
+        },
+        {
+          "yearMonth": "2026-01",
+          "total": 108
+        },
+        {
+          "yearMonth": "2026-02",
+          "total": 95
+        },
+        {
+          "yearMonth": "2026-03",
+          "total": 98
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 85
+        },
+        {
+          "yearMonth": "2026-06",
+          "total": 66
+        },
+        {
+          "yearMonth": "2026-07",
+          "total": 81
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 62
+        }
+      ],
+      "downloadCount": 676,
+      "downloadsOverTime": [
+        {
+          "yearMonth": "2025-02",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-02",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 46
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 48
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 61
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 41
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 48
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 29
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 42
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 39
+        },
+        {
+          "yearMonth": "2025-09",
+          "total": 33
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 38
+        },
+        {
+          "yearMonth": "2025-11",
+          "total": 38
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 31
+        },
+        {
+          "yearMonth": "2026-01",
+          "total": 23
+        },
+        {
+          "yearMonth": "2026-02",
+          "total": 28
+        },
+        {
+          "yearMonth": "2026-03",
+          "total": 33
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 26
+        },
+        {
+          "yearMonth": "2026-06",
+          "total": 19
+        },
+        {
+          "yearMonth": "2026-07",
+          "total": 29
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 24
+        }
+      ],
+      "referenceCount": 0,
+      "citationCount": 5,
+      "citationsOverTime": [
+        {
+          "year": "2022",
+          "total": 1
+        },
+        {
+          "year": "2024",
+          "total": 1
+        },
+        {
+          "year": "2025",
+          "total": 2
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2022-04-29T09:26:31.000Z",
+      "registered": "2022-04-29T09:26:32.000Z",
+      "published": "2022",
+      "updated": "2025-06-01T02:37:20.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "figshare.ars",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "otjm",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.6084/m9.figshare.14798004.v1",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1007/s13755-026-00442-1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1101/2025.04.22.25326210",
+            "type": "dois"
+          },
+          {
+            "id": "10.1038/s41433-024-03388-4",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s11277-024-11363-1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1038/s41597-022-01388-1",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

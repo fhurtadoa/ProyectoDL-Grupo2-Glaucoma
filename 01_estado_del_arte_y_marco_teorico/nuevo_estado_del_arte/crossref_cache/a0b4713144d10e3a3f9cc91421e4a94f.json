@@ -1,0 +1,637 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2026-10-19T20:52:41Z",
+      "timestamp": 1792443161557,
+      "version": "4.5.0"
+    },
+    "reference-count": 37,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              27
+            ]
+          ],
+          "date-time": "2024-11-27T00:00:00Z",
+          "timestamp": 1732665600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              27
+            ]
+          ],
+          "date-time": "2024-11-27T00:00:00Z",
+          "timestamp": 1732665600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Med Biol Eng Comput"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11517-024-03244-3",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2024-11-27T09:05:52Z",
+      "timestamp": 1732698352000
+    },
+    "page": "1027-1044",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "CC-TransXNet: a hybrid CNN-transformer network for automatic segmentation of optic cup and optic disk from fundus images"
+    ],
+    "prefix": "10.1007",
+    "volume": "63",
+    "author": [
+      {
+        "given": "Zhongzheng",
+        "family": "Yuan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1755-4734",
+        "authenticated-orcid": false,
+        "given": "Jinke",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yukun",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Min",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "1",
+        "key": "3244_CR1",
+        "first-page": "1004",
+        "volume": "2",
+        "author": "J Sivaswamy",
+        "year": "2015",
+        "unstructured": "Sivaswamy J, Krishnadas S, Chakravarty A et al (2015) A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis. JSM Biomed Imaging Data Papers 2(1):1004",
+        "journal-title": "JSM Biomed Imaging Data Papers"
+      },
+      {
+        "key": "3244_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "102938",
+        "DOI": "10.1016/j.media.2023.102938",
+        "volume": "90",
+        "author": "J Wu",
+        "year": "2023",
+        "unstructured": "Wu J, Fang H, Li F et al (2023) Gamma challenge: glaucoma grading from multi-modality images. Med Image Anal 90:102938",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "3244_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy J, Krishnadas SR, Joshi GD, Jani M, Tabish AUS (2014) Drishti-gs: retinal image dataset for optic nerve head (onh) segmentation[C]//2014 IEEE 11th international symposium on biomedical imaging (ISBI). Beijing, China, pp 53–56",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "issue": "2",
+        "key": "3244_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "100255",
+        "DOI": "10.1016/j.xops.2022.100255",
+        "volume": "3",
+        "author": "HA Rasheed",
+        "year": "2023",
+        "unstructured": "Rasheed HA, Davis T, Morales E et al (2023) DDLSNet: A novel deep learning-based system for grading funduscopic images for glaucomatous damage. Ophthalmol Sci 3(2):100255",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "3244_CR5",
+        "first-page": "1",
+        "volume": "2018",
+        "author": "W Lu",
+        "year": "2018",
+        "unstructured": "Lu W, Tong Y, Yu Y et al (2018) Applications of artificial intelligence in ophthalmology: general overview. J Ophthalmol 2018:1",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "3244_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1111/ceo.13381",
+        "volume": "47",
+        "author": "DT Hogarty",
+        "year": "2019",
+        "unstructured": "Hogarty DT, Mackey DA, Hewitt AW (2019) Current state and future prospects of artificial intelligence in ophthalmology: a review. Clin Experiment Ophthalmol 47(1):128–139",
+        "journal-title": "Clin Experiment Ophthalmol"
+      },
+      {
+        "key": "3244_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "221",
+        "DOI": "10.1146/annurev-bioeng-071516-044442",
+        "volume": "19",
+        "author": "D Shen",
+        "year": "2017",
+        "unstructured": "Shen D, Guorong Wu, Suk H-I (2017) Deep learning in medical image analysis. Annu Rev Biomed Eng 19:221–248",
+        "journal-title": "Annu Rev Biomed Eng"
+      },
+      {
+        "key": "3244_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "5701",
+        "DOI": "10.1007/s10489-020-02145-w",
+        "volume": "51",
+        "author": "Y Guo",
+        "year": "2021",
+        "unstructured": "Guo Y, Peng Y, Zhang B (2021) CAFR-CNN: coarse-to-fine adaptive faster R-CNN for cross-domain joint optic disc and cup segmentation. Appl Intell 51:5701–5725",
+        "journal-title": "Appl Intell"
+      },
+      {
+        "issue": "2",
+        "key": "3244_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "819",
+        "DOI": "10.1016/j.bbe.2021.05.011",
+        "volume": "41",
+        "author": "A Tulsani",
+        "year": "2021",
+        "unstructured": "Tulsani A, Kumar P, Pathan S (2021) Automated segmentation of optic disc and optic cup for glaucoma assessment using improved UNET++ architecture. Biocybernetics Biomed Eng 41(2):819–832",
+        "journal-title": "Biocybernetics Biomed Eng"
+      },
+      {
+        "key": "3244_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "107810",
+        "DOI": "10.1016/j.patcog.2020.107810",
+        "volume": "112",
+        "author": "L Wang",
+        "year": "2021",
+        "unstructured": "Wang L et al (2021) Automated segmentation of the optic disc from fundus images using an asymmetric deep learning network. Pattern recognition 112:107810",
+        "journal-title": "Pattern recognition"
+      },
+      {
+        "key": "3244_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "108347",
+        "DOI": "10.1016/j.asoc.2021.108347",
+        "volume": "116",
+        "author": "ÁS Hervella",
+        "year": "2022",
+        "unstructured": "Hervella ÁS et al (2022) End-to-end multi-task learning for simultaneous optic disc and cup segmentation and glaucoma classification in eye fundus images. Appl Soft Comput 116:108347",
+        "journal-title": "Appl Soft Comput"
+      },
+      {
+        "issue": "3",
+        "key": "3244_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "638",
+        "DOI": "10.1007/s10278-021-00579-3",
+        "volume": "35",
+        "author": "Y Wang",
+        "year": "2022",
+        "unstructured": "Wang Y, Xiaosheng Yu, Chengdong Wu (2022) An efficient hierarchical optic disc and cup segmentation network combined with multi-task learning and adversarial learning. J Digit Imaging 35(3):638–653",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "issue": "6",
+        "key": "3244_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "905",
+        "DOI": "10.1007/s11548-021-02373-6",
+        "volume": "16",
+        "author": "L Luo",
+        "year": "2021",
+        "unstructured": "Luo L et al (2021) Joint optic disc and optic cup segmentation based on boundary prior and adversarial learning. Int J Comput Assist Radiol Surg 16(6):905–914",
+        "journal-title": "Int J Comput Assist Radiol Surg"
+      },
+      {
+        "key": "3244_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "102253",
+        "DOI": "10.1016/j.media.2021.102253",
+        "volume": "74",
+        "author": "S Pachade",
+        "year": "2021",
+        "unstructured": "Pachade S et al (2021) NENet: Nested EfficientNet and adversarial learning for joint optic disc and cup segmentation. Med Image Anal 74:102253",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "3244_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "330",
+        "DOI": "10.1016/j.neucom.2021.08.102",
+        "volume": "464",
+        "author": "P Yin",
+        "year": "2021",
+        "unstructured": "Yin P et al (2021) Deep level set learning for optic disc and cup segmentation. Neurocomputing 464:330–341",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "3244_CR16",
+        "unstructured": "Dosovitskiy A, Beyer L, Kolesnikov A, Weissenborn D, Zhai X, Unterthiner T, Dehghani M, Minderer M, Heigold G, Gelly S, Uszkoreit J, Houlsby N (2020) An image is worth 16x16 words: transformers for image recognition at scale. arXiv preprint. arXiv:2010.11929"
+      },
+      {
+        "key": "3244_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "104308",
+        "DOI": "10.1016/j.dsp.2023.104308",
+        "volume": "145",
+        "author": "S Yan",
+        "year": "2024",
+        "unstructured": "Yan S, Pan X, Wang Y (2024) MRSNet: Joint consistent optic disc and cup segmentation based on large kernel residual convolutional attention and self-attention. Digital Signal Processing 145:104308",
+        "journal-title": "Digital Signal Processing"
+      },
+      {
+        "key": "3244_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao H, Wang Y, Chen J, Jiang D, Zhang X, Tian Q, Wang M (2022) Swin-unet: unet-like pure transformer for medical image segmentation[C]//European conference on computer vision. Cham: Springer Nature Switzerland, Milan, Italy, pp 205–218",
+        "DOI": "10.1007/978-3-031-25066-8_9"
+      },
+      {
+        "key": "3244_CR19",
+        "unstructured": "Chen J, Lu Y, Yu Q, Luo X, Adeli E, Wang Y, Lu L, Yuille AL, Zhou Y (2021) Transunet: transformers make strong encoders for medical image segmentation. arXiv preprint. arXiv:2102.04306"
+      },
+      {
+        "key": "3244_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "106668",
+        "DOI": "10.1016/j.knosys.2020.106668",
+        "volume": "213",
+        "author": "Y Zhang",
+        "year": "2021",
+        "unstructured": "Zhang Y et al (2021) TAU: Transferable Attention U-Net for optic disc and cup segmentation. Knowledge-Based Syst 213:106668",
+        "journal-title": "Knowledge-Based Syst"
+      },
+      {
+        "issue": "1",
+        "key": "3244_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "59",
+        "DOI": "10.1016/j.imed.2022.07.002",
+        "volume": "3",
+        "author": "K He",
+        "year": "2023",
+        "unstructured": "He K, Gan C, Li Z et al (2023) Transformers in medical image analysis. Intell Med 3(1):59–78",
+        "journal-title": "Intell Med"
+      },
+      {
+        "key": "3244_CR22",
+        "unstructured": "Lou M, Zhou H Y, Yang S, Yu Y (2023) TransXNet: learning both global and local dynamics with a dual dynamic token mixer for visual recognition. arXiv preprint. arXiv:2310.19380"
+      },
+      {
+        "key": "3244_CR23",
+        "unstructured": "Targ S, Almeida D, Lyman K (2016) Resnet in resnet: generalizing residual architectures. arXiv preprint. arXiv:1603.08029"
+      },
+      {
+        "key": "3244_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woo S, Park J, Lee J Y, Kweon I S (2018) Cbam: convolutional block attention module. Proc Eur Conf Computer Vision (ECCV), Munich, Germany, pp 3–19",
+        "DOI": "10.1007/978-3-030-01234-2_1"
+      },
+      {
+        "key": "3244_CR25",
+        "first-page": "5505",
+        "volume-title": "Generative image inpainting with contextual attention",
+        "author": "J Yu",
+        "year": "2018",
+        "unstructured": "Yu J, Lin Z, Yang J, Shen X, Lu X, Huang TS (2018) Generative image inpainting with contextual attention. Proc IEEE Conf Computer Vision Pattern Recogn, Salt Lake City, UT, USA, pp 5505–5514"
+      },
+      {
+        "key": "3244_CR26",
+        "first-page": "12124",
+        "volume-title": "Cswin transformer: a general vision transformer backbone with cross-shaped windows",
+        "author": "X Dong",
+        "year": "2022",
+        "unstructured": "Dong X, Bao J, Chen D, Zhang W, Yu N, Yuan L, Chen D, Guo B (2022) Cswin transformer: a general vision transformer backbone with cross-shaped windows. Proc IEEE/CVF Conf Computer Vision Pattern Recogn, New Orleans, LA, USA, pp 12124–12134"
+      },
+      {
+        "key": "3244_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "12581",
+        "DOI": "10.1109/TPAMI.2023.3282631",
+        "volume": "45",
+        "author": "K Li",
+        "year": "2023",
+        "unstructured": "Li K, Wang Y, Zhang J et al (2023) Uniformer: unifying convolution and self-attention for visual recognition. IEEE Trans Pattern Anal Machine Intell 45:12581",
+        "journal-title": "IEEE Trans Pattern Anal Machine Intell"
+      },
+      {
+        "issue": "01",
+        "key": "3244_CR28",
+        "first-page": "8368",
+        "volume": "33",
+        "author": "Y Guo",
+        "year": "2019",
+        "unstructured": "Guo Y, Li Y, Wang L et al (2019) Depthwise convolution is all you need for learning multiple visual domains. Proc AAAI Conf Artif Intell 33(01):8368–8375",
+        "journal-title": "Proc AAAI Conf Artif Intell"
+      },
+      {
+        "key": "3244_CR29",
+        "first-page": "1251",
+        "volume-title": "Xception: deep learning with depthwise separable convolutions",
+        "author": "F Chollet",
+        "year": "2017",
+        "unstructured": "Chollet F (2017) Xception: deep learning with depthwise separable convolutions. Proc IEEE Conf Computer Vision Pattern Recogn, Honolulu, HI, USA, pp 1251–1258"
+      },
+      {
+        "key": "3244_CR30",
+        "first-page": "11030",
+        "volume-title": "Dynamic convolution: attention over convolution kernels",
+        "author": "Y Chen",
+        "year": "2020",
+        "unstructured": "Chen Y, Dai X, Liu M, Chen D, Yuan L, Liu Z (2020) Dynamic convolution: attention over convolution kernels. Proc IEEE/CVF Conf Computer Vision Pattern Recogn, Seattle, WA, USA, pp 11030–11039"
+      },
+      {
+        "key": "3244_CR31",
+        "unstructured": "Han Q, Fan Z, Dai Q, Sun L, Cheng M M, Liu J, Wang J (2021) On the connection between local attention and dynamic depth-wise convolution. arXiv preprint. arXiv:2106.04263"
+      },
+      {
+        "key": "3244_CR32",
+        "first-page": "10853",
+        "volume-title": "Shunted self-attention via multi-scale token aggregation",
+        "author": "S Ren",
+        "year": "2022",
+        "unstructured": "Ren S, Zhou D, He S, Feng J, Wang X (2022) Shunted self-attention via multi-scale token aggregation. Proc IEEE/CVF Conf Computer Vision and Pattern Recogn, New Orleans, LA, USA, pp 10853–10862"
+      },
+      {
+        "key": "3244_CR33",
+        "first-page": "12175",
+        "volume-title": "Cmt: Convolutional neural networks meet vision transformers",
+        "author": "J Guo",
+        "year": "2022",
+        "unstructured": "Guo J, Han K, Wu H, Tang Y, Chen X, Wang Y, Xu C (2022) Cmt: Convolutional neural networks meet vision transformers. Proc IEEE/CVF Conf Computer Vision Pattern Recogn, New Orleans, LA, USA, pp 12175–12185"
+      },
+      {
+        "key": "3244_CR34",
+        "first-page": "12934",
+        "volume": "35",
+        "author": "Y Li",
+        "year": "2022",
+        "unstructured": "Li Y, Yuan G, Wen Y et al (2022) Efficientformer: vision transformers at mobilenet speed[J]. Adv Neural Inf Process Syst 35:12934–12949",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "3244_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "105260",
+        "DOI": "10.1016/j.bspc.2023.105260",
+        "volume": "86",
+        "author": "L Zhao",
+        "year": "2023",
+        "unstructured": "Zhao L, Liu S, An Y et al (2023) A unified end-to-end classification model for focal liver lesions. Biomed Signal Process Control 86:105260",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "3244_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero F, Alayón S, Sanchez J L, Sigut J, Gonzalez-Hernandez M (2011) RIM-ONE: an open retinal image database for optic nerve evaluation. 2011 24th International symposium on computer-based medical systems (CBMS). IEEE, Bristol, UK, pp 1–6",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "issue": "3",
+        "key": "3244_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "161",
+        "DOI": "10.5566/ias.2346",
+        "volume": "39",
+        "author": "FJF Batista",
+        "year": "2020",
+        "unstructured": "Batista FJF, Diaz-Aleman T, Sigut J et al (2020) Rim-one dl: a unified retinal image database for assessing glaucoma using deep learning. Image Anal Stereol 39(3):161–167",
+        "journal-title": "Image Anal Stereol"
+      }
+    ],
+    "container-title": [
+      "Medical &amp; Biological Engineering &amp; Computing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11517-024-03244-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11517-024-03244-3/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11517-024-03244-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          29
+        ]
+      ],
+      "date-time": "2025-03-29T04:16:28Z",
+      "timestamp": 1743221788000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s11517-024-03244-3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "3244"
+    ],
+    "URL": "https://doi.org/10.1007/s11517-024-03244-3",
+    "relation": {},
+    "ISSN": [
+      "0140-0118",
+      "1741-0444"
+    ],
+    "issn-type": [
+      {
+        "value": "0140-0118",
+        "type": "print"
+      },
+      {
+        "value": "1741-0444",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "3 July 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "7 November 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "27 November 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ]
+  }
+}

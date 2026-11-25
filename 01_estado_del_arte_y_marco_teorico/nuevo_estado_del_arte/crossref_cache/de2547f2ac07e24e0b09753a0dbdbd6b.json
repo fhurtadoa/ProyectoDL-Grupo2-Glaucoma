@@ -1,0 +1,805 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T21:42:28Z",
+      "timestamp": 1793050948856,
+      "version": "4.5.0"
+    },
+    "reference-count": 53,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Computer Methods and Programs in Biomedicine"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cmpb.2021.106530",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2021-11-13T22:26:04Z",
+      "timestamp": 1636842364000
+    },
+    "page": "106530",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 40,
+    "special_numbering": "C",
+    "title": [
+      "ECSD-Net: A joint optic disc and cup segmentation and glaucoma classification network based on unsupervised domain adaptation"
+    ],
+    "prefix": "10.1016",
+    "volume": "213",
+    "author": [
+      {
+        "given": "Bingyan",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daru",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhenbin",
+        "family": "Shuai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "11",
+        "key": "10.1016/j.cmpb.2021.106530_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.cmpb.2021.106530_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "1860",
+        "DOI": "10.1109/TMI.2010.2053042",
+        "article-title": "Detecting the optic disc boundary in digital fundus images using morphological, edge detection, and feature extraction techniques",
+        "volume": "29",
+        "author": "Aquino",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0003",
+        "article-title": "Accurate and efficient optic disc detection and segmentation by a circular transformation",
+        "author": "Lu",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1016/j.cmpb.2017.06.004",
+        "article-title": "Joint optic disc and cup boundary extraction from monocular fundus images",
+        "volume": "147",
+        "author": "Chakravarty",
+        "year": "2017",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.cmpb.2021.106530_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1665",
+        "DOI": "10.1167/iovs.06-1081",
+        "article-title": "Automated segmentation of the optic disc from stereo color photographs using physiologically plausible features",
+        "volume": "48",
+        "author": "Abra‘moff",
+        "year": "2007",
+        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.cmpb.2021.106530_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1109/TMI.2011.2106509",
+        "article-title": "Optic disk and cup segmentation from monocular color retinal images for glaucoma assessment",
+        "volume": "30",
+        "author": "Joshi",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.cmpb.2021.106530_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "1019",
+        "DOI": "10.1109/TMI.2013.2247770",
+        "article-title": "Superpixel classification based optic disc and optic cup segmentation for glaucoma screening",
+        "volume": "32",
+        "author": "Cheng",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0008",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "first-page": "1097",
+        "article-title": "ImageNet classification with deep convolutional neural networks",
+        "author": "Krizhevsky",
+        "year": "2012"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.cmpb.2021.106530_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.cmpb.2021.106530_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1109/TBME.2019.2913211",
+        "article-title": "JointRCNN: a region-based convolutional neural network for optic disc and cup segmentation",
+        "volume": "67",
+        "author": "Jiang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.cmpb.2021.106530_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "2281",
+        "DOI": "10.1109/TMI.2019.2903562",
+        "article-title": "CE-Net: context encoder network for 2D medical image segmentation",
+        "volume": "38",
+        "author": "Gu",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0012",
+        "series-title": "2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)",
+        "first-page": "601",
+        "article-title": "Ellipse detection of optic disc-and-cup boundary in fundus images",
+        "author": "Wang",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0013",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K.K. Maninis, J. Pont-Tuset, P. Arbeláez, L. Van Gool, Deep retinal image understanding, 2016.",
+        "DOI": "10.1007/978-3-319-46723-8_17"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0014",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "3431",
+        "article-title": "Fully convolutional networks for semantic segmentation",
+        "author": "Long",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0015",
+        "unstructured": "K. Simonyan, A. Zisserman, Very deep convolutional networks for large-scale image recognition, 2014arXiv preprint arXiv:1409.1556."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/j.compmedimag.2016.07.012",
+        "article-title": "Glaucoma detection using entropy sampling and ensemble learning for automatic optic cup and disc segmentation",
+        "volume": "55",
+        "author": "Zilly",
+        "year": "2017",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0017",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "first-page": "253",
+        "article-title": "High-order attention networks for medical image segmentation",
+        "author": "Ding",
+        "year": "2020"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.cmpb.2021.106530_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "2485",
+        "DOI": "10.1109/TMI.2019.2899910",
+        "article-title": "Patch-based output space adversarial learning for joint optic disc and cup segmentation",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0019",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "3204",
+        "article-title": "Learning transferrable knowledge for semantic segmentation with deep convolutional neural network",
+        "author": "Hong",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0020",
+        "unstructured": "J. Hoffman, D. Wang, F. Yu, T. Darrell, FCNs in the wild: pixel-level adversarial and constraint-based adaptation, 2016. arXiv preprint arXiv:1612.02649."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0021",
+        "series-title": "Proceedings of the IEEE International Conference on Computer Vision",
+        "first-page": "1992",
+        "article-title": "No more discrimination: cross city adaptation of road scene segmenters",
+        "author": "Chen",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1016/j.neucom.2018.05.083",
+        "article-title": "Deep visual domain adaptation: a survey",
+        "volume": "312",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0023",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s11548-020-02144-9",
+        "article-title": "WGAN domain adaptation for the joint optic disc-and-cup segmentation in fundus images",
+        "author": "Kadambi",
+        "year": "2020",
+        "journal-title": "Int. J. Comput. Assist. Radiol. Surg."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0024",
+        "series-title": "2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI)",
+        "first-page": "53",
+        "article-title": "Drishti-GS: retinal image dataset for optic nerve head (ONH) segmentation",
+        "author": "Sivaswamy",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0025",
+        "series-title": "2011 24th International Symposium on Computer-Based Medical Systems (CBMS)",
+        "first-page": "1",
+        "article-title": "Rim-one: an open retinal image database for optic nerve evaluation",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "Refuge challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0027",
+        "unstructured": "M. Arjovsky, S. Chintala, L. Bottou, Wasserstein gan, 2017. arXiv preprint arXiv:1701.07875."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0028",
+        "unstructured": "M. Tan, Q.V. Le, EfficientNet: rethinking model scaling for convolutional neural networks, 2019. arXiv preprint arXiv:1905.11946."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0029",
+        "series-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "first-page": "10781",
+        "article-title": "EfficientDet: scalable and efficient object detection",
+        "author": "Tan",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0030",
+        "series-title": "US Patent 3,069,654",
+        "article-title": "Method and Means for Recognizing Complex Patterns",
+        "author": "Hough",
+        "year": "1962"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.cmpb.2021.106530_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1145/361237.361242",
+        "article-title": "Use of the hough transformation to detect lines and curves in pictures",
+        "volume": "15",
+        "author": "Duda",
+        "year": "1972",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0032",
+        "unstructured": "S. Ioffe, C. Szegedy, Batch normalization: accelerating deep network training by reducing internal covariate shift, 2015. arXiv preprint arXiv:1502.03167."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0033",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "4510",
+        "article-title": "MobileNetV2: inverted residuals and linear bottlenecks",
+        "author": "Sandler",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0034",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "2820",
+        "article-title": "MnasNet: platform-aware neural architecture search for mobile",
+        "author": "Tan",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0035",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "7132",
+        "article-title": "Squeeze-and-excitation networks",
+        "author": "Hu",
+        "year": "2018"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.cmpb.2021.106530_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "2481",
+        "DOI": "10.1109/TPAMI.2016.2644615",
+        "article-title": "SegNet: a deep convolutional encoder-decoder architecture for image segmentation",
+        "volume": "39",
+        "author": "Badrinarayanan",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0037",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "first-page": "234",
+        "article-title": "U-Net: convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0038",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "1125",
+        "article-title": "Image-to-image translation with conditional adversarial networks",
+        "author": "Isola",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0039",
+        "series-title": "European Conference on Computer Vision",
+        "first-page": "702",
+        "article-title": "Precomputed real-time texture synthesis with Markovian generative adversarial networks",
+        "author": "Li",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0040",
+        "series-title": "International Conference on Machine Learning",
+        "first-page": "1180",
+        "article-title": "Unsupervised domain adaptation by backpropagation",
+        "author": "Ganin",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0041",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "7167",
+        "article-title": "Adversarial discriminative domain adaptation",
+        "author": "Tzeng",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0042",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "7472",
+        "article-title": "Learning to adapt structured output space for semantic segmentation",
+        "author": "Tsai",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0043",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets",
+        "author": "Goodfellow",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0044",
+        "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "2818",
+        "article-title": "Rethinking the inception architecture for computer vision",
+        "author": "Szegedy",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0045",
+        "series-title": "Proceedings of the European Conference on Computer Vision (ECCV)",
+        "first-page": "801",
+        "article-title": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0046",
+        "series-title": "Medical Imaging 2019: Image Processing",
+        "first-page": "1094928",
+        "article-title": "Stack-U-Net: refinement network for improved optic disc and cup image segmentation",
+        "volume": "vol. 10949",
+        "author": "Sevastopolsky",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.cmpb.2021.106530_bib0047",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "article-title": "Optic disc and cup segmentation methods for glaucoma detection with modification of U-Net convolutional neural network",
+        "volume": "27",
+        "author": "Sevastopolsky",
+        "year": "2017",
+        "journal-title": "Pattern Recognit. Image Anal."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0048",
+        "article-title": "Robust optic disc and cup segmentation with deep learning for glaucoma detection",
+        "author": "Shuang",
+        "year": "2019",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0049",
+        "series-title": "ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "first-page": "961",
+        "article-title": "Multi-modal self-supervised pre-training for joint optic disc and cup segmentation in eye fundus images",
+        "author": "Hervella",
+        "year": "2020"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.cmpb.2021.106530_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "3833",
+        "DOI": "10.3390/app10113833",
+        "article-title": "Two-stage mask-RCNN approach for detecting and segmenting the optic nerve head, optic disc, and optic cup in fundus images",
+        "volume": "10",
+        "author": "Almubarak",
+        "year": "2020",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0051",
+        "doi-asserted-by": "crossref",
+        "first-page": "64483",
+        "DOI": "10.1109/ACCESS.2019.2917508",
+        "article-title": "Optic disc and cup segmentation based on deep convolutional generative adversarial networks",
+        "volume": "7",
+        "author": "Jiang",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.cmpb.2021.106530_bib0052",
+        "unstructured": "G. Hinton, O. Vinyals, J. Dean, Distilling the knowledge in a neural network, 2015. arXiv:1503.02531."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.cmpb.2021.106530_bib0053",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.1109/TPAMI.2015.2439281",
+        "article-title": "Image super-resolution using deep convolutional networks",
+        "volume": "38",
+        "author": "Dong",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      }
+    ],
+    "container-title": [
+      "Computer Methods and Programs in Biomedicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0169260721006040?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0169260721006040?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2025-09-30T04:06:28Z",
+      "timestamp": 1759205188000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169260721006040"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "references-count": 53,
+    "alternative-id": [
+      "S0169260721006040"
+    ],
+    "URL": "https://doi.org/10.1016/j.cmpb.2021.106530",
+    "relation": {},
+    "ISSN": [
+      "0169-2607"
+    ],
+    "issn-type": [
+      {
+        "value": "0169-2607",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "ECSD-Net: A joint optic disc and cup segmentation and glaucoma classification network based on unsupervised domain adaptation",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Computer Methods and Programs in Biomedicine",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.cmpb.2021.106530",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2021 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106530"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2026-10-17T10:44:42Z",
+      "timestamp": 1792233882817,
+      "version": "4.4.0"
+    },
+    "reference-count": 0,
+    "publisher": "Springer Science and Business Media LLC",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2026-10-17T00:00:00Z",
+          "timestamp": 1792195200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2026-10-17T00:00:00Z",
+          "timestamp": 1792195200000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Although retinal fundus imaging is a non-invasive tool to assess systemic and fundus pathology, current deep learning algorithms are mostly single-task, lack clinical interpretability and are unable to handle acquisition variation between different domains. These constraints limit their clinical utility: when a patient comes to the clinic for fundus screening, they could also be diabetic, have glaucoma, AMD, and increased cardiovascular risk, with each disease having retinal vascular biomarkers that require a patient to be tested for in the clinic, which must be managed within a framework of common, interpretable, and generalizable models rather than a pipeline of independent models. To solve these problems, we suggest a multi-task deep learning network that simultaneously classifies DR severity (five-class), glaucoma likelihood (binary), AMD stage (four-class) and cardiovascular risk (binary) from a single retinal fundus image using a single forward pass. It adopts an EfficientNet-B4 convolutional backbone pretrained on the ImageNet dataset, a six-layer multi-head self-attention Transformer encoder (d_model = 512, h = 8), a novel dual-branch spatial-channel attention module that builds on, but significantly expands, the CBAM module, and four task-specific output heads that are optimized using the homoscedastic uncertainty-weighted multi-task loss following the formulation of Kendall et al. Per-task anatomical explanations are produced by back propagating the CNN backbone via Grad-CAM in the anatomical space. The proposed model was evaluated on EyePACS, APTOS 2019, Messidor-2 and RIM-ONE v3 and achieved an accuracy of 94.7%, AUC = 0.978, sensitivity = 93.2% and specificity = 95.8% while being statistically better than all single task models (DeLong test,\n                    <jats:italic>p</jats:italic>\n                     &lt; 0.01, Bonferroni corrected). Under the reported experimental setting, the zero-shot cross-dataset evaluation achieves AUC ≥ 0.951, which is promising for its performance across datasets. Grad-CAM saliency maps are anatomically similar to established clinical grading criteria for each disease. The four task-specific heads share a single architecture and produce four outputs in one forward pass, but no individual patient in the training corpora had verified ground-truth labels for all four conditions simultaneously; the model is trained on partially labelled, multi-source data via a masked multi-task loss, and the cardiovascular output is an AVR-derived image-based surrogate rather than a validated clinical cardiovascular diagnosis. This proposed framework could be considered for an additional potential step toward the future when it comes to multi-disease fundus screening with an interpretable single-model solution, if it is assessed and approved at an independent multi-centre level and by regulatory bodies.\n                  </jats:p>",
+    "DOI": "10.1038/s41598-026-74871-z",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2026-10-17T10:06:17Z",
+      "timestamp": 1792231577000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A multi task deep learning framework for automated health condition prediction from retinal fundus images using hybrid attention and explainable AI"
+    ],
+    "prefix": "10.1038",
+    "author": [
+      {
+        "given": "Ravi Kumar",
+        "family": "Tenali",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anitha",
+        "family": "Potnuri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ]
+    },
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-026-74871-z",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2026-10-17T10:06:18Z",
+      "timestamp": 1792231578000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-026-74871-z"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "74871"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-026-74871-z",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "4 April 2026",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "1 October 2026",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "17 October 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "label": "Competing interests",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      }
+    ]
+  }
+}

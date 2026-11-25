@@ -1,0 +1,269 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2407.08813",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2407.08813",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2407.08813",
+      "identifiers": [
+        {
+          "identifier": "2407.08813",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2407.08813"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Tian, Yu",
+          "nameType": "Personal",
+          "givenName": "Yu",
+          "familyName": "Tian",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wen, Congcong",
+          "nameType": "Personal",
+          "givenName": "Congcong",
+          "familyName": "Wen",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Shi, Min",
+          "nameType": "Personal",
+          "givenName": "Min",
+          "familyName": "Shi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Afzal, Muhammad Muneeb",
+          "nameType": "Personal",
+          "givenName": "Muhammad Muneeb",
+          "familyName": "Afzal",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Huang, Hao",
+          "nameType": "Personal",
+          "givenName": "Hao",
+          "familyName": "Huang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Khan, Muhammad Osama",
+          "nameType": "Personal",
+          "givenName": "Muhammad Osama",
+          "familyName": "Khan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Luo, Yan",
+          "nameType": "Personal",
+          "givenName": "Yan",
+          "familyName": "Luo",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Fang, Yi",
+          "nameType": "Personal",
+          "givenName": "Yi",
+          "familyName": "Fang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wang, Mengyu",
+          "nameType": "Personal",
+          "givenName": "Mengyu",
+          "familyName": "Wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "FairDomain: Achieving Fairness in Cross-Domain Medical Image Segmentation and Classification"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2024,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Image and Video Processing (eess.IV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2024-07-11T18:52:32Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2024-07-15T00:03:21Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2024-07-18T20:30:28Z",
+          "dateType": "Submitted",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2024-07-22T00:05:47Z",
+          "dateType": "Updated",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2024-07",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2024",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Addressing fairness in artificial intelligence (AI), particularly in medical AI, is crucial for ensuring equitable healthcare outcomes. Recent efforts to enhance fairness have introduced new methodologies and datasets in medical AI. However, the fairness issue under the setting of domain transfer is almost unexplored, while it is common that clinics rely on different imaging technologies (e.g., different retinal imaging modalities) for patient diagnosis. This paper presents FairDomain, a pioneering systemic study into algorithmic fairness under domain shifts, employing state-of-the-art domain adaptation (DA) and generalization (DG) algorithms for both medical segmentation and classification tasks to understand how biases are transferred between different domains. We also introduce a novel plug-and-play fair identity attention (FIA) module that adapts to various DA and DG algorithms to improve fairness by using self-attention to adjust feature importance based on demographic attributes. Additionally, we curate the first fairness-focused dataset with two paired imaging modalities for the same patient cohort on medical segmentation and classification tasks, to rigorously assess fairness in domain-shift scenarios. Excluding the confounding impact of demographic distribution variation between source and target domains will allow clearer quantification of the performance of domain transfer models. Our extensive evaluations reveal that the proposed FIA significantly enhances both model performance accounted for fairness across all domain shift settings (i.e., DA and DG) with respect to different demographics, which outperforms existing methods on both segmentation and classification. The code and data can be accessed at https://ophai.hms.harvard.edu/datasets/harvard-fairdomain20k.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "ECCV 2024; Codes and datasets are available at https://github.com/Harvard-Ophthalmology-AI-Lab/FairDomain",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNDA3LjA4ODEzPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjQwNy4wODgxMzwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5UaWFuLCBZdTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WXU8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+VGlhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XZW4sIENvbmdjb25nPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Db25nY29uZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XZW48L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+U2hpLCBNaW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1pbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5TaGk8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+QWZ6YWwsIE11aGFtbWFkIE11bmVlYjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TXVoYW1tYWQgTXVuZWViPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkFmemFsPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkh1YW5nLCBIYW88L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhhbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5IdWFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5LaGFuLCBNdWhhbW1hZCBPc2FtYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TXVoYW1tYWQgT3NhbWE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+S2hhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5MdW8sIFlhbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WWFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkx1bzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5GYW5nLCBZaTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WWk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+RmFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XYW5nLCBNZW5neXU8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1lbmd5dTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XYW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5GYWlyRG9tYWluOiBBY2hpZXZpbmcgRmFpcm5lc3MgaW4gQ3Jvc3MtRG9tYWluIE1lZGljYWwgSW1hZ2UgU2VnbWVudGF0aW9uIGFuZCBDbGFzc2lmaWNhdGlvbjwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5hclhpdjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNDwvcHVibGljYXRpb25ZZWFyPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkltYWdlIGFuZCBWaWRlbyBQcm9jZXNzaW5nIChlZXNzLklWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChjcy5BSSk8L3N1YmplY3Q+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IEVsZWN0cmljYWwgZW5naW5lZXJpbmcsIGVsZWN0cm9uaWMgZW5naW5lZXJpbmcsIGluZm9ybWF0aW9uIGVuZ2luZWVyaW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iRmllbGRzIG9mIFNjaWVuY2UgYW5kIFRlY2hub2xvZ3kgKEZPUykiPkZPUzogQ29tcHV0ZXIgYW5kIGluZm9ybWF0aW9uIHNjaWVuY2VzPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IlN1Ym1pdHRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNC0wNy0xMVQxODo1MjozMlo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNC0wNy0xNVQwMDowMzoyMVo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iU3VibWl0dGVkIiBkYXRlSW5mb3JtYXRpb249InYyIj4yMDI0LTA3LTE4VDIwOjMwOjI4WjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIiBkYXRlSW5mb3JtYXRpb249InYyIj4yMDI0LTA3LTIyVDAwOjA1OjQ3WjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJBdmFpbGFibGUiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjQtMDc8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IlByZXByaW50Ij5BcnRpY2xlPC9yZXNvdXJjZVR5cGU+CiAgPHZlcnNpb24+MjwvdmVyc2lvbj4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiByaWdodHNJZGVudGlmaWVyPSJDQy1CWS00LjAiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5BZGRyZXNzaW5nIGZhaXJuZXNzIGluIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIChBSSksIHBhcnRpY3VsYXJseSBpbiBtZWRpY2FsIEFJLCBpcyBjcnVjaWFsIGZvciBlbnN1cmluZyBlcXVpdGFibGUgaGVhbHRoY2FyZSBvdXRjb21lcy4gUmVjZW50IGVmZm9ydHMgdG8gZW5oYW5jZSBmYWlybmVzcyBoYXZlIGludHJvZHVjZWQgbmV3IG1ldGhvZG9sb2dpZXMgYW5kIGRhdGFzZXRzIGluIG1lZGljYWwgQUkuIEhvd2V2ZXIsIHRoZSBmYWlybmVzcyBpc3N1ZSB1bmRlciB0aGUgc2V0dGluZyBvZiBkb21haW4gdHJhbnNmZXIgaXMgYWxtb3N0IHVuZXhwbG9yZWQsIHdoaWxlIGl0IGlzIGNvbW1vbiB0aGF0IGNsaW5pY3MgcmVseSBvbiBkaWZmZXJlbnQgaW1hZ2luZyB0ZWNobm9sb2dpZXMgKGUuZy4sIGRpZmZlcmVudCByZXRpbmFsIGltYWdpbmcgbW9kYWxpdGllcykgZm9yIHBhdGllbnQgZGlhZ25vc2lzLiBUaGlzIHBhcGVyIHByZXNlbnRzIEZhaXJEb21haW4sIGEgcGlvbmVlcmluZyBzeXN0ZW1pYyBzdHVkeSBpbnRvIGFsZ29yaXRobWljIGZhaXJuZXNzIHVuZGVyIGRvbWFpbiBzaGlmdHMsIGVtcGxveWluZyBzdGF0ZS1vZi10aGUtYXJ0IGRvbWFpbiBhZGFwdGF0aW9uIChEQSkgYW5kIGdlbmVyYWxpemF0aW9uIChERykgYWxnb3JpdGhtcyBmb3IgYm90aCBtZWRpY2FsIHNlZ21lbnRhdGlvbiBhbmQgY2xhc3NpZmljYXRpb24gdGFza3MgdG8gdW5kZXJzdGFuZCBob3cgYmlhc2VzIGFyZSB0cmFuc2ZlcnJlZCBiZXR3ZWVuIGRpZmZlcmVudCBkb21haW5zLiBXZSBhbHNvIGludHJvZHVjZSBhIG5vdmVsIHBsdWctYW5kLXBsYXkgZmFpciBpZGVudGl0eSBhdHRlbnRpb24gKEZJQSkgbW9kdWxlIHRoYXQgYWRhcHRzIHRvIHZhcmlvdXMgREEgYW5kIERHIGFsZ29yaXRobXMgdG8gaW1wcm92ZSBmYWlybmVzcyBieSB1c2luZyBzZWxmLWF0dGVudGlvbiB0byBhZGp1c3QgZmVhdHVyZSBpbXBvcnRhbmNlIGJhc2VkIG9uIGRlbW9ncmFwaGljIGF0dHJpYnV0ZXMuIEFkZGl0aW9uYWxseSwgd2UgY3VyYXRlIHRoZSBmaXJzdCBmYWlybmVzcy1mb2N1c2VkIGRhdGFzZXQgd2l0aCB0d28gcGFpcmVkIGltYWdpbmcgbW9kYWxpdGllcyBmb3IgdGhlIHNhbWUgcGF0aWVudCBjb2hvcnQgb24gbWVkaWNhbCBzZWdtZW50YXRpb24gYW5kIGNsYXNzaWZpY2F0aW9uIHRhc2tzLCB0byByaWdvcm91c2x5IGFzc2VzcyBmYWlybmVzcyBpbiBkb21haW4tc2hpZnQgc2NlbmFyaW9zLiBFeGNsdWRpbmcgdGhlIGNvbmZvdW5kaW5nIGltcGFjdCBvZiBkZW1vZ3JhcGhpYyBkaXN0cmlidXRpb24gdmFyaWF0aW9uIGJldHdlZW4gc291cmNlIGFuZCB0YXJnZXQgZG9tYWlucyB3aWxsIGFsbG93IGNsZWFyZXIgcXVhbnRpZmljYXRpb24gb2YgdGhlIHBlcmZvcm1hbmNlIG9mIGRvbWFpbiB0cmFuc2ZlciBtb2RlbHMuIE91ciBleHRlbnNpdmUgZXZhbHVhdGlvbnMgcmV2ZWFsIHRoYXQgdGhlIHByb3Bvc2VkIEZJQSBzaWduaWZpY2FudGx5IGVuaGFuY2VzIGJvdGggbW9kZWwgcGVyZm9ybWFuY2UgYWNjb3VudGVkIGZvciBmYWlybmVzcyBhY3Jvc3MgYWxsIGRvbWFpbiBzaGlmdCBzZXR0aW5ncyAoaS5lLiwgREEgYW5kIERHKSB3aXRoIHJlc3BlY3QgdG8gZGlmZmVyZW50IGRlbW9ncmFwaGljcywgd2hpY2ggb3V0cGVyZm9ybXMgZXhpc3RpbmcgbWV0aG9kcyBvbiBib3RoIHNlZ21lbnRhdGlvbiBhbmQgY2xhc3NpZmljYXRpb24uIFRoZSBjb2RlIGFuZCBkYXRhIGNhbiBiZSBhY2Nlc3NlZCBhdCBodHRwczovL29waGFpLmhtcy5oYXJ2YXJkLmVkdS9kYXRhc2V0cy9oYXJ2YXJkLWZhaXJkb21haW4yMGsuPC9kZXNjcmlwdGlvbj4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9Ik90aGVyIj5FQ0NWIDIwMjQ7IENvZGVzIGFuZCBkYXRhc2V0cyBhcmUgYXZhaWxhYmxlIGF0IGh0dHBzOi8vZ2l0aHViLmNvbS9IYXJ2YXJkLU9waHRoYWxtb2xvZ3ktQUktTGFiL0ZhaXJEb21haW48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2407.08813",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2024-07-15T01:31:53.000Z",
+      "registered": "2024-07-15T01:31:53.000Z",
+      "published": "2024",
+      "updated": "2024-07-22T02:00:36.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2407.08813",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

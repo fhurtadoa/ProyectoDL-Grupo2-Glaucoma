@@ -1,0 +1,432 @@
+=== PAGINA 1 ===
+[72] Evidencia controlada y observacional
+[72] sobre factores de adquisición en la
+[72] generalización de clasificadores
+[72] profundos de retinografías
+[72] La evidencia publicada entre 2016 y 2026 confirma que factores concretos de adquisición —fabricante y modelo de cámara, campo de visión (FoV) y encuadre papilar, resolución, compresión JPEG, calidad óptica y artefactos de borde— causan caídas medibles y frecuentemente severas en el desempeño de clasificadores profundos de glaucoma y retinopatía diabética (DR) . No obstante, los experimentos que aíslan cada variable revelan una asimetría crítica que respalda directamente la tesis de su manuscrito para DYNA : mientras la discriminación global (AUROC) suele experimentar descensos moderados en comparaciones controladas de cámara, calidad clínica o enmascaramiento papilar (típicamente entre −0,06 y −0,18 puntos, aunque perturbaciones extremas de desenfoque o cambios severos de hospital y arquitectura provocan caídas mayores) , las métricas dependientes del punto de decisión —sensibilidad o especificidad bajo un umbral fijado en validación interna— pueden colapsar abruptamente (caídas de −15,8 a −83,9 puntos porcentuales en sensibilidad y hasta −89,7 puntos porcentuales en especificidad) . Al mismo tiempo, una proporción sustancial de los trabajos citados habitualmente como prueba de domain shift por adquisición consiste en validaciones observacionales entre bases o centros independientes donde cambian de forma simultánea el dispositivo, el encuadre, la prevalencia, el estándar de referencia clínico (etiqueta) y la calibración del umbral . Los estudios que controlan las imágenes manteniendo constantes los píxeles y variando únicamente el criterio diagnóstico muestran que cambiar la definición de glaucoma modifica el AUROC en magnitudes comparables a degradar la calidad o cambiar de cámara (entre 0,08 y 0,113 puntos de AUROC) . Más aún, incluso tras estandarizar geométricamente el encuadre del disco óptico, transportar un umbral fijo único sin recalibrar entre bases públicas de glaucoma hace oscilar la especificidad entre 0,70 y 0,99 y la sensibilidad entre 0,68 y 0,94 . En conjunto, el patrón que ustedes observan —caída moderada de AUROC fuera de dominio acompañada de colapso de sensibilidad en EyePACS bajo un umbral interno fijado a especificidad ≥ 0,95— es coherente con la interacción documentada entre desajuste geométrico/borde negro, heterogeneidad taxonómica de etiquetas y desplazamiento de probabilidades amplificado en la cola de alta especificidad .
+
+=== PAGINA 2 ===
+[72] 1. Tabla maestra de evidencia sobre factores de
+[72] adquisición, calidad, atajos y desplazamiento de
+[72] dominio La tabla siguiente reúne artículos revisados por pares (2019–2026) y un preprint sin versión publicada verificada (marcado explícitamente) que cuantifican el impacto de factores específicos de adquisición, evaluación de calidad (RIQA), shortcut learning y variación de etiqueta o umbral. Cada registro especifica el DOI canónico, el tipo de diseño y la modalidad exacta de validación (interna, entre bases, leave-one-domain-out o externa en un centro independiente), así como la ubicación puntual de cada cifra y si proviene del texto completo, de un extracto parcial o únicamente del resumen.
+[81] Autor y año
+[148] DOI
+[214] Factorestudiado
+[281] Diseño(controlado,observacionalentre bases o perturbaciónsintética ) y validació
+[348] Enfermedad
+[415] Magnitu d del efecto con su métrica
+[482] Ubicació n de la cifra
+
+=== PAGINA 3 ===
+[281] n
+[81] Han et al. (2022)
+[148] 10.3389/fpubh.2022.944967
+[214] Fabricant e y modelodecámara(Topcon,Syseye,iCare,Canon)
+[281] Controladopareado(267 pares de mismos ojos el mismo día en Topconvs.Syseye, NSDE) + validació n externa en centro independ iente (4 cámarasenPUMCH)
+[348] Glaucomasospecho so (GCS), RDR y RMD
+[415] Paresmismoojo(ResNet-1 01 base): correlaci ón entre cámaras r = 0,229 (GCS),0,295(RDR),0,231(RMD); MAD = 0,073 ± 0,121(GCS);especifici dad GCS baja de 0,963(Topcon) a 0,921 (Syseye) y RMD de 0,955 a 0,843. En AI-100: r = 0,776 (GCS),0,739(RDR),0,922 (RMD). En PUMCH(ResNet-1 01): AUC GCS varía de
+[482] Table 4, Table 8 y tabla sin numerar previa a Table 8 (textocompleto)
+
+=== PAGINA 4 ===
+[415] 0,982 (Canon) y 0,964(Topcon) a 0,803 (Syseye);sensibilid ad GCS cae de 0,909(Topcon) a 0,556 (Syseye);sensibilid ad RDR cae de 1,000(Topcon) a 0,500 (Canon)
+[81] Nakahara et al. (2022)
+[148] 10.1136/bjophthalmol-2020-318107
+[214] Retinógra fo de smartphone(D-Eye)vs.cámara de fondo convencional
+[281] Controlado/comp arativo en el mismo modelosobrecámaraconvenci onal vs. smartphone(validació n externa; emparejamiento exacto y sensibilidad/especificidadnoverificad
+[348] Glaucoma
+[415] AROC cae de 98,9%(cámaraconvenci onal) a 84,2%(smartphone), caída de −14,7 pp. Englaucomaavanzado (MD < −12 dB): 99,3% vs. 90,0% (cifras de subgrupoavanzado
+[482] Abstract/Results(soloresumenPubMed;subgrupoavanzadoyarquitect ura en citassecundarias)
+
+=== PAGINA 5 ===
+[281] os en textocompleto)
+[415] , modelo ResNet34 y N = 162 tomadas de citas secundarias)
+[81] Autores y año no verificad os ( Indian JournalofOphthal mology )
+[148] 10.4103/ijo.ijo_2774_25
+[214] Fabricant e de cámaranomidriática (Forus vs. Intuvision ) en 3 algoritmoscomercial es de IA
+[281] Controladoprospectivo(mismos136pacientes / 272 imágenesconambascámaras;validació n externa en centro independ iente de atenciónprimaria en India)
+[348] DR
+[415] AI-1:sensibilid ad cae de 97,5% (Forus) a 81,7%(Intuvisio n) (−15,8 pp) y especifici dad de 62,7% a 53,8%.AI-2:sensibilid ad 80,0% vs. 77,0%; especificidad 95,7% vs. 92,0%.AI-3:sensibilidad73%–80%;especificidad82%–86%.Gradabili dad: AI-1 95,2% en Forus,
+[482] Abstract y Results conreferenci a a Table 2(extractoparcial del texto)
+
+=== PAGINA 6 ===
+[415] AI-3 ~87% vs. humanos97%
+[81] Rao et al. (2022)
+[148] 10.2147/OPTH.S369675
+[214] Transferenciasmartphone(Remidio FOP) → cámaradeescritorio(TopconTRC-50D X) y estándardereferencia
+[281] Observac ional en validació n externa en centro independ iente (135 pacientes / 233 ojos) + comparacióncontrolad a de estándardereferenci a en las mismasimágenes
+[348] DR (Any DR, RDR y STDR)
+[415] Medios AI en Topconcontraconsensodeimagen:RDRsensibilid ad 98,3% (IC 95%: 96,0%–100%),especificidad83,7%(73,0%–94,0%); Any DR sensibilid ad 97,6%, especificidad90,9%;STDRsensibilid ad 99,0%. Contraexamenclínico(mismasimágenes):especifici dad RDR cae a 65,2%
+[482] Abstract,Results, Table 4 y Table 5 (textocompleto)
+
+=== PAGINA 7 ===
+[415] (−18,5pp),sensibilidad100,0%,kappa0,70.Calidad(umbral0,5):sensibilid ad no gradable s 96,15%, gradable s 89,0%
+[81] Wongcha isuwat et al.(2021)
+[148] 10.1167/tvst.10.13.17
+[214] Tipo de cámara y FoV:convenci onal 45° (NidekAFC-330)vs.escánerconfocal60°(Eidon)
+[281] Observacionalcomparat ivo en centroúnico (Fase 1 retrospec tiva y Fase 2 prospectivaexterna/temporal en misma institución;emparejamientosimultáne o de mismos ojos no confirma
+[348] ReferableDR
+[415] Fase 1: Nidek(2.533imágenes)sensibilid ad 0,93 / especifici dad 0,91 vs. Eidon (1.989imágenes ) 0,88 / 0,85. Fase 2 prospecti va: Nidek (982fotos)sensibilid ad 0,86 / especifici dad 0,92 vs. Eidon (674
+[482] Abstract y Results conreferenci a a Table 2(extractoparcial del texto)
+
+=== PAGINA 8 ===
+[281] do)
+[415] fotos)sensibilid ad 0,92 / especifici dad 0,84. AUROC, kappa y tasa de nogradable s no reportad os en extracto
+[81] Srinivasa n et al. (2022)
+[148] 10.3390/life12101610
+[214] Modelodecámaranomidriáticaymegapíxe les (7 modelos / 8 códigos Kowa y Nidek, 2–18 MP)
+[281] Observacionalmulticám ara en validació n externa poblacio nal (4.852 pacientes , 19.408 imágenesenTailandia;cohortesdistintasporcámara)
+[348] DR(Moderat e+ DR) y nogradabilidad
+[415] Nogradable s global 20,90%;porcámara(calculad o desde Table 4): 42,9% en KowaNonmyd 2 MP (1.039/2.4 22) vs. 5,8% en KowaNonmyd WX 12 MP (45/778) y 21,8% en Nidek AFC 210 18 MP (834/3.823).Algoritm
+[482] Results, Table 4 y Table 5 (textocompleto)
+
+=== PAGINA 9 ===
+[415] o DL en gradables:sensibilidad89,7%–98,7%,especificidad93,3%–98,2%,kappa0,72–0,8 8 (mejor AUC 0,95 en Kowa Nonmyd 7). En filas de imágenesnogradables:sensibilid ad DL 39,6%(Nidek AFC 210, kappa 0,51) y 54,3% (Kowa VX 10 α) vs. 96,4%(KowaNonmyd 7 16 MP; verSección3)
+[81] Rogers et
+[148] 10.1038/s
+[214] Cámara
+[281] Observac
+[348] Referable
+[415] RDR
+[482] Abstract,
+
+=== PAGINA 10 ===
+[81] al.(2020/2021)
+[148] 41433-020-0927-8
+[214] portátilnomidriática40°(Pictor Plus) vs. cámaradeescritoriomidriática50°(Kowa VX-10 α)
+[281] ionalentre bases / centrosindependientes(MAILORMéxico,22.180imágenesanalizable s vs. IDRiDIndia;sistemaPegasusAI)
+[348] DR (RDR) y PDR
+[415] AUROC cae de 98,5% (IC 95%:97,8%–99 ,2%) en escritorio (IDRiD) a 89,4%(88,0%–9 0,7%) en portátil(MAILOR) (−9,1 pp, significati vo). PDR AUROC:92,2%(escritori o) vs. 94,3%(portátil;sindiferenciasignificativa).Exclusión por no gradable/ sin grado enportátil: 13,41% de imágenes(3.436/25.616).Sensibilidad/especificidadnoreportad
+[482] Materialsandmethods y Table 1 (extractoparcial del texto)
+
+=== PAGINA 11 ===
+[415] as en extracto
+[81] Fumero et al. (2020)
+[148] 10.5566/ias.2346
+[214] Hospital y cámara (HUC con NidekAFC-210 + Kowa WX 3D vs.Madrid/ZaragozaconNidekAFC-210)enrecortespapilares
+[281] Observacionalcontrolad a por protocolosobremismabase(RIM-ON E DL, 485 imágenes):validació n interna aleatoria(70:30)vs.validació n externa porhospital en 10 CNNs
+[348] Glaucoma
+[415] Caídaaleatoria→hospital en las 10 arquitecturas:VGG19AUC 0,9867 → 0,9272(−0,0595)ysensibilidad1,0000→0,8750;ResNet5 0 AUC 0,9755 → 0,8855(−0,0900 ) y sensibilidad0,9808 → 0,7321; XceptionAUC 0,9771 → 0,8982 y sensibilidad0,9808→0,7500;MobileNe tV2 AUC
+[482] Table 2 y Table 3 (textocompleto)
+
+=== PAGINA 12 ===
+[415] 0,9738 → 0,7765(−0,1973)ysensibilid ad 0,9423 →0,4464(−49,6pp).Especificidadnuméricanoreportad a en tablas
+[81] Hemeling s et al. (2021)
+[148] 10.1038/s41598-021-99605-1
+[214] Encuadre , recorte del disco óptico (ONH) vs. retinaperiférica(10%–60 % del radio) y oclusión
+[281] Perturbación sintética / ablacióncontrolad a (con y sinreentrenamiento);validació n interna (UZL,2.643imágenes prueba) y validació n entre bases(REFUGE,1.200imágenes)
+[348] Glaucom a y VCDR
+[415] UZLcompleto : AUC = 0,94(0,92–0,9 6). Solo ONH ( peripher y crop ): 1%extremo AUC = 0,67(0,64–0,7 1); 60% centrado en ONH AUC = 0,93(0,92–0,95).Ocultand o ONH ( ONH
+[482] Abstract,Results, Fig. 1A y Fig. 2A (textocompleto)
+
+=== PAGINA 13 ===
+[415] cropreentrenado):establehasta 20%, cae a 0,88 (30%) y semantiene en 0,87 (Results) / 0,88(Abstract ) al 60%. Oclusiónsinreentrena r: brecha máxima−0,03 AUC al 40%(pero VCDR R² cae de 77% a 0% al 20%). EnREFUGEexterno:completo 0,87 → 60%ONHoculto0,80
+[81] Hacisofta oglu et al. (2020)
+[148] 10.1016/j.patrec.2020.04.00
+[214] Campo de visión (FoV)sintético
+[281] Perturbaciónsintéticacontrolad
+[348] Vision-threatening DR (vtDR)
+[415] Original → 70% → 50% → 45%
+[482] Results y Table VII (textocompleto
+
+=== PAGINA 14 ===
+[148] 9
+[214] del 94% al 20% simuland o ópticas desmartphone
+[281] a sobre validació n entre basesindependiente(ResNet50entrenad o en EyePACS+Messidor+IDRiD,evaluadoenUoA-DR)
+[415] (Peek Retina) → 20% FoV: AUC cae de 0,998 → 0,963 → 0,859 → 0,817 (20%truncado en tabla); exactitud 98,6% → 89,3% → 75,2% → 68,6% → 51,2%;sensibilid ad 98,2% → 92,7% → 83,8% → 79,4% → 77,9%; especificidadcolapsa 99,1% → 84,9% → 64,2% → 54,7% → 9,4%.Umbralóptimo (THR) se desplaza de 0,320 a 0,956 (60%FoV)
+[482] ; valores al 20% tomados del texto deResults)
+[81] Sahlsten et al.
+[148] 10.1038/s41598-01
+[214] Resolución
+[281] Ablacióncontrolad
+[348] DR (PIRC 5 clases,
+[415] Interno PIRC (256
+[482] Table 2, Table 5 y
+
+=== PAGINA 15 ===
+[148] 9-47181-w
+[214] espacialdeentrada (256, 299, 512, 1024 y 2095 px cuadrados)
+[281] a(mismasimágenesredimensionadas);validació n interna porpaciente(Digifund us, 41.122 imágenes ) y validació n entre bases(Messido r, 1.200 imágenes)
+[348] QRDR 3 clases, RDR) y DME(RDME)
+[415] → 299 → 512 → 1024 → 2095 px): Macro-A UC 0,901 → 0,919 → 0,951 → 0,961 → 0,962; QWK 0,772 → 0,834 → 0,894 → 0,915 → 0,910.InternoQRDR:Macro-A UC 0,977 → 0,991 (1024–20 95 px). Interno RDR a 2095 px: AUC0,987(Sen0,896,Spe0,974).ExternoMessidorRDME(umbral fijado a Sen0,900interna):AUC sube de
+[482] tabla parcial de Results en PDF (extractoparcial del texto completo)
+[81] (2019)
+
+=== PAGINA 16 ===
+[415] 0,888 (1024 px) a 0,946 (2095 px), pero sensibilidadexterna cae a 0,606 y 0,597 con especificidad0,991–0,992
+[81] Yip et al. (2020)
+[148] 10.1038/s41746-020-0247-1
+[214] Compresi ón JPEG (350–150KB),númerodecampos (1, 2 y 7 campos) y claridad demedios(pseudof aquia vs. faquia)
+[281] Perturbacióncontrolada(compres ión) + comparacióncontrolada(campos)+observacionalestratificada(medios)en455.491imágenes(validació n interna y externa combinada)
+[348] ReferableDR
+[415] Compresi ón < 250 KB (250 KB → 150 KB): AUC cae de 0,936 a 0,900 (p < 0,001). Númerodecampos: Dataset 1, 2 campos vs. 1 campoAUC 0,936 vs. 0,908 (p < 0,001); Dataset 2, 7 vs. 2 vs. 1 campoAUC 0,949 vs.
+[482] Abstract y Results text(extractoparcial del texto completo ; Tables 1–5truncadas)
+
+=== PAGINA 17 ===
+[415] 0,911 vs. 0,895.Claridadóptica:pseudofáquicosAUC 0,918 vs. fáquicos0,833(−0,085, p < 0,001).Controltécnico:arquitectura(0,936–0, 944) y framewor k Caffe vs.TensorFlo w (0,936 vs. 0,936) casiinvariantes
+[81] Crane et al.(2023/2024)
+[148] 10.4103/IJO.IJO_1163_23
+[214] Desenfoq ue óptico (Gaussia n blur calibradocomocataratasimuladaleve20/40,moderad a 20/100 y severa
+[281] Perturbaciónsintéticacontrolad a sin reentrenamiento(Inception-ResNet v2 en validació n interna APTOS
+[348] DR(binario)
+[415] Sincatarata → Leve →Moderad a → Severa: AUC cae de 0,991 → 0,9536 → 0,7085 →0,5573;
+[482] Abstract,Results, Fig. 2 y Fig. 3 (textocompleto)
+
+=== PAGINA 18 ===
+[214] 20/200)
+[281] 2019,partición80/10/10)
+[415] sensibilidadcolapsa de 95,7% → 91,8% (91,9%) → 31,4% (30,1%) → 11,8% (15,1%),mientrasespecificidadpermane ce alta en 98,3% → 94,3%(93,4%) → 95,2% (93,9%) → 96,5% (96,1%)(cifrasentreparéntesiscorrespo nden a Results/Fi g. 2)
+[81] Chuter et al. (2024)
+[148] 10.1167/tvst.13.1.23
+[214] Calidaddeimagen(altacalidad vs. baja calidad / nogradable)
+[281] Observacionalestratific ado con modelo DL de calidad(ResNet50entrenad o en
+[348] PrimaryOpenAngleGlaucom a (POAG)
+[415] Modelodecalidad en OHTS Test Set 1: AUROC = 0,97. Clasificad or DL de POAG en OHTS
+[482] AbstractyResults/Discussion(textocompleto)
+
+=== PAGINA 19 ===
+[281] DIGS/AD AGES) en validació n externa encohorteindependiente(OHTS Test Sets 1 y 2, 11.350fotos)
+[415] Test Set 2: AUROC = 0,87 (IC 95%:0,80–0,9 2) en fotos de altacalidad vs. 0,77 (0,67–0,8 8) en fotos de bajacalidad(−0,10AUROC, P < 0,001)
+[81] de Vente et al. (2024) — AIROGS
+[148] 10.1109/TMI.2023.3313786
+[214] Imágenesnogradable s / OOD (13,8% en prueba, 0% en entrenam iento) y heterogeneidadmulticám ara (≥ 9 modelos,500sitios)
+[281] Desafíodevalidació n externa multicéntrica(112.732CFPsEyePACS)+validació n entre bases(REFUGE,GAMMA,DRIMDB)
+[348] ReferableGlaucom a (RG)
+[415] Mejorequipoindividual(PUMCH-eye):pAUCS(90–100 % Spe) = 0,90(0,89–0,91),SE@95SP S = 0,85 (0,83–0,87);ensambletop-2/3: pAUCS = 0,91,SE@95SP S = 0,87
+[482] Section 1, Table 1, Section5.1,Section 5.2, Fig. 2 y Fig. 6–8 (textocompletodelmanuscri to + metadatosPubMed)
+
+=== PAGINA 20 ===
+[415] (humano s: Sen 0,86 a Spe0,94).Detecciónon-the-fl y de no gradable s: equipo líder AUCU = 0,99(0,98–0,9 9) en resumen/introducc ión (ver notasobre 0,82 en Sección 3). Entre bases:REFUGEpAUCS 0,94 / SE@95SP S 0,88; GAMMA 1,0 / 1,0. Desglosenuméricoporcámaranoreportado
+[81] Ipp et al.
+[148] 10.1001/jamanetw
+[214] Dilataciónpupilar
+[281] Controlado
+[348] mtmDR y
+[415] Sindilatación
+[482] Abstract,Results,
+
+=== PAGINA 21 ===
+[148] orkopen.2021.34254
+[214] (nomidriátic o vs. dilate-if-n eeded ) en Canon CR-2 AF / Plus AF
+[281] secuenci al en los mismospacientes(ensayoprospectivomulticént rico en 15 centrosindependientes,893pacientes / 1.786 ojos,sistemaEyeArtv2.1.0)
+[348] vtDR
+[415] :gradabilidad87,4% (12,6% no gradables),mtmDRsensibilid ad 95,5% /especificidad85,0%,vtDRsensibilid ad 95,1% /especificidad89,0%.Condilate-if-n eeded : gradabili dad sube a 97,4% (+10,0pp)manteniendosensibilidadmtmDR en 95,5%
+[482] Table 2 y Table 3 (resumen+extractoextenso del texto)
+[81] (2021)
+[81] So et al. (2026)
+[148] 10.1016/j.xops.2026.101373
+[214] Generalizaciónexterna de filtros automáti cos de
+[281] Observac ional en validació n externa poblacional
+[348] Calidaddeimagenretiniana(RIQA)
+[415] MCF-Net (3 clases) alcanzaexactitud85,0%,Macro-F1
+[482] Abstract(extractoparcial del texto)
+
+=== PAGINA 22 ===
+[214] calidad(MCF-Net/EyeQvs.FractalDimension)
+[281] independ iente sin controldecalidadencaptura(CLSA,7.263CFPs)
+[415] 0,739 y QWK0,843 (frente a exactitudinternacorregida de 88,0% en EyeQ, Fu et al., 2019,10.1007/978-3-030-32239-7_6);detecció n de no gradable s F1 = 0,808 (vs. FD F1 = 0,625).Requirióreoptimiz ar puntos de corte en CLSA; AUROC y desgloseporcámaranoreportados
+[81] Moreira et al. (2026) — M-FIQ
+[148] 10.59275/j.melba.2026-b2dg
+[214] Degradaciones reales de cámaraportátil(Eyer2):desenfoq
+[281] Observac ional de cohorte real en tamizajecomunita rio (7.971
+[348] Calidaddeimagenretiniana(teleoftalmología)
+[415] 72,96%deimágenescapturad as son Reject(5.816),
+[482] Section 2, Table 1 y Table 2 (textocompleto)
+
+=== PAGINA 23 ===
+[214] ue,sombreadoperiférico , FoV incompleto,iluminaci ón y movimiento
+[281] fotos,304pacientes ) + validació n interna de 4 arquitect uras de RIQA
+[415] 20,11%Usable (1.603) y solo6,92%Good(552).Degradacionesdominant es: baja nitidez(3.331),sombreadoperiférico(3.241),FoVincomple to (2.171), subexposición(699),movimien to (544) y sobreexposición(17). Mejor F1 interno:ViT-B1678,44% (color) y ResNet5 0 74,10% (red-free)
+[81] Beede et al.(2020)
+[148] 10.1145/3313831.3376718
+[214] Iluminaciónambientaldeclínicas
+[281] Observac ional de campo en 11 clínicas
+[348] DR
+[415] 21% de lasretinografíasfueron
+[482] Citassecundari as (texto completono
+
+=== PAGINA 24 ===
+[214] reales en módulodecalidad de IA
+[281] independ ientes en Tailandia(validació n externa dedespliegu e clínico)
+[415] rechazad as como nogradable s por el sistema,atribuidoprincipal mente a lailuminaciónambientaldeficient e en las clínicas
+[482] verificado)
+[81] Voets et al.(2019)
+[148] 10.1371/journal.pone.0217541
+[214] Cambio de base (EyePACS→Messidor -2), ruido deetiqueta única y exclusión de no gradable s en entrenamiento
+[281] Observacionalentrebases(entrenamientoKaggleEyePACS,validació n interna EyePACS y entre bases en Messidor -2) + ablacióncontrolad a de excluir no gradables
+[348] ReferableDR
+[415] AUC cae de 0,951 (EyePACS interno) a 0,853(Messidor-2)(−0,098); en punto de alta especificidad,sensibilid ad cae de 83,6% a 68,7% y especifici dad de 92,0% a 88,5%; en altasensibilidad,sensibilid ad cae de
+[482] Abstract, Results y Table 1 (textocompleto)
+
+=== PAGINA 25 ===
+[415] 90,6% a 81,8% y especifici dad de 84,7% a 71,2%. Excluir no gradable s durante entrenam iento no aumentóeldesempeño
+[81] Abraham et al. (2026)
+[148] 10.1177/20552076261461391
+[214] Aumentosfotométricos(ColorJitter,CLAHE),geométricos(traslación,rotación) y ruido (Gaussiano,Poisson)
+[281] Ablacióncontrolad a en validació n interna conbootstrapping(EfficientNet-B0 en 1.200 imágenes de 4 basespúblicas:APTOS,AMDNet23,ORIGA-light,G1020)
+[348] Glaucom a, DR y AMD
+[415] Base sin aumento:Acc85,83%,AUC96,55%(precisiónglaucoma63%).Individuales:CLAHEAcc+2,50%(88,33%;maximizasensibilid ad DR 96%);traslaciónAcc+2,50%(88,33%;mejorsensibilidad
+[482] Abstract, Results y Table 2 (textocompleto)
+
+=== PAGINA 26 ===
+[415] glaucoma83%);Color Jitter Acc −0,50%(85,33%);rotación−1,50%(84,33%);ruidoGaussian o −0,80% (85,03%).Combina do: Acc 89,58%,AUC97,23%(bootstra p 0,9800, p = 0,0050)
+[81] Rahman et al. (año noreportado,preprintarXiv:2611.01992)
+[148] sin DOI verificado
+[214] Normaliz ación de color,aumentofotométri co fuerte, entrenamientomultifuen te y recalibrac ión de umbral
+[281] Ablacióncontrolad a en validació n entre bases y leave-one-domain -out (5 CNNsImageNetenACRIMA,ORIGA,RIM-ONE DL y destinoG1020)
+[348] Glaucoma
+[415] AUC cae de 0,913 (interno) a 0,702 (entrebases, −0,211; en G1020permane ce en 0,492–0,502).Normalización LAB sube AUCentre bases a 0,755
+[482] Abstract, Section I, Results y Table XI (textocompleto, preprint )
+
+=== PAGINA 27 ===
+[415] (+0,053);aumento de color fuerte a 0,754(+0,052);BenGraham0,733;CLAHE0,712;Gray-Wo rld 0,696; multifuen te LOSO 0,695.Umbralsinrecalibrar:especifici dad cae de 0,870 a 0,506 (Sen 0,831 → 0,726);recalibrar con 10% deldestinoelevaespecifici dad a 0,670(Sen0,609)
+[81] Beğenilmi ş et al. (2026)
+[148] 10.3390/biomedicines14112
+[214] Shortcutlearningporborde
+[281] Sonda de adquisici ón + prueba
+[348] Multienfermedadretiniana(incluye
+[415] Sonda de adquisiciónidentifica
+[482] Abstract, Section 1, Section2.6,
+
+=== PAGINA 28 ===
+[148] 588
+[214] negro (huella de cámara),normaliza ción de FOV y enmascaramientodeetiquetasparciales
+[281] causal de perturba ción de frontera(200imágenes ) + ablacióncontrolada;validació n interna (RFMiD, APTOS) y entrebases(ODIR-5K,Mendeley , STARE, IDRiD)
+[348] DR y glaucoma)
+[415] cámaraRFMiDcon99,7%(basemayoritar ia 68,6%) eidentidaddedatasetcon99,2%(base63,9%). CNN sin normalizarconcentróGrad-CA M en el bordenegro (razón de borde sin corregir = 2,9). Tras normaliza ción de FOV,perturbarelcontorno del FOV cambió la probabili dad 4 a 9 vecesmenos(razón0,11–0,24
+[482] Section 3, Fig. 4, Fig. 9 y Table 9 (texto completo)
+
+=== PAGINA 29 ===
+[415] ) que ocluir el mismonúmerodepíxelesinteriores . Tratar etiquetasnoevaluada s como negativasredujoMacro-AUROCexterno en −0,018 (ODIR-5K ) y −0,032 (Mendele y) sin afectarmétricasinternas
+[81] Coyner et al. (2023)
+[148] 10.1001/jamaophthalmol.2023.1310
+[214] Color y pigmenta ción del fondo vs. mapasvasculare s en escala de grises (atajos no clínicos)
+[281] Ablacióncontrolad a de represent ación de imagen(RFIs color vs. RVMs escala de grises) en 4.095imágenes de 245 neonatos(validació
+[348] Retinopat ía del prematuro(sesgo/atajosdemográficos)
+[415] Predicció n de raza reportad a desde RFIscolor:AUC-PR = 0,999 (imagen) y 1,000 (paciente ). Incluso traseliminar color y fondo
+[482] Abstract y Results (extractoparcial del texto)
+
+=== PAGINA 30 ===
+[281] n interna)
+[415] dejandosolomapasvasculare s en escala de grises(RVMs):AUC-PR = 0,938 (imagen) y 0,995 (paciente)
+[81] Müller et al.(2025)
+[148] 10.1016/j.media.2025.103628
+[214] Confusióncámara– matiz de color ( hue )–ho spital–etnia ( shortcut learning )
+[281] Modelad o causal generativ o con desacoplamientoporcorrelaci ón de distanciaenEyePACS
+[348] Atributosretinianos/EyePACS
+[415] Describeelmecanismocausal por el cual el matiz de color de la cámara actúacomoatajoparaatributosdelpacienteencohortesmulticám ara; cifra exacta de decodific ación de cámaraensubespac
+[482] Section 1 Introducti on de versiónarXiv:2402.19186v3(textoparcial;cifrasnumérica s no verificadas)
+
+=== PAGINA 31 ===
+[415] io de etnia no verificada en texto accesible
+[81] Hemeling s et al. (2023)
+[148] 10.1038/s41746-023-00857-0
+[214] Estandarizacióngeométri ca a 30° ONH,definicióndeetiqueta(sospech osos) y transport e de umbral fijo (0,70)
+[281] Observacionalentre bases (11 basespúblicas)+validació n externa poblacionalindependiente (BMES y GHS,149.455imágenes ) + comparacióncontrolad a de etiquetas y umbral fijo
+[348] Glaucoma
+[415] Conestandarización 30° ONH: AUC = 0,976(BMES),0,984(GHS),0,854–0, 988 (11 bases;AIROGS0,963,RIM-ONE DL 0,972, ACRIMA0,884).Solocambiandoetiquetadesospech osos en lasmismas488imágenesdePAPILA(ojo): AUC salta de 0,769 a 0,882 (+0,113);
+[482] Abstract,Results, Table 1 y Table 2 (textocompleto)
+
+=== PAGINA 32 ===
+[415] enRIM-ONE r3 excluir 35sospecho sos (N = 124 vs. 159) pasa de 0,934 a 0,973. Umbral fijo 0,70 sin reajuste : especificidadoscilaentre0,70(PAPILA) y 0,99 (REFUGE1 ) y sensibilid ad entre 0,68(ORIGA) y 0,94 (GHS,PAPILA,AIROGS);enACRIMA Sen = 0,73, Spe = 0,87
+[81] Fan et al. (2022)
+[148] 10.1001/jamaophthalmol.2022.0244
+[214] Variación pura de etiquetayestándar
+[281] Comparacióncontrolad a de 5 estándar
+[348] PrimaryOpenAngleGlaucom
+[415] AUROCcaesegúnestándarde
+[482] Abstract y Table 2 (extractoparcial
+
+=== PAGINA 33 ===
+[214] dereferenci a (5 definicionesclínicas en las mismasfotografías)
+[281] es de referenci a sobre la mismacohorte de 66.715 fotografía s de OHTS(validació n interna estratific ada por paciente)
+[348] a (POAG)
+[415] referenci a: disco óptico(ComitéEndpoint) 0,91 → ODRC 0,89 → disco o campovisual 0,88 → campovisual(Comité) 0,86 → VFRC0,83 (−0,08 en todos los ojos; 0,90 → 0,80 englaucomatemprano MD ≥ −6 dB). A especifici dad fija de 95%, lasensibilid ad baja a 0,56 (disco) y 0,48(VFRC)
+[482] del texto)
+[81] Christop her et al. (2020)
+[148] 10.1167/tvst.9.2.27
+[214] Cohorte/cámara(Nidek 3-DX en
+[281] Validació n externa cruzada entre dos
+[348] Glaucoma
+[415] En MRCH (moderado-sever o): UCSD
+[482] AbstractyDiscussion
+
+=== PAGINA 34 ===
+[214] películadigitaliza da EE. UU. vs. hospitalJapón), etnia y severidad
+[281] centrosindependientes(DIGS/AD AGES vs. MatsueRedCrossHospital)conestrategiasoriginal,secuenci al y combinada
+[415] AUC 0,96 vs.UTokyo 0,97. En DIGS/ADAGES(predomi nio leve): modeloUTokyooriginal cae a AUC 0,79 (0,74–0,8 3) vs. UCSD 0,92 (P < 0,001;verdiscrepan cia en AbstractenSección3);entrenamientocombinadorecupera a 0,90. Porseveridad:moderado-severo AUC 0,98 vs. leve 0,91 (P < 0,001).Sensibilid ad a 95%
+[482] (extractoparcial del texto)
+
+=== PAGINA 35 ===
+[415] especificidad:86%–90 % en MRCH vs. 53%–57%enDIGS/ADAGES
+[81] Phene et al.(2019)
+[148] 10.1016/j.ophtha.2019.07.024
+[214] Encuadre(mácula vs. disco), centro y estándardereferencia(adjudica ción vs. códigos ICD vs. clínicaOCT/VF)
+[281] Validació n externa en 3 cohortesindependientes(Dataset A: 1.205; Dataset B: 9.642 AtlantaVA;Dataset C: 346 India) con ensambleInception-v3(587×587px)
+[348] Referable GON / Glaucoma
+[415] AUC cae de 0,945 (DatasetA,adjudicac ión por especialis tas) a 0,855(Dataset B, solo centrada s en mácula y etiquetasporcódigosICD; −0,090) y 0,881(DatasetC,diagnósti co clínico conVF/OCT;−0,064)
+[482] Abstract, Results y Table 1 (extraídodelmanuscritoarXiv:1812.08911correspo ndiente al artículopublicado)
+[81] Diaz-Pint o et al. (2019)
+[148] 10.1186/s12938-019-0649-y
+[214] Cambio de base completa
+[281] Comparaciónentre
+[348] Glaucoma
+[415] 10-foldCVinterno:
+[482] Abstract, Table 3, Table 4 y
+
+=== PAGINA 36 ===
+[214] enrecortespapilares (5 bases públicas:ACRIMA,RIM-ONE,Drishti-G S1, HRF, sjchoi86-HRF)
+[281] validació n interna (10-fold CV y partición70/30mezcland o bases) vs.leave-one-domain-out ( cross-te sting ) conXception
+[415] AUC0,9605(Sen0,9346,Spe0,8580);partición70/30:AUC0,9464.Leave-one-domain -out : AUC cae a 0,7678 (ACRIMA) , 0,7739 (sjchoi86-HRF),0,8041(Drishti-GS1),0,8354 (HRF) y 0,8575(RIM-ON E) (caídas de −0,103 a −0,193). Sensibilidad/especificidad por base encross-tes ting no reportadas
+[482] Experimentalresults(textocompleto)
+[72] Estudios complementarios de contexto clínico: Otros trabajos observacionales refuerzan el espectro de variación externa en centros reales sin aislar un único parámetro de adquisición, entre ellos Gulshan et al. (2019, 10.1001/jamaophthalmol.2019.2004, validación prospectiva en
+
+=== PAGINA 37 ===
+[72] dos hospitales de India: Aravind AUC 0,963 con 3,9% de no gradables vs. Sankara Nethralaya AUC 0,980 con 0,8% de no gradables en Table 1 y Results , extracto parcial) , Qian et al. (2023, 10.1038/s41433-023-02622-9, validación multicéntrica externa de GON con AUC 95,17%–96,64% en centros generales frente a 87,49% en alta miopía en Abstract , extracto parcial) , Malerbi et al. (2022, 10.1177/1932296820985567, estudio financiado por Phelcom Technologies en Brasil con cámara portátil Phelcom Eyer y PhelcomNet: AUC 0,89, Sen 97,8%, Spe 61,4% y 17,6% de participantes no evaluables por completo en Abstract , Table 2 y Fig. 3 , texto completo) y Bragança et al. (2022, 10.3390/healthcare10122345, validación interna 5-fold en 2.000 fotos de glaucoma capturadas con smartphone y oftalmoscopio PanOptic: ResNet50v2 AUC 0,956, exactitud de ensamble 90,0% en Abstract y Table 2 , texto completo) .
+[72] 2. Síntesis crítica: comparaciones controladas frente a
+[72] inferencias entre bases Una limitación recurrente en el estado del arte sobre aprendizaje profundo en oftalmología consiste en interpretar cualquier caída de desempeño en una base externa como prueba directa de fragilidad frente a la cámara o a las condiciones de captura, cuando en la mayoría de los experimentos cambian cinco o más variables al mismo tiempo . Para sustentar el estado del arte en DYNA , conviene separar estrictamente lo que está respaldado por diseños controlados y perturbaciones aisladas de lo que únicamente se infiere de comparaciones entre bases donde convergen adquisición, etiqueta y calibración. 2.1 Lo demostrado con comparaciones controladas y perturbaciones aisladas Cuando se mantienen constantes el paciente, el criterio diagnóstico y la arquitectura —variando solo el hardware de captura o aplicando una perturbación controlada sobre las mismas fotografías—, se observa que cada factor de adquisición deja una firma específica tanto en la discriminación global como en la estabilidad del punto de decisión.
+
+=== PAGINA 38 ===
+[72] Fabricante y modelo de cámara en los mismos ojos o la misma población La evidencia empírica más directa de que el cambio de cámara por sí solo desestabiliza las salidas de un clasificador profundo proviene de estudios pareados en los mismos pacientes. En la cohorte comunitaria NSDE de Han et al. (2022), 267 pares de imágenes de los exactos
+
+=== PAGINA 39 ===
+[72] mismos ojos capturadas el mismo día con retinógrafos Topcon y Syseye fueron procesados por un ResNet-101 de referencia: para sospecha de glaucoma (GCS), la correlación de Pearson entre los puntajes de ambas cámaras fue de apenas r = 0,229 (diferencia absoluta media MAD = 0,073 ± 0,121) y la especificidad bajó de 0,963 en Topcon a 0,921 en Syseye (mientras en enfermedades maculares cayó de 0,955 a 0,843) . En la cohorte hospitalaria del mismo trabajo (PUMCH, cuatro cámaras), el mismo ResNet-101 exhibió fluctuaciones pronunciadas en GCS (AUC de 0,982 en Canon y 0,964 en Topcon frente a 0,803 en Syseye; sensibilidad de 0,909 a 0,556) y en DR referible (sensibilidad de 1,000 en Topcon/Syseye frente a 0,500 en Canon, acompañada de un incremento de especificidad de 0,762 a 0,915, patrón característico de desplazamiento de umbral inducido por cámara, aunque con intervalos de confianza amplios por el reducido número de positivos por cámara) . En la misma dirección, el estudio prospectivo en atención primaria en India (10.4103/ijo.ijo_2774_25) que fotografió los mismos 136 pacientes con cámaras no midriáticas Forus e Intuvision y evaluó tres algoritmos comerciales de DR encontró que la sensibilidad de uno de los sistemas (AI-1) cayó 15,8 puntos porcentuales al cambiar de dispositivo (97,5% en Forus vs. 81,7% en Intuvision) y su especificidad disminuyó de 62,7% a 53,8%, mientras otro algoritmo (AI-2) mostró una variación mucho menor (80,0% vs. 77,0%) . En glaucoma con adaptador de smartphone (D-Eye), Nakahara et al. (2022) reportaron en su resumen una caída de AROC de 98,9% con cámara convencional a 84,2% con smartphone (−14,7 puntos porcentuales), brecha que se redujo en ojos con glaucoma avanzado (99,3% vs. 90,0% según citas secundarias) . Por el contrario, los modelos entrenados con estrategias de robustez multicámara (como AI-100 en Han et al., que elevó la correlación pareada en GCS de 0,229 a 0,776) o transferidos en sentido favorable desde una cámara portátil de menor óptica hacia un equipo de escritorio (Medios AI, desarrollado para Remidio FOP y validado externamente en Topcon TRC-50DX por Rao et al., 2022) logran conservar un desempeño alto frente al consenso fotográfico (sensibilidad RDR 98,3%, especificidad 83,7%) . Campo de visión (FoV) y encuadre papilar frente a campo amplio Dos experimentos de ablación geométrica resultan particularmente informativos para explicar la transferencia entre recortes papilares y retinografías de campo amplio. En glaucoma, Hemelings et al. (2021) aplicaron máscaras circulares sistemáticas del 10% al 60% del radio centradas en la cabeza del nervio óptico (ONH) sobre 37.627 imágenes de 30° . Al conservar exclusivamente el disco ( periphery crop ), un recorte extremo al 1% redujo el AUC a 0,67, mientras ampliar la ventana para incluir el borde del disco y su margen inmediato recuperó el AUC hasta 0,93 (prácticamente idéntico al 0,94 de la imagen completa), confirmando la concentración de información discriminativa en el borde papilar . Al invertir el experimento —ocultando el ONH y dejando solo la periferia—, las redes reentrenadas retuvieron un AUC de 0,87–0,88 en UZL y de 0,80 en validación entre bases en REFUGE (frente a 0,87 en imágenes completas), lo que evidencia que las CNNs explotan señales peripapilares (como el adelgazamiento de la capa de fibras nerviosas retinianas, RNFL) cuando disponen de campo suficiente . En el sentido contrario, un clasificador entrenado exclusivamente sobre recortes estrechos de papila nunca aprende la relación de escala entre el disco óptico y el campo amplio rodeado de borde negro. En retinopatía diabética, Hacisoftaoglu et al. (2020) aislaron el
+
+=== PAGINA 40 ===
+[72] FoV enmascarando sintéticamente imágenes independientes de UoA-DR desde 94% hasta 20% del campo original: aunque el AUC disminuyó gradualmente (0,998 → 0,963 al 70% → 0,817 al 45%), la especificidad se desplomó de 99,1% a 54,7% al 45% (y hasta 9,4% al 20% según el texto de Results ), desplazando el umbral óptimo de 0,320 a 0,956 al 60% de FoV . Asimismo, Yip et al. (2020) verificaron sobre 455.491 imágenes que ampliar la cobertura de 1 campo a 2 y 7 campos eleva significativamente el AUC de DR referible (0,908 vs. 0,936 en el conjunto 1, p < 0,001; 0,895 vs. 0,911 vs. 0,949 en el conjunto 2) . Resolución espacial, compresión y degradación óptica o de calidad Las ablaciones sobre las mismas imágenes indican que la resolución de entrada y la compresión tienen un efecto sustancialmente mayor que el cambio de arquitectura o de entorno de entrenamiento. Sahlsten et al. (2019) evaluaron Inception-v3 en cinco resoluciones controladas (256, 299, 512, 1024 y 2095 px) sobre las mismas 41.122 fotografías de Digifundus: en la clasificación de 5 grados de DR (PIRC), el Macro-AUC ascendió de 0,901 (256 px) a 0,962 (2095 px) y el kappa cuadrático ponderado de 0,772 a 0,915 (1024 px); en validación entre bases en Messidor para edema macular referible (RDME), subir de 1024 a 2095 px elevó el AUC de 0,888 a 0,946 . De modo concordante, Yip et al. (2020) reportaron que comprimir archivos JPEG por debajo de 250 KB redujo el AUC de 0,936 a 0,900 (a 150 KB, p < 0,001), mientras variar entre VGGNet, ResNet, DenseNet y un ensamble solo movió el AUC entre 0,936 y 0,944 (y alternar entre Caffe y TensorFlow arrojó 0,936 en ambos) . Frente a la degradación óptica y la pérdida de nitidez, tanto las perturbaciones sintéticas como las cohortes clínicas documentan caídas marcadas y asimétricas. Crane et al. (2023/2024) aplicaron desenfoque gaussiano calibrado como catarata simulada sin reentrenar la red (Inception-ResNetv2 sobre APTOS 2019): una degradación leve (20/40) produjo una caída modesta (AUC 0,991 → 0,9536; sensibilidad 95,7% → 91,8%), pero el desenfoque moderado (20/100) y severo (20/200) desplomaron la sensibilidad a 31,4% y 11,8%, respectivamente, mientras la especificidad se mantuvo en 95,2% y 96,5% porque la red clasificó >80% y 90,5% de las fotos borrosas como negativas ("sin DR") . En datos clínicos reales, Yip et al. (2020) observaron un AUC significativamente superior en ojos pseudofáquicos respecto a fáquicos (0,918 vs. 0,833, p < 0,001) , y en glaucoma POAG, Chuter et al. (2024) mostraron en la cohorte externa independiente OHTS que las fotografías clasificadas como de baja calidad por un modelo ResNet50 (AUROC de calidad 0,97) sufren una caída de −0,10 en AUROC diagnóstico frente a las de alta calidad (0,77 vs. 0,87, P < 0,001) . Bajo el modelo físico de degradaciones retinianas de Shen et al. (2021, 10.1109/TMI.2020.3043495 —distorsión de transmisión de luz, desenfoque y artefactos retinianos—), Ishihara y Matsumoto (2023, 10.3390/bioengineering10121383) reportaron cualitativamente en EyePACS que Swin-Transformer pierde menos ROC-AUC que ResNet, aunque el error de calibración (ECE) no mostró una tendencia consistente entre arquitecturas (cifras exactas truncadas en texto accesible) . Evaluación de calidad de imagen (RIQA) y rechazo de imágenes no gradables El desafío AIROGS (de Vente et al., 2024) estableció un estándar realista para glaucoma al entrenar con 101.442 imágenes gradables (0% no gradables, provenientes de al menos nueve modelos de cámara y 500 clínicas en EyePACS) y evaluar en un conjunto sin filtrar con 13,8% de
+
+=== PAGINA 41 ===
+[72] fotografías no gradables . Los mejores equipos detectaron imágenes no gradables on-the-fly sin haberlas visto en entrenamiento —mediante la confianza de detectores del disco óptico, energía OOD o autoencoders, alcanzando AUCU de hasta 0,99 según resumen e introducción— y obtuvieron una sensibilidad a 95% de especificidad (SE@95SPS) de 0,85 (0,87 en ensamble), comparable a 20 expertos humanos (0,86 a 94% de especificidad) . En despliegues reales, sin embargo, emergen dos cuellos de botella operativos. El primero es que la tasa de rechazo depende intensamente del entorno y del hardware: en el ensayo multicéntrico de EyeArt (Ipp et al., 2021, patrocinado por Eyenuk Inc.), la estrategia controlada dilate-if-needed en los mismos pacientes aumentó la gradabilidad de 87,4% a 97,4% (+10,0 puntos porcentuales) sin sacrificar sensibilidad (95,5%) ; en contraste, Beede et al. (2020) documentaron en 11 clínicas de Tailandia un 21% de rechazos atribuidos principalmente a mala iluminación ambiental (cita secundaria) , y Moreira et al. (2026, M-FIQ) registraron que el 72,96% de 7.971 capturas comunitarias con el retinógrafo portátil Eyer2 resultaron Reject por baja nitidez, sombreado periférico y FoV incompleto . El segundo cuello de botella es que los propios clasificadores de calidad pierden precisión fuera de dominio: al validar externamente MCF-Net (entrenado en EyeQ/EyePACS, cuya exactitud interna corregida es 88,0% ) en 7.263 fotos de la cohorte canadiense CLSA, So et al. (2026) obtuvieron 85,0% de exactitud (Macro-F1 0,739; F1 para no gradables 0,808) y necesitaron reoptimizar los puntos de corte locales . Color, iluminación y evidencia directa de shortcut learning La literatura controlada sobre color, bordes y metadatos visuales documenta con precisión cómo los clasificadores explotan atajos de adquisición en lugar de signos clínicos. Beğenilmiş et al. (2026) aportaron evidencia experimental directa en retinografías multienfermedad: una CNN convencional concentró sus mapas Grad-CAM en el borde negro exterior a la retina porque contenía una huella de cámara correlacionada con el diagnóstico (razón de borde no corregida = 2,9) . Además, una sonda entrenada sobre imágenes ya preprocesadas identificó el modelo de cámara en RFMiD con 99,7% de exactitud (frente a 68,6% de clase mayoritaria) y la base de datos de origen con 99,2% (frente a 63,9%) . Al reemplazar el recorte por caja delimitadora ( bounding-box crop ) por una normalización estricta del FOV que elimina toda información exterior al círculo retiniano, una prueba causal de perturbación de frontera sobre 200 imágenes positivas mostró que desplazar el borde del FOV un 4% hacia adentro alteró la probabilidad predicha entre 4 y 9 veces menos (razón 0,11–0,24) que ocluir el mismo número de píxeles en el interior de la retina . En paralelo, Müller et al. (2025) formularon causalmente cómo las diferencias de matiz de color ( hue ) entre fabricantes de cámaras crean atajos espurios con atributos demográficos en EyePACS , mientras Coyner et al. (2023) mostraron mediante ablación de representación que las CNNs predicen raza reportada con AUC-PR = 0,999 en fotos a color y retienen AUC-PR = 0,938 por imagen (0,995 por paciente) incluso al eliminar todo color y pigmentación reduciendo la entrada a mapas vasculares en escala de grises . Respecto a marcas superpuestas y artefactos terapéuticos, Moreira et al. (2026) documentaron la remoción obligatoria de etiquetas de lateralidad (OD/OE) incrustadas por cámaras portátiles antes de entrenar , y un preprint financiado por AEYE Health Inc. en EyePACS
+
+=== PAGINA 42 ===
+[72] (10.1101/2023.01.30.23285179) reportó que la presencia de cicatrices de fotocoagulación láser degradó modelos independientes de DME (AUC 0,932 con marcas vs. 0,955 sin marcas) y de predicción de sexo y edad . Por último, las ablaciones de aumento fotométrico sugieren una eficacia acotada para glaucoma: en la validación interna de Abraham et al. (2026) —con la salvedad de que combinó cuatro bases públicas distintas por patología—, Color Jitter redujo la exactitud global en −0,50% mientras la traslación espacial produjo la mayor sensibilidad para glaucoma (83%) ; y en el preprint entre bases de Rahman et al. (arXiv:2611.01992), tanto la normalización cromática LAB (+0,053) como el aumento fuerte de color (+0,052) elevaron el AUC promedio entre bases solo de 0,702 a 0,754–0,755 (frente a 0,913 intra-dominio), sin sacar del azar (0,492–0,502) al conjunto externo G1020 . 2.2 Lo que solo se infiere de comparaciones entre bases (donde cambian múltiples factores a la vez) A diferencia de los experimentos controlados previos, la mayoría de las evaluaciones externas reportan degradaciones compuestas en las que resulta imposible aislar el peso de la adquisición porque los tres ejes de variación actúan simultáneamente.
+
+=== PAGINA 43 ===
+
+
+=== PAGINA 44 ===
+[72] Confusión multivariable en estudios multicámara y validaciones entre bases En las comparaciones observacionales de hardware suele confundirse el efecto del dispositivo con cambios simultáneos de población, midriasis, campo de visión y escala de gradación. En el estudio MAILOR (Rogers et al., 2020/2021), el sistema Pegasus redujo su AUROC para DR referible en −9,1 puntos al pasar del conjunto de escritorio IDRiD (98,5%) a la cámara portátil Pictor Plus (89,4%); sin embargo, entre ambos conjuntos variaron simultáneamente el hardware, la dilatación pupilar (midriático vs. no midriático), el FoV (50° vs. 40°), la población (India vs. México) y el esquema diagnóstico (ICDR vs. escocés) . Una confusión similar ocurre en Srinivasan et al. (2022): aunque evaluaron 19.408 fotografías de siete cámaras no midriáticas en Tailandia y hallaron tasas de no gradabilidad entre 5,8% (Kowa Nonmyd WX) y 42,9% (Kowa Nonmyd de 2 MP), los propios autores advierten que la demografía de los pacientes no era equivalente entre dispositivos . Incluso cuando se controla el encuadre papilar, las particiones externas mezclan centro, población y óptica. En RIM-ONE DL (Fumero et al., 2020), las 10 CNNs evaluadas cayeron al pasar de partición interna aleatoria (70:30) a partición externa por hospital —por ejemplo, ResNet50 pasó de 0,9755 a 0,8855 en AUC y de 0,9808 a 0,7321 en sensibilidad, y MobileNetV2 cayó de 0,9738 a 0,7765 en AUC y de 0,9423 a 0,4464 en sensibilidad— pese a compartir protocolo de recorte al disco; aun así, el conjunto de entrenamiento (HUC) combinó cámaras Kowa WX 3D y Nidek AFC-210 mientras el de prueba (Madrid y Zaragoza) procedió de otros centros con Nidek AFC-210 . Lo mismo se observa en el esquema leave-one-domain-out de Diaz-Pinto et al. (2019), donde el AUC de Xception bajó de 0,9605 (10-fold CV interno) a un rango de 0,7678 (ACRIMA) a 0,8575 (RIM-ONE) sin poder desagregar cámara, recorte y criterio de anotación , en la reproducción de Voets et al. (2019) sobre DR (EyePACS interno 0,951 → Messidor-2 0,853) , y en segmentación vascular entre bases de Abbasi et al. (2026, 10.3390/bioengineering13101215, DRIVE → CHASE_DB1, donde la sensibilidad descendió de 0,7201 a 0,5502 aun entrenando con aumentos espaciales y fotométricos) . Peso cuantitativo de la variación de etiqueta y severidad (Eje 2) Los estudios que varían únicamente el estándar de referencia sobre el mismo conjunto de imágenes demuestran que el desplazamiento de etiqueta produce efectos de la misma orden de magnitud que los de adquisición. Fan et al. (2022) evaluaron cinco definiciones de glaucoma primario de ángulo abierto sobre las mismas 66.715 fotografías de OHTS: el AUROC varió desde 0,91 (cambios del disco óptico adjudicados por el Comité de Endpoint) hasta 0,83 cuando el estándar fue el centro de lectura de campo visual (VFRC), descendiendo a 0,80 en glaucoma temprano (MD ≥ −6 dB), donde la sensibilidad a 95% de especificidad fue de apenas 0,48 . Hemelings et al. (2023) confirmaron este comportamiento en PAPILA: sobre exactamente las mismas 488 imágenes, reclasificar a los sospechosos como no referibles en lugar de referibles elevó el AUC en +0,113 puntos (de 0,769 a 0,882; y de 0,813 a 0,924 a nivel de participante), mientras excluir a los 35 ojos sospechosos en RIM-ONE r3 (N = 124 vs. 159) incrementó el AUC de 0,934 a 0,973 . En DR, Rao et al. (2022) ilustraron el mismo fenómeno sobre las mismas 233 imágenes Topcon: cambiar la referencia de consenso fotográfico a examen clínico redujo la especificidad para RDR en −18,5 puntos porcentuales (de 83,7% a 65,2%) . En cohortes externas con múltiples fuentes de cambio, Phene et al. (2019) observaron
+
+=== PAGINA 45 ===
+[72] caídas de AUC desde 0,945 (adjudicación especializada) hasta 0,855 (fotos centradas en mácula con etiquetas por códigos ICD) y 0,881 (diagnóstico clínico con OCT/VF) , y Christopher et al. (2020) mostraron que la severidad clínica (AUC 0,98 en glaucoma moderado-severo vs. 0,91 en leve, P < 0,001) contribuye decisivamente a la caída de sensibilidad a 95% de especificidad entre el hospital japonés MRCH (86%–90%) y la cohorte estadounidense DIGS/ADAGES de predominio leve (53%–57%) . Desplazamiento del punto de decisión y calibración (Eje 3) La evidencia más ilustrativa sobre la transportabilidad del umbral en glaucoma corresponde a Hemelings et al. (2023): tras homogenizar activamente el factor geométrico de adquisición —segmentando el ONH y aplicando un factor de recorte o extensión basado en la razón del diámetro papilar original frente a 0,23 para llevar todas las bases a ~30° centrados en el disco, seguido de filtrado de iluminación—, el modelo de regresión G-RISK alcanzó AUCs elevados en 13 fuentes externas (0,976 en BMES, 0,984 en GHS y 0,854–0,988 en 11 bases públicas) . Sin embargo, al aplicar un umbral fijo único de 0,70 sin recalibrar , la especificidad osciló de 0,70 en PAPILA y 0,74 en ODIR a 0,99 en REFUGE1, mientras la sensibilidad cayó a 0,68 en ORIGA, 0,73 en ACRIMA y 0,74 en LAG . Este desacople entre discriminación y umbral fijo se replica en Sahlsten et al. (2019), donde fijar el punto de operación a una sensibilidad interna de 0,900 rindió apenas 0,597 de sensibilidad (con 0,992 de especificidad) en Messidor pese a un AUC de 0,946 , y en el preprint de Rahman et al., donde transportar el umbral de validación interna desplomó la especificidad media entre bases de 0,870 a 0,506 . 2.3 Implicaciones directas para su experimento en DYNA A partir de la evidencia revisada, el fenómeno observado por su equipo —ConvNeXt-Tiny entrenado en Moondream Staged con caída moderada de AUROC fuera de dominio, pero colapso de sensibilidad en EyePACS bajo un umbral interno fijado a especificidad ≥ 0,95— es explicable mediante la convergencia de tres mecanismos respaldados en la literatura. Primero, el desajuste geométrico y de borde (Eje 1): pasar de recortes papilares a retinografías de campo amplio con fondo negro (~45° en EyePACS, donde el disco ocupa alrededor del 15% de la altura frente a ~23% en 30° o proporciones mayores en recortes como ACRIMA ) modifica drásticamente la escala de la excavación y expone al modelo a un borde negro circular rico en huellas de cámara ; los aumentos agresivos de fotometría y escala atenúan parcialmente la caída de discriminación (ganancias cercanas a +0,052 de AUC según el preprint de Rahman et al. ), pero no reemplazan la normalización explícita del FOV y del radio papilar . Segundo, la amplificación del descalibramiento en la cola de alta especificidad (Eje 3): incluso conservando un ordenamiento razonable entre ojos sanos y glaucomatosos, un corrimiento hacia abajo en los logits o probabilidades ante imágenes de campo amplio oscuro empuja la mayoría de los positivos por debajo del corte estricto de especificidad ≥ 0,95, reproduciendo el patrón asimétrico visto bajo desenfoque en Crane et al. (2023/2024) y bajo cambio de base en Sahlsten et al. (2019) . Tercero, la heterogeneidad taxonómica al proyectar tres estadios (normal, temprano, avanzado) a binario (Eje 2): las bases externas no comparten criterio diagnóstico (ACRIMA fue anotada únicamente a partir de la fotografía , RIM-ONE DL refleja práctica hospitalaria y EyePACS proviene de programas de tamizaje ), lo que penaliza
+
+=== PAGINA 46 ===
+[72] particularmente la separación de estadios tempranos y la estabilidad del umbral proyectado .
+[72] 3. Afirmaciones dudosas o contradictorias
+[72] Contradicción sobre el filtrado de imágenes de baja calidad en entrenamiento frente a inferencia Existe consenso empírico en que las imágenes de baja calidad deterioran la exactitud diagnóstica durante la inferencia —como documentan Chuter et al. (2024) en POAG (0,77 vs. 0,87 AUROC, P < 0,001) y el diseño del desafío AIROGS —, pero la literatura se contradice respecto a excluir imágenes no gradables durante el entrenamiento . Voets et al. (2019) encontraron en DR que excluir fotografías no gradables en entrenamiento no mejoró el desempeño de prueba , mientras un estudio de conferencias SPIE sobre EyeQ reportó que entrenar progresivamente de menor a mayor calidad (Reject → Usable → Good) logró mayor exactitud de prueba (93,01%) que entrenar únicamente con imágenes Good (91,61%) o con todo combinado (90,21%) . Por ello, no debe afirmarse en el estado del arte que depurar imágenes degradadas del conjunto de entrenamiento garantice mejor generalización fuera de dominio. Discrepancias internas detectadas en artículos revisados por pares En varios estudios clave aparecen incoherencias internas entre secciones que conviene consignar con precisión antes de citar sus cifras en DYNA . En Christopher et al. (2020, 10.1167/tvst.9.2.27), la redacción literal del Abstract asigna "(0.79 and 0.92; P < .001), respectively" a los modelos de UCSD y UTokyo sobre DIGS/ADAGES, pero el texto de Discussion afirma explícitamente que fue el modelo japonés (UTokyo) original el que obtuvo AUC = 0,79 (IC 95%: 0,74–0,83) en DIGS/ADAGES y mejoró a 0,90 con entrenamiento combinado . En Srinivasan et al. (2022, 10.3390/life12101610), el texto de Results afirma que la detección de imágenes no gradables alcanzó el mejor AUC en Nidek AFC 210 (AUC = 0,98), pero en Table 5 esa misma cámara registra la sensibilidad más baja (39,6%) y el kappa más bajo (0,51) del algoritmo DL en la fila de no gradables; adicionalmente, Table 5 presenta erratas visibles en intervalos de confianza (por ejemplo, 30.7 (95% CI: 65.4–36.6) en lectores humanos para Kowa Nonmyd 7 4B) y combinaciones de sensibilidad y kappa poco plausibles (como sensibilidad 54,3% con kappa 0,95 en Kowa VX 10 α) . Se identificaron también divergencias numéricas menores en tres trabajos adicionales: en Crane et al. (2023/2024, 10.4103/IJO.IJO_1163_23), el Abstract y la sección Results / Fig. 2 difieren en décimas o pocos puntos porcentuales (sensibilidad leve 91,8% vs. 91,9%, moderada 31,4% vs. 30,1%, severa 11,8% vs. 15,1% y exactitud severa 53,5% vs. 55%) ; en Hemelings et al. (2021, 10.1038/s41598-021-99605-1), el AUC para el 60% de enmascaramiento del ONH en UZL figura como 0,88 (0,85–0,90) en el Abstract y como 0,87 (0,85–0,88) en Results ; y en AIROGS (de Vente et al., 2024, 10.1109/TMI.2023.3313786), el resumen e introducción reportan un AUCU máximo de 0,99 (0,98–0,99) en detección de no gradabilidad, mientras en el extracto de la Sección 5.2 / Figura 2 aparece la cifra 0,82 asociada tanto a κ U como a AUCU, sin que la tabla completa por equipo estuviera accesible para confirmar si 0,82 corresponde exclusivamente al máximo κ U o a la evaluación externa en DRIMDB .
+
+=== PAGINA 47 ===
+[72] Cifras con verificación parcial, ausencia de texto completo o carácter de preprint Varios resultados relevantes no pudieron verificarse en su texto completo publicado y requieren verificación directa si el equipo decide citarlos textualmente. En Nakahara et al. (2022, 10.1136/bjophthalmol-2020-318107), solo se accedió al resumen de PubMed (que confirma AROC de 98,9% vs. 84,2% y el umbral MD < −12 dB), mientras las cifras de glaucoma avanzado (99,3% vs. 90,0%), la arquitectura ResNet34, el adaptador D-Eye y el tamaño muestral (162 imágenes) provienen de citas secundarias . En el estudio prospectivo con Forus e Intuvision (10.4103/ijo.ijo_2774_25), el extracto disponible contenía resultados y diseño pero no incluía nombres de autores ni año definitivo de publicación . En Beede et al. (2020, 10.1145/3313831.3376718), la tasa de 21% de imágenes rechazadas por iluminación proviene de fuentes secundarias . En Sahlsten et al. (2019, 10.1038/s41598-019-47181-w), las tablas completas 1, 3 y 4 para las cinco resoluciones en clasificación binaria NRDR/RDR estuvieron truncadas en los documentos accesibles, por lo que únicamente se reportaron los resultados verificados textualmente para PIRC, QRDR, NRDR/RDR a 2095 px y Messidor RDME . En Phene et al. (2019, 10.1016/j.ophtha.2019.07.024), las métricas de los Datasets A, B y C se extrajeron de la versión de manuscrito arXiv:1812.08911 correspondiente al artículo publicado . En Müller et al. (2025, 10.1016/j.media.2025.103628), se verificó la publicación en Medical Image Analysis , pero los resultados numéricos exactos de decodificación de cámara en el subespacio de etnia no fueron accesibles . Asimismo, en dos benchmarks multicámara de glaucoma muy citados —REFUGE (Orlando et al., 2020, 10.1016/j.media.2019.101570, Zeiss Visucam 500 y Canon CR-2) y Chákṣu (Kumar et al., 2023, 10.1038/s41597-023-01943-4, Remidio FoP, Bosch portátil y Forus 3Nethra)— no se verificaron en los textos accesibles ablaciones controladas que midan el efecto aislado de la cámara sobre la clasificación de glaucoma (en Chákṣu tampoco consta si los mismos ojos fueron fotografiados en las tres cámaras y la validación técnica publicada cubre únicamente las 810 imágenes de Remidio) . En Li et al. (2022, 10.1172/JCI157968), las métricas exactas de diagnóstico transversal por cámara (convencional en Beijing vs. smartphone en Kashi) no figuraban en el extracto accesible, que solo contenía los resultados de incidencia y progresión longitudinal . Por último, Rahman et al. (arXiv:2611.01992, sin DOI verificado) y el análisis sobre cicatrices de láser en EyePACS (10.1101/2023.01.30.23285179, financiado por AEYE Health Inc., con una probable errata en el intervalo de confianza 0.971-0.87 de su resumen y sin autores visibles en el extracto) son preprints sin revisión por pares verificada; un reporte estudiantil universitario que señaló atajos de borde negro en Vision Transformers sobre DR se excluyó de la evidencia principal por carecer de arbitraje . Vacíos reales de evidencia controlada en la literatura Dos brechas metodológicas merecen señalarse de manera explícita en su estado del arte. Primera, no se hallaron estudios revisados por pares con ablación controlada que cuantifiquen cuánto cae el desempeño de clasificadores de glaucoma debido específicamente a texto incrustado o marcas de agua (más allá de la remoción preventiva de etiquetas OD/OE documentada por Moreira et al., 2026 , y de las pruebas de huella de cámara en el borde
+
+=== PAGINA 48 ===
+[72] negro de Beğenilmiş et al., 2026 ). Segunda, las curvas controladas más finas sobre resolución espacial (Sahlsten et al., 2019), compresión JPEG (Yip et al., 2020), reducción sintética de FoV (Hacisoftaoglu et al., 2020) y desenfoque gaussiano progresivo (Crane et al., 2023/2024) pertenecen a retinopatía diabética y no a glaucoma . Trasladar cuantitativamente esas magnitudes al glaucoma exige cautela porque la detección de DR depende de microlesiones de alta frecuencia espacial distribuidas por todo el polo posterior (microaneurismas y hemorragias), mientras la de glaucoma depende prioritariamente de la geometría del disco óptico, el borde neurorretiniano y los defectos peripapilares de la RNFL .
+[72] Works cited
+[72] 1. https://pmc.ncbi.nlm.nih.gov/articles/PMC10829806/ 2. Deep Learning Frameworks for Diabetic Retinopathy Detection with, https://pmc.ncbi.nlm.nih.gov/articles/PMC7377280/ 3. https://pmc.ncbi.nlm.nih.gov/articles/PMC9354491/ 4. https://pmc.ncbi.nlm.nih.gov/articles/PMC7090044/ 5. https://acris.aalto.fi/ws/portalfiles/portal/36027455/s41598_019_47181_w.pdf 6. Deep learning on fundus images detects glaucoma beyond the optic, https://pmc.ncbi.nlm.nih.gov/articles/PMC8514536/ 7. https://pmc.ncbi.nlm.nih.gov/articles/PMC10833161/ 8. https://pdfs.semanticscholar.org/11f7/990a46e3f0906091bb5cedff16d69ebf8189. pdf 9. Diagnostic performance of multiple artificial intelligence (AI ... - Ovid, https://www.ovid.com/jnls/ijo/fulltext/10.4103/ijo.ijo_2774_25~diagnostic-performance-of-multiple-artificial-intelligence 10. A generalizable deep learning regression model for automated, https://pmc.ncbi.nlm.nih.gov/articles/PMC10264390/ 11. CNNs for automatic glaucoma assessment using fundus images, https://pmc.ncbi.nlm.nih.gov/articles/PMC6425593/ 12. https://pmc.ncbi.nlm.nih.gov/articles/PMC8026959/ 13. Effects of Study Population, Labeling and Training on Glaucoma, https://pmc.ncbi.nlm.nih.gov/articles/PMC7396194/ 14. Detecting Glaucoma in the Ocular Hypertension Study Using Deep, https://pmc.ncbi.nlm.nih.gov/articles/PMC8931672/ 15. https://www.mdpi.com/2227-9059/14/11/2588 16. Deep Learning-Based Glaucoma Screening Using Smartphone, https://www.researchgate.net/publication/406965899_Deep_Learning-based_Glaucoma_Screening_using_Smartphone-Captured_Low-Quality_Fundus_Videos 17. Application of a deep learning system in glaucoma screening ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9743575/ 18. Artificial intelligence in glaucoma: opportunities, challenges, and, https://pmc.ncbi.nlm.nih.gov/articles/PMC10725017/ 19. Deep learning-assisted (automatic) diagnosis of glaucoma using a, https://pubmed.ncbi.nlm.nih.gov/34261663/
+
+=== PAGINA 49 ===
+[72] 20. Towards a Device Agnostic AI for Diabetic Retinopathy Screening, https://pmc.ncbi.nlm.nih.gov/articles/PMC9393096/ 21. https://tvst.arvojournals.org/article.aspx?articleid=2778072 22. https://pmc.ncbi.nlm.nih.gov/articles/PMC9604597/ 23. Deep Learning Fundus Image Analysis for Diabetic Retinopathy and, https://pmc.ncbi.nlm.nih.gov/articles/PMC6656880/ 24. Effect of simulated cataract on the accuracy of artificial intelligence in, https://www.researchgate.net/publication/377119297_Effect_of_simulated_cataract_on_the_accuracy_of_artificial_intelligence_in_detecting_diabetic_retinopathy_in_color_fundus_photos 25. AIROGS: Artificial Intelligence for Robust Glaucoma Screening, https://pubmed.ncbi.nlm.nih.gov/37713220/ 26. (PDF) AIROGS: Artificial Intelligence for RObust Glaucoma, https://www.researchgate.net/publication/368290716_AIROGS_Artificial_Intelligence_for_RObust_Glaucoma_Screening_Challenge 27. https://coendevente.com/files/2302.01738.pdf 28. Artificial Intelligence Detection of Diabetic Retinopathy - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC9636573/ 29. Pivotal Evaluation of an Artificial Intelligence System for ... - PubMed, https://pubmed.ncbi.nlm.nih.gov/34779843/ 30. (PDF) Pivotal Evaluation of an Artificial Intelligence System for, https://www.researchgate.net/publication/356242106_Pivotal_Evaluation_of_an_Artificial_Intelligence_System_for_Autonomous_Detection_of_Referrable_and_Vision-Threatening_Diabetic_Retinopathy 31. https://pmc.ncbi.nlm.nih.gov/articles/PMC13631891/ 32. Document is current - Crossmark - Crossref, https://crossmark.crossref.org/dialog/?doi=10.1007/978-3-030-32239-7_6 33. arXiv:2307.13646v1 [cs.CV] 25 Jul 2023, https://arxiv.org/pdf/2307.13646 34. https://www.melba-journal.org/pdf/2026:051.pdf 35. (PDF) A Human-Centered Evaluation of a Deep Learning System, https://www.researchgate.net/publication/338540831_A_Human-Centered_Evaluation_of_a_Deep_Learning_System_Deployed_in_Clinics_for_the_Detection_of_Diabetic_Retinopathy 36. Adding a human perspective to AI | NZ Optics, https://nzoptics.co.nz/live-articles/adding-a-human-perspective-to-ai/ 37. Why clinical artificial intelligence is (almost) non‐existent in, https://www.mja.com.au/journal/2024/220/4/why-clinical-artificial-intelligence-almost-non-existent-australian-hospitals 38. Appendix I: Why Healthcare AI Fails: Evidence-Based Post-Mortems, https://publichealthaihandbook.com/appendices/failures.html 39. GENERATING EVIDENCE FOR ARTIFICIAL INTELLIGENCE, https://iris.who.int/server/api/core/bitstreams/0f2b1906-ffc9-4846-b70b-873725c648be/content 40. Reproduction study using public data of - Research journals - PLOS, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217541
+
+=== PAGINA 50 ===
+[72] 41. https://pmc.ncbi.nlm.nih.gov/articles/PMC6553744/ 42. https://pmc.ncbi.nlm.nih.gov/articles/PMC13305752/ 43. Cross-Dataset Generalization of Glaucoma Detection CNNs - arXiv, https://arxiv.org/pdf/2611.01992 44. https://pmc.ncbi.nlm.nih.gov/articles/PMC10160994/ 45. Disentangling representations of retinal images with generative, https://arxiv.org/html/2402.19186v3 46. Philipp Berens - ORCID, https://orcid.org/0000-0002-0199-4727 47. A generalizable deep learning regression model for ... - PubMed, https://pubmed.ncbi.nlm.nih.gov/37311940/ 48. (PDF) Deep Learning and Glaucoma Specialists - ResearchGate, https://www.researchgate.net/publication/336027867_Deep_Learning_and_Glaucoma_Specialists 49. https://arxiv.org/pdf/1812.08911 50. https://pmc.ncbi.nlm.nih.gov/articles/PMC6567842/ 51. https://pmc.ncbi.nlm.nih.gov/articles/PMC10698045/ 52. Diabetic Retinopathy Screening Using Artificial Intelligence and, https://pmc.ncbi.nlm.nih.gov/articles/PMC9294565/ 53. Diabetic Retinopathy Screening Using Artificial Intelligence and, https://pubmed.ncbi.nlm.nih.gov/33435711/ 54. https://www.mdpi.com/2227-9032/10/12/2345 55. A generalizable deep learning regression model for automated, https://www.researchgate.net/publication/371545116_A_generalizable_deep_learning_regression_model_for_automated_glaucoma_screening_from_fundus_images 56. The application of artificial intelligence in glaucoma diagnosis and, https://pmc.ncbi.nlm.nih.gov/articles/PMC10192631/ 57. Evaluation of Deep Learning Approaches to Detect Choroidal, https://www.mecs-press.org/ijigsp/ijigsp-v17-n4/v17n4-7.html 58. Comparing the Robustness of ResNet, Swin-Transformer, and MLP, https://pmc.ncbi.nlm.nih.gov/articles/PMC10740473/ 59. Autonomous Screening for Laser Photocoagulation in Fundus, https://www.medrxiv.org/content/10.1101/2023.01.30.23285179v1.full-text 60. https://www.mdpi.com/2306-5354/13/10/1215 61. Image Quality-based Collaborative Learning for Diabetic, https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13464/134640D/Image-quality-based-collaborative-learning-for-diabetic-retinopathy-detection/10.1117/12.3055313.pdf 62. https://pmc.ncbi.nlm.nih.gov/articles/PMC9898274/ 63. https://arxiv.org/html/2202.08994v3 64. (PDF) REFUGE Challenge: A Unified Framework for Evaluating, https://www.researchgate.net/publication/336359605_REFUGE_Challenge_A_Unified_Framework_for_Evaluating_Automated_Methods_for_Glaucoma_Assessment_from_Fundus_Photographs 65. https://pmc.ncbi.nlm.nih.gov/articles/PMC9151694/
+
+=== PAGINA 51 ===
+[72] 66. AI-assisted Diabetic Retinopathy Screening from Fundus Images, https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1635&context=cday

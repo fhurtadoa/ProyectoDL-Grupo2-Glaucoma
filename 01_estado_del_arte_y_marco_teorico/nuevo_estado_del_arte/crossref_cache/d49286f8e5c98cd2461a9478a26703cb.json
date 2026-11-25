@@ -1,0 +1,1557 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2026-11-21T03:45:35Z",
+      "timestamp": 1795232735066,
+      "version": "4.10.3"
+    },
+    "reference-count": 94,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003453",
+        "name": "Natural Science Foundation of Guangdong Province",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003453",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010132",
+        "name": "Österreichische Nationalstiftung für Forschung, Technologie und Entwicklung",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100010132",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100006012",
+        "name": "Christian Doppler Forschungsgesellschaft",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100006012",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001821",
+        "name": "Vienna Science and Technology Fund",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001821",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Medical Image Analysis"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.media.2019.101570",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2019-10-08T11:29:04Z",
+      "timestamp": 1570534144000
+    },
+    "page": "101570",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 853,
+    "special_numbering": "C",
+    "title": [
+      "REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs"
+    ],
+    "prefix": "10.1016",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9734-5571",
+        "authenticated-orcid": false,
+        "given": "José Ignacio",
+        "family": "Orlando",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9702-5524",
+        "authenticated-orcid": false,
+        "given": "Huazhu",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "João",
+        "family": "Barbosa Breda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0826-3879",
+        "authenticated-orcid": false,
+        "given": "Karel",
+        "family": "van Keer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Deepti R.",
+        "family": "Bathula",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrés",
+        "family": "Diaz-Pinto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruogu",
+        "family": "Fang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pheng-Ann",
+        "family": "Heng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeyoung",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "JoonHo",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joonseok",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoxiao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuai",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Balamurali",
+        "family": "Murugesan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Valery",
+        "family": "Naranjo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sai Samarth R.",
+        "family": "Phaye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sharath M.",
+        "family": "Shankaranarayana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Apoorva",
+        "family": "Sikka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaemin",
+        "family": "Son",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anton",
+        "family": "van den Hengel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shujun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junyan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zifeng",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guanghui",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yongli",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pengshuai",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fei",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiulan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanwu",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9168-0894",
+        "authenticated-orcid": false,
+        "given": "Hrvoje",
+        "family": "Bogunović",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.media.2019.101570_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1109/RBME.2010.2084567",
+        "article-title": "Retinal imaging and image analysis",
+        "volume": "3",
+        "author": "Abràmoff",
+        "year": "2010",
+        "journal-title": "IEEE Rev. Biomed. Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous ai-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2019.101570_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.3390/sym10040087",
+        "article-title": "Dense fully convolutional segmentation of the optic disc and cup in colour fundus for glaucoma diagnosis",
+        "volume": "10",
+        "author": "Al-Bander",
+        "year": "2018",
+        "journal-title": "Symmetry"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0004",
+        "series-title": "Med. Imaging 2018: Imaging Inform. for Healthc., Res., and Appl.",
+        "first-page": "105790B",
+        "article-title": "Retinal fundus images for glaucoma analysis: the RIGA dataset",
+        "volume": "10579",
+        "author": "Almazroa",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0005",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2015/180972",
+        "article-title": "Optic disc and optic cup segmentation methodologies for glaucoma image detection: a survey",
+        "volume": "2015",
+        "author": "Almazroa",
+        "year": "2015",
+        "journal-title": "J. Ophthalmol."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0006",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "1674",
+        "article-title": "Non-local image dehazing",
+        "author": "Berman",
+        "year": "2016"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.media.2019.101570_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "1170",
+        "DOI": "10.1001/jamaophthalmol.2017.3782",
+        "article-title": "Automated grading of age-related macular degeneration from color fundus images using deep convolutional neural networks",
+        "volume": "135",
+        "author": "Burlina",
+        "year": "2017",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/j.artmed.2008.04.005",
+        "article-title": "Identification of the optic nerve head with genetic algorithms",
+        "volume": "43",
+        "author": "Carmona",
+        "year": "2008",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0009",
+        "series-title": "Proc. World Congress on Med. and Health Informatics",
+        "first-page": "318",
+        "article-title": "Automatic identification of glaucoma using deep learning methods",
+        "volume": "245",
+        "author": "Cerentinia",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1613/jair.953",
+        "article-title": "SMOTE: Synthetic minority over-sampling technique",
+        "volume": "16",
+        "author": "Chawla",
+        "year": "2002",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0011",
+        "author": "Chen"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0012",
+        "series-title": "Comput. Vis. ECCV",
+        "first-page": "801",
+        "article-title": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0013",
+        "series-title": "Conf. Proc. IEEE Eng. Med. Biol. Soc.",
+        "first-page": "715",
+        "article-title": "Glaucoma detection based on deep convolutional neural network",
+        "author": "Chen",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0014",
+        "series-title": "Med. Image Comput. Comput. Assist. Interv.",
+        "first-page": "669",
+        "article-title": "Automatic feature learning for glaucoma detection based on deep learning",
+        "author": "Chen",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0015",
+        "first-page": "1610",
+        "article-title": "Xception: deep learning with depthwise separable convolutions",
+        "author": "Chollet",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0017",
+        "series-title": "Proc. Int. Conference on Mach. Learn",
+        "first-page": "233",
+        "article-title": "The relationship between Precision-Recall and ROC curves",
+        "author": "Davis",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "article-title": "Clinically applicable deep learning for diagnosis and referral in retinal disease",
+        "volume": "24",
+        "author": "De Fauw",
+        "year": "2018",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed database: the messidor database",
+        "volume": "33",
+        "author": "Decencire",
+        "year": "2014",
+        "journal-title": "Image Anal. Stereol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.2307/2531595",
+        "article-title": "Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach",
+        "volume": "44",
+        "author": "DeLong",
+        "year": "1988",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0021",
+        "series-title": "Conf. Proc. IEEE Int. Image Processing (ICIP)",
+        "first-page": "2227",
+        "article-title": "Automatic optic disk and cup segmentation of fundus images using deep learning",
+        "author": "Edupuganti",
+        "year": "2018"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2019.101570_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1136/bjophthalmol-2016-EGSguideline.001",
+        "article-title": "European glaucoma society terminology and guidelines for glaucoma, 4th edition - part 1 supported by the egs foundation",
+        "volume": "101",
+        "author": "European Glaucoma Society",
+        "year": "2017",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.1145/1360612.1360666",
+        "article-title": "Edge-preserving decompositions for multi-scale tone and detail manipulation",
+        "volume": "27",
+        "author": "Farbman",
+        "year": "2008",
+        "journal-title": "ACM Trans. Graph."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.media.2019.101570_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0025",
+        "series-title": "Proc. Int. Symposium on Comp.-based Med. Syst. (CBMS)",
+        "first-page": "1",
+        "article-title": "RIM-ONE: an open retinal image database for optic nerve evaluation",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0026",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "1440",
+        "article-title": "Fast r-cnn",
+        "author": "Girshick",
+        "year": "2015"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.media.2019.101570_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1364/BOE.10.000892",
+        "article-title": "Automatic glaucoma classification using color fundus images based on convolutional neural networks and transfer learning",
+        "volume": "10",
+        "author": "Gómez-Valverde",
+        "year": "2019",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.media.2019.101570_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.cmpb.2018.07.012",
+        "article-title": "Computer-aided diagnosis of glaucoma using fundus images: a review",
+        "volume": "165",
+        "author": "Hagiwara",
+        "year": "2018",
+        "journal-title": "Comput. Method. Program. Biomed."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.media.2019.101570_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1016/j.compmedimag.2013.09.005",
+        "article-title": "Automatic extraction of retinal features from colour retinal images for glaucoma diagnosis: a review",
+        "volume": "37",
+        "author": "Haleem",
+        "year": "2013",
+        "journal-title": "Comput. Med. Imag. Graph."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0031",
+        "series-title": "Proc. IEEE Int. Conf. Comput. Vis.",
+        "first-page": "2980",
+        "article-title": "Mask r-cnn",
+        "author": "He",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0032",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "770",
+        "article-title": "Deep residual learning for image recognition",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "014503",
+        "DOI": "10.1117/1.JMI.4.1.014503",
+        "article-title": "DR HAGIS: A fundus image database for the automatic extraction of retinal surface vessels from diabetic patients",
+        "volume": "4",
+        "author": "Holm",
+        "year": "2017",
+        "journal-title": "J. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0034",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "7132",
+        "article-title": "Squeeze-and-Excitation Networks",
+        "author": "Hu",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0035",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "4700",
+        "article-title": "Densely connected convolutional networks",
+        "author": "Huang",
+        "year": "2017"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.media.2019.101570_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1109/TMI.2011.2106509",
+        "article-title": "Optic disk and cup segmentation from monocular color retinal images for glaucoma assessment",
+        "volume": "30",
+        "author": "Joshi",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0037",
+        "unstructured": "Kaggle, 2015. Diabetic Retinopathy Detection. https://www.kaggle.com/c/diabetic-retinopathy-detection. [Online; accessed 10-January-2019]."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0038",
+        "author": "Kamnitsas"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "7099",
+        "DOI": "10.1038/s41598-019-43385-2",
+        "article-title": "Rim-to-disc ratio outperforms cup-to-disc ratio for glaucoma prescreening",
+        "volume": "9",
+        "author": "Kumar",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.media.2019.101570_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "S76",
+        "DOI": "10.1016/j.ophtha.2017.10.011",
+        "article-title": "The future of imaging in detecting glaucoma progression",
+        "volume": "124",
+        "author": "Lavinsky",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.media.2019.101570_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "2278",
+        "DOI": "10.1109/5.726791",
+        "article-title": "Gradient-based learning applied to document recognition",
+        "volume": "86",
+        "author": "LeCun",
+        "year": "1998",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0042",
+        "series-title": "Proc. Int. Conf. on Acoust., Speech and Signal Processing (ICASSP)",
+        "first-page": "985",
+        "article-title": "Combining multiple deep features for glaucoma classification",
+        "author": "Li",
+        "year": "2018"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.media.2019.101570_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0044",
+        "series-title": "Tools with Artificial Intelligence (ICTAI), 2015 IEEE 27th International Conference on",
+        "first-page": "162",
+        "article-title": "Integrated optic disc and cup segmentation with deep learning",
+        "author": "Lim",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0045",
+        "series-title": "Comput. Vis. ECCV",
+        "first-page": "740",
+        "article-title": "Microsoft COCO: Common objects in context",
+        "author": "Lin",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "article-title": "A survey on deep learning in medical image analysis",
+        "volume": "42",
+        "author": "Litjens",
+        "year": "2017",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0047",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.ogla.2018.04.002",
+        "article-title": "A deep learning-based algorithm identifies glaucomatous discs using monoscopic fundus photographs",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Ophthalmol. Glaucoma"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.media.2019.101570_bib0048",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1109/TMI.2003.823261",
+        "article-title": "Optic nerve head segmentation",
+        "volume": "23",
+        "author": "Lowell",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "5217",
+        "DOI": "10.1038/s41467-018-07619-7",
+        "article-title": "Why rankings of biomedical image analysis competitions should be interpreted with care",
+        "volume": "9",
+        "author": "Maier-Hein",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.media.2019.101570_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "1854",
+        "DOI": "10.1109/TMI.2015.2412881",
+        "article-title": "Multimodal segmentation of optic disc and cup from SD-OCT and color fundus photographs using a machine-learning graph-based approach",
+        "volume": "34",
+        "author": "Miri",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0051",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1109/TMI.2009.2033909",
+        "article-title": "Retinopathy online challenge: automatic detection of microaneurysms in digital color fundus photographs",
+        "volume": "29",
+        "author": "Niemeijer",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Med. Imag."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2019.101570_bib0052",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1049/iet-ipr.2012.0455",
+        "article-title": "Retinal vessel segmentation by improved matched filtering: evaluation on a new high-resolution fundus image database",
+        "volume": "7",
+        "author": "Odstrčilík",
+        "year": "2013",
+        "journal-title": "IET Image Process."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0053",
+        "series-title": "Med. Image Comput. Comput. Assist. Interv.",
+        "first-page": "65",
+        "article-title": "Towards a glaucoma risk index based on simulated hemodynamics from fundus images",
+        "volume": "11071",
+        "author": "Orlando",
+        "year": "2018"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0054",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1109/TBME.2016.2535311",
+        "article-title": "A discriminatively trained fully connected conditional random field model for blood vessel segmentation in fundus images",
+        "volume": "64",
+        "author": "Orlando",
+        "year": "2017",
+        "journal-title": "IEEE. Trans. Biomed. Eng."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0055",
+        "series-title": "Proc. SPIE",
+        "article-title": "Convolutional neural network transfer for automated glaucoma identification",
+        "volume": "10160",
+        "author": "Orlando",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0056",
+        "series-title": "Conf. Proc. IEEE Int. Image Processing (ICIP)",
+        "first-page": "2775",
+        "article-title": "G-eyenet: A convolutional autoencoding classifier framework for the detection of glaucoma from retinal fundus images",
+        "author": "Pal",
+        "year": "2018"
+      },
+      {
+        "issue": "43",
+        "key": "10.1016/j.media.2019.101570_bib0057",
+        "doi-asserted-by": "crossref",
+        "first-page": "e239",
+        "DOI": "10.3346/jkms.2018.33.e239",
+        "article-title": "A novel fundus image reading tool for efficient generation of a multi-dimensional categorical image database for machine learning algorithm training",
+        "volume": "33",
+        "author": "Park",
+        "year": "2018",
+        "journal-title": "J. Korean Med. Sci."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0058",
+        "article-title": "Deep learning to assess glaucoma risk and associated features in fundus images",
+        "author": "Phene",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv:1812.08911"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0059",
+        "doi-asserted-by": "crossref",
+        "first-page": "158164",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "article-title": "Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning",
+        "volume": "2",
+        "author": "Poplin",
+        "year": "2018",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.3390/data3030025",
+        "article-title": "Indian diabetic retinopathy image dataset (IDRid): a database for diabetic retinopathy screening research",
+        "volume": "3",
+        "author": "Porwal",
+        "year": "2018",
+        "journal-title": "Data"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0061",
+        "first-page": "e180031",
+        "article-title": "Challenges related to artificial intelligence research in medical imaging and the importance of image analysis competitions",
+        "volume": "1",
+        "author": "Prevedello",
+        "year": "2019",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2019.101570_bib0062",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1159/000329603",
+        "article-title": "Epidemiology of major eye diseases leading to blindness in europe: a literature review",
+        "volume": "47",
+        "author": "Prokofyeva",
+        "year": "2012",
+        "journal-title": "Ophthalmic Res."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0063",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/j.ins.2018.01.051",
+        "article-title": "Deep convolution neural network for accurate diagnosis of glaucoma using digital fundus images",
+        "volume": "441",
+        "author": "Raghavendra",
+        "year": "2018",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0064",
+        "series-title": "Med. Image Comput. Comput. Assist. Interv.",
+        "first-page": "388",
+        "article-title": "How to exploit weaknesses in biomedical challenge design and organization",
+        "author": "Reinke",
+        "year": "2018"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2019.101570_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "738",
+        "DOI": "10.1016/j.ophtha.2011.09.054",
+        "article-title": "Optic disc margin anatomy in patients with glaucoma and normal controls with spectral domain optical coherence tomography",
+        "volume": "119",
+        "author": "Reis",
+        "year": "2012",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0066",
+        "series-title": "Med. Image Comput. Comput. Assist. Interv.",
+        "first-page": "234",
+        "article-title": "U-net: convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0067",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "article-title": "Imagenet large scale visual recognition challenge",
+        "volume": "115",
+        "author": "Russakovsky",
+        "year": "2015",
+        "journal-title": "Int. J. Comput. Vis."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0068",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "4510",
+        "article-title": "Mobilenetv2: inverted residuals and linear bottlenecks",
+        "author": "Sandler",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0069",
+        "series-title": "The Glaucoma Book: a Practical, Evidence-Based Approach to Patient Care",
+        "author": "Schacknow",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.preteyeres.2018.07.004",
+        "article-title": "Artificial intelligence in retina",
+        "volume": "67",
+        "author": "Schmidt-Erfurth",
+        "year": "2018",
+        "journal-title": "Prog. Retin. Eye Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2019.101570_bib0071",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "article-title": "Optic disc and cup segmentation methods for glaucoma detection with modification of U-Net convolutional neural network",
+        "volume": "27",
+        "author": "Sevastopolsky",
+        "year": "2017",
+        "journal-title": "Pattern Recognit. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0072",
+        "author": "Sevastopolsky"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0073",
+        "series-title": "Fetal, Infant and Ophthalmic Med. Image Anal.",
+        "first-page": "168",
+        "article-title": "Joint optic disc and cup segmentation using fully convolutional and adversarial networks",
+        "author": "Shankaranarayana",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0074",
+        "author": "Shankaranarayana"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0075",
+        "author": "Simonyan"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0076",
+        "first-page": "1004",
+        "article-title": "A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis",
+        "volume": "2",
+        "author": "Sivaswamy",
+        "year": "2015",
+        "journal-title": "JSM Biomed. Imag. Data Papers"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0077",
+        "series-title": "Proc. IEEE Int. Symp. Biomed. Imaging",
+        "first-page": "53",
+        "article-title": "Drishti-gs: Retinal image dataset for optic nerve head (ONH) segmentation",
+        "author": "Sivaswamy",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0078",
+        "series-title": "Comput. Pathol. and Ophthalmic Med. Image Anal.",
+        "first-page": "176",
+        "article-title": "Classification of findings with localized lesions in fundoscopic images using a regionally guided CNN",
+        "author": "Son",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0079",
+        "article-title": "Retinal vessel segmentation in fundoscopic images with generative adversarial networks",
+        "author": "Son",
+        "year": "2017",
+        "journal-title": "arXiv preprint arXiv:1706.09318"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0080",
+        "series-title": "Comput. Pathol. and Ophthalmic Med. Image Anal.",
+        "first-page": "236",
+        "article-title": "Localizing optic disc and cup for glaucoma screening via deep object detection networks",
+        "author": "Sun",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0081",
+        "series-title": "Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.",
+        "first-page": "2818",
+        "article-title": "Rethinking the inception architecture for computer vision",
+        "author": "Szegedy",
+        "year": "2016"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0082",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1186/s12880-015-0068-x",
+        "article-title": "Metrics for evaluating 3D medical image segmentation: analysis, selection, and tool",
+        "volume": "15",
+        "author": "Taha",
+        "year": "2015",
+        "journal-title": "BMC Med. imag."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0083",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1016/j.bspc.2018.01.014",
+        "article-title": "Survey on segmentation and classification approaches of optic cup and optic disc for diagnosis of glaucoma",
+        "volume": "42",
+        "author": "Thakur",
+        "year": "2018",
+        "journal-title": "Biomed. Signal Process Control"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.media.2019.101570_bib0084",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.1007/978-3-030-00949-6_33",
+        "article-title": "Local estimation of the degree of optic disc swelling from color fundus photography",
+        "volume": "11039",
+        "author": "Thurtell",
+        "year": "2018",
+        "journal-title": "Comput. Pathol. Ophthalmic Med. Image Anal."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.media.2019.101570_bib0086",
+        "doi-asserted-by": "crossref",
+        "first-page": "3546",
+        "DOI": "10.1167/iovs.12-10347",
+        "article-title": "Validating retinal fundus image analysis algorithms: issues and a proposal",
+        "volume": "54",
+        "author": "Trucco",
+        "year": "2013",
+        "journal-title": "Invest. Ophthalmol. Vis. Sc."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2019.101570_bib0087",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1186/1471-2105-9-265",
+        "article-title": "Star: a simple tool for the statistical comparison of ROC curves",
+        "volume": "9",
+        "author": "Vergara",
+        "year": "2008",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0088",
+        "article-title": "Patch-based output space adversarial learning for joint optic disc and cup segmentation",
+        "volume": "In press",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imag.,"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0089",
+        "author": "Wang"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1016/j.patcog.2019.01.006",
+        "article-title": "Wider or deeper: revisiting the resnet model for visual recognition",
+        "volume": "90",
+        "author": "Wu",
+        "year": "2019",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0091",
+        "series-title": "Med. Image Comput. Comput. Assist. Interv.",
+        "first-page": "788",
+        "article-title": "Optic cup segmentation for glaucoma detection using low-rank superpixel representation",
+        "author": "Xu",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0092",
+        "series-title": "Conf. Proc. IEEE Eng. Med. Biol. Soc.",
+        "first-page": "3065",
+        "article-title": "Origa-light: an online retinal fundus image database for glaucoma analysis and research",
+        "author": "Zhang",
+        "year": "2010"
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.media.2019.101570_bib0093",
+        "doi-asserted-by": "crossref",
+        "first-page": "8310",
+        "DOI": "10.1167/iovs.12-9576",
+        "article-title": "Automated disease/no disease grading of age-related macular degeneration by an image mining approach",
+        "volume": "53",
+        "author": "Zheng",
+        "year": "2012",
+        "journal-title": "Invest. Ophthalmol. Vis. Sc."
+      },
+      {
+        "key": "10.1016/j.media.2019.101570_bib0094",
+        "series-title": "Int. Worksh. on Mach. Learn. in Med. Imaging",
+        "first-page": "136",
+        "article-title": "Boosting convolutional filters with entropy sampling for optic cup and disc image segmentation from fundus images",
+        "author": "Zilly",
+        "year": "2015"
+      }
+    ],
+    "container-title": [
+      "Medical Image Analysis"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361841519301100?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361841519301100?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2025-10-23T18:38:31Z",
+      "timestamp": 1761244711000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361841519301100"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "references-count": 94,
+    "alternative-id": [
+      "S1361841519301100"
+    ],
+    "URL": "https://doi.org/10.1016/j.media.2019.101570",
+    "relation": {},
+    "ISSN": [
+      "1361-8415"
+    ],
+    "issn-type": [
+      {
+        "value": "1361-8415",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Medical Image Analysis",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.media.2019.101570",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101570"
+  }
+}

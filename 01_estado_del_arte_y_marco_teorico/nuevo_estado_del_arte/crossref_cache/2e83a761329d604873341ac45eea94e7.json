@@ -1,0 +1,825 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2026-11-14T09:10:18Z",
+      "timestamp": 1794647418922,
+      "version": "4.9.1"
+    },
+    "reference-count": 38,
+    "publisher": "Elsevier BV",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2022-10-13T00:00:00Z",
+          "timestamp": 1665619200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001818",
+        "name": "Research to Prevent Blindness",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001818",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2022.100233",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2022-10-19T02:36:31Z",
+      "timestamp": 1666146991000
+    },
+    "page": "100233",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 135,
+    "title": [
+      "Detecting Glaucoma from Fundus Photographs Using Deep Learning without Convolutions"
+    ],
+    "prefix": "10.1016",
+    "volume": "3",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2593-6596",
+        "authenticated-orcid": false,
+        "given": "Rui",
+        "family": "Fan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4443-4145",
+        "authenticated-orcid": false,
+        "given": "Kamran",
+        "family": "Alipour",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9330-9987",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Bowd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6165-6175",
+        "authenticated-orcid": false,
+        "given": "Mark",
+        "family": "Christopher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicole",
+        "family": "Brye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James A.",
+        "family": "Proudfoot",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7721-2736",
+        "authenticated-orcid": false,
+        "given": "Michael H.",
+        "family": "Goldbaum",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akram",
+        "family": "Belghith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher A.",
+        "family": "Girkin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Massimo A.",
+        "family": "Fazio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey M.",
+        "family": "Liebmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9553-3202",
+        "authenticated-orcid": false,
+        "given": "Robert N.",
+        "family": "Weinreb",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4240-7349",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Pazzani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Kriegman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1143-5224",
+        "authenticated-orcid": false,
+        "given": "Linda M.",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2022.100233_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1016/j.ophtha.2016.01.006",
+        "article-title": "Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050",
+        "volume": "123",
+        "author": "Holden",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1167/tvst.9.2.42",
+        "article-title": "A review of deep learning for screening, diagnosis, and detection of glaucoma progression",
+        "volume": "9",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis.",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajo.2021.12.008",
+        "article-title": "Performances of machine learning in detecting glaucoma using fundus and retinal optical coherence tomography images: a meta-analysis",
+        "volume": "237",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1405",
+        "DOI": "10.1109/JBHI.2019.2949075",
+        "article-title": "Clinical interpretable deep learning model for glaucoma diagnosis",
+        "volume": "24",
+        "author": "Liao",
+        "year": "2020",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.compmedimag.2019.02.005",
+        "article-title": "Robust optic disc and cup segmentation with deep learning for glaucoma detection",
+        "volume": "74",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Comput Med Imaging Graph"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1167/tvst.9.2.27",
+        "article-title": "Effects of study population, labeling and training on glaucoma detection using deep learning algorithms",
+        "volume": "9",
+        "author": "Christopher",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib9",
+        "author": "Fan"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan R, Bowd C, Christopher M, et al. [Preprint] Detecting glaucoma in the Ocular Hypertension Treatment Study using deep learning: implications for clinical trial endpoints. doi: 10.36227/techrxiv.14959947.v2. https://www.techrxiv.org/articles/preprint/Detecting_Glaucoma_in_the_Ocular_Hypertension_Treatment_Study_Using_Deep_Learning_Implications_for_clinical_trial_endpoints/14959947/1 (Accessed 7 November 2022). TechRxiv. 2022. https://doi.org/10.36227/techrxiv.14959947.v2",
+        "DOI": "10.36227/techrxiv.14959947.v2"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib11",
+        "series-title": "International Conference on Learning Representations",
+        "article-title": "An image is worth 16x16 words: transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib12",
+        "series-title": "Adv Neural Inf Process Syst",
+        "first-page": "5998",
+        "article-title": "Attention is all you need",
+        "author": "Vaswani",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib13",
+        "series-title": "International Conference on Machine Learning",
+        "first-page": "10347",
+        "article-title": "Training data-efficient image transformers & distillation through attention",
+        "author": "Touvron",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib14",
+        "series-title": "European Conference on Computer Vision",
+        "first-page": "818",
+        "article-title": "Visualizing and understanding convolutional networks",
+        "author": "Zeiler",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib15",
+        "series-title": "European Conference on Computer Vision",
+        "first-page": "3",
+        "article-title": "Generating visual explanations",
+        "author": "Hendricks",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib16",
+        "series-title": "Proceedings of the IEEE International Conference on Computer Vision",
+        "first-page": "618",
+        "article-title": "Grad-CAM: visual explanations from deep networks via gradient-based localization",
+        "author": "Selvaraju",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib17",
+        "series-title": "[Preprint]. Deep learning saliency maps do not accurately highlight diagnostically relevant regions for medical image interpretation",
+        "author": "Saporta",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "573",
+        "DOI": "10.1001/archopht.117.5.573",
+        "article-title": "Ocular Hypertension Treatment Study Group. The Ocular Hypertension Treatment Study: design and baseline description of the participants",
+        "volume": "117",
+        "author": "Gordon",
+        "year": "1999",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "701",
+        "DOI": "10.1001/archopht.120.6.701",
+        "article-title": "The Ocular Hypertension Treatment Study: a randomized trial determines that topical ocular hypotensive medication delays or prevents the onset of primary open-angle glaucoma",
+        "volume": "120",
+        "author": "Kass",
+        "year": "2002",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1136",
+        "DOI": "10.1001/archophthalmol.2009.187",
+        "article-title": "The African Descent and Glaucoma Evaluation Study (ADAGES): design and baseline data",
+        "volume": "127",
+        "author": "Sample",
+        "year": "2009",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "article-title": "CNNs for automatic glaucoma assessment using fundus images: an extensive validation",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "Biomed Eng OnLine"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib22",
+        "first-page": "10571",
+        "article-title": "Attention based glaucoma detection: a large-scale database and CNN model",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib23",
+        "first-page": "1",
+        "article-title": "Rim-one: an open retinal image database for Optic Nerve Evaluation",
+        "author": "Fumero",
+        "year": "2011",
+        "journal-title": "2011 24th International Symposium on Computer-based Medical Systems. IEEE"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib24",
+        "first-page": "3065",
+        "article-title": "ORIGA-light: an online retinal fundus image database for glaucoma analysis and research",
+        "author": "Zhang",
+        "year": "2010",
+        "journal-title": "2010 Annual International Conference of the IEEE Engineering in Medicine and Biology. IEEE"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1109/CVPR.2009.5206848",
+        "article-title": "ImageNet: A large-scale hierarchical image database",
+        "author": "Deng",
+        "year": "2009",
+        "journal-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition. IEEE"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib26",
+        "series-title": "Proceedings of the 2018 IEEE Winter Conference on Applications of Computer Vision",
+        "first-page": "839",
+        "article-title": "Grad-cam++: generalized gradient-based visual explanations for deep convolutional networks",
+        "author": "Chattopadhay",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib27",
+        "first-page": "24",
+        "article-title": "Score-cam: score-weighted visual explanations for convolutional neural networks",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib31",
+        "series-title": "Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics",
+        "first-page": "119",
+        "article-title": "Glaucoma detection based on deep learning network in fundus image",
+        "author": "Fu",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "434",
+        "DOI": "10.3390/s22020434",
+        "article-title": "An efficient deep learning approach to automatic glaucoma detection using optic disc and optic cup localization",
+        "volume": "22",
+        "author": "Nawaz",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2828",
+        "DOI": "10.1109/ACCESS.2021.3139160",
+        "article-title": "Siam, deep learning-based glaucoma detection with cropped optic cup and disc and blood vessel segmentation",
+        "volume": "10",
+        "author": "Islam",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/s12938-021-00877-5",
+        "article-title": "Automatic glaucoma detection based on transfer induced attention network",
+        "volume": "20",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "Biomed Eng OnLine"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1016/j.ajo.2018.11.006",
+        "article-title": "Assessment of the impact of an end point committee in the Ocular Hypertension Treatment Study",
+        "volume": "199",
+        "author": "Gordon",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.ophtha.2019.09.036",
+        "article-title": "Deep learning approaches predict glaucomatous visual field damage from oct optic nerve head en face images and retinal nerve fiber layer thickness maps",
+        "volume": "127",
+        "author": "Christopher",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1016/j.ophtha.2020.06.036",
+        "article-title": "Explaining the rationale of deep learning glaucoma decisions with adversarial examples",
+        "volume": "128",
+        "author": "Chang",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib35",
+        "series-title": "International Conference on Medical Image Computing and Computer- Assisted Intervention",
+        "first-page": "45",
+        "article-title": "Mil-vt: multiple instance learning enhanced Vision Transformer for fundus image classification",
+        "author": "Yu",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100233_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "2392",
+        "DOI": "10.1109/TMI.2021.3077484",
+        "article-title": "Deep relation transformer for diagnosing glaucoma with optical coherence tomography and visual field function",
+        "volume": "40",
+        "author": "Song",
+        "year": "2021",
+        "journal-title": "IEEE Trans Med Imaging"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914522001221?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914522001221?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2025-11-13T06:21:53Z",
+      "timestamp": 1763014913000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914522001221"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "references-count": 38,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914522001221"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2022.100233",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.36227/techrxiv.19727314.v1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.36227/techrxiv.19727314",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Detecting Glaucoma from Fundus Photographs Using Deep Learning without Convolutions",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2022.100233",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2022 Published by Elsevier Inc. on behalf of American Academy of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100233"
+  }
+}

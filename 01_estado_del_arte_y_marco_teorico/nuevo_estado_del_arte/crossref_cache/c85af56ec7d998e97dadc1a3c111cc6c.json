@@ -1,0 +1,433 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T21:20:41Z",
+      "timestamp": 1790716841828,
+      "version": "4.1.0"
+    },
+    "reference-count": 18,
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2025-09-04T00:00:00Z",
+          "timestamp": 1756944000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "lww.com",
+        "ovid.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Background:</jats:title>\n                    <jats:p>Glaucoma is a major cause of irreversible blindness, and early detection is essential to prevent vision loss. Color fundus photography is a simple, low-cost, and noninvasive eye screening method, but diagnosis through this method can be difficult in patients with additional retinal diseases. Although artificial intelligence (AI) can address this difficulty, its effectiveness may vary between hospitals. In this study, an AI glaucoma detection system was developed and tested for reliability across different populations and clinical settings.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods:</jats:title>\n                    <jats:p>A stepwise AI pipeline was designed that combined image enhancement, automated identification of the optic nerve area, and deep learning–based classification. The system was trained on 1696 images from Taipei Veterans General Hospital and tested on five cross-regional external datasets. The system was also evaluated on a separate internal set of 151 images representing comorbid eye diseases.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>The AI system achieved a balanced accuracy of at least 80% on all external datasets. For images with other eye diseases, it achieved an area under the curve of 0.93 and a balanced accuracy of 80.9%. Its performance remained consistent regardless of differences in patient ethnicity, camera types, and image quality.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion:</jats:title>\n                    <jats:p>The proposed AI system can detect glaucoma on standard color fundus photographs with high accuracy across clinical environments and in the presence of comorbid eye diseases. The system may be a practical and affordable tool for large-scale glaucoma screening, particularly in institutions with limited resources.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1097/jcma.0000000000001289",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2025-09-10T04:00:10Z",
+      "timestamp": 1757476810000
+    },
+    "page": "747-759",
+    "update-policy": "https://doi.org/10.1097/lww.0000000000001000",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Artificial intelligence-assisted glaucoma detection on color fundus images: with comorbidity and cross-institutional analysis"
+    ],
+    "prefix": "10.1097",
+    "volume": "88",
+    "author": [
+      {
+        "given": "Wei-Shiang",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Statistics, National Yang Ming Chiao Tung University, Hsinchu, Taiwan, ROC"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu-Chieh",
+        "family": "Ko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Taipei Veterans General Hospital, Taipei, Taiwan, ROC"
+          },
+          {
+            "name": "Faculty of Medicine, National Yang Ming Chiao Tung University School of Medicine, Taipei, Taiwan, ROC"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yen-Cheng",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, En Chu Kong Hospital, New Taipei City, Taiwan, ROC"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Henry Horng-Shing",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Statistics, National Yang Ming Chiao Tung University, Hsinchu, Taiwan, ROC"
+          },
+          {
+            "name": "Biomedical Artificial Intelligence Academy, Kaohsiung Medical University, Kaohsiung, Taiwan, ROC"
+          },
+          {
+            "name": "Department of Medical Research, Kaohsiung Medical University Hospital, Kaohsiung, Taiwan, ROC"
+          },
+          {
+            "name": "Department of Statistics and Data Science, Cornell University, Ithaca, New York, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "276",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "101971",
+        "DOI": "10.1016/j.media.2021.101971",
+        "article-title": "Applications of deep learning in fundus images: a review.",
+        "volume": "69",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "R2-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "126",
+        "DOI": "10.1186/s12938-023-01187-8",
+        "article-title": "Artificial intelligence in glaucoma: opportunities, challenges, and future directions.",
+        "volume": "22",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "R3-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1136/bjo.56.8.577",
+        "article-title": "Fundoscopic appearance of a nerve-fibre-bundle defect.",
+        "volume": "56",
+        "author": "Hoyt",
+        "year": "1972",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "R4-20260403",
+        "first-page": "241",
+        "article-title": "Comparison of congenital disc blurring and incipient papilledema in red-free light: a photographic study.",
+        "volume": "12",
+        "author": "Hoyt",
+        "year": "1973",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "R5-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1111/j.1442-9071.1976.tb00846.x",
+        "article-title": "Ophthalmoscopy of the retinal nerve fibre layer in neuro-ophthalmologic diagnosis.",
+        "volume": "4",
+        "author": "Hoyt",
+        "year": "1976",
+        "journal-title": "Aust N Z J Ophthalmol"
+      },
+      {
+        "key": "R6-20260403",
+        "first-page": "1121",
+        "article-title": "Monochromatic (red-free) photography and ophthalmoscopy of the peripapillary retinal nerve fiber layer.",
+        "volume": "17",
+        "author": "Miller",
+        "year": "1978",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "R7-20260403",
+        "first-page": "2266",
+        "article-title": "Level-set based automatic cup-to-disc ratio determination using retinal fundus images in ARGALI.",
+        "volume": "2008",
+        "author": "Wong",
+        "year": "2008",
+        "journal-title": "IEEE Eng Med Biol Soc Proc"
+      },
+      {
+        "key": "R10-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "14665",
+        "DOI": "10.1038/s41598-018-33013-w",
+        "article-title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography.",
+        "volume": "8",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "R11-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.3390/sym10040087",
+        "article-title": "Dense fully convolutional segmentation of the optic disc and cup in colour fundus for glaucoma diagnosis.",
+        "volume": "10",
+        "author": "Al-Bander",
+        "year": "2018",
+        "journal-title": "Symmetry"
+      },
+      {
+        "key": "R12-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "102253",
+        "DOI": "10.1016/j.media.2021.102253",
+        "article-title": "NENet: nested EfficientNet and adversarial learning for joint optic disc and cup segmentation.",
+        "volume": "74",
+        "author": "Pachade",
+        "year": "2021",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "R13-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "1314",
+        "DOI": "10.3390/biomedicines10061314",
+        "article-title": "Widen the applicability of a convolutional neural-network-assisted glaucoma detection algorithm of limited training images across different datasets.",
+        "volume": "10",
+        "author": "Ko",
+        "year": "2022",
+        "journal-title": "Biomedicines"
+      },
+      {
+        "key": "R14-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "3813",
+        "DOI": "10.1038/s41433-023-02622-9",
+        "article-title": "External validation of a deep learning detection system for glaucomatous optic neuropathy: a real-world multicentre study.",
+        "volume": "37",
+        "author": "Qian",
+        "year": "2023",
+        "journal-title": "Eye (London)"
+      },
+      {
+        "key": "R15-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "1992",
+        "DOI": "10.1001/jama.2022.7013",
+        "article-title": "Screening for primary open-angle glaucoma: US Preventive Services Task Force recommendation statement.",
+        "volume": "327",
+        "year": "2022",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "R19-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.1016/j.cmpb.2015.08.002",
+        "article-title": "An adaptive threshold based image processing technique for improved glaucoma detection and classification.",
+        "volume": "122",
+        "author": "Issac",
+        "year": "2015",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "R20-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1016/j.cmpb.2015.10.010",
+        "article-title": "Image processing based automatic diagnosis of glaucoma using wavelet features of segmented optic disc from fundus image.",
+        "volume": "124",
+        "author": "Singh",
+        "year": "2016",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "R21-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs.",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "R23-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "355",
+        "DOI": "10.1016/S0734-189X(87)80186-X",
+        "article-title": "Adaptive histogram equalization and its variations.",
+        "volume": "39",
+        "author": "Pizer",
+        "year": "1987",
+        "journal-title": "Comput Vis Graph Image Process"
+      },
+      {
+        "key": "R25-20260403",
+        "doi-asserted-by": "crossref",
+        "first-page": "680",
+        "DOI": "10.1136/bjo.2009.170068",
+        "article-title": "Position of retinal blood vessels correlates with retinal nerve fibre layer thickness profiles as measured with GDx VCC and ECC.",
+        "volume": "95",
+        "author": "Resch",
+        "year": "2011",
+        "journal-title": "Br J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Journal of the Chinese Medical Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.lww.com/10.1097/JCMA.0000000000001289",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2026-04-03T21:00:17Z",
+      "timestamp": 1775250017000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.lww.com/10.1097/JCMA.0000000000001289"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ]
+    },
+    "references-count": 18,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1097/jcma.0000000000001289",
+    "relation": {},
+    "ISSN": [
+      "1726-4901"
+    ],
+    "issn-type": [
+      {
+        "value": "1726-4901",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ]
+    }
+  }
+}

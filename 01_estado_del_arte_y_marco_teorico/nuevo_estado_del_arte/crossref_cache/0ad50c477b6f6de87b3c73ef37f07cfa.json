@@ -1,0 +1,949 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2026-09-30T13:43:26Z",
+      "timestamp": 1790775806764,
+      "version": "4.1.0"
+    },
+    "reference-count": 61,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "npj Digit. Med."
+    ],
+    "DOI": "10.1038/s41746-025-01750-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ],
+      "date-time": "2025-07-01T08:17:25Z",
+      "timestamp": 1751357845000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Interpretable longitudinal glaucoma visual field estimation deep learning system from fundus images and clinical narratives"
+    ],
+    "prefix": "10.1038",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Xiaoling",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangyin",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhiyuan",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zihan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4369-2417",
+        "authenticated-orcid": false,
+        "given": "Kai",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1750_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e339",
+        "DOI": "10.1016/S2214-109X(13)70113-X",
+        "volume": "1",
+        "author": "RR Bourne",
+        "year": "2013",
+        "unstructured": "Bourne, R. R. et al. Causes of vision loss worldwide, 1990-2010: A systematic analysis. Lancet Glob. Health 1, e339–e349 (2013).",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "1750_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2183",
+        "DOI": "10.1016/S0140-6736(17)31469-1",
+        "volume": "390",
+        "author": "JB Jonas",
+        "year": "2017",
+        "unstructured": "Jonas, J. B. et al. Glaucoma. Lancet 390, 2183–2193 (2017).",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "1750_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "2377",
+        "DOI": "10.1016/j.ophtha.2013.05.025",
+        "volume": "120",
+        "author": "GA Stevens",
+        "year": "2013",
+        "unstructured": "Stevens, G. A. et al. Global prevalence of vision impairment and blindness: magnitude and temporal trends, 1990-2010. Ophthalmology 120, 2377–2384 (2013).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "YC Tham",
+        "year": "2014",
+        "unstructured": "Tham, Y. C. et al. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology 121, 2081–2090 (2014).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "volume": "311",
+        "author": "RN Weinreb",
+        "year": "2014",
+        "unstructured": "Weinreb, R. N., Aung, T. & Medeiros, F. A. The pathophysiology and treatment of glaucoma: a review. JAMA 311, 1901–1911 (2014).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "1750_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1711",
+        "DOI": "10.1016/S0140-6736(04)16257-0",
+        "volume": "363",
+        "author": "RN Weinreb",
+        "year": "2004",
+        "unstructured": "Weinreb, R. N. & Khaw, P. T. Primary open-angle glaucoma. Lancet 363, 1711–1720 (2004).",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "1750_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1016/0197-2456(94)90046-9",
+        "volume": "15",
+        "author": "Agis Investigators.",
+        "year": "1994",
+        "unstructured": "Agis Investigators. The Advanced Glaucoma Intervention Study (AGIS): 1. Study design and methods and baseline characteristics of study patients. Controlled Clin. trials 15, 299–325 (1994).",
+        "journal-title": "Controlled Clin. trials"
+      },
+      {
+        "key": "1750_CR8",
+        "first-page": "1059",
+        "volume": "43",
+        "author": "HD Jampel",
+        "year": "2002",
+        "unstructured": "Jampel, H. D., Friedman, D. S., Quigley, H. & Miller, R. Correlation of the binocular visual field with patient assessment of vision. Invest Ophthalmol. Vis. Sci. 43, 1059–1067 (2002).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "756",
+        "DOI": "10.1016/S0002-9394(14)70318-6",
+        "volume": "117",
+        "author": "M Lee",
+        "year": "1994",
+        "unstructured": "Lee, M., Zulauf, M. & Caprioli, J. The influence of patient reliability on visual field outcome. Am. J. Ophthalmol. 117, 756–761 (1994).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "4632",
+        "DOI": "10.1167/iovs.05-1598",
+        "volume": "47",
+        "author": "MR Newkirk",
+        "year": "2006",
+        "unstructured": "Newkirk, M. R., Gardiner, S. K., Demirel, S. & Johnson, C. A. Assessment of false positives with the Humphrey Field Analyzer II perimeter with the SITA Algorithm. Invest Ophthalmol. Vis. Sci. 47, 4632–4637 (2006).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1359",
+        "DOI": "10.1016/j.ophtha.2014.01.020",
+        "volume": "121",
+        "author": "SK Gardiner",
+        "year": "2014",
+        "unstructured": "Gardiner, S. K., Swanson, W. H., Goren, D., Mansberger, S. L. & Demirel, S. Assessment of the reliability of standard automated perimetry in regions of glaucomatous damage. Ophthalmology 121, 1359–1369 (2014).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "429",
+        "DOI": "10.1016/S0002-9394(00)00538-9",
+        "volume": "130",
+        "author": "Agis Investigators.",
+        "year": "2000",
+        "unstructured": "Agis Investigators. The Advanced Glaucoma Intervention Study (AGIS): 7. The relationship between control of intraocular pressure and visual field deterioration. Am. J. Ophthalmol. 130, 429–440 (2000).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR13",
+        "first-page": "2201",
+        "volume": "41",
+        "author": "B Bengtsson",
+        "year": "2000",
+        "unstructured": "Bengtsson, B. & Heijl, A. False-negative responses in glaucoma perimetry: indicators of patient performance or test reliability?. Invest Ophthalmol. Vis. Sci. 41, 2201–2204 (2000).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR14",
+        "first-page": "2654",
+        "volume": "43",
+        "author": "PH Artes",
+        "year": "2002",
+        "unstructured": "Artes, P. H., Iwase, A., Ohno, Y., Kitazawa, Y. & Chauhan, B. C. Properties of perimetric threshold estimates from full threshold, SITA standard, and SITA fast strategies. Invest Ophthalmol. Vis. Sci. 43, 2654–2659 (2002).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "249",
+        "DOI": "10.1016/j.preteyeres.2010.02.001",
+        "volume": "29",
+        "author": "RS Harwerth",
+        "year": "2010",
+        "unstructured": "Harwerth, R. S., Wheat, J. L., Fredette, M. J. & Anderson, D. R. Linking structure and function in glaucoma. Prog. Retin Eye Res. 29, 249–271 (2010).",
+        "journal-title": "Prog. Retin Eye Res."
+      },
+      {
+        "key": "1750_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1113",
+        "DOI": "10.1056/NEJMra0804630",
+        "volume": "360",
+        "author": "YH Kwon",
+        "year": "2009",
+        "unstructured": "Kwon, Y. H., Fingert, J. H., Kuehn, M. H. & Alward, W. L. Primary open-angle glaucoma. N. Engl. J. Med 360, 1113–1124 (2009).",
+        "journal-title": "N. Engl. J. Med"
+      },
+      {
+        "key": "1750_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "5548",
+        "DOI": "10.1167/iovs.14-16366",
+        "volume": "56",
+        "author": "AS Raza",
+        "year": "2015",
+        "unstructured": "Raza, A. S. & Hood, D. C. Evaluation of the structure-function relationship in glaucoma using a novel method for estimating the number of retinal ganglion cells in the human retina. Invest Ophthalmol. Vis. Sci. 56, 5548–5556 (2015).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1097/IJG.0b013e318264cda2",
+        "volume": "23",
+        "author": "F Naghizadeh",
+        "year": "2014",
+        "unstructured": "Naghizadeh, F., Garas, A., Vargha, P. & Holló, G. Structure-function relationship between the octopus perimeter cluster mean sensitivity and sector retinal nerve fiber layer thickness measured with the rtvue optical coherence tomography and scanning laser polarimetry. J. Glaucoma 23, 11–18 (2014).",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "1750_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "150",
+        "DOI": "10.1136/bjophthalmol-2015-307759",
+        "volume": "101",
+        "author": "G Holló",
+        "year": "2017",
+        "unstructured": "Holló, G. Comparison of structure-function relationship between corresponding retinal nerve fibre layer thickness and Octopus visual field cluster defect values determined by normal and tendency-oriented strategies. Br. J. Ophthalmol. 101, 150–154 (2017).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "47",
+        "DOI": "10.1136/bjo.2010.196907",
+        "volume": "96",
+        "author": "G Wollstein",
+        "year": "2012",
+        "unstructured": "Wollstein, G. et al. Retinal nerve fibre layer and visual function loss in glaucoma: the tipping point. Br. J. Ophthalmol. 96, 47–52 (2012).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "3712",
+        "DOI": "10.1167/iovs.05-0266",
+        "volume": "46",
+        "author": "SK Gardiner",
+        "year": "2005",
+        "unstructured": "Gardiner, S. K., Johnson, C. A. & Cioffi, G. A. Evaluation of the structure-function relationship in glaucoma. Invest Ophthalmol. Vis. Sci. 46, 3712–3717 (2005).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "164",
+        "DOI": "10.1016/j.aopr.2024.06.005",
+        "volume": "4",
+        "author": "SME Yew",
+        "year": "2024",
+        "unstructured": "Yew, S. M. E. et al. Ocular image-based deep learning for predicting refractive error: A systematic review. Adv. Ophthalmol. Pract. Res 4, 164–172 (2024).",
+        "journal-title": "Adv. Ophthalmol. Pract. Res"
+      },
+      {
+        "key": "1750_CR23",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kong, X., Jiang, X., Song, Z. & Ge, Z. Data ID extraction networks for unsupervised class- and classifier-free detection of adversarial examples. IEEE Trans. Pattern Anal. Mach. Intell. https://doi.org/10.1109/TPAMI.2025.3572245 (2025).",
+        "DOI": "10.1109/TPAMI.2025.3572245"
+      },
+      {
+        "key": "1750_CR24",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kong, X., He, Y., Song, Z., Liu, T. & Ge, Z. Deep probabilistic principal component analysis for process monitoring. IEEE Trans. Neural Netw. Learn. Syst. 36, 7422–7436. https://doi.org/10.1109/TNNLS.2024.3386890 (2025)",
+        "DOI": "10.1109/TNNLS.2024.3386890"
+      },
+      {
+        "key": "1750_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "5657",
+        "DOI": "10.1167/iovs.10-5239",
+        "volume": "51",
+        "author": "H Zhu",
+        "year": "2010",
+        "unstructured": "Zhu, H. et al. Predicting visual function from the measurements of retinal nerve fiber layer structure. Invest Ophthalmol. Vis. Sci. 51, 5657–5666 (2010).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "3975",
+        "DOI": "10.1167/iovs.17-21832",
+        "volume": "58",
+        "author": "Z Guo",
+        "year": "2017",
+        "unstructured": "Guo, Z. et al. Optical coherence tomography analysis based prediction of humphrey 24-2 visual field thresholds in patients with glaucoma. Invest Ophthalmol. Vis. Sci. 58, 3975–3985 (2017).",
+        "journal-title": "Invest Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "1750_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "237",
+        "DOI": "10.1111/nyas.14844",
+        "volume": "1515",
+        "author": "D Wong",
+        "year": "2022",
+        "unstructured": "Wong, D. et al. Comparison of machine learning approaches for structure-function modeling in glaucoma. Ann. NY Acad. Sci. 1515, 237–248 (2022).",
+        "journal-title": "Ann. NY Acad. Sci."
+      },
+      {
+        "key": "1750_CR28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2021.100055",
+        "volume": "1",
+        "author": "R Asaoka",
+        "year": "2021",
+        "unstructured": "Asaoka, R. et al. A joint multitask learning model for cross-sectional and longitudinal predictions of visual field using OCT. Ophthalmol. Sci. 1, 100055 (2021).",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "1750_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.1016/j.ophtha.2019.09.036",
+        "volume": "127",
+        "author": "M Christopher",
+        "year": "2020",
+        "unstructured": "Christopher, M. et al. Deep learning approaches predict glaucomatous visual field damage from OCT optic nerve head en face images and retinal nerve fiber layer thickness maps. Ophthalmology 127, 346–356 (2020).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "507",
+        "DOI": "10.1136/bjophthalmol-2019-315600",
+        "volume": "105",
+        "author": "Y Hashimoto",
+        "year": "2021",
+        "unstructured": "Hashimoto, Y. et al. Deep learning model to predict visual field in central 10 degrees from optical coherence tomography measurement in glaucoma. Br. J. Ophthalmol. 105, 507–513 (2021).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1167/tvst.11.8.22",
+        "volume": "11",
+        "author": "R Hemelings",
+        "year": "2022",
+        "unstructured": "Hemelings, R. et al. Pointwise visual field estimation from optical coherence tomography in glaucoma using deep learning. Transl. Vis. Sci. Technol. 11, 22 (2022).",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "1750_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "781",
+        "DOI": "10.1016/j.ophtha.2022.02.017",
+        "volume": "129",
+        "author": "Y Kihara",
+        "year": "2022",
+        "unstructured": "Kihara, Y. et al. Policy-driven, multimodal deep learning for predicting visual fields from the optic disc and OCT imaging. Ophthalmology 129, 781–791 (2022).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "308",
+        "DOI": "10.1097/APO.0000000000000303",
+        "volume": "9",
+        "author": "MWM Wintergerst",
+        "year": "2020",
+        "unstructured": "Wintergerst, M. W. M., Jansen, L. G., Holz, F. G. & Finger, R. P. Smartphone-based fundus imaging-where are we now? Asia Pac. J. Ophthalmol. (Philos.) 9, 308–314 (2020).",
+        "journal-title": "Asia Pac. J. Ophthalmol. (Philos.)"
+      },
+      {
+        "key": "1750_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "bbac448",
+        "DOI": "10.1093/bib/bbac448",
+        "volume": "23",
+        "author": "Y Yao",
+        "year": "2022",
+        "unstructured": "Yao, Y. et al. ICSDA: a multi-modal deep learning model to predict breast cancer recurrence and metastasis risk by integrating pathological, clinical and gene expression data. Brief. Bioinform 23, bbac448 (2022).",
+        "journal-title": "Brief. Bioinform"
+      },
+      {
+        "key": "1750_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "185",
+        "DOI": "10.1016/j.neucom.2019.04.093",
+        "volume": "361",
+        "author": "F Zhang",
+        "year": "2019",
+        "unstructured": "Zhang, F. et al. Multi-modal deep learning model for auxiliary diagnosis of Alzheimer’s disease. Neurocomputing 361, 185–195 (2019).",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "1750_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.1038/s42256-020-0154-9",
+        "volume": "2",
+        "author": "Q Yan",
+        "year": "2020",
+        "unstructured": "Yan, Q. et al. Deep-learning-based prediction of late age-related macular degeneration progression. Nat. Mach. Intell. 2, 141–150 (2020).",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "1750_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1016/j.ophtha.2021.07.032",
+        "volume": "129",
+        "author": "J Xiong",
+        "year": "2022",
+        "unstructured": "Xiong, J. et al. Multimodal machine learning using visual fields and peripapillary circular OCT scans in detection of glaucomatous optic neuropathy. Ophthalmology 129, 171–180 (2022).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2022.104233",
+        "volume": "136",
+        "author": "Y Xue",
+        "year": "2022",
+        "unstructured": "Xue, Y. et al. A multi-feature deep learning system to enhance glaucoma severity diagnosis with high accuracy and fast speed. J. Biomed. Inf. 136, 104233 (2022).",
+        "journal-title": "J. Biomed. Inf."
+      },
+      {
+        "key": "1750_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1016",
+        "DOI": "10.1016/j.ophtha.2020.12.020",
+        "volume": "128",
+        "author": "A Dixit",
+        "year": "2021",
+        "unstructured": "Dixit, A., Yohannan, J. & Boland, M. V. Assessing glaucoma progression using machine learning trained on longitudinal visual field and clinical data. Ophthalmology 128, 1016–1026 (2021).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/j.ajo.2019.06.020",
+        "volume": "208",
+        "author": "R Daneshvar",
+        "year": "2019",
+        "unstructured": "Daneshvar, R. et al. Prediction of glaucoma progression with structural parameters: Comparison of optical coherence tomography and clinical disc parameters. Am. J. Ophthalmol. 208, 19–29 (2019).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "780",
+        "DOI": "10.1001/jamaophthalmol.2020.1902",
+        "volume": "138",
+        "author": "MO Gordon",
+        "year": "2020",
+        "unstructured": "Gordon, M. O. et al. Evaluation of a primary open-angle glaucoma prediction model using long-term intraocular pressure variability data: A secondary analysis of 2 randomized clinical trials. JAMA Ophthalmol. 138, 780–788 (2020).",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "1750_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "172",
+        "DOI": "10.1016/j.ajo.2021.01.023",
+        "volume": "226",
+        "author": "K Nouri-Mahdavi",
+        "year": "2021",
+        "unstructured": "Nouri-Mahdavi, K. et al. Prediction of visual field progression from OCT structural measures in moderate to advanced glaucoma. Am. J. Ophthalmol. 226, 172–181 (2021).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0214875",
+        "DOI": "10.1371/journal.pone.0214875",
+        "volume": "14",
+        "author": "JC Wen",
+        "year": "2019",
+        "unstructured": "Wen, J. C. et al. Forecasting future Humphrey Visual Fields using deep learning. PLoS One 14, e0214875 (2019).",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "1750_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "62",
+        "DOI": "10.1007/978-3-031-44013-7_7",
+        "volume": "14096",
+        "author": "Y Tian",
+        "year": "2023",
+        "unstructured": "Tian, Y. et al. Glaucoma progression detection and humphrey visual field prediction using discriminative and generative vision transformers. Ophthalmic Med. Image Anal. 14096, 62–71 (2023).",
+        "journal-title": "Ophthalmic Med. Image Anal."
+      },
+      {
+        "key": "1750_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "37",
+        "DOI": "10.1167/tvst.11.3.37",
+        "volume": "11",
+        "author": "W Hu",
+        "year": "2022",
+        "unstructured": "Hu, W. & Wang, S. Y. Predicting glaucoma progression requiring surgery using clinical free-text notes and transfer learning with transformers. Transl. Vis. Sci. Technol. 11, 37 (2022).",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "1750_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "569",
+        "DOI": "10.1093/jamia/ocaa218",
+        "volume": "28",
+        "author": "Y Fan",
+        "year": "2021",
+        "unstructured": "Fan, Y., Zhou, S., Li, Y. & Zhang, R. Deep learning approaches for extracting adverse events and indications of dietary supplements from clinical text. J. Am. Med. Inform. Assoc. : JAMIA 28, 569–577 (2021).",
+        "journal-title": "J. Am. Med. Inform. Assoc. : JAMIA"
+      },
+      {
+        "key": "1750_CR47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2021.103729",
+        "volume": "116",
+        "author": "K Sugimoto",
+        "year": "2021",
+        "unstructured": "Sugimoto, K. et al. Extracting clinical terms from radiology reports with deep learning. J. Biomed. Inf. 116, 103729 (2021).",
+        "journal-title": "J. Biomed. Inf."
+      },
+      {
+        "key": "1750_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "e157968",
+        "DOI": "10.1172/JCI157968",
+        "volume": "132",
+        "author": "F Li",
+        "year": "2022",
+        "unstructured": "Li, F. et al. A deep-learning system predicts glaucoma incidence and progression using retinal photographs. J. Clin. Invest 132, e157968 (2022).",
+        "journal-title": "J. Clin. Invest"
+      },
+      {
+        "key": "1750_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "150",
+        "DOI": "10.1136/bjophthalmol-2015-307759",
+        "volume": "101",
+        "author": "G Hollo",
+        "year": "2017",
+        "unstructured": "Hollo, G. Comparison of structure-function relationship between corresponding retinal nerve fibre layer thickness and Octopus visual field cluster defect values determined by normal and tendency-oriented strategies. Br. J. Ophthalmol. 101, 150–154 (2017).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "1750_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "1809",
+        "DOI": "10.1016/S0161-6420(00)00284-0",
+        "volume": "107",
+        "author": "DF Garway-Heath",
+        "year": "2000",
+        "unstructured": "Garway-Heath, D. F., Poinoosawmy, D., Fitzke, F. W. & Hitchings, R. A. Mapping the visual field to the optic disc in normal tension glaucoma eyes. Ophthalmology 107, 1809–1815 (2000).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.1097/IJG.0b013e3182741c69",
+        "volume": "23",
+        "author": "F Naghizadeh",
+        "year": "2014",
+        "unstructured": "Naghizadeh, F. & Holló, G. Detection of early glaucomatous progression with octopus cluster trend analysis. J. Glaucoma 23, 269–275 (2014).",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "1750_CR52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100222",
+        "volume": "3",
+        "author": "M Eslami",
+        "year": "2023",
+        "unstructured": "Eslami, M. et al. Visual field prediction: Evaluating the clinical relevance of deep learning models. Ophthalmol. Sci. 3, 100222 (2023).",
+        "journal-title": "Ophthalmol. Sci."
+      },
+      {
+        "key": "1750_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "432",
+        "DOI": "10.1016/S0161-6420(01)00948-4",
+        "volume": "109",
+        "author": "CA Johnson",
+        "year": "2002",
+        "unstructured": "Johnson, C. A. et al. Baseline visual field characteristics in the ocular hypertension treatment study. Ophthalmology 109, 432–437 (2002).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1750_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S. & Sun, J. Deep Residual Learning for Image Recognition. Proceedings of the IEEE conference on computer vision and pattern recognition, 770-778 (2016).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "1750_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Howard, A. et al. Searching for mobilenetv3. Proceedings of the IEEE/CVF international conference on computer vision, 1314-1324 (2019).",
+        "DOI": "10.1109/ICCV.2019.00140"
+      },
+      {
+        "key": "1750_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, G. et al. Densely connected convolutional networks. Proceedings of the IEEE conference on computer vision and pattern recognition, 4700-4708 (2017).",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "1750_CR57",
+        "unstructured": "Vaswani, A. et al. Attention is all you need. Advances in neural information processing systems 30 (2017)."
+      },
+      {
+        "key": "1750_CR58",
+        "unstructured": "Hodapp, E., Parrish, R. K. & Anderson, D. R. Clinical decisions in glaucoma. Mosby Incorporated (1993)."
+      },
+      {
+        "key": "1750_CR59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2022.832920",
+        "volume": "9",
+        "author": "X Huang",
+        "year": "2022",
+        "unstructured": "Huang, X. et al. A structure-related fine-grained deep learning system with diversity data for universal glaucoma visual field grading. Front Med. (Lausanne) 9, 832920 (2022).",
+        "journal-title": "Front Med. (Lausanne)"
+      },
+      {
+        "key": "1750_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "345",
+        "DOI": "10.1145/116873.116880",
+        "volume": "23",
+        "author": "F Aurenhammer",
+        "year": "1991",
+        "unstructured": "Aurenhammer, F. Voronoi diagrams—a survey of a fundamental geometric data structure. ACM Comput. Surv. (CSUR) 23, 345–405 (1991).",
+        "journal-title": "ACM Comput. Surv. (CSUR)"
+      },
+      {
+        "key": "1750_CR61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-023-02424-4",
+        "volume": "10",
+        "author": "X Huang",
+        "year": "2023",
+        "unstructured": "Huang, X. et al. GRAPE: A multi-modal dataset of longitudinal follow-up visual field and fundus images for glaucoma management. Sci. Data 10, 520 (2023).",
+        "journal-title": "Sci. Data"
+      }
+    ],
+    "container-title": [
+      "npj Digital Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41746-025-01750-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41746-025-01750-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41746-025-01750-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ],
+      "date-time": "2025-07-01T09:07:39Z",
+      "timestamp": 1751360859000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41746-025-01750-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1750"
+    ],
+    "URL": "https://doi.org/10.1038/s41746-025-01750-8",
+    "relation": {},
+    "ISSN": [
+      "2398-6352"
+    ],
+    "issn-type": [
+      {
+        "value": "2398-6352",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "7 March 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "26 May 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "1 July 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "389"
+  }
+}

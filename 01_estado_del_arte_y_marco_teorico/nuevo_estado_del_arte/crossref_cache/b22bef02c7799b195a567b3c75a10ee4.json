@@ -1,0 +1,347 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2026-10-30T15:28:47Z",
+      "timestamp": 1793374127893,
+      "version": "4.5.0"
+    },
+    "reference-count": 12,
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "issue": "Suppl 1",
+    "content-domain": {
+      "domain": [
+        "lww.com",
+        "ovid.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Purpose:</jats:title>\n                    <jats:p>Artificial intelligence (AI) is often trained on images without ocular co-morbidities, limiting its generalizability. This study aims to evaluate the accuracy of a convolutional neural network (CNN) applied to color fundus photos (CFPs) with simulated cataracts (SCs) in detecting diabetic retinopathy (DR).</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods:</jats:title>\n                    <jats:p>A database of 3662 CFPs (from Asia Pacific Tele-Ophthalmology Society (APTOS) 2019) was used. Using transfer learning, a CNN was trained to classify the training images as either DR or non-DR. The CNN was then applied to classify the testing images after an SC was applied, using varying degrees of Gaussian blur.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>Accuracy without SC was 97.0%, sensitivity (Sn) 95.7%, specificity (Sp) 98.3%. For mild SC, accuracy was 93.1%, Sn 91.8%, Sp 94.3%. For moderate SC, accuracy was 62.8%, Sn 31.4%, Sp 95.2%. For severe SC, accuracy was 53.5%, Sn 11.8%, Sp 96.5%.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion:</jats:title>\n                    <jats:p>SCs significantly impaired AI accuracy. To prepare AI for clinical use, cataracts and other real-world clinical challenges affecting image quality must be accounted for.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.4103/ijo.ijo_1163_23",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2023-12-22T01:00:20Z",
+      "timestamp": 1703206820000
+    },
+    "page": "S42-S45",
+    "update-policy": "https://doi.org/10.1097/lww.0000000000001000",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Effect of simulated cataract on the accuracy of artificial intelligence in detecting diabetic retinopathy in color fundus photos"
+    ],
+    "prefix": "10.4103",
+    "volume": "72",
+    "author": [
+      {
+        "given": "Alexander B",
+        "family": "Crane",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Rutgers New Jersey Medical School, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hassaam S",
+        "family": "Choudhry",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Rutgers New Jersey Medical School, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohammad H",
+        "family": "Dastjerdi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Visual Sciences, Rutgers New Jersey Medical School, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "276",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2953",
+        "DOI": "10.1002/cnm.2953",
+        "article-title": "Machine learning-based diagnosis of melanoma using macro images",
+        "volume": "34",
+        "author": "Gautam",
+        "year": "2018",
+        "journal-title": "Int J Numer Method Biomed Eng"
+      },
+      {
+        "key": "R2-20260508",
+        "first-page": "1555",
+        "article-title": "Application of artificial intelligence in ophthalmology",
+        "volume": "11",
+        "author": "Du",
+        "year": "2018",
+        "journal-title": "Int J Ophthalmol"
+      },
+      {
+        "key": "R3-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.1016/j.jaad.2021.07.073",
+        "article-title": "Image quality issues in teledermatology: A comparative analysis of artificial intelligence solutions",
+        "volume": "87",
+        "author": "Maier",
+        "year": "2022",
+        "journal-title": "J Am Acad Dermatol"
+      },
+      {
+        "key": "R4-20260508",
+        "first-page": "1",
+        "article-title": "Enhanced artificial intelligence system for diagnosing and predicting breast cancer using deep learning",
+        "volume": "11",
+        "author": "Alfifi",
+        "year": "2020",
+        "journal-title": "Int J Adv Comput Sci Appl"
+      },
+      {
+        "key": "R5-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.1016/j.radi.2014.06.004",
+        "article-title": "A method to investigate image blurring due to mammography machine compression paddle movement",
+        "volume": "21",
+        "author": "Ma",
+        "year": "2015",
+        "journal-title": "Radiography"
+      },
+      {
+        "key": "R6-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "20150126",
+        "DOI": "10.1259/bjr.20150126",
+        "article-title": "What is the minimum amount of simulated breast movement required for visual detection of blurring? An exploratory investigation",
+        "volume": "88",
+        "author": "Ma",
+        "year": "2015",
+        "journal-title": "Br J Radiol"
+      },
+      {
+        "key": "R7-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1136/bjo.79.10.892",
+        "article-title": "Fundus imaging in patients with cataract: Role for a variable wavelength scanning laser ophthalmoscope",
+        "volume": "79",
+        "author": "Kirkpatrick",
+        "year": "1995",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "R8-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "1764",
+        "DOI": "10.1001/archopht.124.12.1764",
+        "article-title": "Ophthalmology and art: Simulation of Monet's cataracts and Degas' retinal disease",
+        "volume": "124",
+        "author": "Marmor",
+        "year": "2006",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "R9-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1016/j.survophthal.2021.03.003",
+        "article-title": "Artificial intelligence: The unstoppable revolution in ophthalmology",
+        "volume": "67",
+        "author": "Benet",
+        "year": "2022",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "key": "R10-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "996",
+        "DOI": "10.1109/TMI.2020.3043495",
+        "article-title": "Modeling and enhancing low-quality retinal fundus images",
+        "volume": "40",
+        "author": "Shen",
+        "year": "2020",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "R11-20260508",
+        "first-page": "1",
+        "article-title": "Cataract screening as a key step to vision restoring project in country",
+        "volume": "19",
+        "author": "Liang",
+        "year": "2010",
+        "journal-title": "Ophthalmol China"
+      },
+      {
+        "key": "R12-20260508",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1109/42.41493",
+        "article-title": "Restoration of retinal images obtained through cataracts",
+        "volume": "8",
+        "author": "Peli",
+        "year": "1989",
+        "journal-title": "IEEE Trans Med Imaging"
+      }
+    ],
+    "container-title": [
+      "Indian Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.ovid.com/10.4103/IJO.IJO_1163_23",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2026-08-26T16:54:37Z",
+      "timestamp": 1787763277000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.ovid.com/10.4103/IJO.IJO_1163_23"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          22
+        ]
+      ]
+    },
+    "references-count": 12,
+    "journal-issue": {
+      "issue": "Suppl 1",
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.4103/ijo.ijo_1163_23",
+    "relation": {},
+    "ISSN": [
+      "0301-4738",
+      "1998-3689"
+    ],
+    "issn-type": [
+      {
+        "value": "0301-4738",
+        "type": "print"
+      },
+      {
+        "value": "1998-3689",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-05-05",
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-08-02",
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

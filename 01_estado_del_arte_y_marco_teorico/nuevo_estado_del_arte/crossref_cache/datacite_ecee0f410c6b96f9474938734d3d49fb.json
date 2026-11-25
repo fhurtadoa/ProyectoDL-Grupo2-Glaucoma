@@ -1,0 +1,215 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2506.23492",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2506.23492",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2506.23492",
+      "identifiers": [
+        {
+          "identifier": "2506.23492",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2506.23492"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Guo, Haolan",
+          "nameType": "Personal",
+          "givenName": "Haolan",
+          "familyName": "Guo",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Tao, Linwei",
+          "nameType": "Personal",
+          "givenName": "Linwei",
+          "familyName": "Tao",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Luo, Haoyang",
+          "nameType": "Personal",
+          "givenName": "Haoyang",
+          "familyName": "Luo",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Dong, Minjing",
+          "nameType": "Personal",
+          "givenName": "Minjing",
+          "familyName": "Dong",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Xu, Chang",
+          "nameType": "Personal",
+          "givenName": "Chang",
+          "familyName": "Xu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Sample Margin-Aware Recalibration of Temperature Scaling"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2025,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Machine Learning (cs.LG)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2025-06-30T03:35:05Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025-07-01T00:59:11Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-08-26T10:09:08Z",
+          "dateType": "Submitted",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2026-08-27T00:38:53Z",
+          "dateType": "Updated",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2025-06",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Recent advances in deep learning have significantly improved predictive accuracy. However, modern neural networks remain systematically overconfident, posing risks for deployment in safety-critical scenarios. Current post-hoc calibration methods face a fundamental dilemma: global approaches like Temperature Scaling apply uniform adjustments across all samples, introducing high bias despite computational efficiency, while more expressive methods that operate on full logit distributions suffer from high variance due to noisy high-dimensional inputs and insufficient validation data. To address these challenges, we propose Sample Margin-Aware Recalibration of Temperature (SMART), a lightweight, data-efficient recalibration method that precisely scales logits based on the margin between the top two logits -- termed the logit gap. Specifically, the logit gap serves as a denoised, scalar signal directly tied to decision boundary uncertainty, providing a robust indicator that avoids the noise inherent in high-dimensional logit spaces while preserving model prediction invariance. Meanwhile, SMART employs a novel soft-binned Expected Calibration Error (SoftECE) objective that balances model bias and variance through adaptive binning, enabling stable parameter updates even with extremely limited calibration data. Extensive evaluations across diverse datasets and architectures demonstrate that SMART achieves state-of-the-art calibration performance even with substantially fewer parameters compared to existing parametric methods, offering a principled, robust, and highly efficient solution for practical uncertainty quantification in neural network predictions. The source code is available at: https://anonymous.4open.science/r/SMART-8B11.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNTA2LjIzNDkyPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjUwNi4yMzQ5MjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5HdW8sIEhhb2xhbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+SGFvbGFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkd1bzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5UYW8sIExpbndlaTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TGlud2VpPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlRhbzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5MdW8sIEhhb3lhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhhb3lhbmc8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+THVvPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkRvbmcsIE1pbmppbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1pbmppbmc8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+RG9uZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5YdSwgQ2hhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkNoYW5nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlh1PC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5TYW1wbGUgTWFyZ2luLUF3YXJlIFJlY2FsaWJyYXRpb24gb2YgVGVtcGVyYXR1cmUgU2NhbGluZzwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5hclhpdjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNTwvcHVibGljYXRpb25ZZWFyPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPk1hY2hpbmUgTGVhcm5pbmcgKGNzLkxHKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChjcy5BSSk8L3N1YmplY3Q+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjUtMDYtMzBUMDM6MzU6MDVaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjUtMDctMDFUMDA6NTk6MTFaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlN1Ym1pdHRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MiI+MjAyNi0wOC0yNlQxMDowOTowOFo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MiI+MjAyNi0wOC0yN1QwMDozODo1M1o8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQXZhaWxhYmxlIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDI1LTA2PC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJQcmVwcmludCI+QXJ0aWNsZTwvcmVzb3VyY2VUeXBlPgogIDx2ZXJzaW9uPjI8L3ZlcnNpb24+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wLyIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgcmlnaHRzSWRlbnRpZmllcj0iQ0MtQlktNC4wIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+UmVjZW50IGFkdmFuY2VzIGluIGRlZXAgbGVhcm5pbmcgaGF2ZSBzaWduaWZpY2FudGx5IGltcHJvdmVkIHByZWRpY3RpdmUgYWNjdXJhY3kuIEhvd2V2ZXIsIG1vZGVybiBuZXVyYWwgbmV0d29ya3MgcmVtYWluIHN5c3RlbWF0aWNhbGx5IG92ZXJjb25maWRlbnQsIHBvc2luZyByaXNrcyBmb3IgZGVwbG95bWVudCBpbiBzYWZldHktY3JpdGljYWwgc2NlbmFyaW9zLiBDdXJyZW50IHBvc3QtaG9jIGNhbGlicmF0aW9uIG1ldGhvZHMgZmFjZSBhIGZ1bmRhbWVudGFsIGRpbGVtbWE6IGdsb2JhbCBhcHByb2FjaGVzIGxpa2UgVGVtcGVyYXR1cmUgU2NhbGluZyBhcHBseSB1bmlmb3JtIGFkanVzdG1lbnRzIGFjcm9zcyBhbGwgc2FtcGxlcywgaW50cm9kdWNpbmcgaGlnaCBiaWFzIGRlc3BpdGUgY29tcHV0YXRpb25hbCBlZmZpY2llbmN5LCB3aGlsZSBtb3JlIGV4cHJlc3NpdmUgbWV0aG9kcyB0aGF0IG9wZXJhdGUgb24gZnVsbCBsb2dpdCBkaXN0cmlidXRpb25zIHN1ZmZlciBmcm9tIGhpZ2ggdmFyaWFuY2UgZHVlIHRvIG5vaXN5IGhpZ2gtZGltZW5zaW9uYWwgaW5wdXRzIGFuZCBpbnN1ZmZpY2llbnQgdmFsaWRhdGlvbiBkYXRhLiBUbyBhZGRyZXNzIHRoZXNlIGNoYWxsZW5nZXMsIHdlIHByb3Bvc2UgU2FtcGxlIE1hcmdpbi1Bd2FyZSBSZWNhbGlicmF0aW9uIG9mIFRlbXBlcmF0dXJlIChTTUFSVCksIGEgbGlnaHR3ZWlnaHQsIGRhdGEtZWZmaWNpZW50IHJlY2FsaWJyYXRpb24gbWV0aG9kIHRoYXQgcHJlY2lzZWx5IHNjYWxlcyBsb2dpdHMgYmFzZWQgb24gdGhlIG1hcmdpbiBiZXR3ZWVuIHRoZSB0b3AgdHdvIGxvZ2l0cyAtLSB0ZXJtZWQgdGhlIGxvZ2l0IGdhcC4gU3BlY2lmaWNhbGx5LCB0aGUgbG9naXQgZ2FwIHNlcnZlcyBhcyBhIGRlbm9pc2VkLCBzY2FsYXIgc2lnbmFsIGRpcmVjdGx5IHRpZWQgdG8gZGVjaXNpb24gYm91bmRhcnkgdW5jZXJ0YWludHksIHByb3ZpZGluZyBhIHJvYnVzdCBpbmRpY2F0b3IgdGhhdCBhdm9pZHMgdGhlIG5vaXNlIGluaGVyZW50IGluIGhpZ2gtZGltZW5zaW9uYWwgbG9naXQgc3BhY2VzIHdoaWxlIHByZXNlcnZpbmcgbW9kZWwgcHJlZGljdGlvbiBpbnZhcmlhbmNlLiBNZWFud2hpbGUsIFNNQVJUIGVtcGxveXMgYSBub3ZlbCBzb2Z0LWJpbm5lZCBFeHBlY3RlZCBDYWxpYnJhdGlvbiBFcnJvciAoU29mdEVDRSkgb2JqZWN0aXZlIHRoYXQgYmFsYW5jZXMgbW9kZWwgYmlhcyBhbmQgdmFyaWFuY2UgdGhyb3VnaCBhZGFwdGl2ZSBiaW5uaW5nLCBlbmFibGluZyBzdGFibGUgcGFyYW1ldGVyIHVwZGF0ZXMgZXZlbiB3aXRoIGV4dHJlbWVseSBsaW1pdGVkIGNhbGlicmF0aW9uIGRhdGEuIEV4dGVuc2l2ZSBldmFsdWF0aW9ucyBhY3Jvc3MgZGl2ZXJzZSBkYXRhc2V0cyBhbmQgYXJjaGl0ZWN0dXJlcyBkZW1vbnN0cmF0ZSB0aGF0IFNNQVJUIGFjaGlldmVzIHN0YXRlLW9mLXRoZS1hcnQgY2FsaWJyYXRpb24gcGVyZm9ybWFuY2UgZXZlbiB3aXRoIHN1YnN0YW50aWFsbHkgZmV3ZXIgcGFyYW1ldGVycyBjb21wYXJlZCB0byBleGlzdGluZyBwYXJhbWV0cmljIG1ldGhvZHMsIG9mZmVyaW5nIGEgcHJpbmNpcGxlZCwgcm9idXN0LCBhbmQgaGlnaGx5IGVmZmljaWVudCBzb2x1dGlvbiBmb3IgcHJhY3RpY2FsIHVuY2VydGFpbnR5IHF1YW50aWZpY2F0aW9uIGluIG5ldXJhbCBuZXR3b3JrIHByZWRpY3Rpb25zLiBUaGUgc291cmNlIGNvZGUgaXMgYXZhaWxhYmxlIGF0OiBodHRwczovL2Fub255bW91cy40b3Blbi5zY2llbmNlL3IvU01BUlQtOEIxMS48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2506.23492",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2025-07-01T02:47:21.000Z",
+      "registered": "2025-07-01T02:47:21.000Z",
+      "published": "2025",
+      "updated": "2026-08-27T02:22:28.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2506.23492",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

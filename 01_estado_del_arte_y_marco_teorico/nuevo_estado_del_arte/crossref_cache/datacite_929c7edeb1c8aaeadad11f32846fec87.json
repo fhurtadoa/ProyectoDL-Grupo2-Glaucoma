@@ -1,0 +1,164 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.22952639",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.22952639",
+      "prefix": "10.5281",
+      "suffix": "zenodo.22952639",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Chougule, Sheetal Maruti",
+          "nameType": "Personal",
+          "givenName": "Sheetal Maruti",
+          "familyName": "Chougule",
+          "affiliation": [
+            "Research Scholar, Shivaji University, Kolhapur Email: Chougulesheetal7@gmail.com"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Multi Eye disease Detection in fundus images: A Structured Review"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "subject": "Keywords: Deep Learning; Fundus Images; Diabetic Retinopathy; Glaucoma; Diabetic Macular Edema; Age-Related Macular Degeneration; Retinal Vessel Tortuosity; Macular Fibrosis; Fundus Neoplasms; Medical Image Analysis; Explainable AI; Multimodal Fusion."
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Dr. RVS Praveen",
+          "nameType": "Personal",
+          "familyName": "Dr. RVS Praveen",
+          "contributorType": "Editor",
+          "nameIdentifiers": [],
+          "affiliation": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-10-31",
+          "dateType": "Issued"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "JOUR",
+        "bibtex": "article",
+        "citeproc": "article-journal",
+        "schemaOrg": "ScholarlyArticle",
+        "resourceType": "",
+        "resourceTypeGeneral": "JournalArticle"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "HasVersion",
+          "relatedIdentifier": "10.5281/zenodo.22952640",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "relationType": "IsPartOf",
+          "relatedIdentifier": "3067-3089",
+          "resourceTypeGeneral": "Collection",
+          "relatedIdentifierType": "ISSN"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution Share Alike 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-sa-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Abstract\n\n                Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular edema (DME), retinal vessel tortuosity, age-related macular degeneration (ARMD/AMD), macular fibrosis, and fundus neoplasms. We examine preprocessing pipelines, model architectures (CNNs, transformers, hybrids), datasets, evaluation metrics, and clinical performance, drawing on recent systematic reviews, multi-disease benchmarks, and regulator-approved system audits. Findings indicate high accuracy for DR and AMD classification (often >0.90 AUROC/sensitivity), promising but more variable results for glaucoma and DME from fundus alone, and emerging capability for tortuosity quantification and tumor triage. Key challenges include domain shift, data quality/gradability, class imbalance for rare entities (fibrosis, neoplasms), and the need for explainability and external validation. We conclude with recommendations for robust, clinically deployable pipelines and future research directions in multimodal integration and foundation models.\n\n ",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTI4MS9aRU5PRE8uMjI5NTI2Mzk8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkNob3VndWxlLCBTaGVldGFsIE1hcnV0aTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+U2hlZXRhbCBNYXJ1dGk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2hvdWd1bGU8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5SZXNlYXJjaCBTY2hvbGFyLCBTaGl2YWppIFVuaXZlcnNpdHksIEtvbGhhcHVyIEVtYWlsOiBDaG91Z3VsZXNoZWV0YWw3QGdtYWlsLmNvbTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPk11bHRpIEV5ZSBkaXNlYXNlIERldGVjdGlvbiBpbiBmdW5kdXMgaW1hZ2VzOiBBIFN0cnVjdHVyZWQgUmV2aWV3PC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPlplbm9kbzwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNjwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iSm91cm5hbEFydGljbGUiLz4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdD5LZXl3b3JkczogRGVlcCBMZWFybmluZzsgRnVuZHVzIEltYWdlczsgRGlhYmV0aWMgUmV0aW5vcGF0aHk7IEdsYXVjb21hOyBEaWFiZXRpYyBNYWN1bGFyIEVkZW1hOyBBZ2UtUmVsYXRlZCBNYWN1bGFyIERlZ2VuZXJhdGlvbjsgUmV0aW5hbCBWZXNzZWwgVG9ydHVvc2l0eTsgTWFjdWxhciBGaWJyb3NpczsgRnVuZHVzIE5lb3BsYXNtczsgTWVkaWNhbCBJbWFnZSBBbmFseXNpczsgRXhwbGFpbmFibGUgQUk7IE11bHRpbW9kYWwgRnVzaW9uLjwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxjb250cmlidXRvcnM+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJFZGl0b3IiPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+RHIuIFJWUyBQcmF2ZWVuPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkRyLiBSVlMgUHJhdmVlbjwvZmFtaWx5TmFtZT4KICAgIDwvY29udHJpYnV0b3I+CiAgPC9jb250cmlidXRvcnM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyNi0xMC0zMTwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJIYXNWZXJzaW9uIj4xMC41MjgxL3plbm9kby4yMjk1MjY0MDwvcmVsYXRlZElkZW50aWZpZXI+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJJU1NOIiByZWxhdGlvblR5cGU9IklzUGFydE9mIiByZXNvdXJjZVR5cGVHZW5lcmFsPSJDb2xsZWN0aW9uIj4zMDY3LTMwODk8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uLz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnktc2EvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktc2EtNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIFNoYXJlIEFsaWtlIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+QWJzdHJhY3QKCsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoCBEZWVwIGxlYXJuaW5nIChETCkgaGFzIHJhcGlkbHkgYWR2YW5jZWQgYXV0b21hdGVkIGFuYWx5c2lzIG9mIHJldGluYWwgZnVuZHVzIGltYWdlcywgZW5hYmxpbmcgc2NhbGFibGUgc2NyZWVuaW5nIGFuZCBncmFkaW5nIG9mIG11bHRpcGxlIHNpZ2h0LXRocmVhdGVuaW5nIGNvbmRpdGlvbnMuIFRoaXMgcmV2aWV3IHN5bnRoZXNpemVzIGV2aWRlbmNlIG9uIERMIG1ldGhvZHMgZm9yIGRpYWJldGljIHJldGlub3BhdGh5IChEUiksIGdsYXVjb21hLCBkaWFiZXRpYyBtYWN1bGFyIGVkZW1hIChETUUpLCByZXRpbmFsIHZlc3NlbCB0b3J0dW9zaXR5LCBhZ2UtcmVsYXRlZCBtYWN1bGFyIGRlZ2VuZXJhdGlvbiAoQVJNRC9BTUQpLCBtYWN1bGFyIGZpYnJvc2lzLCBhbmQgZnVuZHVzIG5lb3BsYXNtcy4gV2UgZXhhbWluZSBwcmVwcm9jZXNzaW5nIHBpcGVsaW5lcywgbW9kZWwgYXJjaGl0ZWN0dXJlcyAoQ05OcywgdHJhbnNmb3JtZXJzLCBoeWJyaWRzKSwgZGF0YXNldHMsIGV2YWx1YXRpb24gbWV0cmljcywgYW5kIGNsaW5pY2FsIHBlcmZvcm1hbmNlLCBkcmF3aW5nIG9uIHJlY2VudCBzeXN0ZW1hdGljIHJldmlld3MsIG11bHRpLWRpc2Vhc2UgYmVuY2htYXJrcywgYW5kIHJlZ3VsYXRvci1hcHByb3ZlZCBzeXN0ZW0gYXVkaXRzLiBGaW5kaW5ncyBpbmRpY2F0ZSBoaWdoIGFjY3VyYWN5IGZvciBEUiBhbmQgQU1EIGNsYXNzaWZpY2F0aW9uIChvZnRlbiAmZ3Q7MC45MCBBVVJPQy9zZW5zaXRpdml0eSksIHByb21pc2luZyBidXQgbW9yZSB2YXJpYWJsZSByZXN1bHRzIGZvciBnbGF1Y29tYSBhbmQgRE1FIGZyb20gZnVuZHVzIGFsb25lLCBhbmQgZW1lcmdpbmcgY2FwYWJpbGl0eSBmb3IgdG9ydHVvc2l0eSBxdWFudGlmaWNhdGlvbiBhbmQgdHVtb3IgdHJpYWdlLiBLZXkgY2hhbGxlbmdlcyBpbmNsdWRlIGRvbWFpbiBzaGlmdCwgZGF0YSBxdWFsaXR5L2dyYWRhYmlsaXR5LCBjbGFzcyBpbWJhbGFuY2UgZm9yIHJhcmUgZW50aXRpZXMgKGZpYnJvc2lzLCBuZW9wbGFzbXMpLCBhbmQgdGhlIG5lZWQgZm9yIGV4cGxhaW5hYmlsaXR5IGFuZCBleHRlcm5hbCB2YWxpZGF0aW9uLiBXZSBjb25jbHVkZSB3aXRoIHJlY29tbWVuZGF0aW9ucyBmb3Igcm9idXN0LCBjbGluaWNhbGx5IGRlcGxveWFibGUgcGlwZWxpbmVzIGFuZCBmdXR1cmUgcmVzZWFyY2ggZGlyZWN0aW9ucyBpbiBtdWx0aW1vZGFsIGludGVncmF0aW9uIGFuZCBmb3VuZGF0aW9uIG1vZGVscy4KCsKgPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22952639",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 1,
+      "versionOfCount": 0,
+      "created": "2026-09-25T07:57:54.000Z",
+      "registered": "2026-09-25T07:57:54.000Z",
+      "published": "2026",
+      "updated": "2026-09-25T07:57:54.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.22952639",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": [
+          {
+            "id": "10.5281/zenodo.22952640",
+            "type": "dois"
+          }
+        ]
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

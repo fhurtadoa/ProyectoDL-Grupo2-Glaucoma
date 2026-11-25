@@ -1,0 +1,259 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.5793241",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.5793241",
+      "prefix": "10.5281",
+      "suffix": "zenodo.5793241",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "de Vente, Coen",
+          "givenName": "Coen",
+          "familyName": "de Vente",
+          "affiliation": [
+            "Quantitative Healthcare Analysis (QurAI) Group, Informatics Institute, Universiteit van Amsterdam, Amsterdam, Noord-Holland, Netherlands"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-5908-8367",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Vermeer, Koenraad A.",
+          "givenName": "Koenraad A.",
+          "familyName": "Vermeer",
+          "affiliation": [
+            "Rotterdam Ophthalmic Institute, Rotterdam Eye Hospital, Rotterdam, Netherlands"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-4038-3945",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Jaccard, Nicolas",
+          "givenName": "Nicolas",
+          "familyName": "Jaccard",
+          "affiliation": [
+            "Project Orbis International Inc., New York, United States"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-3997-6532",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "van Ginneken, Bram",
+          "givenName": "Bram",
+          "familyName": "van Ginneken",
+          "affiliation": [
+            "Diagnostic Image Analysis Group (DIAG), Department of Radiology and Nuclear Medicine, Radboudumc, Nijmegen, Gelderland, Netherlands"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0003-2028-8972",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Lemij, Hans G.",
+          "givenName": "Hans G.",
+          "familyName": "Lemij",
+          "affiliation": [
+            "Rotterdam Ophthalmic Institute, Rotterdam Eye Hospital, Rotterdam, Netherlands"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-8508-8985",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Sá‎nchez, Clara I.",
+          "givenName": "Clara I.",
+          "familyName": "Sá‎nchez",
+          "affiliation": [
+            "Quantitative Healthcare Analysis (QurAI) Group, Informatics Institute, Universiteit van Amsterdam, Amsterdam, Noord-Holland, Netherlands"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-9787-8319",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Rotterdam EyePACS AIROGS train set"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {
+        "type": "DataRepository",
+        "identifier": "https://zenodo.org/communities/grand-challenge",
+        "identifierType": "URL"
+      },
+      "publicationYear": 2021,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2021-12-01",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.5745363",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "relationType": "IsPartOf",
+          "relatedIdentifier": "https://zenodo.org/communities/grand-challenge",
+          "relatedIdentifierType": "URL"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1.1.0",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-nc-nd-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "The Rotterdam EyePACS AIROGS train set contains 101,442 color fundus images from 54,274 subjects and approximately 500 different sites with a heterogeneous ethnicity. All images were assigned by human experts with the labels referable glaucoma, no referable glaucoma, or ungradable. This dataset contains the data for training data of the AIROGS challenge, which is held as part of ISBI 2022. See https://airogs.grand-challenge.org/ for more information on the still ongoing challenge. The paper that summarizes the AIROGS challenge is available on ArXiv here: https://arxiv.org/abs/2302.01738. Please cite as follows: <pre>@article{devente23airogs, title={AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge}, author={de Vente, Coen and Vermeer, Koenraad A. and Jaccard, Nicolas and Wang, He and Sun, Hongyi and Khader, Firas and Truhn, Daniel and Aimyshev, Temirgali and Zhanibekuly, Yerkebulan and Le, Tien-Dung and Galdran, Adrian and González Ballester, Miguel Ángel and Carneiro, Gustavo and G, Devika R and S, Hrishikesh P and Puthussery, Densen and Liu, Hong and Yang, Zekang and Kondo, Satoshi and Kasai, Satoshi and Wang, Edward and Durvasula, Ashritha and Heras, Jónathan and Zapata, Miguel Ángel and Araújo, Teresa and Aresta, Guilherme and Bogunović, Hrvoje and Arikan, Mustafa and Lee, Yeong Chan and Cho, Hyun Bin and Choi, Yoon Ho and Qayyum, Abdul and Razzak, Imran and van Ginneken, Bram and Lemij, Hans G. and Sánchez, Clara I.}, journal={arXiv preprint arXiv:2302.01738}, year={2023} }</pre>",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "The previous version was split into two records. This new version contains all data and the second record is deprecated.",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjEvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC41MjgxL1pFTk9ETy41NzkzMjQxPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+ZGUgVmVudGUsIENvZW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkNvZW48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+ZGUgVmVudGU8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cDovL29yY2lkLm9yZy8iPjAwMDAtMDAwMS01OTA4LTgzNjc8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+UXVhbnRpdGF0aXZlIEhlYWx0aGNhcmUgQW5hbHlzaXMgKFF1ckFJKSBHcm91cCwgSW5mb3JtYXRpY3MgSW5zdGl0dXRlLCBVbml2ZXJzaXRlaXQgdmFuIEFtc3RlcmRhbSwgQW1zdGVyZGFtLCBOb29yZC1Ib2xsYW5kLCBOZXRoZXJsYW5kczwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlZlcm1lZXIsIEtvZW5yYWFkIEEuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Lb2VucmFhZCBBLjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5WZXJtZWVyPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHA6Ly9vcmNpZC5vcmcvIj4wMDAwLTAwMDItNDAzOC0zOTQ1PC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uPlJvdHRlcmRhbSBPcGh0aGFsbWljIEluc3RpdHV0ZSwgUm90dGVyZGFtIEV5ZSBIb3NwaXRhbCwgUm90dGVyZGFtLCBOZXRoZXJsYW5kczwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkphY2NhcmQsIE5pY29sYXM8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk5pY29sYXM8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+SmFjY2FyZDwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwOi8vb3JjaWQub3JnLyI+MDAwMC0wMDAyLTM5OTctNjUzMjwvbmFtZUlkZW50aWZpZXI+CiAgICAgIDxhZmZpbGlhdGlvbj5Qcm9qZWN0IE9yYmlzIEludGVybmF0aW9uYWwgSW5jLiwgTmV3IFlvcmssIFVuaXRlZCBTdGF0ZXM8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT52YW4gR2lubmVrZW4sIEJyYW08L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkJyYW08L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+dmFuIEdpbm5la2VuPC9mYW1pbHlOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHA6Ly9vcmNpZC5vcmcvIj4wMDAwLTAwMDMtMjAyOC04OTcyPC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uPkRpYWdub3N0aWMgSW1hZ2UgQW5hbHlzaXMgR3JvdXAgKERJQUcpLCBEZXBhcnRtZW50IG9mIFJhZGlvbG9neSBhbmQgTnVjbGVhciBNZWRpY2luZSwgUmFkYm91ZHVtYywgTmlqbWVnZW4sIEdlbGRlcmxhbmQsIE5ldGhlcmxhbmRzPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+TGVtaWosIEhhbnMgRy48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhhbnMgRy48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TGVtaWo8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cDovL29yY2lkLm9yZy8iPjAwMDAtMDAwMS04NTA4LTg5ODU8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+Um90dGVyZGFtIE9waHRoYWxtaWMgSW5zdGl0dXRlLCBSb3R0ZXJkYW0gRXllIEhvc3BpdGFsLCBSb3R0ZXJkYW0sIE5ldGhlcmxhbmRzPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+U8Oh4oCObmNoZXosIENsYXJhIEkuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5DbGFyYSBJLjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Tw6HigI5uY2hlejwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwOi8vb3JjaWQub3JnLyI+MDAwMC0wMDAxLTk3ODctODMxOTwvbmFtZUlkZW50aWZpZXI+CiAgICAgIDxhZmZpbGlhdGlvbj5RdWFudGl0YXRpdmUgSGVhbHRoY2FyZSBBbmFseXNpcyAoUXVyQUkpIEdyb3VwLCBJbmZvcm1hdGljcyBJbnN0aXR1dGUsIFVuaXZlcnNpdGVpdCB2YW4gQW1zdGVyZGFtLCBBbXN0ZXJkYW0sIE5vb3JkLUhvbGxhbmQsIE5ldGhlcmxhbmRzPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+Um90dGVyZGFtIEV5ZVBBQ1MgQUlST0dTIHRyYWluIHNldDwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjE8L3B1YmxpY2F0aW9uWWVhcj4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDIxLTEyLTAxPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ii8+CiAgPGFsdGVybmF0ZUlkZW50aWZpZXJzPgogICAgPGFsdGVybmF0ZUlkZW50aWZpZXIgYWx0ZXJuYXRlSWRlbnRpZmllclR5cGU9InVybCI+aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC81NzkzMjQxPC9hbHRlcm5hdGVJZGVudGlmaWVyPgogIDwvYWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1ZlcnNpb25PZiI+MTAuNTI4MS96ZW5vZG8uNTc0NTM2MzwvcmVsYXRlZElkZW50aWZpZXI+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJVUkwiIHJlbGF0aW9uVHlwZT0iSXNQYXJ0T2YiPmh0dHBzOi8vemVub2RvLm9yZy9jb21tdW5pdGllcy9ncmFuZC1jaGFsbGVuZ2U8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDx2ZXJzaW9uPjEuMS4wPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS1uYy1uZC80LjAvbGVnYWxjb2RlIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIE5vbiBDb21tZXJjaWFsIE5vIERlcml2YXRpdmVzIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaW5mbzpldS1yZXBvL3NlbWFudGljcy9vcGVuQWNjZXNzIj5PcGVuIEFjY2VzczwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPiZsdDtwJmd0O1RoZSBSb3R0ZXJkYW0gRXllUEFDUyBBSVJPR1MgdHJhaW4gc2V0IGNvbnRhaW5zIDEwMSw0NDIgY29sb3IgZnVuZHVzIGltYWdlcyBmcm9tIDU0LDI3NCBzdWJqZWN0cyBhbmQgYXBwcm94aW1hdGVseSA1MDAgZGlmZmVyZW50IHNpdGVzIHdpdGggYSBoZXRlcm9nZW5lb3VzIGV0aG5pY2l0eS4gQWxsIGltYWdlcyB3ZXJlIGFzc2lnbmVkIGJ5IGh1bWFuIGV4cGVydHMgd2l0aCB0aGUgbGFiZWxzIHJlZmVyYWJsZSBnbGF1Y29tYSwgbm8gcmVmZXJhYmxlIGdsYXVjb21hLCBvciB1bmdyYWRhYmxlLiBUaGlzIGRhdGFzZXQgY29udGFpbnMgdGhlIGRhdGEgZm9yIHRyYWluaW5nIGRhdGEgb2YgdGhlIEFJUk9HUyBjaGFsbGVuZ2UsIHdoaWNoIGlzIGhlbGQgYXMgcGFydCBvZiBJU0JJIDIwMjIuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7U2VlJmFtcDtuYnNwOyZsdDthIGhyZWY9Imh0dHBzOi8vYWlyb2dzLmdyYW5kLWNoYWxsZW5nZS5vcmcvIiZndDtodHRwczovL2Fpcm9ncy5ncmFuZC1jaGFsbGVuZ2Uub3JnLyZsdDsvYSZndDsgZm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhlIHN0aWxsIG9uZ29pbmcgY2hhbGxlbmdlLiZsdDsvcCZndDsKCiZsdDtwJmd0O1RoZSBwYXBlciB0aGF0IHN1bW1hcml6ZXMgdGhlIEFJUk9HUyBjaGFsbGVuZ2UgaXMgYXZhaWxhYmxlIG9uIEFyWGl2IGhlcmU6JmFtcDtuYnNwOyZsdDthIGhyZWY9Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzAyLjAxNzM4IiZndDtodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMi4wMTczOCZsdDsvYSZndDsuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7UGxlYXNlIGNpdGUgYXMgZm9sbG93czombHQ7L3AmZ3Q7CgombHQ7cHJlJmd0O0BhcnRpY2xle2RldmVudGUyM2Fpcm9ncywKICB0aXRsZT17QUlST0dTOiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSBmb3IgUk9idXN0IEdsYXVjb21hIFNjcmVlbmluZyBDaGFsbGVuZ2V9LAogIGF1dGhvcj17ZGUgVmVudGUsIENvZW4gYW5kIFZlcm1lZXIsIEtvZW5yYWFkIEEuIGFuZCBKYWNjYXJkLCBOaWNvbGFzIGFuZCBXYW5nLCBIZSBhbmQgU3VuLCBIb25neWkgYW5kIEtoYWRlciwgRmlyYXMgYW5kIFRydWhuLCBEYW5pZWwgYW5kIEFpbXlzaGV2LCBUZW1pcmdhbGkgYW5kIFpoYW5pYmVrdWx5LCBZZXJrZWJ1bGFuIGFuZCBMZSwgVGllbi1EdW5nIGFuZCBHYWxkcmFuLCBBZHJpYW4gYW5kIEdvbnomYW1wO2FhY3V0ZTtsZXogQmFsbGVzdGVyLCBNaWd1ZWwgJmFtcDtBYWN1dGU7bmdlbCBhbmQgQ2FybmVpcm8sIEd1c3Rhdm8gYW5kIEcsIERldmlrYSBSIGFuZCBTLCBIcmlzaGlrZXNoIFAgYW5kIFB1dGh1c3NlcnksIERlbnNlbiBhbmQgTGl1LCBIb25nIGFuZCBZYW5nLCBaZWthbmcgYW5kIEtvbmRvLCBTYXRvc2hpIGFuZCBLYXNhaSwgU2F0b3NoaSBhbmQgV2FuZywgRWR3YXJkIGFuZCBEdXJ2YXN1bGEsIEFzaHJpdGhhIGFuZCBIZXJhcywgSiZhbXA7b2FjdXRlO25hdGhhbiBhbmQgWmFwYXRhLCBNaWd1ZWwgJmFtcDtBYWN1dGU7bmdlbCBhbmQgQXJhJmFtcDt1YWN1dGU7am8sIFRlcmVzYSBhbmQgQXJlc3RhLCBHdWlsaGVybWUgYW5kIEJvZ3Vub3ZpxIcsIEhydm9qZSBhbmQgQXJpa2FuLCBNdXN0YWZhIGFuZCBMZWUsIFllb25nIENoYW4gYW5kIENobywgSHl1biBCaW4gYW5kIENob2ksIFlvb24gSG8gYW5kIFFheXl1bSwgQWJkdWwgYW5kIFJhenphaywgSW1yYW4gYW5kIHZhbiBHaW5uZWtlbiwgQnJhbSBhbmQgTGVtaWosIEhhbnMgRy4gYW5kIFMmYW1wO2FhY3V0ZTtuY2hleiwgQ2xhcmEgSS59LAogIGpvdXJuYWw9e2FyWGl2IHByZXByaW50IGFyWGl2OjIzMDIuMDE3Mzh9LAogIHllYXI9ezIwMjN9Cn0mbHQ7L3ByZSZndDs8L2Rlc2NyaXB0aW9uPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPlRoZSBwcmV2aW91cyB2ZXJzaW9uIHdhcyBzcGxpdCBpbnRvIHR3byByZWNvcmRzLiBUaGlzIG5ldyB2ZXJzaW9uIGNvbnRhaW5zIGFsbCBkYXRhIGFuZCB0aGUgc2Vjb25kIHJlY29yZCBpc8KgZGVwcmVjYXRlZC48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://zenodo.org/record/5793241",
+      "contentUrl": null,
+      "metadataVersion": 5,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 2,
+      "citationsOverTime": [
+        {
+          "year": "2023",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 1,
+      "created": "2021-12-24T09:37:58.000Z",
+      "registered": "2021-12-24T09:37:59.000Z",
+      "published": "2021",
+      "updated": "2023-10-21T08:55:21.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.5793241",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1007/978-3-032-29325-1_14",
+            "type": "dois"
+          },
+          {
+            "id": "10.1109/icivc58118.2023.10270429",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": [
+          {
+            "id": "10.5281/zenodo.5745363",
+            "type": "dois"
+          }
+        ]
+      }
+    }
+  }
+}

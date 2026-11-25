@@ -1,0 +1,612 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2026-08-29T09:18:42Z",
+      "timestamp": 1787995122975,
+      "version": "build-2784847793"
+    },
+    "reference-count": 38,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              29
+            ]
+          ],
+          "date-time": "2026-08-29T00:00:00Z",
+          "timestamp": 1787961600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              29
+            ]
+          ],
+          "date-time": "2026-08-29T00:00:00Z",
+          "timestamp": 1787961600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Discov Artif Intell"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Deep learning–based systems for fundus disease classification often achieve impressive accuracy on internal datasets, yet their performance degrades markedly when applied to real-world clinical data. This limitation is primarily caused by domain shift arising from variations in imaging devices, illumination conditions, and population characteristics, which remains a key barrier to integrating these technologies into reliable clinical decision-support systems. To address this challenge, we propose FusionEye-Net, a hybrid deep learning framework that performs feature-level fusion of EfficientNet-B3 and ResNet-50 for four-class fundus image classification, namely cataract, diabetic retinopathy, glaucoma, and normal retina. A dedicated preprocessing pipeline—including circular fundus cropping, illumination normalization, contrast-limited adaptive histogram equalization (CLAHE), and adaptive gamma correction—was employed to reduce inter-device variability and standardize retinal appearance. FusionEye-Net was first trained on a curated internal dataset of approximately 4000 images, achieving an internal test accuracy of 99.24%. However, evaluation on an independent external dataset comprising 4640 images revealed a significant performance drop to 72.05%, highlighting the severity of cross-domain variability. To mitigate this degradation, a targeted supervised domain adaptation strategy was applied using a balanced subset of 2000 external images (500 per class). This adaptation improved external performance to 91.27% accuracy with a macro F1-score of 0.9139, reducing misclassifications by more than two-thirds. Model predictions and visual explanations were reviewed by a board-certified retina specialist to ensure clinical plausibility. Explainability analysis using Gradient-weighted Class Activation Mapping (Grad-CAM) and region-of-interest (ROI) contour mapping demonstrated that the adapted model consistently focuses on medically relevant structures, such as lens opacity in cataract, microaneurysms in diabetic retinopathy, and optic disc cupping in glaucoma. In summary, the results demonstrate that FusionEye-Net combines strong internal performance with substantially improved cross-domain generalization through lightweight adaptation, underscoring the critical role of external validation and domain-aware fine-tuning in formulating trustworthy, adaptive AI-assisted decision-support tools that can safely augment automated ophthalmic screening workflows.</jats:p>",
+    "DOI": "10.1007/s44163-026-02067-5",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2026-08-29T08:57:32Z",
+      "timestamp": 1787993852000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A trustworthy cross-domain AI framework for fundus disease classification using hybrid CNN fusion and supervised domain adaptation"
+    ],
+    "prefix": "10.1007",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Ali M.",
+        "family": "Duhaim",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abbas M.",
+        "family": "Al-Bakry",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "18",
+        "key": "2067_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "5658",
+        "DOI": "10.3390/s25185658",
+        "volume": "25",
+        "author": "V Conquer",
+        "year": "2025",
+        "unstructured": "Conquer V, Lambolais T, Andrade-Miranda G, Magnier B. Comprehensive review of open-source fundus image databases for diabetic retinopathy diagnosis. Sensors. 2025;25(18):5658.",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "2067_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "101644",
+        "DOI": "10.1016/j.imu.2025.101644",
+        "volume": "56",
+        "author": "D Meedeniya",
+        "year": "2025",
+        "unstructured": "Meedeniya D, Shyamalee T, Lim G, Yogarajah P. Glaucoma identification with retinal fundus images using deep learning: systematic review. Inf Med Unlocked. 2025;56:101644.",
+        "journal-title": "Inf Med Unlocked"
+      },
+      {
+        "issue": "1",
+        "key": "2067_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "15001",
+        "DOI": "10.1088/1361-6579/ada86a",
+        "volume": "13",
+        "author": "Y Men",
+        "year": "2025",
+        "unstructured": "Men Y, Fhima J, Celi LA, Ribeiro LZ, Nakayama LF, Behar JA. Deep learning generalization for diabetic retinopathy staging from fundus images. Physiol Meas. 2025;13(1):15001.",
+        "journal-title": "Physiol Meas"
+      },
+      {
+        "key": "2067_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei Q et al. Supervised domain adaptation for recognizing retinal diseases from wide-field fundus images. In: 2023 IEEE International conference on bioinformatics and biomedicine (BIBM); 2023, pp. 2298–2303.",
+        "DOI": "10.1109/BIBM58861.2023.10385359"
+      },
+      {
+        "issue": "2",
+        "key": "2067_CR5",
+        "first-page": "155",
+        "volume": "27",
+        "author": "NA Sadek",
+        "year": "2024",
+        "unstructured": "Sadek NA, Al-Dahan ZT, Rattan SA. Comprehensive survey of the state-of-the-art deep learning models for diabetic retinopathy detection and grading using retinal fundus photography. Al-Nahrain J Eng Sci. 2024;27(2):155–63.",
+        "journal-title": "Al-Nahrain J Eng Sci"
+      },
+      {
+        "issue": "8",
+        "key": "2067_CR6",
+        "first-page": "48",
+        "volume": "12",
+        "author": "AA Rakib",
+        "year": "2024",
+        "unstructured": "Rakib AA, Billah MM, Ahamed AS, Imamul HM, Masum MSA. EfficientNet-based model for automated classification of retinal diseases using fundus images. Eur J Comput Sci Inf Technol. 2024;12(8):48–61.",
+        "journal-title": "Eur J Comput Sci Inf Technol"
+      },
+      {
+        "issue": "1",
+        "key": "2067_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1007/s44196-024-00520-w",
+        "volume": "17",
+        "author": "A Jabbar",
+        "year": "2024",
+        "unstructured": "Jabbar A, et al. Deep transfer learning-based automated diabetic retinopathy detection using retinal fundus images in remote areas. Int J Comput Intell Syst. 2024;17(1):135.",
+        "journal-title": "Int J Comput Intell Syst"
+      },
+      {
+        "issue": "7",
+        "key": "2067_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "916",
+        "DOI": "10.3390/diagnostics15070916",
+        "volume": "15",
+        "author": "E Acevedo",
+        "year": "2025",
+        "unstructured": "Acevedo E, Orantes D, Acevedo M, Carreño R. Identification of eye diseases through deep learning. Diagnostics. 2025;15(7):916.",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "issue": "3",
+        "key": "2067_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1173",
+        "DOI": "10.1109/TBME.2021.3117407",
+        "volume": "69",
+        "author": "H Guan",
+        "year": "2021",
+        "unstructured": "Guan H, Liu M. Domain adaptation for medical image analysis: a survey. IEEE Trans Biomed Eng. 2021;69(3):1173–85.",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "issue": "18",
+        "key": "2067_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "3813",
+        "DOI": "10.1038/s41433-023-02622-9",
+        "volume": "37",
+        "author": "X Qian",
+        "year": "2023",
+        "unstructured": "Qian X, et al. External validation of a deep learning detection system for glaucomatous optic neuropathy: a real-world multicentre study. Eye. 2023;37(18):3813–8.",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "2067_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1630667",
+        "DOI": "10.3389/fcell.2025.1630667",
+        "volume": "13",
+        "author": "M-M Duan",
+        "year": "2025",
+        "unstructured": "Duan M-M, Tu X. Deep learning-based classification of multiple fundus diseases using ultra-widefield images. Front Cell Dev Biol. 2025;13:1630667.",
+        "journal-title": "Front Cell Dev Biol"
+      },
+      {
+        "issue": "2",
+        "key": "2067_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.70645/3078-3437.1064",
+        "volume": "3",
+        "author": "AM Duhaim",
+        "year": "2026",
+        "unstructured": "Duhaim AM, Al-Bakry AM. A hybrid deep learning framework for multi-class retinal disease classification. AUIQ Tech Eng Sci. 2026;3(2):4.",
+        "journal-title": "AUIQ Tech Eng Sci"
+      },
+      {
+        "key": "2067_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohamed MA et al. Multi-class eye disease classification using deep learning. In: 2023 eleventh international conference on intelligent computing and information systems (ICICIS); 2023, pp. 489–494.",
+        "DOI": "10.1109/ICICIS58388.2023.10391159"
+      },
+      {
+        "issue": "1",
+        "key": "2067_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.14311/AP.2024.64.0001",
+        "volume": "64",
+        "author": "S Benbakreti",
+        "year": "2024",
+        "unstructured": "Benbakreti S, Benbakreti S, Ozkaya U. The classification of eye diseases from fundus images based on CNN and pretrained models. Acta Polytech. 2024;64(1):1–11.",
+        "journal-title": "Acta Polytech"
+      },
+      {
+        "key": "2067_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahunathan L, Sivabalaselvamani D, Kumar A. Early detection and classification of eye diseases using deep learning techniques. In: 2025 international conference on multi-agent systems for collaborative intelligence (ICMSCI); 2025, pp. 1578–1585.",
+        "DOI": "10.1109/ICMSCI62561.2025.10894099"
+      },
+      {
+        "key": "2067_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jella SP, Chatrapati KS. Eye disease classification and detection using deep learning. IJSAT-Int J Sci Technol. 2025;16:3.",
+        "DOI": "10.71097/IJSAT.v16.i3.7508"
+      },
+      {
+        "issue": "8",
+        "key": "2067_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.3390/jimaging11080279",
+        "volume": "11",
+        "author": "R Alsohemi",
+        "year": "2025",
+        "unstructured": "Alsohemi R, Dardouri S. Fundus image-based eye disease detection using efficientNetB3 architecture. J Imaging. 2025;11(8):279.",
+        "journal-title": "J Imaging"
+      },
+      {
+        "key": "2067_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cui Y, Sun R, Liu B, Liu Z, Toe TT. Eye diseases classification using transfer learning of residual neural network. In: 2023 3rd international symposium on computer technology and information science (ISCTIS); 2023, pp. 244–248.",
+        "DOI": "10.1109/ISCTIS58954.2023.10213138"
+      },
+      {
+        "issue": "20",
+        "key": "2067_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "59061",
+        "DOI": "10.1007/s11042-023-17839-9",
+        "volume": "83",
+        "author": "A Zia",
+        "year": "2024",
+        "unstructured": "Zia A, Mahum R, Ahmad N, Awais M, Alshamrani AM. Eye diseases detection using deep learning with BAM attention module. Multimed Tools Appl. 2024;83(20):59061–84.",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "2067_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kaushik P, Sharma P. Optimizing automated eye disease detection: a deep learning approach using EfficientNetB3 for accurate multi-class classification. In: 2024 IEEE international conference on intelligent signal processing and effective communication technologies (INSPECT); 2024, pp. 1–6.",
+        "DOI": "10.1109/INSPECT63485.2024.10896145"
+      },
+      {
+        "key": "2067_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meenakshisundaram N, Sajiv G. Empirical evaluation of retinal disease identification based on deep learning assisted image classification strategy. In: 2025 3rd international conference on integrated circuits and communication systems (ICICACS); 2025, pp. 1–6.",
+        "DOI": "10.1109/ICICACS65178.2025.10968166"
+      },
+      {
+        "key": "2067_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prajapati BP, GE RP, Gowda AJ, Shibli AB, Purba MJ, Teli PS. Enhancing eye disease classification accuracy through efficientNetB5: a transfer learning approach. In: 2025 International conference on computational robotics, testing and engineering evaluation (ICCRTEE); 2025, pp. 1–6.",
+        "DOI": "10.1109/ICCRTEE64519.2025.11053064"
+      },
+      {
+        "issue": "1",
+        "key": "2067_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1186/s40662-022-00285-3",
+        "volume": "9",
+        "author": "J Li",
+        "year": "2022",
+        "unstructured": "Li J, et al. Automated detection of myopic maculopathy from color fundus photographs using deep convolutional neural networks. Eye Vis. 2022;9(1):13.",
+        "journal-title": "Eye Vis"
+      },
+      {
+        "key": "2067_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aaron Samuel A, Fadil NM, Beaulah Jeyavathana R. Sequential model using explainable AI method to detect eye diseases. In: International conference on deep sciences for computing and communications; 2023, pp. 268–280.",
+        "DOI": "10.1007/978-3-031-68908-6_22"
+      },
+      {
+        "key": "2067_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "101632",
+        "DOI": "10.1016/j.imu.2025.101632",
+        "volume": "54",
+        "author": "G Kher",
+        "year": "2025",
+        "unstructured": "Kher G, Mehra S, Bala R, Singh RP. DeB5-XNet: An explainable ensemble model for ocular disease classification using feature extraction and Grad-CAM. Inf Med Unlocked. 2025;54:101632.",
+        "journal-title": "Inf Med Unlocked"
+      },
+      {
+        "key": "2067_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "100402",
+        "DOI": "10.1016/j.array.2025.100402",
+        "volume": "26",
+        "author": "MM Hemal",
+        "year": "2025",
+        "unstructured": "Hemal MM, Saha S. Explainable deep learning-based meta-classifier approach for multi-label classification of retinal diseases. Array. 2025;26:100402.",
+        "journal-title": "Array"
+      },
+      {
+        "key": "2067_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang Z, Chen L, Wang L, Jiang Y, Li J, Wang X. Reasoning-enhanced vision-language model for interpretable diabetic retinopathy detection in ultra-wide-field fundus images. In: International workshop on ophthalmic medical image analysis; 2025, pp. 115–125.",
+        "DOI": "10.1007/978-3-032-10351-2_12"
+      },
+      {
+        "key": "2067_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Naseeba B, Burra L, Kumari CS, Yohoshiva B, Shyam K. Eye disease classification using ensemble learning. In: 2024 3rd Edition of IEEE Delhi Section Flagship Conference (DELCON); 2024, pp. 1–6.",
+        "DOI": "10.1109/DELCON64804.2024.10866017"
+      },
+      {
+        "key": "2067_CR29",
+        "first-page": "211",
+        "volume": "13138",
+        "author": "D Kumar",
+        "year": "2024",
+        "unstructured": "Kumar D, Ravindra C. Transfer learning and hybrid models for the classification of eye diseases on retinal images. Appl Mach Learn 2024. 2024;13138:211–21.",
+        "journal-title": "Appl Mach Learn 2024"
+      },
+      {
+        "issue": "1",
+        "key": "2067_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "30469",
+        "DOI": "10.1038/s41598-025-16415-5",
+        "volume": "15",
+        "author": "A AlMohimeed",
+        "year": "2025",
+        "unstructured": "AlMohimeed A. Multi-stage framework using transformer models, feature fusion and ensemble learning for enhancing eye disease classification. Sci Rep. 2025;15(1):30469.",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2067_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jose D. Classification of EYE diseases using multi-model CNN. In: 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON); 2023, pp. 1–6.",
+        "DOI": "10.1109/INDISCON58499.2023.10269949"
+      },
+      {
+        "issue": "10",
+        "key": "2067_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "3569",
+        "DOI": "10.1007/s10792-023-02764-5",
+        "volume": "43",
+        "author": "A Rafay",
+        "year": "2023",
+        "unstructured": "Rafay A, Asghar Z, Manzoor H, Hussain W. EyeCNN: exploring the potential of convolutional neural networks for identification of multiple eye diseases through retinal imagery. Int Ophthalmol. 2023;43(10):3569–86.",
+        "journal-title": "Int Ophthalmol"
+      },
+      {
+        "key": "2067_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shetty TC, Anchan A. An automated deep learning framework for fundus disease detection using retinal images. In: 2025 6th International conference on recent advances in information technology (RAIT); 2025, pp. 1–6.",
+        "DOI": "10.1109/RAIT65068.2025.11089172"
+      },
+      {
+        "issue": "03",
+        "key": "2067_CR34",
+        "first-page": "863",
+        "volume": "13",
+        "author": "M Fahriawan",
+        "year": "2025",
+        "unstructured": "Fahriawan M, Pratiwi H, Harpad B. Eye Disease classification using convolutional neural network (CNN) with web-based MobileNetV2 Architecture. INFOKUM. 2025;13(03):863–74.",
+        "journal-title": "INFOKUM"
+      },
+      {
+        "key": "2067_CR35",
+        "unstructured": "Doddi GV. Eye diseases classification dataset, Kaggle Datasets; 2024, p. 2134. https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification"
+      },
+      {
+        "key": "2067_CR36",
+        "unstructured": "EYE-TRAIN-DATA. https://www.kaggle.com/datasets/pangasainarendra/traindata/data"
+      },
+      {
+        "key": "2067_CR37",
+        "unstructured": "Tan M, Le QV. EfficientNet: rethinking model scaling for convolutional neural networks. In: 36th International conference on machine learning, ICML 2019; 2019, pp. 10691–10700."
+      },
+      {
+        "key": "2067_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2016, pp. 770–778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      }
+    ],
+    "container-title": [
+      "Discover Artificial Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s44163-026-02067-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s44163-026-02067-5",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s44163-026-02067-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2026-08-29T08:57:36Z",
+      "timestamp": 1787993856000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s44163-026-02067-5"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ]
+    },
+    "references-count": 38,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2067"
+    ],
+    "URL": "https://doi.org/10.1007/s44163-026-02067-5",
+    "relation": {},
+    "ISSN": [
+      "2731-0809"
+    ],
+    "issn-type": [
+      {
+        "value": "2731-0809",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "9 February 2026",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "14 August 2026",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 August 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Not applicable. This study is based entirely on the retrospective analysis of publicly available, fully anonymized, and de-identified retinal fundus image datasets (the internal eye_diseases_classification dataset and the external EYE-TRAIN-DATA dataset). Since the research did not involve any direct interaction with human participants, clinical trials, or access to identifiable personal health information, formal institutional ethical approval was not required. Not applicable. The study utilized secondary, open-source diagnostic datasets where all raw images had been thoroughly de-identified prior to public release. No direct patient recruitment, clinical interventions, or primary data collection were performed by the authors.",
+        "order": 1,
+        "name": "Ethics",
+        "label": "Ethics approval and consent to participate",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "Not applicable. The manuscript does not contain any individual clinical case reports, identifiable personal details, or high-resolution facial photographs that would necessitate individual informed consent for publication.",
+        "order": 2,
+        "name": "Ethics",
+        "label": "Consent for publication",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 3,
+        "name": "Ethics",
+        "label": "Competing interests",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      }
+    ],
+    "article-number": "967"
+  }
+}

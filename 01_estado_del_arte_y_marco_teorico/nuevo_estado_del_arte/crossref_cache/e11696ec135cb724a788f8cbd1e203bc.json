@@ -1,0 +1,861 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2026-08-25T23:49:40Z",
+      "timestamp": 1787701780226,
+      "version": "build-2784847793"
+    },
+    "reference-count": 44,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T00:00:00Z",
+          "timestamp": 1773187200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T00:00:00Z",
+          "timestamp": 1773187200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "82160202"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "82160202"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Tianjin Health Science and Technology Project, Special Project for High-level Talents",
+        "award": [
+          "TJWJ2024RC005"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TJWJ2024RC005"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tianjin Education Commission Research Program Project, Key Project in Natural Sciences",
+        "award": [
+          "2023ZD016"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023ZD016"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100006606",
+        "name": "Natural Science Foundation of Tianjin Municipality",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "23JCQNJC00690"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "23JCQNJC00690"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100006606",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Ophthalmol Ther"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1007/s40123-026-01353-w",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2026-03-11T18:59:07Z",
+      "timestamp": 1773255547000
+    },
+    "page": "1439-1461",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Validation of the Eyerobo FC Portable Fundus Camera for Diabetic Retinopathy Screening Using Public Datasets and Deep Learning"
+    ],
+    "prefix": "10.1007",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Emmanuel Eric",
+        "family": "Pazo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangying",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shoukuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qinru",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mingxuan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhihui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Salissou",
+        "family": "Moutari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad",
+        "family": "Usama",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8113-2069",
+        "authenticated-orcid": false,
+        "given": "Xinjun",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1353_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1580",
+        "DOI": "10.1016/j.ophtha.2021.04.027",
+        "volume": "128",
+        "author": "ZL Teo",
+        "year": "2021",
+        "unstructured": "Teo ZL, Tham YC, Yu M, Chee ML, Rim TH, Cheung N, et al. Global prevalence of diabetic retinopathy and projection of burden through 2045. Ophthalmology. 2021;128:1580–91. https://doi.org/10.1016/j.ophtha.2021.04.027.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1353_CR2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.07.24.25332019",
+        "author": "MR Mohammed",
+        "year": "2025",
+        "unstructured": "Mohammed MR, Fathi SA. Global prevalence of diabetic retinopathy over the last decade (2015–2025): a scoping review. MedRxiv. 2025. https://doi.org/10.1101/2025.07.24.25332019.",
+        "journal-title": "MedRxiv."
+      },
+      {
+        "key": "1353_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "302",
+        "DOI": "10.18240/ijo.2019.02.19",
+        "volume": "12",
+        "author": "QH Yang",
+        "year": "2019",
+        "unstructured": "Yang QH, Zhang Y, Zhang XM, Li XR. Prevalence of diabetic retinopathy, proliferative diabetic retinopathy and non-proliferative diabetic retinopathy in Asian T2DM patients: a systematic review and meta-analysis. Int J Ophthalmol Int J Ophthalmol. 2019;12:302–11. https://doi.org/10.18240/ijo.2019.02.19.",
+        "journal-title": "Int J Ophthalmol. Int J Ophthalmol"
+      },
+      {
+        "key": "1353_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "556",
+        "DOI": "10.2337/dc11-1909",
+        "volume": "35",
+        "author": "JWY Yau",
+        "year": "2012",
+        "unstructured": "Yau JWY, Rogers SL, Kawasaki R, Lamoureux EL, Kowalski JW, Bek T, et al. Global prevalence and major risk factors of diabetic retinopathy. Diabetes Care. 2012;35:556–64. https://doi.org/10.2337/dc11-1909.",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "1353_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+        "DOI": "10.1016/S0140-6736(09)62124-3",
+        "volume": "376",
+        "author": "N Cheung",
+        "year": "2010",
+        "unstructured": "Cheung N, Mitchell P, Wong TY. Diabetic retinopathy. Lancet. 2010;376:124–36. https://doi.org/10.1016/S0140-6736(09)62124-3.",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "1353_CR6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/S11892-016-0827-2",
+        "author": "DC DeBuc",
+        "year": "2016",
+        "unstructured": "DeBuc DC. The role of retinal imaging and portable screening devices in tele-ophthalmology applications for diabetic retinopathy management. Curr Diabetes Rep. 2016. https://doi.org/10.1007/S11892-016-0827-2.",
+        "journal-title": "Curr Diabetes Rep"
+      },
+      {
+        "key": "1353_CR7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/JOURNAL.PDIG.0000131",
+        "volume": "1",
+        "author": "L Lu",
+        "year": "2022",
+        "unstructured": "Lu L, Ausayakhun S, Ausayakuhn S, Khunsongkiet P, Apivatthakakul A, Sun CQ, et al. Diagnostic accuracy of handheld fundus photography: a comparative study of three commercially available cameras. PLoS Digit Health. 2022;1:e0000131. https://doi.org/10.1371/JOURNAL.PDIG.0000131.",
+        "journal-title": "PLoS Digit Health"
+      },
+      {
+        "key": "1353_CR8",
+        "unstructured": "Non-mydriatic fundus camera_Eyerobo intelligent technology Internet. [cited 2026 Jan 2]. https://www.eyerobo.com/en/article/enproduct2.html. Accessed 2 Jan 2026."
+      },
+      {
+        "key": "1353_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/JAMA.2017.18152",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "unstructured": "Ting DSW, Cheung CYL, Lim G, Tan GSW, Quang ND, Gan A, et al. Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes. JAMA. 2017;318:2211–23. https://doi.org/10.1001/JAMA.2017.18152.",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "1353_CR10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/FMED.2025.1730678",
+        "volume": "12",
+        "author": "EE Pazo",
+        "year": "2025",
+        "unstructured": "Pazo EE, Moutari S, Gao F, Liying H, Usama M, Li X, et al. Structure-preserving super-resolution of retinal fundus images via a dual-transformer residual network. Front Med (Lausanne). 2025;12:1730678. https://doi.org/10.3389/FMED.2025.1730678.",
+        "journal-title": "Front Med (Lausanne)"
+      },
+      {
+        "key": "1353_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1789",
+        "DOI": "10.1007/S40123-025-01173-4/FIGURES/11",
+        "volume": "14",
+        "author": "Q Zhang",
+        "year": "2025",
+        "unstructured": "Zhang Q, Li Q, Yu Z, Yang R, Pazo EE, Huang Y, et al. Exploring machine learning models for vault safety in ICL implantation: a comparative analysis of regression and classification models. Ophthalmol Ther Adis. 2025;14:1789–812. https://doi.org/10.1007/S40123-025-01173-4/FIGURES/11.",
+        "journal-title": "Ophthalmol Ther. Adis"
+      },
+      {
+        "issue": "1",
+        "key": "1353_CR12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "volume": "1",
+        "author": "MD Abràmoff",
+        "year": "2018",
+        "unstructured": "Abràmoff MD, Lavin PT, Birch M, Shah N, Folk JC. Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices. NPJ Digit Med. 2018;1(1):39. https://doi.org/10.1038/s41746-018-0040-6.",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "issue": "1",
+        "key": "1353_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1007/S40123-024-01049-Z",
+        "volume": "14",
+        "author": "A Grzybowski",
+        "year": "2024",
+        "unstructured": "Grzybowski A, Brona P, Krzywicki T, Ruamviboonsuk P. Diagnostic accuracy of automated diabetic retinopathy image assessment software: IDx-DR and RetCAD. Ophthalmol Ther. 2024;14(1):73–84. https://doi.org/10.1007/S40123-024-01049-Z.",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "issue": "2",
+        "key": "1353_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "333",
+        "DOI": "10.1007/S40123-018-0153-7",
+        "volume": "7",
+        "author": "BJ Fenner",
+        "year": "2018",
+        "unstructured": "Fenner BJ, Wong RLM, Lam WC, Tan GSW, Cheung GCM. Advances in retinal imaging and applications in diabetic retinopathy screening: a review. Ophthalmol Ther. 2018;7(2):333–46. https://doi.org/10.1007/S40123-018-0153-7.",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "1353_CR15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-040196",
+        "volume": "10",
+        "author": "B Xiao",
+        "year": "2020",
+        "unstructured": "Xiao B, Liao Q, Li Y, Weng F, Jin L, Wang Y, et al. Validation of handheld fundus camera with mydriasis for retinal imaging of diabetic retinopathy screening in China: a prospective comparison study. BMJ Open. 2020;10:e040196. https://doi.org/10.1136/bmjopen-2020-040196.",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "1353_CR16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm11092352",
+        "volume": "11",
+        "author": "E Midena",
+        "year": "2022",
+        "unstructured": "Midena E, Zennaro L, Lapo C, Torresin T, Midena G, Pilotto E, et al. Handheld fundus camera for diabetic retinopathy screening: a comparison study with table-top fundus camera in real-life setting. J Clin Med. 2022;11:2352. https://doi.org/10.3390/jcm11092352.",
+        "journal-title": "J Clin Med"
+      },
+      {
+        "issue": "2",
+        "key": "1353_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "375",
+        "DOI": "10.1038/eye.2017.199",
+        "volume": "32",
+        "author": "S Sengupta",
+        "year": "2017",
+        "unstructured": "Sengupta S, Sindal MD, Besirli CG, Upadhyaya S, Venkatesh R, Niziol LM, et al. Screening for vision-threatening diabetic retinopathy in South India: comparing portable non-mydriatic and standard fundus cameras and clinical exam. Eye. 2017;32(2):375–83. https://doi.org/10.1038/eye.2017.199.",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "1353_CR18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjdrc-2023-003376",
+        "author": "LS Weerasinghe",
+        "year": "2023",
+        "unstructured": "Weerasinghe LS, Dunn HP, Fung AT, Maberly G, Cheung NW, Weerasinghe DP, et al. Diabetic retinopathy screening at the point of care (DR SPOC): detecting undiagnosed and vision-threatening retinopathy by integrating portable technologies within existing services. BMJ Open Diabetes Res Care. 2023. https://doi.org/10.1136/bmjdrc-2023-003376.",
+        "journal-title": "BMJ Open Diabetes Res Care"
+      },
+      {
+        "key": "1353_CR19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diabres.2025.112161",
+        "author": "Y Chen",
+        "year": "2025",
+        "unstructured": "Chen Y, Song F, Zhao Z, Wang Y, To E, Liu Y, et al. Acceptability, applicability, and cost-utility of artificial-intelligence-powered low-cost portable fundus camera for diabetic retinopathy screening in primary health care settings. Diabetes Res Clin Pract. 2025. https://doi.org/10.1016/j.diabres.2025.112161.",
+        "journal-title": "Diabetes Res Clin Pract"
+      },
+      {
+        "key": "1353_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, et al. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA. 2016;316:2402–10. https://doi.org/10.1001/jama.2016.17216.",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "1353_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2125",
+        "DOI": "10.1007/s40123-024-00981-4",
+        "volume": "13",
+        "author": "A Grzybowski",
+        "year": "2024",
+        "unstructured": "Grzybowski A, Jin K, Zhou J, Pan X, Wang M, Ye J, et al. Retina fundus photograph-based artificial intelligence algorithms in medicine: a systematic review. Ophthalmol Ther. 2024;13:2125–49. https://doi.org/10.1007/s40123-024-00981-4.",
+        "journal-title": "Ophthalmol Ther"
+      },
+      {
+        "key": "1353_CR22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/PEERJ-CS.1947",
+        "volume": "10",
+        "author": "D Bhulakshmi",
+        "year": "2024",
+        "unstructured": "Bhulakshmi D, Rajput DS. A systematic review on diabetic retinopathy detection and classification based on deep learning techniques using fundus images. PeerJ Comput Sci. 2024;10:e1947. https://doi.org/10.7717/PEERJ-CS.1947.",
+        "journal-title": "PeerJ Comput Sci"
+      },
+      {
+        "key": "1353_CR23",
+        "doi-asserted-by": "publisher",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE computer society conference on computer vision and pattern recognition. IEEE Computer Society; 2016. pp. 770–8. https://doi.org/10.1109/CVPR.2016.90.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "1353_CR24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.105494",
+        "volume": "87",
+        "author": "R Kommaraju",
+        "year": "2024",
+        "unstructured": "Kommaraju R, Anbarasi MS. Diabetic retinopathy detection using convolutional neural network with residual blocks. Biomed Signal Process Control. 2024;87:105494. https://doi.org/10.1016/j.bspc.2023.105494.",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "1353_CR25",
+        "unstructured": "Tan M, Le QV. EfficientNet: rethinking model scaling for convolutional neural networks. PMLR; 2019. p. 6105–14. https://proceedings.mlr.press/v97/tan19a.html. Accessed 12 Feb 2026."
+      },
+      {
+        "key": "1353_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.107912",
+        "volume": "170",
+        "author": "S Kumari",
+        "year": "2024",
+        "unstructured": "Kumari S, Singh P. Deep learning for unsupervised domain adaptation in medical imaging: recent advancements and future perspectives. Comput Biol Med. 2024;170:107912. https://doi.org/10.1016/j.compbiomed.2023.107912.",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "issue": "1",
+        "key": "1353_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1007/s44196-024-00520-w",
+        "volume": "17",
+        "author": "A Jabbar",
+        "year": "2024",
+        "unstructured": "Jabbar A, Naseem S, Li J, Mahmood T, Jabbar K, Rehman A, et al. Deep transfer learning-based automated diabetic retinopathy detection using retinal fundus images in remote areas. Int J Comput Intell Syst. 2024;17(1):135. https://doi.org/10.1007/s44196-024-00520-w.",
+        "journal-title": "Int J Comput Intell Syst"
+      },
+      {
+        "key": "1353_CR28",
+        "unstructured": "A review of self-supervised learning methods in the field of medical image analysis [cited 2026 Feb 12]. https://www.mecs-press.org/ijigsp/ijigsp-v13-n4/v13n4-3.html. Accessed 12 Feb 2026."
+      },
+      {
+        "key": "1353_CR29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07853890.2024.2352018",
+        "author": "AM Kubin",
+        "year": "2024",
+        "unstructured": "Kubin AM, Huhtinen P, Ohtonen P, Keskitalo A, Wirkkala J, Hautala N. Comparison of 21 artificial intelligence algorithms in automated diabetic retinopathy screening using handheld fundus camera. Ann Med. 2024. https://doi.org/10.1080/07853890.2024.2352018.",
+        "journal-title": "Ann Med"
+      },
+      {
+        "key": "1353_CR30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biomedicines12010034",
+        "volume": "12",
+        "author": "M Tomić",
+        "year": "2023",
+        "unstructured": "Tomić M, Vrabec R, Hendelja Đ, Kolarić V, Bulum T, Rahelić D. Diagnostic accuracy of hand-held fundus camera and artificial intelligence in diabetic retinopathy screening. Biomedicines. 2023;12:34. https://doi.org/10.3390/biomedicines12010034.",
+        "journal-title": "Biomedicines"
+      },
+      {
+        "issue": "8",
+        "key": "1353_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1083",
+        "DOI": "10.1007/s00592-023-02104-0",
+        "volume": "60",
+        "author": "M Lupidi",
+        "year": "2023",
+        "unstructured": "Lupidi M, Danieli L, Fruttini D, Nicolai M, Lassandro N, Chhablani J, et al. Artificial intelligence in diabetic retinopathy screening: clinical assessment using handheld fundus camera in a real-life setting. Acta Diabetol. 2023;60(8):1083–8. https://doi.org/10.1007/s00592-023-02104-0.",
+        "journal-title": "Acta Diabetol"
+      },
+      {
+        "key": "1353_CR32",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Selvaraju RR, Cogswell M, Das A, Vedantam R, Parikh D, Batra D. Grad-CAM: visual explanations from deep networks via gradient-based localization. In: Proceedings of the IEEE international conference on computer vision. Institute of Electrical and Electronics Engineers Inc.; 2017. p. 618–26. https://doi.org/10.1109/ICCV.2017.74.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "1353_CR33",
+        "unstructured": "Suara S, Jha A, Sinha P, Sekh AA. Is Grad-CAM explainable in medical images?"
+      },
+      {
+        "key": "1353_CR34",
+        "unstructured": "Diabetic Retinopathy Detection | Kaggle. [cited 2026 Feb 12]. https://www.kaggle.com/c/diabetic-retinopathy-detection. Accessed 12 Feb 2026."
+      },
+      {
+        "key": "1353_CR35",
+        "unstructured": "APTOS 2019 Blindness Detection | Kaggle. [cited 2026 Feb 12]. https://www.kaggle.com/c/aptos2019-blindness-detection. Accessed 12 Feb 2026."
+      },
+      {
+        "key": "1353_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "volume": "110",
+        "author": "CP Wilkinson",
+        "year": "2003",
+        "unstructured": "Wilkinson CP, Ferris FL, Klein RE, Lee PP, Agardh CD, Davis M, et al. Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales. Ophthalmology. 2003;110:1677–82. https://doi.org/10.1016/S0161-6420(03)00475-5.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "1353_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "volume": "33",
+        "author": "E Decencière",
+        "year": "2014",
+        "unstructured": "Decencière E, Zhang X, Cazuguel G, Laÿ B, Cochener B, Trone C, et al. Feedback on a publicly distributed image database: the MESSIDOR DATABASE. Image Anal Stereol. 2014;33:231–4. https://doi.org/10.5566/ias.1155.",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "issue": "3",
+        "key": "1353_CR38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics13030393",
+        "volume": "13",
+        "author": "A Bajwa",
+        "year": "2023",
+        "unstructured": "Bajwa A, Nosheen N, Talpur KI, Akram S. A prospective study on diabetic retinopathy detection based on modify convolutional neural network using fundus images at Sindh Institute of Ophthalmology & Visual Sciences. Diagnostics. 2023;13(3):393. https://doi.org/10.3390/diagnostics13030393.",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "1353_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "159",
+        "DOI": "10.2307/2529310",
+        "volume": "33",
+        "author": "JR Landis",
+        "year": "1977",
+        "unstructured": "Landis JR, Koch GG. The measurement of observer agreement for categorical data. Biometrics. 1977;33:159. https://doi.org/10.2307/2529310.",
+        "journal-title": "Biometrics"
+      },
+      {
+        "issue": "8",
+        "key": "1353_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1075",
+        "DOI": "10.1007/s00592-023-02105-z",
+        "volume": "60",
+        "author": "JAE de Oliveira",
+        "year": "2023",
+        "unstructured": "de Oliveira JAE, Nakayama LF, Zago Ribeiro L, de Oliveira TVF, Choi SNJH, Neto EM, et al. Clinical validation of a smartphone-based retinal camera for diabetic retinopathy screening. Acta Diabetol. 2023;60(8):1075–81. https://doi.org/10.1007/s00592-023-02105-z.",
+        "journal-title": "Acta Diabetol"
+      },
+      {
+        "key": "1353_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/15209156251369886",
+        "author": "P Huhtinen",
+        "year": "2025",
+        "unstructured": "Huhtinen P, Kubin AM, Dvořák K, Sliva M, Bayer J, Hautala N. Real-world evaluation of artificial intelligence-based diabetic retinopathy screening using the Optomed Aurora handheld fundus camera. Diabetes Technol Ther. 2025. https://doi.org/10.1177/15209156251369886.",
+        "journal-title": "Diabetes Technol Ther"
+      },
+      {
+        "key": "1353_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "2889",
+        "DOI": "10.2147/OPTH.S538020",
+        "volume": "19",
+        "author": "X Liang",
+        "year": "2025",
+        "unstructured": "Liang X, Bao Y, Du Y, Kong N. AI-assisted screening for diabetic retinopathy and fundus abnormalities in a large-scale physical examination population. Clin Ophthalmol. 2025;19:2889–900. https://doi.org/10.2147/OPTH.S538020.",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "key": "1353_CR43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2025.38114",
+        "volume": "8",
+        "author": "EA Diaz",
+        "year": "2025",
+        "unstructured": "Diaz EA, Seifert ML, Gruning V, Stadnick NA, Lugo-Butler E, Servin AN, et al. Diabetic retinopathy screening among federally qualified health center patients using point-of-care AI: DRES-POCAI: a trial protocol. JAMA Netw Open. 2025;8:e2538114–e2538114. https://doi.org/10.1001/jamanetworkopen.2025.38114.",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "issue": "1",
+        "key": "1353_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "256",
+        "DOI": "10.1186/s12886-024-03508-4",
+        "volume": "24",
+        "author": "F Salavatian",
+        "year": "2024",
+        "unstructured": "Salavatian F, Hashemi-Madani N, Emami Z, Hosseini Z, Falavarjani KG, Khamseh ME. Improving diabetic retinopathy screening at the point of care: integrating telemedicine to overcome current challenges. BMC Ophthalmol. 2024;24(1):256. https://doi.org/10.1186/s12886-024-03508-4.",
+        "journal-title": "BMC Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology and Therapy"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40123-026-01353-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s40123-026-01353-w",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40123-026-01353-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2026-04-02T12:42:06Z",
+      "timestamp": 1775133726000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s40123-026-01353-w"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ]
+    },
+    "references-count": 44,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1353"
+    ],
+    "URL": "https://doi.org/10.1007/s40123-026-01353-w",
+    "relation": {},
+    "ISSN": [
+      "2193-8245",
+      "2193-6528"
+    ],
+    "issn-type": [
+      {
+        "value": "2193-8245",
+        "type": "print"
+      },
+      {
+        "value": "2193-6528",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "14 January 2026",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "19 February 2026",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 March 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "Emmanuel Eric Pazo, Xiangying Liu, Shoukuan Liu, Qinru Zhang, Mingxuan Zhang, Zhihui Zhang, Salissou Moutari, Muhammad Usama, and Xinjun Ren have nothing to disclose.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of Interest"
+        }
+      },
+      {
+        "value": "The study was approved by the Tianjin Medical University Eye Hospital ethics board (2025KY-76) and conducted in accordance with the Declaration of Helsinki. Written informed consent was obtained from all participants for study participation and for the use of de-identified data in analyses and publications. Written informed consent for publication of Fig. \n                      \n                      was obtained from the patient.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethical Approval"
+        }
+      }
+    ]
+  }
+}

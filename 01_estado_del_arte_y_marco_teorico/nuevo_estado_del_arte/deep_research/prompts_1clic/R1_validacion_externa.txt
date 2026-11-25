@@ -1,0 +1,30 @@
+CONTEXTO DEL PROYECTO
+Somos un equipo de estudiantes de Deep Learning (Universidad Nacional de Colombia, Medellín) escribiendo un artículo en formato de la revista DYNA titulado "Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías". Entrenamos ConvNeXt-Tiny (preentrenado en ImageNet) en el dataset Moondream Staged (Hugging Face, 3 estadios: normal, temprano, avanzado) y lo probamos sin reentrenar en ACRIMA, RIM-ONE DL y EyePACS (glaucoma binario). Comparamos cabeza binaria frente a cabeza de 3 clases proyectada a binaria, y un aumento de datos agresivo de escala y fotometría. El umbral se fija en validación interna (especificidad ≥ 0,95) y no se reajusta en las bases externas. Observamos que el AUROC cae moderadamente fuera de dominio, pero la sensibilidad colapsa en EyePACS (recortes papilares frente a campo amplio con fondo negro).
+
+Nuestra tesis para el estado del arte: la literatura demuestra discriminación alta dentro de una base, pero rara vez separa tres fuentes de variación cuando el modelo cambia de fuente: (1) variación de la imagen (cámara, campo de visión, encuadre, color, calidad), (2) variación de la etiqueta (qué cuenta como glaucoma, sospechoso, referible o estadio, y con qué estándar de referencia) y (3) cambio del punto de decisión (umbral y calibración transportados entre dominios).
+
+REGLAS PARA TU RESPUESTA
+- Prioriza artículos revisados por pares de 2016 a 2026. Incluye preprints solo si no hay versión publicada y márcalos como preprint.
+- No inventes cifras, DOI, autores, años ni nombres de revista. Si no pudiste ver el dato en la fuente, escribe "no reportado" o "no verificado". No estimes valores a partir de figuras salvo que lo indiques.
+- Para cada cifra, indica dónde aparece (tabla, figura, sección o resumen) y si la tomaste del texto completo o solo del resumen.
+- Distingue siempre validación interna (partición aleatoria de la misma base), validación entre bases (otra base pública), leave-one-domain-out y validación externa en un centro independiente.
+- Busca en inglés. Responde en español, conservando en inglés los títulos de los artículos y los términos técnicos estándar.
+- Al final incluye una sección "Afirmaciones dudosas o contradictorias" con lo que no pudiste confirmar o donde las fuentes no coinciden.
+- Incluye siempre el DOI exacto en formato canónico (10.xxxx/...) en la columna correspondiente; si el trabajo no tiene DOI o no pudiste comprobarlo, escribe "sin DOI verificado".
+
+PREGUNTA
+¿Qué estudios de clasificación de glaucoma con retinografías a color mediante aprendizaje profundo evaluaron su modelo fuera de la base de entrenamiento, y cuánto cambió el desempeño?
+
+QUÉ BUSCAR
+- Estudios con prueba entre bases públicas (por ejemplo ACRIMA, RIM-ONE, Drishti-GS, ORIGA, REFUGE, LAG, G1020, PAPILA, AIROGS, SMDG-19, EyePACS, BRSET u otras), con leave-one-domain-out o con validación externa en otro hospital o país.
+- Desafíos y benchmarks con conjuntos de prueba ocultos o multicéntricos (REFUGE, AIROGS y otros).
+- Estudios clínicos grandes con validación externa (por ejemplo Li et al. 2018, Ting et al. 2017, Phene et al. 2019, Hemelings et al. 2023, y los que encuentres).
+- Meta-análisis o revisiones sistemáticas que reporten específicamente la diferencia entre validación interna y externa.
+
+ENTREGA
+1. Una tabla con una fila por estudio y estas columnas: autor y año | revista o congreso | DOI | tarea y definición de la clase positiva | bases de entrenamiento (n, cámara, campo de visión si se reporta) | bases de prueba (n, cámara, campo de visión) | tipo de validación | ¿partición por paciente? (sí/no/no reportado) | arquitectura y preentrenamiento | AUC interna | AUC externa | sensibilidad y especificidad externas | cómo se fijó el umbral (en desarrollo o reajustado en destino) | ubicación de las cifras | texto completo o solo resumen.
+2. Un párrafo sobre qué tan frecuente es cada tipo de validación en lo que encontraste (sin inventar porcentajes; cuenta solo tus filas).
+3. Un párrafo sobre los casos en que la caída fue pequeña y qué tenían en común, y otro sobre los casos en que fue grande.
+4. La sección de afirmaciones dudosas.
+
+Apunta a 20 a 35 estudios. Prefiere la calidad de cada fila a la cantidad de filas.

@@ -1,0 +1,29 @@
+CONTEXTO DEL PROYECTO
+Somos un equipo de estudiantes de Deep Learning (Universidad Nacional de Colombia, Medellín) escribiendo un artículo en formato de la revista DYNA titulado "Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías". Entrenamos ConvNeXt-Tiny (preentrenado en ImageNet) en el dataset Moondream Staged (Hugging Face, 3 estadios: normal, temprano, avanzado) y lo probamos sin reentrenar en ACRIMA, RIM-ONE DL y EyePACS (glaucoma binario). Comparamos cabeza binaria frente a cabeza de 3 clases proyectada a binaria, y un aumento de datos agresivo de escala y fotometría. El umbral se fija en validación interna (especificidad ≥ 0,95) y no se reajusta en las bases externas. Observamos que el AUROC cae moderadamente fuera de dominio, pero la sensibilidad colapsa en EyePACS (recortes papilares frente a campo amplio con fondo negro).
+
+Nuestra tesis para el estado del arte: la literatura demuestra discriminación alta dentro de una base, pero rara vez separa tres fuentes de variación cuando el modelo cambia de fuente: (1) variación de la imagen (cámara, campo de visión, encuadre, color, calidad), (2) variación de la etiqueta (qué cuenta como glaucoma, sospechoso, referible o estadio, y con qué estándar de referencia) y (3) cambio del punto de decisión (umbral y calibración transportados entre dominios).
+
+REGLAS PARA TU RESPUESTA
+- Prioriza artículos revisados por pares de 2016 a 2026. Incluye preprints solo si no hay versión publicada y márcalos como preprint.
+- No inventes cifras, DOI, autores, años ni nombres de revista. Si no pudiste ver el dato en la fuente, escribe "no reportado" o "no verificado". No estimes valores a partir de figuras salvo que lo indiques.
+- Para cada cifra, indica dónde aparece (tabla, figura, sección o resumen) y si la tomaste del texto completo o solo del resumen.
+- Distingue siempre validación interna (partición aleatoria de la misma base), validación entre bases (otra base pública), leave-one-domain-out y validación externa en un centro independiente.
+- Busca en inglés. Responde en español, conservando en inglés los títulos de los artículos y los términos técnicos estándar.
+- Al final incluye una sección "Afirmaciones dudosas o contradictorias" con lo que no pudiste confirmar o donde las fuentes no coinciden.
+- Incluye siempre el DOI exacto en formato canónico (10.xxxx/...) en la columna correspondiente; si el trabajo no tiene DOI o no pudiste comprobarlo, escribe "sin DOI verificado".
+
+PREGUNTA
+¿Cómo afectan la definición de la etiqueta, el estándar de referencia y la severidad del glaucoma al desempeño y a la generalización de clasificadores en retinografías? ¿Qué se ha hecho en clasificación por estadios u ordinal?
+
+QUÉ BUSCAR
+- Estudios que comparan definiciones de caso (glaucoma confirmado frente a sospechoso, neuropatía óptica glaucomatosa referible, etiquetas por consenso frente a un solo evaluador, etiqueta basada en fotografía frente a confirmación con campo visual u OCT).
+- Variabilidad entre expertos al etiquetar glaucoma en retinografías (acuerdo interobservador).
+- Desempeño estratificado por severidad (temprano frente a avanzado), por ejemplo Ahn et al. 2018 y otros.
+- Clasificación en varios estadios u ordinal desde retinografías, métricas usadas (por ejemplo kappa cuadrático ponderado) y criterios de estadificación (Hodapp-Parrish-Anderson, DDLS, otros).
+- Modelos que predicen medidas continuas (relación copa-disco vertical, defecto del campo visual, grosor de la capa de fibras por OCT) desde la retinografía, y su relación con el problema de la etiqueta.
+- Ruido de etiqueta y su efecto en la transferencia entre bases.
+
+ENTREGA
+1. Una tabla: autor y año | DOI | definición de etiqueta o esquema de estadios | estándar de referencia | métrica por subgrupo de severidad o por estadio | ¿validación externa? | ubicación de las cifras.
+2. Una síntesis sobre si la falta de concordancia de etiquetas entre bases se ha medido o solo se ha señalado.
+3. La sección de afirmaciones dudosas.

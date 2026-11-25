@@ -1,0 +1,591 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T04:54:02Z",
+      "timestamp": 1774932842912,
+      "version": "3.50.1"
+    },
+    "reference-count": 31,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              11
+            ]
+          ],
+          "date-time": "2024-09-11T00:00:00Z",
+          "timestamp": 1726012800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Artif. Intell."
+    ],
+    "abstract": "<jats:sec><jats:title>Background</jats:title><jats:p>Glaucoma (GLAU), Age-related Macular Degeneration (AMD), Retinal Vein Occlusion (RVO), and Diabetic Retinopathy (DR) are common blinding ophthalmic diseases worldwide.</jats:p></jats:sec><jats:sec><jats:title>Purpose</jats:title><jats:p>This approach is expected to enhance the early detection and treatment of common blinding ophthalmic diseases, contributing to the reduction of individual and economic burdens associated with these conditions.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>We propose an effective deep-learning pipeline that combine both segmentation model and classification model for diagnosis and grading of four common blinding ophthalmic diseases and normal retinal fundus.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>In total, 102,786 fundus images of 75,682 individuals were used for training validation and external validation purposes. We test our model on internal validation data set, the micro Area Under the Receiver Operating Characteristic curve (AUROC) of which reached 0.995. Then, we fine-tuned the diagnosis model to classify each of the four disease into early and late stage, respectively, which achieved AUROCs of 0.597 (GL), 0.877 (AMD), 0.972 (RVO), and 0.961 (DR) respectively. To test the generalization of our model, we conducted two external validation experiments on Neimeng and Guangxi cohort, all of which maintained high accuracy.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>Our algorithm demonstrates accurate artificial intelligence diagnosis pipeline for common blinding ophthalmic diseases based on Lesion-Focused fundus that overcomes the low-accuracy of the traditional classification method that based on raw retinal images, which has good generalization ability on diverse cases in different regions.</jats:p></jats:sec>",
+    "DOI": "10.3389/frai.2024.1444136",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2024-09-11T05:14:13Z",
+      "timestamp": 1726031653000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "A deep-learning pipeline for the diagnosis and grading of common blinding ophthalmic diseases based on lesion-focused classification model"
+    ],
+    "prefix": "10.3389",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Zhihuan",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Junxiong",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jingfang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jin",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hong",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Lin",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "TianZi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wen",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Rong",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Qiuli",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Lizhong",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref9001",
+        "doi-asserted-by": "publisher",
+        "first-page": "315",
+        "DOI": "10.1080/03610927808827626",
+        "article-title": "The proportional hazards model: applications in epidemiology",
+        "volume": "7",
+        "author": "Breslow",
+        "year": "1978",
+        "journal-title": "Commun. Stat. - Theory Methods."
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1170",
+        "DOI": "10.1001/jamaophthalmol.2017.3782",
+        "article-title": "Automated grading of age-related macular degeneration from color fundus images using deep convolutional neural networks",
+        "volume": "135",
+        "author": "Burlina",
+        "year": "2017",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "first-page": "669",
+        "DOI": "10.1007/978-3-319-24574-4_80",
+        "article-title": "Automatic feature learning for glaucoma detection based on deep learning",
+        "volume": "9351",
+        "author": "Chen",
+        "year": "2015",
+        "journal-title": "Lect. Notes Comp. Sci."
+      },
+      {
+        "key": "ref9002",
+        "doi-asserted-by": "publisher",
+        "first-page": "726",
+        "DOI": "10.1001/archopht.124.5.726",
+        "article-title": "Ten-year incidence of retinal vein occlusion in an older population: The blue mountains eye study",
+        "volume": "124",
+        "author": "Cugati",
+        "year": "2006",
+        "journal-title": "Arch Ophthalmol."
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "first-page": "102600",
+        "DOI": "10.1016/j.bspc.2021.102600",
+        "article-title": "Deep learning architecture based on segmented fundus image features for classification of diabetic retinopathy",
+        "volume": "68",
+        "author": "Das",
+        "year": "2021",
+        "journal-title": "Biomed Signal Process. Control"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "first-page": "24",
+        "DOI": "10.1038/s41591-018-0316-z",
+        "article-title": "A guide to deep learning in healthcare",
+        "volume": "25",
+        "author": "Esteva",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "first-page": "e157968",
+        "DOI": "10.1172/JCI157968",
+        "article-title": "A deep-learning system predicts Glaucoma incidence and progression using retinal photographs",
+        "volume": "132",
+        "author": "Fei",
+        "year": "2022",
+        "journal-title": "J. Clin. Invest."
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "first-page": "2693",
+        "DOI": "10.1109/TBME.2015.2444389",
+        "article-title": "Automatic feature learning to grade nuclear cataracts based on deep learning",
+        "volume": "62",
+        "author": "Gao",
+        "year": "2014",
+        "journal-title": "Springer Int. Publ."
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "first-page": "30",
+        "DOI": "10.1038/s41591-018-0307-0",
+        "article-title": "The practical implementation of artificial intelligence Technologies in Medicine",
+        "volume": "25",
+        "author": "He",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref11",
+        "article-title": "An introductory survey on attention mechanisms in NLP problems",
+        "author": "Hu",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv:1811.05544"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "article-title": "Identifying medical diagnoses and treatable diseases by image-based deep learning",
+        "volume": "172",
+        "author": "Kermany",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "first-page": "321",
+        "DOI": "10.3390/jpm11050321",
+        "article-title": "Development of a fundus image-based deep learning diagnostic tool for various retinal diseases",
+        "volume": "11",
+        "author": "Kim",
+        "year": "2021",
+        "journal-title": "J. Pers. Med."
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "first-page": "6204",
+        "DOI": "10.1364/BOE.10.006204",
+        "article-title": "Deep learning-based automated detection of retinal diseases using optical coherence tomography images",
+        "volume": "10",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "ref9003",
+        "volume-title": "Chinese ophthalmology",
+        "author": "Li",
+        "year": "2004"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1038/s41591-018-0335-9",
+        "article-title": "Evaluation and accurate diagnoses of pediatric diseases using artificial intelligence",
+        "volume": "25",
+        "author": "Liang",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "first-page": "0024",
+        "DOI": "10.1038/s41551-016-0024",
+        "article-title": "An artificial intelligence platform for the multihospital collaborative management of congenital cataracts",
+        "volume": "1",
+        "author": "Long",
+        "year": "2017",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "first-page": "14",
+        "DOI": "10.1038/s41591-018-0320-3",
+        "article-title": "A call for deep-learning healthcare",
+        "volume": "25",
+        "author": "Norgeot",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref19",
+        "article-title": "Predicting cardiovascular risk factors from retinal fundus photographs using deep learning",
+        "author": "Poplin",
+        "year": "2017",
+        "journal-title": "arXiv:1708.09843"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1038/s41591-018-0239-8",
+        "article-title": "Predicting the early risk of chronic kidney disease in patients with diabetes using real-world data",
+        "volume": "25",
+        "author": "Ravizza",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref9004",
+        "volume-title": "Retinal diseases: pathogenesis, laser therapy, and surgery",
+        "author": "Sigelman",
+        "year": "1984"
+      },
+      {
+        "key": "ref22",
+        "article-title": "EfficientNet: rethinking model scaling for convolutional neural networks",
+        "author": "Tan",
+        "year": "2020",
+        "journal-title": "arXiv:1905.11946v5"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "first-page": "322",
+        "DOI": "10.1136/bjo.85.3.322",
+        "article-title": "Vision impairment predicts 5 year mortality",
+        "volume": "85",
+        "author": "Taylor",
+        "year": "2001",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "article-title": "High-performance medicine: the convergence of human and artificial intelligence",
+        "volume": "25",
+        "author": "Topol",
+        "year": "2019",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1273",
+        "DOI": "10.1109/TMI.2016.2526689",
+        "article-title": "Fast convolutional neural network training using selective data sampling: application to hemorrhage detection in color fundus images",
+        "volume": "35",
+        "author": "Van Grinsven",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1016/j.compmedimag.2016.11.004",
+        "article-title": "Lung nodule classification using deep feature fusion in chest radiography",
+        "volume": "57",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "ref1",
+        "unstructured": "Density of physicians (total number per 1000 population\n          \n          \n          \n          2016"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1728",
+        "DOI": "10.1016/j.ophtha.2013.01.068",
+        "article-title": "The economic burden of vision loss and eye disorders among the United States population younger than 40 years",
+        "volume": "120",
+        "author": "Wittenborn",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.17077/omia.1039",
+        "volume-title": "Boosting convolutional filters with entropy sampling for optic cup and disc image segmentation from fundus images",
+        "author": "Zilly",
+        "year": "2015"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Artificial Intelligence"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/frai.2024.1444136/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2024-09-11T05:14:21Z",
+      "timestamp": 1726031661000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/frai.2024.1444136/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          11
+        ]
+      ]
+    },
+    "references-count": 31,
+    "alternative-id": [
+      "10.3389/frai.2024.1444136"
+    ],
+    "URL": "https://doi.org/10.3389/frai.2024.1444136",
+    "relation": {},
+    "ISSN": [
+      "2624-8212"
+    ],
+    "issn-type": [
+      {
+        "value": "2624-8212",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          11
+        ]
+      ]
+    },
+    "article-number": "1444136"
+  }
+}

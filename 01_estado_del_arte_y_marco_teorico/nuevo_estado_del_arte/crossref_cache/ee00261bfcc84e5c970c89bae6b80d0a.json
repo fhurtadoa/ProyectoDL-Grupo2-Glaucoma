@@ -1,0 +1,1167 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2026-11-11T23:05:13Z",
+      "timestamp": 1794438313915,
+      "version": "4.9.1"
+    },
+    "reference-count": 64,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EY033005"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EY033005"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Med. Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmi.2025.3596874",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2025-08-07T17:44:23Z",
+      "timestamp": 1754588663000
+    },
+    "page": "320-335",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "JustRAIGS: Justified Referral in AI Glaucoma Screening Challenge"
+    ],
+    "prefix": "10.1109",
+    "volume": "45",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4292-3404",
+        "authenticated-orcid": false,
+        "given": "Yeganeh",
+        "family": "Madadi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Appalachian State University, Boone, NC, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5268-047X",
+        "authenticated-orcid": false,
+        "given": "Hina",
+        "family": "Raja",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Computer Science, Fisk University, Nashville, TN, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4038-3945",
+        "authenticated-orcid": false,
+        "given": "Koenraad A.",
+        "family": "Vermeer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rotterdam Ophthalmic Institute, Rotterdam Eye Hospital, Rotterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8508-8985",
+        "authenticated-orcid": false,
+        "given": "Hans G.",
+        "family": "Lemij",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rotterdam Ophthalmic Institute, Rotterdam Eye Hospital, Rotterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0442-9408",
+        "authenticated-orcid": false,
+        "given": "Xiaoqin",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eunjin",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VUNO Inc., Seoul, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seunghoon",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VUNO Inc., Seoul, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gitaek",
+        "family": "Kwon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VUNO Inc., Seoul, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3019-3611",
+        "authenticated-orcid": false,
+        "given": "Hyunwoo",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VUNO Inc., Seoul, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaeyoung",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Teamreboott Inc., Busan, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5992-1520",
+        "authenticated-orcid": false,
+        "given": "Adrian",
+        "family": "Galdran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tecnalia Research and Innovation, Donostia-San Sebasti&#x00E1;n, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9227-6826",
+        "authenticated-orcid": false,
+        "given": "Miguel A. González",
+        "family": "Ballester",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information and Communication Technologies, BCN Medtech, Universitat Pompeu Fabra, Barcelona, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0917-1319",
+        "authenticated-orcid": false,
+        "given": "Dan",
+        "family": "Presil",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev, Beer Sheva, Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3370-961X",
+        "authenticated-orcid": false,
+        "given": "Kristhian",
+        "family": "Aguilar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Technology, Federal University of Amazonas, Manaus, Amazonas, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Victor",
+        "family": "Cavalcante",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Technology, Federal University of Amazonas, Manaus, Amazonas, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7378-8893",
+        "authenticated-orcid": false,
+        "given": "Celso",
+        "family": "Carvalho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Technology, Federal University of Amazonas, Manaus, Amazonas, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3095-0042",
+        "authenticated-orcid": false,
+        "given": "Waldir",
+        "family": "Sabino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Technology, Federal University of Amazonas, Manaus, Amazonas, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mateus",
+        "family": "Oliveira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Technology, Federal University of Amazonas, Manaus, Amazonas, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6559-2751",
+        "authenticated-orcid": false,
+        "given": "Hui",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Northwestern University, Evanston, IL, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-3198-5551",
+        "authenticated-orcid": false,
+        "given": "Charilaos",
+        "family": "Apostolidis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Northwestern University, Evanston, IL, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4554-0070",
+        "authenticated-orcid": false,
+        "given": "Aggelos K.",
+        "family": "Katsaggelos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Northwestern University, Evanston, IL, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-9361-6503",
+        "authenticated-orcid": false,
+        "given": "Tomasz",
+        "family": "Kubrak",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Artificial Intelligence, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Á.",
+        "family": "Casado-García",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grupo de Inform&#x00E1;tica, Departamento de Matem&#x00E1;ticas y Computaci&#x00F3;n, Universidad de La Rioja, Logro&#x00F1;o, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Heras",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grupo de Inform&#x00E1;tica, Departamento de Matem&#x00E1;ticas y Computaci&#x00F3;n, Universidad de La Rioja, Logro&#x00F1;o, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Ortega",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grupo VARPA, Instituto de Investigaci&#x00F3;n Biom&#x00E9;dica, Universidade da Coru&#x00F1;a, A Coru&#x00F1;a, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Ramos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grupo VARPA, Instituto de Investigaci&#x00F3;n Biom&#x00E9;dica, Universidade da Coru&#x00F1;a, A Coru&#x00F1;a, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philippe",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM, UMR 1101, INSERM, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yihao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM Laboratory, Medicine School, University of Western Brittany, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM, UMR 1101, INSERM, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weili",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer Science, Sichuan University, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2214-3654",
+        "authenticated-orcid": false,
+        "given": "Pierre-Henri",
+        "family": "Conze",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM, UMR 1101, INSERM, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mathieu",
+        "family": "Lamard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM, UMR 1101, INSERM, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1669-7140",
+        "authenticated-orcid": false,
+        "given": "Gwenole",
+        "family": "Quellec",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM, UMR 1101, INSERM, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0318-0049",
+        "authenticated-orcid": false,
+        "given": "Mostafa El Habib",
+        "family": "Daho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaTIM, UMR 1101, INSERM, Brest, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-2193-124X",
+        "authenticated-orcid": false,
+        "given": "Madukuri",
+        "family": "Shaurya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Indian Institute of Technology Delhi, New Delhi, Delhi, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anumeha",
+        "family": "Varma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Indian Institute of Technology Delhi, New Delhi, Delhi, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Monika",
+        "family": "Agrawal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Indian Institute of Technology Delhi, New Delhi, Delhi, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8633-5730",
+        "authenticated-orcid": false,
+        "given": "Siamak",
+        "family": "Yousefi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bascom Palmer Eye Institute and Department of Electrical and Computer Engineering, University of Miami, Miami, FL, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/IJG.0000000000000389"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2013.05.027"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2014.3192"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106061"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.04.020"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41433-019-0510-3"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06555-x"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ogla.2020.04.012"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ICU.0000000000001035"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sj.eye.6700261"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0210582"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2019.07.024"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2023.3313786"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-ipr.2012.0455"
+      },
+      {
+        "key": "ref18",
+        "first-page": "1004",
+        "article-title": "A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis",
+        "author": "Sivaswamy",
+        "year": "2015",
+        "journal-title": "JSM Biomed. Imag. Data Papers"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00934-2_8"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "ref21",
+        "article-title": "REFUGE2 challenge: A treasure trove for multi-dimension analysis and evaluation in glaucoma screening",
+        "author": "Fang",
+        "year": "2022",
+        "journal-title": "arXiv:2202.08994"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102938"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2023.100300"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2009.09.026"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2791488"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archopht.120.6.701"
+      },
+      {
+        "key": "ref27",
+        "volume-title": "Ocular hypertension treatment study (OHTS): Manual of procedures",
+        "author": "Gordon",
+        "year": "1995"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archopht.117.5.573"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635758"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/isbi56570.2024.10635220"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635674"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635775"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/isbi56570.2024.10635883"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635144"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635113"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635680"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI56570.2024.10635301"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2959609"
+      },
+      {
+        "key": "ref39",
+        "first-page": "6105",
+        "article-title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Tan"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01855"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01170"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref44",
+        "article-title": "ResNet strikes back: An improved training procedure in timm",
+        "author": "Wightman",
+        "year": "2021",
+        "journal-title": "arXiv:2110.00476"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01548"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imavis.2024.105171"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VLSI.0000028532.53893.82"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "Simonyan",
+        "year": "2014",
+        "journal-title": "arXiv:1409.1556"
+      },
+      {
+        "key": "ref49",
+        "article-title": "An image is worth 16×16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020",
+        "journal-title": "arXiv:2010.11929"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0734-189X(87)80186-X"
+      },
+      {
+        "key": "ref51",
+        "article-title": "AutoAugment: Learning augmentation policies from data",
+        "author": "Cubuk",
+        "year": "2018",
+        "journal-title": "arXiv:1805.09501"
+      },
+      {
+        "key": "ref52",
+        "first-page": "12077",
+        "article-title": "SegFormer: Simple and efficient design for semantic segmentation with transformers",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Sys. (NIPS)",
+        "volume": "34",
+        "author": "Xie"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.02054"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-54857-4_1"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2024.102803"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/ipr2.12419"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102762"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/bioengineering10111266"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.02007"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-25066-8_9"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV51458.2022.00181"
+      },
+      {
+        "issue": "7",
+        "key": "ref64",
+        "first-page": "1",
+        "article-title": "Glaucomatous features in fundus photographs of eyes with ’referable glaucoma’of a large population based labeled data set for training an artificial intelligence (AI) algorithm for glaucoma screening",
+        "volume": "63",
+        "author": "Lemij",
+        "year": "2022",
+        "journal-title": "Investigative Ophthalmol. Vis. Sci."
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Medical Imaging"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/42/11328978/11119643.pdf?arnumber=11119643",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T05:36:17Z",
+      "timestamp": 1767677777000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11119643/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "1"
+    },
+    "URL": "https://doi.org/10.1109/tmi.2025.3596874",
+    "relation": {},
+    "ISSN": [
+      "0278-0062",
+      "1558-254X"
+    ],
+    "issn-type": [
+      {
+        "value": "0278-0062",
+        "type": "print"
+      },
+      {
+        "value": "1558-254X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2026-09-23T00:00:47Z",
+      "timestamp": 1790121647402,
+      "version": "4.0.1"
+    },
+    "reference-count": 51,
+    "publisher": "SAGE Publications",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2026-06-22T00:00:00Z",
+          "timestamp": 1782086400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of X-Ray Science and Technology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Glaucoma is a leading cause of irreversible vision loss and is characterized by subtle structural changes in the optic disc and optic cup. However, existing automated detection systems often suffer from weak boundary delineation, dataset variability, and unstable feature learning, which limit their generalizability and clinical reliability.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Objective</jats:title>\n                    <jats:p>This study aims to develop a unified and anatomically guided framework for accurate and reliable automated glaucoma detection from fundus images.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>The proposed pipeline begins with contrast-enhanced preprocessing to improve image quality, followed by an Attention-guided Multi-scale Edge-aware Segmentation Network (AME-SegNet) for precise segmentation of the optic disc and optic cup. Both deep convolutional features and clinically relevant geometric features are extracted and optimized using Bitterling Colony Optimization (BCO) to select the most discriminative attributes. A Convolutional Transformer (CT) is then employed to integrate local convolutional representations with global attention mechanisms for robust classification. Additionally, the Honey Badger Algorithm (HBA) is used for automatic parameter tuning to ensure stable convergence.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>Experimental evaluation demonstrates high segmentation performance with Dice scores of 97.36% for the optic disc and 96.72% for the optic cup on the Drishti-GS1 dataset. The classification model achieves accuracies of 98.63% on RIM-ONE and 98.96% on ORIGA-Light datasets, indicating strong generalization capability.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>The proposed framework exhibits robust performance, high accuracy, and strong generalization across multiple datasets. These results highlight its effectiveness and clinical potential for reliable automated glaucoma screening and early diagnosis.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1177/08953996261439097",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2026-06-22T11:35:23Z",
+      "timestamp": 1782128123000
+    },
+    "page": "589-621",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Attention based multi-scale edge-aware segmentation and convolutional transformer framework for automated glaucoma detection from fundus images"
+    ],
+    "prefix": "10.1177",
+    "volume": "34",
+    "author": [
+      {
+        "given": "C",
+        "family": "Moorthy",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of ECE, Dr. Mahalingam College of Engineering and Technology, Pollachi, Tamilnadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D",
+        "family": "Arulanantham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of ECE, Kangeyam Institute of Technology, Kangeyam, Tirupur Dist, Erode, Tamilnadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A",
+        "family": "Suresh Babu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of ECE, Karpagam College of Engineering, Coimbatore, Tamilnadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S",
+        "family": "Murugesan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of EEE, AMET University, Chennai, Tamilnadu, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_3_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2024.108639"
+      },
+      {
+        "key": "e_1_3_3_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2025.109752"
+      },
+      {
+        "key": "e_1_3_3_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compeleceng.2024.109880"
+      },
+      {
+        "key": "e_1_3_3_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.105770"
+      },
+      {
+        "key": "e_1_3_3_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2025.114374"
+      },
+      {
+        "key": "e_1_3_3_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-025-01750-8"
+      },
+      {
+        "key": "e_1_3_3_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-025-01473-w"
+      },
+      {
+        "key": "e_1_3_3_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-025-09394-0"
+      },
+      {
+        "key": "e_1_3_3_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-50908-5"
+      },
+      {
+        "key": "e_1_3_3_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41433-024-03388-4"
+      },
+      {
+        "key": "e_1_3_3_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.104906"
+      },
+      {
+        "key": "e_1_3_3_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106989"
+      },
+      {
+        "key": "e_1_3_3_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12886-024-03376-y"
+      },
+      {
+        "key": "e_1_3_3_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mex.2024.103116"
+      },
+      {
+        "key": "e_1_3_3_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rineng.2025.107229"
+      },
+      {
+        "key": "e_1_3_3_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2025.100721"
+      },
+      {
+        "key": "e_1_3_3_18_2",
+        "first-page": "100931",
+        "article-title": "“Glaucoma detection from retinal fundus images using graph convolution based multi-task model.” e-prime-advances in electrical engineering",
+        "volume": "11",
+        "author": "Lenka S",
+        "year": "2025",
+        "unstructured": "Lenka S, Mayaluri ZL, Panda G. “Glaucoma detection from retinal fundus images using graph convolution based multi-task model.” e-prime-advances in electrical engineering. Electronics and Energy 2025; 11: 100931.",
+        "journal-title": "Electronics and Energy"
+      },
+      {
+        "key": "e_1_3_3_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2025.3606334"
+      },
+      {
+        "key": "e_1_3_3_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/bioengineering12010057"
+      },
+      {
+        "key": "e_1_3_3_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics15182301"
+      },
+      {
+        "key": "e_1_3_3_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jimaging11080279"
+      },
+      {
+        "key": "e_1_3_3_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/THC-230310"
+      },
+      {
+        "key": "e_1_3_3_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18280/ts.400643"
+      },
+      {
+        "key": "e_1_3_3_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-024-10500-y"
+      },
+      {
+        "key": "e_1_3_3_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-025-10989-x"
+      },
+      {
+        "key": "e_1_3_3_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-024-19338-x"
+      },
+      {
+        "key": "e_1_3_3_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-024-19989-w"
+      },
+      {
+        "key": "e_1_3_3_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11517-024-03172-2"
+      },
+      {
+        "key": "e_1_3_3_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.107179"
+      },
+      {
+        "key": "e_1_3_3_31_2",
+        "first-page": "26",
+        "article-title": "A deep semi-supervised learning approach to the detection of glaucoma on out-of-distribution retinal fundus image datasets",
+        "volume": "25",
+        "author": "Wang L",
+        "year": "2025",
+        "unstructured": "Wang L, Zhang X, Li Z, et al. A deep semi-supervised learning approach to the detection of glaucoma on out-of-distribution retinal fundus image datasets. BMC Ophthalmol 2025; 25: 26.",
+        "journal-title": "BMC Ophthalmol"
+      },
+      {
+        "key": "e_1_3_3_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s25144337"
+      },
+      {
+        "key": "e_1_3_3_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/08953996241300018"
+      },
+      {
+        "key": "e_1_3_3_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2023.3288017"
+      },
+      {
+        "key": "e_1_3_3_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s44196-025-00848-x"
+      },
+      {
+        "key": "e_1_3_3_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-024-10962-0"
+      },
+      {
+        "key": "e_1_3_3_37_2",
+        "first-page": "1995",
+        "article-title": "Eye-tracking based autism spectrum disorder diagnosis using chaotic butterfly optimization with deep learning model computers",
+        "volume": "76",
+        "author": "Thanarajan T",
+        "year": "2023",
+        "unstructured": "Thanarajan T, Alotaibi Y, Rajendran S, et al. Eye-tracking based autism spectrum disorder diagnosis using chaotic butterfly optimization with deep learning model computers. Comput Mater Contin 2023; 76: 1995–2013.",
+        "journal-title": "Comput Mater Contin"
+      },
+      {
+        "key": "e_1_3_3_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-17753-4"
+      },
+      {
+        "key": "e_1_3_3_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jksuci.2021.02.003"
+      },
+      {
+        "key": "e_1_3_3_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100233"
+      },
+      {
+        "key": "e_1_3_3_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-023-00857-0"
+      },
+      {
+        "key": "e_1_3_3_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics13101738"
+      },
+      {
+        "key": "e_1_3_3_43_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy J Krishnadas SR Joshi GD et al. Drishti-gs: Retinal image dataset for optic nerve head (ONH) segmentation. In: 2014 IEEE 11th international symposium on biomedical imaging (ISBI) Beijing China: IEEE 2014 pp.53–56.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "e_1_3_3_44_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero F Alayón S Sanchez JL et al. RIM-ONE: an open retinal image database for optic nerve evaluation. In: 2011 24th international symposium on computer-based medical systems (CBMS). Bristol UK: IEEE 2011 pp. 1–6.",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "e_1_3_3_45_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang Z Yin FS Liu J et al. Origa-light: an online retinal fundus image database for glaucoma analysis and research. In: 2010 Annual international conference of the IEEE engineering in medicine and biology. Buenos Aires Argentina: IEEE 2010 pp.3065–3068.",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "e_1_3_3_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/1997/1/012002"
+      },
+      {
+        "key": "e_1_3_3_47_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48084/etasr.9525"
+      },
+      {
+        "key": "e_1_3_3_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2025.109127"
+      },
+      {
+        "key": "e_1_3_3_49_2",
+        "first-page": "118695",
+        "article-title": "MDF-Net: an attention-guided multi-scale dual-fusion network for retinal vessel segmentation",
+        "volume": "257",
+        "author": "Ma M",
+        "year": "2025",
+        "unstructured": "Ma M, Liang L, Sheng X. MDF-Net: an attention-guided multi-scale dual-fusion network for retinal vessel segmentation. Measurement (Mahwah N J) 2025; 257: 118695.",
+        "journal-title": "Measurement (Mahwah N J)"
+      },
+      {
+        "key": "e_1_3_3_50_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10586-025-05170-x"
+      },
+      {
+        "key": "e_1_3_3_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2025.108357"
+      },
+      {
+        "key": "e_1_3_3_52_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10586-024-04765-0"
+      }
+    ],
+    "container-title": [
+      "Journal of X-Ray Science and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/08953996261439097",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/08953996261439097",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/08953996261439097",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2026-09-22T23:16:11Z",
+      "timestamp": 1790118971000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/08953996261439097"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ]
+    },
+    "references-count": 51,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/08953996261439097"
+    ],
+    "URL": "https://doi.org/10.1177/08953996261439097",
+    "relation": {},
+    "ISSN": [
+      "0895-3996",
+      "1095-9114"
+    ],
+    "issn-type": [
+      {
+        "value": "0895-3996",
+        "type": "print"
+      },
+      {
+        "value": "1095-9114",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1485 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2026-11-07T05:51:15Z",
+      "timestamp": 1794030675465,
+      "version": "4.8.0"
+    },
+    "reference-count": 41,
+    "publisher": "American Medical Association (AMA)",
+    "issue": "6",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JAMA Ophthalmol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:sec id=\"ab-eoi230018-4\"><jats:title>Importance</jats:title><jats:p>Although race is a social construct, it is associated with variations in skin and retinal pigmentation. Image-based medical artificial intelligence (AI) algorithms that use images of these organs have the potential to learn features associated with self-reported race (SRR), which increases the risk of racially biased performance in diagnostic tasks; understanding whether this information can be removed, without affecting the performance of AI algorithms, is critical in reducing the risk of racial bias in medical AI.</jats:p></jats:sec><jats:sec id=\"ab-eoi230018-5\"><jats:title>Objective</jats:title><jats:p>To evaluate whether converting color fundus photographs to retinal vessel maps (RVMs) of infants screened for retinopathy of prematurity (ROP) removes the risk for racial bias.</jats:p></jats:sec><jats:sec id=\"ab-eoi230018-6\"><jats:title>Design, Setting, and Participants</jats:title><jats:p>The retinal fundus images (RFIs) of neonates with parent-reported Black or White race were collected for this study. A u-net, a convolutional neural network (CNN) that provides precise segmentation for biomedical images, was used to segment the major arteries and veins in RFIs into grayscale RVMs, which were subsequently thresholded, binarized, and/or skeletonized. CNNs were trained with patients’ SRR labels on color RFIs, raw RVMs, and thresholded, binarized, or skeletonized RVMs. Study data were analyzed from July 1 to September 28, 2021.</jats:p></jats:sec><jats:sec id=\"ab-eoi230018-7\"><jats:title>Main Outcomes and Measures</jats:title><jats:p>Area under the precision-recall curve (AUC-PR) and area under the receiver operating characteristic curve (AUROC) at both the image and eye level for classification of SRR.</jats:p></jats:sec><jats:sec id=\"ab-eoi230018-8\"><jats:title>Results</jats:title><jats:p>A total of 4095 RFIs were collected from 245 neonates with parent-reported Black (94 [38.4%]; mean [SD] age, 27.2 [2.3] weeks; 55 majority sex [58.5%]) or White (151 [61.6%]; mean [SD] age, 27.6 [2.3] weeks, 80 majority sex [53.0%]) race. CNNs inferred SRR from RFIs nearly perfectly (image-level AUC-PR, 0.999; 95% CI, 0.999-1.000; infant-level AUC-PR, 1.000; 95% CI, 0.999-1.000). Raw RVMs were nearly as informative as color RFIs (image-level AUC-PR, 0.938; 95% CI, 0.926-0.950; infant-level AUC-PR, 0.995; 95% CI, 0.992-0.998). Ultimately, CNNs were able to learn whether RFIs or RVMs were from Black or White infants regardless of whether images contained color, vessel segmentation brightness differences were nullified, or vessel segmentation widths were uniform.</jats:p></jats:sec><jats:sec id=\"ab-eoi230018-9\"><jats:title>Conclusions and Relevance</jats:title><jats:p>Results of this diagnostic study suggest that it can be very challenging to remove information relevant to SRR from fundus photographs. As a result, AI algorithms trained on fundus photographs have the potential for biased performance in practice, even if based on biomarkers rather than raw images. Regardless of the methodology used for training AI, evaluating performance in relevant subpopulations is critical.</jats:p></jats:sec>",
+    "DOI": "10.1001/jamaophthalmol.2023.1310",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2023-05-04T15:37:02Z",
+      "timestamp": 1683214622000
+    },
+    "page": "543",
+    "source": "Crossref",
+    "is-referenced-by-count": 24,
+    "title": [
+      "Association of Biomarker-Based Artificial Intelligence With Risk of Racial Bias in Retinal Images"
+    ],
+    "prefix": "10.1001",
+    "volume": "141",
+    "author": [
+      {
+        "given": "Aaron S.",
+        "family": "Coyner",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Casey Eye Institute, Oregon Health & Science University, Portland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Praveer",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Radiology, MGH/Harvard Medical School, Charlestown, Massachusetts"
+          },
+          {
+            "name": "MGH & BWH Center for Clinical Data Science, Boston, Massachusetts"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James M.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science, University of Lincoln, Lincoln, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Susan",
+        "family": "Ostmo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Casey Eye Institute, Oregon Health & Science University, Portland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.V. Paul",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ophthalmology and Visual Sciences, University of Illinois at Chicago, Chicago"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael F.",
+        "family": "Chiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Eye Institute, National Institutes of Health, Bethesda, Maryland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jayashree",
+        "family": "Kalpathy-Cramer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Radiology, MGH/Harvard Medical School, Charlestown, Massachusetts"
+          },
+          {
+            "name": "MGH & BWH Center for Clinical Data Science, Boston, Massachusetts"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Peter",
+        "family": "Campbell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Casey Eye Institute, Oregon Health & Science University, Portland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "Imaging and Informatics in Retinopathy of Prematurity Consortium",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Benjamin K",
+        "family": "Young",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sang Jin,",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kemal",
+        "family": "Sonmez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Schelonka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Karyn",
+        "family": "Jonas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bhavana",
+        "family": "Kolli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Horowitz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Osode",
+        "family": "Coki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cheryl-Ann",
+        "family": "Eccles",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leora",
+        "family": "Sarna",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anton",
+        "family": "Orlin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Audina",
+        "family": "Berrocal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Catherin",
+        "family": "Negron",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kimberly",
+        "family": "Denser, MD",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristi",
+        "family": "Cumming",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tammy",
+        "family": "Osentoski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tammy",
+        "family": "Check",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mary",
+        "family": "Zajechowski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aaron",
+        "family": "Nagiel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Evan",
+        "family": "Kruger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kathryn",
+        "family": "McGovern",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dilshad",
+        "family": "Contractor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Margaret",
+        "family": "Havunjian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles",
+        "family": "Simmons",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Raghu",
+        "family": "Murthy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sharon",
+        "family": "Galvis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jerome",
+        "family": "Rotter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ida",
+        "family": "Chen, PhD",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kent",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kaye",
+        "family": "Roll",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mary Elizabeth",
+        "family": "Hartnett",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leah",
+        "family": "Owen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucia",
+        "family": "Lucci",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Darius",
+        "family": "Moshfeghi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mariana",
+        "family": "Nunez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zac",
+        "family": "Wennber-Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Deniz",
+        "family": "Erdogmus",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stratis",
+        "family": "Ioannidis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria Ana",
+        "family": "Martinez-Castellanos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samantha",
+        "family": "Salinas-Longoria",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rafael",
+        "family": "Romero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrea",
+        "family": "Arriola",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francisco",
+        "family": "Olguin-Manriquez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miroslava",
+        "family": "Meraz-Gutierrez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos M.",
+        "family": "Dulanto-Reinoso",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cristina",
+        "family": "Montero-Mendoza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "for the Imaging and Informatics in Retinopathy of Prematurity Consortium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "10",
+    "reference": [
+      {
+        "issue": "12",
+        "key": "eoi230018r1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e60",
+        "DOI": "10.2105/AJPH.2015.302903",
+        "article-title": "Implicit racial/ethnic bias among health care professionals and its influence on health care outcomes: a systematic review.",
+        "volume": "105",
+        "author": "Hall",
+        "year": "2015",
+        "journal-title": "Am J Public Health"
+      },
+      {
+        "issue": "10",
+        "key": "eoi230018r2",
+        "doi-asserted-by": "publisher",
+        "first-page": "17",
+        "DOI": "10.1007/s11908-021-00758-x",
+        "article-title": "Racial/ethnic inequities in health care–associated infections under the shadow of structural racism: narrative review and call to action.",
+        "volume": "23",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Curr Infect Dis Rep"
+      },
+      {
+        "issue": "5",
+        "key": "eoi230018r3",
+        "doi-asserted-by": "publisher",
+        "first-page": "463",
+        "DOI": "10.1159/000516494",
+        "article-title": "Weight stigma and disease and disability concepts of obesity: a survey of the German population.",
+        "volume": "14",
+        "author": "Hilbert",
+        "year": "2021",
+        "journal-title": "Obes Facts"
+      },
+      {
+        "issue": "11",
+        "key": "eoi230018r4",
+        "doi-asserted-by": "publisher",
+        "first-page": "998",
+        "DOI": "10.1016/j.jhsa.2021.07.009",
+        "article-title": "Racial and gender discrimination in hand surgery letters of recommendation.",
+        "volume": "46",
+        "author": "Bradford",
+        "year": "2021",
+        "journal-title": "J Hand Surg Am"
+      },
+      {
+        "issue": "19",
+        "key": "eoi230018r5",
+        "doi-asserted-by": "publisher",
+        "first-page": "3500",
+        "DOI": "10.1002/cncr.v127.19",
+        "article-title": "The intersection of racism, discrimination, bias, and homophobia toward African American sexual minority patients with cancer within the health care system.",
+        "volume": "127",
+        "author": "Elk",
+        "year": "2021",
+        "journal-title": "Cancer"
+      },
+      {
+        "issue": "2",
+        "key": "eoi230018r6",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1167/tvst.10.2.13",
+        "article-title": "Addressing artificial intelligence bias in retinal diagnostics.",
+        "volume": "10",
+        "author": "Burlina",
+        "year": "2021",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "2",
+        "key": "eoi230018r7",
+        "doi-asserted-by": "publisher",
+        "first-page": "e14",
+        "DOI": "10.1016/j.ophtha.2021.08.023",
+        "article-title": "Foundational considerations for artificial intelligence using ophthalmic images.",
+        "volume": "129",
+        "author": "Abràmoff",
+        "year": "2022",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "11",
+        "key": "eoi230018r9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1247",
+        "DOI": "10.1001/jamadermatol.2018.2348",
+        "article-title": "Machine learning and health care disparities in dermatology.",
+        "volume": "154",
+        "author": "Adamson",
+        "year": "2018",
+        "journal-title": "JAMA Dermatol"
+      },
+      {
+        "issue": "3",
+        "key": "eoi230018r10",
+        "doi-asserted-by": "publisher",
+        "first-page": "297",
+        "DOI": "10.1038/eye.2010.187",
+        "article-title": "Ethnicity and ocular imaging.",
+        "volume": "25",
+        "author": "Bourne",
+        "year": "2011",
+        "journal-title": "Eye (Lond)"
+      },
+      {
+        "issue": "7",
+        "key": "eoi230018r11",
+        "doi-asserted-by": "publisher",
+        "first-page": "803",
+        "DOI": "10.1001/jamaophthalmol.2018.1934",
+        "article-title": "Automated diagnosis of plus disease in retinopathy of prematurity using deep convolutional neural networks.",
+        "volume": "136",
+        "author": "Brown",
+        "year": "2018",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "2",
+        "key": "eoi230018r13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JMI.6.2.025008",
+        "article-title": "Microaneurysms segmentation with a U-Net based on recurrent residual convolutional neural network.",
+        "volume": "6",
+        "author": "Kou",
+        "year": "2019",
+        "journal-title": "J Med Imaging (Bellingham)"
+      },
+      {
+        "issue": "2",
+        "key": "eoi230018r14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jncics/pkaa010",
+        "article-title": "Determinants of mammographic breast density by race among a large screening population.",
+        "volume": "4",
+        "author": "Moore",
+        "year": "2020",
+        "journal-title": "J Natl Cancer Inst Cancer Spectr"
+      },
+      {
+        "key": "eoi230018r15",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1186/s40662-020-00183-6",
+        "article-title": "Application of machine learning in ophthalmic imaging modalities.",
+        "volume": "7",
+        "author": "Tong",
+        "year": "2020",
+        "journal-title": "Eye Vis (Lond)"
+      },
+      {
+        "issue": "22",
+        "key": "eoi230018r16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes.",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "10",
+        "key": "eoi230018r17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e51",
+        "DOI": "10.1016/j.ophtha.2021.05.031",
+        "article-title": "International classification of retinopathy of prematurity, third edition.",
+        "volume": "128",
+        "author": "Chiang",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "eoi230018r18",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1542/peds.2004-1413",
+        "article-title": "The incidence and course of retinopathy of prematurity: findings from the early treatment for retinopathy of prematurity study.",
+        "volume": "116",
+        "author": "Good",
+        "year": "2005",
+        "journal-title": "Pediatrics"
+      },
+      {
+        "issue": "3",
+        "key": "eoi230018r19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1542/peds.2020-016618",
+        "article-title": "Applications of artificial intelligence for retinopathy of prematurity screening.",
+        "volume": "147",
+        "author": "Campbell",
+        "year": "2021",
+        "journal-title": "Pediatrics"
+      },
+      {
+        "issue": "3",
+        "key": "eoi230018r20",
+        "doi-asserted-by": "publisher",
+        "first-page": "160",
+        "DOI": "10.1016/j.jaapos.2020.01.014",
+        "article-title": "Evaluation of artificial intelligence-based telemedicine screening for retinopathy of prematurity.",
+        "volume": "24",
+        "author": "Greenwald",
+        "year": "2020",
+        "journal-title": "J AAPOS"
+      },
+      {
+        "issue": "4",
+        "key": "eoi230018r21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100165",
+        "article-title": "Evaluation of an artificial intelligence system for retinopathy of prematurity screening in Nepal and Mongolia.",
+        "volume": "2",
+        "author": "Cole",
+        "year": "2022",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "issue": "6",
+        "key": "eoi230018r22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1542/peds.2021-051772",
+        "article-title": "Single-examination risk prediction of severe retinopathy of prematurity.",
+        "volume": "148",
+        "author": "Coyner",
+        "year": "2021",
+        "journal-title": "Pediatrics"
+      },
+      {
+        "issue": "8",
+        "key": "eoi230018r23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1105",
+        "DOI": "10.1016/j.ophtha.2020.01.052",
+        "article-title": "Aggressive posterior retinopathy of prematurity: clinical and quantitative imaging features in a large North American cohort.",
+        "volume": "127",
+        "author": "Bellsmith",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "20",
+        "key": "eoi230018r24",
+        "doi-asserted-by": "publisher",
+        "first-page": "2191",
+        "DOI": "10.1001/jama.2013.281053",
+        "article-title": "World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects.",
+        "volume": "310",
+        "author": "World Medical Association",
+        "year": "2013",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "11",
+        "key": "eoi230018r25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2016-012799",
+        "article-title": "STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration.",
+        "volume": "6",
+        "author": "Cohen",
+        "year": "2016",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "issue": "6",
+        "key": "eoi230018r26",
+        "doi-asserted-by": "publisher",
+        "first-page": "462",
+        "DOI": "10.1006/cgip.1994.1042",
+        "article-title": "Building skeleton models via 3-D medial surface axis thinning algorithms.",
+        "volume": "56",
+        "author": "Lee",
+        "year": "1994",
+        "journal-title": "CVGIP Graph Models Image Process"
+      },
+      {
+        "issue": "5",
+        "key": "eoi230018r30",
+        "doi-asserted-by": "publisher",
+        "first-page": "3650",
+        "DOI": "10.1167/iovs.12-11126",
+        "article-title": "Racial differences in retinal vessel geometric characteristics: a multiethnic study in healthy Asians.",
+        "volume": "54",
+        "author": "Li",
+        "year": "2013",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "4",
+        "key": "eoi230018r31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1362",
+        "DOI": "10.1167/iovs.07-0150",
+        "article-title": "Ethnic variability in retinal vessel caliber: a potential source of measurement error from ocular pigmentation—the Sydney Childhood Eye Study.",
+        "volume": "49",
+        "author": "Rochtchina",
+        "year": "2008",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "6",
+        "key": "eoi230018r32",
+        "doi-asserted-by": "publisher",
+        "first-page": "2341",
+        "DOI": "10.1167/iovs.05-1539",
+        "article-title": "Retinal vascular caliber, cardiovascular risk factors, and inflammation: the multi-ethnic study of atherosclerosis (MESA).",
+        "volume": "47",
+        "author": "Wong",
+        "year": "2006",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "3",
+        "key": "eoi230018r33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1018",
+        "DOI": "10.1167/iovs.06-0978",
+        "article-title": "Distribution and associations of retinal vascular caliber with ethnicity, gender, and birth parameters in young children.",
+        "volume": "48",
+        "author": "Cheung",
+        "year": "2007",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "4",
+        "key": "eoi230018r34",
+        "doi-asserted-by": "publisher",
+        "first-page": "644",
+        "DOI": "10.1161/01.HYP.0000208303.74884.78",
+        "article-title": "Genetic determinants of retinal vascular caliber: additional insights into hypertension pathogenesis.",
+        "volume": "47",
+        "author": "Wang",
+        "year": "2006",
+        "journal-title": "Hypertension"
+      },
+      {
+        "issue": "4",
+        "key": "eoi230018r35",
+        "doi-asserted-by": "publisher",
+        "first-page": "797",
+        "DOI": "10.1161/01.HYP.0000208330.68355.72",
+        "article-title": "Genome-wide linkage study of retinal vessel diameters in the Beaver Dam Eye Study.",
+        "volume": "47",
+        "author": "Xing",
+        "year": "2006",
+        "journal-title": "Hypertension"
+      },
+      {
+        "issue": "8",
+        "key": "eoi230018r36",
+        "doi-asserted-by": "publisher",
+        "first-page": "5176",
+        "DOI": "10.1167/iovs.14-14105",
+        "article-title": "Quantification of retinal nerve fiber and retinal artery trajectories using second-order polynomial equation and its association with axial length.",
+        "volume": "55",
+        "author": "Yamashita",
+        "year": "2014",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "10",
+        "key": "eoi230018r37",
+        "doi-asserted-by": "publisher",
+        "first-page": "4671",
+        "DOI": "10.1167/iovs.07-0267",
+        "article-title": "Biometry data from Caucasian and African American cataractous pediatric eyes.",
+        "volume": "48",
+        "author": "Trivedi",
+        "year": "2007",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "3",
+        "key": "eoi230018r40",
+        "doi-asserted-by": "publisher",
+        "first-page": "814",
+        "DOI": "10.1016/j.bbe.2019.06.009",
+        "article-title": "A hybrid method for blood vessel segmentation in images.",
+        "volume": "39",
+        "author": "Primitivo",
+        "year": "2019",
+        "journal-title": "Biocybern Biomed Eng"
+      },
+      {
+        "issue": "4",
+        "key": "eoi230018r41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100165",
+        "article-title": "Evaluation of an artificial intelligence system for retinopathy of prematurity screening in Nepal and Mongolia.",
+        "volume": "2",
+        "author": "Al-Khaled",
+        "year": "2022",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "eoi230018r29",
+        "author": "He",
+        "year": "2015"
+      },
+      {
+        "key": "eoi230018r39",
+        "author": "Alokasi",
+        "year": "2022"
+      },
+      {
+        "key": "eoi230018r8",
+        "unstructured": "Banerjee? I, Bhimireddy? AR, Burns? JL, . Reading race: AI recognises patient’s racial identity in medical images. arXiv. Published online July 21, 2021. https://arxiv.org/abs/2107.10356"
+      },
+      {
+        "key": "eoi230018r12",
+        "unstructured": "Jaeger? PF, Kohl? SAA, Bickelhaupt? S, . Retina u-net: embarrassingly simple exploitation of segmentation supervision for medical object detection. arXiv. Published online November 21, 2018. https://arxiv.org/abs/1811.08661"
+      },
+      {
+        "key": "eoi230018r27",
+        "unstructured": "Paszke? A, Gross? S, Massa? F, . PyTorch: an imperative style, high-performance deep learning library. arXiv. Published online December 3, 2019. https://arxiv.org/abs/1912.01703"
+      },
+      {
+        "key": "eoi230018r28",
+        "unstructured": "Python Software Foundation. Home page. Accessed August 31, 2021. https://www.python.org/psf/"
+      },
+      {
+        "key": "eoi230018r38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang? TC, Liu? MY, Zhu? JY, Tao? A, Kautz? J, Catanzaro? B. High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs.? arXiv. Preprint posted online November 30, 2017. doi:10.1109/CVPR.2018.00917",
+        "DOI": "10.1109/CVPR.2018.00917"
+      }
+    ],
+    "container-title": [
+      "JAMA Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://jamanetwork.com/journals/jamaophthalmology/articlepdf/2804442/jamaophthalmology_coyner_2023_oi_230018_1686235837.10059.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2023-06-15T15:01:35Z",
+      "timestamp": 1686841295000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2804442"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          1
+        ]
+      ]
+    },
+    "references-count": 41,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1001/jamaophthalmol.2023.1310",
+    "relation": {},
+    "ISSN": [
+      "2168-6165"
+    ],
+    "issn-type": [
+      {
+        "value": "2168-6165",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          1
+        ]
+      ]
+    }
+  }
+}

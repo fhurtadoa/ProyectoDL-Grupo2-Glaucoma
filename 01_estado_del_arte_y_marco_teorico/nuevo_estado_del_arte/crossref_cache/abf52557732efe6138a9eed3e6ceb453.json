@@ -1,0 +1,1246 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2026-09-15T13:13:45Z",
+      "timestamp": 1789478025744,
+      "version": "build-2803163510"
+    },
+    "reference-count": 118,
+    "publisher": "Informa UK Limited",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2022-03-01T00:00:00Z",
+          "timestamp": 1646092800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "OPTH"
+    ],
+    "DOI": "10.2147/opth.s348479",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2022-03-10T19:40:19Z",
+      "timestamp": 1646941219000
+    },
+    "page": "747-764",
+    "source": "Crossref",
+    "is-referenced-by-count": 37,
+    "title": [
+      "Machine Learning and Deep Learning Techniques for Optic Disc and Cup Segmentation – A Review"
+    ],
+    "prefix": "10.2147",
+    "volume": "Volume 16",
+    "author": [
+      {
+        "given": "Mohammed",
+        "family": "Alawad",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5592-2462",
+        "authenticated-orcid": true,
+        "given": "Abdulrhman",
+        "family": "Aljouie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suhailah",
+        "family": "Alamri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9389-4722",
+        "authenticated-orcid": true,
+        "given": "Mansour",
+        "family": "Alghamdi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4804-7866",
+        "authenticated-orcid": true,
+        "given": "Balsam",
+        "family": "Alabdulkader",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Norah",
+        "family": "Alkanhal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8854-6344",
+        "authenticated-orcid": true,
+        "given": "Ahmed",
+        "family": "Almazroa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "unstructured": "World Health Organization (WHO). Blindness and vision impairment (2021). Available from: https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment. Accessed February, 2021."
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "first-page": "389",
+        "DOI": "10.1136/bjo.80.5.389",
+        "volume": "80",
+        "author": "Quigley",
+        "year": "1996",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "first-page": "477",
+        "DOI": "10.1007/s10792-008-9269-4",
+        "volume": "29",
+        "author": "Eid",
+        "year": "2009",
+        "journal-title": "Int Ophthalmol"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "first-page": "373",
+        "DOI": "10.1016/j.sjopt.2011.09.001",
+        "volume": "25",
+        "author": "Al obeidan",
+        "year": "2011",
+        "journal-title": "Saudi J Ophthalmol"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1162",
+        "DOI": "10.1136/bjophthalmol-2011-301189",
+        "volume": "96",
+        "author": "Day",
+        "year": "2012",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "first-page": "86",
+        "DOI": "10.1136/bjophthalmol-2015-307223",
+        "volume": "100",
+        "author": "Kapetanakis",
+        "year": "2016",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "first-page": "78",
+        "DOI": "10.1136/bjophthalmol-2014-306102",
+        "volume": "100",
+        "author": "Chan",
+        "year": "2016",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "first-page": "2905",
+        "DOI": "10.1167/iovs.15-18469",
+        "volume": "57",
+        "author": "Gupta",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1221",
+        "DOI": "10.1016/S2214-109X(17)30393-5",
+        "volume": "5",
+        "author": "Flaxman",
+        "year": "2017",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "first-page": "332",
+        "DOI": "10.1016/j.sjopt.2019.02.006",
+        "volume": "33",
+        "author": "Khandekar",
+        "year": "2019",
+        "journal-title": "Saudi J Ophthalmol"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "624179",
+        "DOI": "10.3389/fmed.2020.624179",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Front Med"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "first-page": "169",
+        "DOI": "10.1111/ceo.13138",
+        "volume": "46",
+        "author": "Myers",
+        "year": "2018",
+        "journal-title": "Clin Experiment Ophthalmol"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/TPAMI.2021.3059968",
+        "author": "Minaee",
+        "year": "2021",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3329784",
+        "volume": "52",
+        "author": "Ghosh",
+        "year": "2019",
+        "journal-title": "ACM Comput Surv"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.3389/fcvm.2020.00025",
+        "volume": "7",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Front Cardiovasc Med"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "first-page": "449",
+        "DOI": "10.1007/s10278-017-9983-4",
+        "volume": "30",
+        "author": "Akkus",
+        "year": "2017",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "first-page": "317",
+        "DOI": "10.1016/j.procs.2016.09.407",
+        "volume": "102",
+        "author": "Işın",
+        "year": "2016",
+        "journal-title": "Procedia Comput Sci"
+      },
+      {
+        "key": "ref20",
+        "volume-title": "Multimedia Tools and Applications",
+        "year": "2020"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2607",
+        "DOI": "10.1007/s11831-020-09470-w",
+        "volume": "28",
+        "author": "Krithiga",
+        "year": "2021",
+        "journal-title": "Arch Comput Methods Eng"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "first-page": "429",
+        "DOI": "10.1109/JBHI.2020.3039741",
+        "volume": "25",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "first-page": "3243",
+        "DOI": "10.3390/s20113243",
+        "volume": "20",
+        "author": "Yamanakkanavar",
+        "year": "2020",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.26599/BDMA.2018.9020001",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Big Data Min Anal"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "first-page": "4093",
+        "DOI": "10.1007/s10462-019-09788-3",
+        "volume": "53",
+        "author": "Domingues",
+        "year": "2020",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1318",
+        "DOI": "10.1016/j.jacr.2019.06.004",
+        "volume": "16",
+        "author": "Akkus",
+        "year": "2019",
+        "journal-title": "J Am Coll Radiol"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "first-page": "264",
+        "DOI": "10.22608/APO.2018479",
+        "volume": "8",
+        "author": "Balyen",
+        "year": "2019",
+        "journal-title": "Asia Pac J Ophthalmol"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "first-page": "42",
+        "DOI": "10.1167/tvst.9.2.42",
+        "volume": "9",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "first-page": "100759",
+        "DOI": "10.1016/j.preteyeres.2019.04.003",
+        "volume": "72",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "first-page": "101758",
+        "DOI": "10.1016/j.artmed.2019.101758",
+        "volume": "102",
+        "author": "Sengupta",
+        "year": "2020",
+        "journal-title": "Artif Intell Med"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.1016/j.bspc.2018.01.014",
+        "volume": "42",
+        "author": "Thakur",
+        "year": "2018",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.cmpb.2018.07.012",
+        "volume": "165",
+        "author": "Hagiwara",
+        "year": "2018",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12938-020-00767-2",
+        "volume": "19",
+        "author": "Barros",
+        "year": "2020",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.1167/tvst.9.2.55",
+        "volume": "9",
+        "author": "Mursch-Edlmayr",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2015/180972",
+        "volume": "2015",
+        "author": "Almazroa",
+        "year": "2015",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "first-page": "2017",
+        "DOI": "10.2147/OPTH.S140061",
+        "volume": "11",
+        "author": "Almazroa",
+        "year": "2017",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2017/4826385",
+        "volume": "2017",
+        "author": "Almazroa",
+        "year": "2017",
+        "journal-title": "Int J Biomed Imaging"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "first-page": "841",
+        "DOI": "10.2147/OPTH.S117157",
+        "volume": "11",
+        "author": "Almazroa",
+        "year": "2017",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gopalakrishnan A, Almazroa A, Raahemifar K, Lakshminarayanan V. Optic disc segmentation using circular Hough transform and curve fitting. In: 2015 2nd International Conference on Opto-Electronics and Applied Optics (IEM OPTRONIX); IEEE; October 2015:1–4.",
+        "DOI": "10.1109/OPTRONIX.2015.7345530"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Biran A, Bidari PS, Almazroa A, Lakshminarayanan V, Raahemifar K. Blood vessels extraction from retinal images using combined 2D Gabor wavelet transform with local entropy thresholding and alternative sequential filter. In: 2016 IEEE Canadian conference on electrical and computer engineering (CCECE); IEEE; May, 2016:1–5.",
+        "DOI": "10.1109/CCECE.2016.7726848"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almazroa A, Alodhayb S, Burman R, Sun W, Raahemifar K, Lakshminarayanan V. Optic cup segmentation based on extracting blood vessel kinks and cup thresholding using Type-II fuzzy approach. In: 2015 2nd International Conference on Opto-Electronics and Applied Optics (IEM OPTRONIX); IEEE; October, 2015:1–3.",
+        "DOI": "10.1109/OPTRONIX.2015.7345519"
+      },
+      {
+        "key": "ref43",
+        "volume-title": "Advances in Optical Science and Engineering",
+        "year": "2015"
+      },
+      {
+        "key": "ref44",
+        "volume-title": "Medical Imaging 2017: Imaging Informatics for Healthcare, Research, and Applications",
+        "year": "2017"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "first-page": "3881",
+        "DOI": "10.2147/OPTH.S273659",
+        "volume": "14",
+        "author": "Almazroa",
+        "year": "2020",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eswari MS, Karkuzhali S. Survey on segmentation and classification methods for diagnosis of glaucoma. In: 2020 International Conference on Computer Communication and Informatics (ICCCI); IEEE; January, 2020:1–6.",
+        "DOI": "10.1109/ICCCI48352.2020.9104216"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero F, Alayón S, Sanchez JL, Sigut J, Gonzalez-Hernandez M. RIM-ONE: an open retinal image database for optic nerve evaluation. In: 2011 24th international symposium on computer-based medical systems (CBMS); IEEE; June, 2011:1–6.",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy J, Krishnadas SR, Joshi GD, Jain M, Tabish AUS. Drishti-gs: retinal image dataset for optic nerve head (onh) segmentation. In: 2014 IEEE 11th international symposium on biomedical imaging (ISBI); IEEE; April, 2014:53–56.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "first-page": "243",
+        "DOI": "10.1016/j.artmed.2008.04.005",
+        "volume": "43",
+        "author": "Carmona",
+        "year": "2008",
+        "journal-title": "Artif Intell Med"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "first-page": "3763",
+        "DOI": "10.1364/BOE.8.003763",
+        "volume": "8",
+        "author": "Cheng",
+        "year": "2017",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "ref52",
+        "unstructured": "Zhang Z, Yin FS, Liu J, et al. Origa-light: an online retinal fundus image database for glaucoma analysis and research. In 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology; IEEE; August, 2010:3065–3068."
+      },
+      {
+        "key": "ref53",
+        "volume-title": "Medical Imaging 2018: Imaging Informatics for Healthcare, Research, and Applications",
+        "year": "2018"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "first-page": "413",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "volume": "39",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "volume": "18",
+        "author": "Diaz-Pinto",
+        "year": "2019",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "first-page": "45",
+        "DOI": "10.1007/s00769-006-0191-z",
+        "volume": "12",
+        "author": "Menditto",
+        "year": "2007",
+        "journal-title": "Accreditation Qual Assur"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "author": "Powers",
+        "year": "2011",
+        "DOI": "10.48550/arXiv.2010.16061"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dice LR. Measures of the Amount of Ecologic Association Between Species. Ecology. 1945;26:297-302. doi:10.2307/1932409.",
+        "DOI": "10.2307/1932409"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jaccard P. The distribution of the flora in the alpine zone. New Phytologist. 1912;11:37-50. doi:10.1111/j.1469-8137.1912.tb05611.x",
+        "DOI": "10.1111/j.1469-8137.1912.tb05611.x"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "first-page": "1465",
+        "DOI": "10.1109/TPAMI.2015.2481406",
+        "volume": "38",
+        "author": "Pont-Tuset",
+        "year": "2015",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Margolin R, Zelnik-Manor L, Tal A. How to evaluate foreground maps? Proceedings of the IEEE conference on computer vision and pattern recognition; 2014:248–255.",
+        "DOI": "10.1109/CVPR.2014.39"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "first-page": "64483",
+        "DOI": "10.1109/ACCESS.2019.2917508",
+        "volume": "7",
+        "author": "Jiang",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "first-page": "3043",
+        "DOI": "10.1364/BOE.390056",
+        "volume": "11",
+        "author": "Tian",
+        "year": "2020",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12880-020-00528-6",
+        "volume": "21",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "BMC Med Imaging"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kuruvilla J, Sukumaran D, Sankar A, Joy SP. A review on image processing and image segmentation. In: 2016 international conference on data mining and advanced computing (SAPIENCE); IEEE; March, 2016:198–203.",
+        "DOI": "10.1109/SAPIENCE.2016.7684170"
+      },
+      {
+        "key": "ref66",
+        "unstructured": "Treml M, Arjona-Medina J, Unterthiner T, et al. Speeding up semantic segmentation for autonomous driving; 2016."
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "first-page": "102733",
+        "DOI": "10.1109/ACCESS.2020.2998635",
+        "volume": "8",
+        "author": "Tabassum",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "first-page": "82",
+        "DOI": "10.1016/j.bspc.2019.01.022",
+        "volume": "51",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "ref69",
+        "volume-title": "Medical Image Understanding and Analysis",
+        "year": "2007"
+      },
+      {
+        "key": "ref70",
+        "author": "Chakravarty",
+        "year": "2018"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "first-page": "2281",
+        "DOI": "10.1109/TMI.2019.2903562",
+        "volume": "38",
+        "author": "Gu",
+        "year": "2019",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.3390/sym10040087",
+        "volume": "10",
+        "author": "Al-Bander",
+        "year": "2018",
+        "journal-title": "Symmetry"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang Z, Fu H, Dai H, Shen J, Pang Y, Shao L. Et-net: a generic edge-attention guidance network for medical image segmentation. In: International Conference on Medical Image Computing and Computer-Assisted Intervention; October, 2019:442–450; Springer, Cham.",
+        "DOI": "10.1007/978-3-030-32239-7_49"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "first-page": "106165",
+        "DOI": "10.1016/j.asoc.2020.106165",
+        "volume": "90",
+        "author": "Bisneto",
+        "year": "2020",
+        "journal-title": "Appl Soft Comput"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "first-page": "28",
+        "DOI": "10.1016/j.compmedimag.2016.07.012",
+        "volume": "55",
+        "author": "Zilly",
+        "year": "2017",
+        "journal-title": "Comput Med Imaging Graph"
+      },
+      {
+        "key": "ref77",
+        "author": "Ding",
+        "year": "2019",
+        "journal-title": ""
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "first-page": "103485",
+        "DOI": "10.1016/j.compbiomed.2019.103485",
+        "volume": "115",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "first-page": "3064",
+        "DOI": "10.3390/app9153064",
+        "volume": "9",
+        "author": "Kim",
+        "year": "2019",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "first-page": "618",
+        "DOI": "10.1134/S1054661817030269",
+        "volume": "27",
+        "author": "Sevastopolsky",
+        "year": "2017",
+        "journal-title": "Pattern Recognit Image Anal"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun X, Xu Y, Zhao W, You T, Liu J. Optic disc segmentation from retinal fundus images via deep object detection networks. In: 2018 40th annual international conference of the IEEE engineering in medicine and biology society (EMBC); IEEE; July, 2018:5954–5957.",
+        "DOI": "10.1109/EMBC.2018.8513592"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "first-page": "2485",
+        "DOI": "10.1109/TMI.2019.2899910",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref84",
+        "volume-title": "CCIA",
+        "year": "2018"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1016/j.compmedimag.2019.02.005",
+        "volume": "74",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Comput Med Imaging Graph"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joshua AO, Nelwamondo FV, Mabuza-Hocquet G. Segmentation of optic cup and disc for diagnosis of glaucoma on retinal fundus images. In: 2019 Southern African Universities Power Engineering Conference/Robotics and Mechatronics/Pattern Recognition Association of South Africa (SAUPEC/RobMech/PRASA); IEEE; January, 2019:183–187.",
+        "DOI": "10.1109/RoboMech.2019.8704727"
+      },
+      {
+        "key": "ref87",
+        "volume-title": "Medical Imaging 2019: Image Processing",
+        "year": "2019"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sedai S, Roy P, Mahapatra D, Garnavi R. Segmentation of optic disc and optic cup in retinal fundus images using coupled shape regression. Proceedings of the Ophthalmic Medical Image Analysis International Workshop. Athens, Greece; 2016.",
+        "DOI": "10.17077/omia.1040"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "publisher",
+        "first-page": "499",
+        "DOI": "10.1007/s10278-018-0126-3",
+        "volume": "32",
+        "author": "Son",
+        "year": "2019",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12911-018-0723-6",
+        "volume": "19",
+        "author": "Bajwa",
+        "year": "2019",
+        "journal-title": "BMC Med Inform Decis Mak"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "crossref",
+        "first-page": "1345",
+        "DOI": "10.1167/iovs.10-6112",
+        "volume": "52",
+        "author": "Budai",
+        "year": "2011",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao R, Liao W, Zou B, Chen Z, Li S. Weakly-supervised simultaneous evidence identification and segmentation for automated glaucoma diagnosis. In: Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33, No. 01; July, 2019:809–816.",
+        "DOI": "10.1609/aaai.v33i01.3301809"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "first-page": "4916",
+        "DOI": "10.3390/app10144916",
+        "volume": "10",
+        "author": "Sreng",
+        "year": "2020",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "first-page": "70",
+        "DOI": "10.1016/j.jocs.2017.02.006",
+        "volume": "20",
+        "author": "Tan",
+        "year": "2017",
+        "journal-title": "J Comput Sci"
+      },
+      {
+        "key": "ref95",
+        "volume-title": "International Workshop on Machine Learning in Medical Imaging",
+        "year": "2015"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yao Z, Zhang Z, Xu LQ. Convolutional neural network for retinal blood vessel segmentation. In: 2016 9th international symposium on Computational intelligence and design (ISCID). Vol. 1. IEEE; December, 2016:406–409.",
+        "DOI": "10.1109/ISCID.2016.1100"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen LC, Zhu Y, Papandreou G, Schroff F, Adam H. Encoder-decoder with atrous separable convolution for semantic image segmentation. In: Proceedings of the European conference on computer vision (ECCV); 2018:801–818.",
+        "DOI": "10.1007/978-3-030-01234-2_49"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "publisher",
+        "first-page": "1904",
+        "DOI": "10.1109/TPAMI.2015.2389824",
+        "volume": "37",
+        "author": "He",
+        "year": "2015",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref99",
+        "first-page": "91",
+        "volume": "28",
+        "author": "Ren",
+        "year": "2015",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref100",
+        "first-page": "033012",
+        "volume": "28",
+        "author": "Lu",
+        "year": "2019",
+        "journal-title": "J Electron Imaging"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "first-page": "1417",
+        "DOI": "10.1109/JBHI.2019.2899403",
+        "volume": "23",
+        "author": "Shankaranarayana",
+        "year": "2019",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O, Fischer P, Brox T. U-net: convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention; October, 2015:234–241; Springer, Cham.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maninis KK, Pont-Tuset J, Arbeláez P, Van Gool L. Deep retinal image understanding. In: International conference on medical image computing and computer-assisted intervention; October, 2016:140–148; Springer, Cham.",
+        "DOI": "10.1007/978-3-319-46723-8_17"
+      },
+      {
+        "key": "ref104",
+        "author": "Kingma",
+        "year": "2013",
+        "journal-title": ""
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "first-page": "139",
+        "DOI": "10.1145/3422622",
+        "volume": "63",
+        "author": "Goodfellow",
+        "year": "2020",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "key": "ref106",
+        "author": "Luc",
+        "year": "2016",
+        "journal-title": ""
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "first-page": "321",
+        "DOI": "10.1016/j.neucom.2018.09.013",
+        "volume": "321",
+        "author": "Frid-Adar",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref108",
+        "doi-asserted-by": "publisher",
+        "first-page": "53",
+        "DOI": "10.1109/MSP.2017.2765202",
+        "volume": "35",
+        "author": "Creswell",
+        "year": "2018",
+        "journal-title": "IEEE Signal Process Mag"
+      },
+      {
+        "key": "ref109",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isola P, Zhu JY, Zhou T, Efros AA. Image-to-image translation with conditional adversarial networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017:1125–1134.",
+        "DOI": "10.1109/CVPR.2017.632"
+      },
+      {
+        "key": "ref110",
+        "author": "Simonyan",
+        "year": "2014",
+        "journal-title": ""
+      },
+      {
+        "key": "ref111",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "Refug Rep"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "first-page": "701",
+        "DOI": "10.1007/s10792-016-0329-x",
+        "volume": "37",
+        "author": "Almazroa",
+        "year": "2017",
+        "journal-title": "Int Ophthalmol"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1016/j.neucom.2018.05.083",
+        "volume": "312",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.3390/jimaging7060092",
+        "volume": "7",
+        "author": "Krishna Adithya",
+        "year": "2021",
+        "journal-title": "J Imaging"
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "publisher",
+        "first-page": "844",
+        "DOI": "10.3390/e22080844",
+        "volume": "22",
+        "author": "Jin",
+        "year": "2020",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "ref116",
+        "doi-asserted-by": "publisher",
+        "first-page": "311",
+        "DOI": "10.1016/j.ogla.2020.04.008",
+        "volume": "3",
+        "author": "Yousefi",
+        "year": "2020",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "publisher",
+        "first-page": "2571",
+        "DOI": "10.1016/j.ophtha.2016.08.021",
+        "volume": "123",
+        "author": "Nguyen",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "publisher",
+        "first-page": "451",
+        "DOI": "10.1038/s41433-019-0566-0",
+        "volume": "34",
+        "author": "Grzybowski",
+        "year": "2020",
+        "journal-title": "Eye"
+      }
+    ],
+    "container-title": [
+      "Clinical Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.dovepress.com/getfile.php?fileID=79034",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.dovepress.com/getfile.php?fileID=79034",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2022-03-10T19:40:43Z",
+      "timestamp": 1646941243000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.dovepress.com/machine-learning-and-deep-learning-techniques-for-optic-disc-and-cup-s-peer-reviewed-fulltext-article-OPTH"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3
+        ]
+      ]
+    },
+    "references-count": 118,
+    "URL": "https://doi.org/10.2147/opth.s348479",
+    "relation": {},
+    "ISSN": [
+      "1177-5483"
+    ],
+    "issn-type": [
+      {
+        "value": "1177-5483",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3
+        ]
+      ]
+    }
+  }
+}

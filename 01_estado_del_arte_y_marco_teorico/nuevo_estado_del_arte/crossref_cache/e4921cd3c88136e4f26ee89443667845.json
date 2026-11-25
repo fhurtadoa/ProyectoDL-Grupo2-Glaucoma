@@ -1,0 +1,743 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T05:38:26Z",
+      "timestamp": 1792561106062,
+      "version": "4.5.0"
+    },
+    "reference-count": 45,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2026-10-21T00:00:00Z",
+          "timestamp": 1792540800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Ophthalmol."
+    ],
+    "abstract": "<jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Glaucoma is among the leading causes of blindness. It is important to detect glaucoma at early stages. Using structural and functional examinations to identify primary open-angle glaucoma (POAG) is critical. Computer-aided diagnosis of glaucoma requires multimodal data to identify an accurate and explainable model for early glaucoma diagnosis.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>In this study, 301 multimodal data points were collected from the ophthalmology department at the Second Affiliated Hospital of Harbin Medical University. Data regarding fundus photography (FP), retinal nerve fiber layer thickness (RNFLt), intraocular pressure (IOP) values, visual field examination parameters and age were obtained. A powerful deep learning network was used to segment the optic nerve head obtained from the FPs. Machine learning classifiers (MLCs) were adopted to obtain the final classification results using 3 datasets: early glaucoma eyes, suspected glaucoma eyes, and healthy eyes; moreover, the diagnostic results of glaucoma specialists and general nonglaucoma ophthalmologists were collected.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>The overall area under the curve was 0.9858. The accuracy values of the deep learning- machine learning system, the glaucoma specialist group, the general ophthalmologist group were 0.9478, 0.9493, 0.8725, respectively.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>The algorithm delivers superior results in the early diagnosis of POAG. This study’s hybrid deep learning-machine learning framework can effectively assist with clinical decision-making for early POAG.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.3389/fopht.2026.1975341",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T04:41:53Z",
+      "timestamp": 1792557713000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Early diagnosis program for multimodal primary open-angle glaucoma based on clinical process"
+    ],
+    "prefix": "10.3389",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Jingyi",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bin",
+        "family": "Lv",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Harbin Institute of Technology",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanyuan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pan",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xu",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Harbin Institute of Technology",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yingtao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Harbin Institute of Technology",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huiping",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University",
+            "place": [
+              "Harbin, Heilongjiang, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: A systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0140-6736(04)16257-0",
+        "article-title": "Primary open-angle glaucoma",
+        "volume": "363",
+        "author": "Weinreb",
+        "year": "2004",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1121",
+        "DOI": "10.1016/j.ajo.2014.08.023",
+        "article-title": "Burden of undetected and untreated glaucoma in the United States",
+        "volume": "158",
+        "author": "Shaikh",
+        "year": "2014",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1370/afm.294",
+        "article-title": "Screening for glaucoma: Recommendation statement",
+        "volume": "3",
+        "year": "2005",
+        "journal-title": "Ann Fam Med"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1590/S0004-27492011000200001",
+        "article-title": "Managing glaucoma in developing countries",
+        "volume": "74",
+        "author": "Leite",
+        "year": "",
+        "journal-title": "Arquivos Brasileiros Oftalmologia"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1586/17469899.2014.967218",
+        "article-title": "Gaps in glaucoma care: A systematic review of monoscopic disc photos to screen for glaucoma",
+        "volume": "9",
+        "author": "Newman-Casey",
+        "year": "2014",
+        "journal-title": "Expert Rev Ophthalmol"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3399/bjgp18x695213",
+        "article-title": "Artificial intelligence in medicine: Current trends and future possibilities",
+        "volume": "68",
+        "author": "Buch",
+        "year": "2018",
+        "journal-title": "Br J Gen Pract"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.preteyeres.2018.07.004",
+        "article-title": "Artificial intelligence in retina",
+        "volume": "67",
+        "author": "Schmidt-Erfurth",
+        "year": "2018",
+        "journal-title": "Prog Retinal Eye Res"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2017.04.007",
+        "article-title": "A machine-learning graph-based approach for 3D segmentation of Bruch’s membrane opening from glaucomatous SD-OCT volumes",
+        "volume": "39",
+        "author": "Miri",
+        "year": "2017",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/boe.9.003244",
+        "article-title": "DRUNET: A dilated-residual U-Net deep learning network to segment optic nerve head tissues in optical coherence tomography images",
+        "volume": "9",
+        "author": "Devalla",
+        "year": "2018",
+        "journal-title": "BioMed Opt Express"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2018.10.007",
+        "article-title": "Using deep learning and transfer learning to accurately diagnose early-onset glaucoma from macular optical coherence tomography images",
+        "volume": "198",
+        "author": "Asaoka",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "100759",
+        "DOI": "10.1016/j.preteyeres.2019.04.003",
+        "article-title": "Deep learning in ophthalmology: The technical and clinical considerations",
+        "volume": "72",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Prog Retinal Eye Res"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1136/bjophthalmol-2016-EGSguideline.001",
+        "volume": "101",
+        "year": "2017",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.13-13130",
+        "article-title": "Early glaucoma involves both deep local, and shallow widespread, retinal nerve fiber damage of the macular region",
+        "volume": "55",
+        "author": "Hood",
+        "year": "",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "270",
+        "DOI": "10.1186/s12886-019-1283-y",
+        "article-title": "Comparison of glaucoma diagnostic ability of ganglion cell-inner plexiform layer according to the range around the fovea",
+        "volume": "19",
+        "author": "Jung",
+        "year": "2019",
+        "journal-title": "BMC Ophthalmol"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/j.ajo.2019.06.020",
+        "article-title": "Prediction of glaucoma progression with structural parameters: Comparison of optical coherence tomography and clinical disc parameters",
+        "volume": "208",
+        "author": "Ramin",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2017.01.027",
+        "article-title": "Frequency of testing to detect visual field progression derived using a longitudinal cohort of glaucoma patients",
+        "volume": "124",
+        "author": "Wu",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm14186519",
+        "article-title": "Augmented decisions: AI-enhanced accuracy in glaucoma diagnosis and treatment",
+        "volume": "14",
+        "author": "Zeppieri",
+        "year": "2025",
+        "journal-title": "J Clin Med"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1186/s40662-018-0101-6",
+        "article-title": "Utility of combining spectral domain optical coherence tomography structural parameters for the diagnosis of early glaucoma: A mini-review",
+        "volume": "5",
+        "author": "Mwanza",
+        "year": "2018",
+        "journal-title": "Eye Vis (Lond)"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ICU.0000000000000934",
+        "article-title": "Artificial intelligence in glaucoma: Posterior segment optical coherence tomography",
+        "volume": "34",
+        "author": "Gutierrez",
+        "year": "2023",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2019.5983",
+        "article-title": "Assessment of a segmentation-free deep learning algorithm for diagnosing glaucoma from optical coherence tomography scans",
+        "volume": "138",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.preteyeres.2024.101307",
+        "article-title": "Standard automated perimetry for glaucoma and diseases of the retina and visual pathways: Current and future perspectives",
+        "volume": "104",
+        "author": "Phu",
+        "year": "2025",
+        "journal-title": "Prog Retinal Eye Res"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "481",
+        "DOI": "10.1007/s12325-016-0302-0",
+        "article-title": "24-h efficacy of glaucoma treatment options",
+        "volume": "33",
+        "author": "Konstas",
+        "year": "2016",
+        "journal-title": "Adv Ther"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cxo.13030",
+        "article-title": "Impact of referral refinement on management of glaucoma suspects in Australia",
+        "volume": "103",
+        "author": "Huang",
+        "year": "2020",
+        "journal-title": "Clin Exp Optometry"
+      },
+      {
+        "key": "B27",
+        "article-title": "Keras: The Python deep learning library",
+        "author": "Chollet",
+        "year": "2018",
+        "journal-title": "Astrophysics Source Code Library"
+      },
+      {
+        "key": "B28",
+        "article-title": "Adam: A method for stochastic optimization",
+        "volume-title": "Arxiv",
+        "author": "Kingma",
+        "year": "2015"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmi.2019.2899910",
+        "article-title": "Patch-based output space adversarial learning for joint optic disc and cup segmentation",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-030-01234-2_49",
+        "article-title": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/CVPR.2018.00474",
+        "article-title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+        "author": "Sandler",
+        "year": "2018"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3166/ejc.7.311-327",
+        "article-title": "Support vector machines: A nonlinear modelling and control perspective",
+        "volume": "7",
+        "author": "Suykens",
+        "year": "2001",
+        "journal-title": "Eur J Control"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tbme.2013.2295605",
+        "article-title": "Glaucoma progression detection using structural retinal nerve fiber layer measurements and functional visual field points",
+        "volume": "61",
+        "author": "Yousefi",
+        "year": "2014",
+        "journal-title": "IEEE Trans BioMed Eng"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2011.02.050",
+        "article-title": "Prevalence of glaucoma in a rural northern China adult population: A population-based survey in Kailu County, Inner Mongolia",
+        "volume": "118",
+        "author": "Wulian",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.13-12351",
+        "article-title": "Improving glaucoma detection using spatially correspondent clusters of damage and by combining standard automated perimetry and optical coherence tomography",
+        "volume": "55",
+        "author": "Raza",
+        "year": "2014",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0207784",
+        "article-title": "Automated algorithms combining structure and function outperform general ophthalmologists in diagnosing glaucoma",
+        "volume": "13",
+        "author": "Shigueoka",
+        "year": "2018",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0177726",
+        "article-title": "Development of machine learning models for diagnosis of glaucoma",
+        "volume": "12",
+        "author": "Kim",
+        "year": "2017",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2011.03.018",
+        "article-title": "Adjusting intraocular pressure for central corneal thickness does not improve prediction models for primary open-angle glaucoma",
+        "volume": "119",
+        "author": "Brandt",
+        "year": "2012",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5455/medarh.2014.68.113-116",
+        "article-title": "Correlation between retinal nerve fiber layer and disc parameters in glaucoma suspected eyes",
+        "volume": "68",
+        "author": "Kasumovic",
+        "year": "2014",
+        "journal-title": "Med Arch"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo.85.5.586",
+        "article-title": "Discrimination between normal and glaucomatous eyes with visual field and scanning laser polarimetry measurements",
+        "volume": "85",
+        "author": "Lauande-Pimentel",
+        "year": "2001",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100180",
+        "article-title": "Early glaucoma detection by using style transfer to predict retinal nerve fiber layer thickness distribution on the fundus photograph",
+        "volume": "2",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.12-10345",
+        "article-title": "The structure and function relationship in glaucoma: Implications for detection of progression and measurement of rates of change",
+        "volume": "53",
+        "author": "Medeiros",
+        "year": "2012",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2011.02.013",
+        "article-title": "Initial parafoveal versus peripheral scotomas in glaucoma: Risk factors and visual field characteristics",
+        "volume": "118",
+        "author": "Park",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "1989",
+        "DOI": "10.1016/j.ophtha.2011.03.012",
+        "article-title": "Myopia as a risk factor for open-angle glaucoma: A systematic review and meta-analysis",
+        "volume": "118",
+        "author": "Marcus",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "17",
+        "DOI": "10.1007/s00417-019-04493-x",
+        "article-title": "Utility of a public-available artificial intelligence in diagnosis of polypoidal choroidal vasculopathy",
+        "volume": "258",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Graefe’s Arch For Clin Exp Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Ophthalmology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fopht.2026.1975341/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T04:42:13Z",
+      "timestamp": 1792557733000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fopht.2026.1975341/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 45,
+    "alternative-id": [
+      "10.3389/fopht.2026.1975341"
+    ],
+    "URL": "https://doi.org/10.3389/fopht.2026.1975341",
+    "relation": {},
+    "ISSN": [
+      "2674-0826"
+    ],
+    "issn-type": [
+      {
+        "value": "2674-0826",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ]
+    },
+    "article-number": "1975341"
+  }
+}

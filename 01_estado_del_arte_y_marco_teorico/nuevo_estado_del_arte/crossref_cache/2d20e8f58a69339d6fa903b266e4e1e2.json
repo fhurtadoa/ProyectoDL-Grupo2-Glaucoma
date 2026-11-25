@@ -1,0 +1,730 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2026-11-04T18:06:24Z",
+      "timestamp": 1793815584996,
+      "version": "4.6.1"
+    },
+    "reference-count": 34,
+    "publisher": "Association for Research in Vision and Ophthalmology (ARVO)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              29
+            ]
+          ],
+          "date-time": "2024-01-29T00:00:00Z",
+          "timestamp": 1706486400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Trans. Vis. Sci. Tech."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          29
+        ]
+      ]
+    },
+    "DOI": "10.1167/tvst.13.1.23",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2024-01-29T11:31:02Z",
+      "timestamp": 1706527862000
+    },
+    "page": "23",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "Deep Learning Identifies High-Quality Fundus Photographs and Increases Accuracy in Automated Primary Open Angle Glaucoma Detection"
+    ],
+    "prefix": "10.1167",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Benton",
+        "family": "Chuter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Justin",
+        "family": "Huynh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Bowd",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Evan",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jasmin",
+        "family": "Rezapour",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          },
+          {
+            "name": "Department of Ophthalmology, University Medical Center Mainz, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicole",
+        "family": "Brye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akram",
+        "family": "Belghith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Massimo A.",
+        "family": "Fazio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine, Callahan Eye Hospital, University of Alabama-Birmingham, Birmingham, Alabama, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher A.",
+        "family": "Girkin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Medicine, Callahan Eye Hospital, University of Alabama-Birmingham, Birmingham, Alabama, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gustavo",
+        "family": "De Moraes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bernard and Shirlee Brown Glaucoma Research Laboratory, Edward S. Harkness Eye Institute, Department of Ophthalmology, Columbia University Medical Center, New York, New York, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey M.",
+        "family": "Liebmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bernard and Shirlee Brown Glaucoma Research Laboratory, Edward S. Harkness Eye Institute, Department of Ophthalmology, Columbia University Medical Center, New York, New York, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert N.",
+        "family": "Weinreb",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linda M.",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark",
+        "family": "Christopher",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hamilton Glaucoma Center, Shiley Eye Institute, Viterbi Family Department of Ophthalmology, UC San Diego, La Jolla, California, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "27",
+    "reference": [
+      {
+        "key": "bib1",
+        "first-page": "715",
+        "article-title": "Glaucoma detection based on deep convolutional neural network",
+        "volume": "2015",
+        "author": "Xiangyu",
+        "year": "2015",
+        "journal-title": "Annu Int Conf IEEE Eng Med Biol Soc"
+      },
+      {
+        "key": "bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "16685",
+        "DOI": "10.1038/s41598-018-35044-9",
+        "article-title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+        "volume": "8",
+        "author": "Christopher",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.1167/tvst.9.2.27",
+        "article-title": "Effects of study population, labeling and training on glaucoma detection using deep learning algorithms",
+        "volume": "9",
+        "author": "Christopher",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1046",
+        "DOI": "10.1109/TMI.2015.2506902",
+        "article-title": "Human visual system-based fundus image quality assessment of portable fundus camera photographs",
+        "volume": "35",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "014001",
+        "DOI": "10.1117/1.JMI.1.1.014001",
+        "article-title": "Quality evaluation of digital fundus images through combined measures",
+        "volume": "1",
+        "author": "Veiga",
+        "year": "2014",
+        "journal-title": "J Med Imaging (Bellingham)"
+      },
+      {
+        "key": "bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "996",
+        "DOI": "10.1109/TMI.42",
+        "article-title": "Modeling and enhancing low-quality retinal fundus images",
+        "volume": "40",
+        "author": "Shen",
+        "year": "2021",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "557",
+        "DOI": "10.1007/s11548-010-0479-7",
+        "article-title": "Automated quality assessment of retinal fundus photos",
+        "volume": "5",
+        "author": "Paulus",
+        "year": "2010",
+        "journal-title": "Int J Comput Assist Radiol Surg"
+      },
+      {
+        "key": "bib8",
+        "first-page": "1224",
+        "article-title": "Deep learning for image quality assessment of fundus images in retinopathy of prematurity",
+        "volume": "2018",
+        "author": "Coyner",
+        "year": "2018",
+        "journal-title": "AMIA Annu Symp Proc"
+      },
+      {
+        "key": "bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "869",
+        "DOI": "10.1007/s10278-018-0084-9",
+        "article-title": "Automated quality assessment of colour fundus images for diabetic retinopathy screening in telemedicine",
+        "volume": "31",
+        "author": "Saha",
+        "year": "2018",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "444",
+        "DOI": "10.1016/j.oret.2019.01.015",
+        "article-title": "Automated fundus image quality assessment in retinopathy of prematurity using deep convolutional neural networks",
+        "volume": "3",
+        "author": "Coyner",
+        "year": "2019",
+        "journal-title": "Ophthalmol Retina"
+      },
+      {
+        "key": "bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.1167/tvst.9.2.52",
+        "article-title": "Automated quality assessment and image selection of ultra-widefield fluorescein angiography images through deep learning",
+        "volume": "9",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abramoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "10455",
+        "DOI": "10.1038/s41598-022-13919-2",
+        "article-title": "Assessment of image quality on color fundus retinal images using the automatic retinal image analysis",
+        "volume": "12",
+        "author": "Shi",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "101654",
+        "DOI": "10.1016/j.media.2020.101654",
+        "article-title": "Domain-invariant interpretable fundus image quality assessment",
+        "volume": "61",
+        "author": "Shen",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "104114",
+        "DOI": "10.1016/j.compbiomed.2020.104114",
+        "article-title": "Automatic fundus image quality assessment on a continuous scale",
+        "volume": "129",
+        "author": "Karlsson",
+        "year": "2021",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "107522",
+        "DOI": "10.1016/j.cmpb.2023.107522",
+        "article-title": "FundusQ-Net: a regression quality assessment deep learning algorithm for fundus images quality grading",
+        "volume": "239",
+        "author": "Abramovich",
+        "year": "2023",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1136",
+        "DOI": "10.1001/archophthalmol.2009.187",
+        "article-title": "The African Descent and Glaucoma Evaluation Study (ADAGES): design and baseline data",
+        "volume": "127",
+        "author": "Sample",
+        "year": "2009",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "714",
+        "DOI": "10.1001/archopht.120.6.714",
+        "article-title": "The Ocular Hypertension Treatment Study: baseline factors that predict the onset of primary open-angle glaucoma",
+        "volume": "120",
+        "author": "Gordon",
+        "year": "2002",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1016/j.ajo.2018.11.006",
+        "article-title": "Assessment of the Impact of an Endpoint Committee in the Ocular Hypertension Treatment Study",
+        "volume": "199",
+        "author": "Gordon",
+        "year": "2019",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "article-title": "ImageNet Large Scale Visual Recognition Challenge",
+        "volume": "115",
+        "author": "Russakovsky",
+        "year": "2015",
+        "journal-title": "Int J Comput Vision"
+      },
+      {
+        "key": "bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "567",
+        "DOI": "10.2307/2533958",
+        "article-title": "Nonparametric analysis of clustered ROC curve data",
+        "volume": "53",
+        "author": "Obuchowski",
+        "year": "1997",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "419",
+        "DOI": "10.1002/bimj.v50:3",
+        "article-title": "Youden Index and optimal cut-point estimated from observations affected by a lower limit of detection",
+        "volume": "50",
+        "author": "Ruopp",
+        "year": "2008",
+        "journal-title": "Biom J"
+      },
+      {
+        "key": "bib27",
+        "first-page": "4500",
+        "article-title": "Fundus image enhancement method based on CycleGAN",
+        "volume": "2019",
+        "author": "You",
+        "year": "2019",
+        "journal-title": "Annu Int Conf IEEE Eng Med Biol Soc"
+      },
+      {
+        "key": "bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.1167/tvst.9.2.55",
+        "article-title": "Artificial intelligence algorithms to diagnose glaucoma and detect glaucoma progression: translation to clinical practice",
+        "volume": "9",
+        "author": "Mursch-Edlmayr",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1016/j.ogla.2020.08.006",
+        "article-title": "Special commentary: using clinical decision support systems to bring predictive models to the glaucoma clinic",
+        "volume": "4",
+        "author": "Stagg",
+        "year": "2021",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+        "DOI": "10.1016/j.compbiomed.2018.10.004",
+        "article-title": "Teatini Salles EO. Retinal image quality assessment using deep learning",
+        "volume": "103",
+        "author": "Zago",
+        "year": "2018",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "3242",
+        "DOI": "10.1038/s41467-021-23458-5",
+        "article-title": "A deep learning system for detecting diabetic retinopathy across the disease spectrum",
+        "volume": "12",
+        "author": "Dai",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "16",
+        "DOI": "10.1167/tvst.10.11.16",
+        "article-title": "Deep-learning-based pre-diagnosis assessment module for retinal photographs: a multicenter study",
+        "volume": "10",
+        "author": "Yuen",
+        "year": "2021",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1016/S0039-6257(98)00049-6",
+        "article-title": "Ophthalmoscopic evaluation of the optic nerve head",
+        "volume": "43",
+        "author": "Jonas",
+        "year": "1999",
+        "journal-title": "Surv Ophthalmol"
+      },
+      {
+        "key": "bib13",
+        "article-title": "Detecting Glaucoma in the Ocular Hypertension Treatment Study using deep learning: implications for clinical trial endpoints",
+        "author": "Fan"
+      },
+      {
+        "key": "bib22",
+        "article-title": "Xception: Deep Learning with Depthwise separable convolutions",
+        "author": "Chollet",
+        "year": "2016"
+      },
+      {
+        "key": "bib23",
+        "article-title": "Inception-v4, Inception-ResNet and the impact of residual connections on learning",
+        "author": "Szegedy",
+        "year": "2016"
+      },
+      {
+        "key": "bib25",
+        "article-title": "Grad-CAM: Visual explanations from deep networks via gradient-based localization",
+        "author": "Selvaraju",
+        "year": "2016"
+      },
+      {
+        "key": "bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3313831.3376718",
+        "article-title": "A human-centered evaluation of a deep learning system deployed in clinics for the detection of diabetic retinopathy",
+        "volume-title": "Proceedings of the 2020 CHI conference on human factors in computing systems",
+        "author": "Beede",
+        "year": "2020"
+      }
+    ],
+    "container-title": [
+      "Translational Vision Science &amp; Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://tvst.arvojournals.org/article.aspx?articleid=2793319",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2024-01-29T11:31:08Z",
+      "timestamp": 1706527868000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://tvst.arvojournals.org/article.aspx?articleid=2793319"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          29
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1167/tvst.13.1.23",
+    "relation": {},
+    "ISSN": [
+      "2164-2591"
+    ],
+    "issn-type": [
+      {
+        "value": "2164-2591",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          29
+        ]
+      ]
+    }
+  }
+}

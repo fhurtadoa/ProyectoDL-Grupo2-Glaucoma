@@ -1,0 +1,185 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2604.09062",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2604.09062",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2604.09062",
+      "identifiers": [
+        {
+          "identifier": "2604.09062",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2604.09062"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Goperma, Rimsa",
+          "nameType": "Personal",
+          "givenName": "Rimsa",
+          "familyName": "Goperma",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Basnet, Rojan",
+          "nameType": "Personal",
+          "givenName": "Rojan",
+          "familyName": "Basnet",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Zhao, Liang",
+          "nameType": "Personal",
+          "givenName": "Liang",
+          "familyName": "Zhao",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Nested Radially Monotone Polar Occupancy Estimation: Clinically-Grounded Optic Disc and Cup Segmentation for Glaucoma Screening"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-04-10T07:40:25Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-04-13T00:31:34Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-04",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "arXiv.org perpetual, non-exclusive license",
+          "rightsUri": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Valid segmentation of the optic disc (OD) and optic cup (OC) from fundus photographs is essential for glaucoma screening. Unfortunately, existing deep learning methods do not guarantee clinical validness including star-convexity and nested structure of OD and OC, resulting corruption in diagnostic metric, especially under cross-dataset domain shift. To adress this issue, this paper proposed NPS-Net (Nested Polar Shape Network), the first framework that formulates the OD/OC segmentation as nested radially monotone polar occupancy estimation.This output representation can guarantee the aforementioned clinical validness and achieve high accuracy. Evaluated across seven public datasets, NPS-Net shows strong zero-shot generalization. On RIM-ONE, it maintains 100% anatomical validity and improves Cup Dice by 12.8% absolute over the best baseline, reducing vCDR MAE by over 56%. On PAPILA, it achieves Disc Dice of 0.9438 and Disc HD95 of 2.78 px, an 83% reduction over the best competing method.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNjA0LjA5MDYyPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjYwNC4wOTA2MjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Hb3Blcm1hLCBSaW1zYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Umltc2E8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+R29wZXJtYTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5CYXNuZXQsIFJvamFuPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Sb2phbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5CYXNuZXQ8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+WmhhbywgTGlhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkxpYW5nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlpoYW88L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPk5lc3RlZCBSYWRpYWxseSBNb25vdG9uZSBQb2xhciBPY2N1cGFuY3kgRXN0aW1hdGlvbjogQ2xpbmljYWxseS1Hcm91bmRlZCBPcHRpYyBEaXNjIGFuZCBDdXAgU2VnbWVudGF0aW9uIGZvciBHbGF1Y29tYSBTY3JlZW5pbmc8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+YXJYaXY8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjY8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMDQtMTBUMDc6NDA6MjVaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMDQtMTNUMDA6MzE6MzRaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNi0wNDwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9hcnhpdi5vcmcvbGljZW5zZXMvbm9uZXhjbHVzaXZlLWRpc3RyaWIvMS4wLyI+YXJYaXYub3JnIHBlcnBldHVhbCwgbm9uLWV4Y2x1c2l2ZSBsaWNlbnNlPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+VmFsaWQgc2VnbWVudGF0aW9uIG9mIHRoZSBvcHRpYyBkaXNjIChPRCkgYW5kIG9wdGljIGN1cCAoT0MpIGZyb20gZnVuZHVzIHBob3RvZ3JhcGhzIGlzIGVzc2VudGlhbCBmb3IgZ2xhdWNvbWEgc2NyZWVuaW5nLiBVbmZvcnR1bmF0ZWx5LCBleGlzdGluZyBkZWVwIGxlYXJuaW5nIG1ldGhvZHMgZG8gbm90IGd1YXJhbnRlZSBjbGluaWNhbCB2YWxpZG5lc3MgaW5jbHVkaW5nIHN0YXItY29udmV4aXR5IGFuZCBuZXN0ZWQgc3RydWN0dXJlIG9mIE9EIGFuZCBPQywgcmVzdWx0aW5nIGNvcnJ1cHRpb24gaW4gZGlhZ25vc3RpYyBtZXRyaWMsIGVzcGVjaWFsbHkgdW5kZXIgY3Jvc3MtZGF0YXNldCBkb21haW4gc2hpZnQuIFRvIGFkcmVzcyB0aGlzIGlzc3VlLCB0aGlzIHBhcGVyIHByb3Bvc2VkIE5QUy1OZXQgKE5lc3RlZCBQb2xhciBTaGFwZSBOZXR3b3JrKSwgdGhlIGZpcnN0IGZyYW1ld29yayB0aGF0IGZvcm11bGF0ZXMgdGhlIE9EL09DIHNlZ21lbnRhdGlvbiBhcyBuZXN0ZWQgcmFkaWFsbHkgbW9ub3RvbmUgcG9sYXIgb2NjdXBhbmN5IGVzdGltYXRpb24uVGhpcyBvdXRwdXQgcmVwcmVzZW50YXRpb24gY2FuIGd1YXJhbnRlZSB0aGUgYWZvcmVtZW50aW9uZWQgY2xpbmljYWwgdmFsaWRuZXNzIGFuZCBhY2hpZXZlIGhpZ2ggYWNjdXJhY3kuIEV2YWx1YXRlZCBhY3Jvc3Mgc2V2ZW4gcHVibGljIGRhdGFzZXRzLCBOUFMtTmV0IHNob3dzIHN0cm9uZyB6ZXJvLXNob3QgZ2VuZXJhbGl6YXRpb24uIE9uIFJJTS1PTkUsIGl0IG1haW50YWlucyAxMDAlIGFuYXRvbWljYWwgdmFsaWRpdHkgYW5kIGltcHJvdmVzIEN1cCBEaWNlIGJ5IDEyLjglIGFic29sdXRlIG92ZXIgdGhlIGJlc3QgYmFzZWxpbmUsIHJlZHVjaW5nIHZDRFIgTUFFIGJ5IG92ZXIgNTYlLiBPbiBQQVBJTEEsIGl0IGFjaGlldmVzIERpc2MgRGljZSBvZiAwLjk0MzggYW5kIERpc2MgSEQ5NSBvZiAyLjc4IHB4LCBhbiA4MyUgcmVkdWN0aW9uIG92ZXIgdGhlIGJlc3QgY29tcGV0aW5nIG1ldGhvZC48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2604.09062",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-04-13T01:51:16.000Z",
+      "registered": "2026-04-13T01:51:17.000Z",
+      "published": "2026",
+      "updated": "2026-04-13T01:51:17.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2604.09062",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

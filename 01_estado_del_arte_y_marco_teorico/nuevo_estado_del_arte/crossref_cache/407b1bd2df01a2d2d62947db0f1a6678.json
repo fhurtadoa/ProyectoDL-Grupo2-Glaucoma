@@ -1,0 +1,195 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2025-07-30T12:32:33Z",
+      "timestamp": 1753878753477,
+      "version": "3.41.2"
+    },
+    "reference-count": 0,
+    "publisher": "Wiley",
+    "issue": "S275",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              20
+            ]
+          ],
+          "date-time": "2022-12-20T00:00:00Z",
+          "timestamp": 1671494400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 19,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Acta Ophthalmologica"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:label/><jats:p>A plethora of classification models, and especially convolutional neural networks (CNN), have been proposed for the detection of glaucoma from fundus images. Often trained with data from a single glaucoma clinic, they report impressive performance on internal test sets, but (I) lack in objective insights into the decision making process, and (II) rarely generalize well to external sets.</jats:p><jats:p><jats:bold>Opening the black‐box: need for explainable AI</jats:bold></jats:p><jats:p>Data‐driven, feature‐agnostic CNN models have shown to outperform classical machine learning approaches that rely on manually curated image features. But this comes at the expense of explainability, a concept introduced to delineate the insights into the decision process of the algorithm. Explainable AI is particularly relevant in the field of medicine, as regularity bodies require understandable decisions, in order to gain trust from both clinicians and patients. The largest area of research in explainable AI proposes the framework of saliency or heat maps, i.e. visualizations of image regions that are deemed the most important to the trained model. However, these techniques are facing increased scrutiny over the years, as some studies indicated that most saliency mapping methods perform no better than random baselines.</jats:p><jats:p>In our recent work, we used various fundus image cropping policies to investigate the salient regions for glaucoma detection. Our findings provide the first irrefutable evidence that deep learning can detect glaucoma from colour fundus image regions outside the ONH.</jats:p><jats:p><jats:bold>Generalizability and domain shifts</jats:bold></jats:p><jats:p>The ability to generalize, generalizability, to unseen data is of crucial importance in building clinically useful deep learning models. This can be defined on two levels. First, a model is deemed useful when it performs well on unseen data from the same domain as the training data. More concretely, this would mean that a model trained on glaucoma data from one glaucoma center works well on a holdout set of images from the same clinic. Next to internal testing, it is critical to have models that scale well to imaging data from external sources, such as a glaucoma clinic from a different city. This transition introduces a domain shift, an event where the data distribution changes. This shift can be as small as an undetectable different image colour histogram due to other lighting conditions at the external center.</jats:p><jats:p>Typically, domain shifts are more marked between ophthalmic centers. The usual suspects include the following non‐exhaustive list: change in camera manufacturer, disease prevalence, and demographic characteristics such as ethnicity and age. A tool that would be suited for glaucoma screening should be able to adapt to a much lower glaucoma prevalence, when initially trained on a data set obtained from a referral center. We demonstrate that a deep learning approach backed by regression loss seems more robust to data shifts than a traditional binary classification system for glaucoma screening from fundus images. Excellent results were obtained on 12 different data sets, with close to 150 000 images evaluated.</jats:p></jats:sec>",
+    "DOI": "10.1111/j.1755-3768.2022.15552",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          21
+        ]
+      ],
+      "date-time": "2022-12-21T02:02:15Z",
+      "timestamp": 1671588135000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "On a quest for solutions"
+    ],
+    "prefix": "10.1111",
+    "volume": "100",
+    "author": [
+      {
+        "given": "Ruben",
+        "family": "Hemelings",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "<!--Query ID=\"Q140\" Text=\"AUTHOR: Organization/Institution name is required as per journal style. Please provide.\"-->Belgium"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          20
+        ]
+      ]
+    },
+    "container-title": [
+      "Acta Ophthalmologica"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2025-01-31T13:01:33Z",
+      "timestamp": 1738328493000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1755-3768.2022.15552"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "S275",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/j.1755-3768.2022.15552"
+    ],
+    "URL": "https://doi.org/10.1111/j.1755-3768.2022.15552",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1755-375X",
+      "1755-3768"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1755-375X"
+      },
+      {
+        "type": "electronic",
+        "value": "1755-3768"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-12-20",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "j.1755-3768.2022.15552"
+  }
+}

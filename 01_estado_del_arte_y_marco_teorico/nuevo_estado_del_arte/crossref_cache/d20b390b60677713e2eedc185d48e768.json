@@ -1,0 +1,756 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2026-01-30T05:00:11Z",
+      "timestamp": 1769749211283,
+      "version": "3.49.0"
+    },
+    "reference-count": 54,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2022-03-10T00:00:00Z",
+          "timestamp": 1646870400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2022-03-10T00:00:00Z",
+          "timestamp": 1646870400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Digit Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10278-021-00577-5",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2022-03-10T21:02:26Z",
+      "timestamp": 1646946146000
+    },
+    "page": "1008-1022",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Detection of Glaucoma from Fundus Images Using Novel Evolutionary-Based Deep Neural Network"
+    ],
+    "prefix": "10.1007",
+    "volume": "35",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Madhumalini",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "T. Meera",
+        "family": "Devi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "577_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shoba SG, Therese AB. (2020 Sep 1) Detection of glaucoma disease in fundus images based on morphological operation and finite element method. Biomedical Signal Processing and Control. 62: 101986.",
+        "DOI": "10.1016/j.bspc.2020.101986"
+      },
+      {
+        "key": "577_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bisneto TR, de Carvalho Filho AO, Magalhães DM. (2020 May 1) Generative adversarial network and texture features applied to automatic glaucoma detection. Applied Soft Computing, 90: 106165.",
+        "DOI": "10.1016/j.asoc.2020.106165"
+      },
+      {
+        "key": "577_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pruthi J, Khanna K, Arora S. (2020 Jul1) Optic Cup segmentation from retinal fundus images using Glowworm Swarm Optimization for glaucoma detection. Biomedical Signal Processing and Control, 60: 102004.",
+        "DOI": "10.1016/j.bspc.2020.102004"
+      },
+      {
+        "key": "577_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martins J, Cardoso JS, Soares F. (2020 Aug 1) Offline computer-aided diagnosis for Glaucoma detection using fundus images targeted at mobile devices. Computer Methods and Programs in Biomedicine, 192: 105341.",
+        "DOI": "10.1016/j.cmpb.2020.105341"
+      },
+      {
+        "key": "577_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1016/j.compmedimag.2019.02.005",
+        "volume": "74",
+        "author": "S Yu",
+        "year": "2019",
+        "unstructured": "Yu S, Xiao D, Frost S, Kanagasingam Y. (2019 Jun1) Robust optic disc and cup segmentation with deep learning for glaucoma detection. Computerized Medical Imaging and Graphics, 74: 61-71.",
+        "journal-title": "Computerized Medical Imaging and Graphics"
+      },
+      {
+        "key": "577_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kumar BN, Chauhan RP, Dahiya N. (2016 Jan 23) Detection of Glaucoma using image processing techniques: A review. In2016 International Conference on Microelectronics, Computing and Communications (MicroCom), (pp. 1–6). IEEE.",
+        "DOI": "10.1109/MicroCom.2016.7522515"
+      },
+      {
+        "key": "577_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parashar D, Agrawal DK. (2020 Jun 12) Automated Classification of Glaucoma Stages Using Flexible Analytic Wavelet Transform From Retinal Fundus Images. IEEE Sensors Journal.",
+        "DOI": "10.1109/ICMICA48462.2020.9242702"
+      },
+      {
+        "key": "577_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carrillo J, Bautista L, Villamizar J, Rueda J, Sanchez M. (2019 Apr 24) Glaucoma detection using fundus images of the eye. In2019 XXII Symposium on Image, Signal Processing and Artificial Vision (STSIVA), (pp. 1–4). IEEE.",
+        "DOI": "10.1109/STSIVA.2019.8730250"
+      },
+      {
+        "issue": "2",
+        "key": "577_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "971",
+        "DOI": "10.1007/s10115-018-1263-1",
+        "volume": "60",
+        "author": "MM Gowthul Alam",
+        "year": "2019",
+        "unstructured": "Gowthul Alam MM, Baulkani S (2019b) Local and global characteristics-based kernel hybridization to increase optimal support vector machine performance for stock market prediction. Knowl Inf Syst 60(2):971–1000",
+        "journal-title": "Knowl Inf Syst"
+      },
+      {
+        "issue": "4",
+        "key": "577_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1079",
+        "DOI": "10.1007/s00500-018-3124-y",
+        "volume": "23",
+        "author": "MM Gowthul Alam",
+        "year": "2019",
+        "unstructured": "Gowthul Alam MM, Baulkani S (2019a) Geometric structure information based multi-objective function to increase fuzzy clustering performance with artificial and real-life data. Soft Comput 23(4):1079–1098",
+        "journal-title": "Soft Comput"
+      },
+      {
+        "key": "577_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "277",
+        "DOI": "10.1016/j.cose.2018.04.009",
+        "volume": "77",
+        "author": "V Sundararaj",
+        "year": "2018",
+        "unstructured": "Sundararaj V, Muthukumar S, Kumar RS (2018) An optimal cluster formation based energy efficient dynamic scheduling hybrid MAC protocol for heavy traffic load in wireless sensor networks. Computers & Security, 77: 277–288.",
+        "journal-title": "Computers & Security"
+      },
+      {
+        "issue": "3",
+        "key": "577_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "117",
+        "DOI": "10.22266/ijies2016.0930.12",
+        "volume": "9",
+        "author": "V Sundararaj",
+        "year": "2016",
+        "unstructured": "Sundararaj V (2016) An efficient threshold prediction scheme for wavelet based ECG signal noise reduction using variable step size firefly algorithm. International Journal of Intelligent Engineering and Systems, 9(3): 117–126.",
+        "journal-title": "International Journal of Intelligent Engineering and Systems"
+      },
+      {
+        "issue": "4",
+        "key": "577_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "325",
+        "DOI": "10.1504/IJBET.2019.103242",
+        "volume": "31",
+        "author": "V Sundararaj",
+        "year": "2019",
+        "unstructured": "Sundararaj V (2019) Optimised denoising scheme via opposition-based self-adaptive learning PSO algorithm for wavelet-based ECG signal noise reduction. International Journal of Biomedical Engineering and Technology, 31(4): 325.",
+        "journal-title": "International Journal of Biomedical Engineering and Technology"
+      },
+      {
+        "issue": "11",
+        "key": "577_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1128",
+        "DOI": "10.1002/pip.3315",
+        "volume": "28",
+        "author": "V Sundararaj",
+        "year": "2020",
+        "unstructured": "Sundararaj V, Anoop V, Dixit P, Arjaria A, Chourasia U, Bhambri P, Rejeesh MR and Regu Sundararaj (2020) CCGPA‐MPPT: Cauchy preferential crossover‐based global pollination algorithm for MPPT in photovoltaic system. Progress in Photovoltaics: Research and Applications, 28(11): 1128-1145.",
+        "journal-title": "Progress in Photovoltaics: Research and Applications"
+      },
+      {
+        "key": "577_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "George YM, Antony B, Ishikawa H, Wollstein G, Schuman J, Garnavi R. (2020 Jun9) Attention-guided 3D-CNN Framework for Glaucoma Detection and Structural-Functional Association using Volumetric Images. IEEE Journal of Biomedical and Health Informatics.",
+        "DOI": "10.1109/JBHI.2020.3001019"
+      },
+      {
+        "key": "577_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bautista L, Villamizar J, Calderón G, Rueda JC, Castillo J. (2019 Oct 16) Mimetic Finite Difference Methods for Restoration of Fundus Images for Automatic Glaucoma Detection. InECCOMAS Thematic Conference on Computational Vision and Medical Image Processing, (pp. 104–113). Springer, Cham.",
+        "DOI": "10.1007/978-3-030-32040-9_12"
+      },
+      {
+        "key": "577_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almazroa A, Sun W, Alodhayb S, Raahemifar K, Lakshminarayanan V. Optic disc segmentation for glaucoma screening system using fundus images. Clinical Ophthalmology (Auckland, NZ), 2017; pp. 11.",
+        "DOI": "10.2147/OPTH.S140061"
+      },
+      {
+        "key": "577_CR18",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Lakshmanaprabu SK, Mohanty SN, Sheeba R, Krishnamoorthy S, Uthayakumar J, Shankar K (2019) Online clinical decision support system using optimal deep neural networks. Applied Soft Computing 81105487. https://doi.org/10.1016/j.asoc.2019.105487",
+        "DOI": "10.1016/j.asoc.2019.105487"
+      },
+      {
+        "key": "577_CR19",
+        "unstructured": "Rahouma KH, Mohamed MM, Hameed NS. (2019 Sep) Glaucoma Detection and Classification Based on Image Processing and Artificial Neural Networks. Egyptian Computer Science Journal, 43(3)."
+      },
+      {
+        "key": "577_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chan YM, Ng EY, Jahmunah V, Koh JE, Lih OS, Leon LY, Acharya UR. (2019 Dec 1) Automated detection of glaucoma using optical coherence tomography angiogram images. Computers in biology and medicine, 115: 103483.",
+        "DOI": "10.1016/j.compbiomed.2019.103483"
+      },
+      {
+        "key": "577_CR21",
+        "unstructured": "Rim-One-Medical Image Analysis Group. (20 April 2017) Available at http://medimrg.webs.ull.es/, accessed."
+      },
+      {
+        "issue": "2",
+        "key": "577_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "413",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "volume": "39",
+        "author": "L Li",
+        "year": "2019",
+        "unstructured": "Li L, Xu M, Liu H, Li Y, Wang X, Jiang L, Wang Z, Fan X, Wang N. (2019 Jul 8) A Large-Scale Database and a CNN Model for Attention-Based Glaucoma Detection. IEEE transactions on medical imaging, 39(2): 413-24.",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "key": "577_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kirar BS, Agrawal DK, Kirar S. (2020 Jul 28) Glaucoma Detection Using Image Channels and Discrete Wavelet Transform. IETE Journal of Research, (pp. 1–8).",
+        "DOI": "10.1080/03772063.2020.1795934"
+      },
+      {
+        "issue": "13",
+        "key": "577_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "2401",
+        "DOI": "10.1049/iet-ipr.2019.0036",
+        "volume": "13",
+        "author": "DK Agrawal",
+        "year": "2019",
+        "unstructured": "Agrawal DK, Kirar BS, Pachori RB. (2019 May 3) Automated glaucoma detection using quasi-bivariate variational mode decomposition from fundus images. IET Image Processing, 13(13): 2401-8.",
+        "journal-title": "IET Image Processing"
+      },
+      {
+        "key": "577_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dey A, Bandyopadhyay SK. (2016) Automated glaucoma detection using support vector machine classification method. Journal of Advances in Medicine and Medical Research, (pp. 1–2).",
+        "DOI": "10.9734/BJMMR/2016/19617"
+      },
+      {
+        "issue": "1",
+        "key": "577_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "151",
+        "DOI": "10.1007/s10278-019-00189-0",
+        "volume": "33",
+        "author": "L Abdel-Hamid",
+        "year": "2020",
+        "unstructured": "Abdel-Hamid L. (2020 Feb) Glaucoma detection from retinal images using statistical and textural wavelet features. Journal of digital imaging, 33(1): 151-8.",
+        "journal-title": "Journal of digital imaging"
+      },
+      {
+        "key": "577_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sharma A, Agrawal M, Roy SD, Gupta V. (2020) Automatic Glaucoma Diagnosis in Digital Fundus Images Using Deep CNNs. InAdvances in Computational Intelligence Techniques, (pp. 37–52), Springer, Singapore.",
+        "DOI": "10.1007/978-981-15-2620-6_3"
+      },
+      {
+        "key": "577_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy J, Krishnadas SR, Joshi GD, Jain M, Tabish AUS (2014) Drishti-GS: retinal imagedataset for optic nerve head (ONH) segmentation. In: 2014 IEEE 11th international symposiumon biomedical imaging (ISBI). Beijing, pp 53–56.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "577_CR29",
+        "unstructured": "Z. Zhang, F.S. Yin, J. Liu, W.K. Wong, N.M. Tan, B.H. Lee, J. Cheng, T.Y. Wong, (2010) ORIGA-light: an online retinal fundus image database for glaucoma analysisand research, in: 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBC, 10: 3065–3068."
+      },
+      {
+        "key": "577_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Fumero, S. Alayon, J.L. Sanchez, J. Sigut, M. Gonzalez-Hernandez, RIMONE: (2011) an open retinal image database for optic nerve evaluation, IEEE Symp. Comput.-Based Med, Syst, (pp. 1–6).",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "577_CR31",
+        "first-page": "91",
+        "volume-title": "Short Papers Proceedings - WSCG 2015",
+        "author": "F Fumero",
+        "year": "2015",
+        "unstructured": "F. Fumero, J. Sigut, S. Alayon, M. González-Hernández, M. González de la Rosa (2015) Interactive tool and database for optic disc and cup segmentation of stereo and monocular retinal fundus images, in: Short Papers Proceedings - WSCG 2015, Pilsen, Czech Republic, pp. 91–97."
+      },
+      {
+        "key": "577_CR32",
+        "unstructured": "ichallenge, (07/12/2019) (http://ichallenge.baidu.com/). (Accessed on)."
+      },
+      {
+        "key": "577_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "2017",
+        "DOI": "10.2147/OPTH.S140061",
+        "volume": "11",
+        "author": "A Almazroa",
+        "year": "2017",
+        "unstructured": "A. Almazroa, W. Sun, S. Alodhayb, K. Raahemifar, V. Lakshminarayanan, (2017) Optic disc segmentation for glaucoma screening system using fundus images, Clinical Ophthalmology, 11: 2017–2029.",
+        "journal-title": "Clinical Ophthalmology"
+      },
+      {
+        "key": "577_CR34",
+        "unstructured": "Al-Akhras M, Alawairdhi M, Habib M. (2019 Oct 24), Using soft computing techniques to diagnose Glaucoma disease. Journal of Infection and Public Health."
+      },
+      {
+        "key": "577_CR35",
+        "unstructured": "Xu Y, (2019) Chinese Academy of Sciences, China, https://refuge.grand-challenge.org/"
+      },
+      {
+        "key": "577_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "28411",
+        "DOI": "10.1007/s11042-020-09234-5",
+        "volume": "79",
+        "author": "MR Rejeesh",
+        "year": "2020",
+        "unstructured": "Rejeesh M R, Thejaswini P MOTF: Multi-objective Optimal Trilateral Filtering based partial moving frame algorithm for image denoising. Multimedia Tools Appl 79, 28411–28430 (2020)",
+        "journal-title": "Multimedia Tools Appl"
+      },
+      {
+        "key": "577_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deepika E, Maheswari S. Earlier glaucoma detection using blood vessel segmentation and classification. In2018 2nd International Conference on Inventive Systems and Control (ICISC) 2018 Jan 19 (pp. 484–490). IEEE.",
+        "DOI": "10.1109/ICISC.2018.8399120"
+      },
+      {
+        "key": "577_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "461",
+        "DOI": "10.1016/j.eswa.2018.12.008",
+        "volume": "120",
+        "author": "ZU Rehman",
+        "year": "2019",
+        "unstructured": "Rehman ZU, Naqvi SS, Khan TM, Arsalan M, Khan MA, Khalil MA. (2019 Apr 15) Multi-parametric optic disc segmentation using superpixel based feature classification. Expert Systems with Applications, 120: 461-73.",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "issue": "2",
+        "key": "577_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "229",
+        "DOI": "10.1016/j.cmpb.2015.08.002",
+        "volume": "122",
+        "author": "A Issac",
+        "year": "2015",
+        "unstructured": "Issac A, Sarathi MP, Dutta MK. (2015 Nov 1) An adaptive threshold based image processing technique for improved glaucoma detection and classification. Computer methods and programs in biomedicine. 122(2): 229-44.",
+        "journal-title": "Computer methods and programs in biomedicine."
+      },
+      {
+        "issue": "7",
+        "key": "577_CR40",
+        "first-page": "5209",
+        "volume": "4",
+        "author": "C Dhumane",
+        "year": "2015",
+        "unstructured": "C. Dhumane and S.B. Patil. (2015) Automated glaucoma detection using cup to disc ratio. International Journal of Innovative Research in Science, Engineering and Technology, 4(7): 5209–5216.",
+        "journal-title": "International Journal of Innovative Research in Science, Engineering and Technology"
+      },
+      {
+        "issue": "6",
+        "key": "577_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "610",
+        "DOI": "10.1109/TSMC.1973.4309314",
+        "volume": "3",
+        "author": "RM Haralick",
+        "year": "1973",
+        "unstructured": "Haralick RM, Shanmugam K: (1973) Textural features for image classification. IEEE Trans Syst Man Cybern SMC- 3(6): 610–621.",
+        "journal-title": "IEEE Trans Syst Man Cybern SMC-"
+      },
+      {
+        "key": "577_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1016/j.bspc.2014.09.004",
+        "volume": "15",
+        "author": "UR Acharya",
+        "year": "2015",
+        "unstructured": "Acharya UR, Ng EY, Eugene LW, Noronha KP, Min LC, Nayak KP, Bhandary SV. (2015 Jan1) Decision support system for the glaucoma using Gabor transformation. Biomedical Signal Processing and Control, 15:18-26.",
+        "journal-title": "Biomedical Signal Processing and Control"
+      },
+      {
+        "key": "577_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shirley CP, Mohan NR, Chitra B. (2020 Jun 17) Gravitational search-based optimal deep neural network for occluded face recognition system in videos. Multidimensional Systems and Signal Processing, (pp. 1–27).",
+        "DOI": "10.1007/s11045-020-00733-0"
+      },
+      {
+        "key": "577_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "22691",
+        "DOI": "10.1007/s11042-019-7577-5",
+        "volume": "78",
+        "author": "MR Rejeesh",
+        "year": "2019",
+        "unstructured": "Rejeesh M R, Interest point based face recognition using adaptive neuro fuzzy inference system. Multimedia Tools Appl 78, 22691–22710 (2019)",
+        "journal-title": "Multimedia Tools Appl"
+      },
+      {
+        "key": "577_CR45",
+        "unstructured": "Hinton, G. (2010). A practical guide to training restricted Boltzmann machines. University of Toronto, UTML TR 2010–003."
+      },
+      {
+        "key": "577_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "2232",
+        "DOI": "10.1016/j.ins.2009.03.004",
+        "volume": "179",
+        "author": "E Rashedi",
+        "year": "2009",
+        "unstructured": "Rashedi, E., Nezamabadi-pour, H., & Saryazdi, S. (2009). GSA: A gravitational search algorithm. Information Sciences, 179: 2232–2248.",
+        "journal-title": "Information Sciences"
+      },
+      {
+        "key": "577_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "295",
+        "DOI": "10.1007/s11071-009-9649-y",
+        "volume": "61",
+        "author": "EJ Solteiro Pires",
+        "year": "2010",
+        "unstructured": "Solteiro Pires, E. J., Tenreiro Machado, J. A., de Moura Oliveira, P. B., Boaventura Cunha, J., & Mendes, L. (2010) Particle swarm optimization with fractional-order velocity. Nonlinear Dynamics, 61, 295–301.",
+        "journal-title": "Nonlinear Dynamics"
+      },
+      {
+        "issue": "2",
+        "key": "577_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "106",
+        "DOI": "10.1080/13682199.2017.1383677",
+        "volume": "66",
+        "author": "N Devidas Pergad",
+        "year": "2018",
+        "unstructured": "Devidas Pergad N, Hamde ST. Fractional gravitational search-radial basis neural network for bone marrow white blood cell classification. The Imaging Science Journal. 2018 Feb 17, 66(2): 106-24.",
+        "journal-title": "The Imaging Science Journal."
+      },
+      {
+        "issue": "8",
+        "key": "577_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "1218",
+        "DOI": "10.1016/j.ophtha.2017.03.044",
+        "volume": "124",
+        "author": "M Pazos",
+        "year": "2017",
+        "unstructured": "Pazos M, Dyrda AA, Biarnés M, Gómez A, Martín C, Mora C, Fatti G, Antón A. (2017 Aug 1) Diagnostic accuracy of Spectralis SD OCT automated macular layers segmentation to discriminate normal from early glaucomatous eyes. Ophthalmology, 124(8): 1218-28.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "577_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "459",
+        "DOI": "10.13005/bpj/1130",
+        "volume": "10",
+        "author": "NB Prakash",
+        "year": "2017",
+        "unstructured": "Prakash NB, Selvathi D. (2017 Mar 25) An Efficient Detection System for Screening Glaucoma in Retinal Images. Biomedical and Pharmacology Journal, 10(1): 459-65.",
+        "journal-title": "Biomedical and Pharmacology Journal"
+      },
+      {
+        "key": "577_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "308",
+        "DOI": "10.1016/j.eswa.2019.03.009",
+        "volume": "127",
+        "author": "N Thakur",
+        "year": "2019",
+        "unstructured": "Thakur N, Juneja M. (2019 Aug 1) Optic disc and optic cup segmentation from retinal images using hybrid approach. Expert Systems with Applications, 127: 308-22.",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "issue": "5",
+        "key": "577_CR52",
+        "first-page": "1",
+        "volume": "31",
+        "author": "M Juneja",
+        "year": "2020",
+        "unstructured": "Juneja M, Thakur N, Thakur S, Uniyal A, Wani A, Jindal P. (2020 Jul) GC-NET for classification of glaucoma in the retinal fundus image. Machine Vision and Applications. 31(5): 1-8.",
+        "journal-title": "Machine Vision and Applications."
+      },
+      {
+        "key": "577_CR53",
+        "unstructured": "Ajesh F, Ravi R, Rajakumar G. (2020 Feb 24) Early diagnosis of glaucoma using multi-feature analysis and DBN based classification. Journal of Ambient Intelligence and Humanized Computing, (pp. 1–0)."
+      },
+      {
+        "issue": "01",
+        "key": "577_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "1950065",
+        "DOI": "10.1142/S0219519419500659",
+        "volume": "20",
+        "author": "SS Kanse",
+        "year": "2020",
+        "unstructured": "Kanse SS, Yadav DM. (2020 Feb 13) HG-SVNN: HARMONIC GENETIC-BASED SUPPORT VECTOR NEURAL NETWORK CLASSIFIER FOR THE GLAUCOMA DETECTION. Journal of Mechanics in Medicine and Biology, 20(01): 1950065.",
+        "journal-title": "Journal of Mechanics in Medicine and Biology"
+      }
+    ],
+    "container-title": [
+      "Journal of Digital Imaging"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10278-021-00577-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10278-021-00577-5/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10278-021-00577-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2022-09-19T16:15:24Z",
+      "timestamp": 1663604124000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10278-021-00577-5"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          10
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "577"
+    ],
+    "URL": "https://doi.org/10.1007/s10278-021-00577-5",
+    "relation": {},
+    "ISSN": [
+      "0897-1889",
+      "1618-727X"
+    ],
+    "issn-type": [
+      {
+        "value": "0897-1889",
+        "type": "print"
+      },
+      {
+        "value": "1618-727X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "17 October 2020",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "23 December 2021",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 December 2021",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 March 2022",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "This article does not contain any studies with human or animal subjects performed by any of the authors.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Human and Animal Rights"
+        }
+      },
+      {
+        "value": "Informed consent was obtained from all individual participants included in the study.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Informed Consent"
+        }
+      },
+      {
+        "value": "The authors declare competing interests.",
+        "order": 4,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of Interest"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T04:06:56Z",
+      "timestamp": 1795147616651,
+      "version": "4.10.3"
+    },
+    "reference-count": 22,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              27
+            ]
+          ],
+          "date-time": "2018-11-27T00:00:00Z",
+          "timestamp": 1543276800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "PDXen",
+        "award": [
+          "1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PDxen",
+        "award": [
+          "2"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "DOI": "10.1371/journal.pone.0207982",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2018-11-27T19:04:20Z",
+      "timestamp": 1543345460000
+    },
+    "page": "e0207982",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 211,
+    "title": [
+      "A deep learning model for the detection of both advanced and early glaucoma using fundus photography"
+    ],
+    "prefix": "10.1371",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Jin Mo",
+        "family": "Ahn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sangsoo",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kwang-Sung",
+        "family": "Ahn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sung-Hoon",
+        "family": "Cho",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kwan Bok",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2373-6240",
+        "authenticated-orcid": true,
+        "given": "Ungsoo Samuel",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "7639",
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "115",
+        "DOI": "10.1038/nature21056",
+        "article-title": "Dermatologist-level classification of skin cancer with deep neural networks",
+        "volume": "542",
+        "author": "A Esteva",
+        "year": "2017",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "7",
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "742",
+        "DOI": "10.1038/ng.2980",
+        "article-title": "Brain-expressed exons under purifying selection are enriched for de novo mutations in autism spectrum disorder",
+        "volume": "46",
+        "author": "M Uddin",
+        "year": "2014",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "issue": "1",
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1109/TBME.2012.2208459",
+        "article-title": "Gaussian processes for personalized e-health monitoring with wearable sensors",
+        "volume": "60",
+        "author": "L Clifton",
+        "year": "2013",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "issue": "22",
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "8",
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "938",
+        "DOI": "10.1001/jamaophthalmol.2015.1478",
+        "article-title": "Prevalence, Risk Factors, and Visual Features of Undiagnosed Glaucoma: The Singapore Epidemiology of Eye Diseases Study",
+        "volume": "133",
+        "author": "J Chua",
+        "year": "2015",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "9",
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "963",
+        "DOI": "10.1109/TBME.2002.802012",
+        "article-title": "Comparison of machine learning and traditional classifiers in glaucoma diagnosis",
+        "volume": "49",
+        "author": "K Chan",
+        "year": "2002",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "issue": "1",
+        "key": "ref7",
+        "first-page": "162",
+        "article-title": "Comparing machine learning classifiers for diagnosing glaucoma from standard automated perimetry",
+        "volume": "43",
+        "author": "MH Goldbaum",
+        "year": "2002",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "1",
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1111/j.1755-3768.2009.01784.x",
+        "article-title": "Machine learning classifiers for glaucoma diagnosis based on classification of retinal nerve fibre layer thickness parameters measured by Stratus OCT",
+        "volume": "88",
+        "author": "D Bizios",
+        "year": "2010",
+        "journal-title": "Acta Ophthalmol"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "789129",
+        "DOI": "10.1155/2013/789129",
+        "article-title": "Glaucoma Diagnostic Accuracy of Machine Learning Classifiers Using Retinal Nerve Fiber Layer and Optic Nerve Data from SD-OCT",
+        "volume": "2013",
+        "author": "KA Barella",
+        "year": "2013",
+        "journal-title": "J Ophthalmol"
+      },
+      {
+        "key": "ref10",
+        "first-page": "2818",
+        "article-title": "Rethinking the Inception Architecture for Computer Vision",
+        "author": "C Szegedy",
+        "year": "2016"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Tensorflow: Large-scale machine learning on heterogeneous distributed systems",
+        "author": "M Abadi",
+        "year": "2016"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wong SC, Gatt A, Stamatescu V, McDonnell MD. Understanding Data Augmentation for Classification: When to Warp? 2016 Int Conf Digit Image Comput Tech Appl DICTA 2016. 2016. <comment>doi: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://doi.org/10.1109/DICTA.2016.7797091\" xlink:type=\"simple\">10.1109/DICTA.2016.7797091</ext-link></comment>",
+        "DOI": "10.1109/DICTA.2016.7797091"
+      },
+      {
+        "key": "ref13",
+        "first-page": "249",
+        "article-title": "Understanding the difficulty of training deep feedforward neural networks",
+        "volume": "9",
+        "author": "X Glorot",
+        "year": "2010",
+        "journal-title": "PMLR"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Deep Transfer Learning: A new deep learning glitch classification method for advanced LIGO",
+        "author": "D George",
+        "year": "2017"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1525",
+        "article-title": "Deep Convolutional Neural Network Based Screening And Assessment Of Age-Related Macular Degeneration From Fundus Images",
+        "author": "N York",
+        "year": "2018"
+      },
+      {
+        "key": "ref16",
+        "first-page": "1",
+        "article-title": "Deeply Supervised ResNet",
+        "author": "D Zhang",
+        "year": "2017",
+        "journal-title": "2017 IEEE SmartWorld, Ubiquitous Intell Comput Adv Trust Comput Scalable Comput Commun Cloud Big Data Comput Internet People Smart City Innov"
+      },
+      {
+        "key": "ref17",
+        "first-page": "1",
+        "article-title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "author": "K Simonyan",
+        "year": "2014"
+      },
+      {
+        "key": "ref18",
+        "first-page": "1",
+        "article-title": "Deep residual learning for image steganalysis",
+        "author": "S Wu",
+        "year": "2017",
+        "journal-title": "Multimed Tools Appl"
+      },
+      {
+        "key": "ref19",
+        "first-page": "1",
+        "article-title": "ImageNet Classification with Deep Convolutional Neural Networks",
+        "author": "A Krizhevsky",
+        "year": "2012",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1",
+        "article-title": "A Deep Learning Algorithm for Prediction of Age-Related Eye Disease Study Severity Scale for Age-Related Macular Degeneration from Color Fundus Photography",
+        "author": "F Grassmann",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "Nov",
+        "key": "ref21",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-SNE",
+        "volume": "9",
+        "author": "Maaten Lvd",
+        "year": "2008",
+        "journal-title": "Journal of machine learning research"
+      },
+      {
+        "issue": "5",
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0177726",
+        "DOI": "10.1371/journal.pone.0177726",
+        "article-title": "Development of machine learning models for diagnosis of glaucoma",
+        "volume": "12",
+        "author": "SJ Kim",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1371/journal.pone.0211579",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              25
+            ]
+          ],
+          "date-time": "2019-01-25T00:00:00Z",
+          "timestamp": 1548374400000
+        }
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pone.0207982",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2022-09-07T00:02:11Z",
+      "timestamp": 1662508931000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0207982"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Sanjoy",
+        "family": "Bhattacharya",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          27
+        ]
+      ]
+    },
+    "references-count": 22,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            27
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0207982",
+    "relation": {
+      "correction": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0211579",
+          "asserted-by": "object"
+        }
+      ],
+      "has-part": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.g001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.g002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.g003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.g004",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.g005",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.t001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.t002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0207982.t003",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          27
+        ]
+      ]
+    }
+  }
+}

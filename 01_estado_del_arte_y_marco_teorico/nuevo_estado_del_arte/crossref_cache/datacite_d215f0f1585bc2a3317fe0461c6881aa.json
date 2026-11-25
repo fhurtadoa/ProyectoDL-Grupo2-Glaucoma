@@ -1,0 +1,257 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2509.23617",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2509.23617",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2509.23617",
+      "identifiers": [
+        {
+          "identifier": "2509.23617",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2509.23617"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Huang, Cheng",
+          "nameType": "Personal",
+          "givenName": "Cheng",
+          "familyName": "Huang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Xie, Weizheng",
+          "nameType": "Personal",
+          "givenName": "Weizheng",
+          "familyName": "Xie",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Gao, Fan",
+          "nameType": "Personal",
+          "givenName": "Fan",
+          "familyName": "Gao",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Liu, Yutong",
+          "nameType": "Personal",
+          "givenName": "Yutong",
+          "familyName": "Liu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wu, Ruoling",
+          "nameType": "Personal",
+          "givenName": "Ruoling",
+          "familyName": "Wu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Han, Zeyu",
+          "nameType": "Personal",
+          "givenName": "Zeyu",
+          "familyName": "Han",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Qiu, Jingxi",
+          "nameType": "Personal",
+          "givenName": "Jingxi",
+          "familyName": "Qiu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wang, Xiangxiang",
+          "nameType": "Personal",
+          "givenName": "Xiangxiang",
+          "familyName": "Wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Yang, Zhenglin",
+          "nameType": "Personal",
+          "givenName": "Zhenglin",
+          "familyName": "Yang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wang, Hao",
+          "nameType": "Personal",
+          "givenName": "Hao",
+          "familyName": "Wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Yu, Yongbin",
+          "nameType": "Personal",
+          "givenName": "Yongbin",
+          "familyName": "Yu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "BioVessel-Net and RetinaMix: Unsupervised Retinal Vessel Segmentation from OCTA Images"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2025,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2025-09-28T03:46:20Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025-09-30T00:54:15Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025-09",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-nc-nd-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Structural changes in retinal blood vessels are critical biomarkers for the onset and progression of glaucoma and other ocular diseases. However, current vessel segmentation approaches largely rely on supervised learning and extensive manual annotations, which are costly, error-prone, and difficult to obtain in optical coherence tomography angiography. Here we present BioVessel-Net, an unsupervised generative framework that integrates vessel biostatistics with adversarial refinement and a radius-guided segmentation strategy. Unlike pixel-based methods, BioVessel-Net directly models vascular structures with biostatistical coherence, achieving accurate and explainable vessel extraction without labeled data or high-performance computing. To support training and evaluation, we introduce RetinaMix, a new benchmark dataset of 2D and 3D OCTA images with high-resolution vessel details from diverse populations. Experimental results demonstrate that BioVessel-Net achieves near-perfect segmentation accuracy across RetinaMix and existing datasets, substantially outperforming state-of-the-art supervised and semi-supervised methods. Together, BioVessel-Net and RetinaMix provide a label-free, computationally efficient, and clinically interpretable solution for retinal vessel analysis, with broad potential for glaucoma monitoring, blood flow modeling, and progression prediction. Code and dataset are available: https://github.com/VikiXie/SatMar8.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNTA5LjIzNjE3PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjUwOS4yMzYxNzwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5IdWFuZywgQ2hlbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkNoZW5nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkh1YW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlhpZSwgV2Vpemhlbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPldlaXpoZW5nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlhpZTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5HYW8sIEZhbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+RmFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkdhbzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5MaXUsIFl1dG9uZzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WXV0b25nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkxpdTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XdSwgUnVvbGluZzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+UnVvbGluZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XdTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5IYW4sIFpleXU8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlpleXU8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+SGFuPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlFpdSwgSmluZ3hpPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5KaW5neGk8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UWl1PC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPldhbmcsIFhpYW5neGlhbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlhpYW5neGlhbmc8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+V2FuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5ZYW5nLCBaaGVuZ2xpbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+WmhlbmdsaW48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+WWFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XYW5nLCBIYW88L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkhhbzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XYW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPll1LCBZb25nYmluPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Zb25nYmluPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPll1PC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5CaW9WZXNzZWwtTmV0IGFuZCBSZXRpbmFNaXg6IFVuc3VwZXJ2aXNlZCBSZXRpbmFsIFZlc3NlbCBTZWdtZW50YXRpb24gZnJvbSBPQ1RBIEltYWdlczwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5hclhpdjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNTwvcHVibGljYXRpb25ZZWFyPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkNvbXB1dGVyIFZpc2lvbiBhbmQgUGF0dGVybiBSZWNvZ25pdGlvbiAoY3MuQ1YpPC9zdWJqZWN0PgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+QXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgKGNzLkFJKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjUtMDktMjhUMDM6NDY6MjBaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjUtMDktMzBUMDA6NTQ6MTVaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNS0wOTwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLW5kLzQuMC8iIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHJpZ2h0c0lkZW50aWZpZXI9IkNDLUJZLU5DLU5ELTQuMCI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiBOb24gQ29tbWVyY2lhbCBObyBEZXJpdmF0aXZlcyA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlN0cnVjdHVyYWwgY2hhbmdlcyBpbiByZXRpbmFsIGJsb29kIHZlc3NlbHMgYXJlIGNyaXRpY2FsIGJpb21hcmtlcnMgZm9yIHRoZSBvbnNldCBhbmQgcHJvZ3Jlc3Npb24gb2YgZ2xhdWNvbWEgYW5kIG90aGVyIG9jdWxhciBkaXNlYXNlcy4gSG93ZXZlciwgY3VycmVudCB2ZXNzZWwgc2VnbWVudGF0aW9uIGFwcHJvYWNoZXMgbGFyZ2VseSByZWx5IG9uIHN1cGVydmlzZWQgbGVhcm5pbmcgYW5kIGV4dGVuc2l2ZSBtYW51YWwgYW5ub3RhdGlvbnMsIHdoaWNoIGFyZSBjb3N0bHksIGVycm9yLXByb25lLCBhbmQgZGlmZmljdWx0IHRvIG9idGFpbiBpbiBvcHRpY2FsIGNvaGVyZW5jZSB0b21vZ3JhcGh5IGFuZ2lvZ3JhcGh5LiBIZXJlIHdlIHByZXNlbnQgQmlvVmVzc2VsLU5ldCwgYW4gdW5zdXBlcnZpc2VkIGdlbmVyYXRpdmUgZnJhbWV3b3JrIHRoYXQgaW50ZWdyYXRlcyB2ZXNzZWwgYmlvc3RhdGlzdGljcyB3aXRoIGFkdmVyc2FyaWFsIHJlZmluZW1lbnQgYW5kIGEgcmFkaXVzLWd1aWRlZCBzZWdtZW50YXRpb24gc3RyYXRlZ3kuIFVubGlrZSBwaXhlbC1iYXNlZCBtZXRob2RzLCBCaW9WZXNzZWwtTmV0IGRpcmVjdGx5IG1vZGVscyB2YXNjdWxhciBzdHJ1Y3R1cmVzIHdpdGggYmlvc3RhdGlzdGljYWwgY29oZXJlbmNlLCBhY2hpZXZpbmcgYWNjdXJhdGUgYW5kIGV4cGxhaW5hYmxlIHZlc3NlbCBleHRyYWN0aW9uIHdpdGhvdXQgbGFiZWxlZCBkYXRhIG9yIGhpZ2gtcGVyZm9ybWFuY2UgY29tcHV0aW5nLiBUbyBzdXBwb3J0IHRyYWluaW5nIGFuZCBldmFsdWF0aW9uLCB3ZSBpbnRyb2R1Y2UgUmV0aW5hTWl4LCBhIG5ldyBiZW5jaG1hcmsgZGF0YXNldCBvZiAyRCBhbmQgM0QgT0NUQSBpbWFnZXMgd2l0aCBoaWdoLXJlc29sdXRpb24gdmVzc2VsIGRldGFpbHMgZnJvbSBkaXZlcnNlIHBvcHVsYXRpb25zLiBFeHBlcmltZW50YWwgcmVzdWx0cyBkZW1vbnN0cmF0ZSB0aGF0IEJpb1Zlc3NlbC1OZXQgYWNoaWV2ZXMgbmVhci1wZXJmZWN0IHNlZ21lbnRhdGlvbiBhY2N1cmFjeSBhY3Jvc3MgUmV0aW5hTWl4IGFuZCBleGlzdGluZyBkYXRhc2V0cywgc3Vic3RhbnRpYWxseSBvdXRwZXJmb3JtaW5nIHN0YXRlLW9mLXRoZS1hcnQgc3VwZXJ2aXNlZCBhbmQgc2VtaS1zdXBlcnZpc2VkIG1ldGhvZHMuIFRvZ2V0aGVyLCBCaW9WZXNzZWwtTmV0IGFuZCBSZXRpbmFNaXggcHJvdmlkZSBhIGxhYmVsLWZyZWUsIGNvbXB1dGF0aW9uYWxseSBlZmZpY2llbnQsIGFuZCBjbGluaWNhbGx5IGludGVycHJldGFibGUgc29sdXRpb24gZm9yIHJldGluYWwgdmVzc2VsIGFuYWx5c2lzLCB3aXRoIGJyb2FkIHBvdGVudGlhbCBmb3IgZ2xhdWNvbWEgbW9uaXRvcmluZywgYmxvb2QgZmxvdyBtb2RlbGluZywgYW5kIHByb2dyZXNzaW9uIHByZWRpY3Rpb24uIENvZGUgYW5kIGRhdGFzZXQgYXJlIGF2YWlsYWJsZTogaHR0cHM6Ly9naXRodWIuY29tL1Zpa2lYaWUvU2F0TWFyOC48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2509.23617",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2025-09-30T03:56:29.000Z",
+      "registered": "2025-09-30T03:56:30.000Z",
+      "published": "2025",
+      "updated": "2025-09-30T03:56:30.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2509.23617",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

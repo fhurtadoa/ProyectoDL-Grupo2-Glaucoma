@@ -1,0 +1,540 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T07:32:13Z",
+      "timestamp": 1795159933143,
+      "version": "4.10.3"
+    },
+    "reference-count": 20,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2019-07-02T00:00:00Z",
+          "timestamp": 1562025600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2019-07-02T00:00:00Z",
+          "timestamp": 1562025600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Eye"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41433-019-0510-3",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2019-07-02T15:02:37Z",
+      "timestamp": 1562079757000
+    },
+    "page": "1791-1797",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 49,
+    "title": [
+      "Evaluation of an AI system for the automated detection of glaucoma from stereoscopic optic disc photographs: the European Optic Disc Assessment Study"
+    ],
+    "prefix": "10.1038",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Thomas W.",
+        "family": "Rogers",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicolas",
+        "family": "Jaccard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francis",
+        "family": "Carbonaro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hans G.",
+        "family": "Lemij",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Koenraad A.",
+        "family": "Vermeer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicolaas J.",
+        "family": "Reus",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sameer",
+        "family": "Trikha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "510_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "volume": "90",
+        "author": "HA Quigley",
+        "year": "2006",
+        "unstructured": "Quigley HA, Broman AT. The number of people with glaucoma worldwide in 2010 and 2020. Br J Ophthalmol 2006;90:262–7.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "510_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "717",
+        "DOI": "10.1016/j.ophtha.2009.09.026",
+        "volume": "117",
+        "author": "NJ Reus",
+        "year": "2010",
+        "unstructured": "Reus NJ, Lemij HG, Garway-Heath DF, Airaksinen PJ, Anton A, Bron AM, et al. Clinical assessment of stereoscopic optic disc photographs for glaucoma: the European Optic Disc Assessment Trial. Ophthalmology. 2010;117:717–23.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "510_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "936",
+        "DOI": "10.1016/j.ajo.2014.01.024",
+        "volume": "157",
+        "author": "HH Chan",
+        "year": "2014",
+        "unstructured": "Chan HH, Ong DN, Kong YX, O’Neill EC, Pandav SS, Coote MA, et al. Glaucomatous optic neuropathy evaluation (GONE) project: the effect of monoscopic versus stereoscopic viewing conditions on optic nerve evaluation. Am J Ophthalmol. 2014;157:936–44.",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "510_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1590/S0004-27492013000300007",
+        "volume": "76",
+        "author": "DE Grigera",
+        "year": "2013",
+        "unstructured": "Grigera DE, Mello PA, Barbosa WL, Casiraghi JF, Grossmann RP, Peyret A. Level of agreement among Latin American glaucoma subspecialists on the diagnosis and treatment of glaucoma: results of an online survey. Arq Bras Oftalmol. 2013;76:163–9.",
+        "journal-title": "Arq Bras Oftalmol"
+      },
+      {
+        "key": "510_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "342",
+        "DOI": "10.1007/s004170100272",
+        "volume": "239",
+        "author": "M Batterbury",
+        "year": "2001",
+        "unstructured": "Batterbury M. Agreement between ophthalmologists and optometrists in optic disc assessment: training implications for glaucoma co-management. Graefes Arch Clin Exp Ophthalmol. 2001;239:342–59.",
+        "journal-title": "Graefes Arch Clin Exp Ophthalmol"
+      },
+      {
+        "key": "510_CR6",
+        "first-page": "729",
+        "volume": "72",
+        "author": "BA Teitelbaum",
+        "year": "2001",
+        "unstructured": "Teitelbaum BA, Haefs R, Connor D. Interobserver variability in the estimation of the cup/disk ratio among observers of differing educational background. Optometry 2001;72:729–32.",
+        "journal-title": "Optometry"
+      },
+      {
+        "key": "510_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1515",
+        "DOI": "10.1038/eye.2010.77",
+        "volume": "24",
+        "author": "AJ Lockwood",
+        "year": "2010",
+        "unstructured": "Lockwood AJ, Kirwan JF, Ashleigh Z. Optometrists referrals for glaucoma assessment: a prospective survey of clinical data and outcomes. Eye. 2010;24:1515.",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "510_CR8",
+        "unstructured": "Standards for Virtual Clinics in Glaucoma Care in the NHS Hospital Eye Service, November 2016. Available at \n                    http://www.rcophth.ac.uk/standards-publications-research\n                    \n                  . Accessed 1st July 2018."
+      },
+      {
+        "key": "510_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1288",
+        "DOI": "10.1038/eye.2012.120",
+        "volume": "26",
+        "author": "S Trikha",
+        "year": "2012",
+        "unstructured": "Trikha S, Macgregor C, Jeffery M, Kirwan J. The Portsmouth-based glaucoma refinement scheme: a role for virtual clinics in the future? Eye. 2012;26:1288.",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "510_CR10",
+        "unstructured": "Ratnarajan G. Evaluating and optimising glaucoma referral refinement pathways with specific reference to the changes scheme. Doctoral dissertation, University College London. 2016."
+      },
+      {
+        "key": "510_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, et al. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA. 2016;316:2402–10.",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "510_CR12",
+        "first-page": "145A",
+        "volume": "94",
+        "author": "GG Yang",
+        "year": "2014",
+        "unstructured": "Yang GG, Minasyan A, Lacey M, Gordon J, Knoll T. HMGA2 is a reliable immunohistochemical marker for separating melanoma from Nevi. Nature. 2014;94:145A.",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "510_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "volume": "521",
+        "author": "Y LeCun",
+        "year": "2015",
+        "unstructured": "LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015;521:436.",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "510_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2080",
+        "DOI": "10.1167/iovs.17-23276",
+        "volume": "59",
+        "author": "E Seo",
+        "year": "2018",
+        "unstructured": "Seo E, Jaccard N, Trikha S, Pasquale LR, Song BJ. Automated evaluation of optic disc images for manifest glaucoma detection using a deep-learning, neural network-based algorithm. Invest Ophthalmol Vis Sci 2018;59:2080–80.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "510_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "618",
+        "DOI": "10.1111/opo.12066",
+        "volume": "33",
+        "author": "SE Hadwin",
+        "year": "2013",
+        "unstructured": "Hadwin SE, Redmond T, Garway‐Heath DF, Lemij HG, Reus NJ, Ward G, et al. Assessment of optic disc photographs for glaucoma by UK optometrists: the Moorfields Optic Disc Assessment Study (MODAS). Ophthalmic Physiol Opt. 2013;33:618–24.",
+        "journal-title": "Ophthalmic Physiol Opt"
+      },
+      {
+        "issue": "11",
+        "key": "510_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "volume": "37",
+        "author": "Huazhu Fu",
+        "year": "2018",
+        "unstructured": "Fu H, Cheng J, Xu Y, Zhang C, Wong DW, Liu J, et al. Disc-aware ensemble network for glaucoma screening from fundus image. IEEE Trans. Med. Imaging. 2018;11:2493–2501.",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "510_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen X, Xu Y, Wong DW, Wong TY, Liu J Glaucoma detection based on deep convolutional neural network. In IEEE International Conference of the Engineering in Medicine and Biology Society (EMBC). 2015 (pp. 715–8).",
+        "DOI": "10.1109/EMBC.2015.7318462"
+      },
+      {
+        "key": "510_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "volume": "318",
+        "author": "DS Ting",
+        "year": "2017",
+        "unstructured": "Ting DS, Cheung CY, Lim G, Tan GS, Quang ND, Gan A, et al. Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes. JAMA. 2017;318:2211–23.",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "510_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition 2016 (pp. 770–78).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "9",
+        "key": "510_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "volume": "24",
+        "author": "Jeffrey De Fauw",
+        "year": "2018",
+        "unstructured": "De Fauw J, Ledsam JR, Romera-Paredes B, Nikolov S, Tomasev N, Blackwell S, et al. Clinically applicable deep learning for diagnosis and referral in retinal disease. Nat Med 2018;24:1342–50.",
+        "journal-title": "Nature Medicine"
+      }
+    ],
+    "container-title": [
+      "Eye"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/s41433-019-0510-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/s41433-019-0510-3",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/s41433-019-0510-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          20
+        ]
+      ],
+      "date-time": "2023-05-20T21:07:45Z",
+      "timestamp": 1684616865000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41433-019-0510-3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ]
+    },
+    "references-count": 20,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "510"
+    ],
+    "URL": "https://doi.org/10.1038/s41433-019-0510-3",
+    "relation": {},
+    "ISSN": [
+      "0950-222X",
+      "1476-5454"
+    ],
+    "issn-type": [
+      {
+        "value": "0950-222X",
+        "type": "print"
+      },
+      {
+        "value": "1476-5454",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "7 September 2018",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "20 March 2019",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "25 May 2019",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "2 July 2019",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Compliance with ethical standards"
+        }
+      },
+      {
+        "value": "T.W. Rogers and N. Jaccard are employed by Visulytix Ltd. S. Trikha owns stock in and has received honoraria from Visulytix Ltd. F. Carbonaro owns stock in Visulytix Ltd. N.J. Reus, K.A. Vermeer and H.G. Lemij declare no potential conflicts of interest.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ]
+  }
+}

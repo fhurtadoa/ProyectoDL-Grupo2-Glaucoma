@@ -1,0 +1,207 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2307.16528",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2307.16528",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2307.16528",
+      "identifiers": [
+        {
+          "identifier": "2307.16528",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2307.16528"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Ashtari-Majlan, Mona",
+          "nameType": "Personal",
+          "givenName": "Mona",
+          "familyName": "Ashtari-Majlan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Dehshibi, Mohammad Mahdi",
+          "nameType": "Personal",
+          "givenName": "Mohammad Mahdi",
+          "familyName": "Dehshibi",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Masip, David",
+          "nameType": "Personal",
+          "givenName": "David",
+          "familyName": "Masip",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Deep Learning and Computer Vision for Glaucoma Detection: A Review"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Image and Video Processing (eess.IV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Machine Learning (cs.LG)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2023-07-31T09:49:51Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023-08-01T00:35:47Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023-07",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2023",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Glaucoma is the leading cause of irreversible blindness worldwide and poses significant diagnostic challenges due to its reliance on subjective evaluation. However, recent advances in computer vision and deep learning have demonstrated the potential for automated assessment. In this paper, we survey recent studies on AI-based glaucoma diagnosis using fundus, optical coherence tomography, and visual field images, with a particular emphasis on deep learning-based methods. We provide an updated taxonomy that organizes methods into architectural paradigms and includes links to available source code to enhance the reproducibility of the methods. Through rigorous benchmarking on widely-used public datasets, we reveal performance gaps in generalizability, uncertainty estimation, and multimodal integration. Additionally, our survey curates key datasets while highlighting limitations such as scale, labeling inconsistencies, and bias. We outline open research challenges and detail promising directions for future studies. This survey is expected to be useful for both AI researchers seeking to translate advances into practice and ophthalmologists aiming to improve clinical workflows and diagnosis using the latest AI outcomes.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yMzA3LjE2NTI4PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjMwNy4xNjUyODwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Bc2h0YXJpLU1hamxhbiwgTW9uYTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TW9uYTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Bc2h0YXJpLU1hamxhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5EZWhzaGliaSwgTW9oYW1tYWQgTWFoZGk8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPk1vaGFtbWFkIE1haGRpPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkRlaHNoaWJpPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPk1hc2lwLCBEYXZpZDwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+RGF2aWQ8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TWFzaXA8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkRlZXAgTGVhcm5pbmcgYW5kIENvbXB1dGVyIFZpc2lvbiBmb3IgR2xhdWNvbWEgRGV0ZWN0aW9uOiBBIFJldmlldzwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5hclhpdjwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyMzwvcHVibGljYXRpb25ZZWFyPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkltYWdlIGFuZCBWaWRlbyBQcm9jZXNzaW5nIChlZXNzLklWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkNvbXB1dGVyIFZpc2lvbiBhbmQgUGF0dGVybiBSZWNvZ25pdGlvbiAoY3MuQ1YpPC9zdWJqZWN0PgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+TWFjaGluZSBMZWFybmluZyAoY3MuTEcpPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iRmllbGRzIG9mIFNjaWVuY2UgYW5kIFRlY2hub2xvZ3kgKEZPUykiPkZPUzogRWxlY3RyaWNhbCBlbmdpbmVlcmluZywgZWxlY3Ryb25pYyBlbmdpbmVlcmluZywgaW5mb3JtYXRpb24gZW5naW5lZXJpbmc8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGaWVsZHMgb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSAoRk9TKSI+Rk9TOiBDb21wdXRlciBhbmQgaW5mb3JtYXRpb24gc2NpZW5jZXM8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iU3VibWl0dGVkIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDIzLTA3LTMxVDA5OjQ5OjUxWjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDIzLTA4LTAxVDAwOjM1OjQ3WjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJBdmFpbGFibGUiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjMtMDc8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IlByZXByaW50Ij5BcnRpY2xlPC9yZXNvdXJjZVR5cGU+CiAgPHZlcnNpb24+MTwvdmVyc2lvbj4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiByaWdodHNJZGVudGlmaWVyPSJDQy1CWS00LjAiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5HbGF1Y29tYSBpcyB0aGUgbGVhZGluZyBjYXVzZSBvZiBpcnJldmVyc2libGUgYmxpbmRuZXNzIHdvcmxkd2lkZSBhbmQgcG9zZXMgc2lnbmlmaWNhbnQgZGlhZ25vc3RpYyBjaGFsbGVuZ2VzIGR1ZSB0byBpdHMgcmVsaWFuY2Ugb24gc3ViamVjdGl2ZSBldmFsdWF0aW9uLiBIb3dldmVyLCByZWNlbnQgYWR2YW5jZXMgaW4gY29tcHV0ZXIgdmlzaW9uIGFuZCBkZWVwIGxlYXJuaW5nIGhhdmUgZGVtb25zdHJhdGVkIHRoZSBwb3RlbnRpYWwgZm9yIGF1dG9tYXRlZCBhc3Nlc3NtZW50LiBJbiB0aGlzIHBhcGVyLCB3ZSBzdXJ2ZXkgcmVjZW50IHN0dWRpZXMgb24gQUktYmFzZWQgZ2xhdWNvbWEgZGlhZ25vc2lzIHVzaW5nIGZ1bmR1cywgb3B0aWNhbCBjb2hlcmVuY2UgdG9tb2dyYXBoeSwgYW5kIHZpc3VhbCBmaWVsZCBpbWFnZXMsIHdpdGggYSBwYXJ0aWN1bGFyIGVtcGhhc2lzIG9uIGRlZXAgbGVhcm5pbmctYmFzZWQgbWV0aG9kcy4gV2UgcHJvdmlkZSBhbiB1cGRhdGVkIHRheG9ub215IHRoYXQgb3JnYW5pemVzIG1ldGhvZHMgaW50byBhcmNoaXRlY3R1cmFsIHBhcmFkaWdtcyBhbmQgaW5jbHVkZXMgbGlua3MgdG8gYXZhaWxhYmxlIHNvdXJjZSBjb2RlIHRvIGVuaGFuY2UgdGhlIHJlcHJvZHVjaWJpbGl0eSBvZiB0aGUgbWV0aG9kcy4gVGhyb3VnaCByaWdvcm91cyBiZW5jaG1hcmtpbmcgb24gd2lkZWx5LXVzZWQgcHVibGljIGRhdGFzZXRzLCB3ZSByZXZlYWwgcGVyZm9ybWFuY2UgZ2FwcyBpbiBnZW5lcmFsaXphYmlsaXR5LCB1bmNlcnRhaW50eSBlc3RpbWF0aW9uLCBhbmQgbXVsdGltb2RhbCBpbnRlZ3JhdGlvbi4gQWRkaXRpb25hbGx5LCBvdXIgc3VydmV5IGN1cmF0ZXMga2V5IGRhdGFzZXRzIHdoaWxlIGhpZ2hsaWdodGluZyBsaW1pdGF0aW9ucyBzdWNoIGFzIHNjYWxlLCBsYWJlbGluZyBpbmNvbnNpc3RlbmNpZXMsIGFuZCBiaWFzLiBXZSBvdXRsaW5lIG9wZW4gcmVzZWFyY2ggY2hhbGxlbmdlcyBhbmQgZGV0YWlsIHByb21pc2luZyBkaXJlY3Rpb25zIGZvciBmdXR1cmUgc3R1ZGllcy4gVGhpcyBzdXJ2ZXkgaXMgZXhwZWN0ZWQgdG8gYmUgdXNlZnVsIGZvciBib3RoIEFJIHJlc2VhcmNoZXJzIHNlZWtpbmcgdG8gdHJhbnNsYXRlIGFkdmFuY2VzIGludG8gcHJhY3RpY2UgYW5kIG9waHRoYWxtb2xvZ2lzdHMgYWltaW5nIHRvIGltcHJvdmUgY2xpbmljYWwgd29ya2Zsb3dzIGFuZCBkaWFnbm9zaXMgdXNpbmcgdGhlIGxhdGVzdCBBSSBvdXRjb21lcy48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2307.16528",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2023-08-01T02:00:10.000Z",
+      "registered": "2023-08-01T02:00:11.000Z",
+      "published": "2023",
+      "updated": "2023-08-01T02:00:11.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2307.16528",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

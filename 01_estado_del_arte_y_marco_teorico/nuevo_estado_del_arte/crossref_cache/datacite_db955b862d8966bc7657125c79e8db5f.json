@@ -1,0 +1,175 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2610.32511",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2610.32511",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2610.32511",
+      "identifiers": [
+        {
+          "identifier": "2610.32511",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2610.32511"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Meena, Ashish Kumar",
+          "nameType": "Personal",
+          "givenName": "Ashish Kumar",
+          "familyName": "Meena",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Seelamantula, Chandra Sekhar",
+          "nameType": "Personal",
+          "givenName": "Chandra Sekhar",
+          "familyName": "Seelamantula",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Augmentation Strategy for DINO in Glaucoma Classification"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-10-23T11:33:28Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-10-26T00:53:14Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-10",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Self-supervised learning (SSL) offers a promising approach to medical image representation learning, yet augmentation strategies of SSL frameworks validated on natural images do not reliably transfer to specialized medical imaging domains. We analyze DINO, a knowledge-distillation based SSL framework, and empirically demonstrate that its default augmentation strategy produces unreliable representations for retinal fundus images, degrading downstream glaucoma classification performance. Guided by the principle that effective cropped views should share minimal redundant information while retaining clinically relevant signal, we redesign DINO's augmentation strategy. Our approach biases the learned representations toward diagnostically critical features rather than low-level image statistics. We evaluate our method for glaucoma classification by training a linear classifier on the frozen representations, achieving strong generalization across seven benchmark datasets. URL for code and weights: https://github.com/ashish-256/task_dino",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "11 pages, 3 figures. Accepted at the 17th International Workshop on Machine Learning in Medical Imaging (MLMI 2026), held in conjunction with MICCAI 2026",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNjEwLjMyNTExPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjYxMC4zMjUxMTwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5NZWVuYSwgQXNoaXNoIEt1bWFyPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Bc2hpc2ggS3VtYXI8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TWVlbmE8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+U2VlbGFtYW50dWxhLCBDaGFuZHJhIFNla2hhcjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2hhbmRyYSBTZWtoYXI8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+U2VlbGFtYW50dWxhPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5BdWdtZW50YXRpb24gU3RyYXRlZ3kgZm9yIERJTk8gaW4gR2xhdWNvbWEgQ2xhc3NpZmljYXRpb248L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+YXJYaXY8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjY8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMTAtMjNUMTE6MzM6MjhaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMTAtMjZUMDA6NTM6MTRaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNi0xMDwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8iIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHJpZ2h0c0lkZW50aWZpZXI9IkNDLUJZLTQuMCI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlNlbGYtc3VwZXJ2aXNlZCBsZWFybmluZyAoU1NMKSBvZmZlcnMgYSBwcm9taXNpbmcgYXBwcm9hY2ggdG8gbWVkaWNhbCBpbWFnZSByZXByZXNlbnRhdGlvbiBsZWFybmluZywgeWV0IGF1Z21lbnRhdGlvbiBzdHJhdGVnaWVzIG9mIFNTTCBmcmFtZXdvcmtzIHZhbGlkYXRlZCBvbiBuYXR1cmFsIGltYWdlcyBkbyBub3QgcmVsaWFibHkgdHJhbnNmZXIgdG8gc3BlY2lhbGl6ZWQgbWVkaWNhbCBpbWFnaW5nIGRvbWFpbnMuIFdlIGFuYWx5emUgRElOTywgYSBrbm93bGVkZ2UtZGlzdGlsbGF0aW9uIGJhc2VkIFNTTCBmcmFtZXdvcmssIGFuZCBlbXBpcmljYWxseSBkZW1vbnN0cmF0ZSB0aGF0IGl0cyBkZWZhdWx0IGF1Z21lbnRhdGlvbiBzdHJhdGVneSBwcm9kdWNlcyB1bnJlbGlhYmxlIHJlcHJlc2VudGF0aW9ucyBmb3IgcmV0aW5hbCBmdW5kdXMgaW1hZ2VzLCBkZWdyYWRpbmcgZG93bnN0cmVhbSBnbGF1Y29tYSBjbGFzc2lmaWNhdGlvbiBwZXJmb3JtYW5jZS4gR3VpZGVkIGJ5IHRoZSBwcmluY2lwbGUgdGhhdCBlZmZlY3RpdmUgY3JvcHBlZCB2aWV3cyBzaG91bGQgc2hhcmUgbWluaW1hbCByZWR1bmRhbnQgaW5mb3JtYXRpb24gd2hpbGUgcmV0YWluaW5nIGNsaW5pY2FsbHkgcmVsZXZhbnQgc2lnbmFsLCB3ZSByZWRlc2lnbiBESU5PJ3MgYXVnbWVudGF0aW9uIHN0cmF0ZWd5LiBPdXIgYXBwcm9hY2ggYmlhc2VzIHRoZSBsZWFybmVkIHJlcHJlc2VudGF0aW9ucyB0b3dhcmQgZGlhZ25vc3RpY2FsbHkgY3JpdGljYWwgZmVhdHVyZXMgcmF0aGVyIHRoYW4gbG93LWxldmVsIGltYWdlIHN0YXRpc3RpY3MuIFdlIGV2YWx1YXRlIG91ciBtZXRob2QgZm9yIGdsYXVjb21hIGNsYXNzaWZpY2F0aW9uIGJ5IHRyYWluaW5nIGEgbGluZWFyIGNsYXNzaWZpZXIgb24gdGhlIGZyb3plbiByZXByZXNlbnRhdGlvbnMsIGFjaGlldmluZyBzdHJvbmcgZ2VuZXJhbGl6YXRpb24gYWNyb3NzIHNldmVuIGJlbmNobWFyayBkYXRhc2V0cy4gVVJMIGZvciBjb2RlIGFuZCB3ZWlnaHRzOiBodHRwczovL2dpdGh1Yi5jb20vYXNoaXNoLTI1Ni90YXNrX2Rpbm88L2Rlc2NyaXB0aW9uPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPjExIHBhZ2VzLCAzIGZpZ3VyZXMuIEFjY2VwdGVkIGF0IHRoZSAxN3RoIEludGVybmF0aW9uYWwgV29ya3Nob3Agb24gTWFjaGluZSBMZWFybmluZyBpbiBNZWRpY2FsIEltYWdpbmcgKE1MTUkgMjAyNiksIGhlbGQgaW4gY29uanVuY3Rpb24gd2l0aCBNSUNDQUkgMjAyNjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+",
+      "url": "https://arxiv.org/abs/2610.32511",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-10-26T02:19:37.000Z",
+      "registered": "2026-10-26T02:19:38.000Z",
+      "published": "2026",
+      "updated": "2026-10-26T02:19:38.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2610.32511",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2026-11-19T17:55:50Z",
+      "timestamp": 1795110950265,
+      "version": "4.10.3"
+    },
+    "reference-count": 32,
+    "publisher": "American Diabetes Association",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              5
+            ]
+          ],
+          "date-time": "2020-01-05T00:00:00Z",
+          "timestamp": 1578182400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.diabetesjournals.org/content/license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "K23-EY-029246"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "K23-EY-029246"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01-AG-060942"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01-AG-060942"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001818",
+        "name": "Research to Prevent Blindness",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001818",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "diabetesjournals.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:sec><jats:title>OBJECTIVE</jats:title><jats:p>With rising global prevalence of diabetic retinopathy (DR), automated DR screening is needed for primary care settings. Two automated artificial intelligence (AI)–based DR screening algorithms have U.S. Food and Drug Administration (FDA) approval. Several others are under consideration while in clinical use in other countries, but their real-world performance has not been evaluated systematically. We compared the performance of seven automated AI-based DR screening algorithms (including one FDA-approved algorithm) against human graders when analyzing real-world retinal imaging data.</jats:p></jats:sec><jats:sec><jats:title>RESEARCH DESIGN AND METHODS</jats:title><jats:p>This was a multicenter, noninterventional device validation study evaluating a total of 311,604 retinal images from 23,724 veterans who presented for teleretinal DR screening at the Veterans Affairs (VA) Puget Sound Health Care System (HCS) or Atlanta VA HCS from 2006 to 2018. Five companies provided seven algorithms, including one with FDA approval, that independently analyzed all scans, regardless of image quality. The sensitivity/specificity of each algorithm when classifying images as referable DR or not were compared with original VA teleretinal grades and a regraded arbitrated data set. Value per encounter was estimated.</jats:p></jats:sec><jats:sec><jats:title>RESULTS</jats:title><jats:p>Although high negative predictive values (82.72–93.69%) were observed, sensitivities varied widely (50.98–85.90%). Most algorithms performed no better than humans against the arbitrated data set, but two achieved higher sensitivities, and one yielded comparable sensitivity (80.47%, P = 0.441) and specificity (81.28%, P = 0.195). Notably, one had lower sensitivity (74.42%) for proliferative DR (P = 9.77 × 10−4) than the VA teleretinal graders. Value per encounter varied at $15.14–$18.06 for ophthalmologists and $7.74–$9.24 for optometrists.</jats:p></jats:sec><jats:sec><jats:title>CONCLUSIONS</jats:title><jats:p>The DR screening algorithms showed significant performance differences. These results argue for rigorous testing of all such algorithms on real-world data before clinical implementation.</jats:p></jats:sec>",
+    "DOI": "10.2337/dc20-1877",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2021-01-05T20:52:21Z",
+      "timestamp": 1609879941000
+    },
+    "page": "1168-1175",
+    "update-policy": "https://doi.org/10.2337/ada-journal-policies",
+    "source": "Crossref",
+    "is-referenced-by-count": 195,
+    "title": [
+      "Multicenter, Head-to-Head, Real-World Validation Study of Seven Automated Artificial Intelligence Diabetic Retinopathy Screening Systems"
+    ],
+    "prefix": "10.2337",
+    "volume": "44",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7452-1648",
+        "authenticated-orcid": false,
+        "given": "Aaron Y.",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          },
+          {
+            "name": "Department of Ophthalmology, Puget Sound Veteran Affairs, Seattle, WA"
+          },
+          {
+            "name": "eScience Institute, University of Washington, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ryan T.",
+        "family": "Yanagihara",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cecilia S.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          },
+          {
+            "name": "Department of Ophthalmology, Puget Sound Veteran Affairs, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marian",
+        "family": "Blazes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hoon C.",
+        "family": "Jung",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          },
+          {
+            "name": "Department of Ophthalmology, Puget Sound Veteran Affairs, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yewlin E.",
+        "family": "Chee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael D.",
+        "family": "Gencarella",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, University of Washington School of Medicine, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harry",
+        "family": "Gee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Office of Information and Technology, Clinical Imaging, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "April Y.",
+        "family": "Maa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Emory University School of Medicine, Atlanta, GA"
+          },
+          {
+            "name": "Regional Telehealth Services, Veterans Affairs Southeast Network Veterans Integrated Service Networks (VISN) 7, Duluth, GA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Glenn C.",
+        "family": "Cockerham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Veterans Health Administration, Specialty Care Services, Washington, DC"
+          },
+          {
+            "name": "Ophthalmology Service, Stanford University School of Medicine, Palo Alto, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mary",
+        "family": "Lynch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology, Emory University School of Medicine, Atlanta, GA"
+          },
+          {
+            "name": "Ophthalmology Section, Atlanta Veterans Affairs Medical Center, Atlanta, GA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3695-192X",
+        "authenticated-orcid": false,
+        "given": "Edward J.",
+        "family": "Boyko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Seattle Epidemiologic Research and Information Center, Department of Veterans Affairs Medical Center, Seattle, WA"
+          },
+          {
+            "name": "Department of Medicine, University of Washington, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1167",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2022031309514606900_B1",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1186/s40662-015-0026-2",
+        "article-title": "Epidemiology of diabetic retinopathy, diabetic macular edema and related vision loss",
+        "volume": "2",
+        "author": "Lee",
+        "year": "2015",
+        "journal-title": "Eye Vis (Lond)"
+      },
+      {
+        "key": "2022031309514606900_B2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e004015",
+        "DOI": "10.1136/bmjopen-2013-004015",
+        "article-title": "A comparison of the causes of blindness certifications in England and Wales in working age adults (16-64 years), 1999-2000 with 2009-2010",
+        "volume": "4",
+        "author": "Liew",
+        "year": "2014",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "2022031309514606900_B3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1629",
+        "DOI": "10.1056/NEJMra1909637",
+        "article-title": "Evaluation and care of patients with diabetic retinopathy",
+        "volume": "382",
+        "author": "Jampol",
+        "year": "2020",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2022031309514606900_B4",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.ophtha.2019.09.025",
+        "article-title": "Diabetic retinopathy preferred practice pattern®",
+        "volume": "127",
+        "author": "Flaxel",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2022031309514606900_B5",
+        "doi-asserted-by": "crossref",
+        "first-page": "S135",
+        "DOI": "10.2337/dc20-S011",
+        "article-title": "11. Microvascular complications and foot care: Standards of Medical Care in Diabetes—2020",
+        "volume": "43",
+        "author": "American Diabetes Association",
+        "year": "2020",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2022031309514606900_B6",
+        "unstructured": "International Diabetes Federation . Diabetes Facts & Figures. Accessed 26 April 2020. Available from https://www.idf.org/aboutdiabetes/what-is-diabetes/facts-figures.html"
+      },
+      {
+        "key": "2022031309514606900_B7",
+        "doi-asserted-by": "crossref",
+        "first-page": "783",
+        "DOI": "10.1136/bjophthalmol-2011-301378",
+        "article-title": "The number of ophthalmologists in practice and training worldwide: a growing gap despite more than 200,000 practitioners",
+        "volume": "96",
+        "author": "Resnikoff",
+        "year": "2012",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "2022031309514606900_B8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2604",
+        "DOI": "10.1016/j.ophtha.2013.06.029",
+        "article-title": "Evaluation of telemedicine for screening of diabetic retinopathy in the Veterans Health Administration",
+        "volume": "120",
+        "author": "Kirkizlar",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2022031309514606900_B9",
+        "doi-asserted-by": "crossref",
+        "first-page": "786",
+        "DOI": "10.1001/jamaophthalmol.2019.1070",
+        "article-title": "Effectiveness of teleretinal imaging-based hospital referral compared with universal referral in identifying diabetic retinopathy: a cluster randomized clinical trial",
+        "volume": "137",
+        "author": "Joseph",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2022031309514606900_B10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3310/hta20920",
+        "article-title": "An observational study to assess if automated diabetic retinopathy image assessment software can replace one or more steps of manual imaging grading and to determine their cost-effectiveness",
+        "volume": "20",
+        "author": "Tufail",
+        "year": "2016",
+        "journal-title": "Health Technol Assess"
+      },
+      {
+        "key": "2022031309514606900_B11",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1016/j.ophtha.2016.11.014",
+        "article-title": "Automated diabetic retinopathy image assessment software: diagnostic accuracy and cost-effectiveness compared with human graders",
+        "volume": "124",
+        "author": "Tufail",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2022031309514606900_B12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2022031309514606900_B13",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2022031309514606900_B14",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1038/s41746-018-0048-y",
+        "article-title": "With an eye to AI and autonomous diagnosis",
+        "volume": "1",
+        "author": "Keane",
+        "year": "2018",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2022031309514606900_B15",
+        "unstructured": "Center for Devices and Radiological Health . CDRH Regulatory Science Priorities. U.S. Food and Drug Administration, 2019. Accessed 23 July 2020. Available from https://www.fda.gov/medical-devices/science-and-research-medical-devices/cdrh-regulatory-science-priorities"
+      },
+      {
+        "key": "2022031309514606900_B16",
+        "first-page": "983",
+        "article-title": "Machine learning approaches for detecting diabetic retinopathy from clinical and public health records",
+        "volume": "2015",
+        "author": "Ogunyemi",
+        "year": "2015",
+        "journal-title": "AMIA Annu Symp Proc"
+      },
+      {
+        "key": "2022031309514606900_B17",
+        "doi-asserted-by": "crossref",
+        "first-page": "832",
+        "DOI": "10.1007/s10278-018-0153-0",
+        "article-title": "Exporting diabetic retinopathy images from VA VISTA Imaging for research",
+        "volume": "32",
+        "author": "Kuzmak",
+        "year": "2019",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "2022031309514606900_B18",
+        "doi-asserted-by": "crossref",
+        "first-page": "741",
+        "DOI": "10.1682/JRRD.2005.08.0146",
+        "article-title": "Framework for a national teleretinal imaging program to screen for diabetic retinopathy in Veterans Health Administration patients",
+        "volume": "43",
+        "author": "Conlin",
+        "year": "2006",
+        "journal-title": "J Rehabil Res Dev"
+      },
+      {
+        "key": "2022031309514606900_B19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stock C, Hielscher T. DTComPair: Comparison of Binary Diagnostic Tests in a Paired Study Design, 2014. Accessed 20 April 2020. Available from https://rdrr.io/cran/DTComPair/man/dtcompair-package.html",
+        "DOI": "10.32614/CRAN.package.DTComPair"
+      },
+      {
+        "key": "2022031309514606900_B20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e240",
+        "DOI": "10.1016/S2589-7500(20)30060-1",
+        "article-title": "Artificial intelligence for teleophthalmology-based diabetic retinopathy screening in a national programme: an economic analysis modelling study",
+        "volume": "2",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2022031309514606900_B21",
+        "doi-asserted-by": "crossref",
+        "first-page": "10228",
+        "DOI": "10.1038/s41598-018-28585-6",
+        "article-title": "Undilated versus dilated monoscopic smartphone-based fundus photography for optic nerve head evaluation",
+        "volume": "8",
+        "author": "Wintergerst",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2022031309514606900_B22",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.3758/BF03328514",
+        "article-title": "Racial differences in pigmentation of the fundus oculi",
+        "volume": "7",
+        "author": "Silvar",
+        "year": "1967",
+        "journal-title": "Psychon Sci"
+      },
+      {
+        "key": "2022031309514606900_B23",
+        "doi-asserted-by": "crossref",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "article-title": "Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning",
+        "volume": "57",
+        "author": "Abràmoff",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "2022031309514606900_B24",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2022031309514606900_B25",
+        "doi-asserted-by": "crossref",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated identification of diabetic retinopathy using deep learning",
+        "volume": "124",
+        "author": "Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "2022031309514606900_B26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1001",
+        "DOI": "10.1089/tmj.2019.0137",
+        "article-title": "Validation of a deep learning algorithm for diabetic retinopathy",
+        "volume": "26",
+        "author": "Romero-Aroca",
+        "year": "2020",
+        "journal-title": "Telemed J E Health"
+      },
+      {
+        "key": "2022031309514606900_B27",
+        "doi-asserted-by": "crossref",
+        "first-page": "635",
+        "DOI": "10.1089/dia.2019.0164",
+        "article-title": "The value of automated diabetic retinopathy screening with the EyeArt system: a study of more than 100,000 consecutive encounters from people with diabetes",
+        "volume": "21",
+        "author": "Bhaskaranand",
+        "year": "2019",
+        "journal-title": "Diabetes Technol Ther"
+      },
+      {
+        "key": "2022031309514606900_B28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1182",
+        "DOI": "10.1001/jamaophthalmol.2019.2923",
+        "article-title": "Diagnostic accuracy of community-based diabetic retinopathy screening with an offline artificial intelligence system on a smartphone",
+        "volume": "137",
+        "author": "Natarajan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "2022031309514606900_B29",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1167/tvst.9.2.22",
+        "article-title": "Health economic and safety considerations for artificial intelligence applications in diabetic retinopathy screening",
+        "volume": "9",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "2022031309514606900_B30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1351",
+        "DOI": "10.1038/s41591-020-1037-7",
+        "article-title": "Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension",
+        "volume": "26",
+        "author": "Cruz Rivera",
+        "year": "2020",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2022031309514606900_B31",
+        "doi-asserted-by": "crossref",
+        "first-page": "m3164",
+        "DOI": "10.1136/bmj.m3164",
+        "article-title": "Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension",
+        "volume": "370",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "2022031309514606900_B32",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.4103/picr.PICR_170_17",
+        "article-title": "Common pitfalls in statistical analysis: understanding the properties of diagnostic tests - part 1",
+        "volume": "9",
+        "author": "Ranganathan",
+        "year": "2018",
+        "journal-title": "Perspect Clin Res"
+      }
+    ],
+    "container-title": [
+      "Diabetes Care"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://care.diabetesjournals.org/syndication/doi/10.2337/dc20-1877",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://diabetesjournals.org/care/article-pdf/44/5/1168/632746/dc201877.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://diabetesjournals.org/care/article-pdf/44/5/1168/632746/dc201877.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2024-08-21T22:33:29Z",
+      "timestamp": 1724279609000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://diabetesjournals.org/care/article/44/5/1168/138752/Multicenter-Head-to-Head-Real-World-Validation"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "references-count": 32,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.2337/dc20-1877",
+    "relation": {},
+    "ISSN": [
+      "0149-5992",
+      "1935-5548"
+    ],
+    "issn-type": [
+      {
+        "value": "0149-5992",
+        "type": "print"
+      },
+      {
+        "value": "1935-5548",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    }
+  }
+}

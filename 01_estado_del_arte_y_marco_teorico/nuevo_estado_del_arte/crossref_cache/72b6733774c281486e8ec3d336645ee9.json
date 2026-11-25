@@ -1,0 +1,887 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T19:02:51Z",
+      "timestamp": 1793127771482,
+      "version": "4.5.0"
+    },
+    "reference-count": 26,
+    "publisher": "Optica Publishing Group",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              24
+            ]
+          ],
+          "date-time": "2021-09-24T00:00:00Z",
+          "timestamp": 1632441600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v1#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              24
+            ]
+          ],
+          "date-time": "2021-09-24T00:00:00Z",
+          "timestamp": 1632441600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2018YFA0701700"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2018YFA0701700"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61622114"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "61622114"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61972187"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "61972187"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62001196"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62001196"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U20A20170"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U20A20170"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003392",
+        "name": "Natural Science Foundation of Fujian Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2020J02024"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020J02024"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003392",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100013092",
+        "name": "Science and Technology Planning Project of Fuzhou",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2020-RC-186"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020-RC-186"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100013092",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "opg.optica.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomed. Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Accurate segmentation of optic disc (OD) and optic cup (OC) in fundus images is crucial for the analysis of many retinal diseases, such as the screening and diagnosis of glaucoma and atrophy segmentation. Due to domain shift between different datasets caused by different acquisition devices and modes and inadequate training caused by small sample dataset, the existing deep-learning-based OD and OC segmentation networks have poor generalization ability for different fundus image datasets. In this paper, adopting the mixed training strategy based on different datasets for the first time, we propose an encoder-decoder based general OD and OC segmentation network (named as GDCSeg-Net) with the newly designed multi-scale weight-shared attention (MSA) module and densely connected depthwise separable convolution (DSC) module, to effectively overcome these two problems. Experimental results show that our proposed GDCSeg-Net is competitive with other state-of-the-art methods on five different public fundus image datasets, including REFUGE, MESSIDOR, RIM-ONE-R3, Drishti-GS and IDRiD.</jats:p>",
+    "DOI": "10.1364/boe.434841",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2021-09-14T12:30:06Z",
+      "timestamp": 1631622606000
+    },
+    "page": "6529",
+    "update-policy": "https://doi.org/10.1364/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 34,
+    "title": [
+      "GDCSeg-Net: general optic disc and cup segmentation network for multi-device fundus images"
+    ],
+    "prefix": "10.1364",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7356-3619",
+        "authenticated-orcid": true,
+        "given": "Qianlong",
+        "family": "Zhu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinjian",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingquan",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiahuan",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6985-7887",
+        "authenticated-orcid": true,
+        "given": "Gaohui",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7882-1747",
+        "authenticated-orcid": true,
+        "given": "Meng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fei",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhongyue",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7873-9778",
+        "authenticated-orcid": true,
+        "given": "Dehui",
+        "family": "Xiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lingjiao",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zuoyong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Minjiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9540-4101",
+        "authenticated-orcid": true,
+        "given": "Weifang",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "boe-12-10-6529-R1",
+        "first-page": "1764",
+        "article-title": "Ranking of optic disc variables for detection of glaucomatous optic nerve damage",
+        "volume-title": "Invest. Ophthalmol. Vis. Sci.",
+        "volume": "41",
+        "author": "Jonas",
+        "year": "2000"
+      },
+      {
+        "key": "boe-12-10-6529-R2",
+        "doi-asserted-by": "publisher",
+        "first-page": "113131X",
+        "DOI": "10.1117/12.2547763",
+        "volume": "11313",
+        "author": "Lu",
+        "year": "2020",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "boe-12-10-6529-R3",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "volume": "33",
+        "author": "Decencire",
+        "year": "2014",
+        "journal-title": "Image Anal. Stereol."
+      },
+      {
+        "key": "boe-12-10-6529-R5",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.3390/data3030025",
+        "volume": "3",
+        "author": "Porwal",
+        "year": "2018",
+        "journal-title": "Data"
+      },
+      {
+        "key": "boe-12-10-6529-R7",
+        "doi-asserted-by": "publisher",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "boe-12-10-6529-R8",
+        "doi-asserted-by": "publisher",
+        "first-page": "2485",
+        "DOI": "10.1109/TMI.2019.2899910",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R9",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.1016/j.bspc.2015.09.003",
+        "volume": "24",
+        "author": "Mittapalli",
+        "year": "2016",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "boe-12-10-6529-R10",
+        "doi-asserted-by": "publisher",
+        "first-page": "786",
+        "DOI": "10.1109/TMI.2013.2238244",
+        "volume": "32",
+        "author": "Morales",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1860",
+        "DOI": "10.1109/TMI.2010.2053042",
+        "volume": "29",
+        "author": "Aquino",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1192",
+        "DOI": "10.1109/TMI.2011.2106509",
+        "volume": "30",
+        "author": "Joshi",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1523",
+        "DOI": "10.1109/TBME.2012.2187293",
+        "volume": "59",
+        "author": "Joshi",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "boe-12-10-6529-R14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1019",
+        "DOI": "10.1109/TMI.2013.2247770",
+        "volume": "32",
+        "author": "Cheng",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R19",
+        "doi-asserted-by": "publisher",
+        "first-page": "335",
+        "DOI": "10.1109/TBME.2019.2913211",
+        "volume": "67",
+        "author": "Jiang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "boe-12-10-6529-R20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2281",
+        "DOI": "10.1109/TMI.2019.2903562",
+        "volume": "38",
+        "author": "Gu",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1417",
+        "DOI": "10.1109/JBHI.2019.2899403",
+        "volume": "23",
+        "author": "Shankaranarayana",
+        "year": "2019",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "boe-12-10-6529-R25",
+        "doi-asserted-by": "publisher",
+        "first-page": "3043",
+        "DOI": "10.1364/BOE.390056",
+        "volume": "11",
+        "author": "Tian",
+        "year": "2020",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-12-10-6529-R26",
+        "doi-asserted-by": "publisher",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R28",
+        "doi-asserted-by": "publisher",
+        "first-page": "3008",
+        "DOI": "10.1109/TMI.2020.2983721",
+        "volume": "39",
+        "author": "Feng",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "boe-12-10-6529-R33",
+        "doi-asserted-by": "publisher",
+        "first-page": "6122",
+        "DOI": "10.1364/BOE.400816",
+        "volume": "11",
+        "author": "Xi",
+        "year": "2020",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-12-10-6529-R34",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.1007/s00530-017-0582-5",
+        "volume": "25",
+        "author": "Xi",
+        "year": "2019",
+        "journal-title": "Multimedia Syst."
+      },
+      {
+        "key": "boe-12-10-6529-R37",
+        "doi-asserted-by": "publisher",
+        "first-page": "749",
+        "DOI": "10.1109/LGRS.2018.2802944",
+        "volume": "15",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "IEEE Geosci. Remote Sens. Lett."
+      },
+      {
+        "key": "boe-12-10-6529-R39",
+        "doi-asserted-by": "publisher",
+        "first-page": "101874",
+        "DOI": "10.1016/j.media.2020.101874",
+        "volume": "67",
+        "author": "Mou",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "boe-12-10-6529-R40",
+        "doi-asserted-by": "publisher",
+        "first-page": "2481",
+        "DOI": "10.1109/TPAMI.2016.2644615",
+        "volume": "39",
+        "author": "Badrinarayanan",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "boe-12-10-6529-R41",
+        "first-page": "3065",
+        "article-title": "Origa-light: an online retinal fundus image database for glaucoma analysis and research",
+        "author": "Zhang",
+        "year": "2010"
+      },
+      {
+        "key": "boe-12-10-6529-R43",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1016/j.compmedimag.2019.02.005",
+        "volume": "74",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Comp. Med. Imag. and Graphics"
+      }
+    ],
+    "container-title": [
+      "Biomedical Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://opg.optica.org/viewmedia.cfm?URI=boe-12-10-6529&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T15:30:04Z",
+      "timestamp": 1722958204000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=boe-12-10-6529"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          24
+        ]
+      ]
+    },
+    "references-count": 26,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/boe.434841",
+    "relation": {},
+    "ISSN": [
+      "2156-7085",
+      "2156-7085"
+    ],
+    "issn-type": [
+      {
+        "value": "2156-7085",
+        "type": "print"
+      },
+      {
+        "value": "2156-7085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Optica Publishing Group",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/BOE.434841",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "22 June 2021",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "13 September 2021",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "24 September 2021",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2021 Optical Society of America under the terms of the OSA Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

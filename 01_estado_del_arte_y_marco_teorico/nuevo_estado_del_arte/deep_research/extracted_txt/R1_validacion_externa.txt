@@ -1,0 +1,1074 @@
+=== PAGINA 1 ===
+[72] Generalización fuera de dominio en
+[72] clasificadores profundos de glaucoma
+[72] sobre retinografías a color (2016–2026)
+[72] La evidencia verificada entre 2017 y 2026 —sintetizada en 32 estudios (27 artículos empíricos revisados por pares, 2 preprints de 2026 sin versión publicada verificada y 3 revisiones sistemáticas con meta-análisis)— respalda consistentemente la tesis central para su artículo en DYNA : los clasificadores profundos de glaucoma alcanzan discriminaciones cercanas al techo en particiones internas (AUROC habitualmente entre 0,91 y 0,996), pero sufren caídas muy desiguales al cambiar de base, cámara, población o criterio diagnóstico, con variaciones de AUROC que van desde prácticamente nulas (−0,001 a −0,032 en hospitales del mismo país o en el promedio agrupado del meta-análisis) hasta colapsos severos de −0,21 a −0,36 (e incluso niveles equivalentes al azar, ~0,50, ante saltos pronunciados de campo de visión) . Más crítico aún para su experimento con ConvNeXt-Tiny y umbral fijado en validación interna (especificidad ≥ 0,95): la literatura muestra que la pérdida operativa en sensibilidad o especificidad suele superar ampliamente la caída aparente de la AUROC —alcanzando más del doble en el meta-análisis de Ling et al. (2025) y desplomes asimétricos de 36 a 62 puntos porcentuales en estudios individuales—, porque los desplazamientos fotométricos y de encuadre corren la distribución de probabilidades predichas antes de destruir por completo el ordenamiento relativo de los casos . El corpus evidencia además dos vacíos metodológicos estructurales que fortalecen el aporte de su manuscrito. Primero, dos hitos clínicos citados habitualmente como evidencia de generalización ( Ting et al. 2017 y Li et al. 2018) no realizaron validación externa para glaucoma en sus publicaciones originales ; cuando el sistema de Li et al. (2018) se evaluó en el Reino Unido seis años después ( Jan et al. 2024), su AUROC descendió de 0,986 a 0,654 y su sensibilidad colapsó de 95,6 % a 33,3 % manteniendo una especificidad de 97,4 % . Segundo, la mayoría de los estudios omiten reportar el campo de visión (FOV), no garantizan partición estricta por paciente durante el desarrollo o reajustan el umbral de decisión sobre el conjunto externo (reportando sensibilidad a 85 % o 95 % de especificidad estimada en destino), lo que enmascara el colapso del punto operativo que ustedes observan al transferir un modelo entrenado sobre recortes papilares hacia retinografías de campo amplio en EyePACS .
+
+=== PAGINA 2 ===
+[72] Matriz comparativa de estudios sobre generalización
+[72] en glaucoma La tabla siguiente reúne los 32 estudios seleccionados del periodo 2016–2026 con trazabilidad de DOI en formato canónico, definición de clase positiva, bases de entrenamiento y prueba, tipo de validación, control de partición por paciente, métricas internas y externas, estrategia de fijación del umbral y ubicación exacta de cada cifra. Cuando un parámetro no constó en la fuente consultada, se indica explícitamente como no reportado o no verificado .
+[81] auto r y año
+[112] revistaocongreso
+[144] DOI
+[176] tareaydefinicióndelaclasep
+[207] basesdeentrenamiento(n,cám
+[238] basesdeprueba(n,cámara,cam
+[270] tipodevalidación
+[302] ¿particiónporpaciente?(sí/no/
+[333] arquitecturaypreentrenamiento
+[364] AUCinterna
+[396] AUCexterna
+[428] sensibilidadyespecificidadextern
+[459] cómosefijóelumbral(endesa
+[490] ubicacióndelascifras
+[522] textocompletoosoloresumen
+
+=== PAGINA 3 ===
+[176] ositiva
+[207] ara,campodevisiónsisereporta)
+[238] podevisión)
+[302] noreportado)
+[428] as
+[459] rrollooreajustadoendestino)
+[81] Tingetal.(2017)
+[112] JAMA
+[144] 10.1001/jama.2017.18152
+[176] Deteccióndereferablepossibleglaucom a : VCDR
+[207] 125.189imágenes(SIDRP2010–2013ycohortesadicional
+[238] SIDRP2014–2015:71.896imágenes(35.948ojos,14.8
+[270] Validacióninternatemporal(sinvalidaciónexternapa
+[302] Sí(pacientesrepetidosdeSIDRP2014–2015excluidos;
+[333] CNNbasadaenVGGNetadaptada;preentrenamien
+[364] 0,942(IC95%:0,929–0,954);sens96,4%(81,7–99,9%)
+[396] Noaplica(norealizadaparaglaucoma)
+[428] Noaplica(internatemporal:sens96,4%,espec87,2
+[459] Sensibilidadesprefijadas(90%,95%,99%)enmodosemi
+[490] Resumen(PubMed),Fig.3,eTables1–4
+[522] Textocompletoparcialyresumen
+
+=== PAGINA 4 ===
+[176] ≥0,8,adelgazamientofoca l/ n otchingdelanilloneurorretiniano,hemorragiasdiscalesodefe
+[207] esquefueronexternassoloparaDR);cámarayFOVnoreportadosenextracto.
+[238] 80pacientes;2.630imágenes/1.907ojosconposibleglaucoma);cámarayFOVnoreportad
+[270] raglaucoma;las10cohortesexternasfueronúnicamenteparaDR).
+[302] bootstrapporclústerdepaciente).
+[333] tonoreportado.
+[364] ,espec87,2%(86,8–87,5%)
+[428] %)
+[459] automatizado(eTable4);métodoexactodelpuntoprincipaldeglaucomanoverificado.
+
+=== PAGINA 5 ===
+[176] ctoslocalizadosdeRNFL.
+[238] os.
+[81] Lietal.(2018)
+[112] Ophthalmology
+[144] 10.1016/j.ophtha.2018.01.023
+[176] DetecciónbinariadereferableGO N : VCDR≥0,7yotrosca
+[207] 31.745imágenesgraduables(de48.116retrospectiva s / 39.745grad
+[238] 8.000imágenesgraduablesseleccionadasaleatoriamentedela
+[270] Validacióninterna(particiónaleatoriadelamismabase;sinex
+[302] Noreportado(Janetal.2024describemuestreoaleatoriosimple
+[333] Inception-v3(reportadoporJanetal.2024sobreelmismosiste
+[364] 0,986(IC95%:0,985–0,988enJan2024;0,984–0,988enMurta
+[396] Noaplicaenestudiooriginal(verJanetal.2024)
+[428] Noaplicaenestudiooriginal(interna:sens95,6%,espec92,0
+[459] Noreportadoenresumen.
+[490] Resumen(PubMed ) y Sección2.1/Tabl a 1 deJanetal.(2024)
+[522] Soloresumen+fuentesecundariadetextocompleto
+
+=== PAGINA 6 ===
+[176] mbiostípicosdeGON ( s uspect+certainGONsegúncriteriosISGEO/estructurales).
+[207] uables,poblaciónchina);fotosdigitalesmonoscópicas;cámarayFOVnoreportados.
+[238] mismafuentechina;cámarayFOVnoreportados.
+[270] ternaen2018).
+[302] deimágenes).
+[333] ma);preentrenamientonoreportado.
+[364] gh2020);sens95,6%,espec92,0%
+[428] %)
+
+=== PAGINA 7 ===
+[81] Fuetal.(2018)
+[112] IEEETransactionsonMedicalImaging
+[144] 10.1109/TMI.2018.2837012
+[176] Cribadobinariodeglaucomafrenteaojosnormalesintegrandocontextoglobalyregiónpapil
+[207] ORIGA(mencionadoenrevisiónsecundariajuntoconSCESySINDI,total8.109 ; n exactodeen
+[238] SCES(n=1.676;46glaucoma;3888×2592y3504×2336px ) y SINDI(n=5.783;113glaucoma,
+[270] Validaciónexternaencohortespoblacionalesindependientes(SCESySINDI).
+[302] Noreportado
+[333] DENet(ensamblede4flujos:ResNet-50globalpreentrenadaen224×224,U-Netguiadapor
+[364] Noreportadoenextractos
+[396] SCES:0,9183;SINDI:0,8173(citassecundarias;ablaciónhasta3flujosverificadaenpreprin
+[428] SINDI:sens78,8%,espec71,2%;SCES:espec83,8%,exactitudbalanceada84,3%(fuentesecu
+[459] Noreportado
+[490] SecciónIII- A / tabladeablación(preprintarXiv)yrevisionessecundarias
+[522] Textocompletoparcial(preprint ) + fuentessecundarias
+
+=== PAGINA 8 ===
+[176] ar(DENet).
+[207] trenamientonoverificadoentextooriginal);cámarayFOVnoreportados.
+[238] 5.670normal);cámarayFOVnoreportados.
+[333] segmentación,recortepapilarytransformaciónpolar).
+[396] t:0,8965y0,8137)
+[428] ndaria;3flujosenpreprint:SCES80,4%/86,3%,SINDI77,9%/73,3%)
+[81] Diaz-Pintoetal.
+[112] BioMedicalEn
+[144] 10.1186/s12938-0
+[176] Clasificaciónbi
+[207] 5basespública
+[238] Cadabasecom
+[270] Validacióninter
+[302] Noreportad
+[333] VGG16,VGG
+[364] 0,9605(IC95%:
+[396] RIM-ONE:0,
+[428] RIM-ONE:79
+[459] Noreportado
+[490] Resumen,Mat
+[522] Textocomplet
+
+=== PAGINA 9 ===
+[81] (2019)
+[112] gineeringOnLine
+[144] 19-0649-y
+[176] nariaautomáticadeglaucomavs.normalsinsegmentacióngeométricaexplícita.
+[207] s(total1.707):ACRIMA(705;TopconTRC,FOV35°),RIM-ONE(455),sjchoi86-HRF(401
+[238] pletacomopruebanovista:HRF(45),Drishti-GS1(101),RIM-ONE(455),sjchoi86-HRF(401
+[270] na(CVenmezcla)+Leave-one-domain-ou t / validaciónentrebases.
+[302] o
+[333] 19,InceptionV3,ResNet50yXception(mejor);todaspreentrenadasenImageNetconfine-tuni
+[364] 0,9592–0,9707)conXception(sens93,5%,espec85,8%)
+[396] 8575;HRF:0,8354;Drishti-GS1:0,8041;sjchoi86-HRF:0,7739;ACRIMA:0,7678
+[428] ,3%/79,9%;HRF:83,3%/77,8%;Drishti-GS1:74,2%/71,4%;sjchoi86:70,3%/70,3%;AC
+[459] sielcortesefijóendesarrolloosederivódelaROCexterna(1.000réplicasbootstrap).
+[490] erialandmethods,Tablas 1 y 4,Conclusión
+[522] o
+
+=== PAGINA 10 ===
+[207] ),Drishti-GS1(101),HRF(45);entrenamientoexcluyendolabasedeprueba.
+[238] ),ACRIMA(705;TopconTRC,35°).
+[333] ng.
+[428] RIMA:68,9%/70,2%
+[81] Pheneetal.(201
+[112] Ophthalmolog
+[144] 10.1016/j.ophth
+[176] Predicciónmult
+[207] 86.618entrena
+[238] DatasetA(1.20
+[270] Validacióninter
+[302] Sí(estrictamen
+[333] Inception-v3(5
+[364] DatasetA:0,94
+[396] DatasetB(VA):
+[428] Noreportadas
+[459] Fijadoendesarr
+[490] Resumen,Secc
+[522] Textocomplet
+
+=== PAGINA 11 ===
+[112] y
+[144] a.2019.07.024
+[176] itareadereferableGON ( hi gh-riskglaucomasuspec t o likelyglaucomaenescalade4puntos
+[207] miento(enriquecidoconactivelearning ) + 1.508tuning(EyePACS,Inoveon,AREDS,UKBioban
+[238] 5,mismasfuentes,45°);DatasetB(9.642,AtlantaVAEE.UU.,centradaenmácula,derivaciónclí
+[270] na(DatasetA,pacientesdisjuntos)+Validaciónexternaen2centrosindependientes(ByC)
+[302] te1imagenporpaciente;pacientesdisjuntosentredesarrolloyvalidación).
+[333] 87×587,TensorFlow),preentrenadaenImageNet.
+[364] 5(IC95%:0,929–0,960);sens80,0%,espec90,2%
+[396] 0,855(0,841–0,870);DatasetC(Shroff):0,881(0,838–0,918)
+[428] enextractosparaByC(ensubcohortedeA:sens76,1%,espec92,3%).
+[459] ollousandoeltuningset(n=1.508)parapuntosbalanceado,altasensibilidadyaltaespecificida
+[490] iónPerformanceofthealgorithm,Tablas1–3yS4
+[522] o(preprintverificadocontraresumenpublicado)
+[81] 9)
+
+=== PAGINA 12 ===
+[176] ) y rasgospapilaresindividuales.
+[207] k,Aravind,Sankara,Narayana);FOV45°;cámarasnodetalladas.
+[238] nica/EMR/ICD);DatasetC(346,Dr.ShroffIndia,máculaydisco,diagnósticoclínicocompl
+[270] .
+[459] d.
+
+=== PAGINA 13 ===
+[238] eto+VF+OCT).
+[81] Liuetal.(2019)
+[112] JAMAOphthalmology
+[144] 10.1001/jamaophthalmol.2019.3501
+[176] DetecciónbinariadeGONreferible ( d efinite+probablevs.unlikel y ) gradua
+[207] CGSA(China):241.032imágenes(de269.601graduables/68.013pacien
+[238] LocalCGSA(28.569);3hospitaleschinos(Tongren20.466,Peking3rd12.
+[270] Validacióninterna(CGSA ) + Validaciónexternaen5centros/cohortesinde
+[302] NoreportadoenparticióninternaCGSA(independenciaporcentroencoho
+[333] GD-CNNbasadaenResNet(entrada224×224centradaautomáticamenteen
+[364] 0,996(0,995–0,998);sens96,2%,espec97,7%
+[396] Tongren:0,995;Peking3rd:0,994;Harbin:0,987;Handan:0,964;Hamilton:0,
+[428] Tongren:96,1%/97,1%;Peking3rd:96,0%/96,1%;Harbin:93,6%/95,6%;
+[459] Noreportado
+[490] Resumen,Resultado s y Tabla3
+[522] Textocompleto
+
+=== PAGINA 14 ===
+[176] daporevaluadoresexpertos.
+[207] tes);cámaranodetallada;FOVdebíaincluirpapilacompletaymácula.
+[238] 718,Harbin9.305);Handanpoblacional(29.676;Topcon,Canon);HamiltonEE.UU.multiétnico
+[270] pendientes+conjuntoweb.
+[302] rtesexternas).
+[333] copaóptica,mediaRGBrestada);preentrenamientonoreportado.
+[396] 923;Web:0,823
+[428] Handan:91,0%/92,6%;Hamilton:87,7%/80,8%;Web:82,2%/70,4%
+
+=== PAGINA 15 ===
+[238] (7.877;Topcon,Canon);Web(884).
+[81] Al-Aswadetal.(2019)
+[112] JournalofGlaucoma
+[144] 10.1097/IJG.0000000000001319
+[176] DetecciónbinariadeGONcomparandoelsistemacom
+[207] Sistemacomercialpreentrenado(VisulytixLtd.,datos
+[238] SingaporeMalayEyeStudy(SiMES):n=110retinogra
+[270] Validaciónexternaenunacohortepoblacionalindepe
+[302] Noreportado
+[333] Pegasusv1.0(CNNsespecializadas,ResNet50segúnrevis
+[364] Noreportado
+[396] 0,926(reportadocomo0,93enrevisiones)
+[428] Sensibilidad83,7%,especificidad88,2%
+[459] Noreportado(sistemacomercialcongelado).
+[490] Resumen(ResearchGate)ytablasderevisionessistem
+[522] Soloresumen+fuentessecundarias
+
+=== PAGINA 16 ===
+[176] ercialpreentrenadoPegasusv1.0frentea6oftalmólogos.
+[207] propietarios;n,cámarayFOVnoreportados).
+[238] fíasacolor;cámarayFOVnoreportadosenextracto.
+[270] ndiente.
+[333] ionessecundarias);preentrenamientopropietario.
+[490] áticas
+[81] Orlandoetal.(2020)
+[112] MedicalImageAnalysis
+[144] 10.1016/j.media.2019.101570
+[176] DesafíoREFUGE(MICCAI2018
+[207] REFUGEtrai n : 400imágenes
+[238] REFUGEon-sitetestoculto:40
+[270] Desafíoconconjuntodeprueba
+[302] Noreportado(particiónfija
+[333] 12equipos(VRT,SDSAIRC,C
+[364] Noreportado
+[396] Rango12equipos:0,8458–0,98
+[428] Sensibilidadaespecificidadfija
+[459] Reajustadodescriptivamenteen
+[490] SeccionesI–II,ApéndicesE–F
+[522] Textocompletoparcial+citas
+
+=== PAGINA 17 ===
+[176] ):clasificaciónbinariadeglaucoma(diagnósticoclínicoconhistoria,OCTyVF ) y segmentaci
+[207] (40glaucoma,360normal),ZeissVisucam500(2124×2056px);FOVnoreportado.Algunos
+[238] 0imágenes(40glaucoma,360normal),cámaradistintaCanonCR-2(1634×1634px);FO
+[270] ocultoycambioexplícitodecámara(Zeiss→Canon).
+[302] porcámaradeldesafío).
+[333] UHKMED,Masker[ResNet-50/101/152+vCDR],NightOwl[ResNet-18+CatGAN],en
+[396] 85(top3:VRT0,9885,SDSAIRC0,9817,CUHKMED0,9644;vCDRreal0,9471)
+[428] de0,85:VRT97,52%,SDSAIRC97,60%,CUHKMED95,00%(rangototal72,50%–97,60%)
+[459] destinoparafijarespecificidad=0,85sobrelaROCdeprueba(elrankingusóAUC).
+[490] ytablaleaderboardon-site
+[522] arbitrada s y síntesissecundaria
+
+=== PAGINA 18 ===
+[176] ónOD/OC.
+[207] equiposañadieronORIGA/basesexternas.
+[238] Vnoreportado.
+[333] treotros);mezcladeImageNet/COCOyentrenamientodesdecero.
+[81] Aggarwaletal.(202
+[112] npjDigitalMedici
+[144] 10.1038/s41746-021
+[176] Revisiónsistemática
+[207] Meta-análisis(17es
+[238] Meta-análisis:solo
+[270] Meta-análisis/revis
+[302] Noaplica(varíase
+[333] Diversasarquitectur
+[364] AgrupadaglobalRF
+[396] Noreportadapor
+[428] Agrupadasglobales
+[459] Varíaentreestudios
+[490] Tabl a 1 yResultados
+[522] Textocompleto
+
+=== PAGINA 19 ===
+[112] ne
+[144] -00438-z
+[176] ymeta-análisisdeprecisióndiagnósticadeDLenimagenologíamédica(subgrupoglaucomaenre
+[207] tudios/30cohortesenglaucomasobreretinografías;82estudiosenoftalmologíageneral).
+[238] 29de82estudiosoftalmológicoshicieronvalidaciónexterna(y8prospectiva);sindesglosecu
+[270] iónsistemática(auditoríadefrecuenciadevalidaciónexterna).
+[302] gúnestudioincluido).
+[333] asdeaprendizajeprofundo(CNNs).
+[364] P(mezcla):0,933(0,924–0,942;I²=99,6%)
+[396] separadoparaglaucoma
+[428] RFP:sens88,3%(86,2–90,4%),espec91,8%(89,8–93,8%)
+[459] (heterogeneidadextremaI²>99%).
+[490] (oftalmología)
+[81] 1)
+
+=== PAGINA 20 ===
+[176] tinografías:GON,discoosospechoso).
+[238] antitativointernovs.externoexclusivoparaglaucoma.
+[81] Chaurasiaetal.(2022)
+[112] JournalofGlaucoma
+[144] 10.1097/IJG.00000000000
+[176] Revisiónsistemáticaymeta-análisisso
+[207] Meta-análisisde79estudios(66ensínt
+[238] Meta-análisis(contrastacualitativam
+[270] Meta-análisis/revisiónsistemática
+[302] Noaplica(varíasegúnestudioincl
+[333] DiversasarquitecturasdeIA/DLsobre
+[364] Agrupadaglobal:0,963(retinografías
+[396] Noreportadanuméricamenteenresu
+[428] Agrupadasglobales:sens92,0%(89,
+[459] Noreportadoenresumen.
+[490] Resumen(PubMed)
+[522] Soloresumen
+
+=== PAGINA 21 ===
+[144] 02015
+[176] breprecisióndiagnósticadeIAencribadodeglaucoma(retinografíasyOCT).
+[207] esiscuantitativa).
+[238] entevalidacióninternafrenteabasesmixtasyvalidaciónexterna).
+[270] .
+[302] uido).
+[333] retinografía s y OCT.
+[364] :0,962)
+[396] men(reportadesempeño"insatisfactorio"enbasesmixtasyvalidaciónexterna)
+[428] 0–94,0%),espec94,0%(92,0–95,0%)
+[81] Nawazetal.
+[112] Sensors
+[144] 10.3390/s220
+[176] Localización
+[207] ORIGA(nex
+[238] Pruebascruz
+[270] Validaciónint
+[302] Noreportad
+[333] EfficientDet-D
+[364] Noreportad
+[396] Noreportad
+[428] Noreportad
+[459] Noreportad
+[490] Resumen,Se
+[522] Textocompl
+
+=== PAGINA 22 ===
+[81] (2022)
+[144] 20434
+[176] yclasificaciónbinariadelesionesglaucomatosasenregionesOD/OC.
+[207] actonodetalladoenextracto ) o RIM-ONEDL(n=485:313normal,172glaucoma);cámarasy
+[238] adas:ORIGA→HRF(n=45:15normal,15DR,15glaucoma),ORIGA→RIM-ONEDL(n=
+[270] erna(ORIGA)+Validaciónentrebasespúblicas.
+[302] o
+[333] 0conbackboneEfficientNet-B0yBiFPN;preentrenamientonodetallado.
+[364] o(exactitudinternaenORIGA:97,2%)
+[396] o(exactitudesentrebases:HRF98,21%,RIM-ONEDL97,96%,ORIGA97,83%)
+[428] asenextracto.
+[459] o
+[490] cción4(Figs.8–10,Tabla5)ySección5
+[522] etoparcial
+
+=== PAGINA 23 ===
+[207] FOVnoreportados.
+[238] 485)yRIM-ONEDL→ORIGA;cámarasyFOVnoreportados.
+[81] Lietal.(2022)
+[112] TheJournalofClinical
+[144] 10.1172/JCI157968
+[176] Diagnósticobinariodeposi
+[207] Retinografíasdecámaras
+[238] Doscohortesclínicasex
+[270] Validaciónexternaenco
+[302] Noreportadoenextrac
+[333] DiagnoseNet(módulode
+[364] NoverificadoparaDiagno
+[396] Diagnóstico:Test1(PO
+[428] Test1:sens89,0%(87–90
+[459] Noreportado
+[490] Resumen/texto(Researc
+[522] Textocompletoparcial
+
+=== PAGINA 24 ===
+[112] Investigation
+[176] bleglaucoma ( D iagnoseNet ) y prediccióndeincidencia/progresión ( P redictNet).
+[207] defondoyteléfonosinteligentes(nexactodeentrenamientodeDiagnoseNetnoverificadoenextrac
+[238] ternasenZhongshanOphthalmicCenter:Test1POAG(n=2.866entablasecundaria)yTe
+[270] hortesclínicasindependientescondistintossubtiposdeglaucoma.
+[302] to
+[333] segmentaciónsemántica+móduloCNNdediagnóstico);preentrenamientonodetallado.
+[364] seNet(modelosdeincidencia/progresión:0,90y0,91)
+[396] AG)0,94(0,93–0,94);Test2(PACG)0,91(0,89–0,93)
+[428] %),espec83,0%;Test2:sens92,0%,espec71,0%(especificidade s y sensTest2detablasecund
+[490] hGate)ytablasderevisionessecundarias
+[522] +fuentessecundarias
+
+=== PAGINA 25 ===
+[207] to);FOVnoreportado.
+[238] st2PACGcrónico(n=155);cámarayFOVnoreportados.
+[428] aria)
+[81] Fanetal.(2022/2023)
+[112] OphthalmologyScience
+[144] 10.1016/j.xops.2022.1002
+[176] DetecciónbinariadePOAG
+[207] OHTS(EE.UU.,22centros):66
+[238] PruebaOHTS+5fuentesex
+[270] Validacióninterna(OHTS)+Va
+[302] Noverificadoexplícitamente
+[333] DeiT(VisionTransformersi
+[364] Modelo1(disco):0,91(DeiT
+[396] Modelo1(Dei T / ResNet-50):
+[428] Modelo1,sensibilidada95%
+[459] Reajustadoendestinoparaeval
+[490] Resumen,Tablas2y3,Figs
+[522] Textocompleto
+
+=== PAGINA 26 ===
+[144] 33
+[176] bajo5estándaresdeOHTS(Modelo1:cambiosendiscoporcomité;Modelo3:discooVF—cri
+[207] .715fotografíasde1.636participantes;cámarasyFOVnodetalladosenextracto.
+[238] ternas(16.137fotos):DIGS/ADAGESEE.UU.(9.473),LAGChina(4.854),ACRIMAEspaña(705
+[270] lidaciónentrebasespúblicas(4)ycohorteexternaindependiente(DIGS).
+[302] enextracto(Tabla1listaparticipantesenTrain/Valvs.Test).
+[333] nconvoluciones)vs.ResNet-50(PyTorch);detallesdepreentrenamientoImageNetnoespecific
+[364] yResNet-50);Modelo3:0,88ambos(rango5modelos:0,82–0,91)
+[396] RIM-ONE0,91/0,90;LAG0,88/0,79;DIGS0,77/0,74;ACRIMA0,74/0,74;ORI
+[428] espec(Dei T / ResNet-50):RIM-ONE73%/68%;LAG59%/42%;DIGS34%/30%;ACRIMA
+[459] uarsensibilidadaespecificidadesfijas(80%,85%,90%,95%)encadabaseexterna.
+[490] . 1, 3yS2
+
+=== PAGINA 27 ===
+[176] terioprincipal).
+[238] ),ORIGASingapur(650),RIM-ONEEspaña(455);cámarasyFOVnodetallados.
+[333] adosenextracto.
+[396] GA0,73/0,55
+[428] 31%/29%;ORIGA21%/18%
+[81] Hem
+[112] npjDi
+[144] 10.103
+[176] Cribad
+[207] Centr
+[238] 13fuen
+[270] Validac
+[302] Sí(eva
+[333] ResNet
+[364] Nore
+[396] Poblac
+[428] A95%
+[459] Reajus
+[490] Resum
+[522] Texto
+
+=== PAGINA 28 ===
+[81] elingsetal.(2023)
+[112] gitalMedicine
+[144] 8/s41746-023-00857-0
+[176] odeglaucomamedianteregresióncontinuadeVCDR(G-RISK)umbralizadaaglaucoma/
+[207] oterciarioúnico:23.930imágenescentradasendiscode30°,ZeissVISUCAM(1620×1444px),V
+[238] tesexternas(149.455fotosestandarizadasa30°centradasendisco):BMES(3.554part./6.
+[270] iónexternaencohortespoblacionalesindependientes(2)+Validaciónentrebasespúblicas
+[302] luaciónaniveldeparticipanteenBMES,GHSyPAPILA;fuentesexternasindependient
+[333] -50configuradapararegresióncontinua(salidalineal,pérdidaMSE;comparadaconResNet-50
+[364] portado
+[396] ionales:GHS0,984,BMESpart.0,976(ojo0,967).Públicas:AIROGS0,963;GAMMA0,98
+[428] espec:GHSsens90,3%,BMESpart.87,3%,AIROGS79,8%.Enpuntoóptimoporbase:RIM
+[459] tadoendestinoporbase(umbralóptimode0,58enREFUGE1a0,75enODIR;95%especrequirió
+[490] en,Resultado s y Tabl a 1
+[522] completo
+
+=== PAGINA 29 ===
+[176] OAG(criteriosISGEO/clínicosoetiquetasdecadabase).
+[207] CDRclínico.
+[238] 927ojos;ZeissFF3película),GHS(11.528part./23.318fotos;ZeissVISUCAM30°),AIROGS
+[270] (11).
+[302] es;sinparticióninternareportada).
+[333] binaria);preentrenamientonoespecificadoenextracto.
+[396] 7;REFUGE1test0,986;RIM-ONEDL0,972;LAG0,926;ODIR0,917;ACRIMA0,884;REFUG
+[428] -ONEDL91,3%/91,4%;ACRIMA79,0%/79,3%;ORIGA77,4%/77,8%;PAPILAojo(sus
+[459] 0,72enGHS,0,73enBMESy0,78enAIROGS);tambiénseexplorócortefijo0,70entreBM
+
+=== PAGINA 30 ===
+[238] (100.022evaluadas),ODIR(6.193),LAG(4.854),REFUGE1(1.200),REFUGE2(800),ACRIMA(705
+[396] E2test0,867;ORIGA0,854;PAPILAojo0,769(susp.pos.)vs.0,882(susp.neg.)
+[428] p.pos.)69,0%/69,4%
+[459] ESyGHS.
+
+=== PAGINA 31 ===
+[238] ),ORIGA(650),PAPILA(488ojos/244part.),RIM-ONEDL(485),RIM-ONEr3(159),G
+
+=== PAGINA 32 ===
+[238] AMMA(100).
+[81] XuQianetal.(2023)
+[112] Eye
+[144] 10.1038/s41433-023-02622-9
+[176] DeteccióndereferableGON(≥2criterios:0,7≤VCDR≤0,85,anillo≤
+[207] Modelopreviamentedesarrollado(n,cámarayFOVdeentrenamientono
+[238] 3conjuntosexternosenChina:Se t 1 QiluHospital(3.049fotos),Se t 2 tresho
+[270] Validaciónexternaencentrosindependientes(multicéntricoreal+subgrupo
+[302] Noreportado
+[333] Pipeline:ResNet-18(calidad)+U-Netpreentrenada(segmentaciónODyre
+[364] Citadadeestudioprevio:0,99 3 / 0,96 8 / 0,974(sens95,4–95,9%,espec91,6–
+[396] Set1:0,952(0,945–0,968);Set2:0,966(0,959–0,974);Se t 3 (altamiopía):0,87
+[428] Set1:91,8%/93,4%;Set2:91,4%/92,2%;Se t 3 (altamiopía):83,6%/81,8
+[459] Noreportado
+[490] Resumen,Introducción,Resultados,Tablas3–4,Fig. 1 y TablaSupl.3
+[522] Textocompleto
+
+=== PAGINA 33 ===
+[176] 0,1DD,adelgazamientodeanillo,RNFL,hemorragiaenastilla,atrofiaβ).
+[207] reportadosenesteartículo).
+[238] spitalesadicionales(7.495fotos)ySe t 3 altamiopía(516fotos);cámarasyFOVnoreportados
+[270] altamiopía).
+[333] corte3DD,256×256)+ResNetmultitarea(GON+atrofiapapilar).
+[364] 97,7%)
+[396] 5(0,816–0,934)
+[428] %
+
+=== PAGINA 34 ===
+[238] .
+[81] Mattaetal.(2023)
+[112] ScientificReports
+[144] 10.1038/s41598-023-38610-y
+[176] Clasificaciónmultietiquetade8enfermedades(taxonomíaODIR,incluyendoGlaucoma[G
+[207] RedSD:OPHDIAT(Francia,diabéticos).RedMD/LODO:3de4bases(OPHDIAT,Oph
+[238] PruebainternaOPHDIAT+pruebaexternaenlasotras3bases(SD)+LODOsobrelapo
+[270] Validacióninterna+Validaciónentrebases+Leave-one-domain-out(LODO).
+[302] SíenODIR(3.500/500/1.000pacientes);noverificadoparalasdemásbasesenextracto.
+[333] tf_efficientnet_b5_ns(elegidaentre8CNN/ViTpreentrenadasenImageNet ) + Randaug
+[364] mAUC8clasesOPHDIAT:0,9571(val0,9633);AUCsoloGlaucomanoverificadaenex
+[396] mAUC8clases<0,90enOphtaMaine,RIADDyODIR(SD);LODOsignificativa
+[428] Noreportadasenextracto.
+[459] Noreportado
+[490] Resumen,Resultado s y referenciasaTablas2–4
+[522] Textocompletoparcial
+
+=== PAGINA 35 ===
+[176] ])conetiquetasunificadasretrospectivamente.
+[207] taMaineFrancia,RIADDIndia,ODIRChina[10.000foto s / 5.000pacientes;Canon,
+[238] blaciónexcluida(MD).
+[333] ment,AdamW,BCE.
+[364] tracto
+[396] mentemenorenpoblaciónnovista(p<0,0001);soloGlaucomanoverificada
+
+=== PAGINA 36 ===
+[207] Zeiss,Kowa]);FOVnoreportado.
+[81] deVenteetal.(2024)
+[112] IEEETransactionsonMedicalImaging
+[144] 10.1109/TMI.2023.3313786
+[176] DesafíoAIROGS:detecciónbinariadereferableglau
+[207] AIROGStrai n : 101.442CFPs(54.274pacientes,48
+[238] AIROGStestoculto(11.290CFPs,5.797pacientes,37
+[270] Desafíoconpruebaocultamulticéntrica+Validaciónen
+[302] Sí(particiónestrictaporpacienteentreentrenamien
+[333] Equiposfinalistas;eltop3combinóVisionTransform
+[364] EntestocultoAIROGS:mejorequipopAUC_S=0,90
+[396] CifrasdeTablas2–3noaccesibles;casitodoslosmod
+[428] EntestocultoAIROGS:mejorSE@95SP=85%(ensam
+[459] Reajustadoendestinoparamedirsensibilidada95%deespe
+[490] Tabla1,Secciones2.1y6.1–6.3(preprintequivalentear
+[522] Textocompletoparcial(preprintequivalenteaIEEET
+
+=== PAGINA 37 ===
+[176] coma(doblelecturacertificada+adjudicaciónporespecialista)ydeteccióndeimágenesno
+[207] 6sitiosEE.UU.;3,2%RG) , ≥ 9cámaras(OptovueiCam100,TopconNW400/200,CanonC
+[238] 6sitios;14,2%RG,13,8%nograduables ) + 3basesexternas(REFUGE,GAMMA,RIM-ON
+[270] trebasespúblicas.
+[302] toyprueba).
+[333] ers/ConvNeXt,ensamblesyrecorteautomáticodeldiscoóptico(ODcropping).
+[364] (0,89–0,91);ensambletop-3=0,91(AUCglobalnoverificadaenextracto)
+[396] elospuntuaronmásaltoenREFUGEqueenAIROGS
+[428] bletop-2:87%);enexternascitadasporMilad(2025):mejormodelologróSE@95SP88%enRE
+[459] cificidad(SE@95SP);graduabilidadumbralizadaporcadaequipo.
+[490] Xiv:2302.01738 ) + citasecundaria
+[522] MI ) + citasecundaria
+
+=== PAGINA 38 ===
+[176] graduables.
+[207] R1/CR2/DGI,Centervue,Nidek,Crystalvue);FOVnoreportado.
+[238] E)yDRIMDB.
+[428] FUGEy100%enGAMMA
+[81] Janetal.(2024)
+[112] Bioengineering
+[144] 10.3390/bioengineering111
+[176] Validaciónexternadelm
+[207] SistemacongeladodeLi
+[238] UKBiobank(ReinoUnido,
+[270] Validaciónexternaencoho
+[302] Noreportadoendesarroll
+[333] Inception-v3(299×299,re
+[364] 0,986(0,985–0,988)citada
+[396] ReferableGO N : 0,654(0,
+[428] ReferableGO N : sens33,3
+[459] Noreportadoexplícitam
+[490] Resumen,Secciones2.1–2
+[522] Textocompleto
+
+=== PAGINA 39 ===
+[144] 11139
+[176] odelodeLietal.(2018)parareferableGON ( c ertain+suspec t ) ycertainGONfrenteapa
+[207] etal.(2018):31.745imágenesdepoblaciónchina;cámarayFOVnoreportados.
+[238] poblaciónmayoritariamenteanglosajona,40–69años):n=900retinografíasacolor;cám
+[270] rtepoblacionalindependienteyotropaís(China→ReinoUnido).
+[302] ooriginal(Li2018usómuestreoaleatoriodeimágenes;independenciaexternaenUKBioban
+[333] escalado0–1;preentrenamientooriginalnoreportado).
+[364] deldesarrollodeLietal.(2018)
+[396] 645–0,662);certainGO N : 0,616(0,597–0,635)
+[428] %(32,4–34,3%),espec97,4%(97,0–97,7%);certainGO N : sens28,6%,espec94,6%
+[459] entesisemantuvofijoelumbraldeLi(2018);elsistemadesplegadoseaplicósinreentrenami
+[490] .2,3.1yTabla2
+
+=== PAGINA 40 ===
+[176] neldeespecialistasenglaucoma.
+[238] arayFOVnoreportados.
+[302] k).
+[459] ento.
+[81] Chiangetal.(2024)
+[112] Biomedicines
+[144] 10.3390/biomedicines12071394
+[176] Clasificaciónbinariadeglaucomafrenteacontrolesconalt
+[207] Tri-ServiceGeneralHospital(Taiwán):3.088fotos(1.54
+[238] 5-foldCVinterna(6:2:2)+REFUGEtest(n,cámarayFO
+[270] Validacióninterna(5-foldCV)+Validaciónentrebases
+[302] Noreportado
+[333] ConvNeXt_Base+CBAMyEfficientNet_V2-S+CBAM
+[364] 0,894(ConvNeXt_Base+CBAM;sens81,04%,espec83,2
+[396] 0,921enREFUGEtest(ConvNeXt_Base+CBAM)
+[428] NoreportadasporseparadoparaREFUGEenextracto(81,
+[459] Noreportado
+[490] Resumen,Introducción,MétodosyDiscusión
+[522] Textocompletoparcial
+
+=== PAGINA 41 ===
+[176] amiopía(excluyendomiopíapatológica).
+[207] 0glaucoma+altamiopía,1.548altamiopíacontrol),cámaraNidekAFC-330;FOVnoreportad
+[238] VdeREFUGEnodetalladosenelartículo).
+[270] públicas(hospital→REFUGE).
+[333] contransferlearning(preentrenamientoenconjuntosdeimágenescomoImageNet).
+[364] 7%)
+[428] 04%/83,27%enevaluaciónConvNeXt_Base+CBAM).
+
+=== PAGINA 42 ===
+[207] o.
+[81] Chaurasiaetal.(2024/2025)
+[112] Eye
+[144] 10.1038/s41433-024-03388-4
+[176] Clasificaciónbinariadediscosglaucomatososvs.sanosenimágenesdecabezadelnervioóptic
+[207] 19de20basespúblicasmundialescombinadas(total20bases=18.468fotos:10.900sa
+[238] Validacióninterna(1.364glaucom a / 2.047sanas;Tabla2indica1.381/2.030)+Drishti-
+[270] Validacióninterna(mezclade19bases)+Validaciónentrebasespúblicas(Drishti-GS).
+[302] Noreportado
+[333] Selecciónentre20modelospreentrenados(Fastai/PyTorch;reportaDenseNet201en
+[364] 0,9920(0,9920–0,9921);sens95,30%,espec97,68%(glaucoma)
+[396] 0,8751enDrishti-GS(exactitud87,13%)
+[428] Noreportadasentextonumérico(mostradassolográficamenteenFig.1c–d).
+[459] Noreportado
+[490] Resumen,Métodos,Resultados,Tabla2yFig.1c–d
+[522] Textocompleto
+
+=== PAGINA 43 ===
+[176] o(ONH).
+[207] nas,7.568glaucoma;incl.ACRIMA,REFUGE1,LAG,KEH,PAPILA);cámarasvariadas;FOVnorepo
+[238] GSexterno(101fotos,30°,2896×1944pxsegúnfichaenlazadadeDrishti-GS;4expertos).
+[333] unasecciónyvgg19_bnenotra;preentrenamientosinnombrarexplícitamente"ImageNet
+
+=== PAGINA 44 ===
+[207] rtado.
+[333] ").
+[81] Madadietal.(2024)
+[112] BiomedicalSignalProcessingandControl
+[144] 10.1016/j.bspc.2024.106061
+[176] Diagnósticoypronóstico(1–3añosantes)deglaucomamedianteadaptacióndedomini
+[207] OHTS(43.276fotosdiagnóstico/40.582pronósticode66.742totales,22centros
+[238] OHTSdominioobjetivo(30%,10-foldestratificado)+ACRIMAyRIM-ONE(1
+[270] Adaptacióndedominionosupervisada(noestrictamentezero-sho t ; utilizamuestras
+[302] SíenOHTS(partición70/30realizadaaniveldepaciente).
+[333] ResNet-50preentrenadaenImageNet2012(224×224 ) + codificacióndebajorangoypo
+[364] Noreportadaporseparadosinadaptaciónenextracto
+[396] DiagnósticoOHTSconGDA:0,98(disco),0,96(disco/VF),0,93(soloVF);pronóstico:0,
+[428] Noverificadasenextracto(enTabl a 1 truncada;exactitudesOHTS93%,91%y88%)
+[459] Noreportado
+[490] ResumenySecciones4.1–4.3
+[522] Textocompletoparcial
+
+=== PAGINA 45 ===
+[176] onosupervisada(GDA)en3escenariosdeOHTS(solodisco,discooVF,soloVF).
+[207] EE.UU.,múltiplescámaras;FOVnoreportado);partición70%fuente/30%objetivosinetiqu
+[238] 59fotosestéreode3hospitales)comodominiosobjetivo;FOVnoreportado.
+[270] objetivosinetiquetas).
+[333] nderaciónprogresiva.
+[396] 90/0,88/0,80.(ACRIMA/RIM-ONEtruncadosenextracto)
+[428] .
+
+=== PAGINA 46 ===
+[207] etas.
+[81] Miladetal.(2025)
+[112] OphthalmologyScience
+[144] 10.1016/j.xops.2025.100721
+[176] Clasificaciónbinariadereferableglaucoma(RGvs.NRG)mediantecode-freedeeple
+[207] Subconjuntosubmuestreado(1:2)deRotterdamEyePACSAIROGS:9.810fotos(3.
+[238] Splitinternoautomático80/10/10enAIROGS+REFUGEyGAMMAexternos(ntotal
+[270] Validacióninterna(AIROGS)+Validaciónentrebasespúblicas(REFUGEyGAM
+[302] No(metadatosdepacienteprivadosenelconjunto;particiónautomática80/10/10enVert
+[333] GoogleCloudVertexAI(CFDL/AutoML;arquitecturainternadecajanegra).
+[364] AUROCnoreportada(AuPRC0,988,exactitud91%,SE@95SP94,8%)
+[396] REFUGE:0,960;GAMMA:0,994
+[428] REFUGE:SE@95SP82,5%(83%);conumbrales0,1/0,3/0,5sens75–83%,espec97
+[459] Umbralesfijosseleccionadosarbitrariamente(0,1,0,3y0,5)sinoptimizaciónende
+[490] Resumen,Métodos,Resultado s y tablasdematricesdeconfusión
+[522] Textocompleto
+
+=== PAGINA 47 ===
+[176] arning(CFDL)conetiquetadoAIROGS.
+[207] 270RG,6.540NRG,>500centrosEE.UU.,cámarasdiversas);FOVnoreportado.
+[238] ,cámarasyFOVnoreportadosenextracto;matricesmuestran40RGenREFUGEy50enGA
+[270] MA).
+[302] exAIsinseparacióngarantizadaporpaciente).
+[428] –99%.GAMMA:SE@95SP98%(PPV94–96%,Acc94–97%).
+[459] stino+cálculodescriptivodeSE@95SPenROCdedestino.
+
+=== PAGINA 48 ===
+[238] MMA).
+[81] Remyesetal.(2025)
+[112] Information
+[144] 10.3390/info16060432
+[176] Clasificaciónbinariadeglaucomareferible(RGvs.NRG).
+[207] EyePACS-AIROGS-light-V2:9.542imágenesbalanceadas(84%trai n / 8%va l / 8
+[238] Pruebainterna(8%EyePACS-AIROGS-light-V2)+SMDG-19externo(n=1.923im
+[270] Validacióninterna(particiónestratificada)+Validaciónentrebasespúblicas(EyePA
+[302] Noreportado(particiónestratificadaporclase).
+[333] ExtraccióndecaracterísticasconMobileNetV2(GAP2D ) + clasificadoresDNN,CNN
+[364] Noreportado(DNNinterno:Acc79,2%,sens78,4%,F179,2%)
+[396] Noreportado(SMDG-19:DNNAcc72,7%,F172,8%;CNNAcc72,9%;LGBM~7
+[428] DNNenSMDG-19:sensibilidad72,1%,especificidadnoreportada(precisión73,5%)
+[459] Noreportado
+[490] Secciones2.1–2.2,Figs.2–3yTabl a 1
+[522] Textocompleto
+
+=== PAGINA 49 ===
+[207] %test);cámarayFOVnoreportados.
+[238] ágenes);cámarasyFOVnoreportados.
+[270] CS→SMDG-19).
+[333] yLightGBM(PyCaret).
+[396] 3%)
+[428] .
+[81] Gnanaprakasam&Barnabas(2025)
+[112] AppliedSystemInnovation
+[144] 10.3390/asi8040111
+[176] Detecciónbinariadeglaucomavs.normalconm
+[207] CombinacióndeORIGAyDrishti-GS(nexac
+[238] Combinadointerno(ORIGA+Drishti-GS)+L
+[270] Validacióninterna+Leave-one-domain-out(LO
+[302] Noreportado
+[333] 4etapas:ExemplarCNN(Xception-v3)paraps
+[364] 0,98(Acc98%,sens96%,espec100%)
+[396] CRFO:0,91;PAPILA:0,87(valoresexactosdeLO
+[428] Noreportadasenextracto.
+[459] Umbraldeconfianzausadoenpseudoetiquetado;u
+[490] Resumen,Secció n 1 yTablas15–16
+[522] Textocompletoparcial
+
+=== PAGINA 50 ===
+[176] arcoautosupervisado/semisupervisadoen4etapas.
+[207] to,cámarasyFOVnodetalladosenextracto).
+[238] ODO(ORIGAoDrishti-GSfuera)+2basesexternasnovistas:CRFOyPAPILA(n,cámaras
+[270] DO)+Validaciónentrebasespúblicas(CRFOyPAPILA).
+[333] eudoetiquetas+CAEsupervisado+CAEnosupervisado+SVM;preentrenamientonodetallado.
+[396] DOomitidosenextracto;textoindicadeclive)
+[459] mbralfinaldedecisiónenpruebanoreportado.
+
+=== PAGINA 51 ===
+[238] yFOVnoreportadosenextracto).
+[81] Sangchocanontaetal.(2025)
+[112] PLOSONE
+[144] 10.1371/journal.pone.0314111
+[176] Clasificaciónmulticlaseen3clases(Glaucoma,Sospec
+[207] GlauCUTU-DATA(Tailandia):9.380retinografías(3/3:5.
+[238] PruebainternaGlauCUTU-DATA+subconjuntoexterno
+[270] Validacióninterna+Validaciónentrebasespúblicas(c
+[302] Noreportado
+[333] DeiT-S(comparadoconConvNeXt-SyCNNbase)
+[364] 3/3unánime:G0,926,S0,924,N0,923;2/3mayoría:G
+[396] NoreportadaenextractoparaDRISHTI-GS1(exactitu
+[428] DRISHTI-GS1:sensibilidad93,11%,especificidadnoreport
+[459] Noreportado
+[490] Sección3,Sección4.1,Tablas3y7
+[522] Textocompletoparcial
+
+=== PAGINA 52 ===
+[176] hoso,SinGlaucoma)bajoconsenso3/3vs.2/3deoftalmólogos.
+[207] 570;2/3:3.810);cámarayFOVnoreportados.
+[238] depruebaDRISHTI-GS1(n=51imágenes);cámarayFOVnoreportados.
+[270] ohortetailandesa→DRISHTI-GS1).
+[333] contransformaciónpolarypieaugmentation(reglaISNT);preentrenamientonodetallado
+[364] 0,682,S0,682,N0,731;globalDeiT:G0,845,S0,845,N0,911
+[396] d90,20%,F193,33%)
+[428] ada
+
+=== PAGINA 53 ===
+[333] .
+[81] Lingetal.(2025)
+[112] Biomedicines
+[144] 10.3390/biomedicines13020420
+[176] Revisiónsistemáticaymeta-análisis(48estudios,63conjuntosdedatoshastaoct.2024
+[207] Meta-análisis(subgrupodiagnósticoenretinografías:194.259imágenesdepruebaentotal).
+[238] Subgrupovalidacióninternaenretinografías(124.552imágenes)vs.validaciónexternaenre
+[270] Meta-análisis/revisiónsistemática(comparacióndirectainternavs.externa).
+[302] Noaplica(agregaciónde48estudios).
+[333] Diversasarquitecturasdeaprendizajeprofundo(CNNs,G-RISK,DiagnoseNet,etc.).
+[364] Agrupadainterna(retinografías):0,91(IC95%:0,90–0,93);sens93%,espec95%,LR+18,
+[396] Agrupadaexterna(retinografías):0,88(IC95%:0,86–0,91);LR+7,259,LR−0,13
+[428] Agrupadasexternas:sensibilidad86%(82–93%),especificidad88%(80–93%)
+[459] Heterogéneosegúncadaestudioprimario.
+[490] Resumen,Sección3.6yTabla3
+[522] Textocompleto
+
+=== PAGINA 54 ===
+[176] )sobrediagnósticoyprogresióndeglaucomaconDLenretinografía s y OCT.
+[238] tinografías(69.707imágenes).
+[364] 77
+[81] Houetal.(2025/
+[112] Ophthalmolog
+[144] 10.1016/j.xops.
+[176] Deteccióndegl
+[207] Fine-tuningen
+[238] PruebainternaGl
+[270] Validacióninter
+[302] Noreportado
+[333] DINOv2(Small
+[364] DINOv2-Base:
+[396] 0,625enPAPILA
+[428] Noreportadas
+[459] Umbralfijo0,
+[490] Sección"Com
+[522] Textocomplet
+
+=== PAGINA 55 ===
+[81] 2026)
+[112] yScience
+[144] 2025.100923
+[176] aucomacomparandomodelosfundacionalesderetina(RETFound)frenteapropósitogeneral(D
+[207] Glaucoma_Fundus(n,cámarasyFOVenmaterialsuplementarionovisibleentextoprincipal)
+[238] aucoma_Fundus(100réplicasbootstrap20%)+pruebaexternaenPAPILA(autoresdestacandifer
+[270] na+Validaciónentrebasespúblicas(Glaucoma_Fundus→PAPILA).
+[302] entextoprincipal
+[333] /Base/Large,autosupervisadoen142Mimágenesnaturales)vs.RETFound(preentrenadoen~3Mim
+[364] 0,958;RETFound:0,940(p<0,001)enGlaucoma_Fundus
+[396] (caídadeDINOv2-Basedesde0,958interno)
+[428] entextoprincipal(ubicadasenFigs.Supl.S4–S6).
+[459] 5enmatricesinternas(Fig.S4);umbralexternonodetalladoentextoprincipal.
+[490] parativePerformanceofModelsinOcularDiseaseDetectionTasks",Fig.2
+[522] o(sinsuplemento)
+
+=== PAGINA 56 ===
+[176] INOv2).
+[207] .
+[238] enciassustancialesderesolución,FOVydefiniciónclínica).
+[333] ágenesincluyendofotosdefondoyOCT).
+[81] Madadietal.(2026)
+[112] IEEETransactionsonMedical
+[144] 10.1109/TMI.2025.3596874
+[176] DesafíoJustRAIGS:clasific
+[207] JustRAIGStrain(EyePAC
+[238] PruebaocultamulticéntricaJu
+[270] Desafíoconpruebaocultam
+[302] Noverificadoenextracto(61.9
+[333] 9equipos(EVA2,DC-LS,D
+[364] NoreportadacomoAUC
+[396] Noverificadaenextractopara
+[428] Enpruebaocultamulticéntrica
+[459] Fijadoa95%deespecificidad
+[490] SeccionesII.A,V.A–V.B,Tabl
+[522] Textocompletoparcial
+
+=== PAGINA 57 ===
+[112] Imaging
+[176] aciónbinariadereferableglaucoma+justificaciónmultietiquetade10rasgosglaucomatosos
+[207] S,500centrosEE.UU.,múltiplescámaras;FOVnoreportado):101.442CFPs(de111.178to
+[238] stRAIGS(n=9.736CFPs)+validaciónexternadetop3equiposensubconjuntodeOHTS
+[270] ulticéntrica+Validaciónexternaenensayoclínicoindependiente(OHTS).
+[302] 19individuostotales;reglaexactadeparticiónnodetalladaenfragmento).
+[333] anp,etc.);líderesusaronTransformer s / híbridosTransformer-CNNyCNNsoptimizadasco
+[364] global(entestocultoJustRAIGS:top3SE@95SP=85,0%Danp,84,5%DC-LS,84,3%EVA2
+[396] OHTS(textoreportabajospuntajesHLAenjustificaciónde10rasgossobreOHTS)
+[428] JustRAIGS:sens85,0%/84,5%/84,3%aespecificidadfija95%;enOHTSnoverificadasenex
+[459] enelconjuntodepruebaoculto(SE@95SP).
+[490] asII,IIIyV,Fig.6
+
+=== PAGINA 58 ===
+[176] .
+[207] tales/61.919personas).
+[238] (n=5.000CFPs:4.000normales,1.000glaucomaconfirmadopordisco/VF).
+[333] nlabelsmoothing.
+[364] ;rango78,5%–85,0%)
+[428] tracto
+
+=== PAGINA 59 ===
+[81] Wuetal.(2026)
+[112] npjDigitalMedicine
+[144] 10.1038/s41746-026-02752-w
+[176] Clasificaciónbinariadeglaucomabajodesbalance1:30,6usandoensambleenriquecidoconimág
+[207] EyePACS(n=101.442:98.172controles,3.270casos;80/10/10;cámarasOptovue,Topcon
+[238] 10%pruebainternaEyePACS+10basespúblicasexternas(incl.REFUGE2,Chákṣu[n=1.345,
+[270] Validacióninterna(EyePACS)+Validaciónentrebasespúblicas(10basesexternas).
+[302] No(particiónestratificadaexplícitamenteaniveldeimagenenEyePACS80/10/10).
+[333] EnsambleAUBADE-syn(4clasificadoresDL+modelodedifusiónenONH+ResNet-50Im
+[364] 0,992enpruebainternadeEyePACS
+[396] REFUGE2:0,887(cifrasindividualesdelasotras9basesexternasnovisiblesenextracto)
+[428] Noreportadasenextracto.
+[459] Noreportadoenextracto.
+[490] Resumen,Resultados,Tabl a 1 yfragmentosobreREFUGE2
+[522] Textocompletoparcial
+
+=== PAGINA 60 ===
+[176] enessintéticascentradasenONHpordifusión(AUBADE-syn).
+[207] ,Canon,Centervue,Nidek,Crystalvue;FOVnoespecificado).
+[238] FOV40°,Remidio/Bosch/Forus],DRISHTI-GS1[101],entre14basescon117.827fotos)+3
+[333] ageNetparaanálisisdeembeddings).
+
+=== PAGINA 61 ===
+[238] basesconfine-tuning.
+[81] Ishikawaetal.(2026)
+[112] Technologies
+[144] 10.3390/technologies14070435
+[176] Clasificaciónbinariadeglaucoma(1vs.0;excluyendosospechosos-1)
+[207] SMDG-19v19filtrado(excluyendoFOVestrecho~30°comoPAPI
+[238] Comparaciónentreconjuntointernoleak-reducedyprotocoloL
+[270] Validacióninterna ( le ak-reduced ) + Leave-one-domain-out(LODO)
+[302] Noverificadoenextracto(mencionaconfiguraciónleak-reducedyL
+[333] VGG16;preentrenamientonodetalladoenextracto.
+[364] Noreportadanuméricamenteentexto(presentadaencurvasdepe
+[396] Noreportadanuméricamenteentexto(curvasLODOdeAUC
+[428] Noreportadasnuméricamenteentexto(FNRmostradoencurvas
+[459] Noreportado(controldecalidadfiltradoaconfianza≥0,5).
+[490] MaterialesyMétodos,Tabla1,ApéndiceATablaA1,Figs.7–
+[522] Textocompletoparcial
+
+=== PAGINA 62 ===
+[176] conauditoríadeprocedenciadeetiquetasyperturbaciónadversarialFGSM.
+[207] LA/DRISHTI-GS1/LES-AVybajacalidad):3.773fotosfinalesen11fuentes(OIA-ODIR1.42
+[238] ODOsobrelasfuentesdeSMDG-19(cámarasnodetalladas).
+[270] .
+[302] ODO).
+[364] rturbaciónFigs.7–9)
+[396] yFNRenFigs.7–9,15–17)
+[428] Figs . 8 y17).
+[490] 9
+
+=== PAGINA 63 ===
+[207] 1,EyePACS849,REFUGE1365,sjchoi86-HRF292,ORIGA278,G1020274,BEH153,FIVES114,
+
+=== PAGINA 64 ===
+[207] HRF18,JSIEC-10008,DR-HAGIS1);cámarasnodetalladas.
+[81] Dvey-Aharonetal.(2026)[Prepri
+[112] medRxiv[Preprint]
+[144] 10.64898/2026.01.20.263444
+[176] Detecciónbinariabilateralani
+[207] Sistemacomercialpreentre
+[238] EyePACSmulticámara(10.
+[270] Validaciónexternaen2cohort
+[302] Sí(clasificaciónbilateralconcat
+[333] CNNmodularconbloquesre
+[364] Noreportado
+[396] Noreportado
+[428] EyePACS:sens90,6%,espec90
+[459] Fijadoendesarrollo(hiperpará
+[490] Resumen,MaterialesyMétod
+[522] Textocompleto
+
+=== PAGINA 65 ===
+[81] nt]
+[144] 70
+[176] veldepacientedeGONreferibleenretinografíascentradasenmácula(positivosi ≥ 1 ojotiene
+[207] nadocondatospropietarios(congeladosinreentrenamiento;n,cámarasyFOVdeentrenami
+[238] 896paciente s / 21.792fotostrasfiltro;6cámaras:TopconNW-400,CanonCR-2,CenterVue
+[270] esclínicasindependientes(algoritmocomercialcongelado).
+[302] enandoambosojosporpaciente;cohortesexternasdisjuntas).
+[333] siduales+perceptrónbilateralporpaciente;preentrenadaendatospropietarios.
+[428] ,5%;WillsEyeHospital:sens96,4%,espec85,3%
+[459] metro s y umbralcongeladosdelsistemacomercial,sinoptimizaciónendestino).
+[490] os,Resultado s y Tabl a 1
+
+=== PAGINA 66 ===
+[176] signosdeGON).
+[207] entonoreportados).
+[238] DRS,CrystalVue,ZeissVisucam,NidekAFC-330;centradasenmácula)+WillsEyeHospital(62
+
+=== PAGINA 67 ===
+[238] paciente s / 124fotosbilateralesgraduables;centradasenmácula).
+[81] Rahmanetal.(2026)[P
+[112] arXiv[Preprint,arXiv:
+[144] sinDOIverificado
+[176] Clasificaciónbinariade
+[207] Entrenamientoporfu
+[238] Splitsinternos(106A
+[270] Validacióninterna+Va
+[302] Noreportado(partic
+[333] 5CNNspreentrenada
+[364] Media5modelos:0,
+[396] Mediaentrebases:0,
+[428] Conumbralfijodefu
+[459] Fijadoenvalidaciónfu
+[490] SeccionesIII–IV,Tabl
+[522] Textocompleto
+
+=== PAGINA 68 ===
+[81] reprint]
+[112] 2611.01992]
+[176] glaucomaaislandoelimpactodelumbraloperativo,entrenamientomultifuente(LODO)y
+[207] enteúnica(70/15/15)ymultifuente2→1enACRIMA(705;recortepapilar),ORIGA(650
+[238] CRIMA,98ORIGA,73RIM-ONEDL ) + lasotra s 2 basescompletas+G1020externo(1.020;re
+[270] lidaciónentrebases(paresyG1020 ) + Leave-one-domain-out(2→1).
+[302] iónestratificada70/15/15porimagen).
+[333] senImageNet(ResNet50,DenseNet121,MobileNetV2,EfficientNet-B0,InceptionV3 ; 3 semi
+[364] 913(ACRIMA0,998;RIM-ONEDL0,932;ORIGA0,808);sens83,1%,espec87,0%
+[396] 702(Δ=−0,211;ACRIMA→ORIGA0,702,ACRIMA→RIM-ONEDL0,660,ORIGA→A
+[428] ente:sens72,6%,espec50,6%(Acc59,3%).Trasrecalibrarumbralcon10%dedestino:sens60
+[459] ente(sinreajuste)ycomparadoexplícitamentecontrarecalibraciónusando10%demuestrasetiqu
+[490] asI,III,IVyVI,Figs.4–7
+
+=== PAGINA 69 ===
+[176] normalizacióndecolor.
+[207] ;recorte2,5×disco512×512)yRIM-ONEDL(485;centradoendiscoconviñeta);cámar
+[238] corte512×512peroFOVmásamplioconbordesnegros;vCDRAUC=0,526).
+[333] llas=45redes;224×224).
+[396] CRIMA0,742,ORIGA→RIM-ONEDL0,758,RIM-ONEDL→ACRIMA0,635,RIM-O
+[428] ,9%,espec67,0%(Acc64,3%)
+[459] etadasdedestino.
+
+=== PAGINA 70 ===
+[207] asnodetalladas.
+[396] NEDL→ORIGA0,716);G1020:0,492–0,502
+[72] Frecuencia de cada tipo de validación en los estudios
+[72] revisados Contando estrictamente las 32 filas de la tabla —que abarcan 29 estudios empíricos (27 artículos revisados por pares y 2 preprints) y 3 revisiones sistemáticas con meta-análisis ( Aggarwal et al. 2021, Chaurasia et al. 2022 y Ling et al. 2025)—, varios trabajos combinan más de un protocolo, por lo que las categorías de validación en los estudios empíricos se superponen . La validación interna se ejecuta en 18 de los 29 estudios empíricos : en 2 de manera exclusiva sin evaluación externa para glaucoma en la publicación original ( Ting et al. 2017 con partición temporal y Li et al. 2018 con partición aleatoria, incluidos por ser referencias clínicas obligadas del campo) , y en 16 como línea base frente a pruebas fuera de dominio (mientras otros 2 estudios puramente externos, Xu Qian et al. 2023 y Jan et al. 2024, citan la AUC interna de desarrollos previos) . Dentro de las pruebas fuera de dominio, la validación entre bases públicas ( cross-dataset ) es la más frecuente, presente en 15 de los 29 estudios empíricos ( Diaz-Pinto et al. 2019, Nawaz et al. 2022, Fan et al. 2022/2023, Hemelings et al. 2023, Matta et al. 2023, de Vente et al. 2024, Chiang et al. 2024, Chaurasia et al. 2024/2025, Milad et al. 2025, Remyes et al. 2025, Gnanaprakasam & Barnabas 2025, Sangchocanonta et al. 2025, Hou et al. 2025/2026, Wu et al. 2026 y Rahman et al. 2026) . La validación externa en un centro, hospital, ensayo clínico o cohorte poblacional independiente figura en 11 de los 29 estudios empíricos ( Fu et al. 2018, Phene et al. 2019, Liu et al. 2019, Al-Aswad et al. 2019, Li et
+
+=== PAGINA 71 ===
+[72] al. 2022, Fan et al. 2022/2023, Hemelings et al. 2023, Xu Qian et al. 2023, Jan et al. 2024, Madadi et al. 2026 y Dvey-Aharon et al. 2026) , mientras que los desafíos con prueba oculta multicéntrica o cambio explícito de cámara suman 3 filas ( Orlando et al. 2020 en REFUGE, de Vente et al. 2024 en AIROGS y Madadi et al. 2026 en JustRAIGS) . Por el contrario, el protocolo leave-one-domain-out (LODO) aparece apenas en 5 de los 29 estudios empíricos ( Diaz-Pinto et al. 2019, Matta et al. 2023, Gnanaprakasam & Barnabas 2025, Ishikawa et al. 2026 y Rahman et al. 2026) , junto a 1 estudio de adaptación de dominio no supervisada que incorpora datos objetivo sin etiquetas ( Madadi et al. 2024) . Respecto al rigor metodológico, solo 7 de los 29 estudios empíricos documentan partición o evaluación por paciente al menos en sus cohortes principales ( Ting et al. 2017, Phene et al. 2019, Hemelings et al. 2023, Matta et al. 2023 en ODIR, de Vente et al. 2024, Madadi et al. 2024 en OHTS y Dvey-Aharon et al. 2026), 2 reconocen explícitamente partición a nivel de imagen ( Milad et al. 2025 y Wu et al. 2026) y 20 no lo reportan o no permiten verificarlo en el texto disponible; asimismo, únicamente 4 estudios evalúan explícitamente un umbral fijado en desarrollo y transportado sin reajuste en destino ( Phene et al. 2019, Milad et al. 2025 con cortes fijos 0,1/0,3/0,5, Dvey-Aharon et al. 2026 y Rahman et al. 2026), frente a una mayoría que omite la regla de umbralización o recalibra el corte en destino .
+
+=== PAGINA 72 ===
+[72] Casos de caída pequeña frente a casos de colapso
+[72] fuera de dominio Los casos en los que el desempeño fuera de dominio presentó una caída pequeña —o incluso una mejora aparente— comparten tres rasgos que atenúan simultáneamente los ejes de variación de su marco analítico. En primer lugar, la mayoría aplicó una estandarización geométrica estricta sobre la papila : Hemelings et al. (2023) entrenaron G-RISK en un solo centro terciario (23.930 fotos de 30° centradas en el disco), pero al armonizar todas las cohortes externas a ese mismo recorte de 30° —y emplear regresión continua del VCDR en
+
+=== PAGINA 73 ===
+[72] lugar de una clasificación binaria rígida— sostuvieron AUROC de 0,984 en GHS, 0,976 en BMES (participante), 0,963 en AIROGS, 0,986 en REFUGE1 test y 0,972 en RIM-ONE DL ; de modo similar, Xu Qian et al. (2023) conservaron AUROC de 0,952 y 0,966 en cuatro hospitales externos combinando filtrado de calidad (ResNet-18), recorte automático a 3 diámetros papilares (U-Net) y aprendizaje multitarea , y los equipos líderes de REFUGE ( Orlando et al. 2020; VRT 0,9885 y SDSAIRC 0,9817) y AIROGS ( de Vente et al. 2024) integraron localización y recorte del disco óptico, normalización fotométrica y ensambles . En segundo lugar, la degradación fue mínima cuando la escala, la diversidad multicámara o la dificultad del dominio fuente envolvían al dominio destino : Liu et al. (2019) entrenaron con 241.032 imágenes chinas y apenas bajaron de 0,996 a 0,987–0,995 en tres hospitales del mismo país bajo igual criterio de graduación ; de Vente et al. (2024) y Milad et al. (2025), entrenados con la alta heterogeneidad multicámara de EyePACS-AIROGS (> 500 centros), mantuvieron o elevaron su desempeño en bases más curadas como REFUGE (AUC 0,960 en Milad) y GAMMA (AUC 0,994; SE@95SP 98 %–100 %) ; Chiang et al. (2024) entrenaron ConvNeXt_Base + CBAM en la población confusora de alta miopía (AUC interna 0,894) y subieron a 0,921 en REFUGE test ; y Dvey-Aharon et al. (2026, preprint) sostuvieron sensibilidades de 90,6 % a 96,4 % y especificidades de 90,5 % a 85,3 % preservando el mismo encuadre centrado en mácula y una decisión bilateral por paciente . En tercer lugar, varios estudios con alta sensibilidad externa ( Orlando et al. 2020, Hemelings et al. 2023, de Vente et al. 2024) reajustaron el umbral operativo en destino para fijar especificidades de 85 % o 95 %, evitando exponer la descalibración del punto de corte . En el extremo opuesto, los estudios con caídas grandes fuera de dominio ejemplifican con claridad los tres mecanismos de falla desagregados en su tesis y reflejan directamente el comportamiento que ustedes observan al pasar de Moondream Staged a EyePACS. Respecto a la variación de la imagen (encuadre, FOV, color, calidad y miopía) , Rahman et al. (2026, preprint) mostraron que cinco CNNs preentrenadas en ImageNet pierden en promedio −0,211 puntos de AUC entre ACRIMA, ORIGA y RIM-ONE DL (0,913 → 0,702; hasta −0,338 de ACRIMA a RIM-ONE DL) y colapsan al nivel del azar (0,492–0,502) en G1020, donde el campo de visión se ensancha y aparecen bordes negros de cámara —análogo directo a su salto hacia EyePACS— ; Hou et al. (2025/2026) documentaron que incluso un modelo fundacional masivo como DINOv2-Base (superior a RETFound en validación interna: 0,958 frente a 0,940) cae de 0,958 en Glaucoma_Fundus a 0,625 en PAPILA (−0,333) ante diferencias combinadas de resolución, FOV y definición clínica ; Liu et al. (2019) bajaron de 0,996 a 0,923 en la cohorte multiétnica de EE. UU. (Hamilton) y a 0,823 en imágenes web heterogéneas ; Diaz-Pinto et al. (2019) y Chaurasia et al. (2024/2025) cayeron de 0,9605 a 0,7678–0,8575 y de 0,9920 a 0,8751 en bases no vistas ; y Xu Qian et al. (2023) descendieron de 0,952–0,966 a 0,875 en ojos con alta miopía . Respecto a la variación de la etiqueta , Phene et al. (2019) perdieron −0,090 y −0,064 de AUC al pasar de lectura basada solo en fotografía (0,945) a decisiones clínicas con historia electrónica (Atlanta VA, 0,855) o estudio completo con VF y OCT (Dr. Shroff, 0,881) ; Hemelings et al. (2023) verificaron sobre las mismas imágenes de PAPILA que clasificar a los sospechosos como positivos reduce la AUC en −0,113 puntos (de 0,882 a 0,769 a nivel de ojo) ;
+
+=== PAGINA 74 ===
+[72] Sangchocanonta et al. (2025) registraron una caída de 0,926 a 0,682 al pasar de acuerdo unánime (3/3) a mayoritario (2/3) ; y Fan et al. (2022/2023), entrenados con criterios longitudinales de OHTS (AUC interna 0,91), descendieron con ResNet-50 hasta 0,55 en ORIGA (SE@95SP de 18 %) y 0,74 en ACRIMA y DIGS (SE@95SP de 29 % y 30 %), caída mitigada solo parcialmente por DeiT (0,73 en ORIGA; SE@95SP entre 21 % y 34 % en ORIGA, ACRIMA y DIGS) . Finalmente, respecto al cambio del punto de decisión , el meta-análisis de Ling et al. (2025) indica que mientras la AUROC agrupada baja moderadamente de 0,91 a 0,88 (−0,03), la sensibilidad y la especificidad caen más del doble (0,93 → 0,86 y 0,95 → 0,88), reduciendo la razón de verosimilitud positiva de 18,77 a 7,26 ; a escala individual, Jan et al. (2024) documentaron el colapso asimétrico más pronunciado —la sensibilidad del sistema de Li et al. (2018) se desplomó de 95,6 % a 33,3 % en UK Biobank mientras la especificidad subía a 97,4 %— , en tanto Rahman et al. (2026) reportaron el desplome inverso al transportar el umbral fuente (especificidad de 87,0 % a 50,6 %), demostrando que recalibrar con un 10 % de destino solo intercambia falsos positivos por falsos negativos (especificidad +16,4 puntos a costa de sensibilidad −11,7 puntos) sin recuperar la discriminación perdida .
+
+=== PAGINA 75 ===
+[72] Afirmaciones dudosas o contradictorias Durante la verificación cruzada de las fuentes primarias y secundarias se detectaron las siguientes inconsistencias y vacíos que conviene explicitar en el estado del arte para no heredar errores de citación:
+
+=== PAGINA 76 ===
+[72] ● Atribución errónea de validación externa en Ting et al. (2017) y Li et al. (2018): Diversos artículos secundarios citan a Ting et al. (2017) como validación externa multicéntrica de glaucoma; sin embargo, el texto original establece que las 10 cohortes externas se utilizaron para validar retinopatía diabética, mientras que para possible glaucoma se incorporaron al entrenamiento y la evaluación fue temporal dentro de Singapur (SIDRP 2014–2015) . Del mismo modo, el 0,986 de Li et al. (2018) corresponde a una partición aleatoria interna de 8.000 fotografías de la misma población china , resultado que cayó a 0,654 en la evaluación externa de Jan et al. (2024) . ● Clasificación contradictoria de validación interna como "externa" en Ling et al. (2025): La Tabla 1 del meta-análisis de Ling et al. (2025) etiqueta como External la AUC de 0,96 (sens 0,93, espec 0,86; n = 1.707) de Diaz-Pinto et al. (2019), cuando en el original ese 0,9605 proviene de validación cruzada interna sobre las 5 bases mezcladas y las pruebas entre bases (Tabla 4) oscilaron entre 0,7678 y 0,8575 . La misma tabla cataloga como External a Christopher et al. (2018) —registrado por Aggarwal et al. (2021) como Random split— y a Lin et al. (2022) en OHTS (37.339 fotos, AUC 0,90), cuando en Lin et al. (2022) OHTS fue entrenada y probada internamente (y LAG usó 41,3 % de entrenamiento propio) . Además, registra "Fu (2020)" con AUC 0,84 en ORIGA/SCES/SINDI (n = 1.676), distinto del 0,9183 en SCES y 0,8173 en SINDI de Fu et al. (2018) . Por tanto, la AUROC externa agrupada de Ling et al. (0,88) probablemente subestima la caída real fuera de dominio. ● Inconsistencias numéricas internas dentro de artículos arbitrados: En Chaurasia et al. (2024/2025), distintas secciones señalan como mejor arquitectura tanto a DenseNet201 como a vgg19_bn, y reportan 1.364 glaucomas / 2.047 sanos en el resumen frente a 1.381 / 2.030 en la Tabla 2 . En Liu et al. (2019), la Tabla 3 imprime 0.995 (0.996–0.996) para Beijing Tongren Hospital, con el límite inferior del IC 95 % por encima de la estimación puntual (probable errata tipográfica) . En Hemelings et al. (2023), el IC 95 % de GHS figura como 0.980–0.991 en el resumen y 0.978–0.990 en la Tabla 1, y el texto de umbralización menciona ~94,2 % para GHS a corte 0,70 mientras la Tabla 1 reporta 93,5 % de sensibilidad y 93,8 % de especificidad . ● Exactitudes cruzadas superiores a la interna sin métricas de discriminación en Nawaz et al. (2022): Nawaz et al. (2022) reportan 97,2 % de exactitud interna en ORIGA, pero 98,21 % al probar en HRF y 97,96 % en RIM-ONE DL, sin reportar AUC, sensibilidad, especificidad, umbral ni control de fugas por paciente . Dado que estudios independientes sobre las mismas bases documentan caídas notables de AUC , esos porcentajes deben interpretarse con cautela. ● Datos no verificables por truncamiento o ausencia de versión publicada: No pudieron confirmarse las métricas diferenciadas de partición aleatoria frente a partición entre hospitales en Fumero Batista et al. (2020, RIM-ONE DL, 10.5566/ias.2346, donde solo fue visible un fragmento de VGG19 con AUC 0,9867 sin rótulo de partición) , ni la Tabla 6 completa del desafío REFUGE2 ( Fang et al. 2022, arXiv:2202.08994, cuya publicación definitiva con DOI en revista arbitrada no se pudo confirmar) . Tampoco
+
+=== PAGINA 77 ===
+[72] fueron accesibles en texto plano las Tablas 2–3 de evaluación externa de de Vente et al. (2024) (las cifras externas de 88 % en REFUGE y 100 % en GAMMA provienen de citas secundarias en Milad et al. 2025) , las métricas de OHTS en Madadi et al. (2026) , la AUC exclusiva de Glaucoma en Matta et al. (2023) , las cifras de ACRIMA/RIM-ONE en Madadi et al. (2024) , los valores numéricos de LODO en Gnanaprakasam & Barnabas (2025) , las otras 9 bases externas de Wu et al. (2026) ni las AUC basales fuera de figura en Ishikawa et al. (2026) . ● Preprints sin arbitraje y divergencias en conteos de bases públicas: Rahman et al. (2026, arXiv:2611.01992, sin DOI verificado) y Dvey-Aharon et al. (2026, medRxiv , 10.64898/2026.01.20.26344470) son preprints recientes sin versión revisada por pares confirmada . Además, el tamaño y la composición atribuidos a una misma base pública varían entre publicaciones según versiones o filtros de calidad: AIROGS figura con 113.893 fotos en Hemelings et al. (2023), 112.732 en de Vente et al. (2024) y 111.178 en JustRAIGS ( Madadi et al. 2026) ; RIM-ONE cambia entre 159 (r3), 455 (r2) y 485 (DL) ; y HRF (45 fotos) se describe como 27 glaucomas / 18 sanos en Diaz-Pinto et al. (2019) frente a 15 sanos / 15 DR / 15 glaucomas en Nawaz et al. (2022) . Finalmente, la omisión sistemática de cámara, FOV y regla exacta de umbralización en más de la mitad de los estudios impide desacoplar retrospectivamente las tres fuentes de variación en la literatura previa.
+[72] Works cited
+[72] 1. Performance of a Deep Learning System and ... - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC11591493/ 2. Development and Validation of a Deep Learning System to Detect, https://pmc.ncbi.nlm.nih.gov/articles/PMC6743057/ 3. https://www.mdpi.com/2227-9059/13/2/420 4. Can a Natural Image-Based Foundation Model Outperform a Retina, https://pmc.ncbi.nlm.nih.gov/articles/PMC12548085/ 5. Cross-Dataset Generalization of Glaucoma Detection CNNs - arXiv, https://arxiv.org/pdf/2611.01992 6. Detecting Glaucoma from Fundus Photographs Using Deep ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC9762193/ 7. https://pmc.ncbi.nlm.nih.gov/articles/PMC10264390/ 8. Development and Validation of a Deep Learning System for Diabetic, https://pmc.ncbi.nlm.nih.gov/articles/PMC5820739/ 9. Efficacy of a Deep Learning System for Detecting Glaucomatous, https://pubmed.ncbi.nlm.nih.gov/29506863/ 10. Code-Free Deep Learning Glaucoma Detection on Color Fundus, https://pmc.ncbi.nlm.nih.gov/articles/PMC11964632/ 11. Development and Validation of a Deep Learning System for Diabetic, https://pubmed.ncbi.nlm.nih.gov/29234807/ 12. Current applications of machine learning in the screening ... - PMC,
+
+=== PAGINA 78 ===
+[72] https://pmc.ncbi.nlm.nih.gov/articles/PMC6942952/ 13. (PDF) Disc-Aware Ensemble Network for Glaucoma Screening From, https://www.researchgate.net/publication/325162360_Disc-Aware_Ensemble_Network_for_Glaucoma_Screening_From_Fundus_Image 14. A narrative review of glaucoma screening from fundus images - Cao, https://aes.amegroups.org/article/view/6020/html 15. Automated Glaucoma Screening and Diagnosis Based on Retinal, https://www.mdpi.com/2075-4418/13/13/2180 16. Disc-aware Ensemble Network for Glaucoma Screening from ... - arXiv, https://arxiv.org/html/1805.07549v1 17. A narrative review of glaucoma screening from fundus images, https://www.researchgate.net/publication/352454691_A_narrative_review_of_glaucoma_screening_from_fundus_images 18. https://pmc.ncbi.nlm.nih.gov/articles/PMC6425593/ 19. (PDF) Deep Learning and Glaucoma Specialists - ResearchGate, https://www.researchgate.net/publication/336027867_Deep_Learning_and_Glaucoma_Specialists 20. The Relative Importance of Optic Disc Features to Predict Glaucoma, https://arxiv.org/pdf/1812.08911 21. The Relative Importance of Optic Disc Features to Predict Glaucoma, https://pubmed.ncbi.nlm.nih.gov/31561879/ 22. Diagnostic accuracy of deep learning in medical imaging - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC8027892/ 23. Deep Learning in Glaucoma Detection and Progression Prediction, https://pmc.ncbi.nlm.nih.gov/articles/PMC11852503/ 24. Evaluation of a Deep Learning System For Identifying Glaucomatous, https://www.researchgate.net/publication/334000136_Evaluation_of_a_Deep_Learning_System_For_Identifying_Glaucomatous_Optic_Neuropathy_Based_on_Color_Fundus_Photographs 25. (PDF) Expert-Level Detection of Referable Glaucoma from Fundus, https://www.researchgate.net/publication/383449981_Expert-Level_Detection_of_Referable_Glaucoma_from_Fundus_Photographs_in_a_Safety_Net_Population_The_AI_and_Teleophthalmology_in_Los_Angeles_Initiative 26. Artificial intelligence in glaucoma: opportunities, challenges, and, https://pmc.ncbi.nlm.nih.gov/articles/PMC10725017/ 27. REFUGE Challenge: A unified framework for... - Ovid, https://www.ovid.com/journals/meian/fulltext/10.1016/j.media.2019.101570~refuge-challenge-a-unified-framework-for-evaluating 28. https://riunet.upv.es/server/api/core/bitstreams/d16c2e65-2199-44d7-86e0-62b72 27a2cb1/content 29. https://pmc.ncbi.nlm.nih.gov/articles/PMC9778370/ 30. REFUGE Challenge: A Unified Framework for Evaluating Automated, https://www.chapterpal.com/s/5q9fvv3n/refuge-challenge-a-unified-framework-for-evaluating-automated-methods-for-glaucoma-assessment-from-fundus-photographs
+
+=== PAGINA 79 ===
+[72] 31. Retinal Glaucoma Public Datasets: What Do We Have and What Is, https://pmc.ncbi.nlm.nih.gov/articles/PMC9267177/ 32. Artificial Intelligence in the Early Detection of Glaucoma, https://pdfs.semanticscholar.org/de88/216296af234b2cb72847b2e39d9c15fc5514.pdf 33. https://pubmed.ncbi.nlm.nih.gov/35302538/ 34. https://pmc.ncbi.nlm.nih.gov/articles/PMC8780798/ 35. https://www.mdpi.com/1424-8220/22/2/434 36. (PDF) A deep-learning system predicts glaucoma incidence and, https://www.researchgate.net/publication/361013287_A_deep-learning_system_predicts_glaucoma_incidence_and_progression_using_retinal_photographs 37. External validation of a deep learning detection system for ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC10698045/ 38. https://pmc.ncbi.nlm.nih.gov/articles/PMC10352300/ 39. AIROGS: Artificial Intelligence for Robust Glaucoma Screening, https://pubmed.ncbi.nlm.nih.gov/37713220/ 40. Artificial Intelligence for Robust Glaucoma Screening Challenge, https://www.researchgate.net/publication/373961889_AIROGS_Artificial_Intelligence_for_RObust_Glaucoma_Screening_Challenge 41. https://coendevente.com/files/2302.01738.pdf 42. Deep Learning Evaluation of Glaucoma Detection Using Fundus, https://www.mdpi.com/2227-9059/12/7/1394 43. https://pmc.ncbi.nlm.nih.gov/articles/PMC11274657/ 44. A generalised computer vision model for improved glaucoma ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC11732976/ 45. (PDF) A generalised computer vision model for improved glaucoma, https://www.researchgate.net/publication/385569582_A_generalised_computer_vision_model_for_improved_glaucoma_screening_using_fundus_images 46. Domain Adaptation-Based Deep Learning Model for Forecasting, https://pmc.ncbi.nlm.nih.gov/articles/PMC10922017/ 47. https://www.mdpi.com/2078-2489/16/6/432 48. https://www.mdpi.com/2571-5577/8/4/111 49. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314111 50. JustRAIGS: Justified Referral in AI Glaucoma Screening Challenge, https://pubmed.ncbi.nlm.nih.gov/40773411/ 51. JustRAIGS: Justified Referral in AI Glaucoma Screening Challenge, https://pmc.ncbi.nlm.nih.gov/articles/PMC12882781/ 52. AUBADE-syn: a novel deep learning ensemble method for ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC13416052/ 53. Analyzing CNN-Based Glaucoma Decision Criteria Using ... - MDPI, https://www.mdpi.com/2227-7080/14/7/435 54. https://pmc.ncbi.nlm.nih.gov/articles/PMC12879648/ 55. (PDF) Cross-Dataset Generalization of Glaucoma Detection CNNs, https://www.researchgate.net/publication/417411630_Cross-Dataset_Generalization_of_Glaucoma_Detection_CNNs_Effects_of_Operating_Threshold_Multi-Sourc
+
+=== PAGINA 80 ===
+[72] e_Training_and_Color_Normalization 56. https://pmc.ncbi.nlm.nih.gov/articles/PMC9388536/ 57. A Novel Context Aware Joint Segmentation and Classification ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC8589492/ 58. https://www.ias-iss.org/ojs/IAS/article/view/2346 59. (PDF) RIM-ONE DL: A Unified Retinal Image Database for, https://www.researchgate.net/publication/345850772_RIM-ONE_DL_A_Unified_Retinal_Image_Database_for_Assessing_Glaucoma_Using_Deep_Learning 60. OcuWeave - Data Sorcerers, https://data-sorcerers.com/ocuweave/ 61. Artificial Intelligence-Driven Multimodal Prediction of 10-Year ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC13393445/ 62. https://arxiv.org/html/2202.08994v3

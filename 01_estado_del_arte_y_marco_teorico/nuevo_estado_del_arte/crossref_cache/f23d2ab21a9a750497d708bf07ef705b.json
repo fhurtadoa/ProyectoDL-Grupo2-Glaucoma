@@ -1,0 +1,746 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T17:07:27Z",
+      "timestamp": 1790269647389,
+      "version": "4.1.0"
+    },
+    "reference-count": 53,
+    "publisher": "MDPI AG",
+    "issue": "19",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              24
+            ]
+          ],
+          "date-time": "2026-09-24T00:00:00Z",
+          "timestamp": 1790208000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Diagnostics"
+    ],
+    "abstract": "<jats:p>Background/Objectives: Retinal fundus photography is the most widely available means of screening for sight-threatening disease, but it is difficult to read: several conditions leave overlapping signs on the same photograph, the features that separate them are often subtle and confined to small regions of the retina, and a single image carries no systemic context, so an automated reader must resolve categories on which experienced clinicians themselves agree only moderately. Methods: We compared five deep learning architectures—EfficientNet-B3, DenseNet-121, ViT-Base/16, Inception-V3, and RETFound ViT-Large—for simultaneous seven-class retinal disease classification on a multi-source fundus image benchmark, in a retrospective computational study using stratified five-fold cross-validation. We pooled 11,223 patient-eye fundus images from three publicly available, de-identified datasets (ODIR-5K, RFMiD, and APTOS 2019) spanning age-related macular degeneration (AMD), cataract, diabetic retinopathy (DR), glaucoma, hypertensive retinopathy, pathological myopia, and normal fundus; the cohort was markedly class-imbalanced (DR, 62.5%; normal, 25.6%; each remaining class &lt; 3%), and no new patient data were collected. Images were deduplicated by MD5 hash and split at the patient level to eliminate data leakage, with a fixed 15% held-out test set and five stratified cross-validation folds; training images received Ben Graham illumination normalization and class-balancing augmentation, while validation and test images were unaugmented. Three ImageNet-pretrained CNNs (EfficientNet-B3, DenseNet-121, Inception-V3), ViT-Base/16, and RETFound ViT-Large (pretrained on 1.6 million retinal photographs via masked autoencoding) were trained; the primary outcome was the five-fold mean weighted-averaged F1 score, pairwise comparisons used paired t-tests on fold-level F1 (df= 4), and Grad-CAM was applied for explainability. Results: EfficientNet-B3 achieved the highest five-fold mean accuracy (95.53%; weighted-F1, 0.9507) and significantly outperformed RETFound ViT-Large (ΔF1=+0.0255; t=9.70; p&lt;0.001), ViT-Base/16 (ΔF1=+0.0075; t=9.20; p&lt;0.001), and Inception-V3 (ΔF1=+0.0103; t=8.38; p&lt;0.001), while performing comparably to DenseNet-121 (t=2.24; p=0.089); Grad-CAM showed clinically plausible activation localization for the CNN architectures. Conclusions: A compact, resource-efficient CNN thus matched or exceeded a substantially larger retinal foundation model and Vision Transformers, indicating that larger domain-specific foundation models are not inherently superior for heterogeneous retinal screening; because such compact models run on commodity hardware, they may offer more practical screening solutions for community, rural, and resource-limited settings where ophthalmologist coverage is scarcest. External validity across imaging sources and populations remains unproven, underscoring that prospective, multicenter validation must precede clinical deployment. A provenance audit of this pooled cohort subsequently found it confounded. The audit identified five failure modes, three of them decisive: image width alone reproduced the diabetic retinopathy label at 99.98% accuracy using no retinal pixels, source and label were almost perfectly dependent with a Cramér’s V of 0.9996, and diabetic retinopathy recall was exactly 1.0000 for all five architectures. The cohort was rebuilt from a single source with per-eye labels, and nine architectures were retrained under one protocol with external validation. The corrected headline is a macro-AUC of 0.930 internally and 0.978 externally, with a macro-F1 of 0.686. No architecture is declared superior, and the pooled-cohort conclusion does not stand.</jats:p>",
+    "DOI": "10.3390/diagnostics16193109",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T16:29:53Z",
+      "timestamp": 1790267393000
+    },
+    "page": "3109",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Comparative Evaluation of EfficientNet-B3, Vision Transformers, and RETFound for Seven-Category Retinopathy Fundus Image Classification"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Majid",
+        "family": "Alutaibi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Computer Science and Engineering, University of Ha’il, Ha’il 81411, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "formal-analysis",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "methodology",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "visualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "data-curation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-original-draft",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9074-1029",
+        "authenticated-orcid": false,
+        "given": "Meshari",
+        "family": "Alazmi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer Science and Engineering, University of Ha’il, Ha’il 81411, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "conceptualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "resources",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "supervision",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "project-administration",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "formal-analysis",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "unstructured": "World Health Organization (2019). World Report on Vision, World Health Organization."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal Trial of an Autonomous AI-Based Diagnostic System for Detection of Diabetic Retinopathy in Primary Care Offices",
+        "volume": "1",
+        "author": "Abramoff",
+        "year": "2018",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "article-title": "Clinically Applicable Deep Learning for Diagnosis and Referral in Retinal Disease",
+        "volume": "24",
+        "author": "Ledsam",
+        "year": "2018",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1410",
+        "DOI": "10.1016/j.ophtha.2018.02.037",
+        "article-title": "A Deep Learning Algorithm for Prediction of Age-Related Eye Disease Study Severity Scale for Age-Related Macular Degeneration From Color Fundus Photography",
+        "volume": "125",
+        "author": "Grassmann",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting",
+        "year": "2019",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "101971",
+        "DOI": "10.1016/j.media.2021.101971",
+        "article-title": "Applications of deep learning in fundus images: A review",
+        "volume": "69",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated Identification of Diabetic Retinopathy Using Deep Learning",
+        "volume": "124",
+        "author": "Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1170",
+        "DOI": "10.1001/jamaophthalmol.2017.3782",
+        "article-title": "Automated Grading of Age-Related Macular Degeneration From Color Fundus Images Using Deep Convolutional Neural Networks",
+        "volume": "135",
+        "author": "Burlina",
+        "year": "2017",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1016/j.ophtha.2018.11.015",
+        "article-title": "DeepSeeNet: A Deep Learning Model for Automated Classification of Patient-based Age-related Macular Degeneration Severity from Color Fundus Photographs",
+        "volume": "126",
+        "author": "Peng",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "4828",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "article-title": "Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning",
+        "volume": "2",
+        "author": "Poplin",
+        "year": "2018",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2310",
+        "DOI": "10.1056/NEJMra032865",
+        "article-title": "Hypertensive Retinopathy",
+        "volume": "351",
+        "author": "Wong",
+        "year": "2004",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1264",
+        "DOI": "10.1016/j.ophtha.2018.01.034",
+        "article-title": "Grader Variability and the Importance of Reference Standards for Evaluating Machine Learning Models for Diabetic Retinopathy",
+        "volume": "125",
+        "author": "Krause",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., and Gelly, S. (2021, January 3–7). An Image Is Worth 16 × 16 Words: Transformers for Image Recognition at Scale. Proceedings of the International Conference on Learning Representations (ICLR), Virtual."
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "Bommasani, R., Hudson, D.A., Adeli, E., Altman, R., Arora, S., von Arx, S., Bernstein, M.S., Bohg, J., Bosselut, A., and Brunskill, E. (2021). On the Opportunities and Risks of Foundation Models. arXiv."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A Foundation Model for Generalizable Disease Detection From Retinal Images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e271",
+        "DOI": "10.1016/S2589-7500(19)30123-2",
+        "article-title": "A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: A systematic review and meta-analysis",
+        "volume": "1",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "m689",
+        "DOI": "10.1136/bmj.m689",
+        "article-title": "Artificial intelligence versus clinicians: Systematic review of design, reporting standards, and claims of deep learning studies",
+        "volume": "368",
+        "author": "Nagendran",
+        "year": "2020",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "665",
+        "DOI": "10.1038/s42256-020-00257-z",
+        "article-title": "Shortcut learning in deep neural networks",
+        "volume": "2",
+        "author": "Geirhos",
+        "year": "2020",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zech, J.R., Badgeley, M.A., Liu, M., Costa, A.B., Titano, J.J., and Oermann, E.K. (2018). Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study. PLoS Med., 15.",
+        "DOI": "10.1371/journal.pmed.1002683"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "610",
+        "DOI": "10.1038/s42256-021-00338-7",
+        "article-title": "AI for radiographic COVID-19 detection selects shortcuts over signal",
+        "volume": "3",
+        "author": "DeGrave",
+        "year": "2021",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1038/s41746-019-0105-1",
+        "article-title": "Deep learning predicts hip fracture using confounding patient and healthcare variables",
+        "volume": "2",
+        "author": "Badgeley",
+        "year": "2019",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "100804",
+        "DOI": "10.1016/j.patter.2023.100804",
+        "article-title": "Leakage and the reproducibility crisis in machine-learning-based science",
+        "volume": "4",
+        "author": "Kapoor",
+        "year": "2023",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "22544",
+        "DOI": "10.1038/s41598-021-01681-w",
+        "article-title": "Effect of data leakage in brain MRI classification using 2D convolutional neural networks",
+        "volume": "11",
+        "author": "Yagis",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "580",
+        "DOI": "10.1038/s41597-022-01618-6",
+        "article-title": "Inflation of test accuracy due to data leakage in deep learning-based classification of OCT images",
+        "volume": "9",
+        "author": "Tampu",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1038/s41746-022-00592-y",
+        "article-title": "Machine learning for medical imaging: Methodological failures and recommendations for the future",
+        "volume": "5",
+        "author": "Varoquaux",
+        "year": "2022",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1038/s42256-021-00307-0",
+        "article-title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans",
+        "volume": "3",
+        "author": "Roberts",
+        "year": "2021",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "e200029",
+        "DOI": "10.1148/ryai.2020200029",
+        "article-title": "Checklist for Artificial Intelligence in Medical Imaging (CLAIM): A Guide for Authors and Reviewers",
+        "volume": "2",
+        "author": "Mongan",
+        "year": "2020",
+        "journal-title": "Radiol. Artif. Intell."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "e078378",
+        "DOI": "10.1136/bmj-2023-078378",
+        "article-title": "TRIPOD+AI statement: Updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+        "volume": "385",
+        "author": "Collins",
+        "year": "2024",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "(2025, November 07). International Competition on Ocular Disease Intelligent Recognition. Available online: https://odir2019.grand-challenge.org/."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pachade, S., Porwal, P., Thulkar, D., Kokare, M., Deshmukh, G., Sahasrabuddhe, V., Giancardo, L., Quellec, G., and Mériaudeau, F. (2021). Retinal Fundus Multi-Disease Image Dataset (RFMiD): A Dataset for Multi-Disease Detection Research. Data, 6.",
+        "DOI": "10.3390/data6020014"
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Kaggle (2026, April 20). APTOS 2019 Blindness Detection. Available online: https://www.kaggle.com/c/aptos2019-blindness-detection."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "Graham, B. (2015). Kaggle Diabetic Retinopathy Detection Competition Report, University of Warwick. Technical Report."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "Tan, M., and Le, Q.V. (2019, January 9–15). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. Proceedings of the International Conference on Machine Learning (ICML), Long Beach, CA, USA."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, G., Liu, Z., van der Maaten, L., and Weinberger, K.Q. (2017). Densely Connected Convolutional Networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), IEEE.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., and Wojna, Z. (2016). Rethinking the Inception Architecture for Computer Vision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), IEEE.",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1895",
+        "DOI": "10.1162/089976698300017197",
+        "article-title": "Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms",
+        "volume": "10",
+        "author": "Dietterich",
+        "year": "1998",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "ref_41",
+        "first-page": "65",
+        "article-title": "A simple sequentially rejective multiple test procedure",
+        "volume": "6",
+        "author": "Holm",
+        "year": "1979",
+        "journal-title": "Scand. J. Stat."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., and Batra, D. (2017). Grad-CAM: Visual Explanations From Deep Networks via Gradient-Based Localization. Proceedings of the IEEE International Conference on Computer Vision (ICCV), IEEE.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1023/A:1024068626366",
+        "article-title": "Inference for the generalization error",
+        "volume": "52",
+        "author": "Nadeau",
+        "year": "2003",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1007/BF02295996",
+        "article-title": "Note on the sampling error of the difference between correlated proportions or percentages",
+        "volume": "12",
+        "author": "McNemar",
+        "year": "1947",
+        "journal-title": "Psychometrika"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1080/01621459.1987.10478410",
+        "article-title": "Better Bootstrap Confidence Intervals",
+        "volume": "82",
+        "author": "Efron",
+        "year": "1987",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.2307/2531595",
+        "article-title": "Comparing the areas under two or more correlated receiver operating characteristic curves: A nonparametric approach",
+        "volume": "44",
+        "author": "DeLong",
+        "year": "1988",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.1093/biomet/26.4.404",
+        "article-title": "The use of confidence or fiducial limits illustrated in the case of the binomial",
+        "volume": "26",
+        "author": "Clopper",
+        "year": "1934",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "ref_48",
+        "unstructured": "Raghu, M., Zhang, C., Kleinberg, J., and Bengio, S. (2019, January 8–14). Transfusion: Understanding Transfer Learning for Medical Imaging. Proceedings of the Advances in Neural Information Processing Systems (NeurIPS), Vancouver, BC, Canada."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ke, A., Ellsworth, W., Banerjee, O., Ng, A.Y., and Rajpurkar, P. (2021, January 8–9). CheXtransfer: Performance and Parameter Efficiency of ImageNet Models for Chest X-ray Interpretation. Proceedings of the Conference on Health, Inference, and Learning (CHIL), Virtual.",
+        "DOI": "10.1145/3450439.3451867"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/S0161-6420(92)31990-6",
+        "article-title": "Expert Agreement in Evaluating the Optic Disc for Glaucoma",
+        "volume": "99",
+        "author": "Varma",
+        "year": "1992",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1662",
+        "DOI": "10.1016/S0161-6420(94)31118-3",
+        "article-title": "Agreement among Optometrists, Ophthalmologists, and Residents in Evaluating the Optic Disc for Glaucoma",
+        "volume": "101",
+        "author": "Abrams",
+        "year": "1994",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "article-title": "Agreement Among Glaucoma Specialists in Assessing Progressive Disc Changes From Photographs in Open-Angle Glaucoma Patients",
+        "volume": "147",
+        "author": "Jampel",
+        "year": "2009",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1061",
+        "DOI": "10.1007/s00371-024-03384-5",
+        "article-title": "HRDC challenge: A public benchmark for hypertension and hypertensive retinopathy classification from fundus images",
+        "volume": "41",
+        "author": "Qian",
+        "year": "2025",
+        "journal-title": "Vis. Comput."
+      }
+    ],
+    "container-title": [
+      "Diagnostics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2075-4418/16/19/3109/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T16:42:52Z",
+      "timestamp": 1790268172000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2075-4418/16/19/3109"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "19",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "diagnostics16193109"
+    ],
+    "URL": "https://doi.org/10.3390/diagnostics16193109",
+    "relation": {},
+    "ISSN": [
+      "2075-4418"
+    ],
+    "issn-type": [
+      {
+        "value": "2075-4418",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    }
+  }
+}

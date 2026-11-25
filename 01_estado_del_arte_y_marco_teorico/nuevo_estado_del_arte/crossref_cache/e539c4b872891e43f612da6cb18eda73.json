@@ -1,0 +1,587 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2026-11-16T02:21:06Z",
+      "timestamp": 1794795666935,
+      "version": "4.9.1"
+    },
+    "reference-count": 18,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2026-11-01T00:00:00Z",
+          "timestamp": 1793491200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2026-11-01T00:00:00Z",
+          "timestamp": 1793491200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              2
+            ]
+          ],
+          "date-time": "2026-11-02T00:00:00Z",
+          "timestamp": 1793577600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001818",
+        "name": "Research to Prevent Blindness",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001818",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000030",
+        "name": "Centers for Disease Control and Prevention",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000030",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2026.101460",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2026-11-07T00:19:19Z",
+      "timestamp": 1794010759000
+    },
+    "page": "101460",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Reliability-Weighted Multimodal Deep Learning for Glaucoma Detection Across Heterogeneous Clinical Sites"
+    ],
+    "prefix": "10.1016",
+    "author": [
+      {
+        "given": "Akram",
+        "family": "Belghith",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald C.",
+        "family": "Hood",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7418-1033",
+        "authenticated-orcid": false,
+        "given": "Emmanouil",
+        "family": "Tsamis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-1520-3568",
+        "authenticated-orcid": false,
+        "given": "Ruben",
+        "family": "Gonzalez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9330-9987",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Bowd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jalil",
+        "family": "Jalil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Massimo A.",
+        "family": "Fazio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5781-7682",
+        "authenticated-orcid": false,
+        "given": "Christopher A.",
+        "family": "Girkin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3424-011X",
+        "authenticated-orcid": false,
+        "given": "Cynthia",
+        "family": "Owsley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9553-3202",
+        "authenticated-orcid": false,
+        "given": "Robert N.",
+        "family": "Weinreb",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark",
+        "family": "Christopher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1143-5224",
+        "authenticated-orcid": false,
+        "given": "Linda M.",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "11",
+        "key": "10.1016/j.xops.2026.101460_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.xops.2026.101460_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2566",
+        "DOI": "10.4103/ijo.IJO_2294_21",
+        "article-title": "The many challenges in automated glaucoma diagnosis based on fundus imaging",
+        "volume": "69",
+        "author": "Krishnadas",
+        "year": "2021",
+        "journal-title": "Indian journal of ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101460_bib3",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1167/tvst.9.2.42",
+        "article-title": "A review of deep learning for screening, diagnosis, and detection of glaucoma progression",
+        "volume": "9",
+        "author": "Thompson",
+        "year": "2020",
+        "journal-title": "Translational vision science & technology"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.xops.2026.101460_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1618",
+        "DOI": "10.1177/1120672120977346",
+        "article-title": "Applications of deep learning in detection of glaucoma: a systematic review",
+        "volume": "31",
+        "author": "Mirzania",
+        "year": "2021",
+        "journal-title": "European Journal of Ophthalmology"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.xops.2026.101460_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1167/tvst.14.10.22",
+        "article-title": "A Deep Learning Model for Glaucoma Detection Outperforms Conventional Metrics",
+        "volume": "14",
+        "author": "Lau",
+        "year": "2025",
+        "journal-title": "Translational Vision Science & Technology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1016/j.ajo.2021.04.021",
+        "article-title": "Automated detection of glaucoma with interpretable machine learning using clinical data and multimodal retinal images",
+        "volume": "231",
+        "author": "Mehta",
+        "year": "2021",
+        "journal-title": "American Journal of Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101460_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2551",
+        "DOI": "10.1109/TPAMI.2022.3171983",
+        "article-title": "Trusted multi-view classification with dynamic evidential fusion",
+        "volume": "45",
+        "author": "Han",
+        "year": "2022",
+        "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.xops.2026.101460_bib8",
+        "article-title": "A deep learning model detects glaucoma based upon an OCT report, but where is it “looking”",
+        "volume": "66",
+        "author": "Hood",
+        "year": "2025",
+        "journal-title": "Investigative ophthalmology & visual science"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.xops.2026.101460_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1167/tvst.13.10.8",
+        "article-title": "Characteristics of a large database of healthy eyes from optometry practices: implications for a real-world reference database",
+        "volume": "13",
+        "author": "Hood",
+        "year": "2024",
+        "journal-title": "Translational Vision Science & Technology"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.xops.2026.101460_bib10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1167/tvst.13.12.21",
+        "article-title": "A pattern-based OCT metric for glaucoma detection",
+        "volume": "13",
+        "author": "Hood",
+        "year": "2024",
+        "journal-title": "Translational Vision Science & Technology"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Z, Mao H, Wu C-Y, Feichtenhofer C, Darrell T, Xie S. A convnet for the 2020s. 2022:11976-11986.",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "issue": "59",
+        "key": "10.1016/j.xops.2026.101460_bib12",
+        "first-page": "1",
+        "article-title": "Domain-adversarial training of neural networks",
+        "volume": "17",
+        "author": "Ganin",
+        "year": "2016",
+        "journal-title": "Journal of machine learning research"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin T-Y, Goyal P, Girshick R, He K, Dollár P. Focal loss for dense object detection. 2017:2980-2988.",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib14",
+        "unstructured": "Loshchilov I, Hutter F. Decoupled weight decay regularization. arXiv preprint arXiv:171105101. 2017;"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib15",
+        "unstructured": "Wortsman M, Ilharco G, Gadre SY, et al. Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time. PMLR; 2022:23965-23998."
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.2307/2531595",
+        "article-title": "Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach",
+        "author": "DeLong",
+        "year": "1988",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib17",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa",
+        "year": "2011",
+        "journal-title": "the Journal of machine Learning research"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101460_bib18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju RR, Cogswell M, Das A, Vedantam R, Parikh D, Batra D. Grad-cam: Visual explanations from deep networks via gradient-based localization. 2017:618-626.",
+        "DOI": "10.1109/ICCV.2017.74"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526003982?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526003982?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2026-11-16T02:09:14Z",
+      "timestamp": 1794794954000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914526003982"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "references-count": 18,
+    "alternative-id": [
+      "S2666914526003982"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2026.101460",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Reliability-Weighted Multimodal Deep Learning for Glaucoma Detection Across Heterogeneous Clinical Sites",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2026.101460",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 American Academy of Ophthalmology, Inc. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101460"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2611.13513",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2611.13513",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2611.13513",
+      "identifiers": [
+        {
+          "identifier": "2611.13513",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2611.13513"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Tan, Hai Siong",
+          "nameType": "Personal",
+          "givenName": "Hai Siong",
+          "familyName": "Tan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wang, Kuancheng",
+          "nameType": "Personal",
+          "givenName": "Kuancheng",
+          "familyName": "Wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Evidential Deep Learning with conditional entropy for glaucoma detection"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Machine Learning (cs.LG)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-11-10T03:39:24Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-11-11T01:59:48Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-11",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "We propose a novel conditional entropy function as a basis for quantifying predictive uncertainty in Evidential Deep Learning (EDL) for glaucoma detection from retinal fundus images. Using the EyePACS-AIROGS-light-V2 and RIM-ONE-DL datasets for validation, we found that our proposed EDL model regularized by conditional entropy function produced uncertainty estimates with substantially lower calibration errors than Deep Ensembles, MC Dropout, post-hoc calibration and the conventional EDL framework based on Dempster uncertainty. To further probe our models' interpretability, we analyzed Grad-CAM heatmaps using a focus index representing spatial concentration. Compared with the other uncertainty quantification methods, EDL models exhibited greater separation between the index distributions of correctly and incorrectly classified fundus images. In particular, false negatives were associated with localized Grad-CAM activations that were displaced from the optic disc, consistent with its established clinical importance in glaucoma assessment. Overall, our findings suggest that our proposed EDL framework for glaucoma detection provides not only enhanced uncertainty calibration but also admits a more physiologically consistent interpretability.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "15 pages, 4 figures. To appear in TAAI 2026",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNjExLjEzNTEzPC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjYxMS4xMzUxMzwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5UYW4sIEhhaSBTaW9uZzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+SGFpIFNpb25nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPlRhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XYW5nLCBLdWFuY2hlbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkt1YW5jaGVuZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XYW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5FdmlkZW50aWFsIERlZXAgTGVhcm5pbmcgd2l0aCBjb25kaXRpb25hbCBlbnRyb3B5IGZvciBnbGF1Y29tYSBkZXRlY3Rpb248L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+YXJYaXY8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjY8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPk1hY2hpbmUgTGVhcm5pbmcgKGNzLkxHKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIj5GT1M6IENvbXB1dGVyIGFuZCBpbmZvcm1hdGlvbiBzY2llbmNlczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMTEtMTBUMDM6Mzk6MjRaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjEiPjIwMjYtMTEtMTFUMDE6NTk6NDhaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNi0xMTwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8iIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHJpZ2h0c0lkZW50aWZpZXI9IkNDLUJZLTQuMCI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPldlIHByb3Bvc2UgYSBub3ZlbCBjb25kaXRpb25hbCBlbnRyb3B5IGZ1bmN0aW9uIGFzIGEgYmFzaXMgZm9yIHF1YW50aWZ5aW5nIHByZWRpY3RpdmUgdW5jZXJ0YWludHkgaW4gRXZpZGVudGlhbCBEZWVwIExlYXJuaW5nIChFREwpIGZvciBnbGF1Y29tYSBkZXRlY3Rpb24gZnJvbSByZXRpbmFsIGZ1bmR1cyBpbWFnZXMuIFVzaW5nIHRoZSBFeWVQQUNTLUFJUk9HUy1saWdodC1WMiBhbmQgUklNLU9ORS1ETCBkYXRhc2V0cyBmb3IgdmFsaWRhdGlvbiwgd2UgZm91bmQgdGhhdCBvdXIgcHJvcG9zZWQgRURMIG1vZGVsIHJlZ3VsYXJpemVkIGJ5IGNvbmRpdGlvbmFsIGVudHJvcHkgZnVuY3Rpb24gcHJvZHVjZWQgdW5jZXJ0YWludHkgZXN0aW1hdGVzIHdpdGggc3Vic3RhbnRpYWxseSBsb3dlciBjYWxpYnJhdGlvbiBlcnJvcnMgdGhhbiBEZWVwIEVuc2VtYmxlcywgTUMgRHJvcG91dCwgcG9zdC1ob2MgY2FsaWJyYXRpb24gYW5kIHRoZSBjb252ZW50aW9uYWwgRURMIGZyYW1ld29yayBiYXNlZCBvbiBEZW1wc3RlciB1bmNlcnRhaW50eS4gVG8gZnVydGhlciBwcm9iZSBvdXIgbW9kZWxzJyBpbnRlcnByZXRhYmlsaXR5LCB3ZSBhbmFseXplZCBHcmFkLUNBTSBoZWF0bWFwcyB1c2luZyBhIGZvY3VzIGluZGV4IHJlcHJlc2VudGluZyBzcGF0aWFsIGNvbmNlbnRyYXRpb24uIENvbXBhcmVkIHdpdGggdGhlIG90aGVyIHVuY2VydGFpbnR5IHF1YW50aWZpY2F0aW9uIG1ldGhvZHMsIEVETCBtb2RlbHMgZXhoaWJpdGVkIGdyZWF0ZXIgc2VwYXJhdGlvbiBiZXR3ZWVuIHRoZSBpbmRleCBkaXN0cmlidXRpb25zIG9mIGNvcnJlY3RseSBhbmQgaW5jb3JyZWN0bHkgY2xhc3NpZmllZCBmdW5kdXMgaW1hZ2VzLiBJbiBwYXJ0aWN1bGFyLCBmYWxzZSBuZWdhdGl2ZXMgd2VyZSBhc3NvY2lhdGVkIHdpdGggbG9jYWxpemVkIEdyYWQtQ0FNIGFjdGl2YXRpb25zIHRoYXQgd2VyZSBkaXNwbGFjZWQgZnJvbSB0aGUgb3B0aWMgZGlzYywgY29uc2lzdGVudCB3aXRoIGl0cyBlc3RhYmxpc2hlZCBjbGluaWNhbCBpbXBvcnRhbmNlIGluIGdsYXVjb21hIGFzc2Vzc21lbnQuIE92ZXJhbGwsIG91ciBmaW5kaW5ncyBzdWdnZXN0IHRoYXQgb3VyIHByb3Bvc2VkIEVETCBmcmFtZXdvcmsgZm9yIGdsYXVjb21hIGRldGVjdGlvbiBwcm92aWRlcyBub3Qgb25seSBlbmhhbmNlZCB1bmNlcnRhaW50eSBjYWxpYnJhdGlvbiBidXQgYWxzbyBhZG1pdHMgYSBtb3JlIHBoeXNpb2xvZ2ljYWxseSBjb25zaXN0ZW50IGludGVycHJldGFiaWxpdHkuPC9kZXNjcmlwdGlvbj4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9Ik90aGVyIj4xNSBwYWdlcywgNCBmaWd1cmVzLiBUbyBhcHBlYXIgaW4gVEFBSSAyMDI2PC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4=",
+      "url": "https://arxiv.org/abs/2611.13513",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-11-11T05:06:22.000Z",
+      "registered": "2026-11-11T05:06:23.000Z",
+      "published": "2026",
+      "updated": "2026-11-11T05:06:23.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2611.13513",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

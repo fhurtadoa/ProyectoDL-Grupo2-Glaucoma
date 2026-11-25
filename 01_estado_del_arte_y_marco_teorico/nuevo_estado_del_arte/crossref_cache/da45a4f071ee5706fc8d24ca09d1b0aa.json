@@ -1,0 +1,951 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2026-11-10T12:25:18Z",
+      "timestamp": 1794313518443,
+      "version": "4.9.0"
+    },
+    "reference-count": 69,
+    "publisher": "MDPI AG",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              10
+            ]
+          ],
+          "date-time": "2026-11-10T00:00:00Z",
+          "timestamp": 1794268800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              10
+            ]
+          ],
+          "date-time": "2026-11-10T00:00:00Z",
+          "timestamp": 1794268800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomedicines"
+    ],
+    "abstract": "<jats:p>Background/Objectives: Retinal vessel features are often added to fundus classifiers without isolating their effect. We examined whether global vessel descriptors improve multi-disease fundus classification under leakage-controlled external testing. Methods: After a duplicate audit and field-of-view normalization, models were trained on RFMiD and APTOS with a partial-label mask and tested internally and on four external datasets (ODIR-5K, Mendeley, STARE, IDRiD) that were not used for training, threshold fitting or calibration. Fourteen arms were compared: nine architectures combining EfficientNet-B4, Swin-S and a vessel branch, a label-handling control, and four variants with vessel features from other segmenters; ten arms were trained with three seeds. Vessel descriptors came from segmenters trained on 14 DRIVE images, 14 FIVES images or 480 FIVES images. Paired differences were tested with a hierarchical bootstrap and Holm correction; all external comparisons are exploratory. Results: The CNN–Transformer hybrid reached an internal macro-AUROC of 0.945 ± 0.002 and a mean external macro-AUROC of 0.830 ± 0.005, exceeding the CNN baseline internally, on ODIR-5K and on Mendeley (Holm-adjusted p ≤ 0.0045) but not on STARE or IDRiD; an average of separately trained CNN and Transformer models performed similarly (0.831). Treating unassessed labels as negatives lowered ODIR-5K and Mendeley AUROC (−0.018 and −0.032). For the CNN vessel arm, FIVES test Dice of 0.662, 0.779 and 0.833 for the three segmenters was accompanied by mean external AUROC of 0.786, 0.792 and 0.805, with the clearest differences on STARE and Mendeley; no vessel arm exceeded its counterpart without vessels. Conclusions: Global vessel descriptors added no measurable value to the image backbones studied, and their effect was associated with the upstream segmentation pipeline, whose quality should therefore be reported.</jats:p>",
+    "DOI": "10.3390/biomedicines14112588",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2026-11-10T11:49:58Z",
+      "timestamp": 1794311398000
+    },
+    "page": "2588",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Do Global Vessel Descriptors Help Multi-Disease Fundus Classification? A Leakage-Controlled Ablation of Hybrid CNN–Transformer Models with External Testing"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-5785-2101",
+        "authenticated-orcid": false,
+        "given": "Bensu",
+        "family": "Beğenilmiş",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronics Engineering, Institute of Applied Sciences, Mersin University, 33343 Mersin, Türkiye"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "conceptualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "visualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "resources",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "methodology",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "data-curation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-original-draft",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "formal-analysis",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4386-5536",
+        "authenticated-orcid": false,
+        "given": "Hüseyin",
+        "family": "Yanık",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Systems and Technologies, School of Applied Technology and Management, Mersin University, 33343 Mersin, Türkiye"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "conceptualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "visualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "supervision",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "resources",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "methodology",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "data-curation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "project-administration",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7750-9719",
+        "authenticated-orcid": false,
+        "given": "Evren",
+        "family": "Değirmenci",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronics Engineering, Faculty of Engineering, Mersin University, 33343 Mersin, Türkiye"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "conceptualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "supervision",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "project-administration",
+            "vocabulary": "credit"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e144",
+        "DOI": "10.1016/S2214-109X(20)30489-7",
+        "article-title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: The Right to Sight",
+        "volume": "9",
+        "author": "Steinmetz",
+        "year": "2021",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1580",
+        "DOI": "10.1016/j.ophtha.2021.04.027",
+        "article-title": "Global prevalence of diabetic retinopathy and projection of burden through 2045: Systematic review and meta-analysis",
+        "volume": "128",
+        "author": "Teo",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: A systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e106",
+        "DOI": "10.1016/S2214-109X(13)70145-1",
+        "article-title": "Global prevalence of age-related macular degeneration and disease burden projection for 2020 and 2040: A systematic review and meta-analysis",
+        "volume": "2",
+        "author": "Wong",
+        "year": "2014",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1255",
+        "DOI": "10.1038/s41433-020-0776-5",
+        "article-title": "Do we have enough ophthalmologists to manage vision-threatening diabetic retinopathy? A global perspective",
+        "volume": "34",
+        "author": "Teo",
+        "year": "2020",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1221",
+        "DOI": "10.1016/S2214-109X(17)30393-5",
+        "article-title": "Global causes of blindness and distance vision impairment 1990–2020: A systematic review and meta-analysis",
+        "volume": "5",
+        "author": "Flaxman",
+        "year": "2017",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Lavin",
+        "year": "2018",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1016/j.ophtha.2019.05.029",
+        "article-title": "Development and validation of deep learning models for screening multiple abnormal findings in retinal fundus images",
+        "volume": "127",
+        "author": "Son",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4828",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e486",
+        "DOI": "10.1016/S2589-7500(21)00086-8",
+        "article-title": "Application of Comprehensive Artificial Intelligence Retinal Expert (CARE) system: A national real-world evidence study",
+        "volume": "3",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "Lancet Digit. Health"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pachade, S., Porwal, P., Thulkar, D., Kokare, M., Deshmukh, G., Sahasrabuddhe, V., Giancardo, L., Quellec, G., and Mériaudeau, F. (2021). Retinal Fundus Multi-Disease Image Dataset (RFMiD): A dataset for multi-disease detection research. Data, 6.",
+        "DOI": "10.3390/data6020014"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "177",
+        "DOI": "10.1007/978-3-030-71058-3_11",
+        "article-title": "A benchmark of ocular disease intelligent recognition: One shot for multi-disease detection",
+        "volume": "Volume 12614",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Benchmarking, Measuring, and Optimizing (Bench 2020)"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voets, M., Møllersen, K., and Bongo, L.A. (2019). Reproduction study using public data of: Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. PLoS ONE, 14.",
+        "DOI": "10.1371/journal.pone.0217541"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1168",
+        "DOI": "10.2337/dc20-1877",
+        "article-title": "Multicenter, head-to-head, real-world validation study of seven automated artificial intelligence diabetic retinopathy screening systems",
+        "volume": "44",
+        "author": "Lee",
+        "year": "2021",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nunez do Rio, J.M., Nderitu, P., Bergeles, C., Sivaprasad, S., Tan, G.S.W., and Raman, R. (2022). Evaluating a deep learning diabetic retinopathy grading system developed on mydriatic retinal images when applied to non-mydriatic community screening. J. Clin. Med., 11.",
+        "DOI": "10.3390/jcm11030614"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "632",
+        "DOI": "10.1038/s41433-020-0927-8",
+        "article-title": "Evaluation of an AI system for the detection of diabetic retinopathy from images captured with a handheld portable fundus camera: The MAILOR AI study",
+        "volume": "35",
+        "author": "Rogers",
+        "year": "2021",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2352018",
+        "DOI": "10.1080/07853890.2024.2352018",
+        "article-title": "Comparison of 21 artificial intelligence algorithms in automated diabetic retinopathy screening using handheld fundus camera",
+        "volume": "56",
+        "author": "Kubin",
+        "year": "2024",
+        "journal-title": "Ann. Med."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Che, H., Cheng, Y., Jin, H., and Chen, H. (2023). Towards generalizable diabetic retinopathy grading in unseen domains. Medical Image Computing and Computer Assisted Intervention (MICCAI 2023), Springer.",
+        "DOI": "10.1007/978-3-031-43904-9_42"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "665",
+        "DOI": "10.1038/s42256-020-00257-z",
+        "article-title": "Shortcut learning in deep neural networks",
+        "volume": "2",
+        "author": "Geirhos",
+        "year": "2020",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zech, J.R., Badgeley, M.A., Liu, M., Costa, A.B., Titano, J.J., and Oermann, E.K. (2018). Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study. PLoS Med., 15.",
+        "DOI": "10.1371/journal.pmed.1002683"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e200267",
+        "DOI": "10.1148/ryai.2021200267",
+        "article-title": "Assessing the trustworthiness of saliency maps for localizing abnormalities in medical imaging",
+        "volume": "3",
+        "author": "Arun",
+        "year": "2021",
+        "journal-title": "Radiol. Artif. Intell."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "102364",
+        "DOI": "10.1016/j.media.2022.102364",
+        "article-title": "Clinical validation of saliency maps for understanding deep neural networks in ophthalmology",
+        "volume": "77",
+        "author": "Ayhan",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1167/tvst.9.2.64",
+        "article-title": "Systematic comparison of heatmapping techniques in deep learning in the context of diabetic retinopathy lesion detection",
+        "volume": "9",
+        "author": "Elen",
+        "year": "2020",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1109/TMI.2004.825627",
+        "article-title": "Ridge-based vessel segmentation in color images of the retina",
+        "volume": "23",
+        "author": "Staal",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1109/42.845178",
+        "article-title": "Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response",
+        "volume": "19",
+        "author": "Hoover",
+        "year": "2000",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1038/s41597-022-01564-3",
+        "article-title": "FIVES: A fundus image dataset for artificial intelligence based vessel segmentation",
+        "volume": "9",
+        "author": "Jin",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "Oktay, O., Schlemper, J., Le Folgoc, L., Lee, M., Heinrich, M., Misawa, K., Mori, K., McDonagh, S., Hammerla, N.Y., and Kainz, B. (2018, January 4–6). Attention U-Net: Learning where to look for the pancreas. Proceedings of the Medical Imaging with Deep Learning (MIDL), Amsterdam, The Netherlands."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tamim, N., Elshrkawey, M., and Nassar, H. (2021). Accurate diagnosis of diabetic retinopathy and glaucoma using retinal fundus images based on hybrid features and genetic algorithm. Appl. Sci., 11.",
+        "DOI": "10.3390/app11136178"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "article-title": "Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning",
+        "volume": "2",
+        "author": "Poplin",
+        "year": "2018",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "498",
+        "DOI": "10.1038/s41551-020-00626-4",
+        "article-title": "A deep-learning system for the assessment of cardiovascular disease risk via the measurement of retinal-vessel calibre",
+        "volume": "5",
+        "author": "Cheung",
+        "year": "2021",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1167/tvst.11.7.12",
+        "article-title": "AutoMorph: Automated retinal vascular morphology quantification via a deep learning pipeline",
+        "volume": "11",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "Transl. Vis. Sci. Technol."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "106120",
+        "DOI": "10.1016/j.bspc.2024.106120",
+        "article-title": "An evaluation of AI-based methods for papilledema detection in retinal fundus images",
+        "volume": "92",
+        "author": "Salaheldin",
+        "year": "2024",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "126927",
+        "DOI": "10.1016/j.eswa.2025.126927",
+        "article-title": "Vessel-guided and graph-based retinal vessel junction detection and classification",
+        "volume": "275",
+        "author": "Long",
+        "year": "2025",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., and Polosukhin, I. (2017, January 4–9). Attention is all you need. Proceedings of the Advances in Neural Information Processing Systems (NeurIPS), Long Beach, CA, USA. Available online: https://dl.acm.org/doi/10.5555/3295222.3295349."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., and Gelly, S. (2021, January 3–7). An image is worth 16×16 words: Transformers for image recognition at scale. Proceedings of the International Conference on Learning Representations (ICLR), Virtual."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., and Guo, B. (2021, January 10–17). Swin Transformer: Hierarchical vision transformer using shifted windows. Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), Virtual.",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Asia Pacific Tele-Ophthalmology Society (2026, September 30). APTOS 2019 Blindness Detection. Available online: https://www.kaggle.com/competitions/aptos2019-blindness-detection."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "110979",
+        "DOI": "10.1016/j.dib.2024.110979",
+        "article-title": "A dataset of color fundus images for the detection and classification of eye diseases",
+        "volume": "57",
+        "author": "Sharmin",
+        "year": "2024",
+        "journal-title": "Data Brief"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Porwal, P., Pachade, S., Kamble, R., Kokare, M., Deshmukh, G., Sahasrabuddhe, V., and Mériaudeau, F. (2018). Indian Diabetic Retinopathy Image Dataset (IDRiD): A database for diabetic retinopathy screening research. Data, 3.",
+        "DOI": "10.3390/data3030025"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "101561",
+        "DOI": "10.1016/j.media.2019.101561",
+        "article-title": "IDRiD: Diabetic retinopathy—Segmentation and grading challenge",
+        "volume": "59",
+        "author": "Porwal",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ridnik, T., Ben-Baruch, E., Zamir, N., Noy, A., Friedman, I., Protter, M., and Zelnik-Manor, L. (2021, January 10–17). Asymmetric loss for multi-label classification. Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), Virtual.",
+        "DOI": "10.1109/ICCV48922.2021.00015"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1109/TSMC.1979.4310076",
+        "article-title": "A threshold selection method from gray-level histograms",
+        "volume": "9",
+        "author": "Otsu",
+        "year": "1979",
+        "journal-title": "IEEE Trans. Syst. Man Cybern."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "Heckbert, P.S. (1994). Contrast limited adaptive histogram equalization. Graphics Gems IV, Academic Press."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.2307/1932409",
+        "article-title": "Measures of the amount of ecologic association between species",
+        "volume": "26",
+        "author": "Dice",
+        "year": "1945",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "ref_48",
+        "unstructured": "Tan, M., and Le, Q.V. (2019, January 9–15). EfficientNet: Rethinking model scaling for convolutional neural networks. Proceedings of the International Conference on Machine Learning (ICML), Long Beach, CA, USA."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, J., Shen, L., and Sun, G. (2018, January 18–23). Squeeze-and-excitation networks. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, UT, USA.",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1148/radiology.143.1.7063747",
+        "article-title": "The meaning and use of the area under a receiver operating characteristic (ROC) curve",
+        "volume": "143",
+        "author": "Hanley",
+        "year": "1982",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "442",
+        "DOI": "10.1016/0005-2795(75)90109-9",
+        "article-title": "Comparison of the predicted and observed secondary structure of T4 phage lysozyme",
+        "volume": "405",
+        "author": "Matthews",
+        "year": "1975",
+        "journal-title": "Biochim. Biophys. Acta BBA Protein Struct."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chicco, D., and Jurman, G. (2020). The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation. BMC Genom., 21.",
+        "DOI": "10.1186/s12864-019-6413-7"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+        "article-title": "Verification of forecasts expressed in terms of probability",
+        "volume": "78",
+        "author": "Brier",
+        "year": "1950",
+        "journal-title": "Mon. Weather Rev."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.1037/h0026256",
+        "article-title": "Weighted kappa: Nominal scale agreement with provision for scaled disagreement or partial credit",
+        "volume": "70",
+        "author": "Cohen",
+        "year": "1968",
+        "journal-title": "Psychol. Bull."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Efron, B., and Tibshirani, R.J. (1993). An Introduction to the Bootstrap, Chapman & Hall/CRC.",
+        "DOI": "10.1007/978-1-4899-4541-9"
+      },
+      {
+        "key": "ref_56",
+        "first-page": "65",
+        "article-title": "A simple sequentially rejective multiple test procedure",
+        "volume": "6",
+        "author": "Holm",
+        "year": "1979",
+        "journal-title": "Scand. J. Stat."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Guo, C., Pleiss, G., Sun, Y., and Weinberger, K.Q. (2017, January 6–11). On calibration of modern neural networks. Proceedings of the 34th International Conference on Machine Learning (ICML), Sydney, Australia."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smola, A.J., Bartlett, P., Schölkopf, B., and Schuurmans, D. (1999). Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. Advances in Large Margin Classifiers, MIT Press.",
+        "DOI": "10.7551/mitpress/1113.001.0001"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chattopadhay, A., Sarkar, A., Howlader, P., and Balasubramanian, V.N. (2018, January 12–15). Grad-CAM++: Generalized gradient-based visual explanations for deep convolutional networks. Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV), Lake Tahoe, NV, USA.",
+        "DOI": "10.1109/WACV.2018.00097"
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., and Batra, D. (2017, January 22–29). Grad-CAM: Visual explanations from deep networks via gradient-based localization. Proceedings of the IEEE International Conference on Computer Vision (ICCV), Venice, Italy.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, B., Khosla, A., Lapedriza, A., Oliva, A., and Torralba, A. (2016, January 27–30). Learning deep features for discriminative localization. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA.",
+        "DOI": "10.1109/CVPR.2016.319"
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1084",
+        "DOI": "10.1007/s11263-017-1059-x",
+        "article-title": "Top-down neural attention by excitation backprop",
+        "volume": "126",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Int. J. Comput. Vis."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.2307/3001968",
+        "article-title": "Individual comparisons by ranking methods",
+        "volume": "1",
+        "author": "Wilcoxon",
+        "year": "1945",
+        "journal-title": "Biom. Bull."
+      },
+      {
+        "key": "ref_64",
+        "unstructured": "Hendrycks, D., and Dietterich, T. (2019, January 6–9). Benchmarking neural network robustness to common corruptions and perturbations. Proceedings of the International Conference on Learning Representations (ICLR), New Orleans, LA, USA."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "e078378",
+        "DOI": "10.1136/bmj-2023-078378",
+        "article-title": "TRIPOD+AI statement: Updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+        "volume": "385",
+        "author": "Collins",
+        "year": "2024",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "3283",
+        "DOI": "10.1038/s41591-025-03953-8",
+        "article-title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+        "volume": "31",
+        "author": "Sounderajah",
+        "year": "2025",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "924",
+        "DOI": "10.1038/s41591-022-01772-9",
+        "article-title": "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI",
+        "volume": "28",
+        "author": "Vasey",
+        "year": "2022",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "1895",
+        "DOI": "10.34248/bsengineering.1957294",
+        "article-title": "Classification of retinal diseases in fundus images using hybrid deep learning based on multiscale feature fusion",
+        "volume": "9",
+        "year": "2026",
+        "journal-title": "Black Sea J. Eng. Sci."
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "101570",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      }
+    ],
+    "container-title": [
+      "Biomedicines"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2227-9059/14/11/2588/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2026-11-10T12:00:57Z",
+      "timestamp": 1794312057000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2227-9059/14/11/2588"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    },
+    "references-count": 69,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "biomedicines14112588"
+    ],
+    "URL": "https://doi.org/10.3390/biomedicines14112588",
+    "relation": {},
+    "ISSN": [
+      "2227-9059"
+    ],
+    "issn-type": [
+      {
+        "value": "2227-9059",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T11:44:55Z",
+      "timestamp": 1785843895900,
+      "version": "3.56.0"
+    },
+    "reference-count": 55,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              25
+            ]
+          ],
+          "date-time": "2026-06-25T00:00:00Z",
+          "timestamp": 1782345600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              25
+            ]
+          ],
+          "date-time": "2026-06-25T00:00:00Z",
+          "timestamp": 1782345600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Int J Imaging Syst Tech"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>This study presents and evaluates DenseNet201‐SAT, an attention enhanced deep learning framework for automated glaucoma diagnosis using ophthalmic fundus images. The developed composite neural network is called DenseNet201‐SAT and is composed of the DenseNet201 base with SE modules, self‐attention features, transformer blocks, and dense output classification layers. The model uses transfer learning to remediate the issue of limited training data. Training and testing of the model are done using five benchmark datasets, namely RIMONE‐DL, HRF, Drishti‐GS1, ACRIMA, and sjchoi86‐HRF. Performance evaluation is conducted using patient‐level splits among various fundus datasets (Drishti, sjchoi86‐HRF, ACRIMA, RIMONE, HRF) and a cross‐dataset. The size of test sets is between 6 and 141 images. The model achieves accuracy ranging from 0.8419 (95% CI: 0.500–1.0) on HRF to 0.9895 (95% CI: 0.969–1.0) on RIMONE, sensitivity 0.9701–1.0, specificity 0.7441–1.0, F1‐score 0.8169–0.9876, and AUC 0.8721–0.9851. In cross‐dataset evaluation, it achieves 0.9603 accuracy (95% CI: 0.921–0.990), 0.9715 F1‐score (95% CI: 0.940–0.994), and 0.9526 AUC (95% CI: 0.901–0.993), demonstrating strong generalization across datasets. Furthermore, the model achieved MCC values of 0.874  0.180, 0.966  0.060, 0.971  0.040, 0.979  0.040, 0.725  0.340, and 0.908  0.090 on DRISHTI‐GS1, sjchoi86‐HRF, ACRIMA, RIMONE‐DL, HRF, and the cross‐dataset setting, respectively, confirming balanced classification performance. The suggested DenseNet201‐SAT approach provides a robust and accurate solution for glaucoma diagnosis, utilizing the benefits of deep feature learning and strategies. Its consistent results across multiple datasets advocate significant potential for clinical application in automated glaucoma screening.</jats:p>",
+    "DOI": "10.1002/ima.70394",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2026-06-25T14:57:12Z",
+      "timestamp": 1782399432000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "<scp>DenseNet201</scp>\n                    ‐\n                    <scp>SAT</scp>\n                    : A Hybrid Attention‐Integrated Model for Glaucoma Detection"
+    ],
+    "prefix": "10.1002",
+    "volume": "36",
+    "author": [
+      {
+        "given": "Shajila Beegam",
+        "family": "M. K.",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering National Institute of Technical Teachers Training and Research  Chandigarh India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mala",
+        "family": "Kalra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering National Institute of Technical Teachers Training and Research  Chandigarh India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RBME.2010.2084567"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s41314‐025‐00073‐6"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3065386"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/BOE.10.000892"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. S.BeegamandM.Kalra “Comparative Analysis of Pretrained Model‐Based Transfer Learning Techniques for Glaucoma Detection From Fundus Images ”(2025) In: Beyond Artificial Intelligence: Select Proceedings of the International Conference AICTA 2023 263 Springer Nature.",
+        "DOI": "10.1007/978-981-96-4170-3_21"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frai.2024.1324109"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eng2.12866"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2017.05.073"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/08164622.2023.2235346"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-025-87219-w"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-025-89557-1"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1504/IJICA.2020.111230"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "first-page": "149523",
+        "article-title": "Smartphone‐Based 2d‐To‐3d Imaging System for Early Glaucoma Detection Using Depth Mapping",
+        "volume": "13",
+        "author": "Askarian A.",
+        "year": "2025",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4018/IJAEC.2020040102"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4018/IJSIR.309940"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-024-18624-y"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3204029"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/ijo.IJO_92_21"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_2_10_21_1",
+        "first-page": "1",
+        "article-title": "Leveraging Cnn and Fundus Imaging for Enhanced Glaucoma Detection",
+        "volume": "5",
+        "author": "MK S. B.",
+        "year": "2024",
+        "journal-title": "SN Computer Science"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBME.2020.3030085"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781003501244-53"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s42979-024-02610-0"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ima.22494"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12938-021-00877-5"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics13101738"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-44473-0"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-27045-6"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/IJO.IJO_613_23"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/21681163.2024.2350508"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12911-024-02518-y"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/healthcare10122497"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2022/1601354"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-16262-8"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-021-06554-x"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphys.2023.1175881"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3139160"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ima.22761"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.heliyon.2024.e36759"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.37745/ejcsit.2013/vol12n84861"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s24144684"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4108/eetpht.9.3931"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JEI.34.2.023016"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S.Ovreiu E.‐A.Paraschiv andE.Ovreiu “Deep Learning & Digital Fundus Images: Glaucoma Detection Using Densenet ”(2021) In: 2021 13th International Conference on Electronics Computers and Artificial Intelligence (ECAI) 1–4 IEEE.",
+        "DOI": "10.1109/ECAI52376.2021.9515188"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J.Hu L.Shen andG.Sun “Squeeze‐and‐Excitation Networks ”(2018) In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition pp. 7132–7141.",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imavis.2024.105042"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2022.100233"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "unstructured": "C.Lab “Retina_Dataset ”accessed: 2023‐01‐04 https://github.com/cvblab/retina_dataset."
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12938-019-0649-y"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J.Sivaswamy S.Krishnadas G. D.Joshi M.Jain andA. U. S.Tabish “Drishti‐gs: Retinal Image Dataset for Optic Nerve Head (Onh) Segmentation ”(2014) In: 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI) 53–56 IEEE.",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "unstructured": "Group M.I.A “RIMONE Database: Downloads ”accessed: 2023‐01‐03 http://medimrg.webs.ull.es/research/downloads/."
+      },
+      {
+        "key": "e_1_2_10_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5566/IAS.2346"
+      },
+      {
+        "key": "e_1_2_10_54_1",
+        "unstructured": "FAU “High‐Resolution Fundus (HRF) Image Database ”accessed: 2023‐01‐04 https://www5.cs.fau.de/research/data/fundus‐images/."
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.engappai.2025.113347"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rineng.2025.108826"
+      }
+    ],
+    "container-title": [
+      "International Journal of Imaging Systems and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/ima.70394",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/ima.70394",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/ima.70394",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T10:58:28Z",
+      "timestamp": 1785841108000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/ima.70394"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/ima.70394"
+    ],
+    "URL": "https://doi.org/10.1002/ima.70394",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0899-9457",
+      "1098-1098"
+    ],
+    "issn-type": [
+      {
+        "value": "0899-9457",
+        "type": "print"
+      },
+      {
+        "value": "1098-1098",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2026-03-09",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-06-12",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-06-25",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70394"
+  }
+}

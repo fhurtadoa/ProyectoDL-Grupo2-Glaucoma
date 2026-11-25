@@ -1,0 +1,895 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2026-11-14T04:57:32Z",
+      "timestamp": 1794632252404,
+      "version": "4.9.1"
+    },
+    "reference-count": 77,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001403",
+        "name": "Indian Institute of Technology Kanpur",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001403",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Computer Methods and Programs in Biomedicine"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cmpb.2023.107816",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2023-09-22T12:46:53Z",
+      "timestamp": 1695386813000
+    },
+    "page": "107816",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 47,
+    "special_numbering": "C",
+    "title": [
+      "Understanding calibration of deep neural networks for medical image classification"
+    ],
+    "prefix": "10.1016",
+    "volume": "242",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7605-9717",
+        "authenticated-orcid": false,
+        "given": "Abhishek Singh",
+        "family": "Sambyal",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Usma",
+        "family": "Niyaz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Narayanan C.",
+        "family": "Krishnan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Deepti R.",
+        "family": "Bathula",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0010",
+        "series-title": "IEEE International Conference on Computer Vision (ICCV)",
+        "article-title": "Big self-supervised models advance medical image classification",
+        "author": "Azizi",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0020",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Weight uncertainty in neural networks",
+        "author": "Blundell",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0030",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+        "article-title": "Verification of forecasts expressed in terms of probability",
+        "author": "Brier",
+        "year": "1950",
+        "journal-title": "Mon. Weather Rev."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0040",
+        "series-title": "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "article-title": "Intelligible models for healthcare: predicting pneumonia risk and hospital 30-day readmission",
+        "author": "Caruana",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0050",
+        "author": "Cohen"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0060",
+        "author": "Cohen"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0080",
+        "series-title": "IEEE International Conference on Computer Vision (ICCV)",
+        "article-title": "Unsupervised visual representation learning by context prediction",
+        "author": "Doersch",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0090",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Redundant representations help generalization in wide neural networks",
+        "author": "Doimo",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0100",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Decaf: a deep convolutional activation feature for generic visual recognition",
+        "author": "Donahue",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0110",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jama.2017.14585",
+        "article-title": "Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer",
+        "author": "Ehteshami Bejnordi",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0120",
+        "series-title": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "article-title": "How well do self-supervised models transfer?",
+        "author": "Ericsson",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0130",
+        "author": "EyePACS"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0140",
+        "series-title": "IEEE International Conference on Computer Vision (ICCV)",
+        "article-title": "Interpretable explanations of black boxes by meaningful perturbation",
+        "author": "Fong",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0150",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+        "article-title": "Calibration of medical imaging classification systems with weight scaling",
+        "author": "Frenkel",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0160",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Dropout as a Bayesian approximation: representing model uncertainty in deep learning",
+        "author": "Gal",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0170",
+        "series-title": "International Conference on Learning Representations (ICLR)",
+        "article-title": "Unsupervised representation learning by predicting image rotations",
+        "author": "Gidaris",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0180",
+        "series-title": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "article-title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+        "author": "Girshick",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0190",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1198/016214506000001437",
+        "article-title": "Strictly proper scoring rules, prediction, and estimation",
+        "author": "Gneiting",
+        "year": "2007",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0200",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "On calibration of modern neural networks",
+        "author": "Guo",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0210",
+        "series-title": "IEEE International Conference on Computer Vision (ICCV)",
+        "article-title": "Delving deep into rectifiers: surpassing human-level performance on imagenet classification",
+        "author": "He",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0220",
+        "series-title": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "article-title": "Deep residual learning for image recognition",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0230",
+        "series-title": "IEEE International Conference on Computer Vision (ICCV)",
+        "article-title": "Mask r-cnn",
+        "author": "He",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0240",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Using pre-training can improve model robustness and uncertainty",
+        "author": "Hendrycks",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0250",
+        "series-title": "International Conference on Learning Representations (ICLR)",
+        "article-title": "Deep anomaly detection with outlier exposure",
+        "author": "Hendrycks",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0260",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Using self-supervised learning can improve model robustness and uncertainty",
+        "author": "Hendrycks",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0270",
+        "series-title": "International Conference on Learning Representations (ICLR)",
+        "article-title": "A simple data processing method to improve robustness and uncertainty",
+        "author": "Hendrycks",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0280",
+        "article-title": "A unified view of performance metrics: translating threshold choice into expected classification loss",
+        "author": "Hernández-Orallo",
+        "year": "2012",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0290",
+        "author": "Cancer"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0300",
+        "series-title": "Information Processing in Medical Imaging (IPMI)",
+        "article-title": "A Bayesian neural net to segment images with uncertainty estimates and good calibration",
+        "author": "Rohit",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0310",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/amiajnl-2011-000291",
+        "article-title": "Calibrating predictive model estimates to support personalized medicine",
+        "author": "Jiang",
+        "year": "2012",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0320",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2019",
+        "article-title": "Assessing reliability and challenges of uncertainty estimations for medical image segmentation",
+        "author": "Jungo",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0330",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fnins.2020.00282",
+        "article-title": "Analyzing the quality and challenges of uncertainty estimations for brain tumor segmentation",
+        "volume": "14",
+        "author": "Jungo",
+        "year": "2020",
+        "journal-title": "Front. Neurosci."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0340",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41746-020-00367-3",
+        "article-title": "Second opinion needed: communicating uncertainty in medical machine learning",
+        "author": "Kompa",
+        "year": "2021",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0350",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Similarity of neural network representations revisited",
+        "author": "Kornblith",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0360",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "Krizhevsky",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0370",
+        "article-title": "Probability estimation with machine learning methods for dichotomous and multicategory outcome: theory",
+        "author": "Kruppa",
+        "year": "2014",
+        "journal-title": "Biom. J."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0380",
+        "series-title": "Machine Learning and Knowledge Discovery in Databases (ECML PKDD)",
+        "article-title": "Novel decompositions of proper scoring rules for classification: score adjustment as precursor to calibration",
+        "author": "Kull",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0390",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+        "author": "Lakshminarayanan",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0400",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1148/radiol.2019190613",
+        "article-title": "A roadmap for foundational research on artificial intelligence in medical imaging: from the 2018 nih/rsna/acr/the academy workshop",
+        "author": "Langlotz",
+        "year": "2019",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0410",
+        "author": "Larrazabal"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0420",
+        "author": "Ma"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0430",
+        "series-title": "Uncertainty in Artificial Intelligence",
+        "article-title": "A test-based approach to measuring calibration error",
+        "author": "Matsubara",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0440",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TMI.2020.3006437",
+        "article-title": "Confidence calibration and predictive uncertainty estimation for deep medical image segmentation",
+        "author": "Mehrtash",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0450",
+        "series-title": "Radiology: Artificial Intelligence",
+        "article-title": "Radimagenet: an open radiologic deep learning research dataset for effective transfer learning",
+        "author": "Mei",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0460",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Revisiting the calibration of modern neural networks",
+        "author": "Minderer",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0470",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Calibrating deep neural networks using focal loss",
+        "author": "Mukhoti",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0480",
+        "article-title": "Reliability of subjective probability forecasts of precipitation and temperature",
+        "author": "Murphy",
+        "year": "1977",
+        "journal-title": "J. R. Stat. Soc., Ser. C, Appl. Stat."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0490",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2023.102826",
+        "article-title": "Calibrating segmentation networks with margin-based label smoothing",
+        "author": "Murugesan",
+        "year": "2023",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0500",
+        "series-title": "AAAI Conference on Artificial Intelligence",
+        "article-title": "Obtaining well calibrated probabilities using Bayesian binning",
+        "author": "Naeini",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0510",
+        "author": "Navarro"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0520",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Feature selection, l1 vs. l2 regularization, and rotational invariance",
+        "author": "Ng",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0530",
+        "series-title": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "article-title": "Posterior calibration and exploratory analysis for natural language processing models",
+        "author": "Nguyen",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0540",
+        "series-title": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+        "article-title": "Measuring calibration in deep learning",
+        "author": "Nixon",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0550",
+        "series-title": "British Machine Vision Conference (BMVC)",
+        "article-title": "Rise: randomized input sampling for explanation of black-box models",
+        "author": "Petsiuk",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0560",
+        "series-title": "Advances in Large Margin Classifiers",
+        "article-title": "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods",
+        "author": "Platt",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0570",
+        "series-title": "Machine Learning Challenges. Evaluating Predictive Uncertainty, Visual Object Classification, and Recognising Tectual Entailment",
+        "article-title": "Evaluating predictive uncertainty challenge",
+        "author": "Quiñonero-Candela",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0580",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "Understanding transfer learning for medical imaging",
+        "author": "Raghu",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0590",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "first-page": "20063",
+        "article-title": "Uncertainty quantification and deep ensembles",
+        "author": "Rahaman",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0600",
+        "series-title": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
+        "article-title": "Calibrate to interpret",
+        "author": "Scafarto",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0610",
+        "series-title": "International Conference on Machine Learning (ICML)",
+        "article-title": "Learning important features through propagating activation differences",
+        "author": "Shrikumar",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0620",
+        "series-title": "Workshop on Uncertainty and Robustness in Deep Learning (UDL)",
+        "article-title": "On the dark side of calibration for modern neural networks",
+        "author": "Singh",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0630",
+        "series-title": "IEEE 19th International Symposium on Biomedical Imaging (ISBI)",
+        "article-title": "Towards reducing aleatoric uncertainty for medical imaging tasks",
+        "author": "Singh Sambyal",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0640",
+        "article-title": "Dropout: a simple way to prevent neural networks from overfitting",
+        "author": "Srivastava",
+        "year": "2014",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0650",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+        "article-title": "Domino: domain-aware model calibration in medical image segmentation",
+        "author": "Stolte",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0660",
+        "series-title": "Machine Learning with Applications",
+        "article-title": "A study of the generalizability of self-supervised representations",
+        "author": "Tendle",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0670",
+        "series-title": "Neural Information Processing Systems (NeurIPS)",
+        "article-title": "On mixup training: improved calibration and predictive uncertainty for deep neural networks",
+        "author": "Thulasidasan",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0680",
+        "series-title": "AAAI Conference on Artificial Intelligence",
+        "article-title": "Towards trustworthy predictions from deep neural networks with fast adversarial calibration",
+        "author": "Tomani",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0690",
+        "series-title": "Medical Imaging 2019: Image Processing",
+        "article-title": "Interpretable explanations of black box classifiers applied on medical images by meaningful perturbations using variational autoencoders",
+        "author": "Uzunova",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0700",
+        "series-title": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+        "article-title": "Evaluating model calibration in classification",
+        "author": "Vaicenavicius",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0710",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2022.102470",
+        "article-title": "Explainable artificial intelligence (xai) in deep learning-based medical image analysis",
+        "author": "van der Velden",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0720",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+        "article-title": "Rotation equivariant cnns for digital pathology",
+        "author": "Veeling",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0730",
+        "series-title": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "article-title": "On calibrating semantic segmentation models: analyses and an algorithm",
+        "author": "Wang",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0740",
+        "article-title": "Aleatoric uncertainty estimation with test-time augmentation for medical image segmentation with convolutional neural networks",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0750",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jvcir.2021.103145",
+        "article-title": "Rethinking pre-training on medical imaging",
+        "author": "Wen",
+        "year": "2021",
+        "journal-title": "J. Vis. Commun. Image Represent."
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0760",
+        "series-title": "British Machine Vision Conference (BMVC)",
+        "article-title": "Wide residual networks",
+        "author": "Zagoruyko",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0770",
+        "series-title": "International Conference on Learning Representations (ICLR)",
+        "article-title": "mixup: beyond empirical risk minimization",
+        "author": "Zhang",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cmpb.2023.107816_br0780",
+        "series-title": "International Conference on Learning Representations (ICLR)",
+        "article-title": "Visualizing deep neural network decisions: prediction difference analysis",
+        "author": "Zintgraf",
+        "year": "2017"
+      }
+    ],
+    "container-title": [
+      "Computer Methods and Programs in Biomedicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0169260723004820?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0169260723004820?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2025-09-30T04:23:43Z",
+      "timestamp": 1759206223000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169260723004820"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "references-count": 77,
+    "alternative-id": [
+      "S0169260723004820"
+    ],
+    "URL": "https://doi.org/10.1016/j.cmpb.2023.107816",
+    "relation": {},
+    "ISSN": [
+      "0169-2607"
+    ],
+    "issn-type": [
+      {
+        "value": "0169-2607",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Understanding calibration of deep neural networks for medical image classification",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Computer Methods and Programs in Biomedicine",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.cmpb.2023.107816",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "107816"
+  }
+}

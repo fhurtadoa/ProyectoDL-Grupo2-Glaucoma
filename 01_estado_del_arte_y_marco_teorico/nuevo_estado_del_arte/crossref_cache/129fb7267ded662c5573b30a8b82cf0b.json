@@ -1,0 +1,1055 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2026-02-02T18:00:53Z",
+      "timestamp": 1770055253575,
+      "version": "3.49.0"
+    },
+    "reference-count": 67,
+    "publisher": "Bentham Science Publishers Ltd.",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2025-05-05T00:00:00Z",
+          "timestamp": 1746403200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Special Foundation for Beijing Tianjin Hebei Basic Research Cooperation",
+        "award": [
+          "J210008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "J210008"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Special Foundation for Beijing Tianjin Hebei Basic Research Cooperation",
+        "award": [
+          "21JCZXJC00170"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "21JCZXJC00170"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Special Foundation for Beijing Tianjin Hebei Basic Research Cooperation",
+        "award": [
+          "H2021202008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "H2021202008"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tianjin Key Medical Discipline (Specialty) Construction Project, China",
+        "award": [
+          "TJYXZDXK-032A"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TJYXZDXK-032A"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "eurekaselect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "CMIR"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Objective:</jats:title>\n                    <jats:p>Glaucoma is a leading cause of irreversible visual impairment and blindness worldwide, primarily linked to increased intraocular pressure (IOP).\nEarly detection is essential to prevent further visual impairment, yet the manual diagnosis of retinal fundus images (RFIs) is both time-consuming\nand inefficient. Although automated methods for glaucoma detection (GD) exist, they often rely on individual models with manually optimized\nhyperparameters. This study aims to address these limitations by proposing an ensemble-based approach that integrates multiple deep learning\n(DL) models with automated hyperparameter optimization, with the goal of improving diagnostic accuracy and enhancing model generalization for\npractical clinical applications.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Materials and Methods:</jats:title>\n                    <jats:p>The RFIs used in this study were sourced from two publicly available datasets (ACRIMA and ORIGA), consisting of a total of 1,355 images for\nGD. Our method combines a custom Multi-branch convolutional neural network (CNN), pretrained MobileNet, and DenseNet201 to extract\ncomplementary features from RFIs. Moreover, to optimize model performance, we apply Bayesian Optimization (BO) for automated\nhyperparameter tuning, eliminating the need for manual adjustments. The predictions from these models are then combined using a Dirichlet-based\nWeighted Average Ensemble (Dirichlet-WAE), which adaptively adjusts the weight of each model based on its performance.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>The proposed ensemble model demonstrated state-of-the-art performance, achieving an accuracy (ACC) of 95.09%, precision (PREC) of 95.51%,\nsensitivity (SEN) of 94.55%, an F1-score (F1) of 94.94%, and an area under the curve (AUC) of 0.9854. The innovative Dirichlet-based WAE\nsubstantially reduced the false positive rate, enhancing diagnostic reliability for GD. When compared to individual models, the ensemble method\nconsistently outperformed across all evaluation metrics, underscoring its robustness and potential scalability for clinical applications.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion:</jats:title>\n                    <jats:p>The integration of ensemble learning (EL) and advanced optimization techniques significantly improved the ACC of GD in RFIs. The enhanced\nWAE method proved to be a critical factor in achieving well-balanced and highly accurate diagnostic performance, underscoring the importance of\nEL in medical diagnosis.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.2174/0115734056335762250128095107",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2025-02-28T02:57:07Z",
+      "timestamp": 1740711427000
+    },
+    "update-policy": "https://doi.org/10.2174/bsp_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Robust Approach to Early Glaucoma Identification from Retinal Fundus Images using Dirichlet-based Weighted Average Ensemble and Bayesian Optimization"
+    ],
+    "prefix": "10.2174",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Mohamed",
+        "family": "Mouhafid",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Electronics and Information Engineering, Hebei University of Technology, Tianjin 300401, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yatong",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronics and Information Engineering, Hebei University of Technology, Tianjin 300401, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Chunyan",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NHC Key Laboratory of Hormones and Development, Tianjin Key Laboratory of Metabolic Diseases, Chu Hsien-I Memorial Hospital & Tianjin Institute of Endocrinology, Tianjin Medical University, Tianjin 300134, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhitao",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Life Sciences, Tiangong University, Tianjin 300387, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "965",
+    "reference": [
+      {
+        "key": "ref=1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e339",
+        "DOI": "10.1016/S2214-109X(13)70113-X",
+        "volume": "1",
+        "author": "Bourne R.R.A.",
+        "year": "2013",
+        "unstructured": "Bourne R.R.A.; Stevens G.A.; White R.A.; Smith J.L.; Flaxman S.R.; Price H.; Jonas J.B.; Keeffe J.; Leasher J.; Naidoo K.; Pesudovs K.; Resnikoff S.; Taylor H.R.; Causes of vision loss worldwide, 1990–2010: A systematic analysis. Lancet Glob Health Vision Loss Expert Group 2013,1(6),e339-e349",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "ref=2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3313831.3376718",
+        "author": "Beede E.",
+        "year": "2020",
+        "unstructured": "Beede E.; Baylor E.; Hersch F.; A human-centered evaluation of a deep learning system deployed in clinics for the detection of diabetic retinopathy. Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems  2020,1-12",
+        "journal-title": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems"
+      },
+      {
+        "key": "ref=3",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "volume": "2",
+        "author": "Poplin R.",
+        "year": "2018",
+        "unstructured": "Poplin R.; Varadarajan A.V.; Blumer K.; Liu Y.; McConnell M.V.; Corrado G.S.; Peng L.; Webster D.R.; Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning. Nat Biomed Eng  2018,2(3),158-164",
+        "journal-title": "Nat Biomed Eng"
+      },
+      {
+        "key": "ref=4",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "volume": "147",
+        "author": "Jampel H.D.",
+        "year": "2009",
+        "unstructured": "Jampel H.D.; Friedman D.; Quigley H.; Vitale S.; Miller R.; Knezevich F.; Ding Y.; Agreement among glaucoma specialists in assessing progressive disc changes from photographs in open-angle glaucoma patients. Am J Ophthalmol  2009,147(1),39-44.e1",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref=5",
+        "doi-asserted-by": "publisher",
+        "first-page": "869",
+        "DOI": "10.1007/s10278-018-0084-9",
+        "volume": "31",
+        "author": "Saha S.K.",
+        "year": "2018",
+        "unstructured": "Saha S.K.; Fernando B.; Cuadros J.; Xiao D.; Kanagasingam Y.; Automated quality assessment of colour fundus images for diabetic retinopathy screening in telemedicine. J Digit Imaging  2018,31(6),869-878",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref=6",
+        "doi-asserted-by": "publisher",
+        "first-page": "105596",
+        "DOI": "10.1016/j.knosys.2020.105596",
+        "volume": "194",
+        "author": "Sengupta S.",
+        "year": "2020",
+        "unstructured": "Sengupta S.; Basak S.; Saikia P.; Paul S.; Tsalavoutis V.; Atiah F.; Ravi V.; Peters A.; A review of deep learning with special emphasis on architectures, applications and recent trends. Knowl Base Syst  2020,194,105596",
+        "journal-title": "Knowl Base Syst"
+      },
+      {
+        "key": "ref=7",
+        "doi-asserted-by": "publisher",
+        "first-page": "611",
+        "DOI": "10.1007/s13244-018-0639-9",
+        "volume": "9",
+        "author": "Yamashita R.",
+        "year": "2018",
+        "unstructured": "Yamashita R.; Nishio M.; Do R.K.G.; Togashi K.; Convolutional neural networks: an overview and application in radiology. Insights Imaging  2018,9(4),611-629",
+        "journal-title": "Insights Imaging"
+      },
+      {
+        "key": "ref=8",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "volume": "115",
+        "author": "Russakovsky O.",
+        "year": "2015",
+        "unstructured": "Russakovsky O.; Deng J.; Su H.; Krause J.; Satheesh S.; Ma S.; Huang Z.; Karpathy A.; Khosla A.; Bernstein M.; Berg A.C.; Fei-Fei L.; ImageNet large scale visual recognition challenge. Int J Comput Vis  2015,115(3),211-252",
+        "journal-title": "Int J Comput Vis"
+      },
+      {
+        "key": "ref=9",
+        "doi-asserted-by": "publisher",
+        "first-page": "397",
+        "DOI": "10.1007/978-981-19-6634-7_28",
+        "volume": "2",
+        "author": "Islam Md. M.",
+        "year": "2022",
+        "unstructured": "Islam Md. M.; Hannan T.; Sarker L.; Ahmed Z.; COVID-denseNet: A deep learning architecture to detect COVID-19 from chest radiology images. Proceedings of International Conference on Data Science and Applications, ICDSA  2022,2,397-415",
+        "journal-title": "Proceedings of International Conference on Data Science and Applications, ICDSA"
+      },
+      {
+        "key": "ref=10",
+        "doi-asserted-by": "publisher",
+        "first-page": "295",
+        "DOI": "10.1016/j.neucom.2020.07.061",
+        "volume": "415",
+        "author": "Yang L.",
+        "year": "2020",
+        "unstructured": "Yang L.; Shami A.; On hyperparameter optimization of machine learning algorithms: Theory and practice. Neurocomputing  2020,415,295-316",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref=11",
+        "doi-asserted-by": "publisher",
+        "first-page": "200100",
+        "DOI": "10.1016/j.iswa.2022.200100",
+        "volume": "15",
+        "author": "Farhangi F.",
+        "year": "2022",
+        "unstructured": "Farhangi F.; Investigating the role of data preprocessing, hyperparameters tuning, and type of machine learning algorithm in the improvement of drowsy EEG signal modeling. Intelligent Systems with Applications  2022,15,200100",
+        "journal-title": "Intelligent Systems with Applications"
+      },
+      {
+        "key": "ref=12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3582078",
+        "volume": "55",
+        "author": "Wang X.",
+        "year": "2023",
+        "unstructured": "Wang X.; Jin Y.; Schmitt S.; Olhofer M.; Recent advances in bayesian optimization. ACM Comput Surv  2023,55(13s),1-36",
+        "journal-title": "ACM Comput Surv"
+      },
+      {
+        "key": "ref=13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1335740",
+        "DOI": "10.3389/fonc.2024.1335740",
+        "volume": "14",
+        "author": "Ullah M.S.",
+        "year": "2024",
+        "unstructured": "Ullah M.S.; Khan M.A.; Masood A.; Mzoughi O.; Saidani O.; Alturki N.; Brain tumor classification from MRI scans: A framework of hybrid deep learning model with Bayesian optimization and quantum theory-based marine predator algorithm. Front Oncol  2024,14,1335740",
+        "journal-title": "Front Oncol"
+      },
+      {
+        "key": "ref=14",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1249",
+        "DOI": "10.1002/widm.1249",
+        "volume": "8",
+        "author": "Sagi O.",
+        "year": "2018",
+        "unstructured": "Sagi O.; Rokach L.; Ensemble learning: A survey. Wiley Interdiscip Rev Data Min Knowl Discov  2018,8(4),e1249",
+        "journal-title": "Wiley Interdiscip Rev Data Min Knowl Discov"
+      },
+      {
+        "key": "ref=15",
+        "doi-asserted-by": "publisher",
+        "first-page": "244",
+        "DOI": "10.1142/7238",
+        "author": "Rokach L.",
+        "year": "2009",
+        "unstructured": "Rokach L.; Pattern classification using ensemble methods. Series in Machine Perception and Artificial Intelligence: Volume 75  2009,244",
+        "journal-title": "Series in Machine Perception and Artificial Intelligence: Volume 75"
+      },
+      {
+        "key": "ref=16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b12207",
+        "author": "Zhou Z-H.",
+        "year": "2012",
+        "unstructured": "Zhou Z-H.;  Ensemble methods: Foundations and algorithms  2012",
+        "journal-title": "Ensemble methods: Foundations and algorithms"
+      },
+      {
+        "key": "ref=17",
+        "doi-asserted-by": "publisher",
+        "first-page": "2401",
+        "DOI": "10.1049/iet-ipr.2019.0036",
+        "volume": "13",
+        "author": "Agrawal D.K.",
+        "year": "2019",
+        "unstructured": "Agrawal D.K.; Kirar B.S.; Pachori R.B.; Automated glaucoma detection using quasi-bivariate variational mode decomposition from fundus images. IET Image Process  2019,13(13),2401-2408",
+        "journal-title": "IET Image Process"
+      },
+      {
+        "key": "ref=18",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1049/iet-ipr.2018.5297",
+        "volume": "13",
+        "author": "Kirar B.S.",
+        "year": "2019",
+        "unstructured": "Kirar B.S.; Agrawal D.K.; Computer aided diagnosis of glaucoma using discrete and empirical wavelet transform from fundus images. IET Image Process  2019,13(1),73-82",
+        "journal-title": "IET Image Process"
+      },
+      {
+        "key": "ref=19",
+        "doi-asserted-by": "publisher",
+        "first-page": "142",
+        "DOI": "10.1016/j.compbiomed.2017.06.017",
+        "volume": "88",
+        "author": "Maheshwari S.",
+        "year": "2017",
+        "unstructured": "Maheshwari S.; Pachori R.B.; Kanhangad V.; Bhandary S.V.; Acharya U.R.; Iterative variational mode decomposition based automated detection of glaucoma using fundus images. Comput Biol Med  2017,88,142-149",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "ref=20",
+        "first-page": "1",
+        "volume": "19",
+        "author": "Bajwa M.N.",
+        "year": "2019",
+        "unstructured": "Bajwa M.N.; Bajwa M.N.; Malik M.I.; Two-stage framework for optic disc localization and glaucoma classification in retinal fundus images using deep learning. BMC Med Inform Decis Mak  2019,19(1),1-16",
+        "journal-title": "BMC Med Inform Decis Mak"
+      },
+      {
+        "key": "ref=21",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1007/s13534-023-00307-6",
+        "volume": "14",
+        "author": "D’Souza G.",
+        "year": "2024",
+        "unstructured": "D’Souza G.; Siddalingaswamy P.C.; Pandya M.A.; AlterNet-K: a small and compact model for the detection of glaucoma. Biomed Eng Lett  2024,14(1),23-33",
+        "journal-title": "Biomed Eng Lett"
+      },
+      {
+        "key": "ref=22",
+        "doi-asserted-by": "publisher",
+        "first-page": "108009",
+        "DOI": "10.1016/j.compeleceng.2022.108009",
+        "volume": "101",
+        "author": "Juneja M.",
+        "year": "2022",
+        "unstructured": "Juneja M.; Thakur S.; Uniyal A.; Wani A.; Thakur N.; Jindal P.; Deep learning-based classification network for glaucoma in retinal images. Comput Electr Eng  2022,101,108009",
+        "journal-title": "Comput Electr Eng"
+      },
+      {
+        "key": "ref=23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1405",
+        "DOI": "10.1109/JBHI.2019.2949075",
+        "volume": "24",
+        "author": "Liao W.",
+        "year": "2020",
+        "unstructured": "Liao W.; Zou B.; Zhao R.; Chen Y.; He Z.; Zhou M.; Clinical interpretable deep learning model for glaucoma diagnosis. IEEE J Biomed Health Inform  2020,24(5),1405-1412",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "ref=24",
+        "doi-asserted-by": "publisher",
+        "first-page": "111636",
+        "DOI": "10.1109/ACCESS.2022.3215126",
+        "volume": "10",
+        "author": "Leonardo R.",
+        "year": "2022",
+        "unstructured": "Leonardo R.; Gonçalves J.; Carreiro A.; Simões B.; Oliveira T.; Soares F.; Impact of generative modeling for fundus image augmentation with improved and degraded quality in the classification of glaucoma. IEEE Access  2022,10,111636-111649",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref=25",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0275446",
+        "DOI": "10.1371/journal.pone.0275446",
+        "volume": "17",
+        "author": "Almansour A.",
+        "year": "2022",
+        "unstructured": "Almansour A.; Alawad M.; Aljouie A.; Almatar H.; Qureshi W.; Alabdulkader B.; Alkanhal N.; Abdul W.; Almufarrej M.; Gangadharan S.; Aldebasi T.; Alsomaie B.; Almazroa A.; Peripapillary atrophy classification using CNN deep learning for glaucoma screening. PLoS One  2022,17(10),e0275446",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "ref=26",
+        "doi-asserted-by": "publisher",
+        "first-page": "105341",
+        "DOI": "10.1016/j.cmpb.2020.105341",
+        "volume": "192",
+        "author": "Martins J.",
+        "year": "2020",
+        "unstructured": "Martins J.; Cardoso J.S.; Soares F.; Offline computer-aided diagnosis for Glaucoma detection using fundus images targeted at mobile devices. Comput Methods Programs Biomed  2020,192,105341",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "ref=27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1516",
+        "DOI": "10.1080/02713683.2021.1900268",
+        "volume": "46",
+        "author": "Cho H.",
+        "year": "2021",
+        "unstructured": "Cho H.; Hwang Y.H.; Chung J.K.; Lee K.B.; Park J.S.; Kim H.G.; Jeong J.H.; Deep learning ensemble method for classifying glaucoma stages using fundus photographs and convolutional neural networks. Curr Eye Res  2021,46(10),1516-1524",
+        "journal-title": "Curr Eye Res"
+      },
+      {
+        "key": "ref=28",
+        "doi-asserted-by": "publisher",
+        "first-page": "797",
+        "DOI": "10.1049/ipr2.12063",
+        "volume": "15",
+        "author": "Serte S.",
+        "year": "2021",
+        "unstructured": "Serte S.; Serener A.; Graph-based saliency and ensembles of convolutional neural networks for glaucoma detection. IET Image Process  2021,15(3),797-804",
+        "journal-title": "IET Image Process"
+      },
+      {
+        "key": "ref=29",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1186/s12938-019-0649-y",
+        "volume": "18",
+        "author": "Diaz-Pinto A.",
+        "year": "2019",
+        "unstructured": "Diaz-Pinto A.; Morales S.; Naranjo V.; Köhler T.; Mossi J.M.; Navea A.; CNNs for automatic glaucoma assessment using fundus images: An extensive validation. Biomed Eng Online  2019,18(1),29",
+        "journal-title": "Biomed Eng Online"
+      },
+      {
+        "key": "ref=30",
+        "doi-asserted-by": "publisher",
+        "first-page": "3065",
+        "DOI": "10.1109/IEMBS.2010.5626137",
+        "volume": "2010",
+        "author": "Zhang Z.",
+        "year": "2010",
+        "unstructured": "Zhang Z.; Feng S.Y.; Liu J.; ORIGA(-light): An online retinal fundus image database for glaucoma analysis and research. Annu Int Conf IEEE Eng Med Biol Soc  2010,2010,3065-8",
+        "journal-title": "Annu Int Conf IEEE Eng Med Biol Soc"
+      },
+      {
+        "key": "ref=31",
+        "doi-asserted-by": "publisher",
+        "first-page": "10160",
+        "DOI": "10.1117/12.2255740",
+        "author": "Orlando J.I.",
+        "year": "2017",
+        "unstructured": "Orlando J.I.; Prokofyeva E.; Del Fresno M.; Blaschko M.B.; Convolutional neural network transfer for automated glaucoma identification. Proceedings of SPIE - The International Society for Optical Engineering  2017,10160-10",
+        "journal-title": "Proceedings of SPIE - The International Society for Optical Engineering"
+      },
+      {
+        "key": "ref=32",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.1145/3065386",
+        "volume": "60",
+        "author": "Krizhevsky A.",
+        "year": "2017",
+        "unstructured": "Krizhevsky A.; Sutskever I.; Hinton G.E.; ImageNet classification with deep convolutional neural networks. Commun ACM  2017,60(6),84-90",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "key": "ref=33",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.1007/978-3-642-15825-4_10",
+        "volume": "6354",
+        "author": "Hutchison D.",
+        "year": "2010",
+        "unstructured": "Hutchison D.; Kanade T.; Kittler J.; Evaluation of Pooling Operations in Convolutional Architectures for Object Recognition. Artificial Neural Networks – ICANN 2010  2010,6354,92-101",
+        "journal-title": "Artificial Neural Networks – ICANN 2010"
+      },
+      {
+        "key": "ref=34",
+        "doi-asserted-by": "publisher",
+        "first-page": "3167",
+        "DOI": "10.48550/arXiv.1502.03167",
+        "volume": "3",
+        "author": "Ioffe S.",
+        "year": "2015",
+        "unstructured": "Ioffe S.; Szegedy C.; Batch normalization: Accelerating deep network training by reducing internal covariate shift. Mach Learn  2015,3,3167",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=35",
+        "doi-asserted-by": "publisher",
+        "first-page": "4861",
+        "DOI": "10.48550/arXiv.1704.0",
+        "volume": "1",
+        "author": "Howard AG",
+        "year": "2017",
+        "unstructured": "Howard AG; Zhu M; Chen B; MobileNets: Efficient convolutional neural networks for mobile vision applications. Comput Vision Pattern Recognit  2017,1,4861",
+        "journal-title": "Comput Vision Pattern Recognit"
+      },
+      {
+        "key": "ref=36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1792",
+        "DOI": "10.48550/arXiv.1411.1792",
+        "volume": "1",
+        "author": "Yosinski J.",
+        "year": "2014",
+        "unstructured": "Yosinski J.; Clune J.; Bengio Y.; Lipson H.; How transferable are features in deep neural networks? Mach Learn  2014,1,1792",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=37",
+        "doi-asserted-by": "crossref",
+        "first-page": "2261",
+        "DOI": "10.1109/CVPR.2017.243",
+        "author": "Huang G.",
+        "year": "2017",
+        "unstructured": "Huang G.; Liu Z.; Van Der Maaten L.; Weinberger K.Q.; Densely connected convolutional networks. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)  2017,2261-2269",
+        "journal-title": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      {
+        "key": "ref=38",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/BF00120661",
+        "volume": "1",
+        "author": "Betrò B.",
+        "year": "1991",
+        "unstructured": "Betrò B.; Bayesian methods in global optimization. J Glob Optim  1991,1(1),1-14",
+        "journal-title": "J Glob Optim"
+      },
+      {
+        "key": "ref=39",
+        "doi-asserted-by": "publisher",
+        "first-page": "455",
+        "DOI": "10.1023/A:1008306431147",
+        "volume": "13",
+        "author": "Jones D.R.",
+        "year": "1998",
+        "unstructured": "Jones D.R.; Schonlau M.; Welch W.J.; Efficient global optimization of expensive black-box functions. J Glob Optim  1998,13(4),455-492",
+        "journal-title": "J Glob Optim"
+      },
+      {
+        "key": "ref=40",
+        "doi-asserted-by": "publisher",
+        "first-page": "806",
+        "DOI": "10.3390/math12060806",
+        "volume": "12",
+        "author": "Katona T.",
+        "year": "2024",
+        "unstructured": "Katona T.; Tóth G.; Petró M.; Harangi B.; Developing new fully connected layers for convolutional neural networks with hyperparameter optimization for improved multi-label image classification. Mathematics  2024,12(6),806",
+        "journal-title": "Mathematics"
+      },
+      {
+        "key": "ref=41",
+        "first-page": "1929",
+        "volume": "15",
+        "author": "Srivastava N.",
+        "year": "2014",
+        "unstructured": "Srivastava N.; Hinton G.; Krizhevsky A.; Sutskever I.; Salakhutdinov R.; Dropout: A simple way to prevent neural networks from overfitting. J Mach Learn Res  2014,15(1),1929-1958",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref=42",
+        "doi-asserted-by": "publisher",
+        "first-page": "577",
+        "DOI": "10.1109/TAC.2016.2578645",
+        "volume": "62",
+        "author": "Li S.",
+        "year": "2017",
+        "unstructured": "Li S.; Zhou M.; Luo X.; You Z.H.; Distributed winner-take-all in dynamic networks. IEEE Trans Automat Contr  2017,62(2),577-589",
+        "journal-title": "IEEE Trans Automat Contr"
+      },
+      {
+        "key": "ref=43",
+        "doi-asserted-by": "publisher",
+        "first-page": "919",
+        "DOI": "10.1002/asjc.1586",
+        "volume": "20",
+        "author": "Li S.",
+        "year": "2018",
+        "unstructured": "Li S.; Guo Y.; Discrete-time consensus filters for average tracking of time-varying inputs on directed switching graphs. Asian J Control  2018,20(2),919-934",
+        "journal-title": "Asian J Control"
+      },
+      {
+        "key": "ref=44",
+        "doi-asserted-by": "publisher",
+        "first-page": "4400",
+        "DOI": "10.48550/arXiv.1312.4400",
+        "volume": "3",
+        "author": "Lin M.",
+        "year": "2013",
+        "unstructured": "Lin M.; Chen Q.; Yan S.; Network in network. Neural Evol Comput  2013,3,4400",
+        "journal-title": "Neural Evol Comput"
+      },
+      {
+        "key": "ref=45",
+        "first-page": "315",
+        "volume": "15",
+        "author": "Glorot X.",
+        "year": "2011",
+        "unstructured": "Glorot X.; Bordes A.; Bengio Y.; Deep sparse rectifier neural networks. Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics, PMLR  2011,15,315-323",
+        "journal-title": "Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics, PMLR"
+      },
+      {
+        "key": "ref=46",
+        "doi-asserted-by": "publisher",
+        "first-page": "7289",
+        "DOI": "10.48550/arXiv.1511.07289",
+        "volume": "5",
+        "author": "Clevert D.A.",
+        "year": "2015",
+        "unstructured": "Clevert D.A.; Unterthiner T.; Hochreiter S; Fast and accurate deep network learning by exponential linear units (ELUs) Mach Learn  2015,5,7289",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=47",
+        "first-page": "9",
+        "author": "LeCun Y.",
+        "year": "2002",
+        "unstructured": "LeCun Y.; Bottou L.; Orr G.B.; Müller K.R.; Efficient backprop. Neural networks: Tricks of the trade  2002,9-50",
+        "journal-title": "Neural networks: Tricks of the trade"
+      },
+      {
+        "key": "ref=48",
+        "doi-asserted-by": "publisher",
+        "first-page": "5941",
+        "DOI": "10.48550/arXiv.1710.05941",
+        "volume": "2",
+        "author": "Ramachandran P.",
+        "year": "2017",
+        "unstructured": "Ramachandran P.; Zoph B.; Le Q.V; Searching for activation functions Neural Evol Comput  2017,2,5941",
+        "journal-title": "Neural Evol Comput"
+      },
+      {
+        "key": "ref=49",
+        "first-page": "487",
+        "volume": "13",
+        "author": "Dugas C.",
+        "year": "2000",
+        "unstructured": "Dugas C.; Bengio Y.; Bélisle F.; Nadeau C.; Garcia R.; Incorporating second-order functional knowledge for better option pricing. Adv Neural Inf Process Syst  2000,13,487-493",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref=50",
+        "first-page": "8214",
+        "volume": "35",
+        "author": "Chandra K.",
+        "year": "2022",
+        "unstructured": "Chandra K.; Xie A.; Ragan-Kelley J.; Meijer E.; Gradient descent: the ultimate optimizer. Adv Neural Inf Process Syst  2022,35,8214-8225",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref=51",
+        "first-page": "3981",
+        "volume": "29",
+        "author": "Andrychowicz M.",
+        "year": "2016",
+        "unstructured": "Andrychowicz M.; Denil M.; Gomez S.; Hoffman M.W.; Pfau D.; Schaul T.; Learning to learn by gradient descent by gradient descent. Adv Neural Inf Process Syst  2016,29,3981-3989",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref=52",
+        "doi-asserted-by": "publisher",
+        "first-page": "3614",
+        "DOI": "10.48550/arXiv.1903.03614",
+        "volume": "1",
+        "author": "Zhang J",
+        "year": "2019",
+        "unstructured": "Zhang J; Gradient descent-based optimization algorithms for deep learning models training Mach Learn  2019,1,3614",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=53",
+        "doi-asserted-by": "publisher",
+        "first-page": "249",
+        "DOI": "10.1007/s40305-020-00309-6",
+        "volume": "8",
+        "author": "Sun R.Y.",
+        "year": "2020",
+        "unstructured": "Sun R.Y.; Optimization for deep learning: an overview. J Oper Res Soc China  2020,8(2),249-294",
+        "journal-title": "J Oper Res Soc China"
+      },
+      {
+        "key": "ref=54",
+        "first-page": "1",
+        "author": "Dozat T.",
+        "year": "2016",
+        "unstructured": "Dozat T.; Incorporating Nesterov momentum into Adam. Proceedings of the 4th International Conference on Learning Representations, Workshop Track  2016,1-4",
+        "journal-title": "Proceedings of the 4th International Conference on Learning Representations, Workshop Track"
+      },
+      {
+        "key": "ref=55",
+        "doi-asserted-by": "publisher",
+        "first-page": "5507",
+        "DOI": "10.48550/arXiv.1706.05507",
+        "volume": "2",
+        "author": "Mukkamala M.C.",
+        "year": "2017",
+        "unstructured": "Mukkamala M.C.; Hein M.; Variants of RMSProp and Adagrad with logarithmic regret bounds. Mach Learn  2017,2,5507",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=56",
+        "doi-asserted-by": "publisher",
+        "first-page": "6980",
+        "DOI": "10.48550/arXiv.1412.6980",
+        "volume": "9",
+        "author": "Kingma D.P.",
+        "year": "2014",
+        "unstructured": "Kingma D.P.; Ba J; Adam: A method for stochastic optimization. Mach Learn  2014,9,6980",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=57",
+        "doi-asserted-by": "publisher",
+        "first-page": "349",
+        "DOI": "10.1007/978-3-030-45183-7_27",
+        "volume": "1207",
+        "author": "Mustapha A.",
+        "year": "2020",
+        "unstructured": "Mustapha A.; Mohamed L.; Ali K.; An overview of gradient descent algorithm optimization in machine learning: Application in the ophthalmology field. Commun Comput Inf Sci  2020,1207,349-359",
+        "journal-title": "Commun Comput Inf Sci"
+      },
+      {
+        "key": "ref=58",
+        "doi-asserted-by": "publisher",
+        "first-page": "4747",
+        "DOI": "10.48550/arXiv.1609.04747",
+        "volume": "7",
+        "author": "Ruder S",
+        "year": "2016",
+        "unstructured": "Ruder S; An overview of gradient descent optimization algorithms. Mach Learn  2016,7,4747",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=59",
+        "first-page": "1",
+        "author": "Dietterich T.G.",
+        "year": "2000",
+        "unstructured": "Dietterich T.G.; Ensemble methods in machine learning. International workshop on multiple classifier systems  2000,1-15",
+        "journal-title": "International workshop on multiple classifier systems"
+      },
+      {
+        "key": "ref=60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781119995784",
+        "author": "Ng K.W.",
+        "year": "2011",
+        "unstructured": "Ng K.W.; Tian G.; Tang M.;  Dirichlet and related distributions  2011",
+        "journal-title": "Dirichlet and related distributions"
+      },
+      {
+        "key": "ref=61",
+        "doi-asserted-by": "publisher",
+        "first-page": "5756",
+        "DOI": "10.48550/arXiv.2008.05756",
+        "volume": "1",
+        "author": "Grandini M.",
+        "year": "2020",
+        "unstructured": "Grandini M.; Bagli E.; Visani G; Metrics for multi-class classification: An overview Mach Learn  2020,1,5756",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=62",
+        "doi-asserted-by": "publisher",
+        "first-page": "427",
+        "DOI": "10.1016/j.ipm.2009.03.002",
+        "volume": "45",
+        "author": "Sokolova M.",
+        "year": "2009",
+        "unstructured": "Sokolova M.; Lapalme G.; A systematic analysis of performance measures for classification tasks. Inf Process Manage  2009,45(4),427-437",
+        "journal-title": "Inf Process Manage"
+      },
+      {
+        "key": "ref=63",
+        "doi-asserted-by": "publisher",
+        "first-page": "6061",
+        "DOI": "10.48550/arXiv.2010.16061",
+        "volume": "1",
+        "author": "Powers D.M",
+        "year": "2020",
+        "unstructured": "Powers D.M; Evaluation: From precision, recall and F-measure to ROC, informedness, markedness and correlation. Mach Learn  2020,1,6061",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref=64",
+        "doi-asserted-by": "publisher",
+        "first-page": "218",
+        "DOI": "10.21037/atm.2016.03.37",
+        "volume": "4",
+        "author": "Zhang Z.",
+        "year": "2016",
+        "unstructured": "Zhang Z.; Introduction to machine learning: K-nearest neighbors. Ann Transl Med  2016,4(11),218",
+        "journal-title": "Ann Transl Med"
+      },
+      {
+        "key": "ref=65",
+        "doi-asserted-by": "publisher",
+        "first-page": "59",
+        "DOI": "10.1007/978-1-4842-4470-8_7",
+        "author": "Bisong E.",
+        "year": "2019",
+        "unstructured": "Bisong E.;  Building machine learning and deep learning models on Google cloud platform  2019,59-64",
+        "journal-title": "Building machine learning and deep learning models on Google cloud platform"
+      },
+      {
+        "key": "ref=66",
+        "doi-asserted-by": "publisher",
+        "first-page": "8695",
+        "DOI": "10.48550/arXiv.1605.08695",
+        "volume": "2",
+        "author": "Abadi M.",
+        "year": "2016",
+        "unstructured": "Abadi M.; Barham P.; Chen J.; Chen Z.; Davis A.; Dean J.; TensorFlow: A system for large-scale machine learning. Distrib Parallel Cluster Comput  2016,2,8695",
+        "journal-title": "Distrib Parallel Cluster Comput"
+      },
+      {
+        "key": "ref=67",
+        "author": "Chollet F.",
+        "year": "2015",
+        "unstructured": "Chollet F.; Keras.  Avaailable from:  https://github.com/fchollet/keras2015"
+      }
+    ],
+    "container-title": [
+      "Current Medical Imaging Formerly Current Medical Imaging Reviews"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.eurekaselect.com/article/download/239864",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.eurekaselect.com/239864/article",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.eurekaselect.com/article/download/239864",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2026-02-02T07:54:18Z",
+      "timestamp": 1770018858000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.eurekaselect.com/239864/article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          5
+        ]
+      ]
+    },
+    "references-count": 67,
+    "alternative-id": [
+      "LiveAll1"
+    ],
+    "URL": "https://doi.org/10.2174/0115734056335762250128095107",
+    "relation": {},
+    "ISSN": [
+      "1573-4056"
+    ],
+    "issn-type": [
+      {
+        "value": "1573-4056",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Peer Reviewed",
+        "order": 0,
+        "name": "review_status",
+        "label": "Review Status",
+        "group": {
+          "name": "peer_review_details",
+          "label": "Peer Review Details"
+        }
+      },
+      {
+        "value": "Double blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review Process",
+        "group": {
+          "name": "peer_review_details",
+          "label": "Peer Review Details"
+        }
+      },
+      {
+        "value": "Checked with iThenticate",
+        "order": 0,
+        "name": "screening_status",
+        "label": "Screening Status",
+        "group": {
+          "name": "plagiarism_screening",
+          "label": "Plagiarism Screening"
+        }
+      },
+      {
+        "value": "2024-06-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-11-27",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-12-09",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-05-05",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e15734056335762"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2026-10-31T21:19:53Z",
+      "timestamp": 1793481593236,
+      "version": "4.5.0"
+    },
+    "reference-count": 43,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2019-06-01T00:00:00Z",
+          "timestamp": 1559347200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2019-06-01T00:00:00Z",
+          "timestamp": 1559347200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2019.01082",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2020-01-09T21:06:13Z",
+      "timestamp": 1578603973000
+    },
+    "page": "10563-10572",
+    "source": "Crossref",
+    "is-referenced-by-count": 238,
+    "title": [
+      "Attention Based Glaucoma Detection: A Large-Scale Database and CNN Model"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Liu",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "BUAA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mai",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BUAA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaofei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BUAA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lai",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Tongren Hospital, Capital Medical Univ."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanruo",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BUAA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.648"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1609/aaai.v31i1.10510",
+        "article-title": "Volumetric convnets with mixed residual connections for automated prostate segmentation from 3d mr images",
+        "author": "yu",
+        "year": "2017",
+        "journal-title": "The AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Striving for simplicity: The all convolutional net",
+        "author": "springenberg",
+        "year": "2014"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2015.10.010"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2014"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Action recognition using visual attention",
+        "author": "sharma",
+        "year": "2016"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICME.2017.8019351"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2016.2628583"
+      },
+      {
+        "key": "ref35",
+        "first-page": "2048",
+        "article-title": "Show, attend and tell: Neural image caption generation with visual attention",
+        "author": "xu",
+        "year": "2015",
+        "journal-title": "International Conference on Machine Learning"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.18152"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2017.02.008"
+      },
+      {
+        "key": "ref40",
+        "first-page": "818",
+        "author": "zeiler",
+        "year": "2014",
+        "journal-title": "Visualizing and Understanding Convolutional Networks"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-66179-7_29"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2017.8296646"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.123"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.38"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2015.08.002"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.02.010"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3131275"
+      },
+      {
+        "key": "ref28",
+        "first-page": "91",
+        "article-title": "Faster r-cnn: towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "International Conference on Neural Information Processing Systems"
+      },
+      {
+        "key": "ref4",
+        "first-page": "1160",
+        "article-title": "Mitosis detection in breast cancer histology images via deep cascaded networks",
+        "author": "chen",
+        "year": "2016",
+        "journal-title": "The AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Chexnet: Radiologist-level pneumonia detection on chest x-rays with deep learning",
+        "author": "rajpurkar",
+        "year": "2017"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Multiple object recognition with visual attention",
+        "author": "ba",
+        "year": "2015"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITB.2011.2176540"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-67561-9_19"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EMBC.2015.7318462"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-66179-7_65"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature21056"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00636"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITB.2011.2119322"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2014",
+        "journal-title": "Computer Science"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EMBC.2016.7590952"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "lecun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.319"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Thoracic disease identification and localization with limited supervision",
+        "author": "li",
+        "year": "2017"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-59050-9_17"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Predicting cardiovascular risk factors from retinal fundus photographs using deep learning",
+        "author": "poplin",
+        "year": "2017"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compmedimag.2016.07.012"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/JOSAA.14.002884"
+      }
+    ],
+    "event": {
+      "name": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Long Beach, CA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            6,
+            15
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2019,
+            6,
+            20
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8938205/8953184/08953932.pdf?arnumber=8953932",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2025-09-01T19:20:52Z",
+      "timestamp": 1756754452000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8953932/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1109/cvpr.2019.01082",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    }
+  }
+}

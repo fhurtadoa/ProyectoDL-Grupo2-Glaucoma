@@ -1,0 +1,605 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2026-11-14T19:46:17Z",
+      "timestamp": 1794685577566,
+      "version": "4.9.1"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 36,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783030786007",
+        "type": "print"
+      },
+      {
+        "value": "9783030786014",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-030-78601-4_13",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2021-10-13T16:27:56Z",
+      "timestamp": 1634142476000
+    },
+    "page": "177-185",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Singapore Eye Lesions Analyzer (SELENA): The Deep Learning System for Retinal Diseases"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "David Chuen Soong",
+        "family": "Wong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Grace",
+        "family": "Kiew",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sohee",
+        "family": "Jeon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Ting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "13_CR1",
+        "unstructured": "Moor J. The Dartmouth College artificial intelligence conference: the next fifty years. AI Magazine. 2006. 87–91."
+      },
+      {
+        "key": "13_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "volume": "521",
+        "author": "Y Lecun",
+        "year": "2015",
+        "unstructured": "Lecun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015;521:436–44.",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "13_CR3",
+        "unstructured": "Krizhevsky A, Sutskever I, Hinton GE. ImageNet classification with deep convolutional neural networks; 2012."
+      },
+      {
+        "key": "13_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Le QV, Ranzato MA, Monga R, Devin M, Chen K, Corrado GS, et al. Building high-level features using large scale unsupervised learning; 2012.",
+        "DOI": "10.1109/ICASSP.2013.6639343"
+      },
+      {
+        "key": "13_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raina R, Madhavan A, Ng AY. Large-scale deep unsupervised learning using graphics processors; 2009.",
+        "DOI": "10.1145/1553374.1553486"
+      },
+      {
+        "key": "13_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "volume": "25",
+        "author": "EJ Topol",
+        "year": "2019",
+        "unstructured": "Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med. 2019;25:44–56.",
+        "journal-title": "Nat Med"
+      },
+      {
+        "issue": "1",
+        "key": "13_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "e8",
+        "DOI": "10.1016/S2589-7500(19)30217-1",
+        "volume": "2",
+        "author": "DSW Ting",
+        "year": "2020",
+        "unstructured": "Ting DSW, Lin H, Ruamviboonsuk P, Wong TY, Sim DA. Artificial intelligence, the internet of things, and virtual clinics: ophthalmology at the digital translation forefront. Lancet Digital Health. 2020;2(1):e8–9.",
+        "journal-title": "Lancet Digital Health."
+      },
+      {
+        "issue": "2",
+        "key": "13_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "volume": "103",
+        "author": "DSW Ting",
+        "year": "2019",
+        "unstructured": "Ting DSW, Pasquale LR, Peng L, Campbell JP, Lee AY, Raman R, et al. Artificial intelligence and deep learning in ophthalmology. Br J Ophthalmol. 2019;103(2):167–75.",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "13_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ting DSW, Peng L, Varadarajan AV, Keane PA, Burlina PM, Chiang MF, et al. Deep learning in ophthalmology: the technical and clinical considerations. Prog Retin Eye Res. 2019;72:100759.",
+        "DOI": "10.1016/j.preteyeres.2019.04.003"
+      },
+      {
+        "issue": "7",
+        "key": "13_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "volume": "124",
+        "author": "R Gargeya",
+        "year": "2017",
+        "unstructured": "Gargeya R, Leng T. Automated identification of diabetic retinopathy using deep learning. Ophthalmology. 2017;124(7):962–9.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "13",
+        "key": "13_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "volume": "57",
+        "author": "MD Abràmoff",
+        "year": "2016",
+        "unstructured": "Abràmoff MD, Lou Y, Erginay A, Clarida W, Amelon R, Folk JC, et al. Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning. Invest Ophthalmol Vis Sci. 2016;57(13):5200–6.",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "22",
+        "key": "13_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, et al. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA. 2016;316(22):2402–10.",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "9",
+        "key": "13_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1410",
+        "DOI": "10.1016/j.ophtha.2018.02.037",
+        "volume": "125",
+        "author": "F Grassmann",
+        "year": "2018",
+        "unstructured": "Grassmann F, Mengelkamp J, Brandl C, Harsch S, Zimmermann ME, Linkohr B, et al. A deep learning algorithm for prediction of age-related eye disease study severity scale for age-related macular degeneration from color fundus photography. Ophthalmology. 2018;125(9):1410–20.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "11",
+        "key": "13_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1170",
+        "DOI": "10.1001/jamaophthalmol.2017.3782",
+        "volume": "135",
+        "author": "PM Burlina",
+        "year": "2017",
+        "unstructured": "Burlina PM, Joshi N, Pekala M, Pacheco KD, Freund DE, Bressler NM. Automated grading of age-related macular degeneration from color fundus images using deep convolutional neural networks. JAMA Ophthalmol. 2017;135(11):1170–6.",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "22",
+        "key": "13_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "unstructured": "Ting DSW, Cheung CY, Lim G, Tan GSW, Quang ND, Gan A, et al. Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes. JAMA. 2017;318(22):2211–23.",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "8",
+        "key": "13_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "volume": "125",
+        "author": "Z Li",
+        "year": "2018",
+        "unstructured": "Li Z, He Y, Keel S, Meng W, Chang RT, He M. Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs. Ophthalmology. 2018;125(8):1199–206.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "7",
+        "key": "13_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "803",
+        "DOI": "10.1001/jamaophthalmol.2018.1934",
+        "volume": "136",
+        "author": "JM Brown",
+        "year": "2018",
+        "unstructured": "Brown JM, Campbell JP, Beers A, Chang K, Ostmo S, Chan RP, et al. Automated diagnosis of plus disease in retinopathy of prematurity using deep convolutional neural networks. JAMA Ophthalmol. 2018;136(7):803–10.",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "3",
+        "key": "13_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "volume": "2",
+        "author": "R Poplin",
+        "year": "2018",
+        "unstructured": "Poplin R, Varadarajan AV, Blumer K, Liu Y, McConnell MV, Corrado GS, et al. Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning. Nat Biomed Eng. 2018;2(3):158.",
+        "journal-title": "Nat Biomed Eng"
+      },
+      {
+        "issue": "7",
+        "key": "13_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "3440",
+        "DOI": "10.1364/BOE.8.003440",
+        "volume": "8",
+        "author": "CS Lee",
+        "year": "2017",
+        "unstructured": "Lee CS, Tyring AJ, Deruyter NP, Wu Y, Rokem A, Lee AY. Deep-learning based, automated segmentation of macular edema in optical coherence tomography. Biomed Opt Express. 2017;8(7):3440–8.",
+        "journal-title": "Biomed Opt Express"
+      },
+      {
+        "issue": "9",
+        "key": "13_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1342",
+        "DOI": "10.1038/s41591-018-0107-6",
+        "volume": "24",
+        "author": "J De Fauw",
+        "year": "2018",
+        "unstructured": "De Fauw J, Ledsam JR, Romera-Paredes B, Nikolov S, Tomasev N, Blackwell S, et al. Clinically applicable deep learning for diagnosis and referral in retinal disease. Nat Med. 2018;24(9):1342.",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "13_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kermany DS, Goldbaum M, Cai W, Valentim CC, Liang H, Baxter SL, et al. Identifying medical diagnoses and treatable diseases by image-based deep learning. Cell. 2018;172(5):1122–31. e9.",
+        "DOI": "10.1016/j.cell.2018.02.010"
+      },
+      {
+        "issue": "3",
+        "key": "13_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "556",
+        "DOI": "10.2337/dc11-1909",
+        "volume": "35",
+        "author": "JWY Yau",
+        "year": "2012",
+        "unstructured": "Yau JWY, Rogers SL, Kawasaki R, Lamoureux EL, Kowalski JW, Bek T, et al. Global prevalence and major risk factors of diabetic retinopathy. Diabetes Care. 2012;35(3):556.",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "13_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taylor HR. Global blindness: the progress we are making and still need to make. Asia-Pac J Ophthalmol. 2019;8(6).",
+        "DOI": "10.1097/APO.0000000000000264"
+      },
+      {
+        "issue": "12",
+        "key": "13_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1221",
+        "DOI": "10.1016/S2214-109X(17)30393-5",
+        "volume": "5",
+        "author": "SR Flaxman",
+        "year": "2017",
+        "unstructured": "Flaxman SR, Bourne RR, Resnikoff S, Ackland P, Braithwaite T, Cicinelli MV, et al. Global causes of blindness and distance vision impairment 1990–2020: a systematic review and meta-analysis. Lancet Glob Health. 2017;5(12):e1221–e34.",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "issue": "1",
+        "key": "13_CR25",
+        "first-page": "3",
+        "volume": "7",
+        "author": "J Chua",
+        "year": "2018",
+        "unstructured": "Chua J, Lim CXY, Wong TY, Sabanayagam C. Diabetic retinopathy in the Asia-Pacific. Asia-Pac J Ophthalmol. 2018;7(1):3–16.",
+        "journal-title": "Asia-Pac J Ophthalmol"
+      },
+      {
+        "issue": "4",
+        "key": "13_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "260",
+        "DOI": "10.1111/ceo.12696",
+        "volume": "44",
+        "author": "DSW Ting",
+        "year": "2016",
+        "unstructured": "Ting DSW, Cheung GCM, Wong TY. Diabetic retinopathy: global prevalence, major risk factors, screening practices and public health challenges: a review. Clin Exp Ophthalmol. 2016;44(4):260–77.",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "13_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "e35",
+        "DOI": "10.1016/S2589-7500(19)30004-4",
+        "volume": "1",
+        "author": "V Bellemo",
+        "year": "2019",
+        "unstructured": "Bellemo V, Lim ZW, Lim G, Nguyen QD, Xie Y, Yip MY, et al. Artificial intelligence using deep learning to screen for referable and vision-threatening diabetic retinopathy in Africa: a clinical validation study. Lancet Digital Health. 2019;1(1):e35–44.",
+        "journal-title": "Lancet Digital Health"
+      },
+      {
+        "key": "13_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ting DSW, Cheung CY, Nguyen Q, Sabanayagam C, Lim G, Lim ZW, et al. Deep learning in estimating prevalence and systemic risk factors for diabetic retinopathy: a multi-ethnic study. npj Digital Medicine: Springer US; 2019. p. 1–8.",
+        "DOI": "10.1038/s41746-019-0097-x"
+      },
+      {
+        "issue": "4",
+        "key": "13_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "529",
+        "DOI": "10.1016/j.ophtha.2017.10.026",
+        "volume": "125",
+        "author": "GS Tan",
+        "year": "2018",
+        "unstructured": "Tan GS, Gan A, Sabanayagam C, Tham YC, Neelam K, Mitchell P, et al. Ethnic differences in the prevalence and risk factors of diabetic retinopathy: The Singapore epidemiology of eye diseases study. Ophthalmology. 2018;125(4):529–36.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "13_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu J, Xu L, Wang YX, You QS, Jonas JB, Wei WB. Ten-year cumulative incidence of diabetic retinopathy. The Beijing Eye Study 2001/2011. PLoS One. 2014;9(10):e111320.",
+        "DOI": "10.1371/journal.pone.0111320"
+      },
+      {
+        "issue": "4",
+        "key": "13_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1080/09286586.2018.1454965",
+        "volume": "25",
+        "author": "R McKean-Cowdin",
+        "year": "2018",
+        "unstructured": "McKean-Cowdin R, Fairbrother-Crisp A, Torres M, Lastra C, Choudhury F, Jiang X, et al. The African American eye disease study: design and methods. Ophthalmic Epidemiol. 2018;25(4):306–14.",
+        "journal-title": "Ophthalmic Epidemiol"
+      },
+      {
+        "issue": "1",
+        "key": "13_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "2575",
+        "DOI": "10.1038/s41598-017-02767-0",
+        "volume": "7",
+        "author": "FY Tang",
+        "year": "2017",
+        "unstructured": "Tang FY, Ng DS, Lam A, Luk F, Wong R, Chan C, et al. Determinants of quantitative optical coherence tomography angiography metrics in patients with diabetes. Sci Rep. 2017;7(1):2575.",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "1",
+        "key": "13_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1111/j.1442-9071.2011.02697.x",
+        "volume": "40",
+        "author": "EL Lamoureux",
+        "year": "2012",
+        "unstructured": "Lamoureux EL, Fenwick E, Xie J, McAuley A, Nicolaou T, Larizza M, et al. Methodology and early findings of the diabetes management project: a cohort study investigating the barriers to optimal diabetes care in diabetic patients with and without diabetic retinopathy. Clin Exp Ophthalmol. 2012;40(1):73–82.",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "issue": "9",
+        "key": "13_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "volume": "110",
+        "author": "CP Wilkinson",
+        "year": "2003",
+        "unstructured": "Wilkinson CP, Ferris FL 3rd, Klein RE, Lee PP, Agardh CD, Davis M, et al. Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales. Ophthalmology. 2003;110(9):1677–82.",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "3",
+        "key": "13_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "592",
+        "DOI": "10.2337/dc11-0943",
+        "volume": "35",
+        "author": "CD Jones",
+        "year": "2012",
+        "unstructured": "Jones CD, Greenwood RH, Misra A, Bachmann MO. Incidence and progression of diabetic retinopathy during 17 years of a population-based screening program in England. Diabetes Care. 2012;35(3):592–6.",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "13_CR36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.e874",
+        "volume": "344",
+        "author": "RL Thomas",
+        "year": "2012",
+        "unstructured": "Thomas RL, Dunstan F, Luzio SD, Roy Chowdury S, Hale SL, North RV, et al. Incidence of diabetic retinopathy in people with type 2 diabetes mellitus attending the diabetic retinopathy screening service for wales: retrospective analysis. BMJ. 2012;344:e874.",
+        "journal-title": "BMJ"
+      }
+    ],
+    "container-title": [
+      "Artificial Intelligence in Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-78601-4_13",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2021-10-13T16:33:27Z",
+      "timestamp": 1634142807000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-030-78601-4_13"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783030786007",
+      "9783030786014"
+    ],
+    "references-count": 36,
+    "URL": "https://doi.org/10.1007/978-3-030-78601-4_13",
+    "relation": {
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1007/978-3-030-78601-4",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "14 October 2021",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "data": {
+    "id": "10.7302/z23r0r29",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.7302/z23r0r29",
+      "prefix": "10.7302",
+      "suffix": "z23r0r29",
+      "identifiers": [
+        {
+          "identifier": "https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z",
+          "identifierType": "URL"
+        },
+        {
+          "identifier": "https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z",
+          "identifierType": "URL"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "URL",
+          "alternateIdentifier": "https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z"
+        },
+        {
+          "alternateIdentifierType": "URL",
+          "alternateIdentifier": "https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Almazroa, Ahmed",
+          "nameType": "Personal",
+          "givenName": "Ahmed",
+          "familyName": "Almazroa",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "Retinal fundus images for glaucoma analysis: the RIGA dataset",
+          "titleType": null
+        }
+      ],
+      "publisher": "University of Michigan",
+      "container": {},
+      "publicationYear": 2018,
+      "subjects": [
+        {
+          "subject": "Health Sciences"
+        },
+        {
+          "subject": "Medical imaging"
+        },
+        {
+          "subject": "Optic cup"
+        },
+        {
+          "subject": "Image processing"
+        },
+        {
+          "subject": "Optic disc"
+        },
+        {
+          "subject": "Glaucoma"
+        },
+        {
+          "subject": "Optic nerve head"
+        },
+        {
+          "subject": "Image segmentation"
+        },
+        {
+          "subject": "Fundus images"
+        },
+        {
+          "subject": "Automated glaucoma screening system"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2020-04-20T16:49:44+00:00",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2018-03-12T17:02:43+00:00",
+          "dateType": "Available"
+        },
+        {
+          "date": "2018-01-17T14:25:42+00:00",
+          "dateType": "Created"
+        },
+        {
+          "date": "2018",
+          "dateType": "Issued",
+          "dateInformation": null
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "HasPart",
+          "relatedIdentifier": "https://deepblue.lib.umich.edu/data/concern/file_sets/kk91fm12k",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "HasPart",
+          "relatedIdentifier": "https://deepblue.lib.umich.edu/data/concern/file_sets/cr56n1516",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "HasPart",
+          "relatedIdentifier": "https://deepblue.lib.umich.edu/data/concern/file_sets/8910jv105",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "HasPart",
+          "relatedIdentifier": "https://deepblue.lib.umich.edu/data/concern/file_sets/g732d957m",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "HasPart",
+          "relatedIdentifier": "https://deepblue.lib.umich.edu/data/concern/file_sets/0r967457f",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "IsReferencedBy",
+          "relatedIdentifier": "https://doi.org/10.1117/12.2293584",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rightsUri": "http://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+          "rightsUri": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "eng",
+          "description": "The dataset includes 3 different files: 1) MESSIDOR dataset file contains 460 original images and 460 images for every single ophthalmologist manual marking in total of 3220 images for the entire file. 2) Bin Rushed Ophthalmic center file and contains 195 original images and 195 images for every single ophthalmologist manual marking in total of 1365 images for the entire file. 3) Magrabi Eye center file and contains 95 original images and 95 images for every single ophthalmologist manual marking in total of 665 images for the entire file. The total of all the dataset images are 750 original images and 4500 manual marked images. The images are saved in JPG and TIFF format.;NOTE ON THE DATA: Depositor accidentally left out 50 images from the BinRushed folder from the original deposit. A corrected BinRushed folder that includes these 50 images was added to this data set on May 21, 2018.;NOTE ON DOWNLOADING: The file \"MESSIDOR.zip\" is too large to be downloaded through Deep Blue Data. Please use Globus to download this file.  ",
+          "descriptionType": "Abstract"
+        },
+        {
+          "lang": "eng",
+          "description": "A de-identified dataset of retinal fundus images for glaucoma analysis (RIGA) was derived from three sources. The optic cup and disc boundaries of these images were marked and annotated manually by six experienced ophthalmologists individually using a tablet and a precise pen.  Six parameters were extracted and assessed among the ophthalmologists. The inter-observer annotations were compared by calculating the standard deviation (SD) for every image between the six ophthalmologists in order to determine if there are any outliers among the six annotations to be eliminated i.e. filtering the images.",
+          "descriptionType": "TechnicalInfo"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNzMwMi9aMjNSMFIyOTwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+QWxtYXpyb2EsIEFobWVkPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5BaG1lZDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5BbG1henJvYTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+UmV0aW5hbCBmdW5kdXMgaW1hZ2VzIGZvciBnbGF1Y29tYSBhbmFseXNpczogdGhlIFJJR0EgZGF0YXNldDwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5Vbml2ZXJzaXR5IG9mIE1pY2hpZ2FuPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDE4PC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ij5EYXRhc2V0PC9yZXNvdXJjZVR5cGU+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3Q+SGVhbHRoIFNjaWVuY2VzPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+TWVkaWNhbCBpbWFnaW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+T3B0aWMgY3VwPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+SW1hZ2UgcHJvY2Vzc2luZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0Pk9wdGljIGRpc2M8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5HbGF1Y29tYTwvc3ViamVjdD4KICAgIDxzdWJqZWN0Pk9wdGljIG5lcnZlIGhlYWQ8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5JbWFnZSBzZWdtZW50YXRpb248L3N1YmplY3Q+CiAgICA8c3ViamVjdD5GdW5kdXMgaW1hZ2VzPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+QXV0b21hdGVkIGdsYXVjb21hIHNjcmVlbmluZyBzeXN0ZW08L3N1YmplY3Q+CiAgICA8c3ViamVjdD5IZWFsdGggU2NpZW5jZXM8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5NZWRpY2FsIGltYWdpbmc8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5PcHRpYyBjdXA8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5JbWFnZSBwcm9jZXNzaW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+T3B0aWMgZGlzYzwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkdsYXVjb21hPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+T3B0aWMgbmVydmUgaGVhZDwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkltYWdlIHNlZ21lbnRhdGlvbjwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkZ1bmR1cyBpbWFnZXM8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5BdXRvbWF0ZWQgZ2xhdWNvbWEgc2NyZWVuaW5nIHN5c3RlbTwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIj4yMDIwLTA0LTIwVDE2OjQ5OjQ0KzAwOjAwPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSI+MjAxOC0wMy0xMlQxNzowMjo0MyswMDowMDwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJDcmVhdGVkIj4yMDE4LTAxLTE3VDE0OjI1OjQyKzAwOjAwPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAxODwvZGF0ZT4KICA8L2RhdGVzPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJVUkwiPmh0dHBzOi8vZGVlcGJsdWUubGliLnVtaWNoLmVkdS9kYXRhL2NvbmNlcm4vZGF0YV9zZXRzLzNiNTkxOTA1ejwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJVUkwiPmh0dHBzOi8vZGVlcGJsdWUubGliLnVtaWNoLmVkdS9kYXRhL2NvbmNlcm4vZGF0YV9zZXRzLzNiNTkxOTA1ejwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxyZWxhdGVkSWRlbnRpZmllcnM+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJVUkwiIHJlbGF0aW9uVHlwZT0iSGFzUGFydCI+aHR0cHM6Ly9kZWVwYmx1ZS5saWIudW1pY2guZWR1L2RhdGEvY29uY2Vybi9maWxlX3NldHMva2s5MWZtMTJrPC9yZWxhdGVkSWRlbnRpZmllcj4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IlVSTCIgcmVsYXRpb25UeXBlPSJIYXNQYXJ0Ij5odHRwczovL2RlZXBibHVlLmxpYi51bWljaC5lZHUvZGF0YS9jb25jZXJuL2ZpbGVfc2V0cy9jcjU2bjE1MTY8L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iVVJMIiByZWxhdGlvblR5cGU9Ikhhc1BhcnQiPmh0dHBzOi8vZGVlcGJsdWUubGliLnVtaWNoLmVkdS9kYXRhL2NvbmNlcm4vZmlsZV9zZXRzLzg5MTBqdjEwNTwvcmVsYXRlZElkZW50aWZpZXI+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJVUkwiIHJlbGF0aW9uVHlwZT0iSGFzUGFydCI+aHR0cHM6Ly9kZWVwYmx1ZS5saWIudW1pY2guZWR1L2RhdGEvY29uY2Vybi9maWxlX3NldHMvZzczMmQ5NTdtPC9yZWxhdGVkSWRlbnRpZmllcj4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IlVSTCIgcmVsYXRpb25UeXBlPSJIYXNQYXJ0Ij5odHRwczovL2RlZXBibHVlLmxpYi51bWljaC5lZHUvZGF0YS9jb25jZXJuL2ZpbGVfc2V0cy8wcjk2NzQ1N2Y8L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzUmVmZXJlbmNlZEJ5Ij5odHRwczovL2RvaS5vcmcvMTAuMTExNy8xMi4yMjkzNTg0PC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnktbmMvNC4wLyIvPgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLzQuMC8iLz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiB4bWw6bGFuZz0iZW5nIiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5UaGUgZGF0YXNldCBpbmNsdWRlcyAzIGRpZmZlcmVudCBmaWxlczogMSkgTUVTU0lET1IgZGF0YXNldCBmaWxlIGNvbnRhaW5zIDQ2MCBvcmlnaW5hbCBpbWFnZXMgYW5kIDQ2MCBpbWFnZXMgZm9yIGV2ZXJ5IHNpbmdsZSBvcGh0aGFsbW9sb2dpc3QgbWFudWFsIG1hcmtpbmcgaW4gdG90YWwgb2YgMzIyMCBpbWFnZXMgZm9yIHRoZSBlbnRpcmUgZmlsZS4gMikgQmluIFJ1c2hlZCBPcGh0aGFsbWljIGNlbnRlciBmaWxlIGFuZCBjb250YWlucyAxOTUgb3JpZ2luYWwgaW1hZ2VzIGFuZCAxOTUgaW1hZ2VzIGZvciBldmVyeSBzaW5nbGUgb3BodGhhbG1vbG9naXN0IG1hbnVhbCBtYXJraW5nIGluIHRvdGFsIG9mIDEzNjUgaW1hZ2VzIGZvciB0aGUgZW50aXJlIGZpbGUuIDMpIE1hZ3JhYmkgRXllIGNlbnRlciBmaWxlIGFuZCBjb250YWlucyA5NSBvcmlnaW5hbCBpbWFnZXMgYW5kIDk1IGltYWdlcyBmb3IgZXZlcnkgc2luZ2xlIG9waHRoYWxtb2xvZ2lzdCBtYW51YWwgbWFya2luZyBpbiB0b3RhbCBvZiA2NjUgaW1hZ2VzIGZvciB0aGUgZW50aXJlIGZpbGUuIFRoZSB0b3RhbCBvZiBhbGwgdGhlIGRhdGFzZXQgaW1hZ2VzIGFyZSA3NTAgb3JpZ2luYWwgaW1hZ2VzIGFuZCA0NTAwIG1hbnVhbCBtYXJrZWQgaW1hZ2VzLiBUaGUgaW1hZ2VzIGFyZSBzYXZlZCBpbiBKUEcgYW5kIFRJRkYgZm9ybWF0LjtOT1RFIE9OIFRIRSBEQVRBOiBEZXBvc2l0b3IgYWNjaWRlbnRhbGx5IGxlZnQgb3V0IDUwIGltYWdlcyBmcm9tIHRoZSBCaW5SdXNoZWQgZm9sZGVyIGZyb20gdGhlIG9yaWdpbmFsIGRlcG9zaXQuIEEgY29ycmVjdGVkIEJpblJ1c2hlZCBmb2xkZXIgdGhhdCBpbmNsdWRlcyB0aGVzZSA1MCBpbWFnZXMgd2FzIGFkZGVkIHRvIHRoaXMgZGF0YSBzZXQgb24gTWF5IDIxLCAyMDE4LjtOT1RFIE9OIERPV05MT0FESU5HOiBUaGUgZmlsZSAiTUVTU0lET1IuemlwIiBpcyB0b28gbGFyZ2UgdG8gYmUgZG93bmxvYWRlZCB0aHJvdWdoIERlZXAgQmx1ZSBEYXRhLiBQbGVhc2UgdXNlIEdsb2J1cyB0byBkb3dubG9hZCB0aGlzIGZpbGUuICA8L2Rlc2NyaXB0aW9uPgogICAgPGRlc2NyaXB0aW9uIHhtbDpsYW5nPSJlbmciIGRlc2NyaXB0aW9uVHlwZT0iVGVjaG5pY2FsSW5mbyI+QSBkZS1pZGVudGlmaWVkIGRhdGFzZXQgb2YgcmV0aW5hbCBmdW5kdXMgaW1hZ2VzIGZvciBnbGF1Y29tYSBhbmFseXNpcyAoUklHQSkgd2FzIGRlcml2ZWQgZnJvbSB0aHJlZSBzb3VyY2VzLiBUaGUgb3B0aWMgY3VwIGFuZCBkaXNjIGJvdW5kYXJpZXMgb2YgdGhlc2UgaW1hZ2VzIHdlcmUgbWFya2VkIGFuZCBhbm5vdGF0ZWQgbWFudWFsbHkgYnkgc2l4IGV4cGVyaWVuY2VkIG9waHRoYWxtb2xvZ2lzdHMgaW5kaXZpZHVhbGx5IHVzaW5nIGEgdGFibGV0IGFuZCBhIHByZWNpc2UgcGVuLiAgU2l4IHBhcmFtZXRlcnMgd2VyZSBleHRyYWN0ZWQgYW5kIGFzc2Vzc2VkIGFtb25nIHRoZSBvcGh0aGFsbW9sb2dpc3RzLiBUaGUgaW50ZXItb2JzZXJ2ZXIgYW5ub3RhdGlvbnMgd2VyZSBjb21wYXJlZCBieSBjYWxjdWxhdGluZyB0aGUgc3RhbmRhcmQgZGV2aWF0aW9uIChTRCkgZm9yIGV2ZXJ5IGltYWdlIGJldHdlZW4gdGhlIHNpeCBvcGh0aGFsbW9sb2dpc3RzIGluIG9yZGVyIHRvIGRldGVybWluZSBpZiB0aGVyZSBhcmUgYW55IG91dGxpZXJzIGFtb25nIHRoZSBzaXggYW5ub3RhdGlvbnMgdG8gYmUgZWxpbWluYXRlZCBpLmUuIGZpbHRlcmluZyB0aGUgaW1hZ2VzLjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+      "url": "http://deepblue.lib.umich.edu/data/concern/generic_works/3b591905z",
+      "contentUrl": null,
+      "metadataVersion": 3,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 1,
+      "citationCount": 4,
+      "citationsOverTime": [
+        {
+          "year": "2022",
+          "total": 2
+        },
+        {
+          "year": "2025",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2018-01-18T00:30:55.000Z",
+      "registered": "2018-01-18T00:30:56.000Z",
+      "published": "2018",
+      "updated": "2025-01-15T08:55:10.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "umich.library",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "umich",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.7302/z23r0r29",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": [
+          {
+            "id": "10.1117/12.2293584",
+            "type": "dois"
+          }
+        ]
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1007/978-3-032-30990-7_20",
+            "type": "dois"
+          },
+          {
+            "id": "10.1038/s41433-024-03388-4",
+            "type": "dois"
+          },
+          {
+            "id": "10.1016/j.matpr.2020.12.1056",
+            "type": "dois"
+          },
+          {
+            "id": "10.1117/12.2293584",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

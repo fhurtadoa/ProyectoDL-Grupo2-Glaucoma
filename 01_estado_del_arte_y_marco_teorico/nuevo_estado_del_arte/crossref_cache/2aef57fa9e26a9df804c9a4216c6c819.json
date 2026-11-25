@@ -1,0 +1,723 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2026-02-24T22:52:17Z",
+      "timestamp": 1771973537799,
+      "version": "3.50.1"
+    },
+    "reference-count": 43,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "81420108008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "81420108008"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012245",
+        "name": "Science and Technology Planning Project of Guangdong Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2013B20400003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2013B20400003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012245",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Med."
+    ],
+    "abstract": "<jats:sec><jats:title>Purpose</jats:title><jats:p>The aim of this study was to prospectively quantify the level of agreement among the deep learning system, non-physician graders, and general ophthalmologists with different levels of clinical experience in detecting referable diabetic retinopathy, age-related macular degeneration, and glaucomatous optic neuropathy.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>Deep learning systems for diabetic retinopathy, age-related macular degeneration, and glaucomatous optic neuropathy classification, with accuracy proven through internal and external validation, were established using 210,473 fundus photographs. Five trained non-physician graders and 47 general ophthalmologists from China were chosen randomly and included in the analysis. A test set of 300 fundus photographs were randomly identified from an independent dataset of 42,388 gradable images. The grading outcomes of five retinal and five glaucoma specialists were used as the reference standard that was considered achieved when ≥50% of gradings were consistent among the included specialists. The area under receiver operator characteristic curve of different groups in relation to the reference standard was used to compare agreement for referable diabetic retinopathy, age-related macular degeneration, and glaucomatous optic neuropathy.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>The test set included 45 images (15.0%) with referable diabetic retinopathy, 46 (15.3%) with age-related macular degeneration, 46 (15.3%) with glaucomatous optic neuropathy, and 163 (55.4%) without these diseases. The area under receiver operator characteristic curve for non-physician graders, ophthalmologists with 3–5 years of clinical practice, ophthalmologists with 5–10 years of clinical practice, ophthalmologists with &amp;gt;10 years of clinical practice, and the deep learning system for referable diabetic retinopathy were 0.984, 0.964, 0.965, 0.954, and 0.990 (<jats:italic>p</jats:italic> = 0.415), respectively. The results for referable age-related macular degeneration were 0.912, 0.933, 0.946, 0.958, and 0.945, respectively, (<jats:italic>p</jats:italic> = 0.145), and 0.675, 0.862, 0.894, 0.976, and 0.994 for referable glaucomatous optic neuropathy, respectively (<jats:italic>p</jats:italic> &amp;lt; 0.001).</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>The findings of this study suggest that the accuracy of this deep learning system is comparable to that of trained non-physician graders and general ophthalmologists for referable diabetic retinopathy and age-related macular degeneration, but the deep learning system performance is better than that of trained non-physician graders for the detection of referable glaucomatous optic neuropathy.</jats:p></jats:sec>",
+    "DOI": "10.3389/fmed.2023.1115032",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2023-03-01T05:01:25Z",
+      "timestamp": 1677646885000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Using deep leaning models to detect ophthalmic diseases: A comparative study"
+    ],
+    "prefix": "10.3389",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Zhixi",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xinxing",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xing",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mingguang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+        "DOI": "10.1016/S0140-6736(09)62124-3",
+        "article-title": "Diabetic retinopathy",
+        "volume": "376",
+        "author": "Cheung",
+        "year": "2010",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1900",
+        "DOI": "10.1001/jama.291.15.1900",
+        "article-title": "Age-related macular degeneration is the leading cause of blindness",
+        "volume": "291",
+        "author": "Bressler",
+        "year": "2004",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1076/opep.11.2.67.28158",
+        "article-title": "2002 global update of available data on visual impairment: a compilation of population-based prevalence studies",
+        "volume": "11",
+        "author": "Pascolini",
+        "year": "2004",
+        "journal-title": "Ophthalmic Epidemiol"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2377",
+        "DOI": "10.1016/j.ophtha.2013.05.025",
+        "article-title": "Global prevalence of vision impairment and blindness: magnitude and temporal trends, 1990–2010",
+        "volume": "120",
+        "author": "Stevens",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "first-page": "e339",
+        "DOI": "10.1016/S2214-109X(13)70113-X",
+        "article-title": "Causes of vision loss worldwide, 1990-2010: a systematic analysis",
+        "volume": "1",
+        "author": "Bourne",
+        "year": "2013",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "first-page": "471",
+        "DOI": "10.1016/S0002-9394(02)02110-4",
+        "article-title": "The magnitude and cost of global blindness: an increasing problem that can be alleviated",
+        "volume": "135",
+        "author": "Frick",
+        "year": "2003",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "first-page": "475",
+        "DOI": "10.4103/0301-4738.100554",
+        "article-title": "The global cost of eliminating avoidable blindness",
+        "volume": "60",
+        "author": "Armstrong",
+        "year": "2012",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "first-page": "615",
+        "DOI": "10.1001/archopht.122.4.615",
+        "article-title": "VISION 2020: the right to sight: a global initiative to eliminate avoidable blindness",
+        "volume": "122",
+        "author": "Pizzarello",
+        "year": "2004",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1731",
+        "DOI": "10.2337/diacare.26.6.1731",
+        "article-title": "The prevalence of and factors associated with diabetic retinopathy in the Australian population",
+        "volume": "26",
+        "author": "Tapp",
+        "year": "2003",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1966",
+        "DOI": "10.1016/S0161-6420(01)00799-0",
+        "article-title": "Prevalence and predictors of open-angle glaucoma: results from the visual impairment project",
+        "volume": "108",
+        "author": "Weih",
+        "year": "2001",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "first-page": "619",
+        "DOI": "10.1016/j.ajo.2015.06.005",
+        "article-title": "Demand for tertiary eye Care Services in Developing Countries",
+        "volume": "160",
+        "author": "Subburaman",
+        "year": "2015",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "first-page": "515",
+        "DOI": "10.1007/s00592-017-0974-1",
+        "article-title": "The english national screening programme for diabetic retinopathy 2003–2016",
+        "volume": "54",
+        "author": "Scanlon",
+        "year": "2017",
+        "journal-title": "Acta Diabetol"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "first-page": "485",
+        "DOI": "10.1016/S0161-6420(85)34003-4",
+        "article-title": "Diabetic retinopathy as detected using ophthalmoscopy, a nonmydriatic camera and a standard fundus camera",
+        "volume": "92",
+        "author": "Klein",
+        "year": "1985",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "first-page": "936",
+        "DOI": "10.1016/j.ajo.2014.01.024",
+        "article-title": "Glaucomatous optic neuropathy evaluation (GONE) project: the effect of monoscopic versus stereoscopic viewing conditions on optic nerve evaluation",
+        "volume": "157",
+        "author": "Chan",
+        "year": "2014",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "LeCun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "first-page": "437",
+        "DOI": "10.1007/s10278-011-9418-6",
+        "article-title": "Detection of neovascularization in diabetic retinopathy",
+        "volume": "25",
+        "author": "Hassan",
+        "year": "2012",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "article-title": "Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning",
+        "volume": "57",
+        "author": "Abramoff",
+        "year": "2016",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "first-page": "590",
+        "DOI": "10.1097/IJG.0000000000000354",
+        "article-title": "Automated detection of glaucoma from topographic features of the optic nerve head in color fundus photographs",
+        "volume": "25",
+        "author": "Chakrabarty",
+        "year": "2016",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "first-page": "229",
+        "DOI": "10.1016/j.cmpb.2015.08.002",
+        "article-title": "An adaptive threshold based image processing technique for improved glaucoma detection and classification",
+        "volume": "122",
+        "author": "Issac",
+        "year": "2015",
+        "journal-title": "Comput Methods Prog Biomed"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "first-page": "8310",
+        "DOI": "10.1167/iovs.12-9576",
+        "article-title": "Automated \"disease/no disease\" grading of age-related macular degeneration by an image mining approach",
+        "volume": "53",
+        "author": "Zheng",
+        "year": "2012",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "first-page": "2509",
+        "DOI": "10.2337/dc18-0147",
+        "article-title": "An automated grading system for detection of vision-threatening referable diabetic retinopathy on the basis of color fundus photographs",
+        "volume": "41",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref24",
+        "year": "2002"
+      },
+      {
+        "key": "ref25",
+        "year": "2012"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "first-page": "844",
+        "DOI": "10.1016/j.ophtha.2012.10.036",
+        "article-title": "Clinical classification of age-related macular degeneration",
+        "volume": "120",
+        "author": "Ferris",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1641",
+        "DOI": "10.1016/S0161-6420(04)00665-7",
+        "article-title": "The prevalence of primary open-angle glaucoma in Japanese: the Tajimi study",
+        "volume": "111",
+        "author": "Iwase",
+        "year": "2004",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "first-page": "2782",
+        "DOI": "10.1167/iovs.06-0051",
+        "article-title": "Prevalence and clinical characteristics of glaucoma in adult Chinese: a population-based study in Liwan District",
+        "volume": "47",
+        "author": "He",
+        "year": "2006",
+        "journal-title": "Guangzhou Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "first-page": "511",
+        "DOI": "10.1016/j.ajo.2007.06.029",
+        "article-title": "Prevalence of open-angle glaucoma in Greece: the Thessaloniki eye study",
+        "volume": "144",
+        "author": "Topouzis",
+        "year": "2007",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "first-page": "2509",
+        "DOI": "10.2337/dc18-0147",
+        "article-title": "An automated grading system for vision-threatening referable diabetic retinopathy detection based on color fundus photographs",
+        "volume": "41",
+        "author": "Zhixi Li",
+        "year": "2018",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "first-page": "4330",
+        "DOI": "10.1038/s41598-018-22612-2",
+        "article-title": "Feasibility and patient acceptability of a novel artificial intelligence-based screening model for diabetic retinopathy at endocrinology outpatient services: a pilot study",
+        "volume": "8",
+        "author": "Keel",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1009",
+        "DOI": "10.1111/ceo.13575",
+        "article-title": "Development and validation of a deep-learning algorithm for the detection of neovascular age-related macular degeneration from colour fundus photographs",
+        "volume": "47",
+        "author": "Keel",
+        "year": "2019",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "first-page": "283",
+        "DOI": "10.1007/s00138-008-0126-2",
+        "article-title": "Color constancy based on local space average color",
+        "volume": "20",
+        "author": "Ebner",
+        "year": "2009",
+        "journal-title": "Mach Vis Appl"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Rethinking the inception architecture for computer vision",
+        "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "Christian Szegedy",
+        "year": "2016"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "first-page": "790",
+        "DOI": "10.1136/bjophthalmol-2013-303948",
+        "article-title": "Rates of referable eye disease in the Scottish National Diabetic Retinopathy Screening Programme",
+        "volume": "98",
+        "author": "Looker",
+        "year": "2014",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "first-page": "556",
+        "DOI": "10.2337/dc11-1909",
+        "article-title": "Global prevalence and major risk factors of diabetic retinopathy",
+        "volume": "35",
+        "author": "Yau",
+        "year": "2012",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "first-page": "560",
+        "DOI": "10.1001/jamaophthalmol.2014.96",
+        "article-title": "Glaucomatous optic neuropathy evaluation project: factors associated with underestimation of glaucoma likelihood",
+        "volume": "132",
+        "author": "O'Neill",
+        "year": "2014",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "first-page": "742",
+        "DOI": "10.1016/j.ophtha.2010.08.019",
+        "article-title": "Agreement and accuracy of non-expert ophthalmologists in assessing glaucomatous changes in serial stereo optic disc photographs",
+        "volume": "118",
+        "author": "Breusegem",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1360",
+        "DOI": "10.1016/j.ophtha.2016.01.043",
+        "article-title": "Identification of diabetic retinopathy and ungradable image rate with ultrawide field imaging in a national teleophthalmology program",
+        "volume": "123",
+        "author": "Silva",
+        "year": "2016",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated identification of diabetic retinopathy using deep learning",
+        "volume": "124",
+        "author": "Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1170",
+        "DOI": "10.1001/jamaophthalmol.2017.3782",
+        "article-title": "Automated grading of age-related macular degeneration from color fundus images using deep convolutional neural networks",
+        "volume": "135",
+        "author": "Burlina",
+        "year": "2017",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Medicine"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2023.1115032/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2023-03-01T05:01:28Z",
+      "timestamp": 1677646888000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2023.1115032/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 43,
+    "alternative-id": [
+      "10.3389/fmed.2023.1115032"
+    ],
+    "URL": "https://doi.org/10.3389/fmed.2023.1115032",
+    "relation": {},
+    "ISSN": [
+      "2296-858X"
+    ],
+    "issn-type": [
+      {
+        "value": "2296-858X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ]
+    },
+    "article-number": "1115032"
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2026-11-06T07:10:40Z",
+      "timestamp": 1793949040512,
+      "version": "4.8.0"
+    },
+    "reference-count": 62,
+    "publisher": "Wiley",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              29
+            ]
+          ],
+          "date-time": "2021-05-29T00:00:00Z",
+          "timestamp": 1622246400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 148,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R44EY031202"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R44EY031202"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Ophthalmology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    <jats:italic>Background and Objective</jats:italic>\n                    . Glaucomatous vision loss may be preceded by an enlargement of the cup‐to‐disc ratio (CDR). We propose to develop and validate an artificial‐intelligence‐based CDR grading system that may aid in effective glaucoma‐suspect screening.\n                    <jats:italic>Design, Setting, and Participants</jats:italic>\n                    . 1546 disc‐centered fundus images were selected, including all 457 images from the Retinal Image Database for Optic Nerve Evaluation dataset, and images were randomly selected from the Age‐Related Eye Disease Study and Singapore Malay Eye Study to develop the system. First, a proprietary semiautomated software was used by an expert grader to quantify vertical CDR. Then, using CDR below 0.5 (nonsuspect) and CDR above 0.5 (glaucoma suspect), deep‐learning architectures were used to train and test a binary classifier system.\n                    <jats:italic>Measurements</jats:italic>\n                    . The binary classifier, with glaucoma suspect as positive, is measured using sensitivity, specificity, accuracy, and AUC.\n                    <jats:italic>Results</jats:italic>\n                    . The system achieved an accuracy of 89.67% (sensitivity, 83.33%; specificity, 93.89%; and AUC, 0.93). For external validation, the Retinal Fundus Image Database for Glaucoma Analysis dataset, which has 638 gradable quality images, was used. Here, the model achieved an accuracy of 83.54% (sensitivity, 80.11%; specificity, 84.96%; and AUC, 0.85).\n                    <jats:italic>Conclusions</jats:italic>\n                    . Having demonstrated an accurate and fully automated glaucoma‐suspect screening system that can be deployed on telemedicine platforms, we plan prospective trials to determine the feasibility of the system in primary‐care settings.\n                  </jats:p>",
+    "DOI": "10.1155/2021/6694784",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          29
+        ]
+      ],
+      "date-time": "2021-05-29T14:05:50Z",
+      "timestamp": 1622297150000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "An Artificial‐Intelligence‐ and Telemedicine‐Based Screening Tool to Identify Glaucoma Suspects from Color Fundus Imaging"
+    ],
+    "prefix": "10.1155",
+    "volume": "2021",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5775-2228",
+        "authenticated-orcid": false,
+        "given": "Alauddin",
+        "family": "Bhuiyan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arun",
+        "family": "Govindaiah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. Theodore",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_12_1_2",
+        "unstructured": "Bright-Focus-Foundation Glaucoma fact and figures 2020 http://www.brightfocus.org/glaucoma/article/glaucoma-facts-figures."
+      },
+      {
+        "key": "e_1_2_12_2_2",
+        "article-title": "Changing patterns in global blindness: 1988–2008",
+        "volume": "21",
+        "author": "Foster A.",
+        "year": "2008",
+        "journal-title": "Community Eye Health"
+      },
+      {
+        "key": "e_1_2_12_3_2",
+        "first-page": "844",
+        "article-title": "Global data on visual impairment in the year 2002",
+        "volume": "82",
+        "author": "Resnikoff S.",
+        "year": "2004",
+        "journal-title": "Bulletin of the World Health Organization"
+      },
+      {
+        "key": "e_1_2_12_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0140-6736(04)16257-0"
+      },
+      {
+        "key": "e_1_2_12_5_2",
+        "unstructured": "InstituteN. E. Glaucoma data and statistics 2020 https://www.nei.nih.gov/learn-about-eye-health/resources-for-health-educators/eye-health-data-and-statistics/glaucoma-data-and-statistics."
+      },
+      {
+        "key": "e_1_2_12_6_2",
+        "unstructured": "GormanD. Glaucoma: preventing the visual damage 2020 https://www.clinicaladvisor.com/home/features/glaucoma-preventing-the-visual-damage/."
+      },
+      {
+        "key": "e_1_2_12_7_2",
+        "volume-title": "Cost of Vision Problems: the Economic Burden of Vision Loss and Eye Disorders in the United States",
+        "author": "Wittenborn J. S.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_12_8_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al-BanderB. Al-NuaimyW. Al-TaeeM. A. andZhengY. Automated glaucoma diagnosis using deep learning approach Proceedings of the 2017 14th International Multi-Conference on Systems Signals & Devices (SSD) March 2017 Marrakech Morocco 207–210.",
+        "DOI": "10.1109/SSD.2017.8166974"
+      },
+      {
+        "key": "e_1_2_12_9_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "ChenX. XuY. WongD. W. K. WongT. Y. andLiuJ. Glaucoma detection based on deep convolutional neural network Proceedings of the 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) August 2015 Milano Italy 715–718.",
+        "DOI": "10.1109/EMBC.2015.7318462"
+      },
+      {
+        "key": "e_1_2_12_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/iovs.12-11467"
+      },
+      {
+        "key": "e_1_2_12_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00944008"
+      },
+      {
+        "key": "e_1_2_12_12_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "OrlandoJ. I. ProkofyevaE. del FresnoM. andBlaschkoM. B. Convolutional neural network transfer for automated glaucoma identification Proceedings of the 12th International Symposium on Medical Information Processing and Analysis December 2016 Tandil Argentina.",
+        "DOI": "10.1117/12.2255740"
+      },
+      {
+        "key": "e_1_2_12_13_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "NawaldgiS. Review of automated glaucoma detection techniques Proceedings of the 2016 International Conference on Wireless Communications October 2016 Fez Morocco 1435–1438.",
+        "DOI": "10.1109/WiSPNET.2016.7566373"
+      },
+      {
+        "key": "e_1_2_12_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/aos.14193"
+      },
+      {
+        "key": "e_1_2_12_15_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "SaxenaA. VyasA. ParasharL. andSinghU. A glaucoma detection using convolutional neural network Proceedings of the 2020 International Conference on Electronics and Sustainable Communication Systems (ICESC) April 2020 Coimbatore India 815–820.",
+        "DOI": "10.1109/ICESC48915.2020.9155930"
+      },
+      {
+        "key": "e_1_2_12_16_2",
+        "article-title": "Glaucoma diagnosis",
+        "author": "Boyd K.",
+        "year": "2020",
+        "journal-title": "American Academy of Ophthalmology"
+      },
+      {
+        "key": "e_1_2_12_17_2",
+        "unstructured": "“Glaucoma: What every patient should know.” Johns Hopkins Medicine. 2020). https://www.hopkinsmedicine.org/wilmer/services/glaucoma/book/ch06s03.html."
+      },
+      {
+        "key": "e_1_2_12_18_2",
+        "volume-title": "Medical Management of Glaucoma",
+        "author": "Tsai J.",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_12_19_2",
+        "volume-title": "Glaucoma Basic Science and Clinical Science Course, 2003-2004",
+        "author": "American Academy of Ophthalmology",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_12_20_2",
+        "article-title": "How to evaluate the suspicious optic disc",
+        "volume": "12",
+        "author": "Tsai J.",
+        "year": "2005",
+        "journal-title": "Review of Ophthalmology"
+      },
+      {
+        "key": "e_1_2_12_21_2",
+        "article-title": "An artificial intelligence based screening tool to identify glaucoma suspects from color fundus imaging",
+        "volume": "61",
+        "author": "Bhuiyan A.",
+        "year": "2020",
+        "journal-title": "Investigative Ophthalmology & Visual Science"
+      },
+      {
+        "key": "e_1_2_12_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0197-2456(99)00031-8"
+      },
+      {
+        "key": "e_1_2_12_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/09286580600878844"
+      },
+      {
+        "key": "e_1_2_12_24_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "FumeroF. AlayónS. SanchezJ. L. SigutJ. andGonzalez-HernandezM. RIM-ONE: an open retinal image database for optic nerve evaluation Proceedings of the 2011 24th International Symposium on Computer-Based Medical Systems (CBMS) June 2011 Bristol UK 1–6.",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "e_1_2_12_25_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "ZhangZ. Origa-light: an online retinal fundus image database for glaucoma analysis and research Proceedings of the 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology September 2010 Québec Canada 3065–3068.",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "e_1_2_12_26_2",
+        "unstructured": "iHealthScreen Cup-to-Disc ratio (CDR) annotator 2020 iHealthScreen Inc. Richmond Hill NY USA."
+      },
+      {
+        "key": "e_1_2_12_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-00296-0_5"
+      },
+      {
+        "key": "e_1_2_12_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00138-008-0126-2"
+      },
+      {
+        "key": "e_1_2_12_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-65981-7_12"
+      },
+      {
+        "key": "e_1_2_12_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/widm.1249"
+      },
+      {
+        "key": "e_1_2_12_31_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "SzegedyC. IoffeS. andVanhouckeV. Inception-v4 inception-resnet and the impact of residual connections on learning 2016 1–12 https://arxiv.org/abs/1602.07261.",
+        "DOI": "10.1609/aaai.v31i1.11231"
+      },
+      {
+        "key": "e_1_2_12_32_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "ZophB. VasudevanV. ShlensJ. andLeQ. V. Learning transferable architectures for scalable image recognition Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition June 2018 Salt Lake City UT USA 8697–8710.",
+        "DOI": "10.1109/CVPR.2018.00907"
+      },
+      {
+        "key": "e_1_2_12_33_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "CholletF. Xception: deep learning with depthwise separable convolutions Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition June 2017 Honolulu HI USA 1251–1258.",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "e_1_2_12_34_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "SzegedyC. VanhouckeV. IoffeS. ShlensJ. andWojnaZ. Rethinking the inception architecture for computer vision Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition June 2016 Las Vegas NV USA 2818–2826.",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "e_1_2_12_35_2",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "Krizhevsky A.",
+        "year": "2012",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_12_36_2",
+        "first-page": "1",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "volume": "1409",
+        "author": "Simonyan K.",
+        "year": "2015",
+        "journal-title": "The Proceedings of ICLR"
+      },
+      {
+        "key": "e_1_2_12_37_2",
+        "unstructured": "HintonG. SrivastavaN. andSwerskyK. Neural networks for machine learning lecture 6a overview of mini-batch gradient descent 2012 14 no. 8."
+      },
+      {
+        "key": "e_1_2_12_38_2",
+        "unstructured": "IoffeS.andSzegedyC. Batch normalization: accelerating deep network training by reducing internal covariate shift 2015 https://arxiv.org/abs/1502.03167."
+      },
+      {
+        "key": "e_1_2_12_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7150/thno.37965"
+      },
+      {
+        "key": "e_1_2_12_40_2",
+        "unstructured": "KingmaD. P.andBaJ. Adam: a method for stochastic optimization 2014 https://arxiv.org/abs/1412.6980."
+      },
+      {
+        "key": "e_1_2_12_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-005-0466-3"
+      },
+      {
+        "key": "e_1_2_12_42_2",
+        "article-title": "A prospective trial of an artificial intelligence based telemedicine platform to stratify severity of age-related macular degeneration (AMD)",
+        "volume": "61",
+        "author": "Alauddin S.",
+        "year": "2020",
+        "journal-title": "Investigative Ophthalmology & Visual Science"
+      },
+      {
+        "key": "e_1_2_12_43_2",
+        "article-title": "Development and validation of an automated AI-based diabetic retinopathy screening tool for primary care setting",
+        "volume": "61",
+        "author": "Bhuiyan A.",
+        "year": "2020",
+        "journal-title": "Investigative Ophthalmology & Visual Science"
+      },
+      {
+        "key": "e_1_2_12_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0002-9394(75)90870-3"
+      },
+      {
+        "key": "e_1_2_12_45_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0115942"
+      },
+      {
+        "key": "e_1_2_12_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc19-2133"
+      },
+      {
+        "key": "e_1_2_12_47_2",
+        "unstructured": "“Sixty percent of Americans with diabetes skip annual sight-saving exams.” American Academy of Ophthalmology. (2020) https://www.aao.org/newsroom/news-releases/detail/sixty-percent-americans-with-diabetes-skip-exams."
+      },
+      {
+        "key": "e_1_2_12_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hlpt.2019.03.004"
+      },
+      {
+        "key": "e_1_2_12_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2018-313173"
+      },
+      {
+        "key": "e_1_2_12_50_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "e_1_2_12_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1167/tvst.9.2.25"
+      },
+      {
+        "key": "e_1_2_12_52_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "CasalinoG. CastellanoG. ConsiglioA. LiguoriM. NuzzielloN. andPrimiceriD. A predictive model for MicroRNA expressions in pediatric multiple sclerosis detection modeling decisions for artificial intelligence Proceedings of the International Conference on Modeling Decisions for Artificial Intelligence September 2019 Milan Italy 177–188 https://doi.org/10.1007/978-3-030-26773-5_16 2-s2.0-85072844713.",
+        "DOI": "10.1007/978-3-030-26773-5_16"
+      },
+      {
+        "key": "e_1_2_12_53_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2020.06.001"
+      },
+      {
+        "key": "e_1_2_12_54_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "GovindaiahA. SmithT. andBhuiyanA. A new and improved method for automated screening of age-related macular degeneration using ensemble deep neural networks Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society July 2018 Honolulu Hawaii 702–705.",
+        "DOI": "10.1109/EMBC.2018.8512379"
+      },
+      {
+        "key": "e_1_2_12_55_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/isbi.2018.8363863"
+      },
+      {
+        "key": "e_1_2_12_56_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaophthalmol.2018.4118"
+      },
+      {
+        "key": "e_1_2_12_57_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.02.037"
+      },
+      {
+        "key": "e_1_2_12_58_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023"
+      },
+      {
+        "key": "e_1_2_12_59_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.18152"
+      },
+      {
+        "key": "e_1_2_12_60_2",
+        "unstructured": "The Meaning of Cupping MedRounds 2020 http://www.medrounds.org/glaucoma-guide/2006/02/section-1-b-meaning-of-cupping.html."
+      },
+      {
+        "key": "e_1_2_12_61_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2007.04.062"
+      },
+      {
+        "key": "e_1_2_12_62_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archopht.1970.00990040592006"
+      }
+    ],
+    "container-title": [
+      "Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/6694784",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1155/2021/6694784",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/6694784",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2026-07-10T03:20:19Z",
+      "timestamp": 1783653619000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1155/2021/6694784"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Heba A",
+        "family": "El Gendy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1155/2021/6694784"
+    ],
+    "URL": "https://doi.org/10.1155/2021/6694784",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2021.04.16.440184",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2090-004X",
+      "2090-0058"
+    ],
+    "issn-type": [
+      {
+        "value": "2090-004X",
+        "type": "print"
+      },
+      {
+        "value": "2090-0058",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2020-12-29",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-05-11",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-05-29",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "6694784"
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T09:48:40Z",
+      "timestamp": 1792057720035,
+      "version": "4.4.0"
+    },
+    "reference-count": 40,
+    "publisher": "Elsevier BV",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              31
+            ]
+          ],
+          "date-time": "2026-07-31T00:00:00Z",
+          "timestamp": 1785456000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EY036593"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EY036593"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006827",
+        "name": "Florida Department of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "VisionGen Grant"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "VisionGen Grant"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006827",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2026.101355",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2026-08-06T15:28:13Z",
+      "timestamp": 1786030093000
+    },
+    "page": "101355",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Diagnostic Likelihood Ratios for Glaucoma Using Deep Learning–Predicted Retinal Nerve Fiber Layer Thickness from Fundus Photographs"
+    ],
+    "prefix": "10.1016",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Neda",
+        "family": "Nilforoushan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Douglas R.",
+        "family": "da Costa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rafael",
+        "family": "Scherer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Natalia",
+        "family": "Palazoni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Davina A.",
+        "family": "Malek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3924-2720",
+        "authenticated-orcid": false,
+        "given": "Felipe A.",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "18",
+        "key": "10.1016/j.xops.2026.101355_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "Jama"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101355_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1001/jama.2020.21899",
+        "article-title": "Glaucoma in adults—screening, diagnosis, and management: a review",
+        "volume": "325",
+        "author": "Stein",
+        "year": "2021",
+        "journal-title": "Jama"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.xops.2026.101355_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e144",
+        "DOI": "10.1016/S2214-109X(20)30489-7",
+        "article-title": "Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the right to sight: an analysis for the Global Burden of Disease Study",
+        "volume": "9",
+        "author": "Steinmetz",
+        "year": "2021",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.xops.2026.101355_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "648",
+        "DOI": "10.1016/j.ophtha.2007.04.062",
+        "article-title": "Prevalence of primary open-angle glaucoma in an urban south Indian population and comparison with a rural population: the Chennai Glaucoma Study",
+        "volume": "115",
+        "author": "Vijaya",
+        "year": "2008",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.xops.2026.101355_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1702",
+        "DOI": "10.1016/S0161-6420(00)00275-X",
+        "article-title": "Open-angle glaucoma in an urban population in southern India: the Andhra Pradesh eye disease study",
+        "volume": "107",
+        "author": "Dandona",
+        "year": "2000",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.xops.2026.101355_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.xops.2026.101355_bib7",
+        "article-title": "Epidemiology of glaucoma: the past, present, and predictions for the future",
+        "volume": "12",
+        "author": "Allison",
+        "year": "2020",
+        "journal-title": "Cureus"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.xops.2026.101355_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.1097/APO.0000000000000264",
+        "article-title": "Global blindness: the progress we are making and still need to make",
+        "volume": "8",
+        "author": "Taylor",
+        "year": "2019",
+        "journal-title": "Asia-Pacific J Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/bmjopen-2025-108975",
+        "article-title": "Global, regional and national burden of glaucoma from 1990 to 2021 and projections to 2050: a retrospective cross-sectional study",
+        "volume": "16",
+        "author": "Peng",
+        "year": "2026",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101355_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1038/s41433-021-01687-8",
+        "article-title": "Population screening for glaucoma in UK: current recommendations and future directions",
+        "volume": "36",
+        "author": "Hamid",
+        "year": "2022",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1016/bs.pbr.2015.03.001",
+        "article-title": "Strategies to improve early diagnosis in glaucoma",
+        "volume": "221",
+        "author": "Tatham",
+        "year": "2015",
+        "journal-title": "Prog Brain Res"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.2174/1874364101509010078",
+        "article-title": "The use of spectral-domain optical coherence tomography to detect glaucoma progression",
+        "volume": "9",
+        "author": "Abe",
+        "year": "2015",
+        "journal-title": "Open Ophthalmol J"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.xops.2026.101355_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1334",
+        "DOI": "10.1016/j.ophtha.2010.11.029",
+        "article-title": "Comparison of the diagnostic accuracies of the Spectralis, Cirrus, and RTVue optical coherence tomography devices in glaucoma",
+        "volume": "118",
+        "author": "Leite",
+        "year": "2011",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.xops.2026.101355_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "S57",
+        "DOI": "10.1016/j.ophtha.2017.07.015",
+        "article-title": "Detecting structural progression in glaucoma with optical coherence tomography",
+        "volume": "124",
+        "author": "Tatham",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.xops.2026.101355_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "659",
+        "DOI": "10.1016/S0002-9394(14)70632-4",
+        "article-title": "Comparison of methods to evaluate the optic nerve head and nerve fiber layer for glaucomatous change",
+        "volume": "121",
+        "author": "Caprioli",
+        "year": "1996",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "article-title": "Agreement among glaucoma specialists in assessing progressive disc changes from photographs in open-angle glaucoma patients",
+        "volume": "147",
+        "author": "Jampel",
+        "year": "2009",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.xops.2026.101355_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e16",
+        "DOI": "10.1016/j.ogla.2022.02.010",
+        "article-title": "Artificial intelligence for glaucoma: creating and implementing artificial intelligence for disease detection and progression",
+        "volume": "5",
+        "author": "Al-Aswad",
+        "year": "2022",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "395",
+        "DOI": "10.1016/j.ajo.2025.09.051",
+        "article-title": "RNFL thickness in a population-based cohort: the Canadian Longitudinal Study on Aging M2M (Machine-to-Machine) Study",
+        "volume": "281",
+        "author": "Azizi",
+        "year": "2026",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1016/j.ajo.2019.11.006",
+        "article-title": "Human versus machine: comparing a deep learning algorithm to human gradings for detecting glaucoma on fundus photographs",
+        "volume": "211",
+        "author": "Jammal",
+        "year": "2020",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.xops.2026.101355_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1016/j.ophtha.2018.12.033",
+        "article-title": "From machine to machine: an OCT-trained deep learning algorithm for objective quantification of glaucomatous damage in fundus photographs",
+        "volume": "126",
+        "author": "Medeiros",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.xops.2026.101355_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "652",
+        "DOI": "10.1001/jamaophthalmol.2025.1740",
+        "article-title": "Predicting retinal nerve fiber layer thickness from Ocular Hypertension Treatment Study optic disc photographs",
+        "volume": "143",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/1472-6920-11-94",
+        "article-title": "Conceptualization of category-oriented likelihood ratio: a useful tool for clinical diagnostic reasoning",
+        "volume": "11",
+        "author": "Moosapour",
+        "year": "2011",
+        "journal-title": "BMC Med Educ"
+      },
+      {
+        "issue": "9469",
+        "key": "10.1016/j.xops.2026.101355_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1500",
+        "DOI": "10.1016/S0140-6736(05)66422-7",
+        "article-title": "Refining clinical diagnosis with likelihood ratios",
+        "volume": "365",
+        "author": "Grimes",
+        "year": "2005",
+        "journal-title": "Lancet"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1752",
+        "DOI": "10.1038/s41598-021-80993-3",
+        "article-title": "An objective structural and functional reference standard in glaucoma",
+        "volume": "11",
+        "author": "Mariottoni",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101355_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/j.ophtha.2020.07.045",
+        "article-title": "Detection of progressive glaucomatous optic nerve damage on fundus photographs with deep learning",
+        "volume": "128",
+        "author": "Medeiros",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1093/biostatistics/kxq045",
+        "article-title": "Estimating the diagnostic likelihood ratio of a continuous marker",
+        "volume": "12",
+        "author": "Gu",
+        "year": "2011",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.xops.2026.101355_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "918",
+        "DOI": "10.1016/j.ajo.2013.06.017",
+        "article-title": "Likelihood ratios for glaucoma diagnosis using spectral-domain optical coherence tomography",
+        "volume": "156",
+        "author": "Lisboa",
+        "year": "2013",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.xops.2026.101355_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "654",
+        "DOI": "10.1161/CIRCULATIONAHA.105.594929",
+        "article-title": "Receiver-operating characteristic analysis for evaluating diagnostic tests and predictive models",
+        "volume": "115",
+        "author": "Zou",
+        "year": "2007",
+        "journal-title": "Circulation"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.4097/kja.21209",
+        "article-title": "Receiver operating characteristic curve: overview and practical use for clinicians",
+        "volume": "75",
+        "author": "Nahm",
+        "year": "2022",
+        "journal-title": "Korean J Anesthesiol"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.xops.2026.101355_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2520",
+        "DOI": "10.1167/iovs.05-1441",
+        "article-title": "A statistical approach to the evaluation of covariate effects on the receiver operating characteristic curves of diagnostic tests in glaucoma",
+        "volume": "47",
+        "author": "Medeiros",
+        "year": "2006",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.xops.2026.101355_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1093/biostatistics/3.3.421",
+        "article-title": "Distribution-free ROC analysis using binary regression techniques",
+        "volume": "3",
+        "author": "Alonzo",
+        "year": "2002",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.2307/2534001",
+        "article-title": "Three approaches to regression analysis of receiver operating characteristic curves for continuous test results",
+        "volume": "54",
+        "author": "Pepe",
+        "year": "1998",
+        "journal-title": "Biometrics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1093/aje/kwn099",
+        "article-title": "Adjusting for covariates in studies of diagnostic, screening, or prognostic markers: an old concept in a new setting",
+        "volume": "168",
+        "author": "Janes",
+        "year": "2008",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.xops.2026.101355_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "575",
+        "DOI": "10.1016/S0196-0644(99)70346-X",
+        "article-title": "Likelihood ratio: a powerful tool for incorporating the results of a diagnostic test into clinical decisionmaking",
+        "volume": "33",
+        "author": "Hayden",
+        "year": "1999",
+        "journal-title": "Ann Emerg Med"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.xops.2026.101355_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "694",
+        "DOI": "10.1016/S0735-6757(97)90189-3",
+        "article-title": "Generalized likelihood ratios for quantitative diagnostic test scores",
+        "volume": "15",
+        "author": "Tandberg",
+        "year": "1997",
+        "journal-title": "The Am J Emerg Med"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib36",
+        "first-page": "50",
+        "article-title": "Consequences of dichotomization",
+        "volume": "8",
+        "author": "Fedorov",
+        "year": "2009",
+        "journal-title": "Pharm Stat The J Appl Stat Pharm Industry"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1002/sim.2331",
+        "article-title": "Dichotomizing continuous predictors in multiple regression: a bad idea",
+        "volume": "25",
+        "author": "Royston",
+        "year": "2006",
+        "journal-title": "Stat Med"
+      },
+      {
+        "issue": "19",
+        "key": "10.1016/j.xops.2026.101355_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "2035",
+        "DOI": "10.1001/jama.2013.5099",
+        "article-title": "Do findings on routine examination identify patients at risk for primary open-angle glaucoma? The rational clinical examination systematic review",
+        "volume": "309",
+        "author": "Hollands",
+        "year": "2013",
+        "journal-title": "Jama"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.xops.2026.101355_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1186/s40942-021-00313-9",
+        "article-title": "Smartphone fundus photography: a narrative review",
+        "volume": "7",
+        "author": "Iqbal",
+        "year": "2021",
+        "journal-title": "Int J Retina Vitreous"
+      },
+      {
+        "key": "10.1016/j.xops.2026.101355_bib40",
+        "article-title": "Smartphone fundus photography",
+        "volume": "125",
+        "author": "Khanamiri",
+        "year": "2017",
+        "journal-title": "JoVE (Journal of Visualized Experiments)"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526002939?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914526002939?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T09:23:29Z",
+      "timestamp": 1792056209000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914526002939"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914526002939"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2026.101355",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Diagnostic Likelihood Ratios for Glaucoma Using Deep Learning–Predicted Retinal Nerve Fiber Layer Thickness from Fundus Photographs",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2026.101355",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 American Academy of Ophthalmology, Inc. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101355"
+  }
+}

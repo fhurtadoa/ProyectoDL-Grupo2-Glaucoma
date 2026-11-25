@@ -1,0 +1,869 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T19:29:31Z",
+      "timestamp": 1795202971758,
+      "version": "4.10.3"
+    },
+    "reference-count": 55,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2018-11-12T00:00:00Z",
+          "timestamp": 1541980800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2018-11-12T00:00:00Z",
+          "timestamp": 1541980800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The ability of deep learning architectures to identify glaucomatous optic neuropathy (GON) in fundus photographs was evaluated. A large database of fundus photographs (n = 14,822) from a racially and ethnically diverse group of individuals (over 33% of African descent) was evaluated by expert reviewers and classified as GON or healthy. Several deep learning architectures and the impact of transfer learning were evaluated. The best performing model achieved an overall area under receiver operating characteristic (AUC) of 0.91 in distinguishing GON eyes from healthy eyes. It also achieved an AUC of 0.97 for identifying GON eyes with moderate-to-severe functional loss and 0.89 for GON eyes with mild functional loss. A sensitivity of 88% at a set 95% specificity was achieved in detecting moderate-to-severe GON. In all cases, transfer improved performance and reduced training time. Model visualizations indicate that these deep learning models relied on, in part, anatomical features in the inferior and superior regions of the optic disc, areas commonly used by clinicians to diagnose GON. The results suggest that deep learning-based assessment of fundus images could be useful in clinical decision support systems and in the automation of large-scale glaucoma detection and screening programs.</jats:p>",
+    "DOI": "10.1038/s41598-018-35044-9",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2018-11-06T06:37:16Z",
+      "timestamp": 1541486236000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 284,
+    "title": [
+      "Performance of Deep Learning Architectures and Transfer Learning for Detecting Glaucomatous Optic Neuropathy in Fundus Photographs"
+    ],
+    "prefix": "10.1038",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Mark",
+        "family": "Christopher",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akram",
+        "family": "Belghith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Bowd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James A.",
+        "family": "Proudfoot",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael H.",
+        "family": "Goldbaum",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert N.",
+        "family": "Weinreb",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher A.",
+        "family": "Girkin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey M.",
+        "family": "Liebmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linda M.",
+        "family": "Zangwill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "35044_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "volume": "90",
+        "author": "H Quigley",
+        "year": "2006",
+        "unstructured": "Quigley, H. & Broman, A. T. The number of people with glaucoma worldwide in 2010 and 2020. British Journal of Ophthalmology 90, 262–267 (2006).",
+        "journal-title": "British Journal of Ophthalmology"
+      },
+      {
+        "key": "35044_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "volume": "121",
+        "author": "YC Tham",
+        "year": "2014",
+        "unstructured": "Tham, Y. C. et al. Global prevalence of glaucoma and projections of glaucoma burden through 2040: A systematic review and meta-analysis. Ophthalmology 121, 2081–2090 (2014).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "35044_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "776",
+        "DOI": "10.1001/archopht.1975.01010020670002",
+        "volume": "93",
+        "author": "JT Schwartz",
+        "year": "1975",
+        "unstructured": "Schwartz, J. T., Reuling, F. H. & Feinleib, M. Size of the Physiologic Cup of the Optic Nerve Head: Hereditary and Environmental Factors. Arch. Ophthalmol. 93, 776–780 (1975).",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "35044_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "821",
+        "DOI": "10.1001/archopht.1994.01090180121046",
+        "volume": "112",
+        "author": "MC Leske",
+        "year": "1994",
+        "unstructured": "Leske, M. C., Connell, A. M. S., Schachat, A. P. & Hyman, L. The Barbados Eye Study. Arch. Ophthalmol. 112, 821 (1994).",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "35044_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "938",
+        "DOI": "10.1001/jamaophthalmol.2015.1478",
+        "volume": "133",
+        "author": "J Chua",
+        "year": "2015",
+        "unstructured": "Chua, J. et al. Prevalence, risk factors, and visual features of undiagnosed glaucoma: The Singapore epidemiology of eye diseases study. JAMA Ophthalmol. 133, 938–946 (2015).",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "35044_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.1016/j.ajo.2017.07.010",
+        "volume": "182",
+        "author": "SE Miller",
+        "year": "2017",
+        "unstructured": "Miller, S. E. et al. Glaucoma Screening in Nepal: Cup-to-Disc Estimate With Standard Mydriatic Fundus Camera Compared to Portable Nonmydriatic Camera. Am. J. Ophthalmol. 182, 99–106 (2017).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "35044_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burr, J. M. et al. The clinical effectiveness and cost-effectiveness of screening for open angle glaucoma: a systematic review and economic evaluation. Health Technol. Assess. 11, iii–iv, ix–x, 1–190 (2007).",
+        "DOI": "10.3310/hta11410"
+      },
+      {
+        "key": "35044_CR8",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.7326/0003-4819-159-6-201309170-00686",
+        "volume": "159",
+        "author": "VA Moyer",
+        "year": "2013",
+        "unstructured": "Moyer, V. A., U.S. Preventive Services Task Force. Screening for glaucoma: U.s. preventive services task force recommendation statement. Ann. Intern. Med. 159, 484–489 (2013).",
+        "journal-title": "Ann. Intern. Med."
+      },
+      {
+        "issue": "1",
+        "key": "35044_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "39-44.e1",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "volume": "147",
+        "author": "Henry D. Jampel",
+        "year": "2009",
+        "unstructured": "Jampel, H. D. et al. Agreement Among Glaucoma Specialists in Assessing Progressive Disc Changes From Photographs in Open-Angle Glaucoma Patients. Am. J. Ophthalmol. 147 (2009).",
+        "journal-title": "American Journal of Ophthalmology"
+      },
+      {
+        "key": "35044_CR10",
+        "unstructured": "Gaasterland, D. E. et al. The Advanced Glaucoma Intervention Study (AGIS): 10. Variability among academic glaucoma subspecialists in assessing optic disc notching. Trans. Am. Ophthalmol. Soc. 99, 177–84; discussion 184–5 (2001)."
+      },
+      {
+        "key": "35044_CR11",
+        "first-page": "532",
+        "volume": "74",
+        "author": "PR Lichter",
+        "year": "1976",
+        "unstructured": "Lichter, P. R. Variability of expert observers in evaluating the optic disc. Trans. Am. Ophthalmol. Soc. 74, 532–572 (1976).",
+        "journal-title": "Trans. Am. Ophthalmol. Soc."
+      },
+      {
+        "key": "35044_CR12",
+        "unstructured": "Stark, A. FDA permits marketing of artificial intelligence-based device to detect certain diabetes-related eye problems (Accessed: 4th June 2018). Available at, https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm604357.htm. (2018)."
+      },
+      {
+        "key": "35044_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "221",
+        "DOI": "10.1146/annurev-bioeng-071516-044442",
+        "volume": "19",
+        "author": "D Shen",
+        "year": "2017",
+        "unstructured": "Shen, D., Wu, G. & Suk, H.-I. Deep Learning in Medical Image Analysis. Annu. Rev. Biomed. Eng. 19, 221–248 (2017).",
+        "journal-title": "Annu. Rev. Biomed. Eng."
+      },
+      {
+        "issue": "4",
+        "key": "35044_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "322",
+        "DOI": "10.1016/j.oret.2016.12.009",
+        "volume": "1",
+        "author": "Cecilia S. Lee",
+        "year": "2017",
+        "unstructured": "Lee, C. S., Baughman, D. M. & Lee, A. Y. Deep Learning Is Effective for Classifying Normal versus Age-Related Macular Degeneration Optical Coherence Tomography Images. Ophthalmol. Retin, https://doi.org/10.1016/j.oret.2016.12.009 (2017).",
+        "journal-title": "Ophthalmology Retina"
+      },
+      {
+        "key": "35044_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1974",
+        "DOI": "10.1016/j.ophtha.2016.05.029",
+        "volume": "123",
+        "author": "R Asaoka",
+        "year": "2016",
+        "unstructured": "Asaoka, R., Murata, H., Iwase, A. & Araie, M. Detecting Preperimetric Glaucoma with Standard Automated Perimetry Using a Deep Learning Classifier. Ophthalmology 123, 1974–1980 (2016).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "13",
+        "key": "35044_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "volume": "57",
+        "author": "Michael David Abràmoff",
+        "year": "2016",
+        "unstructured": "Abramoff, M., Erginay, A., Folk, J. C. & Niemeijer, M. Improved Automated Detection of Diabetic Retinopathy on a Publicly Available Dataset through Integration of Deep Learning Improved Automated Detection of Diabetic Retinopathy on a Publicly Available. Invest. Ophthalmol. Vis. Sci., https://doi.org/10.1167/iovs.16-19964 (2016).",
+        "journal-title": "Investigative Opthalmology & Visual Science"
+      },
+      {
+        "key": "35044_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "unstructured": "Gulshan, V. et al. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA 316, 2402 (2016).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "35044_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1122",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "volume": "172",
+        "author": "DS Kermany",
+        "year": "2018",
+        "unstructured": "Kermany, D. S. et al. Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning. Cell 172, 1122–1131.e9 (2018).",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "35044_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1167/iovs.17-22617",
+        "volume": "59",
+        "author": "SK Devalla",
+        "year": "2018",
+        "unstructured": "Devalla, S. K. et al. A Deep Learning Approach to Digitally Stain Optical Coherence Tomography Images of the Optic Nerve Head. Invest. Ophthalmol. Vis. Sci. 59, 63–74 (2018).",
+        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "35044_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "169",
+        "DOI": "10.1109/RBME.2010.2084567",
+        "volume": "1",
+        "author": "M Abràmoff",
+        "year": "2010",
+        "unstructured": "Abràmoff, M., Garvin, M. K. & Sonka, M. Retinal Imaging and Image Analysis. Eng. IEEE Rev. 1, 169–208 (2010).",
+        "journal-title": "Eng. IEEE Rev."
+      },
+      {
+        "key": "35044_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2112",
+        "DOI": "10.1109/TBME.2014.2314714",
+        "volume": "61",
+        "author": "S Yousefi",
+        "year": "2014",
+        "unstructured": "Yousefi, S. et al. Learning from data: Recognizing glaucomatous defect patterns and detecting progression from visual field measurements. IEEE Trans. Biomed. Eng. 61, 2112–2124 (2014).",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "35044_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "263",
+        "DOI": "10.1109/42.34715",
+        "volume": "8",
+        "author": "S Chaudhuri",
+        "year": "1989",
+        "unstructured": "Chaudhuri, S., Chatterjee, S., Katz, N., Nelson, M. & Goldbaum, M. Detection of blood vessels in retinal images using two-dimensional matched filters. IEEE Trans. Med. Imaging 8, 263–269 (1989).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "35044_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "695",
+        "DOI": "10.1109/ICIP.1996.560760",
+        "volume": "3",
+        "author": "M Goldbaum",
+        "year": "1996",
+        "unstructured": "Goldbaum, M. et al. Automated Diagnosis and Image Understanding with Object Extraction, Object Classification, and Inferencing in Retinal Images. Proc. IEEE Int. Conf. Image Process. 3, 695–698 (1996).",
+        "journal-title": "Proc. IEEE Int. Conf. Image Process."
+      },
+      {
+        "key": "35044_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "volume": "521",
+        "author": "Y LeCun",
+        "year": "2015",
+        "unstructured": "LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 436–444 (2015).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "35044_CR25",
+        "unstructured": "Baker, B., Gupta, O., Naik, N. & Raskar, R. Designing Neural Network Architectures Using Reinforcement Learning. Proc. 5th Int. Conf. Learn. Represent. 1–18 (2017)."
+      },
+      {
+        "key": "35044_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weiss, K., Khoshgoftaar, T. M. & Wang, D. D. A survey of transfer learning. J. Big Data 3 (2016).",
+        "DOI": "10.1186/s40537-016-0043-6"
+      },
+      {
+        "key": "35044_CR27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1086",
+        "DOI": "10.1097/IJG.0000000000000765",
+        "volume": "26",
+        "author": "H Muhammad",
+        "year": "2017",
+        "unstructured": "Muhammad, H. et al. Hybrid Deep Learning on Single Wide-field Optical Coherence tomography Scans Accurately Classifies Glaucoma Suspects. J. Glaucoma 26, 1086–1094 (2017).",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "35044_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1136",
+        "DOI": "10.1001/archophthalmol.2009.187",
+        "volume": "127",
+        "author": "PA Sample",
+        "year": "2009",
+        "unstructured": "Sample, P. A. et al. The African Descent and Glaucoma Evaluation Study (ADAGES): design and baseline data. Arch. Ophthalmol. (Chicago, Ill. 1960) 127, 1136–45 (2009).",
+        "journal-title": "Arch. Ophthalmol. (Chicago, Ill. 1960)"
+      },
+      {
+        "key": "35044_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "551",
+        "DOI": "10.1001/archophthalmol.2010.58",
+        "volume": "128",
+        "author": "L Racette",
+        "year": "2010",
+        "unstructured": "Racette, L. et al. African Descent and Glaucoma Evaluation Study (ADAGES): III. Ancestry differences in visual function in healthy eyes. Arch. Ophthalmol. (Chicago, Ill. 1960) 128, 551–9 (2010).",
+        "journal-title": "Arch. Ophthalmol. (Chicago, Ill. 1960)"
+      },
+      {
+        "key": "35044_CR30",
+        "unstructured": "Wang, J. & Perez, L. The Effectiveness of Data Augmentation in Image Classification using Deep Learning. Convolutional Neural Networks Vis. Recognit (2017)."
+      },
+      {
+        "issue": "4",
+        "key": "35044_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "769",
+        "DOI": "10.1016/j.infsof.2008.09.005",
+        "volume": "51",
+        "author": "Esther Guerra",
+        "year": "2009",
+        "unstructured": "Simonyan, K. & Zisserman, A. Very Deep Convolutional Networks for Large-Scale Image Recognition. Int. Conf. Learn. Represent. 1–14, https://doi.org/10.1016/j.infsof.2008.09.005 (2015).",
+        "journal-title": "Information and Software Technology"
+      },
+      {
+        "key": "35044_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy, C. et al. Going deeper with convolutions. In Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition 07-12-June, 1–9 (2015).",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "35044_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1016/j.patrec.2014.01.008",
+        "volume": "42",
+        "author": "Martin Längkvist",
+        "year": "2014",
+        "unstructured": "Szegedy, C., Ioffe, S. & Vanhoucke, V. Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning. Arxiv 12, https://doi.org/10.1016/j.patrec.2014.01.008 (2016).",
+        "journal-title": "Pattern Recognition Letters"
+      },
+      {
+        "key": "35044_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "volume": "42",
+        "author": "G Litjens",
+        "year": "2017",
+        "unstructured": "Litjens, G. et al. A survey on deep learning in medical image analysis. Medical Image Analysis 42, 60–88 (2017).",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "key": "35044_CR35",
+        "first-page": "249",
+        "volume": "9",
+        "author": "X Glorot",
+        "year": "2010",
+        "unstructured": "Glorot, X. & Bengio, Y. Understanding the difficulty of training deep feedforward neural networks. PMLR 9, 249–256 (2010).",
+        "journal-title": "PMLR"
+      },
+      {
+        "key": "35044_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "volume": "115",
+        "author": "O Russakovsky",
+        "year": "2015",
+        "unstructured": "Russakovsky, O. et al. ImageNet Large Scale Visual Recognition Challenge. Int. J. Comput. Vis. 115, 211–252 (2015).",
+        "journal-title": "Int. J. Comput. Vis."
+      },
+      {
+        "key": "35044_CR37",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jia, Y. et al. Caffe: Convolutional Architecture for Fast Feature Embedding. ACM Int. Conf. Multimed. 675–678, https://doi.org/10.1145/2647868.2654889 (2014).",
+        "DOI": "10.1145/2647868.2654889"
+      },
+      {
+        "issue": "2",
+        "key": "35044_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "567",
+        "DOI": "10.2307/2533958",
+        "volume": "53",
+        "author": "Nancy A. Obuchowski",
+        "year": "1997",
+        "unstructured": "Obuchowski, N. A. Nonparametric analysis of clustered ROC curve data. Biometrics, https://doi.org/10.2307/2533958 (1997).",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "35044_CR39",
+        "series-title": "Lecture Notes in Physics",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-74686-7",
+        "volume-title": "Computational Many-Particle Physics",
+        "year": "2008",
+        "unstructured": "R Development Core Team, R. R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, https://doi.org/10.1007/978-3-540-74686-7 (2011)."
+      },
+      {
+        "key": "35044_CR40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-77",
+        "author": "X Robin",
+        "year": "2011",
+        "unstructured": "Robin, X. et al. pROC: An open-source package for R and S+ to analyze and compare ROC curves. BMC Bioinformatics. https://doi.org/10.1186/1471-2105-12-77 (2011).",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "35044_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv153",
+        "author": "J Grau",
+        "year": "2015",
+        "unstructured": "Grau, J., Grosse, I. & Keilwagen, J. PRROC: Computing and visualizing Precision-recall and receiver operating characteristic curves in R. Bioinformatics. https://doi.org/10.1093/bioinformatics/btv153 (2015).",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "35044_CR42",
+        "doi-asserted-by": "crossref",
+        "first-page": "818",
+        "DOI": "10.1007/978-3-319-10590-1_53",
+        "volume-title": "Computer Vision – ECCV 2014",
+        "author": "Matthew D. Zeiler",
+        "year": "2014",
+        "unstructured": "Zeiler, M. D. & Fergus, R. Visualizing and understanding convolutional networks. In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 8689 LNCS, 818–833 (2014)."
+      },
+      {
+        "key": "35044_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "590",
+        "DOI": "10.1097/IJG.0000000000000354",
+        "volume": "25",
+        "author": "L Chakrabarty",
+        "year": "2016",
+        "unstructured": "Chakrabarty, L. et al. Automated Detection of Glaucoma from Topographic Features of the Optic Nerve Head in Color Fundus Photographs. J. Glaucoma 25, 590–597 (2016).",
+        "journal-title": "J. Glaucoma"
+      },
+      {
+        "key": "35044_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, A., Cheng, J., Wong, D. W. K. & Liu, J. Integrating holistic and local deep features for glaucoma classification. In Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBS 2016–Octob, 1328–1331 (2016).",
+        "DOI": "10.1109/EMBC.2016.7590952"
+      },
+      {
+        "key": "35044_CR45",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Chen, X., Xu, Y., Wong, D. W. K., Wong, T. Y. & Liu, J. Glaucoma detection based on deep convolutional neural network. In 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 715–718, https://doi.org/10.1109/EMBC.2015.7318462 (2015).",
+        "DOI": "10.1109/EMBC.2015.7318462"
+      },
+      {
+        "key": "35044_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1102",
+        "DOI": "10.1093/oxfordjournals.aje.a116013",
+        "volume": "134",
+        "author": "JM Tielsch",
+        "year": "1991",
+        "unstructured": "Tielsch, J. M. et al. A population-based evaluation of glaucoma screening: The baltimore eye survey. Am. J. Epidemiol. 134, 1102–1110 (1991).",
+        "journal-title": "Am. J. Epidemiol."
+      },
+      {
+        "key": "35044_CR47",
+        "first-page": "1",
+        "volume": "59",
+        "author": "AM Ervib",
+        "year": "2012",
+        "unstructured": "Ervib, A. M., Boland, M. V., Al, M. E. E. & Review, C. E. Screening for Glaucoma: Comparative Effectiveness. Comp. Eff. Revieuw 59, 1–20 (2012).",
+        "journal-title": "Comp. Eff. Revieuw"
+      },
+      {
+        "key": "35044_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1016/S0039-6257(98)00049-6",
+        "volume": "43",
+        "author": "JB Jonas",
+        "year": "1999",
+        "unstructured": "Jonas, J. B., Budde, W. M. & Panda-Jonas, S. Ophthalmoscopic evaluation of the optic nerve head. Survey of Ophthalmology 43, 293–320 (1999).",
+        "journal-title": "Survey of Ophthalmology"
+      },
+      {
+        "key": "35044_CR49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "author": "Z Li",
+        "year": "2018",
+        "unstructured": "Li, Z. et al. Efficacy of a Deep Learning System for Detecting Glaucomatous Optic Neuropathy Based on Color Fundus Photographs. Ophthalmology. https://doi.org/10.1016/j.ophtha.2018.01.023 (2018).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "35044_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1001/archopht.122.1.22",
+        "volume": "122",
+        "author": "LM Zangwill",
+        "year": "2004",
+        "unstructured": "Zangwill, L. M. et al. Racial differences in optic disc topography: Baseline results from the confocal scanning laser ophthalmoscopyancillary study to the ocular hypertension treatment study. Arch. Ophthalmol. 122, 22–28 (2004).",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "35044_CR51",
+        "doi-asserted-by": "publisher",
+        "unstructured": "He, K., Zhang, X., Ren, S. & Sun, J. Deep Residual Learning for Image Recognition. in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), https://doi.org/10.1109/CVPR.2016.90 (2016).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "10",
+        "key": "35044_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1662",
+        "DOI": "10.1016/S0161-6420(94)31118-3",
+        "volume": "101",
+        "author": "Lisa S. Abrams",
+        "year": "1994",
+        "unstructured": "Abrams, L. S., Scott, I. U., Spaeth, G. L., Quigley, H. A. & Varma, R. Agreement among Optometrists, Ophthalmologists, and Residents in Evaluating the Optic Disc for Glaucoma. Ophthalmology, https://doi.org/10.1016/S0161-6420(94)31118-3 (1994).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "2",
+        "key": "35044_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "215",
+        "DOI": "10.1016/S0161-6420(92)31990-6",
+        "volume": "99",
+        "author": "Rohit Varma",
+        "year": "1992",
+        "unstructured": "Varma, R., Steinmann, W. C. & Scott, I. U. Expert Agreement in Evaluating the Optic Disc for Glaucoma. Ophthalmology, https://doi.org/10.1016/S0161-6420(92)31990-6 (1992).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "35044_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Žbontar, J. & Le Cun, Y. Computing the stereo matching cost with a convolutional neural network. in Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition 07-12-June, 1592–1599 (2015).",
+        "DOI": "10.1109/CVPR.2015.7298767"
+      },
+      {
+        "key": "35044_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "677",
+        "DOI": "10.1109/TPAMI.2016.2599174",
+        "volume": "39",
+        "author": "J Donahue",
+        "year": "2017",
+        "unstructured": "Donahue, J. et al. Long-Term Recurrent Convolutional Networks for Visual Recognition and Description. IEEE Trans. Pattern Anal. Mach. Intell. 39, 677–691 (2017).",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-018-35044-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-018-35044-9",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-018-35044-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2026-04-03T23:59:09Z",
+      "timestamp": 1775260749000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-018-35044-9"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "35044"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-018-35044-9",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "28 August 2018",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 October 2018",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "12 November 2018",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Dr. Robert N. Weinreb received compensation as a consultant from Aerie Pharmaceuticals and Allergan. He received research support from Carl Zeiss Meditec, CenterVue, Genentech, Heidelberg Engineering, Konan Medical, the National Eye Institute, Optos, Optovue, and Research to Prevent Blindness. Dr. Christopher A. Girkin received research support from EyeSight Foundation of Alabama, Heidelberg Engineering, the National Eye Institute, and Research to Prevent Blindness. Dr. Jeffrey M. Liebman received compensation as a consultant from Alcon, Allergan, Bausch & Lomb, Carl Zeiss Meditec, Heidelberg Engineering, Reichert Technologies, and Valeant Pharmaceuticals. He received research support from Bausch & Lomb, Carl Zeiss Meditec, Heidelberg Engineering, the National Eye Institute, Optovue, Reichert Technologies, and Research to Prevent Blindness. Dr. Linda M. Zangwill received research support from Carl Zeiss Meditec, Heidelberg Engineering, the National Eye Institute, Optovue, and Topcon Medical Systems. Dr. Mark Christopher, Akram Belghith, Christopher Bowd, and Michael H. Goldbaum have no competing interests to declare.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing Interests"
+        }
+      }
+    ],
+    "article-number": "16685"
+  }
+}

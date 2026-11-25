@@ -1,0 +1,467 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2026-09-06T07:09:58Z",
+      "timestamp": 1788678598625,
+      "version": "build-2803163510"
+    },
+    "reference-count": 24,
+    "publisher": "Springer Science and Business Media LLC",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.7759/cureus.115841",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2026-09-06T06:15:06Z",
+      "timestamp": 1788675306000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Code-Free Automated Machine Learning for Referable Glaucoma Classification From Retinal Fundus Photographs: A Proof-of-Concept Study Using Google Cloud Vertex AI"
+    ],
+    "prefix": "10.7759",
+    "author": [
+      {
+        "given": "Mark A",
+        "family": "Bachir",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander",
+        "family": "Bachir",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Neel",
+        "family": "Nawathey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akshay J",
+        "family": "Reddy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jasmeen K",
+        "family": "Cheema",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Telak",
+        "family": "Brahmbhatt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacob",
+        "family": "Webster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rakesh",
+        "family": "Patel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham YC",
+        "year": "2014",
+        "unstructured": "Tham YC, Li X, Wong TY, Quigley HA, Aung T, Cheng CY. Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. Ophthalmology. 2014, 121:2081-90. 10.1016/j.ophtha.2014.05.013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb RN",
+        "year": "2014",
+        "unstructured": "Weinreb RN, Aung T, Medeiros FA. The pathophysiology and treatment of glaucoma: a review. JAMA. 2014, 311:1901-11. 10.1001/jama.2014.3192",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(17)31469-1",
+        "article-title": "Glaucoma",
+        "volume": "390",
+        "author": "Jonas JB",
+        "year": "2017",
+        "unstructured": "Jonas JB, Aung T, Bourne RR, Bron AM, Ritch R, Panda-Jonas S. Glaucoma. Lancet. 2017, 390:2183-93. 10.1016/S0140-6736(17)31469-1",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjophthalmol-2018-313173",
+        "article-title": "Artificial intelligence and deep learning in ophthalmology",
+        "volume": "103",
+        "author": "Ting DS",
+        "year": "2019",
+        "unstructured": "Ting DS, Pasquale LR, Peng L, et al.. Artificial intelligence and deep learning in ophthalmology. Br J Ophthalmol. 2019, 103:167-75. 10.1136/bjophthalmol-2018-313173",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-018-0316-z",
+        "article-title": "A guide to deep learning in healthcare",
+        "volume": "25",
+        "author": "Esteva A",
+        "year": "2019",
+        "unstructured": "Esteva A, Robicquet A, Ramsundar B, et al.. A guide to deep learning in healthcare. Nat Med. 2019, 25:24-9. 10.1038/s41591-018-0316-z",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "article-title": "High-performance medicine: the convergence of human and artificial intelligence",
+        "volume": "25",
+        "author": "Topol EJ",
+        "year": "2019",
+        "unstructured": "Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med. 2019, 25:44-56. 10.1038/s41591-018-0300-7",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "article-title": "A survey on deep learning in medical image analysis",
+        "volume": "42",
+        "author": "Litjens G",
+        "year": "2017",
+        "unstructured": "Litjens G, Kooi T, Bejnordi BE, et al.. A survey on deep learning in medical image analysis. Med Image Anal. 2017, 42:60-88. 10.1016/j.media.2017.07.005",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li Z",
+        "year": "2018",
+        "unstructured": "Li Z, He Y, Keel S, Meng W, Chang RT, He M. Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs. Ophthalmology. 2018, 125:1199-206. 10.1016/j.ophtha.2018.01.023",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs",
+        "volume": "126",
+        "author": "Phene S",
+        "year": "2019",
+        "unstructured": "Phene S, Dunn RC, Hammel N, et al.. Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs. Ophthalmology. 2019, 126:1627-39. 10.1016/j.ophtha.2019.07.024",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ceo.14000",
+        "article-title": "Deep learning versus ophthalmologists for screening for glaucoma on fundus examination: a systematic review and meta-analysis",
+        "volume": "49",
+        "author": "Buisson M",
+        "year": "2021",
+        "unstructured": "Buisson M, Navel V, Labbé A, et al.. Deep learning versus ophthalmologists for screening for glaucoma on fundus examination: a systematic review and meta-analysis. Clin Exp Ophthalmol. 2021, 49:1027-38. 10.1111/ceo.14000",
+        "journal-title": "Clin Exp Ophthalmol"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1120672120977346",
+        "article-title": "Applications of deep learning in detection of glaucoma: a systematic review",
+        "volume": "31",
+        "author": "Mirzania D",
+        "year": "2021",
+        "unstructured": "Mirzania D, Thompson AC, Muir KW. Applications of deep learning in detection of glaucoma: a systematic review. Eur J Ophthalmol. 2021, 31:1618-42. 10.1177/1120672120977346",
+        "journal-title": "Eur J Ophthalmol"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ogla.2019.03.008",
+        "article-title": "Validation of a deep learning model to screen for glaucoma using images from different fundus cameras and data augmentation",
+        "volume": "2",
+        "author": "Asaoka R",
+        "year": "2019",
+        "unstructured": "Asaoka R, Tanito M, Shibata N, et al.. Validation of a deep learning model to screen for glaucoma using images from different fundus cameras and data augmentation. Ophthalmol Glaucoma. 2019, 2:224-31. 10.1016/j.ogla.2019.03.008",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10384-019-00659-6",
+        "article-title": "Evaluation of deep convolutional neural networks for glaucoma detection",
+        "volume": "63",
+        "author": "Phan S",
+        "year": "2019",
+        "unstructured": "Phan S, Satoh S, Yoda Y, Kashiwagi K, Oshika T. Evaluation of deep convolutional neural networks for glaucoma detection. Jpn J Ophthalmol. 2019, 63:276-83. 10.1007/s10384-019-00659-6",
+        "journal-title": "Jpn J Ophthalmol"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.preteyeres.2019.04.003",
+        "article-title": "Deep learning in ophthalmology: the technical and clinical considerations",
+        "volume": "72",
+        "author": "Ting DS",
+        "year": "2019",
+        "unstructured": "Ting DS, Peng L, Varadarajan AV, et al.. Deep learning in ophthalmology: the technical and clinical considerations. Prog Retin Eye Res. 2019, 72:100759. 10.1016/j.preteyeres.2019.04.003",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10462-026-11551-4",
+        "article-title": "Explainable AI for glaucoma detection and classification: a comprehensive review",
+        "volume": "59",
+        "author": "Abd El-Gawad AM",
+        "year": "2026",
+        "unstructured": "Abd El-Gawad AM, Hassan S, Elsharkawy M, et al.. Explainable AI for glaucoma detection and classification: a comprehensive review. Artif Intell Rev. 2026, 59:155. 10.1007/s10462-026-11551-4",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(19)30108-6",
+        "article-title": "Automated deep learning design for medical image classification by health-care professionals with no coding experience: a feasibility study",
+        "volume": "1",
+        "author": "Faes L",
+        "year": "2019",
+        "unstructured": "Faes L, Wagner SK, Fu DJ, et al.. Automated deep learning design for medical image classification by health-care professionals with no coding experience: a feasibility study. Lancet Digit Health. 2019, 1:232-42. 10.1016/S2589-7500(19)30108-6",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00305-2",
+        "article-title": "Code-free deep learning for multi-modality medical image classification",
+        "volume": "3",
+        "author": "Korot E",
+        "year": "2021",
+        "unstructured": "Korot E, Guan Z, Ferraz D, et al.. Code-free deep learning for multi-modality medical image classification. Nat Mach Intell. 2021, 3:288-98. 10.1038/s42256-021-00305-2",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-024-60429-4",
+        "article-title": "A comparative study of an on premise AutoML solution for medical image classification",
+        "volume": "14",
+        "author": "Elangovan K",
+        "year": "2024",
+        "unstructured": "Elangovan K, Lim G, Ting D. A comparative study of an on premise AutoML solution for medical image classification. Sci Rep. 2024, 14:10483. 10.1038/s41598-024-60429-4",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12194-026-01077-3",
+        "article-title": "Towards integrating domain knowledge, AutoML and few-shot learning for medical image analysis: a mini review of current trends and research gaps",
+        "author": "Ragu N",
+        "year": "2026",
+        "unstructured": "Ragu N, Teo J. Towards integrating domain knowledge, AutoML and few-shot learning for medical image analysis: a mini review of current trends and research gaps. Radiol Phys Technol. 2026, 10.1007/s12194-026-01077-3",
+        "journal-title": "Radiol Phys Technol"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryai.240300",
+        "article-title": "Checklist for artificial intelligence in medical imaging (CLAIM): 2024 update",
+        "volume": "6",
+        "author": "Tejani AS",
+        "year": "2024",
+        "unstructured": "Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr. Checklist for artificial intelligence in medical imaging (CLAIM): 2024 update. Radiol Artif Intell. 2024, 6:e240300. 10.1148/ryai.240300",
+        "journal-title": "Radiol Artif Intell"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj-2023-078378",
+        "article-title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+        "volume": "385",
+        "author": "Collins GS",
+        "year": "2024",
+        "unstructured": "Collins GS, Moons KG, Dhiman P, et al.. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024, 385:e078378. 10.1136/bmj-2023-078378",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2023.3313786",
+        "article-title": "AIROGS: artificial intelligence for robust glaucoma screening challenge",
+        "volume": "43",
+        "author": "de Vente C",
+        "year": "2024",
+        "unstructured": "de Vente C, Vermeer KA, Jaccard N, et al.. AIROGS: artificial intelligence for robust glaucoma screening challenge. IEEE Trans Med Imaging. 2024, 43:542-57. 10.1109/TMI.2023.3313786",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Glaucoma Dataset. EyePACS-AIROGS-light-V2. (2024). Accessed: August 10, 2026: https://www.kaggle.com/datasets/deathtrooper/glaucoma-dataset-eyepacs-airogs-light-v2."
+      },
+      {
+        "key": "ref24",
+        "unstructured": "Hello custom training. Train a custom image classification model. (2026). Accessed: August 19, 2026: https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/tutorials/image-classification-custom...."
+      }
+    ],
+    "container-title": [
+      "Cureus"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cureus.com/articles/529954-code-free-automated-machine-learning-for-referable-glaucoma-classification-from-retinal-fundus-photographs-a-proof-of-concept-study-using-google-cloud-vertex-ai",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2026-09-06T06:15:08Z",
+      "timestamp": 1788675308000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cureus.com/articles/529954-code-free-automated-machine-learning-for-referable-glaucoma-classification-from-retinal-fundus-photographs-a-proof-of-concept-study-using-google-cloud-vertex-ai"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          5
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.7759/cureus.115841",
+    "relation": {},
+    "ISSN": [
+      "2168-8184"
+    ],
+    "issn-type": [
+      {
+        "value": "2168-8184",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          5
+        ]
+      ]
+    }
+  }
+}

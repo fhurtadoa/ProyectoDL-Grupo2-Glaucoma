@@ -1,0 +1,846 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T05:30:06Z",
+      "timestamp": 1793683806719,
+      "version": "4.5.1"
+    },
+    "reference-count": 29,
+    "publisher": "Elsevier BV",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              23
+            ]
+          ],
+          "date-time": "2026-04-23T00:00:00Z",
+          "timestamp": 1776902400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001349",
+        "name": "National Medical Research Council",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001349",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100010064",
+        "name": "Fund for Research in Ophthalmology",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100010064",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016017",
+        "name": "Duke-NUS",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016017",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001468",
+        "name": "Singapore Eye Research Institute",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001468",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001381",
+        "name": "National Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001381",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "thelancet.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "The Lancet Digital Health"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.landig.2026.101032",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2026-08-10T10:51:10Z",
+      "timestamp": 1786359070000
+    },
+    "page": "101032",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Prediction of structural glaucoma progression from baseline fundus photographs using deep learning: a retrospective multicentre study"
+    ],
+    "prefix": "10.1016",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Ruben",
+        "family": "Hemelings",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Damon W",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacqueline",
+        "family": "Chua",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jan",
+        "family": "Van Eijgen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7816-816X",
+        "authenticated-orcid": false,
+        "given": "João",
+        "family": "Barbosa-Breda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adèle",
+        "family": "Ehongo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nathalie",
+        "family": "Collignon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Kiekens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-6136-4990",
+        "authenticated-orcid": false,
+        "given": "Simon C",
+        "family": "König",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bart",
+        "family": "Elen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bingyao",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerhard",
+        "family": "Garhöfer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "George",
+        "family": "Barbastathis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hannele",
+        "family": "Uusitalo-Järvinen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander K",
+        "family": "Schuster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tin",
+        "family": "Aung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anja",
+        "family": "Tuulonen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ingeborg",
+        "family": "Stalmans",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7189-1707",
+        "authenticated-orcid": false,
+        "given": "Leopold",
+        "family": "Schmetterer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.landig.2026.101032_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib3",
+        "series-title": "Terminology and guidelines for glaucoma",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1167/tvst.4.2.1",
+        "article-title": "Why do people (still) go blind from glaucoma?",
+        "volume": "4",
+        "author": "Susanna",
+        "year": "2015",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1001/archopht.121.1.48",
+        "article-title": "Factors for glaucoma progression and the effect of treatment: the Early Manifest Glaucoma Trial",
+        "volume": "121",
+        "author": "Leske",
+        "year": "2003",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1097/IJG.0000000000000022",
+        "article-title": "Outcome measures in glaucoma: a systematic review of Cochrane reviews and protocols",
+        "volume": "24",
+        "author": "Ismail",
+        "year": "2015",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "822",
+        "DOI": "10.1016/j.ophtha.2019.01.029",
+        "article-title": "Agreement and predictors of discordance of 6 visual field progression algorithms",
+        "volume": "126",
+        "author": "Saeedi",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1016/j.ophtha.2022.12.025",
+        "article-title": "Validation of rates of mean deviation change as clinically relevant end points for glaucoma progression",
+        "volume": "130",
+        "author": "Medeiros",
+        "year": "2023",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.preteyeres.2022.101160",
+        "article-title": "Endpoints for clinical trials in ophthalmology",
+        "volume": "97",
+        "author": "Schmetterer",
+        "year": "2023",
+        "journal-title": "Prog Retin Eye Res"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1167/tvst.8.5.25",
+        "article-title": "Quantification of visual field variability in glaucoma: implications for visual field prediction and modeling",
+        "volume": "8",
+        "author": "Rabiolo",
+        "year": "2019",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.1097/IJG.0b013e3181ca7cbe",
+        "article-title": "Reproducibility of retinal nerve fiber thickness measurements using the test-retest function of spectral OCT/SLO in normal and glaucomatous eyes",
+        "volume": "19",
+        "author": "Lee",
+        "year": "2010",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "466",
+        "DOI": "10.1016/j.ogla.2023.03.005",
+        "article-title": "Forecasting risk of future rapid glaucoma worsening using early visual field, OCT, and clinical data",
+        "volume": "6",
+        "author": "Herbert",
+        "year": "2023",
+        "journal-title": "Ophthalmol Glaucoma"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1172/JCI157968",
+        "article-title": "A deep-learning system predicts glaucoma incidence and progression using retinal photographs",
+        "volume": "132",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "J Clin Invest"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1038/s41746-023-00857-0",
+        "article-title": "A generalizable deep learning regression model for automated glaucoma screening from fundus images",
+        "volume": "6",
+        "author": "Hemelings",
+        "year": "2023",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.1016/j.ajo.2021.03.019",
+        "article-title": "Rapid initial OCT RNFL thinning is predictive of faster visual field loss during extended follow-up in glaucoma",
+        "volume": "229",
+        "author": "Swaminathan",
+        "year": "2021",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib17",
+        "author": "Tan"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib18",
+        "series-title": "Clinical decisions in glaucoma",
+        "author": "Hodapp",
+        "year": "1993"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1111/j.1755-3768.1988.tb02633.x",
+        "article-title": "Exfoliation syndrome in various ethnic populations",
+        "volume": "184",
+        "author": "Forsius",
+        "year": "1988",
+        "journal-title": "Acta Ophthalmol (Copenh)"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1113",
+        "DOI": "10.1038/s41591-023-02332-5",
+        "article-title": "A deep learning algorithm to predict risk of pancreatic cancer from disease trajectories",
+        "volume": "29",
+        "author": "Placido",
+        "year": "2023",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib22",
+        "series-title": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+        "article-title": "A human-centered evaluation of a deep learning system deployed in clinics for the detection of diabetic retinopathy",
+        "author": "Beede",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "584",
+        "DOI": "10.1038/s41591-023-02702-z",
+        "article-title": "A deep learning system for predicting time to progression of diabetic retinopathy",
+        "volume": "30",
+        "author": "Dai",
+        "year": "2024",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4889",
+        "DOI": "10.1038/s41598-018-23220-w",
+        "article-title": "Impact of different visual field testing paradigms on sample size requirements for glaucoma clinical trials",
+        "volume": "8",
+        "author": "Wu",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e134",
+        "DOI": "10.1097/IJG.0000000000001766",
+        "article-title": "Did the OCT show progression since the last visit?",
+        "volume": "30",
+        "author": "Hood",
+        "year": "2021",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1167/tvst.11.1.1",
+        "article-title": "UWHVF: a real-world, open source dataset of perimetry tests from the Humphrey Field Analyzer at the University of Washington",
+        "volume": "11",
+        "author": "Montesano",
+        "year": "2022",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1016/j.ophtha.2023.01.021",
+        "article-title": "Comparing the accuracy of peripapillary OCT scans and visual fields to detect glaucoma worsening",
+        "volume": "130",
+        "author": "Bradley",
+        "year": "2023",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1038/s41746-020-0255-1",
+        "article-title": "Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging",
+        "volume": "3",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1016/j.ajo.2024.04.030",
+        "article-title": "Progression or aging? A deep learning approach for distinguishing glaucoma progression from age-related changes in OCT scans",
+        "volume": "266",
+        "author": "Mandal",
+        "year": "2024",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.landig.2026.101032_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1016/j.ophtha.2020.07.045",
+        "article-title": "Detection of progressive glaucomatous optic nerve damage on fundus photographs with deep learning",
+        "volume": "128",
+        "author": "Medeiros",
+        "year": "2021",
+        "journal-title": "Ophthalmology"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1016/j.landig.2026.101120",
+        "type": "erratum",
+        "label": "Erratum",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              2
+            ]
+          ],
+          "date-time": "2026-11-02T00:00:00Z",
+          "timestamp": 1793577600000
+        }
+      }
+    ],
+    "container-title": [
+      "The Lancet Digital Health"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750026000555?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589750026000555?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T05:21:09Z",
+      "timestamp": 1793683269000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2589750026000555"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2589750026000555"
+    ],
+    "URL": "https://doi.org/10.1016/j.landig.2026.101032",
+    "relation": {},
+    "ISSN": [
+      "2589-7500"
+    ],
+    "issn-type": [
+      {
+        "value": "2589-7500",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Prediction of structural glaucoma progression from baseline fundus photographs using deep learning: a retrospective multicentre study",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Lancet Digital Health",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.landig.2026.101032",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 The Author(s). Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101032"
+  }
+}

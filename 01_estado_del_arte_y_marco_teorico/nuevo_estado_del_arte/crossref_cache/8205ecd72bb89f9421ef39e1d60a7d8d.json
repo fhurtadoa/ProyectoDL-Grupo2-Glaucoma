@@ -1,0 +1,836 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2026-11-02T23:43:51Z",
+      "timestamp": 1793663031809,
+      "version": "4.5.1"
+    },
+    "reference-count": 62,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Biomedical Signal Processing and Control"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.bspc.2024.107069",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2024-10-22T08:48:24Z",
+      "timestamp": 1729586904000
+    },
+    "page": "107069",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "special_numbering": "PA",
+    "title": [
+      "OSAM-Fundus: A training-free, one-shot segmentation framework for optic disc and cup in fundus images"
+    ],
+    "prefix": "10.1016",
+    "volume": "100",
+    "author": [
+      {
+        "given": "Rui",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhouwang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanzhi",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.bspc.2024.107069_b1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2021.101971",
+        "article-title": "Applications of deep learning in fundus images: A review",
+        "volume": "69",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2023.105915",
+        "article-title": "Vision transformers for segmentation of disc and cup in retinal fundus images",
+        "volume": "91",
+        "author": "Bazi",
+        "year": "2024",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.bspc.2024.107069_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1109/TMI.2011.2106509",
+        "article-title": "Optic disk and cup segmentation from monocular color retinal images for glaucoma assessment",
+        "volume": "30",
+        "author": "Joshi",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1016/j.bspc.2014.11.003",
+        "article-title": "An empirical study on optic disc segmentation using an active contour model",
+        "volume": "18",
+        "author": "Mary",
+        "year": "2015",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2023.105069",
+        "article-title": "A novel glaucoma detection model using unet++-based segmentation and ResNet with GRU-based optimized deep learning",
+        "volume": "86",
+        "author": "Kumar",
+        "year": "2023",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/j.compmedimag.2016.07.012",
+        "article-title": "Glaucoma detection using entropy sampling and ensemble learning for automatic optic cup and disc segmentation",
+        "volume": "55",
+        "author": "Zilly",
+        "year": "2017",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b7",
+        "series-title": "2018 25th IEEE International Conference on Image Processing",
+        "first-page": "4038",
+        "article-title": "High-performance optic disc segmentation using convolutional neural networks",
+        "author": "Mohan",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Long, E. Shelhamer, T. Darrell, Fully convolutional networks for semantic segmentation, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2015, pp. 3431–3440.",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.bspc.2024.107069_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1417",
+        "DOI": "10.1109/JBHI.2019.2899403",
+        "article-title": "Fully convolutional networks for monocular retinal depth estimation and optic disc-cup segmentation",
+        "volume": "23",
+        "author": "Shankaranarayana",
+        "year": "2019",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b10",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18",
+        "first-page": "234",
+        "article-title": "U-net: Convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.bspc.2024.107069_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1597",
+        "DOI": "10.1109/TMI.2018.2791488",
+        "article-title": "Joint optic disc and cup segmentation based on multi-label deep network and polar transformation",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.artmed.2021.102035",
+        "article-title": "A multi-scale convolutional neural network with context for joint segmentation of optic disc and cup",
+        "volume": "113",
+        "author": "Yuan",
+        "year": "2021",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.bspc.2024.107069_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "11482",
+        "DOI": "10.1002/int.23051",
+        "article-title": "RMSDSC-net: a robust multiscale feature extraction with depthwise separable convolution network for optic disc and cup segmentation",
+        "volume": "37",
+        "author": "Wei",
+        "year": "2022",
+        "journal-title": "Int. J. Intell. Syst."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2023.107215",
+        "article-title": "C2FTFNet: Coarse-to-fine transformer network for joint optic disc and cup segmentation",
+        "volume": "164",
+        "author": "Yi",
+        "year": "2023",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.bspc.2024.107069_b15",
+        "first-page": "1004",
+        "article-title": "A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis",
+        "volume": "2",
+        "author": "Sivaswamy",
+        "year": "2015",
+        "journal-title": "JSM Biomed. Imaging Data Pap."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b16",
+        "series-title": "2011 24th International Symposium on Computer-Based Medical Systems",
+        "first-page": "1",
+        "article-title": "RIM-ONE: An open retinal image database for optic nerve evaluation",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "Refuge challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.bspc.2024.107069_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "905",
+        "DOI": "10.1007/s11548-021-02373-6",
+        "article-title": "Joint optic disc and optic cup segmentation based on boundary prior and adversarial learning",
+        "volume": "16",
+        "author": "Luo",
+        "year": "2021",
+        "journal-title": "Int. J. Comput. Assist. Radiol. Surg."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.bspc.2024.107069_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2485",
+        "DOI": "10.1109/TMI.2019.2899910",
+        "article-title": "Patch-based output space adversarial learning for joint optic disc and cup segmentation",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b20",
+        "article-title": "Unsupervised domain adaptation fundus image segmentation via multi-scale adaptive adversarial learning",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "IEEE J. Biomed. Health Inf."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.bspc.2024.107069_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "4237",
+        "DOI": "10.1109/TMI.2020.3015224",
+        "article-title": "Dofe: Domain-oriented feature embedding for generalizable fundus image segmentation on unseen datasets",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Liu, C. Chen, J. Qin, Q. Dou, P.-A. Heng, Feddg: Federated domain generalization on medical image segmentation via episodic learning in continuous frequency space, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 1013–1023.",
+        "DOI": "10.1109/CVPR46437.2021.00107"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.bspc.2024.107069_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "3699",
+        "DOI": "10.1109/TMI.2022.3193146",
+        "article-title": "Aadg: automatic augmentation for domain generalization on retinal image segmentation",
+        "volume": "41",
+        "author": "Lyu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b24",
+        "series-title": "Segment anything",
+        "author": "Kirillov",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.5582/bst.2023.01119",
+        "article-title": "The potential of’segment anything’(SAM) for universal intelligent ultrasound image guidance",
+        "author": "Ning",
+        "year": "2023",
+        "journal-title": "BioSci. Trends"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Ren, F. Luzi, S. Lahrichi, K. Kassaw, L.M. Collins, K. Bradbury, J.M. Malof, Segment anything, from space?, in: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2024, pp. 8355–8365.",
+        "DOI": "10.1109/WACV57701.2024.00817"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b27",
+        "article-title": "The segment anything model (sam) for remote sensing applications: From zero to one shot",
+        "volume": "124",
+        "author": "Osco",
+        "year": "2023",
+        "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b28",
+        "series-title": "Sam-da: Uav tracks anything at night with sam-powered domain adaptation",
+        "author": "Yao",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b29",
+        "series-title": "Computer-vision benchmark segment-anything model (sam) in medical images: Accuracy in 12 datasets",
+        "author": "He",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2023.102918",
+        "article-title": "Segment anything model for medical image analysis: an experimental study",
+        "volume": "89",
+        "author": "Mazurowski",
+        "year": "2023",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2023.103061",
+        "article-title": "Segment anything model for medical images?",
+        "volume": "92",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.bspc.2024.107069_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "654",
+        "DOI": "10.1038/s41467-024-44824-z",
+        "article-title": "Segment anything in medical images",
+        "volume": "15",
+        "author": "Ma",
+        "year": "2024",
+        "journal-title": "Nature Commun."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b33",
+        "series-title": "Grounded sam: Assembling open-world models for diverse visual tasks",
+        "author": "Ren",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b34",
+        "series-title": "Grounding dino: Marrying dino with grounded pre-training for open-set object detection",
+        "author": "Liu",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Rombach, A. Blattmann, D. Lorenz, P. Esser, B. Ommer, High-resolution image synthesis with latent diffusion models, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 10684–10695.",
+        "DOI": "10.1109/CVPR52688.2022.01042"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b36",
+        "series-title": "International Conference on Machine Learning",
+        "first-page": "12888",
+        "article-title": "Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation",
+        "author": "Li",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b37",
+        "series-title": "One-shot learning for semantic segmentation",
+        "author": "Shaban",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b38",
+        "article-title": "Prototypical networks for few-shot learning",
+        "volume": "30",
+        "author": "Snell",
+        "year": "2017",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.bspc.2024.107069_b39",
+        "doi-asserted-by": "crossref",
+        "first-page": "3855",
+        "DOI": "10.1109/TCYB.2020.2992433",
+        "article-title": "Sg-one: Similarity guidance network for one-shot semantic segmentation",
+        "volume": "50",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Cybern."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Li, V. Jampani, L. Sevilla-Lara, D. Sun, J. Kim, J. Kim, Adaptive prototype learning and allocation for few-shot segmentation, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 8334–8343.",
+        "DOI": "10.1109/CVPR46437.2021.00823"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Liu, Y. Bao, G.-S. Xie, H. Xiong, J.-J. Sonke, E. Gavves, Dynamic prototype convolution network for few-shot semantic segmentation, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 11553–11562.",
+        "DOI": "10.1109/CVPR52688.2022.01126"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Liu, N. Liu, Q. Cao, X. Yao, J. Han, L. Shao, Learning non-target knowledge for few-shot semantic segmentation, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 11573–11582.",
+        "DOI": "10.1109/CVPR52688.2022.01129"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Min, D. Kang, M. Cho, Hypercorrelation squeeze for few-shot segmentation, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 6941–6952.",
+        "DOI": "10.1109/ICCV48922.2021.00686"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b44",
+        "series-title": "European Conference on Computer Vision",
+        "first-page": "108",
+        "article-title": "Cost aggregation with 4d convolutional swin transformer for few-shot segmentation",
+        "author": "Hong",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Nguyen, S. Todorovic, Feature weighting and boosting for few-shot segmentation, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019, pp. 622–631.",
+        "DOI": "10.1109/ICCV.2019.00071"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Li, T. Wei, Y.P. Chen, Y.-W. Tai, C.-K. Tang, Fss-1000: A 1000-class dataset for few-shot segmentation, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 2869–2878.",
+        "DOI": "10.1109/CVPR42600.2020.00294"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Zhao, G. Balakrishnan, F. Durand, J.V. Guttag, A.V. Dalca, Data augmentation using learned transformations for one-shot medical image segmentation, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 8543–8553.",
+        "DOI": "10.1109/CVPR.2019.00874"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b48",
+        "article-title": "‘Squeeze & excite’ guided few-shot segmentation of volumetric images",
+        "volume": "59",
+        "author": "Roy",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.bspc.2024.107069_b49",
+        "doi-asserted-by": "crossref",
+        "first-page": "2575",
+        "DOI": "10.1109/TMI.2021.3060551",
+        "article-title": "Interactive few-shot learning: Limited supervision, better medical image segmentation",
+        "volume": "40",
+        "author": "Feng",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b50",
+        "series-title": "2021 IEEE 18th International Symposium on Biomedical Imaging",
+        "first-page": "262",
+        "article-title": "A location-sensitive local prototype network for few-shot medical image segmentation",
+        "author": "Yu",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Tang, X. Liu, S. Sun, X. Yan, X. Xie, Recurrent mask refinement for few-shot medical image segmentation, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 3918–3928.",
+        "DOI": "10.1109/ICCV48922.2021.00389"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.bspc.2024.107069_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3605943",
+        "article-title": "Recent advances in natural language processing via large pre-trained language models: A survey",
+        "volume": "56",
+        "author": "Min",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b53",
+        "series-title": "International Conference on Machine Learning",
+        "first-page": "8748",
+        "article-title": "Learning transferable visual models from natural language supervision",
+        "author": "Radford",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b54",
+        "series-title": "Dinov2: Learning robust visual features without supervision",
+        "author": "Oquab",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b55",
+        "series-title": "SAM med: A medical image annotation framework based on large vision model",
+        "author": "Wang",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b56",
+        "series-title": "Segment any cell: A SAM-based auto-prompting fine-tuning framework for nuclei segmentation",
+        "author": "Na",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b57",
+        "series-title": "2023 IEEE International Conference on Bioinformatics and Biomedicine",
+        "first-page": "4520",
+        "article-title": "TongueSAM: An universal tongue segmentation model based on SAM with zero-shot",
+        "author": "Cao",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b58",
+        "series-title": "MatSAM: Efficient materials microstructure extraction via visual large model",
+        "author": "Li",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b59",
+        "series-title": "Personalize segment anything model with one shot",
+        "author": "Zhang",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b60",
+        "series-title": "Matcher: Segment anything with one shot using all-purpose feature matching",
+        "author": "Liu",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b61",
+        "series-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bspc.2024.107069_b62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L.-C. Chen, Y. Zhu, G. Papandreou, F. Schroff, H. Adam, Encoder-decoder with atrous separable convolution for semantic image segmentation, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 801–818.",
+        "DOI": "10.1007/978-3-030-01234-2_49"
+      }
+    ],
+    "container-title": [
+      "Biomedical Signal Processing and Control"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1746809424011273?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1746809424011273?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2025-03-01T17:29:17Z",
+      "timestamp": 1740850157000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1746809424011273"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "references-count": 62,
+    "alternative-id": [
+      "S1746809424011273"
+    ],
+    "URL": "https://doi.org/10.1016/j.bspc.2024.107069",
+    "relation": {},
+    "ISSN": [
+      "1746-8094"
+    ],
+    "issn-type": [
+      {
+        "value": "1746-8094",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "OSAM-Fundus: A training-free, one-shot segmentation framework for optic disc and cup in fundus images",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Biomedical Signal Processing and Control",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bspc.2024.107069",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "107069"
+  }
+}

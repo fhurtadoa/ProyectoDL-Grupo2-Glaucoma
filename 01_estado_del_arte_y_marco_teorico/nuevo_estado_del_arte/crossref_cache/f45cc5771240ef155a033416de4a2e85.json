@@ -1,0 +1,595 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2026-11-06T10:51:23Z",
+      "timestamp": 1793962283405,
+      "version": "4.8.0"
+    },
+    "reference-count": 37,
+    "publisher": "Elsevier BV",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              24
+            ]
+          ],
+          "date-time": "2025-06-24T00:00:00Z",
+          "timestamp": 1750723200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ain Shams Engineering Journal"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.asej.2025.103594",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          4
+        ]
+      ],
+      "date-time": "2025-07-04T18:50:37Z",
+      "timestamp": 1751655037000
+    },
+    "page": "103594",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "HybridVisionNet: An advanced hybrid deep learning framework for automated multi-class ocular disease diagnosis using fundus imaging"
+    ],
+    "prefix": "10.1016",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2014-7638",
+        "authenticated-orcid": false,
+        "given": "Şafak",
+        "family": "Kılıç",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.asej.2025.103594_br0210",
+        "series-title": "World report on vision",
+        "author": "World Health Organization",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "article-title": "A survey on deep learning in medical image analysis",
+        "volume": "42",
+        "author": "Litjens",
+        "year": "2017",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/s40537-019-0197-0",
+        "article-title": "A survey on image data augmentation for deep learning",
+        "volume": "6",
+        "author": "Shorten",
+        "year": "2019",
+        "journal-title": "J Big Data"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0280",
+        "series-title": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "first-page": "2818",
+        "article-title": "Rethinking the inception architecture for computer vision",
+        "author": "Szegedy",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0290",
+        "series-title": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "first-page": "4700",
+        "article-title": "Densely connected convolutional networks",
+        "author": "Huang",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asej.2025.103594_br0300",
+        "article-title": "Fractional conformable stochastic integrodifferential equations: existence, uniqueness, and numerical simulations utilizing the shifted Legendre spectral collocation algorithm",
+        "volume": "2022",
+        "author": "Badawi",
+        "year": "2022",
+        "journal-title": "Math Probl Eng"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0310",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.rinam.2024.100504",
+        "article-title": "Existence, uniqueness, and collocation solutions using the shifted Legendre spectral method for the Hilfer fractional stochastic integro-differential equations regarding stochastic Brownian motion",
+        "volume": "24",
+        "author": "Badawi",
+        "year": "2024",
+        "journal-title": "Results Appl Math"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asej.2025.103594_br0320",
+        "article-title": "Optimization solution of Troesch's and Bratu's problems of ordinary type using novel continuous genetic algorithm",
+        "volume": "2014",
+        "author": "Abo-Hammour",
+        "year": "2014",
+        "journal-title": "Discrete Dyn Nat Soc"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0330",
+        "article-title": "Ensemble deep learning techniques for diabetic retinopathy detection",
+        "volume": "2021",
+        "author": "Ju",
+        "year": "2021",
+        "journal-title": "Comput Intell Neurosci"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0340",
+        "series-title": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "first-page": "7132",
+        "article-title": "Squeeze-and-excitation networks",
+        "author": "Hu",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0380",
+        "author": "Kingma"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0460",
+        "first-page": "207",
+        "article-title": "EyePACS: an open source clinical communication system for eye care",
+        "volume": "143",
+        "author": "Cuadros",
+        "year": "2009",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asej.2025.103594_br0470",
+        "first-page": "1",
+        "article-title": "ODIR-5K: a large-scale dataset with multi-label annotations for fundus image classification",
+        "volume": "7",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Sci Data"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.asej.2025.103594_br0480",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: the messidor database",
+        "volume": "33",
+        "author": "Decencière",
+        "year": "2014",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0490",
+        "author": "Kaggle and EyePACS"
+      },
+      {
+        "issue": "7553",
+        "key": "10.1016/j.asej.2025.103594_br0500",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "LeCun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0510",
+        "series-title": "Benchmarking, measuring, and optimizing: third BenchCouncil international symposium",
+        "first-page": "177",
+        "article-title": "A benchmark of ocular disease intelligent recognition: one shot for multi-disease detection",
+        "author": "Li",
+        "year": "2021"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asej.2025.103594_br0520",
+        "doi-asserted-by": "crossref",
+        "first-page": "3411",
+        "DOI": "10.1007/s00500-021-06088-3",
+        "article-title": "Detection of retinal abnormalities in fundus image using transfer learning networks",
+        "volume": "27",
+        "author": "Kaur",
+        "year": "2023",
+        "journal-title": "Soft Comput"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0530",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2022.106451",
+        "article-title": "Context encoder transfer learning approaches for retinal image analysis",
+        "volume": "152",
+        "author": "Moris",
+        "year": "2023",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0540",
+        "series-title": "2022 IEEE 10th region 10 humanitarian technology conference (R10-HTC)",
+        "first-page": "167",
+        "article-title": "Vit-dr: vision transformers in diabetic retinopathy grading using fundus images",
+        "author": "Mohan",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0550",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2023.111030",
+        "article-title": "CTransCNN: combining transformer and CNN in multilabel medical image classification",
+        "volume": "281",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Knowl-Based Syst"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asej.2025.103594_br0560",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1038/s41598-022-27358-6",
+        "article-title": "Combining convolutional neural networks and self-attention for fundus diseases identification",
+        "volume": "13",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asej.2025.103594_br0590",
+        "doi-asserted-by": "crossref",
+        "first-page": "2739",
+        "DOI": "10.1109/JBHI.2022.3214086",
+        "article-title": "Multi-label retinal disease classification using transformers",
+        "volume": "27",
+        "author": "Rodríguez",
+        "year": "2022",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0620",
+        "doi-asserted-by": "crossref",
+        "first-page": "454",
+        "DOI": "10.1109/LSP.2021.3057548",
+        "article-title": "Multi-label classification of fundus images with graph convolutional network and self-supervised learning",
+        "volume": "28",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "IEEE Signal Process Lett"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0630",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cmpb.2022.106739",
+        "article-title": "BFENet: a two-stream interaction CNN method for multi-label ophthalmic diseases classification with bilateral fundus images",
+        "volume": "219",
+        "author": "Ou",
+        "year": "2022",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.asej.2025.103594_br0660",
+        "doi-asserted-by": "crossref",
+        "first-page": "3332",
+        "DOI": "10.1109/JBHI.2021.3083605",
+        "article-title": "Ophthalmic disease detection via deep learning with a novel mixture loss function",
+        "volume": "25",
+        "author": "Luo",
+        "year": "2021",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0670",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2022.106519",
+        "article-title": "Discriminative kernel convolution network for multi-label ophthalmic disease detection on imbalanced fundus image dataset",
+        "volume": "153",
+        "author": "Bhati",
+        "year": "2023",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0680",
+        "series-title": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "first-page": "5177",
+        "article-title": "Multi-label image recognition with graph convolutional networks",
+        "author": "Chen",
+        "year": "2019"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.asej.2025.103594_br0690",
+        "doi-asserted-by": "crossref",
+        "first-page": "2493",
+        "DOI": "10.1109/TMI.2018.2837012",
+        "article-title": "Disc-aware ensemble network for glaucoma screening from fundus image",
+        "volume": "37",
+        "author": "Fu",
+        "year": "2018",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0700",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cmpb.2019.07.006",
+        "article-title": "Automatic cataract grading methods based on deep learning",
+        "volume": "182",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Comput Methods Programs Biomed"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0710",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2020.102329",
+        "article-title": "Multi-class multi-label ophthalmological disease detection using transfer learning based convolutional neural network",
+        "volume": "66",
+        "author": "Gour",
+        "year": "2021",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0720",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2020.102167",
+        "article-title": "Multi-label ocular disease classification with a dense correlation deep neural network",
+        "volume": "63",
+        "author": "He",
+        "year": "2021",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0730",
+        "series-title": "2021 international conference on neuromorphic computing (ICNC)",
+        "first-page": "207",
+        "article-title": "Fundus disease image classification based on improved transformer",
+        "author": "Yang",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0740",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2021.102491",
+        "article-title": "Self-speculation of clinical features based on knowledge distillation for accurate ocular disease classification",
+        "volume": "67",
+        "author": "He",
+        "year": "2021",
+        "journal-title": "Biomed Signal Process Control"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0750",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2022.105909",
+        "article-title": "Multi-label classification of fundus images with graph convolutional network and LightGBM",
+        "volume": "149",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "10.1016/j.asej.2025.103594_br0760",
+        "series-title": "Authorea preprints",
+        "article-title": "A deep learning analysis framework for ophthalmic diseases and physical health from binocular fundus image pairs",
+        "author": "Zhu",
+        "year": "2022"
+      }
+    ],
+    "container-title": [
+      "Ain Shams Engineering Journal"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2090447925003351?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2090447925003351?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2025-09-05T23:39:54Z",
+      "timestamp": 1757115594000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2090447925003351"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2090447925003351"
+    ],
+    "URL": "https://doi.org/10.1016/j.asej.2025.103594",
+    "relation": {},
+    "ISSN": [
+      "2090-4479"
+    ],
+    "issn-type": [
+      {
+        "value": "2090-4479",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "HybridVisionNet: An advanced hybrid deep learning framework for automated multi-class ocular disease diagnosis using fundus imaging",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ain Shams Engineering Journal",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.asej.2025.103594",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 The Author(s). Published by Elsevier B.V. on behalf of Faculty of Engineering, Ain Shams University.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "103594"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2505.17808",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2505.17808",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2505.17808",
+      "identifiers": [
+        {
+          "identifier": "2505.17808",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2505.17808"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Swaminathan, Ramanathan",
+          "nameType": "Personal",
+          "givenName": "Ramanathan",
+          "familyName": "Swaminathan",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "An Attention Infused Deep Learning System with Grad-CAM Visualization for Early Screening of Glaucoma"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2025,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2025-05-23T12:25:13Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025-05-26T00:48:18Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-01-14T00:11:45Z",
+          "dateType": "Submitted",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2026-01-15T01:09:50Z",
+          "dateType": "Updated",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2025-05",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2025",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "2",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "This research work reveals the strengths of intertwining a deep custom convolutional neural network with a disruptive Vision Transformer, both fused together with a radical Cross-Attention module. Here, two high-yielding datasets for artificial intelligence models in detecting glaucoma, namely ACRIMA and Drishti, are utilized. The Cross-Attention mechanism facilitates the model in learning regions in the fundus that are clinically relevant through bidirectional feature exchange between CNN and ViT streams. Experiments clearly depict improved performance when compared to standalone baseline CNN and ViT models.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "6 pages in general IEEE format, 8 figures, 4 tables, pdflatex",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yNTA1LjE3ODA4PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjUwNS4xNzgwODwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Td2FtaW5hdGhhbiwgUmFtYW5hdGhhbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+UmFtYW5hdGhhbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Td2FtaW5hdGhhbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+QW4gQXR0ZW50aW9uIEluZnVzZWQgRGVlcCBMZWFybmluZyBTeXN0ZW0gd2l0aCBHcmFkLUNBTSBWaXN1YWxpemF0aW9uIGZvciBFYXJseSBTY3JlZW5pbmcgb2YgR2xhdWNvbWE8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+YXJYaXY8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjU8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5Db21wdXRlciBWaXNpb24gYW5kIFBhdHRlcm4gUmVjb2duaXRpb24gKGNzLkNWKTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJlbiIgc3ViamVjdFNjaGVtZT0iYXJYaXYiPkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChjcy5BSSk8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGaWVsZHMgb2YgU2NpZW5jZSBhbmQgVGVjaG5vbG9neSAoRk9TKSI+Rk9TOiBDb21wdXRlciBhbmQgaW5mb3JtYXRpb24gc2NpZW5jZXM8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iU3VibWl0dGVkIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDI1LTA1LTIzVDEyOjI1OjEzWjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDI1LTA1LTI2VDAwOjQ4OjE4WjwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjIiPjIwMjYtMDEtMTRUMDA6MTE6NDVaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiIGRhdGVJbmZvcm1hdGlvbj0idjIiPjIwMjYtMDEtMTVUMDE6MDk6NTBaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyNS0wNTwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUHJlcHJpbnQiPkFydGljbGU8L3Jlc291cmNlVHlwZT4KICA8dmVyc2lvbj4yPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8iIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHJpZ2h0c0lkZW50aWZpZXI9IkNDLUJZLTQuMCI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlRoaXMgcmVzZWFyY2ggd29yayByZXZlYWxzIHRoZSBzdHJlbmd0aHMgb2YgaW50ZXJ0d2luaW5nIGEgZGVlcCBjdXN0b20gY29udm9sdXRpb25hbCBuZXVyYWwgbmV0d29yayB3aXRoIGEgZGlzcnVwdGl2ZSBWaXNpb24gVHJhbnNmb3JtZXIsIGJvdGggZnVzZWQgdG9nZXRoZXIgd2l0aCBhIHJhZGljYWwgQ3Jvc3MtQXR0ZW50aW9uIG1vZHVsZS4gSGVyZSwgdHdvIGhpZ2gteWllbGRpbmcgZGF0YXNldHMgZm9yIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIG1vZGVscyBpbiBkZXRlY3RpbmcgZ2xhdWNvbWEsIG5hbWVseSBBQ1JJTUEgYW5kIERyaXNodGksIGFyZSB1dGlsaXplZC4gVGhlIENyb3NzLUF0dGVudGlvbiBtZWNoYW5pc20gZmFjaWxpdGF0ZXMgdGhlIG1vZGVsIGluIGxlYXJuaW5nIHJlZ2lvbnMgaW4gdGhlIGZ1bmR1cyB0aGF0IGFyZSBjbGluaWNhbGx5IHJlbGV2YW50IHRocm91Z2ggYmlkaXJlY3Rpb25hbCBmZWF0dXJlIGV4Y2hhbmdlIGJldHdlZW4gQ05OIGFuZCBWaVQgc3RyZWFtcy4gRXhwZXJpbWVudHMgY2xlYXJseSBkZXBpY3QgaW1wcm92ZWQgcGVyZm9ybWFuY2Ugd2hlbiBjb21wYXJlZCB0byBzdGFuZGFsb25lIGJhc2VsaW5lIENOTiBhbmQgVmlUIG1vZGVscy48L2Rlc2NyaXB0aW9uPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPjYgcGFnZXMgaW4gZ2VuZXJhbCBJRUVFIGZvcm1hdCwgOCBmaWd1cmVzLCA0IHRhYmxlcywgcGRmbGF0ZXg8L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2505.17808",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2025-05-26T02:00:45.000Z",
+      "registered": "2025-05-26T02:00:46.000Z",
+      "published": "2025",
+      "updated": "2026-01-15T03:04:23.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2505.17808",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

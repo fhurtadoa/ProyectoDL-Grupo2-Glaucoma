@@ -1,0 +1,68 @@
+{
+  "repo_id": "moondream/glaucoma-detection",
+  "checked_at": "2026-11-24T07:21:43.675416+00:00",
+  "exists": true,
+  "api_metadata": {
+    "id": "moondream/glaucoma-detection",
+    "author": "moondream",
+    "createdAt": "2026-04-07T17:18:37.000Z",
+    "lastModified": "2026-04-07T17:33:58.000Z",
+    "downloads": 240,
+    "likes": 1,
+    "tags": [
+      "task_categories:image-classification",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "format:optimized-parquet",
+      "modality:image",
+      "modality:text",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "medical",
+      "ophthalmology",
+      "retina"
+    ],
+    "cardData": {
+      "pretty_name": "Glaucoma Detection",
+      "size_categories": [
+        "1K<n<10K"
+      ],
+      "task_categories": [
+        "image-classification"
+      ],
+      "tags": [
+        "medical",
+        "ophthalmology",
+        "retina"
+      ]
+    },
+    "description": "\n\t\n\t\t\n\t\n\t\n\t\tGlaucoma Detection\n\t\n\nRetinal fundus images for glaucoma stage classification.\n\n\t\n\t\t\n\t\n\t\n\t\tSplits\n\t\n\n\n\t\n\t\t\nSplit\nSamples\n\n\n\t\t\ntrain\n2847\n\n\nvalidation\n1259\n\n\ntest\n1272\n\n\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tColumns\n\t\n\n\nimage: retinal image\nclass: glaucoma stage label\n\n\n\t\n\t\t\n\t\n\t\n\t\tClasses\n\t\n\n\n\t\n\t\t\nClass\nDescription\n\n\n\t\t\nnormal\nNo glaucoma visible in the image.\n\n\nearly\nEarly-stage glaucoma findings.\n\n\nadvanced\nAdvanced glaucoma findings.\n\n\n\t\n\n",
+    "citation": null,
+    "siblings": [
+      ".gitattributes",
+      "README.md",
+      "data/test-00000-of-00006.parquet",
+      "data/test-00001-of-00006.parquet",
+      "data/test-00002-of-00006.parquet",
+      "data/test-00003-of-00006.parquet",
+      "data/test-00004-of-00006.parquet",
+      "data/test-00005-of-00006.parquet",
+      "data/train-00000-of-00006.parquet",
+      "data/train-00001-of-00006.parquet",
+      "data/train-00002-of-00006.parquet",
+      "data/train-00003-of-00006.parquet",
+      "data/train-00004-of-00006.parquet",
+      "data/train-00005-of-00006.parquet",
+      "data/validation-00000-of-00006.parquet",
+      "data/validation-00001-of-00006.parquet",
+      "data/validation-00002-of-00006.parquet",
+      "data/validation-00003-of-00006.parquet",
+      "data/validation-00004-of-00006.parquet",
+      "data/validation-00005-of-00006.parquet"
+    ]
+  },
+  "readme_md": "---\npretty_name: \"Glaucoma Detection\"\nsize_categories:\n- 1K<n<10K\ntask_categories:\n- image-classification\ntags:\n- medical\n- ophthalmology\n- retina\n---\n\n# Glaucoma Detection\n\nRetinal fundus images for glaucoma stage classification.\n\n## Splits\n\n| Split | Samples |\n|---|---:|\n| train | 2847 |\n| validation | 1259 |\n| test | 1272 |\n\n## Columns\n\n- `image`: retinal image\n- `class`: glaucoma stage label\n\n## Classes\n\n| Class | Description |\n|---|---|\n| `normal` | No glaucoma visible in the image. |\n| `early` | Early-stage glaucoma findings. |\n| `advanced` | Advanced glaucoma findings. |\n"
+}

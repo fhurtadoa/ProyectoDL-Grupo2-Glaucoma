@@ -1,0 +1,744 @@
+{
+  "data": {
+    "id": "10.7910/dvn/1yrrac",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.7910/dvn/1yrrac",
+      "prefix": "10.7910",
+      "suffix": "dvn/1yrrac",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Kim, Ungsoo",
+          "nameType": "Personal",
+          "givenName": "Ungsoo",
+          "familyName": "Kim",
+          "affiliation": [
+            "Kim"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Machine learn for glaucoma"
+        }
+      ],
+      "publisher": "Harvard Dataverse",
+      "container": {},
+      "publicationYear": 2018,
+      "subjects": [
+        {
+          "subject": "Medicine, Health and Life Sciences"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Kim, Ungsoo",
+          "nameType": "Personal",
+          "givenName": "Ungsoo",
+          "familyName": "Kim",
+          "affiliation": [
+            "Kim"
+          ],
+          "contributorType": "ContactPerson",
+          "nameIdentifiers": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2018-06-27",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2018-11-15",
+          "dateType": "Available"
+        },
+        {
+          "date": "2018",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "HasPart",
+          "relatedIdentifier": "10.7910/dvn/1yrrac/ogrsqo",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [
+        "123981705"
+      ],
+      "formats": [
+        "application/zip"
+      ],
+      "version": "1.0",
+      "rightsList": [
+        {
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        },
+        {
+          "lang": "en",
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Machine learn for glaucoma",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjUvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC43OTEwL0RWTi8xWVJSQUM8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPktpbSwgVW5nc29vPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Vbmdzb288L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+S2ltPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24+S2ltPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+TWFjaGluZSBsZWFybiBmb3IgZ2xhdWNvbWE8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+SGFydmFyZCBEYXRhdmVyc2U8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMTg8L3B1YmxpY2F0aW9uWWVhcj4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdD5NZWRpY2luZSwgSGVhbHRoIGFuZCBMaWZlIFNjaWVuY2VzPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGNvbnRyaWJ1dG9ycz4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IkNvbnRhY3RQZXJzb24iPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+S2ltLCBVbmdzb288L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Vbmdzb288L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+S2ltPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24+S2ltPC9hZmZpbGlhdGlvbj4KICAgIDwvY29udHJpYnV0b3I+CiAgPC9jb250cmlidXRvcnM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IlN1Ym1pdHRlZCI+MjAxOC0wNi0yNzwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJBdmFpbGFibGUiPjIwMTgtMTEtMTU8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiLz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0aW9uVHlwZT0iSGFzUGFydCIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiPjEwLjc5MTAvRFZOLzFZUlJBQy9PR1JTUU88L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcz4KICAgIDxzaXplPjEyMzk4MTcwNTwvc2l6ZT4KICA8L3NpemVzPgogIDxmb3JtYXRzPgogICAgPGZvcm1hdD5hcHBsaWNhdGlvbi96aXA8L2Zvcm1hdD4KICA8L2Zvcm1hdHM+CiAgPHZlcnNpb24+MS4wPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9ImluZm86ZXUtcmVwby9zZW1hbnRpY3Mvb3BlbkFjY2VzcyIvPgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL3B1YmxpY2RvbWFpbi96ZXJvLzEuMCIgcmlnaHRzSWRlbnRpZmllcj0iQ0MwLTEuMCIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgc2NoZW1lVVJJPSJodHRwczovL3NwZHgub3JnL2xpY2Vuc2VzLyIgeG1sOmxhbmc9ImVuIj5DcmVhdGl2ZSBDb21tb25zIENDMCAxLjAgVW5pdmVyc2FsIFB1YmxpYyBEb21haW4gRGVkaWNhdGlvbi48L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5NYWNoaW5lIGxlYXJuIGZvciBnbGF1Y29tYTwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+",
+      "url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/1YRRAC",
+      "contentUrl": null,
+      "metadataVersion": 3,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 3373,
+      "viewsOverTime": [
+        {
+          "yearMonth": "2020-10",
+          "total": 13
+        },
+        {
+          "yearMonth": "2020-11",
+          "total": 26
+        },
+        {
+          "yearMonth": "2020-12",
+          "total": 27
+        },
+        {
+          "yearMonth": "2021-01",
+          "total": 29
+        },
+        {
+          "yearMonth": "2021-02",
+          "total": 19
+        },
+        {
+          "yearMonth": "2021-03",
+          "total": 20
+        },
+        {
+          "yearMonth": "2021-04",
+          "total": 22
+        },
+        {
+          "yearMonth": "2021-05",
+          "total": 35
+        },
+        {
+          "yearMonth": "2021-06",
+          "total": 16
+        },
+        {
+          "yearMonth": "2021-07",
+          "total": 27
+        },
+        {
+          "yearMonth": "2021-08",
+          "total": 32
+        },
+        {
+          "yearMonth": "2021-09",
+          "total": 36
+        },
+        {
+          "yearMonth": "2021-10",
+          "total": 25
+        },
+        {
+          "yearMonth": "2021-11",
+          "total": 44
+        },
+        {
+          "yearMonth": "2021-12",
+          "total": 47
+        },
+        {
+          "yearMonth": "2022-01",
+          "total": 35
+        },
+        {
+          "yearMonth": "2022-02",
+          "total": 32
+        },
+        {
+          "yearMonth": "2022-03",
+          "total": 26
+        },
+        {
+          "yearMonth": "2022-04",
+          "total": 22
+        },
+        {
+          "yearMonth": "2022-05",
+          "total": 25
+        },
+        {
+          "yearMonth": "2022-06",
+          "total": 23
+        },
+        {
+          "yearMonth": "2022-07",
+          "total": 39
+        },
+        {
+          "yearMonth": "2022-08",
+          "total": 21
+        },
+        {
+          "yearMonth": "2022-09",
+          "total": 12
+        },
+        {
+          "yearMonth": "2022-10",
+          "total": 6
+        },
+        {
+          "yearMonth": "2022-11",
+          "total": 20
+        },
+        {
+          "yearMonth": "2022-12",
+          "total": 11
+        },
+        {
+          "yearMonth": "2023-01",
+          "total": 13
+        },
+        {
+          "yearMonth": "2023-02",
+          "total": 26
+        },
+        {
+          "yearMonth": "2023-03",
+          "total": 13
+        },
+        {
+          "yearMonth": "2023-04",
+          "total": 16
+        },
+        {
+          "yearMonth": "2023-05",
+          "total": 15
+        },
+        {
+          "yearMonth": "2023-06",
+          "total": 12
+        },
+        {
+          "yearMonth": "2023-07",
+          "total": 15
+        },
+        {
+          "yearMonth": "2023-08",
+          "total": 19
+        },
+        {
+          "yearMonth": "2023-09",
+          "total": 126
+        },
+        {
+          "yearMonth": "2023-10",
+          "total": 79
+        },
+        {
+          "yearMonth": "2023-11",
+          "total": 86
+        },
+        {
+          "yearMonth": "2023-12",
+          "total": 80
+        },
+        {
+          "yearMonth": "2024-01",
+          "total": 71
+        },
+        {
+          "yearMonth": "2024-02",
+          "total": 94
+        },
+        {
+          "yearMonth": "2024-03",
+          "total": 90
+        },
+        {
+          "yearMonth": "2024-04",
+          "total": 113
+        },
+        {
+          "yearMonth": "2024-05",
+          "total": 72
+        },
+        {
+          "yearMonth": "2024-06",
+          "total": 62
+        },
+        {
+          "yearMonth": "2024-07",
+          "total": 71
+        },
+        {
+          "yearMonth": "2024-08",
+          "total": 97
+        },
+        {
+          "yearMonth": "2024-09",
+          "total": 69
+        },
+        {
+          "yearMonth": "2024-11",
+          "total": 96
+        },
+        {
+          "yearMonth": "2024-12",
+          "total": 90
+        },
+        {
+          "yearMonth": "2025-01",
+          "total": 83
+        },
+        {
+          "yearMonth": "2025-02",
+          "total": 81
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 90
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 100
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 91
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 71
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 78
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 83
+        },
+        {
+          "yearMonth": "2025-09",
+          "total": 24
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 36
+        },
+        {
+          "yearMonth": "2025-11",
+          "total": 45
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 34
+        },
+        {
+          "yearMonth": "2026-01",
+          "total": 49
+        },
+        {
+          "yearMonth": "2026-03",
+          "total": 72
+        },
+        {
+          "yearMonth": "2026-04",
+          "total": 72
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 96
+        },
+        {
+          "yearMonth": "2026-06",
+          "total": 63
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 90
+        }
+      ],
+      "downloadCount": 893,
+      "downloadsOverTime": [
+        {
+          "yearMonth": "2020-10",
+          "total": 8
+        },
+        {
+          "yearMonth": "2020-11",
+          "total": 14
+        },
+        {
+          "yearMonth": "2020-12",
+          "total": 11
+        },
+        {
+          "yearMonth": "2021-01",
+          "total": 12
+        },
+        {
+          "yearMonth": "2021-02",
+          "total": 7
+        },
+        {
+          "yearMonth": "2021-03",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-04",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-05",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-06",
+          "total": 5
+        },
+        {
+          "yearMonth": "2021-07",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-08",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-09",
+          "total": 8
+        },
+        {
+          "yearMonth": "2021-10",
+          "total": 9
+        },
+        {
+          "yearMonth": "2021-11",
+          "total": 18
+        },
+        {
+          "yearMonth": "2021-12",
+          "total": 12
+        },
+        {
+          "yearMonth": "2022-01",
+          "total": 12
+        },
+        {
+          "yearMonth": "2022-02",
+          "total": 7
+        },
+        {
+          "yearMonth": "2022-03",
+          "total": 8
+        },
+        {
+          "yearMonth": "2022-04",
+          "total": 7
+        },
+        {
+          "yearMonth": "2022-05",
+          "total": 6
+        },
+        {
+          "yearMonth": "2022-06",
+          "total": 8
+        },
+        {
+          "yearMonth": "2022-07",
+          "total": 16
+        },
+        {
+          "yearMonth": "2022-08",
+          "total": 5
+        },
+        {
+          "yearMonth": "2022-09",
+          "total": 5
+        },
+        {
+          "yearMonth": "2022-10",
+          "total": 2
+        },
+        {
+          "yearMonth": "2022-11",
+          "total": 5
+        },
+        {
+          "yearMonth": "2022-12",
+          "total": 2
+        },
+        {
+          "yearMonth": "2023-01",
+          "total": 3
+        },
+        {
+          "yearMonth": "2023-02",
+          "total": 4
+        },
+        {
+          "yearMonth": "2023-03",
+          "total": 3
+        },
+        {
+          "yearMonth": "2023-04",
+          "total": 2
+        },
+        {
+          "yearMonth": "2023-05",
+          "total": 2
+        },
+        {
+          "yearMonth": "2023-06",
+          "total": 2
+        },
+        {
+          "yearMonth": "2023-07",
+          "total": 3
+        },
+        {
+          "yearMonth": "2023-08",
+          "total": 8
+        },
+        {
+          "yearMonth": "2023-09",
+          "total": 29
+        },
+        {
+          "yearMonth": "2023-10",
+          "total": 26
+        },
+        {
+          "yearMonth": "2023-11",
+          "total": 29
+        },
+        {
+          "yearMonth": "2023-12",
+          "total": 18
+        },
+        {
+          "yearMonth": "2024-01",
+          "total": 29
+        },
+        {
+          "yearMonth": "2024-02",
+          "total": 20
+        },
+        {
+          "yearMonth": "2024-03",
+          "total": 27
+        },
+        {
+          "yearMonth": "2024-04",
+          "total": 16
+        },
+        {
+          "yearMonth": "2024-05",
+          "total": 22
+        },
+        {
+          "yearMonth": "2024-06",
+          "total": 16
+        },
+        {
+          "yearMonth": "2024-07",
+          "total": 18
+        },
+        {
+          "yearMonth": "2024-08",
+          "total": 20
+        },
+        {
+          "yearMonth": "2024-09",
+          "total": 14
+        },
+        {
+          "yearMonth": "2024-11",
+          "total": 25
+        },
+        {
+          "yearMonth": "2024-12",
+          "total": 24
+        },
+        {
+          "yearMonth": "2025-01",
+          "total": 21
+        },
+        {
+          "yearMonth": "2025-02",
+          "total": 16
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 29
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 24
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 23
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 18
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 21
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 9
+        },
+        {
+          "yearMonth": "2025-09",
+          "total": 6
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 12
+        },
+        {
+          "yearMonth": "2025-11",
+          "total": 13
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 8
+        },
+        {
+          "yearMonth": "2026-01",
+          "total": 12
+        },
+        {
+          "yearMonth": "2026-02",
+          "total": 18
+        },
+        {
+          "yearMonth": "2026-03",
+          "total": 18
+        },
+        {
+          "yearMonth": "2026-04",
+          "total": 15
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 10
+        },
+        {
+          "yearMonth": "2026-06",
+          "total": 8
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 15
+        }
+      ],
+      "referenceCount": 0,
+      "citationCount": 2,
+      "citationsOverTime": [
+        {
+          "year": "2025",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 1,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2018-11-15T07:21:42.000Z",
+      "registered": "2018-11-15T07:21:43.000Z",
+      "published": "2018",
+      "updated": "2026-04-16T22:33:38.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "gdcc.harvard-dv",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "harvardu",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.7910/dvn/1yrrac",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.64898/2026.10.02.26362554",
+            "type": "dois"
+          },
+          {
+            "id": "10.1038/s41433-024-03388-4",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": [
+          {
+            "id": "10.7910/dvn/1yrrac/ogrsqo",
+            "type": "dois"
+          }
+        ]
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

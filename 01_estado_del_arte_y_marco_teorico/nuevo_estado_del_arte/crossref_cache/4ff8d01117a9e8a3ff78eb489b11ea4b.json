@@ -1,0 +1,932 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2026-06-13T18:20:16Z",
+      "timestamp": 1781374816694,
+      "version": "3.54.1"
+    },
+    "reference-count": 53,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              7
+            ]
+          ],
+          "date-time": "2025-11-07T00:00:00Z",
+          "timestamp": 1762473600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100004731",
+        "name": "Zhejiang Province Natural Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "LTGY23H090014"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "LTGY23H090014"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004731",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004731",
+        "name": "Zhejiang Province Natural Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "LGF22H090022"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "LGF22H090022"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004731",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01HL174570"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01HL174570"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01CA237277"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01CA237277"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01EY033973"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01EY033973"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007194",
+        "name": "Wenzhou Municipal Science and Technology Bureau",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Y20240059"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Y20240059"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007194",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.engappai.2025.113118",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2025-11-10T04:59:02Z",
+      "timestamp": 1762750742000
+    },
+    "page": "113118",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "P3",
+    "title": [
+      "Uncertainty- and hardness-weighted loss functions for medical image segmentation"
+    ],
+    "prefix": "10.1016",
+    "volume": "163",
+    "author": [
+      {
+        "given": "Yanyan",
+        "family": "Zheng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yabo",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoguo",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Quanyong",
+        "family": "Yi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiantao",
+        "family": "Pu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib1",
+        "first-page": "1",
+        "article-title": "Loss functions in the era of semantic segmentation: a survey and outlook",
+        "author": "Azad",
+        "year": "2023",
+        "journal-title": "arXiv, 2312.05391"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib2",
+        "series-title": "Image Segmentation Survey: Classical and Deep Learning Methods",
+        "author": "Bachani",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib3",
+        "series-title": "European Conference on Computer Vision",
+        "article-title": "Swin-unet: unet-Like pure transformer for medical image segmentation",
+        "author": "Cao",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib4",
+        "article-title": "A review of retinal vessel segmentation for fundus image analysis",
+        "volume": "128",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib5",
+        "series-title": "TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation",
+        "author": "Chen",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib6",
+        "article-title": "Dual-Decoder consistency via pseudo-labels guided data augmentation for semi-supervised medical image segmentation",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "arXiv:2308"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib7",
+        "first-page": "1",
+        "article-title": "3D surface highlight removal method based on detection mask",
+        "volume": "2025",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Arabian J. Sci."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib8",
+        "series-title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+        "article-title": "Topology-Aware focal loss for 3D image segmentation",
+        "author": "Demir",
+        "year": "2023"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.engappai.2025.113118_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "477",
+        "DOI": "10.1109/TCSVT.2024.3454160",
+        "article-title": "Perceptual information fidelity for quality estimation of industrial images",
+        "volume": "35",
+        "author": "Gu",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Circ. Syst. Video Technol."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2023.107840",
+        "article-title": "Learning with limited annotations: a survey on deep semi-supervised learning for medical image segmentation",
+        "volume": "169",
+        "author": "Jiao",
+        "year": "2024",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2023.107695",
+        "article-title": "Adaptive t-vMF dice loss: an effective expansion of dice loss for medical image segmentation",
+        "volume": "168",
+        "author": "Kato",
+        "year": "2024",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2023.102846",
+        "article-title": "Diffusion models in medical imaging: a comprehensive survey",
+        "volume": "88",
+        "author": "Kazerouni",
+        "year": "2023",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2020.101851",
+        "article-title": "Boundary loss for highly unbalanced segmentation",
+        "volume": "67",
+        "author": "Kervadec",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib14",
+        "series-title": "AAAI Conference on Artificial Intelligence",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.5772/intechopen.111293",
+        "article-title": "U-KAN makes strong backbone for medical image segmentation and generation",
+        "author": "Li",
+        "year": "2024"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.engappai.2025.113118_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "12076",
+        "DOI": "10.1109/TNNLS.2024.3487833",
+        "article-title": "AO-DETR: Anti-overlapping DETR for X-Ray prohibited items detection",
+        "volume": "36",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "IEEE Transact. Neural Networks Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib16",
+        "series-title": "IEEE International Conference on Computer Vision",
+        "article-title": "Focal loss for dense object detection",
+        "author": "Lin",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib17",
+        "series-title": "AAAI Conference on Artificial Intelligence",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.5772/intechopen.111293",
+        "article-title": "Rolling-unet: revitalizing mlp's ability to efficiently extract long-distance dependencies for medical image segmentation",
+        "author": "Liu",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib18",
+        "article-title": "DGSSA: domain generalization with structural and stylistic augmentation for retinal vessel segmentation",
+        "volume": "194",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "issue": "24",
+        "key": "10.1016/j.engappai.2025.113118_bib19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1361-6560/ad0a5a",
+        "article-title": "Deep learning for fast super-resolution ultrasound microvessel imaging",
+        "volume": "68",
+        "author": "Luan",
+        "year": "2023",
+        "journal-title": "Phys. Med. Biol."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1038/s41597-022-01507-y",
+        "article-title": "The RETA benchmark for retinal vascular tree analysis",
+        "volume": "9",
+        "author": "Lyu",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2021.102035",
+        "article-title": "Loss odyssey in medical image segmentation",
+        "volume": "71",
+        "author": "Ma",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.artmed.2023.102757",
+        "article-title": "Semi-supervised image segmentation using a residual-driven mean teacher and an exponential dice loss",
+        "volume": "148",
+        "author": "Mei",
+        "year": "2024",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Milletari, F., Navab, N., Ahmadi, S., 2016. V-Net: fully convolutional neural networks for volumetric medical image segmentation. International Conference on 3D Vision, 2016, 565-571.",
+        "DOI": "10.1109/3DV.2016.79"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib24",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "article-title": "CS-Net: Channel and spatial attention network for curvilinear structure segmentation",
+        "author": "Mou",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib25",
+        "article-title": "REFUGE challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2019",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib26",
+        "series-title": "IEEE Conference on Computer Vision and Pattern Recognition",
+        "article-title": "EMCAD: efficient multi-scale convolutional attention decoding for medical image segmentation",
+        "author": "Rahman",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib27",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "article-title": "U-Net: Convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib28",
+        "series-title": "International Workshop on Machine Learning in Medical Imaging",
+        "article-title": "Tversky loss function for image segmentation using 3D fully convolutional deep networks",
+        "author": "Salehi",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1109/TNSRE.2023.3346955",
+        "article-title": "B2-ViT net: broad vision transformer network with broad attention for seizure prediction",
+        "volume": "32",
+        "author": "Shi",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Neural Syst. Rehabil. Eng."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.engappai.2025.113118_bib30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1117/1.JMI.10.5.051809",
+        "article-title": "Batch-balanced focal loss: a hybrid solution to class imbalance in deep learning",
+        "volume": "10",
+        "author": "Singh",
+        "year": "2023",
+        "journal-title": "J. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "10965",
+        "DOI": "10.1109/TMM.2024.3428349",
+        "article-title": "CenterFormer: a novel cluster Center enhanced transformer for unconstrained dental plaque segmentation",
+        "volume": "26",
+        "author": "Song",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Multimed."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2024.3411133",
+        "article-title": "A hierarchical full-resolution fusion network and topology-aware connectivity booster for retinal vessel segmentation",
+        "author": "Su",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib33",
+        "first-page": "240",
+        "article-title": "Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations",
+        "volume": "10553",
+        "author": "Sudre",
+        "year": "2017",
+        "journal-title": "International Workshop on Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1016/j.compmedimag.2019.04.005",
+        "article-title": "Combo loss: handling input and output imbalance in multi-organ segmentation",
+        "volume": "75",
+        "author": "Taghanaki",
+        "year": "2019",
+        "journal-title": "Comput. Med. Imag. Graph."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib35",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "article-title": "Automatic segmentation of vestibular schwannoma from T2-Weighted MRI by deep spatial attention with hardness-weighted loss",
+        "author": "Wang",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2021.108158",
+        "article-title": "Automated delineation of corneal layers on OCT images using a boundary-guided CNN",
+        "volume": "120",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Pattern Recogn."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib37",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2020.107810",
+        "article-title": "Automated segmentation of the optic disc from fundus images using an asymmetric deep learning network",
+        "volume": "112",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Pattern Recogn."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib38",
+        "series-title": "AAAI Conference on Artificial Intelligence",
+        "article-title": "Active boundary loss for semantic segmentation",
+        "author": "Wang",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2021.103213",
+        "article-title": "EE-Net: an edge-enhanced deep learning network for jointly identifying corneal micro-layers from optical coherence tomography",
+        "volume": "71",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Biomed. Signal Process Control"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib40",
+        "series-title": "Mamba-UNet: Unet-Like Pure Visual Mamba for Medical Image Segmentation",
+        "author": "Wang",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2020.101832",
+        "article-title": "A global benchmark of algorithms for segmenting the left atrium from late gadolinium-enhanced cardiac magnetic resonance imaging",
+        "volume": "67",
+        "author": "Xiong",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2025.126839",
+        "article-title": "Multichannel feature fusion network-based technique for heart sound signal classification and recognition",
+        "volume": "273",
+        "author": "Xiong",
+        "year": "2025",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.engappai.2025.113118_bib43",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1080/08839514.2021.1988441",
+        "article-title": "Highlight removal from A single grayscale image using attentive GAN",
+        "volume": "36",
+        "author": "Xu",
+        "year": "2022",
+        "journal-title": "Appl. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib44",
+        "first-page": "1620",
+        "article-title": "Medical image segmentation using dual branch networks with embedded attention mechanism",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "IEEE International Conference on Bioinformatics and Biomedicine"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.engappai.2025.113118_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1781",
+        "DOI": "10.1109/TFUZZ.2025.3536564",
+        "article-title": "Constructing three-way decision with fuzzy granular-ball rough sets based on uncertainty invariance",
+        "volume": "33",
+        "author": "Yang",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Fuzzy Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compmedimag.2021.102026",
+        "article-title": "Unified focal loss: Generalising dice and cross entropy-based losses to handle class imbalanced medical image segmentation",
+        "volume": "95",
+        "author": "Yeung",
+        "year": "2022",
+        "journal-title": "Comput. Med. Imag. Graph."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib47",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "article-title": "Uncertainty-aware self-ensembling model for semi-supervised 3D left atrium segmentation",
+        "author": "Yu",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "5893",
+        "DOI": "10.1109/TIP.2022.3203223",
+        "article-title": "Crosslink-net: double-branch encoder segmentation network via fusing vertical and horizontal convolutions",
+        "volume": "31",
+        "author": "Yu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "issue": "20",
+        "key": "10.1016/j.engappai.2025.113118_bib49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1361-6560/acf98f",
+        "article-title": "Deep learning for fast denoising filtering in ultrasound localization microscopy",
+        "volume": "68",
+        "author": "Yu",
+        "year": "2023",
+        "journal-title": "Phys. Med. Biol."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib50",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cmpb.2024.108280",
+        "article-title": "MultiTrans: multi-branch transformer network for medical image segmentation",
+        "volume": "254",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Comput. Methods Progr. Biomed."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.engappai.2025.113118_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "6537",
+        "DOI": "10.1109/TAES.2025.3529431",
+        "article-title": "Style-transfer-based unsupervised change detection from heterogeneous images",
+        "volume": "61",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Aero. Electron. Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib52",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.bspc.2022.103630",
+        "article-title": "A texture-aware U-Net for identifying incomplete blinking from eye videography",
+        "volume": "75",
+        "author": "Zheng",
+        "year": "2022",
+        "journal-title": "Biomed. Signal Process Control"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.113118_bib53",
+        "first-page": "3",
+        "article-title": "UNet++: a nested U-Net architecture for medical image segmentation. International Workshop on Deep Learning in Medical Image Analysis and Multimodal Learning for",
+        "volume": "11045",
+        "author": "Zhou",
+        "year": "2018",
+        "journal-title": "Clinical Decision Support"
+      }
+    ],
+    "container-title": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0952197625031495?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0952197625031495?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T10:22:53Z",
+      "timestamp": 1773310973000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0952197625031495"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "references-count": 53,
+    "alternative-id": [
+      "S0952197625031495"
+    ],
+    "URL": "https://doi.org/10.1016/j.engappai.2025.113118",
+    "relation": {},
+    "ISSN": [
+      "0952-1976"
+    ],
+    "issn-type": [
+      {
+        "value": "0952-1976",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Uncertainty- and hardness-weighted loss functions for medical image segmentation",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Engineering Applications of Artificial Intelligence",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.engappai.2025.113118",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 The Authors. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "113118"
+  }
+}

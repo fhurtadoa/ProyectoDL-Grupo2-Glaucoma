@@ -1,0 +1,482 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2026-09-16T03:05:35Z",
+      "timestamp": 1789527935100,
+      "version": "build-2803163510"
+    },
+    "reference-count": 50,
+    "publisher": "National Taiwan University",
+    "issue": "03",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomed. Eng. Appl. Basis Commun."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2027,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Glaucoma, a major cause of irreversible blindness, requires accurate and early detection of optic disc (OD) and optic cup (OC) deformations in fundus images to prevent optic nerve damage. A Hybrid Deep Learning Framework for automatic OD and OC segmentation is presented in this work. To efficiently capture pertinent information for glaucoma detection, the model incorporates advanced features like squeeze-and-excitation (SE) blocks, multi-scale attention processes, and Atrous Spatial Pyramid Pooling (ASPP) modules. Experimentation was conducted using the REFUGE dataset for training, and the model was further evaluated on six publicly available fundus image datasets: ORIGA, DRISHTI-GS1, HRF, Dr. HAGIS, BEH, and DRIVE, constituting a cross-dataset assessment to evaluate generalization capability across diverse imaging conditions. The segmentation performance of the proposed model is remarkable, achieving high [Formula: see text]1-scores for both OD and OC across multiple datasets. The framework outperformed several state-of-the-art designs, including modified U-Net and linear-dual attention mechanisms, with improvements of up to 6.56% in OC and 2.59% in OD segmentation. The model demonstrated excellent OD segmentation on the DRIVE dataset, achieving an [Formula: see text]1-score of 0.9848, highlighting its robustness, accuracy, and versatility across diverse fundus imaging conditions.</jats:p>",
+    "DOI": "10.4015/s1016237226500079",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          15
+        ]
+      ],
+      "date-time": "2026-05-15T04:05:31Z",
+      "timestamp": 1778817931000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "HYBRID DEEP LEARNING FRAMEWORK FOR ENHANCED AUTOMATED FUNDUS IMAGE SEGMENTATION IN GLAUCOMA SCREENING"
+    ],
+    "prefix": "10.4015",
+    "volume": "39",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-1468-1468",
+        "authenticated-orcid": false,
+        "given": "Akshay",
+        "family": "Kanwar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Jaypee University of Information Technology, Waknaghat, District Solan, Himachal Pradesh, India"
+          },
+          {
+            "name": "J. N. Government Engineering College, Sundernagar, District Mandi, Himachal Pradesh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3339-5657",
+        "authenticated-orcid": false,
+        "given": "Emjee",
+        "family": "Puthooran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jaypee University of Information Technology, Waknaghat, District Solan, Himachal Pradesh, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0594-381X",
+        "authenticated-orcid": false,
+        "given": "Vinod",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Indian Institute of Technology, Roorkee, Roorkee, Uttarakhand, India"
+          },
+          {
+            "name": "National Institute of Medical Science University, Jaipur, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2435",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "11",
+        "key": "S1016237226500079BIB001",
+        "first-page": "887",
+        "volume": "82",
+        "author": "Kingman S",
+        "year": "2004",
+        "journal-title": "Bull World Health Organ"
+      },
+      {
+        "key": "S1016237226500079BIB002",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM55620.2022.9995695"
+      },
+      {
+        "key": "S1016237226500079BIB003",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/math10224288"
+      },
+      {
+        "key": "S1016237226500079BIB004",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDSCA56264.2022.9987816"
+      },
+      {
+        "key": "S1016237226500079BIB005",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2025.3596547"
+      },
+      {
+        "key": "S1016237226500079BIB006",
+        "first-page": "567",
+        "volume-title": "Int Symp Multidisciplinary Studies and Innovative Technologies (ISMSIT)",
+        "author": "Wu F",
+        "year": "2022"
+      },
+      {
+        "key": "S1016237226500079BIB007",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM58861.2023.10385888"
+      },
+      {
+        "key": "S1016237226500079BIB008",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou Z, Zheng Y, Zhou X, Yu J, Rong S, Self-supervised pre-training for joint optic disc and cup segmentation via attention-aware network, Research Square, 2023, doi:10.21203/rs.3.rs-3704777/v1.",
+        "DOI": "10.21203/rs.3.rs-3704777/v1"
+      },
+      {
+        "key": "S1016237226500079BIB009",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICERCS57948.2023.10434051"
+      },
+      {
+        "issue": "5",
+        "key": "S1016237226500079BIB010",
+        "first-page": "920",
+        "volume": "40",
+        "author": "Lan Z",
+        "year": "2023",
+        "journal-title": "Sheng Wu Yi Xue Gong Cheng Xue Za Zhi [J Biomed Eng]"
+      },
+      {
+        "key": "S1016237226500079BIB011",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Elizabeth JR, Kesavaraja D, Juliet SE, A novel optic disc and optic cup segmentation in a fundus image using CNN based hybrid CAG-SEPPSM, Res Square, 2023. doi:10.21203/rs.3.rs-3202619/v1.",
+        "DOI": "10.21203/rs.3.rs-3202619/v1"
+      },
+      {
+        "key": "S1016237226500079BIB012",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1587/transfun.2022EAL2085"
+      },
+      {
+        "key": "S1016237226500079BIB013",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCCNT56998.2023.10308314"
+      },
+      {
+        "key": "S1016237226500079BIB014",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2023.126798"
+      },
+      {
+        "key": "S1016237226500079BIB015",
+        "unstructured": "Chen Z, Pan Y, Ye Y, Cui H, Xia Y, A fundus image dataset for domain generalization in joint segmentation of optic disc and optic cup, Zenodo, CERN European Organization for Nuclear Research, 2023, doi:10.5281/zenodo.8009107."
+      },
+      {
+        "key": "S1016237226500079BIB016",
+        "unstructured": "Chen Z, Pan Y, Ye Y, Cui H, Xia Y, A fundus image dataset for domain generalization in joint segmentation of optic disc and optic cup, Zenodo, CERN European Organization for Nuclear Research, 2023, doi:10.5281/zenodo.8009106."
+      },
+      {
+        "key": "S1016237226500079BIB017",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s23104668"
+      },
+      {
+        "key": "S1016237226500079BIB018",
+        "first-page": "44",
+        "volume": "14",
+        "author": "Parkhi P",
+        "year": "2023",
+        "journal-title": "Int J Next-Gen Comput"
+      },
+      {
+        "key": "S1016237226500079BIB019",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-36805-9_36"
+      },
+      {
+        "key": "S1016237226500079BIB020",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biomimetics9100637"
+      },
+      {
+        "key": "S1016237226500079BIB021",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4015/S1016237224500364"
+      },
+      {
+        "key": "S1016237226500079BIB022",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.52756/ijerr.2024.v42.029"
+      },
+      {
+        "key": "S1016237226500079BIB023",
+        "unstructured": "Yoga Sri Varshan V, Gupta Kattamuri H, Sahayam S, Jayaraman U, Integrating edge information into ground truth for the segmentation of the optic disc and cup from fundus images, arXiv:2408.05052."
+      },
+      {
+        "key": "S1016237226500079BIB024",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LSENS.2024.3483990"
+      },
+      {
+        "key": "S1016237226500079BIB025",
+        "first-page": "1",
+        "volume-title": "2021 IEEE Int Conf Electronics, Computing and Communication Technologies (CONECCT)",
+        "author": "Priyanka R",
+        "year": "2024"
+      },
+      {
+        "key": "S1016237226500079BIB026",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12886-024-03532-4"
+      },
+      {
+        "key": "S1016237226500079BIB027",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/ipr2.13115"
+      },
+      {
+        "key": "S1016237226500079BIB028",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/BOE.439713"
+      },
+      {
+        "key": "S1016237226500079BIB029",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCCNT49239.2020.9225537"
+      },
+      {
+        "key": "S1016237226500079BIB030",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICEEICT62016.2024.10534436"
+      },
+      {
+        "key": "S1016237226500079BIB031",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12886-024-03376-y"
+      },
+      {
+        "key": "S1016237226500079BIB032",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "S1016237226500079BIB033",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "S1016237226500079BIB034",
+        "unstructured": "Öfverstedt J, High resolution fundus image database for monomodal single-channel image registration of thin features, Zenodo (CERN European Organization for Nuclear Research), 2020, doi:10.5281/zenodo.4304781."
+      },
+      {
+        "key": "S1016237226500079BIB035",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JMI.4.1.014503"
+      },
+      {
+        "key": "S1016237226500079BIB036",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-024-03362-5"
+      },
+      {
+        "key": "S1016237226500079BIB037",
+        "unstructured": "Huazhu F\n                      et al.\n                      , Retinal fundus glaucoma image dataset, Figshare, 2023, doi:10.6084/m9.figshare.24549217."
+      },
+      {
+        "key": "S1016237226500079BIB038",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imu.2025.101644"
+      },
+      {
+        "key": "S1016237226500079BIB039",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4015/S1016237225300019"
+      },
+      {
+        "key": "S1016237226500079BIB040",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DASA54658.2022.9765303"
+      },
+      {
+        "key": "S1016237226500079BIB041",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICARC54489.2022.9754171"
+      },
+      {
+        "key": "S1016237226500079BIB042",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11633-022-1354-z"
+      },
+      {
+        "key": "S1016237226500079BIB043",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2024.3359698"
+      },
+      {
+        "key": "S1016237226500079BIB044",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/2228-7477.150414"
+      },
+      {
+        "issue": "3",
+        "key": "S1016237226500079BIB045",
+        "first-page": "593",
+        "volume": "60",
+        "author": "Joshi S",
+        "year": "2017",
+        "journal-title": "Adv Model Anal B"
+      },
+      {
+        "key": "S1016237226500079BIB046",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/1019/1/012026"
+      },
+      {
+        "key": "S1016237226500079BIB047",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-024-09996-1"
+      },
+      {
+        "key": "S1016237226500079BIB048",
+        "first-page": "238",
+        "volume-title": "2024 Int Conf Artificial Intelligence in Information and Communication (ICAIIC)",
+        "author": "Tagne Poupi TA",
+        "year": "2024"
+      },
+      {
+        "key": "S1016237226500079BIB049",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-25066-8_9"
+      },
+      {
+        "key": "S1016237226500079BIB050",
+        "unstructured": "Chen J, Lu Y, Yu Q, Luo X, Adeli E, Wang Y, Lu L, Yuille AL, Zhou Y, TransUNet: Transformers make strong encoders for medical image segmentation, arXiv:2102.04306."
+      }
+    ],
+    "container-title": [
+      "Biomedical Engineering: Applications, Basis and Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.worldscientific.com/doi/pdf/10.4015/S1016237226500079",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2026-09-16T02:30:40Z",
+      "timestamp": 1789525840000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.worldscientific.com/doi/10.4015/S1016237226500079"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          15
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "03",
+      "published-print": {
+        "date-parts": [
+          [
+            2027,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.4015/S1016237226500079"
+    ],
+    "URL": "https://doi.org/10.4015/s1016237226500079",
+    "relation": {},
+    "ISSN": [
+      "1016-2372",
+      "1793-7132"
+    ],
+    "issn-type": [
+      {
+        "value": "1016-2372",
+        "type": "print"
+      },
+      {
+        "value": "1793-7132",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          15
+        ]
+      ]
+    },
+    "article-number": "2650007"
+  }
+}

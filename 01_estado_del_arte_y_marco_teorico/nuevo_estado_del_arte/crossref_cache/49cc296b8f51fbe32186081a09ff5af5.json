@@ -1,0 +1,779 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T21:23:31Z",
+      "timestamp": 1790717011232,
+      "version": "4.1.0"
+    },
+    "reference-count": 36,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ajo.com",
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "American Journal of Ophthalmology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ajo.2023.02.016",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2023-03-01T20:57:38Z",
+      "timestamp": 1677704258000
+    },
+    "page": "1-8",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "special_numbering": "C",
+    "title": [
+      "Differentiating Glaucomatous Optic Neuropathy From Non-glaucomatous Optic Neuropathies Using Deep Learning Algorithms"
+    ],
+    "prefix": "10.1016",
+    "volume": "252",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8443-7749",
+        "authenticated-orcid": false,
+        "given": "Mahsa",
+        "family": "Vali",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3017-6643",
+        "authenticated-orcid": false,
+        "given": "Massood",
+        "family": "Mohammadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nasim",
+        "family": "Zarei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Melika",
+        "family": "Samadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4242-4579",
+        "authenticated-orcid": false,
+        "given": "Amir",
+        "family": "Atapour-Abarghouei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4312-9384",
+        "authenticated-orcid": false,
+        "given": "Wasu",
+        "family": "Supakontanasan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6212-5966",
+        "authenticated-orcid": false,
+        "given": "Yanin",
+        "family": "Suwan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5824-8322",
+        "authenticated-orcid": false,
+        "given": "Prem S.",
+        "family": "Subramanian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Neil R.",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0087-9476",
+        "authenticated-orcid": false,
+        "given": "Rahele",
+        "family": "Kafieh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4005-2967",
+        "authenticated-orcid": false,
+        "given": "Masoud",
+        "family": "Aghsaei Fard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.1016/j.ajo.2023.02.016_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1016/j.pop.2015.05.008",
+        "volume": "42",
+        "author": "Mantravadi",
+        "year": "2015",
+        "journal-title": "Prim Care"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2023.02.016_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "757",
+        "DOI": "10.1016/j.ophtha.2004.12.009",
+        "article-title": "The diagnostic yield of the evaluation for isolated unexplained optic atrophy",
+        "volume": "112",
+        "author": "Lee",
+        "year": "2005",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.2147/EB.S272343",
+        "article-title": "Neuro-ophthalmological optic nerve cupping: an overview",
+        "volume": "13",
+        "author": "Waisberg",
+        "year": "2021",
+        "journal-title": "Eye Brain"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ajo.2023.02.016_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1046",
+        "DOI": "10.1001/archopht.1980.01020031036004",
+        "article-title": "Nonglaucomatous excavation of the optic disc",
+        "volume": "98",
+        "author": "Trobe",
+        "year": "1980",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ajo.2023.02.016_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1097/00004397-200101000-00013",
+        "article-title": "Nonglaucomatous cupping of the optic disc",
+        "volume": "41",
+        "author": "Ambati",
+        "year": "2001",
+        "journal-title": "Int Ophthalmol Clin"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ajo.2023.02.016_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "377",
+        "DOI": "10.1097/WON.0000000000000080",
+        "article-title": "Optic nerve cupping and the neuro-ophthalmologist",
+        "volume": "33",
+        "author": "Fraser",
+        "year": "2013",
+        "journal-title": "J Neuroophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ajo.2023.02.016_bib0007",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0112403",
+        "article-title": "Comparison of optic disc morphology of optic nerve atrophy between compressive optic neuropathy and glaucomatous optic neuropathy",
+        "volume": "9",
+        "author": "Hata",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ajo.2023.02.016_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "374",
+        "DOI": "10.1136/bjophthalmol-2018-312161",
+        "article-title": "Optic nerve head cupping in glaucomatous and non-glaucomatous optic neuropathy",
+        "volume": "103",
+        "author": "Fard",
+        "year": "2019",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ajo.2023.02.016_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "1313",
+        "DOI": "10.1080/02713683.2017.1307415",
+        "article-title": "Assessment of optic nerve head pallor in primary open-angle glaucoma patients and healthy subjects",
+        "volume": "42",
+        "author": "Ramm",
+        "year": "2017",
+        "journal-title": "Current Eye Res"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ajo.2023.02.016_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1097/APO.0000000000000512",
+        "article-title": "Artificial intelligence meets neuro-ophthalmology",
+        "volume": "11",
+        "author": "Leong",
+        "year": "2022",
+        "journal-title": "Asia-Pacif J Ophthalmol"
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.ajo.2023.02.016_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "1687",
+        "DOI": "10.1056/NEJMoa1917130",
+        "article-title": "Artificial intelligence to detect papilledema from ocular fundus photographs",
+        "volume": "382",
+        "author": "Milea",
+        "year": "2020",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ajo.2023.02.016_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "1199",
+        "DOI": "10.1016/j.ophtha.2018.01.023",
+        "article-title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "125",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajo.2021.12.008",
+        "article-title": "Performances of machine learning in detecting glaucoma using fundus and retinal optical coherence tomography images: a meta-analysis",
+        "volume": "237",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ajo.2023.02.016_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1097/IJG.0000000000002015",
+        "article-title": "Diagnostic accuracy of artificial intelligence in glaucoma screening and clinical practice",
+        "volume": "31",
+        "author": "Chaurasia",
+        "year": "2022",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ajo.2023.02.016_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "587",
+        "DOI": "10.1136/bjophthalmol-2020-318107",
+        "article-title": "Deep learning-assisted (automatic) diagnosis of glaucoma using a smartphone",
+        "volume": "106",
+        "author": "Nakahara",
+        "year": "2022",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ajo.2023.02.016_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "1029",
+        "DOI": "10.1097/IJG.0000000000001319",
+        "article-title": "Evaluation of a deep learning system for identifying glaucomatous optic neuropathy based on color fundus photographs",
+        "volume": "28",
+        "author": "Al-Aswad",
+        "year": "2019",
+        "journal-title": "J Glaucoma"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.1016/j.ajo.2020.03.035",
+        "article-title": "Efficacy for differentiating nonglaucomatous vs glaucomatous optic neuropathy using deep learning systems",
+        "volume": "216",
+        "author": "Yang",
+        "year": "2020",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0018",
+        "series-title": "Clinical Decisions in Glaucoma",
+        "author": "Hodapp",
+        "year": "1993"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ajo.2023.02.016_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0020",
+        "series-title": "24th International Symposium on Computer-Based Medical Systems (CBMS)",
+        "article-title": "RIM-ONE: an open retinal image database for optic nerve evaluation",
+        "author": "Fumero",
+        "year": "2011"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ajo.2023.02.016_bib0021",
+        "first-page": "91",
+        "article-title": "Interactive tool and database for optic disc and cup segmentation of stereo and monocular retinal fundus images",
+        "volume": "10",
+        "author": "Fumero",
+        "year": "2015",
+        "journal-title": "Václav Skala-: UNION Agency"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0022",
+        "article-title": "Retinal fundus images for glaucoma analysis: the RIGA dataset. Medical Imaging 2018: Imaging Informatics for Healthcare",
+        "author": "Almazroa",
+        "year": "2018",
+        "journal-title": "Research, and Applications: SPIE"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0023",
+        "unstructured": "Perez L, Wang J. The effectiveness of data augmentation in image classification using deep learning. arXiv preprint arXiv:171204621 2017."
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0024",
+        "series-title": "12th International Symposium on Medical Information Processing and Snalysis: SPIE",
+        "first-page": "10160",
+        "article-title": "Convolutional neural network transfer for automated glaucoma identification",
+        "author": "Orlando",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0025",
+        "series-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "article-title": "U-net: convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0026",
+        "unstructured": "Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:14091556 2014."
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0027",
+        "series-title": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "article-title": "Deep residual learning for image recognition",
+        "author": "He",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0028",
+        "series-title": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "article-title": "Going deeper with convolutions",
+        "author": "Szegedy",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0029",
+        "unstructured": "Howard AG, Zhu M, Chen B, et al. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:170404861 2017."
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0030",
+        "series-title": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "article-title": "Densely connected convolutional networks",
+        "author": "Huang",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0031",
+        "unstructured": "Dosovitskiy A, Beyer L, Kolesnikov A, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:201011929 2020."
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0032",
+        "series-title": "2009 IEEE conference on computer vision and pattern recognition",
+        "article-title": "Imagenet: A large-scale hierarchical image database",
+        "author": "Deng",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.ajo.2023.02.016_bib0033",
+        "series-title": "Proceedings of the IEEE international conference on computer vision",
+        "article-title": "Grad-cam: visual explanations from deep networks via gradient-based localization",
+        "author": "Selvaraju",
+        "year": "2017"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ajo.2023.02.016_bib0034",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1111/aos.13970",
+        "article-title": "Automatic computer-aided analysis of optic disc pallor in fundus photographs",
+        "volume": "97",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Acta Ophthalmol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ajo.2023.02.016_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1097/WNO.0000000000000827",
+        "article-title": "Deep learning and transfer learning for optic disc laterality detection: implications for machine learning in neuro-ophthalmology",
+        "volume": "40",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "J Neuro-Ophthalmol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ajo.2023.02.016_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1097/WCO.0000000000000773",
+        "article-title": "Artificial intelligence for detection of optic disc abnormalities",
+        "volume": "33",
+        "author": "Milea",
+        "year": "2020",
+        "journal-title": "Curr Opin Neurol"
+      }
+    ],
+    "container-title": [
+      "American Journal of Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S000293942300082X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S000293942300082X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2025-09-11T13:52:29Z",
+      "timestamp": 1757598749000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S000293942300082X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "references-count": 36,
+    "alternative-id": [
+      "S000293942300082X"
+    ],
+    "URL": "https://doi.org/10.1016/j.ajo.2023.02.016",
+    "relation": {},
+    "ISSN": [
+      "0002-9394"
+    ],
+    "issn-type": [
+      {
+        "value": "0002-9394",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Differentiating Glaucomatous Optic Neuropathy From Non-glaucomatous Optic Neuropathies Using Deep Learning Algorithms",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "American Journal of Ophthalmology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ajo.2023.02.016",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2026-10-14T10:51:01Z",
+      "timestamp": 1791975061344,
+      "version": "4.4.0"
+    },
+    "reference-count": 32,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2026-10-14T00:00:00Z",
+          "timestamp": 1791936000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Med."
+    ],
+    "abstract": "<jats:p>Artificial intelligence-assisted computer-aided detection (CAD) can expand access to chest radiography interpretation for pulmonary tuberculosis screening and triage, but high overall discrimination does not ensure safety at a deployed threshold. This focused narrative Mini Review synthesizes evidence on subgroup performance, threshold calibration, external validity, and implementation of CAD for adult pulmonary tuberculosis. Smear-negative, asymptomatic, and some HIV-associated disease may be less radiographically visible, increasing false-negative risk. Conversely, previous tuberculosis and competing chronic abnormalities reduce specificity and concentrate unnecessary confirmatory testing. Sex, age, geography, clinical setting, verification design, and software version can further alter operating performance. A numerical threshold is therefore not a portable algorithm property but a context-specific clinical resource-allocation policy. We propose a lifecycle in which programs define the intended use, lock the product and version, conduct representative local validation, select an operating point under explicit sensitivity and capacity constraints, audit clinically relevant subgroups, and monitor the complete care pathway. Stratified thresholds and multivariable models may improve selected settings, but current evidence does not justify replacing robust local calibration and governance. Prospective evaluations should compare threshold strategies under common verification standards and report missed cases, referral burden, treatment initiation, and patient-important outcomes.</jats:p>",
+    "DOI": "10.3389/fmed.2026.1980048",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2026-10-14T10:17:53Z",
+      "timestamp": 1791973073000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Beyond overall accuracy: subgroup performance and threshold calibration of AI-assisted chest radiography for equity-oriented pulmonary tuberculosis screening"
+    ],
+    "prefix": "10.3389",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Wei",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Intensive Care Unit, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine)",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sixu",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Intensive Care Unit, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine)",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhirong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Intensive Care Unit, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine)",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying-ying",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Intensive Care Unit, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine)",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhaokun",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Intensive Care Unit, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine)",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cheng-en",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Intensive Care Unit, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine)",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "volume-title": "WHO Consolidated Guidelines on Tuberculosis. Module 2: Screening—systematic Screening for Tuberculosis Disease",
+        "year": "2021"
+      },
+      {
+        "key": "B2",
+        "volume-title": "Use of Computer-aided detection Software for Tuberculosis Screening: WHO Policy Statement",
+        "year": "2025"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "tzag007",
+        "DOI": "10.1093/bjro/tzag007",
+        "article-title": "Artificial intelligence-assisted chest x-ray for tuberculosis case finding in low- and middle-income countries: implementation experiences and impact",
+        "volume": "8",
+        "author": "Vijayan",
+        "year": "2026",
+        "journal-title": "BJR Open"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0221339",
+        "DOI": "10.1371/journal.pone.0221339",
+        "article-title": "A systematic review of the diagnostic accuracy of artificial intelligence-based computer programs to analyze chest x-rays for pulmonary tuberculosis",
+        "volume": "14",
+        "author": "Harris",
+        "year": "2019",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1390",
+        "DOI": "10.1093/cid/ciab639",
+        "article-title": "Chest x-ray analysis with deep learning-based software as a triage test for pulmonary tuberculosis: an individual patient data meta-analysis of diagnostic accuracy",
+        "volume": "74",
+        "author": "Tavaziva",
+        "year": "2022",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "728",
+        "DOI": "10.1093/annalsats/aaoag011",
+        "article-title": "A multi-country head-to-head accuracy comparison of automated chest x-ray algorithms for tuberculosis",
+        "volume": "23",
+        "author": "Worodria",
+        "year": "2026",
+        "journal-title": "Ann Am Thorac Soc"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "e239",
+        "DOI": "10.1093/cid/ciae549",
+        "article-title": "Diagnostic accuracy of tuberculosis screening tests in a prospective multinational cohort: chest radiography with computer-aided detection, xpert tuberculosis host response, and C-reactive protein",
+        "volume": "82",
+        "author": "Crowder",
+        "year": "2026",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "00508–2023",
+        "DOI": "10.1183/23120541.00508-2023",
+        "article-title": "Computer-aided detection thresholds for digital chest radiography interpretation in tuberculosis diagnostic algorithms",
+        "volume": "10",
+        "author": "Vanobberghen",
+        "year": "2024",
+        "journal-title": "ERJ Open Res"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0000813",
+        "DOI": "10.1371/journal.pdig.0000813",
+        "article-title": "Comparison of different lunit INSIGHT CXR software versions when Reading chest radiographs for tuberculosis",
+        "volume": "4",
+        "author": "Codlin",
+        "year": "2025",
+        "journal-title": "PLOS Digit Health"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "e573",
+        "DOI": "10.1016/s2589-7500(20)30221-1",
+        "article-title": "Chest x-ray analysis with deep learning-based software as a triage test for pulmonary tuberculosis: a prospective study of diagnostic accuracy for culture-confirmed disease",
+        "volume": "2",
+        "author": "Khan",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "e605",
+        "DOI": "10.1016/s2589-7500(24)00118-3",
+        "article-title": "Computer-aided detection of tuberculosis from chest radiographs in a tuberculosis prevalence survey in South Africa: external validation and modelled impacts of commercially available artificial intelligence software",
+        "volume": "6",
+        "author": "Qin",
+        "year": "2024",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "74",
+        "DOI": "10.1186/s44263-025-00198-y",
+        "article-title": "Performance of chest x-ray with computer-aided detection powered by deep learning-based artificial intelligence for tuberculosis presumptive identification during case finding in the Philippines",
+        "volume": "3",
+        "author": "Marquez",
+        "year": "2025",
+        "journal-title": "BMC Glob Public Health"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "AIoa2400018",
+        "DOI": "10.1056/aioa2400018",
+        "article-title": "Prospective multi-site validation of AI to detect tuberculosis and chest x-ray abnormalities",
+        "volume": "1",
+        "author": "Kazemzadeh",
+        "year": "2024",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2393",
+        "DOI": "10.3390/diagnostics16152393",
+        "article-title": "Implementation of digital chest x-ray with computer-aided detection for tuberculosis screening among persons with advanced HIV disease in Maputo, Mozambique: a retrospective cohort analysis",
+        "volume": "16",
+        "author": "Ruano Camps",
+        "year": "2026",
+        "journal-title": "Diagnostics (Basel)"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "106",
+        "DOI": "10.1038/s41746-021-00471-y",
+        "article-title": "Computer-aided interpretation of chest radiography reveals the spectrum of tuberculosis in rural South Africa",
+        "volume": "4",
+        "author": "Fehr",
+        "year": "2021",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "B16",
+        "first-page": "35",
+        "article-title": "Chest x-ray evaluation of pneumonia-like syndromes in smear negative HIV-positive patients with atypical chest x-ray findings in Ethiopian setting",
+        "volume": "49",
+        "author": "Assefa",
+        "year": "2011",
+        "journal-title": ". Ethiop Med J"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e894",
+        "DOI": "10.1093/cid/ciac679",
+        "article-title": "The performance of computer-aided detection digital chest x-ray reading technologies for triage of active tuberculosis among persons with a history of previous tuberculosis",
+        "volume": "76",
+        "author": "Kagujje",
+        "year": "2023",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "12402",
+        "DOI": "10.3390/ijerph191912402",
+        "article-title": "Accuracy of computer-aided detection of occupational lung disease: silicosis and pulmonary tuberculosis in ex-miners from the South African gold mines",
+        "volume": "19",
+        "author": "Ehrlich",
+        "year": "2022",
+        "journal-title": "Int J Environ Res Public Health"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "6276",
+        "DOI": "10.1038/s41598-020-63084-7",
+        "article-title": "Evaluation of computer aided detection of tuberculosis on chest radiography among people with diabetes in Karachi Pakistan",
+        "volume": "10",
+        "author": "Habib",
+        "year": "2020",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "100934",
+        "DOI": "10.1016/j.landig.2025.100934",
+        "article-title": "Performance of universal and stratified computer-aided detection thresholds for chest x-ray-based tuberculosis screening: a cross-sectional, diagnostic accuracy study",
+        "volume": "7",
+        "author": "Sung",
+        "year": "2025",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "e04614",
+        "DOI": "10.1016/j.heliyon.2020.e04614",
+        "article-title": "Deep learning for automated classification of tuberculosis-related chest x-ray: dataset distribution shift limits diagnostic performance generalizability",
+        "volume": "6",
+        "author": "Sathitratanacheewin",
+        "year": "2020",
+        "journal-title": "Heliyon"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0002031",
+        "DOI": "10.1371/journal.pgph.0002031",
+        "article-title": "Accuracy of digital chest x-ray analysis with artificial intelligence software as a triage and screening tool in hospitalized patients being evaluated for tuberculosis in Lima, Peru",
+        "volume": "4",
+        "author": "Biewer",
+        "year": "2024",
+        "journal-title": "PLOS Glob Public Health"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0000402",
+        "DOI": "10.1371/journal.pgph.0000402",
+        "article-title": "Diagnostic accuracy of three computer-aided detection systems for detecting pulmonary tuberculosis on chest radiography when used for screening: analysis of an international, multicenter migrants screening study",
+        "volume": "3",
+        "author": "Gelaw",
+        "year": "2023",
+        "journal-title": "PLOS Glob Public Health"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "626",
+        "DOI": "10.1093/cid/ciae528",
+        "article-title": "Diagnostic accuracy of chest x-ray computer-aided detection software for detection of prevalent and incident tuberculosis in household contacts",
+        "volume": "80",
+        "author": "Macpherson",
+        "year": "2025",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0000067",
+        "DOI": "10.1371/journal.pdig.0000067",
+        "article-title": "Comparing different versions of computer-aided detection products when Reading chest x-rays for tuberculosis",
+        "volume": "1",
+        "author": "Qin",
+        "year": "2022",
+        "journal-title": "PLOS Digit Health"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "107221",
+        "DOI": "10.1016/j.ijid.2024.107221",
+        "article-title": "Breaking the threshold: developing multivariable models using computer-aided chest x-ray analysis for tuberculosis triage",
+        "volume": "147",
+        "author": "Geric",
+        "year": "2024",
+        "journal-title": "Int J Infect Dis"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1293",
+        "DOI": "10.1093/cid/ciae378",
+        "article-title": "Evaluation of C-reactive protein and computer-aided analysis of chest x-rays as tuberculosis triage tests at health facilities in Lesotho and South Africa",
+        "volume": "79",
+        "author": "Bosman",
+        "year": "2024",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "B28",
+        "volume-title": "WHO Consolidated Guidelines on Tuberculosis. Module 3: Diagnosis",
+        "year": "2025"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "488",
+        "DOI": "10.3390/tropicalmed8110488",
+        "article-title": "Computer-aided detection for chest radiography to improve the quality of tuberculosis diagnosis in Vietnam’s district health facilities: an implementation study",
+        "volume": "8",
+        "author": "Innes",
+        "year": "2023",
+        "journal-title": "Trop Med Infect Dis"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0277393",
+        "DOI": "10.1371/journal.pone.0277393",
+        "article-title": "Economic analysis of different throughput scenarios and implementation strategies of computer-aided detection software as a screening and triage test for pulmonary TB",
+        "volume": "17",
+        "author": "Bashir",
+        "year": "2022",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "3283",
+        "DOI": "10.1038/s41591-025-03953-8",
+        "article-title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+        "volume": "31",
+        "author": "Sounderajah",
+        "year": "2025",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "e240300",
+        "DOI": "10.1148/ryai.240300",
+        "article-title": "Checklist for artificial intelligence in medical imaging (CLAIM): 2024 update",
+        "volume": "6",
+        "author": "Tejani",
+        "year": "2024",
+        "journal-title": "Radiol Artif Intell"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Medicine"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2026.1980048/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2026-10-14T10:17:55Z",
+      "timestamp": 1791973075000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmed.2026.1980048/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    },
+    "references-count": 32,
+    "alternative-id": [
+      "10.3389/fmed.2026.1980048"
+    ],
+    "URL": "https://doi.org/10.3389/fmed.2026.1980048",
+    "relation": {},
+    "ISSN": [
+      "2296-858X"
+    ],
+    "issn-type": [
+      {
+        "value": "2296-858X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    },
+    "article-number": "1980048"
+  }
+}

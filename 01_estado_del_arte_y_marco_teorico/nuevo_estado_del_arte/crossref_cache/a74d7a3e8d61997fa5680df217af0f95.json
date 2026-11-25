@@ -1,0 +1,564 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T04:48:19Z",
+      "timestamp": 1792126099617,
+      "version": "4.4.0"
+    },
+    "reference-count": 38,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              16
+            ]
+          ],
+          "date-time": "2026-10-16T00:00:00Z",
+          "timestamp": 1792108800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Ophthalmol."
+    ],
+    "abstract": "<jats:p>Automated screening of blinding eye diseases from colour fundus photographs is an active area of medical image analysis, yet many reported systems are validated on a single dataset and offer limited insight into their internal decision process. This study introduces QICAF-Net, a dual-branch deep learning framework that couples a Swin Transformer global-context branch with an EfficientNet local-lesion branch and fuses their representations through a novel Quantum-Inspired Cross-Attention Fusion (QICAF) module. The QICAF module reformulates cross-attention using the mathematical formalism of quantum states: token features are amplitude-encoded as complex unit vectors, transformed by a learnable norm-preserving unitary gate, compared through a fidelity-inspired similarity, normalised by a Born-rule measurement rule, and combined through an entanglement-inspired bilinear interaction. All operations are executed as classical linear algebra on conventional graphics hardware; no physical quantum computer and no quantum speed-up are claimed. The model was trained and evaluated on a balanced four-class retinal dataset of 4,217 fundus images spanning cataract, diabetic retinopathy (DR), glaucoma and normal categories. Under stratified five-fold cross-validation with six-view test-time augmentation (TTA), QICAF-Net attained a macro-F1 of 0.9358 ± 0.0113, an accuracy of 0.9367 ± 0.0112 and a macro one-versus-rest area under the receiver operating characteristic curve (AUC) of 0.9914 ± 0.0023; a three-seed evaluation of the full model gave a macro-F1 of 0.9420 ± 0.0071. An 18-run multi-seed component ablation (six fusion configurations × three seeds) confirmed that the quantum-inspired components achieve accuracy statistically indistinguishable from strong classical fusion baselines, and a paired three-seed significance test between QICAF-Net and a matched dual-branch concatenation model returned no statistically significant accuracy difference (paired t-test p = 0.887; Wilcoxon p = 1.000). Against five single-backbone baselines under an identical preprocessing and TTA protocol, QICAF-Net was competitive but did not exceed the strongest backbones (Swin-Tiny 0.9583, ViT-Small 0.9487). The principal contribution of the module is therefore a novel and interpretable formulation rather than a raw accuracy gain. External validation on a heterogeneous independent cohort (N = 3,907) showed heterogeneous cross-dataset transfer — better preserved for cataract and normal and substantially degraded for glaucoma; under an observed external-domain shift the diabetic-retinopathy sensitivity fell to 39.61%, and under colour-constancy correction with six-view TTA the external accuracy was 0.8741 (95% CI 0.8633–0.8841) and the macro-F1 0.7188 (95% CI 0.6969–0.7398). Two complementary explainability methods together with visualisation of the QICAF attention indicated that the model attends to clinically plausible regions, most strongly the optic nerve head for glaucoma. Calibration, quantitative explanation-faithfulness (deletion/insertion) and profiler-based computational analyses were additionally performed. QICAF-Net is thus presented as an interpretable and transparently evaluated framework whose accuracy is on par with established fusion strategies while contributing a new attention formulation to the retinal imaging literature.</jats:p>",
+    "DOI": "10.3389/fopht.2026.1975827",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T04:29:10Z",
+      "timestamp": 1792124950000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A quantum-inspired cross-attention fusion network for multi-class eye disease classification from retinal fundus images"
+    ],
+    "prefix": "10.3389",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Abinash",
+        "family": "P",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computer Science Engineering and Information Systems (SCORE), Vellore Institute of Technology",
+            "place": [
+              "Vellore, India"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Krishnamoorthy",
+        "family": "N",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science Engineering and Information Systems (SCORE), Vellore Institute of Technology",
+            "place": [
+              "Vellore, India"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0307317",
+        "article-title": "A deep learning framework for the early detection of multi-retinal diseases",
+        "volume": "19",
+        "author": "Ejaz",
+        "year": "2024",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2951844",
+        "article-title": "CANet: cross-disease attention network for joint diabetic retinopathy and diabetic macular edema grading",
+        "volume": "39",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2024.106516",
+        "article-title": "Computer-aided multi-label retinopathy diagnosis via inter-disease graph regularization",
+        "volume": "96",
+        "author": "Elsayed",
+        "year": "2024",
+        "journal-title": "BioMed Signal Process Control"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102167",
+        "article-title": "Multi-label ocular disease classification with a dense correlation deep neural network",
+        "volume": "63",
+        "author": "He",
+        "year": "2021",
+        "journal-title": "BioMed Signal Process Control"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2023.102059",
+        "article-title": "Fundus-DeepNet: Multi-label deep learning classification system for enhanced detection of multiple ocular diseases through data fusion of fundus images",
+        "volume": "102",
+        "author": "Al-Fahdawi",
+        "year": "2024",
+        "journal-title": "Inf Fusion"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.02.010",
+        "article-title": "Identifying medical diagnoses and treatable diseases by image-based deep learning",
+        "volume": "172",
+        "author": "Kermany",
+        "year": "2018",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2022.9960",
+        "article-title": "Artificial intelligence for screening of multiple retinal and optic nerve diseases",
+        "volume": "5",
+        "author": "Dong",
+        "year": "2022",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app11136178",
+        "article-title": "Accurate diagnosis of diabetic retinopathy and glaucoma using retinal fundus images based on hybrid features and genetic algorithm",
+        "volume": "11",
+        "author": "Tamim",
+        "year": "2021",
+        "journal-title": "Appl Sci"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jimaging9040084",
+        "article-title": "Retinal disease detection using deep learning techniques: a comprehensive review",
+        "volume": "9",
+        "author": "Muchuchuti",
+        "year": "2023",
+        "journal-title": "J Imaging"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2021.102600",
+        "article-title": "Deep learning architecture based on segmented fundus image features for classification of diabetic retinopathy",
+        "volume": "68",
+        "author": "Das",
+        "year": "2021",
+        "journal-title": "BioMed Signal Process Control"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103995",
+        "article-title": "Microaneurysm detection in color eye fundus images for diabetic retinopathy screening",
+        "volume": "126",
+        "author": "Melo",
+        "year": "2020",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41433-021-01552-8",
+        "article-title": "Deep learning-based automated detection for diabetic retinopathy and diabetic macular oedema in retinal fundus photographs",
+        "volume": "36",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2927226",
+        "article-title": "A large-scale database and a CNN model for attention-based glaucoma detection",
+        "volume": "39",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.106094",
+        "article-title": "Joint optic disc and cup segmentation using feature fusion and attention",
+        "volume": "150",
+        "author": "Guo",
+        "year": "2022",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2022.3214086",
+        "article-title": "Multi-label retinal disease classification using transformers",
+        "volume": "27",
+        "author": "Rodriguez",
+        "year": "2023",
+        "journal-title": "IEEE J BioMed Health Inf"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3165193",
+        "article-title": "Automatic severity classification of diabetic retinopathy based on DenseNet and convolutional block attention module",
+        "volume": "10",
+        "author": "Farag",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2021.106094",
+        "article-title": "Diabetic retinopathy detection through convolutional neural networks with synaptic metaplasticity",
+        "volume": "206",
+        "author": "Vives-Boix",
+        "year": "2021",
+        "journal-title": "Comput Methods Programs BioMed"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s21113704",
+        "article-title": "Diabetic retinopathy fundus image classification and lesions localization system using deep learning",
+        "volume": "21",
+        "author": "Alyoubi",
+        "year": "2021",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics13203165",
+        "article-title": "Deep-Ocular: improved transfer learning architecture using self-attention and dense layers for recognition of ocular diseases",
+        "volume": "13",
+        "author": "Abbas",
+        "year": "2023",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1479",
+        "DOI": "10.1038/s41598-023-28680-3",
+        "article-title": "Deep learning-based hemorrhage detection for diabetic retinopathy screening",
+        "volume": "13",
+        "author": "Aziz",
+        "year": "2023",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12938-020-00767-2",
+        "article-title": "Machine learning applied to retinal image processing for glaucoma detection: review and perspective",
+        "volume": "19",
+        "author": "Barros",
+        "year": "2020",
+        "journal-title": "BioMed Eng Online"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-023-16049-7",
+        "article-title": "Supervised fine-tuned approach for automated detection of diabetic retinopathy",
+        "volume": "83",
+        "author": "Ohri",
+        "year": "2024",
+        "journal-title": "Multimedia Tools Appl"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2024.3398692",
+        "article-title": "Pretrained quantum-inspired deep neural network for natural language processing",
+        "volume": "54",
+        "author": "Shi",
+        "year": "2024",
+        "journal-title": "IEEE Trans Cybern"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v35i15.17567",
+        "article-title": "Quantum-inspired neural network for conversational emotion recognition",
+        "volume": "35",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Proc AAAI Conf Artif Intell"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2021.03.057",
+        "article-title": "Quantum probability-inspired graph neural network for document representation and classification",
+        "volume": "445",
+        "author": "Yan",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.1016/j.neucom.2021.03.091",
+        "article-title": "A review on the attention mechanism of deep learning",
+        "volume": "452",
+        "author": "Niu",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fcell.2025.1630667",
+        "article-title": "Deep learning-based classification of multiple fundus diseases using ultra-widefield images",
+        "volume": "13",
+        "author": "Duan",
+        "year": "2025",
+        "journal-title": "Front Cell Dev Biol"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12720/jait.16.2.264-273",
+        "article-title": "Explainable disease classification: exploring Grad-CAM analysis of CNNs and ViTs",
+        "volume": "16",
+        "author": "Alqutayfi",
+        "year": "2025",
+        "journal-title": "J Adv Inf Technol"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.5566/ias.2857",
+        "article-title": "Deep neural network-based ensemble model for eye diseases detection and classification",
+        "volume": "42",
+        "author": "Jeny",
+        "year": "2023",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "key": "B31",
+        "article-title": "Eye Diseases Classification Dataset (Normal, Diabetic Retinopathy, Cataract, Glaucoma), Compiled From IDRiD, Ocular Recognition and HRF Sources",
+        "author": "Doddi",
+        "year": "2022"
+      },
+      {
+        "key": "B32",
+        "article-title": "Ocular Disease Recognition (ODIR-5K): 5,000 Patient Fundus Image Dataset With Diagnostic Keywords",
+        "year": "2020"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: the Messidor database",
+        "volume": "33",
+        "author": "Decenciere",
+        "year": "2014",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.52465/joscex.v5i4.493",
+        "article-title": "Eye disease classification using deep learning convolutional neural networks",
+        "volume": "5",
+        "author": "Sari",
+        "year": "2024",
+        "journal-title": "J Soft Computing Explor"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.37745/ejcsit.2013",
+        "article-title": "EfficientNet-based model for automated classification of retinal diseases using fundus images",
+        "volume": "12",
+        "author": "Rakib",
+        "year": "2024",
+        "journal-title": "Eur J Comput Sci Inf Technol"
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25271/sjuoz.2025.13.4.1593",
+        "article-title": "Multi-classification of eye diseases using a CNN-Haralick hybrid framework",
+        "volume": "13",
+        "author": "Olorunshola",
+        "year": "2025",
+        "journal-title": "Sci J Univ Zakho"
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.3390/jimaging11080279",
+        "article-title": "Fundus image-based eye disease detection using EfficientNetB3 architecture",
+        "volume": "11",
+        "author": "Alsohemi",
+        "year": "2025",
+        "journal-title": "J Imaging"
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-024-09900-x",
+        "article-title": "A novel method for the detection and classification of multiple diseases using transfer learning-based deep learning techniques with improved performance",
+        "volume": "36",
+        "author": "Natarajan",
+        "year": "2024",
+        "journal-title": "Neural Comput Appl"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Ophthalmology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fopht.2026.1975827/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T04:29:11Z",
+      "timestamp": 1792124951000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fopht.2026.1975827/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ]
+    },
+    "references-count": 38,
+    "alternative-id": [
+      "10.3389/fopht.2026.1975827"
+    ],
+    "URL": "https://doi.org/10.3389/fopht.2026.1975827",
+    "relation": {},
+    "ISSN": [
+      "2674-0826"
+    ],
+    "issn-type": [
+      {
+        "value": "2674-0826",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ]
+    },
+    "article-number": "1975827"
+  }
+}

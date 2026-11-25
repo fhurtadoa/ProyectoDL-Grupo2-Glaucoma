@@ -1,0 +1,210 @@
+{
+  "data": {
+    "id": "10.48550/arxiv.2102.07978",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.48550/arxiv.2102.07978",
+      "prefix": "10.48550",
+      "suffix": "arxiv.2102.07978",
+      "identifiers": [
+        {
+          "identifier": "2102.07978",
+          "identifierType": "arXiv"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "arXiv",
+          "alternateIdentifier": "2102.07978"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Li, Ning",
+          "nameType": "Personal",
+          "givenName": "Ning",
+          "familyName": "Li",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Li, Tao",
+          "nameType": "Personal",
+          "givenName": "Tao",
+          "familyName": "Li",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Hu, Chunyu",
+          "nameType": "Personal",
+          "givenName": "Chunyu",
+          "familyName": "Hu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Wang, Kai",
+          "nameType": "Personal",
+          "givenName": "Kai",
+          "familyName": "Wang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Kang, Hong",
+          "nameType": "Personal",
+          "givenName": "Hong",
+          "familyName": "Kang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "A Benchmark of Ocular Disease Intelligent Recognition: One Shot for Multi-disease Detection"
+        }
+      ],
+      "publisher": "arXiv",
+      "container": {},
+      "publicationYear": 2021,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Computer Vision and Pattern Recognition (cs.CV)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "lang": "en",
+          "subject": "Artificial Intelligence (cs.AI)",
+          "subjectScheme": "arXiv"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2021-02-16T07:00:49Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2021-02-17T01:12:29Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2021-02",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2021",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Article",
+        "resourceTypeGeneral": "Preprint"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "arXiv.org perpetual, non-exclusive license",
+          "rightsUri": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "In ophthalmology, early fundus screening is an economic and effective way to prevent blindness caused by ophthalmic diseases. Clinically, due to the lack of medical resources, manual diagnosis is time-consuming and may delay the condition. With the development of deep learning, some researches on ophthalmic diseases have achieved good results, however, most of them are just based on one disease. During fundus screening, ophthalmologists usually give diagnoses of multi-disease on binocular fundus image, so we release a dataset with 8 diseases to meet the real medical scene, which contains 10,000 fundus images from both eyes of 5,000 patients. We did some benchmark experiments on it through some state-of-the-art deep neural networks. We found simply increasing the scale of network cannot bring good results for multi-disease classification, and a well-structured feature fusion method combines characteristics of multi-disease is needed. Through this work, we hope to advance the research of related fields.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "17 pages",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjMvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40ODU1MC9BUlhJVi4yMTAyLjA3OTc4PC9pZGVudGlmaWVyPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJhclhpdiI+MjEwMi4wNzk3ODwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5MaSwgTmluZzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TmluZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5MaTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5MaSwgVGFvPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5UYW88L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+TGk8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+SHUsIENodW55dTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2h1bnl1PC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkh1PC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPldhbmcsIEthaTwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+S2FpPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPldhbmc8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+S2FuZywgSG9uZzwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+SG9uZzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5LYW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5BIEJlbmNobWFyayBvZiBPY3VsYXIgRGlzZWFzZSBJbnRlbGxpZ2VudCBSZWNvZ25pdGlvbjogT25lIFNob3QgZm9yIE11bHRpLWRpc2Vhc2UgRGV0ZWN0aW9uPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPmFyWGl2PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDIxPC9wdWJsaWNhdGlvblllYXI+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIiBzdWJqZWN0U2NoZW1lPSJhclhpdiI+Q29tcHV0ZXIgVmlzaW9uIGFuZCBQYXR0ZXJuIFJlY29nbml0aW9uIChjcy5DVik8L3N1YmplY3Q+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZW4iIHN1YmplY3RTY2hlbWU9ImFyWGl2Ij5BcnRpZmljaWFsIEludGVsbGlnZW5jZSAoY3MuQUkpPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iRmllbGRzIG9mIFNjaWVuY2UgYW5kIFRlY2hub2xvZ3kgKEZPUykiPkZPUzogQ29tcHV0ZXIgYW5kIGluZm9ybWF0aW9uIHNjaWVuY2VzPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IlN1Ym1pdHRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyMS0wMi0xNlQwNzowMDo0OVo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCIgZGF0ZUluZm9ybWF0aW9uPSJ2MSI+MjAyMS0wMi0xN1QwMToxMjoyOVo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQXZhaWxhYmxlIiBkYXRlSW5mb3JtYXRpb249InYxIj4yMDIxLTAyPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJQcmVwcmludCI+QXJ0aWNsZTwvcmVzb3VyY2VUeXBlPgogIDx2ZXJzaW9uPjE8L3ZlcnNpb24+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cDovL2FyeGl2Lm9yZy9saWNlbnNlcy9ub25leGNsdXNpdmUtZGlzdHJpYi8xLjAvIj5hclhpdi5vcmcgcGVycGV0dWFsLCBub24tZXhjbHVzaXZlIGxpY2Vuc2U8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5JbiBvcGh0aGFsbW9sb2d5LCBlYXJseSBmdW5kdXMgc2NyZWVuaW5nIGlzIGFuIGVjb25vbWljIGFuZCBlZmZlY3RpdmUgd2F5IHRvIHByZXZlbnQgYmxpbmRuZXNzIGNhdXNlZCBieSBvcGh0aGFsbWljIGRpc2Vhc2VzLiBDbGluaWNhbGx5LCBkdWUgdG8gdGhlIGxhY2sgb2YgbWVkaWNhbCByZXNvdXJjZXMsIG1hbnVhbCBkaWFnbm9zaXMgaXMgdGltZS1jb25zdW1pbmcgYW5kIG1heSBkZWxheSB0aGUgY29uZGl0aW9uLiBXaXRoIHRoZSBkZXZlbG9wbWVudCBvZiBkZWVwIGxlYXJuaW5nLCBzb21lIHJlc2VhcmNoZXMgb24gb3BodGhhbG1pYyBkaXNlYXNlcyBoYXZlIGFjaGlldmVkIGdvb2QgcmVzdWx0cywgaG93ZXZlciwgbW9zdCBvZiB0aGVtIGFyZSBqdXN0IGJhc2VkIG9uIG9uZSBkaXNlYXNlLiBEdXJpbmcgZnVuZHVzIHNjcmVlbmluZywgb3BodGhhbG1vbG9naXN0cyB1c3VhbGx5IGdpdmUgZGlhZ25vc2VzIG9mIG11bHRpLWRpc2Vhc2Ugb24gYmlub2N1bGFyIGZ1bmR1cyBpbWFnZSwgc28gd2UgcmVsZWFzZSBhIGRhdGFzZXQgd2l0aCA4IGRpc2Vhc2VzIHRvIG1lZXQgdGhlIHJlYWwgbWVkaWNhbCBzY2VuZSwgd2hpY2ggY29udGFpbnMgMTAsMDAwIGZ1bmR1cyBpbWFnZXMgZnJvbSBib3RoIGV5ZXMgb2YgNSwwMDAgcGF0aWVudHMuIFdlIGRpZCBzb21lIGJlbmNobWFyayBleHBlcmltZW50cyBvbiBpdCB0aHJvdWdoIHNvbWUgc3RhdGUtb2YtdGhlLWFydCBkZWVwIG5ldXJhbCBuZXR3b3Jrcy4gV2UgZm91bmQgc2ltcGx5IGluY3JlYXNpbmcgdGhlIHNjYWxlIG9mIG5ldHdvcmsgY2Fubm90IGJyaW5nIGdvb2QgcmVzdWx0cyBmb3IgbXVsdGktZGlzZWFzZSBjbGFzc2lmaWNhdGlvbiwgYW5kIGEgd2VsbC1zdHJ1Y3R1cmVkIGZlYXR1cmUgZnVzaW9uIG1ldGhvZCBjb21iaW5lcyBjaGFyYWN0ZXJpc3RpY3Mgb2YgbXVsdGktZGlzZWFzZSBpcyBuZWVkZWQuIFRocm91Z2ggdGhpcyB3b3JrLCB3ZSBob3BlIHRvIGFkdmFuY2UgdGhlIHJlc2VhcmNoIG9mIHJlbGF0ZWQgZmllbGRzLjwvZGVzY3JpcHRpb24+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJPdGhlciI+MTcgcGFnZXM8L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://arxiv.org/abs/2102.07978",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2022-02-23T08:12:43.000Z",
+      "registered": "2022-02-23T08:12:44.000Z",
+      "published": "2021",
+      "updated": "2022-02-23T08:12:44.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "arxiv.content",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "arxiv",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.48550/arxiv.2102.07978",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

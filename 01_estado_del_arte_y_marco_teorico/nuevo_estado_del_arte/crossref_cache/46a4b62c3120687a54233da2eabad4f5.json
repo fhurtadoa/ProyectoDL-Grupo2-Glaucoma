@@ -1,0 +1,525 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2026-06-24T12:51:32Z",
+      "timestamp": 1782305492527,
+      "version": "3.54.5"
+    },
+    "reference-count": 34,
+    "publisher": "SAGE Publications",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "DIGITAL HEALTH"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Objective</jats:title>\n                    <jats:p>To determine which data augmentation technique yields the best performance for deep learning models in classifying age-related macular degeneration (AMD), diabetic retinopathy (DR), glaucoma, and normal fundus images.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>\n                      This study employed an\n                      <jats:italic toggle=\"yes\">in silico</jats:italic>\n                      experimental study design. Six data augmentation techniques: Colour Jitter, Contrast-Limited Adaptive Histogram Equalisation (CLAHE), Rotation, Translation, Gaussian Noise, and Poisson Noise were evaluated using controlled experiments with an EfficientNet-B0 model on a balanced dataset of 1,200 fundus photographs, 250 cases each for AMD, DR and glaucoma, and 450 normal fundus images curated from four main publicly available databases. The experiments were conducted in four phases: baseline, single augmentations, combined augmentations, and the impact of augmented dataset volume. Evaluation metrics and visualisations were computed with Python-based statistical and visualisation libraries.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>\n                      The results from this study show that data augmentation consistently increased the area under the curve (AUC) from 96.55% to 97.23% and accuracy from 85.83% (baseline) to 89.58%. The results indicate that augmentation effectiveness is disease-specific: Rotation and Colour Jitter yielded the highest sensitivity for AMD (99%), CLAHE maximised sensitivity for Diabetic Retinopathy (96%), and Translation was most effective for Glaucoma (83%). While single augmentations provided descriptive clinical improvements, the comprehensive combination of photometric, geometric, and noise augmentations yielded the best overall performance and achieved a statistically significant improvement over the baseline (Mean bootstrapped AUC = 0.9800, 95% CI: 0.9678, 0.9895;\n                      <jats:italic toggle=\"yes\">p</jats:italic>\n                      = 0.0050).\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>Data augmentation effectiveness is disease-dependent; specific pathologies respond better to distinct augmentation techniques due to different retinal biomarkers.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1177/20552076261461391",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2026-06-22T20:08:17Z",
+      "timestamp": 1782158897000
+    },
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Disease-specific data augmentation enhances deep learning classification of age-related macular degeneration, diabetic retinopathy, and glaucoma"
+    ],
+    "prefix": "10.1177",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Carl Halladay",
+        "family": "Abraham",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emmanuel Kwasi",
+        "family": "Abu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-5382-9748",
+        "authenticated-orcid": false,
+        "given": "Paul",
+        "family": "Owusu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas Osei",
+        "family": "Mensah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ebenezer",
+        "family": "Botchway",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip Abakah",
+        "family": "Mensah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Albert Kofi",
+        "family": "Dadzie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Illinois Chicago"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2568-8246",
+        "authenticated-orcid": false,
+        "given": "Samuel",
+        "family": "Kyei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Cape Coast"
+          },
+          {
+            "name": "University of Cape Coast"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_6_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2214-109X(20)30489-7"
+      },
+      {
+        "key": "e_1_3_6_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2021.04.027"
+      },
+      {
+        "key": "e_1_3_6_4_2",
+        "first-page": "e11686",
+        "article-title": "Epidemiology of glaucoma: the past, present, and predictions for the future",
+        "volume": "12",
+        "author": "Allison K",
+        "year": "2020",
+        "unstructured": "Allison K, Patel D, Alabi O. Epidemiology of glaucoma: the past, present, and predictions for the future. Cureus 2020; 12: e11686. https://doi.org/10.7759/cureus.11686",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "e_1_3_6_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2947484"
+      },
+      {
+        "key": "e_1_3_6_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ogla.2019.03.008"
+      },
+      {
+        "key": "e_1_3_6_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imu.2024.101445"
+      },
+      {
+        "key": "e_1_3_6_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1932296816629491"
+      },
+      {
+        "key": "e_1_3_6_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jimaging9040084"
+      },
+      {
+        "key": "e_1_3_6_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gltp.2022.04.020"
+      },
+      {
+        "key": "e_1_3_6_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3028960"
+      },
+      {
+        "key": "e_1_3_6_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app12115363"
+      },
+      {
+        "key": "e_1_3_6_13_2",
+        "first-page": "4540",
+        "article-title": "Impact of reference standard, data augmentation, and OCT input on glaucoma detection accuracy by CNNs on a new test set",
+        "volume": "61",
+        "author": "Thakoor K",
+        "year": "2020",
+        "unstructured": "Thakoor K, Tsamis EM, De Moraes CG, et al. Impact of reference standard, data augmentation, and OCT input on glaucoma detection accuracy by CNNs on a new test set. Investigative Ophthalmology & Visual Science 2020; 61: 4540.",
+        "journal-title": "Investigative Ophthalmology & Visual Science"
+      },
+      {
+        "key": "e_1_3_6_14_2",
+        "unstructured": "Salman S Liu X. Overfitting mechanism and avoidance in deep neural networks. arXiv preprint arXiv:190106566.2019."
+      },
+      {
+        "key": "e_1_3_6_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-019-0197-0"
+      },
+      {
+        "key": "e_1_3_6_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IIPHDW.2018.8388338"
+      },
+      {
+        "key": "e_1_3_6_17_2",
+        "first-page": "94",
+        "volume-title": "International Workshop on Ophthalmic Medical Image Analysis",
+        "author": "Unterdechler M",
+        "year": "2024",
+        "unstructured": "Unterdechler M, Fazekas B, Aresta G, et al. Comparative Analysis of Data Augmentation for Retinal OCT Biomarker Segmentation. International Workshop on Ophthalmic Medical Image Analysis. Springer, 2024, pp. 94–103."
+      },
+      {
+        "key": "e_1_3_6_18_2",
+        "volume-title": "APTOS 2019 Blindness Detection",
+        "year": "2019",
+        "unstructured": "APTOS 2019 Blindness Detection. Kaggle. 2019. Available from: https://www.kaggle.com/c/aptos2019-blindness-detection (accessed 29 May 2025)."
+      },
+      {
+        "key": "e_1_3_6_19_2",
+        "article-title": "AMDNet23: Fundus image dataset for age-related macular degeneration disease detection",
+        "volume": "1",
+        "author": "Ali MA",
+        "year": "2025",
+        "unstructured": "Ali MA. AMDNet23: Fundus image dataset for age-related macular degeneration disease detection. Mendeley Data 2025; V1. https://doi.org/10.17632/yj35kjgrv3.1",
+        "journal-title": "Mendeley Data"
+      },
+      {
+        "key": "e_1_3_6_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "e_1_3_6_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN48605.2020.9207664"
+      },
+      {
+        "key": "e_1_3_6_22_2",
+        "first-page": "6105",
+        "volume-title": "International conference on machine learning",
+        "author": "Tan M",
+        "year": "2019",
+        "unstructured": "Tan M, Le Q. Efficientnet: Rethinking model scaling for convolutional neural networks. In: International conference on machine learning. PMLR, 2019, pp. 6105–6114."
+      },
+      {
+        "key": "e_1_3_6_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780429246593"
+      },
+      {
+        "key": "e_1_3_6_24_2",
+        "first-page": "3870",
+        "article-title": "Multimodal Database of Retina Images for Africa (MoDRIA): The First Open Access Database for Retinal Fundus Photos in Sub_Saharan Africa",
+        "volume": "66",
+        "author": "Kwaga T",
+        "year": "2025",
+        "unstructured": "Kwaga T. Multimodal Database of Retina Images for Africa (MoDRIA): The First Open Access Database for Retinal Fundus Photos in Sub_Saharan Africa. Investigative Ophthalmology & Visual Science 2025; 66: 3870.",
+        "journal-title": "Investigative Ophthalmology & Visual Science"
+      },
+      {
+        "key": "e_1_3_6_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.optlastec.2018.06.061"
+      },
+      {
+        "key": "e_1_3_6_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13042-024-02485-w"
+      },
+      {
+        "key": "e_1_3_6_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-336156-1.50061-6"
+      },
+      {
+        "key": "e_1_3_6_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-35044-9"
+      },
+      {
+        "key": "e_1_3_6_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2791488"
+      },
+      {
+        "key": "e_1_3_6_30_2",
+        "first-page": "1",
+        "article-title": "The effectiveness of data augmentation in image classification using deep learning",
+        "volume": "11",
+        "author": "Wang J",
+        "year": "2017",
+        "unstructured": "Wang J, Perez L. The effectiveness of data augmentation in image classification using deep learning. Convolutional Neural Networks Vis Recognit 2017; 11: 1–8.",
+        "journal-title": "Convolutional Neural Networks Vis Recognit"
+      },
+      {
+        "key": "e_1_3_6_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2022.102534"
+      },
+      {
+        "key": "e_1_3_6_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compmedimag.2025.102494"
+      },
+      {
+        "key": "e_1_3_6_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-6929630/v1"
+      },
+      {
+        "key": "e_1_3_6_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0327743"
+      },
+      {
+        "key": "e_1_3_6_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/bioengineering10121394"
+      }
+    ],
+    "container-title": [
+      "DIGITAL HEALTH"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/20552076261461391",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/20552076261461391",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/20552076261461391",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2026-06-24T12:17:00Z",
+      "timestamp": 1782303420000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/20552076261461391"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 34,
+    "alternative-id": [
+      "10.1177/20552076261461391"
+    ],
+    "URL": "https://doi.org/10.1177/20552076261461391",
+    "relation": {},
+    "ISSN": [
+      "2055-2076",
+      "2055-2076"
+    ],
+    "issn-type": [
+      {
+        "value": "2055-2076",
+        "type": "print"
+      },
+      {
+        "value": "2055-2076",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "article-number": "20552076261461391"
+  }
+}

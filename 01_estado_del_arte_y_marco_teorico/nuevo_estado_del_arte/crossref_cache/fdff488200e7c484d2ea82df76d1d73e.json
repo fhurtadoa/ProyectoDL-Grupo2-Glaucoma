@@ -1,0 +1,677 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T00:29:07Z",
+      "timestamp": 1793665747733,
+      "version": "4.5.1"
+    },
+    "reference-count": 29,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2026-11-01T00:00:00Z",
+          "timestamp": 1793491200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2026-11-01T00:00:00Z",
+          "timestamp": 1793491200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2026-10-29T00:00:00Z",
+          "timestamp": 1793232000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100002908",
+        "name": "Combined Ophthalmic Research Rotterdam Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002908",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100010378",
+        "name": "SWOO Flieringa",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100010378",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "aaojournal.org",
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ophtha.2026.10.030",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T00:07:32Z",
+      "timestamp": 1793664452000
+    },
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study"
+    ],
+    "prefix": "10.1016",
+    "author": [
+      {
+        "given": "Sebastiaan W.F.",
+        "family": "van Meyel",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Karin A.",
+        "family": "van Garderen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4038-3945",
+        "authenticated-orcid": false,
+        "given": "Koenraad A.",
+        "family": "Vermeer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Victor A.",
+        "family": "de Vries",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1780-5281",
+        "authenticated-orcid": false,
+        "given": "Wishal D.",
+        "family": "Ramdas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2355-5258",
+        "authenticated-orcid": false,
+        "given": "Caroline C.W.",
+        "family": "Klaver",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hans G.",
+        "family": "Lemij",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "12",
+        "key": "10.1016/j.ophtha.2026.10.030_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1221",
+        "DOI": "10.1016/S2214-109X(17)30393-5",
+        "article-title": "Global causes of blindness and distance vision impairment 1990–2020: a systematic review and meta-analysis",
+        "volume": "5",
+        "author": "Flaxman",
+        "year": "2017",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ophtha.2026.10.030_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2081",
+        "DOI": "10.1016/j.ophtha.2014.05.013",
+        "article-title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+        "volume": "121",
+        "author": "Tham",
+        "year": "2014",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2026.10.030_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e489",
+        "DOI": "10.1016/S2214-109X(20)30488-5",
+        "article-title": "The Lancet Global Health Commission on Global Eye Health: vision beyond 2020",
+        "volume": "9",
+        "author": "Burton",
+        "year": "2021",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2026.10.030_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "article-title": "The number of people with glaucoma worldwide in 2010 and 2020",
+        "volume": "90",
+        "author": "Quigley",
+        "year": "2006",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.ophtha.2026.10.030_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1901",
+        "DOI": "10.1001/jama.2014.3192",
+        "article-title": "The pathophysiology and treatment of glaucoma: a review",
+        "volume": "311",
+        "author": "Weinreb",
+        "year": "2014",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ophtha.2026.10.030_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1508",
+        "DOI": "10.1016/j.ophtha.2004.01.029",
+        "article-title": "Detection of undiagnosed glaucoma by eye health professionals",
+        "volume": "111",
+        "author": "Wong",
+        "year": "2004",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.ophtha.2026.10.030_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1016/j.ajo.2021.03.030",
+        "article-title": "Screening for open-angle glaucoma and its effect on blindness",
+        "volume": "228",
+        "author": "Aspberg",
+        "year": "2021",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.ophtha.2026.10.030_bib8",
+        "first-page": "611",
+        "article-title": "Strategies for improving early detection of glaucoma: the combined structure-function index",
+        "volume": "8",
+        "author": "Tatham",
+        "year": "2014",
+        "journal-title": "Clin Ophthalmol"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ophtha.2026.10.030_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.ophtha.2019.07.024",
+        "article-title": "Deep learning and glaucoma specialists: the relative importance of optic disc features to predict glaucoma referral in fundus photographs",
+        "volume": "126",
+        "author": "Phene",
+        "year": "2019",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2026.10.030_bib10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2023.100300",
+        "article-title": "Characteristics of a large, labeled data set for the training of artificial intelligence for glaucoma screening with fundus photographs",
+        "volume": "3",
+        "author": "Lemij",
+        "year": "2023",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ophtha.2026.10.030_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1001/jamaophthalmol.2019.3501",
+        "article-title": "Development and validation of a deep learning system to detect glaucomatous optic neuropathy using fundus photographs",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2026.10.030_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1167/tvst.9.2.55",
+        "article-title": "Artificial intelligence algorithms to diagnose glaucoma and detect glaucoma progression: translation to clinical practice",
+        "volume": "9",
+        "author": "Mursch-Edlmayr",
+        "year": "2020",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2026.10.030_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "542",
+        "DOI": "10.1109/TMI.2023.3313786",
+        "article-title": "AIROGS: artificial intelligence for robust glaucoma screening challenge",
+        "volume": "43",
+        "author": "de Vente",
+        "year": "2024",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ophtha.2026.10.030_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1038/s41746-023-00857-0",
+        "article-title": "A generalizable deep learning regression model for automated glaucoma screening from fundus images",
+        "volume": "6",
+        "author": "Hemelings",
+        "year": "2023",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.ophtha.2026.10.030_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajo.2021.12.008",
+        "article-title": "Performances of machine learning in detecting glaucoma using fundus and retinal optical coherence tomography images: a meta-analysis",
+        "volume": "237",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Am J Ophthalmol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2026.10.030_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "420",
+        "DOI": "10.3390/biomedicines13020420",
+        "article-title": "Deep learning in glaucoma detection and progression prediction: a systematic review and meta-analysis",
+        "volume": "13",
+        "author": "Ling",
+        "year": "2025",
+        "journal-title": "Biomedicines"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ophtha.2026.10.030_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.1016/j.jval.2025.06.006",
+        "article-title": "The cost-effectiveness of an artificial intelligence-based population-wide screening program for primary open-angle glaucoma in the Netherlands",
+        "volume": "28",
+        "author": "Boverhof",
+        "year": "2025",
+        "journal-title": "Value Health"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ophtha.2026.10.030_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "750",
+        "DOI": "10.1007/s00134-021-06446-7",
+        "article-title": "Moving from bytes to bedside: a systematic review on the use of artificial intelligence in the intensive care unit",
+        "volume": "47",
+        "author": "van de Sande",
+        "year": "2021",
+        "journal-title": "Intensive Care Med"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2026.10.030_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "509",
+        "DOI": "10.1177/193229680900300315",
+        "article-title": "EyePACS: an adaptable telemedicine system for diabetic retinopathy screening",
+        "volume": "3",
+        "author": "Cuadros",
+        "year": "2009",
+        "journal-title": "J Diabetes Sci Technol"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ophtha.2026.10.030_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "483",
+        "DOI": "10.1007/s10654-020-00640-5",
+        "article-title": "Objectives, design and main findings until 2020 from the Rotterdam Study",
+        "volume": "35",
+        "author": "Ikram",
+        "year": "2020",
+        "journal-title": "Eur J Epidemiol"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2026.10.030_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1016/j.ophtha.2009.09.026",
+        "article-title": "Clinical assessment of stereoscopic optic disc photographs for glaucoma: the European Optic Disc Assessment Trial",
+        "volume": "117",
+        "author": "Reus",
+        "year": "2010",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ophtha.2026.10.030_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1167/tvst.14.7.19",
+        "article-title": "VascX models: deep ensembles for retinal vascular analysis from color fundus images",
+        "volume": "14",
+        "author": "Vargas Quiros",
+        "year": "2025",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2026.10.030_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1097/ICU.0000000000000644",
+        "article-title": "Toward a new definition of glaucomatous optic neuropathy for clinical research",
+        "volume": "31",
+        "author": "Iyer",
+        "year": "2020",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ophtha.2026.10.030_bib24",
+        "first-page": "3309",
+        "article-title": "Changing views on open-angle glaucoma: definitions and prevalences—the Rotterdam Study",
+        "volume": "41",
+        "author": "Wolfs",
+        "year": "2000",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ophtha.2026.10.030_bib25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0118432",
+        "article-title": "The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets",
+        "volume": "10",
+        "author": "Saito",
+        "year": "2015",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2026.10.030_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1167/tvst.13.4.15",
+        "article-title": "Estimating the distribution of true rates of visual field progression in glaucoma",
+        "volume": "13",
+        "author": "Montesano",
+        "year": "2024",
+        "journal-title": "Transl Vis Sci Technol"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ophtha.2026.10.030_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2228",
+        "DOI": "10.1167/iovs.13-12261",
+        "article-title": "Baseline prognostic factors predict rapid visual field deterioration in glaucoma",
+        "volume": "55",
+        "author": "Lee",
+        "year": "2014",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ophtha.2026.10.030_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1034/j.1600-0420.1998.760208.x",
+        "article-title": "Evaluation of a new threshold visual field strategy, SITA, in normal subjects",
+        "volume": "76",
+        "author": "Bengtsson",
+        "year": "1998",
+        "journal-title": "Acta Ophthalmol Scand"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ophtha.2026.10.030_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "691",
+        "DOI": "10.1007/s10654-017-0270-y",
+        "article-title": "Incidence of glaucomatous visual field loss after two decades of follow-up: the Rotterdam Study",
+        "volume": "32",
+        "author": "Springelkamp",
+        "year": "2017",
+        "journal-title": "Eur J Epidemiol"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0161642026008468?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0161642026008468?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T00:07:35Z",
+      "timestamp": 1793664455000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0161642026008468"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "references-count": 29,
+    "alternative-id": [
+      "S0161642026008468"
+    ],
+    "URL": "https://doi.org/10.1016/j.ophtha.2026.10.030",
+    "relation": {},
+    "ISSN": [
+      "0161-6420"
+    ],
+    "issn-type": [
+      {
+        "value": "0161-6420",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "External validation of a deep-learning algorithm for perimetric glaucoma detection on color fundus photographs in the Rotterdam Study",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ophtha.2026.10.030",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 American Academy of Ophthalmology, Inc. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

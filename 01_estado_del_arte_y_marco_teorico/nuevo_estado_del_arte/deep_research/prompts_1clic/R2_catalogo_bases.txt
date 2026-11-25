@@ -1,0 +1,25 @@
+CONTEXTO DEL PROYECTO
+Somos un equipo de estudiantes de Deep Learning (Universidad Nacional de Colombia, Medellín) escribiendo un artículo en formato de la revista DYNA titulado "Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías". Entrenamos ConvNeXt-Tiny (preentrenado en ImageNet) en el dataset Moondream Staged (Hugging Face, 3 estadios: normal, temprano, avanzado) y lo probamos sin reentrenar en ACRIMA, RIM-ONE DL y EyePACS (glaucoma binario). Comparamos cabeza binaria frente a cabeza de 3 clases proyectada a binaria, y un aumento de datos agresivo de escala y fotometría. El umbral se fija en validación interna (especificidad ≥ 0,95) y no se reajusta en las bases externas. Observamos que el AUROC cae moderadamente fuera de dominio, pero la sensibilidad colapsa en EyePACS (recortes papilares frente a campo amplio con fondo negro).
+
+Nuestra tesis para el estado del arte: la literatura demuestra discriminación alta dentro de una base, pero rara vez separa tres fuentes de variación cuando el modelo cambia de fuente: (1) variación de la imagen (cámara, campo de visión, encuadre, color, calidad), (2) variación de la etiqueta (qué cuenta como glaucoma, sospechoso, referible o estadio, y con qué estándar de referencia) y (3) cambio del punto de decisión (umbral y calibración transportados entre dominios).
+
+REGLAS PARA TU RESPUESTA
+- Prioriza artículos revisados por pares de 2016 a 2026. Incluye preprints solo si no hay versión publicada y márcalos como preprint.
+- No inventes cifras, DOI, autores, años ni nombres de revista. Si no pudiste ver el dato en la fuente, escribe "no reportado" o "no verificado". No estimes valores a partir de figuras salvo que lo indiques.
+- Para cada cifra, indica dónde aparece (tabla, figura, sección o resumen) y si la tomaste del texto completo o solo del resumen.
+- Distingue siempre validación interna (partición aleatoria de la misma base), validación entre bases (otra base pública), leave-one-domain-out y validación externa en un centro independiente.
+- Busca en inglés. Responde en español, conservando en inglés los títulos de los artículos y los términos técnicos estándar.
+- Al final incluye una sección "Afirmaciones dudosas o contradictorias" con lo que no pudiste confirmar o donde las fuentes no coinciden.
+- Incluye siempre el DOI exacto en formato canónico (10.xxxx/...) en la columna correspondiente; si el trabajo no tiene DOI o no pudiste comprobarlo, escribe "sin DOI verificado".
+
+PREGUNTA
+¿Cómo se construyeron las bases públicas de retinografías usadas para clasificar glaucoma, y en qué difieren en adquisición y en etiqueta?
+
+BASES A CUBRIR (añade otras relevantes)
+ACRIMA, RIM-ONE (r1, r2, r3 y RIM-ONE DL), Drishti-GS1, ORIGA, REFUGE y REFUGE2, LAG, G1020, PAPILA, AIROGS (Rotterdam EyePACS AIROGS), SMDG-19, EyePACS (aclara qué versión tiene etiquetas de glaucoma), BRSET, Harvard-GDP o FairVision si aplica, y el dataset "moondream/glaucoma-detection" de Hugging Face.
+
+ENTREGA
+1. Una tabla con una fila por base: nombre y versión | artículo de origen con DOI | país e institución | número de imágenes y de pacientes | cámara o cámaras y campo de visión | encuadre (campo completo centrado en mácula o recorte centrado en el disco) | resolución | definición de la etiqueta (glaucoma confirmado, sospechoso, referible, estadios) | quién etiquetó y con qué estándar (examen clínico, campo visual, OCT, consenso) | ¿hay un ojo por paciente o ambos? | ¿hay partición oficial? | licencia y acceso.
+2. Qué bases comparten imágenes o derivan unas de otras (por ejemplo versiones de RIM-ONE, imágenes de EyePACS en AIROGS u otras compilaciones). Esto nos importa para detectar fuga de datos entre bases.
+3. Qué sabes y qué no sabes del dataset de Hugging Face "moondream/glaucoma-detection": origen de las imágenes, criterio de los estadios, si reutiliza imágenes de otra base.
+4. La sección de afirmaciones dudosas, sobre todo donde distintas fuentes dan números distintos para la misma base.

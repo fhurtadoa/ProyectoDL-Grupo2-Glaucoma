@@ -1,0 +1,651 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T15:14:51Z",
+      "timestamp": 1793718891808,
+      "version": "4.6.1"
+    },
+    "reference-count": 55,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62171377"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62171377"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002858",
+        "name": "China Postdoctoral Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "BX2021333"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BX2021333"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002858",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002858",
+        "name": "China Postdoctoral Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2021M703340"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021M703340"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002858",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Ningbo Clinical Research Center for Medical Imaging",
+        "award": [
+          "2021L003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021L003"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ningbo Clinical Research Center for Medical Imaging",
+        "award": [
+          "Open Project 2022LYKFZD06"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Open Project 2022LYKFZD06"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Natural Science Foundation of Ningbo City",
+        "award": [
+          "2021J052"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021J052"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE J. Biomed. Health Inform."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1109/jbhi.2023.3266576",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2023-04-12T17:33:13Z",
+      "timestamp": 1681320793000
+    },
+    "page": "3537-3548",
+    "source": "Crossref",
+    "is-referenced-by-count": 31,
+    "title": [
+      "Reconstruction-Driven Dynamic Refinement Based Unsupervised Domain Adaptation for Joint Optic Disc and Cup Segmentation"
+    ],
+    "prefix": "10.1109",
+    "volume": "27",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8564-9735",
+        "authenticated-orcid": false,
+        "given": "Ziyang",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Engineering Laboratory for Integrated Aero-Space-Ground-Ocean Big Data Application Technology, School of Computer Science and Engineering, Northwestern Polytechnical University, Xi&#x0027;an, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8067-1132",
+        "authenticated-orcid": false,
+        "given": "Yongsheng",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Biomedical and Engineering, Shanghai Tech University, Shanghai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9273-2847",
+        "authenticated-orcid": false,
+        "given": "Yong",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Engineering Laboratory for Integrated Aero-Space-Ground-Ocean Big Data Application Technology, School of Computer Science and Engineering, Northwestern Polytechnical University, Xi&#x0027;an, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-59050-9_47"
+      },
+      {
+        "key": "ref12",
+        "first-page": "90",
+        "article-title": "Unsupervised domain adaptation based image synthesis and feature alignment for joint optic disc and cup segmentation",
+        "author": "lei",
+        "year": "2021",
+        "journal-title": "IEEE J Biomed Health Inform"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00414"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI.2018.8363637"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICSP48669.2020.9320928"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2020.2992393"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-32239-7_12"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/int.23051"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2899910"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2020.06.044"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.293"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2018.05.083"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV51458.2022.00207"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46493-0_36"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.632"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00262"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-11726-9_28"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Tutorial on variational autoencoders",
+        "author": "doersch",
+        "year": "2016"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.265"
+      },
+      {
+        "key": "ref43",
+        "first-page": "1",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "0",
+        "journal-title": "Proc Int Conf Learn Representations"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBME.2019.2913211"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12880-020-00528-6"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2020.106668"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMBS.2009.5332913"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-ipr.2016.0812"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-32239-7_15"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2791488"
+      },
+      {
+        "key": "ref40",
+        "first-page": "240",
+        "article-title": "Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations",
+        "author": "sudre",
+        "year": "2017",
+        "journal-title": "Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00780"
+      },
+      {
+        "key": "ref34",
+        "first-page": "1",
+        "article-title": "FCNS in the wild: Pixel-level adversarial and constraint-based adaptation",
+        "author": "hoffman",
+        "year": "0",
+        "journal-title": "Proc IEEE Conf Comput Vis and Pattern Recog"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00218"
+      },
+      {
+        "key": "ref36",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets",
+        "volume": "27",
+        "author": "goodfellow",
+        "year": "0",
+        "journal-title": "Proc Int Conf Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.244"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2014.2347059"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00934-2_67"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2876633"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2013.2247770"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bjo.62.10.670"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "ref38",
+        "first-page": "801",
+        "article-title": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+        "author": "chen",
+        "year": "0",
+        "journal-title": "Proc Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref24",
+        "first-page": "667",
+        "article-title": "Dynamic filter networks",
+        "volume": "29",
+        "author": "jia",
+        "year": "0",
+        "journal-title": "Proc Int Conf Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00200"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01104"
+      },
+      {
+        "key": "ref25",
+        "first-page": "1307",
+        "article-title": "CondConv: Conditionally parameterized convolutions for efficient inference",
+        "volume": "32",
+        "author": "yang",
+        "year": "0",
+        "journal-title": "Proc Int Conf Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01225-0_29"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "ref21",
+        "first-page": "234",
+        "article-title": "U-Net: Convolutional networks for biomedical image segmentation",
+        "author": "ronneberger",
+        "year": "0",
+        "journal-title": "Proc 18th Int Conf Med Image Comput Comput - Assist Interv"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1",
+        "article-title": "Auto-encoding variational Bayes",
+        "author": "kingma",
+        "year": "0",
+        "journal-title": "Proc Int Conf Learn Representations"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00125"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2011.2134107"
+      }
+    ],
+    "container-title": [
+      "IEEE Journal of Biomedical and Health Informatics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6221020/10171108/10100704.pdf?arnumber=10100704",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T21:20:35Z",
+      "timestamp": 1705353635000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10100704/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "7"
+    },
+    "URL": "https://doi.org/10.1109/jbhi.2023.3266576",
+    "relation": {},
+    "ISSN": [
+      "2168-2194",
+      "2168-2208"
+    ],
+    "issn-type": [
+      {
+        "value": "2168-2194",
+        "type": "print"
+      },
+      {
+        "value": "2168-2208",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    }
+  }
+}

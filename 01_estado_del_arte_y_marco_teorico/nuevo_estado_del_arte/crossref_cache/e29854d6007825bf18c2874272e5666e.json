@@ -1,0 +1,1281 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T03:17:15Z",
+      "timestamp": 1795144635188,
+      "version": "4.10.3"
+    },
+    "reference-count": 85,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100013297",
+        "name": "Eurostars",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "E12712"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "E12712"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100013297",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008536",
+        "name": "Amazon Web Services",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100008536",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Med. Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmi.2023.3313786",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2023-09-15T13:39:08Z",
+      "timestamp": 1694785148000
+    },
+    "page": "542-557",
+    "source": "Crossref",
+    "is-referenced-by-count": 82,
+    "title": [
+      "AIROGS: Artificial Intelligence for Robust Glaucoma Screening Challenge"
+    ],
+    "prefix": "10.1109",
+    "volume": "43",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5908-8367",
+        "authenticated-orcid": false,
+        "given": "Coen",
+        "family": "de Vente",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Quantitative Healthcare Analysis (QurAI) Group, Informatics Institute, Universiteit van Amsterdam, Amsterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4038-3945",
+        "authenticated-orcid": false,
+        "given": "Koenraad A.",
+        "family": "Vermeer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rotterdam Ophthalmic Institute, The Rotterdam Eye Hospital, Rotterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicolas",
+        "family": "Jaccard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Project Orbis International Inc., New York, NY, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "He",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Peking Union Medical College Hospital, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7907-3557",
+        "authenticated-orcid": false,
+        "given": "Hongyi",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Automation, Tsinghua University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Firas",
+        "family": "Khader",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Diagnostic and Interventional Radiology, University Hospital Aachen, Aachen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Truhn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Diagnostic and Interventional Radiology, University Hospital Aachen, Aachen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1060-4882",
+        "authenticated-orcid": false,
+        "given": "Temirgali",
+        "family": "Aimyshev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CMC Technologies LLP, Nur-Sultan, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yerkebulan",
+        "family": "Zhanibekuly",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CMC Technologies LLP, Nur-Sultan, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tien-Dung",
+        "family": "Le",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "KBC, Brussels, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5992-1520",
+        "authenticated-orcid": false,
+        "given": "Adrian",
+        "family": "Galdran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departament de Tecnologies de la Informaci&#x00F3; i les Comunicacions (DTIC), Universitat Pompeu Fabra, Barcelona, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1953-3272",
+        "authenticated-orcid": false,
+        "given": "Miguel Ángel González",
+        "family": "Ballester",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departament de Tecnologies de la Informaci&#x00F3; i les Comunicacions (DTIC), Universitat Pompeu Fabra, Barcelona, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5571-6220",
+        "authenticated-orcid": false,
+        "given": "Gustavo",
+        "family": "Carneiro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Australian Institute for Machine Learning AIML, University of Adelaide, Adelaide, SA, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. G.",
+        "family": "Devika",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Engineering Trivandrum, Thiruvananthapuram, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hrishikesh Panikkasseril",
+        "family": "Sethumadhavan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Founding Minds Software, Thiruvananthapuram, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Densen",
+        "family": "Puthussery",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Founding Minds Software, Thiruvananthapuram, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zekang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4941-4920",
+        "authenticated-orcid": false,
+        "given": "Satoshi",
+        "family": "Kondo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Muroran Institute of Technology, Muroran, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Satoshi",
+        "family": "Kasai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Niigata University of Health and Welfare, Niigata, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edward",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Schulich School of Medicine and Dentistry, University of Western Ontario, London, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4502-3663",
+        "authenticated-orcid": false,
+        "given": "Ashritha",
+        "family": "Durvasula",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Schulich School of Medicine and Dentistry, University of Western Ontario, London, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4775-1306",
+        "authenticated-orcid": false,
+        "given": "Jónathan",
+        "family": "Heras",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Computer Science, University of La Rioja, Logro&#x00F1;o, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miguel Ángel",
+        "family": "Zapata",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hospital Vall Hebron, Sant Cugat del Vall&#x00E9;s, Barcelona, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Teresa",
+        "family": "Araújo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Optometry, Christian Doppler Laboratory for Artificial Intelligence in Retina, Medical University of Vienna, Vienna, Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4225-2156",
+        "authenticated-orcid": false,
+        "given": "Guilherme",
+        "family": "Aresta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Optometry, Christian Doppler Laboratory for Artificial Intelligence in Retina, Medical University of Vienna, Vienna, Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9168-0894",
+        "authenticated-orcid": false,
+        "given": "Hrvoje",
+        "family": "Bogunović",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ophthalmology and Optometry, Christian Doppler Laboratory for Artificial Intelligence in Retina, Medical University of Vienna, Vienna, Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mustafa",
+        "family": "Arikan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Ophthalmology, University College London, London, U.K."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yeong Chan",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Institute for Future Medicine, Samsung Medical Center, Seoul, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hyun Bin",
+        "family": "Cho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Digital Health, Samsung Advanced Institute for Health Sciences and Technology (SAIHST), Sungkyunkwan University, Samsung Medical Center, Seoul, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yoon Ho",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Digital Health, Samsung Advanced Institute for Health Sciences and Technology (SAIHST), Sungkyunkwan University, Samsung Medical Center, Seoul, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3102-1595",
+        "authenticated-orcid": false,
+        "given": "Abdul",
+        "family": "Qayyum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Engineering, King&#x2019;s College London, London, U.K."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3930-6600",
+        "authenticated-orcid": false,
+        "given": "Imran",
+        "family": "Razzak",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, University of New South Wales, Sydney, NSW, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2028-8972",
+        "authenticated-orcid": false,
+        "given": "Bram",
+        "family": "van Ginneken",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology and Nuclear Medicine, Diagnostic Image Analysis Group (DIAG), Radboudumc, Nijmegen, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8508-8985",
+        "authenticated-orcid": false,
+        "given": "Hans G.",
+        "family": "Lemij",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rotterdam Ophthalmic Institute, The Rotterdam Eye Hospital, Rotterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clara I.",
+        "family": "Sánchez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Quantitative Healthcare Analysis (QurAI) Group, Informatics Institute, Universiteit van Amsterdam, Amsterdam, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2014.05.013"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/IJG.0000000000000389"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1755-3768.2012.02555.x"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajo.2013.05.027"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2014.3192"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EMBC.2015.7319578"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.18152"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2018.01.023"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2020.03.041,PMID:32703394"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41433-019-0510-3"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3313831.3376718"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMBS.2010.5626137"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-ipr.2012.0455"
+      },
+      {
+        "issue": "1",
+        "key": "ref15",
+        "first-page": "1004",
+        "article-title": "A comprehensive retinal image dataset for the assessment of glaucoma from the optic nerve head analysis",
+        "volume": "2",
+        "author": "Sivaswamy",
+        "year": "2015",
+        "journal-title": "JSM Biomed. Imag. Data Papers"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JMI.4.1.014503"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00934-2_8"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570"
+      },
+      {
+        "key": "ref19",
+        "article-title": "REFUGE2 challenge: A treasure trove for multi-dimension analysis and evaluation in glaucoma screening",
+        "author": "Fang",
+        "year": "2022",
+        "journal-title": "arXiv:2202.08994"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102938"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/193229680900300315"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2009.09.026"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xops.2023.100300"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JBO.19.4.046006"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0272989X8900900307"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1755-3768.2007.00947.x"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1755-3768.2011.02355.x"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1076-6332(00)80381-5"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "Kingma",
+        "year": "2014",
+        "journal-title": "arXiv:1412.6980"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "Loshchilov",
+        "year": "2017",
+        "journal-title": "arXiv:1711.05101"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Sharpness-aware minimization for efficiently improving generalization",
+        "author": "Foret",
+        "year": "2020",
+        "journal-title": "arXiv:2010.01412"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01070"
+      },
+      {
+        "key": "ref34",
+        "article-title": "AutoAugment: Learning augmentation policies from data",
+        "author": "Cubuk",
+        "year": "2018",
+        "journal-title": "arXiv:1805.09501"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW50498.2020.00359"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00081"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBIC56247.2022.9854585"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBIC56247.2022.9854758"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISBIC56247.2022.9854763"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01228-1_26"
+      },
+      {
+        "key": "ref41",
+        "article-title": "An image is worth 16×16 words, what is a video worth?",
+        "author": "Sharir",
+        "year": "2021",
+        "journal-title": "arXiv:2103.13915"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2022.3188710"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref44",
+        "first-page": "10347",
+        "article-title": "Training data-efficient image transformers & distillation through attention",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Touvron"
+      },
+      {
+        "key": "ref45",
+        "first-page": "6105",
+        "article-title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Tan"
+      },
+      {
+        "key": "ref46",
+        "first-page": "10096",
+        "article-title": "EfficientNetv2: Smaller models and faster training",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Tan"
+      },
+      {
+        "key": "ref47",
+        "volume-title": "YOLOv5 by ultralytics",
+        "author": "Jocher",
+        "year": "2020"
+      },
+      {
+        "key": "ref48",
+        "volume-title": "Glaucoma Detection Algorithm for the Artificial Intelligence for Robust Glaucoma Screening Challenge",
+        "author": "Aimyshev",
+        "year": "2022"
+      },
+      {
+        "key": "ref49",
+        "article-title": "An image is worth 16×16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020",
+        "journal-title": "arXiv:2010.11929"
+      },
+      {
+        "key": "ref50",
+        "volume-title": "Combination of Supervised Learning and Unsupervised Learning to Detect Ungradable Images in the Airogs Challenge",
+        "author": "Le",
+        "year": "2022"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "ref52",
+        "volume-title": "Open-Set Glaucoma Screening From Eye Fundus Images: Domain Knowledge to the Rescue",
+        "author": "Galdran",
+        "year": "2022"
+      },
+      {
+        "key": "ref53",
+        "article-title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+        "author": "Howard",
+        "year": "2017",
+        "journal-title": "arXiv:1704.04861"
+      },
+      {
+        "key": "ref54",
+        "volume-title": "A Self-Supervised Approach for Glaucoma Screening",
+        "author": "Puthussery",
+        "year": "2022"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LSP.2018.2889273"
+      },
+      {
+        "key": "ref57",
+        "volume-title": "Deep Learning for Referable Glaucoma Screening and Out-of-Distribution Detection",
+        "author": "Yang",
+        "year": "2022"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Computer aided diagnosis and out-of-distribution detection in glaucoma screening using color fundus photography",
+        "author": "Kondo",
+        "year": "2022",
+        "journal-title": "arXiv:2202.11944"
+      },
+      {
+        "key": "ref59",
+        "first-page": "22614",
+        "article-title": "Revisiting ResNets: Improved training and scaling strategies",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "34",
+        "author": "Bello"
+      },
+      {
+        "key": "ref60",
+        "first-page": "21464",
+        "article-title": "Energy-based out-of-distribution detection",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "33",
+        "author": "Liu"
+      },
+      {
+        "key": "ref61",
+        "first-page": "144",
+        "article-title": "ReAct: Out-of-distribution detection with rectified activations",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "34",
+        "author": "Sun"
+      },
+      {
+        "key": "ref62",
+        "volume-title": "Ensemble Network for Glaucoma Screening in Airogs Challenge",
+        "author": "Wang",
+        "year": "2022"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "ref64",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "Simonyan",
+        "year": "2014",
+        "journal-title": "arXiv:1409.1556"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "ref66",
+        "article-title": "Auto-encoding variational Bayes",
+        "author": "Kingma",
+        "year": "2013",
+        "journal-title": "arXiv:1312.6114"
+      },
+      {
+        "key": "ref67",
+        "volume-title": "A Good Closed-Set Classifier is all You Need for the Airogs Challenge",
+        "author": "Heras",
+        "year": "2022"
+      },
+      {
+        "key": "ref68",
+        "article-title": "Open-set recognition: A good closed-set classifier is all you need?",
+        "author": "Vaze",
+        "year": "2021",
+        "journal-title": "arXiv:2110.06207"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1968.tb00722.x"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref71",
+        "volume-title": "Multi-Model Ensemble for Robust Glaucoma Screening",
+        "author": "Arikan",
+        "year": "2022"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v31i1.11231"
+      },
+      {
+        "key": "ref73",
+        "volume-title": "Classification for Referable Glaucoma With Fundus Photographs Using Multimodal Deep Learning",
+        "author": "Lee",
+        "year": "2022"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/3045390.3045502"
+      },
+      {
+        "key": "ref76",
+        "volume-title": "ConvNeXts and Vision Transformer Based Framework for Glaucoma Screening",
+        "author": "Qayyum",
+        "year": "2022"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "key": "ref78",
+        "first-page": "1179",
+        "article-title": "Single layer predictive normalized maximum likelihood for out-of-distribution detection",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "34",
+        "author": "Bibas"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/ipr2.12419"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102762"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.02007"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-25066-8_9"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV51458.2022.00181"
+      },
+      {
+        "issue": "7",
+        "key": "ref84",
+        "first-page": "2041",
+        "article-title": "Glaucomatous features in fundus photographs of eyes with ‘referable glaucoma’ of a large population based labeled data set for training an artificial intelligence (AI) algorithm for glaucoma screening",
+        "volume": "63",
+        "author": "Lemij",
+        "year": "2022",
+        "journal-title": "Investigative Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.preteyeres.2021.101034"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Medical Imaging"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/42/10379496/10253652.pdf?arnumber=10253652",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2024-01-11T22:33:54Z",
+      "timestamp": 1705012434000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10253652/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "references-count": 85,
+    "journal-issue": {
+      "issue": "1"
+    },
+    "URL": "https://doi.org/10.1109/tmi.2023.3313786",
+    "relation": {},
+    "ISSN": [
+      "0278-0062",
+      "1558-254X"
+    ],
+    "issn-type": [
+      {
+        "value": "0278-0062",
+        "type": "print"
+      },
+      {
+        "value": "1558-254X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    }
+  }
+}

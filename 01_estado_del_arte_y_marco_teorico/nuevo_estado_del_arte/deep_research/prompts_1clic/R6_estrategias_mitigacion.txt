@@ -1,0 +1,30 @@
+CONTEXTO DEL PROYECTO
+Somos un equipo de estudiantes de Deep Learning (Universidad Nacional de Colombia, Medellín) escribiendo un artículo en formato de la revista DYNA titulado "Evaluación de la generalización de clasificadores profundos de glaucoma ante heterogeneidad de adquisición de datos en retinografías". Entrenamos ConvNeXt-Tiny (preentrenado en ImageNet) en el dataset Moondream Staged (Hugging Face, 3 estadios: normal, temprano, avanzado) y lo probamos sin reentrenar en ACRIMA, RIM-ONE DL y EyePACS (glaucoma binario). Comparamos cabeza binaria frente a cabeza de 3 clases proyectada a binaria, y un aumento de datos agresivo de escala y fotometría. El umbral se fija en validación interna (especificidad ≥ 0,95) y no se reajusta en las bases externas. Observamos que el AUROC cae moderadamente fuera de dominio, pero la sensibilidad colapsa en EyePACS (recortes papilares frente a campo amplio con fondo negro).
+
+Nuestra tesis para el estado del arte: la literatura demuestra discriminación alta dentro de una base, pero rara vez separa tres fuentes de variación cuando el modelo cambia de fuente: (1) variación de la imagen (cámara, campo de visión, encuadre, color, calidad), (2) variación de la etiqueta (qué cuenta como glaucoma, sospechoso, referible o estadio, y con qué estándar de referencia) y (3) cambio del punto de decisión (umbral y calibración transportados entre dominios).
+
+REGLAS PARA TU RESPUESTA
+- Prioriza artículos revisados por pares de 2016 a 2026. Incluye preprints solo si no hay versión publicada y márcalos como preprint.
+- No inventes cifras, DOI, autores, años ni nombres de revista. Si no pudiste ver el dato en la fuente, escribe "no reportado" o "no verificado". No estimes valores a partir de figuras salvo que lo indiques.
+- Para cada cifra, indica dónde aparece (tabla, figura, sección o resumen) y si la tomaste del texto completo o solo del resumen.
+- Distingue siempre validación interna (partición aleatoria de la misma base), validación entre bases (otra base pública), leave-one-domain-out y validación externa en un centro independiente.
+- Busca en inglés. Responde en español, conservando en inglés los títulos de los artículos y los términos técnicos estándar.
+- Al final incluye una sección "Afirmaciones dudosas o contradictorias" con lo que no pudiste confirmar o donde las fuentes no coinciden.
+- Incluye siempre el DOI exacto en formato canónico (10.xxxx/...) en la columna correspondiente; si el trabajo no tiene DOI o no pudiste comprobarlo, escribe "sin DOI verificado".
+
+PREGUNTA
+¿Qué estrategias se han propuesto para mejorar la generalización entre fuentes de clasificadores de glaucoma en retinografías, qué tipo de variación ataca cada una y qué evidencia comparativa existe bajo un mismo protocolo?
+
+ESTRATEGIAS A CUBRIR
+Entrenamiento multifuente; aumento de datos geométrico y fotométrico (incluido el aumento agresivo de escala); armonización o recorte centrado en el disco óptico (ROI); normalización o estandarización de color; filtrado por calidad de imagen; generalización de dominio (por ejemplo DoFE y métodos similares); adaptación de dominio no supervisada; adaptación en tiempo de prueba; preentrenamiento autosupervisado y modelos fundacionales retinianos (RETFound, VisionFM, FLAIR, RetiZero, UrFound u otros de 2023–2026); modelos de visión y lenguaje aplicados a glaucoma.
+
+QUÉ BUSCAR
+- Estudios que comparan una estrategia frente a una línea base con la misma arquitectura y el mismo protocolo, evaluando en una base no vista.
+- Benchmarks de generalización de dominio en imágenes de fondo de ojo.
+- Resultados de los modelos fundacionales específicamente en glaucoma y en evaluación externa, no solo en promedio sobre muchas tareas.
+
+ENTREGA
+1. Una tabla: autor y año | DOI | estrategia | variación que ataca (imagen, etiqueta o punto de decisión) | ¿usa imágenes del dominio destino durante el desarrollo? | línea base comparada | bases de prueba no vistas | mejora reportada con su métrica | ubicación de las cifras.
+2. Una síntesis que distinga adaptación de dominio (usa datos del destino) de generalización estricta (destino no visto), y que diga qué estrategias tienen evidencia controlada y cuáles solo son plausibles.
+3. Una lista de los trabajos más recientes (2024–2026) que debamos conocer.
+4. La sección de afirmaciones dudosas.

@@ -1,0 +1,179 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2025-10-30T22:39:42Z",
+      "timestamp": 1761863982188,
+      "version": "build-2065373602"
+    },
+    "reference-count": 0,
+    "publisher": "Medwin Publishers",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "OAJO"
+    ],
+    "abstract": "<jats:p>Purpose: Myopia and glaucoma are major causes of vision impairment that are expected to rise in incidence in East Asia.\nArtificial intelligence (AI)-aassisted mass screenings may help reduce disease burden and improve long-term prognosis. CFDL\nis a deep learning (DL) subtype that facilitates non-AI-experts to derive their own AI models. With its resource-saving nature\nand ease of development, it may benefit resource-limited screening settings. This study evaluated the performance of CFDL in\nperforming pathological myopia (PM) and glaucoma screening on colour fundus photographs (CFP)s.\nMethods: We used labelled CFPs from the ODIR-K dataset to develop our CFDL algorithm using Google’s CFDL platform i.e.\nVertex AI. 3374 normal, PM and glaucoma CFPs were identified and uploaded to Vertex AI. The uploaded images were split\ninto 8-1-1 for training, validation, and testing. Our model’s performance was later compared to the state-of-the-art DL models\nidentified through our targeted literature search. External validation of the model was performed on an independent cohort\nof CFPs retrieved from other datasets.\nResults: At the 0.5 confidence threshold, our CFDL model achieved an area under receiver operator curve (AUROC) of 0.998,\naccuracy of 90.74% and recall of 90.74%. The sensitivity ranged from 94.44% (PM detection) to 40% (glaucoma detection).\nWhen externally validated, the model had a lower AUROC (0.863), accuracy (77.78%), and recall (77.78%) at the 0.5 confidence\nthreshold.\n Conclusion: The study demonstrated the feasibility of a highly accurate CFDL model for PM and glaucoma screenings on CFPs.</jats:p>",
+    "DOI": "10.23880/oajo-16000318",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          3
+        ]
+      ],
+      "date-time": "2025-01-03T11:45:36Z",
+      "timestamp": 1735904736000
+    },
+    "page": "1-9",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Development and Validation of a Code-Free Deep Learning Model for the Screening of Pathological Glaucoma and Glaucoma on Color Fundus Photographs"
+    ],
+    "prefix": "10.23880",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Carolyn",
+        "family": "YTW",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Timing",
+        "family": "L",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tin",
+        "family": "LW",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Henry",
+        "family": "HWL",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "9969",
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": [
+      "Open Access Journal of Ophthalmology"
+    ],
+    "original-title": [
+      "Development and Validation of a Code-Free Deep Learning Model for the Screening of Pathological Glaucoma and Glaucoma on Color Fundus Photographs"
+    ],
+    "link": [
+      {
+        "URL": "https://medwinpublishers.com/OAJO/development-and-validation-of-a-code-free-deep-learning-model-for-the-screening-of-pathological-glaucoma-and-glaucoma-on-color-fundus-photographs.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2025-07-08T18:09:18Z",
+      "timestamp": 1751998158000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://medwinpublishers.com/OAJO/development-and-validation-of-a-code-free-deep-learning-model-for-the-screening-of-pathological-glaucoma-and-glaucoma-on-color-fundus-photographs.pdf"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.23880/oajo-16000318",
+    "relation": {},
+    "ISSN": [
+      "2578-465X"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2578-465X"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

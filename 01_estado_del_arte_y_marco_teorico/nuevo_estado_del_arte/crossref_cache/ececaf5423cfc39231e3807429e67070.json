@@ -1,0 +1,901 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T21:38:08Z",
+      "timestamp": 1792791488245,
+      "version": "4.5.0"
+    },
+    "reference-count": 57,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2026-03-02T00:00:00Z",
+          "timestamp": 1772409600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2026-04-09T00:00:00Z",
+          "timestamp": 1775692800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 38,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Chinese University of Hong Kong Direct Grant",
+        "award": [
+          "Ref. 2025.128"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Ref. 2025.128"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/00t33hh48",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "npj Digit. Med."
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Fundus diseases are leading causes of global vision impairment, often presenting with complex comorbidities that challenge conventional artificial intelligence models. While ophthalmic foundation models (FMs) offer promising capabilities, their clinical translation for multi-disease detection remains limited by issues such as imbalanced data distribution, uncertainty in multi-label predictions, inter-disease confusion, and domain shifts. Here, we introduce RetExpert, a test-time clinically adaptive framework that enhances FMs for robust and generalizable detection of multiple fundus diseases from color fundus photographs. RetExpert incorporates adaptive knowledge units with a novel stochastic one-hot activation module to improve generalizability, alongside long-tail-aware learning and an uncertainty-aware multi-label learning strategies. It also integrates a fundus disease co-occurrence matrix as medical prior knowledge to mitigate the confusion score (\n                    <jats:italic>C</jats:italic>\n                    -score) between diseases. Furthermore, RetExpert employs a lightweight test-time adaptation method combining unsupervised and pseudo-supervised learning (TTUL + TTPL), enabling dynamic parameter adjustment without full retraining. Extensive evaluations on 15 public and private datasets demonstrate that RetExpert outperforms ophthalmic FMs in detection performance, reliability, and cross-domain adaptability, offering a clinically viable solution for automated multi-disease screening in real-world settings.\n                  </jats:p>",
+    "DOI": "10.1038/s41746-026-02480-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2026-03-02T14:15:21Z",
+      "timestamp": 1772460921000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "A test-time clinically adaptive framework for detecting multiple fundus diseases harnessing ophthalmic foundation models"
+    ],
+    "prefix": "10.1038",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Hongyang",
+        "family": "Jiang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zirong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengdi",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bowen",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danqi",
+        "family": "Fang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chunwen",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruyue",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Truong X.",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "An Ran",
+        "family": "Ran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clement C.",
+        "family": "Tham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qinghua",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simon K. H.",
+        "family": "Szeto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carol Y.",
+        "family": "Cheung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2480_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e489",
+        "DOI": "10.1016/S2214-109X(20)30488-5",
+        "volume": "9",
+        "author": "MJ Burton",
+        "year": "2021",
+        "unstructured": "Burton, M. J. et al. The lancet global health commission on global eye health: vision beyond 2020. Lancet Glob. Health 9, e489–e551 (2021).",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "2480_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "e144",
+        "DOI": "10.1016/S2214-109X(20)30489-7",
+        "volume": "9",
+        "author": "JD Steinmetz",
+        "year": "2021",
+        "unstructured": "Steinmetz, J. D. et al. Causes of blindness and vision impairment in 2020 and trends over 30 years, and prevalence of avoidable blindness in relation to VISION 2020: the Right to Sight: an analysis for the Global Burden of Disease Study. Lancet Glob. Health 9, e144–e160 (2021).",
+        "journal-title": "Lancet Glob. Health"
+      },
+      {
+        "key": "2480_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Griffith, J. F. & Goldberg, J. L. Prevalence of comorbid retinal disease in patients with glaucoma at an academic medical center. Clin. Ophthalmol. 9, 1275–1284 (2015).",
+        "DOI": "10.2147/OPTH.S85851"
+      },
+      {
+        "key": "2480_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.4239/wjd.v6.i1.92",
+        "volume": "6",
+        "author": "N Sayin",
+        "year": "2015",
+        "unstructured": "Sayin, N., Kara, N. & Pekel, G. Ocular complications of diabetes mellitus. World J. Diab 6, 92 (2015).",
+        "journal-title": "World J. Diab"
+      },
+      {
+        "key": "2480_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "102329",
+        "DOI": "10.1016/j.bspc.2020.102329",
+        "volume": "66",
+        "author": "N Gour",
+        "year": "2021",
+        "unstructured": "Gour, N. & Khanna, P. Multi-class multi-label ophthalmological disease detection using transfer learning based convolutional neural network. Biomed. Signal Process. Control 66, 102329 (2021).",
+        "journal-title": "Biomed. Signal Process. Control"
+      },
+      {
+        "key": "2480_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "307",
+        "DOI": "10.1007/s11801-023-2204-0",
+        "volume": "19",
+        "author": "J Jiang",
+        "year": "2023",
+        "unstructured": "Jiang, J. et al. Automatic diagnosis of multiple fundus lesions based on depth graph neural network. Optoelectron. Lett. 19, 307–315 (2023).",
+        "journal-title": "Optoelectron. Lett."
+      },
+      {
+        "key": "2480_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "2739",
+        "DOI": "10.1109/JBHI.2022.3214086",
+        "volume": "27",
+        "author": "MA Rodríguez",
+        "year": "2022",
+        "unstructured": "Rodríguez, M. A., AlMarzouqi, H. & Liatsis, P. Multi-label retinal disease classification using transformers. IEEE J. Biomed. Health Inform. 27, 2739–2750 (2022).",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "2480_CR8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "volume": "12",
+        "author": "L-P Cen",
+        "year": "2021",
+        "unstructured": "Cen, L.-P. et al. Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks. Nat. Commun. 12, 4828 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "2480_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Matta, S. et al. Domain generalization for multi-disease detection in fundus photographs. in Proc. 2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 1–4 (IEEE, 2024).",
+        "DOI": "10.1109/EMBC53108.2024.10781556"
+      },
+      {
+        "key": "2480_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "584",
+        "DOI": "10.1038/s41591-023-02702-z",
+        "volume": "30",
+        "author": "L Dai",
+        "year": "2024",
+        "unstructured": "Dai, L. et al. A deep learning system for predicting time to progression of diabetic retinopathy. Nat. Med. 30, 584–594 (2024).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "2480_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, C. et al. Adapting visual-language models for generalizable anomaly detection in medical images. in Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 11375–11385 (IEEE, 2024).",
+        "DOI": "10.1109/CVPR52733.2024.01081"
+      },
+      {
+        "key": "2480_CR12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102918",
+        "volume": "89",
+        "author": "MA Mazurowski",
+        "year": "2023",
+        "unstructured": "Mazurowski, M. A. et al. Segment anything model for medical image analysis: an experimental study. Med. Image Anal. 89, 102918 (2023).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "2480_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "259",
+        "DOI": "10.1038/s41586-023-05881-4",
+        "volume": "616",
+        "author": "M Moor",
+        "year": "2023",
+        "unstructured": "Moor, M. et al. Foundation models for generalist medical artificial intelligence. Nature 616, 259–265 (2023).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2480_CR14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-023-02460-0",
+        "volume": "10",
+        "author": "D Wang",
+        "year": "2023",
+        "unstructured": "Wang, D. et al. A real-world dataset and benchmark for foundation model adaptation in medical image classification. Sci. Data 10, 574 (2023).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "2480_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J. et al. Imagenet: a large-scale hierarchical image database. in Proc. 2009 IEEE Conference on Computer Vision and Pattern Recognition, 248–255 (IEEE, 2009).",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2480_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "104115",
+        "DOI": "10.1016/j.compbiomed.2020.104115",
+        "volume": "128",
+        "author": "MA Morid",
+        "year": "2021",
+        "unstructured": "Morid, M. A., Borjali, A. & Del Fiol, G. A scoping review of transfer learning research on medical image analysis using ImageNet. Comput. Biol. Med. 128, 104115 (2021).",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "2480_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "9052",
+        "DOI": "10.1109/TPAMI.2024.3415112",
+        "volume": "46",
+        "author": "J Gui",
+        "year": "2024",
+        "unstructured": "Gui, J. et al. A survey on self-supervised learning: algorithms, applications, and future trends. IEEE Trans. Pattern Anal. Mach. Intell. 46, 9052–9071 (2024).",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2480_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "volume": "622",
+        "author": "Y Zhou",
+        "year": "2023",
+        "unstructured": "Zhou, Y. et al. A foundation model for generalizable disease detection from retinal images. Nature 622, 156–163 (2023).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2480_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K. et al. Masked autoencoders are scalable vision learners. in Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 16000–16009 (IEEE, 2022).",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "2480_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "AIoa2300221",
+        "DOI": "10.1056/AIoa2300221",
+        "volume": "1",
+        "author": "J Qiu",
+        "year": "2024",
+        "unstructured": "Qiu, J. et al. Development and validation of a multimodal multitask vision foundation model for generalist ophthalmic artificial intelligence. NEJM AI 1, AIoa2300221 (2024).",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "2480_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "103357",
+        "DOI": "10.1016/j.media.2024.103357",
+        "volume": "99",
+        "author": "J Silva-Rodriguez",
+        "year": "2025",
+        "unstructured": "Silva-Rodriguez, J., Chakor, H., Kobbi, R., Dolz, J. & Ayed, I. B. A foundation language-image model of the retina (flair): encoding expert knowledge in text supervision. Med. Image Anal. 99, 103357 (2025).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "2480_CR22",
+        "unstructured": "Radford, A. et al. Learning transferable visual models from natural language supervision. in Proc. International Conference on Machine Learning. 8748–8763 (PMLR, 2021)."
+      },
+      {
+        "key": "2480_CR23",
+        "first-page": "2336",
+        "volume": "65",
+        "author": "S Matta",
+        "year": "2024",
+        "unstructured": "Matta, S. et al. Evaluating RETFound for out-of-domain generalization in multi-disease detection from color fundus photographs. Investig. Ophthalmol. Vis. Sci. 65, 2336–2336 (2024).",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "2480_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "AIcs2400497",
+        "DOI": "10.1056/AIcs2400497",
+        "volume": "2",
+        "author": "Z Xiong",
+        "year": "2025",
+        "unstructured": "Xiong, Z. et al. How generalizable are foundation models when applied to different demographic groups and settings? NEJM AI 2, AIcs2400497 (2025).",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "2480_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z. et al. A convnet for the 2020s. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 11976–11986 (IEEE, 2022).",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "key": "2480_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beyer, L. et al. Flexivit: one model for all patch sizes. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 14496–14506 (IEEE, 2023).",
+        "DOI": "10.1109/CVPR52729.2023.01393"
+      },
+      {
+        "key": "2480_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J. & Wojna, Z. Rethinking the inception architecture for computer vision. In Proc. IEEE Conference on Computer Vision and Pattern Recognition, 2818–2826 (IEEE, 2016).",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "2480_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image recognition. In Proc. IEEE Conference on Computer Vision and Pattern Recognition, 770–778 (IEEE, 2016).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2480_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, J., Shen, L. & Sun, G. Squeeze-and-excitation networks. In Proc. IEEE Conference on Computer Vision and Pattern Recognition, 7132–7141 (IEEE, 2018).",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "2480_CR30",
+        "unstructured": "Dosovitskiy, A. et al. An image is worth 16x16 words: transformers for image recognition at scale. In Proc. 9th International Conference on Learning Representations (2021)."
+      },
+      {
+        "key": "2480_CR31",
+        "first-page": "8291",
+        "volume": "35",
+        "author": "K Han",
+        "year": "2022",
+        "unstructured": "Han, K., Wang, Y., Guo, J., Tang, Y. & Wu, E. Vision gnn: an image is worth graph of nodes. Adv. neural Inf. Process. Syst. 35, 8291–8303 (2022).",
+        "journal-title": "Adv. neural Inf. Process. Syst."
+      },
+      {
+        "key": "2480_CR32",
+        "unstructured": "Wang, D., Shelhamer, E., Liu, S., Olshausen, B. & Darrell, T. Tent: fully test-time adaptation by entropy minimization. In Proc. 9th International Conference on Learning Representations (2021)."
+      },
+      {
+        "key": "2480_CR33",
+        "unstructured": "Niu, S. et al. Towards stable test-time adaptation in dynamic wild world. In Proc. 11th International Conference on Learning Representations (2023)."
+      },
+      {
+        "key": "2480_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Q., Fink, O., Van Gool, L. & Dai, D. Continual test-time domain adaptation. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 7201–7211 (IEEE, 2022).",
+        "DOI": "10.1109/CVPR52688.2022.00706"
+      },
+      {
+        "key": "2480_CR35",
+        "unstructured": "Niu, S. et al. Efficient test-time model adaptation without forgetting. In Proc. International Conference on Machine Learning, 16888–16905 (PMLR, 2022)."
+      },
+      {
+        "key": "2480_CR36",
+        "first-page": "14070",
+        "volume": "36",
+        "author": "T Gong",
+        "year": "2023",
+        "unstructured": "Gong, T., Kim, Y., Lee, T., Chottananurak, S. & Lee, S.-J. Sotta: robust test-time adaptation on noisy data streams. Adv. Neural Inf. Process. Syst. 36, 14070–14093 (2023).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "2480_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "3433",
+        "DOI": "10.1007/s11517-024-03140-w",
+        "volume": "62",
+        "author": "AAP Siswadi",
+        "year": "2024",
+        "unstructured": "Siswadi, A. A. P., Bricq, S. & Meriaudeau, F. Multi-modality multi-label ocular abnormalities detection with transformer-based semantic dictionary learning. Med. Biol. Eng. Comput. 62, 3433–3444 (2024).",
+        "journal-title": "Med. Biol. Eng. Comput."
+      },
+      {
+        "key": "2480_CR38",
+        "unstructured": "Dugas, E., Jared, J. & Cukierski, W. Diabetic retinopathy detection. https://kaggle.com/competitions/diabetic-retinopathy-detection 7 (2015)."
+      },
+      {
+        "key": "2480_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2828",
+        "DOI": "10.1109/TMI.2022.3172773",
+        "volume": "41",
+        "author": "H Fang",
+        "year": "2022",
+        "unstructured": "Fang, H. et al. Adam challenge: detecting age-related macular degeneration from fundus images. IEEE Trans. Med. Imaging 41, 2828–2847 (2022).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "2480_CR40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101570",
+        "volume": "59",
+        "author": "JI Orlando",
+        "year": "2020",
+        "unstructured": "Orlando, J. I. et al. Refuge challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs. Med. Image Anal. 59, 101570 (2020).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "2480_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-024-02911-2",
+        "volume": "11",
+        "author": "H Fang",
+        "year": "2024",
+        "unstructured": "Fang, H. et al. Open fundus photograph dataset with pathologic myopia recognition and anatomical structure annotation. Sci. Data 11, 99 (2024).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "2480_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sivaswamy, J., Krishnadas, S., Joshi, G. D., Jain, M. & Tabish, A. U. S. Drishti-gs: retinal image dataset for optic nerve head (onh) segmentation. In Proc. 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI), 53–56 (IEEE, 2014).",
+        "DOI": "10.1109/ISBI.2014.6867807"
+      },
+      {
+        "key": "2480_CR43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1345",
+        "DOI": "10.1167/iovs.10-6112",
+        "volume": "52",
+        "author": "A Budai",
+        "year": "2011",
+        "unstructured": "Budai, A. et al. A public database for the evaluation of fundus image segmentation algorithms. Investig. Ophthalmol. Vis. Sci. 52, 1345–1345 (2011).",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "2480_CR44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102938",
+        "volume": "90",
+        "author": "J Wu",
+        "year": "2023",
+        "unstructured": "Wu, J. et al. Gamma challenge: glaucoma grading from multi-modality images. Med. Image Anal. 90, 102938 (2023).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "2480_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1006",
+        "DOI": "10.1001/jamaophthalmol.2024.3707",
+        "volume": "142",
+        "author": "B Qian",
+        "year": "2024",
+        "unstructured": "Qian, B. et al. A competition for the diagnosis of myopic maculopathy by artificial intelligence algorithms. JAMA Ophthalmol. 142, 1006–1015 (2024).",
+        "journal-title": "JAMA Ophthalmol."
+      },
+      {
+        "key": "2480_CR46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dib.2023.109056",
+        "volume": "48",
+        "author": "O Cardozo",
+        "year": "2023",
+        "unstructured": "Cardozo, O. et al. Dataset of fundus images for the diagnosis of ocular toxoplasmosis. Data Brief. 48, 109056 (2023).",
+        "journal-title": "Data Brief."
+      },
+      {
+        "key": "2480_CR47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-02767-0",
+        "volume": "7",
+        "author": "FY Tang",
+        "year": "2017",
+        "unstructured": "Tang, F. Y. et al. Determinants of quantitative optical coherence tomography angiography metrics in patients with diabetes. Sci. Rep. 7, 2575 (2017).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "2480_CR48",
+        "first-page": "4924",
+        "volume": "65",
+        "author": "S Zhang",
+        "year": "2024",
+        "unstructured": "Zhang, S. et al. Using a deep learning-based OCT image analysis for diabetic macular edema identification to support triage screening: a prospective study. Investig. Ophthalmol. Vis. Sci. 65, 4924–4924 (2024).",
+        "journal-title": "Investig. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "2480_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "AIoa2400091",
+        "DOI": "10.1056/AIoa2400091",
+        "volume": "1",
+        "author": "TX Nguyen",
+        "year": "2024",
+        "unstructured": "Nguyen, T. X. et al. Advancing diabetic macular edema detection from 3D optical coherence tomography scans: integrating privacy-preserving AI and generalizability techniques—a prospective validation in Vietnam. NEJM AI 1, AIoa2400091 (2024).",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "2480_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "816",
+        "DOI": "10.1136/bjophthalmol-2021-319923",
+        "volume": "107",
+        "author": "R Shen",
+        "year": "2023",
+        "unstructured": "Shen, R. et al. Relationship between macular intercapillary area measured by optical coherence tomography angiography and central visual field sensitivity in normal tension glaucoma. Br. J. Ophthalmol. 107, 816–822 (2023).",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "2480_CR51",
+        "unstructured": "Vaswani, A. et al. Attention is all you need. Adv. Neural Inf. Process. Syst. 30, 5998–6008 (2017)."
+      },
+      {
+        "key": "2480_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "52548",
+        "DOI": "10.52202/075280-2288",
+        "volume": "36",
+        "author": "W Dong",
+        "year": "2023",
+        "unstructured": "Dong, W., Yan, D., Lin, Z. & Wang, P. Efficient adaptation of large vision transformer via adapter re-composing. Adv. Neural Inf. Process. Syst. 36, 52548–52567 (2023).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "2480_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1214/aoms/1177729694",
+        "volume": "22",
+        "author": "S Kullback",
+        "year": "1951",
+        "unstructured": "Kullback, S. & Leibler, R. A. On information and sufficiency. Ann. Math. Stat. 22, 79–86 (1951).",
+        "journal-title": "Ann. Math. Stat."
+      },
+      {
+        "key": "2480_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, W., Park, I., Kim, S. & Ryu, J. Robust asymmetric loss for multi-label long-tailed learning. In Proc. IEEE/CVF International Conference on Computer Vision, 2711–2720 (IEEE, 2023).",
+        "DOI": "10.1109/ICCVW60793.2023.00286"
+      },
+      {
+        "key": "2480_CR55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-42444-7",
+        "volume": "14",
+        "author": "M Wang",
+        "year": "2023",
+        "unstructured": "Wang, M. et al. Uncertainty-inspired open set learning for retinal anomaly identification. Nat. Commun. 14, 6757 (2023).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "2480_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.3390/data8020029",
+        "volume": "8",
+        "author": "S Panchal",
+        "year": "2023",
+        "unstructured": "Panchal, S. et al. Retinal Fundus Multi-Disease Image Dataset (RFMiD) 2.0: a dataset of frequently and rarely identified diseases. Data 8, 29 (2023).",
+        "journal-title": "Data"
+      },
+      {
+        "key": "2480_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeLong, E. R., DeLong, D. M. & Clarke-Pearson, D. L. Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach. Biometrics 44, 837–845 (1988).",
+        "DOI": "10.2307/2531595"
+      }
+    ],
+    "container-title": [
+      "npj Digital Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41746-026-02480-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41746-026-02480-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41746-026-02480-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2026-04-09T11:58:46Z",
+      "timestamp": 1775735926000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41746-026-02480-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ]
+    },
+    "references-count": 57,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2480"
+    ],
+    "URL": "https://doi.org/10.1038/s41746-026-02480-1",
+    "relation": {},
+    "ISSN": [
+      "2398-6352"
+    ],
+    "issn-type": [
+      {
+        "value": "2398-6352",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "14 September 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "13 February 2026",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "2 March 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "300"
+  }
+}

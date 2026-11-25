@@ -1,0 +1,752 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2026-11-20T17:55:39Z",
+      "timestamp": 1795197339028,
+      "version": "4.10.3"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 33,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783030710576",
+        "type": "print"
+      },
+      {
+        "value": "9783030710583",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2021-01-01T00:00:00Z",
+          "timestamp": 1609459200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-030-71058-3_11",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2021-03-01T12:03:25Z",
+      "timestamp": 1614600205000
+    },
+    "page": "177-193",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 138,
+    "title": [
+      "A Benchmark of Ocular Disease Intelligent Recognition: One Shot for Multi-disease Detection"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Ning",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chunyu",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kai",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hong",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "11_CR1",
+        "unstructured": "Kaggle diabetic retinopathy detection competition. https://www.kaggle.com/c/diabetic-retinopathy-detection. Accessed 18 Feb 2020"
+      },
+      {
+        "issue": "1",
+        "key": "11_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1007/s11517-019-02066-y",
+        "volume": "58",
+        "author": "AM Alqudah",
+        "year": "2020",
+        "unstructured": "Alqudah, A.M.: AOCT-NET: a convolutional network automated classification of multiclass retinal diseases using spectral-domain optical coherence tomography images. Med. Biol. Eng. Comput. 58(1), 41–53 (2020)",
+        "journal-title": "Med. Biol. Eng. Comput."
+      },
+      {
+        "key": "11_CR3",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "192",
+        "DOI": "10.1007/978-3-030-32239-7_22",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2019",
+        "author": "R Asgari",
+        "year": "2019",
+        "unstructured": "Asgari, R., et al.: Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography. In: Shen, D., et al. (eds.) MICCAI 2019. LNCS, vol. 11764, pp. 192–200. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-32239-7_22"
+      },
+      {
+        "key": "11_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brandl, C., et al.: Features of age-related macular degeneration in the general adults and their dependency on age, sex, and smoking: results from the German KORA study. PLOS ONE 11(11), e0167181 (2016)",
+        "DOI": "10.1371/journal.pone.0167181"
+      },
+      {
+        "key": "11_CR5",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "734",
+        "DOI": "10.1007/978-3-030-41299-9_57",
+        "volume-title": "Pattern Recognition",
+        "author": "S Chelaramani",
+        "year": "2020",
+        "unstructured": "Chelaramani, S., Gupta, M., Agarwal, V., Gupta, P., Habash, R.: Multi-task learning for fine-grained eye disease prediction. In: Palaiahnakote, S., Sanniti di Baja, G., Wang, L., Yan, W.Q. (eds.) ACPR 2019. LNCS, vol. 12047, pp. 734–749. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-41299-9_57"
+      },
+      {
+        "key": "11_CR6",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1007/978-3-319-16817-3_9",
+        "volume-title": "Computer Vision – ACCV 2014",
+        "author": "X Chen",
+        "year": "2015",
+        "unstructured": "Chen, X., et al.: Multiple ocular diseases classification with graph regularized probabilistic multi-label learning. In: Cremers, D., Reid, I., Saito, H., Yang, M.-H. (eds.) ACCV 2014. LNCS, vol. 9006, pp. 127–142. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-16817-3_9"
+      },
+      {
+        "key": "11_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choi, J.Y., Yoo, T.K., Seo, J.G., Kwak, J., Um, T.T., Rim, T.H.: Multi-categorical deep learning neural network to classify retinal images: a pilot study employing small database. PLOS ONE 12(11), e0187336 (2017)",
+        "DOI": "10.1371/journal.pone.0187336"
+      },
+      {
+        "key": "11_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Costagliola, C., Dell’Omo, R., Romano, M.R., Rinaldi, M., Zeppa, L., Parmeggiani, F.: Pharmacotherapy of intraocular pressure: part I. Parasympathomimetic, sympathomimetic and sympatholytics. Exp. Opin. Pharmacother. 10(16), 2663–2677 (2009)",
+        "DOI": "10.1517/14656560903300103"
+      },
+      {
+        "issue": "2",
+        "key": "11_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "196",
+        "DOI": "10.1016/j.irbm.2013.01.010",
+        "volume": "34",
+        "author": "E Decencière",
+        "year": "2013",
+        "unstructured": "Decencière, E., et al.: TeleOphta: machine learning and image processing methods for teleophthalmology. IRBM 34(2), 196–203 (2013)",
+        "journal-title": "IRBM"
+      },
+      {
+        "issue": "3",
+        "key": "11_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "volume": "33",
+        "author": "E Decencière",
+        "year": "2014",
+        "unstructured": "Decencière, E., et al.: Feedback on a publicly distributed image database: the Messidor database. Image Anal. Stereol. 33(3), 231–234 (2014)",
+        "journal-title": "Image Anal. Stereol."
+      },
+      {
+        "issue": "1",
+        "key": "11_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1080/09286580600878844",
+        "volume": "14",
+        "author": "AW Foong",
+        "year": "2007",
+        "unstructured": "Foong, A.W., et al.: Rationale and methodology for a population-based study of eye diseases in Malay people: The Singapore Malay eye study (SiMES). Ophthalmic Epidemiol. 14(1), 25–35 (2007)",
+        "journal-title": "Ophthalmic Epidemiol."
+      },
+      {
+        "key": "11_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fumero, F., Alayón, S., Sanchez, J.L., Sigut, J., Gonzalez-Hernandez, M.: RIM-ONE: an open retinal image database for optic nerve evaluation. In: 2011 24th International Symposium on Computer-Based Medical Systems (CBMS), pp. 1–6. IEEE (2011)",
+        "DOI": "10.1109/CBMS.2011.5999143"
+      },
+      {
+        "key": "11_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "218",
+        "DOI": "10.1016/j.compeleceng.2017.11.008",
+        "volume": "75",
+        "author": "A García-Floriano",
+        "year": "2019",
+        "unstructured": "García-Floriano, A., Ferreira-Santiago, Á., Camacho-Nieto, O., Yáñez-Márquez, C.: A machine learning approach to medical image classification: detecting age-related macular degeneration in fundus images. Comput. Electr. Eng. 75, 218–229 (2019)",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "11_CR14",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "120",
+        "DOI": "10.1007/978-3-030-32239-7_14",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2019",
+        "author": "Y He",
+        "year": "2019",
+        "unstructured": "He, Y., et al.: Fully convolutional boundary regression for retina OCT segmentation. In: Shen, D., et al. (eds.) MICCAI 2019. LNCS, vol. 11764, pp. 120–128. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-32239-7_14"
+      },
+      {
+        "issue": "3",
+        "key": "11_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "203",
+        "DOI": "10.1109/42.845178",
+        "volume": "19",
+        "author": "A Hoover",
+        "year": "2000",
+        "unstructured": "Hoover, A., Kouznetsova, V., Goldbaum, M.: Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response. IEEE Trans. Med. Imaging 19(3), 203–210 (2000)",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "11_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia, Y., et al.: Caffe: convolutional architecture for fast feature embedding. In: Proceedings of the 22nd ACM International Conference on Multimedia, pp. 675–678 (2014)",
+        "DOI": "10.1145/2647868.2654889"
+      },
+      {
+        "issue": "1",
+        "key": "11_CR17",
+        "first-page": "159",
+        "volume": "29",
+        "author": "K Lee",
+        "year": "2009",
+        "unstructured": "Lee, K., Niemeijer, M., Garvin, M.K., Kwon, Y.H., Sonka, M., Abramoff, M.D.: Segmentation of the optic disc in 3-D OCT scans of the optic nerve head. IEEE Trans. Med. Imaging 29(1), 159–168 (2009)",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "11_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "511",
+        "DOI": "10.1016/j.ins.2019.06.011",
+        "volume": "501",
+        "author": "T Li",
+        "year": "2019",
+        "unstructured": "Li, T., Gao, Y., Wang, K., Guo, S., Liu, H., Kang, H.: Diagnostic assessment of deep learning algorithms for diabetic retinopathy screening. Inf. Sci. 501, 511–522 (2019)",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "11_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mehta, P., Lee, A.Y., Lee, C., Balazinska, M., Rokem, A.: Multilabel multiclass classification of OCT images augmented with age, gender and visual acuity data. bioRxiv, 316349 (2018)",
+        "DOI": "10.1101/316349"
+      },
+      {
+        "key": "11_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "30",
+        "DOI": "10.1016/j.inffus.2018.10.010",
+        "volume": "51",
+        "author": "M Mokhtari",
+        "year": "2019",
+        "unstructured": "Mokhtari, M., et al.: Local comparison of cup to disc ratio in right and left eyes based on fusion of color fundus images and OCT B-scans. Inf. Fusion 51, 30–41 (2019)",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "issue": "3",
+        "key": "11_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1038/s41551-018-0195-0",
+        "volume": "2",
+        "author": "R Poplin",
+        "year": "2018",
+        "unstructured": "Poplin, R., et al.: Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning. Nat. Biomed. Eng. 2(3), 158 (2018)",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "issue": "3",
+        "key": "11_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1136/bjo.2005.081224",
+        "volume": "90",
+        "author": "HA Quigley",
+        "year": "2006",
+        "unstructured": "Quigley, H.A., Broman, A.T.: The number of people with glaucoma worldwide in 2010 and 2020. Br. J. Ophthalmol. 90(3), 262–267 (2006)",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "issue": "4",
+        "key": "11_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1024",
+        "DOI": "10.1109/TMI.2017.2780115",
+        "volume": "37",
+        "author": "R Rasti",
+        "year": "2017",
+        "unstructured": "Rasti, R., Rabbani, H., Mehridehnavi, A., Hajizadeh, F.: Macular oct classification using a multi-scale convolutional neural network ensemble. IEEE Trans. Med. Imaging 37(4), 1024–1034 (2017)",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "4",
+        "key": "11_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "549",
+        "DOI": "10.1016/j.ophtha.2017.10.031",
+        "volume": "125",
+        "author": "T Schlegl",
+        "year": "2018",
+        "unstructured": "Schlegl, T., et al.: Fully automated detection and quantification of macular fluid in OCT using deep learning. Ophthalmology 125(4), 549–558 (2018)",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "11_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sengupta, S., Singh, A., Leopold, H.A., Gulati, T., Lakshminarayanan, V.: Ophthalmic diagnosis using deep learning with fundus images - a critical review. Artif. Intell. Med. 102, 101758 (2019)",
+        "DOI": "10.1016/j.artmed.2019.101758"
+      },
+      {
+        "key": "11_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1016/j.future.2018.05.001",
+        "volume": "87",
+        "author": "JH Tan",
+        "year": "2018",
+        "unstructured": "Tan, J.H., et al.: Age-related macular degeneration detection using deep convolutional neural network. Fut. Gener. Comput. Syst. 87, 127–135 (2018)",
+        "journal-title": "Fut. Gener. Comput. Syst."
+      },
+      {
+        "issue": "5",
+        "key": "11_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "577",
+        "DOI": "10.1136/bjophthalmol-2018-313290",
+        "volume": "103",
+        "author": "DSW Ting",
+        "year": "2019",
+        "unstructured": "Ting, D.S.W., Wu, W.C., Toth, C.: Deep learning for retinopathy of prematurity screening. Br. J. Ophthalmol. 103(5), 577–579 (2019)",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "11_CR28",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "30",
+        "DOI": "10.1007/978-3-030-32239-7_4",
+        "volume-title": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2019",
+        "author": "X Wang",
+        "year": "2019",
+        "unstructured": "Wang, X., Ju, L., Zhao, X., Ge, Z.: Retinal abnormalities recognition using regional multitask learning. In: Shen, D., et al. (eds.) MICCAI 2019. LNCS, vol. 11764, pp. 30–38. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-32239-7_4"
+      },
+      {
+        "key": "11_CR29",
+        "unstructured": "Wong, T., Aiello, L., Ferris, F., Gupta, N., Kawasaki, R., Lansingh, V., et al.: Updated 2017 ICO guidelines for diabetic eye care. Int. J. Ophthalmol, 1–33 (2017)"
+      },
+      {
+        "issue": "1",
+        "key": "11_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "215",
+        "DOI": "10.1007/s11760-019-01544-y",
+        "volume": "14",
+        "author": "F Zhang",
+        "year": "2019",
+        "unstructured": "Zhang, F., et al.: Automated quality classification of colour fundus images based on a modified residual dense block network. SIViP 14(1), 215–223 (2019). https://doi.org/10.1007/s11760-019-01544-y",
+        "journal-title": "SIViP"
+      },
+      {
+        "key": "11_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "104978",
+        "DOI": "10.1016/j.cmpb.2019.07.006",
+        "volume": "182",
+        "author": "H Zhang",
+        "year": "2019",
+        "unstructured": "Zhang, H., et al.: Automatic cataract grading methods based on deep learning. Comput. Meth. Program. Biomed. 182, 104978 (2019)",
+        "journal-title": "Comput. Meth. Program. Biomed."
+      },
+      {
+        "key": "11_CR32",
+        "unstructured": "Zhang, Z., et al.: ORIGA-light: an online retinal fundus image database for glaucoma analysis and research. In: 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology, pp. 3065–3068. IEEE (2010)"
+      },
+      {
+        "issue": "2",
+        "key": "11_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1109/TMI.2019.2928229",
+        "volume": "39",
+        "author": "Y Zhou",
+        "year": "2020",
+        "unstructured": "Zhou, Y., Li, G., Li, H.: Automatic cataract classification using deep neural network with discrete state transition. IEEE Trans. Med. Imaging 39(2), 436–446 (2020)",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Benchmarking, Measuring, and Optimizing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-030-71058-3_11",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2021-03-01T12:09:56Z",
+      "timestamp": 1614600596000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-3-030-71058-3_11"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783030710576",
+      "9783030710583"
+    ],
+    "references-count": 33,
+    "URL": "https://doi.org/10.1007/978-3-030-71058-3_11",
+    "relation": {
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1007/978-3-030-71058-3",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2 March 2021",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "Bench",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "International Symposium on Benchmarking, Measuring and Optimization",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2020",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "15 November 2020",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "16 November 2020",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "3",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "bench2020",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "http://www.benchcouncil.org/bench20/index.html",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Single-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "EasyChair",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "28",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "12",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "1",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "43% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "4.7",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.5",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "No",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      }
+    ]
+  }
+}

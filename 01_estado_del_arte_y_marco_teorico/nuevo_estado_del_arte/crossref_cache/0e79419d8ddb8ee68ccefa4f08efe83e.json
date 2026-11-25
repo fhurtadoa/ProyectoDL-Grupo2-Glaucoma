@@ -1,0 +1,554 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2026-11-21T03:48:06Z",
+      "timestamp": 1795232886245,
+      "version": "4.10.3"
+    },
+    "reference-count": 24,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              18
+            ]
+          ],
+          "date-time": "2021-01-18T00:00:00Z",
+          "timestamp": 1610928000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              18
+            ]
+          ],
+          "date-time": "2021-01-18T00:00:00Z",
+          "timestamp": 1610928000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000053",
+        "name": "National Eye Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EY029885"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EY029885"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000053",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The current lack of consensus for diagnosing glaucoma makes it difficult to develop diagnostic tests derived from deep learning (DL) algorithms. In the present study, we propose an objective definition of glaucomatous optic neuropathy (GON) using clearly defined parameters from optical coherence tomography and standard automated perimetry. We then use the proposed objective definition as reference standard to develop a DL algorithm to detect GON on fundus photos. A DL algorithm was trained to detect GON on fundus photos, using the proposed objective definition as reference standard. The performance was evaluated on an independent test sample with sensitivity, specificity, area under the receiver operating characteristic curve (AUC), and likelihood ratios (LR). The test sample had 2118 fundus photos from 585 eyes of 405 individuals. The AUC to discriminate between GON and normal was 0.92 with sensitivity of 77% at 95% specificity. LRs indicated that the DL algorithm provided large changes in the post-test probability of disease for the majority of eyes. A DL algorithm to evaluate fundus photos had high performance to discriminate GON from normal. The newly proposed objective definition of GON used as reference standard may increase the comparability of diagnostic studies of glaucoma across devices and populations.</jats:p>",
+    "DOI": "10.1038/s41598-021-80993-3",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2021-01-18T06:03:30Z",
+      "timestamp": 1610949810000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": [
+      "An objective structural and functional reference standard in glaucoma"
+    ],
+    "prefix": "10.1038",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Eduardo B.",
+        "family": "Mariottoni",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alessandro A.",
+        "family": "Jammal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samuel I.",
+        "family": "Berchuck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leonardo S.",
+        "family": "Shigueoka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ivan M.",
+        "family": "Tavares",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felipe A.",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "80993_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "unstructured": "Ting, D. S. W. et al. Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes. JAMA 318, 2211–2223. https://doi.org/10.1001/jama.2017.18152 (2017).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "80993_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "215",
+        "DOI": "10.1016/s0161-6420(92)31990-6",
+        "volume": "99",
+        "author": "R Varma",
+        "year": "1992",
+        "unstructured": "Varma, R., Steinmann, W. C. & Scott, I. U. Expert agreement in evaluating the optic disc for glaucoma. Ophthalmology 99, 215–221. https://doi.org/10.1016/s0161-6420(92)31990-6 (1992).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "80993_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "350",
+        "DOI": "10.1016/s0161-6420(88)33177-5",
+        "volume": "95",
+        "author": "JM Tielsch",
+        "year": "1988",
+        "unstructured": "Tielsch, J. M., Katz, J., Quigley, H. A., Miller, N. R. & Sommer, A. Intraobserver and interobserver agreement in measurement of optic disc characteristics. Ophthalmology 95, 350–356. https://doi.org/10.1016/s0161-6420(88)33177-5 (1988).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "80993_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1016/j.ajo.2008.07.023",
+        "volume": "147",
+        "author": "HD Jampel",
+        "year": "2009",
+        "unstructured": "Jampel, H. D. et al. Agreement among glaucoma specialists in assessing progressive disc changes from photographs in open-angle glaucoma patients. Am. J. Ophthalmol. 147, 39-44.e31. https://doi.org/10.1016/j.ajo.2008.07.023 (2009).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "80993_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.1097/icu.0000000000000644",
+        "volume": "31",
+        "author": "J Iyer",
+        "year": "2020",
+        "unstructured": "Iyer, J., Vianna, J. R., Chauhan, B. C. & Quigley, H. A. Toward a new definition of glaucomatous optic neuropathy for clinical research. Curr. Opin. Ophthalmol. 31, 85–90. https://doi.org/10.1097/icu.0000000000000644 (2020).",
+        "journal-title": "Curr. Opin. Ophthalmol."
+      },
+      {
+        "key": "80993_CR6",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Brown, M. D. & Reeves, M. J. Evidence-based emergency medicine/skills for evidence-based emergency care. Interval likelihood ratios: Another advantage for the evidence-based diagnostician. Ann. Emerg. Med. 42, 292–297, https://doi.org/10.1067/mem.2003.274 (2003).",
+        "DOI": "10.1067/mem.2003.274"
+      },
+      {
+        "key": "80993_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "936",
+        "DOI": "10.1016/j.ajo.2014.01.024",
+        "volume": "157",
+        "author": "HH Chan",
+        "year": "2014",
+        "unstructured": "Chan, H. H. et al. Glaucomatous optic neuropathy evaluation (gone) project: The effect of monoscopic versus stereoscopic viewing conditions on optic nerve evaluation. Am. J. Ophthalmol. 157, 936–944. https://doi.org/10.1016/j.ajo.2014.01.024 (2014).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "80993_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1001/jamaophthalmol.2013.1686",
+        "volume": "131",
+        "author": "DL Budenz",
+        "year": "2013",
+        "unstructured": "Budenz, D. L. et al. Prevalence of glaucoma in an urban west african population: The tema eye survey. JAMAOphthalmol. 131, 651–658. https://doi.org/10.1001/jamaophthalmol.2013.1686 (2013).",
+        "journal-title": "JAMAOphthalmol."
+      },
+      {
+        "key": "80993_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "376",
+        "DOI": "10.1016/s0161-6420(02)01568-3",
+        "volume": "110",
+        "author": "AP Rotchford",
+        "year": "2003",
+        "unstructured": "Rotchford, A. P., Kirwan, J. F., Muller, M. A., Johnson, G. J. & Roux, P. Temba glaucoma study: A population-based cross-sectional survey in urban south africa. Ophthalmology 110, 376–382. https://doi.org/10.1016/s0161-6420(02)01568-3 (2003).",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "80993_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "37",
+        "DOI": "10.1177/001316446002000104",
+        "volume": "20",
+        "author": "J Cohen",
+        "year": "1960",
+        "unstructured": "Cohen, J. A coefficient of agreement for nominal scales. Educ. Psychol. Measur. 20, 37–46. https://doi.org/10.1177/001316446002000104 (1960).",
+        "journal-title": "Educ. Psychol. Measur."
+      },
+      {
+        "key": "80993_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1037/h0026256",
+        "volume": "70",
+        "author": "J Cohen",
+        "year": "1968",
+        "unstructured": "Cohen, J. Weighted kappa: Nominal scale agreement with provision for scaled disagreement or partial credit. Psychol. Bull. 70, 213–220. https://doi.org/10.1037/h0026256 (1968).",
+        "journal-title": "Psychol. Bull."
+      },
+      {
+        "key": "80993_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image recognition, Preprint at https://arxiv.org/abs/1512.03385 (2015).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "80993_CR13",
+        "unstructured": "Kingma, D. P. & Ba, J. Adam: A method for stochastic optimization. Preprint at https://arxiv.org/abs/1412.6980 (2014)."
+      },
+      {
+        "key": "80993_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith, L. N. Cyclical learning rates for training neural networks. Preprint at https://arxiv.org/abs/1506.01186 (2017).",
+        "DOI": "10.1109/WACV.2017.58"
+      },
+      {
+        "key": "80993_CR15",
+        "unstructured": "Selvaraju, R. R. et al. Grad-cam: Why did you say that? Preprint at https://arxiv.org/abs/1611.07450 (2017)."
+      },
+      {
+        "key": "80993_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2520",
+        "DOI": "10.1167/iovs.05-1441",
+        "volume": "47",
+        "author": "FA Medeiros",
+        "year": "2006",
+        "unstructured": "Medeiros, F. A. et al. A statistical approach to the evaluation of covariate effects on the receiver operating characteristic curves of diagnostic tests in glaucoma. Invest. Ophthalmol. Vis. Sci. 47, 2520–2527. https://doi.org/10.1167/iovs.05-1441 (2006).",
+        "journal-title": "Invest. Ophthalmol. Vis. Sci."
+      },
+      {
+        "key": "80993_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "421",
+        "DOI": "10.1093/biostatistics/3.3.421",
+        "volume": "3",
+        "author": "TA Alonzo",
+        "year": "2002",
+        "unstructured": "Alonzo, T. A. & Pepe, M. S. Distribution-free roc analysis using binary regression techniques. Biostatistics 3, 421–432. https://doi.org/10.1093/biostatistics/3.3.421 (2002).",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "key": "80993_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "595",
+        "DOI": "10.1093/biomet/84.3.595",
+        "volume": "84",
+        "author": "MS Pepe",
+        "year": "1997",
+        "unstructured": "Pepe, M. S. A regression modelling framework for receiver operating characteristic curves in medical diagnostic testing. Biometrika 84, 595–608 (1997).",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "80993_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mooney, C. Z. & Duval, R. D. Bootstrapping: A Nonparametric Approach to Statistical Inference. (SAGE Publications, 1993).",
+        "DOI": "10.4135/9781412983532"
+      },
+      {
+        "key": "80993_CR20",
+        "doi-asserted-by": "publisher",
+        "unstructured": "20Jaeschke, R., Guyatt, G. H. & Sackett, D. L. Users' guides to the medical literature. III. How to use an article about a diagnostic test. B. What are the results and will they help me in caring for my patients? The evidence-based medicine working group. JAMA 271, 703–707, https://doi.org/10.1001/jama.271.9.703 (1994).",
+        "DOI": "10.1001/jama.271.9.703"
+      },
+      {
+        "key": "80993_CR21",
+        "unstructured": "Radack, K. L., Rouan, G. & Hedges, J. The likelihood ratio. An improved measure for reporting and evaluating diagnostic test results. Arch. Pathol. Lab. Med. 110, 689–693 (1986)."
+      },
+      {
+        "key": "80993_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "827",
+        "DOI": "10.1001/archopht.122.6.827",
+        "volume": "122",
+        "author": "FA Medeiros",
+        "year": "2004",
+        "unstructured": "Medeiros, F. A., Zangwill, L. M., Bowd, C. & Weinreb, R. N. Comparison of the gdxvcc scanning laser polarimeter, hrt ii confocal scanning laser ophthalmoscope, and stratus oct optical coherence tomograph for the detection of glaucoma. Arch. Ophthalmol. 122, 827–837. https://doi.org/10.1001/archopht.122.6.827 (2004).",
+        "journal-title": "Arch. Ophthalmol."
+      },
+      {
+        "key": "80993_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1010",
+        "DOI": "10.1016/j.ajo.2005.01.003",
+        "volume": "139",
+        "author": "FA Medeiros",
+        "year": "2005",
+        "unstructured": "Medeiros, F. A., Zangwill, L. M., Bowd, C., Sample, P. A. & Weinreb, R. N. Use of progressive glaucomatous optic disk change as the reference standard for evaluation of diagnostic tests in glaucoma. Am. J. Ophthalmol. 139, 1010–1018. https://doi.org/10.1016/j.ajo.2005.01.003 (2005).",
+        "journal-title": "Am. J. Ophthalmol."
+      },
+      {
+        "key": "80993_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "918",
+        "DOI": "10.1016/j.ajo.2013.06.017",
+        "volume": "156",
+        "author": "R Lisboa",
+        "year": "2013",
+        "unstructured": "Lisboa, R., Mansouri, K., Zangwill, L. M., Weinreb, R. N. & Medeiros, F. A. Likelihood ratios for glaucoma diagnosis using spectral-domain optical coherence tomography. Am. J. Ophthalmol. 156, 918-926.e912. https://doi.org/10.1016/j.ajo.2013.06.017 (2013).",
+        "journal-title": "Am. J. Ophthalmol."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-021-80993-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-021-80993-3",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-021-80993-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2024-08-22T11:43:45Z",
+      "timestamp": 1724327025000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-021-80993-3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 24,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "80993"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-021-80993-3",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2020.04.10.20057836",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "24 July 2020",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "29 December 2020",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "18 January 2021",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "FAM receives research support from Carl-Zeiss Meditec, Heidelberg Engineering, Google, Reichert and is a consultant for Allergan, Carl-Zeiss Meditec, Aeri Pharmaceuticals, Novartis, Biogen, Galimedix, Annexon, Stealth Biotherapeutics, Biozeus, Reichert and IDx. FAM also is an inventor/developer on a patent for NGoggle, Inc. IMT receives research support from Glaukos Corporation and lecture fees from Novartis and Alcon Pharmaceuticals. EBM, AAJ, SIB and LSS declare no potential competing interest.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "1752"
+  }
+}

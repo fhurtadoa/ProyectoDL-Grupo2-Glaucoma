@@ -1,0 +1,685 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2026-07-27T14:34:42Z",
+      "timestamp": 1785162882306,
+      "version": "3.55.0"
+    },
+    "reference-count": 64,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Key Research and Development Program of China",
+        "award": [
+          "2023YFE0118600"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023YFE0118600"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "National Key Research and Development Program of China",
+        "award": [
+          "2024YFE0100700"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024YFE0100700"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62371107"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62371107"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Med. Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmi.2025.3631049",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2025-11-10T18:48:17Z",
+      "timestamp": 1762800497000
+    },
+    "page": "1566-1578",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "FunOTTA: On-the-Fly Adaptation on Cross-Domain Fundus Image via Stable Test-Time Training"
+    ],
+    "prefix": "10.1109",
+    "volume": "45",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-6036-9164",
+        "authenticated-orcid": false,
+        "given": "Qian",
+        "family": "Zeng",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Glasgow College, University of Electronic Science and Technology of China, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6930-8674",
+        "authenticated-orcid": false,
+        "given": "Le",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2084-8781",
+        "authenticated-orcid": false,
+        "given": "Yipeng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7607-707X",
+        "authenticated-orcid": false,
+        "given": "Ce",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Glasgow College, University of Electronic Science and Technology of China, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5032-6039",
+        "authenticated-orcid": false,
+        "given": "Fan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2018.8451753"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2021.101971"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.106277"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "Simonyan",
+        "year": "2014",
+        "journal-title": "arXiv:1409.1556"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2020.102001"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2020.101936"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.106631"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-024-02117-4"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-43904-9_42"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-72117-5_40"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-024-02181-w"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2023.3346285"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.3301865"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN48605.2020.9207358"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM55620.2022.9995395"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-16434-7_61"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-47401-9_26"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.02.010"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-79103-1_23"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1",
+        "article-title": "Tent: Fully test-time adaptation by entropy minimization",
+        "volume-title": "Proc. ICLR",
+        "author": "Wang"
+      },
+      {
+        "key": "ref23",
+        "first-page": "2427",
+        "article-title": "Test-time classifier adjustment module for model-agnostic domain generalization",
+        "volume-title": "Proc. NeurIPS",
+        "volume": "34",
+        "author": "Iwasawa"
+      },
+      {
+        "key": "ref24",
+        "first-page": "38629",
+        "article-title": "MEMO: Test time robustness via adaptation and augmentation",
+        "volume-title": "Proc. NeurIPS Workshop Distrib. Shifts, Connecting Methods Appl.",
+        "author": "Zhang"
+      },
+      {
+        "key": "ref25",
+        "first-page": "1",
+        "article-title": "Test-time adaptation via self-training with nearest neighbor information",
+        "volume-title": "Proc. ICLR",
+        "author": "Jang"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2022.3195549"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-73232-4_13"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2024.3412923"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-72114-4_8"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-72114-4_11"
+      },
+      {
+        "key": "ref31",
+        "first-page": "23892",
+        "article-title": "Omnisam: Omnidirectional segment anything model for uda in panoramic semantic segmentation",
+        "volume-title": "Proc. ICCV",
+        "author": "Zhong"
+      },
+      {
+        "issue": "2",
+        "key": "ref32",
+        "first-page": "896",
+        "article-title": "Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn. (ICML)",
+        "volume": "3",
+        "author": "Lee"
+      },
+      {
+        "key": "ref33",
+        "first-page": "6028",
+        "article-title": "Do we really need to access the source data? Source hypothesis transfer for unsupervised domain adaptation",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Liang"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00706"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i3.28061"
+      },
+      {
+        "key": "ref36",
+        "first-page": "21031",
+        "article-title": "Variational multi-task learning with gumbel-softmax priors",
+        "volume-title": "Proc. NeurIPS",
+        "volume": "34",
+        "author": "Shen"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1594",
+        "article-title": "Learning multiple tasks with multilinear relationship networks",
+        "volume-title": "Proc. NeurIPS",
+        "volume": "30",
+        "author": "Long"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2020.101654"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2899910"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-43898-1_22"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Towards unified and effective domain generalization",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "arXiv:2310.10008"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/conm/026/737400"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00039"
+      },
+      {
+        "key": "ref44",
+        "first-page": "1",
+        "article-title": "SemPPL: Predicting pseudo-labels for better contrastive representations",
+        "volume-title": "Proc. ICLR",
+        "author": "Bošnjak"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102759"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01022"
+      },
+      {
+        "key": "ref47",
+        "volume-title": "Diabetic Retinopathy Detection",
+        "author": "Dugas",
+        "year": "2015"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5566/ias.1155"
+      },
+      {
+        "key": "ref49",
+        "volume-title": "Aptos 2019 Blindness Detection",
+        "author": "Karthik",
+        "year": "2019"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2019.101561"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ins.2019.06.011"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patter.2022.100512"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3603765.3603779"
+      },
+      {
+        "key": "ref54",
+        "first-page": "1",
+        "article-title": "Entropy is not enough for test-time adaptation: From the perspective of disentangled factors",
+        "volume-title": "Proc. ICLR",
+        "author": "Lee"
+      },
+      {
+        "key": "ref55",
+        "first-page": "16888",
+        "article-title": "Efficient test-time model adaptation without forgetting",
+        "volume-title": "Proc. 39th Int. Conf. Mach. Learn.",
+        "author": "Niu"
+      },
+      {
+        "key": "ref56",
+        "article-title": "Towards stable test-time adaptation in dynamic wild world",
+        "author": "Niu",
+        "year": "2023",
+        "journal-title": "arXiv:2302.12400"
+      },
+      {
+        "key": "ref57",
+        "first-page": "1",
+        "article-title": "In search of lost domain generalization",
+        "volume-title": "Proc. ICLR",
+        "author": "Gulrajani"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41572-019-0092-1"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.21899"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.208"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.591"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00283"
+      },
+      {
+        "key": "ref63",
+        "first-page": "16282",
+        "article-title": "Universal domain adaptation through self supervision",
+        "volume-title": "Proc. NIPS",
+        "volume": "33",
+        "author": "Saito"
+      },
+      {
+        "key": "ref64",
+        "first-page": "1",
+        "article-title": "Memory-assisted sub-prototype mining for universal domain adaptation",
+        "volume-title": "Proc. ICLR",
+        "author": "Lai"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Medical Imaging"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/42/11474706/11237131.pdf?arnumber=11237131",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          6
+        ]
+      ],
+      "date-time": "2026-04-06T19:56:44Z",
+      "timestamp": 1775505404000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11237131/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "4"
+    },
+    "URL": "https://doi.org/10.1109/tmi.2025.3631049",
+    "relation": {},
+    "ISSN": [
+      "0278-0062",
+      "1558-254X"
+    ],
+    "issn-type": [
+      {
+        "value": "0278-0062",
+        "type": "print"
+      },
+      {
+        "value": "1558-254X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,875 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2026-11-15T05:43:16Z",
+      "timestamp": 1794721396372,
+      "version": "4.9.1"
+    },
+    "reference-count": 33,
+    "publisher": "Elsevier BV",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2026-01-01T00:00:00Z",
+          "timestamp": 1767225600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2025-08-20T00:00:00Z",
+          "timestamp": 1755648000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014013",
+        "name": "UK Research and Innovation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "MR/T019050/1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MR/T019050/1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014013",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001349",
+        "name": "National Medical Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NMRC/MOH/HCSAINV21nov-0001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NMRC/MOH/HCSAINV21nov-0001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001349",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001349",
+        "name": "National Medical Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NMRC/MOH/HCSAINV25jan-003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NMRC/MOH/HCSAINV25jan-003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001349",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.com",
+        "clinicalkey.com.au",
+        "clinicalkey.es",
+        "clinicalkey.fr",
+        "clinicalkey.jp",
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2025.100923",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2025-08-27T06:58:21Z",
+      "timestamp": 1756277901000
+    },
+    "page": "100923",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Can a Natural Image-Based Foundation Model Outperform a Retina-Specific Model in Detecting Ocular and Systemic Diseases?"
+    ],
+    "prefix": "10.1016",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Qingshan",
+        "family": "Hou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yukun",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jocelyn Hui",
+        "family": "Lin Goh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ke",
+        "family": "Zou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samantha Min Er",
+        "family": "Yew",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sahana",
+        "family": "Srinivasan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Meng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thaddaeus Wai Soon",
+        "family": "Lo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaofeng",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Siegfried K.",
+        "family": "Wagner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark A.",
+        "family": "Chia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabriel Dawei",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongyang",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "An Ran",
+        "family": "Ran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rui",
+        "family": "Santos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabor Mark",
+        "family": "Somfai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan Helen",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haoyu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingyu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carol",
+        "family": "Y. Cheung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pearse A.",
+        "family": "Keane",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6752-797X",
+        "authenticated-orcid": false,
+        "given": "Yih Chung",
+        "family": "Tham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2025.100923_bib1",
+        "article-title": "Foundational models in medical imaging: a comprehensive survey and future vision",
+        "author": "Azad",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib2",
+        "article-title": "Gpt-4 technical report",
+        "author": "Achiam",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1038/s41586-023-05881-4",
+        "article-title": "Foundation models for generalist medical artificial intelligence",
+        "volume": "616",
+        "author": "Moor",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib4",
+        "article-title": "Visionfm: a multi-modal multi-task vision foundation model for generalist ophthalmic artificial intelligence",
+        "author": "Qiu",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib5",
+        "article-title": "Low-resource finetuning of foundation models beats state-of-the-art in histopathology",
+        "author": "Roth",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2245",
+        "DOI": "10.1109/TPAMI.2024.3506283",
+        "article-title": "Foundation models defining a new era in vision: a survey and outlook",
+        "volume": "47",
+        "author": "Awais",
+        "year": "2025",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41586-023-06555-x",
+        "article-title": "A foundation model for generalizable disease detection from retinal images",
+        "volume": "622",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1109/TPAMI.2022.3152247",
+        "article-title": "A survey on vision transformer",
+        "volume": "45",
+        "author": "Han",
+        "year": "2022",
+        "journal-title": "IIEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib9",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib10",
+        "series-title": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "first-page": "16000",
+        "article-title": "Masked autoencoders are scalable vision learners",
+        "author": "He",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1038/s41746-024-01109-5",
+        "article-title": "RETFound-enhanced community-based fundus disease screening: real-world evidence and decision curve analysis",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib12",
+        "first-page": "2833",
+        "article-title": "Robust deep learning for automated AMD screening and staging based on a retinal foundation model",
+        "volume": "65",
+        "author": "Araújo",
+        "year": "2024",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib13",
+        "first-page": "1605",
+        "article-title": "Evaluating performance of ResNet-50 and RETFound image classification algorithms on ultra-widefield fundus images",
+        "volume": "65",
+        "author": "Varma Gadiraju",
+        "year": "2024",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib14",
+        "article-title": "Dinov2: Learning robust visual features without supervision",
+        "author": "Oquab",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib15",
+        "article-title": "RudolfV: a foundation model by pathologists for pathologists",
+        "author": "Dippel",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib16",
+        "first-page": "1",
+        "article-title": "A whole-slide foundation model for digital pathology from real-world data",
+        "author": "Xu",
+        "year": "2024",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1347",
+        "DOI": "10.1038/s41467-024-45599-z",
+        "article-title": "A deep-learning-based framework for identifying and localizing multiple abnormalities and assessing cardiomegaly in chest X-ray",
+        "volume": "15",
+        "author": "Fan",
+        "year": "2024",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "article-title": "Imagenet large scale visual recognition challenge",
+        "volume": "115",
+        "author": "Russakovsky",
+        "year": "2015",
+        "journal-title": "Int J Comput Vis"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2019.101561",
+        "article-title": "Idrid: diabetic retinopathy–segmentation and grading challenge",
+        "volume": "59",
+        "author": "Porwal",
+        "year": "2020",
+        "journal-title": "Med image Anal"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.3390/data3030025",
+        "article-title": "Indian diabetic retinopathy image dataset (IDRiD): a database for diabetic retinopathy screening research",
+        "volume": "3",
+        "author": "Porwal",
+        "year": "2018",
+        "journal-title": "Data"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: the messidor database",
+        "author": "Decencière",
+        "year": "2014",
+        "journal-title": "Image Anal Stereol"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1001/jamaophthalmol.2013.1743",
+        "article-title": "Automated analysis of retinal images for detection of referable diabetic retinopathy",
+        "volume": "131",
+        "author": "Abràmoff",
+        "year": "2013",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1264",
+        "DOI": "10.1016/j.ophtha.2018.01.034",
+        "article-title": "Grader variability and the importance of reference standards for evaluating machine learning models for diabetic retinopathy",
+        "volume": "125",
+        "author": "Krause",
+        "year": "2018",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1038/s41597-022-01388-1",
+        "article-title": "PAPILA: dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment",
+        "volume": "9",
+        "author": "Kovalyk",
+        "year": "2022",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0207982",
+        "article-title": "A deep learning model for the detection of both advanced and early glaucoma using fundus photography",
+        "volume": "13",
+        "author": "Ahn",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "4828",
+        "DOI": "10.1038/s41467-021-25138-w",
+        "article-title": "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks",
+        "volume": "12",
+        "author": "Cen",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compeleceng.2019.106532",
+        "article-title": "OCTID: optical coherence tomography image database",
+        "volume": "81",
+        "author": "Gholami",
+        "year": "2020",
+        "journal-title": "Comput Electr Eng"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/bmjopen-2021-058552",
+        "article-title": "AlzEye: longitudinal record-level linkage of ophthalmic imaging and hospital admissions of 353 157 patients in London, UK",
+        "volume": "12",
+        "author": "Wagner",
+        "year": "2022",
+        "journal-title": "BMJ open"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib31",
+        "article-title": "Comparative analysis of ImageNet pre-trained deep learning models and DINOv2 in medical imaging classification",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib32",
+        "article-title": "BRSET: a Brazilian multilabel ophthalmological dataset of retina fundus photos",
+        "author": "Nakayama",
+        "year": "2024",
+        "journal-title": "medRxiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib33",
+        "article-title": "Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks",
+        "author": "Baharoon",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib34",
+        "article-title": "One-shot localization and segmentation of medical images with foundation models",
+        "author": "Anand",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100923_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1038/s41591-018-0300-7",
+        "article-title": "High-performance medicine: the convergence of human and artificial intelligence",
+        "volume": "25",
+        "author": "Topol",
+        "year": "2019",
+        "journal-title": "Nat Med"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914525002210?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914525002210?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2026-05-16T09:38:19Z",
+      "timestamp": 1778924299000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914525002210"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914525002210"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2025.100923",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Can a Natural Image-Based Foundation Model Outperform a Retina-Specific Model in Detecting Ocular and Systemic Diseases?",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2025.100923",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 by the American Academy of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100923"
+  }
+}

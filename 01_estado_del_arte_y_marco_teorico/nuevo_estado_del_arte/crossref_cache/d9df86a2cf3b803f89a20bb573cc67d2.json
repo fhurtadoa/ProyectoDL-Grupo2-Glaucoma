@@ -1,0 +1,480 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2026-11-12T04:56:06Z",
+      "timestamp": 1794459366674,
+      "version": "4.9.1"
+    },
+    "reference-count": 29,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              6
+            ]
+          ],
+          "date-time": "2019-06-06T00:00:00Z",
+          "timestamp": 1559779200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Publication fund of UiT The Arctic University of Norway"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "DOI": "10.1371/journal.pone.0217541",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2019-06-06T13:35:55Z",
+      "timestamp": 1559828155000
+    },
+    "page": "e0217541",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 162,
+    "title": [
+      "Reproduction study using public data of: Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs"
+    ],
+    "prefix": "10.1371",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9582-8799",
+        "authenticated-orcid": true,
+        "given": "Mike",
+        "family": "Voets",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0619-7276",
+        "authenticated-orcid": true,
+        "given": "Kajsa",
+        "family": "Møllersen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7544-2482",
+        "authenticated-orcid": true,
+        "given": "Lars Ailo",
+        "family": "Bongo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "12",
+        "key": "ref1",
+        "first-page": "3069",
+        "article-title": "Bulletin of Mathematical Biology",
+        "volume": "80",
+        "year": "2018",
+        "journal-title": "Bulletin of Mathematical Biology"
+      },
+      {
+        "issue": "e23693",
+        "key": "ref2",
+        "article-title": "The challenges of replication",
+        "volume": "6",
+        "year": "2017",
+        "journal-title": "eLife"
+      },
+      {
+        "issue": "7446",
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1038/496398a",
+        "article-title": "Announcement: Reducing our irreproducibility",
+        "volume": "496",
+        "year": "2013",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "7604",
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1038/533437a",
+        "article-title": "Reality check on reproducibility",
+        "volume": "533",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/science.aat3298",
+        "article-title": "Missing data hinder replication of artificial intelligence studies",
+        "author": "M Hutson",
+        "year": "2018"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.media.2017.07.005",
+        "article-title": "A survey on deep learning in medical image analysis",
+        "volume": "42",
+        "author": "G Litjens",
+        "year": "2017",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "issue": "141",
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsif.2017.0387",
+        "article-title": "Opportunities and obstacles for deep learning in biology and medicine",
+        "volume": "15",
+        "author": "T Ching",
+        "year": "2018",
+        "journal-title": "Journal of The Royal Society Interface"
+      },
+      {
+        "issue": "22",
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "V Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA—Journal of the American Medical Association"
+      },
+      {
+        "key": "ref9",
+        "unstructured": "Google. Citations for Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs; 2018. Available from: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://scholar.google.no/scholar?cites=16083985573643781536\" xlink:type=\"simple\">https://scholar.google.no/scholar?cites=16083985573643781536</ext-link>."
+      },
+      {
+        "issue": "22",
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes",
+        "volume": "318",
+        "author": "DSW Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "13",
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "5200",
+        "DOI": "10.1167/iovs.16-19964",
+        "article-title": "Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning",
+        "volume": "57",
+        "author": "MD Abràmoff",
+        "year": "2016",
+        "journal-title": "Investigative Ophthalmology and Visual Science"
+      },
+      {
+        "issue": "7",
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "962",
+        "DOI": "10.1016/j.ophtha.2017.02.008",
+        "article-title": "Automated Identification of Diabetic Retinopathy Using Deep Learning",
+        "volume": "124",
+        "author": "R Gargeya",
+        "year": "2017",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref13",
+        "unstructured": "FDA. Press Announcements—FDA permits marketing of artificial intelligence-based device to detect certain diabetes-related eye problems Available from: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm604357.htm\" xlink:type=\"simple\">https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm604357.htm</ext-link>."
+      },
+      {
+        "key": "ref14",
+        "unstructured": "Raman R, Srinivasan S, Virmani S, Sivaprasad S, Rao C, Rajalakshmi R Fundus photograph-based deep learning algorithms in detecting diabetic retinopathy. Eye."
+      },
+      {
+        "issue": "3",
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.5566/ias.1155",
+        "article-title": "Feedback on a publicly distributed image database: the Messidor database",
+        "volume": "33",
+        "author": "E Decencière",
+        "year": "2014",
+        "journal-title": "Image Analysis & Stereology"
+      },
+      {
+        "issue": "9",
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1230",
+        "DOI": "10.1109/TMI.2008.920619",
+        "article-title": "Optimal Wavelet Transform for the Detection of Microaneurysms in Retina Photographs",
+        "volume": "27",
+        "author": "G Quellec",
+        "year": "2008",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "ref17",
+        "unstructured": "Kaggle. Diabetic Retinopathy Detection (Data); 2015. Available from: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.kaggle.com/c/diabetic-retinopathy-detection/data\" xlink:type=\"simple\">https://www.kaggle.com/c/diabetic-retinopathy-detection/data</ext-link>."
+      },
+      {
+        "key": "ref18",
+        "unstructured": "Kaggle. Diabetic Retinopathy Detection; 2015. Available from: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.kaggle.com/c/diabetic-retinopathy-detection\" xlink:type=\"simple\">https://www.kaggle.com/c/diabetic-retinopathy-detection</ext-link>."
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rakhlin A. Diabetic Retinopathy detection through integration of Deep Learning classification framework. bioRxiv. 2017;.",
+        "DOI": "10.1101/225508"
+      },
+      {
+        "issue": "9",
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "article-title": "Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales",
+        "volume": "110",
+        "author": "CP Wilkinson",
+        "year": "2003",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "ref21",
+        "unstructured": "Abramoff MD. Abramoff Messidor-2 reference standard rDR; 2016. Available from: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://webeye.ophth.uiowa.edu/abramoff/abramoff-messidor-2-reference%20standard%20rDR%20july%202016.pdf\" xlink:type=\"simple\">http://webeye.ophth.uiowa.edu/abramoff/abramoff-messidor-2-reference%20standard%20rDR%20july%202016.pdf</ext-link>."
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy C, Vanhoucke V, Ioffe S, Shlens J, Wojna Z. Rethinking the Inception Architecture for Computer Vision. arXiv:151200567 [csCV]. 2015;.",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Krause J, Gulshan V, Rahimy E, Karth P, Widner K, Corrado GS, et~al. Grader variability and the importance of reference standards for evaluating machine learning models for diabetic retinopathy. arXiv:171001711 [csCV]. 2017;.",
+        "DOI": "10.1016/j.ophtha.2018.01.034"
+      },
+      {
+        "key": "ref24",
+        "unstructured": "Dean J, Corrado G, Monga R, Chen K, Devin M, Mao M, et al. Large Scale Distributed Deep Networks. In: Advances in Neural Information Processing Systems 25 (NIPS 25). Curran Associates Inc.; 2012. p. 1223–1231."
+      },
+      {
+        "key": "ref25",
+        "unstructured": "Ioffe S, Szegedy C. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. arXiv:150203167 [csLG]. 2015;."
+      },
+      {
+        "issue": "3",
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "article-title": "ImageNet Large Scale Visual Recognition Challenge",
+        "volume": "115",
+        "author": "O Russakovsky",
+        "year": "2015",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caruana R, Lawrence S, Giles L. Overfitting in neural nets: Backpropagation, conjugate gradient, and early stopping. the 13th International Conference on Neural Information Processing Systems. 2000; p. 402–408.",
+        "DOI": "10.1109/IJCNN.2000.857823"
+      },
+      {
+        "key": "ref28",
+        "unstructured": "Krizhevsky A, Sutskever I, Hinton GE. ImageNet Classification with Deep Convolutional Neural Networks. In: Advances In Neural Information Processing Systems. Advances in Neural Information Processing Systems 25 (NIPS 2012); 2012. p. 1–9."
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voets M, Møllersen K, Bongo LA. Replication study: Development and validation of deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. arXiv:180304337v1 [csCV]. 2018.",
+        "DOI": "10.1371/journal.pone.0217541"
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pone.0217541",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2020-05-08T20:13:39Z",
+      "timestamp": 1588968819000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0217541"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Sandra",
+        "family": "Ortega-Martorell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          6
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            6,
+            6
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0217541",
+    "relation": {
+      "has-part": [
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0217541.g001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0217541.g002",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0217541.g003",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0217541.t001",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "https://doi.org/10.1371/journal.pone.0217541.s001",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          6
+        ]
+      ]
+    }
+  }
+}

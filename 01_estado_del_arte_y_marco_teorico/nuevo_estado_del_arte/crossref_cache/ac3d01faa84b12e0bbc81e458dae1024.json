@@ -1,0 +1,803 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2026-11-23T10:37:16Z",
+      "timestamp": 1795430236263,
+      "version": "4.10.3"
+    },
+    "reference-count": 16,
+    "publisher": "Elsevier BV",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              23
+            ]
+          ],
+          "date-time": "2022-09-23T00:00:00Z",
+          "timestamp": 1663891200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100004334",
+        "name": "Merck",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004334",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004336",
+        "name": "Novartis",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004336",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2R44EY026864"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2R44EY026864"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "9SB1EY027241"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "9SB1EY027241"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EY01792"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EY01792"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100001818",
+        "name": "Research to Prevent Blindness",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100001818",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2022.100228",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2022-09-30T02:35:43Z",
+      "timestamp": 1664505343000
+    },
+    "page": "100228",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 156,
+    "title": [
+      "Artificial Intelligence Detection of Diabetic Retinopathy"
+    ],
+    "prefix": "10.1016",
+    "volume": "3",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7791-6998",
+        "authenticated-orcid": false,
+        "given": "Jennifer Irene",
+        "family": "Lim",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carl D.",
+        "family": "Regillo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "SriniVas R.",
+        "family": "Sadda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eli",
+        "family": "Ipp",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Malavika",
+        "family": "Bhaskaranand",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chaithanya",
+        "family": "Ramachandra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kaushal",
+        "family": "Solanki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harvey",
+        "family": "Dubiner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Grace",
+        "family": "Levy-Clarke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Pesavento",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark D.",
+        "family": "Sherman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven",
+        "family": "Silverstein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerald B.",
+        "family": "Walman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Barbara A.",
+        "family": "Blodi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amitha",
+        "family": "Domalpally",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Susan",
+        "family": "Reed",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Reimers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kris",
+        "family": "Lang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Holy",
+        "family": "Cohn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruth",
+        "family": "Shaw",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sheila",
+        "family": "Watson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Ewen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nancy",
+        "family": "Barrett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria",
+        "family": "Swift",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Gornbein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2022.100228_bib1",
+        "series-title": "IDF Diabetes Atlas",
+        "year": "2019"
+      },
+      {
+        "issue": "suppl 5",
+        "key": "10.1016/j.xops.2022.100228_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "101S",
+        "DOI": "10.1177/1077558707305409",
+        "article-title": "Diabetes health disparities: a systematic review of health care interventions",
+        "volume": "64",
+        "author": "Peek",
+        "year": "2007",
+        "journal-title": "Med Care Res Rev"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib3",
+        "series-title": "Diabetes Report Card 2019. Centers for Disease Control and Prevention",
+        "first-page": "26",
+        "year": "2020"
+      },
+      {
+        "issue": "suppl 5",
+        "key": "10.1016/j.xops.2022.100228_bib4",
+        "first-page": "823",
+        "article-title": "Fundus photographic risk factors for progression of diabetic retinopathy: ETDRS report number 12",
+        "volume": "98",
+        "year": "1991",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "P66",
+        "DOI": "10.1016/j.ophtha.2019.09.025",
+        "article-title": "Diabetic retinopathy preferred practice pattern",
+        "volume": "127",
+        "author": "Flaxel",
+        "year": "2020",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "654",
+        "DOI": "10.1001/archopht.1979.01020010310003",
+        "article-title": "Four risk factors for severe visual loss in diabetic retinopathy. The third report from the diabetic retinopathy study",
+        "volume": "97",
+        "year": "1979",
+        "journal-title": "Arch Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41746-018-0040-6",
+        "article-title": "Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices",
+        "volume": "1",
+        "author": "Abràmoff",
+        "year": "2018",
+        "journal-title": "npj Digit Med"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1001/jamanetworkopen.2021.34254",
+        "article-title": "Pivotal evaluation of an artificial intelligence system for autonomous detection of referrable and vision-threatening diabetic retinopathy",
+        "volume": "4",
+        "author": "Ipp",
+        "year": "2021",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "635",
+        "DOI": "10.1089/dia.2019.0164",
+        "article-title": "The value of automated diabetic retinopathy screening with the EyeArt system: a study of more than 100,000 consecutive encounters from people with diabetes",
+        "volume": "21",
+        "author": "Bhaskaranand",
+        "year": "2019",
+        "journal-title": "Diabetes Technol Ther"
+      },
+      {
+        "issue": "suppl 5",
+        "key": "10.1016/j.xops.2022.100228_bib10",
+        "first-page": "786",
+        "article-title": "Grading diabetic retinopathy from stereoscopic color fundus photographs - an extension of the modified Airlie House classification. ETDRS report number 10",
+        "volume": "98",
+        "year": "1991",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1258",
+        "DOI": "10.1136/bjo.87.10.1258",
+        "article-title": "Comparison of two reference standards in validating two field mydriatic digital photography as a method of screening for diabetic retinopathy",
+        "volume": "87",
+        "author": "Scanlon",
+        "year": "2003",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "723",
+        "DOI": "10.1136/bjophthalmol-2020-316594",
+        "article-title": "Prospective evaluation of an artificial intelligence-enabled algorithm for automated diabetic retinopathy screening of 30 000 patients",
+        "volume": "105",
+        "author": "Heydon",
+        "year": "2021",
+        "journal-title": "Br J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib13",
+        "unstructured": "American Foundation for the Blind. Key Definitions of Statistical Terms. https://www.afb.org/research-and-initiatives/statistics/key-definitions-statistical-terms. Accessed June 13, 2022."
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "6168",
+        "DOI": "10.1167/iovs.11-7321",
+        "article-title": "Comparison of film and digital fundus photographs in eyes of individuals with diabetes mellitus",
+        "volume": "52",
+        "author": "Gangaputra",
+        "year": "2011",
+        "journal-title": "Invest Ophthalmol Vis Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2865",
+        "DOI": "10.1080/03610920903147796",
+        "article-title": "New confidence intervals for the proportion of interest in one-sample correlated binary data",
+        "volume": "39",
+        "author": "Kang",
+        "year": "2010",
+        "journal-title": "Commun Stat - Theory Methods"
+      },
+      {
+        "key": "10.1016/j.xops.2022.100228_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.oret.2020.06.016",
+        "article-title": "Diabetic retinopathy screening with automated retinal image analysis in a primary care setting improves adherence to ophthalmic care",
+        "volume": "5",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Ophthalmol Retina"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914522001178?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914522001178?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2025-11-13T06:20:31Z",
+      "timestamp": 1763014831000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914522001178"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "references-count": 16,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914522001178"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2022.100228",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Artificial Intelligence Detection of Diabetic Retinopathy",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2022.100228",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2022 by the American Academy of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100228"
+  }
+}

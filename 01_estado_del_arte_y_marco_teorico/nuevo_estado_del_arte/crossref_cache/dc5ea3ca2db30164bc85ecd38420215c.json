@@ -1,0 +1,691 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T17:00:08Z",
+      "timestamp": 1792688408987,
+      "version": "4.5.0"
+    },
+    "reference-count": 30,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              24
+            ]
+          ],
+          "date-time": "2025-01-24T00:00:00Z",
+          "timestamp": 1737676800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ophthalmologyscience.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ophthalmology Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.xops.2025.100721",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2025-01-30T03:32:44Z",
+      "timestamp": 1738207964000
+    },
+    "page": "100721",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Code-Free Deep Learning Glaucoma Detection on Color Fundus Images"
+    ],
+    "prefix": "10.1016",
+    "volume": "5",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0693-3421",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Milad",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6679-7276",
+        "authenticated-orcid": false,
+        "given": "Fares",
+        "family": "Antaki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-0831-1915",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Mikhail",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-3165-4829",
+        "authenticated-orcid": false,
+        "given": "Andrew",
+        "family": "Farah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3186-2351",
+        "authenticated-orcid": false,
+        "given": "Jonathan",
+        "family": "El-Khoury",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6365-0946",
+        "authenticated-orcid": false,
+        "given": "Samir",
+        "family": "Touma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0627-3662",
+        "authenticated-orcid": false,
+        "given": "Georges M.",
+        "family": "Durr",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5888-8968",
+        "authenticated-orcid": false,
+        "given": "Taylor",
+        "family": "Nayman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0978-3588",
+        "authenticated-orcid": false,
+        "given": "Clément",
+        "family": "Playout",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9239-745X",
+        "authenticated-orcid": false,
+        "given": "Pearse A.",
+        "family": "Keane",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3845-3318",
+        "authenticated-orcid": false,
+        "given": "Renaud",
+        "family": "Duval",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.xops.2025.100721_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1541",
+        "DOI": "10.1016/j.ophtha.2013.01.043",
+        "article-title": "Prevalence and severity of undetected manifest glaucoma: results from the early manifest glaucoma trial screening",
+        "volume": "120",
+        "author": "Heijl",
+        "year": "2013",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1016/j.ophtha.2021.09.010",
+        "article-title": "The economic burden of vision loss and blindness in the United States",
+        "volume": "129",
+        "author": "Rein",
+        "year": "2022",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1038/s41433-019-0637-2",
+        "article-title": "Advanced glaucoma at diagnosis: current perspectives",
+        "volume": "34",
+        "author": "Kastner",
+        "year": "2020",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/bmjopen-2021-053805",
+        "article-title": "Time trends, associations and prevalence of blindness and vision loss due to glaucoma: an analysis of observational data from the Global Burden of Disease Study 2017",
+        "volume": "12",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib6",
+        "series-title": "The Science of Glaucoma Management [Internet]",
+        "first-page": "53",
+        "article-title": "Chapter 7 - considerations for an effective screening program for glaucoma",
+        "author": "Chan",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S2214-109X(19)30395-X",
+        "article-title": "Is it time to consider glaucoma screening cost-effective?",
+        "volume": "7",
+        "author": "Kanclerz",
+        "year": "2019",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1097/ICU.0000000000000649",
+        "article-title": "Glaucoma screening: where are we and where do we need to go?",
+        "volume": "31",
+        "author": "Tan",
+        "year": "2020",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "406",
+        "DOI": "10.1097/ICU.0000000000000779",
+        "article-title": "Automated deep learning in ophthalmology: AI that can build AI",
+        "volume": "32",
+        "author": "O'Byrne",
+        "year": "2021",
+        "journal-title": "Curr Opin Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41598-021-99605-1",
+        "article-title": "Deep learning on fundus images detects glaucoma beyond the optic disc",
+        "volume": "11",
+        "author": "Hemelings",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.xops.2022.100233",
+        "article-title": "Detecting glaucoma from fundus photographs using deep learning without convolutions: transformer for improved generalization",
+        "volume": "3",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "Ophthalmol Sci"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib12",
+        "article-title": "AIROGS: artificial intelligence for RObust glaucoma screening challenge [internet]",
+        "author": "de Vente",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compmedimag.2020.101818",
+        "article-title": "Artificial intelligence (AI) impacting diagnosis of glaucoma and understanding the regulatory aspects of AI-based software as medical device",
+        "volume": "87",
+        "author": "Prabhakar",
+        "year": "2021",
+        "journal-title": "Comput Med Imaging Graph"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "200",
+        "DOI": "10.4103/sjopt.sjopt_106_22",
+        "article-title": "Development and deployment of a smartphone application for diagnosing trachoma: leveraging code-free deep learning and edge artificial intelligence",
+        "volume": "37",
+        "author": "Milad",
+        "year": "2023",
+        "journal-title": "Saudi J Ophthalmol"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "509",
+        "DOI": "10.1177/193229680900300315",
+        "article-title": "EyePACS: an adaptable telemedicine system for diabetic retinopathy screening",
+        "volume": "3",
+        "author": "Cuadros",
+        "year": "2009",
+        "journal-title": "J Diabetes Sci Technol Online"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1016/j.ophtha.2009.09.026",
+        "article-title": "Clinical assessment of stereoscopic optic disc photographs for glaucoma: the European Optic Disc Assessment Trial",
+        "volume": "117",
+        "author": "Reus",
+        "year": "2010",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1145/1656274.1656278",
+        "article-title": "The WEKA data mining software: an update",
+        "volume": "11",
+        "author": "Hall",
+        "year": "2009",
+        "journal-title": "ACM SIGKDD Explor Newsl"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "968",
+        "DOI": "10.1111/jep.12072",
+        "article-title": "Using balance statistics to determine the optimal number of controls in matching studies",
+        "volume": "19",
+        "author": "Linden",
+        "year": "2013",
+        "journal-title": "J Eval Clin Pract"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "288",
+        "DOI": "10.1038/s42256-021-00305-2",
+        "article-title": "Code-free deep learning for multi-modality medical image classification",
+        "volume": "3",
+        "author": "Korot",
+        "year": "2021",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib22",
+        "article-title": "Underspecification presents challenges for credibility in modern machine learning [internet]",
+        "author": "D'Amour",
+        "year": "2020",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e51",
+        "DOI": "10.1016/S2589-7500(20)30240-5",
+        "article-title": "A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability",
+        "volume": "3",
+        "author": "Khan",
+        "year": "2021",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2019.101570",
+        "article-title": "REFUGE Challenge: a unified framework for evaluating automated methods for glaucoma assessment from fundus photographs",
+        "volume": "59",
+        "author": "Orlando",
+        "year": "2020",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1117/1.JBO.19.4.046006",
+        "article-title": "Identification of suitable fundus images using automated quality assessment methods",
+        "volume": "19",
+        "author": "Şevik",
+        "year": "2014",
+        "journal-title": "J Biomed Opt"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2023.102938",
+        "article-title": "GAMMA challenge: glaucoma grAding from Multi-Modality imAges",
+        "volume": "90",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Med Image Anal"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib27",
+        "series-title": "Proceedings of the 23rd international conference on Machine learning - ICML ’06 [Internet]",
+        "first-page": "233",
+        "article-title": "The relationship between Precision-Recall and ROC curves",
+        "author": "Davis",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.ophtha.2021.07.032",
+        "article-title": "Multimodal machine learning using visual fields and peripapillary circular OCT scans in detection of glaucomatous optic neuropathy",
+        "volume": "129",
+        "author": "Xiong",
+        "year": "2022",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.3390/jcm11010216",
+        "article-title": "Diagnostic accuracy and detection rate of glaucoma screening with optic disk photos, optical coherence tomography images, and telemedicine",
+        "volume": "11",
+        "author": "Anton",
+        "year": "2021",
+        "journal-title": "J Clin Med"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib30",
+        "first-page": "1",
+        "article-title": "The clinical effectiveness and cost-effectiveness of screening for open angle glaucoma: a systematic review and economic evaluation",
+        "volume": "11",
+        "author": "Burr",
+        "year": "2007",
+        "journal-title": "Health Technol Assess Winch Engl"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1136/bmjopen-2022-068348",
+        "article-title": "Integrating eye care in low-income and middle-income settings: a scoping review",
+        "volume": "13",
+        "author": "Lee",
+        "year": "2023",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1988",
+        "DOI": "10.1038/s41433-021-01804-7",
+        "article-title": "Selfie fundus imaging for diabetic retinopathy screening",
+        "volume": "36",
+        "author": "Kumari",
+        "year": "2022",
+        "journal-title": "Eye"
+      },
+      {
+        "key": "10.1016/j.xops.2025.100721_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "587",
+        "DOI": "10.1136/bjophthalmol-2020-318107",
+        "article-title": "Deep learning-assisted (automatic) diagnosis of glaucoma using a smartphone",
+        "volume": "106",
+        "author": "Nakahara",
+        "year": "2022",
+        "journal-title": "Br J Ophthalmol"
+      }
+    ],
+    "container-title": [
+      "Ophthalmology Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914525000193?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666914525000193?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2026-02-25T19:44:00Z",
+      "timestamp": 1772048640000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666914525000193"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666914525000193"
+    ],
+    "URL": "https://doi.org/10.1016/j.xops.2025.100721",
+    "relation": {},
+    "ISSN": [
+      "2666-9145"
+    ],
+    "issn-type": [
+      {
+        "value": "2666-9145",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Code-Free Deep Learning Glaucoma Detection on Color Fundus Images",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Ophthalmology Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.xops.2025.100721",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 by the American Academy of Ophthalmology.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100721"
+  }
+}

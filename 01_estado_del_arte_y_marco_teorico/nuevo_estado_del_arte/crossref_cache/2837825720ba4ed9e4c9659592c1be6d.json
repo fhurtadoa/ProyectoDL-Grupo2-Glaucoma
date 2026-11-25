@@ -1,0 +1,543 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T06:04:53Z",
+      "timestamp": 1790229893815,
+      "version": "4.1.0"
+    },
+    "reference-count": 23,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              24
+            ]
+          ],
+          "date-time": "2026-09-24T00:00:00Z",
+          "timestamp": 1790208000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100005809",
+        "name": "Hyderabad Eye Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100005809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Digit. Health"
+    ],
+    "abstract": "<jats:sec>\n                    <jats:title>Introduction</jats:title>\n                    <jats:p>Diabetic retinopathy (DR) is a leading cause of preventable vision loss, yet access to retinal screening remains limited in low-resource settings such as Liberia. This study evaluated the real-world diagnostic performance of an offline artificial intelligence (AI)-enabled smartphone-based non-mydriatic fundus camera for detecting referable diabetic retinopathy in a routine general outpatient screening setting in Liberia.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>This prospective study was conducted at the General Outpatient Department of John F. Kennedy Medical Center, Monrovia, Liberia. Adults aged 18 years and older were recruited through convenience sampling and underwent non-mydriatic fundus imaging using the Remidio Fundus on Phone (FOP-NM-10) integrated with an offline AI system. Fundus images were independently assessed by two trained optometrists using the International Clinical Diabetic Retinopathy (ICDR) classification, with disagreements adjudicated by a senior retinal ophthalmologist. Referable DR was defined as moderate non-proliferative DR, severe non-proliferative DR, or proliferative DR. Diagnostic performance was evaluated at the participant level among participants with at least one gradable eye.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>A total of 1,612 participants were enrolled, of whom 1,357 were included in the final analytical cohort. Of these, 1,198 (88.3%) had at least one gradable eye and were included in the diagnostic-performance analysis. Eleven participants were classified as having referable DR by the human reference standard. The AI system correctly classified 10 of these 11 participants, yielding a sensitivity of 90.9% (95% CI, 58.7%–100%). Among 1,187 participants without referable DR, 1,183 were correctly classified as negative, resulting in a specificity of 99.7% (95% CI, 99.1%–99.9%). The positive predictive value was 71.4% (95% CI, 41.9%–91.6%), and the negative predictive value was 99.9% (95% CI, 99.5%–99.9%).</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>In this prospective real-world study, the offline AI-based non-mydriatic fundus camera showed high sensitivity and specificity for detecting referable diabetic retinopathy among participants with at least one gradable eye in a general outpatient setting in Liberia. These findings support its feasibility for AI-assisted detection of referable DR in resource-limited settings.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.3389/fdgth.2026.1938702",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T05:44:55Z",
+      "timestamp": 1790228695000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Real-world validation of an AI-based non-mydriatic fundus camera in the diagnosis of diabetic retinopathy in Liberia"
+    ],
+    "prefix": "10.3389",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Vickie Fayiah",
+        "family": "Sam",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "LVPEI-Liberia Eye Center, John F. Kennedy Memorial Hospital",
+            "place": [
+              "Monrovia, Liberia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohammad",
+        "family": "Rizwan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LVPEI-Liberia Eye Center, John F. Kennedy Memorial Hospital",
+            "place": [
+              "Monrovia, Liberia"
+            ]
+          },
+          {
+            "name": "Brien Holden Institute of Optometry and Vision Sciences, L V Prasad Eye Institute",
+            "place": [
+              "Hyderabad, India"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John Chiemerie",
+        "family": "Douglas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LVPEI-Liberia Eye Center, John F. Kennedy Memorial Hospital",
+            "place": [
+              "Monrovia, Liberia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amrit",
+        "family": "Jha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LVPEI-Liberia Eye Center, John F. Kennedy Memorial Hospital",
+            "place": [
+              "Monrovia, Liberia"
+            ]
+          },
+          {
+            "name": "Brien Holden Institute of Optometry and Vision Sciences, L V Prasad Eye Institute",
+            "place": [
+              "Hyderabad, India"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sirisha",
+        "family": "Senthil",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kalathur Venugopal Reddy Glaucoma Institute, L V Prasad Eye Institute",
+            "place": [
+              "Hyderabad, India"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Padmaja Kumari",
+        "family": "Rani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Anant Bajaj Retina Institute, L V Prasad Eye Institute",
+            "place": [
+              "Hyderabad, India"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1",
+        "DOI": "10.4102/PHCFM.v18i1.5402",
+        "article-title": "Family medicine and primary health care in Liberia",
+        "volume": "18",
+        "author": "Okiror",
+        "year": "2026",
+        "journal-title": "African J Prim Health Care Fam Med"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "e014904",
+        "DOI": "10.1136/bmjgh-2023-014904",
+        "article-title": "Designing an evidence-informed package of essential health services for universal health coverage: lessons learnt and challenges to implementation in Liberia",
+        "volume": "9",
+        "author": "Alwan",
+        "year": "2024",
+        "journal-title": "BMJ Glob Heal"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "e076293",
+        "DOI": "10.1136/bmjopen-2023-076293",
+        "article-title": "The economic burden associated with unmet surgical needs in Liberia: a retrospective macroeconomic analysis based on a nationwide enumeration of surgical procedures",
+        "volume": "14",
+        "author": "Adde",
+        "year": "2024",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.33546/bnj.3069",
+        "article-title": "The potential risk components and prevention measures of the ebola virus disease outbreak in Liberia: an in-depth interview with the health workers and stakeholders",
+        "volume": "10",
+        "author": "Stephens",
+        "year": "2024",
+        "journal-title": "Belitung Nurs J"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1504451",
+        "DOI": "10.3389/fpubh.2025.1504451",
+        "article-title": "Strengthening governance and leadership of the national laboratory system in Liberia: achievements and challenges",
+        "volume": "13",
+        "author": "Kohar",
+        "year": "2025",
+        "journal-title": "Front Public Health"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "daae109",
+        "DOI": "10.1093/heapro/daae109",
+        "article-title": "Diabetes in Liberia: a policy brief",
+        "volume": "39",
+        "author": "Bleah",
+        "year": "2024",
+        "journal-title": "Health Promot Int"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1576",
+        "DOI": "10.1016/S2214-109X(23)00348-0",
+        "article-title": "Diabetes risk and provision of diabetes prevention activities in 44 low-income and middle-income countries: a cross-sectional analysis of nationally representative, individual-level survey data",
+        "volume": "11",
+        "author": "Rahim",
+        "year": "",
+        "journal-title": "Lancet Glob Heal"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "e063318",
+        "DOI": "10.1136/bmjopen-2022-063318",
+        "article-title": "Association between urban-rural location and prevalence of type 2 diabetes and impaired fasting glucose in West Africa: a cross-sectional population-based epidemiological study",
+        "volume": "13",
+        "author": "Issaka",
+        "year": "2023",
+        "journal-title": "BMJ Open"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1931",
+        "DOI": "10.1007/s40200-020-00635-9",
+        "article-title": "A systematic analysis on prevalence and sub-regional distribution of undiagnosed diabetes mellitus among adults in African countries",
+        "volume": "19",
+        "author": "Dessie",
+        "year": "2020",
+        "journal-title": "J Diabetes Metab Disord"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "21",
+        "DOI": "10.1007/s13167-023-00314-8",
+        "article-title": "Diabetic retinopathy as the leading cause of blindness and early predictor of cascading complications-risks and mitigation",
+        "volume": "14",
+        "author": "Kropp",
+        "year": "2023",
+        "journal-title": "EPMA J"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "330",
+        "DOI": "10.1097/IAE.0000000000004310",
+        "article-title": "Assessment of artificial intelligence software for automatic screening of diabetic retinopathy based on fundus photographs in melanoderm subjects",
+        "volume": "45",
+        "author": "Mbaye",
+        "year": "2025",
+        "journal-title": "Retina"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "3283",
+        "DOI": "10.1038/s41591-025-03953-8",
+        "article-title": "The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence",
+        "volume": "31",
+        "author": "Sounderajah",
+        "year": "2025",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "895",
+        "DOI": "10.1111/j.1553-2712.1996.tb03538.x",
+        "article-title": "Statistical methodology: i. Incorporating the prevalence of disease into the sample size calculation for sensitivity and specificity",
+        "volume": "3",
+        "author": "Buderer",
+        "year": "1996",
+        "journal-title": "Acad Emerg Med Off J Soc Acad Emerg Med"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "509",
+        "DOI": "10.1177/193229680900300315",
+        "article-title": "EyePACS: an adaptable telemedicine system for diabetic retinopathy screening",
+        "volume": "3",
+        "author": "Cuadros",
+        "year": "2009",
+        "journal-title": "J Diabetes Sci Technol"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1677",
+        "DOI": "10.1016/S0161-6420(03)00475-5",
+        "article-title": "Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales",
+        "volume": "110",
+        "author": "Wilkinson",
+        "year": "2003",
+        "journal-title": "Ophthalmology"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "3150",
+        "DOI": "10.4103/ijo.IJO_3808_20",
+        "article-title": "Use of offline artificial intelligence in a smartphone-based fundus camera for community screening of diabetic retinopathy",
+        "volume": "69",
+        "author": "Jain",
+        "year": "2021",
+        "journal-title": "Indian J Ophthalmol"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1182",
+        "DOI": "10.1001/jamaophthalmol.2019.2923",
+        "article-title": "Diagnostic accuracy of community-based diabetic retinopathy screening with an offline artificial intelligence system on a smartphone",
+        "volume": "137",
+        "author": "Natarajan",
+        "year": "2019",
+        "journal-title": "JAMA Ophthalmol"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "e000892",
+        "DOI": "10.1136/bmjdrc-2019-000892",
+        "article-title": "Simple, mobile-based artificial intelligence algorithm in the detection of diabetic retinopathy (SMART) study",
+        "volume": "8",
+        "author": "Sosale",
+        "year": "2020",
+        "journal-title": "BMJ Open diabetes Res Care"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2402",
+        "DOI": "10.1001/jama.2016.17216",
+        "article-title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+        "volume": "316",
+        "author": "Gulshan",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "2211",
+        "DOI": "10.1001/jama.2017.18152",
+        "article-title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+        "volume": "318",
+        "author": "Ting",
+        "year": "2017",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "e001491",
+        "DOI": "10.1136/bmjophth-2023-001491",
+        "article-title": "Real-world evaluation of smartphone-based artificial intelligence to screen for diabetic retinopathy in Dominica: a clinical validation study",
+        "volume": "8",
+        "author": "Kemp",
+        "year": "2023",
+        "journal-title": "BMJ Open Ophthalmol"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "e67529",
+        "DOI": "10.2196/67529",
+        "article-title": "Real-world evaluation of AI-driven diabetic retinopathy screening in public health settings: validation and implementation study",
+        "volume": "13",
+        "author": "Duggal",
+        "year": "2025",
+        "journal-title": "JMIR Med Inform"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "e001596",
+        "DOI": "10.1136/bmjdrc-2020-001596",
+        "article-title": "Artificial intelligence-enabled screening for diabetic retinopathy: a real-world, multicenter and prospective study",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "BMJ Open Diabetes Res Care"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Digital Health"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fdgth.2026.1938702/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2026-09-24T05:44:55Z",
+      "timestamp": 1790228695000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fdgth.2026.1938702/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    },
+    "references-count": 23,
+    "alternative-id": [
+      "10.3389/fdgth.2026.1938702"
+    ],
+    "URL": "https://doi.org/10.3389/fdgth.2026.1938702",
+    "relation": {},
+    "ISSN": [
+      "2673-253X"
+    ],
+    "issn-type": [
+      {
+        "value": "2673-253X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          24
+        ]
+      ]
+    },
+    "article-number": "1938702"
+  }
+}

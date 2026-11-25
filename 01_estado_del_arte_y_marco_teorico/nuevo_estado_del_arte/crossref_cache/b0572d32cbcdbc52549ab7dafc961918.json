@@ -1,0 +1,507 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2026-11-21T02:18:44Z",
+      "timestamp": 1795227524461,
+      "version": "4.10.3"
+    },
+    "reference-count": 43,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2025-07-19T00:00:00Z",
+          "timestamp": 1752883200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 18,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Int J Imaging Syst Tech"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Glaucoma is a prevalent eye disease that often progresses without symptoms and can lead to permanent vision loss if not detected early. The limited number of specialists and overcrowded clinics worldwide make it difficult to detect the disease at an early stage. Deep learning‐based computer‐aided diagnosis (CAD) systems are a solution to this problem, enabling faster and more accurate diagnosis. In this study, we proposed MaxGlaViT, a novel Vision Transformer model based on MaxViT to diagnose different stages of glaucoma. The architecture of the model is constructed in three steps: (i) the Multi Axis Vision Transformer (MaxViT) structure is scaled in terms of the number of blocks and channels, (ii) low‐level feature extraction is improved by integrating the attention mechanism into the stem block, and (iii) high‐level feature extraction is improved by using the modern convolutional structure. The MaxGlaViT model was tested on the HDV1 fundus image data set and compared to a total of 80 deep learning models. The results show that the MaxGlaViT model, which contains effective block structures, outperforms previous literature methods in terms of both parameter efficiency and classification accuracy. The model performs particularly high success in detecting the early stages of glaucoma. MaxGlaViT is an effective solution for multistage diagnosis of glaucoma with low computational cost and high accuracy. In this respect, it can be considered as a candidate for a scalable and reliable CAD system applicable in clinical settings.</jats:p>",
+    "DOI": "10.1002/ima.70159",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          19
+        ]
+      ],
+      "date-time": "2025-07-19T12:39:14Z",
+      "timestamp": 1752928754000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "<scp>MaxGlaViT</scp>\n                    : A Novel Lightweight Vision Transformer‐Based Approach for Early Diagnosis of Glaucoma Stages From Fundus Images"
+    ],
+    "prefix": "10.1002",
+    "volume": "35",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0562-4931",
+        "authenticated-orcid": false,
+        "given": "Mustafa",
+        "family": "Yurdakul",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Computer Engineering Department Kırıkkale University  Kırıkkale Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5345-3319",
+        "authenticated-orcid": false,
+        "given": "Kübra",
+        "family": "Uyar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Engineering Department Alanya Alaaddin Keykubat University  Antalya Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2433-246X",
+        "authenticated-orcid": false,
+        "given": "Şakir",
+        "family": "Taşdemir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Engineering Department Selcuk University  Konya Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14569/IJACSA.2017.080606"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/UPCON.2015.7456741"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.54254/2755‐2721/2/20220641"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916‐008‐9195‐z"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2009.12.006"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/titb.2011.2119322"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2014.09.004"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cosrev.2021.100379"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0207982"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042‐019‐7460‐4"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compeleceng.2022.108009"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2018.07.043"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DASA59624.2023.10286714"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imavis.2024.105042"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TFUZZ.2024.3448231"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIM.2023.3322499"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D.DasandD.Nayak “GS‐Net: Global Self‐Attention Guided CNN for Multi‐Stage Glaucoma Classificatio ”2023 https://doi.org/10.1109/ICIP49359.2023.10222689.",
+        "DOI": "10.1109/ICIP49359.2023.10222689"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "unstructured": "A.Vaswani “Attention Is All You Need ”Advances in Neural Information Processing Systems 2017."
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "unstructured": "J.Devlin “Bert: Pre‐Training of Deep Bidirectional Transformers for Language Understanding ”arXiv preprint arXiv:1810.04805 2018 https://doi.org/10.48550/ARXIV.1810.04805."
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "unstructured": "T. B.Brown “Language Models Are Few‐Shot Learners ”arXiv Preprint arXiv:2005.14165 2020."
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "unstructured": "A.Dosovitskiy “An Image Is Worth 16 × 16 Words: Transformers for Image Recognition at Scale ”arXiv Preprint arXiv:2010.11929 2020 https://doi.org/10.48550/arXiv.2010.11929."
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00061"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01170"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M.Ding B.Xiao N.Codella P.Luo J.Wang andL.Yuan “DaViT: Dual Attention Vision Transformers ”inEuropean Conference on Computer Vision 2022 74–92.",
+        "DOI": "10.1007/978-3-031-20053-3_5"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "first-page": "5785",
+        "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+        "author": "Vasu P. K. A.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "first-page": "12633",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Hatamizadeh A.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01393"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "unstructured": "C.Yang J.Xu S.De Mello E. J.Crowley andX.Wang “GpViT: A High Resolution Non‐Hierarchical Vision Transformer With Group Propagation ”arXiv Preprint arXiv:2212.06795 2022."
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01204"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20053-3_27"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2021.03.091"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s41095‐022‐0271‐y"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2022.117847"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2024.108945"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2023.102059"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3220245"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01234-2_1"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01167"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01548"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.00542"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2024.111482"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2023.122099"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2023.107989"
+      }
+    ],
+    "container-title": [
+      "International Journal of Imaging Systems and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/ima.70159",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/ima.70159",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/ima.70159",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ],
+      "date-time": "2026-03-16T09:06:59Z",
+      "timestamp": 1773652019000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/ima.70159"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/ima.70159"
+    ],
+    "URL": "https://doi.org/10.1002/ima.70159",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0899-9457",
+      "1098-1098"
+    ],
+    "issn-type": [
+      {
+        "value": "0899-9457",
+        "type": "print"
+      },
+      {
+        "value": "1098-1098",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-03-08",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-06-26",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-07-19",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70159"
+  }
+}
