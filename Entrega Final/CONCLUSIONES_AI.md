@@ -21,7 +21,7 @@ Síntesis consolidada a partir de los resultados ejecutados y auditados de los e
 
 ## 2. Supervisión trinaria frente a binaria desde un origen estadificado (`Exp. 04`)
 
-- **Delimitación metodológica:** `Moondream Staged` es la única cohorte local con los tres estadios (`Sano`, `Etapa inicial`, `Avanzado`; `264 / 115 / 125` en `train`). Por ello se fija como origen común para comparar `3→2` vs. `2→2` en igualdad de condiciones, reportando brevemente la estadificación directa (`3→3`) en `Moondream test` (`n = 95`, `QWK = 0,801`, `recall inicial = 0,476`, `recall avanzado = 0,840`).
+- **Delimitación metodológica:** `Moondream Staged` es la única cohorte local con los tres estadios (`Sano`, `Etapa inicial`, `Avanzado`; `264 / 115 / 125` en `train`). Por ello se fija como origen común para comparar `3→2` vs. `2→2` en igualdad de condiciones, reportando brevemente la estadificación directa (`3→3`) en `Moondream test` (`n = 95`, `F1 macro = 0,731`, `exactitud = 0,789`, `recall inicial = 0,476`, `recall avanzado = 0,840`).
 - **Ventaja consistente de entrenar por estadio (`3→2`):**
   - `Moondream · test` ($n=95$): `F1 = 0,916` (`AUROC = 0,980`) vs. binario `0,852` (`AUROC = 0,954`).
   - `ACRIMA` ($n=703$): `F1 = 0,671` (`AUROC = 0,740`) vs. `0,598` (`AUROC = 0,626`, IC 95 % $\Delta\text{AUROC}$ `[+9,0, +14,1 pp]`).

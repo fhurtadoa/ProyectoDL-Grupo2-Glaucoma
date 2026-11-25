@@ -15,7 +15,6 @@ from torchvision.transforms import functional as TF
 from torchvision.models import ConvNeXt_Tiny_Weights, convnext_tiny
 from sklearn.metrics import (
     average_precision_score,
-    cohen_kappa_score,
     confusion_matrix,
     f1_score,
     precision_recall_curve,
@@ -358,8 +357,6 @@ def calcular_metricas(y, pred, n_clases: int, score_binario=None):
         stats.update({
             "recall inicial": float(recalls[1]),
             "recall avanzado": float(recalls[2]),
-            "QWK": cohen_kappa_score(y, pred, labels=[0, 1, 2], weights="quadratic")
-            if len(np.unique(np.r_[y, pred])) > 1 else np.nan,
             "FN inicial": int(cm[1, 0]),
             "FN avanzado": int(cm[2, 0]),
             "errores sano ↔ avanzado": int(cm[0, 2] + cm[2, 0]),

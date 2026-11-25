@@ -40,7 +40,7 @@ Fuentes: `03_experimento_caracteristicas_retinografias/INFORME_CARACTERISTICAS_R
 
 ### 4.4 · Análisis trinario frente a binario (1,0 p.)
 Fuente: `04_experimento_trinario_vs_binario/01_convnext_trinario_vs_binario.ipynb`, `resultados/01_metricas_binarias.csv` y `resultados/01_sensibilidad_umbral.csv`.
-- **Delimitación metodológica:** `Moondream Staged` es la **única fuente local con etiquetas de estadio** (`Sano`, `Etapa inicial`, `Avanzado`). Por eso ambos modelos entrenan y calibran en `Moondream` (`504 train: 264/115/125`; `107 val`), la evaluación estricta de estadificación (`3→3`) se presenta de forma concisa en `Moondream test` (`n=95`, `QWK=0.801`, `recall inicial=0.476`, `recall avanzado=0.840`), y el contraste externo se realiza mediante proyección binaria (`3→2` vs. `2→2`).
+- **Delimitación metodológica:** `Moondream Staged` es la **única fuente local con etiquetas de estadio** (`Sano`, `Etapa inicial`, `Avanzado`). Por eso ambos modelos entrenan y calibran en `Moondream` (`504 train: 264/115/125`; `107 val`), la evaluación estricta de estadificación (`3→3`) se presenta de forma concisa en `Moondream test` (`n=95`, `F1=0.731`, `exactitud=0.789`, `recall inicial=0.476`, `recall avanzado=0.840`), y el contraste externo se realiza mediante proyección binaria (`3→2` vs. `2→2`).
 - **Protocolo común y reglas de umbral ($\tau$):** `ConvNeXt-Tiny`, semilla `42`, aumento estándar de `Comprobacion_mejor_modelo.ipynb`, 1 época warmup + 20 épocas (`AdamW`, `CosineAnnealingLR`). Umbral principal calibrado **solo en validación** buscando especificidad $\ge 0{,}95$ ($\tau=0{,}81$ para `3→2`; $\tau=0{,}90$ para `2→2`), contrastado frente a `Youden (val)` ($\tau=0{,}81$ y `0,86`) y `Estándar` ($\tau=0{,}50$).
 - **Resultados (Proyección trinario vs. Entrenado binario · regla principal + IC 95% bootstrap):**
   - `Moondream · test` ($n=95$): Proyección `F1=0.916`, `Sens=0.935`, `Espec=0.898`, `AUROC=0.980` vs. Binario `F1=0.852`, `Sens=0.804`, `Espec=0.898`, `AUROC=0.954` ($\Delta\text{F1}=+6.4\text{ pp}$, $\Delta\text{Sens}=+13.0\text{ pp}$).
@@ -72,6 +72,6 @@ Integra lo hallado en `03`, `04` y `05`:
 ## Lista de verificación antes de entregar a Word
 - [ ] Todas las cifras salen directamente de los `.csv` en `03_.../datos/`, `04_.../resultados/` y `05_.../resultados/`.
 - [ ] Las figuras incluidas en Word están en escala de grises, 1 columna, 300 dpi y con fuente `"Los autores"`.
-- [ ] Las ecuaciones (entropía cruzada, softmax, QWK, proyección binaria) se citan desde el Marco teórico de Mauricio (`eq. (n)`).
-- [ ] Se envían a Mauricio las referencias nuevas citadas en `4.4`–`4.6` (p.ej. `ConvNeXt` / `QWK` si aplica) con su DOI verificado.
+- [ ] Las ecuaciones (entropía cruzada, softmax, proyección binaria) se citan desde el Marco teórico de Mauricio (`eq. (n)`).
+- [ ] Se envían a Mauricio las referencias nuevas citadas en `4.4`–`4.6` (p.ej. `ConvNeXt` si aplica) con su DOI verificado.
 - [ ] Se verifica el conteo real de páginas dentro de `Entrega Final/Plantilla_base_seccion_DYNA.docx`.
