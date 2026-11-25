@@ -27,7 +27,7 @@ from procedencia_retinografias import inventory, manifest_rows, pair_candidates,
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CONFIG = Path(__file__).with_name('fuentes_retinografias.json')
-DEFAULT_DESTINATION = ROOT / 'Fabian/resultados_y_datos/caracteristicas_retinografias'
+DEFAULT_DESTINATION = ROOT / '03_experimento_caracteristicas_retinografias/datos'
 METRICS = ('ancho_px', 'alto_px', 'aspecto', 'negro_pct', 'rgb_identico_pct', 'alfa_no_cero_pct',
            'brillo_medio_yn', 'brillo_mediano_yn', 'contraste_de_yn',
            'r_media', 'r_de', 'g_media', 'g_de', 'b_media', 'b_de', 'saturacion_media_pct',

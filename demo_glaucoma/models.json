@@ -1,63 +1,133 @@
 {
   "defaults": {
-    "binary": "staged-binary-malignant",
-    "ternary": "staged-ternary-malignant"
+    "binary": "lodo-sin-rim-aumento",
+    "ternary": "exp04-trinario-estandar"
   },
   "protocols": {
-    "staged-eval": {
+    "convnext-eval": {
       "color": "RGB",
       "resize": [224, 224],
       "interpolation": "bilinear",
       "center_crop": null,
-      "cuda_autocast": true,
       "mean": [0.485, 0.456, 0.406],
-      "std": [0.229, 0.224, 0.225]
+      "std": [0.229, 0.224, 0.225],
+      "cuda_autocast": true
     }
   },
   "models": [
     {
-      "id": "staged-binary-malignant",
+      "id": "lodo-sin-rim-aumento",
       "mode": "binary",
-      "name": "ResNet-18 · Malignant Scale",
-      "architecture": "resnet18",
-      "weights": "modelos/model_staged_binary_malignant.pth",
-      "checkpoint_key": null,
+      "name": "ConvNeXt-Tiny · LODO sin RIM-ONE DL (Aumento escala)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_rim_one_dl_aumento.pth",
       "classes": ["normal", "glaucoma"],
-      "protocol": "staged-eval",
-      "decision": {"kind": "sigmoid", "threshold": 0.5}
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.78 }
     },
     {
-      "id": "staged-binary-vanilla",
+      "id": "lodo-sin-rim-base",
       "mode": "binary",
-      "name": "ResNet-18 · Vanilla",
-      "architecture": "resnet18",
-      "weights": "modelos/model_staged_binary_vanilla.pth",
-      "checkpoint_key": null,
+      "name": "ConvNeXt-Tiny · LODO sin RIM-ONE DL (Sin aumento)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_rim_one_dl_base.pth",
       "classes": ["normal", "glaucoma"],
-      "protocol": "staged-eval",
-      "decision": {"kind": "sigmoid", "threshold": 0.5}
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.98 }
     },
     {
-      "id": "staged-ternary-malignant",
-      "mode": "ternary",
-      "name": "ResNet-18 · Malignant Scale",
-      "architecture": "resnet18",
-      "weights": "modelos/model_staged_multiclass_malignant.pth",
-      "checkpoint_key": null,
-      "classes": ["normal", "early", "advanced"],
-      "protocol": "staged-eval",
-      "decision": {"kind": "softmax", "binary_threshold": 0.5}
+      "id": "lodo-sin-acrima-aumento",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · LODO sin ACRIMA (Aumento escala)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_acrima_aumento.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.90 }
     },
     {
-      "id": "staged-ternary-vanilla",
+      "id": "lodo-sin-acrima-base",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · LODO sin ACRIMA (Sin aumento)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_acrima_base.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.99 }
+    },
+    {
+      "id": "lodo-sin-eyepacs-aumento",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · LODO sin EyePACS REAL (Aumento escala)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_eyepacs_real_aumento.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.97 }
+    },
+    {
+      "id": "lodo-sin-eyepacs-base",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · LODO sin EyePACS REAL (Sin aumento)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_eyepacs_real_base.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.99 }
+    },
+    {
+      "id": "lodo-sin-moondream-aumento",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · LODO sin Moondream (Aumento escala)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_moondream_staged_aumento.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.36 }
+    },
+    {
+      "id": "lodo-sin-moondream-base",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · LODO sin Moondream (Sin aumento)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_lodo_sin_moondream_staged_base.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.91 }
+    },
+    {
+      "id": "exp04-binario-estandar",
+      "mode": "binary",
+      "name": "ConvNeXt-Tiny · Exp. 04 Moondream (Binario estándar)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_2c_estandar.pth",
+      "classes": ["normal", "glaucoma"],
+      "protocol": "convnext-eval",
+      "decision": { "kind": "softmax", "threshold": 0.90 }
+    },
+    {
+      "id": "exp04-trinario-estandar",
       "mode": "ternary",
-      "name": "ResNet-18 · Vanilla",
-      "architecture": "resnet18",
-      "weights": "modelos/model_staged_multiclass_vanilla.pth",
-      "checkpoint_key": null,
+      "name": "ConvNeXt-Tiny · Exp. 04 Moondream (Trinario estándar)",
+      "architecture": "convnext_tiny",
+      "checkpoint_key": "state_dict",
+      "weights": "modelos/convnext_tiny_3c_estandar.pth",
       "classes": ["normal", "early", "advanced"],
-      "protocol": "staged-eval",
-      "decision": {"kind": "softmax", "binary_threshold": 0.5}
+      "protocol": "convnext-eval",
+      "decision": {
+        "kind": "softmax",
+        "binary_threshold": 0.81,
+        "apply_binary_threshold": true
+      }
     }
   ]
 }

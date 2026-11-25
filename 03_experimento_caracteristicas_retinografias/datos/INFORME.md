@@ -51,5 +51,5 @@ La cobertura de área de disco óptico fue **0** en todas las colecciones. Las m
 Para reproducir desde la raíz del repositorio, consulta las dependencias, criterios y opciones en el [método](METODO.md).
 
 ```powershell
-python -X utf8 Fabian/codigos_y_scripts/analizar_retinografias.py --trabajadores 6
+python -X utf8 03_experimento_caracteristicas_retinografias/scripts/analizar_retinografias.py --trabajadores 6
 ```

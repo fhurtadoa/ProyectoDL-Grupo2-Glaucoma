@@ -16,7 +16,7 @@ Para que sea fácil encontrar todo sin buscar entre copias repetidas, el reposit
 | `Andres_Arbelaez/` (notebook, guía y benchmark) | [`02_experimento_seleccion_datasets_y_modelos/`](02_experimento_seleccion_datasets_y_modelos/) | Notebook de Andrés, su guía, JSONs del benchmark de 10 redes y nota de alineación. |
 | `Fabian/` (análisis de características + NB 03) | [`03_experimento_caracteristicas_retinografias/`](03_experimento_caracteristicas_retinografias/) | Notebook 03, informe descriptivo de retinografías, figuras y tablas de características. |
 | `Fabian/01_convnext_trinario_vs_binario.ipynb` | [`04_experimento_trinario_vs_binario/`](04_experimento_trinario_vs_binario/) | Experimento `ConvNeXt-Tiny` 3 clases vs. 2 clases y métricas/predicciones resultantes. |
-| `Fabian/02_convnext_data_augmentation.ipynb` | [`05_experimento_data_augmentation/`](05_experimento_data_augmentation/) | Experimento factorial `Base` vs. `MalignantScaleAugmentation` y sus métricas resultantes. |
+| `Fabian/02_convnext_data_augmentation.ipynb` | [`05_experimento_data_augmentation/`](05_experimento_data_augmentation/) | Experimento LODO binario `Base` vs. `AumentoEscalaFotometrico` y sus métricas resultantes. |
 | Código compartido y dataset depurado de Fabián | [`utilidades/`](utilidades/) | Dataset limpio sin fuga de datos (`dataset_auditado.csv`), `preparar_dataset.py` y `utilidades.py`. |
 | `scripts/`, `informes/`, `results/`, `figures/` (y copias viejas) | [`archivo_historico/`](archivo_historico/) | **Material base antiguo** (no generado por los notebooks finales de Andrés y Fabián). |
 
@@ -55,11 +55,11 @@ ProyectoDL-Grupo2-Glaucoma/
 │
 ├── 04_experimento_trinario_vs_binario/            # Fabián (Sección 4.4)
 │   ├── 01_convnext_trinario_vs_binario.ipynb
-│   └── resultados/                                # 01_metricas_binarias.csv y 01_predicciones_binarias.csv
+│   └── resultados/                                # 01_metricas_binarias.csv, 01_sensibilidad_umbral.csv y 01_predicciones_binarias.csv
 │
 ├── 05_experimento_data_augmentation/              # Fabián (Secciones 4.5 y 4.6)
 │   ├── 02_convnext_data_augmentation.ipynb
-│   └── resultados/                                # 02_metricas_factorial.csv y 02_senales_visuales_pareadas.csv
+│   └── resultados/                                # 02_metricas_lodo.csv, 02_metricas_lodo_por_semilla.csv, 02_sensibilidad_umbral_lodo.csv, etc.
 │
 ├── Entrega Final/                                 # Guías y plantilla oficial para redactar el artículo
 │   ├── Guía maestra del artículo DYNA ...docx
@@ -73,7 +73,7 @@ ProyectoDL-Grupo2-Glaucoma/
 │   └── figuras_base/                              # Figuras antiguas de los informes base
 │
 ├── data/                                          # Retinografías locales (MOONDREAM_STAGED, ACRIMA, RIM_ONE_DL, EYEPACS_*, etc.)
-├── modelos/                                       # Checkpoints .pth (incluye fabian_convnext_tiny_*.pth en local)
+├── modelos/                                       # Checkpoints .pth (incluye convnext_tiny_*.pth en local)
 ├── demo_glaucoma/                                 # Demo web local para la sustentación
 └── assets/                                        # Recursos de renderizado
 ```
@@ -89,7 +89,7 @@ ProyectoDL-Grupo2-Glaucoma/
 | 4.2 Selección de modelo | **Andrés** | [`Comprobacion_mejor_modelo.ipynb`](02_experimento_seleccion_datasets_y_modelos/Comprobacion_mejor_modelo.ipynb) y [`datos_benchmark/`](02_experimento_seleccion_datasets_y_modelos/datos_benchmark/). |
 | 4.3 Estadificar un dataset binario *(opcional)* | **Andrés** *(pendiente)* | Por definir por Andrés si se incluye como subsección o si pasa como trabajo futuro en 4.6. |
 | 4.4 Análisis trinario vs. binario | **Fabián** | [`04_experimento_trinario_vs_binario/`](04_experimento_trinario_vs_binario/) y [`Guía de Fabián`](Entrega%20Final/Gu%C3%ADa%20de%20Fabi%C3%A1n%20-%20estudio%20experimental%20y%20generalizaci%C3%B3n.md). |
-| 4.5 Data augmentation (`Base` vs. `Malignant`) y 4.6 Conclusión | **Fabián** | [`05_experimento_data_augmentation/`](05_experimento_data_augmentation/) + [`03_experimento_caracteristicas_retinografias/`](03_experimento_caracteristicas_retinografias/). |
+| 4.5 Data augmentation LODO (`Base` vs. `Con aumento`) y 4.6 Conclusión | **Fabián** | [`05_experimento_data_augmentation/`](05_experimento_data_augmentation/) + [`03_experimento_caracteristicas_retinografias/`](03_experimento_caracteristicas_retinografias/). |
 
 ---
 
@@ -116,8 +116,8 @@ ProyectoDL-Grupo2-Glaucoma/
   ```bash
   python utilidades/preparar_dataset.py
   ```
-- **Correr los notebooks de Fabián (`03`, `04`, `05`):**  
-  Abre cualquier notebook y ejecútalo normalmente. Por defecto (`REENTRENAR = False`) cargan los pesos entrenados de `modelos/fabian_convnext_tiny_*.pth` (excluidos de Git por tamaño en `.gitignore`) y terminan en segundos; si quieres reentrenar las 20 épocas desde cero, cambia `REENTRENAR = True` en la primera celda.
+- **Correr los notebooks (`03`, `04`, `05`):**  
+  Abre cualquier notebook y ejecútalo normalmente. Por defecto (`REENTRENAR = False`) cargan los pesos entrenados de `modelos/convnext_tiny_*.pth` (excluidos de Git por tamaño en `.gitignore`) y terminan en segundos; si quieres reentrenar las 20 épocas desde cero, cambia `REENTRENAR = True` en la primera celda.
 - **Verificar e iniciar el demo de sustentación:**  
   ```bash
   python -m demo_glaucoma.verify

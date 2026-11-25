@@ -46,5 +46,149 @@
     "evidence": "data/RIM_ONE_DL/metadata.csv",
     "level": "binary",
     "label": "glaucoma"
+  },
+  {
+    "id": "acrima-normal-1",
+    "path": "data/Database/Images/Im001_ACRIMA.jpg",
+    "source": "ACRIMA",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "normal"
+  },
+  {
+    "id": "acrima-normal-2",
+    "path": "data/Database/Images/Im002_ACRIMA.jpg",
+    "source": "ACRIMA",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "normal"
+  },
+  {
+    "id": "acrima-normal-3",
+    "path": "data/Database/Images/Im003_ACRIMA.jpg",
+    "source": "ACRIMA",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "normal"
+  },
+  {
+    "id": "acrima-glaucoma-1",
+    "path": "data/Database/Images/Im310_g_ACRIMA.jpg",
+    "source": "ACRIMA",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "glaucoma"
+  },
+  {
+    "id": "acrima-glaucoma-2",
+    "path": "data/Database/Images/Im311_g_ACRIMA.jpg",
+    "source": "ACRIMA",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "glaucoma"
+  },
+  {
+    "id": "acrima-glaucoma-3",
+    "path": "data/Database/Images/Im312_g_ACRIMA.jpg",
+    "source": "ACRIMA",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "glaucoma"
+  },
+  {
+    "id": "eyepacs-normal-1",
+    "path": "data/EYEPACS_REAL/normal/EyePACS-TRAIN-NRG-2886.png",
+    "source": "EyePACS REAL",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "normal"
+  },
+  {
+    "id": "eyepacs-normal-2",
+    "path": "data/EYEPACS_REAL/normal/EyePACS-TRAIN-NRG-2887.png",
+    "source": "EyePACS REAL",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "normal"
+  },
+  {
+    "id": "eyepacs-normal-3",
+    "path": "data/EYEPACS_REAL/normal/EyePACS-TRAIN-NRG-2888.png",
+    "source": "EyePACS REAL",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "normal"
+  },
+  {
+    "id": "eyepacs-glaucoma-1",
+    "path": "data/EYEPACS_REAL/glaucoma/EyePACS-TRAIN-RG-2886.png",
+    "source": "EyePACS REAL",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "glaucoma"
+  },
+  {
+    "id": "eyepacs-glaucoma-2",
+    "path": "data/EYEPACS_REAL/glaucoma/EyePACS-TRAIN-RG-2887.png",
+    "source": "EyePACS REAL",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "glaucoma"
+  },
+  {
+    "id": "eyepacs-glaucoma-3",
+    "path": "data/EYEPACS_REAL/glaucoma/EyePACS-TRAIN-RG-2888.png",
+    "source": "EyePACS REAL",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "binary",
+    "label": "glaucoma"
+  },
+  {
+    "id": "moondream-normal-1",
+    "path": "data/MOONDREAM_STAGED/train/normal/moon_tr_norm_0144.jpg",
+    "source": "Moondream Staged · test",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "ternary",
+    "label": "normal"
+  },
+  {
+    "id": "moondream-normal-2",
+    "path": "data/MOONDREAM_STAGED/train/normal/moon_tr_norm_0280.jpg",
+    "source": "Moondream Staged · test",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "ternary",
+    "label": "normal"
+  },
+  {
+    "id": "moondream-early-1",
+    "path": "data/MOONDREAM_STAGED/train/early/moon_tr_0053.jpg",
+    "source": "Moondream Staged · test",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "ternary",
+    "label": "early"
+  },
+  {
+    "id": "moondream-early-2",
+    "path": "data/MOONDREAM_STAGED/test/early/moon_ts_early_0025.jpg",
+    "source": "Moondream Staged · test",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "ternary",
+    "label": "early"
+  },
+  {
+    "id": "moondream-advanced-1",
+    "path": "data/MOONDREAM_STAGED/test/advanced/moon_ts_0040.jpg",
+    "source": "Moondream Staged · test",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "ternary",
+    "label": "advanced"
+  },
+  {
+    "id": "moondream-advanced-2",
+    "path": "data/MOONDREAM_STAGED/train/advanced/moon_tr_0014.jpg",
+    "source": "Moondream Staged · test",
+    "evidence": "utilidades/dataset_auditado.csv",
+    "level": "ternary",
+    "label": "advanced"
   }
 ]

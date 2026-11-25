@@ -43,7 +43,10 @@ def load_examples(manifest=DEMO / "examples.json"):
                 with evidence.open(encoding="utf-8-sig", newline="") as stream:
                     by_path = defaultdict(list)
                     for row in csv.DictReader(stream):
-                        by_path[row["filepath"]].append(row["label_name"])
+                        path_col = row.get("filepath") or row.get("id")
+                        label_col = row.get("label_name") or row.get("clase")
+                        if path_col and label_col:
+                            by_path[path_col].append(label_col)
                     annotations[evidence] = by_path
             if annotations[evidence].get(entry["path"]) != [entry["label"]]:
                 raise ValueError("La etiqueta del manifiesto no concuerda con su fuente.")

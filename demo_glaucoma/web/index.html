@@ -51,6 +51,8 @@
           <small>JPEG, PNG o WebP · 18 MiB</small>
         </button>
         <input type="file" id="images" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" multiple hidden>
+        <label class="field-label dataset-label" for="example-dataset">Lote precargado por dataset</label>
+        <select id="example-dataset" disabled><option value="all">Todos los datasets (24)</option></select>
         <button type="button" class="button secondary" id="load-examples" disabled>Cargar lote de ejemplo</button>
         <button type="button" class="button primary" id="run" disabled>Ejecutar predicción</button>
       </aside>
@@ -106,22 +108,54 @@ U002,trinario,Temprano</pre>
         <p>Binario admite Sano y Glaucoma. Trinario admite Sano, Temprano y Avanzado. Guarda el archivo en UTF-8 y usa comas.</p>
       </details>
       <section id="csv-feedback" class="csv-feedback" aria-live="polite" hidden></section>
+      <div class="active-model-banner" id="active-model-banner" aria-live="polite"></div>
       <progress id="progress" value="0" max="1" aria-label="Progreso del lote" hidden></progress>
       <div class="table-wrap" tabindex="0" aria-label="Resultados del lote">
         <table>
-          <thead><tr><th scope="col">Imagen</th><th scope="col">Predicción</th><th scope="col">Referencia</th><th scope="col">Comparación</th><th scope="col">Estado</th></tr></thead>
+          <thead><tr id="batch-header-row"><th scope="col">Imagen</th><th scope="col">Predicción</th><th scope="col">Referencia</th><th scope="col">Comparación</th><th scope="col">Estado</th></tr></thead>
           <tbody id="rows"></tbody>
         </table>
       </div>
+    </section>
+    <section class="card metrics-section" aria-labelledby="metrics-heading">
+      <div class="metrics-head">
+        <div>
+          <h2 id="metrics-heading">Métricas por dataset</h2>
+          <p id="metrics-subtitle">Desglose en vivo del lote actual (Exactitud, Precisión, Sensibilidad, Especificidad, TFP, TFN, F1 macro y AUROC).</p>
+        </div>
+      </div>
+      <div id="dataset-metrics" class="metrics-panels"></div>
+      <details class="metrics-benchmark">
+        <summary>Referencia completa del estudio LODO en el artículo (2 056 imágenes · media de 3 semillas)</summary>
+        <div class="table-wrap">
+          <table class="metrics-table">
+            <thead>
+              <tr>
+                <th scope="col">Cohorte reservada (ciega)</th>
+                <th scope="col">n</th>
+                <th scope="col">Base · F1</th>
+                <th scope="col">Base · AUROC</th>
+                <th scope="col">Base · TFN</th>
+                <th scope="col">Con aumento · F1</th>
+                <th scope="col">Con aumento · AUROC</th>
+                <th scope="col">Con aumento · TFN</th>
+                <th scope="col">Δ F1 / Δ AUROC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>EyePACS REAL</td><td>200</td><td>0,343</td><td>0,655</td><td>99,0 %</td><td>0,618</td><td>0,809</td><td>64,7 %</td><td class="delta-up">+27,5 / +15,4 pp</td></tr>
+              <tr><td>Moondream Staged</td><td>706</td><td>0,519</td><td>0,556</td><td>48,6 %</td><td>0,580</td><td>0,605</td><td>39,6 %</td><td class="delta-up">+6,1 / +4,8 pp</td></tr>
+              <tr><td>ACRIMA</td><td>703</td><td>0,625</td><td>0,686</td><td>47,3 %</td><td>0,628</td><td>0,730</td><td>52,5 %</td><td class="delta-up">+0,3 / +4,4 pp</td></tr>
+              <tr><td>RIM-ONE DL</td><td>447</td><td>0,484</td><td>0,671</td><td>11,1 %</td><td>0,485</td><td>0,677</td><td>7,2 %</td><td class="delta-up">+0,1 / +0,6 pp</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
     </section>
     <section class="card confusion" aria-labelledby="confusion-heading">
       <h2 id="confusion-heading">Matriz de confusión del lote</h2>
       <p>Filas: etiquetas de referencia. Columnas: predicciones.</p>
       <div id="confusion-matrices"></div>
-    </section>
-    <section class="card confusion" aria-labelledby="explanation-heading">
-      <h2 id="explanation-heading">Explicación de la predicción <span class="badge neutral">Pendiente</span></h2>
-      <p>Módulo previsto para contrastar los resultados con los hallazgos del proyecto y explorar por qué una predicción coincide o discrepa de la referencia.</p>
     </section>
   </main>
 </body>
