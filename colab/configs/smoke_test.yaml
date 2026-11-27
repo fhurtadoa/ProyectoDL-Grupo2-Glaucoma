@@ -1,0 +1,20 @@
+# Prueba rápida local / smoke test (1 época, 1 semilla, 1 cohorte)
+defaults:
+  epochs: 1
+  lp_epochs: 1
+  batch_size: 16
+  amp_dtype: auto
+  seeds: [42]
+  save_every: 1
+  keep_checkpoints: true
+
+jobs:
+  - name: smoke_exp05_lodo
+    task: exp05_lodo
+    model_name: resnet18
+    img_size: 224
+    ft_strategy: lp_ft
+    arm: base
+    folds: ["EyePACS REAL"]
+    subset_size: 64
+    eval_external_every: 1

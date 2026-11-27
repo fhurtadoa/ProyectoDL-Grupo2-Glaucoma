@@ -1,0 +1,38 @@
+# Estudio de horizonte extendido (150 épocas) y escalado de N (double descent / sobreajuste tardío)
+defaults:
+  task: horizon
+  horizon_fold: "EyePACS REAL"
+  epochs: 150
+  batch_size: 32
+  amp_dtype: bf16
+  arm: both
+  subset_sizes: ["300", "500", "800", "full"]
+  seeds: [42, 123]
+  eval_external_every: 1
+  save_every: 5
+  keep_checkpoints: false
+
+jobs:
+  - name: horizon_resnet18d_224
+    model_name: resnet18d
+    img_size: 224
+    ft_strategy: full_ft
+    lp_epochs: 1
+    lr: 0.0001
+
+  - name: horizon_convnext_tiny_224
+    model_name: convnext_tiny.fb_in22k_ft_in1k
+    img_size: 224
+    ft_strategy: full_ft
+    lp_epochs: 1
+    lr: 0.0001
+
+  - name: horizon_convnext_base_384_lp_ft
+    model_name: convnext_base.fb_in22k_ft_in1k_384
+    img_size: 384
+    batch_size: 24
+    ft_strategy: lp_ft
+    lp_epochs: 5
+    head_lr: 0.001
+    lr: 0.00008
+    backbone_lr_mult: 0.1

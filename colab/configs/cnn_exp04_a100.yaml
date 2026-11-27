@@ -1,0 +1,35 @@
+# Suite CNN para Exp. 04 (Trinario 3->2 vs Binario 2->2 desde Moondream Staged)
+defaults:
+  task: exp04
+  epochs: 30
+  batch_size: 32
+  amp_dtype: bf16
+  arm: estandar
+  n_classes_list: [3, 2]
+  seeds: [42, 123, 777]
+  weight_decay: 0.0001
+  drop_path_rate: 0.15
+  save_every: 5
+
+jobs:
+  - name: exp04_convnext_tiny_224_full_ft
+    model_name: convnext_tiny.fb_in22k_ft_in1k
+    img_size: 224
+    ft_strategy: full_ft
+    lp_epochs: 1
+    lr: 0.0001
+
+  - name: exp04_convnext_small_384_lp_ft
+    model_name: convnext_small.fb_in22k_ft_in1k_384
+    img_size: 384
+    ft_strategy: lp_ft
+    lp_epochs: 5
+    head_lr: 0.001
+    lr: 0.0001
+    backbone_lr_mult: 0.1
+
+  - name: exp04_convnext_small_384_lp_only
+    model_name: convnext_small.fb_in22k_ft_in1k_384
+    img_size: 384
+    ft_strategy: lp
+    head_lr: 0.001

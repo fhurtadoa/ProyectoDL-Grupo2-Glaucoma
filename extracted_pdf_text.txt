@@ -1,0 +1,645 @@
+
+--- PAGE 1 ---
+Borrador secciones experimentales (DYNA) · pág. 1
+Definiciones operativas (insumo para Marco teórico)
+Con el fin de unificar la terminología empleada en el
+análisis descriptivo y en la evaluación de los modelos, se
+adoptan las siguientes definiciones operativas:
+• Brillo percibido (luma, 0–255): claridad promedio o
+mediana (Y′) dentro de la región útil de la retina, desde negro
+(0) hasta blanco (255).
+• Saturación (%): pureza promedio del color dentro de la
+retina (canal S en espacio HSV); permite identificar lotes con
+tonos muy vivos frente a capturas visualmente lavadas.
+• Rango intercuartílico (RIC, [p25–p75]): amplitud del 50
+% central de las imágenes de una colección; cuantifica qué tan
+homogénea o dispersa es una base internamente.
+• Nitidez (varianza del Laplaciano a 512 px): medida de
+enfoque y definición de bordes finos (como vasos sanguíneos
+y reborde papilar) calculada tras llevar todas las imágenes a
+512 px de lado largo. Valores altos reflejan mayor contraste de
+detalle local; valores bajos indican imágenes más suaves.
+• Área útil y borde negro (%): proporción de la imagen
+ocupada por tejido retiniano frente a marcos circulares casi
+negros o rellenos uniformes en las esquinas.
+• Proyección binaria desde tres estadios (3→2): cuando la
+red entrega probabilidades para tres categorías clínicas (Sano,
+Etapa inicial, Avanzado), la probabilidad agregada de
+glaucoma se calcula sumando las dos clases patológicas:
+P(pos) = P(Inicial) + P(Avanzado) = 1 − P(Sano).
+• Umbral operativo τ y criterio de Youden: punto de corte
+sobre la probabilidad predicha a partir del cual un ojo se
+clasifica como glaucoma. El criterio de Youden selecciona en
+validación el corte que equilibra sensibilidad y especificidad
+(sensibilidad + especificidad − 1), frente a exigir especificidad
+≥ 0,95 o usar τ = 0,50.
+• Ensamble multi-semilla e intervalo bootstrap: promedio
+de 
+las 
+probabilidades 
+predichas 
+por 
+tres 
+corridas
+independientes (semillas 42, 123 y 777) por cada imagen para
+atenuar la variabilidad estocástica del entrenamiento; su
+intervalo de confianza del 95 % se estima por remuestreo
+estratificado (2.000 réplicas) sobre las imágenes evaluadas.
+• 
+Deduplicación 
+en 
+dos 
+etapas 
+(SHA-256 
+y
+RootSIFT/FLANN/RANSAC): 
+limpieza 
+que 
+primero
+elimina copias con píxeles idénticos mediante huella digital
+criptográfica (SHA-256) y luego agrupa variantes rotadas,
+reescaladas o con distinto relleno emparejando puntos locales
+(RootSIFT/FLANN) 
+bajo 
+verificación 
+geométrica 
+de
+semejanza afín (RANSAC).
+• Validación cruzada por origen (LODO): acrónimo de
+Leave-One-Dataset-Out; protocolo en el que una cohorte
+completa queda totalmente ciega como prueba externa
+mientras las colecciones restantes entrenan y validan el
+modelo, rotando cada fuente como dominio de destino.
+• Equivariancia frente a invarianza en CNN: las capas
+convolucionales desplazan sus activaciones al trasladar un
+patrón en la imagen (equivariancia a traslación), pero no
+garantizan por sí solas respuesta invariante ante cambios
+marcados de escala, campo visual, rotación o exposición.
+• Puntos porcentuales (pp): diferencia aritmética directa
+entre dos porcentajes (por ejemplo, subir de 60 % a 75 %
+corresponde a +15 pp).
+4.1.1 Análisis descriptivo de características de las
+retinografías
+Sobre las cinco colecciones de retinografías RGB descritas
+en la Sección 4.1 (2.352 fotografías: ACRIMA [1],
+RIM-ONE DL [2], Moondream Staged [3], EyePACS
+REAL [4] y EyePACS TRAIN [4], una vez excluida
+THIRD_DATASET), se aplicó una depuración en dos pasos
+para caracterizar su heterogeneidad física antes de modelar:
+primero se eliminaron copias con píxeles idénticos mediante
+huella digital (SHA-256) y luego se agruparon variantes que
+representaban la misma fotografía rotada, reescalada o con
+distinto relleno de borde mediante emparejamiento de
+puntos visuales característicos (RootSIFT/FLANN) y
+verificación de semejanza afín (RANSAC, sin inversión
+especular). Al retener un representante por grupo visual se
+consolidaron 2.149 imágenes comparables (RIM-ONE DL
+447 y EyePACS REAL 200 permanecieron íntegras;
+ACRIMA pasó de 705 a 703; Moondream Staged de 800 a
+706 al colapsar copias y cruces entre particiones; y
+EyePACS TRAIN de 200 a 93 por variantes repetidas; Tabla
+1 y Fig. 1). Para evitar contaminación por borde negro
+exterior, el brillo, la saturación y la nitidez se midieron
+únicamente dentro de la máscara retiniana útil (evaluable en
+2.147/2.149 imágenes: 199/200 en EyePACS REAL y
+705/706 en Moondream), reportando medianas y RIC por la
+asimetría de las distribuciones. Para entrenar y evaluar
+(Secciones 4.4 y 4.5) se excluyó además EyePACS TRAIN
+(93 imágenes únicas con historial de etiquetas discordantes
+entre variantes), consolidando 2.056 imágenes limpias.
+Figura 1. Muestras representativas (escala de grises) de las cinco fuentes
+locales comparadas: recortes papilares frente a campo amplio.
+Fuente: Los autores.
+Las diferencias más marcadas entre fuentes aparecen en
+el encuadre, el color y el brillo (Fig. 2). ACRIMA y
+RIM-ONE DL reúnen recortes centrados en la papila que
+llenan todo el cuadro (100 % de área útil y 0 % de borde
+negro), con mayor saturación en ACRIMA (87,8 % frente a
+77,1 % en RIM-ONE DL). Moondream Staged ocupa un
+punto intermedio (94,08 % de área útil), pero exhibe un 52,7
+% de imágenes sanas con relleno negro artificial en las
+esquinas frente a 44,6 % en estadio avanzado, introduciendo
+un atajo de encuadre correlacionado con la etiqueta. Por el
+contrario, EyePACS REAL (EyePACS R) y EyePACS
+TRAIN (EyePACS T) conservan campo amplio con marco
+circular oscuro (21,76 % y 27,12 % de píxeles casi negros,
+dejando 78,18 % y 72,83 % de área útil); además, EyePACS
+REAL reúne las tomas más oscuras y desaturadas (brillo 77
+y saturación 61,6 %, frente a brillo 110–121 y saturación
+85,7 %–87,8 % en ACRIMA y EyePACS T). Ninguna
+
+--- PAGE 2 ---
+Borrador secciones experimentales (DYNA) · pág. 2
+colección dispone de metadatos EXIF de cámara por archivo
+ni máscaras verificadas de disco.
+Tabla 1.
+Medianas de brillo, color, encuadre y nitidez (varianza del Laplaciano
+a 512 px) dentro de la máscara retiniana por fuente local.
+Colección (n)
+Brillo
+[p25–p75]
+Saturación
+(%)
+Negro
+(%)
+Área útil
+(%)
+Nitidez
+(512 px)
+ACRIMA (703)
+110 [92–126]
+87,8
+0,0
+100,0
+5,1
+RIM-ONE DL (447)
+85 [63–101]
+77,1
+0,0
+100,0
+8,1
+Moondream (706)
+121 [65–171]
+70,9
+0,0
+94,1
+14,2
+EyePACS R (200)
+77 [52–107]
+61,6
+21,8
+78,2
+60,0
+EyePACS T (93)
+114 [97–123]
+85,7
+27,1
+72,8
+32,0
+Fuente: 03_caracteristicas_por_fuente.csv.
+Figura 2. Distribución de área visible (%), brillo mediano (luma),
+saturación (%) y nitidez a 512 px (escala logarítmica simétrica) entre las
+cinco fuentes locales analizadas.
+Fuente: Los autores.
+Figura 3. Asimetrías internas asociadas a la etiqueta clínica: caída de brillo
+en Moondream por estadio (izquierda) y salto de resolución nativa en
+ACRIMA entre ojos sanos y con glaucoma (derecha).
+Fuente: Los autores.
+En 
+síntesis, 
+la 
+varianza 
+observada 
+compromete
+directamente la generalización en glaucoma por dos vías
+complementarias: (1) entre colecciones, la diferencia de
+dispositivos, protocolos de captura y encuadre desplaza el
+campo útil (100 % con RIC = 0,0 en ACRIMA y RIM-ONE
+DL frente a ~22 %–27 % de borde negro en EyePACS) y la
+nitidez (60,0 con RIC 62,7 en EyePACS REAL frente a 5,1
+en ACRIMA); y (2) dentro de una misma cohorte, aparecen
+alta dispersión fotométrica (Moondream RIC = 106,0 en
+brillo; 41,5 pp en saturación) y correlaciones sistemáticas
+ajenas a la patología —como el salto de tamaño nativo en
+ACRIMA (346 px en sanos frente a 673 px en glaucoma) o
+la caída de brillo en Moondream (126 a 108 entre sanos y
+avanzados; Fig. 3)—. Toda esta variabilidad no clínica
+introduce pistas estadísticas fáciles que dificultan que la red
+aprenda los rasgos anatómicos realmente discriminativos del
+glaucoma (excavación papilar y anillo neurorretiniano). Esto
+nos motiva a aplicar protocolos controlados para llevar al
+límite la capacidad de generalización del clasificador
+seleccionado posteriormente (Sección 4.2) mediante dos
+estrategias complementarias: evaluar cuánto aporta la
+supervisión por estadios frente a la binaria desde un origen
+único (Sección 4.4) y medir si el aumento fotométrico y de
+escala rescata el desempeño bajo validación cruzada por
+origen LODO (Sección 4.5).
+4.4 Análisis trinario frente a binario
+Con el fin de evaluar si distinguir niveles de severidad
+mejora la generalización frente a la clasificación binaria
+directa, se compararon ambos esquemas manteniendo
+idéntico origen de entrenamiento. Moondream Staged es la
+única colección del estudio que cuenta con etiquetas clínicas
+de tres estadios (Sano, Etapa inicial y Avanzado); por ello,
+tanto el clasificador trinario proyectado a binario (3→2)
+como el binario directo (2→2) se entrenaron y calibraron
+exclusivamente sobre la partición auditada de Moondream
+—504 imágenes en entrenamiento (264 sanas, 115 iniciales
+y 125 avanzadas) y 107 en validación (53/27/27)—. Por su
+parte, el conjunto de prueba de Moondream (n=95;
+49/21/25) midió la discriminación interna, mientras que
+ACRIMA (n=703), RIM-ONE DL (n=447) y EyePACS
+REAL (n=200), cuyas etiquetas son únicamente binarias, se
+reservaron como cohortes externas completamente ciegas
+para evaluar la transferencia fuera de dominio sin
+contaminación entre fuentes.
+Ambas cabezas emplearon ConvNeXt-Tiny [5], semilla
+única fija (42) y los mismos aumentos geométricos y
+fotométricos estándar durante el entrenamiento (recorte y
+reescalado aleatorio entre 0,8 y 1,0, volteo horizontal,
+rotación ±15° y fluctuación moderada de brillo, contraste y
+saturación). Se optimizó la entropía cruzada estándar sin
+pesos de clase en lotes de 32 imágenes a 224×224 px
+mediante AdamW (1 época de calentamiento sobre la capa
+final con tasa de aprendizaje 10−3 y hasta 20 épocas de
+ajuste fino completo con decaimiento coseno de 10−4 a 10−6,
+decaimiento de pesos 10−4). Para evitar sobreajuste, el mejor
+punto de control se eligió en validación maximizando el
+promedio equilibrado 0,5·F1 macro + 0,5·recobrado medio
+de las clases con glaucoma (criterio que pondera por igual el
+balance global y la reducción de falsos negativos): el
+modelo binario alcanzó su óptimo temprano en la época 3
+(pérdida de validación 0,332) antes de memorizar el
+conjunto de entrenamiento, mientras el trinario siguió
+refinando su representación hasta la época 10 (pérdida de
+
+--- PAGE 3 ---
+Borrador secciones experimentales (DYNA) · pág. 3
+validación 0,459). Las probabilidades del modelo de tres
+salidas se proyectaron a detección positiva mediante P(pos)
+= P(Inicial) + P(Avanzado), calibrando el umbral principal τ
+en [0,20; 0,99] únicamente en validación bajo la meta de
+especificidad ≥ 0,95 (resultando τ=0,81 en proyección
+trinaria y τ=0,90 en binario directo), contrastado además
+frente al criterio de Youden [6] en validación y al corte
+estándar τ=0,50.
+Tabla 2.
+Desempeño binario de la proyección trinaria y del entrenamiento
+binario con ConvNeXt-Tiny.
+Cohorte (n)
+Esquema
+F1 macro SensibilidadEspecificidadAUROC
+Moondream (95)
+Trinario (3→2)
+0,916
+0,935
+0,898
+0,980
+Moondream (95)
+Binario (2→2)
+0,852
+0,804
+0,898
+0,954
+ACRIMA (703)
+Trinario (3→2)
+0,671
+0,775
+0,565
+0,740
+ACRIMA (703)
+Binario (2→2)
+0,598
+0,699
+0,497
+0,626
+RIM-ONE (447)
+Trinario (3→2)
+0,735
+0,691
+0,786
+0,815
+RIM-ONE (447)
+Binario (2→2)
+0,682
+0,673
+0,709
+0,780
+EyePACS R (200)
+Trinario (3→2)
+0,353
+0,020
+0,990
+0,552
+EyePACS R (200)
+Binario (2→2)
+0,333
+0,000
+1,000
+0,628
+Fuente: 01_metricas_binarias.csv y 01_sensibilidad_umbral.csv. Nota:
+Trinario (3→2) agrupa P(Inicial) + P(Avanzado); Binario (2→2) entrena
+dos clases directas.
+Figura 4. Comparación de F1 macro y AUROC entre proyección trinaria y
+modelo binario directo por cohorte.
+Fuente: Los autores.
+En estadificación interna sobre la prueba auditada de
+Moondream (n=95), el clasificador trinario alcanzó F1
+macro = 0,731, exactitud 0,789 y solo 3 errores extremos
+entre sano y avanzado (recobrado de 0,476 en etapa inicial
+frente a 0,840 en avanzado, reflejando la proporción 2:1:1
+en entrenamiento). Al evaluarse en detección binaria con
+remuestreo bootstrap estratificado (2.000 réplicas, Tabla 2 y
+Fig. 4), la proyección 3→2 superó consistentemente al
+binario directo en Moondream (ΔF1 = +6,4 pp;
+ΔSensibilidad = +13,0 pp; ΔAUROC = +2,6 pp), ACRIMA
+(ΔF1 = +7,3 pp, IC 95 % [+4,3; +10,2]; ΔAUROC = +11,4
+pp, IC [+9,0; +14,1]) y RIM-ONE DL (ΔF1 = +5,3 pp, IC
+[+1,6; +9,3]; ΔAUROC = +3,4 pp, IC [+0,7; +6,4]). Como
+muestra la Fig. 5, esta ventaja sobre recortes papilares se
+mantuvo bajo las tres reglas de corte (especificidad ≥ 0,95,
+Youden y τ=0,50). Sin embargo, en EyePACS REAL ambos
+esquemas colapsaron en sensibilidad (≤ 15 % incluso con
+τ=0,50) y la ventaja de separación desapareció, quedando la
+proyección trinaria por debajo del modelo binario en
+ordenamiento (AUROC 0,552 frente a 0,628; Δ = −7,6 pp,
+IC 95 % [−12,1; −3,4]).
+Figura 5. Estabilidad del F1 macro bajo tres reglas de umbral (Espec. val ≥
+0,95, Youden y τ=0,50) en proyección 3→2 y binario 2→2.
+Fuente: Los autores.
+En conclusión, supervisar por estadios clínicos actúa
+como regularizador en el entrenamiento y produce
+representaciones 
+mejor 
+organizadas 
+que 
+elevan 
+el
+desempeño en dominios papilares cercanos (ACRIMA y
+RIM-ONE DL), evitando colapsar casos tempranos sutiles
+con cuadros avanzados bajo una misma etiqueta. No
+obstante, entrenar únicamente sobre Moondream (un solo
+origen y una semilla inicial) deja las demás colecciones
+fuera del aprendizaje y resulta insuficiente ante saltos
+geométricos severos hacia campo amplio como EyePACS
+REAL. En consecuencia, el principal limitante para escalar
+el análisis por severidad radica en la escasez de conjuntos
+públicos multicéntricos con etiquetas clínicas confiables y
+verificadas por estadio (en contraste con las cohortes
+binarias auditadas), por lo que queda como trabajo futuro
+incorporar nuevas bases estadificadas de distintas cámaras y
+centros. Con los datos disponibles, superar la barrera
+geométrica exige abandonar la restricción trinaria de fuente
+única y evaluar en un protocolo binario multi-origen y
+multi-semilla el efecto del aumento fotométrico y de escala
+(Sección 4.5).
+4.5 Efecto del aumento de datos en validación cruzada
+por origen (LODO) multi-semilla
+Para superar la restricción de una única fuente de
+entrenamiento y evaluar la generalización cruzada entre
+cámaras en ambas direcciones, se implementó un protocolo
+Leave-One-Dataset-Out (LODO, dejar una cohorte fuera
+cada vez) puramente binario sobre las 2.056 imágenes
+auditadas. En cada una de las cuatro particiones, una
+colección completa permanece 100 % ciega como prueba
+externa mientras las tres restantes se agrupan y dividen en
+85 % entrenamiento y 15 % validación estratificada
+
+--- PAGE 4 ---
+Borrador secciones experimentales (DYNA) · pág. 4
+simultáneamente por cohorte y clase (Moondream fuera:
+1.147/203/706; ACRIMA fuera: 1.150/203/703; RIM-ONE
+DL 
+fuera: 
+1.367/242/447; 
+EyePACS 
+REAL 
+fuera:
+1.577/279/200). Se compararon dos regímenes sobre
+ConvNeXt-Tiny [5] compartiendo la misma optimización de
+la Sección 4.4 (1 época de calentamiento + 20 de ajuste fino
+con AdamW, lote 32 a 224×224 px y selección de época y
+umbral en validación): Base (reescalado simple a 224×224
+px) frente a Con aumento (AumentoEscalaFotometrico
+junto con volteos horizontal y vertical), repitiendo todo el
+diseño con tres semillas (42, 123 y 777; 24 modelos en
+total).
+El esquema Con aumento ataca directamente las brechas
+físicas identificadas en la Sección 4.1.1 mediante tres
+mecanismos probabilísticos: (1) alejamiento sintético
+(p=0,45; escala entre 0,25× y 0,65× pegada sobre un lienzo
+circular con borde negro), que simula fotografías de campo
+amplio para evitar que la red dependa de ver la papila
+ocupando todo el encuadre; (2) acercamiento aleatorio
+(p=0,35; 
+recorte 
+equivalente 
+a 
+1,25×–1,85× 
+con
+desplazamiento de ±15 %), que emula recortes papilares
+cerrados; y (3) perturbación fotométrica (p=0,65; corrección
+gamma 0,75–1,35 y ganancia en el canal verde 0,90–1,15,
+donde se concentra el contraste vascular retiniano) junto con
+volteos en ambos ejes. El umbral principal τ en [0,20; 0,99]
+se calibró exclusivamente en validación bajo especificidad ≥
+0,95 y se contrastó con Youden en validación y τ=0,50.
+Figura 6. Arriba: vistas Base, alejamiento (zoom-out) y acercamiento
+(zoom-in) de Con aumento. Abajo: cambio LODO pareado (Con aumento −
+Base, media ± DE en 3 semillas) por cohorte reservada.
+Fuente: Los autores.
+Tabla 3.
+Desempeño LODO binario (media y DE en 3 semillas bajo la regla
+principal Espec. val ≥ 0,95).
+Cohorte ciega (n)
+Brazo
+F1 macro (DE)Sensibilidad TFN
+AUROC (DE)
+EyePACS R (200)
+Base
+0,343 (0,001)
+0,010
+0,990
+0,655 (0,019)
+EyePACS R (200)
+Con aum. 0,618 (0,039)
+0,353
+0,647
+0,809 (0,014)
+Moondream (706)
+Base
+0,519 (0,031)
+0,514
+0,486
+0,556 (0,054)
+Moondream (706)
+Con aum. 0,580 (0,011)
+0,604
+0,396
+0,605 (0,016)
+ACRIMA (703)
+Base
+0,625 (0,024)
+0,527
+0,473
+0,686 (0,026)
+ACRIMA (703)
+Con aum. 0,628 (0,084)
+0,475
+0,525
+0,730 (0,055)
+RIM-ONE (447)
+Base
+0,484 (0,054)
+0,889
+0,111
+0,671 (0,039)
+RIM-ONE (447)
+Con aum. 0,485 (0,044)
+0,928
+0,072
+0,677 (0,043)
+Fuente: 02_metricas_lodo.csv y 02_metricas_lodo_por_semilla.csv.
+Los resultados confirman que el impacto del aumento es
+proporcional a la brecha geométrica y fotométrica (Tabla 3 y
+Fig. 6). Cuando la cohorte ciega es EyePACS REAL (campo
+amplio con ~22 % de borde oscuro), Con aumento rescata
+drásticamente al clasificador frente a Base: el F1 macro sube
+de 0,343 a 0,618 (+27,5 ± 4,0 pp), la sensibilidad pasa de 1,0
+% a 35,3 % y el AUROC asciende de 0,655 a 0,809 (+15,4 ±
+2,1 pp; IC 95 % del ensamble multi-semilla [+10,9; +20,3]
+pp). En Moondream Staged —la base con mayor dispersión
+de brillo— también mejora de forma consistente (F1 +6,1 ±
+3,2 pp; AUROC de 0,556 a 0,605, con IC 95 % del
+ensamble [+3,5; +7,1] pp pese a la variabilidad entre tres
+corridas individuales).
+Sobre los recortes papilares cerrados la ganancia en
+ordenamiento se mantiene o resulta neutra. En ACRIMA,
+bajo la regla conservadora (Espec. val ≥ 0,95), Con aumento
+empata en F1 macro promedio (0,628 ± 0,084 frente a 0,625
+± 0,024) intercambiando menor sensibilidad (47,5 % frente
+a 52,7 %) por mayor especificidad (84,1 % frente a 75,1 %),
+pero eleva claramente la capacidad de discriminación global
+(AUROC de 0,686 a 0,730; IC 95 % del ensamble [+3,0;
++6,6] pp). En RIM-ONE DL el efecto es prácticamente
+neutro (F1 0,485 frente a 0,484; AUROC 0,677 frente a
+0,671): aunque ambos brazos alcanzan alta sensibilidad
+(88,9 %–92,8 %), sus probabilidades quedan desplazadas
+hacia la clase positiva y dejan especificidades bajas (27,4 %
+y 25,8 %) con el umbral heredado de los otros orígenes.
+Figura 7. Sensibilidad del F1 macro al punto de corte (Espec. val ≥ 0,95,
+Youden y τ=0,50) en EyePACS REAL y ACRIMA.
+Fuente: Los autores.
+
+--- PAGE 5 ---
+Borrador secciones experimentales (DYNA) · pág. 5
+El análisis de sensibilidad al umbral (Fig. 7) revela que
+exigir especificidad ≥ 0,95 en validación congela puntos de
+corte muy altos (τ=0,93–0,99 en EyePACS REAL y
+ACRIMA), ocultando parte de la mejora real alcanzada en
+AUROC. Al sustituir esa regla rígida por Youden en
+validación (τ=0,623) o por τ=0,50 en EyePACS REAL con
+aumento, la TFN cae de 64,7 % a 36,0 % y 29,3 % y el F1
+macro asciende a 0,715 y 0,721 (especificidad de 79,7 % y
+73,7 %). Un patrón análogo surge en ACRIMA con
+aumento, donde el F1 sube de 0,628 a 0,664 bajo Youden
+(τ=0,713) y 0,661 bajo τ=0,50, superando con claridad al
+brazo Base (0,606 y 0,592). En síntesis, la simulación
+fotométrica y de escala resuelve el salto hacia campo amplio
+sin penalizar el desempeño en recortes cerrados, aunque su
+beneficio operativo completo exige recalibrar el umbral en
+el dominio clínico de destino.
+4.6 Conclusión sobre generalización de los modelos
+La evidencia integrada de los experimentos descritos en las
+Secciones 4.1.1, 4.4 y 4.5 demuestra que la generalización
+limitada de ConvNeXt-Tiny en el cribado automático de
+glaucoma no obedece a falta de capacidad discriminativa de
+la arquitectura —capaz de alcanzar AUROC = 0,980 en
+prueba interna auditada—, sino al acoplamiento entre tres
+mecanismos físicos, metodológicos y de calibración:
+1) Geometría, fotometría y atajos de adquisición: aunque
+las redes convolucionales poseen equivariancia espacial
+frente a traslaciones locales mediante filtros compartidos, no
+son intrínsecamente invariantes ante cambios drásticos de
+escala, campo visual, rotación o exposición. Como
+evidenció la Sección 4.1.1, las bases públicas presentan una
+varianza pronunciada tanto entre colecciones (recortes
+papilares al 100 % del cuadro frente a tomas panorámicas
+con ~22 % de borde oscuro y diferencias de nitidez de hasta
+un orden de magnitud) como dentro de una misma cohorte
+(RIC de brillo de 106,0 en Moondream, caída de luminancia
+y relleno artificial por estadio, y salto nativo de 346 px a 673
+px por clase en ACRIMA). Esta variabilidad ajena a la
+patología ofrece atajos estadísticos [7] que dificultan el
+aprendizaje de los biomarcadores reales del disco óptico; en
+consecuencia, los modelos entrenados sin variación
+geométrica colapsan al pasar a campo amplio (EyePACS
+REAL), mientras que el aumento fotométrico y de escala
+(Sección 4.5) rescata el AUROC de 0,655 a 0,809 (+27,5 pp
+en F1 macro) sin deteriorar los recortes cerrados al
+promediar tres semillas.
+2) Estructura de la supervisión clínica: entrenar con
+estadios diferenciados (Sano, Etapa inicial, Avanzado) actúa
+como regularizador y organiza mejor las representaciones
+que el entrenamiento binario directo, elevando de forma
+consistente el F1 macro y el AUROC tanto en dominio
+propio como al transferir hacia otros recortes papilares
+(ACRIMA y RIM-ONE DL, Sección 4.4). Sin embargo, al
+depender de una única cohorte estadificada sin diversidad de
+campo amplio, esta ventaja no logra sostenerse frente a
+saltos geométricos extremos como EyePACS REAL.
+3) Traslado rígido del umbral operativo τ: congelar un
+punto de corte calibrado exclusivamente en validación bajo
+especificidad ≥ 0,95 empuja τ a valores extremos
+(0,93–0,99) y convierte predicciones bien ordenadas en
+falsos negativos al cambiar de cámara o población. En
+EyePACS REAL con aumento, ajustar el corte mediante
+Youden o τ=0,50 reduce la tasa de falsos negativos del 64,7
+% a un rango entre 29,3 % y 36,0 % (F1 = 0,715–0,721),
+confirmando que la capacidad real de separación (AUROC)
+y la decisión clínica binaria deben evaluarse por separado.
+Finalmente, estos hallazgos subrayan una limitación
+estructural crítica en el estado actual del campo: la escasez
+de bases médicas públicas amplias, confiables y trazables.
+Los conjuntos disponibles reúnen pocos cientos de imágenes
+por centro, carecen de metadatos de cámara, identificador de
+paciente y máscaras clínicas verificadas del disco óptico, y
+apenas uno ofrece estadificación por severidad. Obtener
+nuevas 
+colecciones 
+multicéntricas 
+más 
+extensas 
+y
+homogéneamente anotadas —tanto binarias como por
+estadios— 
+resulta 
+indispensable 
+para 
+validar 
+el
+comportamiento real de estos modelos fuera del laboratorio;
+asimismo, dado que la evaluación controlada se centró en
+ConvNeXt-Tiny, conviene extender este mismo protocolo
+LODO y de sensibilidad a τ a otras familias arquitectónicas
+(CNN clásicas/ligeras, transformadores de visión y modelos
+fundacionales de retina) para comprobar si estos límites son
+universales. En la práctica, cualquier despliegue clínico
+confiable requerirá combinar protocolos de armonización
+geométrica sobre la región papilar, entrenamiento invariante
+a escala e iluminación y recalibración local del umbral τ en
+cada entorno hospitalario de destino.
+Referencias
+[1] Diaz-Pinto, A., Morales, S., Naranjo, V., Köhler, T., Mossi, J.M. y
+Navea, A., CNNs for automatic glaucoma assessment using fundus
+images: an extensive validation. BioMedical Engineering OnLine,
+18(1), art. 29, 2019. DOI: http://dx.doi.org/10.1186/s12938-019-0649-y
+[2] Fumero, F., Diaz-Aleman, T., Sigut, J., Alayon, S., Arnay, R. y
+Angel-Pereira, D., RIM-ONE DL: A Unified Retinal Image Database
+for Assessing Glaucoma Using Deep Learning. Image Analysis &
+Stereology, 39(3), pp. 161-167, 2020. DOI:
+http://dx.doi.org/10.5566/ias.2346
+[3] Moondream Team, glaucoma-detection: A multi-stage retinal dataset
+for Vision-Language Models. Hugging Face Datasets Hub, 2024.
+Disponible en:
+https://huggingface.co/datasets/moondream/glaucoma-detection
+[4] Cuadros, J. y Bresnick, G., EyePACS: An Adaptable Telemedicine
+System for Diabetic Retinopathy Screening. Diabetes Technology &
+Therapeutics, 11(3), pp. 165-174, 2009. DOI:
+http://dx.doi.org/10.1089/dia.2008.0054
+[5] Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T. y Xie, S., A
+ConvNet for the 2020s. En: Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition (CVPR), pp.
+11966-11976, 2022. DOI:
+http://dx.doi.org/10.1109/CVPR52688.2022.01167
+[6] Youden, W.J., Index for rating diagnostic tests. Cancer, 3(1), pp. 32-35,
+1950. DOI: http://dx.doi.org/10.1002/1097-0142(1950)3:1<32::AID-C
+NCR2820030106>3.0.CO;2-3
+[7] Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W.,
+Bethge, M., et al., Shortcut learning in deep neural networks. Nature
+Machine Intelligence, 2(11), pp. 665-673, 2020. DOI:
+
+--- PAGE 6 ---
+Borrador secciones experimentales (DYNA) · pág. 6
+http://dx.doi.org/10.1038/s42256-020-00257-z
