@@ -17,3 +17,6 @@ Contexto y conclusiones verificadas de los experimentos `03`, `04` y `05`. Para 
 - Dataset limpio sin fuga: `utilidades/dataset_auditado.csv` (`2.056` imágenes elegibles).
 - No modificar `02_experimento_seleccion_datasets_y_modelos/Comprobacion_mejor_modelo.ipynb` ni guías `.docx` de compañeros sin avisar.
 - No usar `"maligno"` / `"Malignant"` en código o texto vigente; usar `AumentoEscalaFotometrico` / `Con aumento`.
+
+## Hallazgos preliminares Colab (Exp. 05 escalado — Bloque 1 `convnext_tiny IN-22K @ 224`, 30 épocas)
+- **`Con aumento` (`AumentoEscalaFotometrico`) frena fuerte el sobreajuste a 30 épocas:** en época 30, `val_loss` promedio (3 semillas) baja más de la mitad en `Moondream` (`0,683 → 0,277`) y en `ACRIMA` (`1,164 → 0,509`), y mejora en `RIM-ONE DL` (`0,407 → 0,290`), extendiendo la mejor época promedio en `Moondream` (`11,7 → 20,3`) y `ACRIMA` (`11,0 → 20,7`). *(Recordar incluir este hallazgo al revisar el informe final.)*
