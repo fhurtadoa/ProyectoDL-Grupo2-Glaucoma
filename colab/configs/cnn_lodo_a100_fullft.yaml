@@ -1,0 +1,44 @@
+# Suite CNN @ 384 px con full_ft (corrige el subajuste de lp_ft con backbone_lr_mult=0.1)
+# Mantiene exactamente 1 época LP warmup + 30 épocas FT (mismo protocolo del Bloque 1 @ 224 px)
+defaults:
+  task: exp05_lodo
+  epochs: 30
+  lp_epochs: 1
+  ft_strategy: full_ft
+  amp_dtype: bf16
+  arm: both
+  seeds: [42, 123, 777]
+  folds: ["Moondream Staged", "ACRIMA", "RIM-ONE DL", "EyePACS REAL"]
+  head_lr: 0.001
+  weight_decay: 0.0001
+  drop_path_rate: 0.15
+  save_every: 5
+  keep_checkpoints: true
+
+jobs:
+  # 1. Control directo de resolución (224 -> 384) bajo el mismo full_ft del Bloque 1
+  - name: convnext_tiny_in22k_384_full_ft
+    model_name: convnext_tiny.fb_in22k_ft_in1k_384
+    img_size: 384
+    batch_size: 32
+    lr: 0.0001
+
+  # 2. Escala de capacidad ConvNeXt @ 384 px
+  - name: convnext_small_in22k_384_full_ft
+    model_name: convnext_small.fb_in22k_ft_in1k_384
+    img_size: 384
+    batch_size: 24
+    lr: 0.00008
+
+  - name: convnext_base_in22k_384_full_ft
+    model_name: convnext_base.fb_in22k_ft_in1k_384
+    img_size: 384
+    batch_size: 24
+    lr: 0.00005
+
+  # 3. Contraste de familia CNN clásica @ 384 px
+  - name: resnet50d_384_full_ft
+    model_name: resnet50d
+    img_size: 384
+    batch_size: 32
+    lr: 0.0001
