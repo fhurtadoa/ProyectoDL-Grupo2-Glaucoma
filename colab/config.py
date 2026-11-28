@@ -67,6 +67,7 @@ class TrainConfig:
     overwrite: bool = False
     save_predictions: bool = True
     keep_checkpoints: bool = True
+    keep_last_checkpoint: bool = False
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

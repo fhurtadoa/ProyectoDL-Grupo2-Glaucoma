@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import gc
 import json
 import os
 from pathlib import Path
@@ -44,33 +45,54 @@ def resolve_amp_dtype(amp_dtype: str, device: str) -> torch.dtype | None:
     return torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
 
 
+def _retry_io(fn, retries: int = 3, base_delay: float = 2.0):
+    last_exc = None
+    for attempt in range(1, max(1, retries) + 1):
+        try:
+            return fn()
+        except OSError as exc:
+            last_exc = exc
+            if attempt < retries:
+                time.sleep(base_delay * attempt)
+    raise last_exc
+
+
 def _atomic_write_json(path: Path, payload: dict[str, Any]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    with open(tmp, "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, indent=2, ensure_ascii=False)
-        fh.flush()
-        os.fsync(fh.fileno())
-    os.replace(tmp, path)
+    def _op():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump(payload, fh, indent=2, ensure_ascii=False)
+            fh.flush()
+            os.fsync(fh.fileno())
+        os.replace(tmp, path)
+
+    _retry_io(_op)
 
 
 def _atomic_torch_save(path: Path, payload: dict[str, Any]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    torch.save(payload, tmp)
-    os.replace(tmp, path)
+    def _op():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        torch.save(payload, tmp)
+        os.replace(tmp, path)
+
+    _retry_io(_op)
 
 
 def _append_csv_row(path: Path, row: dict[str, Any], fieldnames: list[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    exists = path.is_file() and path.stat().st_size > 0
-    with open(path, "a", newline="", encoding="utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
-        if not exists:
-            writer.writeheader()
-        writer.writerow({k: row.get(k, "") for k in fieldnames})
-        fh.flush()
-        os.fsync(fh.fileno())
+    def _op():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        exists = path.is_file() and path.stat().st_size > 0
+        with open(path, "a", newline="", encoding="utf-8") as fh:
+            writer = csv.DictWriter(fh, fieldnames=fieldnames)
+            if not exists:
+                writer.writeheader()
+            writer.writerow({k: row.get(k, "") for k in fieldnames})
+            fh.flush()
+            os.fsync(fh.fileno())
+
+    _retry_io(_op)
 
 
 @torch.inference_mode()
@@ -221,8 +243,13 @@ def run_training_job(
         with open(summary_path, "r", encoding="utf-8") as fh:
             return json.load(fh)
 
+    for stale_tmp in run_dir.glob("*.tmp"):
+        stale_tmp.unlink(missing_ok=True)
+
     t0 = time.time()
     fijar_semilla(seed)
+    if device == "cuda":
+        torch.set_float32_matmul_precision("high")
     data_dir = Path(cfg.data_dir)
     amp_torch_dtype = resolve_amp_dtype(cfg.amp_dtype, device)
     use_fp16_scaler = (device == "cuda") and (amp_torch_dtype == torch.float16)
@@ -567,8 +594,11 @@ def run_training_job(
         for p in (ckpt_last_path, ckpt_best_path):
             if p.is_file():
                 p.unlink()
+    elif not cfg.keep_last_checkpoint and ckpt_last_path.is_file():
+        ckpt_last_path.unlink()
 
     del model, bundle
+    gc.collect()
     if device == "cuda":
         torch.cuda.empty_cache()
 

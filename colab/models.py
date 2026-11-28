@@ -85,7 +85,10 @@ def create_backbone(
     pretrained: bool = True,
     drop_path_rate: float = 0.1,
     device: str = "cpu",
+    download_retries: int = 3,
 ) -> ModelBundle:
+    import time
+
     if HAS_TIMM:
         kwargs = {
             "pretrained": pretrained,
@@ -93,11 +96,25 @@ def create_backbone(
         }
         if drop_path_rate and drop_path_rate > 0:
             kwargs["drop_path_rate"] = drop_path_rate
-        try:
-            model = timm.create_model(model_name, **kwargs)
-        except TypeError:
-            kwargs.pop("drop_path_rate", None)
-            model = timm.create_model(model_name, **kwargs)
+
+        last_err: Exception | None = None
+        model = None
+        for attempt in range(1, max(1, download_retries) + 1):
+            try:
+                try:
+                    model = timm.create_model(model_name, **kwargs)
+                except TypeError:
+                    kwargs.pop("drop_path_rate", None)
+                    model = timm.create_model(model_name, **kwargs)
+                break
+            except Exception as exc:
+                last_err = exc
+                if attempt < download_retries:
+                    wait_s = 5 * attempt
+                    print(f"[WARN] Fallo descargando '{model_name}' (intento {attempt}/{download_retries}): {exc}. Reintentando en {wait_s}s...", flush=True)
+                    time.sleep(wait_s)
+        if model is None:
+            raise RuntimeError(f"No se pudo crear modelo '{model_name}': {last_err}") from last_err
 
         data_cfg = resolve_model_data_config(model)
         mean = tuple(float(x) for x in data_cfg.get("mean", IMAGENET_MEAN))

@@ -149,15 +149,20 @@ def run_exp05_lodo(cfg: TrainConfig) -> dict[str, Any]:
 
     arms = ["base", "aumento"] if cfg.arm == "both" else [cfg.arm]
     summaries = []
+    total_runs = len(folds) * len(arms) * len(cfg.seeds)
+    run_idx = 0
+    executed_times: list[float] = []
 
     for held_out, part in folds.items():
         for arm in arms:
             for seed in cfg.seeds:
+                run_idx += 1
                 rid = build_run_id(
                     "exp05_lodo", cfg.model_name, cfg.img_size, cfg.ft_strategy,
                     cfg.epochs, cfg.subset_size, arm, held_out, 2, seed,
                 )
                 rdir = runs_root / rid
+                was_done = (rdir / "run_done.json").is_file() and not cfg.overwrite
                 s = run_training_job(
                     run_id=rid,
                     run_dir=rdir,
@@ -173,6 +178,18 @@ def run_exp05_lodo(cfg: TrainConfig) -> dict[str, Any]:
                     extra_meta={"held_out": held_out},
                 )
                 summaries.append(s)
+                if not was_done and "elapsed_sec" in s:
+                    executed_times.append(float(s["elapsed_sec"]))
+                if executed_times:
+                    avg_s = sum(executed_times) / len(executed_times)
+                    rem_s = avg_s * (total_runs - run_idx)
+                    print(
+                        f"[PROGRESS] {run_idx}/{total_runs} | promedio={avg_s/60:.1f}m/corrida | "
+                        f"restante_bloque=~{rem_s/60:.1f}m",
+                        flush=True,
+                    )
+                else:
+                    print(f"[PROGRESS] {run_idx}/{total_runs} (omitidas/completadas)", flush=True)
 
     df_m, df_s, df_p = _collect_all_completed_tables(runs_root)
     if not df_m.empty:

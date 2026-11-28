@@ -3,14 +3,24 @@
 from __future__ import annotations
 
 import argparse
+import gc
+import os
 from pathlib import Path
 import time
 from typing import Any
 
 import pandas as pd
+import torch
 
 from colab.config import TrainConfig, load_yaml, parse_subset_value
 from colab.experiments import dispatch_task
+
+
+def _atomic_save_csv(df: pd.DataFrame, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".csv.tmp")
+    df.to_csv(tmp, index=False)
+    os.replace(tmp, path)
 
 
 def main() -> None:
@@ -82,10 +92,13 @@ def main() -> None:
                 "error": str(exc),
             })
             if args.stop_on_error:
-                pd.DataFrame(rows).to_csv(suite_out / "suite_summary.csv", index=False)
+                _atomic_save_csv(pd.DataFrame(rows), suite_out / "suite_summary.csv")
                 raise
 
-        pd.DataFrame(rows).to_csv(suite_out / "suite_summary.csv", index=False)
+        _atomic_save_csv(pd.DataFrame(rows), suite_out / "suite_summary.csv")
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
 
     print(f"\n[SUITE FINALIZADA] Resumen en {suite_out / 'suite_summary.csv'}", flush=True)
 
